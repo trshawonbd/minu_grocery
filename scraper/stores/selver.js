@@ -231,10 +231,47 @@ const CATEGORIES = {
       // by hand) is buns ("kukkel"/"kuklid", a small-bun diminutive
       // "saiake") or lavash flatbread, none of which Barbora/Rimi's
       // bread scrape includes — filtered the same way dairy's
-      // categories were narrowed. One item ("Võiks (6 tk)") was left
-      // unfiltered — unclear what it actually is, not worth guessing;
-      // flagged for the hand review instead.
+      // categories were narrowed. "Võiks (6 tk)" was left unfiltered —
+      // checked afterwards via Selver's own product description
+      // ("Nisu-, kaera- ja rukkijahust palaleib" — wheat/oat/rye
+      // piece bread), genuinely bread, not a bun.
       { id: 249, nameFilter: excludeWords(["kukkel", "kukli", "kuklid", "saiake", "saiakesed", "lavash", "lavašš"]) },
+    ],
+  },
+  // "Joogid" (28) has 7 children: 29/37 real alcohol, 46 coffee/tea/
+  // cocoa, 56 sports drinks+supplements, 59 lighters(!) — all
+  // excluded outright. The other two, 48 "Veed, mahlad, siirupid,
+  // smuutid" and 52 "Karastus- ja energiajoogid, toonikud", are just
+  // parents — their own leaves (49-51, 53-55) are what actually hold
+  // products, checked individually below. 54 "Energiajoogid" (energy
+  // drinks) and 55 "Alkoholivabad joogid" (alcohol-free beer/cider/
+  // wine — still the excluded product types, 0.0% or not) are left
+  // out entirely, same as 29/37/46/56 above.
+  "Drinks": {
+    sources: [
+      // 49 "Smuutid, värsked mahlad" — dominated by smoothies/purées
+      // (Frosh, Corny, Salvest) with only a couple of real juices
+      // mixed in, no clean split — excluded outright, same call as
+      // Barbora's "varskelt-pressitud-mahlad-ja-smuutid".
+      // 50 "Veed" mixes plain and flavoured water (both legitimately
+      // included — see the Drinks category comment in fetch-price.js)
+      // with vitamin/sports/magnesium/coconut "water", which isn't
+      // really water — filtered the same as every Barbora/Rimi water
+      // URL (see waterFilter in fetch-price.js; duplicated here since
+      // Selver's fetch path doesn't share that module).
+      {
+        id: 50,
+        nameFilter: excludeWords(["vitamiin", "sport", "spordi", "magneesium", "kookos", "infusion", "ekstrakt"]),
+      },
+      // 51 "Mahlad ja -kontsentraadid, siirupid" mixes real juice/
+      // nectar with juice drinks ("mahlajook") and concentrates at
+      // every level, same problem as Rimi's juice tree — same filter.
+      { id: 51, nameFilter: excludeWords(["jook", "kontsentraat"], ["mahl", "nektar"]) },
+      // 53 "Karastusjoogid, toonikud" — checked all 156 items, clean:
+      // soft drinks, tonics, and kali all live here together (Selver
+      // has no separate kali category) with no energy drinks, iced
+      // tea, or sports drinks mixed in.
+      { id: 53 },
     ],
   },
 };

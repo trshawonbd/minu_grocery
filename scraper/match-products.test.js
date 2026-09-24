@@ -448,6 +448,47 @@ const tests = [
     },
   },
 
+  // --- Drinks ---
+  {
+    name: "Drinks: a multipack never matches a single bottle of the same brand, even at the equivalent per-unit size",
+    run: () => {
+      const single = dairyItem("Barbora", "Karastusjook COCA-COLA 330ml", "COCA-COLA");
+      const multipack = dairyItem("Selver", "Karastusjook Coca-Cola 24-kast, COCA-COLA, 24 x 330 ml", "COCA-COLA");
+      assert.equal(extractSize(single.name), "330ml");
+      assert.equal(extractSize(multipack.name), "24x330ml", "sanity check: the multipack pattern is checked before the plain-size pattern, so this never simplifies down to \"330ml\"");
+      assert.equal(sameProduct(single, multipack), false);
+    },
+  },
+  {
+    name: "Drinks: sugar-free/zero never matches the regular version, same brand and size",
+    run: () => {
+      const regular = dairyItem("Rimi", "Karastusjook Coca-Cola 2l", "COCA-COLA");
+      const zero = dairyItem("Barbora", "Karastusjook COCA-COLA Zero 2L", "COCA-COLA");
+      assert.equal(sameProduct(regular, zero), false);
+    },
+  },
+  {
+    name: "Drinks: 100% juice never matches nectar, even same brand/fruit/size — they're different compound words (mahl vs nektar), not just a wording variant",
+    run: () => {
+      const juice = dairyItem("Barbora", "Õunamahl AURA 100% 1L", "AURA");
+      const nectar = dairyItem("Selver", "Õunanektar, AURA, 1 L", "AURA");
+      assert.equal(sameProduct(juice, nectar), false);
+
+      // Flavours must also agree between two real nectars.
+      const plumNectar = dairyItem("Barbora", "Ploominektar AURA 1L", "AURA");
+      const grapeNectar = dairyItem("Rimi", "Viinamarjanektar Aura 1l", "AURA");
+      assert.equal(sameProduct(plumNectar, grapeNectar), false);
+    },
+  },
+  {
+    name: "Drinks: can vs bottle — a real size difference (0.33L vs 0.5L) blocks the match even for the exact same drink and brand",
+    run: () => {
+      const can = dairyItem("Barbora", "Karastusjook COCA-COLA 330ml", "COCA-COLA");
+      const bottle = dairyItem("Selver", "Karastusjook Coca-Cola, COCA-COLA, 500 ml", "COCA-COLA");
+      assert.equal(sameProduct(can, bottle), false);
+    },
+  },
+
   // --- matchPool: shared pool across any number of stores ---
   {
     name: "Pool: a genuine 3-store group (Barbora + Rimi + Selver) becomes one product, not three pairs",

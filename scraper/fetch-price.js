@@ -39,6 +39,33 @@ const { fetchSelverPrice } = require("./stores/selver");
 const { matchPool, computeSignature } = require("./match-products");
 const { writeRaw } = require("./raw");
 
+// Word-list helper for a urls.barbora/urls.rimi entry's nameFilter —
+// same shape and purpose as the one in stores/selver.js (kept as its
+// own copy rather than imported from there: a store module staying
+// self-contained, and this orchestrator not reaching into one store's
+// internals to filter another store's items).
+function excludeWords(exclude, require) {
+  return (name) => {
+    const lower = name.toLowerCase();
+    if (require && !require.some((p) => (p instanceof RegExp ? p.test(lower) : lower.includes(p)))) {
+      return false;
+    }
+    return !exclude.some((p) => (p instanceof RegExp ? p.test(lower) : lower.includes(p)));
+  };
+}
+
+// Shared between every water URL at Barbora and Rimi (see the Drinks
+// category below) — Vitamin Well-style "vitamin water", magnesium
+// water, sports water, and coconut water all turned up mixed into
+// both stores' plain AND flavoured water categories alike. None of
+// these are grocery drinking water despite the name; they're a
+// functional/supplement drink, the same reasoning "vitamiinijoogid"
+// and "spordijoogid" are excluded as their own categories elsewhere.
+// "spordi" (genitive: e.g. "Spordivesi") is listed separately from
+// "sport" since Estonian's consonant-gradation compounding means the
+// bare stem doesn't always appear as a literal substring.
+const waterFilter = excludeWords(["vitamiin", "sport", "spordi", "magneesium", "kookos", "infusion", "ekstrakt"]);
+
 // A category's urls.barbora/urls.rimi can be a single URL or an array
 // of them (see Dairy) — used when the store's own category tree has
 // no single page covering the target products without also pulling
@@ -138,6 +165,67 @@ const CATEGORIES = [
       ],
     },
   },
+  {
+    // Non-alcoholic only: water (still/sparkling, flavoured or not),
+    // juice and nectar, carbonated soft drinks (including tonic —
+    // sold in the same aisle, same carbonated-mixer style), and kali
+    // (kvass). Excluded everywhere: real alcohol, alcohol-free beer/
+    // cider/wine/cocktails (still the same excluded product types,
+    // 0.0% or not), energy drinks, syrups, smoothies/purées, milk
+    // drinks, coffee, tea, sports drinks, and vitamin/functional
+    // "water" (Vitamin Well-style, magnesium water, coconut water —
+    // a different product than grocery drinking water despite the
+    // name).
+    //
+    // Water is flavoured or not at every store — a clean flavoured-
+    // vs-plain split turned out unreliable to get right by name
+    // everywhere (Selver in particular names a flavour as a bare noun
+    // — "Vesi Ananass" — with no consistent "flavoured" marker to
+    // filter on), and it isn't needed: strict packaging's descriptors
+    // check already blocks a flavoured item from matching a plain one
+    // of the same brand/size, the same way it already caught sliced-
+    // vs-whole bread without a dedicated rule (see match-products.js
+    // tests). So flavoured water is included rather than fought.
+    name: "Drinks",
+    urls: {
+      // "kaljad-ja-muud-kaaritatud-joogid" ("kali AND OTHER fermented
+      // drinks") is >90% real kali with one or two kombucha items
+      // mixed in, no finer URL to split on — accepted as noise, same
+      // trade-off as Selver's "Saiad" bun contamination in Bread.
+      barbora: [
+        { url: "https://barbora.ee/joogid/veed/gaseerimata-veed", nameFilter: waterFilter },
+        { url: "https://barbora.ee/joogid/veed/gaseeritud-veed", nameFilter: waterFilter },
+        { url: "https://barbora.ee/joogid/veed/maitsestatud-veed", nameFilter: waterFilter },
+        "https://barbora.ee/joogid/mahlad-nektarid-ja-mahlajoogid/mahlad-ja-nektarid",
+        "https://barbora.ee/joogid/karastusjoogid/limonaadid",
+        "https://barbora.ee/joogid/karastusjoogid/toonikud",
+        "https://barbora.ee/joogid/karastusjoogid/kaljad-ja-muud-kaaritatud-joogid",
+      ],
+      // Rimi's whole "mahlad, mahlajoogid ja siirupid" tree mixes
+      // real juice/nectar with juice drinks ("mahlajook") and syrup
+      // at every flavour-based subcategory, with no ID-level split —
+      // name-filtered instead: keep only items naming "mahl" or
+      // "nektar", and drop anything that's actually a "...jook"
+      // variant or a concentrate. "karastusjoogid" (the parent
+      // listing) mixes in iced tea; its clean "limonaad-karastusjook"
+      // leaf is used instead.
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestamata-vesi-gaseerimata/c/SH-3-12-8", nameFilter: waterFilter },
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestamata-vesi-gaseeritud/c/SH-3-12-9", nameFilter: waterFilter },
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestatud-vesi-gaseerimata/c/SH-3-12-10", nameFilter: waterFilter },
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestatud-vesi-gaseeritud/c/SH-3-12-11", nameFilter: waterFilter },
+        {
+          url: "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/c/SH-12-20",
+          nameFilter: excludeWords(["jook", "kontsentraat"], ["mahl", "nektar"]),
+        },
+        "https://www.rimi.ee/epood/ee/tooted/joogid/varske-mahl-smuuti/varske-mahl/c/SH-12-8-36",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/c/SH-3-7",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/laste-peojoogid/c/SH-12-22",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/kali/c/SH-3-6",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/toonik/c/SH-3-11",
+      ],
+    },
+  },
 ];
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
@@ -216,13 +304,24 @@ async function fetchAllPages(fetchFn, baseUrl, pageParam) {
   return items;
 }
 
-// Normalizes a category's urls.barbora/urls.rimi (a single URL or an
-// array of them) and fetches every one, paginated, concatenated into
-// one list — the split into multiple subcategory URLs is invisible
-// past this point.
+// Normalizes a category's urls.barbora/urls.rimi (a single URL, an
+// array of them, or — when a subcategory bundles in a product type we
+// don't want with no finer URL to split on, e.g. Rimi's juice tree
+// mixing "mahl"/"nektar" with "mahlajook" at every level — an array
+// entry can instead be `{ url, nameFilter }`) and fetches every one,
+// paginated, concatenated into one list. Mirrors the nameFilter
+// already used for Selver's sources (see stores/selver.js) — same
+// principle, extended here since Barbora/Rimi needed it for the first
+// time with Drinks.
 async function fetchAllUrls(fetchFn, urlOrUrls, pageParam) {
-  const urls = Array.isArray(urlOrUrls) ? urlOrUrls : [urlOrUrls];
-  const results = await Promise.all(urls.map((url) => fetchAllPages(fetchFn, url, pageParam)));
+  const entries = Array.isArray(urlOrUrls) ? urlOrUrls : [urlOrUrls];
+  const results = await Promise.all(
+    entries.map(async (entry) => {
+      const { url, nameFilter } = typeof entry === "string" ? { url: entry, nameFilter: null } : entry;
+      const items = await fetchAllPages(fetchFn, url, pageParam);
+      return nameFilter ? items.filter((item) => nameFilter(item.name)) : items;
+    })
+  );
   return results.flat();
 }
 

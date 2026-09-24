@@ -11,18 +11,31 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, matchPool } = require("./match-products");
+const { sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, matchPool, computeSignature } = require("./match-products");
+const { buildItem } = require("./categories");
 
 function item(store, name) {
   return { store, name, price: 0, currency: "EUR", url: "x", ean: null };
 }
 
-// Dairy items carry a real, store-sourced brand and opt into strict
-// packaged-product matching (brand + size + fat % + descriptors all
-// agree) — see splitPrice's brand field in the store scrapers and
-// strictPackaging in computeSignature/sameBrandedProduct.
+// The one way to build an item for a named category — reads that
+// category's real strictPackaging setting from scraper/categories.js
+// (the same thing fetch-price.js reads), instead of a test hardcoding
+// or guessing it. Any new test involving a specific category should
+// use this, not a bare `item(...)`, precisely because a bare item
+// silently runs the WRONG (lenient) matching path for a strict
+// category — that's exactly what produced the incorrect "39 of 41
+// pairs already match" conclusion in an earlier session: an ad-hoc
+// check built items without strictPackaging at all.
+//
+// `dairyItem` below is kept only for the ~40 pre-existing call sites
+// across Dairy/Bread/Drinks tests that already relied on strict
+// packaging always being on; it now delegates here instead of
+// hardcoding `true`, so it stays correct if Dairy's own setting ever
+// changes, but it's still the wrong choice for a NEW test — name the
+// real category via buildItem instead.
 function dairyItem(store, name, brand) {
-  return { ...item(store, name), brand, strictPackaging: true };
+  return buildItem("Dairy", store, name, { brand });
 }
 
 const tests = [
@@ -449,6 +462,33 @@ const tests = [
       // produce path would ignore brand entirely and match this
       // wrongly; only the strict path catches it.
       assert.equal(sameProduct(barboraFarmi, rimiAlma), false);
+    },
+  },
+  {
+    name: "Dairy: strict categories never run the produce-type scan at all — a coincidental whole-word collision (WELL DONE eggs abbreviated as \"peet\") no longer types as beet",
+    run: () => {
+      // Real case: Barbora abbreviates "vabapidamisel peetavate
+      // kanade munad" (free-range eggs) down to "Vab.peet.kanade
+      // munad" — the period-separated fragment "peet" happens to be
+      // the whole word for beet (see PRODUCE_TYPES), which used to
+      // get picked up as this item's produce type even though Dairy
+      // is strict packaging and none of this is actually produce.
+      const eggs = dairyItem("Barbora", "Vab.peet.kanade munad M WELL DONE 10tk", "WELL DONE");
+      assert.equal(isProduceItem(eggs.name, { strictPackaging: true }), false);
+      assert.equal(extractType(eggs.name, { strictPackaging: true }), "vab");
+
+      // Un-gated (the default), the same name still finds "peet" —
+      // proves the fix is the strict-category gate, not that "peet"
+      // stopped being a recognized produce word in general.
+      assert.equal(extractType(eggs.name), "peet");
+
+      // The type-must-agree check for a recognized brand (WELL DONE
+      // is in KNOWN_BRANDS) is where this leaked into a real matching
+      // decision: two WELL DONE items — an egg carton and an
+      // unrelated product — must never accidentally agree on type
+      // just because "peet" was misread out of the egg carton's name.
+      const beet = dairyItem("Rimi", "Riivitud peet WELL DONE 400g", "WELL DONE");
+      assert.notEqual(computeSignature(eggs).type, computeSignature(beet).type);
     },
   },
 

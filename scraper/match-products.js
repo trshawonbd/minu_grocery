@@ -331,7 +331,21 @@ function matchProduceType(name) {
   return null;
 }
 
-function isProduceItem(name) {
+// PRODUCE_TYPES is a whitelist built for one thing: loose,
+// unbranded fruit and vegetables (see its own comment above). A
+// strict-packaging category (Dairy, Bread, Drinks — anything that
+// isn't Baby formula or Fruits & vegetables) never has genuine loose
+// produce in it, so the scan is skipped there outright rather than
+// run and ignored — real case: Barbora's own abbreviation style
+// truncates "vabapidamisel peetavate kanade munad" (free-range eggs)
+// down to "Vab.peet.kanade munad", and the period-separated fragment
+// "peet" is — by pure coincidence — also the whole word for beet.
+// Skipping the scan for strict categories keeps that fragment from
+// ever being mistaken for a real "peet" (beet) type, the same way
+// "kiivi"/"banaan"/"apelsin" flavour words in a yoghurt or soft drink
+// name should never be read as the type of loose produce either.
+function isProduceItem(name, { strictPackaging = false } = {}) {
+  if (strictPackaging) return false;
   return matchProduceType(name) !== null;
 }
 
@@ -489,6 +503,64 @@ const BRAND_ABBREVIATIONS = {
   "eesti pagar": ["ep"],
 };
 
+// Abbreviations, spelling/grammatical-case variants, translations,
+// and synonyms that never signal a real product difference —
+// collapsed to one canonical word (or dropped outright, when nothing
+// on a genuine match's other side ever states an equivalent word) in
+// extractDescriptors, before descriptors are tokenized and compared.
+// Each entry was verified by hand against a real pair from
+// data/review.md's "possible matches to check by hand" section (see
+// data/possible-matches-sorted.md).
+//
+// Deliberately narrow, on purpose: a genuine packaging/format word
+// ("purk"/"prk" — can vs bottle, "vorm" — tin-baked vs hearth-baked,
+// a marketing adjective like "rustikaalne") is NOT here — that can be
+// a real product difference and needs a person's call instead
+// (data/products.json), never a blanket rule. `rasvatu` and `pakk`
+// are handled separately, below, since whether they're safe to drop
+// depends on the item's own fat % / size, not on the word alone.
+const DESCRIPTOR_WORD_NORMALIZATIONS = [
+  // Abbreviations (a store's own shorthand, usually period-marked)
+  ["idan", "idandatud"], // "idan. teradega" -> "idandatud teradega"
+  ["m[.-]+ta", "maitsestamata"], // "m-ta" (unflavoured)
+  ["m[.-]+mata", "maitsestamata"], // "m.-mata" (unflavoured)
+  ["martsip", "martsipani"], // "ploomi-martsip.jogurt"
+  ["plomb", "plombiirimaitseline"], // "marja-plomb."
+  ["karbon", "karboniseeritud"], // "karbon.mineraalvesi"
+  ["täisterahel", "täisterahelvest"], // "täisterahel.FAZER"
+  ["röstsai", "röst"],
+  ["lemona", "lemonade"],
+  // Spelling / grammatical-case variants
+  ["leiburi", ""], // genitive of the brand "Leibur" — already covered by brand-stripping when spelled "Leibur"
+  ["rukkijahust", "rukkijahu"], // partitive case
+  ["ploomist", "ploomi"], // elative case
+  ["meiereivõi", "või"],
+  ["meierivõi", "või"],
+  // Translations
+  ["apelsin", "orange"],
+  // Synonyms
+  ["mullita", "gaasita"], // both "still/no bubbles"
+  ["gaseerimata", "gaasita"], // both "not carbonated"
+  ["öko", ""], // redundant with "mahe" (organic), already part of the type word here (e.g. "Mahetäispiim")
+  ["vahujook", "karastusjook"], // both generic "sparkling/soft drink"
+  // Leftover fragments that never carry real distinguishing weight: a
+  // piece-count artifact ("4tk" -> "tk", the digit is dropped
+  // elsewhere already) and the generic "this is water" category noun
+  // some stores spell out and others don't.
+  ["tk", ""],
+  ["mineraalvesi", ""],
+];
+
+const DESCRIPTOR_NORMALIZATION_PATTERNS = DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
+  // Unicode-aware word boundary — a plain \b treats a leading/trailing
+  // diacritic (ö, õ, ä, ü, š) as "not a word character", so it fails
+  // to bound a word like "öko" at all; this checks for an adjacent
+  // letter directly instead, the same way `u`+`\p{L}` is used
+  // elsewhere in this file.
+  regex: new RegExp(`(?<![\\p{L}])${pattern}(?![\\p{L}])`, "giu"),
+  replacement,
+}));
+
 // What's left of a packaged product's name once the known parts —
 // brand, size, fat % — are removed: almost always flavour ("kirsi-
 // ploomi", "stracciatella") or another describing word ("naturaalne",
@@ -506,6 +578,17 @@ function extractDescriptors(name, brand) {
       const abbreviationPattern = new RegExp(`\\b${escapeRegExp(abbreviation)}\\b`, "gi");
       text = text.replace(abbreviationPattern, " ");
     }
+
+    // A leftover word that's already part of the brand itself (e.g.
+    // "Saaremaa" when the real brand is "MO Saaremaa", "Originaal"
+    // when it's "Värska Originaal") restates something already known
+    // from `brand` — not a real distinguishing detail. Whole-word
+    // only, so this never touches an unrelated word that merely
+    // shares a substring with the brand.
+    const brandWords = new Set(brand.toLowerCase().match(/\p{L}+/gu) || []);
+    if (brandWords.size > 0) {
+      text = text.replace(/\p{L}+/gu, (word) => (brandWords.has(word.toLowerCase()) ? " " : word));
+    }
   }
 
   const fatMatch = text.match(FAT_PERCENT_PATTERN);
@@ -516,6 +599,28 @@ function extractDescriptors(name, brand) {
   const size = matchSize(text);
   if (size) {
     text = text.slice(0, size.index) + " " + text.slice(size.index + size.raw.length);
+  }
+
+  // A fat % the item already states as 0.05 or lower makes "rasvatu"
+  // (fat-free) redundant — restating a fact the number already
+  // proves, not a real distinguishing detail.
+  const fatPercent = extractFatPercent(name);
+  if (fatPercent !== null && parseFloat(fatPercent) <= 0.05) {
+    text = text.replace(/(?<![\p{L}])rasvatu(?![\p{L}])/giu, " ");
+  }
+
+  // A multipack size ("6x330ml") already proves this is a pack —
+  // "pakk" restates that the same way "rasvatu" restates an
+  // already-stated fat %. Not "purk"/"prk" (can vs bottle) — a real
+  // packaging-material difference belongs in data/products.json, not
+  // here.
+  const sizeValue = extractSize(name);
+  if (sizeValue && sizeValue.includes("x")) {
+    text = text.replace(/(?<![\p{L}])pakk(?![\p{L}])/giu, " ");
+  }
+
+  for (const { regex, replacement } of DESCRIPTOR_NORMALIZATION_PATTERNS) {
+    text = text.replace(regex, replacement);
   }
 
   const words = [...new Set([...text.matchAll(/\p{L}+/gu)].map((m) => m[0].toLowerCase()))].sort();
@@ -537,9 +642,17 @@ function extractUnit(name) {
   return /\btk\b/i.test(cleaned) ? "tk" : null;
 }
 
-function extractType(name) {
-  const matched = matchProduceType(name);
-  if (matched) return matched;
+// Same reasoning as isProduceItem: the produce-type whitelist is
+// skipped for strict-packaging categories, so `type` always falls
+// back to the plain first-word heuristic there — the one place this
+// otherwise still mattered for a strict pair is the KNOWN_BRANDS path
+// in sameProduct, which requires type to agree whenever both sides
+// have a recognized brand, regardless of strictPackaging.
+function extractType(name, { strictPackaging = false } = {}) {
+  if (!strictPackaging) {
+    const matched = matchProduceType(name);
+    if (matched) return matched;
+  }
 
   const word = firstWord(stripQualityGrade(name));
   return word ? word.toLowerCase() : null;
@@ -601,11 +714,12 @@ function extractProduceVariant(name) {
 // after scraping, instead of leaving it to happen once per pair.
 function computeSignature(item) {
   const name = item.name;
+  const strictPackaging = item.strictPackaging === true;
   return {
     ean: item.ean || null,
-    isProduce: isProduceItem(name),
+    isProduce: isProduceItem(name, { strictPackaging }),
     hasBrand: hasKnownBrand(name),
-    type: extractType(name),
+    type: extractType(name, { strictPackaging }),
     // Name first; only if it states no unit does the store's own
     // per-unit price label stand in (Barbora publishes one as
     // `comparative_unit`). A name that says "kg" or "tk" is the
@@ -637,7 +751,7 @@ function computeSignature(item) {
     // Set by the caller (fetch-price.js) per category, not guessed
     // here — see sameBrandedProduct. Off by default so this never
     // changes behavior for a category that hasn't opted in.
-    strictPackaging: item.strictPackaging === true,
+    strictPackaging,
   };
 }
 

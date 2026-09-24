@@ -25,6 +25,11 @@ const STORE_MODULE_FILES = [
   path.join(__dirname, "stores", "rimi.js"),
   path.join(__dirname, "stores", "selver.js"),
 ];
+// Holds each category's store URLs as data (fetch-price.js's single
+// source for them, see scraper/categories.js) — mentions a domain the
+// same reason a store module's own file does, but never fetches
+// anything itself.
+const CATEGORIES_FILE = path.join(__dirname, "categories.js");
 const FETCH_FUNCTION_NAMES = ["fetchBarboraPrice", "fetchRimiPrice", "fetchSelverPrice"];
 const STORE_DOMAINS = ["barbora.ee", "rimi.ee", "selver.ee"];
 
@@ -72,8 +77,10 @@ const results = [
     }
     assert.deepEqual(offenders, [], `found a store-fetch reference outside fetch-price.js:\n${offenders.join("\n")}`);
   }),
-  test("Only scraper/fetch-price.js and the store modules themselves mention a store's domain", () => {
-    const candidates = allFiles.filter((f) => f !== FETCH_PRICE_FILE && f !== THIS_FILE && !STORE_MODULE_FILES.includes(f));
+  test("Only scraper/fetch-price.js, the store modules, and categories.js mention a store's domain", () => {
+    const candidates = allFiles.filter(
+      (f) => f !== FETCH_PRICE_FILE && f !== THIS_FILE && f !== CATEGORIES_FILE && !STORE_MODULE_FILES.includes(f)
+    );
     const offenders = [];
     for (const file of candidates) {
       const text = fs.readFileSync(file, "utf8");

@@ -335,6 +335,21 @@ const tests = [
       assert.equal(extractSize("Marineeritud punane sibul 400/200g"), "400g");
     },
   },
+  {
+    name: "Size normalization: comma vs period and unit both collapse to the same real quantity",
+    run: () => {
+      assert.equal(extractSize("Karastusjook COCA-COLA 1.5L"), extractSize("Karastusjook Coca-Cola 1,5l"));
+      assert.equal(extractSize("Karastusjook COCA-COLA 1.5L"), extractSize("Karastusjook Coca-Cola 1500ml"));
+      assert.equal(extractSize("Karastusjook COCA-COLA Zero 500ml"), extractSize("Karastusjook Coca-Cola Zero 0,5l"));
+      assert.equal(extractSize("Karastusjook FANTA orange 850ml"), extractSize("Karastusjook Fanta Orange 0,85l"));
+
+      // A multipack keeps its own count, normalized the same way on
+      // both sides of the "x" — but never equals a single bottle of
+      // the same per-unit size, even after normalization.
+      assert.equal(extractSize("Karastusjook COCA-COLA Zero 6x330ml"), extractSize("Karastusjook Coca-Cola Zero 6x0,33l"));
+      assert.notEqual(extractSize("Karastusjook COCA-COLA Zero 6x330ml"), extractSize("Karastusjook Coca-Cola Zero 330ml"));
+    },
+  },
 
   // --- Dairy: strict packaged-product matching ---
   {

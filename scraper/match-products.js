@@ -378,9 +378,54 @@ function extractBrand(name) {
   return null;
 }
 
+// A size's number+unit, converted to one base unit (ml or g) so the
+// same real quantity always extracts identically no matter which unit
+// or decimal separator the store's own text happens to use — "1.5L"
+// (Barbora's convention), "1,5l", and "1500ml" all become "1500ml".
+// Found by hand while investigating Drinks' low match rate: Barbora
+// writes sizes with a period, Rimi/Selver with a comma, and Rimi in
+// particular often states a sub-liter size in liters ("0,5l") where
+// Barbora/Selver say "500ml" — same real bottle, extracted as two
+// different strings before this.
+//
+// A multipack keeps its own count as its own part of the string
+// ("6x330ml", "6x0,33l" both -> "6x330ml") so it can never equal a
+// single item of the same per-unit size ("330ml") — a six-pack and
+// one bottle are genuinely different products, not a wording
+// difference.
+//
+// Anything that isn't a plain "number(xnumber)unit" shape (e.g. the
+// unitless "10-pack" pattern) falls back to the old whitespace-
+// stripped/lowercased behavior unchanged.
+const NORMALIZED_SIZE_PATTERN = /^(\d+(?:[.,]\d+)?)(?:x(\d+(?:[.,]\d+)?))?(kg|g|ml|l)$/;
+
+function normalizeSizeValue(rawValue) {
+  const compact = rawValue.replace(/\s+/g, "").toLowerCase();
+  const match = compact.match(NORMALIZED_SIZE_PATTERN);
+  if (!match) return compact;
+
+  const toNumber = (s) => parseFloat(s.replace(",", "."));
+  const mult = match[2] ? toNumber(match[1]) : 1;
+  let each = match[2] ? toNumber(match[2]) : toNumber(match[1]);
+  let unit = match[3];
+
+  if (unit === "l") {
+    each *= 1000;
+    unit = "ml";
+  } else if (unit === "kg") {
+    each *= 1000;
+    unit = "g";
+  }
+  // Clears the floating-point noise unit conversion introduces
+  // (0.33 * 1000 === 330.00000000000006, not 330).
+  each = Math.round(each * 100) / 100;
+
+  return mult === 1 ? `${each}${unit}` : `${mult}x${each}${unit}`;
+}
+
 function extractSize(name) {
   const size = matchSize(name);
-  return size ? size.value.replace(/\s+/g, "").toLowerCase() : null;
+  return size ? normalizeSizeValue(size.value) : null;
 }
 
 function extractVariant(name) {

@@ -9,12 +9,12 @@ Matching pools every store's items for a category together (scraper/match-produc
 | | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Total |
 |---|---|---|---|---|---|---|
 | Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 201 + 276 + 261 | 130 + 80 + 134 | 117 + 94 + 98 | 418 + 420 + 349 | 2647 |
-| Matched (any store combination) | 12 | 64 | 31 | 68 | 52 | 227 |
-| — at all 3 stores | 1 | 18 | 9 | 16 | 5 | 49 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 21 | 3 | 24 | 11 | 60 |
-| — at 2 stores only (Barbora + Selver) | 2 | 11 | 12 | 20 | 28 | 73 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 7 | 8 | 8 | 45 |
-| Unmatched | 38 | 571 | 273 | 157 | 1075 | 2114 |
+| Matched (any store combination) | 12 | 65 | 31 | 68 | 71 | 247 |
+| — at all 3 stores | 1 | 18 | 10 | 16 | 13 | 58 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 21 | 3 | 24 | 19 | 68 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 12 | 20 | 30 | 76 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 6 | 8 | 9 | 45 |
+| Unmatched | 38 | 569 | 272 | 157 | 1029 | 2065 |
 | Unclassified | 0 | 4 | 0 | 0 | 0 | 4 |
 | Ambiguous groups | 2 | 5 | 0 | 0 | 1 | 8 |
 
@@ -26,9 +26,9 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Aptamil 1 800g | Baby formula | 15.99 € | 18.99 € | 19.19 € | Barbora |
 | Aptamil Piimapulber 3 800g | Baby formula | — | 14.05 € | 19.19 € | Rimi |
 | Aptamil Piimapulber 4 800g | Baby formula | — | 14.05 € | 19.19 € | Rimi |
-| Aptamil Piimasegu 2 1,2kg | Baby formula | — | 24.49 € | 24.49 € | Rimi + Selver |
+| Aptamil Piimasegu 2 1200g | Baby formula | — | 24.49 € | 24.49 € | Rimi + Selver |
 | Aptamil Piimasegu 2 800g | Baby formula | — | 14.05 € | 19.19 € | Rimi |
-| Aptamil Piimasegu 3 1,2kg | Baby formula | — | 24.49 € | 24.49 € | Rimi + Selver |
+| Aptamil Piimasegu 3 1200g | Baby formula | — | 24.49 € | 24.49 € | Rimi + Selver |
 | Hipp Jätkup 2 800g | Baby formula | — | 19.99 € | 20.90 € | Rimi |
 | Hipp Öko 400g | Baby formula | 20.29 € | — | 20.32 € | Barbora |
 | Hipp P 1 800g | Baby formula | — | 19.99 € | 20.90 € | Rimi |
@@ -107,9 +107,9 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Alma Koorejogurt muah vanilli 380g | Dairy | 1.39 € | 1.39 € | 1.68 € | Barbora + Rimi |
 | Alma Kreeka jogurt maitsestamata 180g | Dairy | 0.94 € | — | 0.94 € | Barbora + Selver |
 | Alma Kreeka jogurt maitsestamata 370g | Dairy | 1.65 € | — | 1.65 € (1.39 € Partner) | Barbora + Selver |
-| Alma Piim 1,5l | Dairy | 1.39 € | 1.39 € | 1.29 € | Selver |
-| Alma Piim 500ml | Dairy | — | 0.82 € | 0.80 € | Selver |
-| Alma Täispiim 2l | Dairy | — | 1.99 € | 1.99 € | Rimi + Selver |
+| Alma Piim 1500ml | Dairy | 1.39 € | 1.39 € | 1.29 € | Selver |
+| Alma Piim 500ml | Dairy | 0.80 € | 0.82 € | 0.80 € | Barbora + Selver |
+| Alma Täispiim 2000ml | Dairy | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Alma Või 200g | Dairy | 2.49 € | 2.49 € | 2.39 € (1.49 € Partner) | Selver |
 | Estover Taluvõi eesti 150g | Dairy | 2.19 € | — | 2.39 € | Barbora |
 | Farmi Koorene jogurt kirss must 400g | Dairy | 1.79 € | 1.19 € | — | Rimi |
@@ -118,11 +118,11 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Farmi Koorene jogurt mustikatega 400g | Dairy | 1.79 € | — | 1.49 € | Selver |
 | Farmi Koorene jogurt virsikutega 400g | Dairy | 1.79 € | — | 1.79 € (1.19 € Partner) | Barbora + Selver |
 | Farmi Kreeka jogurt 370g | Dairy | 1.49 € | — | 1.79 € | Barbora |
-| Farmi Piim kiles 1l | Dairy | 0.89 € | — | 0.62 € | Selver |
-| Farmi Piim pure 1,5l | Dairy | — | 1.59 € | 1.49 € | Selver |
+| Farmi Piim kiles 1000ml | Dairy | 0.89 € | — | 0.62 € | Selver |
+| Farmi Piim pure 1500ml | Dairy | — | 1.59 € | 1.49 € | Selver |
 | Farmi Skyr maasika 300g | Dairy | 1.39 € | 1.79 € | 1.82 € | Barbora |
 | Farmi Skyr virsiku 300g | Dairy | 1.39 € | 1.79 € | 1.82 € | Barbora |
-| Hellus Jogurt maitsestamata 1kg | Dairy | 2.05 € | — | 2.09 € | Barbora |
+| Hellus Jogurt maitsestamata 1000g | Dairy | 2.05 € | — | 2.09 € | Barbora |
 | Kiivi koorene farmi 400g | Dairy | 1.79 € | 1.79 € | 1.82 € | Barbora + Rimi |
 | Mo saaremaa Või 200g | Dairy | 2.49 € (1.75 € Aitäh) | 2.49 € | — | Barbora + Rimi |
 | Mo saaremaa Või küüsl soolakrist 150g | Dairy | 2.19 € (1.75 € Aitäh) | 2.19 € | — | Barbora + Rimi |
@@ -130,61 +130,80 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Saare Jogurtikreem laktoosivaba sidruni lactose-free 400g | Dairy | — | 1.79 € | 1.82 € (1.39 € Partner) | Rimi |
 | Saare Jogurtikreem passioni vaarika 400g | Dairy | 1.25 € | 1.79 € | 1.82 € (1.39 € Partner) | Barbora |
 | Saare Kreeka jogurt 380g | Dairy | 1.29 € | — | 1.89 € | Barbora |
-| Tere Piim pure 1l | Dairy | — | 1.29 € | 1.09 € | Selver |
+| Tere Piim pure 1000ml | Dairy | — | 1.29 € | 1.09 € | Selver |
 | Tere Või 200g | Dairy | 2.59 € | 2.19 € | 2.59 € | Rimi |
 | Tere Või laktoosivaba lactose-free 200g | Dairy | — | 2.79 € | 3.29 € | Rimi |
-| A. le coq Kali klassikaline 2l | Drinks | 2.09 € | — | 2.08 € | Selver |
+| A. le coq Kali klassikaline 2000ml | Drinks | 2.09 € | — | 2.08 € | Selver |
 | A. le coq Kali klassikaline 500ml | Drinks | 0.99 € | — | 0.97 € | Selver |
 | A. le coq Kali rukkilinnase 500ml | Drinks | 1.05 € | — | 0.99 € | Selver |
-| Aura Ananassinektar 1l | Drinks | 2.75 € | 2.85 € | 2.19 € | Selver |
-| Aura Apelsinimahl 1l | Drinks | 2.39 € | 2.39 € | — | Barbora + Rimi |
-| Aura Köögiviljamahl 1l | Drinks | — | 1.95 € | 1.85 € | Selver |
-| Aura Multinektar 1l | Drinks | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
-| Aura Õunamahl 1l | Drinks | 1.99 € | — | 1.98 € | Selver |
-| Aura Pirninektar 1l | Drinks | — | 2.05 € | 1.89 € | Selver |
-| Aura Ploominektar 1l | Drinks | 1.75 € | 1.79 € | 1.45 € | Selver |
-| Aura Punase greibi nektar 1l | Drinks | 1.89 € | — | 1.89 € | Barbora + Selver |
-| Aura Tomatimahl 1l | Drinks | 1.79 € | 1.79 € | — | Barbora + Rimi |
-| Aura Vesi gaasita spring 1,5l | Drinks | 0.78 € | — | 0.78 € | Barbora + Selver |
-| Aura Viinamarjanektar 1l | Drinks | 1.79 € | — | 1.79 € | Barbora + Selver |
-| Cappy Apelsininektar 1l | Drinks | 2.95 € (1.69 € Aitäh) | — | 2.95 € | Barbora + Selver |
-| Cappy Õunanektar 1l | Drinks | 2.55 € (1.69 € Aitäh) | — | 2.59 € | Barbora |
-| Coca-cola Karastusjook 1,5l | Drinks | — | 2.25 € | 2.29 € | Rimi |
+| A. le coq Karastusjook barbariss 1500ml | Drinks | 1.55 € | — | 1.58 € (1.09 € Partner) | Barbora |
+| Aura Ananassinektar 1000ml | Drinks | 2.75 € | 2.85 € | 2.19 € | Selver |
+| Aura Apelsinimahl 1000ml | Drinks | 2.39 € | 2.39 € | — | Barbora + Rimi |
+| Aura Köögiviljamahl 1000ml | Drinks | — | 1.95 € | 1.85 € | Selver |
+| Aura Multinektar 1000ml | Drinks | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
+| Aura Õunamahl 1000ml | Drinks | 1.99 € | — | 1.98 € | Selver |
+| Aura Pirninektar 1000ml | Drinks | — | 2.05 € | 1.89 € | Selver |
+| Aura Ploominektar 1000ml | Drinks | 1.75 € | 1.79 € | 1.45 € | Selver |
+| Aura Punase greibi nektar 1000ml | Drinks | 1.89 € | — | 1.89 € | Barbora + Selver |
+| Aura Tomatimahl 1000ml | Drinks | 1.79 € | 1.79 € | — | Barbora + Rimi |
+| Aura Vesi gaasita spring 1500ml | Drinks | 0.78 € | — | 0.78 € | Barbora + Selver |
+| Aura Viinamarjanektar 1000ml | Drinks | 1.79 € | — | 1.79 € | Barbora + Selver |
+| Cappy Apelsininektar 1000ml | Drinks | 2.95 € (1.69 € Aitäh) | — | 2.95 € | Barbora + Selver |
+| Cappy Õunanektar 1000ml | Drinks | 2.55 € (1.69 € Aitäh) | — | 2.59 € | Barbora |
+| Coca-cola Karastusjook 1500ml | Drinks | 2.25 € | 2.25 € | 2.29 € | Barbora + Rimi |
+| Coca-cola Karastusjook 2000ml | Drinks | 2.85 € | 2.85 € | 2.73 € (2.09 € Partner) | Selver |
 | Coca-cola Karastusjook 200ml | Drinks | 0.79 € | — | 0.80 € | Barbora |
-| Coca-cola Karastusjook 2l | Drinks | 2.85 € | 2.85 € | 2.73 € (2.09 € Partner) | Selver |
 | Coca-cola Karastusjook 500ml | Drinks | 1.29 € | — | 1.27 € | Selver |
 | Coca-cola Karastusjook cherry 330ml | Drinks | 1.21 € (1.21 € Aitäh) | 0.89 € | 1.21 € (0.89 € Partner) | Rimi |
-| Coca-cola Karastusjook zero 2l | Drinks | 2.85 € | 2.85 € | — | Barbora + Rimi |
-| Don simon Ananassinektar 330ml | Drinks | 1.39 € | — | 1.49 € (1.29 € Partner) | Barbora |
-| Don simon Apelsinimahl 1l | Drinks | 4.06 € | 4.19 € | — | Barbora |
-| Don simon Apelsininektar 330ml | Drinks | 1.39 € | — | 1.49 € | Barbora |
-| Don simon Mandariinimahl 1l | Drinks | 3.65 € | 3.79 € | — | Barbora |
+| Coca-cola Karastusjook zero 1500ml | Drinks | 2.29 € | 2.25 € | — | Rimi |
+| Coca-cola Karastusjook zero 2000ml | Drinks | 2.85 € | 2.85 € | — | Barbora + Rimi |
+| Coca-cola Karastusjook zero 500ml | Drinks | 1.29 € | 1.29 € | — | Barbora + Rimi |
+| Coca-cola Karastusjook zero 6x330ml | Drinks | 6.19 € | 6.19 € | — | Barbora + Rimi |
+| Don simon Ananassinektar 330ml | Drinks | 1.39 € | 1.39 € | 1.49 € (1.29 € Partner) | Barbora + Rimi |
+| Don simon Apelsinimahl 1000ml | Drinks | 4.06 € | 4.19 € | — | Barbora |
+| Don simon Apelsininektar 330ml | Drinks | 1.39 € | 1.39 € | 1.49 € | Barbora + Rimi |
+| Don simon Apelsininektar premium 1500ml | Drinks | 4.05 € | — | 4.09 € | Barbora |
+| Don simon Mandariinimahl 1000ml | Drinks | 3.65 € | 3.79 € | — | Barbora |
+| Don simon Mangonektar premium 1500ml | Drinks | 3.75 € (2.99 € Aitäh) | — | 3.99 € | Barbora |
+| Don simon Tomatimahl premium 200ml | Drinks | — | 1.39 € | 1.21 € | Selver |
+| Don simon Virsikunektar premium 1500ml | Drinks | 4.09 € (2.99 € Aitäh) | — | 3.99 € | Selver |
+| Evian Looduslik mineraalvesi 1500ml | Drinks | 2.25 € | 2.25 € | — | Barbora + Rimi |
 | Fanta Karastusjook 330ml | Drinks | 1.21 € (1.21 € Aitäh) | — | 1.21 € (0.89 € Partner) | Barbora + Selver |
-| Fanta Karastusjook apelsini 1,5l | Drinks | — | 2.29 € | 2.29 € | Rimi + Selver |
-| Fanta Karastusjook apelsini 2l | Drinks | 2.85 € | 2.85 € | — | Barbora + Rimi |
-| Fanta Karastusjook apelsini 500ml | Drinks | 1.29 € | — | 1.27 € | Selver |
-| Mango nektar aura 1l | Drinks | — | 1.89 € | 1.89 € | Rimi + Selver |
-| Pepsi Karastusjook cola 1,5l | Drinks | — | 1.29 € | 2.02 € | Rimi |
-| Pepsi Karastusjook cola 500ml | Drinks | 1.09 € | — | 1.07 € | Selver |
+| Fanta Karastusjook apelsini 1500ml | Drinks | 2.29 € | 2.29 € | 2.29 € | Barbora + Rimi + Selver |
+| Fanta Karastusjook apelsini 2000ml | Drinks | 2.85 € | 2.85 € | — | Barbora + Rimi |
+| Fanta Karastusjook apelsini 500ml | Drinks | 1.29 € | 1.29 € | 1.27 € | Selver |
+| Fanta Karastusjook orange 850ml | Drinks | 1.69 € | 1.29 € | — | Rimi |
+| Fanta Karastusjook orange zero 330ml | Drinks | 1.21 € (1.21 € Aitäh) | 0.89 € | — | Rimi |
+| Fever tree Toonik indian tonic water 500ml | Drinks | — | 3.49 € | 2.59 € | Selver |
+| Heinz Tomatimahl 290ml | Drinks | — | 1.49 € | 1.49 € | Rimi + Selver |
+| Mango nektar aura 1000ml | Drinks | — | 1.89 € | 1.89 € | Rimi + Selver |
+| Pepsi Karastusjook cola 1500ml | Drinks | 1.99 € (1.29 € Aitäh) | 1.29 € | 2.02 € | Rimi |
+| Pepsi Karastusjook cola 500ml | Drinks | 1.09 € | 1.09 € | 1.07 € | Selver |
 | Põhjala Kali 440ml | Drinks | 1.89 € (1.49 € Aitäh) | — | 1.99 € (1.49 € Partner) | Barbora |
-| Põltsamaa Apelsinimahl 1l | Drinks | 2.99 € | — | 2.49 € | Selver |
-| Põltsamaa Õunamahl 1l | Drinks | 1.99 € | — | 1.79 € | Selver |
-| Põltsamaa Ploominektar 1l | Drinks | 1.75 € | — | 1.79 € | Barbora |
-| Põltsamaa Tomatimahl 1l | Drinks | 1.85 € | — | 1.85 € | Barbora + Selver |
-| Põltsamaa Tomatimahl 2l | Drinks | 3.29 € | — | 3.30 € | Barbora |
-| Pure Ananassimahl 1l | Drinks | 4.55 € (3.49 € Aitäh) | 3.99 € | — | Rimi |
-| Pure Apelsinimahl 1l | Drinks | 4.99 € (2.99 € Aitäh) | 3.69 € | — | Rimi |
-| Pure Greibimahl 1l | Drinks | 4.99 € (3.49 € Aitäh) | 3.99 € | — | Rimi |
-| Pure Õunamahl 1l | Drinks | 3.65 € | 3.29 € | — | Rimi |
-| Pure Tomatimahl 1l | Drinks | 4.69 € | 3.79 € | — | Rimi |
-| Rc cola Karastusjook 2l | Drinks | 2.09 € | — | 2.08 € | Selver |
-| Saaremaa Joogivesi 1,5l | Drinks | — | 0.85 € | 0.70 € | Selver |
-| Saaremaa Joogivesi 5l | Drinks | — | 1.19 € | 1.19 € | Rimi + Selver |
-| Schweppes Toonik bitter lemon 1l | Drinks | 1.39 € | — | 1.92 € | Barbora |
-| Schweppes Toonik mixer pink 1l | Drinks | 1.95 € | — | 1.49 € | Selver |
-| Schweppes Toonik tangerine 1l | Drinks | 1.95 € | — | 1.92 € | Selver |
+| Põltsamaa Apelsinimahl 1000ml | Drinks | 2.99 € | — | 2.49 € | Selver |
+| Põltsamaa Õunamahl 1000ml | Drinks | 1.99 € | — | 1.79 € | Selver |
+| Põltsamaa Ploominektar 1000ml | Drinks | 1.75 € | — | 1.79 € | Barbora |
+| Põltsamaa Tomatimahl 1000ml | Drinks | 1.85 € | — | 1.85 € | Barbora + Selver |
+| Põltsamaa Tomatimahl 2000ml | Drinks | 3.29 € | — | 3.30 € | Barbora |
+| Pure Ananassimahl 1000ml | Drinks | 4.55 € (3.49 € Aitäh) | 3.99 € | — | Rimi |
+| Pure Apelsinimahl 1000ml | Drinks | 4.99 € (2.99 € Aitäh) | 3.69 € | — | Rimi |
+| Pure Greibimahl 1000ml | Drinks | 4.99 € (3.49 € Aitäh) | 3.99 € | — | Rimi |
+| Pure Õunamahl 1000ml | Drinks | 3.65 € | 3.29 € | — | Rimi |
+| Pure Tomatimahl 1000ml | Drinks | 4.69 € | 3.79 € | — | Rimi |
+| Rc cola Karastusjook 2000ml | Drinks | 2.09 € | — | 2.08 € | Selver |
+| Saaremaa Joogivesi 1500ml | Drinks | — | 0.85 € | 0.70 € | Selver |
+| Saaremaa Joogivesi 5000ml | Drinks | — | 1.19 € | 1.19 € | Rimi + Selver |
+| Saaremaa Joogivesi 500ml | Drinks | — | 0.54 € | 0.53 € | Selver |
+| Schweppes Toonik bitter lemon 1000ml | Drinks | 1.39 € | — | 1.92 € | Barbora |
+| Schweppes Toonik mixer pink 1000ml | Drinks | 1.95 € | — | 1.49 € | Selver |
+| Schweppes Toonik mixer pink 1500ml | Drinks | 2.75 € | — | 2.73 € (1.79 € Partner) | Selver |
+| Schweppes Toonik tangerine 1000ml | Drinks | 1.95 € | — | 1.92 € | Selver |
+| Sprite Karastusjook 1500ml | Drinks | 2.29 € | — | 2.29 € | Barbora + Selver |
 | Sprite Karastusjook 500ml | Drinks | 1.29 € | — | 1.27 € | Selver |
-| Sprite Karastusjook 850ml | Drinks | 1.69 € | — | 1.69 € | Barbora + Selver |
+| Sprite Karastusjook 850ml | Drinks | 1.69 € | 1.29 € | 1.69 € | Rimi |
+| Sprite Karastusjook chill zero 330ml | Drinks | 1.21 € (1.21 € Aitäh) | 1.19 € | — | Rimi |
+| Sprite Karastusjook chill zero 500ml | Drinks | 1.29 € | 1.29 € | — | Barbora + Rimi |
+| Vytautas Mineraalvesi 1500ml | Drinks | 1.29 € (0.79 € Aitäh) | — | 1.21 € (0.99 € Partner) | Selver |
 | Ananass kg | Fruits & vegetables | 2.79 € | 2.79 € | 2.29 € | Selver |
 | Avokaado kg | Fruits & vegetables | 5.99 € | 5.99 € | 6.99 € | Barbora + Rimi |
 | Baklažaan kg | Fruits & vegetables | 2.19 € | 2.79 € | 3.19 € | Barbora |
@@ -205,15 +224,16 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Kapsas brüsseli 500g | Fruits & vegetables | — | 3.59 € | 1.99 € | Selver |
 | Kapsas punane kg | Fruits & vegetables | 1.09 € | 1.19 € | — | Barbora |
 | Kartul punane kg | Fruits & vegetables | 0.99 € | 0.99 € | 0.99 € | Barbora + Rimi + Selver |
-| Kartul talukartul kollane 2,5kg | Fruits & vegetables | — | 3.59 € | 3.99 € | Rimi |
-| Kartul villeri 2kg | Fruits & vegetables | 2.95 € | 2.95 € | — | Barbora + Rimi |
+| Kartul talukartul kollane 2500g | Fruits & vegetables | — | 3.59 € | 3.99 € | Rimi |
+| Kartul talukartul punane 2500g | Fruits & vegetables | 3.59 € | — | 3.59 € | Barbora + Selver |
+| Kartul villeri 2000g | Fruits & vegetables | 2.95 € | 2.95 € | — | Barbora + Rimi |
 | Kiivi kg | Fruits & vegetables | 4.99 € | 3.29 € | 4.99 € | Rimi |
 | Kiivi kollane 500g | Fruits & vegetables | 4.99 € | — | 5.99 € | Barbora |
 | Kõrvits hokkaido kg | Fruits & vegetables | 1.69 € | 1.59 € | — | Rimi |
 | Kõrvits kg | Fruits & vegetables | 1.19 € | 0.79 € | 1.69 € | Rimi |
 | Kurk luunja kg | Fruits & vegetables | 2.69 € | 4.29 € | — | Barbora |
 | Küüslauk kg | Fruits & vegetables | 4.99 € | 4.99 € | 5.99 € | Barbora + Rimi |
-| Laheotsa Kartul 2kg | Fruits & vegetables | 2.79 € | 2.79 € | — | Barbora + Rimi |
+| Laheotsa Kartul 2000g | Fruits & vegetables | 2.79 € | 2.79 € | — | Barbora + Rimi |
 | Laim kg | Fruits & vegetables | 4.99 € (3.99 € Aitäh) | 4.99 € | — | Barbora + Rimi |
 | Lillkapsas kg | Fruits & vegetables | 3.59 € | 2.19 € | 4.29 € | Rimi |
 | Maasikad 500g | Fruits & vegetables | 4.99 € | 4.79 € | — | Rimi |

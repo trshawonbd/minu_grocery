@@ -158,7 +158,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aptamil Piimasegu 2 1,2kg",
+    "name": "Aptamil Piimasegu 2 1200g",
     "category": "Baby formula",
     "prices": {
       "rimi": {
@@ -192,7 +192,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aptamil Piimasegu 3 1,2kg",
+    "name": "Aptamil Piimasegu 3 1200g",
     "category": "Baby formula",
     "prices": {
       "rimi": {
@@ -226,7 +226,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Kartul villeri 2kg",
+    "name": "Kartul villeri 2000g",
     "category": "Fruits & vegetables",
     "prices": {
       "barbora": {
@@ -774,7 +774,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Laheotsa Kartul 2kg",
+    "name": "Laheotsa Kartul 2000g",
     "category": "Fruits & vegetables",
     "prices": {
       "barbora": {
@@ -825,6 +825,23 @@
         "price": 2.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/piparmunt-potis-grune-fee-1-tk"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kartul talukartul punane 2500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kartul-pestud-punane-talukartul-2-5-kg"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartul-punane-talukartul-2-5-kg"
       }
     },
     "matchedVia": "automatic"
@@ -1240,7 +1257,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Kartul talukartul kollane 2,5kg",
+    "name": "Kartul talukartul kollane 2500g",
     "category": "Fruits & vegetables",
     "prices": {
       "rimi": {
@@ -1393,7 +1410,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Alma Piim 1,5l",
+    "name": "Alma Piim 1500ml",
     "category": "Dairy",
     "prices": {
       "barbora": {
@@ -1415,7 +1432,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Farmi Piim kiles 1l",
+    "name": "Farmi Piim kiles 1000ml",
     "category": "Dairy",
     "prices": {
       "barbora": {
@@ -1427,6 +1444,28 @@
         "price": 0.62,
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-2-5-kiles-farmi-1-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Alma Piim 500ml",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 0.8,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piim-alma-2-5-proc-0-5-l"
+      },
+      "rimi": {
+        "price": 0.82,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-alma-2-5-500ml/p/202762"
+      },
+      "selver": {
+        "price": 0.8,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piim-2-5-alma-500-ml"
       }
     },
     "matchedVia": "automatic"
@@ -1620,7 +1659,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Hellus Jogurt maitsestamata 1kg",
+    "name": "Hellus Jogurt maitsestamata 1000g",
     "category": "Dairy",
     "prices": {
       "barbora": {
@@ -1858,7 +1897,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Alma Täispiim 2l",
+    "name": "Alma Täispiim 2000ml",
     "category": "Dairy",
     "prices": {
       "rimi": {
@@ -1875,24 +1914,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Alma Piim 500ml",
-    "category": "Dairy",
-    "prices": {
-      "rimi": {
-        "price": 0.82,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-alma-2-5-500ml/p/202762"
-      },
-      "selver": {
-        "price": 0.8,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piim-2-5-alma-500-ml"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Farmi Piim pure 1,5l",
+    "name": "Farmi Piim pure 1500ml",
     "category": "Dairy",
     "prices": {
       "rimi": {
@@ -1909,7 +1931,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Tere Piim pure 1l",
+    "name": "Tere Piim pure 1000ml",
     "category": "Dairy",
     "prices": {
       "rimi": {
@@ -3233,7 +3255,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Vesi gaasita spring 1,5l",
+    "name": "Aura Vesi gaasita spring 1500ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3250,7 +3272,83 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Apelsinimahl 1l",
+    "name": "Evian Looduslik mineraalvesi 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/looduslik-mineraalvesi-evian-1-5-l"
+      },
+      "rimi": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestamata-vesi-gaseerimata/mineraalvesi-evian-looduslik-1-5l/p/1350662"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Vytautas Mineraalvesi 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mineraalvesi-vytautas-1-5-l-37796",
+        "cardPrice": 0.79,
+        "cardName": "Aitäh"
+      },
+      "selver": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mineraalvesi-vytautas-vytautas-1-5-l",
+        "cardPrice": 0.99,
+        "cardName": "Partner"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Don simon Mangonektar premium 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mangonektar-don-simon-premium-1-5-l",
+        "cardPrice": 2.99,
+        "cardName": "Aitäh"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/premium-mangonektar-don-simon-1-5-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Don simon Virsikunektar premium 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/virsikunektar-don-simon-premium-1-5-l",
+        "cardPrice": 2.99,
+        "cardName": "Aitäh"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/premium-virsikunektar-don-simon-1-5-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aura Apelsinimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3267,7 +3365,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Tomatimahl 1l",
+    "name": "Aura Tomatimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3284,7 +3382,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Multinektar 1l",
+    "name": "Aura Multinektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3306,7 +3404,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Õunamahl 1l",
+    "name": "Aura Õunamahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3323,7 +3421,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Ploominektar 1l",
+    "name": "Aura Ploominektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3345,7 +3443,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Põltsamaa Apelsinimahl 1l",
+    "name": "Põltsamaa Apelsinimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3362,7 +3460,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Põltsamaa Tomatimahl 1l",
+    "name": "Põltsamaa Tomatimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3379,7 +3477,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Põltsamaa Õunamahl 1l",
+    "name": "Põltsamaa Õunamahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3396,7 +3494,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Põltsamaa Ploominektar 1l",
+    "name": "Põltsamaa Ploominektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3413,7 +3511,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Punase greibi nektar 1l",
+    "name": "Aura Punase greibi nektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3430,7 +3528,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Ananassinektar 1l",
+    "name": "Aura Ananassinektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3452,7 +3550,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Don simon Apelsinimahl 1l",
+    "name": "Don simon Apelsinimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3469,7 +3567,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Don simon Mandariinimahl 1l",
+    "name": "Don simon Mandariinimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3486,7 +3584,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Viinamarjanektar 1l",
+    "name": "Aura Viinamarjanektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3503,7 +3601,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Põltsamaa Tomatimahl 2l",
+    "name": "Põltsamaa Tomatimahl 2000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3520,7 +3618,24 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Pure Tomatimahl 1l",
+    "name": "Don simon Apelsininektar premium 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 4.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/apelsininektar-don-simon-premium-1-5-l"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/premium-apelsininektar-don-simon-1-5-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pure Tomatimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3537,7 +3652,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Pure Õunamahl 1l",
+    "name": "Pure Õunamahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3554,7 +3669,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Pure Apelsinimahl 1l",
+    "name": "Pure Apelsinimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3573,7 +3688,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Pure Ananassimahl 1l",
+    "name": "Pure Ananassimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3592,7 +3707,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Cappy Apelsininektar 1l",
+    "name": "Cappy Apelsininektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3611,7 +3726,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Cappy Õunanektar 1l",
+    "name": "Cappy Õunanektar 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3638,6 +3753,11 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/ananassinektar-don-simon-330-ml"
       },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/ananassinektar-don-simon-0-33l/p/1376203"
+      },
       "selver": {
         "price": 1.49,
         "currency": "EUR",
@@ -3657,6 +3777,11 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/apelsininektar-don-simon-330-ml"
       },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/apelsininektar-don-simon-0-33l/p/1376212"
+      },
       "selver": {
         "price": 1.49,
         "currency": "EUR",
@@ -3666,7 +3791,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Pure Greibimahl 1l",
+    "name": "Pure Greibimahl 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3680,6 +3805,84 @@
         "price": 3.99,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---tsitrus/greibimahl-pure-1l/p/1373982"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Coca-cola Karastusjook 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-1-5-l-89166"
+      },
+      "rimi": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-1-5l/p/1360279"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-coca-cola-coca-cola-1-5-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Coca-cola Karastusjook zero 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-zero-1-5-l-89167"
+      },
+      "rimi": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-zero-1-5l/p/1360299"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fanta Karastusjook apelsini 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-fanta-apelsini-1-5-l-89168"
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-fanta-apelsini-1-5l/p/1360544"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-fanta-apelsini-fanta-1-5-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sprite Karastusjook 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-sprite-1-5-l-89169"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-sprite-sprite-1-5-l"
       }
     },
     "matchedVia": "automatic"
@@ -3719,6 +3922,23 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Coca-cola Karastusjook zero 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-zero-500-ml"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-zero-0-5l/p/1353151"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Fanta Karastusjook apelsini 500ml",
     "category": "Drinks",
     "prices": {
@@ -3726,6 +3946,11 @@
         "price": 1.29,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/karastusjook-fanta-apelsini-500-ml"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-fanta-apelsini-0-5l/p/102725"
       },
       "selver": {
         "price": 1.27,
@@ -3753,7 +3978,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Rc cola Karastusjook 2l",
+    "name": "Rc cola Karastusjook 2000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3770,7 +3995,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Coca-cola Karastusjook zero 2l",
+    "name": "Coca-cola Karastusjook zero 2000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3787,7 +4012,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Fanta Karastusjook apelsini 2l",
+    "name": "Fanta Karastusjook apelsini 2000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3825,7 +4050,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Coca-cola Karastusjook 2l",
+    "name": "Coca-cola Karastusjook 2000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3857,10 +4082,94 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/karastusjook-pepsi-cola-500-ml-90452"
       },
+      "rimi": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-pepsi-cola-0-5l/p/1360392"
+      },
       "selver": {
         "price": 1.07,
         "currency": "EUR",
         "url": "https://www.selver.ee/karastusjook-pepsi-cola-pepsi-500-ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pepsi Karastusjook cola 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-pepsi-cola-1-5-l-90488",
+        "cardPrice": 1.29,
+        "cardName": "Aitäh"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-pepsi-cola-1-5l/p/1360378"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-pepsi-cola-pepsi-1-5-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "A. le coq Karastusjook barbariss 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-barbariss-1-5-l"
+      },
+      "selver": {
+        "price": 1.58,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-barbariss-a-le-coq-1-5-l",
+        "cardPrice": 1.09,
+        "cardName": "Partner"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Coca-cola Karastusjook zero 6x330ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-zero-6-x-330-ml"
+      },
+      "rimi": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-zero-6x0-33l/p/1371696"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fanta Karastusjook orange zero 330ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-fanta-orange-zero-330-ml",
+        "cardPrice": 1.21,
+        "cardName": "Aitäh"
+      },
+      "rimi": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-fanta-orange-zero-0-33l/p/1371693"
       }
     },
     "matchedVia": "automatic"
@@ -3892,6 +4201,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Sprite Karastusjook chill zero 330ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-sprite-chill-zero-330-ml",
+        "cardPrice": 1.21,
+        "cardName": "Aitäh"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-chill-zero-sprite-0-33l/p/1376385"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Sprite Karastusjook 850ml",
     "category": "Drinks",
     "prices": {
@@ -3899,6 +4227,11 @@
         "price": 1.69,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/karastusjook-sprite-850-ml"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-sprite-0-85l/p/1375077"
       },
       "selver": {
         "price": 1.69,
@@ -3909,7 +4242,41 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Schweppes Toonik tangerine 1l",
+    "name": "Fanta Karastusjook orange 850ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-fanta-orange-850-ml"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-fanta-orange-0-85l/p/1375069"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sprite Karastusjook chill zero 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-sprite-chill-zero-500-ml"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-chill-zero-sprite-0-5l/p/1376387"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Schweppes Toonik tangerine 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3926,7 +4293,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Schweppes Toonik bitter lemon 1l",
+    "name": "Schweppes Toonik bitter lemon 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3943,7 +4310,26 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Schweppes Toonik mixer pink 1l",
+    "name": "Schweppes Toonik mixer pink 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/toonik-schweppes-pink-mixer-1-5-l"
+      },
+      "selver": {
+        "price": 2.73,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toonik-pink-mixer-schweppes-1-5-l",
+        "cardPrice": 1.79,
+        "cardName": "Partner"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Schweppes Toonik mixer pink 1000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3960,7 +4346,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "A. le coq Kali klassikaline 2l",
+    "name": "A. le coq Kali klassikaline 2000ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -4032,7 +4418,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Saaremaa Joogivesi 5l",
+    "name": "Saaremaa Joogivesi 5000ml",
     "category": "Drinks",
     "prices": {
       "rimi": {
@@ -4049,7 +4435,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Saaremaa Joogivesi 1,5l",
+    "name": "Saaremaa Joogivesi 1500ml",
     "category": "Drinks",
     "prices": {
       "rimi": {
@@ -4066,7 +4452,41 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Mango nektar aura 1l",
+    "name": "Saaremaa Joogivesi 500ml",
+    "category": "Drinks",
+    "prices": {
+      "rimi": {
+        "price": 0.54,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestamata-vesi-gaseerimata/joogivesi-saaremaa-0-5l/p/1350162"
+      },
+      "selver": {
+        "price": 0.53,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/joogivesi-saaremaa-500-ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Heinz Tomatimahl 290ml",
+    "category": "Drinks",
+    "prices": {
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---juurvilja/tomatimahl-heinz-0-29l/p/147468"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatimahl-heinz-290-ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mango nektar aura 1000ml",
     "category": "Drinks",
     "prices": {
       "rimi": {
@@ -4083,7 +4503,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Pirninektar 1l",
+    "name": "Aura Pirninektar 1000ml",
     "category": "Drinks",
     "prices": {
       "rimi": {
@@ -4100,7 +4520,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Köögiviljamahl 1l",
+    "name": "Aura Köögiviljamahl 1000ml",
     "category": "Drinks",
     "prices": {
       "rimi": {
@@ -4117,52 +4537,35 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Coca-cola Karastusjook 1,5l",
+    "name": "Don simon Tomatimahl premium 200ml",
     "category": "Drinks",
     "prices": {
       "rimi": {
-        "price": 2.25,
+        "price": 1.39,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-1-5l/p/1360279"
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---juurvilja/tomatimahl-premium-don-simon-0-2l/p/1376207"
       },
       "selver": {
-        "price": 2.29,
+        "price": 1.21,
         "currency": "EUR",
-        "url": "https://www.selver.ee/karastusjook-coca-cola-coca-cola-1-5-l"
+        "url": "https://www.selver.ee/premium-tomatimahl-don-simon-200-ml"
       }
     },
     "matchedVia": "automatic"
   },
   {
-    "name": "Pepsi Karastusjook cola 1,5l",
+    "name": "Fever tree Toonik indian tonic water 500ml",
     "category": "Drinks",
     "prices": {
       "rimi": {
-        "price": 1.29,
+        "price": 3.49,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-pepsi-cola-1-5l/p/1360378"
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/toonik/toonik-fever-tree-indian-tonic-water-0-5l/p/1365583"
       },
       "selver": {
-        "price": 2.02,
+        "price": 2.59,
         "currency": "EUR",
-        "url": "https://www.selver.ee/karastusjook-pepsi-cola-pepsi-1-5-l"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Fanta Karastusjook apelsini 1,5l",
-    "category": "Drinks",
-    "prices": {
-      "rimi": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-fanta-apelsini-1-5l/p/1360544"
-      },
-      "selver": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/karastusjook-fanta-apelsini-fanta-1-5-l"
+        "url": "https://www.selver.ee/toonik-indian-tonic-water-fever-tree-500-ml"
       }
     },
     "matchedVia": "automatic"

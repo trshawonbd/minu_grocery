@@ -1,0 +1,255 @@
+// Fetches Selver products from its catalog search API (an open,
+// unauthenticated Elasticsearch endpoint behind the storefront — the
+// storefront itself is a client-rendered SPA that serves an empty
+// shell to plain HTTP fetches, so it can't be scraped the way Barbora
+// and Rimi's server-rendered pages can). Selver has no per-category
+// listing page to fetch, so scoping is done by Magento category ID
+// instead of a URL — see CATEGORIES below for how each of our three
+// target categories maps to Selver's own taxonomy.
+
+const USER_AGENT =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36";
+
+const SEARCH_URL = "https://www.selver.ee/api/catalog/vue_storefront_catalog_et/product/_search";
+const ATTRIBUTE_URL = "https://www.selver.ee/api/catalog/vue_storefront_catalog_et/attribute/_search";
+
+// The badge Selver shows on a product card when the lower,
+// logged-in price requires its own loyalty card ("Partner card" —
+// confirmed via the badge image filename, vaimo_badges/0partnerkaart_*).
+// Its presence lines up exactly (checked against 18 real examples) with
+// every non-anonymous customer_group_id sharing one uniform lower
+// price — a real public loyalty price, unlike the many other customer
+// groups in `prices` (business/wholesale accounts, ...) that carry
+// their own uneven prices with no such badge and no public program
+// behind them. Only the badge-backed case is trustworthy enough to
+// report as a card price, mirroring Barbora's Aitäh rule.
+function findPartnerCardPrice(source) {
+  const badges = source.vmo_badges || [];
+  const hasPartnerBadge = badges.some((b) => JSON.stringify(b).includes("partnerkaart"));
+  if (!hasPartnerBadge) return null;
+
+  const memberPrice = (source.prices || []).find((p) => p.customer_group_id !== 0);
+  return memberPrice ? memberPrice.price : null;
+}
+
+// 1 request/second, strictly sequential — polite scraping against a
+// live, unauthenticated API with no key of its own.
+let lastRequestAt = 0;
+async function throttle() {
+  const wait = lastRequestAt + 1000 - Date.now();
+  if (wait > 0) await new Promise((resolve) => setTimeout(resolve, wait));
+  lastRequestAt = Date.now();
+}
+
+async function fetchJson(url) {
+  await throttle();
+  const response = await fetch(url, { headers: { "User-Agent": USER_AGENT } });
+  if (!response.ok) {
+    throw new Error(`Selver: HTTP ${response.status} for ${url}`);
+  }
+  return response.json();
+}
+
+function searchUrl(base, request) {
+  return `${base}?request=${encodeURIComponent(JSON.stringify(request))}`;
+}
+
+// product_brand is only a numeric attribute-option id in search
+// results — the real name lives in a separate attribute-definition
+// lookup, fetched once and cached for the life of the process.
+let brandMapPromise = null;
+async function getBrandMap() {
+  if (!brandMapPromise) {
+    brandMapPromise = fetchJson(
+      searchUrl(ATTRIBUTE_URL, { query: { term: { attribute_code: "product_brand" } } })
+    ).then((data) => {
+      const options = data.hits.hits[0]._source.optionsPacked;
+      return new Map(options.map(([name, id]) => [id, name]));
+    });
+  }
+  return brandMapPromise;
+}
+
+// "Määramata" ("Unspecified") is Selver's own explicit placeholder
+// brand option (id 450) — assigned to loose produce and anything else
+// with no real manufacturer brand, not itself a brand name. Barbora's
+// equivalent is simply leaving brand_name empty; Selver states it
+// instead, so it's normalized to null the same way.
+const NO_BRAND = "Määramata";
+
+function mapItem(source, brandMap) {
+  // Group 0 (anonymous/no account) is confirmed, across every sample
+  // checked, to always equal the top-level regular_price and to never
+  // itself carry a discount — so it's what any unlogged-in shopper
+  // pays, the same role Barbora's `price` plays before a loyalty card.
+  const price = source.regular_price;
+  const cardPrice = findPartnerCardPrice(source);
+
+  return {
+    store: "Selver",
+    name: source.name,
+    price,
+    regularPrice: source.regular_price,
+    cardPrice,
+    cardName: cardPrice != null ? "Partner" : null,
+    currency: "EUR",
+    url: `https://www.selver.ee/${source.slug}`,
+    ean: source.product_main_ean || null,
+    brand: (() => {
+      const name = brandMap.get(String(source.product_brand));
+      return name && name !== NO_BRAND ? name : null;
+    })(),
+  };
+}
+
+// Word-list helper for a nameFilter: true when the (lowercased) name
+// contains none of `exclude`, and — if `require` is given — only when
+// it also contains at least one of `require`. Every pattern is a
+// plain substring except where written as a regex literal for a word
+// boundary.
+function excludeWords(exclude, require) {
+  return (name) => {
+    const lower = name.toLowerCase();
+    if (require && !require.some((p) => (p instanceof RegExp ? p.test(lower) : lower.includes(p)))) {
+      return false;
+    }
+    return !exclude.some((p) => (p instanceof RegExp ? p.test(lower) : lower.includes(p)));
+  };
+}
+
+// Each of our three shared categories maps to one or more Selver
+// category IDs (its Magento category tree, not the separate
+// `eshop_category` attribute — see the id-mismatch note below).
+// Chosen by walking Selver's own department tree ("Puu- ja
+// köögiviljad" / "Piimatooted, munad, võid" / "Lastekaubad") and
+// picking only the leaf subcategories that hold the same kind of
+// product Barbora/Rimi are scraped for — the same "skip by category
+// ID" approach used to keep flowers out of Rimi's produce category.
+// Where Selver's own category tree bundles in a product type neither
+// store actually scrapes (verified against Barbora/Rimi's real
+// results, not guessed), a per-source nameFilter narrows it further —
+// same principle, applied by name instead of by ID where Selver has
+// no finer ID to filter on.
+const CATEGORIES = {
+  // Unlike Barbora/Rimi, Selver has no subcategory dedicated to
+  // formula alone — category 307 ("Lastetoidud") holds every baby
+  // food (formula, purée, porridge, juice, snacks) with no finer
+  // category ID to split them. Name-filtered instead: every real
+  // formula product's name contains "piimasegu" ("milk mix"/formula),
+  // confirmed against all 186 items in the category by hand; the only
+  // false positives were two porridges that merely mention formula as
+  // an ingredient ("... teraviljapuder piimasegu ja banaaniga ..."),
+  // excluded by also requiring "puder" (porridge) be absent.
+  "Baby formula": {
+    sources: [{ id: 307, nameFilter: excludeWords(["puder"], ["piimasegu"]) }],
+  },
+  // Every leaf under "Puu- ja köögiviljad" (209) except fruit salads
+  // (216, prepared/dressed mixes — not a raw product Barbora/Rimi list
+  // here either, confirmed against their existing scrapes) and
+  // smoothies/fresh juices (369, a bottled drink, not the fruit
+  // itself).
+  "Fruits & vegetables": {
+    sources: [{ id: 210 }, { id: 212 }, { id: 213 }, { id: 214 }, { id: 215 }, { id: 217 }],
+  },
+  // Milk, butter, eggs, yoghurt — the same four Barbora/Rimi already
+  // cover. "Piimatooted, munad, võid" (233) has three more leaves
+  // (curd/cottage cheese, kohukesed, other desserts) left out because
+  // neither store's current dairy scope includes them. Each of the
+  // four remaining leaves turned out to be broader than what
+  // Barbora/Rimi actually scrape (checked by hand against their real
+  // results, not assumed) and needed its own name-based narrowing:
+  "Dairy": {
+    sources: [
+      // 234 "Piimad, koored" (milk, cream) also holds plant-based
+      // drinks (soy/oat/almond "jook"), dairy creams (vahukoor,
+      // hapukoor, kohvikoor, toidukoor), kefir, buttermilk
+      // ("hapendatud" pett/täispiim), ryazhenka, condensed milk, and
+      // coffee drinks — none of which Barbora/Rimi's milk scrape
+      // contains. Real milk names all contain "piim"; the few
+      // "piim"-containing exceptions (kondenspiim, soured/fermented
+      // "hapendatud" milk, hapupiim) are excluded explicitly.
+      {
+        id: 234,
+        nameFilter: excludeWords(
+          ["kondenspiim", "hapupiim", "hapendatud", "keefir", "kefiir", "rjaženka", "rjazenka", /\bpett\b/],
+          ["piim"]
+        ),
+      },
+      // 236 "Jogurtid, jogurtijoogid" also holds drinkable yoghurt
+      // ("joogijogurt"/"jogurtijook", both compound orders), yoghurt
+      // smoothies, protein shakes/mousse, and a handful of
+      // candy-topped kids' desserts (chocolate rice balls, M&M's,
+      // Mars bar pieces) — none in Barbora's flavoured-yoghurt scrape
+      // either (checked live). Plain flavoured yoghurt under the same
+      // kids' brands (Danonino, Emma's fruit flavours) stays, since
+      // Barbora/Rimi already carry that style.
+      {
+        id: 236,
+        nameFilter: excludeWords([
+          "jook",
+          "joogijogurt",
+          "kokteil",
+          "smuuti",
+          "mousse",
+          "kommi",
+          "riisikuulidega",
+          "kakaoküpsistega",
+          /\bmars\b/,
+          "m&m",
+        ]),
+      },
+      // 239 "Munad" is eggs only (whole, quail, egg white) — matches
+      // Barbora/Rimi's scope as-is, no filter needed.
+      { id: 239 },
+      // 240 "Võid, margariinid" also holds margarine, plant-based
+      // spreads, rendered animal fat (goose/duck/pork), a vegan
+      // avocado spread, and baking-spray oil — none in Barbora/Rimi's
+      // butter scrape, which is real butter (and ghee — present
+      // there too, kept here for the same reason match-products.js
+      // already has a dedicated "ghee is not butter" test rather than
+      // excluding it outright).
+      {
+        id: 240,
+        nameFilter: excludeWords(["margariin", "taimne", "rasvasegu", "searasv", "hanerasv", "pardirasv", "vormiõli", "voimix", "vegan", /\bmäär/]),
+      },
+    ],
+  },
+};
+
+async function fetchSelverPrice(categoryName) {
+  const config = CATEGORIES[categoryName];
+  if (!config) {
+    throw new Error(`Selver: unknown category "${categoryName}". Known categories: ${Object.keys(CATEGORIES).join(", ")}`);
+  }
+
+  const brandMap = await getBrandMap();
+
+  const seen = new Set();
+  const items = [];
+  for (const source of config.sources) {
+    const data = await fetchJson(
+      searchUrl(SEARCH_URL, { query: { term: { category_ids: source.id } }, size: 300 })
+    );
+
+    for (const hit of data.hits.hits) {
+      const item = hit._source;
+      if (seen.has(item.id)) continue;
+      seen.add(item.id);
+
+      // No equivalent to Barbora's price===0 "temporarily unavailable"
+      // filter here: every item in this index reports
+      // stock.is_in_stock === false, even ordinary staples, so it's
+      // not a live per-request signal (most likely store/pickup-point
+      // dependent and never resolved for an anonymous, storeless
+      // request) — checked and confirmed before deciding to ignore it
+      // rather than filter on it.
+      if (source.nameFilter && !source.nameFilter(item.name)) continue;
+
+      items.push(mapItem(item, brandMap));
+    }
+  }
+
+  return items;
+}
+
+module.exports = { fetchSelverPrice, CATEGORIES };

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Minu</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: #F2F3EE; color: #1C1B17;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px;
+  }
+  .card {
+    background: #FFFFFF; border: 1px solid #DAD9CD; border-radius: 14px;
+    padding: 24px; max-width: 380px; width: 100%;
+  }
+  .brand { font-size: 14px; font-weight: 600; color: #1F5D46; letter-spacing: 0.02em; }
+  .header { display: flex; align-items: center; margin-top: 16px; margin-bottom: 2px; }
+  .back {
+    -webkit-appearance: none; appearance: none; border: none; background: #F2F3EE; color: #1F5D46;
+    font-size: 13px; font-weight: 600; padding: 6px 10px; border-radius: 8px; cursor: pointer;
+  }
+  .back:hover { background: #E4F0EA; }
+  h1 { font-size: 17px; font-weight: 600; margin: 14px 0 0; }
+  .subtitle { font-size: 12.5px; color: #6B6A5F; margin: 4px 0 16px; }
+  .list { display: flex; flex-direction: column; gap: 8px; }
+  .row {
+    -webkit-appearance: none; appearance: none; display: flex; justify-content: space-between;
+    align-items: center; gap: 12px; padding: 12px 14px; border-radius: 10px;
+    background: #F2F3EE; cursor: pointer; border: 1px solid transparent;
+    text-align: left; width: 100%; font: inherit; color: inherit;
+  }
+  .row:hover { border-color: #1F5D46; }
+  .row-title { font-size: 14px; font-weight: 600; }
+  .row-sub { font-size: 12px; color: #6B6A5F; margin-top: 2px; }
+  .row-meta { text-align: right; flex-shrink: 0; }
+  .row-meta-price { font-size: 13px; font-weight: 700; color: #1F5D46; }
+  .row-meta-sub { font-size: 11px; color: #6B6A5F; margin-top: 1px; }
+  .store-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 12px; border-radius: 8px; margin-bottom: 6px;
+    background: #F2F3EE; font-size: 14px;
+  }
+  .store-row.cheapest { background: #E4F0EA; border: 1px solid #1F5D46; }
+  .store-name { color: #1C1B17; font-weight: 600; }
+  .store-right { text-align: right; }
+  .store-price { font-weight: 700; color: #1C1B17; }
+  .store-row.cheapest .store-price { color: #1F5D46; }
+  .store-diff { font-size: 11.5px; color: #A6522B; margin-top: 1px; }
+  .store-diff.cheapest-tag { color: #1F5D46; font-weight: 600; }
+  .store-card-price { font-size: 11px; color: #6B6A5F; margin-top: 2px; }
+  .store-availability-note { font-size: 11px; color: #A6522B; margin-top: 2px; font-style: italic; }
+  .note {
+    margin-top: 20px; padding-top: 16px; border-top: 1px solid #DAD9CD;
+    font-size: 12px; color: #6B6A5F; line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="brand">MINU</div>
+    <div id="app"></div>
+  </div>
+
+  <script src="/frontend/pricing.js"></script>
+  <script>
+    let allPrices = [];
+    let screen = "categories"; // "categories" | "products" | "product"
+    let currentCategory = null;
+    let currentProduct = null;
+
+    const STORE_LABELS = { barbora: "Barbora", rimi: "Rimi", selver: "Selver" };
+
+    function storeLabel(key) {
+      return STORE_LABELS[key] || key.charAt(0).toUpperCase() + key.slice(1);
+    }
+
+    function currencySymbol(code) {
+      return code === "EUR" ? "€" : (code || "");
+    }
+
+    function groupByCategory(prices) {
+      const map = new Map();
+      for (const p of prices) {
+        if (!map.has(p.category)) map.set(p.category, []);
+        map.get(p.category).push(p);
+      }
+      return map;
+    }
+
+    function el(tag, className, text) {
+      const e = document.createElement(tag);
+      if (className) e.className = className;
+      if (text !== undefined) e.textContent = text;
+      return e;
+    }
+
+    function renderCategories() {
+      const app = document.getElementById("app");
+      app.textContent = "";
+
+      app.appendChild(el("h1", "", "Categories"));
+      app.appendChild(el("div", "subtitle", `${allPrices.length} matched product${allPrices.length === 1 ? "" : "s"} across stores`));
+
+      const list = el("div", "list");
+      for (const [category, items] of groupByCategory(allPrices)) {
+        const row = document.createElement("button");
+        row.className = "row";
+
+        const left = el("div");
+        left.appendChild(el("div", "row-title", category));
+        left.appendChild(el("div", "row-sub", `${items.length} product${items.length === 1 ? "" : "s"}`));
+        row.appendChild(left);
+        row.appendChild(el("div", "row-meta-price", "›"));
+
+        row.addEventListener("click", () => {
+          currentCategory = category;
+          screen = "products";
+          render();
+        });
+        list.appendChild(row);
+      }
+      app.appendChild(list);
+    }
+
+    function renderProducts() {
+      const app = document.getElementById("app");
+      app.textContent = "";
+
+      const header = el("div", "header");
+      const back = document.createElement("button");
+      back.className = "back";
+      back.textContent = "‹ Categories";
+      back.addEventListener("click", () => { screen = "categories"; render(); });
+      header.appendChild(back);
+      app.appendChild(header);
+
+      app.appendChild(el("h1", "", currentCategory));
+
+      const items = allPrices.filter((p) => p.category === currentCategory);
+      app.appendChild(el("div", "subtitle", `${items.length} product${items.length === 1 ? "" : "s"} matched`));
+
+      const list = el("div", "list");
+      for (const product of items) {
+        const entries = storeEntries(product);
+        const cheapest = entries[0];
+
+        const row = document.createElement("button");
+        row.className = "row";
+
+        const left = el("div");
+        left.appendChild(el("div", "row-title", product.name));
+        left.appendChild(el("div", "row-sub", `${entries.length} store${entries.length === 1 ? "" : "s"}`));
+        row.appendChild(left);
+
+        const meta = el("div", "row-meta");
+        meta.appendChild(el("div", "row-meta-price", `${cheapest.price.toFixed(2)} ${currencySymbol(cheapest.currency)}`));
+        meta.appendChild(el("div", "row-meta-sub", `at ${storeLabel(cheapest.store)}`));
+        row.appendChild(meta);
+
+        row.addEventListener("click", () => {
+          currentProduct = product;
+          screen = "product";
+          render();
+        });
+        list.appendChild(row);
+      }
+      app.appendChild(list);
+    }
+
+    function renderProduct() {
+      const app = document.getElementById("app");
+      app.textContent = "";
+
+      const header = el("div", "header");
+      const back = document.createElement("button");
+      back.className = "back";
+      back.textContent = `‹ ${currentCategory}`;
+      back.addEventListener("click", () => { screen = "products"; render(); });
+      header.appendChild(back);
+      app.appendChild(header);
+
+      app.appendChild(el("h1", "", currentProduct.name));
+      app.appendChild(el("div", "subtitle", `Matched via ${currentProduct.matchedVia}`));
+
+      // However many stores this product has (2, 3, ...) — every
+      // store at the lowest price is marked best, not just the first
+      // one, a tie means a tie, not a coin flip on object identity.
+      // The isCheapest/diff/pct logic itself lives in productRows so
+      // it's tested against the exact code this renders with.
+      const rows = productRows(currentProduct);
+
+      const list = el("div", "list");
+      for (const entry of rows) {
+        const row = el("div", "store-row" + (entry.isCheapest ? " cheapest" : ""));
+        row.appendChild(el("div", "store-name", storeLabel(entry.store)));
+
+        const right = el("div", "store-right");
+        right.appendChild(el("div", "store-price", `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`));
+        if (entry.cardPrice != null) {
+          // Informational only — cheapest is decided in productRows
+          // from entry.price alone, never from this.
+          right.appendChild(el("div", "store-card-price", `${entry.cardPrice.toFixed(2)} ${currencySymbol(entry.currency)} with ${entry.cardName} card`));
+        }
+        if (entry.store === "selver") {
+          // Selver exposes no live stock signal at all (checked: the
+          // search index, a dedicated stock endpoint, GraphQL — every
+          // one is constant/unmanaged, see the Selver scraper) — so
+          // its price still counts for cheapest, but this stays
+          // visible unconditionally whenever Selver is in the product,
+          // never folded into a dismissible or collapsed state.
+          right.appendChild(el("div", "store-availability-note", "Selver: availability not verified"));
+        }
+        if (entry.isCheapest) {
+          right.appendChild(el("div", "store-diff cheapest-tag", "Cheapest"));
+        } else {
+          right.appendChild(el("div", "store-diff", `+${entry.diff.toFixed(2)} ${currencySymbol(entry.currency)} (${entry.pct.toFixed(0)}% more)`));
+        }
+        row.appendChild(right);
+        list.appendChild(row);
+      }
+      app.appendChild(list);
+    }
+
+    function renderError(message) {
+      const app = document.getElementById("app");
+      app.textContent = "";
+      app.appendChild(el("h1", "", "No price data yet"));
+      app.appendChild(el("div", "note", message));
+    }
+
+    function render() {
+      if (screen === "categories") renderCategories();
+      else if (screen === "products") renderProducts();
+      else if (screen === "product") renderProduct();
+    }
+
+    async function loadPrices() {
+      try {
+        const response = await fetch("/data/prices.json");
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const prices = await response.json();
+        if (!Array.isArray(prices) || prices.length === 0) {
+          throw new Error("data/prices.json is empty");
+        }
+
+        allPrices = prices;
+        render();
+      } catch (err) {
+        renderError(
+          "Run \"node scraper/fetch-price.js\" from the project root, then reload this page. " +
+          "If it still doesn't load, make sure you're viewing this through a local server " +
+          "(e.g. \"npx serve\" from the project root), not opening the file directly."
+        );
+      }
+    }
+
+    loadPrices();
+  </script>
+</body>
+</html>

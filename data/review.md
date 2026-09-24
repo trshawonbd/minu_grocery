@@ -9,12 +9,12 @@ Matching pools every store's items for a category together (scraper/match-produc
 | | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Total |
 |---|---|---|---|---|---|---|
 | Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 201 + 276 + 261 | 130 + 80 + 134 | 117 + 94 + 98 | 418 + 420 + 349 | 2647 |
-| Matched (any store combination) | 12 | 65 | 31 | 68 | 75 | 251 |
+| Matched (any store combination) | 12 | 65 | 31 | 71 | 75 | 254 |
 | — at all 3 stores | 1 | 18 | 10 | 16 | 18 | 63 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 21 | 3 | 24 | 14 | 63 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 12 | 20 | 31 | 77 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 21 | 3 | 25 | 14 | 64 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 12 | 22 | 31 | 79 |
 | — at 2 stores only (Rimi + Selver) | 8 | 14 | 6 | 8 | 12 | 48 |
-| Unmatched | 38 | 569 | 272 | 157 | 1016 | 2052 |
+| Unmatched | 38 | 569 | 272 | 151 | 1016 | 2046 |
 | Unclassified | 0 | 4 | 0 | 0 | 0 | 4 |
 | Ambiguous groups | 2 | 5 | 0 | 0 | 1 | 8 |
 
@@ -41,12 +41,15 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Eesti pagar Kaera pehmik 220g | Bread | 1.15 € | — | 1.17 € | Barbora |
 | Eesti pagar Kaerasepik 300g | Bread | 1.25 € | 1.25 € | — | Barbora + Rimi |
 | Eesti pagar Kanepiseemne leib rukkiteradega 500g | Bread | 1.55 € | — | 1.58 € (1.29 € Partner) | Barbora |
+| Eesti pagar Kartuli pehmik röstsibula 240g | Bread | 1.29 € | — | 1.29 € | Barbora + Selver |
 | Eesti pagar Leib peremehe 600g | Bread | 1.29 € | — | 1.29 € | Barbora + Selver |
 | Eesti pagar Mitmevilja pehmik 240g | Bread | 0.89 € | — | 1.17 € | Barbora |
 | Eesti pagar Must rukkileib 390g | Bread | 1.15 € | 1.15 € | — | Barbora + Rimi |
 | Eesti pagar Must vormileib 600g | Bread | 0.89 € | 1.25 € | — | Barbora |
+| Eesti pagar Narva peenleib 310g | Bread | 0.76 € | 0.75 € | — | Rimi |
 | Eesti pagar Pagari kaeraröst 430g | Bread | 1.49 € | 1.59 € | — | Barbora |
 | Eesti pagar Pealinna peenleib 490g | Bread | 1.27 € | 0.99 € | — | Rimi |
+| Eesti pagar Peedi pastinaagi pehmik porgandi 240g | Bread | 1.29 € | — | 1.35 € | Barbora |
 | Eesti pagar Põrandaleib peremehe 450g | Bread | 1.65 € | 1.79 € | 1.67 € | Barbora |
 | Eesti pagar Rehe koorikleib 200g | Bread | 0.80 € | — | 0.80 € | Barbora + Selver |
 | Eesti pagar Rehe rukkileib 390g | Bread | 0.89 € | 1.09 € | — | Barbora |

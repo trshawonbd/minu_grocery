@@ -477,6 +477,18 @@ function extractFatPercent(name) {
   return value;
 }
 
+// Known shorthand a store's own raw name sometimes uses in place of
+// the real brand text — e.g. Barbora shortens "Eesti Pagar" to "EP"
+// on some bread items. The brand-stripping regex below only matches
+// the real, spelled-out brand string (from the store's own structured
+// data), so an abbreviated mention survives as a stray leftover word
+// ("ep") and blocks an otherwise-clean match against a store that
+// spells the brand out. Keyed by the lowercased real brand string;
+// small and meant to be extended by hand as more turn up.
+const BRAND_ABBREVIATIONS = {
+  "eesti pagar": ["ep"],
+};
+
 // What's left of a packaged product's name once the known parts —
 // brand, size, fat % — are removed: almost always flavour ("kirsi-
 // ploomi", "stracciatella") or another describing word ("naturaalne",
@@ -489,6 +501,11 @@ function extractDescriptors(name, brand) {
   if (brand) {
     const brandPattern = new RegExp(`\\b${escapeRegExp(brand).replace(/\s+/g, "\\s+")}\\b`, "gi");
     text = text.replace(brandPattern, " ");
+
+    for (const abbreviation of BRAND_ABBREVIATIONS[brand.toLowerCase()] || []) {
+      const abbreviationPattern = new RegExp(`\\b${escapeRegExp(abbreviation)}\\b`, "gi");
+      text = text.replace(abbreviationPattern, " ");
+    }
   }
 
   const fatMatch = text.match(FAT_PERCENT_PATTERN);

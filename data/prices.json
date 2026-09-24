@@ -2151,6 +2151,23 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Eesti pagar Narva peenleib 310g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.76,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/narva-peenleib-ep-310-g"
+      },
+      "rimi": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/narva-peenleib-eesti-pagar-310g/p/905438"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Eesti pagar Must rukkileib 390g",
     "category": "Bread",
     "prices": {
@@ -2509,6 +2526,23 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Eesti pagar Peedi pastinaagi pehmik porgandi 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/peedi-porgandi-pastinaagi-pehmik-ep-240-g"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peedi-porgandi-pastinaagi-pehmik-eesti-pagar-240-g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Leibur Ruks seemnepala 260g",
     "category": "Bread",
     "prices": {
@@ -2538,6 +2572,23 @@
         "price": 1.17,
         "currency": "EUR",
         "url": "https://www.selver.ee/haputaina-pehmik-eesti-pagar-240-g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Kartuli pehmik röstsibula 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kartuli-rostsibula-pehmik-ep-240-g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartuli-rostsibula-pehmik-eesti-pagar-240g"
       }
     },
     "matchedVia": "automatic"

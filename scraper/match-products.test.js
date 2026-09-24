@@ -363,6 +363,22 @@ const tests = [
       assert.equal(sameProduct(withoutBadge, range), false);
     },
   },
+  {
+    name: 'Known brand abbreviations are stripped from descriptors — real case: Barbora\'s "EP" (Eesti Pagar) no longer leaves a stray leftover word',
+    run: () => {
+      const abbreviated = dairyItem("Barbora", "Peedi-porgandi-pastinaagi pehmik EP 240g", "EESTI PAGAR");
+      const spelledOut = dairyItem("Selver", "Peedi-porgandi-pastinaagi pehmik, EESTI PAGAR, 240 g", "EESTI PAGAR");
+      assert.equal(sameProduct(abbreviated, spelledOut), true);
+
+      const abbreviated2 = dairyItem("Barbora", "Kartuli-röstsibula Pehmik EP 240g", "EESTI PAGAR");
+      const spelledOut2 = dairyItem("Selver", "Kartuli-röstsibula Pehmik, EESTI PAGAR, 240g", "EESTI PAGAR");
+      assert.equal(sameProduct(abbreviated2, spelledOut2), true);
+
+      // "EP" must not turn into a universal wildcard — a genuinely
+      // different product from the same brand still doesn't match.
+      assert.equal(sameProduct(abbreviated, spelledOut2), false);
+    },
+  },
 
   // --- Dairy: strict packaged-product matching ---
   {

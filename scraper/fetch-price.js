@@ -264,11 +264,18 @@ function toPricesObject(groupItems) {
 // cheapest-store comparison ever reads. cardPrice/cardName are
 // included only when a loyalty-card price actually exists for this
 // item, so they never silently influence which store looks cheaper.
+// `size` is the already-normalized string from computeSignature
+// (comma/period and unit collapsed to one base unit — see
+// match-products.js) — display-only, for the frontend's unit-price
+// line (frontend/pricing.js's unitPrice); never read by matching.
 function toStoreEntry(item) {
   const entry = { price: item.price, currency: item.currency, url: item.url };
   if (item.cardPrice != null) {
     entry.cardPrice = item.cardPrice;
     entry.cardName = item.cardName;
+  }
+  if (item.signature.size) {
+    entry.size = item.signature.size;
   }
   return entry;
 }

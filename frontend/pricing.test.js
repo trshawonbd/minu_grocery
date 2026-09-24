@@ -5,7 +5,7 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { storeEntries, cheapestPrice, productRows } = require("./pricing");
+const { storeEntries, cheapestPrice, productRows, unitPrice } = require("./pricing");
 
 function product(barboraPrice, rimiPrice) {
   return {
@@ -67,6 +67,46 @@ const results = [
     assert.equal(selverRow.cardPrice, 3.59);
     assert.equal(selverRow.cardName, "Partner");
     assert.equal(selverRow.isCheapest, false);
+  }),
+
+  test("Unit price: a plain weight and a plain volume both compute correctly", () => {
+    const weight = unitPrice({ price: 2.49, size: "500g" });
+    assert.equal(weight.unit, "kg");
+    assert.ok(Math.abs(weight.value - 4.98) < 0.001);
+
+    const volume = unitPrice({ price: 1.29, size: "330ml" });
+    assert.equal(volume.unit, "l");
+    assert.ok(Math.abs(volume.value - 1.29 / 0.33) < 0.001);
+  }),
+  test("Unit price: a multipack uses its total volume, not the per-bottle size", () => {
+    // Real case: Coca-Cola Zero 6x330ml at 6.19 € -> price per litre
+    // of the whole 6-pack (1.98 L), not per 330ml bottle.
+    const sixPack = unitPrice({ price: 6.19, size: "6x330ml" });
+    assert.equal(sixPack.unit, "l");
+    assert.ok(Math.abs(sixPack.value - 6.19 / 1.98) < 0.001);
+
+    const single = unitPrice({ price: 1.29, size: "330ml" });
+    assert.notEqual(Math.round(sixPack.value * 100), Math.round(single.value * 100), "a 6-pack's per-litre price must not collapse to the same number as a single bottle's");
+  }),
+  test("Unit price: skipped (null) when there's no size to work from", () => {
+    assert.equal(unitPrice({ price: 2.49 }), null);
+    assert.equal(unitPrice({ price: 2.49, size: null }), null);
+    assert.equal(unitPrice({ price: 2.49, size: "10-pack" }), null, "a non-standard size shape is skipped, not guessed at");
+  }),
+  test("Unit price never affects isCheapest — productRows still decides cheapest from price alone", () => {
+    const product = {
+      prices: {
+        barbora: { price: 3.99, currency: "EUR", url: "b", size: "1000g" },
+        rimi: { price: 3.79, currency: "EUR", url: "r", size: "500g" },
+      },
+    };
+    const rows = productRows(product);
+    const cheapest = rows.filter((r) => r.isCheapest);
+    // Rimi is cheaper per package (3.79 < 3.99) despite Barbora being
+    // cheaper per kg (3.99/kg vs 7.58/kg) — isCheapest must track the
+    // real price paid, never the computed unit price.
+    assert.deepEqual(cheapest.map((r) => r.store), ["rimi"]);
+    assert.ok(Math.abs(rows.find((r) => r.store === "barbora").unitPrice.value - 3.99) < 0.001);
   }),
 ];
 

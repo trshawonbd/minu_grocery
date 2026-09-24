@@ -1557,6 +1557,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Alma Piim 1000ml",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piim-alma-0-05-proc-1-l",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piim-rasvatu-0-05-alma-1-l",
+        "size": "1000ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Alma Piim 500ml",
     "category": "Dairy",
     "prices": {
@@ -1577,6 +1596,25 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-2-5-alma-500-ml",
         "size": "500ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mo saaremaa Mahetäispiim 1000ml",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mahetaispiim-mo-saaremaa-oko-3-8-4-4-proc-1-l",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahetaispiim-3-8-4-4-mo-saaremaa-1-l",
+        "size": "1000ml"
       }
     },
     "matchedVia": "automatic"
@@ -1621,6 +1659,31 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/voi-82-tere-200-g",
         "size": "200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Valio Meiereivõi soolata või 500g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/meiereivoi-valio-soolata-500-g",
+        "size": "500g"
+      },
+      "rimi": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-soolata-valio-500g/p/200287",
+        "size": "500g"
+      },
+      "selver": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/meierivoi-soolata-valio-500-g",
+        "size": "500g"
       }
     },
     "matchedVia": "automatic"
@@ -1811,6 +1874,27 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Alma Proteiinijogurt kreeka maitsestamata 370g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/proteiinijogurt-alma-kreeka-m-ta-370-g",
+        "cardPrice": 1.39,
+        "cardName": "Aitäh",
+        "size": "370g"
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/proteiinijogurt-kreeka-m--mata-alma-370g/p/4010425",
+        "size": "370g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Farmi Koorene jogurt mustikatega 400g",
     "category": "Dairy",
     "prices": {
@@ -1966,6 +2050,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Alma Koorejogurt marja muah plombiirimaitseline 180g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejogurt-muah-marja-plomb-alma-180-g",
+        "size": "180g"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorejogurt-muah-marja-plombiirimaitseline-alma-180-g",
+        "size": "180g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Farmi Skyr maasika 300g",
     "category": "Dairy",
     "prices": {
@@ -2016,6 +2119,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Farmi Koorene jogurt martsipani ploomi 200g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorene-ploomi-martsip-jogurt-farmi-200-g",
+        "size": "200g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorene-ploomi-martsipani-jogurt-farmi-200-g",
+        "size": "200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Farmi Koorene jogurt mustasõstra 200g",
     "category": "Dairy",
     "prices": {
@@ -2060,7 +2182,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Kiivi koorene farmi 400g",
+    "name": "Farmi Koorene jogurt kiivi tikri 400g",
     "category": "Dairy",
     "prices": {
       "barbora": {
@@ -2102,6 +2224,44 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Alma Piim 2,5% 1L",
+    "category": "Dairy",
+    "prices": {
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-alma-2-5-1l/p/200104",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piim-2-5-pure-alma-1-l",
+        "size": "1000ml"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Farmi Täispiim 3,6-4,2% 1L",
+    "category": "Dairy",
+    "prices": {
+      "rimi": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/taispiim-3-6--4-2-farmi-1l/p/911088",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taispiim-3-6-4-2-pure-farmi-1-l",
+        "size": "1000ml"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Farmi Piim pure 1500ml",
@@ -2155,6 +2315,25 @@
         "price": 3.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/voi-laktoosivaba-82-tere-200-g",
+        "size": "200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mo saaremaa Või laktoosivaba lactose-free 200g",
+    "category": "Dairy",
+    "prices": {
+      "rimi": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-laktoosivaba-mo-saaremaa-200g/p/4012192",
+        "size": "200g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saaremaa-voi-laktoosivaba-mo-saaremaa-200-g",
         "size": "200g"
       }
     },
@@ -2342,6 +2521,25 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti Pagar Rehe rukkileib 600g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rehe-rukkileib-vorm-eesti-pagar-600-g",
+        "size": "600g"
+      },
+      "rimi": {
+        "price": 0.82,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-rehe-eesti-pagar-600g/p/281671",
+        "size": "600g"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Fazer Must põrandaleib 390g",
@@ -2684,6 +2882,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Eesti Pagar Meeleib 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rustikaalne-meeleib-eesti-pagar-500-g",
+        "size": "500g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/meeleib-eesti-pagar-500g/p/4011381",
+        "size": "500g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
     "name": "Fazer Seemneleib 400g",
     "category": "Bread",
     "prices": {
@@ -2803,6 +3020,25 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/peedi-porgandi-pastinaagi-pehmik-eesti-pagar-240-g",
         "size": "240g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Teratasku 280g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/teratasku-eesti-pagar-4-tk-280-g",
+        "size": "280g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teratasku-eesti-pagar-280-g",
+        "size": "280g"
       }
     },
     "matchedVia": "automatic"
@@ -3216,7 +3452,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Leibur Kuldne klassikaline röstsai 500g",
+    "name": "Leibur Kuldne klassikaline röst 500g",
     "category": "Bread",
     "prices": {
       "barbora": {
@@ -3235,7 +3471,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Eesti pagar Röstsai tosta 500g",
+    "name": "Eesti pagar Röstsai röst tosta 500g",
     "category": "Bread",
     "prices": {
       "barbora": {
@@ -3248,6 +3484,25 @@
         "price": 1.19,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-tosta-eesti-pagar-500g/p/274018",
+        "size": "500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Mitmevilja röst tosta 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mitmevilja-rostsai-tosta-eesti-pagar-500-g",
+        "size": "500g"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-mitmevilja-tosta-eesti-pagar-500g/p/274019",
         "size": "500g"
       }
     },
@@ -3274,6 +3529,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tosta-rukkirost-eesti-pagar-390-g",
         "size": "390g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Leiburi mitmevilja röst 470g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/leiburi-rost-mitmevilja-470-g",
+        "size": "470g"
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rost-mitmevilja-leibur-470g/p/290851",
+        "size": "470g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostsai-mitmevilja-leibur-470-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "470g"
       }
     },
     "matchedVia": "automatic"
@@ -3350,7 +3632,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Leibur Kuldne klassikaline röstsai 250g",
+    "name": "Leibur Kuldne klassikaline röst 250g",
     "category": "Bread",
     "prices": {
       "barbora": {
@@ -3457,6 +3739,27 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Leibur Röst rukkijahu 550g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rost-100-proc-rukkijahu-leibur-550-g",
+        "size": "550g"
+      },
+      "selver": {
+        "price": 1.98,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rost-100-rukkijahust-leibur-550-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "550g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Fazer Röst seemnetega 500g",
     "category": "Bread",
     "prices": {
@@ -3495,7 +3798,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Leibur Vilja kuldne röstsai 525g",
+    "name": "Leibur Vilja kuldne röst 525g",
     "category": "Bread",
     "prices": {
       "barbora": {
@@ -3539,6 +3842,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Fazer Vilja röstsepik täisterahelvest 480g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/5-vilja-rostsepik-taisterahel-fazer-480-g",
+        "size": "480g"
+      },
+      "rimi": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsepik-taisterahelvest-5-vilja-fazer-480g/p/4012066",
+        "size": "480g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Eesti Pagar täistera röstsepik 500g",
     "category": "Bread",
     "prices": {
@@ -3556,6 +3878,25 @@
       }
     },
     "matchedVia": "override"
+  },
+  {
+    "name": "Lõuna pagarid Rukkileib idandatud teradega 300g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-idan-teradega-louna-pagarid-300g/p/4010987",
+        "size": "300g"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkileib-idandatud-teradega-louna-pagarid-300g",
+        "size": "300g"
+      }
+    },
+    "matchedVia": "automatic"
   },
   {
     "name": "Lõuna pagarid Rukkileib seemnetega 300g",
@@ -3596,7 +3937,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Leibur Röstsai kuldne täistera 500g",
+    "name": "Leibur Röstsai kuldne röst täistera 500g",
     "category": "Bread",
     "prices": {
       "rimi": {
@@ -3672,6 +4013,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Eesti Pagar Pagariröst täistera 430g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/pagarirost-taistera-eesti-pagar-430g/p/917973",
+        "size": "430g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostsai-taistera-eesti-pagar-430-g",
+        "size": "430g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
     "name": "Leibur Saib 370g",
     "category": "Bread",
     "prices": {
@@ -3710,7 +4070,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Leibur Röstsai graham kuldne 500g",
+    "name": "Leibur Röstsai graham kuldne röst 500g",
     "category": "Bread",
     "prices": {
       "rimi": {
@@ -3727,6 +4087,44 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Evian mineraalvesi 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mineraalvesi-evian-500-ml",
+        "size": "500ml"
+      },
+      "rimi": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestamata-vesi-gaseerimata/mineraalvesi-looduslik-evian-0-5l/p/1350661",
+        "size": "500ml"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Aura Spring vesi gaasita 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.56,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vesi-aura-gaasita-500-ml",
+        "size": "500ml"
+      },
+      "selver": {
+        "price": 0.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vesi-spring-gaasita-aura-500-ml",
+        "size": "500ml"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Aura Vesi gaasita spring 1500ml",
@@ -3748,7 +4146,47 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Evian Looduslik mineraalvesi 1500ml",
+    "name": "Värska originaal Värska gaasita naturaal 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/varska-naturaal-mullita-1-5-l",
+        "size": "1500ml"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/varska-naturaal-gaasita-varska-1-5-l",
+        "size": "1500ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aura Gaseerimata gaasita mg vesi 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/gaseerimatta-vesi-aura-mg-500-ml",
+        "cardPrice": 0.99,
+        "cardName": "Aitäh",
+        "size": "500ml"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestatud-vesi-gaseerimata/vesi-aura-mg-gaasita-0-5l/p/1376292",
+        "size": "500ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Evian Looduslik 1500ml",
     "category": "Drinks",
     "prices": {
       "barbora": {
@@ -3762,6 +4200,84 @@
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestamata-vesi-gaseerimata/mineraalvesi-evian-looduslik-1-5l/p/1350662",
         "size": "1500ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Värska originaal Mineraalvesi 1000ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mineraalvesi-varska-originaal-1-l",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/varska-originaal-varska-1-l",
+        "size": "1000ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Värska originaal Mineraalvesi 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mineraalvesi-varska-originaal-1-5-l",
+        "size": "1500ml"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/varska-originaal-varska-1-5-l",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "1500ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Värska Originaal mineraalvesi 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.98,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mineraalvesi-varska-0-5-l",
+        "size": "500ml"
+      },
+      "rimi": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/vesi/maitsestamata-vesi-gaseeritud/mineraalvesi-varska-originaal-0-5l/p/1350362",
+        "size": "500ml"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Borjomi Looduslik karboniseeritud 1000ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/looduslik-karbon-mineraalvesi-borjomi-1-l",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karboniseeritud-looduslik-mineraalvesi-borjomi-1-l",
+        "size": "1000ml"
       }
     },
     "matchedVia": "automatic"
@@ -3785,6 +4301,25 @@
         "cardPrice": 0.99,
         "cardName": "Partner",
         "size": "1500ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Värska originaal Mineraalvesi 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mineraalvesi-varska-originaal-500-ml",
+        "size": "500ml"
+      },
+      "selver": {
+        "price": 0.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/varska-originaal-varska-500-ml",
+        "size": "500ml"
       }
     },
     "matchedVia": "automatic"
@@ -4185,6 +4720,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Rynkeby Mahl kuivatatud ploomi 1000ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 4.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mahl-rynkeby-kuivatatud-ploomist-1-l",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 4.26,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuivatatud-ploomi-mahl-rynkeby-1-l",
+        "size": "1000ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Pure Tomatimahl 1000ml",
     "category": "Drinks",
     "prices": {
@@ -4425,50 +4979,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Coca-cola Karastusjook 1500ml",
-    "category": "Drinks",
-    "prices": {
-      "barbora": {
-        "price": 2.25,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/karastusjook-coca-cola-1-5-l-89166",
-        "size": "1500ml"
-      },
-      "rimi": {
-        "price": 2.25,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-1-5l/p/1360279",
-        "size": "1500ml"
-      },
-      "selver": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/karastusjook-coca-cola-coca-cola-1-5-l",
-        "size": "1500ml"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Coca-cola Karastusjook zero 1500ml",
-    "category": "Drinks",
-    "prices": {
-      "barbora": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/karastusjook-coca-cola-zero-1-5-l-89167",
-        "size": "1500ml"
-      },
-      "rimi": {
-        "price": 2.25,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-zero-1-5l/p/1360299",
-        "size": "1500ml"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Fanta Karastusjook apelsini 1500ml",
     "category": "Drinks",
     "prices": {
@@ -4570,6 +5080,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Dr.pepper Karastusjook 330ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-dr-pepper-330-ml",
+        "size": "330ml"
+      },
+      "selver": {
+        "price": 1.11,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-dr-pepper-330-ml",
+        "size": "330ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Fanta Karastusjook apelsini 500ml",
     "category": "Drinks",
     "prices": {
@@ -4614,6 +5143,75 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Fentimans Rose Lemonade 275ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-fentimans-rose-lemona-275-ml",
+        "size": "275ml"
+      },
+      "rimi": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/toonik/karastusjook-rose-fentimans-0-275l/p/1360725",
+        "size": "275ml"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-rose-lemonade-fentimans-275-ml",
+        "size": "275ml"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Limpa Vahujook karastusjook mullike 750ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vahujook-limpa-mullike-750-ml",
+        "size": "750ml"
+      },
+      "rimi": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/laste-peojoogid/karastusjook-limpa-mullike-0-75l/p/1364880",
+        "size": "750ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Coca-Cola karastusjook 6x330ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-6-x-330-ml",
+        "size": "6x330ml"
+      },
+      "rimi": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-6x0-33l-purk/p/1350647",
+        "size": "6x330ml"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-coca-cola-6-pakk-coca-cola-6-x-330-ml",
+        "size": "6x330ml"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
     "name": "Fanta Karastusjook orange zero 500ml",
     "category": "Drinks",
     "prices": {
@@ -4630,7 +5228,7 @@
         "size": "500ml"
       }
     },
-    "matchedVia": "override"
+    "matchedVia": "automatic"
   },
   {
     "name": "Rc cola Karastusjook 2000ml",
@@ -4650,6 +5248,25 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Super Manki karastusjook 330ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-super-manki-330-ml-88796",
+        "size": "330ml"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-super-manki-0-33l-prk/p/1360130",
+        "size": "330ml"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Coca-cola Karastusjook zero 2000ml",
@@ -4688,6 +5305,27 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Coca-Cola Zero karastusjook 330ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-zero-330-ml-89173",
+        "cardPrice": 1.21,
+        "cardName": "Aitäh",
+        "size": "330ml"
+      },
+      "rimi": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-coca-cola-zero-0-33l-prk/p/1354336",
+        "size": "330ml"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Fanta Karastusjook 330ml",
@@ -4735,6 +5373,25 @@
         "cardPrice": 2.09,
         "cardName": "Partner",
         "size": "2000ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fanta Karastusjook orange zero 1500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-fanta-zero-apelsin-1-5-l-89718",
+        "size": "1500ml"
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-fanta-orange-zero-1-5l/p/1368152",
+        "size": "1500ml"
       }
     },
     "matchedVia": "automatic"
@@ -4882,6 +5539,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Coca-cola Karastusjook cherry 850ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-cherry-850-ml",
+        "size": "850ml"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-cherry-coca-cola-0-85l/p/1376390",
+        "size": "850ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Sprite Karastusjook chill zero 330ml",
     "category": "Drinks",
     "prices": {
@@ -4898,6 +5574,25 @@
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-chill-zero-sprite-0-33l/p/1376385",
         "size": "330ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Coca-cola Karastusjook 850ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-coca-cola-850-ml",
+        "size": "850ml"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karastusjook-coca-cola-coca-cola-850-ml",
+        "size": "850ml"
       }
     },
     "matchedVia": "automatic"
@@ -5257,7 +5952,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Mango nektar aura 1000ml",
+    "name": "Aura Nektar aprikoosi mango 1000ml",
     "category": "Drinks",
     "prices": {
       "rimi": {

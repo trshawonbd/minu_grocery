@@ -21,10 +21,10 @@ each as of the last run (`data/prices.json`):
 |---|---|
 | Baby formula | 12 |
 | Fruits & vegetables | 67 |
-| Dairy | 32 |
-| Bread | 74 |
-| Drinks (non-alcoholic only) | 77 |
-| **Total** | **262** |
+| Dairy | 41 |
+| Bread | 83 |
+| Drinks (non-alcoholic only) | 94 |
+| **Total** | **297** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/fetch-price.js` (URLs for Barbora/Rimi) and
@@ -157,6 +157,7 @@ minu-project/
 │   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows, unit price) — kept separate from the DOM code so it's directly testable
 ├── scraper/
 │   ├── fetch-price.js            the only file that contacts a store; writes data/raw/, data/prices.json, and the leftover files
+│   ├── categories.js             the five categories' store URLs and strictPackaging settings — fetch-price.js's single source for both, and the one place a test/by-hand check should build an item from (buildItem)
 │   ├── build-review.js           regenerates data/review.md from already-scraped data; never scrapes
 │   ├── match-products.js         the matching rules (sameProduct, matchPool)
 │   ├── raw.js                    reads/writes data/raw/

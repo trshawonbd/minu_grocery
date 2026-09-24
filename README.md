@@ -1,73 +1,146 @@
 # Minu — grocery price comparison
 
-Minu fetches one real product's price from multiple grocery stores
-and shows a side-by-side comparison, with the cheapest store
-highlighted.
+Minu scrapes the same real products from three Estonian grocery
+stores, figures out which listings are actually the same product, and
+shows a side-by-side price comparison with the cheapest store
+highlighted. No build step, no external dependencies — just Node.js
+and a static HTML page.
+
+## The three stores and three categories
+
+| Store | How it's fetched |
+|---|---|
+| Barbora | category listing pages, server-rendered HTML |
+| Rimi | category listing pages, server-rendered HTML |
+| Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
+
+Three categories are scraped today: **Baby formula**, **Fruits &
+vegetables**, and **Dairy**. Each store's own category tree is mapped
+onto these by hand in `scraper/fetch-price.js` (URLs for Barbora/Rimi)
+and `scraper/stores/selver.js` (category IDs and, for Baby formula,
+a name filter — Selver has no category dedicated to formula alone).
+
+## How matching works, in plain words
+
+A store only tells you its own product name, price, and (sometimes) a
+few other fields — never "this is the same product as that other
+store's listing." Minu has to figure that out itself, in
+`scraper/match-products.js`:
+
+- If two items share a real barcode (EAN), that settles it. In
+  practice this rarely fires — Selver states an EAN on every product,
+  but Barbora and Rimi don't expose one anywhere we've found.
+- Otherwise, a brand, size, and a few other identifying details
+  (fat %, flavour, produce variety, formula stage) are pulled out of
+  each raw product name with pattern matching, and two items are only
+  called the same product if all of those agree.
+- Every store's items for a category go into one shared pool
+  (`matchPool`), not compared store-by-store. A group of matching
+  items becomes one product only if **every pair** in the group
+  agrees with each other, and the group holds **at most one item per
+  store**. A group that fails either check — two listings from the
+  same store both plausibly matching one listing elsewhere, or a
+  three-way chain that doesn't fully agree — is written to
+  `data/ambiguous.json` for a person to resolve, instead of guessed.
+- Two more files exist for the cases the automatic rules get wrong:
+  `data/products.json` forces a match (with the canonical name to
+  use), and `data/known-different.json` forces two specific listings
+  to never match, no matter what the rules say.
+
+## Key rules this project holds to
+
+- **A wrong match is worse than a missing one.** When it's not clear
+  two listings are the same product, the answer is "don't match them"
+  — never a best guess. This is why the ambiguous/unmatched/
+  unclassified files exist instead of the matcher always picking
+  something.
+- **The price shown is the price anyone can pay today**, not a
+  members-only or loyalty-card price. Barbora's Aitäh price and
+  Selver's Partner price are shown only as a small secondary line on
+  the product screen — they're informational, and never used to
+  decide which store is cheapest.
+- **One change at a time.** Matching rules, scrapers, and the data
+  pipeline get changed and tested individually — never several
+  unrelated changes bundled into one pass, so a regression is easy to
+  trace back to its cause.
+- **Selver is only ever contacted through its open catalog search API**
+  under `/api/catalog/vue_storefront_catalog_et/` — the one path its
+  `robots.txt` explicitly allows — at a strict maximum of one request
+  per second, never in parallel. `scraper/no-scrape.test.js` enforces
+  that only `scraper/fetch-price.js` contacts any store at all;
+  everything else (the review generator, matching experiments) reads
+  already-scraped data from `data/raw/` instead.
+
+## npm commands
+
+```
+npm run fetch-prices   # scrapes all three stores, writes data/raw/, data/prices.json, and the leftover files
+npm run review          # regenerates data/review.md from already-scraped data — never scrapes
+npm test                 # runs every test file (matching rules, price-fairness, no-scrape enforcement, frontend logic)
+npm start                # serves the project at http://localhost:8000
+```
+
+Then open **http://localhost:8000/frontend/index.html**.
+
+### Why `npm start` instead of double-clicking index.html
+
+Double-clicking `frontend/index.html` opens it as a `file://` page.
+Most browsers block a `file://` page from fetching another local file,
+so `data/prices.json` won't load and the page will show "No price
+data yet". Serving the folder over `http://localhost` (via
+`npm start`) avoids that.
+
+## Where each data file is
+
+All of these live in `data/` and are regenerated by `npm run
+fetch-prices` (except `products.json` and `known-different.json`,
+which are edited by hand):
+
+| File | What it holds |
+|---|---|
+| `data/raw/<category>/<store>.json` + `meta.json` | Every item exactly as that store returned it, for that category — the only file anything other than `fetch-price.js` should ever read scraped data from |
+| `data/prices.json` | Matched products the app actually displays — one entry per product, with a price per store it was found at |
+| `data/unmatched.json` | Items with a recognizable type or brand that still didn't find a match anywhere — worth a person's look |
+| `data/unclassified.json` | Items with no recognizable type or brand at all — never had a reliable comparison to begin with |
+| `data/ambiguous.json` | Groups that don't agree with each other cleanly — needs a person to pick, see "How matching works" above |
+| `data/review.md` | A human-readable summary of the latest run, generated by `npm run review` |
+| `data/products.json` | Hand-added overrides: forces two specific listings to match, with the canonical name to use |
+| `data/known-different.json` | Hand-added overrides: forces two specific listings to never match |
 
 ## What's here
 
 ```
 minu-project/
 ├── README.md
-├── package.json            npm scripts: fetch-prices, start
-├── data/
-│   └── prices.json         generated by the scraper, read by the frontend
+├── package.json                npm scripts: fetch-prices, review, test, start
+├── data/                       see "Where each data file is" above
 ├── frontend/
-│   └── index.html          renders the comparison from data/prices.json
+│   ├── index.html               renders the comparison from data/prices.json
+│   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows) — kept separate from the DOM code so it's directly testable
 ├── scraper/
-│   ├── fetch-price.js       fetches all stores, writes data/prices.json
+│   ├── fetch-price.js            the only file that contacts a store; writes data/raw/, data/prices.json, and the leftover files
+│   ├── build-review.js           regenerates data/review.md from already-scraped data; never scrapes
+│   ├── match-products.js         the matching rules (sameProduct, matchPool)
+│   ├── raw.js                    reads/writes data/raw/
+│   ├── no-scrape.test.js         enforces that only fetch-price.js contacts a store
 │   └── stores/
-│       ├── barbora.js       fetches + parses one Barbora product page
-│       └── rimi.js          fetches + parses one Rimi product page
+│       ├── barbora.js            fetches + parses Barbora category pages
+│       ├── rimi.js               fetches + parses Rimi category pages
+│       └── selver.js             fetches Selver's catalog search API
 └── scripts/
-    └── serve.js             tiny local static server, no dependencies
+    └── serve.js                  tiny local static server, no dependencies
 ```
 
-- **scraper/stores/*.js** each fetch one store's product page and
-  return `{ store, name, price, currency, url }`. Add a new store by
-  adding a file here with the same shape.
-- **scraper/fetch-price.js** runs every store's fetcher, adds a
-  `fetchedAt` timestamp, and writes the results to
-  `data/prices.json`.
-- **frontend/index.html** is a static page. On load, its own
-  JavaScript fetches `data/prices.json` and builds the comparison —
-  it does not get rewritten by the scraper.
+## Backups
 
-## How to run it
-
-Requires Node.js (nodejs.org, the LTS version).
-
-```
-npm run fetch-prices   # fetches live prices, writes data/prices.json
-npm start              # serves the project at http://localhost:8000
-```
-
-Then open **http://localhost:8000/frontend/index.html**.
-
-Re-run `npm run fetch-prices` any time to refresh the prices; reload
-the page to see the update.
-
-### Why `npm start` instead of double-clicking index.html
-
-Double-clicking `frontend/index.html` opens it as a `file://` page.
-Most browsers (Chrome included) block a `file://` page from fetching
-another local file, so `data/prices.json` won't load and the page
-will show "No price data yet". Serving the folder over
-`http://localhost` (via `npm start`) avoids that restriction — this
-was confirmed by testing both paths directly.
-
-## Adding another store
-
-1. Open the product page you want to add in a browser, and find its
-   real product URL.
-2. Create `scraper/stores/<name>.js` following `barbora.js` or
-   `rimi.js` as a template: fetch the page, extract the name and
-   price, return `{ store, name, price, currency, url }`.
-3. Add the URL to `PRODUCT_URLS` in `scraper/fetch-price.js` and
-   call your new fetcher alongside the others.
+This project is a local git repository (no remote/GitHub) used
+specifically as a backup mechanism — a commit after each meaningful
+change means any regression can be traced and reverted. There's
+nothing else backing this project up, so don't skip committing.
 
 ## One honest note
 
 This is fine for testing on your own computer. Before anyone else
 uses it, each store's terms of use still need a lawyer's check —
-scraping product pages may not be permitted under their terms.
+scraping product pages (and Selver's catalog API) may not be
+permitted under their terms beyond what `robots.txt` signals.

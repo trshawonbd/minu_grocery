@@ -20,11 +20,11 @@ each as of the last run (`data/prices.json`):
 | Category | Matched products |
 |---|---|
 | Baby formula | 12 |
-| Fruits & vegetables | 65 |
-| Dairy | 31 |
-| Bread | 71 |
-| Drinks (non-alcoholic only) | 75 |
-| **Total** | **254** |
+| Fruits & vegetables | 66 |
+| Dairy | 32 |
+| Bread | 74 |
+| Drinks (non-alcoholic only) | 76 |
+| **Total** | **260** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/fetch-price.js` (URLs for Barbora/Rimi) and

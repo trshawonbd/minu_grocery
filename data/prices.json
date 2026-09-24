@@ -1113,6 +1113,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Särtsakas peedisalat koriandriga 450g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sartsakas-peedisalat-koriandriga-450-g",
+        "size": "450g"
+      },
+      "rimi": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/peedisalat-koriandriga-eesti-and-450g/p/2000453",
+        "size": "450g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
     "name": "Kadarbiku Hapukapsas 900g",
     "category": "Fruits & vegetables",
     "prices": {
@@ -1830,6 +1849,31 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Alma Muah koorejogurt rukkileiva-kaneeli 380g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejogurt-alma-muah-r-leiv-kaneel-380-g",
+        "size": "380g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorejogurt-rukkileiva-kaneeli-muah-alma-380g/p/299592",
+        "size": "380g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorejogurt-muah-rukkileiva-alma-380-g",
+        "size": "380g"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Alma Koorejogurt muah stracciatella 380g",
@@ -3241,6 +3285,33 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Fazer Kodusai mini röst 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rostsai-fazer-mini-240-g",
+        "size": "240g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kodusai-mini-rost-fazer-240g/p/902923",
+        "size": "240g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mini-rost-fazer-240-g",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "240g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
     "name": "Fazer Keefiriröst kaltsiumiga 450g",
     "category": "Bread",
     "prices": {
@@ -3449,6 +3520,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Eesti Pagar täistera röstsepik 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/taistera-rostsepik-eesti-pagar-500-g",
+        "size": "500g"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsepik-taistera-tosta-eesti-pagar-500g/p/957205",
+        "size": "500g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
     "name": "Lõuna pagarid Rukkileib seemnetega 300g",
     "category": "Bread",
     "prices": {
@@ -3561,6 +3651,25 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Saib 370g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/saib-leibur-370g/p/278361",
+        "size": "370g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saib-100-rukkijahust-leibur-370-g",
+        "size": "370g"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Leibur Mitmevilja röst 250g",
@@ -4195,6 +4304,33 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Cappy Multivitamiininektar 1L",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/multivitamiininektar-cappy-1-l",
+        "cardPrice": 1.69,
+        "cardName": "Aitäh",
+        "size": "1000ml"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/nektar-multivitamiini-cappy-1l/p/1020469",
+        "size": "1000ml"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/multinektar-cappy-1-l",
+        "size": "1000ml"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Don simon Ananassinektar 330ml",

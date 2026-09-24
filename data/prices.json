@@ -56,6 +56,23 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Tutteli Tuttelitm 1 650g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimasegu-tutteli-1-650-g-0-k"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasegu-1-alates-sunnist-tutteli-650-g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Aptamil Piimasegu 2 800g",
     "category": "Baby formula",
     "prices": {
@@ -124,6 +141,23 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Hipp Jätkup 2 800g",
+    "category": "Baby formula",
+    "prices": {
+      "rimi": {
+        "price": 19.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkup-segu-hipp-2-comb-al-6k-oko-800g/p/7317258"
+      },
+      "selver": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/2-organic-combiotic-jatkupiimasegu-6kuud-hipp-800-g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Aptamil Piimasegu 2 1,2kg",
     "category": "Baby formula",
     "prices": {
@@ -153,23 +187,6 @@
         "price": 20.9,
         "currency": "EUR",
         "url": "https://www.selver.ee/imiku-piimasegu-1-organic-combiotic-0-hipp-800-g-t000092526"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Hipp Jätkup 2 800g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 19.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkup-segu-hipp-2-comb-al-6k-oko-800g/p/7317258"
-      },
-      "selver": {
-        "price": 20.9,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/2-organic-combiotic-jatkupiimasegu-6kuud-hipp-800-g"
       }
     },
     "matchedVia": "automatic"
@@ -282,6 +299,23 @@
         "price": 3.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/punane-viinamari-red-globe-kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Juurseller kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juurseller-kg"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/muud-juurviljad/juurseller-kg/p/217120"
       }
     },
     "matchedVia": "automatic"
@@ -509,6 +543,28 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Paprika kollane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/paprika-kollane-1-kl-kg"
+      },
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/paprika-kollane-1kl-kg/p/209926"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paprika-kollane-kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Lillkapsas kg",
     "category": "Fruits & vegetables",
     "prices": {
@@ -640,25 +696,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Laim kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/laim-1-kl-kg",
-        "cardPrice": 3.99,
-        "cardName": "Aitäh"
-      },
-      "rimi": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/laim-1kl-kg/p/267980"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Banaan kg",
     "category": "Fruits & vegetables",
     "prices": {
@@ -766,6 +803,28 @@
         "price": 2.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/spinat-potis-grune-fee-1-tk"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Piparmünt grüne fee tk",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piparmunt-grune-fee"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/maitsetaimed/maitsetaimed/piparmunt-potis-grune-fee-tk/p/200295"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piparmunt-potis-grune-fee-1-tk"
       }
     },
     "matchedVia": "automatic"
@@ -922,23 +981,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Maasikad 500g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/maasikad-500-g"
-      },
-      "rimi": {
-        "price": 4.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/marjad/maasikad/maasikad-1kl-500g/p/231964"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Sibul punane 400g",
     "category": "Fruits & vegetables",
     "prices": {
@@ -1026,18 +1068,37 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Paprika kollane kg",
+    "name": "Kapsas punane kg",
     "category": "Fruits & vegetables",
     "prices": {
       "barbora": {
-        "price": 3.99,
+        "price": 1.09,
         "currency": "EUR",
-        "url": "https://barbora.ee/toode/paprika-kollane-1-kl-kg"
+        "url": "https://barbora.ee/toode/punane-kapsas-kg"
       },
-      "selver": {
-        "price": 3.29,
+      "rimi": {
+        "price": 1.19,
         "currency": "EUR",
-        "url": "https://www.selver.ee/paprika-kollane-kg"
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/kapsas-punane-kg/p/904650"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Laim kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/laim-1-kl-kg",
+        "cardPrice": 3.99,
+        "cardName": "Aitäh"
+      },
+      "rimi": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/laim-1kl-kg/p/267980"
       }
     },
     "matchedVia": "automatic"
@@ -1060,28 +1121,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Piparmünt grüne fee tk",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.35,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/piparmunt-grune-fee"
-      },
-      "rimi": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/maitsetaimed/maitsetaimed/piparmunt-potis-grune-fee-tk/p/200295"
-      },
-      "selver": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piparmunt-potis-grune-fee-1-tk"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Papaia formosa kg",
     "category": "Fruits & vegetables",
     "prices": {
@@ -1094,6 +1133,23 @@
         "price": 6.99,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/papaia-formosa-kg/p/902709"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maasikad 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/maasikad-500-g"
+      },
+      "rimi": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/marjad/maasikad/maasikad-1kl-500g/p/231964"
       }
     },
     "matchedVia": "automatic"
@@ -1235,23 +1291,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Intsu Kirsstomat 250g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 3.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/kirsstomat-punane-intsu-talu-1kl-250g/p/911268"
-      },
-      "selver": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kirsstomat-punane-intsu-250-g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Kapsas brüsseli 500g",
     "category": "Fruits & vegetables",
     "prices": {
@@ -1264,6 +1303,23 @@
         "price": 1.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/brusseli-kapsas-500-g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Intsu Kirsstomat 250g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "rimi": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/kirsstomat-punane-intsu-talu-1kl-250g/p/911268"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirsstomat-punane-intsu-250-g"
       }
     },
     "matchedVia": "automatic"
@@ -1607,7 +1663,7 @@
         "url": "https://barbora.ee/toode/koorene-jogurt-farmi-must-kirss-400-g"
       },
       "rimi": {
-        "price": 1.24,
+        "price": 1.19,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-must-kirss-farmi-400g/p/272890"
       }
@@ -1664,12 +1720,34 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/jogurtikreem-saare-vaarika-passioni-400-g"
       },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurtikreem-saare-vaarika-passioni-400g/p/4002175"
+      },
       "selver": {
         "price": 1.82,
         "currency": "EUR",
         "url": "https://www.selver.ee/jogurtikreem-vaarika-passioni-saare-400-g",
         "cardPrice": 1.39,
         "cardName": "Partner"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Alma Koorejogurt muah troopiline 180g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejogurt-muah-troopiline-alma-180-g"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorejogurt-muah-troopiline-alma-180-g"
       }
     },
     "matchedVia": "automatic"
@@ -1736,45 +1814,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Kiivi koorene farmi 400g",
-    "category": "Dairy",
-    "prices": {
-      "barbora": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorene-jogurt-farmi-kiivi-tikri-400-g"
-      },
-      "rimi": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-kiivi-tikri-farmi-400g/p/4007985"
-      },
-      "selver": {
-        "price": 1.82,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/koorene-jogurt-kiivi-tikri-farmi-400-g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Alma Koorejogurt muah troopiline 180g",
-    "category": "Dairy",
-    "prices": {
-      "barbora": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorejogurt-muah-troopiline-alma-180-g"
-      },
-      "selver": {
-        "price": 1.31,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/koorejogurt-muah-troopiline-alma-180-g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Alma Koorejogurt muah vanilli 380g",
     "category": "Dairy",
     "prices": {
@@ -1792,6 +1831,28 @@
         "price": 1.68,
         "currency": "EUR",
         "url": "https://www.selver.ee/koorejogurt-muah-vanilli-alma-380-g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kiivi koorene farmi 400g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorene-jogurt-farmi-kiivi-tikri-400-g"
+      },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-kiivi-tikri-farmi-400g/p/4007985"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorene-jogurt-kiivi-tikri-farmi-400-g"
       }
     },
     "matchedVia": "automatic"

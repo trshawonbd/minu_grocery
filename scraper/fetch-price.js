@@ -1,7 +1,13 @@
 // Fetches product categories from multiple grocery stores, pools every
 // store's items for a category together and groups them into products
 // (see matchPool in match-products.js — a product can hold any number
-// of stores, not just two), and writes four files:
+// of stores, not just two), and writes:
+// - data/raw/<category>/<store>.json + meta.json: every item exactly
+//   as the store returned it, overwritten each run — the single
+//   source anything else needs the scraped items from (see
+//   scraper/raw.js). This is the only file in the project that
+//   should ever contact a store; everything downstream reads this
+//   instead (see scraper/no-scrape.test.js).
 // - data/prices.json: matched products, one entry per product with a
 //   `prices` object keyed by however many stores it was found at.
 //   Merges by category — a run only replaces the categories it
@@ -31,6 +37,7 @@ const { fetchBarboraPrice } = require("./stores/barbora");
 const { fetchRimiPrice } = require("./stores/rimi");
 const { fetchSelverPrice } = require("./stores/selver");
 const { matchPool, computeSignature } = require("./match-products");
+const { writeRaw } = require("./raw");
 
 // A category's urls.barbora/urls.rimi can be a single URL or an array
 // of them (see Dairy) — used when the store's own category tree has
@@ -213,6 +220,16 @@ async function main() {
       fetchAllUrls(fetchRimiPrice, category.urls.rimi, "currentPage"),
       fetchSelverPrice(category.name),
     ]);
+
+    // Saved exactly as the stores returned it, before signatures or
+    // strictPackaging are added — the single source anything else
+    // (review.md, matching experiments) should read from instead of
+    // scraping again. See scraper/raw.js and scraper/no-scrape.test.js.
+    writeRaw(category.name, {
+      order: CATEGORIES.indexOf(category),
+      strictPackaging: category.strictPackaging !== false,
+      resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
+    });
 
     // Default true; a category opts out explicitly (see CATEGORIES)
     // rather than opting in, so a new category gets the safer rule

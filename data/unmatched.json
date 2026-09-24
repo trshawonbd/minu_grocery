@@ -136,16 +136,6 @@
   },
   {
     "store": "Selver",
-    "name": "2 jätkupiimasegu kitsepiimast al. 6 kuust, HIPP, 400 g",
-    "price": 20.32
-  },
-  {
-    "store": "Selver",
-    "name": "Piimasegu 1, alates sünnist, TUTTELI, 650 g",
-    "price": 9.99
-  },
-  {
-    "store": "Selver",
     "name": "Piimal põhinev imiku piimasegu, 0+, TUTTELI, 300 g",
     "price": 5.19
   },
@@ -153,6 +143,11 @@
     "store": "Selver",
     "name": "Piimal põhinev imiku jätkupiimasegu, 6+, TUTTELI, 300 g",
     "price": 5.19
+  },
+  {
+    "store": "Selver",
+    "name": "2 jätkupiimasegu kitsepiimast al. 6 kuust, HIPP, 400 g",
+    "price": 20.32
   },
   {
     "store": "Selver",
@@ -166,18 +161,13 @@
   },
   {
     "store": "Selver",
-    "name": "Imiku piimasegu Comfort Combiotic(puhituste ja kõhukinnisuse puhul) 0+, HIPP, 300 g",
-    "price": 12.19
-  },
-  {
-    "store": "Selver",
     "name": "Valmis piimasegu Aptamil nr2 6+, APTAMIL, 2x200 ml",
     "price": 4.39
   },
   {
     "store": "Selver",
-    "name": "Gold 2 Jätkupiimasegu 6-12 kuud, FRISO, 800 g",
-    "price": 22.9
+    "name": "Imiku piimasegu Comfort Combiotic(puhituste ja kõhukinnisuse puhul) 0+, HIPP, 300 g",
+    "price": 12.19
   },
   {
     "store": "Selver",
@@ -193,6 +183,16 @@
     "store": "Selver",
     "name": "Väikelaste piimasegu kitsepiimaga nr.3, KABRITA, 800 g",
     "price": 45.9
+  },
+  {
+    "store": "Selver",
+    "name": "Gold 2 Jätkupiimasegu 6-12 kuud, FRISO, 800 g",
+    "price": 22.9
+  },
+  {
+    "store": "Barbora",
+    "name": "Mustikad, 400g",
+    "price": 5.49
   },
   {
     "store": "Barbora",
@@ -231,13 +231,13 @@
   },
   {
     "store": "Barbora",
-    "name": "Porgand lahtine,kg",
-    "price": 0.45
+    "name": "Punapeet, kg",
+    "price": 0.79
   },
   {
     "store": "Barbora",
-    "name": "Juurseller, kg",
-    "price": 1.29
+    "name": "Porgand lahtine,kg",
+    "price": 0.45
   },
   {
     "store": "Barbora",
@@ -251,11 +251,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Punane kapsas, kg",
-    "price": 1.09
-  },
-  {
-    "store": "Barbora",
     "name": "Hiina kapsas, kg",
     "price": 1.99
   },
@@ -263,11 +258,6 @@
     "store": "Barbora",
     "name": "Varsseller, 350g",
     "price": 1.35
-  },
-  {
-    "store": "Barbora",
-    "name": "Jääsalat 400g",
-    "price": 1.99
   },
   {
     "store": "Barbora",
@@ -293,6 +283,16 @@
     "store": "Barbora",
     "name": "Viinamari tume 1kl., kg",
     "price": 1.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Ploom sinine, kg",
+    "price": 1.79
+  },
+  {
+    "store": "Barbora",
+    "name": "Ploom kollane, kg",
+    "price": 3.99
   },
   {
     "store": "Barbora",
@@ -341,6 +341,11 @@
   },
   {
     "store": "Barbora",
+    "name": "Tüümian GRÜNE FEE",
+    "price": 2.35
+  },
+  {
+    "store": "Barbora",
     "name": "Avokaado HASS võrgus, 750g",
     "price": 4.29
   },
@@ -383,6 +388,11 @@
     "store": "Barbora",
     "name": "Väikesed banaanid pakitud, 250g",
     "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Salat Frillice pakis GRÜNE FEE",
+    "price": 1.39
   },
   {
     "store": "Barbora",
@@ -436,6 +446,11 @@
   },
   {
     "store": "Barbora",
+    "name": "Mahe šampinjonid pakitud 250g",
+    "price": 2.05
+  },
+  {
+    "store": "Barbora",
     "name": "Viigimari, kg",
     "price": 4.49
   },
@@ -448,6 +463,16 @@
     "store": "Barbora",
     "name": "Värske valge redis, kg",
     "price": 2.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Redis, 300g",
+    "price": 1.39
+  },
+  {
+    "store": "Barbora",
+    "name": "Värske soolakurk 300g",
+    "price": 2.99
   },
   {
     "store": "Barbora",
@@ -476,11 +501,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Kaktusvili suurevilj.viigikaktus, 500g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
     "name": "Mini šampinjonid pakitud 200g",
     "price": 1.99
   },
@@ -488,6 +508,11 @@
     "store": "Barbora",
     "name": "Mahe pirn 500g",
     "price": 3.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Võisalat potis HANSA HERBS",
+    "price": 2.39
   },
   {
     "store": "Barbora",
@@ -508,11 +533,6 @@
     "store": "Barbora",
     "name": "Basiilik potis HANSA HERBS",
     "price": 2.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Tšillipiprad Padron 200g",
-    "price": 2.99
   },
   {
     "store": "Barbora",
@@ -537,6 +557,16 @@
   {
     "store": "Barbora",
     "name": "Värske kapsasalat paprikaga, 400g",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Marineeritud kapsas porgandiga, 650g",
+    "price": 2.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Salat Rooma väike Green Gem, tk",
     "price": 1.99
   },
   {
@@ -601,8 +631,8 @@
   },
   {
     "store": "Barbora",
-    "name": "Mustikad WELL DONE, 125g",
-    "price": 2.99
+    "name": "Tšillipipar Jalapeno WELL DONE, 50g",
+    "price": 1.49
   },
   {
     "store": "Barbora",
@@ -613,6 +643,11 @@
     "store": "Barbora",
     "name": "Tšillipiprad Habanero WELL DONE, 50g",
     "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Lambsalat WELL DONE 100g",
+    "price": 1.65
   },
   {
     "store": "Barbora",
@@ -631,6 +666,21 @@
   },
   {
     "store": "Barbora",
+    "name": "Rukola WELL DONE 200g",
+    "price": 2.39
+  },
+  {
+    "store": "Barbora",
+    "name": "Salatisegu Home WELL DONE 150g",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Salatisegu Spring WELL DONE 120g",
+    "price": 1.69
+  },
+  {
+    "store": "Barbora",
     "name": "Salad mix RAINBOW WELL DONE 150g",
     "price": 1.99
   },
@@ -646,8 +696,23 @@
   },
   {
     "store": "Barbora",
+    "name": "Kapsasalat kurkumiga, 450g",
+    "price": 2.75
+  },
+  {
+    "store": "Barbora",
+    "name": "Kapsasalat porgandiga, 750g",
+    "price": 3.99
+  },
+  {
+    "store": "Barbora",
     "name": "Hapukapsas porgandiga EESTI AND, 800g",
     "price": 2.55
+  },
+  {
+    "store": "Barbora",
+    "name": "Enoki seened 100g",
+    "price": 2.19
   },
   {
     "store": "Barbora",
@@ -681,11 +746,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Apelsin pakitud WELL DONE 1kg",
-    "price": 3.19
-  },
-  {
-    "store": "Barbora",
     "name": "Köögiviljasegu Coleslaw WELL DONE, 300g",
     "price": 1.69
   },
@@ -701,8 +761,18 @@
   },
   {
     "store": "Barbora",
+    "name": "Peakapsa Kimchi 300g",
+    "price": 3.59
+  },
+  {
+    "store": "Barbora",
     "name": "Salati mix LEAFOOD 70g",
     "price": 1.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Brokkoli BIMI 160g",
+    "price": 2.49
   },
   {
     "store": "Barbora",
@@ -736,6 +806,11 @@
   },
   {
     "store": "Barbora",
+    "name": "Šampinjonid pakitud WELL DONE, 400g",
+    "price": 2.29
+  },
+  {
+    "store": "Barbora",
     "name": "Roheline sibul pakitud 150g",
     "price": 2.39
   },
@@ -766,28 +841,8 @@
   },
   {
     "store": "Barbora",
-    "name": "Mustikad, 400g",
-    "price": 5.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Punapeet, kg",
-    "price": 0.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Ploom sinine, kg",
-    "price": 1.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Ploom kollane, kg",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Tüümian GRÜNE FEE",
-    "price": 2.35
+    "name": "Jääsalat 400g",
+    "price": 1.99
   },
   {
     "store": "Barbora",
@@ -796,18 +851,8 @@
   },
   {
     "store": "Barbora",
-    "name": "Salat Frillice pakis GRÜNE FEE",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
     "name": "Rosmariin potis Ø14cm",
     "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Mahe šampinjonid pakitud 250g",
-    "price": 2.05
   },
   {
     "store": "Barbora",
@@ -816,33 +861,18 @@
   },
   {
     "store": "Barbora",
-    "name": "Redis, 300g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Värske soolakurk 300g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
     "name": "Kaste Guacamole, 150g",
     "price": 2.65
   },
   {
     "store": "Barbora",
-    "name": "Võisalat potis HANSA HERBS",
-    "price": 2.39
+    "name": "Kaktusvili suurevilj.viigikaktus, 500g",
+    "price": 2.99
   },
   {
     "store": "Barbora",
-    "name": "Marineeritud kapsas porgandiga, 650g",
-    "price": 2.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Salat Rooma väike Green Gem, tk",
-    "price": 1.99
+    "name": "Tšillipiprad Padron 200g",
+    "price": 2.99
   },
   {
     "store": "Barbora",
@@ -861,48 +891,13 @@
   },
   {
     "store": "Barbora",
+    "name": "Mustikad WELL DONE, 125g",
+    "price": 2.99
+  },
+  {
+    "store": "Barbora",
     "name": "Kirsstomat Zebrino WELL DONE, 250g",
     "price": 1.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Tšillipipar Jalapeno WELL DONE, 50g",
-    "price": 1.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Lambsalat WELL DONE 100g",
-    "price": 1.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Rukola WELL DONE 200g",
-    "price": 2.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Salatisegu Home WELL DONE 150g",
-    "price": 1.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Salatisegu Spring WELL DONE 120g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Kapsasalat kurkumiga, 450g",
-    "price": 2.75
-  },
-  {
-    "store": "Barbora",
-    "name": "Kapsasalat porgandiga, 750g",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Enoki seened 100g",
-    "price": 2.19
   },
   {
     "store": "Barbora",
@@ -911,8 +906,8 @@
   },
   {
     "store": "Barbora",
-    "name": "Peakapsa Kimchi 300g",
-    "price": 3.59
+    "name": "Apelsin pakitud WELL DONE 1kg",
+    "price": 3.19
   },
   {
     "store": "Barbora",
@@ -921,28 +916,18 @@
   },
   {
     "store": "Barbora",
-    "name": "Brokkoli BIMI 160g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
     "name": "Kimchi salat DIMDINI 250g",
     "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Šampinjonid pakitud WELL DONE, 400g",
-    "price": 2.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Turbankõrvits kg",
-    "price": 1.59
   },
   {
     "store": "Rimi",
     "name": "Mango Rimi Osteen RTE kg",
     "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Turbankõrvits kg",
+    "price": 1.59
   },
   {
     "store": "Rimi",
@@ -958,6 +943,16 @@
     "store": "Rimi",
     "name": "Dekoratiivkõrvits, tk",
     "price": 0.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Paradiisiõuna pakk 500g kl2",
+    "price": 4.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Sibula mix Eesti 1kg",
+    "price": 2.99
   },
   {
     "store": "Rimi",
@@ -1061,13 +1056,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Viinamari hele s.-ta Sultan 1kl kg",
-    "price": 1.79
+    "name": "Paprika magus Rimi 1kl, 170g",
+    "price": 1.49
   },
   {
     "store": "Rimi",
-    "name": "Paprika magus Rimi 1kl, 170g",
-    "price": 1.49
+    "name": "Viinamari hele s.-ta Sultan 1kl kg",
+    "price": 1.79
   },
   {
     "store": "Rimi",
@@ -1081,13 +1076,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Õun Golden Delicious 1kl, kg Rimi",
-    "price": 2.79
+    "name": "Ingver kg",
+    "price": 3.99
   },
   {
     "store": "Rimi",
-    "name": "Ingver kg",
-    "price": 3.99
+    "name": "Õun Golden Delicious 1kl, kg Rimi",
+    "price": 2.79
   },
   {
     "store": "Rimi",
@@ -1101,18 +1096,18 @@
   },
   {
     "store": "Rimi",
-    "name": "Roheline sibul pakitud Eesti, kg",
-    "price": 15.99
-  },
-  {
-    "store": "Rimi",
     "name": "Tomat Kumato/Chocmande 1kl, kg",
     "price": 4.69
   },
   {
     "store": "Rimi",
-    "name": "Kobartomat 1kl, kg",
-    "price": 4.69
+    "name": "Roheline sibul pakitud Eesti, kg",
+    "price": 15.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Porrulauk, kg Eesti",
+    "price": 2.39
   },
   {
     "store": "Rimi",
@@ -1123,6 +1118,16 @@
     "store": "Rimi",
     "name": "Keedetud peet 400g",
     "price": 0.95
+  },
+  {
+    "store": "Rimi",
+    "name": "Kobartomat 1kl, kg",
+    "price": 4.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Mandariin Nadorcott 1kl, kg",
+    "price": 2.99
   },
   {
     "store": "Rimi",
@@ -1176,17 +1181,17 @@
   },
   {
     "store": "Rimi",
-    "name": "Pirn Conference pakitud väike 2kl 1kg",
-    "price": 1.99
-  },
-  {
-    "store": "Rimi",
     "name": "Küüslauk Rimi 100g",
     "price": 0.99
   },
   {
     "store": "Rimi",
     "name": "Greip punane 1kl, kg",
+    "price": 1.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Pirn Conference pakitud väike 2kl 1kg",
     "price": 1.99
   },
   {
@@ -1206,11 +1211,6 @@
   },
   {
     "store": "Rimi",
-    "name": "Vaarikatomat Võiste Aiand 1kl, kg",
-    "price": 6.39
-  },
-  {
-    "store": "Rimi",
     "name": "Melon kollane Honey Dew kg",
     "price": 1.95
   },
@@ -1221,13 +1221,18 @@
   },
   {
     "store": "Rimi",
-    "name": "Kiivi Ready to Eat 1kl 4tk",
-    "price": 3.29
+    "name": "Vaarikatomat Võiste Aiand 1kl, kg",
+    "price": 6.39
   },
   {
     "store": "Rimi",
     "name": "Õun Granny Smith 1kl Rimi kg",
     "price": 2.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiivi Ready to Eat 1kl 4tk",
+    "price": 3.29
   },
   {
     "store": "Rimi",
@@ -1251,11 +1256,6 @@
   },
   {
     "store": "Rimi",
-    "name": "Petersell Rimi 30g",
-    "price": 0.73
-  },
-  {
-    "store": "Rimi",
     "name": "Õun Champion 1kl kg",
     "price": 0.47
   },
@@ -1263,6 +1263,16 @@
     "store": "Rimi",
     "name": "Basiilik potis Grüne Fee",
     "price": 2.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Hapukurk Peipsi 425g/400g",
+    "price": 2.79
+  },
+  {
+    "store": "Rimi",
+    "name": "Petersell Rimi 30g",
+    "price": 0.73
   },
   {
     "store": "Rimi",
@@ -1281,13 +1291,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Kartul Gurmee Delikatess Rimi 900g",
-    "price": 2.49
+    "name": "Kurk mahe Rimi Eco 300g",
+    "price": 2.39
   },
   {
     "store": "Rimi",
-    "name": "Kurk mahe Rimi Eco 300g",
-    "price": 2.39
+    "name": "Kartul Gurmee Delikatess Rimi 900g",
+    "price": 2.49
   },
   {
     "store": "Rimi",
@@ -1298,6 +1308,11 @@
     "store": "Rimi",
     "name": "Sidrun mahe PRIMOFIORE 2kl 500g",
     "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Passion kg",
+    "price": 9.99
   },
   {
     "store": "Rimi",
@@ -1351,6 +1366,11 @@
   },
   {
     "store": "Rimi",
+    "name": "Mahe Mungoa idud Rüüts 140g",
+    "price": 1.89
+  },
+  {
+    "store": "Rimi",
     "name": "Mahe Porgand Eco 1kg",
     "price": 2.79
   },
@@ -1366,13 +1386,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Till pakitud kg",
-    "price": 16.99
+    "name": "Mahlaapelsin Valencia 1kl 1,5kg",
+    "price": 3.79
   },
   {
     "store": "Rimi",
-    "name": "Mahlaapelsin Valencia 1kl 1,5kg",
-    "price": 3.79
+    "name": "Till pakitud kg",
+    "price": 16.99
   },
   {
     "store": "Rimi",
@@ -1386,6 +1406,11 @@
   },
   {
     "store": "Rimi",
+    "name": "Salatisegu Fit & Easy ,,Active“ 120g",
+    "price": 1.89
+  },
+  {
+    "store": "Rimi",
     "name": "Ploomtomat mini oranz Rimi 1kl, 250g",
     "price": 2.39
   },
@@ -1396,23 +1421,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Salatisegu Fit & Easy ,,Active“ 120g",
-    "price": 1.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Ploom punane kg",
-    "price": 3.99
-  },
-  {
-    "store": "Rimi",
     "name": "Mini ploomtomat mahe Rimi Eco 1kl,250g",
     "price": 2.99
   },
   {
     "store": "Rimi",
-    "name": "Kirsstomatid Rimi 1kl, 250g",
-    "price": 2.19
+    "name": "Ploom punane kg",
+    "price": 3.99
   },
   {
     "store": "Rimi",
@@ -1426,13 +1441,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Basiilik potis Hansa Herb",
-    "price": 2.19
+    "name": "Viinamari seemneteta Muscat Beauty 1kl 500g",
+    "price": 3.99
   },
   {
     "store": "Rimi",
-    "name": "Viinamari seemneteta Muscat Beauty 1kl 500g",
-    "price": 3.99
+    "name": "Basiilik potis Hansa Herb",
+    "price": 2.19
   },
   {
     "store": "Rimi",
@@ -1443,6 +1458,11 @@
     "store": "Rimi",
     "name": "Viinamari hele seemneteta mahe 1kl 500G",
     "price": 4.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Murulauk potis Grüne Fee",
+    "price": 2.39
   },
   {
     "store": "Rimi",
@@ -1481,8 +1501,8 @@
   },
   {
     "store": "Rimi",
-    "name": "Soolakurk värske ämbris Peipsi 1150g/500g",
-    "price": 4.99
+    "name": "Salat Oriental mix VEG 1kl, 100g",
+    "price": 1.69
   },
   {
     "store": "Rimi",
@@ -1496,6 +1516,11 @@
   },
   {
     "store": "Rimi",
+    "name": "Soolakurk värske ämbris Peipsi 1150g/500g",
+    "price": 4.99
+  },
+  {
+    "store": "Rimi",
     "name": "Viinamari tume seemnetega Moldova 1kl, kg",
     "price": 3.19
   },
@@ -1503,11 +1528,6 @@
     "store": "Rimi",
     "name": "Soolakurk värske 500g/300g",
     "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Salat Oriental mix VEG 1kl, 100g",
-    "price": 1.69
   },
   {
     "store": "Rimi",
@@ -1521,18 +1541,23 @@
   },
   {
     "store": "Rimi",
+    "name": "Pastinaak kg",
+    "price": 2.99
+  },
+  {
+    "store": "Rimi",
     "name": "Coleslaw segu Kadarbiku 300g",
     "price": 1.25
   },
   {
     "store": "Rimi",
-    "name": "Salatisegu Fit & Easy ,,Gourmet“ 150g",
-    "price": 1.89
+    "name": "Mahe rukola Rimi Eco 2kl, 65g",
+    "price": 2.49
   },
   {
     "store": "Rimi",
-    "name": "Mahe rukola Rimi Eco 2kl, 65g",
-    "price": 2.49
+    "name": "Salatisegu Fit & Easy ,,Gourmet“ 150g",
+    "price": 1.89
   },
   {
     "store": "Rimi",
@@ -1546,13 +1571,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Salatisegu Fit & Easy ,,Family“ 300g",
-    "price": 3.39
+    "name": "Maitseroheline taldrikul kg",
+    "price": 16.99
   },
   {
     "store": "Rimi",
-    "name": "Maitseroheline taldrikul kg",
-    "price": 16.99
+    "name": "Salatisegu Fit & Easy ,,Family“ 300g",
+    "price": 3.39
   },
   {
     "store": "Rimi",
@@ -1566,16 +1591,6 @@
   },
   {
     "store": "Rimi",
-    "name": "Minipaprikad Rimi 200g",
-    "price": 2.39
-  },
-  {
-    "store": "Rimi",
-    "name": "Paprika mix 1kl, 500g",
-    "price": 2.29
-  },
-  {
-    "store": "Rimi",
     "name": "Mahe kiivi Gold 1kl 300g",
     "price": 4.99
   },
@@ -1586,13 +1601,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Minitomat tume Rimi 250g",
-    "price": 2.69
+    "name": "Minipaprikad Rimi 200g",
+    "price": 2.39
   },
   {
     "store": "Rimi",
-    "name": "Türgi uba Rimi 150g",
-    "price": 1.99
+    "name": "Paprika mix 1kl, 500g",
+    "price": 2.29
   },
   {
     "store": "Rimi",
@@ -1601,8 +1616,18 @@
   },
   {
     "store": "Rimi",
+    "name": "Türgi uba Rimi 150g",
+    "price": 1.99
+  },
+  {
+    "store": "Rimi",
     "name": "Kuivatatud mango, 400g",
     "price": 4.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Minitomat tume Rimi 250g",
+    "price": 2.69
   },
   {
     "store": "Rimi",
@@ -1621,6 +1646,11 @@
   },
   {
     "store": "Rimi",
+    "name": "Kartul pestud punane Red Lady 2,5kg",
+    "price": 3.59
+  },
+  {
+    "store": "Rimi",
     "name": "Shimeji valged seened 150g",
     "price": 2.09
   },
@@ -1628,6 +1658,11 @@
     "store": "Rimi",
     "name": "Rooma salat Grüne Fee 110g",
     "price": 1.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Mahe lutserni idu Lõunaidu 100g",
+    "price": 1.89
   },
   {
     "store": "Rimi",
@@ -1641,16 +1676,6 @@
   },
   {
     "store": "Rimi",
-    "name": "Mahe lutserni idu Lõunaidu 100g",
-    "price": 1.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Melon roheline kg",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
     "name": "Spargel roheline 250g",
     "price": 5.99
   },
@@ -1661,13 +1686,18 @@
   },
   {
     "store": "Rimi",
-    "name": "Hapukapsas porg. mahe Säga-Aaviku 600g",
-    "price": 4.99
+    "name": "Melon roheline kg",
+    "price": 2.99
   },
   {
     "store": "Rimi",
     "name": "Türgi uba kollane kg",
     "price": 6.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Hapukapsas porg. mahe Säga-Aaviku 600g",
+    "price": 4.99
   },
   {
     "store": "Rimi",
@@ -1721,6 +1751,11 @@
   },
   {
     "store": "Rimi",
+    "name": "Keedetud aedoad Rimi 300g",
+    "price": 1.59
+  },
+  {
+    "store": "Rimi",
     "name": "Sidrunhein Rimi 50g",
     "price": 2.49
   },
@@ -1728,11 +1763,6 @@
     "store": "Rimi",
     "name": "Viinamari s.-ta Autumn Crisp 1kl 500g",
     "price": 3.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Keedetud aedoad Rimi 300g",
-    "price": 1.59
   },
   {
     "store": "Rimi",
@@ -1746,23 +1776,8 @@
   },
   {
     "store": "Rimi",
-    "name": "Aurutatud kartuliviilud 500g",
-    "price": 1.85
-  },
-  {
-    "store": "Rimi",
-    "name": "Paprika oranz 1kl, kg",
-    "price": 5.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Salat frisee Hansa Herbs 1kl, tk",
-    "price": 1.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Tšillipipra mix Rawit Bird’s eye 50g",
-    "price": 1.99
+    "name": "Tüümian Rimi 20g",
+    "price": 0.99
   },
   {
     "store": "Rimi",
@@ -1771,13 +1786,38 @@
   },
   {
     "store": "Rimi",
+    "name": "Aurutatud kartuliviilud 500g",
+    "price": 1.85
+  },
+  {
+    "store": "Rimi",
+    "name": "Salat frisee Hansa Herbs 1kl, tk",
+    "price": 1.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Paprika oranz 1kl, kg",
+    "price": 5.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Tšillipipra mix Rawit Bird’s eye 50g",
+    "price": 1.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Kapsas Savoy, kg Eesti",
+    "price": 3.49
+  },
+  {
+    "store": "Rimi",
     "name": "Tšillipipar Habanero 50g",
     "price": 1.99
   },
   {
     "store": "Rimi",
-    "name": "Eesti kartul pestud kollane Rimi 2,5 kg",
-    "price": 3.39
+    "name": "Mais keedetud öko 400g",
+    "price": 3.19
   },
   {
     "store": "Rimi",
@@ -1786,13 +1826,28 @@
   },
   {
     "store": "Rimi",
-    "name": "Austerservik 300g",
-    "price": 3.49
+    "name": "Eesti kartul pestud kollane Rimi 2,5 kg",
+    "price": 3.39
   },
   {
     "store": "Rimi",
     "name": "Punane paprika mahe Rimi Eco 200g",
     "price": 2.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Austerservik 300g",
+    "price": 3.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Ploomtomat mini 1kl, 500g",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Aurutatud kartul 500g",
+    "price": 1.85
   },
   {
     "store": "Rimi",
@@ -1821,18 +1876,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Põldmarjad Rimi 125g",
-    "price": 4.99
-  },
-  {
-    "store": "Rimi",
     "name": "Kiivimarjad 125g",
     "price": 2.99
   },
   {
     "store": "Rimi",
-    "name": "Krõmps rosso Hansa Herb 1tk",
-    "price": 1.59
+    "name": "Põldmarjad Rimi 125g",
+    "price": 4.99
   },
   {
     "store": "Rimi",
@@ -1841,13 +1891,18 @@
   },
   {
     "store": "Rimi",
+    "name": "Marja duo mix 250g",
+    "price": 7.99
+  },
+  {
+    "store": "Rimi",
     "name": "Sibul valge Rimi 300g",
     "price": 2.05
   },
   {
     "store": "Rimi",
-    "name": "Marja duo mix 250g",
-    "price": 7.99
+    "name": "Krõmps rosso Hansa Herb 1tk",
+    "price": 1.59
   },
   {
     "store": "Rimi",
@@ -1861,13 +1916,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Eesti kartul pestud punane Rimi 2,5 kg",
-    "price": 3.49
+    "name": "Kapsasalat tilliga 400g",
+    "price": 1.89
   },
   {
     "store": "Rimi",
-    "name": "Kapsasalat tilliga 400g",
-    "price": 1.89
+    "name": "Eesti kartul pestud punane Rimi 2,5 kg",
+    "price": 3.49
   },
   {
     "store": "Rimi",
@@ -1881,23 +1936,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Hapukapsasalat Eesti And 450g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
     "name": "Riisikad soolvees Berrymush 430g/270g",
     "price": 5.99
   },
   {
     "store": "Rimi",
-    "name": "Peedisalat koriandriga Eesti And 450g",
-    "price": 2.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Keedetud kikerherned Rimi 250g",
-    "price": 1.29
+    "name": "Hapukapsasalat Eesti And 450g",
+    "price": 2.99
   },
   {
     "store": "Rimi",
@@ -1906,8 +1951,18 @@
   },
   {
     "store": "Rimi",
+    "name": "Keedetud kikerherned Rimi 250g",
+    "price": 1.29
+  },
+  {
+    "store": "Rimi",
     "name": "Datlid Deglet Nour 680g",
     "price": 5.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Peedisalat koriandriga Eesti And 450g",
+    "price": 2.59
   },
   {
     "store": "Rimi",
@@ -1951,6 +2006,11 @@
   },
   {
     "store": "Selver",
+    "name": "Õun Eesti, erinevad sordid, kg",
+    "price": 4.69
+  },
+  {
+    "store": "Selver",
     "name": "Õun Tessa, kg",
     "price": 3.99
   },
@@ -1958,11 +2018,6 @@
     "store": "Selver",
     "name": "Õun Golden, kg",
     "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Õun Eesti, erinevad sordid, kg",
-    "price": 4.69
   },
   {
     "store": "Selver",
@@ -1981,13 +2036,13 @@
   },
   {
     "store": "Selver",
-    "name": "Viinamari hele seemneteta, SELVER, 500 g",
+    "name": "Kaktusmari, 500 g",
     "price": 2.99
   },
   {
     "store": "Selver",
-    "name": "Arbuus seemneteta, kg",
-    "price": 1.99
+    "name": "Granadill lahtine,  kg",
+    "price": 11.99
   },
   {
     "store": "Selver",
@@ -1998,11 +2053,6 @@
     "store": "Selver",
     "name": "Viinamari punane seemneteta, 500 g",
     "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Füüsal puhastatud, EAT ME, 125 g",
-    "price": 3.99
   },
   {
     "store": "Selver",
@@ -2031,16 +2081,6 @@
   },
   {
     "store": "Selver",
-    "name": "Tume viinamari Palieri, kg",
-    "price": 3.99
-  },
-  {
-    "store": "Selver",
-    "name": "Arbuus, kg",
-    "price": 1.59
-  },
-  {
-    "store": "Selver",
     "name": "Nektariin, kg",
     "price": 3.29
   },
@@ -2066,16 +2106,6 @@
   },
   {
     "store": "Selver",
-    "name": "Virsik Paraguayo, kg",
-    "price": 3.29
-  },
-  {
-    "store": "Selver",
-    "name": "Kollane ploom Sun, kg",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
     "name": "Melon Cantaloupe/Gallia, kg",
     "price": 3.49
   },
@@ -2091,23 +2121,23 @@
   },
   {
     "store": "Selver",
+    "name": "Mahe laim, 3 tk",
+    "price": 2.39
+  },
+  {
+    "store": "Selver",
     "name": "Greip valge, kg",
     "price": 3.29
   },
   {
     "store": "Selver",
-    "name": "Kaktusmari, 500 g",
+    "name": "Viinamari hele seemneteta, SELVER, 500 g",
     "price": 2.99
   },
   {
     "store": "Selver",
-    "name": "Granadill lahtine,  kg",
-    "price": 11.99
-  },
-  {
-    "store": "Selver",
-    "name": "Mahe laim, 3 tk",
-    "price": 2.39
+    "name": "Arbuus seemneteta, kg",
+    "price": 1.99
   },
   {
     "store": "Selver",
@@ -2118,11 +2148,6 @@
     "store": "Selver",
     "name": "Avokaado võrgus, 700 g",
     "price": 4.99
-  },
-  {
-    "store": "Selver",
-    "name": "Sidrunhein pakis, EAT ME, 50 g",
-    "price": 1.99
   },
   {
     "store": "Selver",
@@ -2141,18 +2166,8 @@
   },
   {
     "store": "Selver",
-    "name": "Mango karbis, EAT ME, 2 tk",
-    "price": 4.99
-  },
-  {
-    "store": "Selver",
     "name": "Avokaado karbis, 2tk",
     "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Nektariin Platerina, kg",
-    "price": 4.29
   },
   {
     "store": "Selver",
@@ -2161,33 +2176,128 @@
   },
   {
     "store": "Selver",
+    "name": "Mango karbis, EAT ME, 2 tk",
+    "price": 4.99
+  },
+  {
+    "store": "Selver",
+    "name": "Füüsal puhastatud, EAT ME, 125 g",
+    "price": 3.99
+  },
+  {
+    "store": "Selver",
     "name": "Avokaado Hass, 1 tk",
     "price": 2.29
   },
   {
     "store": "Selver",
-    "name": "Mugulsibul pakitud võrgus, 1 kg",
-    "price": 1.49
+    "name": "Tume viinamari Palieri, kg",
+    "price": 3.99
   },
   {
     "store": "Selver",
-    "name": "Kirssploomtomat, SAN MAZZO, 500 g",
-    "price": 5.99
+    "name": "Arbuus, kg",
+    "price": 1.59
   },
   {
     "store": "Selver",
-    "name": "Paprika Ramiro, 2 tk",
-    "price": 2.39
+    "name": "Nektariin Platerina, kg",
+    "price": 4.29
   },
   {
     "store": "Selver",
-    "name": "Redis punane, 500 g",
+    "name": "Virsik Paraguayo, kg",
+    "price": 3.29
+  },
+  {
+    "store": "Selver",
+    "name": "Kollane ploom Sun, kg",
+    "price": 3.49
+  },
+  {
+    "store": "Selver",
+    "name": "Sidrunhein pakis, EAT ME, 50 g",
     "price": 1.99
   },
   {
     "store": "Selver",
-    "name": "Kartul punane, TALUKARTUL, 2,5 kg",
-    "price": 3.59
+    "name": "Kartul 5kg (vaakum), 5 kg, ettetellimisel",
+    "price": 16.29
+  },
+  {
+    "store": "Selver",
+    "name": "Kooritud porgand vaakumis, 5 kg, ettetellimisel",
+    "price": 16.19
+  },
+  {
+    "store": "Selver",
+    "name": "Porgand pakitud, KADARBIKU KÖÖGIVILI, 1 kg",
+    "price": 1.99
+  },
+  {
+    "store": "Selver",
+    "name": "Kartul varajane, RAUTSI TALU, 5kg",
+    "price": 6.99
+  },
+  {
+    "store": "Selver",
+    "name": "Porgand pestud, RAUTSI TALU, 3 kg",
+    "price": 4.29
+  },
+  {
+    "store": "Selver",
+    "name": "Koorene Kukeseene kaste, FOODSTUDIO, 230ml",
+    "price": 3.89
+  },
+  {
+    "store": "Selver",
+    "name": "Mugulsibul võrgus, JOKRI TALU, 1 kg",
+    "price": 4.99
+  },
+  {
+    "store": "Selver",
+    "name": "Hapukapsas porgandiga, KADARBIKU KÖÖGIVILI, 900 g",
+    "price": 2.45
+  },
+  {
+    "store": "Selver",
+    "name": "Lillkapsas Romanesco, kg",
+    "price": 5.99
+  },
+  {
+    "store": "Selver",
+    "name": "Eriti Vürtsikas Peakapsa Kimchi, KRIMCHI, 400 g",
+    "price": 9.99
+  },
+  {
+    "store": "Selver",
+    "name": "Hiinakapsa Kimchi, KRIMCHI, 400 g",
+    "price": 9.99
+  },
+  {
+    "store": "Selver",
+    "name": "Eriti Vürtsikas Hiinakapsa Kimchi, KRIMCHI, 400 g",
+    "price": 9.99
+  },
+  {
+    "store": "Selver",
+    "name": "Suitsune Kimchi Lillkapsaga, KRIMCHI, 400 g",
+    "price": 9.99
+  },
+  {
+    "store": "Selver",
+    "name": "Peakapsa Kimchi, KRIMCHI, 400 g",
+    "price": 9.99
+  },
+  {
+    "store": "Selver",
+    "name": "Kanapuljong Tai moodi, FOODSTUDIO, 350 ml",
+    "price": 3.39
+  },
+  {
+    "store": "Selver",
+    "name": "Hapukapsas porgandiga topsis, KADARBIKU KÕÕGIVILI, 300g",
+    "price": 1.59
   },
   {
     "store": "Selver",
@@ -2291,16 +2401,6 @@
   },
   {
     "store": "Selver",
-    "name": "Valge redis pakitud, kg",
-    "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Spargelkapsas ehk brokoli, kg",
-    "price": 4.19
-  },
-  {
-    "store": "Selver",
     "name": "Käharkapsas, kg",
     "price": 3.99
   },
@@ -2318,121 +2418,6 @@
     "store": "Selver",
     "name": "Peet, kg",
     "price": 0.79
-  },
-  {
-    "store": "Selver",
-    "name": "Brokolini, 200g",
-    "price": 3.19
-  },
-  {
-    "store": "Selver",
-    "name": "Pikk kurk, kg",
-    "price": 2.19
-  },
-  {
-    "store": "Selver",
-    "name": "Mahe varajane kartul, KOPRA SAHVER, 1 kg",
-    "price": 4.99
-  },
-  {
-    "store": "Selver",
-    "name": "Värske soolakurk tsilliga, EESTI AND, 500 g",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
-    "name": "Mahe suvikõrvits, KOPRA SAHVER , kg",
-    "price": 3.99
-  },
-  {
-    "store": "Selver",
-    "name": "Coleslaw segu, KADARBIKU KÖÖGIVILI, 300g",
-    "price": 1.29
-  },
-  {
-    "store": "Selver",
-    "name": "Kartul 5kg (vaakum), 5 kg, ettetellimisel",
-    "price": 16.29
-  },
-  {
-    "store": "Selver",
-    "name": "Kooritud porgand vaakumis, 5 kg, ettetellimisel",
-    "price": 16.19
-  },
-  {
-    "store": "Selver",
-    "name": "Porgand pakitud, KADARBIKU KÖÖGIVILI, 1 kg",
-    "price": 1.99
-  },
-  {
-    "store": "Selver",
-    "name": "Kartul varajane, RAUTSI TALU, 5kg",
-    "price": 6.99
-  },
-  {
-    "store": "Selver",
-    "name": "Porgand pestud, RAUTSI TALU, 3 kg",
-    "price": 4.29
-  },
-  {
-    "store": "Selver",
-    "name": "Koorene Kukeseene kaste, FOODSTUDIO, 230ml",
-    "price": 3.89
-  },
-  {
-    "store": "Selver",
-    "name": "Mugulsibul võrgus, JOKRI TALU, 1 kg",
-    "price": 4.99
-  },
-  {
-    "store": "Selver",
-    "name": "Hapukapsas porgandiga, KADARBIKU KÖÖGIVILI, 900 g",
-    "price": 2.45
-  },
-  {
-    "store": "Selver",
-    "name": "Lillkapsas Romanesco, kg",
-    "price": 5.99
-  },
-  {
-    "store": "Selver",
-    "name": "Eriti Vürtsikas Peakapsa Kimchi, KRIMCHI, 400 g",
-    "price": 9.99
-  },
-  {
-    "store": "Selver",
-    "name": "Hiinakapsa Kimchi, KRIMCHI, 400 g",
-    "price": 9.99
-  },
-  {
-    "store": "Selver",
-    "name": "Eriti Vürtsikas Hiinakapsa Kimchi, KRIMCHI, 400 g",
-    "price": 9.99
-  },
-  {
-    "store": "Selver",
-    "name": "Suitsune Kimchi Lillkapsaga, KRIMCHI, 400 g",
-    "price": 9.99
-  },
-  {
-    "store": "Selver",
-    "name": "Peakapsa Kimchi, KRIMCHI, 400 g",
-    "price": 9.99
-  },
-  {
-    "store": "Selver",
-    "name": "Kanapuljong Tai moodi, FOODSTUDIO, 350 ml",
-    "price": 3.39
-  },
-  {
-    "store": "Selver",
-    "name": "Hapukapsas porgandiga topsis, KADARBIKU KÕÕGIVILI, 300g",
-    "price": 1.59
-  },
-  {
-    "store": "Selver",
-    "name": "Mais sidruni ja tšilliga, 450 g",
-    "price": 2.19
   },
   {
     "store": "Selver",
@@ -2486,8 +2471,43 @@
   },
   {
     "store": "Selver",
-    "name": "Aurutatud peet, MÕISAPROUA, 500 g",
-    "price": 1.45
+    "name": "Mahe varajane kartul, KOPRA SAHVER, 1 kg",
+    "price": 4.99
+  },
+  {
+    "store": "Selver",
+    "name": "Värske soolakurk tsilliga, EESTI AND, 500 g",
+    "price": 3.49
+  },
+  {
+    "store": "Selver",
+    "name": "Mahe suvikõrvits, KOPRA SAHVER , kg",
+    "price": 3.99
+  },
+  {
+    "store": "Selver",
+    "name": "Coleslaw segu, KADARBIKU KÖÖGIVILI, 300g",
+    "price": 1.29
+  },
+  {
+    "store": "Selver",
+    "name": "Mugulsibul pakitud võrgus, 1 kg",
+    "price": 1.49
+  },
+  {
+    "store": "Selver",
+    "name": "Kirssploomtomat, SAN MAZZO, 500 g",
+    "price": 5.99
+  },
+  {
+    "store": "Selver",
+    "name": "Paprika Ramiro, 2 tk",
+    "price": 2.39
+  },
+  {
+    "store": "Selver",
+    "name": "Kartul punane, TALUKARTUL, 2,5 kg",
+    "price": 3.59
   },
   {
     "store": "Selver",
@@ -2586,22 +2606,12 @@
   },
   {
     "store": "Selver",
-    "name": "Beebibrokoli, 200 g",
-    "price": 3.99
-  },
-  {
-    "store": "Selver",
     "name": "Porgand pakitud, KADARBIKU KÖÖGIVILI, 500 g",
     "price": 1.29
   },
   {
     "store": "Selver",
     "name": "Hapukapsas porgandiga, KADARBIKU KÖÖGIVILI, 500 g",
-    "price": 1.79
-  },
-  {
-    "store": "Selver",
-    "name": "Beebiporgand, KADARBIKU KÖÖGIVILI, 250 g",
     "price": 1.79
   },
   {
@@ -2711,8 +2721,48 @@
   },
   {
     "store": "Selver",
-    "name": "Kuivatatud kukeseen, EESTI AND, 30 g",
-    "price": 5.99
+    "name": "Beebibrokoli, 200 g",
+    "price": 3.99
+  },
+  {
+    "store": "Selver",
+    "name": "Brokolini, 200g",
+    "price": 3.19
+  },
+  {
+    "store": "Selver",
+    "name": "Valge redis pakitud, kg",
+    "price": 2.99
+  },
+  {
+    "store": "Selver",
+    "name": "Beebiporgand, KADARBIKU KÖÖGIVILI, 250 g",
+    "price": 1.79
+  },
+  {
+    "store": "Selver",
+    "name": "Redis punane, 500 g",
+    "price": 1.99
+  },
+  {
+    "store": "Selver",
+    "name": "Pikk kurk, kg",
+    "price": 2.19
+  },
+  {
+    "store": "Selver",
+    "name": "Aurutatud peet, MÕISAPROUA, 500 g",
+    "price": 1.45
+  },
+  {
+    "store": "Selver",
+    "name": "Spargelkapsas ehk brokoli, kg",
+    "price": 4.19
+  },
+  {
+    "store": "Selver",
+    "name": "Mais sidruni ja tšilliga, 450 g",
+    "price": 2.19
   },
   {
     "store": "Selver",
@@ -2733,6 +2783,11 @@
     "store": "Selver",
     "name": "Shiitake seened, 150 g",
     "price": 4.99
+  },
+  {
+    "store": "Selver",
+    "name": "Kuivatatud kukeseen, EESTI AND, 30 g",
+    "price": 5.99
   },
   {
     "store": "Selver",
@@ -2771,31 +2826,6 @@
   },
   {
     "store": "Selver",
-    "name": "Meliss potis, GRÜNE FEE, 1 tk",
-    "price": 2.39
-  },
-  {
-    "store": "Selver",
-    "name": "Koriander, 50 g",
-    "price": 2.49
-  },
-  {
-    "store": "Selver",
-    "name": "Loorber, 50 g",
-    "price": 3.59
-  },
-  {
-    "store": "Selver",
-    "name": "Küüslauk Solo, 250 g",
-    "price": 4.29
-  },
-  {
-    "store": "Selver",
-    "name": "Padrone pipar pakitud, EAT ME, 200 g",
-    "price": 2.99
-  },
-  {
-    "store": "Selver",
     "name": "Rosmariin, 50 g",
     "price": 2.49
   },
@@ -2803,16 +2833,6 @@
     "store": "Selver",
     "name": "Päevalille võrsed, VÄIKE MAHETALU, 50 g",
     "price": 3.59
-  },
-  {
-    "store": "Selver",
-    "name": "Tšillipipar Cayenne mix, EAT ME, 75 g",
-    "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Habanero pipra MIX, EAT ME, 50 g",
-    "price": 2.99
   },
   {
     "store": "Selver",
@@ -2843,6 +2863,21 @@
     "store": "Selver",
     "name": "Maitserohelise segu taldrikul, GRÜNE FEE, 1 tk",
     "price": 2.99
+  },
+  {
+    "store": "Selver",
+    "name": "Meliss potis, GRÜNE FEE, 1 tk",
+    "price": 2.39
+  },
+  {
+    "store": "Selver",
+    "name": "Koriander, 50 g",
+    "price": 2.49
+  },
+  {
+    "store": "Selver",
+    "name": "Loorber, 50 g",
+    "price": 3.59
   },
   {
     "store": "Selver",
@@ -2961,23 +2996,43 @@
   },
   {
     "store": "Selver",
-    "name": "Tüümian, 50 g",
-    "price": 2.99
-  },
-  {
-    "store": "Selver",
     "name": "Till taldrikul, GRÜNE FEE, 1 tk",
     "price": 1.79
   },
   {
     "store": "Selver",
-    "name": "Vaarikas karbis, 125 g",
-    "price": 4.99
+    "name": "Padrone pipar pakitud, EAT ME, 200 g",
+    "price": 2.99
+  },
+  {
+    "store": "Selver",
+    "name": "Tšillipipar Cayenne mix, EAT ME, 75 g",
+    "price": 2.99
+  },
+  {
+    "store": "Selver",
+    "name": "Habanero pipra MIX, EAT ME, 50 g",
+    "price": 2.99
+  },
+  {
+    "store": "Selver",
+    "name": "Tüümian, 50 g",
+    "price": 2.99
+  },
+  {
+    "store": "Selver",
+    "name": "Küüslauk Solo, 250 g",
+    "price": 4.29
   },
   {
     "store": "Selver",
     "name": "Põldmari karbis, 125 g",
     "price": 5.99
+  },
+  {
+    "store": "Selver",
+    "name": "Vaarikas karbis, 125 g",
+    "price": 4.99
   },
   {
     "store": "Selver",
@@ -3086,13 +3141,13 @@
   },
   {
     "store": "Barbora",
-    "name": "Mahetäispiim MO SAAREMAA Öko 3,8-4,4%,1L",
-    "price": 1.69
+    "name": "Piim TERE D-vitamiiniga 1.8% 1L",
+    "price": 1.19
   },
   {
     "store": "Barbora",
-    "name": "Piim TERE D-vitamiiniga 1.8% 1L",
-    "price": 1.19
+    "name": "Mahetäispiim MO SAAREMAA Öko 3,8-4,4%,1L",
+    "price": 1.69
   },
   {
     "store": "Barbora",
@@ -3216,11 +3271,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Naturaaalne mahejogurt WELL DONE 2%,140g",
-    "price": 0.65
-  },
-  {
-    "store": "Barbora",
     "name": "Jogurt Natural maitsestamata TERE 380g",
     "price": 1.31
   },
@@ -3243,6 +3293,11 @@
     "store": "Barbora",
     "name": "Kreeka jogurt FARMI 10% lakt.vaba 1kg",
     "price": 2.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Naturaaalne mahejogurt WELL DONE 2%,140g",
+    "price": 0.65
   },
   {
     "store": "Barbora",
@@ -3606,13 +3661,13 @@
   },
   {
     "store": "Rimi",
-    "name": "Või soolata Valio 500g",
-    "price": 5.89
+    "name": "Või koduaia ürtidega Saaremaa 150g",
+    "price": 2.19
   },
   {
     "store": "Rimi",
-    "name": "Või koduaia ürtidega Saaremaa 150g",
-    "price": 2.19
+    "name": "Või soolata Valio 500g",
+    "price": 5.89
   },
   {
     "store": "Rimi",
@@ -3712,7 +3767,7 @@
   {
     "store": "Rimi",
     "name": "Jogurt leiva-pähkli Farmi 400g",
-    "price": 1.24
+    "price": 1.19
   },
   {
     "store": "Rimi",
@@ -3761,12 +3816,12 @@
   },
   {
     "store": "Rimi",
-    "name": "Jogurt mangomaits. C vit. Baltais 300g",
+    "name": "Jogurt maasikamait. C vit. Baltais 300g",
     "price": 0.89
   },
   {
     "store": "Rimi",
-    "name": "Jogurt maasikamait. C vit. Baltais 300g",
+    "name": "Jogurt mangomaits. C vit. Baltais 300g",
     "price": 0.89
   },
   {
@@ -3811,28 +3866,18 @@
   },
   {
     "store": "Rimi",
-    "name": "Jogurt marja Zott Zottis 400g",
-    "price": 1.39
-  },
-  {
-    "store": "Rimi",
     "name": "Jogurt mooniseemne ja martsipani Ehrmann 500g",
     "price": 2.45
   },
   {
     "store": "Rimi",
+    "name": "Jogurt marja Zott Zottis 400g",
+    "price": 1.39
+  },
+  {
+    "store": "Rimi",
     "name": "Val.p. High Prot. šo.maits. m.a. Ehrmann 230g",
     "price": 1.85
-  },
-  {
-    "store": "Selver",
-    "name": "Kitsepiim 2,5% UHT, DANMIS, 500 ml",
-    "price": 2.08
-  },
-  {
-    "store": "Selver",
-    "name": "Piimajook 1,5% laktoosivaba, VALIO EILA, 1 L",
-    "price": 2.53
   },
   {
     "store": "Selver",
@@ -3866,21 +3911,6 @@
   },
   {
     "store": "Selver",
-    "name": "Piim 3,2% kõrgpastöriseeritud laktoosivaba, MLEKOVITA, 500 g",
-    "price": 1.45
-  },
-  {
-    "store": "Selver",
-    "name": "Piim D-vitamiiniga laktoosivaba, TERE, 1 L",
-    "price": 1.39
-  },
-  {
-    "store": "Selver",
-    "name": "Mahetäispiim 3,8 - 4,4%, MO SAAREMAA, 1 L",
-    "price": 1.45
-  },
-  {
-    "store": "Selver",
     "name": "Cappuccino piim 3,5%, TERE, 1 L",
     "price": 2.29
   },
@@ -3896,13 +3926,33 @@
   },
   {
     "store": "Selver",
-    "name": "Täispiim 3,6%-4,2% pure, FARMI, 1 L",
-    "price": 1.65
+    "name": "Kitsepiim 2,5% UHT, DANMIS, 500 ml",
+    "price": 2.08
   },
   {
     "store": "Selver",
-    "name": "Täispiim 3,6%-4,2% pure, FARMI, 2 L",
-    "price": 2.59
+    "name": "Piimajook 1,5% laktoosivaba, VALIO EILA, 1 L",
+    "price": 2.53
+  },
+  {
+    "store": "Selver",
+    "name": "Piim 3,2% kõrgpastöriseeritud laktoosivaba, MLEKOVITA, 500 g",
+    "price": 1.45
+  },
+  {
+    "store": "Selver",
+    "name": "Piim D-vitamiiniga laktoosivaba, TERE, 1 L",
+    "price": 1.39
+  },
+  {
+    "store": "Selver",
+    "name": "Mahetäispiim 3,8 - 4,4%, MO SAAREMAA, 1 L",
+    "price": 1.45
+  },
+  {
+    "store": "Selver",
+    "name": "Täispiim 3,6%-4,2% pure, FARMI, 1 L",
+    "price": 1.65
   },
   {
     "store": "Selver",
@@ -3916,13 +3966,33 @@
   },
   {
     "store": "Selver",
-    "name": "Koorejogurt Muah rukkileiva, ALMA, 380 g",
+    "name": "Täispiim 3,6%-4,2% pure, FARMI, 2 L",
+    "price": 2.59
+  },
+  {
+    "store": "Selver",
+    "name": "Koorejogurt muah sidruni-juustukoogimaitseline, ALMA, 380 g",
     "price": 1.68
   },
   {
     "store": "Selver",
-    "name": "Koorejogurt Muah crème brulée maitseline 6,5%, ALMA, 380 g",
-    "price": 1.68
+    "name": "HULGI Koorene maitsestamata jogurt 5% 2tk, FARMI, 2 x 1kg",
+    "price": 3.98
+  },
+  {
+    "store": "Selver",
+    "name": "Proteiinijogurt mustika, FIT, 150 g",
+    "price": 1.37
+  },
+  {
+    "store": "Selver",
+    "name": "Proteiinijogurt karamell, FIT, 150 g",
+    "price": 1.37
+  },
+  {
+    "store": "Selver",
+    "name": "Koorejogurt muah marja-plombiirimaitseline, ALMA, 180 g",
+    "price": 1.31
   },
   {
     "store": "Selver",
@@ -3966,6 +4036,11 @@
   },
   {
     "store": "Selver",
+    "name": "Jogurt astelpajumoosiga, SAIDAFARM, 300 ml",
+    "price": 3.19
+  },
+  {
+    "store": "Selver",
     "name": "Koorene jogurt šokolaadiga, FANTASIA, 102 g",
     "price": 1.19
   },
@@ -3976,33 +4051,28 @@
   },
   {
     "store": "Selver",
-    "name": "Koorejogurt muah sidruni-juustukoogimaitseline, ALMA, 380 g",
+    "name": "Koorene jogurt kirssidega, FARMI, 400 g",
+    "price": 1.49
+  },
+  {
+    "store": "Selver",
+    "name": "Maitsestamata jogurt, FARMI, 1 kg",
+    "price": 1.99
+  },
+  {
+    "store": "Selver",
+    "name": "Jogurt leiva-pähkli laktoosivaba, FARMI, 400 g",
+    "price": 1.49
+  },
+  {
+    "store": "Selver",
+    "name": "Koorejogurt Muah rukkileiva, ALMA, 380 g",
     "price": 1.68
   },
   {
     "store": "Selver",
-    "name": "HULGI Koorene maitsestamata jogurt 5% 2tk, FARMI, 2 x 1kg",
-    "price": 3.98
-  },
-  {
-    "store": "Selver",
-    "name": "Proteiinijogurt mustika, FIT, 150 g",
-    "price": 1.37
-  },
-  {
-    "store": "Selver",
-    "name": "Proteiinijogurt karamell, FIT, 150 g",
-    "price": 1.37
-  },
-  {
-    "store": "Selver",
-    "name": "Koorejogurt muah marja-plombiirimaitseline, ALMA, 180 g",
-    "price": 1.31
-  },
-  {
-    "store": "Selver",
-    "name": "Jogurt astelpajumoosiga, SAIDAFARM, 300 ml",
-    "price": 3.19
+    "name": "Koorejogurt Muah crème brulée maitseline 6,5%, ALMA, 380 g",
+    "price": 1.68
   },
   {
     "store": "Selver",
@@ -4036,27 +4106,7 @@
   },
   {
     "store": "Selver",
-    "name": "Koorene jogurt kirssidega, FARMI, 400 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Maitsestamata jogurt, FARMI, 1 kg",
-    "price": 1.99
-  },
-  {
-    "store": "Selver",
-    "name": "Jogurt leiva-pähkli laktoosivaba, FARMI, 400 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
     "name": "Kreemjogurt šokolaadipallidega, FANTASIA, 100 g",
-    "price": 1.19
-  },
-  {
-    "store": "Selver",
-    "name": "Kreemjogurt kirsilisandiga, FANTASIA, 118 g",
     "price": 1.19
   },
   {
@@ -4088,11 +4138,6 @@
     "store": "Selver",
     "name": "Jogurt metsmaasika 2%, ALMA, 1 kg",
     "price": 1.85
-  },
-  {
-    "store": "Selver",
-    "name": "Maitsestamata jogurt 2,5%, ALMA, 1 kg",
-    "price": 2.08
   },
   {
     "store": "Selver",
@@ -4166,18 +4211,13 @@
   },
   {
     "store": "Selver",
-    "name": "Keefirijogurt mango-apelsini, HELLUS, 380 g",
-    "price": 1.65
-  },
-  {
-    "store": "Selver",
-    "name": "Keefirijogurt maasika-mustika, HELLUS, 380 g",
-    "price": 1.65
-  },
-  {
-    "store": "Selver",
     "name": "Koorene ploomi-martsipani jogurt, FARMI, 200 g",
     "price": 1.19
+  },
+  {
+    "store": "Selver",
+    "name": "Kreeka jogurt 0,2%, FAGE, 150 g",
+    "price": 2.39
   },
   {
     "store": "Selver",
@@ -4201,6 +4241,31 @@
   },
   {
     "store": "Selver",
+    "name": "Maitsestamata jogurt 2,5%, ALMA, 1 kg",
+    "price": 2.08
+  },
+  {
+    "store": "Selver",
+    "name": "Kreemjogurt kirsilisandiga, FANTASIA, 118 g",
+    "price": 1.19
+  },
+  {
+    "store": "Selver",
+    "name": "Keefirijogurt maasika-mustika, HELLUS, 380 g",
+    "price": 1.65
+  },
+  {
+    "store": "Selver",
+    "name": "Keefirijogurt mango-apelsini, HELLUS, 380 g",
+    "price": 1.65
+  },
+  {
+    "store": "Selver",
+    "name": "Peremunad M18, EGGO, 18tk",
+    "price": 4.29
+  },
+  {
+    "store": "Selver",
     "name": "Vutimunad, JÄRVEOTSA, 12 tk",
     "price": 3.05
   },
@@ -4208,16 +4273,6 @@
     "store": "Selver",
     "name": "Õrrekanade munad M10, DAVA, 10 tk",
     "price": 2.79
-  },
-  {
-    "store": "Selver",
-    "name": "Munad M10, KALEVIPOJA MUNAD, 10 tk",
-    "price": 2.49
-  },
-  {
-    "store": "Selver",
-    "name": "Peremunad M18, EGGO, 18tk",
-    "price": 4.29
   },
   {
     "store": "Selver",
@@ -4241,11 +4296,6 @@
   },
   {
     "store": "Selver",
-    "name": "Suured munad L10 valged, EGGO, 10 tk",
-    "price": 2.89
-  },
-  {
-    "store": "Selver",
     "name": "Peremunad M10 valged, EGGO, 10 tk",
     "price": 2.39
   },
@@ -4261,16 +4311,6 @@
   },
   {
     "store": "Selver",
-    "name": "Õrrekanade munad, SELVER, 10tk",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
-    "name": "Vabalt peetavate kanade munad, SELVER, 10 tk",
-    "price": 3.79
-  },
-  {
-    "store": "Selver",
     "name": "Vutimunad, LUKSI VUTITALU, 12 tk",
     "price": 2.95
   },
@@ -4281,18 +4321,33 @@
   },
   {
     "store": "Selver",
-    "name": "Õrrekanade munad L10, DAVA, 10 tk",
-    "price": 3.25
-  },
-  {
-    "store": "Selver",
     "name": "Õrrekanade munad S/M, DAVA, 15 tk",
     "price": 3.59
   },
   {
     "store": "Selver",
-    "name": "Meierivõi soolata, VALIO, 500 g",
-    "price": 5.79
+    "name": "Õrrekanade munad, SELVER, 10tk",
+    "price": 3.49
+  },
+  {
+    "store": "Selver",
+    "name": "Vabalt peetavate kanade munad, SELVER, 10 tk",
+    "price": 3.79
+  },
+  {
+    "store": "Selver",
+    "name": "Munad M10, KALEVIPOJA MUNAD, 10 tk",
+    "price": 2.49
+  },
+  {
+    "store": "Selver",
+    "name": "Õrrekanade munad L10, DAVA, 10 tk",
+    "price": 3.25
+  },
+  {
+    "store": "Selver",
+    "name": "Suured munad L10 valged, EGGO, 10 tk",
+    "price": 2.89
   },
   {
     "store": "Selver",
@@ -4306,23 +4361,18 @@
   },
   {
     "store": "Selver",
+    "name": "Meierivõi soolata, VALIO, 500 g",
+    "price": 5.79
+  },
+  {
+    "store": "Selver",
     "name": "Ghee või, LACTEOUS, 160 g",
     "price": 7.1
   },
   {
     "store": "Selver",
-    "name": "Mo Saaremaa või küüslaugu ja soolakristallidega, SAAREMAA, 150 g",
-    "price": 2.19
-  },
-  {
-    "store": "Selver",
     "name": "Või koduaia ürtidega, SAAREMAA, 150 g",
     "price": 2.19
-  },
-  {
-    "store": "Selver",
-    "name": "Või 82%, EPIIM, 250 g",
-    "price": 3.29
   },
   {
     "store": "Selver",
@@ -4348,5 +4398,15 @@
     "store": "Selver",
     "name": "HULGI Saaremaa või, laktoosivaba 3tk, MO SAAREMAA, 3 x 200g",
     "price": 5.97
+  },
+  {
+    "store": "Selver",
+    "name": "Või 82%, EPIIM, 250 g",
+    "price": 3.29
+  },
+  {
+    "store": "Selver",
+    "name": "Mo Saaremaa või küüslaugu ja soolakristallidega, SAAREMAA, 150 g",
+    "price": 2.19
   }
 ]

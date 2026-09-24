@@ -48,6 +48,51 @@ function toLeftoverEntry(item) {
   return { store: item.store, name: item.name, price: item.price };
 }
 
+// "Possible matches to check by hand": unmatched pairs (cross-store,
+// same real brand) where everything that gates a match already
+// agrees — size, qualifiers, variant, fat % — and only the leftover
+// descriptor words (flavour, or whatever else is left over once
+// brand/size/fat % are removed) differ, by exactly one word on either
+// side (a pure addition/removal, or a single one-for-one swap; never
+// more). This is a strictly narrower net than "descriptors differ" —
+// most of that bucket is two genuinely different products that happen
+// to share a brand, not a near miss. Found by hand, not matched
+// automatically — a person still has to look at each one.
+const MAX_POSSIBLE_MATCHES_PER_CATEGORY = 30;
+
+function findPossibleMatches(unmatchedItems) {
+  const results = [];
+  const seen = new Set();
+
+  for (const a of unmatchedItems) {
+    if (results.length >= MAX_POSSIBLE_MATCHES_PER_CATEGORY) break;
+    for (const b of unmatchedItems) {
+      if (a === b || a.store === b.store) continue;
+      const key = a.store + a.name < b.store + b.name ? `${a.store}${a.name}~~${b.store}${b.name}` : `${b.store}${b.name}~~${a.store}${a.name}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      const sa = a.signature, sb = b.signature;
+      if (!sa.brand || !sb.brand || sa.brand !== sb.brand) continue;
+      if (sa.qualifiers !== sb.qualifiers) continue;
+      if (sa.variant !== sb.variant) continue;
+      if (sa.fatPercent !== sb.fatPercent) continue;
+      if (!sa.size || !sb.size || sa.size !== sb.size) continue;
+      if (sa.descriptors === sb.descriptors) continue; // would already have matched
+
+      const wordsA = sa.descriptors ? sa.descriptors.split(" ") : [];
+      const wordsB = sb.descriptors ? sb.descriptors.split(" ") : [];
+      const onlyA = wordsA.filter((w) => !wordsB.includes(w));
+      const onlyB = wordsB.filter((w) => !wordsA.includes(w));
+      if (onlyA.length > 1 || onlyB.length > 1) continue;
+
+      results.push({ a: toLeftoverEntry(a), b: toLeftoverEntry(b) });
+      if (results.length >= MAX_POSSIBLE_MATCHES_PER_CATEGORY) break;
+    }
+  }
+  return results;
+}
+
 function main() {
   const rawCategories = loadRaw();
   if (rawCategories.length === 0) {
@@ -63,6 +108,7 @@ function main() {
   // leftover files (see header comment above).
   const unclassifiedItems = [];
   const ambiguousGroups = [];
+  const possibleMatchesByCategory = [];
   const perCategory = rawCategories.map((cat) => {
     const pool = loadRawPool(cat.category);
     const realWarn = console.warn;
@@ -74,6 +120,9 @@ function main() {
     const categoryUnclassified = result.unmatched.filter(isUnclassified);
     for (const item of categoryUnclassified) unclassifiedItems.push(toLeftoverEntry(item));
     for (const { items } of result.ambiguous) ambiguousGroups.push({ category: cat.category, items: items.map(toLeftoverEntry) });
+
+    const possibleMatches = findPossibleMatches(result.unmatched);
+    if (possibleMatches.length > 0) possibleMatchesByCategory.push({ category: cat.category, pairs: possibleMatches });
 
     return {
       category: cat.category,
@@ -197,6 +246,28 @@ function main() {
     lines.push(`| ${u.store} | ${esc(u.name)} | ${eur(u.price)} |`);
   }
   lines.push("");
+
+  // ---------- Possible matches to check by hand ----------
+  lines.push("## 4. Possible matches to check by hand");
+  lines.push("");
+  lines.push(
+    `Not matched automatically — just a list. Same real brand, same size, same qualifiers/variant/fat %, and the leftover descriptor words differ by exactly one (a single addition, removal, or swap). Capped at ${MAX_POSSIBLE_MATCHES_PER_CATEGORY} pairs per category.`
+  );
+  lines.push("");
+  if (possibleMatchesByCategory.length === 0) {
+    lines.push("None found this run.");
+    lines.push("");
+  }
+  for (const { category, pairs } of possibleMatchesByCategory) {
+    lines.push(`### ${category} (${pairs.length})`);
+    lines.push("");
+    lines.push("| Item A | Item B |");
+    lines.push("|---|---|");
+    for (const { a, b } of pairs) {
+      lines.push(`| ${a.store} "${esc(a.name)}" (${eur(a.price)}) | ${b.store} "${esc(b.name)}" (${eur(b.price)}) |`);
+    }
+    lines.push("");
+  }
 
   fs.writeFileSync(REVIEW_PATH, lines.join("\n") + "\n");
   console.log(`Wrote data/review.md (${lines.length} lines).`);

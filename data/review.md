@@ -303,3 +303,98 @@ No recognized type and no recognized brand on any side — never had a reliable 
 | Rimi | Mahe pohl Eesti 250g | 4.79 € |
 | Selver | Marineeritud kuuseriisikad, 450 g | 5.99 € |
 
+## 4. Possible matches to check by hand
+
+Not matched automatically — just a list. Same real brand, same size, same qualifiers/variant/fat %, and the leftover descriptor words differ by exactly one (a single addition, removal, or swap). Capped at 30 pairs per category.
+
+### Fruits & vegetables (6)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Viinamari hele, seemneteta, 500g" (2.99 €) | Selver "Viinamari punane seemneteta, 500 g" (2.99 €) |
+| Barbora "Aurutatud punapeet KADARBIKU,500g" (1.99 €) | Rimi "Hapukapsas Kadarbiku 500g" (1.79 €) |
+| Barbora "Soolakurk küüslauguga, 500g" (3.29 €) | Rimi "Soolakurk küüslauguga Eesti And 500g/300g" (3.29 €) |
+| Barbora "Särtsakas peedisalat koriandriga, 450g" (2.59 €) | Rimi "Peedisalat koriandriga Eesti And 450g" (2.59 €) |
+| Barbora "Peakapsa Kimchi 300g" (3.59 €) | Rimi "Punase peakapsa Kimchi Kadarbiku 300g" (3.59 €) |
+| Rimi "Viinamari punane Ralli 1kl 500g" (3.29 €) | Selver "Viinamari punane seemneteta, 500 g" (2.99 €) |
+
+### Dairy (13)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Piim ALMA 0.05% 1L" (1.25 €) | Selver "Piim rasvatu 0,05%, ALMA, 1 L" (1.25 €) |
+| Barbora "Mahetäispiim MO SAAREMAA Öko 3,8-4,4%,1L" (1.69 €) | Selver "Mahetäispiim 3,8 - 4,4%, MO SAAREMAA, 1 L" (1.45 €) |
+| Barbora "Meiereivõi VALIO soolata, 500g" (4.99 €) | Rimi "Või soolata Valio 500g" (5.89 €) |
+| Barbora "Meiereivõi VALIO soolata, 500g" (4.99 €) | Selver "Meierivõi soolata, VALIO, 500 g" (5.79 €) |
+| Barbora "Proteiinijogurt ALMA kreeka m-ta 370g" (1.75 €) | Rimi "Proteiinijogurt kreeka m.-mata Alma 370g" (1.89 €) |
+| Barbora "Koorejogurt Muah marja-plomb. ALMA 180g" (1.29 €) | Selver "Koorejogurt muah marja-plombiirimaitseline, ALMA, 180 g" (1.31 €) |
+| Barbora "Koorene ploomi-martsip.jogurt FARMI 200g" (1.19 €) | Selver "Koorene ploomi-martsipani jogurt, FARMI, 200 g" (1.19 €) |
+| Rimi "Piim Alma 2,5% 1l" (1.29 €) | Selver "Piim 2,5% pure, ALMA, 1 L" (1.25 €) |
+| Rimi "Täispiim 3,6%-4,2% Farmi 1l" (1.65 €) | Selver "Täispiim 3,6%-4,2% pure, FARMI, 1 L" (1.65 €) |
+| Rimi "Piim Alma kile 2,5% 1l" (0.89 €) | Selver "Piim 2,5% pure, ALMA, 1 L" (1.25 €) |
+| Rimi "Või soolata Valio 500g" (5.89 €) | Selver "Meierivõi soolata, VALIO, 500 g" (5.79 €) |
+| Rimi "Või laktoosivaba MO Saaremaa 200g" (2.49 €) | Selver "Saaremaa või, laktoosivaba, MO SAAREMAA, 200 g" (1.99 €) |
+| Rimi "Koorejogurt rukkileiva-kaneeli Muah Alma 380g" (1.39 €) | Selver "Koorejogurt Muah rukkileiva, ALMA, 380 g" (1.68 €) |
+
+### Bread (22)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Rehe rukkileib vorm.EESTI PAGAR,600g" (0.65 €) | Rimi "Rukkileib Rehe Eesti Pagar 600g" (0.82 €) |
+| Barbora "Rehe rukkileib vorm.EESTI PAGAR,600g" (0.65 €) | Selver "Rehe rukkileib viilutatud, EESTI PAGAR, 600 g" (1.29 €) |
+| Barbora "Ruks vormileib LEIBUR 300g" (0.99 €) | Rimi "Täisteravormileib Ruks Leibur 300g" (1.05 €) |
+| Barbora "Ruks vormileib LEIBUR 300g" (0.99 €) | Selver "Täistera vormileib Ruks, LEIBUR, 300 g" (0.99 €) |
+| Barbora "Rustikaalne Meeleib EESTI PAGAR 500g" (1.79 €) | Rimi "Meeleib Eesti Pagar 500g" (1.39 €) |
+| Barbora "Teratasku Eesti Pagar 4tk, 280g" (0.99 €) | Selver "Teratasku, EESTI PAGAR, 280 g" (0.99 €) |
+| Barbora "Leiburi RÖST mitmevilja, 470g" (1.29 €) | Rimi "Röst Mitmevilja Leibur 470g" (1.89 €) |
+| Barbora "Röstsai FAZER mini, 240g" (1.29 €) | Selver "Mini röst, FAZER, 240 g" (1.29 €) |
+| Barbora "Pagari röst täistera 430g" (1.59 €) | Selver "Pagari Haputaina röst, EESTI PAGAR, 430 g" (1.59 €) |
+| Barbora "Röst 100% rukkijahu LEIBUR 550g" (1.95 €) | Selver "Röst 100% rukkijahust, LEIBUR, 550 g" (1.98 €) |
+| Barbora "5-vilja röstsepik täisterahel.FAZER,480g" (1.95 €) | Rimi "Röstsepik täisterahelvest. 5-vilja Fazer 480g" (1.55 €) |
+| Barbora "Täistera röstsepik EESTI PAGAR,500g" (1.55 €) | Rimi "Röstsepik täistera Tosta Eesti Pagar 500g" (1.19 €) |
+| Rimi "Rukkileib Rehe Eesti Pagar 600g" (0.82 €) | Selver "Rehe rukkileib viilutatud, EESTI PAGAR, 600 g" (1.29 €) |
+| Rimi "Rukkileib idan. teradega Lõuna Pagarid 300g" (1.59 €) | Selver "Rukkileib idandatud teradega, LÕUNA PAGARID, 300g" (1.49 €) |
+| Rimi "Sai Perenaise Eesti Pagar 320g" (0.89 €) | Selver "Perenaise sai viilutatud, EESTI PAGAR, 320 g" (0.97 €) |
+| Rimi "Hea Sai Eesti Pagar 300g" (0.55 €) | Selver "Hea sai viilutatud, EESTI PAGAR, 300 g" (0.55 €) |
+| Rimi "Röst Mitmevilja Leibur 470g" (1.89 €) | Selver "Röstsai mitmevilja, LEIBUR, 470 g" (1.99 €) |
+| Rimi "Röstsai mitmevilja Tosta Eesti Pagar 500g" (1.19 €) | Selver "Tosta röstsai viilutatud, EESTI PAGAR, 500 g" (1.31 €) |
+| Rimi "Röstsai mitmevilja Tosta Eesti Pagar 500g" (1.19 €) | Selver "Tosta mitmevilja-röstsai viilutatud, EESTI PAGAR, 500 g" (1.55 €) |
+| Rimi "Pagariröst täistera Eesti Pagar 430g" (1.59 €) | Selver "Röstsai täistera, EESTI PAGAR, 430 g" (1.59 €) |
+| Rimi "Saib Leibur 370g" (1.69 €) | Selver "Saib 100% rukkijahust, LEIBUR, 370 g" (1.68 €) |
+| Rimi "Kodusai mini röst Fazer 240g" (1.39 €) | Selver "Mini röst, FAZER, 240 g" (1.29 €) |
+
+### Drinks (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Mineraalvesi EVIAN 500ml" (1.25 €) | Rimi "Mineraalvesi looduslik Evian 0,5l" (1.25 €) |
+| Barbora "Vesi AURA gaasita 500ml" (0.56 €) | Rimi "Vesi Aura Mg gaasita 0.5l" (1.39 €) |
+| Barbora "Vesi AURA gaasita 500ml" (0.56 €) | Selver "Vesi Spring gaasita, AURA, 500 ml" (0.56 €) |
+| Barbora "VÄRSKA Originaal aluseline 1,5L" (1.65 €) | Selver "Värska Originaal, VÄRSKA, 1,5 L" (1.68 €) |
+| Barbora "VÄRSKA Naturaal Mullita 1,5L" (0.99 €) | Selver "Värska Naturaal gaasita, VÄRSKA, 1,5 L" (0.99 €) |
+| Barbora "Gaseerimata vesi AURA Mg 500ml" (1.29 €) | Rimi "Vesi Aura Mg gaasita 0.5l" (1.39 €) |
+| Barbora "Mineraalvesi VÄRSKA originaal 1l" (1.45 €) | Selver "Värska Originaal, VÄRSKA, 1 L" (1.45 €) |
+| Barbora "Mineraalvesi VÄRSKA originaal 1.5L" (1.69 €) | Selver "Värska Originaal, VÄRSKA, 1,5 L" (1.68 €) |
+| Barbora "Mineraalvesi VÄRSKA 0,5 L" (0.98 €) | Rimi "Mineraalvesi Värska Originaal 0,5l" (1.09 €) |
+| Barbora "Looduslik karbon.mineraalvesi BORJOMI 1L" (2.49 €) | Selver "Karboniseeritud looduslik mineraalvesi, BORJOMI, 1 L" (2.49 €) |
+| Barbora "Kergelt gaseeritud vesi AURA Mg 500ml" (1.29 €) | Selver "Vesi kergelt gaseeritud, AURA, 500 ml" (0.56 €) |
+| Barbora "Mineraalvesi VÄRSKA originaal 500ml" (0.99 €) | Selver "Värska Originaal, VÄRSKA, 500 ml" (0.97 €) |
+| Barbora "Vesi AURA FRUIT Mustikas 1.5l" (1.35 €) | Selver "Vesi Ananass, AURA FRUIT, 1,5 L" (1.39 €) |
+| Barbora "Vesi AURA FRUIT Mustikas 500ml" (0.86 €) | Selver "Vesi Ananass, AURA FRUIT, 500 ml" (0.85 €) |
+| Barbora "Vesi AURA FRUIT granadilli 1.5L" (1.49 €) | Selver "Vesi Ananass, AURA FRUIT, 1,5 L" (1.39 €) |
+| Barbora "Greibinektar CIDO 1L" (1.99 €) | Selver "Jõhvikanektar, CIDO, 1 L" (2.19 €) |
+| Barbora "Mahl RYNKEBY Kuivatatud Ploomist 1L" (4.25 €) | Selver "Kuivatatud ploomi mahl, RYNKEBY, 1 L" (4.26 €) |
+| Barbora "Astelpaju nektar SEMU 500ml" (3.09 €) | Rimi "Täismahl Semu astelpaju 0,5l" (5.99 €) |
+| Barbora "Multivitamiininektar CAPPY 1L" (2.85 €) | Selver "Multinektar, CAPPY, 1 l" (2.89 €) |
+| Barbora "Astelpaju-mustikanektar SEMU 500ml" (3.09 €) | Rimi "Täismahl Semu astelpaju 0,5l" (5.99 €) |
+| Barbora "Karastusjook FENTIMANS Rose Lemona.275ml" (2.35 €) | Rimi "Karastusjook Rose Fentimans 0,275l" (2.35 €) |
+| Barbora "Karastusjook FENTIMANS Rose Lemona.275ml" (2.35 €) | Selver "Karastusjook Rose Lemonade, FENTIMANS, 275 ml" (2.43 €) |
+| Barbora "Vahujook LIMPA Mullike 750ml" (3.39 €) | Rimi "Karastusjook Limpa Mullike 0,75l" (3.59 €) |
+| Barbora "Karastusjook COCA-COLA 6x330ml" (6.19 €) | Rimi "Karastusjook Coca-Cola 6x0,33l purk" (6.19 €) |
+| Barbora "Karastusjook COCA-COLA 6x330ml" (6.19 €) | Selver "Karastusjook Coca-Cola 6-pakk, COCA-COLA, 6 x 330 ml" (5.99 €) |
+| Barbora "Karastusjook FANTA Zero Apelsin 500ml" (1.29 €) | Rimi "Karastusjook Fanta Orange Zero 0,5l" (1.29 €) |
+| Barbora "Karastusjook FANTA Shokata Zero 500ml" (1.29 €) | Rimi "Karastusjook Fanta Orange Zero 0,5l" (1.29 €) |
+| Barbora "Karastusjook SUPER MANKI 330ml" (1.05 €) | Rimi "Karastusjook Super Manki 0,33l prk" (0.99 €) |
+| Barbora "Karastusjook COCA-COLA Zero 330ml" (1.21 €) | Rimi "Karastusjook Coca-Cola Zero 0,33l prk" (0.89 €) |
+| Barbora "Karastusjook COCA-COLA Zero 330ml" (1.21 €) | Rimi "Karastusjook Coca-Cola 0,33l prk" (0.89 €) |
+

@@ -1006,15 +1006,29 @@ function matchPool(items, overrides = [], knownDifferent = []) {
     }
 
     const groupItems = indices.map((i) => items[i]).sort((x, y) => x.store.localeCompare(y.store));
-    const canonicalName = synthesizeCanonicalName(groupItems[0], groupItems[1]);
-    const reason = indices.some((i, a) =>
-      indices.slice(a + 1).some((j) => {
+
+    // If any pair in the group matched via an override, that
+    // override's own canonical name wins outright — a person already
+    // chose it (see data/products.json), and it should never be
+    // silently replaced by the synthesized guess, the way it was
+    // before this: only synthesizing a name when nothing in the group
+    // came from an override.
+    let overrideEdge = null;
+    for (let a = 0; a < indices.length && !overrideEdge; a++) {
+      for (let b = a + 1; b < indices.length; b++) {
+        const i = indices[a];
+        const j = indices[b];
         const key = i < j ? `${i}-${j}` : `${j}-${i}`;
-        return edges.get(key)?.reason === "override";
-      })
-    )
-      ? "override"
-      : "automatic";
+        const edge = edges.get(key);
+        if (edge?.reason === "override") {
+          overrideEdge = edge;
+          break;
+        }
+      }
+    }
+
+    const canonicalName = overrideEdge ? overrideEdge.canonicalName : synthesizeCanonicalName(groupItems[0], groupItems[1]);
+    const reason = overrideEdge ? "override" : "automatic";
 
     matches.push({ items: groupItems, canonicalName, reason });
   }

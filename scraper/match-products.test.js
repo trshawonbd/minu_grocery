@@ -553,6 +553,32 @@ const tests = [
     },
   },
   {
+    name: "Pool: a group matched via an override uses the override's own canonical name, not a synthesized one",
+    run: () => {
+      // Regression test: matchPool used to always call
+      // synthesizeCanonicalName for a group's name, even when the
+      // group only came together because of an override — silently
+      // discarding the name a person chose in data/products.json.
+      const a = item("Barbora", "Täistera röstsepik EESTI PAGAR,500g");
+      const b = item("Rimi", "Röstsepik täistera Tosta Eesti Pagar 500g");
+      const overrides = [
+        {
+          name: "Eesti Pagar täistera röstsepik 500g",
+          aliases: {
+            barbora: "Täistera röstsepik EESTI PAGAR,500g",
+            rimi: "Röstsepik täistera Tosta Eesti Pagar 500g",
+          },
+        },
+      ];
+
+      const { matches } = matchPool([a, b], overrides, []);
+
+      assert.equal(matches.length, 1);
+      assert.equal(matches[0].reason, "override");
+      assert.equal(matches[0].canonicalName, "Eesti Pagar täistera röstsepik 500g");
+    },
+  },
+  {
     name: "Known brand, colour on one side only or different colours: Laheotsa 2kg potato (Selver states \"kollane\", Barbora/Rimi state none) -> false; same colour both sides -> true",
     run: () => {
       // Found by hand in the Step 3 Selver review: brand+size+type

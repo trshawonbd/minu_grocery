@@ -6,7 +6,7 @@ shows a side-by-side price comparison with the cheapest store
 highlighted. No build step, no external dependencies — just Node.js
 and a static HTML page.
 
-## The three stores and three categories
+## The three stores and five categories
 
 | Store | How it's fetched |
 |---|---|
@@ -14,11 +14,25 @@ and a static HTML page.
 | Rimi | category listing pages, server-rendered HTML |
 | Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
 
-Three categories are scraped today: **Baby formula**, **Fruits &
-vegetables**, and **Dairy**. Each store's own category tree is mapped
-onto these by hand in `scraper/fetch-price.js` (URLs for Barbora/Rimi)
-and `scraper/stores/selver.js` (category IDs and, for Baby formula,
-a name filter — Selver has no category dedicated to formula alone).
+Five categories are scraped today, with this many matched products in
+each as of the last run (`data/prices.json`):
+
+| Category | Matched products |
+|---|---|
+| Baby formula | 12 |
+| Fruits & vegetables | 65 |
+| Dairy | 31 |
+| Bread | 71 |
+| Drinks (non-alcoholic only) | 75 |
+| **Total** | **254** |
+
+Each store's own category tree is mapped onto these by hand in
+`scraper/fetch-price.js` (URLs for Barbora/Rimi) and
+`scraper/stores/selver.js` (category IDs, and a name filter wherever
+Selver's own category doesn't split cleanly — e.g. no category
+dedicated to formula alone, or a "Water" leaf mixing in vitamin
+water). The comments next to each category's URLs/IDs spell out
+exactly what's included and excluded, and why.
 
 ## How matching works, in plain words
 
@@ -34,6 +48,13 @@ store's listing." Minu has to figure that out itself, in
   (fat %, flavour, produce variety, formula stage) are pulled out of
   each raw product name with pattern matching, and two items are only
   called the same product if all of those agree.
+- Size is normalized before comparing: comma vs period ("1,5l" vs
+  "1.5L") and the unit itself (500ml vs 0,5l vs 0.5L) are all
+  collapsed to one base unit (grams or millilitres) first, so the same
+  real bottle or pack extracts identically regardless of which
+  convention a store's own text happens to use. A multipack keeps its
+  own count as part of the size ("6x330ml") — it can never equal a
+  single item of the same per-unit size, even after normalizing.
 - Every store's items for a category go into one shared pool
   (`matchPool`), not compared store-by-store. A group of matching
   items becomes one product only if **every pair** in the group
@@ -58,7 +79,12 @@ store's listing." Minu has to figure that out itself, in
   members-only or loyalty-card price. Barbora's Aitäh price and
   Selver's Partner price are shown only as a small secondary line on
   the product screen — they're informational, and never used to
-  decide which store is cheapest.
+  decide which store is cheapest. The per-kg/per-litre unit price
+  shown under each store's price is the same kind of secondary line —
+  computed for display only (`frontend/pricing.js`'s `unitPrice`) from
+  the normalized size, a multipack's *total* contents, never a store's
+  own per-unit label — and never affects which store is marked
+  cheapest either. It's simply left off when the size isn't known.
 - **One change at a time.** Matching rules, scrapers, and the data
   pipeline get changed and tested individually — never several
   unrelated changes bundled into one pass, so a regression is easy to
@@ -82,6 +108,18 @@ npm start                # serves the project at http://localhost:8000
 
 Then open **http://localhost:8000/frontend/index.html**.
 
+> **Only run one Claude Code (or any automated) session against this
+> project at a time.** A background/second session running
+> `npm run fetch-prices` while another session is mid-task has already
+> caused an unattended live scrape that silently overwrote `data/raw/`
+> and `data/prices.json` underneath work in progress — the scraped
+> data itself was fine, but it broke the "before vs after" comparison
+> the working session was relying on. Close other sessions before
+> starting real work here, and don't pre-approve
+> `Bash(node scraper/fetch-price.js)` (or any command that scrapes) to
+> run without asking — a live scrape should always need a person's
+> go-ahead in the moment.
+
 ### Why `npm start` instead of double-clicking index.html
 
 Double-clicking `frontend/index.html` opens it as a `file://` page.
@@ -103,7 +141,7 @@ which are edited by hand):
 | `data/unmatched.json` | Items with a recognizable type or brand that still didn't find a match anywhere — worth a person's look |
 | `data/unclassified.json` | Items with no recognizable type or brand at all — never had a reliable comparison to begin with |
 | `data/ambiguous.json` | Groups that don't agree with each other cleanly — needs a person to pick, see "How matching works" above |
-| `data/review.md` | A human-readable summary of the latest run, generated by `npm run review` |
+| `data/review.md` | A human-readable summary, generated by `npm run review`: a per-category summary table, all matched products, ambiguous groups, unclassified items, and a "Possible matches to check by hand" section — same-brand, same-size, same-fat%/qualifiers unmatched pairs whose leftover descriptor words differ by exactly one, capped at 30 per category. That last section is a list for a person to look at, nothing in it is matched automatically. |
 | `data/products.json` | Hand-added overrides: forces two specific listings to match, with the canonical name to use |
 | `data/known-different.json` | Hand-added overrides: forces two specific listings to never match |
 
@@ -116,7 +154,7 @@ minu-project/
 ├── data/                       see "Where each data file is" above
 ├── frontend/
 │   ├── index.html               renders the comparison from data/prices.json
-│   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows) — kept separate from the DOM code so it's directly testable
+│   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows, unit price) — kept separate from the DOM code so it's directly testable
 ├── scraper/
 │   ├── fetch-price.js            the only file that contacts a store; writes data/raw/, data/prices.json, and the leftover files
 │   ├── build-review.js           regenerates data/review.md from already-scraped data; never scrapes
@@ -125,7 +163,7 @@ minu-project/
 │   ├── no-scrape.test.js         enforces that only fetch-price.js contacts a store
 │   └── stores/
 │       ├── barbora.js            fetches + parses Barbora category pages
-│       ├── rimi.js               fetches + parses Rimi category pages
+│       ├── rimi.js               fetches + parses Rimi category pages (+ rimi.test.js, its brand-facet matching)
 │       └── selver.js             fetches Selver's catalog search API
 └── scripts/
     └── serve.js                  tiny local static server, no dependencies

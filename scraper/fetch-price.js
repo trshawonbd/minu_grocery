@@ -101,6 +101,43 @@ const CATEGORIES = [
       ],
     },
   },
+  {
+    // Strict packaging applies (the default — no opt-out here): a
+    // brand sells several genuinely different loaves at the same
+    // size (rye vs wheat, sliced vs whole), so brand+size alone isn't
+    // enough, the same reasoning as Dairy.
+    //
+    // leib/sai/röstsai/sepik only — excluded on both stores: buns
+    // ("kuklid"), crisp bread ("näkileivad"), cakes/pastries/cookies
+    // (both stores' "kondiitritooted"/confectionery branches), and
+    // each store's own in-store bakery department (Barbora's
+    // "värsked pagaritooted", Rimi's "Rimi Pagarid") — sold fresh,
+    // not a supplier-branded packaged product, the same reasoning
+    // flowers were excluded from Rimi's produce category.
+    name: "Bread",
+    urls: {
+      // "muud-leivatooted" ("other bread products") is left out too —
+      // dominated by breadcrumbs (Riivsai, Panko) with only a few
+      // real lavash loaves mixed in, no clean split available.
+      barbora: [
+        "https://barbora.ee/leivad-saiad-kondiitritooted/leivad-ja-saiad/leivad",
+        "https://barbora.ee/leivad-saiad-kondiitritooted/leivad-ja-saiad/palaleivad",
+        "https://barbora.ee/leivad-saiad-kondiitritooted/leivad-ja-saiad/saiad-ja-sepikud",
+        "https://barbora.ee/leivad-saiad-kondiitritooted/leivad-ja-saiad/rostsaiad",
+      ],
+      // Rimi's "sai" leaf already includes sepik — no separate URL
+      // for it. "koorikleib-kuklid" (crusty bread mixed with actual
+      // buns, e.g. "Burgerikukkel") and "rahvusleivad" (lavash/
+      // tortilla flatbread, not leib/sai/röstsai/sepik) are both left
+      // out — neither has a clean split between what we want and what
+      // we don't.
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/c/SH-6-3-15",
+        "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/c/SH-6-7-22",
+        "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/c/SH-6-7-21",
+      ],
+    },
+  },
 ];
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");

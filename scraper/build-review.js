@@ -1,16 +1,21 @@
 // Regenerates data/review.md from already-scraped data only: reads
-// data/raw/ (via scraper/raw.js) plus data/prices.json,
-// data/ambiguous.json, data/unmatched.json, data/unclassified.json.
-// Never contacts a store (see scraper/no-scrape.test.js) — run
-// `npm run fetch-prices` first if data/raw/ is missing or stale.
+// data/raw/ (via scraper/raw.js) and data/prices.json. Never contacts
+// a store (see scraper/no-scrape.test.js) — run `npm run fetch-prices`
+// first if data/raw/ is missing or stale.
 //
-// data/prices.json is the source for the matched-products table (the
-// real, already-written output the app reads). data/raw/ is used
-// alongside it to recompute matchPool's per-category breakdown
-// (scraped counts, unmatched/unclassified/ambiguous split) — a pure
-// computation over already-scraped items, not a new scrape — which
-// then gets cross-checked against the officially written files rather
-// than trusted blindly.
+// data/prices.json is the source for the matched-products table — it
+// merges by category across runs, so it's always complete regardless
+// of which categories were last refreshed. data/unmatched.json,
+// data/unclassified.json, and data/ambiguous.json do NOT merge — a
+// single-category fetch-price.js run overwrites them down to just
+// that category's leftovers (by design, see fetch-price.js), so they
+// go stale for every other category the moment a partial run happens.
+// Reading them here would silently understate older categories'
+// unmatched/ambiguous counts. Recomputing matchPool fresh from
+// data/raw/ (a pure computation over already-scraped items, no
+// network) for every category currently on disk avoids that — it's
+// always complete, and the total is cross-checked against
+// data/prices.json rather than trusted blindly.
 //
 // Run with: node scraper/build-review.js
 // or:       npm run review
@@ -39,6 +44,10 @@ function storeName(key) {
   return key[0].toUpperCase() + key.slice(1);
 }
 
+function toLeftoverEntry(item) {
+  return { store: item.store, name: item.name, price: item.price };
+}
+
 function main() {
   const rawCategories = loadRaw();
   if (rawCategories.length === 0) {
@@ -48,13 +57,12 @@ function main() {
   const overrides = loadJson("products.json");
   const knownDifferent = loadJson("known-different.json");
   const prices = loadJson("prices.json");
-  const ambiguous = loadJson("ambiguous.json");
-  const unmatched = loadJson("unmatched.json");
-  const unclassified = loadJson("unclassified.json");
 
   // Recomputed from data/raw/ alone (pure — no network), one entry
-  // per category, purely to get a category-tagged breakdown that
-  // prices.json/unmatched.json/etc. don't carry on their own.
+  // per category currently on disk — always complete, unlike the
+  // leftover files (see header comment above).
+  const unclassifiedItems = [];
+  const ambiguousGroups = [];
   const perCategory = rawCategories.map((cat) => {
     const pool = loadRawPool(cat.category);
     const realWarn = console.warn;
@@ -63,42 +71,41 @@ function main() {
     console.warn = realWarn;
 
     const isUnclassified = (item) => !item.signature.isProduce && !item.signature.hasBrand && item.signature.brand === null;
-    const unclassifiedCount = result.unmatched.filter(isUnclassified).length;
+    const categoryUnclassified = result.unmatched.filter(isUnclassified);
+    for (const item of categoryUnclassified) unclassifiedItems.push(toLeftoverEntry(item));
+    for (const { items } of result.ambiguous) ambiguousGroups.push({ category: cat.category, items: items.map(toLeftoverEntry) });
 
     return {
       category: cat.category,
       scrapedByStore: Object.fromEntries(Object.entries(cat.stores).map(([store, items]) => [store, items.length])),
       matched: result.matches.length,
-      unmatched: result.unmatched.length - unclassifiedCount,
-      unclassified: unclassifiedCount,
+      unmatched: result.unmatched.length - categoryUnclassified.length,
+      unclassified: categoryUnclassified.length,
       ambiguous: result.ambiguous.length,
     };
   });
 
-  // Cross-check against the officially written files rather than
-  // trusting the recomputation blindly — if these ever disagree, the
-  // files on disk are stale relative to data/raw/ (run fetch-price.js
-  // again) rather than review.md being wrong.
-  const warnings = [];
+  // Cross-checked against data/prices.json specifically — unlike the
+  // leftover files, it does merge by category across runs, so it's
+  // safe to compare against a full recomputation from data/raw/. A
+  // mismatch means data/raw/ has moved on since the last
+  // fetch-price.js run that touched prices.json (stale, not wrong).
   const recomputedMatched = perCategory.reduce((sum, c) => sum + c.matched, 0);
+  let warning = null;
   if (recomputedMatched !== prices.length) {
-    warnings.push(`recomputed ${recomputedMatched} matches from data/raw/, but data/prices.json has ${prices.length} — they were likely written from different scrapes.`);
+    warning = `recomputed ${recomputedMatched} matches from data/raw/, but data/prices.json has ${prices.length} — data/raw/ has moved on since the last run that wrote prices.json for some category.`;
+    console.warn(`build-review: ${warning}`);
   }
-  const recomputedAmbiguous = perCategory.reduce((sum, c) => sum + c.ambiguous, 0);
-  if (recomputedAmbiguous !== ambiguous.length) {
-    warnings.push(`recomputed ${recomputedAmbiguous} ambiguous groups from data/raw/, but data/ambiguous.json has ${ambiguous.length}.`);
-  }
-  for (const w of warnings) console.warn(`build-review: ${w}`);
 
   const lines = [];
   lines.push("# Price comparison review");
   lines.push("");
   lines.push(
-    `Generated ${new Date().toISOString().slice(0, 10)} by \`npm run review\` (scraper/build-review.js) from already-scraped data — data/raw/, data/prices.json, data/ambiguous.json, data/unmatched.json, data/unclassified.json. Never contacts a store; run \`npm run fetch-prices\` first for fresh numbers.`
+    `Generated ${new Date().toISOString().slice(0, 10)} by \`npm run review\` (scraper/build-review.js) from already-scraped data — data/raw/ and data/prices.json. Never contacts a store; run \`npm run fetch-prices\` first for fresh numbers. Unmatched/unclassified/ambiguous counts and listings are recomputed fresh from data/raw/ every time (not read from data/unmatched.json etc., which a single-category run narrows to just that category — see the comment at the top of this file).`
   );
   lines.push("");
   lines.push(
-    "Matching pools every store's items for a category together (scraper/match-products.js's `matchPool`) instead of comparing store pairs — a product can hold any number of stores. A group is only accepted when every pair inside it agrees on being the same product AND it holds at most one item per store; anything that fails either check (two same-store items both matching a third, or a chain that isn't a clique) goes to `ambiguous.json` instead of a guess. Selver has no live stock signal in its public API, so its price always carries a \"Selver: availability not verified\" note on the product screen, and its Partner card price is shown only as a small secondary line — neither ever decides which store is cheapest."
+    "Matching pools every store's items for a category together (scraper/match-products.js's `matchPool`) instead of comparing store pairs — a product can hold any number of stores. A group is only accepted when every pair inside it agrees on being the same product AND it holds at most one item per store; anything that fails either check (two same-store items both matching a third, or a chain that isn't a clique) goes to the ambiguous list instead of a guess. Selver has no live stock signal in its public API, so its price always carries a \"Selver: availability not verified\" note on the product screen, and its Partner card price is shown only as a small secondary line — neither ever decides which store is cheapest."
   );
   lines.push("");
 
@@ -138,8 +145,8 @@ function main() {
   lines.push(`| Unclassified | ${perCategory.map((c) => c.unclassified).join(" | ")} | ${perCategory.reduce((s, c) => s + c.unclassified, 0)} |`);
   lines.push(`| Ambiguous groups | ${perCategory.map((c) => c.ambiguous).join(" | ")} | ${perCategory.reduce((s, c) => s + c.ambiguous, 0)} |`);
   lines.push("");
-  if (warnings.length > 0) {
-    lines.push("**Note:** " + warnings.join(" "));
+  if (warning) {
+    lines.push("**Note:** " + warning);
     lines.push("");
   }
 
@@ -173,7 +180,7 @@ function main() {
   lines.push("");
   lines.push("| Category | Items in the group |");
   lines.push("|---|---|");
-  for (const a of ambiguous) {
+  for (const a of ambiguousGroups) {
     const itemsText = a.items.map((i) => `${i.store} "${esc(i.name)}" (${eur(i.price)})`).join("; ");
     lines.push(`| ${a.category} | ${itemsText} |`);
   }
@@ -186,14 +193,17 @@ function main() {
   lines.push("");
   lines.push("| Store | Name | Price |");
   lines.push("|---|---|---|");
-  for (const u of unclassified) {
+  for (const u of unclassifiedItems) {
     lines.push(`| ${u.store} | ${esc(u.name)} | ${eur(u.price)} |`);
   }
   lines.push("");
 
   fs.writeFileSync(REVIEW_PATH, lines.join("\n") + "\n");
   console.log(`Wrote data/review.md (${lines.length} lines).`);
-  console.log(`Matched: ${matchedRow.reduce((a, b) => a + b, 0)}, unmatched: ${unmatched.length}, unclassified: ${unclassified.length}, ambiguous groups: ${ambiguous.length}.`);
+  console.log(
+    `Matched: ${matchedRow.reduce((a, b) => a + b, 0)}, unmatched: ${perCategory.reduce((s, c) => s + c.unmatched, 0)}, ` +
+      `unclassified: ${unclassifiedItems.length}, ambiguous groups: ${ambiguousGroups.length}.`
+  );
 }
 
 main();

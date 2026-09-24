@@ -1,22 +1,22 @@
 # Price comparison review
 
-Generated 2026-09-24 by `npm run review` (scraper/build-review.js) from already-scraped data — data/raw/, data/prices.json, data/ambiguous.json, data/unmatched.json, data/unclassified.json. Never contacts a store; run `npm run fetch-prices` first for fresh numbers.
+Generated 2026-09-24 by `npm run review` (scraper/build-review.js) from already-scraped data — data/raw/ and data/prices.json. Never contacts a store; run `npm run fetch-prices` first for fresh numbers. Unmatched/unclassified/ambiguous counts and listings are recomputed fresh from data/raw/ every time (not read from data/unmatched.json etc., which a single-category run narrows to just that category — see the comment at the top of this file).
 
-Matching pools every store's items for a category together (scraper/match-products.js's `matchPool`) instead of comparing store pairs — a product can hold any number of stores. A group is only accepted when every pair inside it agrees on being the same product AND it holds at most one item per store; anything that fails either check (two same-store items both matching a third, or a chain that isn't a clique) goes to `ambiguous.json` instead of a guess. Selver has no live stock signal in its public API, so its price always carries a "Selver: availability not verified" note on the product screen, and its Partner card price is shown only as a small secondary line — neither ever decides which store is cheapest.
+Matching pools every store's items for a category together (scraper/match-products.js's `matchPool`) instead of comparing store pairs — a product can hold any number of stores. A group is only accepted when every pair inside it agrees on being the same product AND it holds at most one item per store; anything that fails either check (two same-store items both matching a third, or a chain that isn't a clique) goes to the ambiguous list instead of a guess. Selver has no live stock signal in its public API, so its price always carries a "Selver: availability not verified" note on the product screen, and its Partner card price is shown only as a small secondary line — neither ever decides which store is cheapest.
 
 ## Summary
 
-| | Baby formula | Fruits & vegetables | Dairy | Total |
-|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 201 + 276 + 261 | 130 + 80 + 134 | 1151 |
-| Matched (any store combination) | 12 | 64 | 31 | 107 |
-| — at all 3 stores | 1 | 18 | 9 | 28 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 21 | 3 | 25 |
-| — at 2 stores only (Barbora + Selver) | 2 | 11 | 12 | 25 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 7 | 29 |
-| Unmatched | 38 | 571 | 273 | 882 |
-| Unclassified | 0 | 4 | 0 | 4 |
-| Ambiguous groups | 2 | 5 | 0 | 7 |
+| | Baby formula | Fruits & vegetables | Dairy | Bread | Total |
+|---|---|---|---|---|---|
+| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 201 + 276 + 261 | 130 + 80 + 134 | 117 + 94 + 98 | 1460 |
+| Matched (any store combination) | 12 | 64 | 31 | 68 | 175 |
+| — at all 3 stores | 1 | 18 | 9 | 16 | 44 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 21 | 3 | 24 | 49 |
+| — at 2 stores only (Barbora + Selver) | 2 | 11 | 12 | 20 | 45 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 7 | 8 | 37 |
+| Unmatched | 38 | 571 | 273 | 157 | 1039 |
+| Unclassified | 0 | 4 | 0 | 0 | 4 |
+| Ambiguous groups | 2 | 5 | 0 | 0 | 7 |
 
 ## 1. All matched products
 
@@ -34,6 +34,74 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Hipp P 1 800g | Baby formula | — | 19.99 € | 20.90 € | Rimi |
 | Tutteli Piimasegu 2 650g | Baby formula | — | 9.99 € | 9.99 € | Rimi + Selver |
 | Tutteli Tuttelitm 1 650g | Baby formula | 9.99 € | — | 9.99 € | Barbora + Selver |
+| Eesti pagar Haputaina pehmik 240g | Bread | 1.17 € | — | 1.17 € | Barbora + Selver |
+| Eesti pagar Haputaina röst 430g | Bread | 1.59 € | 1.59 € | — | Barbora + Rimi |
+| Eesti pagar Hele ciabatta 300g | Bread | 1.09 € | 1.19 € | — | Barbora |
+| Eesti pagar Juusturöst tosta 430g | Bread | — | 1.89 € | 1.59 € | Selver |
+| Eesti pagar Kaera pehmik 220g | Bread | 1.15 € | — | 1.17 € | Barbora |
+| Eesti pagar Kaerasepik 300g | Bread | 1.25 € | 1.25 € | — | Barbora + Rimi |
+| Eesti pagar Kanepiseemne leib rukkiteradega 500g | Bread | 1.55 € | — | 1.58 € (1.29 € Partner) | Barbora |
+| Eesti pagar Leib peremehe 600g | Bread | 1.29 € | — | 1.29 € | Barbora + Selver |
+| Eesti pagar Mitmevilja pehmik 240g | Bread | 0.89 € | — | 1.17 € | Barbora |
+| Eesti pagar Must rukkileib 390g | Bread | 1.15 € | 1.15 € | — | Barbora + Rimi |
+| Eesti pagar Must vormileib 600g | Bread | 0.89 € | 1.25 € | — | Barbora |
+| Eesti pagar Pagari kaeraröst 430g | Bread | 1.49 € | 1.59 € | — | Barbora |
+| Eesti pagar Pealinna peenleib 490g | Bread | 1.27 € | 0.99 € | — | Rimi |
+| Eesti pagar Põrandaleib peremehe 450g | Bread | 1.65 € | 1.79 € | 1.67 € | Barbora |
+| Eesti pagar Rehe koorikleib 200g | Bread | 0.80 € | — | 0.80 € | Barbora + Selver |
+| Eesti pagar Rehe rukkileib 390g | Bread | 0.89 € | 1.09 € | — | Barbora |
+| Eesti pagar Röstsai tosta 500g | Bread | 0.99 € | 1.19 € | — | Barbora |
+| Eesti pagar Rukkiröst tosta 390g | Bread | 1.09 € | 1.19 € | 1.41 € | Barbora |
+| Eesti pagar Rukkisepik 300g | Bread | 1.19 € | 1.09 € | — | Rimi |
+| Eesti pagar Rukkitasku 340g | Bread | 1.05 € (0.79 € Aitäh) | — | 1.09 € | Barbora |
+| Eesti pagar Seemneleib jassi 310g | Bread | 1.17 € | 1.17 € | — | Barbora + Rimi |
+| Eesti pagar Sepik õnne 300g | Bread | 1.09 € | 1.09 € | — | Barbora + Rimi |
+| Eesti pagar Suur perenaise sai 500g | Bread | 1.21 € | 0.89 € | — | Rimi |
+| Eesti pagar Täisterasepik 500g | Bread | 1.19 € | 1.09 € | 1.55 € | Rimi |
+| Eesti pagar Tume ciabatta 300g | Bread | 1.29 € | 1.29 € | — | Barbora + Rimi |
+| Fazer Juuretise röst 450g | Bread | 1.49 € | 1.99 € | 1.89 € | Barbora |
+| Fazer Juuretisesai 500g | Bread | 1.79 € | 1.95 € | — | Barbora |
+| Fazer Kaerasepik d vitamiiniga 350g | Bread | — | 1.39 € | 1.35 € | Selver |
+| Fazer Kamaröst 400g | Bread | 1.99 € | 1.99 € | — | Barbora + Rimi |
+| Fazer Keefiriröst kaltsiumiga 450g | Bread | 1.89 € | 1.96 € | — | Barbora |
+| Fazer Keefirisai kaltsiumiga 350g | Bread | 1.19 € | 1.25 € | 1.49 € | Barbora |
+| Fazer Kodu pereleib 600g | Bread | 1.39 € | — | 0.65 € | Selver |
+| Fazer Kodusai röst 500g | Bread | 1.51 € | 1.60 € | 1.59 € | Barbora |
+| Fazer Kodusai suur 500g | Bread | 0.99 € | — | 1.49 € | Barbora |
+| Fazer Kodusai xxl 700g | Bread | — | 1.29 € | 1.39 € | Rimi |
+| Fazer Must juuretisega leib tume 500g | Bread | 1.09 € | 1.39 € | — | Barbora |
+| Fazer Must leib 300g | Bread | 1.09 € (0.75 € Aitäh) | — | 1.19 € | Barbora |
+| Fazer Must leib 600g | Bread | 1.55 € | 1.60 € | — | Barbora |
+| Fazer Must põrandaleib 390g | Bread | 1.45 € | 1.50 € | 1.49 € | Barbora |
+| Fazer Must seemneleib 280g | Bread | 1.29 € | 1.39 € | 1.19 € | Selver |
+| Fazer Peenleib juuretise 500g | Bread | 1.25 € | 1.69 € | — | Barbora |
+| Fazer Prantsuse pikk sai 220g | Bread | 1.45 € | 1.59 € | — | Barbora |
+| Fazer Röst seemnetega 500g | Bread | 1.65 € | 1.69 € | — | Barbora |
+| Fazer Seemneleib 400g | Bread | 1.99 € | 2.09 € | 2.19 € (1.89 € Partner) | Barbora |
+| Fazer Seemneröst 450g | Bread | 1.79 € | 2.39 € | 1.99 € | Barbora |
+| Fazer Sepik seemnetega 250g | Bread | 0.79 € | 0.85 € | — | Barbora |
+| Fazer Südamesepik täistera 300g | Bread | 1.21 € | — | 1.29 € | Barbora |
+| Fazer Võileiva food street tasku 400g | Bread | 2.59 € | — | 2.65 € (2.25 € Partner) | Barbora |
+| Leibur Isa peenleib 355g | Bread | 0.99 € | 0.99 € | 0.99 € | Barbora + Rimi + Selver |
+| Leibur Kirde sai 300g | Bread | 1.09 € | 0.99 € | 0.89 € | Selver |
+| Leibur Kodune sepik 250g | Bread | 0.65 € | 0.69 € | 0.65 € | Barbora + Selver |
+| Leibur Kuldne klassikaline röstsai 250g | Bread | 1.25 € | — | 1.27 € | Barbora |
+| Leibur Kuldne klassikaline röstsai 500g | Bread | 1.09 € | — | 0.95 € | Selver |
+| Leibur Mitmevilja röst 250g | Bread | — | 1.69 € | 1.62 € | Selver |
+| Leibur Peenleib isa seemnetega 390g | Bread | 1.05 € | 1.05 € | 1.05 € | Barbora + Rimi + Selver |
+| Leibur Röstsai graham kuldne 500g | Bread | — | 1.55 € | 0.69 € | Selver |
+| Leibur Röstsai kuldne täistera 500g | Bread | — | 1.79 € | 1.79 € | Rimi + Selver |
+| Leibur Rukkileib ruks 390g | Bread | 1.15 € (0.79 € Aitäh) | — | 0.89 € | Selver |
+| Leibur Rukkipala idandatud teradega 240g | Bread | 1.59 € | — | 1.95 € (1.39 € Partner) | Barbora |
+| Leibur Ruks seemneid seemneleib 390g | Bread | 1.29 € | — | 1.31 € | Barbora |
+| Leibur Ruks seemnepala 260g | Bread | 1.47 € | — | 1.47 € | Barbora + Selver |
+| Leibur Sibulaleib 390g | Bread | 2.09 € | 1.75 € | 1.59 € | Selver |
+| Leibur Suur kirde sai 450g | Bread | 1.41 € | — | 1.41 € (1.19 € Partner) | Barbora + Selver |
+| Leibur Täistera kaeraröst röst 550g | Bread | 2.19 € | — | 2.19 € | Barbora + Selver |
+| Leibur Täisterasepik fitlap 360g | Bread | — | 1.59 € | 1.62 € | Rimi |
+| Leibur Tallinna peenleib 490g | Bread | 0.99 € | 1.52 € | — | Barbora |
+| Leibur Vilja kuldne röstsai 525g | Bread | 1.55 € | 1.55 € | 1.55 € | Barbora + Rimi + Selver |
+| Lõuna pagarid Rukkileib seemnetega 300g | Bread | — | 1.69 € | 1.59 € | Selver |
 | Alma Koorejogurt muah stracciatella 380g | Dairy | 1.39 € | 1.39 € | 1.68 € | Barbora + Rimi |
 | Alma Koorejogurt muah troopiline 180g | Dairy | 1.29 € | — | 1.31 € | Barbora |
 | Alma Koorejogurt muah vanilli 380g | Dairy | 1.39 € | 1.39 € | 1.68 € | Barbora + Rimi |

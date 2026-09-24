@@ -408,6 +408,46 @@ const tests = [
     },
   },
 
+  // --- Bread ---
+  {
+    name: "Bread: sliced vs whole (viilutatud) never match, even same brand/type/size — caught by the generic descriptors check, no dedicated rule needed",
+    run: () => {
+      // Real case found reviewing the first Bread scrape: Selver
+      // states "viilutatud" explicitly on many items that also exist
+      // unsliced at Barbora/Rimi under the same brand/size. There's no
+      // dedicated sliced/whole qualifier in match-products.js —
+      // "viilutatud" is just leftover text that lands in `descriptors`
+      // like any other word, and strict packaging's descriptors check
+      // (present on one side, absent on the other -> blocked) already
+      // catches it as a side effect. This test exists so that stays
+      // true on purpose, not by accident.
+      const whole = dairyItem("Barbora", "Tallinna peenleib LEIBUR 490g", "LEIBUR");
+      const sliced = dairyItem("Selver", "Tallinna peenleib viilutatud, LEIBUR, 490 g", "LEIBUR");
+      assert.equal(sameProduct(whole, sliced), false);
+
+      // Same case Selver actually has: "1/2 viilutatud" (half-sliced)
+      // is its own distinct real product, not a wording variant of
+      // either "whole" or "fully sliced" — must not match either one.
+      const halfSliced = dairyItem("Selver", "Pealinna peenleib 1/2 viilutatud, EESTI PAGAR, 490 g", "EESTI PAGAR");
+      const fullSlicedSameBrand = dairyItem("Barbora", "Pealinna peenleib viilutatud EESTI PAGAR 490g", "EESTI PAGAR");
+      assert.equal(sameProduct(halfSliced, fullSlicedSameBrand), false);
+    },
+  },
+  {
+    name: "Bread: a store's own private label (Rimi Smart) never matches another store's item just because size/type happen to agree",
+    run: () => {
+      // Real case: "Röstsai mitmevilja Rimi Smart 500g" is Rimi's own
+      // in-house brand — no equivalent exists at Barbora/Selver by
+      // definition, but if the brand field were ever ignored (or
+      // guessed from the name instead of used from real store data),
+      // this could wrongly match any other multigrain röstsai at the
+      // same size.
+      const rimiOwnBrand = dairyItem("Rimi", "Röstsai mitmevilja Rimi Smart 500g", "Rimi Smart");
+      const otherBrand = dairyItem("Barbora", "Mitmevilja röstsai LEIBUR 500g", "LEIBUR");
+      assert.equal(sameProduct(rimiOwnBrand, otherBrand), false);
+    },
+  },
+
   // --- matchPool: shared pool across any number of stores ---
   {
     name: "Pool: a genuine 3-store group (Barbora + Rimi + Selver) becomes one product, not three pairs",

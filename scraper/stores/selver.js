@@ -214,6 +214,29 @@ const CATEGORIES = {
       },
     ],
   },
+  // "Leivad, saiad, kondiitritooted" (247) has 8 leaves. Only two hold
+  // what we want (leib/sai/röstsai/sepik) — excluded: 250 "Sepikud,
+  // kuklid, lavašid" (checked: ~43% buns/lavash by sample, and its
+  // real sepik items already show up in 249 too), 251 "Näkileivad"
+  // (crispbread), 252 "Selveri Pagarid" (Selver's own in-store
+  // bakery), 253 "Tordid" (tortes), 254 "Koogid, rullbiskviidid,
+  // tainad" (cakes/dough), 255 "Saiakesed, stritslid, kringlid"
+  // (small buns/pastries/pretzels).
+  "Bread": {
+    sources: [
+      // 248 "Leivad" (breads) — clean, no filter needed.
+      { id: 248 },
+      // 249 "Saiad" is mostly sai/sepik/röstsai (Kodusai, Perenaise
+      // sai, täisterasepik, ...) but ~16% of it (checked all 50 items
+      // by hand) is buns ("kukkel"/"kuklid", a small-bun diminutive
+      // "saiake") or lavash flatbread, none of which Barbora/Rimi's
+      // bread scrape includes — filtered the same way dairy's
+      // categories were narrowed. One item ("Võiks (6 tk)") was left
+      // unfiltered — unclear what it actually is, not worth guessing;
+      // flagged for the hand review instead.
+      { id: 249, nameFilter: excludeWords(["kukkel", "kukli", "kuklid", "saiake", "saiakesed", "lavash", "lavašš"]) },
+    ],
+  },
 };
 
 async function fetchSelverPrice(categoryName) {

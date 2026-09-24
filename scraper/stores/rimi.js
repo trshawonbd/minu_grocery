@@ -117,9 +117,22 @@ function extractBrandFacet(html) {
 
 // Finds which of a page's real brands appears in one product's name —
 // the per-item link the facet list itself doesn't provide.
+//
+// Built from the brand's own letter-runs (splitting on any spaces or
+// dots), joined back with a separator that tolerates any mix of
+// spaces and dots between them, not just the exact mix the facet
+// string itself happens to use. Real case found by hand: the facet
+// lists "A. Le Coq" (dot, then a space), but some item names write it
+// "A.Le Coq" (dot, no space) — the old regex required the facet's
+// own spacing verbatim, so that pairing never matched. Each letter-run
+// is still required verbatim and in its own order — this only
+// relaxes the punctuation between them, it never makes part of the
+// brand name itself optional, so it can't start matching an unrelated
+// or partial brand.
 function findBrandForName(name, brandFacet) {
   for (const brand of brandFacet) {
-    const pattern = new RegExp(`\\b${escapeRegExp(brand).replace(/\s+/g, "\\s+")}\\b`, "i");
+    const tokens = brand.split(/[\s.]+/).filter(Boolean).map(escapeRegExp);
+    const pattern = new RegExp(`\\b${tokens.join("[\\s.]*")}\\b`, "i");
     if (pattern.test(name)) return brand;
   }
   return null;
@@ -204,4 +217,4 @@ async function fetchRimiPrice(url) {
   return products;
 }
 
-module.exports = { fetchRimiPrice };
+module.exports = { fetchRimiPrice, findBrandForName };

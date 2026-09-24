@@ -461,7 +461,20 @@ const FAT_PERCENT_PATTERN = /\b(\d+(?:[.,]\d+)?(?:\s*-\s*\d+(?:[.,]\d+)?)?)\s*%/
 
 function extractFatPercent(name) {
   const match = name.match(FAT_PERCENT_PATTERN);
-  return match ? match[1].replace(/,/g, ".").replace(/\s+/g, "") : null;
+  if (!match) return null;
+  const value = match[1].replace(/,/g, ".").replace(/\s+/g, "");
+
+  // A lone "100%" is never a real fat content — no grocery product is
+  // pure fat (butter tops out around 82%, ghee at 99,9%). It's a
+  // purity/composition claim instead ("100% juice", "100% pure"),
+  // which wrongly blocked an otherwise-clean match whenever only one
+  // store's name happened to print the "100%" badge (e.g.
+  // "Köögiviljamahl CIDO 1L" vs "Köögiviljamahl 100%, CIDO, 1 L"). A
+  // range starting at 100 ("100-105%") is unaffected — this only
+  // catches the bare, unqualified "100%".
+  if (value === "100") return null;
+
+  return value;
 }
 
 // What's left of a packaged product's name once the known parts —

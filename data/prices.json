@@ -3360,6 +3360,11 @@
         "price": 2.39,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---tsitrus/apelsinimahl-aura-1l/p/101224"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsinimahl-100-aura-1-l"
       }
     },
     "matchedVia": "automatic"
@@ -3377,6 +3382,11 @@
         "price": 1.79,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---juurvilja/tomatimahl-aura-1l/p/101215"
+      },
+      "selver": {
+        "price": 1.76,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatimahl-100-aura-1-l"
       }
     },
     "matchedVia": "automatic"
@@ -3438,6 +3448,23 @@
         "price": 1.45,
         "currency": "EUR",
         "url": "https://www.selver.ee/ploominektar-aura-1-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Cido Köögiviljamahl 1000ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koogiviljamahl-cido-1-l"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koogiviljamahl-100-cido-1-l"
       }
     },
     "matchedVia": "automatic"
@@ -3664,6 +3691,11 @@
         "price": 3.29,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/ounamahl-pure-1l/p/1374002"
+      },
+      "selver": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ounamahl-100-pure-1-l"
       }
     },
     "matchedVia": "automatic"
@@ -3683,6 +3715,11 @@
         "price": 3.69,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---tsitrus/apelsinimahl-pure-1l/p/1373995"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsinimahl-100-pure-1-l"
       }
     },
     "matchedVia": "automatic"
@@ -3702,6 +3739,11 @@
         "price": 3.99,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/ananassimahl-pure-1l/p/1374003"
+      },
+      "selver": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ananassimahl-100-pure-1-l"
       }
     },
     "matchedVia": "automatic"
@@ -4464,6 +4506,57 @@
         "price": 0.53,
         "currency": "EUR",
         "url": "https://www.selver.ee/joogivesi-saaremaa-500-ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Don simon Apelsinimahl viljalihaga 2000ml",
+    "category": "Drinks",
+    "prices": {
+      "rimi": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---tsitrus/apelsinimahl-viljalihaga-don-simon-2l/p/168319"
+      },
+      "selver": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsinimahl-viljalihaga-100-don-simon-2-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Don simon Apelsinimahl viljalihaga 1000ml",
+    "category": "Drinks",
+    "prices": {
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---tsitrus/apelsinimahl-don-simon-viljalihaga-1l/p/157988"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsinimahl-viljalihaga-100-don-simon-1-l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Don simon Troopiliste mahl viljade 1000ml",
+    "category": "Drinks",
+    "prices": {
+      "rimi": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/troopiliste-viljade-mahl-don-simon-1l/p/161166"
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/troopiliste-viljade-mahl-100-don-simon-1-l"
       }
     },
     "matchedVia": "automatic"

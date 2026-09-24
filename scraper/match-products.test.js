@@ -350,6 +350,19 @@ const tests = [
       assert.notEqual(extractSize("Karastusjook COCA-COLA Zero 6x330ml"), extractSize("Karastusjook Coca-Cola Zero 330ml"));
     },
   },
+  {
+    name: 'A lone "100%" is not read as a fat percentage — real case: Cido köögiviljamahl matches whether or not one side prints the "100%" badge',
+    run: () => {
+      const withBadge = dairyItem("Selver", "Köögiviljamahl 100%, CIDO, 1 L", "CIDO");
+      const withoutBadge = dairyItem("Barbora", "Köögiviljamahl CIDO 1L", "CIDO");
+      assert.equal(sameProduct(withBadge, withoutBadge), true);
+
+      // A range that merely starts at 100 is a real, different fat %
+      // and must still block — only the bare "100%" is special-cased.
+      const range = dairyItem("Rimi", "Piim täisrasvane 100-105% 1L", "CIDO");
+      assert.equal(sameProduct(withoutBadge, range), false);
+    },
+  },
 
   // --- Dairy: strict packaged-product matching ---
   {

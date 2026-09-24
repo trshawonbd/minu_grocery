@@ -9,12 +9,12 @@ Matching pools every store's items for a category together (scraper/match-produc
 | | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Total |
 |---|---|---|---|---|---|---|
 | Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 201 + 276 + 261 | 130 + 80 + 134 | 117 + 94 + 98 | 418 + 420 + 349 | 2647 |
-| Matched (any store combination) | 12 | 66 | 32 | 74 | 76 | 260 |
+| Matched (any store combination) | 12 | 67 | 32 | 74 | 77 | 262 |
 | — at all 3 stores | 1 | 18 | 11 | 17 | 19 | 66 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 22 | 3 | 26 | 14 | 66 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 3 | 26 | 15 | 68 |
 | — at 2 stores only (Barbora + Selver) | 2 | 12 | 12 | 22 | 31 | 79 |
 | — at 2 stores only (Rimi + Selver) | 8 | 14 | 6 | 9 | 12 | 49 |
-| Unmatched | 38 | 567 | 269 | 144 | 1013 | 2031 |
+| Unmatched | 38 | 565 | 269 | 144 | 1011 | 2027 |
 | Unclassified | 0 | 4 | 0 | 0 | 0 | 4 |
 | Ambiguous groups | 2 | 5 | 0 | 0 | 1 | 8 |
 
@@ -186,6 +186,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Fanta Karastusjook apelsini 500ml | Drinks | 1.29 € | 1.29 € | 1.27 € | Selver |
 | Fanta Karastusjook orange 850ml | Drinks | 1.69 € | 1.29 € | — | Rimi |
 | Fanta Karastusjook orange zero 330ml | Drinks | 1.21 € (1.21 € Aitäh) | 0.89 € | — | Rimi |
+| Fanta Karastusjook orange zero 500ml | Drinks | 1.29 € | 1.29 € | — | Barbora + Rimi |
 | Fever tree Toonik indian tonic water 500ml | Drinks | — | 3.49 € | 2.59 € | Selver |
 | Heinz Tomatimahl 290ml | Drinks | — | 1.49 € | 1.49 € | Rimi + Selver |
 | Mango nektar aura 1000ml | Drinks | — | 1.89 € | 1.89 € | Rimi + Selver |
@@ -225,6 +226,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Eesti and Šampinjonid 500g | Fruits & vegetables | — | 5.79 € | 5.59 € | Selver |
 | Eesti and Sibulad 450g | Fruits & vegetables | — | 2.99 € | 2.99 € | Rimi + Selver |
 | Eesti and Soolakurk 300g | Fruits & vegetables | 3.49 € | — | 3.49 € | Barbora + Selver |
+| Eesti And Soolakurk küüslauguga 500g | Fruits & vegetables | 3.29 € | 3.29 € | — | Barbora + Rimi |
 | Granaatõun kg | Fruits & vegetables | 3.49 € | 5.99 € | 5.99 € | Barbora |
 | Hapukapsas viibergi 650g | Fruits & vegetables | — | 2.99 € | 3.99 € | Rimi |
 | Hapukurk viibergi 400g | Fruits & vegetables | — | 2.99 € | 3.39 € | Rimi |
@@ -313,13 +315,12 @@ No recognized type and no recognized brand on any side — never had a reliable 
 
 Not matched automatically — just a list. Same real brand, same size, same qualifiers/variant/fat %, and the leftover descriptor words differ by exactly one (a single addition, removal, or swap). Capped at 30 pairs per category.
 
-### Fruits & vegetables (5)
+### Fruits & vegetables (4)
 
 | Item A | Item B |
 |---|---|
 | Barbora "Viinamari hele, seemneteta, 500g" (2.99 €) | Selver "Viinamari punane seemneteta, 500 g" (2.99 €) |
 | Barbora "Aurutatud punapeet KADARBIKU,500g" (1.99 €) | Rimi "Hapukapsas Kadarbiku 500g" (1.79 €) |
-| Barbora "Soolakurk küüslauguga, 500g" (3.29 €) | Rimi "Soolakurk küüslauguga Eesti And 500g/300g" (3.29 €) |
 | Barbora "Peakapsa Kimchi 300g" (3.59 €) | Rimi "Punase peakapsa Kimchi Kadarbiku 300g" (3.59 €) |
 | Rimi "Viinamari punane Ralli 1kl 500g" (3.29 €) | Selver "Viinamari punane seemneteta, 500 g" (2.99 €) |
 
@@ -391,10 +392,10 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Vahujook LIMPA Mullike 750ml" (3.39 €) | Rimi "Karastusjook Limpa Mullike 0,75l" (3.59 €) |
 | Barbora "Karastusjook COCA-COLA 6x330ml" (6.19 €) | Rimi "Karastusjook Coca-Cola 6x0,33l purk" (6.19 €) |
 | Barbora "Karastusjook COCA-COLA 6x330ml" (6.19 €) | Selver "Karastusjook Coca-Cola 6-pakk, COCA-COLA, 6 x 330 ml" (5.99 €) |
-| Barbora "Karastusjook FANTA Zero Apelsin 500ml" (1.29 €) | Rimi "Karastusjook Fanta Orange Zero 0,5l" (1.29 €) |
-| Barbora "Karastusjook FANTA Shokata Zero 500ml" (1.29 €) | Rimi "Karastusjook Fanta Orange Zero 0,5l" (1.29 €) |
 | Barbora "Karastusjook SUPER MANKI 330ml" (1.05 €) | Rimi "Karastusjook Super Manki 0,33l prk" (0.99 €) |
 | Barbora "Karastusjook COCA-COLA Zero 330ml" (1.21 €) | Rimi "Karastusjook Coca-Cola Zero 0,33l prk" (0.89 €) |
 | Barbora "Karastusjook COCA-COLA Zero 330ml" (1.21 €) | Rimi "Karastusjook Coca-Cola 0,33l prk" (0.89 €) |
 | Barbora "Karastusjook COCA-COLA Zero 330ml" (1.21 €) | Rimi "Karastusjook Coca-Cola 0,33l pudel" (1.35 €) |
+| Barbora "Karastusjook COCA-COLA Zero 330ml" (1.21 €) | Rimi "Karastusjook Lemon Coca-Cola 0,33l" (0.89 €) |
+| Barbora "Karastusjook FANTA Zero apelsin.1.5L" (2.29 €) | Rimi "Karastusjook Fanta Orange Zero 1,5l" (2.29 €) |
 

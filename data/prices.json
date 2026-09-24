@@ -861,6 +861,25 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Eesti And Soolakurk küüslauguga 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/soolakurk-kuuslauguga-500-g",
+        "size": "500g"
+      },
+      "rimi": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/soolakurk-kuuslauguga-eesti-and-500g-300g/p/900273",
+        "size": "500g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
     "name": "Kartul talukartul punane 2500g",
     "category": "Fruits & vegetables",
     "prices": {
@@ -4593,6 +4612,25 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Fanta Karastusjook orange zero 500ml",
+    "category": "Drinks",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karastusjook-fanta-zero-apelsin-500-ml",
+        "size": "500ml"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-fanta-orange-zero-0-5l/p/1368137",
+        "size": "500ml"
+      }
+    },
+    "matchedVia": "override"
   },
   {
     "name": "Rc cola Karastusjook 2000ml",

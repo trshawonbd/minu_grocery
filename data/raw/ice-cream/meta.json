@@ -3,5 +3,11 @@
   "order": 28,
   "strictPackaging": true,
   "matchAcrossWeights": false,
-  "fetchedAt": "2026-09-25T12:52:33.462Z"
+  "diaperMatching": false,
+  "fixedWeightMustMatch": false,
+  "impliedDescriptors": [
+    "jäätis",
+    "külmutatud"
+  ],
+  "fetchedAt": "2026-09-25T20:49:50.797Z"
 }

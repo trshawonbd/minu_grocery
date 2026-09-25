@@ -24143,138 +24143,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Premia Koorejäätis stracciatella 480g",
-    "category": "Ice cream",
-    "prices": {
-      "barbora": {
-        "price": 4.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorejaatis-premia-stracciatella-480-g",
-        "size": "480g",
-        "storeUnitPrice": 9.98
-      },
-      "selver": {
-        "price": 4.79,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/stracciatella-koorejaatis-premia-480-g",
-        "cardPrice": 3.79,
-        "cardName": "Partner",
-        "size": "480g",
-        "storeUnitPrice": 9.98
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Premia Koorejäätis mango meloni 480g",
-    "category": "Ice cream",
-    "prices": {
-      "barbora": {
-        "price": 4.15,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorejaatis-premia-mango-meloni-480-g",
-        "size": "480g",
-        "storeUnitPrice": 8.65
-      },
-      "selver": {
-        "price": 4.15,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/mango-meloni-koorejaatis-premia-480-g",
-        "cardPrice": 3.39,
-        "cardName": "Partner",
-        "size": "480g",
-        "storeUnitPrice": 8.65
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Balbiino Koorejäätis laktoosivaba lactose-free 480g",
-    "category": "Ice cream",
-    "prices": {
-      "barbora": {
-        "price": 5.69,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorejaatis-laktoosivaba-balbiino-480-g",
-        "size": "480g",
-        "storeUnitPrice": 11.85
-      },
-      "selver": {
-        "price": 5.68,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/laktoosivaba-koorejaatis-balbiino-480-g",
-        "size": "480g",
-        "storeUnitPrice": 11.83
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Premia Koorejäätis pistaatsia 240g",
-    "category": "Ice cream",
-    "prices": {
-      "barbora": {
-        "price": 4.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorejaatis-pistaatsia-premia-240-g",
-        "size": "240g",
-        "storeUnitPrice": 17.46
-      },
-      "selver": {
-        "price": 4.22,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/pistaatsia-koorejaatis-premia-240-g",
-        "size": "240g",
-        "storeUnitPrice": 17.58
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Eriti rammus Koorejäätis vanilli 100g",
-    "category": "Ice cream",
-    "prices": {
-      "barbora": {
-        "price": 1.78,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorejaatis-eriti-rammus-vanilli-100-g",
-        "cardPrice": 1.19,
-        "cardName": "Aitäh",
-        "size": "100g",
-        "storeUnitPrice": 11.9
-      },
-      "rimi": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/koonusjaatised/koorejaatis-vanilli-eriti-rammus-100g/p/278585",
-        "size": "100g",
-        "storeUnitPrice": 10.82
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Eriti rammus Koorejäätis mustika 110g",
-    "category": "Ice cream",
-    "prices": {
-      "barbora": {
-        "price": 1.78,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koorejaatis-eriti-rammus-mustika-110-g",
-        "size": "110g",
-        "storeUnitPrice": 16.18
-      },
-      "rimi": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/koonusjaatised/koorejaatis-mustika-eriti-rammus-110g/p/917440",
-        "size": "110g",
-        "storeUnitPrice": 10.82
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Vici Kuumsuitsu nahaga skumbriafilee 175g",
     "category": "Fish & seafood",
     "prices": {
@@ -36931,6 +36799,366 @@
         "url": "https://www.selver.ee/puhapaevapada-maaharra-400-g",
         "size": "400g",
         "storeUnitPrice": 4.3
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Väike tom vanilli 60g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jaatis-vaike-tom-vanillimaits-60-g",
+        "size": "60g",
+        "storeUnitPrice": 15.83
+      },
+      "rimi": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/pulgajaatised/jaatis-vanilli-vaike-tom-60g-90ml/p/201162",
+        "size": "60g",
+        "storeUnitPrice": 15.83
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Väike tom lehmakommi 60g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jaatis-vaike-tom-lehmakommimaits-60-g",
+        "size": "60g",
+        "storeUnitPrice": 11.28
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/pulgajaatised/jaatis-lehmakommi-vaike-tom-60g/p/273253",
+        "size": "60g",
+        "storeUnitPrice": 16.5
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Vana toomas vanilliplombiir 90g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jaatis-vana-toomas-vanilliplombiir-90-g",
+        "size": "90g",
+        "storeUnitPrice": 16.56
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/pulgajaatised/vanilliplombiir-vana-toomas-90g-150ml/p/286294",
+        "size": "90g",
+        "storeUnitPrice": 15.44
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Onu eskimo Koorejäätis šokolaadi 57g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejaatis-soko-onu-eskimo-57-g",
+        "size": "57g",
+        "storeUnitPrice": 17.37
+      },
+      "selver": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadi-koorejaatis-onu-eskimo-57-g",
+        "size": "57g",
+        "storeUnitPrice": 18.42
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Magnum strawberry white 81g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 1.3,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jaatis-strawberry-white-magnum-81-g",
+        "size": "81g",
+        "storeUnitPrice": 16.05
+      },
+      "selver": {
+        "price": 1.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/white-strawberry-magnum-81-g",
+        "size": "81g",
+        "storeUnitPrice": 23.21
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Premia Koorejäätis stracciatella 480g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejaatis-premia-stracciatella-480-g",
+        "size": "480g",
+        "storeUnitPrice": 9.98
+      },
+      "rimi": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/perejaatised/koorejaatis-stracciatella-premia-480g-1l/p/921556",
+        "size": "480g",
+        "storeUnitPrice": 9.98
+      },
+      "selver": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/stracciatella-koorejaatis-premia-480-g",
+        "cardPrice": 3.79,
+        "cardName": "Partner",
+        "size": "480g",
+        "storeUnitPrice": 9.98
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Premia Koorejäätis mango meloni 480g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 4.15,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejaatis-premia-mango-meloni-480-g",
+        "size": "480g",
+        "storeUnitPrice": 8.65
+      },
+      "rimi": {
+        "price": 4.15,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/perejaatised/koorejaatis-mango-meloni-premia-480g-1l/p/921570",
+        "size": "480g",
+        "storeUnitPrice": 8.65
+      },
+      "selver": {
+        "price": 4.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mango-meloni-koorejaatis-premia-480-g",
+        "cardPrice": 3.39,
+        "cardName": "Partner",
+        "size": "480g",
+        "storeUnitPrice": 8.65
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Balbiino Koorejäätis laktoosivaba lactose-free 480g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejaatis-laktoosivaba-balbiino-480-g",
+        "size": "480g",
+        "storeUnitPrice": 11.85
+      },
+      "selver": {
+        "price": 5.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/laktoosivaba-koorejaatis-balbiino-480-g",
+        "size": "480g",
+        "storeUnitPrice": 11.83
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Premia Koorejäätis pistaatsia 240g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejaatis-pistaatsia-premia-240-g",
+        "size": "240g",
+        "storeUnitPrice": 17.46
+      },
+      "selver": {
+        "price": 4.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pistaatsia-koorejaatis-premia-240-g",
+        "size": "240g",
+        "storeUnitPrice": 17.58
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Nutella 230g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jaatis-nutella-230-g",
+        "size": "230g",
+        "storeUnitPrice": 35.61
+      },
+      "rimi": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/perejaatised/jaatis-nutella-230g-470ml/p/4009524",
+        "size": "230g",
+        "storeUnitPrice": 35.61
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eriti rammus Koorejäätis vanilli 100g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejaatis-eriti-rammus-vanilli-100-g",
+        "cardPrice": 1.19,
+        "cardName": "Aitäh",
+        "size": "100g",
+        "storeUnitPrice": 11.9
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/koonusjaatised/koorejaatis-vanilli-eriti-rammus-100g/p/278585",
+        "size": "100g",
+        "storeUnitPrice": 10.82
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eriti rammus Koorejäätis mustika 110g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejaatis-eriti-rammus-mustika-110-g",
+        "size": "110g",
+        "storeUnitPrice": 16.18
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/koonusjaatised/koorejaatis-mustika-eriti-rammus-110g/p/917440",
+        "size": "110g",
+        "storeUnitPrice": 10.82
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "La muu mango passioni vegan 250g",
+    "category": "Ice cream",
+    "prices": {
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/vegantooted/taimsed-kulmutatud-tooted/jaatis-mango-passioni-la-muu-vegan-250g-500ml/p/4008108",
+        "size": "250g",
+        "storeUnitPrice": 15.96
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mango-passioni-jaatis-vegan-la-muu-250-g",
+        "cardPrice": 3.79,
+        "cardName": "Partner",
+        "size": "250g",
+        "storeUnitPrice": 17.96
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Vanilla ninja Karamelli glasuuris koorejäätis 80g",
+    "category": "Ice cream",
+    "prices": {
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/pulgajaatised/karamelli-koorejaatis-glas-vanilla-ninja-80g/p/997717",
+        "size": "80g",
+        "storeUnitPrice": 14.88
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karamelli-koorejaatis-glasuuris-vanilla-ninja-80-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "80g",
+        "storeUnitPrice": 14.88
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Balbiino Jogurtijäätis jogurtiglasuuris mustika 54g",
+    "category": "Ice cream",
+    "prices": {
+      "rimi": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/pulgajaatised/jogurtijaatis-mustika-jogurtigl-balbiino-54g/p/4007462",
+        "size": "54g",
+        "storeUnitPrice": 23.15
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustika-jogurtijaatis-jogurtiglasuuris-balbiino-54-g",
+        "size": "54g",
+        "storeUnitPrice": 22.04
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "La muu Kondenspiimajäätis 250g",
+    "category": "Ice cream",
+    "prices": {
+      "rimi": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/perejaatised/kondenspiimajaatis-la-muu-250g-500ml/p/4008176",
+        "size": "250g",
+        "storeUnitPrice": 17.96
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kondenspiimajaatis-la-muu-250-g",
+        "size": "250g",
+        "storeUnitPrice": 17.96
       }
     },
     "matchedVia": "automatic"

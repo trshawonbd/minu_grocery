@@ -1,0 +1,111 @@
+// Regression test for scraper/raw.js — specifically, that
+// loadRawPool actually propagates a category's per-item settings
+// (strictPackaging, matchAcrossWeights) from meta.json onto the pool
+// items it builds, the same way fetch-price.js does for a live run.
+// Real bug found by hand: matchAcrossWeights (added for Meat) was
+// wired into match-products.js and scraper/categories.js, but neither
+// writeRaw nor loadRawPool ever passed it through — meta.json never
+// recorded it, and every pool item built from data/raw/ silently ran
+// the old strict size-equality rule instead of Meat's relaxed one, a
+// live scrape's whole point. Caught only by checking a real matched
+// pair by hand after the fact, not by any test — this exists so it
+// can't happen silently again for the next per-category setting.
+// Run with: node scraper/raw.test.js
+// or:       npm test
+
+const assert = require("node:assert/strict");
+const fs = require("fs");
+const os = require("os");
+const path = require("path");
+const { writeRaw, loadRawPool } = require("./raw");
+
+function test(name, run) {
+  try {
+    run();
+    console.log(`PASS  ${name}`);
+    return true;
+  } catch (err) {
+    console.log(`FAIL  ${name}`);
+    console.log(`      ${err.message}`);
+    return false;
+  }
+}
+
+function withTempDir(run) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "minu-raw-test-"));
+  try {
+    run(dir);
+  } finally {
+    fs.rmSync(dir, { recursive: true, force: true });
+  }
+}
+
+const results = [
+  test("loadRawPool sets matchAcrossWeights on every item when the category opted in, and leaves it unset when it didn't", () => {
+    withTempDir((dir) => {
+      writeRaw(
+        "Meat",
+        {
+          order: 0,
+          strictPackaging: true,
+          matchAcrossWeights: true,
+          resultsByStore: {
+            Barbora: [{ store: "Barbora", name: "Seahakkliha WELL DONE,400g", price: 1.89, currency: "EUR", url: "x", ean: null }],
+          },
+        },
+        { dir }
+      );
+      const pool = loadRawPool("Meat", { dir });
+      assert.equal(pool.length, 1);
+      assert.equal(pool[0].matchAcrossWeights, true);
+      assert.equal(pool[0].signature.matchAcrossWeights, true);
+    });
+  }),
+  test("loadRawPool leaves matchAcrossWeights unset for a category that never opted in (every category but Meat)", () => {
+    withTempDir((dir) => {
+      writeRaw(
+        "Dairy",
+        {
+          order: 0,
+          strictPackaging: true,
+          matchAcrossWeights: false,
+          resultsByStore: {
+            Barbora: [{ store: "Barbora", name: "Piim ALMA 2,5%, 1L", price: 1.39, currency: "EUR", url: "x", ean: null }],
+          },
+        },
+        { dir }
+      );
+      const pool = loadRawPool("Dairy", { dir });
+      assert.equal(pool[0].matchAcrossWeights, undefined);
+      assert.equal(pool[0].signature.matchAcrossWeights, false);
+    });
+  }),
+  test("loadRawPool still sets strictPackaging the same way it always has, alongside the new flag", () => {
+    withTempDir((dir) => {
+      writeRaw(
+        "Meat",
+        {
+          order: 0,
+          strictPackaging: true,
+          matchAcrossWeights: true,
+          resultsByStore: {
+            Rimi: [{ store: "Rimi", name: "Veisehakkliha Rimi 400g", price: 3.49, currency: "EUR", url: "x", ean: null }],
+          },
+        },
+        { dir }
+      );
+      const pool = loadRawPool("Meat", { dir });
+      assert.equal(pool[0].strictPackaging, true);
+      assert.equal(pool[0].signature.strictPackaging, true);
+    });
+  }),
+];
+
+const pass = results.filter(Boolean).length;
+const fail = results.length - pass;
+console.log("");
+console.log(`${pass} passed, ${fail} failed (${results.length} total)`);
+
+if (fail > 0) {
+  process.exit(1);
+}

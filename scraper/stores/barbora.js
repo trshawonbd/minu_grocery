@@ -75,6 +75,12 @@ async function fetchBarboraPrice(url) {
         // fallback when the product name states no unit of its own —
         // see computeSignature in match-products.js.
         unit: p.comparative_unit || null,
+        // Barbora's own per-kg (or per-l/per-tk) price, computed by
+        // Barbora itself from the real pack weight — not derived from
+        // parsing a weight out of the name, so it's available even for
+        // items priced "per kg" with no weight of their own (most of
+        // meat). See storeUnitPrice in match-products.js/fetch-price.js.
+        storeUnitPrice: typeof p.comparative_unit_price === "number" ? p.comparative_unit_price : null,
         // The real, store-assigned brand — confirmed reliable across
         // categories (APTAMIL, KADARBIKU, ALMA, ...) and correctly
         // empty for the one genuinely unbranded item found by hand
@@ -101,6 +107,7 @@ async function fetchBarboraPrice(url) {
   const retailPriceMatch = html.match(/"retail_price":(\d+(?:\.\d+)?)/);
   const loyaltyMatch = html.match(/"loyaltyCardRequired":(true|false)/);
   const brandMatch = html.match(/"brand_name":"([^"]*)"/);
+  const unitPriceMatch = html.match(/"comparative_unit_price":(\d+(?:\.\d+)?)/);
   const { price, regularPrice, cardPrice, cardName } = splitPrice({
     price: parseFloat(priceMatch[1]),
     retail_price: retailPriceMatch ? parseFloat(retailPriceMatch[1]) : undefined,
@@ -112,8 +119,11 @@ async function fetchBarboraPrice(url) {
   }
 
   const brand = brandMatch && brandMatch[1].trim() ? brandMatch[1].trim() : null;
+  const storeUnitPrice = unitPriceMatch ? parseFloat(unitPriceMatch[1]) : null;
 
-  return [{ store: "Barbora", name, price, regularPrice, cardPrice, cardName, brand, currency: "EUR", url, ean: findEan(html) }];
+  return [
+    { store: "Barbora", name, price, regularPrice, cardPrice, cardName, brand, storeUnitPrice, currency: "EUR", url, ean: findEan(html) },
+  ];
 }
 
 module.exports = { fetchBarboraPrice, splitPrice };

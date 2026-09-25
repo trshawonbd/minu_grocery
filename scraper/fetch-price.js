@@ -80,6 +80,12 @@ function toPricesObject(groupItems) {
 // (comma/period and unit collapsed to one base unit — see
 // match-products.js) — display-only, for the frontend's unit-price
 // line (frontend/pricing.js's unitPrice); never read by matching.
+// `storeUnitPrice` is the store's OWN per-kg/per-l price (Barbora's
+// comparative_unit_price, Rimi's card "Hind ühiku kohta", Selver's
+// unit_price) — unlike `size`-derived unitPrice, this is available
+// even when an item is priced "per kg" with no weight of its own in
+// the name (most of Meat). Display-only, like `size`; never read by
+// matching.
 function toStoreEntry(item) {
   const entry = { price: item.price, currency: item.currency, url: item.url };
   if (item.cardPrice != null) {
@@ -88,6 +94,9 @@ function toStoreEntry(item) {
   }
   if (item.signature.size) {
     entry.size = item.signature.size;
+  }
+  if (item.storeUnitPrice != null) {
+    entry.storeUnitPrice = item.storeUnitPrice;
   }
   return entry;
 }
@@ -183,6 +192,7 @@ async function main() {
     writeRaw(category.name, {
       order: CATEGORIES.indexOf(category),
       strictPackaging: category.strictPackaging !== false,
+      matchAcrossWeights: category.matchAcrossWeights === true,
       resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
     });
 
@@ -190,6 +200,10 @@ async function main() {
     // rather than opting in, so a new category gets the safer rule
     // without anyone having to remember to ask for it.
     const strictPackaging = category.strictPackaging !== false;
+    // Opt-in, unlike strictPackaging — off unless a category explicitly
+    // sets it (currently just Meat). See sameBrandedProduct in
+    // match-products.js.
+    const matchAcrossWeights = category.matchAcrossWeights === true;
 
     // Run every item through the extraction functions exactly once
     // here, instead of once per pair inside matchPool — with N
@@ -197,14 +211,17 @@ async function main() {
     // instead of up to N×M.
     for (const item of barboraResults) {
       if (strictPackaging) item.strictPackaging = true;
+      if (matchAcrossWeights) item.matchAcrossWeights = true;
       item.signature = computeSignature(item);
     }
     for (const item of rimiResults) {
       if (strictPackaging) item.strictPackaging = true;
+      if (matchAcrossWeights) item.matchAcrossWeights = true;
       item.signature = computeSignature(item);
     }
     for (const item of selverResults) {
       if (strictPackaging) item.strictPackaging = true;
+      if (matchAcrossWeights) item.matchAcrossWeights = true;
       item.signature = computeSignature(item);
     }
 
@@ -237,12 +254,18 @@ async function main() {
     );
 
     for (const { items: groupItems, canonicalName, reason } of matches) {
-      freshEntries.push({
+      const entry = {
         name: canonicalName,
         category: category.name,
         prices: toPricesObject(groupItems),
         matchedVia: reason,
-      });
+      };
+      // Meat decides "cheapest" by per-kg price, not pack price — see
+      // frontend/pricing.js's cheapestPrice/productRows and
+      // cheapestByUnitPrice in scraper/categories.js. Every other
+      // category leaves this unset and keeps comparing by `price`.
+      if (category.cheapestByUnitPrice) entry.cheapestByUnitPrice = true;
+      freshEntries.push(entry);
     }
   }
 

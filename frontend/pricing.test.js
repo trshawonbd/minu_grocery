@@ -108,6 +108,68 @@ const results = [
     assert.deepEqual(cheapest.map((r) => r.store), ["rimi"]);
     assert.ok(Math.abs(rows.find((r) => r.store === "barbora").unitPrice.value - 3.99) < 0.001);
   }),
+
+  test("Meat (cheapestByUnitPrice): isCheapest is decided by storeUnitPrice, not pack price", () => {
+    const meat = {
+      cheapestByUnitPrice: true,
+      prices: {
+        // Barbora: cheaper pack, but sold "per kg" at a HIGHER per-kg
+        // rate than Rimi's fixed 400g pack — real case shape (see the
+        // Meat investigation: many items have no weight in the name at
+        // all, priced per kg directly).
+        barbora: { price: 5.0, currency: "EUR", url: "b", storeUnitPrice: 12.0 },
+        rimi: { price: 7.49, currency: "EUR", url: "r", size: "400g", storeUnitPrice: 8.72 },
+      },
+    };
+    const rows = productRows(meat);
+    const cheapest = rows.filter((r) => r.isCheapest);
+    assert.deepEqual(cheapest.map((r) => r.store), ["rimi"]);
+    // The higher-pack-price store is correctly NOT cheapest, because
+    // its per-kg rate is worse — the opposite of what plain price
+    // comparison would say.
+    assert.equal(rows.find((r) => r.store === "barbora").isCheapest, false);
+  }),
+  test("Meat: a per-kg tie marks every tied store cheapest, same rule as a price tie", () => {
+    const meat = {
+      cheapestByUnitPrice: true,
+      prices: {
+        barbora: { price: 6.0, currency: "EUR", url: "b", storeUnitPrice: 12.0 },
+        rimi: { price: 4.8, currency: "EUR", url: "r", size: "400g", storeUnitPrice: 12.0 },
+      },
+    };
+    const rows = productRows(meat);
+    const cheapest = rows.filter((r) => r.isCheapest).map((r) => r.store).sort();
+    assert.deepEqual(cheapest, ["barbora", "rimi"]);
+  }),
+  test("Meat: a store missing storeUnitPrice is never marked cheapest and gets no diff/pct, but still shows", () => {
+    const meat = {
+      cheapestByUnitPrice: true,
+      prices: {
+        barbora: { price: 5.0, currency: "EUR", url: "b" }, // no storeUnitPrice
+        rimi: { price: 7.49, currency: "EUR", url: "r", storeUnitPrice: 8.72 },
+      },
+    };
+    const rows = productRows(meat);
+    assert.equal(rows.length, 2);
+    const barboraRow = rows.find((r) => r.store === "barbora");
+    assert.equal(barboraRow.isCheapest, false);
+    assert.equal(barboraRow.diff, null);
+    assert.equal(barboraRow.pct, null);
+    assert.equal(rows.find((r) => r.store === "rimi").isCheapest, true);
+  }),
+  test("Non-meat products are completely unaffected by cheapestByUnitPrice logic — still rank by price", () => {
+    const plain = {
+      prices: {
+        barbora: { price: 3.99, currency: "EUR", url: "b", storeUnitPrice: 999 },
+        rimi: { price: 3.79, currency: "EUR", url: "r", storeUnitPrice: 1 },
+      },
+    };
+    const rows = productRows(plain);
+    // storeUnitPrice values are deliberately backwards from price here
+    // — if this ever affected a non-flagged product, Barbora (huge
+    // storeUnitPrice) would wrongly win. It must still be Rimi.
+    assert.deepEqual(rows.filter((r) => r.isCheapest).map((r) => r.store), ["rimi"]);
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

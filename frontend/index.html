@@ -48,7 +48,7 @@
   .store-right { text-align: right; }
   .store-price { font-weight: 700; color: #1C1B17; }
   .store-row.cheapest .store-price { color: #1F5D46; }
-  .store-unit-price { font-size: 11px; color: #6B6A5F; margin-top: 1px; }
+  .store-unit-price, .store-pack-info { font-size: 11px; color: #6B6A5F; margin-top: 1px; }
   .store-diff { font-size: 11.5px; color: #A6522B; margin-top: 1px; }
   .store-diff.cheapest-tag { color: #1F5D46; font-weight: 600; }
   .store-card-price { font-size: 11px; color: #6B6A5F; margin-top: 2px; }
@@ -157,7 +157,16 @@
         row.appendChild(left);
 
         const meta = el("div", "row-meta");
-        meta.appendChild(el("div", "row-meta-price", `${cheapest.price.toFixed(2)} ${currencySymbol(cheapest.currency)}`));
+        // Meat ranks (and here, displays) by the store's own per-kg
+        // price, not pack price — see cheapestByUnitPrice in
+        // pricing.js's storeEntries/rankKey. Falls back to showing pack
+        // price if this particular listing's per-kg value is missing,
+        // rather than showing nothing.
+        if (product.cheapestByUnitPrice && cheapest.storeUnitPrice != null) {
+          meta.appendChild(el("div", "row-meta-price", `${cheapest.storeUnitPrice.toFixed(2)} ${currencySymbol(cheapest.currency)}/kg`));
+        } else {
+          meta.appendChild(el("div", "row-meta-price", `${cheapest.price.toFixed(2)} ${currencySymbol(cheapest.currency)}`));
+        }
         meta.appendChild(el("div", "row-meta-sub", `at ${storeLabel(cheapest.store)}`));
         row.appendChild(meta);
 
@@ -199,13 +208,28 @@
         row.appendChild(el("div", "store-name", storeLabel(entry.store)));
 
         const right = el("div", "store-right");
-        right.appendChild(el("div", "store-price", `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`));
-        if (entry.unitPrice) {
-          // Display only, computed in productRows from the size
-          // string alone — never affects isCheapest/diff above, and
-          // silently skipped (no line at all) when the size is
-          // unknown, rather than guessed at.
-          right.appendChild(el("div", "store-unit-price", `${entry.unitPrice.value.toFixed(2)} ${currencySymbol(entry.currency)}/${entry.unitPrice.unit}`));
+        if (currentProduct.cheapestByUnitPrice) {
+          // Meat: the per-kg price is the headline number (what
+          // decided isCheapest above), pack price + weight is the
+          // secondary line — the reverse of every other category. A
+          // store missing its own per-kg value falls back to showing
+          // pack price as the headline, rather than nothing.
+          if (entry.storeUnitPrice != null) {
+            right.appendChild(el("div", "store-price", `${entry.storeUnitPrice.toFixed(2)} ${currencySymbol(entry.currency)}/kg`));
+            const packText = entry.size ? `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)} · ${entry.size}` : `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`;
+            right.appendChild(el("div", "store-pack-info", packText));
+          } else {
+            right.appendChild(el("div", "store-price", `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`));
+          }
+        } else {
+          right.appendChild(el("div", "store-price", `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`));
+          if (entry.unitPrice) {
+            // Display only, computed in productRows from the size
+            // string alone — never affects isCheapest/diff above, and
+            // silently skipped (no line at all) when the size is
+            // unknown, rather than guessed at.
+            right.appendChild(el("div", "store-unit-price", `${entry.unitPrice.value.toFixed(2)} ${currencySymbol(entry.currency)}/${entry.unitPrice.unit}`));
+          }
         }
         if (entry.cardPrice != null) {
           // Informational only — cheapest is decided in productRows
@@ -223,7 +247,7 @@
         }
         if (entry.isCheapest) {
           right.appendChild(el("div", "store-diff cheapest-tag", "Cheapest"));
-        } else {
+        } else if (entry.diff != null) {
           right.appendChild(el("div", "store-diff", `+${entry.diff.toFixed(2)} ${currencySymbol(entry.currency)} (${entry.pct.toFixed(0)}% more)`));
         }
         row.appendChild(right);

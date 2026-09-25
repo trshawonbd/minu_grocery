@@ -501,6 +501,14 @@ function extractFatPercent(name) {
 // small and meant to be extended by hand as more turn up.
 const BRAND_ABBREVIATIONS = {
   "eesti pagar": ["ep"],
+  // Barbora's meat item names shorten "Maks & Moorits" to "M&M" — the
+  // real brand field (used for `brand`) already says the full name on
+  // both stores, so only this leftover abbreviation needs stripping.
+  "maks & moorits": ["m&m"],
+  // Selver's meat names print "RAKVERE LK" (Rakvere Lihakombinaat) as
+  // a display suffix — its own brand field is plain "RAKVERE", same as
+  // Barbora/Rimi's, so only the stray "LK" needs stripping.
+  rakvere: ["lk"],
 };
 
 // Abbreviations, spelling/grammatical-case variants, translations,
@@ -549,6 +557,41 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   // some stores spell out and others don't.
   ["tk", ""],
   ["mineraalvesi", ""],
+  // A bare "kg" with no leading digit — "sold per kg, weight chosen at
+  // checkout" — is never stripped by the size-matching step above,
+  // which only strips a NUMBER+unit ("400g", "kg" never alone). Real
+  // bug found while testing Meat's matchAcrossWeights: every "X, kg"
+  // item carried a stray "kg" descriptor token that a same product's
+  // fixed-pack listing never has (its weight is stripped as the size
+  // match instead), so a per-kg listing could never match a fixed
+  // pack of the identical cut even once size-equality itself was
+  // relaxed. Safe everywhere — "kg" is a unit, never a real
+  // distinguishing word, the same reasoning as "tk" above.
+  ["kg", ""],
+
+  // --- Meat ---
+  // Abbreviations (Barbora's meat names abbreviate heavily)
+  ["br", "broileri"], // "Br.poolkoivad", "Br.kintsuliha" -> chicken/broiler cuts
+  ["klassik", "klassikalises"], // "klassik.marin." -> "klassikalises marinaadis"
+  ["eelküps", "eelküpsetatud"], // "Eelküps.grillribid" -> pre-cooked
+  ["seaväl", "seavälisfileest"], // "seaväl.RAKVERE" -> pork outer fillet
+  // "jahutatud" (chilled) restates a fact already true by default —
+  // the absence of "külmutatud" (frozen, never touched by this list)
+  // already means fresh, so one store bothering to say "jahutatud"
+  // and another not must never block on its own. Frozen vs fresh
+  // itself must always keep blocking — that's "külmutatud" surviving
+  // untouched as a real descriptor.
+  ["jahutatud", ""],
+  // "Marinated in X" (marinaadis/marineeritud) is a generic filler
+  // word — real distinguishing power is the flavour itself ("punases
+  // marinaadis" vs "mustikamarinaadis"), which stays untouched as its
+  // own descriptor either way, so dropping the generic word can never
+  // make two different marinades (or a marinated and a plain item)
+  // collide. See also the "marin" suffix pattern below, for a flavour
+  // word compounded directly onto "marin." with no separator
+  // ("mustikamarin.").
+  ["marinaadis", ""],
+  ["marineeritud", ""],
 ];
 
 const DESCRIPTOR_NORMALIZATION_PATTERNS = DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
@@ -559,7 +602,16 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = DESCRIPTOR_WORD_NORMALIZATIONS.map(([p
   // elsewhere in this file.
   regex: new RegExp(`(?<![\\p{L}])${pattern}(?![\\p{L}])`, "giu"),
   replacement,
-}));
+})).concat([
+  // "marin" also needs to strip as a SUFFIX on a flavour word
+  // compounded directly onto it with no separator, Barbora's own
+  // style ("Grill-liha mustikamarin. RAKVERE,500g" -> flavour word
+  // "mustika" + "marin.") — no left-boundary check, unlike every
+  // other entry above, specifically to catch that compound. The
+  // flavour word itself is untouched either way (see the plain
+  // "marinaadis"/"marineeritud" entries above for why that's safe).
+  { regex: /marin(?![\p{L}])/giu, replacement: "" },
+]);
 
 // What's left of a packaged product's name once the known parts —
 // brand, size, fat % — are removed: almost always flavour ("kirsi-
@@ -752,6 +804,10 @@ function computeSignature(item) {
     // here — see sameBrandedProduct. Off by default so this never
     // changes behavior for a category that hasn't opted in.
     strictPackaging,
+    // Set by the caller per category (currently just Meat) — see
+    // sameBrandedProduct. Off by default so this never changes
+    // behavior for a category that hasn't opted in.
+    matchAcrossWeights: item.matchAcrossWeights === true,
   };
 }
 
@@ -765,10 +821,31 @@ function signatureOf(item) {
   return item.signature || computeSignature(item);
 }
 
+// A normalized size in the "NxSIZE" shape (e.g. "2x500g", "6x330ml")
+// — the same multipack shape normalizeSizeValue produces. Meat's
+// relaxed weight matching (see sameBrandedProduct) still must never
+// fold a multipack into a single pack, the same principle Drinks
+// already relies on via plain size equality.
+function isMultipack(size) {
+  return typeof size === "string" && /^\d/.test(size) && size.includes("x");
+}
+
 function sameBrandedProduct(sigA, sigB) {
   if (!sigA.brand || !sigB.brand || sigA.brand !== sigB.brand) return false;
 
-  if (!sigA.size || !sigB.size || sigA.size !== sigB.size) return false;
+  if (sigA.matchAcrossWeights && sigB.matchAcrossWeights) {
+    // Meat: cheapest is decided by per-kg price (see storeUnitPrice in
+    // fetch-price.js), not pack price, so the pack weight itself isn't
+    // part of a meat product's identity — a 400g pack, a 500g pack,
+    // and a "sold per kg" listing (no weight in the name at all, size
+    // null) of the same real cut/brand/marinade are the same product.
+    // A multipack is the one exception: "2x500g" is a genuinely
+    // different purchase from a single pack, even at the same brand
+    // and per-unit weight — never folded together.
+    if (isMultipack(sigA.size) !== isMultipack(sigB.size)) return false;
+  } else if (!sigA.size || !sigB.size || sigA.size !== sigB.size) {
+    return false;
+  }
 
   // Never match if only one side has a variant, or they disagree —
   // that's most likely a different stage or type of the same

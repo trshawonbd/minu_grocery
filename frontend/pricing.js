@@ -3,16 +3,31 @@
 // tested against the exact code the browser runs, not a re-typed copy
 // of it. No DOM, no dependencies.
 
-function storeEntries(product) {
-  return Object.entries(product.prices)
-    .map(([store, info]) => ({ store, ...info }))
-    .sort((a, b) => a.price - b.price);
+// Which field decides "cheapest" for this product — every category
+// compares by pack `price` except Meat (see cheapestByUnitPrice in
+// scraper/categories.js and fetch-price.js), which compares by
+// storeUnitPrice, the store's own per-kg price. A product missing that
+// flag behaves exactly as before this existed.
+function rankKey(product) {
+  return product.cheapestByUnitPrice ? "storeUnitPrice" : "price";
 }
 
-// The lowest price among a product's stores. Every store whose price
-// equals this is "cheapest" — a tie is a tie, not just entries[0].
-function cheapestPrice(entries) {
-  return entries[0].price;
+function storeEntries(product) {
+  const key = rankKey(product);
+  // A store missing the ranking value (shouldn't happen once scraped,
+  // but not assumed) sorts to the end rather than winning a NaN
+  // comparison — it still shows in the list, just never first.
+  return Object.entries(product.prices)
+    .map(([store, info]) => ({ store, ...info }))
+    .sort((a, b) => (a[key] ?? Infinity) - (b[key] ?? Infinity));
+}
+
+// The lowest ranking value among a product's stores (pack price, or
+// for Meat, per-kg price). Every store whose own value equals this is
+// "cheapest" — a tie is a tie, not just entries[0]. `key` defaults to
+// "price" so a plain (non-Meat) product works exactly as before.
+function cheapestPrice(entries, key = "price") {
+  return entries[0][key];
 }
 
 // A product's per-kg or per-litre price, computed from `entry.size` —
@@ -51,16 +66,22 @@ function unitPrice(entry) {
 // cardPrice/cardName pass through unchanged when present; they're
 // never part of isCheapest/diff, which always read entry.price alone.
 function productRows(product) {
+  const key = rankKey(product);
   const entries = storeEntries(product);
-  const lowest = cheapestPrice(entries);
+  const lowest = cheapestPrice(entries, key);
   return entries.map((entry) => {
-    const isCheapest = entry.price === lowest;
-    const diff = entry.price - lowest;
-    const pct = lowest > 0 ? (diff / lowest) * 100 : 0;
+    const value = entry[key];
+    // A store missing the ranking value is never marked cheapest and
+    // gets no diff/pct — rather than a wrong "cheapest" via a NaN/
+    // undefined comparison. Doesn't happen for `price` (always real);
+    // only a real possibility for Meat's storeUnitPrice.
+    const isCheapest = value != null && lowest != null && value === lowest;
+    const diff = value != null && lowest != null ? value - lowest : null;
+    const pct = diff == null ? null : lowest > 0 ? (diff / lowest) * 100 : 0;
     return { ...entry, isCheapest, diff, pct, unitPrice: unitPrice(entry) };
   });
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { storeEntries, cheapestPrice, productRows, unitPrice };
+  module.exports = { storeEntries, cheapestPrice, productRows, unitPrice, rankKey };
 }

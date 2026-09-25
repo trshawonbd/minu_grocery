@@ -37,6 +37,29 @@ function excludeWords(exclude, require) {
 // bare stem doesn't always appear as a literal substring.
 const waterFilter = excludeWords(["vitamiin", "sport", "spordi", "magneesium", "kookos", "infusion", "ekstrakt"]);
 
+// Meat: species/animals out of scope (rabbit, wild boar, venison —
+// see the "Veise-, lamba- ja ulukiliha"/"veise--lamba--ja-ulukiliha"
+// sources below, which genuinely mix these in) and offal (liver,
+// heart, kidney, gizzard, tongue, blood, bone-broth cuts — none of
+// which are "chicken/pork/beef/lamb/minced meat" as scoped). Checked
+// by hand against a real scrape before deciding these, not guessed.
+const MEAT_EXCLUDE_GAME = ["küülik", "uluk", "metssea", "hirve", "põdra", "vutt", "vuti"];
+const MEAT_EXCLUDE_OFFAL = ["maks", "süda", /\bneer/, "kops", "magu", /\bkeel\b/, "puljongikont", "supikogu", /\bluu\b/, "veri"];
+
+// Applied to every Meat source regardless of which animal/cut it
+// otherwise holds — checked by hand, all three turned up in more than
+// one category: offal (see MEAT_EXCLUDE_OFFAL), "peekon" (bacon —
+// cured, belongs with ham/deli, not a fresh cut), "eelküpsetatud"
+// (pre-cooked, a ready-meal-adjacent product), and "frikadell"
+// (shaped/processed meatballs, not a plain mince product). Combines
+// with a source's own nameFilter (game, above) rather than replacing
+// it, so both apply.
+function addMeatExclusions(entry) {
+  const { url, nameFilter } = typeof entry === "string" ? { url: entry, nameFilter: null } : entry;
+  const meatFilter = excludeWords(["peekon", "eelküps", "frikadell", ...MEAT_EXCLUDE_OFFAL]);
+  return { url, nameFilter: (name) => meatFilter(name) && (!nameFilter || nameFilter(name)) };
+}
+
 // A category's urls.barbora/urls.rimi can be a single URL or an array
 // of them (see Dairy) — used when the store's own category tree has
 // no single page covering the target products without also pulling
@@ -197,6 +220,73 @@ const CATEGORIES = [
       ],
     },
   },
+  {
+    // Scope: fresh and frozen chicken, pork, beef, lamb, and minced
+    // meat (including turkey mince) — plus raw formed patties/burgers/
+    // kebabs, still ground/mixed meat, not a ready meal. Excluded
+    // everywhere below: rabbit, wild boar, venison (MEAT_EXCLUDE_GAME),
+    // any offal (liver/heart/kidney/gizzard/tongue/blood/bone-broth
+    // cuts — MEAT_EXCLUDE_OFFAL), bacon ("peekon" — cured, belongs with
+    // ham/deli, not a fresh cut), pre-cooked items ("eelküpsetatud"),
+    // and meatballs ("frikadell" — shaped/processed, not a plain mince
+    // product). Sausages, ham, smoked/cured meat, and fish are already
+    // excluded by category choice, never reached by these filters.
+    //
+    // cheapestByUnitPrice: Meat is the first category where "cheapest"
+    // is decided by per-kg price (see storeUnitPrice in fetch-price.js
+    // and frontend/pricing.js's rankKey), not pack price — a huge
+    // fraction of real meat listings are sold "per kg" with no weight
+    // of their own in the name at all (found by hand: 42% of a real
+    // sample), so pack price alone isn't comparable across stores.
+    //
+    // matchAcrossWeights: also Meat-only (see sameBrandedProduct in
+    // match-products.js) — a 400g pack, a 500g pack, and a "sold per
+    // kg" listing of the same real cut/brand/marinade are the same
+    // product once cheapest is decided per-kg instead of per-pack; a
+    // multipack ("2x500g") is still never folded into a single pack.
+    name: "Meat",
+    cheapestByUnitPrice: true,
+    matchAcrossWeights: true,
+    urls: {
+      barbora: [
+        "https://barbora.ee/liha-kala-valmistoit/liha/kiauliena", // pork
+        "https://barbora.ee/liha-kala-valmistoit/liha/linnuliha", // poultry
+        // Also holds rabbit (excluded) alongside beef — no dedicated
+        // beef-only leaf at Barbora.
+        { url: "https://barbora.ee/liha-kala-valmistoit/liha/veis-ja-muu-varske-liha", nameFilter: excludeWords(MEAT_EXCLUDE_GAME) },
+        "https://barbora.ee/liha-kala-valmistoit/liha/hakkliha", // minced, incl. raw kebab/patty mixes
+        {
+          // Dominated by liver/gizzard/soup bones and meatballs —
+          // checked by hand, only a handful of real frozen cuts.
+          url: "https://barbora.ee/kulmutatud-tooted/kulmutatud-liha-ja-kalatooted/kulmutatud-lihatooted",
+          nameFilter: excludeWords([...MEAT_EXCLUDE_OFFAL, ...MEAT_EXCLUDE_GAME, "frikadell"]),
+        },
+      ].map((entry) => addMeatExclusions(entry)),
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/varske-sealiha/c/SH-8-14-25",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/maitsestatud-sealiha/c/SH-8-14-20",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/linnuliha/varske-kana-broiler/c/SH-8-9-25",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/linnuliha/maitsestatud-linnuliha/c/SH-8-9-20",
+        // Also holds rabbit and (rarely) game — beef/lamb only wanted.
+        {
+          url: "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/veise--lamba--ja-ulukiliha/c/SH-8-21",
+          nameFilter: excludeWords(MEAT_EXCLUDE_GAME),
+        },
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/veisehakkliha/c/SH-8-2-1",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/kanahakkliha/c/SH-8-2-3",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/seguhakkliha/c/SH-8-2-5",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/hakktooted/c/SH-8-2-6", // raw formed patties, e.g. burgeripihv
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/seahakkliha/c/SH-8-2-7",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/kalkunihakkliha/c/SH-8-2-8", // turkey mince — in scope
+        {
+          // Only 4 items total when checked by hand — 3 are offal/
+          // quail (excluded), 1 (frozen chicken neck) is in scope.
+          url: "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-lihatooted/c/SH-4-4",
+          nameFilter: excludeWords([...MEAT_EXCLUDE_OFFAL, "vutt", "vuti"]),
+        },
+      ].map((entry) => addMeatExclusions(entry)),
+    },
+  },
 ];
 
 // Whether a category opts into strict packaged-product matching (the
@@ -211,18 +301,33 @@ function strictPackagingFor(categoryName) {
   return category.strictPackaging !== false;
 }
 
+// Whether a category allows a match across different pack weights
+// (currently just Meat — see sameBrandedProduct in match-products.js
+// and the comment on the Meat entry above). Off unless a category
+// explicitly opts in, the same reasoning as strictPackagingFor's
+// throw-on-unknown-name.
+function matchAcrossWeightsFor(categoryName) {
+  const category = CATEGORIES.find((c) => c.name === categoryName);
+  if (!category) {
+    throw new Error(`Unknown category "${categoryName}". Known categories: ${CATEGORIES.map((c) => c.name).join(", ")}`);
+  }
+  return category.matchAcrossWeights === true;
+}
+
 // Builds one item the same shape a real scrape produces (store, name,
 // price, currency, url, ean, plus whatever the caller needs to set —
-// brand, ean, etc. — via `extra`), with strictPackaging set exactly
-// the way fetch-price.js would set it for a real item in this
-// category. The one place a test or an ad-hoc by-hand check should
-// build an item from — never hand-roll `{ store, name, ... }` and
-// guess at strictPackaging, which is what led to the wrong "39 pairs
-// already match" conclusion in an earlier session.
+// brand, ean, etc. — via `extra`), with strictPackaging/
+// matchAcrossWeights set exactly the way fetch-price.js would set
+// them for a real item in this category. The one place a test or an
+// ad-hoc by-hand check should build an item from — never hand-roll
+// `{ store, name, ... }` and guess at these flags, which is what led
+// to the wrong "39 pairs already match" conclusion in an earlier
+// session.
 function buildItem(categoryName, store, name, extra = {}) {
   const item = { store, name, price: 0, currency: "EUR", url: "x", ean: null, ...extra };
   if (strictPackagingFor(categoryName)) item.strictPackaging = true;
+  if (matchAcrossWeightsFor(categoryName)) item.matchAcrossWeights = true;
   return item;
 }
 
-module.exports = { CATEGORIES, strictPackagingFor, buildItem };
+module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, buildItem };

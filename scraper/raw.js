@@ -34,13 +34,13 @@ function writeJson(filePath, value) {
 // resultsByStore: { Barbora: [...], Rimi: [...], Selver: [...] } —
 // the arrays exactly as the store modules returned them, so call this
 // before anything (signatures, strictPackaging) is added to the items.
-function writeRaw(category, { order, strictPackaging, resultsByStore }, { dir = RAW_DIR, fetchedAt = new Date().toISOString() } = {}) {
+function writeRaw(category, { order, strictPackaging, matchAcrossWeights, resultsByStore }, { dir = RAW_DIR, fetchedAt = new Date().toISOString() } = {}) {
   const categoryDir = path.join(dir, slug(category));
   fs.mkdirSync(categoryDir, { recursive: true });
   for (const [store, items] of Object.entries(resultsByStore)) {
     writeJson(path.join(categoryDir, `${store.toLowerCase()}.json`), items);
   }
-  writeJson(path.join(categoryDir, "meta.json"), { category, order, strictPackaging, fetchedAt });
+  writeJson(path.join(categoryDir, "meta.json"), { category, order, strictPackaging, matchAcrossWeights, fetchedAt });
 }
 
 // Every category in data/raw/, in the order fetch-price.js lists them:
@@ -70,9 +70,9 @@ function loadRaw({ dir = RAW_DIR } = {}) {
 
 // One category's items as a single flat pool, prepared exactly the
 // way fetch-price.js prepares it before matchPool — strictPackaging
-// set from the category's own setting, signature computed once — so a
-// matching experiment on this pool behaves like a real run, without
-// touching the network.
+// and matchAcrossWeights set from the category's own settings,
+// signature computed once — so a matching experiment on this pool
+// behaves like a real run, without touching the network.
 function loadRawPool(category, options) {
   const found = loadRaw(options).find((c) => c.category === category);
   if (!found) {
@@ -81,6 +81,7 @@ function loadRawPool(category, options) {
   const pool = Object.values(found.stores).flat();
   for (const item of pool) {
     if (found.strictPackaging) item.strictPackaging = true;
+    if (found.matchAcrossWeights) item.matchAcrossWeights = true;
     item.signature = computeSignature(item);
   }
   return pool;

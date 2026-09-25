@@ -95,6 +95,12 @@ function mapItem(source, brandMap) {
     currency: "EUR",
     url: `https://www.selver.ee/${source.slug}`,
     ean: source.product_main_ean || null,
+    // Selver's own per-kg (or per-l) price — a real structured field on
+    // every product, computed by Selver itself from `product_volume`
+    // (also structured, not just text in the name), not derived from
+    // parsing a weight out of the name. See storeUnitPrice in
+    // match-products.js/fetch-price.js.
+    storeUnitPrice: typeof source.unit_price === "number" ? source.unit_price : null,
     brand: (() => {
       const name = brandMap.get(String(source.product_brand));
       return name && name !== NO_BRAND ? name : null;
@@ -130,6 +136,13 @@ function excludeWords(exclude, require) {
 // results, not guessed), a per-source nameFilter narrows it further —
 // same principle, applied by name instead of by ID where Selver has
 // no finer ID to filter on.
+// Meat: offal and out-of-scope game animals — see the fuller comment
+// on scraper/categories.js's own copy of these two lists (duplicated
+// here, not imported, for the same self-contained reason the water
+// filter above is duplicated rather than shared).
+const MEAT_OFFAL = ["maks", "süda", /\bneer/, "kops", "magu", /\bkeel\b/, "puljongikont", "supikogu", /\bluu\b/, "veri"];
+const MEAT_GAME = ["küülik", "uluk", "metssea", "hirve", "põdra", "vutt", "vuti"];
+
 const CATEGORIES = {
   // Unlike Barbora/Rimi, Selver has no subcategory dedicated to
   // formula alone — category 307 ("Lastetoidud") holds every baby
@@ -272,6 +285,28 @@ const CATEGORIES = {
       // has no separate kali category) with no energy drinks, iced
       // tea, or sports drinks mixed in.
       { id: 53 },
+    ],
+  },
+  // Scope: fresh chicken, pork, beef, lamb, and minced meat (incl.
+  // turkey mince, raw formed patties/burgers/kebabs) — see the fuller
+  // comment on the Meat entry in scraper/categories.js. 219/220/222
+  // are already clean leaves for their own animal; 221 genuinely mixes
+  // in wild boar and venison ("ulukiliha" in its own name), filtered
+  // by name the same way rabbit/game is filtered at Barbora/Rimi.
+  // 285 "Külmutatud liha- ja kalatooted" (frozen) was checked by hand
+  // and found to hold no fresh/frozen cuts in scope at all — 106 items
+  // and every one is dumplings, breaded fish, seafood, or offal — so
+  // it's left out entirely rather than fetched and filtered down to
+  // nothing.
+  "Meat": {
+    sources: [
+      { id: 219, nameFilter: excludeWords(["peekon", "eelküps", "frikadell", ...MEAT_OFFAL]) }, // Sealiha
+      { id: 220, nameFilter: excludeWords(["peekon", "eelküps", "frikadell", ...MEAT_OFFAL]) }, // Linnuliha
+      {
+        id: 221, // Veise-, lamba- ja ulukiliha
+        nameFilter: excludeWords(["peekon", "eelküps", "frikadell", ...MEAT_OFFAL, ...MEAT_GAME]),
+      },
+      { id: 222, nameFilter: excludeWords(["peekon", "eelküps", "frikadell", ...MEAT_OFFAL]) }, // Hakkliha
     ],
   },
 };

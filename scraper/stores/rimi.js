@@ -66,11 +66,26 @@ function parseSingleProduct(html, url) {
   }
 
   const regularPrice = findRegularPrice(html, price);
+  const unitPrice = findCardUnitPrice(html);
 
   // No reliable brand source found on a single product page (no brand
   // facet there, unlike a category listing) — falls back to the
   // name-guessing heuristic in match-products.js, same as before.
-  return [{ store: "Rimi", name, price, regularPrice, cardPrice: null, cardName: null, brand: null, currency, url, ean: findEan(html) }];
+  return [
+    {
+      store: "Rimi",
+      name,
+      price,
+      regularPrice,
+      cardPrice: null,
+      cardName: null,
+      brand: null,
+      storeUnitPrice: unitPrice ? unitPrice.value : null,
+      currency,
+      url,
+      ean: findEan(html),
+    },
+  ];
 }
 
 // The current price, scoped to one product card: "price-tag
@@ -85,6 +100,18 @@ const CARD_PRICE_PATTERN = /(?<!old-)price-tag card__price">\s*<span class="sr-o
 function findCardPrice(cardHtml) {
   const match = cardHtml.match(CARD_PRICE_PATTERN);
   return match ? parseFloat(match[1].replace(",", ".")) : null;
+}
+
+// Rimi's own per-kg (or per-l) price, printed on every card regardless
+// of whether the item is a fixed pack or sold "per kg" — computed by
+// Rimi itself from the real pack weight, not derived from parsing a
+// weight out of the name. Absent only on an out-of-stock card (same as
+// the main price). See storeUnitPrice in match-products.js/fetch-price.js.
+const CARD_UNIT_PRICE_PATTERN = /Hind ühiku kohta:\s*([\d.,]+)\s*€\/(kg|l)/;
+
+function findCardUnitPrice(cardHtml) {
+  const match = cardHtml.match(CARD_UNIT_PRICE_PATTERN);
+  return match ? { value: parseFloat(match[1].replace(",", ".")), unit: match[2] } : null;
 }
 
 function escapeRegExp(s) {
@@ -167,6 +194,7 @@ function parseCategoryListing(html) {
     const price = findCardPrice(card);
     if (price === null) continue; // out of stock — no price, so no item
 
+    const cardUnitPrice = findCardUnitPrice(card);
     const url = urlById.get(String(data.id)) || null;
     // The category root ("puuviljad-koogiviljad-lilled") ends in the
     // same word, so this only matches the flower/plant subcategory's
@@ -184,6 +212,7 @@ function parseCategoryListing(html) {
       cardPrice: null,
       cardName: null,
       brand: findBrandForName(name, brandFacet),
+      storeUnitPrice: cardUnitPrice ? cardUnitPrice.value : null,
       currency: data.currency || "EUR",
       url,
       ean: findEan(data),

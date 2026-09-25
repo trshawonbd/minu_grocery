@@ -573,6 +573,105 @@ const tests = [
     },
   },
 
+  // --- Meat ---
+  {
+    name: "Meat: different pack weights match when everything else agrees, including \"sold per kg\" (no weight in the name) vs a fixed pack",
+    run: () => {
+      const pack400 = buildItem("Meat", "Barbora", "Veisehakkliha WELL DONE,400g", { brand: "WELL DONE" });
+      const pack600 = buildItem("Meat", "Rimi", "Veisehakkliha Well Done 600g", { brand: "WELL DONE" });
+      assert.equal(sameProduct(pack400, pack600), true);
+
+      // "kg" (no digit at all — sold per kg, weight chosen at
+      // checkout) must also match a fixed pack of the real real cut —
+      // most of Meat's actual inventory has no weight in the name.
+      const perKg = buildItem("Meat", "Selver", "Veisehakkliha, WELL DONE, kg", { brand: "WELL DONE" });
+      assert.equal(sameProduct(pack400, perKg), true);
+    },
+  },
+  {
+    name: "Meat: a multipack never matches a single pack, even at the same brand/cut/weight-per-unit",
+    run: () => {
+      const single = buildItem("Meat", "Barbora", "Seahakkliha WELL DONE,500g", { brand: "WELL DONE" });
+      const multipack = buildItem("Meat", "Selver", "HULGI Seahakkliha 2tk, WELL DONE, 2 x 500g", { brand: "WELL DONE" });
+      assert.equal(sameProduct(single, multipack), false);
+    },
+  },
+  {
+    name: "Meat: frozen never matches fresh, but \"jahutatud\" (chilled) stated on only one side does not block — it just restates the default",
+    run: () => {
+      const fresh = buildItem("Meat", "Barbora", "Broilerikoib TALLEGG, kg", { brand: "TALLEGG" });
+      const frozen = buildItem("Meat", "Rimi", "Külmutatud broilerikoib Tallegg kg", { brand: "TALLEGG" });
+      assert.equal(sameProduct(fresh, frozen), false);
+
+      const chilled = buildItem("Meat", "Rimi", "Jahutatud broilerikoib Tallegg kg", { brand: "TALLEGG" });
+      assert.equal(sameProduct(fresh, chilled), true);
+    },
+  },
+  {
+    name: "Meat: marinated never matches plain, and two different marinade flavours never match each other",
+    run: () => {
+      const plain = buildItem("Meat", "Barbora", "Broileri poolkoivad TALLEGG, 800g", { brand: "TALLEGG" });
+      const marinated = buildItem("Meat", "Rimi", "Broileri poolkoivad klassikalises marinaadis Tallegg 800g", { brand: "TALLEGG" });
+      assert.equal(sameProduct(plain, marinated), false);
+
+      const otherMarinade = buildItem("Meat", "Selver", "Broileri poolkoivad mustikamarinaadis, TALLEGG, 800 g", { brand: "TALLEGG" });
+      assert.equal(sameProduct(marinated, otherMarinade), false);
+
+      // Same marinade, abbreviated on one side — must still match.
+      const abbreviated = buildItem("Meat", "Barbora", "Br.poolkoivad klassik.marin.TALLEGG,800g", { brand: "TALLEGG" });
+      assert.equal(sameProduct(abbreviated, marinated), true);
+    },
+  },
+  {
+    name: "Meat: bone-in vs boneless, and skin-on vs skinless, always block — stated on only one side still blocks, for consistency",
+    run: () => {
+      const boneIn = buildItem("Meat", "Barbora", "Seapraad kondiga, kg", { brand: "" });
+      const boneless = buildItem("Meat", "Rimi", "Seapraad kondita Rimi kg", { brand: "" });
+      assert.equal(sameProduct(boneIn, boneless), false);
+
+      const skinOn = buildItem("Meat", "Barbora", "Sea välisfilee kamaraga, kg", { brand: "" });
+      const skinless = buildItem("Meat", "Rimi", "Sea välisfilee kamarata Rimi kg", { brand: "" });
+      assert.equal(sameProduct(skinOn, skinless), false);
+
+      // Unstated (neither word at all) vs stated must also block —
+      // never assumed to mean the unstated side is boneless/skinless.
+      const unstated = buildItem("Meat", "Selver", "Sea välisfilee, Selver, kg", { brand: "" });
+      assert.equal(sameProduct(skinOn, unstated), false);
+      assert.equal(sameProduct(skinless, unstated), false);
+    },
+  },
+  {
+    name: "Meat: a different cut never matches, even at the same brand and weight",
+    run: () => {
+      const breast = buildItem("Meat", "Barbora", "Broileri rinnafilee TALLEGG, 400g", { brand: "TALLEGG" });
+      const thigh = buildItem("Meat", "Rimi", "Broilerikintsuliha Tallegg 400g", { brand: "TALLEGG" });
+      assert.equal(sameProduct(breast, thigh), false);
+    },
+  },
+  {
+    name: "Meat: a different mince type (pork vs beef) never matches, even same brand/weight, and \"taine\" (lean) always blocks too",
+    run: () => {
+      const pork = buildItem("Meat", "Barbora", "Seahakkliha WELL DONE,400g", { brand: "WELL DONE" });
+      const beef = buildItem("Meat", "Rimi", "Veisehakkliha Well Done 400g", { brand: "WELL DONE" });
+      assert.equal(sameProduct(pork, beef), false);
+
+      const lean = buildItem("Meat", "Selver", "Taine seahakkliha, WELL DONE, 400 g", { brand: "WELL DONE" });
+      assert.equal(sameProduct(pork, lean), false);
+    },
+  },
+  {
+    name: "Meat: brand abbreviations — Barbora's \"M&M\" and Selver's \"RAKVERE LK\" match the same brand's full/plain name elsewhere",
+    run: () => {
+      const mm = buildItem("Meat", "Barbora", "Minutipihv seavälisfileest M&M, 400g", { brand: "MAKS & MOORITS" });
+      const fullName = buildItem("Meat", "Rimi", "Minutipihv seavälisfileest Maks&Moorits 400g", { brand: "MAKS & MOORITS" });
+      assert.equal(sameProduct(mm, fullName), true);
+
+      const rakvereLk = buildItem("Meat", "Selver", "Sea sisefilee, RAKVERE LK, kg", { brand: "RAKVERE" });
+      const rakverePlain = buildItem("Meat", "Rimi", "Sea sisefilee Rakvere kg", { brand: "RAKVERE" });
+      assert.equal(sameProduct(rakvereLk, rakverePlain), true);
+    },
+  },
+
   // --- matchPool: shared pool across any number of stores ---
   {
     name: "Pool: a genuine 3-store group (Barbora + Rimi + Selver) becomes one product, not three pairs",

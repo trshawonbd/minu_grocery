@@ -14,7 +14,7 @@ and a static HTML page.
 | Rimi | category listing pages, server-rendered HTML |
 | Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
 
-Twenty-two categories are scraped today, with this many matched
+Twenty-seven categories are scraped today, with this many matched
 products in each as of the last run (`data/prices.json`):
 
 | Category | Matched products |
@@ -41,7 +41,12 @@ products in each as of the last run (`data/prices.json`):
 | Spices | 114 |
 | Jam & honey & spreads | 39 |
 | Baking supplies | 18 |
-| **Total** | **886** |
+| Chocolate | 37 |
+| Candy | 55 |
+| Biscuits | 29 |
+| Chips & snacks | 8 |
+| Nuts, seeds & dried fruit | 30 |
+| **Total** | **1045** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's
@@ -249,7 +254,7 @@ minu-project/
 │   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows, unit price) — kept separate from the DOM code so it's directly testable
 ├── scraper/
 │   ├── fetch-price.js            the only file that contacts a store; writes data/raw/, data/prices.json, and the leftover files
-│   ├── categories.js             the twenty-two categories' store URLs and settings (strictPackaging, and Meat's cheapestByUnitPrice/matchAcrossWeights) — fetch-price.js's single source for all of it, and the one place a test/by-hand check should build an item from (buildItem)
+│   ├── categories.js             the twenty-seven categories' store URLs and settings (strictPackaging, and Meat's cheapestByUnitPrice/matchAcrossWeights) — fetch-price.js's single source for all of it, and the one place a test/by-hand check should build an item from (buildItem)
 │   ├── daily-update.js           unattended, scheduled price refresh — see "Daily automatic updates" below (+ daily-update-logic.js, its pure rules, and daily-update-logic.test.js)
 │   ├── scrape-output.js          shared by fetch-price.js and daily-update.js: pagination, and the item -> data/prices.json entry shape
 │   ├── build-review.js           regenerates data/review.md from already-scraped data; never scrapes

@@ -77,7 +77,8 @@ progress as each batch finishes.
    *done*
 3. **Pantry 2**: sauces & condiments, spices, jam & honey & spreads,
    baking supplies — *done*
-4. **Sweets & snacks**: chocolate, candy, biscuits, chips, nuts
+4. **Sweets & snacks**: chocolate, candy, biscuits, chips & snacks,
+   nuts, seeds & dried fruit — *done*
 5. **Frozen**: vegetables & berries, ice cream, dumplings & pizza
 6. **Meat products & fish**: sausages, ham & cold cuts, fish (fresh,
    smoked, canned)

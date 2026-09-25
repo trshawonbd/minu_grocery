@@ -1,287 +1,1147 @@
 [
   {
     "store": "Barbora",
-    "name": "Imiku piimaseg.NESTLE NAN1 Opti+ 800g 0+",
-    "price": 27.99
+    "name": "Külm.pelmeenid PEALINNA, 350g",
+    "price": 1.89
   },
   {
     "store": "Barbora",
-    "name": "Imiku piimasegu 1 NUPPI 350g 0-6k",
-    "price": 5.89
+    "name": "Külm.pelmeen.Bravissimo Itaal.UVIC, 400g",
+    "price": 2.63
   },
   {
     "store": "Barbora",
-    "name": "Imiku piimasegu HIPP1 Bio 200 ml al.sün.",
-    "price": 2.49
+    "name": "Külm. pelmeenid Maitsvad, 400g",
+    "price": 1.51
   },
   {
     "store": "Barbora",
-    "name": "Algpiimasegu NESTLE NAN OptiPro 650g 0+",
-    "price": 19.19
+    "name": "Külm.pelmeenid UVIC Ivan Poltavskie,500g",
+    "price": 2.68
   },
   {
     "store": "Barbora",
-    "name": "TutteliTM 1 piimasegu 0K+, 300g",
-    "price": 5.09
+    "name": "Külm.pelmeenid UVIC Ivan Kazanskie, 500g",
+    "price": 2.68
   },
   {
     "store": "Barbora",
-    "name": "Kitsepiim.jätk.KABRITA 800g 0-6k",
-    "price": 38.49
+    "name": "Külm. pelmeenid NOSTALGIA, 1kg",
+    "price": 3.98
   },
   {
     "store": "Barbora",
-    "name": "Jätkupiimasegu Combiotic1 HIPP 800g sün.",
-    "price": 21.99
+    "name": "Külm. vareenikud UVIC kartuli-seene,500g",
+    "price": 3.09
   },
   {
     "store": "Barbora",
-    "name": "Piimasegu FRISO Gold 1 al.0-6k 800g",
-    "price": 25.35
+    "name": "Külm.pelmeenid SAAREMAA, 600g",
+    "price": 3.11
   },
   {
     "store": "Barbora",
-    "name": "Piimasegu Aptamil 1 0K+, 2x200ml",
+    "name": "Külmutatud hinkaalid VANO, 400g",
+    "price": 2.44
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.minipelmeenid PEALINNA, 350g",
+    "price": 1.83
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid lihaga OPTIMA LINJA, 1kg",
+    "price": 1.35
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid kanalihaga VICI 400g",
+    "price": 3
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. pelmeenid veiselihaga VICI 400g",
+    "price": 3.08
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.laste pelm.DELUXE sea-veiselih,400g",
+    "price": 2.39
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. pelmeenid lihaga GYOZA VICI 400g",
+    "price": 2.63
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. supipelmeenid UVIC Ivan, 500g",
+    "price": 2.68
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.hinkaalid lambalihaga VANAEMA,390g",
+    "price": 2.87
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. pelmeenid sealihaga VANAEMA, 400g",
+    "price": 2.44
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid linnulihaga VANAEMA, 400g",
+    "price": 2.68
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareen.seente-röstsib.VANAEMA,400g",
+    "price": 2.52
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareen.kartuli-röstsib VANAEMA,400g",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid Uralskije VICI lihaga,1kg",
+    "price": 3.11
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareenikud kohupiimaga GERMES, 450g",
+    "price": 3.35
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid kalkunilih. GERMES 450g",
+    "price": 3.75
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid smile factory GERMES,500g",
+    "price": 3.59
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid õunte&kaneeliga VICI,400g",
+    "price": 2.12
+  },
+  {
+    "store": "Barbora",
+    "name": "Külmutatud pelmeenid EHE , 350g",
+    "price": 2.79
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. minipelmeenid PEALINNA 700g",
+    "price": 3.4
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareenikud kirssidega BIMAR,400g",
+    "price": 2.55
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid lihatäidisega XXL GERMES,1kg",
+    "price": 6.68
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid sea&veiseliha BIMAR,500g",
+    "price": 4.55
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid Fitlap kanaga, 400g",
+    "price": 2.76
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid veise,sea&kana UVIC, 400g",
+    "price": 2.92
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid Sib.Col.sea&veise,350g",
+    "price": 3
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid Sib.Col.veiselihaga,350g",
+    "price": 3
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareen. UVIC Vanaema kohupiim.,400g",
+    "price": 2.52
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.hinkaalid lambalihaga VICI, 350g",
+    "price": 3.4
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.minipelmeenid sealih.RAKVERE, 350g",
+    "price": 1.88
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.täister.pelm.kanalih.PEALINNA, 350g",
+    "price": 2.07
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.minipelm.kanalihaga PEALINNA, 350g",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid BBQ lihaga VICI,300g",
+    "price": 2.47
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareen. UVIC Vanaema, kirss,400g",
+    "price": 2.52
+  },
+  {
+    "store": "Barbora",
+    "name": "Klassika. pelmeenid MAKS&MOORITS 400g",
+    "price": 2.52
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareen kartuli-sibulaga BIMAR 400g",
+    "price": 2.12
+  },
+  {
+    "store": "Barbora",
+    "name": "Pelmeenid lambalihaga LIDO 360g",
+    "price": 4.55
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.vareen. kartuli ja seen. LIDO 360g",
+    "price": 3.67
+  },
+  {
+    "store": "Barbora",
+    "name": "Külmutatud hinkaalid BIMAR, 400g",
+    "price": 3.59
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.minipelm.broilerilih.TALLEGG, 350g",
+    "price": 2.07
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid küüslauk PEALINNA 350g",
+    "price": 1.83
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pelmeenid praesibul.PEALINNA 350g",
+    "price": 1.83
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.põdraliha pelmeenid,350g",
+    "price": 2.23
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.tortelliinid kartuliga VICI,400g",
+    "price": 1.55
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa prosciutto&pes.FELICIANA 360g",
+    "price": 3.85
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. pitsa FELICIANA nelja juustu,325g",
+    "price": 3.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa salaami&choriz.FELICIANA 320g",
+    "price": 4.09
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. hakkliha-juustu pitsa PREMIA,375g",
+    "price": 3.59
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. nelja-juustuga pitsa PEALINNA 340g",
+    "price": 3.59
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa VICI suits.pepperoniga,300g",
+    "price": 2.45
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsaRISTORANTE Mozzarella g.v.370g",
+    "price": 6.29
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsaRISTORANTE Prosciutto g.v.345g",
+    "price": 5.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. pitsa Diavola RISTORANTE 350g",
+    "price": 4.29
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa Mozzarella RISTORANTE, 355g",
+    "price": 4.05
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa salaami LaMiaGrande, 380g",
+    "price": 5.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa Margherita LaMiaGrande, 360g",
+    "price": 5.05
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.Margherita pitsa PEALINNA 300g",
+    "price": 2.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa RISTORANTE vegan salaami 295g",
+    "price": 5.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. pitsa Nelja Juustuga WD 570g",
     "price": 4.39
   },
   {
     "store": "Barbora",
-    "name": "Mahepiimasegu imikutele HOLLE 400g sünn.",
-    "price": 11.59
+    "name": "Külm. pitsa Singi & Seentega WD 570g",
+    "price": 5.49
   },
   {
     "store": "Barbora",
-    "name": "Eripiimasegu NESTLE NAN Comf.400g sün.",
-    "price": 21.49
+    "name": "Külm. pitsa Speciale WD 325g",
+    "price": 3.69
   },
   {
     "store": "Barbora",
-    "name": "Jätkupiimasegu HIPP 2 Bio 200 ml al.6k",
-    "price": 2.49
+    "name": "Külm. pitsa WELL DONE Tradizionale 310g",
+    "price": 2.99
   },
   {
     "store": "Barbora",
-    "name": "Jätkupiimasegu 2 NUPPI 350g 6k",
-    "price": 5.89
+    "name": "Külm. pitsa WELL DONE Margherita 350g",
+    "price": 2.39
   },
   {
     "store": "Barbora",
-    "name": "Aptamil® 2 jätkupiimasegu 6K+, 400g",
-    "price": 9.99
+    "name": "Külm. pitsa Salami WELL DONE 370g",
+    "price": 3.69
   },
   {
     "store": "Barbora",
-    "name": "Piimasegu NESTLE NAN 2 Optipro 650g 6k",
-    "price": 21.19
+    "name": "Külm. pitsa singi-seene EXTRA LINE 270g",
+    "price": 2.15
   },
   {
     "store": "Barbora",
-    "name": "TutteliTM 2 jätkupiimasegu 6K+, 300g",
-    "price": 5.19
+    "name": "Külm. pitsa Americana WELL DONE, 420g",
+    "price": 4.29
   },
   {
     "store": "Barbora",
-    "name": "Jätkupiimasegu Combiotic2Bio HIPP800g,6k",
-    "price": 19.99
+    "name": "Külm. pitsa Gourmet WELL DONE, 425g",
+    "price": 4.29
   },
   {
     "store": "Barbora",
-    "name": "Piimasegu NESTLE NAN 3 Optipro 800g 12k",
-    "price": 28.29
+    "name": "Külm.pitsa FRYTASTIC kana-juustu, 210g",
+    "price": 1.99
   },
   {
     "store": "Barbora",
-    "name": "Piimasegu NESTLE NAN 3 Optipro 650g 12k",
-    "price": 21.19
-  },
-  {
-    "store": "Barbora",
-    "name": "TutteliTM 4 piimajook 24K+, 300g",
-    "price": 5.19
-  },
-  {
-    "store": "Barbora",
-    "name": "TutteliTM 3 piimajook 12-24K, 300g",
-    "price": 5.19
-  },
-  {
-    "store": "Barbora",
-    "name": "TutteliTM 3 piimajook 12-24K, 650g",
-    "price": 11.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Piimajook FRISO Gold 3 al.12k 800g",
-    "price": 23.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Jätkupiimasegu Gold 3 NUPPI 350g 12k",
-    "price": 6.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Piimasegu APTAMIL laktoosivaba 400g 0+",
-    "price": 13.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Piimasegu Comfort1 APTAMIL 400g, sünnist",
-    "price": 13.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Imiku piimasegu ComfortHIPP 300g sünnist",
-    "price": 12.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Piimasegu laktoosivaba FRISO 400g 0-12k",
-    "price": 14.29
-  },
-  {
-    "store": "Barbora",
-    "name": "Piimasegu NESTLE NAN 4 Optipro 800g 2a",
-    "price": 28.29
-  },
-  {
-    "store": "Barbora",
-    "name": "Kitsepiim.jätk.KABRITA Follow on 800g6k",
-    "price": 37.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Kitsepiim.jätk.KABRITA Grow.up 800g 12k",
-    "price": 37.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Piimasegu NESTLE NAN 4 Optipro 650g 2a",
-    "price": 21.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Jätkupiimasegu Tuttteli 3 al. 1a. 650g",
-    "price": 9.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Eripiimasegu imikutele Nan lv 400g",
-    "price": 14.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Piimasegu Tuttelis 1 al. sünnist 650g",
-    "price": 9.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Mahe kun. kit.p.s. im. Hipp PRE 0+ 400g",
-    "price": 18.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Kitsepiimasegu Kabrita1 0-6kuud 800g",
-    "price": 38.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Kitsepiimasegu Kabrita3 12kuud 800g",
-    "price": 40.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Erip.segu Comfort Nan al.sünnist 400g",
-    "price": 16.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Kitsepiimasegu Kabrita2 6-12kuud 800g",
-    "price": 40.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Jätkupiimasegu Tuttteli 4 Junior 24k 300g",
-    "price": 5.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Mahe kun. kit.p.s. im. Hipp 2 6+ 400g",
-    "price": 18.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Piimasegu  Nan Optipro Plus4 al.2a 800g",
-    "price": 19.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Jä.p.segu Optipro Nan Plus 2 al.6k 800g",
-    "price": 22.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Jätkup.s. Optipro Nan Plus 3 al 1a 800g",
-    "price": 22.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Piimas. Optipro Nan HA1 al.sünnist 400g",
-    "price": 14.99
-  },
-  {
-    "store": "Rimi",
-    "name": "P.segu Optipro Nan Plus1 al.sünnist 800g",
-    "price": 22.79
-  },
-  {
-    "store": "Selver",
-    "name": "Kitsepiimasegu nr2 6+, HOLLE, 400 g",
-    "price": 20.5
-  },
-  {
-    "store": "Selver",
-    "name": "Kitsepiimasegu nr1 0+, HOLLE, 400 g",
-    "price": 20.5
-  },
-  {
-    "store": "Selver",
-    "name": "Imiku piimasegu 1 0+, NUPPI GOLD, 350 g",
+    "name": "Pitsa Suprema Funghi Ricotta 525g",
     "price": 6.99
   },
   {
+    "store": "Barbora",
+    "name": "Külm. pitsa FELICIANA Speciale, 335g",
+    "price": 5.79
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa tom-papr.La Mia Familia,480g",
+    "price": 5.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.pitsa 4-juustu La Mia Familia,480g",
+    "price": 5.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Pitsa Ristorante Piadina Diavola 280g",
+    "price": 4.29
+  },
+  {
+    "store": "Barbora",
+    "name": "Pitsa Ristorante Piadina Prosciutto 280g",
+    "price": 4.29
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikart.sakil. Zig Zag AVIKO, 750g",
+    "price": 3.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikart.sakil. Zig Zag AVIKO, 450g",
+    "price": 1.69
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. friikart.FARM FRITES sakiline,750g",
+    "price": 3.45
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. friikartul sakiline AVIKO, 1,5kg",
+    "price": 6.29
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. kartulipallid Noisettes AVIKO,600g",
+    "price": 2.39
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisek.maits.Tex-Mex AVIKO 600g",
+    "price": 2.75
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartul SMART CHOICE, 1kg",
+    "price": 2.25
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikart.FARM FRITESpikk&krõbe,600g",
+    "price": 2.69
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartulid EXTRA LINE 1kg",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisektor küüsl.AVIKO,600g",
+    "price": 2.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartul. sakiline EXTRA LINE,1kg",
+    "price": 2.35
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. praekartul MAAHÄRRA, 500g",
+    "price": 2.05
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. bataadifrii AVIKO, 450g",
+    "price": 4.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. bataadi MAAHÄRRA friikad, 500g",
+    "price": 4.45
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikart.kuld.krõbe MAAHÄRRA, 1.5kg",
+    "price": 5.29
+  },
+  {
+    "store": "Barbora",
+    "name": "Külmutatud friikartulid AVIKO, 900g",
+    "price": 3.35
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisektorid MAAHÄRRA 500g",
+    "price": 2.09
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisekt.krõbe.FARM FRITES 600g",
+    "price": 2.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikart.sakiline KULLAKESED,750g",
+    "price": 2.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Külmutatud pom' kroketid AVIKO, 750g",
+    "price": 3.79
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartul sirge KULLAKESED, 600g",
+    "price": 2.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeen. odrajah. kanalihaga Fitlap Uvic 400g",
+    "price": 3.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid kanaga Viči 400g",
+    "price": 3.89
+  },
+  {
+    "store": "Rimi",
+    "name": "Linna pelmeenid Rimi Smart 1 kg",
+    "price": 1.65
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid veiselihaga Viči 400g",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Pealinna minipelmeenid 700g",
+    "price": 4.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid kana, juustu, puravikuga Viči 400g",
+    "price": 4.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid Hiina Uvic 2kg",
+    "price": 14.79
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid kana ja seentega Gyoza Viči 400g",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Külmutatud Ehe pelmeenid 350g",
+    "price": 2.89
+  },
+  {
+    "store": "Rimi",
+    "name": "Mini-pelmeenid külmutatud Ehe 350g",
+    "price": 2.89
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid Hiina Uvic 700g",
+    "price": 4.29
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid Pealinna 700g",
+    "price": 4.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid kartuli-sibula Uvic 400g",
+    "price": 2.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelm. BBQ lih. Korea stiil. Gyoza Vici 300g",
+    "price": 3.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Minipelmeenid Pealinna 350g",
+    "price": 2.35
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid lambalihaga Ivan Uvic 500g",
+    "price": 3.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid kodused Uvic 400g",
+    "price": 4.19
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid Bravissimo Uvic 400g",
+    "price": 3.29
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid Saaremaa külmutatud 600g",
+    "price": 3.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid sealihaga Viči 400g",
+    "price": 3.89
+  },
+  {
+    "store": "Rimi",
+    "name": "Hinkaalid lambalihaga 350g",
+    "price": 2.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Hinkaalid sealihaga 400g",
+    "price": 2.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Pelmeenid sealihaga Froia 400g",
+    "price": 1.89
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa täidetud ääre ja salaamiga Rimi 472g",
+    "price": 5.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa kebabi Rimi 380g",
+    "price": 4.15
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Capricciosa Rimi 370g",
+    "price": 4.15
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa 4 juustuga Rimi Froia 345g",
+    "price": 2.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Kolmejuustupitsa juustuäärega Rimi 434G",
+    "price": 5.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa salaami ja juust. Rimi Froia 340g",
+    "price": 2.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Royale Rimi 570G",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Hot dogi pizza salaamiga 551g",
+    "price": 5.95
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsapõhi külmutatud Viči 320g",
+    "price": 1.95
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Froia singi, Edam ja Mozza. 350g",
+    "price": 2.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Quattro Formaggi Rimi 570G",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa salaami ja chorizo Feliciana 320g",
+    "price": 4.09
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa prosciutto-singi ja pestoga 360g",
+    "price": 4.09
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Ristorante Prosciutto 340g",
+    "price": 4.09
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa moz. pep. jalap. parik. Rimi Froia 375g",
+    "price": 2.55
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Ristorante Mozzarella 355g",
+    "price": 4.09
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa peekoni BBQ Rimi, külmutatud 450g",
+    "price": 5.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Ristorante Speciale 345g",
+    "price": 4.09
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Ristorante Salame Vegano 295g",
+    "price": 5.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Suprema Salame Romano 487g",
+    "price": 7.19
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Suprema Calabrese Nduja 520g",
+    "price": 7.19
+  },
+  {
+    "store": "Rimi",
+    "name": "Pitsa Ristorante Mozzarella gl.free 370g",
+    "price": 6.29
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartul Rimi sirge 1kg",
+    "price": 2.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartul Kullakesed sakiline Härmavili 750g",
+    "price": 2.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartul Pikk ja Krõbe 600g",
+    "price": 2.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartulid sakilised Rimi 1kg",
+    "price": 2.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Bataadi friikart. Rimi sügavkülmut. 450g",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartulid Rimi Smart 2,5kg",
+    "price": 4.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartul kuldne ja krõbe Maahärra 750g",
+    "price": 3.05
+  },
+  {
+    "store": "Rimi",
+    "name": "Farm frites friikartulid oven fries 750g",
+    "price": 3.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Koorega kartulisekt.Rimi eelpraetud 1kg",
+    "price": 3.15
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartul Crinkle oven fries 750g",
+    "price": 3.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartulid Aviko külmutatud 750g",
+    "price": 3.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Kartulilõigud, eelpraetud, kiirkülm. Rimi 1kg",
+    "price": 3.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Bataadi friikartulid Maahärra 500g",
+    "price": 4.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Vürtsikad kartulisek.eelpraetud Rimi 1kg",
+    "price": 3.19
+  },
+  {
+    "store": "Rimi",
+    "name": "Kartuli vigurnäod Aviko Pom'Patata külm. 450g",
+    "price": 2.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Friikartulid küüslaugu-ürdi Aviko külm. 600g",
+    "price": 3.49
+  },
+  {
     "store": "Selver",
-    "name": "Jätkupiimasegu  2 BIO Combiotik 6+, HIPP, 200 g",
+    "name": "Minipelmeenid Pealinna, PREMIA, 700 g",
+    "price": 4.29
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid lihaga Gyoza, VICI 400 g",
+    "price": 3.65
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid kanaliha ja seentega Gyoza, Vici, 400 g",
+    "price": 3.95
+  },
+  {
+    "store": "Selver",
+    "name": "Minipelmeenid Pealinna, PREMIA, 350 g",
+    "price": 2.39
+  },
+  {
+    "store": "Selver",
+    "name": "Odrajahuga pelmeenid Veise-,sea- ja kanalihaga 80%liha, FITLAP, 400 g",
+    "price": 3.65
+  },
+  {
+    "store": "Selver",
+    "name": "Taimevalgu pelmeenid Vahemere stiilis, THORMI, 350 g",
+    "price": 4.56
+  },
+  {
+    "store": "Selver",
+    "name": "EHE linnuliha pelmeenid (E-vaba), RANNAROOTSI, 350 g",
+    "price": 2.79
+  },
+  {
+    "store": "Selver",
+    "name": "EHE pelmeenid (E-vaba), RANNAROOTSI, 600 g",
+    "price": 3.49
+  },
+  {
+    "store": "Selver",
+    "name": "Külmutatud EHE pelmeenid, RANNAROOTSI, 350 g",
+    "price": 2.79
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid köögiviljadega Gyoza, VICI, 400 g",
+    "price": 3.25
+  },
+  {
+    "store": "Selver",
+    "name": "Odrajahuga pelmeenid broilerilihaga Fitlap, UVIC, 400 g",
+    "price": 3.45
+  },
+  {
+    "store": "Selver",
+    "name": "Vanaema Külmutatud pelmeenid kalkuniga, UVIC, 400 g",
+    "price": 2.94
+  },
+  {
+    "store": "Selver",
+    "name": "Eesti Uluk Põdralihapelmeenid, RANNAROOTSI, 350 g",
+    "price": 2.84
+  },
+  {
+    "store": "Selver",
+    "name": "Taimevalgu pelmeenid Aasia stiilis, THORMI, 350 g",
+    "price": 4.69
+  },
+  {
+    "store": "Selver",
+    "name": "Minipelmeenid kanalihaga, PEALINNA, 350 g",
+    "price": 2.53
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid pardilihaga Traditsioonilised, VICI, 400 g",
+    "price": 4.55
+  },
+  {
+    "store": "Selver",
+    "name": "Kodupelmeenid, MAKS&MOORITS, 700 g",
+    "price": 3.98
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid köögiviljade ja kanaga Gyoza, VICI, 200 g",
+    "price": 2.05
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid BBQ lihaga, Korea stiilis, pastöriseeritud ja külmutatud Gyoza, VICI, 300 g",
+    "price": 3.69
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid kanaga Traditional style, VICI, 400 g",
+    "price": 2.89
+  },
+  {
+    "store": "Selver",
+    "name": "Klassikalised pelmeenid, MAKS&MOORITS, 400 g",
+    "price": 3.17
+  },
+  {
+    "store": "Selver",
+    "name": "Laste pelmeenid, RAKVERE, 350 g",
+    "price": 2.15
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid veiselihaga Traditional style, VICI, 400 g",
+    "price": 4.25
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid kana, juustu ja puravikega Traditional style, VICI, 400 g",
+    "price": 4.35
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid vürtsikate köögiviljadega Gyoza, VICI, 400 g",
+    "price": 3.25
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid broilerilihaga, MAKS&MOORITS, 400 g",
+    "price": 3.79
+  },
+  {
+    "store": "Selver",
+    "name": "Pelmeenid kimtši-sealihaga Korea stiilis, pastöriseeritud ja külmutatud Gyoza, VICI, 300 g",
+    "price": 3.69
+  },
+  {
+    "store": "Selver",
+    "name": "Kiviahjupitsa BBQ chicken, GRANDIOSA, 310 g",
+    "price": 3.97
+  },
+  {
+    "store": "Selver",
+    "name": "Kiviahjupitsa Superiore for Meat Lovers, GRANDIOSA, 350 g",
+    "price": 3.09
+  },
+  {
+    "store": "Selver",
+    "name": "Juustuäärega pitsa mozzarella ja pepperoni’ga, RANNAROOTSI, 475 g",
+    "price": 6.29
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsa Ristorante Hawaii, DR.OETKER, 355g",
+    "price": 4.06
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsa Ristorante Mozzarella, DR.OETKER, 335g",
+    "price": 4.06
+  },
+  {
+    "store": "Selver",
+    "name": "Kiviahjupitsa La Mia Grande \"Margherita\", DR.OETKER, 360 g",
+    "price": 5.07
+  },
+  {
+    "store": "Selver",
+    "name": "Kiviahjupitsa Hawaii, GRANDIOSA, 350 g",
+    "price": 3.97
+  },
+  {
+    "store": "Selver",
+    "name": "Hakkliha-juustu pitsa, PEALINNA, 375 g",
+    "price": 3.79
+  },
+  {
+    "store": "Selver",
+    "name": "Kana-juustu pitsa, PEALINNA, 355 g",
+    "price": 3.79
+  },
+  {
+    "store": "Selver",
+    "name": "Nelja juustu pitsa, PEALINNA, 340 g",
+    "price": 3.79
+  },
+  {
+    "store": "Selver",
+    "name": "Hot dogi pitsa mozzarella ja cheddari juustuga, RANNAROOTSI, 531 g",
+    "price": 6.29
+  },
+  {
+    "store": "Selver",
+    "name": "Hot dogi pitsa salaamiga, RANNAROOTSI, 551 g",
+    "price": 4.99
+  },
+  {
+    "store": "Selver",
+    "name": "Margherita pitsa, PREMIA, 300 g",
+    "price": 2.77
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsa Feliciana prosciutto ja pestoga, DR.OETKER, 360g",
+    "price": 3.85
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsasuupiste salaami,kana,mozzarella, FOOD LUCK, 300 g",
+    "price": 3.89
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsasuupiste salaami, mozzarella, FOOD LUCK, 300 g",
+    "price": 3.89
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsa Bolognese 3x300g, FIRST PRICE, 900 g",
+    "price": 6.89
+  },
+  {
+    "store": "Selver",
+    "name": "Vareenikud Ivan kartuli-seene, UVIC, 500 g",
+    "price": 3.14
+  },
+  {
+    "store": "Selver",
+    "name": "HULGI Superiore pitsa 12x350g 3tk, GRANDIOSA, 3x350g",
+    "price": 11.91
+  },
+  {
+    "store": "Selver",
+    "name": "Ristorante Prosciutto gluteenivaba pitsa, DR.OETKER, 345 g",
+    "price": 5.54
+  },
+  {
+    "store": "Selver",
+    "name": "Double Salami kiviahjupizza, GRANDIOSA, 330 g",
+    "price": 3.97
+  },
+  {
+    "store": "Selver",
+    "name": "Bataadi friikartulid, kuldselt krõbe, MAAHÄRRA, 500 g",
+    "price": 4.46
+  },
+  {
+    "store": "Selver",
+    "name": "Sirge ja krõbe friikartul Kullakesed, HÄRMAVILI, 600 g",
+    "price": 2.59
+  },
+  {
+    "store": "Selver",
+    "name": "Kuldselt krõbedad kartulisektorid maitsestatud, MAAHÄRRA, 500 g",
+    "price": 2.12
+  },
+  {
+    "store": "Selver",
+    "name": "Kartuliviilud, FIRST PRICE, 750 g",
+    "price": 2.33
+  },
+  {
+    "store": "Selver",
+    "name": "Koorega kartulisektorid, FIRST PRICE, 750 g",
+    "price": 2.53
+  },
+  {
+    "store": "Selver",
+    "name": "Kullakesed sakilised friikartulid, HÄRMAVILI, 750 g",
+    "price": 3.29
+  },
+  {
+    "store": "Selver",
+    "name": "Suured friikartulid, GESTUS, 750g",
+    "price": 2.39
+  },
+  {
+    "store": "Selver",
+    "name": "HULGI Bataadifriikartul Kullakesed 3tk, HÄRMAVILI, 3x450g",
+    "price": 12.57
+  },
+  {
+    "store": "Selver",
+    "name": "Bataadifriikad Kullakesed, HÄRMAVILI, 450g",
+    "price": 3.19
+  },
+  {
+    "store": "Selver",
+    "name": "Maahärra klassikalised friikartulid, MAAHÄRRA, 1 kg",
+    "price": 3.59
+  },
+  {
+    "store": "Selver",
+    "name": "Bataadi friikartulid, GESTUS, 400 g",
+    "price": 2.99
+  },
+  {
+    "store": "Selver",
+    "name": "Vigurkartulid, GESTUS, 600g",
+    "price": 3.29
+  },
+  {
+    "store": "Selver",
+    "name": "Külmutatud friikartul sakiline, FARM FRITES, 1.5 kg",
+    "price": 5.19
+  },
+  {
+    "store": "Selver",
+    "name": "Friikartul sirge 10 mm, FANTASY, 1 kg",
+    "price": 2.63
+  },
+  {
+    "store": "Selver",
+    "name": "Kartulisektor küüslauguga, AVIKO, 600 g",
     "price": 2.49
   },
   {
     "store": "Selver",
-    "name": "Piimal põhinev imiku piimasegu, 0+, TUTTELI, 300 g",
-    "price": 5.19
+    "name": "Kartulipannkoogid Rosti, külmutatud, AVIKO, 750 g",
+    "price": 2.84
   },
   {
     "store": "Selver",
-    "name": "Piimal põhinev imiku jätkupiimasegu, 6+, TUTTELI, 300 g",
-    "price": 5.19
-  },
-  {
-    "store": "Selver",
-    "name": "Imiku piimasegu, kitsepiimaga nr. 1, KABRITA, 800 g",
-    "price": 39.9
-  },
-  {
-    "store": "Selver",
-    "name": "Jätkupiimasegu kitsepiimaga nr. 2, KABRITA, 800 g",
-    "price": 45.9
-  },
-  {
-    "store": "Selver",
-    "name": "Väikelaste piimasegu kitsepiimaga nr.3, KABRITA, 800 g",
-    "price": 45.9
-  },
-  {
-    "store": "Selver",
-    "name": "Imiku piimasegu Comfort Combiotic(puhituste ja kõhukinnisuse puhul) 0+, HIPP, 300 g",
-    "price": 12.19
+    "name": "Maitsestatud krõbedad koorega kartulisektorid, FARM FRITES, 600 g",
+    "price": 2.49
   }
 ]

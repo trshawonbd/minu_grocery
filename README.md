@@ -25,7 +25,7 @@ products in each as of the last run (`data/prices.json`):
 | Bread | 83 |
 | Drinks (non-alcoholic only) | 94 |
 | Meat (fresh & frozen chicken, pork, beef, lamb, minced) | 18 |
-| Pasta | 7 |
+| Pasta | 38 |
 | Rice & grains | 19 |
 | Flour & sugar | 25 |
 | Cooking oil | 18 |
@@ -34,7 +34,7 @@ products in each as of the last run (`data/prices.json`):
 | Cream & sour cream | 11 |
 | Kefir & buttermilk | 5 |
 | Coffee | 49 |
-| Tea & cocoa | 9 |
+| Tea & cocoa | 15 |
 | Cereals & oats | 36 |
 | Canned food | 26 |
 | Sauces & condiments | 117 |
@@ -44,20 +44,20 @@ products in each as of the last run (`data/prices.json`):
 | Chocolate | 37 |
 | Candy | 55 |
 | Biscuits | 29 |
-| Chips & snacks | 8 |
+| Chips & snacks | 30 |
 | Nuts, seeds & dried fruit | 30 |
-| Frozen vegetables & berries | 5 |
-| Ice cream | 6 |
-| Dumplings, pizza & fries | 10 |
+| Frozen vegetables & berries | 14 |
+| Ice cream | 16 |
+| Dumplings, pizza & fries | 21 |
 | Sausages | 61 |
 | Ham & cold cuts | 53 |
-| Fish & seafood | 20 |
-| Baby food | 5 |
+| Fish & seafood | 47 |
+| Baby food | 8 |
 | Diapers & baby wipes | 44 |
 | Personal care | 196 |
 | Household | 60 |
-| Pet food | 4 |
-| **Total** | **1517** |
+| Pet food | 11 |
+| **Total** | **1643** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's

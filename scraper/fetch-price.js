@@ -39,7 +39,7 @@ const { fetchSelverPrice } = require("./stores/selver");
 const { matchPool } = require("./match-products");
 const { writeRaw } = require("./raw");
 const { CATEGORIES } = require("./categories");
-const { fetchAllUrls, prepareItem, isUnclassified, toLeftoverEntry, toProductEntry } = require("./scrape-output");
+const { fetchAllUrls, prepareItem, isUnclassified, toLeftoverEntry, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -137,7 +137,7 @@ async function main() {
         `${unmatched.length - unclassifiedCount} unmatched, ${unclassifiedCount} unclassified, ${ambiguous.length} ambiguous`
     );
 
-    for (const match of matches) {
+    for (const match of uniqueCanonicalNames(matches)) {
       freshEntries.push(toProductEntry(category, match));
     }
   }

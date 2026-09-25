@@ -241,6 +241,26 @@ about anything ambiguous.
   `daily-update.js` read from here.
 - `scraper/stores/selver.js` — Selver's own category-ID map.
 - `scraper/match-products.js` — the matching engine.
+- `scraper/rebuild-prices.js` — re-runs the scrape pipeline over
+  `data/raw/` for named categories with NO network (`node
+  scraper/rebuild-prices.js "Diapers & baby wipes"`), for when a
+  matching or naming rule changed and already-scraped items just need
+  re-interpreting. Prices stay what the last scrape recorded. Never
+  use it on Fruits & vegetables, Bread or Drinks after the daily
+  update has run — their `data/raw/` is newer than `data/prices.json`
+  and a rebuild would re-match on un-reviewed data.
+- **Display names**: every name is synthesized (`synthesizeCanonicalName`
+  in `scraper/match-products.js`) in Estonian — brand, type,
+  descriptors, organic/grade qualifiers, the stated fat/cocoa %, then
+  size. Diapers & baby wipes have their own shape (brand, product
+  line, püksmähkmed/mähkmed, S-size, piece count, Boy/Girl — never a
+  weight; their stored `size` is the piece count, so the screen prices
+  per piece). No two products in a category may share a name —
+  `uniqueCanonicalNames` in `scraper/scrape-output.js` guards it and
+  `scraper/scrape-output.test.js` checks the data file. A fix to a
+  name rule reaches the screen only after a rebuild or a scrape
+  rewrites `data/prices.json` — the earlier diaper-name fix sat in the
+  code for a day because Diapers was never re-run.
 - `scraper/daily-update.js` — unattended scheduled updates (never
   creates/merges products, only updates prices/availability by URL;
   new candidates go to `data/pending.json`, never auto-applied; skips

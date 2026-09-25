@@ -55,8 +55,22 @@ function cheapestPrice(entries, key = "price") {
 // "10-pack") — skipped on the page rather than guessed at.
 const UNIT_PRICE_SIZE_PATTERN = /^(\d+(?:\.\d+)?)(?:x(\d+(?:\.\d+)?))?(g|ml)$/;
 
+// A piece-count size ("96tk" — diapers and wet wipes, see
+// diaperMatching in scraper/categories.js): the unit price is per
+// piece, never per kg. Real bug found on the product screen: a
+// diaper's `size` used to be the baby's weight range read as a pack
+// weight ("17000g"), and this function turned it into a nonsense
+// "€/kg" line. The scraper no longer writes that; this is the display
+// side of the same fix.
+const PIECE_COUNT_SIZE_PATTERN = /^(\d+)tk$/;
+
 function unitPrice(entry) {
   if (!entry.size) return null;
+  const pieces = entry.size.match(PIECE_COUNT_SIZE_PATTERN);
+  if (pieces) {
+    const count = parseInt(pieces[1], 10);
+    return count > 0 ? { value: entry.price / count, unit: "tk" } : null;
+  }
   const match = entry.size.match(UNIT_PRICE_SIZE_PATTERN);
   if (!match) return null;
 

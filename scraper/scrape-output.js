@@ -145,6 +145,39 @@ function toProductEntry(category, match) {
   return entry;
 }
 
+// No two products in a category may share a displayed name (the
+// owner's rule). synthesizeCanonicalName is meant to make names
+// unique by itself — this is the guard for whatever it still misses.
+// A duplicate group gets each member's name extended with the first
+// raw-name word (from any of its store listings) that no other member
+// of the group has anywhere in its own listings; when even that finds
+// nothing, a " (2)", " (3)" suffix — visible, never silent. Returns
+// new match objects; the input isn't mutated.
+function uniqueCanonicalNames(matches) {
+  const wordsOf = (match) => new Set(match.items.flatMap((it) => (it.name.toLowerCase().match(/\p{L}+/gu) || [])));
+  const groups = new Map();
+  for (const match of matches) {
+    if (!groups.has(match.canonicalName)) groups.set(match.canonicalName, []);
+    groups.get(match.canonicalName).push(match);
+  }
+
+  const renamed = new Map();
+  for (const group of groups.values()) {
+    if (group.length < 2) continue;
+    const words = group.map(wordsOf);
+    const taken = new Set();
+    group.forEach((match, i) => {
+      const others = words.filter((_, j) => j !== i);
+      const distinct = [...words[i]].find((w) => !others.some((set) => set.has(w)));
+      let name = distinct ? `${match.canonicalName} ${distinct}` : match.canonicalName;
+      for (let n = 2; taken.has(name); n++) name = `${match.canonicalName} (${n})`;
+      taken.add(name);
+      renamed.set(match, name);
+    });
+  }
+  return matches.map((match) => (renamed.has(match) ? { ...match, canonicalName: renamed.get(match) } : match));
+}
+
 module.exports = {
   fetchAllPages,
   fetchAllUrls,
@@ -154,4 +187,5 @@ module.exports = {
   toStoreEntry,
   toPricesObject,
   toProductEntry,
+  uniqueCanonicalNames,
 };

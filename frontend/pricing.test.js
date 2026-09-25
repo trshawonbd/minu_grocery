@@ -93,6 +93,17 @@ const results = [
     assert.equal(unitPrice({ price: 2.49, size: null }), null);
     assert.equal(unitPrice({ price: 2.49, size: "10-pack" }), null, "a non-standard size shape is skipped, not guessed at");
   }),
+  test("Unit price: a diaper (piece-count size '96tk') is priced per piece, never per kg — the baby's weight range plays no part", () => {
+    const diapers = unitPrice({ price: 24.33, size: "96tk" });
+    assert.equal(diapers.unit, "tk");
+    assert.ok(Math.abs(diapers.value - 24.33 / 96) < 0.0001);
+    assert.equal(unitPrice({ price: 24.33, size: "0tk" }), null, "a zero count is skipped, not divided by");
+    // Regression: the old weight-range-as-size shape must never again
+    // produce a €/kg number for a diaper — the scraper no longer writes
+    // it, and even if it did, "17000g" is not a piece count.
+    const oldShape = unitPrice({ price: 24.33, size: "17000g" });
+    assert.notEqual(oldShape && oldShape.unit, "tk");
+  }),
   test("Unit price never affects isCheapest — productRows still decides cheapest from price alone", () => {
     const product = {
       prices: {

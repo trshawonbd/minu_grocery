@@ -188,6 +188,10 @@ const CATEGORIES = [
     // with no stage split of its own to miss.
     name: "Baby formula",
     strictPackaging: false,
+    // Display only (this category never compares descriptors): Rimi's
+    // "P.segu" leaves a bare "P" as the first word, and "segu" alone is
+    // just "mix" — neither belongs in a product's name.
+    impliedDescriptors: ["p", "segu"],
     urls: {
       barbora: [
         "https://barbora.ee/lastekaubad/piimasegud-ja-jatkupiimasegud/piimasegud-alates-sunnist",

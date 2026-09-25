@@ -18,7 +18,7 @@ const path = require("path");
 const { loadRawPool } = require("./raw");
 const { CATEGORIES } = require("./categories");
 const { matchPool } = require("./match-products");
-const { toProductEntry } = require("./scrape-output");
+const { toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -48,7 +48,7 @@ function main() {
   for (const category of categories) {
     const before = existing.filter((p) => p.category === category.name).length;
     const { matches, unmatched, ambiguous } = matchPool(loadRawPool(category.name), overrides, knownDifferent);
-    for (const match of matches) freshEntries.push(toProductEntry(category, match));
+    for (const match of uniqueCanonicalNames(matches)) freshEntries.push(toProductEntry(category, match));
     console.log(`${category.name}: ${before} -> ${matches.length} matches (${unmatched.length} unmatched, ${ambiguous.length} ambiguous) — rebuilt from data/raw/, no scrape`);
   }
 

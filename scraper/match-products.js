@@ -207,10 +207,17 @@ const IDENTITY_QUALIFIER_PATTERNS = [
   // other a standalone "öko". ("mahe" is also Estonian for "mild", as
   // in "maitselt mahe kurk" — harmless: both stores of such a pair
   // write it, so the qualifier agrees.)
-  { pattern: /(?<![\p{L}])(?:mahe\p{L}*|öko|ökoloogiline|bio|organic)(?![\p{L}])/iu, extract: () => "mahe" },
+  // The prefix form needs 3+ letters after "mahe" ("Mahetäispiim",
+  // "Mahepiimasegu") so that "maheda"/"mahedalt" — "mild(ly)", as in
+  // Felix's "Maheda maitsega sinep" — is never read as organic.
+  { pattern: /(?<![\p{L}])(?:mahe(?:\p{L}{3,})?|öko|ökoloogiline|bio|organic)(?![\p{L}])/iu, extract: () => "mahe" },
   { pattern: /\b([2-9])\.?\s*kl\.?\b/i, extract: (m) => `${m[1]}kl` },
   {
-    pattern: /\b\p{L}{2,}ga\b/giu,
+    // Letter boundaries, not \b: a \b never fires before "ü"/"š", so
+    // "ürtidega" (with herbs) used to extract as "rtidega" — harmless
+    // for matching (both stores lost the same letter) but wrong the
+    // moment the qualifier is shown in a display name.
+    pattern: /(?<![\p{L}])\p{L}{2,}ga(?![\p{L}])/giu,
     extract: (m) => {
       const word = m[0].toLowerCase();
       return NON_COMITATIVE_GA_WORDS.has(word) ? null : word;
@@ -742,9 +749,10 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   // organic wording, a life-stage label) was deliberately left alone
   // for the owner to decide, not normalized.
   // Spelling / grammatical variants of one word
-  ["originaal", "original"],
+  ["original", "originaal"], // kept as the Estonian spelling, the display language
   ["till", "tilli"], // dill: "hapukoore/till" vs "hapukoore-tilli"
-  ["mikropopkorn", "mikropopcorn"],
+  ["jätkup", "jätkupiimasegu"], // Rimi's "Jätkup.segu" (follow-on formula)
+  ["mikropopcorn", "mikropopkorn"], // kept as the Estonian spelling
   ["seakrõps", "seakrõpsud"],
   ["rigatte", "rigate"], // Rimi's own misspelling of the ridged-pasta word
   ["lintspagetid", "lintspagett"],
@@ -1038,7 +1046,14 @@ function computeSignature(item) {
     // product word (piim, või, jogurt, ...) is never mistaken for a
     // brand this way, the way the name-only guess could be.
     brand: item.brand ? item.brand.toLowerCase() : extractBrand(name),
-    size: extractSize(name),
+    // Diapers & baby wipes: the size a shopper compares is the piece
+    // count ("96tk"), never a weight — the only weight in a diaper's
+    // name is the baby's weight range ("12-17kg"), which extractSize
+    // used to read as a 17kg pack. Real bug found on the product
+    // screen: data/prices.json carried size "17000g" and the page
+    // showed a nonsense €/kg line. Written to prices.json by
+    // toStoreEntry, priced per piece by frontend/pricing.js.
+    size: item.diaperMatching === true ? diaperPieceCountSize(name) : extractSize(name),
     variant: extractVariant(name),
     // Checked against the raw name, not the stripped/produce-typed
     // text — applies the same way on the brand path and the produce
@@ -1404,6 +1419,16 @@ function capitalize(word) {
 // one raw first word, abbreviations expanded/dropped the same way, and
 // gone entirely if the category declares it implied. Returns "" when
 // nothing meaningful is left.
+// Type words whose ORIGINAL spelling is shown in a display name even
+// though matching reduces or drops them: "Röstsai" (matching reads it
+// as "röst") and "Mineraalvesi" (matching drops it as noise) — a
+// shopper reading "Leibur Röst" or "Värska originaal 1500ml" is worse
+// off. Every other type word is normalized exactly the way descriptor
+// words are, so it de-duplicates against them ("Šokolaadimaitseline"
+// -> "šokolaadi", "Hõbeheik" -> "heik", "Jah." -> nothing) — both
+// found by hand reviewing every name this touches.
+const TYPE_WORD_KEEP = new Set(["röstsai", "mineraalvesi"]);
+
 function normalizeTypeWord(type, impliedWords = []) {
   let text = type || "";
   for (const { regex, replacement } of DESCRIPTOR_NORMALIZATION_PATTERNS) {
@@ -1425,24 +1450,111 @@ function normalizeTypeWord(type, impliedWords = []) {
 // piece count with no unit). Diapers' real identity is size + piece
 // count (see sameDiaperProduct); the display name uses exactly those,
 // never the generic size/variant fields.
-function synthesizeDiaperName(sigA, sigB) {
+function diaperPieceCountSize(name) {
+  const count = extractDiaperPieceCount(name);
+  return count === null ? null : `${count}tk`;
+}
+
+// The words of a diaper/wipe name that are NOT its identity fields
+// (brand, type, size, count, weight range) and NOT filler — what's
+// left is the product line ("Premium Care", "Little Movers", "Extra
+// Care", "Jumbo Pack") and, when stated, Boy/Girl. Barbora abbreviates
+// the line heavily ("PC", "JP", "Prem.Care", "ExtraCare5"); every
+// expansion here was read off a real pair where the other store
+// spells it out. Returns capitalized words in the name's own order.
+const DIAPER_LINE_EXPANSIONS = {
+  pc: "Premium Care", prem: "Premium", pr: "Premium", car: "Care",
+  jp: "Jumbo Pack", jumb: "Jumbo", gp: "Giant Pack", mp: "Mega Pack",
+  vp: "Value Pack", mb: "Monthly Box", extracare: "Extra Care",
+  sens: "Sensitive", pf: "Plastic Free", allovercl: "All Over Clear",
+  poistele: "Boy", tüdrukutele: "Girl",
+};
+const DIAPER_NOISE_WORDS = new Set([
+  "püksmähkmed", "püksmähkm", "püksmähk", "püksmäh", "mähkmed", "mähkm", "mähk", "mäh", "tavamähkmed",
+  "pants", "diapers", "hulgi", "niisked", "niisk", "niis", "salvrätikud", "salvrätik", "salvrätid", "salvr", "salv",
+  "beebidele", "beebile", "univ", "tk", "kg", "k", "x", "nr", "s", "size",
+  "r", // Rimi's "salv.r." (salvrätikud)
+  // "for newborns" hints and Pampers' own size words — the size
+  // number already says it.
+  "v", "sün", "sünn", "sünnist", "vastsündinu", "vastsündinule", "newborn", "junior", "midi", "maxi",
+]);
+
+// Multi-word product-line phrases, in the order they're shown — so
+// Barbora's "PC" and Selver's "Premium Care, Value Pack" both read
+// "Premium Care Value Pack", never "Premium Value Pack Care". Any
+// word not part of a listed phrase follows in first-seen order.
+const DIAPER_LINE_PHRASES = [
+  "Premium Care", "Extra Care", "Little Movers", "Active Baby", "Harmonie", "Overnights",
+  "Jumbo Pack", "Giant Pack", "Mega Pack", "Value Pack", "Monthly Box",
+  "All Over Clear", "Aqua Soft Touch", "Sensitive", "Plastic Free", "Pure", "Water",
+];
+
+function diaperLineWords(name, brand) {
+  const brandWords = new Set((brand || "").toLowerCase().match(/\p{L}+/gu) || []);
+  const words = [];
+  for (const m of name.matchAll(/[\p{L}\p{N}&]+/gu)) {
+    const raw = m[0].toLowerCase();
+    if (/^\d/.test(raw)) continue; // sizes, counts, weight ranges
+    if (/^s\d{1,2}$/.test(raw)) continue; // "S5"
+    const stripped = raw.replace(/\d+$/, ""); // "extracare5", "comfort2"
+    if (!stripped || brandWords.has(stripped) || DIAPER_NOISE_WORDS.has(stripped)) continue;
+    const expanded = DIAPER_LINE_EXPANSIONS[stripped] || stripped;
+    for (const w of expanded.split(" ")) {
+      const cap = w === "&" ? "&" : capitalize(w);
+      if (!words.includes(cap)) words.push(cap);
+    }
+  }
+  return words;
+}
+
+// "Pampers Premium Care Püksmähkmed S5 34tk", "Huggies Little Movers
+// Püksmähkmed S5 48tk Boy", "Pampers Sensitive Niisked salvrätikud
+// 52tk" — brand, product line, type, size, piece count, Boy/Girl. The
+// line is read from whichever store spells it out most (both items'
+// words, longest list first), so Barbora's "PC S5 34tk" and Selver's
+// "Premium Care, Value Pack S5" meet at one name. Never a weight.
+function synthesizeDiaperName(sigA, sigB, restSigs = []) {
+  const sigs = [sigA, sigB, ...restSigs];
   const brand = sigA.brand || sigB.brand || "";
-  const nameLower = sigA.nameLower || sigB.nameLower || "";
-  const kind = sigA.isDiaperWipe ? "Niisked salvrätikud" : /püksmähk/i.test(nameLower) ? "Püksmähkmed" : "Mähkmed";
+  const namesLower = sigs.map((s) => s.nameLower).filter(Boolean);
+  const kind = sigA.isDiaperWipe ? "Niisked salvrätikud" : namesLower.some((n) => /püksmähk|pants/.test(n)) ? "Püksmähkmed" : "Mähkmed";
   const size = sigA.diaperSize ?? sigB.diaperSize;
   const count = sigA.diaperPieceCount ?? sigB.diaperPieceCount;
-  const parts = [capitalize(brand) || "Unknown", kind];
+
+  // Every line word any store states, once, then known phrases in
+  // their fixed order and the rest as first seen.
+  const tokens = [];
+  for (const sig of sigs) {
+    for (const w of diaperLineWords(sig.nameLower || "", brand)) if (!tokens.includes(w)) tokens.push(w);
+  }
+  const gender = tokens.filter((w) => w === "Boy" || w === "Girl");
+  let leftover = tokens.filter((w) => !gender.includes(w));
+  const line = [];
+  for (const phrase of DIAPER_LINE_PHRASES) {
+    const words = phrase.split(" ");
+    if (words.every((w) => leftover.includes(w))) {
+      line.push(phrase);
+      leftover = leftover.filter((w) => !words.includes(w));
+    }
+  }
+  line.push(...leftover);
+
+  const parts = [capitalize(brand) || "Unknown", ...line, kind];
   if (size !== null) parts.push(`S${size}`);
   if (count !== null) parts.push(`${count}tk`);
+  parts.push(...gender);
   return parts.join(" ");
 }
 
-function synthesizeCanonicalName(a, b) {
+// `rest`: any further items of the same group (a 3-store product) —
+// a diaper's product line is read from whichever store spells it out,
+// which is often the third one.
+function synthesizeCanonicalName(a, b, rest = []) {
   const sigA = signatureOf(a);
   const sigB = signatureOf(b);
 
   if (sigA.diaperMatching && sigB.diaperMatching) {
-    return synthesizeDiaperName(sigA, sigB);
+    return synthesizeDiaperName(sigA, sigB, rest.map(signatureOf));
   }
 
   const branded = sigA.hasBrand && sigB.hasBrand;
@@ -1471,7 +1583,8 @@ function synthesizeCanonicalName(a, b) {
   // category) or "Pr räimed" (for "Praetud") — found reviewing the
   // abbreviation round's new matches by hand.
   const typeKey = normalizeTypeWord(type, sigA.impliedDescriptors ?? sigB.impliedDescriptors ?? []);
-  const typeName = typeKey && typeKey !== brand.toLowerCase() ? capitalize(typeKey) : null;
+  const typeShown = TYPE_WORD_KEEP.has(type.toLowerCase()) ? type.toLowerCase() : typeKey;
+  const typeName = typeShown && typeShown !== brand.toLowerCase() ? capitalize(typeShown) : null;
   // Same principle, one level further: two same-brand, same-size,
   // same-type packaged items can still be different products — two
   // Alma Muah yoghurts ("Alma Koorejogurt 380g" for both stracciatella
@@ -1490,7 +1603,40 @@ function synthesizeCanonicalName(a, b) {
     ? descriptors.split(" ").filter((w) => w !== typeKey && w !== brand.toLowerCase())
     : [];
   const descriptorName = descriptorWords.length > 0 ? descriptorWords.join(" ") : null;
-  return [capitalize(brand) || "Unknown", typeName, descriptorName, variant, size].filter(Boolean).join(" ");
+  // A stated fat/cocoa % and the identity qualifiers (organic, a
+  // flour grade, a "with X") are part of what makes the product
+  // itself, and were the reason two names could collide: three Kalev
+  // dark chocolates (56/70/87%) all read "Kalev Tume bitter šokolaad
+  // 100g" — the % is compared for matching but was never shown. The
+  // qualifiers already present as a descriptor word (a "-ga" word)
+  // aren't repeated; "mahe" reads as the Estonian word, a grade as
+  // "T550"/"2kl".
+  const fatPercent = sigA.fatPercent ?? sigB.fatPercent;
+  const brandWords = new Set(brand.toLowerCase().match(/\p{L}+/gu) || []);
+  const gradeQualifier = (sigA.qualifiers || sigB.qualifiers || "").split(" ").find((q) => /^t(00|405|550|812)$/.test(q));
+  // "Maitselt mahe kurk" (a MILD-tasting pickle) carries the organic
+  // qualifier only because "mahe" is also the Estonian word for mild
+  // — the raw words already say it, so it isn't appended again.
+  const mildNotOrganic = [a.name, b.name].some((n) => n && /maitselt\s+mahe/i.test(n));
+  const qualifierText = (sigA.qualifiers || sigB.qualifiers || "")
+    .split(" ")
+    // A brand that happens to end in "-ga" (Selga, Corega) is read as
+    // a comitative qualifier by the matcher — never repeated here.
+    .filter((q) => q && !descriptorWords.includes(q) && !brandWords.has(q) && !(q === "mahe" && mildNotOrganic))
+    .map((q) => (/^t(00|405|550|812)$/.test(q) ? q.toUpperCase() : q))
+    .join(" ");
+  // The flour grade's own stray "t" (from "T-550", "T 550") is a
+  // leftover descriptor letter the grade qualifier already covers.
+  const shownDescriptors = gradeQualifier ? descriptorWords.filter((w) => w !== "t") : descriptorWords;
+  const shownDescriptorName = shownDescriptors.length > 0 ? shownDescriptors.join(" ") : null;
+  // Named variants are internal tokens; shown in the display language
+  // (Estonian) and never repeated when the word is already there.
+  const VARIANT_DISPLAY = { "lactose-free": "laktoosivaba", comfort: "Comfort", ar: "AR" };
+  const shownVariant = variant == null ? null : VARIANT_DISPLAY[variant] || variant;
+  const variantText = shownVariant && !descriptorWords.includes(shownVariant.toLowerCase()) ? shownVariant : null;
+  return [capitalize(brand) || "Unknown", typeName, shownDescriptorName, qualifierText || null, fatPercent ? `${fatPercent}%` : null, variantText, size]
+    .filter(Boolean)
+    .join(" ");
 }
 
 // Decides if two raw items are the same product:
@@ -1640,7 +1786,7 @@ function matchPool(items, overrides = [], knownDifferent = []) {
       }
     }
 
-    const canonicalName = overrideEdge ? overrideEdge.canonicalName : synthesizeCanonicalName(groupItems[0], groupItems[1]);
+    const canonicalName = overrideEdge ? overrideEdge.canonicalName : synthesizeCanonicalName(groupItems[0], groupItems[1], groupItems.slice(2));
     const reason = overrideEdge ? "override" : "automatic";
 
     matches.push({ items: groupItems, canonicalName, reason });

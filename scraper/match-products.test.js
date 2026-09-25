@@ -986,11 +986,63 @@ const tests = [
     run: () => {
       const a = buildItem("Diapers & baby wipes", "Barbora", "Püksmähkmed PAMPERS MP S5 12-17kg 96tk", { brand: "pampers" });
       const b = buildItem("Diapers & baby wipes", "Rimi", "HULGI Püksmähkmed Mega Pack S5, PAMPERS, 11-18kg/96 tk", { brand: "pampers" });
-      assert.equal(matchItems(a, b).canonicalName, "Pampers Püksmähkmed S5 96tk");
+      assert.equal(matchItems(a, b).canonicalName, "Pampers Mega Pack Püksmähkmed S5 96tk");
 
       const wipeA = buildItem("Diapers & baby wipes", "Barbora", "Niisked salvrätikud PAMPERS Water, 60tk", { brand: "pampers" });
       const wipeB = buildItem("Diapers & baby wipes", "Rimi", "Niisked salv.r. Pampers Aqua Soft Touch 60tk", { brand: "pampers" });
-      assert.equal(matchItems(wipeA, wipeB).canonicalName, "Pampers Niisked salvrätikud 60tk");
+      assert.equal(matchItems(wipeA, wipeB).canonicalName, "Pampers Aqua Soft Touch Water Niisked salvrätikud 60tk", "Rimi's 'salv.r.' abbreviation letter never leaks into the name");
+      // The stored size is the piece count, so the screen prices per
+      // piece — never the baby's weight range as grams.
+      assert.equal(computeSignature(a).size, "96tk");
+      assert.equal(computeSignature(wipeA).size, "60tk");
+    },
+  },
+  {
+    name: "Diapers: the display name carries brand, product line (Barbora's PC/JP/GP/MP/VP abbreviations expanded from the store that spells it out), type, size, piece count, and Boy/Girl when stated — never the weight range",
+    run: () => {
+      const d = (store, name, brand) => buildItem("Diapers & baby wipes", store, name, { brand });
+      assert.equal(matchItems(d("Barbora", "Püksmähk.PAMPERS Prem.Care s5,34tk 11-17", "pampers"), d("Selver", "Püksmähkmed Premium Care, Value Pack S5, PAMPERS, 11-17kg/34 tk", "pampers")).canonicalName, "Pampers Premium Care Value Pack Püksmähkmed S5 34tk");
+      assert.equal(matchItems(d("Barbora", "Mähkmed HUGGIES Extra Care S3 72tk", "huggies"), d("Rimi", "Mähkmed Huggies Extra Care 3 6-10kg 72tk", "huggies")).canonicalName, "Huggies Extra Care Mähkmed S3 72tk");
+      assert.equal(matchItems(d("Barbora", "Püksmähkm.HUGGIES ExtraCare3 6-11kg 48tk", "huggies"), d("Selver", "Püksmähkmed Extra Care 3, HUGGIES, 6-11kg/48tk", "huggies")).canonicalName, "Huggies Extra Care Püksmähkmed S3 48tk");
+      assert.equal(matchItems(d("Barbora", "Püksmähkmed HUGGIES S5 Boy 12-17kg 48tk", "huggies"), d("Selver", "Püksmähkmed Pants Little Movers 5 Boy 12-17kg, HUGGIES, 48 tk", "huggies")).canonicalName, "Huggies Little Movers Püksmähkmed S5 48tk Boy");
+      assert.equal(matchItems(d("Barbora", "Püksmähkmed PAMPERS JP S6 13-19kg 42tk", "pampers"), d("Selver", "Püksmähkmed Jumbo Pack S6, PAMPERS, 13-19kg/42tk", "pampers")).canonicalName, "Pampers Jumbo Pack Püksmähkmed S6 42tk");
+      const name = matchItems(d("Barbora", "Mähkmed PAMPERS Prem.Care s0,< 3kg 30tk", "pampers"), d("Selver", "Mähkmed Premium Care 0, PAMPERS, < 3 kg/30 tk", "pampers")).canonicalName;
+      assert.equal(name, "Pampers Premium Care Mähkmed S0 30tk");
+      assert.ok(!/\d+g\b/.test(name) && !/kg/.test(name), "no grams or kg in a diaper name");
+    },
+  },
+  {
+    name: "Names: a stated cocoa/fat % and the organic qualifier are part of the display name — real duplicate found: three Kalev dark chocolates (56/70/87%) all read 'Kalev Tume bitter šokolaad 100g'",
+    run: () => {
+      const choc = (store, name) => buildItem("Chocolate", store, name, { brand: "kalev" });
+      const n56 = matchItems(choc("Barbora", "Tume šokolaad bitter 56% KALEV 100g"), choc("Selver", "Tume šokolaad Bitter 56%, KALEV, 100 g")).canonicalName;
+      const n70 = matchItems(choc("Barbora", "Tume šokolaad bitter 70% KALEV 100g"), choc("Selver", "Tume šokolaad Bitter 70%, KALEV, 100 g")).canonicalName;
+      assert.notEqual(n56, n70);
+      assert.ok(n56.includes("56%") && n70.includes("70%"), `${n56} / ${n70}`);
+      const jam = (store, name) => buildItem("Jam & honey & spreads", store, name, { brand: "salvest" });
+      assert.equal(matchItems(jam("Barbora", "Ökoloogiline SALVEST pirnipüree 450g"), jam("Selver", "Pirnipüree Öko, SALVEST, 450 g")).canonicalName, "Salvest pirnipüree mahe 450g");
+    },
+  },
+  {
+    name: "Names: display-only regressions found reviewing every name the change touched — a '-ga' word keeps its leading diacritic, a brand ending in -ga (Selga/Corega) is never repeated as a qualifier, 'maheda' (mild) is not organic, a display word is only ever expanded (Röstsai stays, Mineraalvesi stays), 'lactose-free' shows as laktoosivaba once",
+    run: () => {
+      const sauce = (store, name) => buildItem("Sauces & condiments", store, name, { brand: "felix" });
+      assert.equal(computeSignature(sauce("Barbora", "Pastakaste ürtidega FELIX 360g")).qualifiers, "ürtidega");
+      assert.equal(matchItems(sauce("Barbora", "Pastakaste ürtidega FELIX 360g"), sauce("Rimi", "Pastakaste ürtidega Felix 360g")).canonicalName, "Felix Pastakaste ürtidega 360g");
+      assert.ok(!computeSignature(sauce("Barbora", "Maheda maitsega sinep FELIX 170g")).qualifiers.split(" ").includes("mahe"), "'maheda' is mild, not organic");
+      const pickle = (store, name) => buildItem("Canned food", store, name, { brand: "salvest" });
+      assert.equal(matchItems(pickle("Barbora", "Maitselt mahe kurk SALVEST 675g"), pickle("Selver", "Maitselt mahe kurk, SALVEST, 675 g")).canonicalName, "Salvest Maitselt kurk 675g", "a mild pickle is not labelled organic");
+      const chips = (store, name) => buildItem("Chips & snacks", store, name, { brand: "estrella" });
+      assert.equal(matchItems(chips("Barbora", "Mikropopkorn soolaga ESTRELLA 90g"), chips("Selver", "Mikropopcorn soolaga, ESTRELLA, 90 g")).canonicalName, "Estrella Mikropopkorn soolaga 90g", "one Estonian spelling, shown once");
+      const biscuit = (store, name) => buildItem("Biscuits", store, name, { brand: "selga" });
+      assert.equal(matchItems(biscuit("Barbora", "Küpsis kookosemaits. SELGA 180g"), biscuit("Rimi", "Küpsis kookosemaitseline Selga 180g")).canonicalName, "Selga Küpsis kookose 180g");
+      const bread = (store, name) => buildItem("Bread", store, name, { brand: "leibur" });
+      assert.match(matchItems(bread("Barbora", "Röstsai kuldne täistera LEIBUR 500g"), bread("Rimi", "Röstsai kuldne täistera Leibur 500g")).canonicalName, /^Leibur Röstsai /);
+      const water = (store, name) => buildItem("Drinks", store, name, { brand: "vytautas" });
+      assert.match(matchItems(water("Barbora", "Mineraalvesi VYTAUTAS 1.5L"), water("Rimi", "Mineraalvesi Vytautas 1,5l")).canonicalName, /Mineraalvesi/);
+      const cream = (store, name) => buildItem("Cream & sour cream", store, name, { brand: "tere" });
+      const creamName = matchItems(cream("Barbora", "Vahukoor laktoosivaba TERE 35% 400ml"), cream("Rimi", "Vahukoor laktoosivaba 35% Tere 400ml")).canonicalName;
+      assert.ok(!creamName.includes("lactose-free") && (creamName.match(/laktoosivaba/g) || []).length === 1, creamName);
     },
   },
 

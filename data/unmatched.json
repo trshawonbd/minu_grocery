@@ -1,2732 +1,697 @@
 [
   {
     "store": "Barbora",
-    "name": "Kons. herned BONDUELLE 660g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised herned BONDUELLE 800g",
-    "price": 3.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons. herned BONDUELLE 400g",
-    "price": 1.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveer.roheline hernes GLOBUS 400g",
-    "price": 2.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons. herned BONDUELLE Extra Fine 200g",
-    "price": 1.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Konsev.mais BONDUELLE 670g",
-    "price": 3.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveeritud mais Gold BONDUELLE 170g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Valged oad tomatikastmes HEINZ 415g",
-    "price": 2.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Punane uba Kidney BONDUELLE 400g",
-    "price": 1.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Punased oad tsillikasmes BONDUELLE 430g",
-    "price": 2.29
-  },
-  {
-    "store": "Barbora",
-    "name": "Valged oad tomatikastmes BONDUELLE 430g",
-    "price": 2.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveeritud mais BONDUELLE 530g",
-    "price": 2.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Beebimais MIKADO 330g",
-    "price": 2.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Magus mais BONDUELLE 340g",
-    "price": 2.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.kuldne mais Kids BONDUELLE 170g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Konservherned Kids BONDUELLE 200g",
-    "price": 1.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.mais ja hernes Gold BONDUELLE 340g",
-    "price": 2.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Väikesed rohelised herned BONDUELLE 400g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Suhkrumais GLOBUS 340g",
-    "price": 2.15
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserv.valged oad EXTRA LINE 400g",
-    "price": 1.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Mais tšilliga Gold BONDUELLE 165g",
-    "price": 1.75
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveeritud mais EXTRA LINE 400g",
-    "price": 1.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.rohelised herned EXTRA LINE 400g",
-    "price": 0.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Maisi-Kidney ubade segu BONDUELLE 170g",
-    "price": 1.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Aurutat. kikerhern.vapeur BONDUELLE 310g",
-    "price": 2.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Aurutatud pun.oad vapeur BONDUELLE 310g",
-    "price": 2.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Aurutatud valg.oad vapeur BONDUELLE 310g",
-    "price": 2.15
-  },
-  {
-    "store": "Barbora",
-    "name": "Minihernes Kids GLOBUS 200g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.küps.oad tomatikast.EXTRA LINE 400g",
-    "price": 0.95
-  },
-  {
-    "store": "Barbora",
-    "name": "Magus mais GLOBUS 330g",
-    "price": 2.35
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveer. valged oad vaak. GLOBUS 326g",
-    "price": 2.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveeritud punased oad vaakumis 326g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Kikerherned GLOBUS 300g",
-    "price": 2.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Valged oad tomatikastmes GLOBUS 330g",
-    "price": 1.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Mais BONDUELLE 2x85g",
-    "price": 2.29
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.punased oad EXTRA LINE 400g",
-    "price": 1.15
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.rohelised herned EXTRA LINE 700g",
-    "price": 2.05
-  },
-  {
-    "store": "Barbora",
-    "name": "Mexico segu BONDUELLE 425ml",
-    "price": 2.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveeritud mustad oad WELL DONE 400g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons. küps. oad chilli k. WELL DONE 400g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.punased oad Kidney WELL DONE 400g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons. oasegu Well Done 400g",
-    "price": 1.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.küps. oad tom.kastm. WELL DONE 400g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons. Borlotti oad Well Done 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons. võioad Well Done 400g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Cannellini valged oad WELL DONE 400g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Roheline konservhernes WELL DONE 400g",
-    "price": 1.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Konservmais WELL DONE 340g",
-    "price": 1.75
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons. kikerherned WELL DONE 330g",
-    "price": 1.75
-  },
-  {
-    "store": "Barbora",
-    "name": "Roheline konservhernes WELL DONE 660g",
-    "price": 2.25
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserv.väiksed herned WELL DONE 150g",
-    "price": 0.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Konservmais WELL DONE 150g",
-    "price": 1.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserv. kikerhernes EXTRA LINE 400g",
-    "price": 0.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Öko Cannellini oad WELL DONE 420g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Öko punased oad WELL DONE 425g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Öko kikerherned WELL DONE 425g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Punased oad mais.kastmes BONDUELLE 430g",
-    "price": 2.85
-  },
-  {
-    "store": "Barbora",
-    "name": "Aurutatud punane uba WD 150g",
-    "price": 1.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Aurutatud kikerhernes WELL DONE 150g",
-    "price": 1.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Aurutatud aeduba WELL DONE",
-    "price": 1.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Konservherned GLOBUS 660g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Suhkrumais Kids GLOBUS 150g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Piknikukurk (viilud) PÕLTSAMAA 680g",
-    "price": 2.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Võileivakurk (pikiviilud) PÕLTSAMAA 460g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Päik.kuiv.tom.päevalilleõlis Citres 290g",
-    "price": 3.95
-  },
-  {
-    "store": "Barbora",
-    "name": "Päikesekuiv.tomatid õlis GUSTOSELLI 280g",
-    "price": 2.75
-  },
-  {
-    "store": "Barbora",
-    "name": "Minikurk PÕLTSAMAA 330g",
-    "price": 2.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud kurgid KITCHEN MASTERS 660g",
-    "price": 2.29
-  },
-  {
-    "store": "Barbora",
-    "name": "Salatikurk SALVEST 395g",
-    "price": 1.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Kirsstomatid jõhvikamar.MÕISAPROUA 530g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Päik.k.tomatid päev.õlis GOURMANTE 260g",
-    "price": 5.15
-  },
-  {
-    "store": "Barbora",
-    "name": "Maitselt mahe kurk PÕLTSAMAA 680g",
-    "price": 2.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Mar.kurgid tammelht.KITCHEN MASTERS 660g",
-    "price": 2.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Võileivakurk SALVEST 530g",
-    "price": 2.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Päikesekuiv.tomatid õlis SANTOLINO 580ml",
-    "price": 5.75
-  },
-  {
-    "store": "Barbora",
-    "name": "Päikesekuiv.tomatid õlis SANTOLINO 290g",
-    "price": 3.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.tomati tük.CIRIO 400g",
-    "price": 1.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud kurgid WELLDONE 680g,3-6cm",
-    "price": 2.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin. kurgid WELLDONE 1650g,7-11cm",
-    "price": 4.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud kurgid WELLDONE 340g,2-5cm",
-    "price": 1.95
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud kurgid WELLDONE 680g,6-9cm",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Mar.kurgid tsilliga WELLDONE 340g,3-6cm",
-    "price": 2.05
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.kurgid meega WELLDONE 340g,3-6cm",
-    "price": 2.05
-  },
-  {
-    "store": "Barbora",
-    "name": "Viilukurk SALVEST 675g",
-    "price": 2.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Hapukurgid WELL DONE 740g",
-    "price": 3.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud kurgid WELL DONE 860g",
-    "price": 2.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.kooritud tomatid WELL DONE 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.tük.koorit.tomatid WELL DONE 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.koorit.tomatid WELL DONE 800g",
-    "price": 2.95
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.väiks.koor.tomat bas.WELL DONE 400g",
-    "price": 1.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.tük.koor.tomatid Bio WELL DONE 400g",
-    "price": 2.25
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud kurgid EXTRA LINE 860g",
-    "price": 2.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud šampinjonid WELL DONE 320g",
-    "price": 2.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.tomati tükkid ürdiga,CIRIO 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.tomati tükkid basiilikugaCIRIO 400g",
-    "price": 1.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.tomati tükkid küüslau-ga CIRIO 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Päikesekuiv.tomatid õlis WELL DONE 290g",
-    "price": 2.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Päikesekuiv.tom.tük.õlis WELL DONE 280g",
-    "price": 3.05
-  },
-  {
-    "store": "Barbora",
-    "name": "Salatikurk PÕLTSAMAA 380g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Kuiv.tomatite tapenaad WELL DONE 190g",
-    "price": 2.25
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.tük.koor.tomatid EXTRA LINE 400g",
-    "price": 1.05
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.kooritud tomatid EXTRA LINE 400g",
-    "price": 0.85
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.kooritud tomatid WELL DONE 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.väik.koorit.tomatid WELL DONE 400g",
-    "price": 1.95
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.koor.tomatid WELL DONE 800g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Päik.kuiv.tomat.kapp.WELL DONE PREM.530g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Päik.kuiv.tomat.õlis WELL DONE PREM.530g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Viilut.marineer.kurgid WELL DONE 695g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.kurgid viilutatud WELL DONE 670g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.mini ploomtomatid WELL DONE 690g",
-    "price": 1.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Rootsi salat MINU 850g",
-    "price": 3.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Tomatid omas mahlas MINU 680g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Kirsstomatid marinaadis MINU 670g",
-    "price": 2.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Kirsstomatid omas mahlas MINU 660g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.kirsstomatid NIZHYN 450g",
-    "price": 2.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.köögivil.segu StyleNo1 NIZHYN 920g",
-    "price": 4.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud tomatid jõhvik.NIZHYN 920g",
-    "price": 4.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Päik.kuiv.tomat jõhv.WELL DONE Prem.530g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Seene assortii MIKADO 530g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Nameko seened MIKADO 530g",
-    "price": 4.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Shiitake seened MIKADO 530g",
-    "price": 4.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineer.võiseened Mushroomoff 530g",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Mar.seen.assor.Ohotnitsi BEST TIME 530g",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Mar.seeneassor.Posolskije BEST TIME 530g",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud šampinjonid EXTRA LINE 500g",
-    "price": 2.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.viilut.šampinjonid WELL DONE 320g",
-    "price": 2.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Šampinjonid soolvees WELL DONE 320g",
-    "price": 2.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Šampinjonid viil.soolvees WELL DONE 320g",
-    "price": 2.25
-  },
-  {
-    "store": "Barbora",
-    "name": "Viinamarjalehed GOURMANTE 450g",
-    "price": 5.29
-  },
-  {
-    "store": "Barbora",
-    "name": "Aurutatud läätsed vapeur BONDUELLE 310g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.hapuoblikas EXTRA LINE 285g",
-    "price": 0.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Grillitud artišokid CITRES 230g",
-    "price": 5.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Speltanisu Vital GLOBUS 150g",
-    "price": 1.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Sojauba Kids GLOBUS 150g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Kinoa Vital GLOBUS 150g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Speltanisu segu GLOBUS 400g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Artišokid õlis SANTOLINO 290g",
-    "price": 3.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.kappari marjad SANTOLINO 190g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.kapparid SANTOLINO 190g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Röst.punased maguspiprad GOURMANTE 450g",
-    "price": 4.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Küüslauguküüned äädikas GOURMANTE 100g",
-    "price": 1.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineer.punapeet KITCHEN MASTERS 480g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Viil.artišokid SACLA 285g",
-    "price": 4.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Väikesed sibulad SACLA 300g",
-    "price": 2.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Praet.pun.paprika WELLDONE 540g",
-    "price": 2.29
-  },
-  {
-    "store": "Barbora",
-    "name": "Jalapeno viilud WELLDONE 210g",
-    "price": 1.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Konserveeritud läätsed Well Done 400g",
-    "price": 1.55
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.punane paprika WELL DONE 680g",
-    "price": 2.25
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.peedid vähehapud WELLDONE 500g",
-    "price": 1.85
-  },
-  {
-    "store": "Barbora",
-    "name": "Kapparid WELL DONE 95g",
-    "price": 1.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud pärlsibulad WELL DONE 330g",
-    "price": 1.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud peet EXTRA LINE 500g",
-    "price": 0.85
-  },
-  {
-    "store": "Barbora",
-    "name": "Artišoki määre WELL DONE PREMIUM 190g",
-    "price": 2.24
-  },
-  {
-    "store": "Barbora",
-    "name": "Viil.artišokk ürt.WELL DONE PREM.530g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "T.juust täid.patis.WELL DONE PREM.250g",
-    "price": 3.74
-  },
-  {
-    "store": "Barbora",
-    "name": "T.juust täid.datlid WELL DONE PREM.250",
-    "price": 3.74
-  },
-  {
-    "store": "Barbora",
-    "name": "T.juust. viigimar.WELL DONE PREM.250g",
-    "price": 3.74
-  },
-  {
-    "store": "Barbora",
-    "name": "T.juust.täidis.pipar WELL DONE PREM.250g",
-    "price": 3.74
-  },
-  {
-    "store": "Barbora",
-    "name": "Baklažaanipüree VERES 500g",
-    "price": 4.05
-  },
-  {
-    "store": "Barbora",
-    "name": "Baklažaanid adžikas VERES 500g",
-    "price": 3.25
-  },
-  {
-    "store": "Barbora",
-    "name": "Pipar juustutäid.WELL DONE Prem.250g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Pipar tuunitäid.WELL DONE Prem.250g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Pipar hummus.WELL DONE Prem.250g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Sibulad äädikas GOURMANTE 100g",
-    "price": 1.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Pepperoni pipar MINU 630g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Paprika viilud MINU 630g",
-    "price": 3.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Köögivilja salat MINU 850g",
-    "price": 3.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Kreeka salat MINU 850g",
-    "price": 4.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Marineeritud patissonid MÕISAPROUA 520g",
-    "price": 3.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Terav baklažaanipüree YAN 470g",
-    "price": 3.35
-  },
-  {
-    "store": "Barbora",
-    "name": "Baklažaanipüree YAN 470g",
-    "price": 3.35
-  },
-  {
-    "store": "Barbora",
-    "name": "Kons.köögivil.Imam Bayildi YAN 485g",
-    "price": 3.35
-  },
-  {
-    "store": "Barbora",
-    "name": "Kabatšokipüree VERES 440g",
-    "price": 3.15
-  },
-  {
-    "store": "Barbora",
-    "name": "Kirsspaprikad toorjuust.GOURMANTE 280g",
-    "price": 4.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Marokop.baklažaani-paprik.NIZHYN 300g",
-    "price": 2.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Marin.punased piprad YAN 470g",
-    "price": 4.19
-  },
-  {
-    "store": "Barbora",
-    "name": "Viinamarjalehed SIPAN 720g",
-    "price": 5.35
-  },
-  {
-    "store": "Barbora",
-    "name": "Päik.tomat.toorjuust.GOURMANTE 280g",
-    "price": 4.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.paprikad toorjuustu.GOURMANTE 270g",
-    "price": 4.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Mustad oliivid kividega Super ITLV 350g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Mustad oliivid kivideta Super ITLV 350g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised oliivid ITLV 300g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohel.oliivid antšoovisega ITLV 300g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised oliivid sidruniga ITLV 300g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised oliivid juustutäid. ITLV 300g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Oliivid krevetitäidisega ITLV 300g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Oliivid rohel.Homaariga ITLV,300g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised oliivid lõhetäidis. ITLV 300g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Mustad oliivid kivideta ITLV 280g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Mustad oliiv.kiv-ta SEVILLE PREMIUM 350g",
-    "price": 2.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid kiv-ta SEVILLE PREMIUM 350g",
-    "price": 2.89
-  },
-  {
-    "store": "Barbora",
-    "name": "K-ta Kalam.oliiv.pals.ääd.GOURMANTE 360g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid mandlitäidis.GOURMANTE 360g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid kiv-ta GOURMANTE 360g",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid jalapeno GOURMANTE 227g",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid päik.k.tom.GOURMANTE 227g",
-    "price": 3.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid küüslauk.GOURMANTE 360g",
-    "price": 4.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Oliivide segu ILIADA 120g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid vürts.k-deta ILIADA 120g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised oliivid LOS CURADO 360g",
-    "price": 3.09
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised oliivid karri LOS CURADO 360g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Must oliivid k-deta ILIADA 120g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.kividega oliivid LOS CURADO 360g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid köögivil.LOS CURADO 360g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Suured oliivid mix SANTOLINO 310g",
-    "price": 3.39
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised suured oliivid SANTOLINO 310g",
-    "price": 3.35
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohel. kivideta oliivid EXTRA LINE 900g",
-    "price": 3.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Mustad kivideta oliivid EXTRA LINE 880g",
-    "price": 3.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised kiv-ta oliivid EXTRA LINE 180g",
-    "price": 0.59
-  },
-  {
-    "store": "Barbora",
-    "name": "Mustad oliivid, kivideta WELL DONE 270g",
-    "price": 1.79
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohel. kivideta oliivid WELL DONE,280g",
-    "price": 1.89
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohel. kivideta oliivid EXTRA LINE,280g",
-    "price": 1.25
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh. oliivid, mandlit.WELL DONE,220g",
-    "price": 2.75
-  },
-  {
-    "store": "Barbora",
-    "name": "Must. kivideta Kalamata oliivid WD,220g",
-    "price": 2.65
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohel.oliivid kornišonitäid. WD 340g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid apels-ga LOS CURADO 360g",
-    "price": 2.99
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid sidr.täid.WELL DONE 280g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid krev.täid.WELL DONE 280g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid tsitrus.mar.WELL DONE 340g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid apelsin.täid.WELL DONE 280g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid La abuela WELL DONE 340g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid lõhe.täid.WELL DONE 280g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliivid jalap.täid.WELL DONE 280g",
-    "price": 2.49
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohelised oliivid viilut.WELL DONE 220g",
-    "price": 2.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Roh.oliiv.pun.pipra.täid.EXTRA LINE 195g",
+    "name": "Sidrunhape DR.OETKER 20g",
     "price": 0.69
   },
   {
     "store": "Barbora",
-    "name": "Marin.oliiv.segu kiv-ga GOURMANTE 360g",
-    "price": 4.49
+    "name": "Kuivpärm DR.OETKER 7g",
+    "price": 0.49
   },
   {
     "store": "Barbora",
-    "name": "Roh.oliiv.anšoov.täid.WELL DONE 280g",
+    "name": "Vahukooretugevdaja DR.OETKER, 9g",
+    "price": 0.29
+  },
+  {
+    "store": "Barbora",
+    "name": "Paksendaja Gelfix Extra DR.OETKER 25g",
+    "price": 1.39
+  },
+  {
+    "store": "Barbora",
+    "name": "Vahukoore pulber DR.OETKER, 60g",
+    "price": 0.89
+  },
+  {
+    "store": "Barbora",
+    "name": "Rummi lõhna- ja maitseaine, DR.OETKER 8ml",
+    "price": 1.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Mag.toidukaste vanil.maits.DR.OETKER 39g",
+    "price": 1.39
+  },
+  {
+    "store": "Barbora",
+    "name": "Sidrunhape SALDVA 55g",
+    "price": 0.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Apelsinikoor ALVO 50g",
+    "price": 2.55
+  },
+  {
+    "store": "Barbora",
+    "name": "Mandlipulber MEIRA 80g",
+    "price": 3.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Kissell jõhvikamaits.DR.OETKER 32.5g",
+    "price": 0.89
+  },
+  {
+    "store": "Barbora",
+    "name": "Agar agar ALVO 30g",
+    "price": 2.59
+  },
+  {
+    "store": "Barbora",
+    "name": "Želatiin ALVO 100g",
+    "price": 2.35
+  },
+  {
+    "store": "Barbora",
+    "name": "Mõrumandli lõhna- ja maitseaine, DR.OETKER 8ml",
+    "price": 1.19
+  },
+  {
+    "store": "Barbora",
+    "name": "Madagaskari vanillipasta DR.OETKER 19g",
     "price": 2.49
   },
   {
     "store": "Barbora",
-    "name": "Mustad Kalamata oliiv.k-ga GOURMANTE 360",
-    "price": 4.49
+    "name": "Tahiti Vanillikaun DR.OETKER 2g",
+    "price": 6.69
   },
   {
     "store": "Barbora",
-    "name": "Roh.Kreeka k-ga oliivid GOURMANTE 360g",
+    "name": "Madagask.vanilliekstrakt DR.OETKER 30ml",
     "price": 3.99
   },
   {
     "store": "Barbora",
-    "name": "Mustad oliivid viilut.WELL DONE 220g",
-    "price": 2.45
+    "name": "Tume küpsetusšokolaad FAZER 200g",
+    "price": 5.89
   },
   {
     "store": "Barbora",
-    "name": "Roh.oliivid Chupadedos WELL DONE 340g",
-    "price": 2.69
-  },
-  {
-    "store": "Barbora",
-    "name": "Rohel.kivideta oliivid XL WELL DONE 330g",
-    "price": 2.45
-  },
-  {
-    "store": "Barbora",
-    "name": "Must.kivideta oliivid XL WELL DONE 330g",
-    "price": 2.45
-  },
-  {
-    "store": "Rimi",
-    "name": "Kikerhernes Rimi 400g/250g",
-    "price": 0.93
-  },
-  {
-    "store": "Rimi",
-    "name": "Konserv. roheline hernes Rimi 200g/140g",
-    "price": 1.25
-  },
-  {
-    "store": "Rimi",
-    "name": "Hernes konserveer, Rimi Smart 400g/280g",
-    "price": 1.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Konserveeritud hernes Bonduelle 400g / 265g",
-    "price": 1.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Herned rohelised Salvest 690g/450g",
-    "price": 2.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Hernes konserveeritud Bonduelle 660g / 465g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Herned Bonduelle 200g / 130g",
+    "name": "Söögisooda Lombardi 500g",
     "price": 1.49
   },
   {
-    "store": "Rimi",
-    "name": "Läätsed Rimi 400g/240g",
-    "price": 1.85
+    "store": "Barbora",
+    "name": "Gurmee vanillikaunaveski DR.OETKER 7.5g",
+    "price": 9.99
   },
   {
-    "store": "Rimi",
-    "name": "Hernes duopakk Bonduelle 2x212ml/130g",
-    "price": 2.39
+    "store": "Barbora",
+    "name": "Tumeda šokolaadi nööbid küpsetamiseks DR.OETKER 100g",
+    "price": 4.35
   },
   {
-    "store": "Rimi",
-    "name": "Hernes roheline Rimi 400g/280g",
-    "price": 1.79
+    "store": "Barbora",
+    "name": "Kuivpärm EXTRA LINE 11g",
+    "price": 0.25
   },
   {
-    "store": "Rimi",
-    "name": "Hernes roheline konserv. Rimi Smart 690g/450g",
-    "price": 2.05
+    "store": "Barbora",
+    "name": "Toiduželatiin EXTRA LINE 100g",
+    "price": 1.39
   },
   {
-    "store": "Rimi",
-    "name": "Läätsed aurutatud Bonduelle Vapeur 310g/265g",
-    "price": 2.59
+    "store": "Barbora",
+    "name": "Küpsetuspulber EXTRA LINE 30g",
+    "price": 0.26
   },
   {
-    "store": "Rimi",
-    "name": "Oad tomatikastmes küpsetatud Heinz 415g",
-    "price": 2.35
+    "store": "Barbora",
+    "name": "Sidrunhape EXTRA LINE 40g",
+    "price": 0.5
   },
   {
-    "store": "Rimi",
-    "name": "Aedoad punased Rimi 400g/240g",
-    "price": 0.99
+    "store": "Barbora",
+    "name": "Söögisooda EXTRA LINE 500g",
+    "price": 1.19
   },
   {
-    "store": "Rimi",
-    "name": "Aedoad punane Heinz 400g",
+    "store": "Barbora",
+    "name": "Laimimahl 100% SICILIA 200ml",
     "price": 1.89
   },
   {
-    "store": "Rimi",
-    "name": "Aedoad Rimi 400g/250g",
-    "price": 0.99
+    "store": "Barbora",
+    "name": "Tordikreem vaniljemaits.DR.OETKER 105g",
+    "price": 2.09
   },
   {
-    "store": "Rimi",
-    "name": "Oad Rimi mustad 400g/240g",
-    "price": 1.55
+    "store": "Barbora",
+    "name": "Vaniljekaste EKSTRÖMS 91g",
+    "price": 1.11
   },
   {
-    "store": "Rimi",
-    "name": "Mahedad punased aedoad Salling Eko 400g/252g",
-    "price": 1.89
+    "store": "Barbora",
+    "name": "Tume küpsetusšokolaad 70% VILMA 190g",
+    "price": 4.85
   },
   {
-    "store": "Rimi",
-    "name": "Mahedad kikerherned Salling Eko 400g/240g",
-    "price": 1.79
+    "store": "Barbora",
+    "name": "Piima küpsetusšokolaad VILMA 190g",
+    "price": 4.85
   },
   {
-    "store": "Rimi",
-    "name": "Nelja oa segu Rimi 400g/240g",
-    "price": 0.99
+    "store": "Barbora",
+    "name": "Valge küpsetusšokolaad VILMA 190g",
+    "price": 4.85
   },
   {
-    "store": "Rimi",
-    "name": "Mahedad mustad oad Salling Eko 420g/252g",
-    "price": 1.89
+    "store": "Barbora",
+    "name": "Sidrunimahl 100% SICILIA 200ml",
+    "price": 1.88
   },
   {
-    "store": "Rimi",
-    "name": "Mahedad võioad kons. Salling Eko 400g/244g",
-    "price": 1.85
+    "store": "Barbora",
+    "name": "Vanillipasta seemn-ga ök.TAYLOR&COLL.65g",
+    "price": 7.95
   },
   {
-    "store": "Rimi",
-    "name": "Aedoad tomatikastmes Rimi 400g/200g",
-    "price": 1.25
-  },
-  {
-    "store": "Rimi",
-    "name": "Kons. valged aedoad Rimi Smart 400/240g",
-    "price": 0.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Aedoad punased Kidney Bonduelle 400g/250g",
-    "price": 1.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Oad Rimi Cannellini 400g/240g",
-    "price": 1.55
-  },
-  {
-    "store": "Rimi",
-    "name": "Aedoad punased tšillikastmes Rimi 400g/200g",
-    "price": 1.25
-  },
-  {
-    "store": "Rimi",
-    "name": "Oad tomatis valge Bonduelle 430g",
-    "price": 2.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Aedoad pruunid Rimi 400g/240g",
-    "price": 0.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Valge uba karrikastmes Bonduelle 430g",
-    "price": 2.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Kons.valg.oad Rimi Smart tomatikast.400g",
+    "store": "Barbora",
+    "name": "Sidrunimahla kontsent. EXTRA LINE 200ml",
     "price": 0.89
   },
   {
-    "store": "Rimi",
-    "name": "Oad tšillikastmes Bonduelle 430g",
-    "price": 2.19
+    "store": "Barbora",
+    "name": "Šokol.maits.tordikaunistusedDR.OETKER 80g",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Glasuuripliiatsid Dr.OETKER 76g",
+    "price": 3.39
+  },
+  {
+    "store": "Barbora",
+    "name": "Valge šokol.maits.glasuurDR.OETKER 100g",
+    "price": 2.09
+  },
+  {
+    "store": "Barbora",
+    "name": "Musta šokol.maits.glasuurDR.OETKER 100g",
+    "price": 2.09
+  },
+  {
+    "store": "Barbora",
+    "name": "Valg.ja must.šok.mait.glas.DR.OETKER 100",
+    "price": 2.09
+  },
+  {
+    "store": "Barbora",
+    "name": "Nonparellid ALVO, 50g",
+    "price": 1.05
+  },
+  {
+    "store": "Barbora",
+    "name": "Šokolaadi nonparellid ALVO, 50g",
+    "price": 1.09
+  },
+  {
+    "store": "Barbora",
+    "name": "Röstitud,tükeldatud maapähklid ALVO 30g",
+    "price": 0.89
+  },
+  {
+    "store": "Barbora",
+    "name": "Suhkruglasuur valge DR.OETKER 100g",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Toiduvärv kollane DR. OETKER 10g",
+    "price": 1.85
+  },
+  {
+    "store": "Barbora",
+    "name": "Kuldsed pärlid DR.OETKER 10g",
+    "price": 0.89
+  },
+  {
+    "store": "Barbora",
+    "name": "Tordikaunist.hõbed.pärlid Dr.OETKER 10g",
+    "price": 0.69
+  },
+  {
+    "store": "Barbora",
+    "name": "Värviline strössel MEIRA 55g",
+    "price": 1.88
+  },
+  {
+    "store": "Barbora",
+    "name": "Purpur nonparell MEIRA 60g",
+    "price": 1.88
+  },
+  {
+    "store": "Barbora",
+    "name": "Kookoshelbed EXTRA LINE 150g",
+    "price": 1.79
+  },
+  {
+    "store": "Barbora",
+    "name": "Mandlilaastud ALVO 50g",
+    "price": 1.09
+  },
+  {
+    "store": "Barbora",
+    "name": "Valge glasuur DR.OETKER 140g",
+    "price": 3.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Kaunistused värv.tähed DR.OETKER 10g",
+    "price": 0.89
+  },
+  {
+    "store": "Barbora",
+    "name": "Kaunist.värv.kuulikesed DR.OETKER 80g",
+    "price": 1.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Piimašokolaadi nööbid DR.OETKER 100g",
+    "price": 4.25
+  },
+  {
+    "store": "Barbora",
+    "name": "Suhkrukaunist.Ookeanisegu DR.OETKER 50g",
+    "price": 2.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Suhkrukaunistused Silmad DR.OETKER 10g",
+    "price": 3.99
+  },
+  {
+    "store": "Barbora",
+    "name": "Kookoshelbed ALVO 75g",
+    "price": 1.69
+  },
+  {
+    "store": "Barbora",
+    "name": "Tordikaunist.Kuld ja Hõbe DR.OETKER 81g",
+    "price": 4.93
+  },
+  {
+    "store": "Barbora",
+    "name": "Suhkrukaunist.Arbuusimaits.DR.OETKER 50g",
+    "price": 2.49
+  },
+  {
+    "store": "Barbora",
+    "name": "Suhkrukaunist.Vikerk.seguDR.OETKER 50g",
+    "price": 2.49
   },
   {
     "store": "Rimi",
-    "name": "Aedoad valged Rimi 400g/240g",
+    "name": "Vahukoore tardaine Dr.Oetker 9g",
+    "price": 0.38
+  },
+  {
+    "store": "Rimi",
+    "name": "Tarretisepulber metsmaasika Mikaado 80g",
     "price": 1.55
   },
   {
     "store": "Rimi",
-    "name": "Valged oad tomatikastmes Bonduelle 425ml/430g",
-    "price": 2.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Valged oad aurutatud Bonduelle 310g/250g",
-    "price": 2.15
-  },
-  {
-    "store": "Rimi",
-    "name": "Kikerherned Sunfood 400g/240g",
-    "price": 1.45
-  },
-  {
-    "store": "Rimi",
-    "name": "Valged võioad Globus 326g/285g",
-    "price": 2.15
-  },
-  {
-    "store": "Rimi",
-    "name": "Oad punased Sunfood 400g/240g",
-    "price": 1.65
-  },
-  {
-    "store": "Rimi",
-    "name": "Minikurk Felix 330/190g",
-    "price": 2.39
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurgid marineeritud 3-6cm Rimi 670g/370g",
-    "price": 2.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurgid marineeritud 6-9cm Rimi 670g/370g",
-    "price": 2.55
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurgid marineeritud 2-5cm Rimi 340g/180g",
-    "price": 1.95
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurk Marineeritud Salvest 675g/385g",
-    "price": 2.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Võileivakurk Põltsamaa 460g/240g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurk maitselt mahe Salvest 675g / 360g",
-    "price": 2.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Piknikukurk Felix 1000/680g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurgid marineeritud 2-5cm Rimi 670g/370g",
-    "price": 1.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud kornišonid Rimi 1650g/900g",
-    "price": 4.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Võileivakurk Salvest 530g/290g",
-    "price": 2.85
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurk maitselt mahe Põltsamaa 680g/360g",
-    "price": 2.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Perekurk viilutatud Põltsamaa 680/340g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Küüslaugukurk Salvest 675g/360g",
-    "price": 2.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Piknikukurk viilutatud Põltsamaa 680/360g",
-    "price": 3.25
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurgid marineeritud Rimi Smart 680g/350g",
-    "price": 1.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud kurgid Rimi viilutatud 540g/330g",
-    "price": 2.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Talukurk Salvest 675g/360g",
-    "price": 2.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Marin. kornišon Rimi meega 350g/180g",
-    "price": 1.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Salatikurk Põltsamaa 616g/380g",
-    "price": 2.39
-  },
-  {
-    "store": "Rimi",
-    "name": "Soolatud kurgid Rimi 670g/390g",
-    "price": 2.65
-  },
-  {
-    "store": "Rimi",
-    "name": "Perekurk terved Felix 680/360g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Viilukurk Salvest 675g/350g",
-    "price": 2.95
-  },
-  {
-    "store": "Rimi",
-    "name": "Kurgid marineeritud 6-9cm Sunfood 680g/360g",
-    "price": 2.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Mais magus Rimi 340g/285g",
+    "name": "Kissellipulber vaarikamaitseline Mikaado 170g",
     "price": 1.85
   },
   {
     "store": "Rimi",
-    "name": "Konserveeritud magus mais Rimi 165g/140g",
-    "price": 1.35
+    "name": "Tarretisepulber mesimuraka Mikaado 80g",
+    "price": 1.55
   },
   {
     "store": "Rimi",
-    "name": "Mais magus Bonduelle 170g / 140g",
-    "price": 1.35
+    "name": "Tarretisepulber kirsimaitseline Mikaado 80g",
+    "price": 1.55
   },
   {
     "store": "Rimi",
-    "name": "Mais magus Bonduelle 340g / 285g",
-    "price": 1.69
+    "name": "Leivasupp puuviljadega Tartu Mill 300g",
+    "price": 2.45
   },
   {
     "store": "Rimi",
-    "name": "Mais magus konserveer. Rimi Smart 340g/285g",
+    "name": "Tarretisepulber vaarikamaitseline Mikaado 80g",
+    "price": 1.55
+  },
+  {
+    "store": "Rimi",
+    "name": "Kissellipulber mustikamaitseline Mikaado 170g",
+    "price": 1.85
+  },
+  {
+    "store": "Rimi",
+    "name": "Tarretisepulber sidrunimaitseline Mikaado 80g",
+    "price": 1.55
+  },
+  {
+    "store": "Rimi",
+    "name": "Tarretisepulber maasikamaitseline Mikaado 80g",
+    "price": 1.55
+  },
+  {
+    "store": "Rimi",
+    "name": "Kissellipulber jõhvika Mikaado 170g",
+    "price": 1.85
+  },
+  {
+    "store": "Rimi",
+    "name": "Mannavahupulber maasika Mikaado Mannike 200g",
+    "price": 1.85
+  },
+  {
+    "store": "Rimi",
+    "name": "Kissellipulber tikri-maasika Mikaado 155g",
+    "price": 1.85
+  },
+  {
+    "store": "Rimi",
+    "name": "Mannavahupulber jõhvika Mikaado Mannike 200g",
+    "price": 1.85
+  },
+  {
+    "store": "Rimi",
+    "name": "Tarretis vaarikamaitseline Dr Oetker 72g",
     "price": 1.19
   },
   {
     "store": "Rimi",
-    "name": "Mais Bonduelle 530g/360g",
-    "price": 2.19
+    "name": "Tarretis kiivimaitseline Dr Oetker 72g",
+    "price": 1.19
   },
   {
     "store": "Rimi",
-    "name": "Mais Bonduelle 670g/570g",
-    "price": 2.95
+    "name": "Tarretis metsmaasika maitseline Dr Oetker 72g",
+    "price": 1.19
   },
   {
     "store": "Rimi",
-    "name": "Mais duopakk Bonduelle 340g/2x140g",
-    "price": 2.29
+    "name": "Tarretis kirsimaitseline Dr Oetker 72g",
+    "price": 1.19
   },
   {
     "store": "Rimi",
-    "name": "Mais ja hernes Bonduelle 425ml/285g",
-    "price": 2.89
+    "name": "Tarretis virsikumaitseline Dr Oetker 72g",
+    "price": 1.19
   },
   {
     "store": "Rimi",
-    "name": "Suhkrumais kons. Bonduelle Kids 170g/140g",
-    "price": 1.35
+    "name": "Tarretis maasikamaitseline Dr Oetker 72g",
+    "price": 1.19
   },
   {
     "store": "Rimi",
-    "name": "Mais magus globus 340ml/285g",
-    "price": 2.15
+    "name": "Magustoidupulber Tiramisu kreem Dr.Oetker 63g",
+    "price": 1.69
   },
   {
     "store": "Rimi",
-    "name": "Kapparid Rimi 100g/60g",
-    "price": 1.79
+    "name": "Magustoidupulber Panna Cotta Dr.Oetker 50g",
+    "price": 1.69
   },
   {
     "store": "Rimi",
-    "name": "Kõrvitsasalat Põltsamaa 560g/310g",
-    "price": 2.55
-  },
-  {
-    "store": "Rimi",
-    "name": "Salatikurk Salvest 395g/237g",
-    "price": 1.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Peet marineeritud Rimi Smart 450g/350g",
-    "price": 0.92
-  },
-  {
-    "store": "Rimi",
-    "name": "Salatiporgand Salvest 400g",
-    "price": 2.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud sibulad Rimi 320g/190g",
-    "price": 2.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Mais hernes ja paprika Bonduelle 340/280g",
-    "price": 2.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Punapeediviilud Põltsamaa 570g/380g",
-    "price": 2.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Baklažaan Storko 540g",
-    "price": 3.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Artišokid õlis marineer. Piacelli 280g/151g",
-    "price": 4.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Letcho magus paprika Rimi 700g",
-    "price": 3.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Peet õunamahlas Rimi 480g/295g",
-    "price": 1.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Salat kõrvitsa Salvest 560/315g",
-    "price": 2.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Kapsasalat Rimi Smart 500g",
-    "price": 1.55
-  },
-  {
-    "store": "Rimi",
-    "name": "Kapparid varrega Citres 290g/190g",
-    "price": 4.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Adžikasalat suvikõrvitsa. Põltsamaa 550g",
-    "price": 3.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Kapparid veiniäädikas Sacla 200g/110g",
-    "price": 2.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud hapuoblikas Rimi Smart 350g",
-    "price": 1.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Kabatšokipüree Nizhyn 450g",
-    "price": 2.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Letšo Nizhyn ubadega 460g",
-    "price": 3.39
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud küüslauk ürtidega Rimi 230g/140g",
-    "price": 2.25
-  },
-  {
-    "store": "Rimi",
-    "name": "Köögivilja assortii Rimi 860g/460g",
-    "price": 3.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Baklažaanisalat köögiviljadega Rimi 500g",
-    "price": 3.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Letšo Nizhyn 450g",
-    "price": 3.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Artišokid marineeritud Sacla 285g/171g",
-    "price": 4.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Porgandisalat pastöriseeritud Rimi 500g",
-    "price": 2.55
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohel.oliivid Rimi Smart kivid.180g/70g",
-    "price": 0.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohel.oliivid Selection kivideta 345g/160g",
-    "price": 3.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Mustad oliivid Rimi kivideta 935g/455g",
-    "price": 3.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Mustad oliivid Rimi kivideta 345g/160g",
-    "price": 2.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Mustad oliivid Selection kivideta 345g/160g",
-    "price": 3.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohelised oliivid Rimi kivideta 345g/160g",
-    "price": 2.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohelised oliivid Rimi kivideta 935g/455g",
-    "price": 3.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Mustad oliivid Rimi kivideta 350g/150g",
-    "price": 2.05
-  },
-  {
-    "store": "Rimi",
-    "name": "Mustad oliivid Rimi Smart kivideta 280g/110g",
+    "name": "Toiduželatiin Santa Maria 25g",
     "price": 1.49
   },
   {
     "store": "Rimi",
-    "name": "Kalamoni oliivid kivideta Salling 290g",
-    "price": 2.49
+    "name": "Toiduželatiin Rimi Smart 20g",
+    "price": 0.83
   },
   {
     "store": "Rimi",
-    "name": "Rohel.oliivid Selection kividega 345g/200g",
-    "price": 2.69
+    "name": "Toiduželatiin Rimi 20g",
+    "price": 0.85
   },
   {
     "store": "Rimi",
-    "name": "Rohelised oliivid Rimi paprikaga 235g/142g",
-    "price": 2.35
+    "name": "Mandlilaastud Rimi 100g",
+    "price": 2.79
   },
   {
     "store": "Rimi",
-    "name": "Rohelised oliivid Rimi sidruniga 230g/142g",
-    "price": 2.09
+    "name": "Kookoshelbed Rimi 150g",
+    "price": 2.29
   },
   {
     "store": "Rimi",
-    "name": "Rohelised oliivid Rimi kivideta 350g/150g",
-    "price": 2.05
+    "name": "Kaneel jahvatatud Santa Maria 210g",
+    "price": 7.79
   },
   {
     "store": "Rimi",
-    "name": "Mustad oliivid Selection kividega 345g/200g",
-    "price": 2.99
+    "name": "Kaneel jahvatatud Rimi 22g",
+    "price": 0.85
   },
   {
     "store": "Rimi",
-    "name": "Oliivide segu marineeritud kivideta 150g/140g",
-    "price": 4.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohelised oliivid Selection paprik. 345g/200g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Oliivid kivideta Kalamata Gaea 150g/140g",
-    "price": 4.29
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohel. oliivid Rimi Smart kivideta 280g/110g",
-    "price": 1.25
-  },
-  {
-    "store": "Rimi",
-    "name": "Oliivisegu Kreeka ICA 240g/150g",
-    "price": 2.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohelised oliivid Rimi Smart paprik.180g/80g",
-    "price": 0.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohelised oliivid küüslauguga Salling 290g",
-    "price": 2.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Oliivide segu kivideg.soolv. Gusto 550g/350g",
-    "price": 6.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Oliivid päevalil. grillitud Citres 230g/131g",
-    "price": 4.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Rohelised oliivid mandlitega Salling 290g",
-    "price": 2.65
-  },
-  {
-    "store": "Rimi",
-    "name": "Täidetud oliivid anšoovis El Faro 370ml/150g",
-    "price": 2.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Oliivid apelsini. marin. El Faro 850ml/400g",
-    "price": 4.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Mah. oliiv. kalam. kiv. Salling Eko 290g/180g",
-    "price": 3.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Täidetud oliivid sidrun. El Faro 370ml/150g",
-    "price": 2.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Täidetud oliivid krevet. El Faro 370ml/150g",
-    "price": 2.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Täidetud oliivid lõhega El Faro 370ml/150g",
-    "price": 2.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Täidetud oliivid tuuni. El Faro 370ml/150g",
-    "price": 2.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Täidetud oliivid krevettidega Mikado 280/90g",
-    "price": 2.05
-  },
-  {
-    "store": "Rimi",
-    "name": "Täidetud oliivid lõhega El Faro 244ml/130g",
-    "price": 2.39
-  },
-  {
-    "store": "Rimi",
-    "name": "Paprika punane marinaadis Rimi 680g/350g",
-    "price": 2.95
-  },
-  {
-    "store": "Rimi",
-    "name": "Paprika marinaadis röstitud Rimi 670g/395g",
-    "price": 3.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Lombardi piprad Rimi marin. 600g/260g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Pepperoncini piprad Rimi marin.600g/260g",
-    "price": 3.55
-  },
-  {
-    "store": "Rimi",
-    "name": "Konserv.pepperoni pipar Rimi Smart 110/50g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Šampinjoniviilud Peffer Prochamp 290/155g",
-    "price": 1.55
-  },
-  {
-    "store": "Rimi",
-    "name": "Šampinjonid marin. trad. Bonduelle 540g/290g",
-    "price": 4.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Šampinjonid marineeritud Bonduelle 540g/290g",
-    "price": 4.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Kukeseened marineeritud Rimi 280g/120g",
-    "price": 4.79
-  },
-  {
-    "store": "Rimi",
-    "name": "Kivipuravikud marineeritud Rimi 280/120g",
-    "price": 5.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Šampinjonid marineeritud Rimi Smart 500g/268g",
-    "price": 2.39
-  },
-  {
-    "store": "Rimi",
-    "name": "Kännuseened marineer. Best Time 580ml/350ml",
-    "price": 4.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Šampinjonid marin. Rimi Smart 280g/165g",
-    "price": 1.5
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud Shiitaked Mikado 530/310g",
-    "price": 4.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid tükeldatud Rimi 400g",
-    "price": 1.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid tükeldatud basiilikuga Rimi 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Purustatud tomatid ICA 390g",
-    "price": 1.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Päikesekuivatatud tomatid Rimi 280g/180g",
-    "price": 2.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid tükeldatud punega Rimi 400g",
-    "price": 1.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Päikesekuiv. tomatid päev. Citres 500g/290g",
-    "price": 4.39
-  },
-  {
-    "store": "Rimi",
-    "name": "Ploomtomatid kooritud Rimi 400g",
-    "price": 1.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Mahedad tomatid tük. kons. Salling Eko 400g",
-    "price": 1.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid kooritud Rimi Smart 800g",
-    "price": 1.89
-  },
-  {
-    "store": "Rimi",
-    "name": "Mahetomatid tükeldatud I Love Eco 390g",
-    "price": 2.99
-  },
-  {
-    "store": "Rimi",
-    "name": "Päik-kuiv. tomatid õlis Citres 290g/168g",
-    "price": 4.09
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid Rimi marineeritud 860g/450g",
-    "price": 3.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Mah. p.kuiv.tom.pool. Salling Eko 190/110g",
-    "price": 3.69
-  },
-  {
-    "store": "Rimi",
-    "name": "Kirsstomat. jõhvi.marin. Mõisaproua 830g/530g",
-    "price": 2.49
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid, peeneks hakitud Mutti 400g",
-    "price": 3.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud kirsstomatid Rimi 690g/360g",
-    "price": 2.75
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid, kooritud Mutti 400g",
-    "price": 3.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Kirsstomatid marineeritud Nizhyn 750g/450g",
-    "price": 2.59
-  },
-  {
-    "store": "Rimi",
-    "name": "Tomatid, tükeldatud, basiilikuga Mutti 400g",
-    "price": 3.19
-  },
-  {
-    "store": "Rimi",
-    "name": "Marineeritud tomatipoolikud Rimi 510g/310g",
-    "price": 2.45
-  },
-  {
-    "store": "Selver",
-    "name": "Kikerherned vees, ORGANIC FOODS, 400 g",
-    "price": 1.79
-  },
-  {
-    "store": "Selver",
-    "name": "Aurutatud valged oad, BONDUELLE, 425 ml",
-    "price": 2.15
-  },
-  {
-    "store": "Selver",
-    "name": "Aurutatud kikerherned, BONDUELLE, 425 ml",
-    "price": 2.19
-  },
-  {
-    "store": "Selver",
-    "name": "Kännuseened marineeritud, GREEN, 580 g",
-    "price": 3.09
-  },
-  {
-    "store": "Selver",
-    "name": "Küüslaugud äädikas, GOURMANTE, 100 g",
-    "price": 1.92
-  },
-  {
-    "store": "Selver",
-    "name": "Kivideta rohelised oliivid, GOURMANTE, 360 g",
-    "price": 3.99
-  },
-  {
-    "store": "Selver",
-    "name": "Mustad oad vees, ORGANIC FOODS, 400 g",
-    "price": 1.85
-  },
-  {
-    "store": "Selver",
-    "name": "Pepperoni pipar 720 ml, MINU, 630 g neto",
-    "price": 2.59
-  },
-  {
-    "store": "Selver",
-    "name": "Valged riisikad marineeritud, GREEN, 530 g",
-    "price": 2.45
-  },
-  {
-    "store": "Selver",
-    "name": "Konserveeritud herned, BONDUELLE, 720 ml",
-    "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Küpsetatud aedoad tomatikastmes, HEINZ, 466 g (bruto)",
-    "price": 2.39
-  },
-  {
-    "store": "Selver",
-    "name": "Kreeka rohelised oliivid, GOURMANTE, 360 g",
-    "price": 3.75
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid mandlitega, GOURMANTE, 360 g",
-    "price": 4.99
-  },
-  {
-    "store": "Selver",
-    "name": "Päikesekuivatatud tomatid, GOURMANTE, 150 g neto",
-    "price": 5.15
-  },
-  {
-    "store": "Selver",
-    "name": "Röstitud punased maguspiprad, GOURMANTE, 450 g",
-    "price": 4.55
-  },
-  {
-    "store": "Selver",
-    "name": "Noored herned, NOLIKO, 340 g",
-    "price": 1.79
-  },
-  {
-    "store": "Selver",
-    "name": "Oad tomati kastmes, NOLIKO, 370 ml",
-    "price": 2.02
-  },
-  {
-    "store": "Selver",
-    "name": "Šampinjonid traditsiooniliselt marineeritud, BONDUELLE, 540 g",
-    "price": 4.49
-  },
-  {
-    "store": "Selver",
-    "name": "Marineeritud šampinjonid, BONDUELLE, 540 g",
-    "price": 4.59
-  },
-  {
-    "store": "Selver",
-    "name": "Tšillikurgid viilutatud, FRUTICO,  740 g",
-    "price": 1.92
-  },
-  {
-    "store": "Selver",
-    "name": "Punapeediviilud, PÕLTSAMAA, 570 g",
-    "price": 2.05
-  },
-  {
-    "store": "Selver",
-    "name": "Hautatud oad tomatikastmes, ORGANIC FOODS, 400 g",
-    "price": 1.99
-  },
-  {
-    "store": "Selver",
-    "name": "Marineeritud artišokid, CAMPAGNA, 314 ml",
-    "price": 4.59
-  },
-  {
-    "store": "Selver",
-    "name": "Päikesekuivatatud tomatid, CAMPAGNA, 285 g",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
-    "name": "Punased kidney oad, CAMPAGNA, 400 g",
+    "name": "Jahvatatud kaneel Santa Maria 22g",
     "price": 1.29
   },
   {
-    "store": "Selver",
-    "name": "Küpsetatud oad, CAMPAGNA, 400 g",
+    "store": "Rimi",
+    "name": "Kaneel jahvatatud Santa Maria 40g",
+    "price": 2.29
+  },
+  {
+    "store": "Rimi",
+    "name": "Tumeda šokolaadi nööbid Rimi 100g",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Sidrunhape Rimi Smart 30g",
+    "price": 0.38
+  },
+  {
+    "store": "Rimi",
+    "name": "Kaneelipulgad Kotanyi 12g",
+    "price": 1.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Röstitud maapähklid Rimi tükeldatud 90g",
+    "price": 2.19
+  },
+  {
+    "store": "Rimi",
+    "name": "Valge šokolaadi nööbid Rimi 100g",
+    "price": 3.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Safran Kotany 0,12g",
+    "price": 4.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Purustatud kookospähkel I Love Eco 200g",
+    "price": 3.09
+  },
+  {
+    "store": "Rimi",
+    "name": "Kaneel Rimi Smart 10g",
+    "price": 0.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Vaniljekaun 13/15cm 10g",
+    "price": 6.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Küpsetuspulber Rimi 30g",
+    "price": 0.69
+  },
+  {
+    "store": "Rimi",
+    "name": "Vanilli lõhna- ja maitseaine Dr. Oetker 8 ml",
+    "price": 1.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Bourbon vanillipasta seemnetega Dr.Oetker 19g",
+    "price": 2.55
+  },
+  {
+    "store": "Rimi",
+    "name": "Seesamiseemned mustad Zelta Rieksts 150g",
+    "price": 2.29
+  },
+  {
+    "store": "Rimi",
+    "name": "Sidrunhape Rimi 30g",
+    "price": 0.73
+  },
+  {
+    "store": "Rimi",
+    "name": "Mooniseemned Rimi 30g",
     "price": 0.99
   },
   {
+    "store": "Rimi",
+    "name": "Värviline suhkrudekoor Rimi 100g",
+    "price": 2.59
+  },
+  {
+    "store": "Rimi",
+    "name": "Martsipan Salling 200g",
+    "price": 2.79
+  },
+  {
+    "store": "Rimi",
+    "name": "Küpsetusšokolaad tume ICA 200g",
+    "price": 4.19
+  },
+  {
+    "store": "Rimi",
+    "name": "Piimašokolaad küpsetamiseks ICA 200g",
+    "price": 5.29
+  },
+  {
+    "store": "Rimi",
+    "name": "Martsipan ICA 400g",
+    "price": 5.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Tordikaunistused šokolaadi Dr.Oetker 80g",
+    "price": 2.29
+  },
+  {
+    "store": "Rimi",
+    "name": "Glasuuripliiatsid Dr.Oetker 78g",
+    "price": 3.49
+  },
+  {
+    "store": "Rimi",
+    "name": "Vanillimaitseline tordikreem Dr. Oetker 105g",
+    "price": 2.39
+  },
+  {
+    "store": "Rimi",
+    "name": "Presspärm Nordic 50g",
+    "price": 0.4
+  },
+  {
+    "store": "Rimi",
+    "name": "Kuivpärm Rimi Smart 12g",
+    "price": 0.25
+  },
+  {
+    "store": "Rimi",
+    "name": "Söögisooda Rimi Smart, 400g",
+    "price": 0.95
+  },
+  {
+    "store": "Rimi",
+    "name": "Mahe küpsetuspulber Salling Eko 140g",
+    "price": 1.99
+  },
+  {
+    "store": "Rimi",
+    "name": "Kuivpärm Rimi 12g",
+    "price": 0.79
+  },
+  {
+    "store": "Rimi",
+    "name": "Lahustuv pärm Dr.Oetker 7g",
+    "price": 0.55
+  },
+  {
+    "store": "Rimi",
+    "name": "Söögisooda Lombardi 500g",
+    "price": 1.49
+  },
+  {
     "store": "Selver",
-    "name": "Kikerherned, CAMPAGNA, 400 g",
+    "name": "Söögisooda, DNIPRYANOCHKA, 400 g",
     "price": 1.11
   },
   {
     "store": "Selver",
-    "name": "Valged oad, CAMPAGNA, 400 g",
-    "price": 1.01
+    "name": "Dražeed dekoratsiooniks 6tk, WERNER`S DECO, 150 g",
+    "price": 4.93
   },
   {
     "store": "Selver",
-    "name": "Kooritud tomatid, CAMPAGNA, 400 g",
-    "price": 1.39
+    "name": "Kartuliglasuur ürtidega, MEIRA, 35 g",
+    "price": 1.47
   },
   {
     "store": "Selver",
-    "name": "Kooritud tomatid, REGGIA, 400 g",
-    "price": 1.68
+    "name": "Lehtželatiin, MEIRA, 20 g",
+    "price": 2.12
   },
   {
     "store": "Selver",
-    "name": "Küüslauk ürtidega päevalilleõlis, CITRES, 290 g",
-    "price": 4.75
+    "name": "Kuivpärm, NORDIC, 2x12 g",
+    "price": 1.05
   },
   {
     "store": "Selver",
-    "name": "Päikesekuivatatud tomatid päevalilleõlis, CITRES, 290 g",
-    "price": 3.95
+    "name": "Söögisooda, SALLISELTA, 900 g",
+    "price": 5.39
   },
   {
     "store": "Selver",
-    "name": "Päikesekuivatatud tomatid õlivabas kastmes, PONTI, 160 g neto",
-    "price": 4.15
+    "name": "Söögisooda, MEIRA, 125 g",
+    "price": 1.27
   },
   {
     "store": "Selver",
-    "name": "Valge uba tomatikastmes, BONDUELLE, 425 ml",
-    "price": 2.09
+    "name": "Söögisooda, MEIRA, 50 g",
+    "price": 0.6
   },
   {
     "store": "Selver",
-    "name": "Piknikukurk viiludena, PÕLTSAMAA, 680 g",
-    "price": 3.19
-  },
-  {
-    "store": "Selver",
-    "name": "Salat Tervist, SALVEST, 520 g",
-    "price": 2.69
-  },
-  {
-    "store": "Selver",
-    "name": "Kõrvitsasalat, SALVEST, 560 g",
-    "price": 2.45
-  },
-  {
-    "store": "Selver",
-    "name": "Piprakurk, SALVEST, 675 g",
-    "price": 2.79
-  },
-  {
-    "store": "Selver",
-    "name": "Tükeldatud jalapeno, WANTED, 240 g",
-    "price": 2.53
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid krevettidega 300g, GREEN, neto 120 g",
-    "price": 1.99
-  },
-  {
-    "store": "Selver",
-    "name": "Kirsstomatid marinaadis, MINU, 370 g neto",
-    "price": 2.82
-  },
-  {
-    "store": "Selver",
-    "name": "Kornishonid 1-4 cm marineeritud, GREEN, 370 g",
-    "price": 3.09
-  },
-  {
-    "store": "Selver",
-    "name": "Maisitõlvikud marineeritud, GREEN, 190g",
-    "price": 2.23
-  },
-  {
-    "store": "Selver",
-    "name": "Läätsed tomatikastmes, CIRIO, 410g",
-    "price": 1.72
-  },
-  {
-    "store": "Selver",
-    "name": "Maitselt mahe kurk, PÕLTSAMAA, neto 360g",
-    "price": 2.89
-  },
-  {
-    "store": "Selver",
-    "name": "Võileivakurk, SALVEST, 290g neto",
-    "price": 2.79
-  },
-  {
-    "store": "Selver",
-    "name": "Minikurgid, CITRES, 290g",
-    "price": 2.84
-  },
-  {
-    "store": "Selver",
-    "name": "Viilukurk, SALVEST, 350g neto",
-    "price": 2.79
-  },
-  {
-    "store": "Selver",
-    "name": "Purustatud tomatid, POMI, 400 g",
-    "price": 1.55
-  },
-  {
-    "store": "Selver",
-    "name": "Punased oad Kidney, BONDUELLE, 425 ml",
-    "price": 1.85
-  },
-  {
-    "store": "Selver",
-    "name": "Magus mais, BONDUELLE, 425 ml",
-    "price": 2.15
-  },
-  {
-    "store": "Selver",
-    "name": "Roheline hernes, BONDUELLE, 425 ml",
-    "price": 1.99
-  },
-  {
-    "store": "Selver",
-    "name": "Magus mais, BONDUELLE, 212 ml",
-    "price": 1.59
-  },
-  {
-    "store": "Selver",
-    "name": "Punased oad tšilli kastmes, BONDUELLE, 430 g",
-    "price": 1.89
-  },
-  {
-    "store": "Selver",
-    "name": "Herned, BONDUELLE, 212 ml",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Mais, hernes ja paprika, BONDUELLE, 425 ml",
-    "price": 2.89
-  },
-  {
-    "store": "Selver",
-    "name": "Mahe pipar, DITTMANN, 250 g",
-    "price": 2.49
-  },
-  {
-    "store": "Selver",
-    "name": "Ananassi tükid, GREEN, 565 g",
-    "price": 2.19
-  },
-  {
-    "store": "Selver",
-    "name": "Ananassi seibid, GREEN, 565 g",
-    "price": 2.09
-  },
-  {
-    "store": "Selver",
-    "name": "Kreeka teravad terved pepperonid, ROYAL, 320 g",
-    "price": 3.34
-  },
-  {
-    "store": "Selver",
-    "name": "Salatikurk, SALVEST, 395g neto",
-    "price": 1.99
-  },
-  {
-    "store": "Selver",
-    "name": "Salatiporgand, SALVEST, neto 400g",
-    "price": 2.09
-  },
-  {
-    "store": "Selver",
-    "name": "Magus mais (klaaspurk), BONDUELLE, 580 ml",
-    "price": 2.59
-  },
-  {
-    "store": "Selver",
-    "name": "HULGI Küpsetatud oad 6tk, CAMPAGNA, 6 x 400g",
-    "price": 5.94
-  },
-  {
-    "store": "Selver",
-    "name": "Mais duopakk, BONDUELLE, 280 g neto",
-    "price": 2.29
-  },
-  {
-    "store": "Selver",
-    "name": "Herned duopakk, BONDUELLE, 260 g neto",
-    "price": 1.89
-  },
-  {
-    "store": "Selver",
-    "name": "Kurgid sweet chili marinaadis, GREEN, 450 g neto",
-    "price": 5.19
-  },
-  {
-    "store": "Selver",
-    "name": "Kurgid rich taste marinaadis, GREEN, 450 g neto",
-    "price": 5.19
-  },
-  {
-    "store": "Selver",
-    "name": "Marineeritud kurgid 6-9 cm, SUNFOOD, 680 g",
-    "price": 2.19
-  },
-  {
-    "store": "Selver",
-    "name": "Vürtsikas köögiviljasalat, MÕISAPROUA, 530 g",
-    "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Inspiration mais 2x70g, BONDUELLE, 140 g",
+    "name": "Kastmepaksendaja heledatele kastmetele, RUF, 250 g",
     "price": 2.33
   },
   {
     "store": "Selver",
-    "name": "HULGI Shampinjonid viilutatud, 4tk, PRO CHAMP, 4 x 155g (neto)",
-    "price": 5.56
+    "name": "Lilla nonparell, MEIRA, 60 g",
+    "price": 1.88
   },
   {
     "store": "Selver",
-    "name": "Perekurk, FELIX, 8,2 kg, ettetellimisel",
-    "price": 22.35
+    "name": "Toormoosipaksendaja, MIKAADO,",
+    "price": 1.92
   },
   {
     "store": "Selver",
-    "name": "Piknikukurk (viilud), FELIX, 8,2 kg, ettetellimisel",
-    "price": 22.35
-  },
-  {
-    "store": "Selver",
-    "name": "Kurgisalat, FELIX, 3,2 kg, ettetellimisel",
-    "price": 16.76
-  },
-  {
-    "store": "Selver",
-    "name": "Grillisalat, FELIX, 3,2 kg, ettetellimisel",
-    "price": 17.78
-  },
-  {
-    "store": "Selver",
-    "name": "Kõrvitsakuubid, PÕLTSAMAA, 3,1 kg, ettetellimisel",
-    "price": 14.22
-  },
-  {
-    "store": "Selver",
-    "name": "Kurgi-sinepisalat, PÕLTSAMAA, 3,2 kg, ettetellimisel",
-    "price": 16.25
-  },
-  {
-    "store": "Selver",
-    "name": "Punapeediviilud, PÕLTSAMAA, 8,9 kg, ettetellimisel",
-    "price": 25.91
-  },
-  {
-    "store": "Selver",
-    "name": "Minikurk, PÕLTSAMAA, 2,85 kg, ettetellimisel",
-    "price": 18.79
-  },
-  {
-    "store": "Selver",
-    "name": "Võileivakurk, PÕLTSAMAA, 3,1 kg, ettetellimisel",
-    "price": 13.2
-  },
-  {
-    "store": "Selver",
-    "name": "Maitselt mahe kurk, SALVEST, 4,2 kg, ettetellimisel",
-    "price": 11.49
-  },
-  {
-    "store": "Selver",
-    "name": "Kõrvitsasalat, SALVEST, 3,1 kg, ettetellimisel",
-    "price": 11.79
-  },
-  {
-    "store": "Selver",
-    "name": "Tükeldatud porgand, SALVEST, 3 kg, ettetellimisel",
-    "price": 11.49
-  },
-  {
-    "store": "Selver",
-    "name": "Magus-vürtsikas köögiviljasalat, SALVEST, 3 kg, ettetellimisel",
-    "price": 18.99
-  },
-  {
-    "store": "Selver",
-    "name": "Viilutatud šampinjonid soolvees, FIRST PRICE, 280 g",
-    "price": 1.75
-  },
-  {
-    "store": "Selver",
-    "name": "Tükeldatud mahe tomatid, FIRST PRICE, 400 g",
-    "price": 1.89
-  },
-  {
-    "store": "Selver",
-    "name": "Mustad oliivid kivideta, FIRST PRICE, 350 g",
-    "price": 2.09
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid paprika täidisega, FIRST PRICE, 350 g",
-    "price": 2.19
-  },
-  {
-    "store": "Selver",
-    "name": "Sparglilõigud soolvees, FIRST PRICE, 430 g",
-    "price": 2.23
-  },
-  {
-    "store": "Selver",
-    "name": "Kapparid, FIRST PRICE, 100 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Paprikaliistud, FIRST PRICE, 320 g",
-    "price": 1.99
-  },
-  {
-    "store": "Selver",
-    "name": "Päikesekuivatatud tomatid õlis, FIRST PRICE, 280 g",
-    "price": 2.79
-  },
-  {
-    "store": "Selver",
-    "name": "Magus mais, FIRST PRICE, 340 g",
-    "price": 1.59
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid kivideta, FIRST PRICE, 350 g",
-    "price": 2.29
-  },
-  {
-    "store": "Selver",
-    "name": "Pärlsibulad, FIRST PRICE, 320 g",
-    "price": 1.65
-  },
-  {
-    "store": "Selver",
-    "name": "Pruunid läätsed ilma vedelikuta, ACTIVUS, 150 g",
-    "price": 2.53
-  },
-  {
-    "store": "Selver",
-    "name": "Kapparid veiniäädikas, LOMBARDI, 212 g",
-    "price": 2.53
-  },
-  {
-    "store": "Selver",
-    "name": "Kooritud mahe tomatid, FIRST PRICE, 400 g",
-    "price": 1.69
-  },
-  {
-    "store": "Selver",
-    "name": "Punane peet, FIRST PRICE, 670 g",
-    "price": 2.19
-  },
-  {
-    "store": "Selver",
-    "name": "Pärlsibulad , GREENHOUSE, neto 370 g",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
-    "name": "Letšo, MINU, 680 g",
-    "price": 2.69
-  },
-  {
-    "store": "Selver",
-    "name": "Jalapenod viilutatud, BANDEROS, 125 g",
-    "price": 2.59
-  },
-  {
-    "store": "Selver",
-    "name": "Hapukurgid, MÕISAPROUA, 330g",
-    "price": 2.69
-  },
-  {
-    "store": "Selver",
-    "name": "Magus mais, GESTUS, 340 g",
+    "name": "Geeltoiduvärv roheline, DR.OETKER, 10 g",
     "price": 1.85
   },
   {
     "store": "Selver",
-    "name": "Rohelised kividega oliivid, GRØN BALANCE, 300 g",
-    "price": 2.79
+    "name": "Geeltoiduvärv punane, DR.OETKER, 10 g",
+    "price": 1.85
   },
   {
     "store": "Selver",
-    "name": "Roheliste ja kalamata oliivide segu, GRØN BALANCE, 290 g",
-    "price": 2.99
+    "name": "Geeltoiduvärv kollane, DR.OETKER, 10 g",
+    "price": 1.85
   },
   {
     "store": "Selver",
-    "name": "Aurutatud läätsed, GRØN BALANCE, 400 g",
-    "price": 1.55
+    "name": "Geeltoiduvärv sinine, DR.OETKER, 10 g",
+    "price": 1.85
   },
   {
     "store": "Selver",
-    "name": "Perekurk (terved) bruto 680g, FELIX, neto 360 g",
-    "price": 2.99
+    "name": "Glasuur - valge šokolaadi maitseline, DR.OETKER, 100 g",
+    "price": 2.09
   },
   {
     "store": "Selver",
-    "name": "Minikurk bruto 330g, FELIX, neto 190 g",
-    "price": 2.95
-  },
-  {
-    "store": "Selver",
-    "name": "Võileivakurk bruto 460 g, FELIX, neto 240 g",
-    "price": 2.99
-  },
-  {
-    "store": "Selver",
-    "name": "Kikerherned, FIRST PRICE, 240 g",
-    "price": 0.99
-  },
-  {
-    "store": "Selver",
-    "name": "Artišokid õlis, GESTUS, 290 g",
-    "price": 3.99
-  },
-  {
-    "store": "Selver",
-    "name": "Küüslauk õlis, maitsetaimedega, GESTUS, 190 g neto",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
-    "name": "Küüslauk tšilliõlis, GESTUS, 190 g neto",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
-    "name": "Kuivatatud tomatid õlis, GESTUS, 290 g",
-    "price": 3.59
-  },
-  {
-    "store": "Selver",
-    "name": "Päikesekuivatatud tomatid õlis, GESTUS, 290 g",
-    "price": 3.49
-  },
-  {
-    "store": "Selver",
-    "name": "Oliivid mandliga, GESTUS, 180 g neto",
-    "price": 3.69
-  },
-  {
-    "store": "Selver",
-    "name": "Oliivid küüslauguga, GESTUS, 180 g neto",
-    "price": 3.39
-  },
-  {
-    "store": "Selver",
-    "name": "Oliivid Kalamata, GESTUS, 180 g neto",
-    "price": 3.19
-  },
-  {
-    "store": "Selver",
-    "name": "Tomatid küüslauguga, tükeldatud, GESTUS, 400 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Kirsstomatid omas mahlas, GESTUS, 400 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Tomatid oregano ja basiilikuga, tükeldatud, GESTUS, 400 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Tomatid tšilliga, tükeldatud, GESTUS, 400 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Kapparid, GESTUS, 35 g neto",
-    "price": 1.29
-  },
-  {
-    "store": "Selver",
-    "name": "Oad, tomatikastmes, küpsetatud, GESTUS, 420 g",
-    "price": 1.39
-  },
-  {
-    "store": "Selver",
-    "name": "Mustad oad, küpsetatud, soolvees, GESTUS, 240 g neto",
-    "price": 1.39
-  },
-  {
-    "store": "Selver",
-    "name": "Punased oad, tšilli kastmes, küpsetatud, GESTUS, 420 g",
-    "price": 1.49
-  },
-  {
-    "store": "Selver",
-    "name": "Aasiapärane salat, SALVEST, 380 g",
-    "price": 3.79
-  },
-  {
-    "store": "Selver",
-    "name": "Grillsalat, SALVEST, 380 g",
-    "price": 3.79
-  },
-  {
-    "store": "Selver",
-    "name": "Köögiviljapüree seentega, VERES, 445 g",
-    "price": 3.55
-  },
-  {
-    "store": "Selver",
-    "name": "Šampinjonid viilutatud, PRO CHAMP, 290 g",
-    "price": 1.39
-  },
-  {
-    "store": "Selver",
-    "name": "Sampinjonid viilutatud PRO CHAMP, 390 g",
-    "price": 2.71
-  },
-  {
-    "store": "Selver",
-    "name": "Mustad kivideta oliivid, FIGARO, 142 g",
-    "price": 1.75
-  },
-  {
-    "store": "Selver",
-    "name": "Oliivid hallitusjuustuga ORO VERDE, 350 g",
-    "price": 2.79
-  },
-  {
-    "store": "Selver",
-    "name": "Mustad kivideta oliivid, BORGES, 220 g",
-    "price": 1.89
-  },
-  {
-    "store": "Selver",
-    "name": "Mustad oliivid kivideta, FIGARO, 240 g",
-    "price": 1.69
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid kivideta, FIGARO, 240 g",
-    "price": 1.69
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid paprikaga, FIGARO, 240 g",
-    "price": 1.75
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid kivideta, FIGARO, 142g",
-    "price": 1.75
-  },
-  {
-    "store": "Selver",
-    "name": "Mustad kivideta oliivid, EXPLANADA GOURMET, 370 ml",
-    "price": 2.23
-  },
-  {
-    "store": "Selver",
-    "name": "Trühvlitäidisega oliivid, EXPLANADA GOURMET, 370 ml",
-    "price": 2.43
-  },
-  {
-    "store": "Selver",
-    "name": "Rohelised oliivid kivideta Manzilla, EXPLANADA GOURMET, 370 ml",
-    "price": 2.43
-  },
-  {
-    "store": "Selver",
-    "name": "Sinihallitusjuustutäidisega oliivid, EXPLANADA GOURMET, 370 ml",
-    "price": 2.43
-  },
-  {
-    "store": "Selver",
-    "name": "Jalapeño täidisega oliivid, EXPLANADA GOURMET, 370 ml",
-    "price": 2.43
-  },
-  {
-    "store": "Selver",
-    "name": "Kokteili oliivid kurkidega, EXPLANADA  GOURMET, 350 g",
-    "price": 2.43
+    "name": "Glasuur - valge ja tumeda šokolaadi maitseline, DR.OETKER, 100 g",
+    "price": 2.09
   }
 ]

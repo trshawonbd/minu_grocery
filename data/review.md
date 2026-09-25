@@ -6,19 +6,19 @@ Matching pools every store's items for a category together (scraper/match-produc
 
 ## Summary
 
-| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Total |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 7542 |
-| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 598 |
-| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 141 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 145 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 180 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 132 |
-| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 6115 |
-| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 6 |
-| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 26 |
+| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Total |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 9792 |
+| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 886 |
+| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 262 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 195 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 263 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 166 |
+| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 7668 |
+| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
 
-**Note:** recomputed 596 matches from data/raw/, but data/prices.json has 598 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 884 matches from data/raw/, but data/prices.json has 886 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
@@ -36,6 +36,24 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Hipp P 1 800g | Baby formula | — | 19.99 € | 20.90 € | Rimi |
 | Tutteli Piimasegu 2 650g | Baby formula | — | 9.99 € | 9.99 € | Rimi + Selver |
 | Tutteli Tuttelitm 1 650g | Baby formula | 9.99 € | — | 9.99 € | Barbora + Selver |
+| Dr.oetker Küpsetuspulber 160g | Baking supplies | — | 2.99 € | 3.00 € | Rimi |
+| Dr.oetker Küpsetuspulber 30g | Baking supplies | 0.49 € | 0.55 € | — | Barbora |
+| Dr.oetker Söögisooda 70g | Baking supplies | 0.60 € | 0.65 € | — | Barbora |
+| Dr.oetker Suhkrukaunistused 80g | Baking supplies | 2.45 € | 2.45 € | — | Barbora + Rimi |
+| Dr.oetker Suhkrust südamekesed 10g | Baking supplies | 1.15 € | 1.15 € | — | Barbora + Rimi |
+| Dr.oetker Toiduvärv punane 10g | Baking supplies | 1.85 € | 2.05 € | — | Barbora |
+| Dr.oetker Toiduvärv roheline 10g | Baking supplies | 1.85 € | 2.05 € | — | Barbora |
+| Dr.oetker Toiduvärv sinine 10g | Baking supplies | 1.85 € | 2.05 € | — | Barbora |
+| Dr.oetker Želatiin 20g | Baking supplies | 0.89 € | 0.89 € | — | Barbora + Rimi |
+| Dr.oetker Želatiinilehed 10g | Baking supplies | 1.99 € | 1.99 € | — | Barbora + Rimi |
+| Meira Küpsetuspulber 100g | Baking supplies | — | 1.79 € | 1.62 € | Selver |
+| Meira Värviline nonparell 60g | Baking supplies | 1.88 € | — | 1.88 € | Barbora + Selver |
+| Mikaado Moosipaksendaja 30g | Baking supplies | — | 1.99 € | 1.88 € | Selver |
+| Nordic Pärm 50g | Baking supplies | 0.39 € | — | 0.36 € | Selver |
+| Santa maria Küpsetuspulber 45g | Baking supplies | 0.85 € | 0.95 € | 0.85 € (0.65 € Partner) | Barbora + Selver |
+| Santa maria Sidrunhape 32g | Baking supplies | 0.75 € | 0.79 € | — | Barbora |
+| Santa maria Želatiin 25g | Baking supplies | 1.25 € | — | 1.25 € | Barbora + Selver |
+| Veski mati Kuivpärm 11g | Baking supplies | 0.47 € | — | 0.47 € | Barbora + Selver |
 | Eesti pagar Haputaina pehmik 240g | Bread | 1.17 € | — | 1.17 € | Barbora + Selver |
 | Eesti pagar Haputaina röst 430g | Bread | 1.59 € | 1.59 € | — | Barbora + Rimi |
 | Eesti pagar Hele ciabatta 300g | Bread | 1.09 € | 1.19 € | — | Barbora |
@@ -564,6 +582,45 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Vaarikatomat kg | Fruits & vegetables | 2.99 € | 2.59 € | — | Rimi |
 | Viinamari red globe punane kg | Fruits & vegetables | 3.99 € | — | 3.99 € | Barbora + Selver |
 | Virsik kg | Fruits & vegetables | — | 2.99 € | 3.99 € | Rimi |
+| Bonne Mangopüree 500ml | Jam & honey & spreads | 3.45 € | — | 2.99 € | Selver |
+| Bonne Ploomipüree 500ml | Jam & honey & spreads | 4.25 € | — | 4.26 € | Barbora |
+| Bonne Virsikupüree 500ml | Jam & honey & spreads | 3.45 € | — | 3.45 € | Barbora + Selver |
+| Küllus Kiivimoos 400g | Jam & honey & spreads | 4.69 € | 4.69 € | — | Barbora + Rimi |
+| Küllus Kirsimoos 400g | Jam & honey & spreads | 4.19 € | 4.69 € | 4.29 € | Barbora |
+| Küllus Maasikamoos 400g | Jam & honey & spreads | 4.19 € | 4.29 € | 3.69 € | Selver |
+| Küllus Rabamurakamoos 400g | Jam & honey & spreads | 11.99 € | 12.39 € | 12.19 € | Barbora |
+| Küllus Vaarikamoos 400g | Jam & honey & spreads | 4.69 € | 4.59 € | 3.89 € | Selver |
+| Meie mari Maasikamoos 310g | Jam & honey & spreads | 3.75 € | — | 3.75 € | Barbora + Selver |
+| Meie mari Murakamoos 310g | Jam & honey & spreads | 10.49 € | 10.49 € | 10.49 € | Barbora + Rimi + Selver |
+| Meie mari Mustasõstramoos 310g | Jam & honey & spreads | 3.75 € | — | 3.75 € | Barbora + Selver |
+| Meie mari Pannkoogimoos 310g | Jam & honey & spreads | 3.39 € | 2.99 € | 2.99 € (1.99 € Partner) | Rimi + Selver |
+| Meie mari Pohlamoos 310g | Jam & honey & spreads | 3.75 € | 4.19 € | 3.75 € | Barbora + Selver |
+| Meie mari Vaarikamoos 310g | Jam & honey & spreads | 3.75 € | — | 3.65 € | Selver |
+| Meveda Mesi 500g | Jam & honey & spreads | 7.49 € | 7.49 € | — | Barbora + Rimi |
+| Meveda Mesi kreemjas 500g | Jam & honey & spreads | 6.99 € | — | 6.99 € | Barbora + Selver |
+| Muhe mesi Mesi 1100g | Jam & honey & spreads | 12.79 € | — | 12.39 € | Selver |
+| Muhe mesi Mesi 450g | Jam & honey & spreads | 6.29 € | — | 6.29 € | Barbora + Selver |
+| Põltsamaa Aprikoosimoos 380g | Jam & honey & spreads | 3.85 € | 3.85 € | 3.85 € (3.19 € Partner) | Barbora + Rimi + Selver |
+| Põltsamaa Maasikamoos 380g | Jam & honey & spreads | 3.65 € | 3.65 € | 3.65 € | Barbora + Rimi + Selver |
+| Põltsamaa Maasikamoos 600g | Jam & honey & spreads | 4.49 € (3.59 € Aitäh) | 4.49 € | 3.59 € | Selver |
+| Põltsamaa Maasikamoos pudelis 390g | Jam & honey & spreads | 3.45 € | 3.69 € | 3.45 € | Barbora + Selver |
+| Põltsamaa Metsamarjamoos 380g | Jam & honey & spreads | 3.65 € | 3.19 € | 3.65 € (2.99 € Partner) | Rimi |
+| Põltsamaa Mustikamoos 380g | Jam & honey & spreads | 4.09 € | 4.09 € | 4.09 € | Barbora + Rimi + Selver |
+| Põltsamaa Mustsõstramoos 380g | Jam & honey & spreads | 3.55 € | 2.99 € | 3.55 € | Rimi |
+| Põltsamaa Pohlamoos 380g | Jam & honey & spreads | 3.69 € | 3.69 € | 3.69 € | Barbora + Rimi + Selver |
+| Põltsamaa Pohlamoos pudelis 385g | Jam & honey & spreads | 3.55 € | 3.69 € | 3.55 € | Barbora + Selver |
+| Põltsamaa Vaarikamoos 380g | Jam & honey & spreads | 4.05 € | 4.05 € | 4.05 € (3.49 € Partner) | Barbora + Rimi + Selver |
+| Põltsamaa Vaarikamoos 600g | Jam & honey & spreads | 5.79 € (3.59 € Aitäh) | 5.79 € | 5.79 € | Barbora + Rimi + Selver |
+| Põltsamaa Vaarikamoos pudelis 390g | Jam & honey & spreads | 4.45 € | 4.79 € | 4.46 € | Barbora |
+| Salvest Ökoloogiline mangopüree 450g | Jam & honey & spreads | 3.99 € | 3.09 € | — | Rimi |
+| Salvest Ökoloogiline pirnipüree 450g | Jam & honey & spreads | 3.65 € | 3.89 € | — | Barbora |
+| Salvest Õunakaste 530g | Jam & honey & spreads | 2.89 € | — | 2.29 € | Selver |
+| Sante Maapähklikreem crunchy 350g | Jam & honey & spreads | 3.09 € | — | 3.14 € | Barbora |
+| Schwartau Karamelli dessertkaste 125ml | Jam & honey & spreads | 2.89 € | — | 2.92 € | Barbora |
+| Schwartau Šokolaadi dessertkaste 125ml | Jam & honey & spreads | 2.75 € | — | 2.73 € | Selver |
+| Semu Astelpajumoos 320g | Jam & honey & spreads | 3.95 € | — | 3.95 € | Barbora + Selver |
+| Sireli Mesi 1000g | Jam & honey & spreads | 11.99 € | — | 11.99 € | Barbora + Selver |
+| Sireli Mesi 250g | Jam & honey & spreads | 3.79 € | — | 3.79 € | Barbora + Selver |
 | Farmi Hapendatud pett 1000g | Kefir & buttermilk | — | 1.29 € | 1.31 € (1.09 € Partner) | Rimi |
 | Farmi Hapendatud täispiim 1000g | Kefir & buttermilk | — | 1.89 € | 1.92 € | Rimi |
 | Farmi Keefir täispiimast 1000g | Kefir & buttermilk | 1.25 € | 1.25 € | — | Barbora + Rimi |
@@ -613,6 +670,237 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Veski mati Pudruriis 1000g | Rice & grains | — | 3.09 € | 3.13 € | Rimi |
 | Veski mati Riis sõmer 1000g | Rice & grains | — | 3.09 € | 3.00 € | Selver |
 | Veski mati Risotoriis 500g | Rice & grains | — | 2.49 € | 2.39 € | Selver |
+| Baltika Ketšup terav 500g | Sauces & condiments | 1.85 € | 2.39 € | — | Barbora |
+| Baltika Kodune kange sinep 120g | Sauces & condiments | 1.35 € | 1.49 € | 1.41 € (1.19 € Partner) | Barbora |
+| Barilla Pastakaste basilico 400g | Sauces & condiments | 3.75 € (2.99 € Aitäh) | 3.79 € | 3.59 € | Selver |
+| Barilla Pastakaste bolognese 400g | Sauces & condiments | 4.99 € | 4.99 € | 4.99 € | Barbora + Rimi + Selver |
+| Barilla Pastakaste genovese pesto 190g | Sauces & condiments | 3.99 € | 3.59 € | — | Rimi |
+| Barilla Pastakaste napoletana 400g | Sauces & condiments | 3.79 € | 3.79 € | 2.99 € | Selver |
+| Borges Modena palsamiäädikas 250ml | Sauces & condiments | 2.94 € | — | 2.94 € | Barbora + Selver |
+| Borges Õunaäädikas ökoloogiline 250ml | Sauces & condiments | 2.95 € | 2.95 € | — | Barbora + Rimi |
+| Chumak Šašlõkiketšup 250g | Sauces & condiments | 1.29 € | — | 1.29 € | Barbora + Selver |
+| Chumak Tomatiketšup 250g | Sauces & condiments | 1.29 € | — | 1.29 € | Barbora + Selver |
+| Farmi Dipikaste aiaürtidega 200g | Sauces & condiments | — | 1.59 € | 1.69 € (1.49 € Partner) | Rimi |
+| Felix Adžika 260g | Sauces & condiments | 1.95 € | 1.99 € | 1.95 € | Barbora + Selver |
+| Felix Barbeque meekaste 320g | Sauces & condiments | 2.09 € | 2.89 € | 2.39 € | Barbora |
+| Felix Bolognese kaste 490g | Sauces & condiments | 2.65 € | 1.99 € | 2.69 € | Rimi |
+| Felix Burgerikaste 220g | Sauces & condiments | 1.79 € | 1.45 € | 1.79 € | Rimi |
+| Felix Grillkaste 510g | Sauces & condiments | 1.99 € | 2.05 € | 1.99 € | Barbora + Selver |
+| Felix Hellfire ketšup 500g | Sauces & condiments | 3.55 € | 2.79 € | — | Rimi |
+| Felix Hiinapärane kaste poolmagus 500g | Sauces & condiments | 2.19 € | 1.99 € | — | Rimi |
+| Felix Kartulikaste 220g | Sauces & condiments | 1.79 € | 1.45 € | 1.79 € | Rimi |
+| Felix Kaste ananassiga and sour sweet 500g | Sauces & condiments | — | 1.99 € | 2.19 € | Rimi |
+| Felix Kaste island thousand 375g | Sauces & condiments | 2.35 € | 2.69 € | 2.59 € (2.19 € Partner) | Barbora |
+| Felix Klassikaline salatikaste 375g | Sauces & condiments | 2.01 € | 2.69 € | 2.69 € (2.19 € Partner) | Barbora |
+| Felix Kuldse meega sinep 170g | Sauces & condiments | 2.95 € | — | 2.95 € | Barbora + Selver |
+| Felix Kurgikaste 275g | Sauces & condiments | 2.01 € | 2.69 € | 2.69 € (2.19 € Partner) | Barbora |
+| Felix Küüslaugukaste 275g | Sauces & condiments | 2.01 € | 2.69 € | 2.69 € (2.19 € Partner) | Barbora |
+| Felix Mädarõigas kodune 200g | Sauces & condiments | 1.69 € | 1.69 € | — | Barbora + Rimi |
+| Felix Magus tšillikaste 355g | Sauces & condiments | 1.83 € | — | 2.43 € | Barbora |
+| Felix Maheda maitsega sinep 170g | Sauces & condiments | 2.65 € | — | 2.65 € | Barbora + Selver |
+| Felix Majonees aioli laimi 220g | Sauces & condiments | 1.99 € | 1.79 € | — | Rimi |
+| Felix Majonees kerge 870g | Sauces & condiments | 3.25 € | 3.39 € | 4.06 € | Barbora |
+| Felix Majonees klassikaline 830g | Sauces & condiments | — | 4.05 € | 4.05 € | Rimi + Selver |
+| Felix Mangokaste 500g | Sauces & condiments | 2.59 € | — | 2.59 € | Barbora + Selver |
+| Felix Mee ja salatikaste sinepi 375g | Sauces & condiments | 1.94 € | — | 2.59 € | Barbora |
+| Felix Pastakaste 500g | Sauces & condiments | 2.59 € | 1.99 € | 2.59 € | Rimi |
+| Felix Pastakaste ürtidega 360g | Sauces & condiments | 2.65 € | 2.65 € | — | Barbora + Rimi |
+| Felix Põltsamaa kange sinep 65g | Sauces & condiments | 1.49 € | — | 1.49 € | Barbora + Selver |
+| Felix Premium majonees 235g | Sauces & condiments | 1.99 € | — | 2.12 € | Barbora |
+| Felix Premium majonees 445g | Sauces & condiments | 3.55 € | 3.79 € | 3.69 € | Barbora |
+| Felix Ranch salatikaste 375g | Sauces & condiments | 2.01 € | 2.89 € | 2.69 € (2.19 € Partner) | Barbora |
+| Felix Salatikaste caesar 375g | Sauces & condiments | 1.94 € | — | 2.59 € | Barbora |
+| Felix Terav tomatiketšup 1000g | Sauces & condiments | 4.49 € | 4.49 € | — | Barbora + Rimi |
+| Felix Terav tomatiketšup 500g | Sauces & condiments | 2.89 € | 2.89 € | — | Barbora + Rimi |
+| Felix Terav tšillikaste 350g | Sauces & condiments | 1.83 € | — | 2.43 € | Barbora |
+| Felix Tomati salatikaste tšilli 375g | Sauces & condiments | 1.94 € | — | 2.59 € (2.19 € Partner) | Barbora |
+| Felix Tomatiketšup 1000g | Sauces & condiments | 4.09 € | 3.79 € | 3.79 € | Rimi + Selver |
+| Felix Tomatiketšup 1250g | Sauces & condiments | 4.95 € (3.59 € Aitäh) | 4.89 € | 4.95 € (3.29 € Partner) | Rimi |
+| Felix Tomatiketšup 500g | Sauces & condiments | 2.89 € | 2.89 € | 2.29 € | Selver |
+| Felix Tomatiketšup ilma lisatud suhkruta 970g | Sauces & condiments | — | 3.49 € | 4.65 € (3.79 € Partner) | Rimi |
+| Felix Tomatipasta 265g | Sauces & condiments | 1.85 € | 1.49 € | 1.85 € | Rimi |
+| Felix Tšillimajonees 220g | Sauces & condiments | 2.05 € | 1.79 € | 2.08 € | Rimi |
+| Felix Vahemere salatikaste 375g | Sauces & condiments | 2.01 € | — | 2.69 € | Barbora |
+| Felix Wrapikaste 220g | Sauces & condiments | 1.55 € | 1.45 € | 1.79 € | Rimi |
+| Flying goose Sriracha tšillikaste 200ml | Sauces & condiments | 4.79 € | — | 3.99 € | Selver |
+| Gourmante Palsamikreem 250ml | Sauces & condiments | 4.89 € | — | 4.87 € | Selver |
+| Gourmet club Caesari kaste 150g | Sauces & condiments | 3.79 € | 2.99 € | 2.99 € | Rimi + Selver |
+| Heinz Bbq kaste klassikaline 480g | Sauces & condiments | — | 4.79 € | 4.46 € | Selver |
+| Heinz Burgerikaste ameerikapärane 400ml | Sauces & condiments | — | 4.79 € | 4.79 € | Rimi + Selver |
+| Heinz Ketšup 460g | Sauces & condiments | 3.59 € | 3.59 € | — | Barbora + Rimi |
+| Heinz Küüslaugukaste 420g | Sauces & condiments | 4.69 € | 4.69 € | — | Barbora + Rimi |
+| Heinz Worcester kaste 150ml | Sauces & condiments | — | 2.95 € | 2.63 € | Selver |
+| Hellmann's Bbq kaste original 430ml | Sauces & condiments | 3.99 € | 3.99 € | — | Barbora + Rimi |
+| Hellmann's Kaste burger chunky 250ml | Sauces & condiments | — | 3.19 € | 3.39 € | Rimi |
+| Hellmann's Majonees light 405ml | Sauces & condiments | 3.99 € | — | 4.89 € | Barbora |
+| Hellmann's Majonees original 405ml | Sauces & condiments | 3.69 € (2.39 € Aitäh) | — | 3.99 € (2.29 € Partner) | Barbora |
+| Hellmann's Majonees original 625ml | Sauces & condiments | 5.79 € (3.99 € Aitäh) | 6.39 € | — | Barbora |
+| Lemmik Majonees juustu 200g | Sauces & condiments | 1.49 € | 1.59 € | — | Barbora |
+| Lemmik Majonees oliivi provansaal 210g | Sauces & condiments | 1.39 € (0.79 € Aitäh) | 1.49 € | 1.55 € | Barbora |
+| Lemmik Majonees provansaal 405g | Sauces & condiments | 1.99 € | 2.05 € | 2.25 € | Barbora |
+| Lemmik Majonees provansaal 700g | Sauces & condiments | 2.99 € | 2.99 € | 3.39 € | Barbora + Rimi |
+| Maggi Kaste salsa texicana 500ml | Sauces & condiments | 4.99 € | 4.99 € | — | Barbora + Rimi |
+| Meira Sinep traditsiooniline 500g | Sauces & condiments | 2.99 € | — | 3.04 € | Barbora |
+| Merevaik Juustudipp cheddari 200g | Sauces & condiments | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
+| Merevaik Juustudipp originaal 200g | Sauces & condiments | 1.89 € | — | 1.89 € | Barbora + Selver |
+| Merevaik Juustumajonees tere 210g | Sauces & condiments | 1.55 € | 1.89 € | — | Barbora |
+| Minu Mädarõigas delikatess 170g | Sauces & condiments | 1.19 € | — | 1.31 € | Barbora |
+| Minu Mädarõigas ekstra kange 200g | Sauces & condiments | 1.69 € | — | 1.79 € | Barbora |
+| Mo saaremaa Juustukaste 400g | Sauces & condiments | 2.65 € (1.99 € Aitäh) | 2.65 € | — | Barbora + Rimi |
+| Panzani Bolognese pastakaste veggie 390g | Sauces & condiments | 4.99 € | — | 4.49 € (3.59 € Partner) | Selver |
+| Panzani Pastakaste bolognese extra 425g | Sauces & condiments | — | 5.29 € | 5.29 € | Rimi + Selver |
+| Panzani Pastakaste napoletana 400g | Sauces & condiments | 3.69 € | 3.69 € | 3.89 € | Barbora + Rimi |
+| Panzani Pastakaste originale 400g | Sauces & condiments | 3.69 € | 3.69 € | 3.89 € | Barbora + Rimi |
+| Panzani Pitsakaste tomapizza 390g | Sauces & condiments | 2.99 € | — | 3.05 € | Barbora |
+| Panzani Tomatipüree tomacouli 200g | Sauces & condiments | 1.55 € | — | 1.25 € | Selver |
+| Pomi Tomatipasta 200g | Sauces & condiments | 1.15 € | 1.15 € | 1.15 € | Barbora + Rimi + Selver |
+| Pomi Tomatipasta 500g | Sauces & condiments | 1.99 € | — | 1.95 € | Selver |
+| Ponti Palsamiäädikakreem 250g | Sauces & condiments | 4.55 € (3.95 € Aitäh) | — | 4.56 € | Barbora |
+| Salvest Adžika ketšup 360g | Sauces & condiments | 2.29 € | 2.45 € | 2.29 € | Barbora + Selver |
+| Salvest Bbq kaste 390g | Sauces & condiments | 2.69 € | 2.69 € | 2.69 € | Barbora + Rimi + Selver |
+| Salvest Ketšup 1000g | Sauces & condiments | — | 4.09 € | 4.06 € | Selver |
+| Salvest Ketšup 270g | Sauces & condiments | 2.15 € | 2.15 € | 2.15 € | Barbora + Rimi + Selver |
+| Salvest Ketšup 530g | Sauces & condiments | 2.99 € | 2.99 € | 2.49 € | Selver |
+| Salvest Majonees kerge 430g | Sauces & condiments | 2.35 € | 2.49 € | 2.39 € | Barbora |
+| Salvest Majonees klassikaline 430g | Sauces & condiments | 2.35 € | 2.49 € | 1.99 € | Selver |
+| Salvest Majonees mädarõikamaitseline 430g | Sauces & condiments | — | 2.49 € | 2.53 € | Rimi |
+| Salvest Pastakaste bolognese hakklihaga 460g | Sauces & condiments | — | 2.65 € | 2.45 € | Selver |
+| Salvest Pastakaste köögiviljadega 460g | Sauces & condiments | 3.19 € | 3.19 € | 3.19 € | Barbora + Rimi + Selver |
+| Salvest Pastakaste ürtidega 460g | Sauces & condiments | 3.19 € | 2.99 € | 3.19 € | Rimi |
+| Salvest Tomatipasta 300g | Sauces & condiments | — | 1.89 € | 1.69 € | Selver |
+| Salvest Tomatipasta ürtidega 300g | Sauces & condiments | 1.99 € | 1.99 € | 1.99 € | Barbora + Rimi + Selver |
+| Santa maria Bbq kaste universaalne 330g | Sauces & condiments | 4.25 € | — | 4.25 € | Barbora + Selver |
+| Sfinx-e Äädikhape 500ml | Sauces & condiments | 1.19 € | — | 1.19 € | Barbora + Selver |
+| Tarplan Majonees küüslauguga 210g | Sauces & condiments | 1.19 € | — | 1.49 € | Barbora |
+| Tarplan Majonees premium provansaal 210g | Sauces & condiments | 1.12 € | 1.29 € | 1.49 € | Barbora |
+| Tarplan Majonees provansaal 380g | Sauces & condiments | 1.44 € | 1.69 € | 1.95 € | Barbora |
+| Tarplan Majonees provansaal 450g | Sauces & condiments | 1.64 € | — | 2.19 € | Barbora |
+| Tarplan Majonees provansaal 900g | Sauces & condiments | — | 3.99 € | 3.95 € (3.29 € Partner) | Selver |
+| Tarplan Majonees tšilli 210g | Sauces & condiments | 1.24 € | 1.79 € | — | Barbora |
+| Tarplan Majonees vegan 380g | Sauces & condiments | 1.65 € | — | 2.19 € | Barbora |
+| Tarplan Salatikaste caesar 210g | Sauces & condiments | 1.42 € | 1.99 € | 1.79 € | Barbora |
+| Tartu mill Pastakaste arrabbiata 340g | Sauces & condiments | 3.19 € | 3.19 € | — | Barbora + Rimi |
+| Tartu mill Pastakaste napoletana 340g | Sauces & condiments | 3.29 € | 3.29 € | — | Barbora + Rimi |
+| Tere Dipikaste dipp küüslaugu tops 200g | Sauces & condiments | 1.75 € | — | 1.75 € | Barbora + Selver |
+| Tere Majonees laktoosivaba lactose-free 410g | Sauces & condiments | — | 2.75 € | 2.65 € | Selver |
+| Thai choice Kalakaste 200ml | Sauces & condiments | 2.19 € (1.75 € Aitäh) | — | 2.19 € | Barbora + Selver |
+| Thai choice Magus tšillikaste 200ml | Sauces & condiments | 2.19 € | — | 2.09 € | Selver |
+| Vilux Sinep dijoni teraline 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
+| Vilux Sinep dijoni teravamaitseline 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
+| Kotanyi Loorberilehed 4g | Spices | 1.39 € (0.99 € Aitäh) | 1.55 € | — | Barbora |
+| Meira Cajuni vürts 32g | Spices | 1.45 € | — | 1.47 € | Barbora |
+| Meira Jahvatatud kardemon 8g | Spices | 0.89 € | — | 0.90 € | Barbora |
+| Meira Jahvatatud vürtsköömen 25g | Spices | 1.05 € | — | 1.07 € | Barbora |
+| Meira Kardemoni seemned 8g | Spices | 1.15 € | — | 1.17 € | Barbora |
+| Meira Kurkum 60g | Spices | 1.99 € | — | 2.02 € | Barbora |
+| Meira Sibulapulber 30g | Spices | 1.79 € | — | 1.82 € | Barbora |
+| Meira Sidrunipipar soola 32g | Spices | 1.55 € | — | 1.58 € | Barbora |
+| Santa maria Apelsinipipar 48g | Spices | 2.29 € | — | 2.29 € | Barbora + Selver |
+| Santa maria Aroomisool 390g | Spices | — | 5.29 € | 5.19 € | Selver |
+| Santa maria Aroomisool 40g | Spices | 0.95 € | — | 0.95 € (0.75 € Partner) | Barbora + Selver |
+| Santa maria Aroomisool 74g | Spices | 1.69 € | — | 1.59 € | Selver |
+| Santa maria Basiilik 12g | Spices | 1.59 € | — | 1.59 € | Barbora + Selver |
+| Santa maria Basiilik 6g | Spices | 1.19 € | 1.35 € | — | Barbora |
+| Santa maria Broilerimaitseaine 275g | Spices | 2.91 € | 5.19 € | 5.19 € | Barbora |
+| Santa maria Broilerimaitseaine 30g | Spices | 0.99 € | 1.05 € | 0.95 € | Selver |
+| Santa maria Broilerimaitseaine 90g | Spices | 2.25 € | 2.25 € | — | Barbora + Rimi |
+| Santa maria Cajuni maitseainesegu 34g | Spices | — | 3.69 € | 3.49 € | Selver |
+| Santa maria Cayenne i pipar 30g | Spices | 1.59 € | — | 1.59 € | Barbora + Selver |
+| Santa maria Guljašimaitseaine 40g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Hakklihamaitseaine 280g | Spices | 2.93 € | 5.19 € | 5.19 € | Barbora |
+| Santa maria Hakklihamaitseaine 30g | Spices | 0.95 € | 1.05 € | 0.95 € | Barbora + Selver |
+| Santa maria Hakklihamaitseaine 80g | Spices | 2.25 € | 2.25 € | 1.59 € | Selver |
+| Santa maria Jahimehesegu 220g | Spices | 3.51 € | 6.55 € | 6.29 € | Barbora |
+| Santa maria Jahimehesegu 30g | Spices | 1.45 € | 1.59 € | 1.45 € | Barbora + Selver |
+| Santa maria Jahvatatud ingver 20g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Jahvatatud must pipar 181g | Spices | 4.95 € | 8.89 € | 8.89 € | Barbora |
+| Santa maria Jahvatatud paprika 22g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Kadakamari 21g | Spices | 3.69 € | — | 3.69 € | Barbora + Selver |
+| Santa maria Kalamaitseaine sidruniga 23g | Spices | 1.15 € | 0.79 € | 1.19 € | Rimi |
+| Santa maria Kalamaitseaine tilliga 25g | Spices | 0.95 € | 1.05 € | 0.95 € | Barbora + Selver |
+| Santa maria Kaneel jahvatatud 210g | Spices | 4.41 € | — | 7.89 € | Barbora |
+| Santa maria Kaneel jahvatatud 40g | Spices | 2.15 € | — | 2.09 € | Selver |
+| Santa maria Kardemon jahvatatud 35g | Spices | 4.99 € | 5.39 € | 4.99 € | Barbora + Selver |
+| Santa maria Karri 25g | Spices | 0.95 € | 1.05 € | 0.95 € (0.75 € Partner) | Barbora + Selver |
+| Santa maria Karri 34g | Spices | 1.59 € | 1.75 € | 1.59 € | Barbora + Selver |
+| Santa maria Karri ja maitseainesegu mango 41g | Spices | — | 3.79 € | 3.49 € | Selver |
+| Santa maria Kartulimaitseaine 100g | Spices | 2.25 € | 2.25 € | — | Barbora + Rimi |
+| Santa maria Kartulimaitseaine 30g | Spices | 0.95 € | 1.05 € | 0.95 € | Barbora + Selver |
+| Santa maria Kartulimaitseaine 350g | Spices | 2.91 € | 5.19 € | 5.19 € | Barbora |
+| Santa maria Kartulimaitseaine 57g | Spices | 1.59 € | — | 1.59 € | Barbora + Selver |
+| Santa maria Kiluvürts 30g | Spices | 1.75 € | — | 1.75 € | Barbora + Selver |
+| Santa maria Kivisool veskis 140g | Spices | 4.69 € | — | 4.69 € (3.59 € Partner) | Barbora + Selver |
+| Santa maria Köömned 20g | Spices | 0.95 € | 1.05 € | 0.95 € | Barbora + Selver |
+| Santa maria Koriander purustatud 20g | Spices | — | 0.79 € | 0.95 € | Rimi |
+| Santa maria Kotletimaitseaine 28g | Spices | 0.95 € | 1.05 € | 0.95 € | Barbora + Selver |
+| Santa maria Kurkum jahvatatud 20g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Kurkum jahvatatud 32g | Spices | 1.49 € | 1.55 € | 1.49 € | Barbora + Selver |
+| Santa maria Küüslaugupipar 30g | Spices | 1.59 € | 1.59 € | 1.59 € | Barbora + Rimi + Selver |
+| Santa maria Küüslaugupipar 70g | Spices | 2.79 € | 2.79 € | — | Barbora + Rimi |
+| Santa maria Küüslaugupulber 46g | Spices | 3.49 € | 3.69 € | 3.49 € | Barbora + Selver |
+| Santa maria Küüslaugusool 40g | Spices | 0.95 € | 0.79 € | 0.95 € (0.75 € Partner) | Rimi |
+| Santa maria Küüslaugusool 77g | Spices | 1.59 € | 1.75 € | 1.59 € | Barbora + Selver |
+| Santa maria Küüslauk tükeldatud 25g | Spices | 1.05 € | 0.99 € | 1.05 € | Rimi |
+| Santa maria Laimipipar veskis 90g | Spices | 5.89 € | — | 5.89 € (4.49 € Partner) | Barbora + Selver |
+| Santa maria Liha üldmaitseaine 290g | Spices | 2.99 € | 5.29 € | 5.79 € | Barbora |
+| Santa maria Liha üldmaitseaine 35g | Spices | 1.05 € | 1.05 € | 1.05 € | Barbora + Rimi + Selver |
+| Santa maria Liha üldmaitseaine 51g | Spices | — | 1.85 € | 1.75 € | Selver |
+| Santa maria Liha üldmaitseaine 70g | Spices | 1.75 € | 1.75 € | 1.19 € | Selver |
+| Santa maria Loorberileht 4g | Spices | 1.45 € | 1.55 € | — | Barbora |
+| Santa maria Marinaad magus tšilli 75g | Spices | — | 1.09 € | 1.05 € | Selver |
+| Santa maria Marinaadisegu kurgile 100g | Spices | 1.39 € | 1.49 € | 1.39 € | Barbora + Selver |
+| Santa maria Muskaatpähkel 10g | Spices | — | 1.59 € | 1.49 € | Selver |
+| Santa maria Must jahvatatud pipar 16g | Spices | — | 1.55 € | 1.45 € (1.09 € Partner) | Selver |
+| Santa maria Must jahvatatud pipar 45g | Spices | 3.49 € | 3.39 € | 2.59 € | Selver |
+| Santa maria Must pipar purustatud 18g | Spices | — | 1.55 € | 1.45 € (1.09 € Partner) | Selver |
+| Santa maria Must pipar purustatud 217g | Spices | 5.39 € | 9.55 € | — | Barbora |
+| Santa maria Must pipar purustatud 36g | Spices | 2.89 € | 3.09 € | 2.89 € | Barbora + Selver |
+| Santa maria Must terapipar 210g | Spices | 5.39 € | 9.55 € | 9.79 € | Barbora |
+| Santa maria Must terapipar 22g | Spices | 1.39 € | 1.55 € | — | Barbora |
+| Santa maria Nelk 10g | Spices | 1.15 € | 1.05 € | 1.15 € | Rimi |
+| Santa maria Persillade 35g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Persillade 48g | Spices | 1.59 € | 1.75 € | 1.59 € | Barbora + Selver |
+| Santa maria Petersell 4g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Pihvimaitseaine 30g | Spices | 0.95 € | — | 0.95 € | Barbora + Selver |
+| Santa maria Piparkoogimaitseaine 30g | Spices | 1.55 € | — | 1.55 € | Barbora + Selver |
+| Santa maria Piprasegu 258g | Spices | 5.63 € | — | 9.99 € | Barbora |
+| Santa maria Piprasegu 25g | Spices | 1.59 € | 1.29 € | 1.59 € | Rimi |
+| Santa maria Pitsamaitseaine 5g | Spices | — | 0.79 € | 0.95 € | Rimi |
+| Santa maria Pitsamaitseaine 9g | Spices | — | 1.65 € | 1.59 € | Selver |
+| Santa maria Prantsuse ürdisegu 6g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Pune 5g | Spices | 1.59 € | 1.75 € | 1.59 € | Barbora + Selver |
+| Santa maria Pune 9g | Spices | — | 3.79 € | 3.49 € | Selver |
+| Santa maria Rosmariin 15g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Rosmariin 19g | Spices | 3.79 € | 3.79 € | — | Barbora + Rimi |
+| Santa maria Salatimaitseaine ürtidega 30g | Spices | — | 1.05 € | 1.05 € | Rimi + Selver |
+| Santa maria Šašlõkimaitseaine 45g | Spices | 1.05 € | 0.79 € | — | Rimi |
+| Santa maria Sidrunipipar 33g | Spices | 1.89 € | 1.89 € | — | Barbora + Rimi |
+| Santa maria Sidrunipipar 359g | Spices | 5.33 € | 9.55 € | 9.49 € | Barbora |
+| Santa maria Sidrunipipar 42g | Spices | 2.55 € | 2.75 € | — | Barbora |
+| Santa maria Sidrunipipar 55g | Spices | 2.39 € | 2.45 € | 2.39 € | Barbora + Selver |
+| Santa maria Sidrunipipar 70g | Spices | 2.79 € | 2.59 € | — | Rimi |
+| Santa maria Sinepiseemned 35g | Spices | 0.99 € | 1.05 € | 0.95 € | Selver |
+| Santa maria Sool 92g | Spices | 1.59 € | — | 1.59 € | Barbora + Selver |
+| Santa maria Suitsutatud paprika 37g | Spices | 2.79 € | 2.85 € | 2.75 € | Selver |
+| Santa maria Teriyaki maitseainesegu 44g | Spices | — | 3.79 € | 3.49 € | Selver |
+| Santa maria Teriyaki marinaad 75g | Spices | 1.05 € | 1.09 € | 1.05 € | Barbora + Selver |
+| Santa maria Till 7g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Tšillipipar 34g | Spices | 2.29 € | — | 2.29 € | Barbora + Selver |
+| Santa maria Tšillipipar helbed hot red 28g | Spices | — | 2.39 € | 2.29 € | Selver |
+| Santa maria Tšillipulber 41g | Spices | 2.29 € | 2.39 € | 2.29 € | Barbora + Selver |
+| Santa maria Tsitrus grillisegu 35g | Spices | 1.59 € | 1.25 € | — | Rimi |
+| Santa maria Tuline lihamaitseaine 20g | Spices | 0.95 € | — | 0.95 € | Barbora + Selver |
+| Santa maria Tüümian 10g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Universaalne maitseaine 160g | Spices | 2.69 € | 2.75 € | 1.85 € | Selver |
+| Santa maria Universaalne maitseaine 350g | Spices | 2.99 € | — | 5.39 € | Barbora |
+| Santa maria Universaalne marinaad 75g | Spices | 1.05 € | 1.09 € | — | Barbora |
+| Santa maria Ürdiaia segu 29g | Spices | 1.59 € | 1.69 € | 1.59 € | Barbora + Selver |
+| Santa maria Ürdisegu küüslauguga 28g | Spices | 1.45 € | 1.19 € | 1.39 € | Rimi |
+| Santa maria Vahemere ürdisegu 12g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
+| Santa maria Viie pipra segu 25g | Spices | 1.69 € | 1.39 € | 1.75 € | Rimi |
+| Santa maria Viie pipra veski 60g | Spices | — | 9.19 € | 9.09 € (6.99 € Partner) | Selver |
+| Santa maria Vürts 15g | Spices | 1.39 € | 1.69 € | 1.39 € | Barbora + Selver |
+| Santa maria Vürtsköömen 20g | Spices | 1.19 € | 0.99 € | 1.19 € | Rimi |
 | Basilur Must ceylon leaf of tee 100g | Tea & cocoa | 4.19 € | 4.19 € | — | Barbora + Rimi |
 | Dilmah Must earl grey tee 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
 | Lipton Must earl grey tee 20x1.6g | Tea & cocoa | 3.09 € | 3.19 € | — | Barbora |
@@ -1017,4 +1305,97 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Rimi "Punapeediviilud Põltsamaa 570g/380g" (2.09 €) | Selver "Punapeediviilud, PÕLTSAMAA, 570 g" (2.05 €) |
 | Rimi "Šampinjonid marineeritud Bonduelle 540g/290g" (4.49 €) | Selver "Šampinjonid traditsiooniliselt marineeritud, BONDUELLE, 540 g" (4.49 €) |
 | Rimi "Šampinjonid marineeritud Bonduelle 540g/290g" (4.49 €) | Selver "Marineeritud šampinjonid, BONDUELLE, 540 g" (4.59 €) |
+
+### Sauces & condiments (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Austrikaste Oyster THAI-CHOICE 200ml" (2.59 €) | Selver "Austrikaste, THAI CHOICE, 200 ml" (2.59 €) |
+| Barbora "Adžika gruusiapärane MAADLEX 350g" (1.85 €) | Selver "Gruusia adžika, MAADLEX, 350 g" (1.66 €) |
+| Barbora "BBQ kaste burboon.viski SANTA MARIA 350g" (4.25 €) | Selver "BBQ kaste burbooni viski, SANTA MARIA, 350g" (4.25 €) |
+| Barbora "Paprikakaste FELIX 270g" (2.01 €) | Selver "Paprikakaste Külluslik, FELIX, 270 g" (2.59 €) |
+| Barbora "Pastakaste Arrabbiata BARILLA 400g" (3.75 €) | Selver "Pastakaste Arrabiata, BARILLA, 400 g" (2.99 €) |
+| Barbora "Pastakaste Mediterranee BARILLA 400g" (4.15 €) | Selver "Pastakaste Arrabiata, BARILLA, 400 g" (2.99 €) |
+| Barbora "Pastakaste tomat.juust TARTU MILL 340g" (4.19 €) | Selver "Pastakaste Tomat ja Juust, TARTU MILL, 340 g" (3.99 €) |
+| Barbora "Originaalne ketšup HEINZ 700g" (5.05 €) | Rimi "Ketšup Heinz originaal 700g" (5.09 €) |
+| Barbora "Originaalne ketšup HEINZ 700g" (5.05 €) | Selver "Original Ketšup, HEINZ, 700 g" (5.07 €) |
+| Barbora "Ketšup BALTIKA 500g" (1.85 €) | Rimi "Ketšup originaal Baltika 500g" (2.39 €) |
+| Barbora "Vürtsikas ketšup HELLMANN'S 470g" (2.99 €) | Rimi "Ketšup terav Hellmann's 470g" (2.99 €) |
+| Barbora "Ketšup terav HEINZ 460g" (3.75 €) | Selver "Ketšup original, HEINZ, 460 g" (3.59 €) |
+| Barbora "Sinep kange MAADLEX 75g" (1.15 €) | Selver "Sinep, MAADLEX, 75 g" (1.03 €) |
+| Barbora "Inglise sinep FELIX 200g" (1.99 €) | Selver "Special Inglise sinep, FELIX, 200 g" (1.99 €) |
+| Barbora "Küüslaugu Salatikaste FELIX 375g" (1.94 €) | Rimi "Salatikaste Caesari Felix 375g" (2.55 €) |
+| Barbora "Küüslaugu Salatikaste FELIX 375g" (1.94 €) | Selver "Küüslaugu kaste, FELIX, 375 g" (2.29 €) |
+| Barbora "Majonees TARPLAN Provansaal 50%430g tops" (1.42 €) | Selver "Provansaal majonees 50%, TARPLAN, 430 g" (1.95 €) |
+| Barbora "Majonees LEMMIK Provansaal, 210g" (1.29 €) | Rimi "Majonees klassik. Provansaal Lemmik 210g" (1.29 €) |
+| Barbora "Majonees LEMMIK Provansaal, 210g" (1.29 €) | Selver "Klassikaline provansaal majonees, LEMMIK, 210 g" (1.29 €) |
+| Barbora "Majonees HELLMANN'S Originaal, 855ml" (6.99 €) | Selver "Majonees Original, HELLMANN'S, 855 ml" (7.99 €) |
+| Barbora "Majonees BALTIKA Provansaal Orig.,300g" (1.89 €) | Selver "Majonees Kuldne provansaal, BALTIKA, 300 g" (1.79 €) |
+| Barbora "Majonees BALTIKA Provansaal Klas.,300g" (1.79 €) | Selver "Majonees Kuldne provansaal, BALTIKA, 300 g" (1.79 €) |
+| Barbora "Majonees BBQ LEMMIK 200g" (1.49 €) | Rimi "Majonees küüslaugu Lemmik 200g" (1.59 €) |
+| Barbora "MajoneesTARPLAN aioli 210g" (1.24 €) | Rimi "Majonees aioli Tarplan 210g" (1.79 €) |
+| Barbora "Dipikaste TERE Dipp-Tops papr.-ranch200g" (1.75 €) | Selver "Tere Dipp-Tops paprika ranch-dipikaste, TERE, 200 g" (1.78 €) |
+| Barbora "Majoneesi-ketšupikaste HEINZ 425g" (4.35 €) | Rimi "Majoneesi-ketšupikaste Heinz 425g/415ml" (4.39 €) |
+| Rimi "Kaste mango-tšilli Felix 285g" (2.99 €) | Selver "Mango-tsilli kaste, FELIX, 285 g" (2.99 €) |
+| Rimi "Ketšup Felix öko 500g" (3.79 €) | Selver "Terav ketšup, FELIX, 500 g" (2.94 €) |
+| Rimi "Kaste hiinapärane terav Felix 500g" (2.29 €) | Selver "Terav Hiina kaste, FELIX, 500 g" (2.75 €) |
+| Rimi "Ketšup Heinz originaal 700g" (5.09 €) | Selver "Original Ketšup, HEINZ, 700 g" (5.07 €) |
+
+### Spices (29)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Maitseainesegu Podravka VEGETA 75g" (0.59 €) | Rimi "Maitseainesegu Vegeta 75g" (0.99 €) |
+| Barbora "Liham.ürdi-küüslaugu SANTA MARIA 20g" (1.05 €) | Rimi "Lihamaitseaine ürdi-küüslaugu Santa Maria 20g" (0.79 €) |
+| Barbora "Lihamaits.tüümianiga SANTA MARIA 25g" (0.95 €) | Selver "Lihamaitseaine tüümianiga, SANTA MARIA, 25 g" (0.95 €) |
+| Barbora "Maitseaine kuldsele kanale VEGETA 20g" (0.45 €) | Selver "Maitseaine Vegeta Natur kuldsele kanale, PODRAVKA, 20 g" (0.66 €) |
+| Barbora "Univers. maitseainesegu SANTA MARIA 78g" (5.29 €) | Rimi "Universaalne maitseainesegu Santa Maria 78g" (5.29 €) |
+| Barbora "Jahvat. kaneel SANTA MARIA, 22g" (1.25 €) | Selver "Kaneel (jahvatatud), SANTA MARIA, 22 g" (1.25 €) |
+| Barbora "Küüslauk KOTANYI, 28g" (1.59 €) | Rimi "Hakitud küüslauk Kotanyi 28g" (1.55 €) |
+| Barbora "Nelk KOTANYI, 14g" (1.59 €) | Rimi "Tüümian Kotanyi 14g" (1.55 €) |
+| Barbora "Pune KOTANYI, 8g" (1.39 €) | Rimi "Oregano Kotanyi 8g" (1.55 €) |
+| Barbora "Peenestatud tüümian KOTANYI, 14g" (1.39 €) | Rimi "Tüümian Kotanyi 14g" (1.55 €) |
+| Barbora "Kaneelikoor SANTA MARIA 22g" (2.39 €) | Selver "Kaneelikoor pakk, SANTA MARIA, 22g" (2.39 €) |
+| Barbora "Tomati ürdisegu veskis SANTA MARIA 69g" (5.89 €) | Selver "Tomati ja ürdisegu veskis, SANTA MARIA, 69 g" (5.89 €) |
+| Barbora "Mahe paprika jahv.SANTA MARIA 36g" (3.69 €) | Rimi "Paprika jahvatatud Santa Maria mahe 36g" (3.69 €) |
+| Barbora "Petersell MEIRA 9g" (0.99 €) | Selver "Estragon, MEIRA, 9 g" (1.31 €) |
+| Barbora "Kivisool veskis SANTA MARIA 455g" (6.39 €) | Rimi "Kivisool jämedateral. veskis Santa Maria 455g" (6.69 €) |
+| Barbora "Kivisool veskis SANTA MARIA 455g" (6.39 €) | Selver "Kivisool, SANTA MARIA, 455 g" (6.39 €) |
+| Barbora "Adygei sool küüslauguga SALDVA 130g" (1.09 €) | Rimi "Sool Saldva küüslauguga 130g" (1.15 €) |
+| Barbora "Adygei sool ürtidega SALDVA 130g" (1.09 €) | Rimi "Sool Saldva ürtidega 130g" (1.15 €) |
+| Barbora "Tšillipipar veskis SANTA MARIA ,70g" (4.65 €) | Selver "Tšillimaitseaine veskis, SANTA MARIA, 70 g" (4.69 €) |
+| Barbora "Must pipar veskis SANTA MARIA, 210g" (16.39 €) | Rimi "Tellicherry pipar veskis Santa Maria 210g" (16.49 €) |
+| Barbora "Must peen pipar MEIRA 27g" (1.65 €) | Selver "Must pipar purustatud, MEIRA, 27 g" (1.68 €) |
+| Barbora "Must pipar jahv.SANTA MARIA 36g" (2.89 €) | Rimi "Must pipar jahvatatud Santa Maria 36g" (2.89 €) |
+| Barbora "Roosa pipar SANTA MARIA 21g" (3.79 €) | Selver "Rosee pipar, SANTA MARIA, 21 g" (3.79 €) |
+| Barbora "Kanamarinaad SANTA MARIA Klassik 75g" (1.09 €) | Selver "Klassikaline kanamarinaad, SANTA MARIA, 75 g" (1.05 €) |
+| Barbora "Kuivmarinaadisegu ürt. SANTA MARIA 22g" (1.25 €) | Selver "Universaalne kuivmarinaadisegu, SANTA MARIA, 22 g" (1.25 €) |
+| Barbora "Kuivmarinaadisegu kanale SANTA MARIA30g" (1.25 €) | Selver "Kuivmarinaadisegu ribidele, SANTA MARIA, 30 g" (1.25 €) |
+| Rimi "Vasabi ja seesami maitseaine. Santa Maria 44g" (3.79 €) | Selver "Vasabi ja seesami maitseainesegu, SANTA MARIA, 44 g" (3.49 €) |
+| Rimi "Pasta rossa Santa Maria 80g" (5.95 €) | Selver "Pasta rossa veskis, SANTA MARIA, 80 g" (5.89 €) |
+| Rimi "Tellicherry pipar veskis Santa Maria 210g" (16.49 €) | Selver "Tellicherry pipar, SANTA MARIA, 210 g" (16.59 €) |
+
+### Jam & honey & spreads (9)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Mustikapüree 100% BONNE 0.5L" (6.59 €) | Selver "Ananassipüree, BONNE, 500 ml" (4.99 €) |
+| Barbora "Pirnipüree 100% BONNE 0.5L" (3.89 €) | Selver "Ananassipüree, BONNE, 500 ml" (4.99 €) |
+| Barbora "Banaanipüree BONNE 0.5L" (4.35 €) | Selver "Ananassipüree, BONNE, 500 ml" (4.99 €) |
+| Barbora "Pähklikreem MILKA 350g" (5.29 €) | Rimi "Sarapuupähklikreem Milka 350g" (5.29 €) |
+| Barbora "Mesi NORDMEL 450g" (6.59 €) | Selver "Mesi tops, NORDMEL, 450 g" (6.59 €) |
+| Barbora "Suvine Eesti mesi presstuub.MEVEDA 500g" (6.99 €) | Selver "Eesti mesi Suvine presstuubis, MEVEDA, 500 g" (6.99 €) |
+| Rimi "Mesi suvine presstuubis Meveda 500g" (8.89 €) | Selver "Eesti mesi Suvine presstuubis, MEVEDA, 500 g" (6.99 €) |
+| Rimi "Šokolaadi-Pähklikreem Nutella 600g" (7.99 €) | Selver "Pähklikreem, NUTELLA, 600 g" (8.59 €) |
+| Rimi "Šokolaadi-Pähklikreem Nutella 350g" (5.39 €) | Selver "Pähklikreem, NUTELLA, 350 g" (5.39 €) |
+
+### Baking supplies (5)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Rummi lõhna- ja maitseaine, DR.OETKER 8ml" (1.19 €) | Rimi "Vanilli lõhna- ja maitseaine Dr. Oetker 8 ml" (1.39 €) |
+| Barbora "Mõrumandli lõhna- ja maitseaine, DR.OETKER 8ml" (1.19 €) | Rimi "Vanilli lõhna- ja maitseaine Dr. Oetker 8 ml" (1.39 €) |
+| Barbora "Tordikreem vaniljemaits.DR.OETKER 105g" (2.09 €) | Rimi "Vanillimaitseline tordikreem Dr. Oetker 105g" (2.39 €) |
+| Barbora "Toiduvärv kollane DR. OETKER 10g" (1.85 €) | Selver "Geeltoiduvärv kollane, DR.OETKER, 10 g" (1.85 €) |
+| Barbora "Purpur nonparell MEIRA 60g" (1.88 €) | Selver "Lilla nonparell, MEIRA, 60 g" (1.88 €) |
 

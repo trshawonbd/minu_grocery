@@ -309,6 +309,36 @@ const CATEGORIES = {
       { id: 222, nameFilter: excludeWords(["peekon", "eelküps", "frikadell", ...MEAT_OFFAL]) }, // Hakkliha
     ],
   },
+  // Pasta — 11 "Makaronid" is already a clean leaf, checked by hand.
+  "Pasta": {
+    sources: [{ id: 11 }],
+  },
+  // Rice & grains — 13 "Riisid" is clean; 12 "Tangained" mixes in
+  // legumes (chickpeas, mung beans, lentils), filtered by name the
+  // same way Barbora/Rimi's grains categories are.
+  "Rice & grains": {
+    sources: [
+      { id: 13 },
+      { id: 12, nameFilter: excludeWords(["hernes", "herned", "oad", "lääts"]) },
+    ],
+  },
+  // Flour & sugar — 10 "Jahud" mixes in baking mixes/powders/desserts
+  // (pancake/muffin/cake mixes, baking powder, semolina whip);
+  // "Maitseained" (263) is a large flat 336-item spices catch-all with
+  // no dedicated sugar leaf, so it's filtered by requiring "suhkur" in
+  // the name and excluding sweeteners/substitutes/syrup, the same
+  // pattern as Barbora/Rimi's sugar category.
+  "Flour & sugar": {
+    sources: [
+      { id: 10, nameFilter: excludeWords(["segu", "pulber", "pannkoo", "keeks", "muffin", "vaht"]) },
+      { id: 263, nameFilter: excludeWords(["asendaja", "magusaine", "siirup"], ["suhkur"]) },
+    ],
+  },
+  // Cooking oil — 267 "Õlid, äädikad" mixes oil with vinegar and
+  // vinegar-based sauces/glazes, and one oil spray, filtered by name.
+  "Cooking oil": {
+    sources: [{ id: 267, nameFilter: excludeWords(["äädik", "palsamikreem", "sprei"]) }],
+  },
 };
 
 async function fetchSelverPrice(categoryName) {

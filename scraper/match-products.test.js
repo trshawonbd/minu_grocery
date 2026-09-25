@@ -672,6 +672,46 @@ const tests = [
     },
   },
 
+  // --- Flour & sugar ---
+  {
+    name: "Flour & sugar: different wheat flour grades (T405 vs T550) never match, even same brand/size — the grade digits used to be silently dropped",
+    run: () => {
+      // Real case, found by hand reviewing every Flour & sugar match:
+      // KALEW sells both T405 and T550 at 2kg, at every store. Before
+      // this was fixed, "T-550"/"T405" both tokenized down to the
+      // same leftover word ("t") — the digits aren't letters, so
+      // extractDescriptors' letter-only tokenizer silently dropped
+      // them — meaning these two genuinely different flours could
+      // have matched on brand+size alone.
+      const t550 = buildItem("Flour & sugar", "Barbora", "Nisujahu T-550 KALEW 2kg", { brand: "KALEW" });
+      const t405 = buildItem("Flour & sugar", "Selver", "Nisujahu T405, KALEW, 2 kg", { brand: "KALEW" });
+      assert.equal(sameProduct(t550, t405), false);
+      // A genuine same-grade pair, spelled the same way both sides,
+      // still matches — the fix blocks a real disagreement, not every
+      // comparison that happens to mention a grade.
+      const t550Again = buildItem("Flour & sugar", "Rimi", "Nisujahu T 550 Kalew 2kg", { brand: "KALEW" });
+      assert.equal(sameProduct(t550, t550Again), true);
+
+      // Every real spelling of the grade found by hand reads as the
+      // same qualifier value — "T-550"/"T550"/"T 550", Rimi's
+      // "tüüp 550C", and the bare "550D" form (no "T" at all) — even
+      // though "tüüp"/the trailing grade-letter are separate leftover
+      // words that can still block a match on their own (a wording
+      // difference, not a grade disagreement).
+      const tType = buildItem("Flour & sugar", "Rimi", "Nisujahu Kalew tüüp 550C 2kg", { brand: "KALEW" });
+      const bareLetter = buildItem("Flour & sugar", "Barbora", "Nisujahu KALEW 550D 2kg", { brand: "KALEW" });
+      assert.equal(computeSignature(t550).qualifiers, computeSignature(tType).qualifiers);
+      assert.equal(computeSignature(t550).qualifiers, computeSignature(bareLetter).qualifiers);
+
+      // An unrelated number that merely coincides with a grade value
+      // (a 550g pack of something with no grade marker at all) must
+      // never be misread as a grade — no qualifier, so it stays a
+      // plain, ungated comparison.
+      const unrelated = buildItem("Flour & sugar", "Barbora", "Suhkur DIAMANT 550g", { brand: "DIAMANT" });
+      assert.equal(computeSignature(unrelated).qualifiers, "");
+    },
+  },
+
   // --- matchPool: shared pool across any number of stores ---
   {
     name: "Pool: a genuine 3-store group (Barbora + Rimi + Selver) becomes one product, not three pairs",

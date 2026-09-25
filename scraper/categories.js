@@ -287,6 +287,120 @@ const CATEGORIES = [
       ].map((entry) => addMeatExclusions(entry)),
     },
   },
+  {
+    // Strict packaging applies (the default). Scope: dry pasta of any
+    // shape/grain, including gluten-free and egg pasta. Excluded:
+    // ready meals, sauces (neither turned up here by hand, but the
+    // scope excludes them on principle the same way as every other
+    // category).
+    name: "Pasta",
+    urls: {
+      // The parent page aggregates every leaf (gluten-free, egg,
+      // lasagne/cannelloni, whole-grain, the main "makaronid" leaf) —
+      // checked by hand, clean: no ready meals or sauces mixed in.
+      barbora: "https://barbora.ee/kauasailivad-toidukaubad/makaronid",
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/c/SH-13-14-20",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/gluteenivaba-pasta/c/SH-13-14-21",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/munapasta/c/SH-13-14-23",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/lasanje-ja-cannellonid/c/SH-13-14-86",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/taisterapasta/c/SH-13-14-87",
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: rice of any type
+    // (basmati, jasmine, long-grain, risotto, wild, pudding/round) and
+    // whole grains/groats (buckwheat, barley, oats, couscous, bulgur,
+    // quinoa, millet, semolina) — excluded: legumes (peas, beans,
+    // lentils), which share a category with grains at every store but
+    // aren't a grain, and grain/flour MIXES.
+    name: "Rice & grains",
+    urls: {
+      // "tangained" (grains) aggregates every leaf including legumes
+      // (herned/oad/laatsed) — filtered by name, the store's own
+      // category tree has no finer split. "riisid" is its own clean
+      // parent, no filter needed.
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/tangained/riisid",
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/tangained", nameFilter: excludeWords(["hernes", "herned", "oad", "lääts"]) },
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/c/SH-13-15-90",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/c/SH-13-15-91",
+        {
+          url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/c/SH-13-7",
+          nameFilter: excludeWords(["hernes", "herned", "oad", "lääts"]),
+        },
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: flour of any
+    // grain (wheat, rye, whole-grain, gluten-free, rice, oat, almond,
+    // ...) and starch, plus granulated/brown/powdered/speciality sugar
+    // — excluded: flour/baking mixes ("segu", "pulber" — pancake,
+    // muffin, cake, pizza-dough mixes), and sugar substitutes/
+    // sweeteners ("asendaja", "magusaine") and sugar syrup
+    // ("siirup") — a real sweetener or syrup, not granulated sugar.
+    name: "Flour & sugar",
+    urls: {
+      barbora: [
+        // "jahusegud" (flour mixes) is its own dedicated leaf, left
+        // out entirely rather than fetched and filtered; the other
+        // four are real flour types, with the same "segu" filter
+        // applied as a safety net (one stray "Mitmevilja jahusegu"
+        // turned up in "muud-jahud" by hand).
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/jahud/nisujahud", nameFilter: excludeWords(["segu"]) },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/jahud/rukkijahud", nameFilter: excludeWords(["segu"]) },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/jahud/taisterajahud", nameFilter: excludeWords(["segu"]) },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/jahud/muud-jahud", nameFilter: excludeWords(["segu"]) },
+        {
+          url: "https://barbora.ee/kauasailivad-toidukaubad/maitseained/suhkrud-ja-suhkruasendajad",
+          nameFilter: excludeWords(["asendaja", "magusaine", "siirup"]),
+        },
+      ],
+      rimi: [
+        {
+          // Aggregates every flour leaf (incl. the dedicated
+          // "jahusegud" mixes leaf and the gluten-free leaf, which
+          // itself mixes real flour with mixes) — checked by hand,
+          // filtered by name rather than trying to cherry-pick leaves
+          // that don't cleanly separate mixes from flour anyway.
+          url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/c/SH-13-4",
+          nameFilter: excludeWords(["segu", "pulber"]),
+        },
+        {
+          url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/c/SH-13-13-85",
+          nameFilter: excludeWords(["asendaja", "magusaine", "siirup"]),
+        },
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: cooking oil of
+    // any kind (olive, rapeseed/canola, sunflower, coconut, and
+    // specialty oils — grapeseed, sesame, avocado, walnut, ...) —
+    // excluded: oil sprays ("sprei"), vinegar, and vinegar-based
+    // sauces/glazes ("äädik", "palsamikreem"), which share a category
+    // with oil at every store.
+    name: "Cooking oil",
+    urls: {
+      // Aggregates all 5 leaves (coconut/other/olive/sunflower/
+      // rapeseed) — checked by hand, several "sprei" (spray) items
+      // turned up mixed in, filtered by name; no vinegar here (that's
+      // its own separate department at Barbora, unlike Rimi/Selver).
+      barbora: { url: "https://barbora.ee/kauasailivad-toidukaubad/olid", nameFilter: excludeWords(["sprei"]) },
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/kookosoli/c/SH-13-19-106",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/muu-toiduoli/c/SH-13-19-107",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/oliivioli/c/SH-13-19-108",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/paevalilleoli/c/SH-13-19-110",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/rapsioli/c/SH-13-19-111",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/vaarisoliiviolid/c/SH-13-19-114",
+      ],
+    },
+  },
 ];
 
 // Whether a category opts into strict packaged-product matching (the

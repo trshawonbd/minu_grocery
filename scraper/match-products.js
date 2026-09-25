@@ -94,10 +94,29 @@ const NAMED_VARIANTS = [
 // - Any word in the comitative case ("-ga" — Estonian "with X", e.g.
 //   "küüslauguga" = with garlic, "tilliga" = with dill): a flavoured
 //   or mixed-in version is a different product from a plain one.
+// - A wheat flour's grade number (T405, T550, T812, T00 — a real
+//   milling-fineness classification, not a size) — real bug found by
+//   hand testing the new Flour & sugar category: the grade digits
+//   were silently dropped during descriptor tokenization (which only
+//   keeps letter-runs, never digits), so "T405" and "T550" both
+//   collapsed to the same leftover word ("t") and two genuinely
+//   different flours from the same brand at the same pack size could
+//   have matched (KALEW sells both T405 and T550 at 2kg, at every
+//   store). Every real spelling found by hand: "T-550"/"T550"/"T 812"
+//   (a "T" prefix, sometimes with a separating dot/dash/space),
+//   "tüüp 812"/"tüüp 550C" (Rimi's "tüüp" = "type"), and "405d"/"550D"
+//   (a bare digit with a trailing grade-letter, no "T" at all). Not a
+//   generic "any 2-3 digit number" rule — deliberately limited to the
+//   four grade values actually seen, so it can't misread an unrelated
+//   number (e.g. a coincidental "550g" pack weight) as a grade.
 const IDENTITY_QUALIFIER_PATTERNS = [
   { pattern: /\bmahe\b/i, extract: () => "mahe" },
   { pattern: /\b([2-9])\.?\s*kl\.?\b/i, extract: (m) => `${m[1]}kl` },
   { pattern: /\b\p{L}{2,}ga\b/giu, extract: (m) => m[0].toLowerCase(), all: true },
+  {
+    pattern: /\b(?:(?:t[\s.-]*|tüüp\s+)(00|405|550|812)|(00|405|550|812)[cd])\b/i,
+    extract: (m) => `t${m[1] || m[2]}`,
+  },
 ];
 
 // Every colour word in a name, as one sorted string ("" when none) —

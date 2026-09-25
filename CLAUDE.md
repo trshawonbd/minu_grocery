@@ -37,6 +37,16 @@ long prose.
 - **A wrong match is worse than a missing one.** When unsure, don't
   match — leave it in `data/ambiguous.json` or `data/pending.json` for
   a person to decide. Never guess a tie.
+- **Unbranded packaged items only match with proof of the same
+  manufacturer.** The matcher falls back to the name's first word as
+  a pseudo-brand when a packaged item has no brand (so two "Magus
+  kõrsik 250g" listings auto-match on "magus"). Such a pair is never
+  kept on that basis alone: check both product pages and data —
+  manufacturer/"Tootja", supplier line, description and ingredients,
+  Selver's EAN (and what that EAN is registered as elsewhere). Same
+  manufacturer proven → keep it, and record it in `data/products.json`
+  with a `note` giving the evidence. Not proven → remove it and add
+  the pair to `data/known-different.json`.
 - **Compare the price anyone actually pays.** A loyalty-card price
   (Barbora's Aitäh, Selver's Partner) is shown only as a small extra
   line — it never decides which store is "cheapest."
@@ -83,6 +93,15 @@ progress as each batch finishes.
 6. **Meat products & fish**: sausages, ham & cold cuts, fish (fresh,
    smoked, canned)
 7. **Baby food, household, personal care, pet food**
+8. **Abbreviation-matching round** (after batch 7): one pass over the
+   low-match categories — Chips & snacks, Tea & cocoa, Pasta, and any
+   other with few matches — using `data/review.md`'s "possible matches
+   to check by hand" list to find stores' differing abbreviations of
+   the same product ("hapuk.-sibul." vs "hapukoore-sibula",
+   "kartulilaastud" vs "kart.krõp") and add tested normalizations,
+   the same way earlier abbreviation rules were added. Every new rule
+   needs a regression test, and every other category's counts must
+   stay unchanged.
 
 **Not allowed without the owner's explicit decision:** alcohol, adding
 a new store (e.g. PROMO Cash&Carry), or anything that puts the app

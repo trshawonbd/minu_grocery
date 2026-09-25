@@ -58,7 +58,7 @@ progress as each batch finishes.
 2. **Pantry 1**: coffee, tea & cocoa, cereals & oats, canned food —
    *done*
 3. **Pantry 2**: sauces & condiments, spices, jam & honey & spreads,
-   baking supplies
+   baking supplies — *done*
 4. **Sweets & snacks**: chocolate, candy, biscuits, chips, nuts
 5. **Frozen**: vegetables & berries, ice cream, dumplings & pizza
 6. **Meat products & fish**: sausages, ham & cold cuts, fish (fresh,

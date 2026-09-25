@@ -6443,5 +6443,152 @@
     },
     "matchedVia": "automatic",
     "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Barilla Makaronid penne rigate 500g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 1.64,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/makaronid-penne-rigate-barilla-500-g",
+        "size": "500g",
+        "storeUnitPrice": 3.28
+      },
+      "rimi": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-penne-rigate-barilla-500g/p/106536",
+        "size": "500g",
+        "storeUnitPrice": 4.7
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Panzani Laastmakaron fines nouilles 500g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/laastmakaron-nouilles-fines-panzani-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.98
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/laastmakaron-nouilles-fines-panzani-500-g",
+        "size": "500g",
+        "storeUnitPrice": 3.98
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Presto Makaronid fusilli 400g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 0.44,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/makaronid-fusilli-presto-400-g",
+        "size": "400g",
+        "storeUnitPrice": 1.1
+      },
+      "rimi": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-fusilli-presto-400g/p/153297",
+        "size": "400g",
+        "storeUnitPrice": 1.72
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Presto Makaronid cornetti 400g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 0.44,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/makaronid-cornetti-presto-400-g",
+        "size": "400g",
+        "storeUnitPrice": 1.1
+      },
+      "rimi": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-cornetti-presto-400g/p/161121",
+        "size": "400g",
+        "storeUnitPrice": 1.72
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Panzani Makaronid farfalle 500g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/makaronid-farfalle-panzani-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.98
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-farfalle-panzani-500g/p/118567",
+        "size": "500g",
+        "storeUnitPrice": 4.38
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Tartu mill Makaronid chiffari lisci 500g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 1.01,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/makaronid-chiffari-lisci-tartu-mill-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.02
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-chiffari-lisci-tartu-mill-500g/p/176285",
+        "size": "500g",
+        "storeUnitPrice": 2.78
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Panzani Pasta munaga tagliatelle 400g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 2.47,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pasta-munaga-tagliatelle-panzani-400-g",
+        "size": "400g",
+        "storeUnitPrice": 6.18
+      },
+      "rimi": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/munapasta/pasta-munaga-tagliatelle-panzani-400g/p/1004152",
+        "size": "400g",
+        "storeUnitPrice": 8.22
+      }
+    },
+    "matchedVia": "automatic"
   }
 ]

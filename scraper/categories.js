@@ -528,6 +528,174 @@ const CATEGORIES = [
       rimi: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/c/SH-11-1",
     },
   },
+  {
+    // Strict packaging applies (the default). Scope: coffee to brew at
+    // home — beans, ground, instant, capsules/pods (Dolce Gusto,
+    // Nespresso, A Modo Mio, generic pods), and coffee substitutes
+    // (chicory/roasted-grain "coffee", e.g. Rimi's "Sigur"/"Inka" —
+    // caffeine-free but sold and used the same way, same aisle at
+    // every store). Excluded: coffee whitener/creamer powder (a
+    // separate Barbora leaf, "kohvi-valmistamiseks" — not coffee
+    // itself), ready-to-drink bottled coffee drinks (Barbora's
+    // "kohvijoogid" leaf — a drink, not a pantry product to brew; the
+    // existing Drinks category excludes coffee drinks for the same
+    // reason), and two real finds by hand in the first scrape:
+    // Matcha Latte (a green-tea-based instant drink mix, MOKATE/
+    // JACOBS — Barbora's "lahustuvad-kohvid" leaf mixes it in despite
+    // it having no coffee in it at all) and a Nesquik cocoa capsule
+    // (Rimi's "Kohvikapslid" leaf serves both coffee and cocoa
+    // capsules for the same machines).
+    name: "Coffee",
+    urls: {
+      // Direct leaves, not the "kohv-tee-kakao" parent — avoids ever
+      // fetching the whitener/RTD-drink leaves at all, rather than
+      // fetching and filtering them out.
+      barbora: [
+        "https://barbora.ee/joogid/kohv-tee-kakao/kohvioad",
+        { url: "https://barbora.ee/joogid/kohv-tee-kakao/lahustuvad-kohvid", nameFilter: excludeWords(["match"]) },
+        "https://barbora.ee/joogid/kohv-tee-kakao/jahvatatud-kohvid",
+        "https://barbora.ee/joogid/kohv-tee-kakao/kohvikapslid-dolce-gusto-masinatele",
+        "https://barbora.ee/joogid/kohv-tee-kakao/kohvikapslid-nespresso-masinatele",
+        "https://barbora.ee/joogid/kohv-tee-kakao/kohvikapslid-a-modo-mio-masinatele",
+        "https://barbora.ee/joogid/kohv-tee-kakao/kohvipadjad",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/jahvatatud-kohv/c/SH-13-9-44",
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/kohvikapslid/c/SH-13-9-45", nameFilter: excludeWords(["kakaokapslid"]) },
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/kohvioad/c/SH-13-9-46",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/lahustuv-kohv/c/SH-13-9-47",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/muud-kuumad-joogid/c/SH-13-9-48",
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: tea (black,
+    // green, fruit, herbal, specialty/gift-boxed) and cocoa/drinking
+    // chocolate (powder, drink mix, capsules) — bundled into one
+    // category because Barbora and Rimi both shelve cocoa directly
+    // inside their own "coffee, tea, cocoa" department, the same aisle
+    // as tea, not with confectionery. Matcha Latte (green tea, not
+    // coffee — see the Coffee category above, which excludes it) and
+    // Nesquik-branded flavoured milk drink powders both belong here
+    // and are kept. A real find by hand: MASHIE fruit/berry purée
+    // squeeze pouches (not tea, cocoa, or coffee at all) mixed into
+    // both Barbora's fruit/herbal-tea leaf and Rimi's tea-gift-box
+    // leaf — excluded by name everywhere.
+    name: "Tea & cocoa",
+    urls: {
+      barbora: [
+        "https://barbora.ee/joogid/kohv-tee-kakao/must-tee",
+        "https://barbora.ee/joogid/kohv-tee-kakao/roheline-tee",
+        { url: "https://barbora.ee/joogid/kohv-tee-kakao/puuvilja-ja-taimeteed", nameFilter: excludeWords(["mashie", "püree"]) },
+        // "muud-teed" ("other teas") also holds "Tee kontsentraat"
+        // (liquid tea concentrate, sold in ml — a syrup-like iced-tea
+        // base, not tea to brew), filtered by name; the rest (instant
+        // tea, Ceylon, white, crushed/granulated tea) stays.
+        { url: "https://barbora.ee/joogid/kohv-tee-kakao/muud-teed", nameFilter: excludeWords(["kontsentraat"]) },
+        "https://barbora.ee/joogid/kohv-tee-kakao/kakaod",
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/eritee-kinkekarbid/c/SH-13-17-94", nameFilter: excludeWords(["mashie", "püree"]) },
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/must-tee/c/SH-13-17-95",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/puuviljatee/c/SH-13-17-96",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/roheline-tee/c/SH-13-17-97",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/taimetee/c/SH-13-17-98",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/kakao/c/SH-13-5",
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: breakfast cereal,
+    // muesli, and porridge oats/flakes of any grain (oat, rice, rye,
+    // buckwheat, multi-grain, gluten-free) — a muesli that merely
+    // contains quinoa/millet as one ingredient among others stays in
+    // scope (e.g. "Müsli kinoa ja vaarikatega"). Excluded: breakfast/
+    // muesli/protein bars (a snack, not a bowl cereal — its own leaf
+    // at every store, "hommikusoogibatoonid"/"Müslibatoonid, batoonid"
+    // — deferred to the Sweets & snacks batch; Rimi abbreviates this
+    // past a bare "batoon" filter as "Müslibat."/"Müs.bat.", and Corny
+    // — a brand that, checked by hand, makes nothing except bars here —
+    // dodges it a different way at Selver, "MILK 4-pakk ... CORNY",
+    // with no "bat" substring at all), standalone quinoa/millet
+    // (Rimi's "Kinoa"/"Hirss ... Free From" — a raw grain, not a
+    // cereal, and already in scope under the existing Rice & grains
+    // category; excluding it here avoids the same real product
+    // appearing twice under two categories), kama-ball snacks
+    // (BALSNACK's "Kamapallid"/"Neljaviljapallid" — a traditional
+    // Estonian snack ball, not a bowl cereal; a same-shaped
+    // "Neljaviljapallid" from a different brand, KRÕBINAD, stays, since
+    // by hand it reads as a real cereal-ball product), corn-stick
+    // snacks (Selver's "Maisikepikesed" — a sweetened corn-puff snack,
+    // not a pourable cereal), and, at Selver only, fruit jelly/kissel
+    // dessert powder ("tarretis"/"kissel") mixed into the same category
+    // ID as the cereal/muesli/oats it also holds.
+    name: "Cereals & oats",
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/hommikusoogid-ja-batoonid/hommikusoogihelbed", nameFilter: excludeWords(["balsnack"]) },
+        "https://barbora.ee/kauasailivad-toidukaubad/hommikusoogid-ja-batoonid/pudruhelbed",
+        "https://barbora.ee/kauasailivad-toidukaubad/hommikusoogid-ja-batoonid/muslid",
+      ],
+      // Rimi's parent aggregates every leaf including "Müslibatoonid,
+      // batoonid" — filtered by name rather than picking leaves one by
+      // one, since every real leaf otherwise belongs (gluten-free,
+      // multi-grain, oat, rice, buckwheat, "other" flakes, muesli).
+      // The /^kinoa\b/i and /^hirss\b/i patterns only match a name that
+      // STARTS with the bare grain word (Rimi's standalone "Kinoa Rimi
+      // Free From") — a muesli naming quinoa/millet as an ingredient
+      // always starts with "Müsli"/"Täisteramüsli" instead, so it's
+      // untouched.
+      rimi: {
+        url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/helbed-hommikusoogihelbed-musli/c/SH-13-2",
+        nameFilter: excludeWords(["batoon", "bat.", "balsnack", "corny", /^kinoa\b/i, /^hirss\b/i]),
+      },
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: canned/jarred
+    // vegetables of any kind (corn, peas, beans, tomatoes, pickles/
+    // cucumbers, mushrooms, olives, peppers, other preserved
+    // vegetables and vegetable salads) — excluded everywhere: ready
+    // meals (own leaf/ID at every store), canned/packet soup (Rimi's
+    // "Supid" leaf, and one bean soup that leaked into its "Oad" leaf —
+    // closer to a ready meal than a plain vegetable, same reasoning as
+    // every other ready-meal exclusion in this project), prepared
+    // vegetable dishes (Rimi's "Köögiviljahautis Ratatouille" — a
+    // cooked stew, same ready-meal reasoning) and spreads/dips
+    // (Rimi's "Baklažaani kaaviar" — eggplant caviar, a spread, not a
+    // whole/chunked vegetable — and a WELL DONE cream-cheese-stuffed
+    // pepper at Barbora, the same "stuffed pepper" contamination
+    // already found and excluded in the Cheese category, just a
+    // different brand), and sweet preserves/jam/honey (their own
+    // leaves, waiting for the later jam/honey/spreads batch). Pesto
+    // and other jarred sauces — a real find at Selver, whose
+    // canned-vegetables ID also holds ~20 pesto products from Filippo
+    // Berio/Barilla/Gestus/etc. plus a couple of prepared sauces — are
+    // deliberately left for the later sauces & condiments batch
+    // instead, so they get reviewed together with the rest of that
+    // category.
+    name: "Canned food",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/konserveeritud-maisid-herned-oad",
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/konserveeritud-kurgid-ja-tomatid", nameFilter: excludeWords(["täid.papr"]) },
+        "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/konserveeritud-seened",
+        "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/muud-konserveeritud-koogiviljad",
+        "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/oliivid",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/herned/c/SH-13-10-49",
+        { url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/oad/c/SH-13-10-50", nameFilter: excludeWords(["supp"]) },
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/kurgid/c/SH-13-10-51",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/mais/c/SH-13-10-52",
+        { url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/muud-hoidised-salatid/c/SH-13-10-55", nameFilter: excludeWords(["kaaviar", "hautis"]) },
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/oliivid/c/SH-13-10-56",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/paprikad-ja-piprad/c/SH-13-10-57",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/seened/c/SH-13-10-61",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/tomatid/c/SH-13-10-63",
+      ],
+    },
+  },
 ];
 
 // Whether a category opts into strict packaged-product matching (the

@@ -388,6 +388,52 @@ const CATEGORIES = {
   "Kefir & buttermilk": {
     sources: [{ id: 234, nameFilter: excludeWords([], ["keefir", "kefiir", "hapupiim", "hapendatud", /\bpett\b/, "rjaženka", "rjazenka"]) }],
   },
+  // Coffee — 24 "Kohvid" (Selver has this whole "Kohv, tee, kakao"
+  // tree duplicated under two parent departments, 8 and 28, both
+  // resolving to the exact same 184 products when checked by hand —
+  // only one copy, id 24, is used here to avoid redundant requests).
+  "Coffee": {
+    sources: [{ id: 24 }],
+  },
+  // Tea & cocoa — 25 "Teed" also mixes in MASHIE fruit/berry purée
+  // squeeze pouches ("... tee jaoks" — meant to be stirred into hot
+  // water, but a genuinely different product form from tea itself,
+  // same real find as Barbora/Rimi — see the Tea & cocoa entry in
+  // scraper/categories.js); 26 "Kakaod, kakaojoogid" is clean as-is.
+  "Tea & cocoa": {
+    sources: [{ id: 25, nameFilter: excludeWords(["mashie", "püree"]) }, { id: 26 }],
+  },
+  // Cereals & oats — 15 "Hommikuhelbed, müslid, kiirpudrud" also mixes
+  // in breakfast/muesli/protein bars, fruit-jelly and kissel dessert
+  // powder, and kama-ball snacks — none of which are a bowl cereal —
+  // checked by hand against all 201 items.
+  "Cereals & oats": {
+    sources: [
+      {
+        id: 15,
+        nameFilter: excludeWords([
+          "batoon",
+          "bat.",
+          "ampstükk",
+          "kamapallid",
+          "balsnack",
+          "corny",
+          "maisikepikes",
+          "tarretis",
+          "kissel",
+        ]),
+      },
+    ],
+  },
+  // Canned food — 20 "Hoidised" also mixes in ~20 pesto products and a
+  // couple of prepared sauces ("Hiinapärane kaste"), deliberately left
+  // for the later sauces & condiments batch — see the fuller comment
+  // on the Canned food entry in scraper/categories.js. Its siblings
+  // 19 "Magusad hoidised" (jam) and 21 "Valmistoidud purgis" (ready
+  // meals) are separate IDs, never fetched here.
+  "Canned food": {
+    sources: [{ id: 20, nameFilter: excludeWords(["pesto", "kaste", "bruschetta"]) }],
+  },
 };
 
 async function fetchSelverPrice(categoryName) {

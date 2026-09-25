@@ -110,6 +110,20 @@ progress as each batch finishes.
 a new store (e.g. PROMO Cash&Carry), or anything that puts the app
 online/publicly reachable.
 
+**Store images are hotlinked, for private testing only.** Each store
+entry in `data/prices.json` may carry the store's own product-photo
+URL (`image`, captured by the store modules from the store's own
+data); the app shows it straight from that URL (`frontend/index.html`,
+`productImage` in `frontend/pricing.js`), with "Image: <store>" under
+it, and never downloads, saves, resizes or edits an image. The single
+setting `SHOW_STORE_IMAGES` in `frontend/pricing.js` is `true` for
+now; when `false`, no image URL is ever requested and only the
+neutral icon shows. **Before the app is ever made public,
+`SHOW_STORE_IMAGES` must be reviewed with a lawyer and set to
+`false`** — hotlinking another company's photos is a legal question,
+not a technical one. Never change the setting or the caption without
+the owner.
+
 ## Scope decisions to remember (owner's calls, apply every time)
 
 - Frozen fries, potato wedges and hash browns belong in **Dumplings &

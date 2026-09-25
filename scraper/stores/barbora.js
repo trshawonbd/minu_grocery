@@ -87,6 +87,11 @@ async function fetchBarboraPrice(url) {
         // ("Või 82% 200g"). Used in place of guessing a brand from the
         // name — see computeSignature in match-products.js.
         brand: p.brand_name ? p.brand_name.trim() : null,
+        // Barbora's own CDN URL for the product photo (the medium
+        // size, `big_image`; `image` is the thumbnail) — stored as a
+        // URL only, never downloaded, so the app can hotlink it. See
+        // SHOW_STORE_IMAGES in frontend/pricing.js and CLAUDE.md.
+        image: p.big_image || p.image || null,
       }))
       // Barbora reports 0 for an item that's temporarily unavailable —
       // never a real price. Drop it rather than match on it: no price

@@ -5,7 +5,7 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { storeEntries, cheapestPrice, productRows, unitPrice } = require("./pricing");
+const { storeEntries, cheapestPrice, productRows, unitPrice, productImage, SHOW_STORE_IMAGES } = require("./pricing");
 
 function product(barboraPrice, rimiPrice) {
   return {
@@ -92,6 +92,33 @@ const results = [
     assert.equal(unitPrice({ price: 2.49 }), null);
     assert.equal(unitPrice({ price: 2.49, size: null }), null);
     assert.equal(unitPrice({ price: 2.49, size: "10-pack" }), null, "a non-standard size shape is skipped, not guessed at");
+  }),
+  test("Store images: with SHOW_STORE_IMAGES off, productImage returns null even when every store has a photo — so no image URL is ever put in the page and no store is contacted", () => {
+    const product = {
+      prices: {
+        barbora: { price: 1, currency: "EUR", url: "b", image: "https://cdn.barbora.ee/products/x_m.png" },
+        rimi: { price: 1, currency: "EUR", url: "r", image: "https://rimibaltic-res.cloudinary.com/x" },
+        selver: { price: 1, currency: "EUR", url: "s", image: "https://www.selver.ee/img/800/800/resize/x.jpg" },
+      },
+    };
+    assert.equal(productImage(product, false), null);
+    assert.equal(typeof SHOW_STORE_IMAGES, "boolean", "the setting is a single boolean in pricing.js");
+  }),
+  test("Store images: one store's photo per product, in the fixed preference order, skipping a store with no photo or an unavailable listing", () => {
+    const all = {
+      prices: {
+        barbora: { price: 1, currency: "EUR", url: "b", image: "https://cdn.barbora.ee/products/x_m.png" },
+        rimi: { price: 1, currency: "EUR", url: "r", image: "https://rimibaltic-res.cloudinary.com/x" },
+        selver: { price: 1, currency: "EUR", url: "s", image: "https://www.selver.ee/img/800/800/resize/x.jpg" },
+      },
+    };
+    assert.deepEqual(productImage(all, true), { url: "https://cdn.barbora.ee/products/x_m.png", store: "barbora" });
+    const noBarbora = { prices: { rimi: all.prices.rimi, selver: all.prices.selver } };
+    assert.equal(productImage(noBarbora, true).store, "selver");
+    const barboraGone = { prices: { ...all.prices, barbora: { ...all.prices.barbora, unavailable: true } } };
+    assert.equal(productImage(barboraGone, true).store, "selver", "an unavailable store's photo isn't used");
+    const none = { prices: { barbora: { price: 1, currency: "EUR", url: "b" }, rimi: { price: 1, currency: "EUR", url: "r" } } };
+    assert.equal(productImage(none, true), null, "no photo anywhere -> the icon");
   }),
   test("Unit price: a diaper (piece-count size '96tk') is priced per piece, never per kg — the baby's weight range plays no part", () => {
     const diapers = unitPrice({ price: 24.33, size: "96tk" });

@@ -116,6 +116,11 @@ function toStoreEntry(item) {
   if (item.storeUnitPrice != null) {
     entry.storeUnitPrice = item.storeUnitPrice;
   }
+  // The store's own product-photo URL, hotlinked by the app (never
+  // downloaded or saved) — see SHOW_STORE_IMAGES in frontend/pricing.js.
+  if (item.image) {
+    entry.image = item.image;
+  }
   return entry;
 }
 

@@ -55,6 +55,25 @@
   .store-diff.cheapest-tag { color: #1F5D46; font-weight: 600; }
   .store-card-price { font-size: 11px; color: #6B6A5F; margin-top: 2px; }
   .store-availability-note { font-size: 11px; color: #A6522B; margin-top: 2px; font-style: italic; }
+  .row-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .row-thumb {
+    width: 44px; height: 44px; flex-shrink: 0; border-radius: 8px; overflow: hidden;
+    background: #FFFFFF; border: 1px solid #DAD9CD; display: flex; align-items: center; justify-content: center;
+  }
+  .row-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .product-image { display: flex; flex-direction: column; align-items: center; margin: 12px 0 4px; }
+  .product-image .frame {
+    width: 140px; height: 140px; border-radius: 12px; overflow: hidden;
+    background: #FFFFFF; border: 1px solid #DAD9CD; display: flex; align-items: center; justify-content: center;
+  }
+  .product-image img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .image-caption { font-size: 11px; color: #6B6A5F; margin-top: 4px; }
+  .neutral-icon { width: 55%; height: 55%; color: #C9C8BC; }
+  .store-link {
+    display: inline-block; margin-top: 5px; font-size: 12px; font-weight: 600; color: #1F5D46;
+    text-decoration: none; border: 1px solid #1F5D46; border-radius: 6px; padding: 3px 8px;
+  }
+  .store-link:hover { background: #E4F0EA; }
   .note {
     margin-top: 20px; padding-top: 16px; border-top: 1px solid #DAD9CD;
     font-size: 12px; color: #6B6A5F; line-height: 1.5;
@@ -108,6 +127,53 @@
       if (className) e.className = className;
       if (text !== undefined) e.textContent = text;
       return e;
+    }
+
+    // The neutral placeholder shown whenever there's no store photo to
+    // hotlink (images off, no store has one, or the store's URL failed
+    // to load) — a plain outline, no brand, no store.
+    function neutralIcon() {
+      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.setAttribute("viewBox", "0 0 24 24");
+      svg.setAttribute("class", "neutral-icon");
+      svg.setAttribute("aria-hidden", "true");
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", "M6 7h12l1 13H5L6 7zm3 0V5a3 3 0 0 1 6 0v2");
+      path.setAttribute("fill", "none");
+      path.setAttribute("stroke", "currentColor");
+      path.setAttribute("stroke-width", "1.6");
+      path.setAttribute("stroke-linejoin", "round");
+      svg.appendChild(path);
+      return svg;
+    }
+
+    // A product's photo box: the one store image productImage()
+    // (pricing.js) picked, hotlinked straight from the store's own URL
+    // and lazy-loaded — or the neutral icon. When SHOW_STORE_IMAGES is
+    // false productImage returns null, so no <img> is ever created and
+    // no store is contacted for an image. If the store's URL fails to
+    // load, the icon takes its place and `onFallback` (the caption)
+    // is told. Nothing is ever downloaded, saved, resized or edited.
+    function imageBox(product, className, onFallback) {
+      const box = el("div", className);
+      const pick = productImage(product);
+      if (!pick) {
+        box.appendChild(neutralIcon());
+        return { box, pick: null };
+      }
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.alt = "";
+      img.referrerPolicy = "no-referrer";
+      img.addEventListener("error", () => {
+        box.textContent = "";
+        box.appendChild(neutralIcon());
+        if (onFallback) onFallback();
+      });
+      img.src = pick.url;
+      box.appendChild(img);
+      return { box, pick };
     }
 
     function renderCategories() {
@@ -164,9 +230,12 @@
         const row = document.createElement("button");
         row.className = "row";
 
-        const left = el("div");
-        left.appendChild(el("div", "row-title", product.name));
-        left.appendChild(el("div", "row-sub", `${entries.length} store${entries.length === 1 ? "" : "s"}`));
+        const left = el("div", "row-left");
+        left.appendChild(imageBox(product, "row-thumb").box);
+        const text = el("div");
+        text.appendChild(el("div", "row-title", product.name));
+        text.appendChild(el("div", "row-sub", `${entries.length} store${entries.length === 1 ? "" : "s"}`));
+        left.appendChild(text);
         row.appendChild(left);
 
         const meta = el("div", "row-meta");
@@ -208,6 +277,18 @@
       app.appendChild(el("h1", "", currentProduct.name));
       app.appendChild(el("div", "subtitle", `Matched via ${currentProduct.matchedVia}`));
 
+      // One store's photo, hotlinked, with its source named underneath;
+      // the caption goes away if the image fails and the icon shows.
+      const figure = el("div", "product-image");
+      const caption = el("div", "image-caption");
+      const { box, pick } = imageBox(currentProduct, "frame", () => { caption.textContent = ""; });
+      figure.appendChild(box);
+      if (pick) {
+        caption.textContent = `Image: ${storeLabel(pick.store)}`;
+        figure.appendChild(caption);
+      }
+      app.appendChild(figure);
+
       // However many stores this product has (2, 3, ...) — every
       // store at the lowest price is marked best, not just the first
       // one, a tie means a tie, not a coin flip on object identity.
@@ -218,7 +299,20 @@
       const list = el("div", "list");
       for (const entry of rows) {
         const row = el("div", "store-row" + (entry.isCheapest ? " cheapest" : ""));
-        row.appendChild(el("div", "store-name", storeLabel(entry.store)));
+        const nameCell = el("div");
+        nameCell.appendChild(el("div", "store-name", storeLabel(entry.store)));
+        if (entry.url) {
+          // Opens the store's own product page in a NEW tab, so this
+          // app stays open behind it.
+          const link = document.createElement("a");
+          link.className = "store-link";
+          link.href = entry.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = "View at store ›";
+          nameCell.appendChild(link);
+        }
+        row.appendChild(nameCell);
 
         const right = el("div", "store-right");
         if (currentProduct.cheapestByUnitPrice) {

@@ -107,6 +107,35 @@ function productRows(product) {
   });
 }
 
+// Product photos are HOTLINKED from the stores' own image URLs (kept
+// in each store entry's `image` by the scraper) — nothing is
+// downloaded, saved, resized or edited. This is for private testing
+// only: before the app is ever made public this must be reviewed with
+// a lawyer and set to false (see CLAUDE.md). When false, no image URL
+// is ever put in the page — productImage returns null and the
+// renderer shows the neutral icon only — so no store is contacted for
+// an image at all.
+const SHOW_STORE_IMAGES = true;
+
+// Which store's photo a product shows, when several have one: one
+// store per product, in this fixed order of preference.
+const IMAGE_STORE_ORDER = ["barbora", "selver", "rimi"];
+
+// { url, store } for the one photo the page should use, or null when
+// images are off or no store on this product has one. Only available
+// stores are considered (an unavailable store's listing may be gone).
+function productImage(product, show = SHOW_STORE_IMAGES) {
+  if (!show) return null;
+  for (const store of IMAGE_STORE_ORDER) {
+    const info = product.prices[store];
+    if (info && info.image && !info.unavailable) return { url: info.image, store };
+  }
+  for (const [store, info] of Object.entries(product.prices)) {
+    if (info && info.image && !info.unavailable) return { url: info.image, store };
+  }
+  return null;
+}
+
 if (typeof module !== "undefined") {
-  module.exports = { storeEntries, cheapestPrice, productRows, unitPrice, rankKey };
+  module.exports = { storeEntries, cheapestPrice, productRows, unitPrice, rankKey, productImage, SHOW_STORE_IMAGES };
 }

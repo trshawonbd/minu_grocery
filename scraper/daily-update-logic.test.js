@@ -53,6 +53,19 @@ const results = [
     assert.deepEqual(p.prices.rimi, { price: 2.0, currency: "EUR", url: "r1" });
   }),
 
+  test("Image: a fresh item's store photo URL is carried into the existing entry by URL (so the nightly run fills in images with no extra scrape), and a fresh item with no photo leaves the entry without one", () => {
+    const p = product({
+      barbora: { price: 1.0, currency: "EUR", url: "b1" },
+      rimi: { price: 2.0, currency: "EUR", url: "r1", image: "https://rimibaltic-res.cloudinary.com/old" },
+    });
+    updateProductPrices(p, {
+      barbora: [freshItem("b1", 1.29, { image: "https://cdn.barbora.ee/products/x_m.png" })],
+      rimi: [freshItem("r1", 2.0)],
+    });
+    assert.equal(p.prices.barbora.image, "https://cdn.barbora.ee/products/x_m.png");
+    assert.equal(p.prices.barbora.price, 1.29);
+    assert.equal(p.prices.rimi.image, undefined, "no photo in the fresh listing -> no stale URL kept");
+  }),
   test("Unavailable: a store's URL missing from the fresh scrape marks that entry unavailable, keeping its last known price", () => {
     const p = product({
       barbora: { price: 1.0, currency: "EUR", url: "b1" },

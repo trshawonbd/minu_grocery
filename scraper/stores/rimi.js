@@ -114,6 +114,18 @@ function findCardUnitPrice(cardHtml) {
   return match ? { value: parseFloat(match[1].replace(",", ".")), unit: match[2] } : null;
 }
 
+// The card's product photo: Rimi serves it from its Cloudinary
+// account, with the full-size URL in the <img>'s `data-src` (lazy-
+// loaded) and a small placeholder in `src`. Scoped to one card's HTML
+// like the price. Stored as a URL only, never downloaded — see
+// SHOW_STORE_IMAGES in frontend/pricing.js and CLAUDE.md.
+const CARD_IMAGE_PATTERN = /class="card__image-wrapper"[\s\S]*?<img[^>]*\sdata-src="(https:\/\/rimibaltic-res\.cloudinary\.com\/[^"]+)"/;
+
+function findCardImage(cardHtml) {
+  const match = cardHtml.match(CARD_IMAGE_PATTERN);
+  return match ? match[1] : null;
+}
+
 function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -213,6 +225,7 @@ function parseCategoryListing(html) {
       cardName: null,
       brand: findBrandForName(name, brandFacet),
       storeUnitPrice: cardUnitPrice ? cardUnitPrice.value : null,
+      image: findCardImage(card),
       currency: data.currency || "EUR",
       url,
       ean: findEan(data),
@@ -246,4 +259,4 @@ async function fetchRimiPrice(url) {
   return products;
 }
 
-module.exports = { fetchRimiPrice, findBrandForName };
+module.exports = { fetchRimiPrice, findBrandForName, findCardImage };

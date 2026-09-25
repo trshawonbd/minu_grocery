@@ -95,6 +95,12 @@ function mapItem(source, brandMap) {
     currency: "EUR",
     url: `https://www.selver.ee/${source.slug}`,
     ean: source.product_main_ean || null,
+    // Selver's product photo: `image` is a catalog-relative path
+    // ("/5/0/5029053547619.jpg"), served resized by its storefront
+    // image endpoint (checked: /img/800/800/resize + path returns
+    // image/jpeg). Stored as a URL only, never downloaded — see
+    // SHOW_STORE_IMAGES in frontend/pricing.js and CLAUDE.md.
+    image: source.image ? `https://www.selver.ee/img/800/800/resize${source.image}` : null,
     // Selver's own per-kg (or per-l) price — a real structured field on
     // every product, computed by Selver itself from `product_volume`
     // (also structured, not just text in the name), not derived from

@@ -6,7 +6,7 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { findBrandForName } = require("./rimi");
+const { findBrandForName, findCardImage } = require("./rimi");
 
 function test(name, run) {
   try {
@@ -48,6 +48,16 @@ const results = [
     assert.equal(findBrandForName("Kali A.Le Coq 0,5l", facet), "A. Le Coq");
     // None of the three should ever cross-match another's item.
     assert.notEqual(findBrandForName("Piim Alma 2,5% 1l", facet), "Tere");
+  }),
+
+  test("Card image: the product photo's full-size URL is read from the card's own lazy-loaded <img data-src>, never the placeholder src or a promotion label", () => {
+    // Real card markup (Huggies 4 Girl, 2026-09-26), whitespace joined.
+    const card = `<div class="card__image-wrapper"> <div> <img src="https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,h_216,q_1,w_216/d_ecommerce:backend-fallback.png/MAT_7158526_PCE_EE" data-src="https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7158526_PCE_EE" alt="Püksmähkmed Huggies 4 Girl 9-14 kg 52 tk"> <div class="type-badge -position-bottom-left"> <img src="/epood/front/images/promotion-labels/rimi-card.OxtUhYjl.png" alt=""> </div></div></div>`;
+    assert.equal(
+      findCardImage(card),
+      "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7158526_PCE_EE"
+    );
+    assert.equal(findCardImage('<li class="product-grid__item"><div class="card__details">no image here</div></li>'), null, "a card without a photo gives null, never a guess");
   }),
 ];
 

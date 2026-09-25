@@ -6,19 +6,19 @@ Matching pools every store's items for a category together (scraper/match-produc
 
 ## Summary
 
-| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Total |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 13257 |
-| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 1045 |
-| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 293 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 232 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 309 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 211 |
-| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 10784 |
-| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
-| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
+| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Total |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 121 + 73 + 83 | 14381 |
+| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 5 | 6 | 10 | 1066 |
+| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 0 | 0 | 0 | 293 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 0 | 2 | 1 | 235 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 0 | 4 | 1 | 314 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 5 | 0 | 8 | 224 |
+| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 189 | 636 | 257 | 11866 |
+| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
+| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
 
-**Note:** recomputed 1043 matches from data/raw/, but data/prices.json has 1045 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 1064 matches from data/raw/, but data/prices.json has 1066 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
@@ -619,6 +619,16 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Värska Originaal mineraalvesi 500ml | Drinks | 0.98 € | 1.09 € | — | Barbora |
 | Värska originaal Värska gaasita naturaal 1500ml | Drinks | 0.99 € | — | 0.99 € | Barbora + Selver |
 | Vytautas Mineraalvesi 1500ml | Drinks | 1.29 € (0.79 € Aitäh) | — | 1.21 € (0.99 € Partner) | Selver |
+| Maks & moorits Kodupelmeenid 700g | Dumplings, pizza & fries | 3.11 € | 3.89 € | — | Barbora |
+| Pealinna Pelmeenid premia 350g | Dumplings, pizza & fries | — | 2.29 € | 2.29 € | Rimi + Selver |
+| Rakvere Minipelmeenid sealihaga 350g | Dumplings, pizza & fries | — | 2.49 € | 2.35 € (1.99 € Partner) | Selver |
+| Rakvere Pelmeenid 900g | Dumplings, pizza & fries | — | 4.59 € | 5.39 € | Rimi |
+| Rakvere Pelmeenid broilerilihaga 400g | Dumplings, pizza & fries | — | 2.69 € | 2.73 € (2.29 € Partner) | Rimi |
+| Rakvere Pelmeenid pere 600g | Dumplings, pizza & fries | — | 2.39 € | 2.99 € | Rimi |
+| Rannarootsi Külmutatud ehe mini pelmeenid 350g | Dumplings, pizza & fries | 2.23 € | — | 2.84 € | Barbora |
+| Rannarootsi Külmutatud mini pelmeenid 700g | Dumplings, pizza & fries | — | 3.99 € | 3.89 € | Selver |
+| Tallegg Minipelmeenid broilerilihaga 350g | Dumplings, pizza & fries | — | 2.69 € | 2.59 € | Selver |
+| Uvic Pelmeenid hiina 400g | Dumplings, pizza & fries | — | 3.29 € | 3.34 € (2.79 € Partner) | Rimi |
 | Dan sukker Fariinsuhkur 500g | Flour & sugar | 1.95 € | — | 1.95 € | Barbora + Selver |
 | Dan sukker Hele muscovado suhkur 400g | Flour & sugar | 2.43 € | — | 2.43 € | Barbora + Selver |
 | Dan sukker Mini tükksuhkur 500g | Flour & sugar | 1.99 € | — | 1.95 € | Selver |
@@ -644,6 +654,11 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Veski mati Täistera kaerajahu 1000g | Flour & sugar | 2.75 € | 2.75 € | 2.75 € | Barbora + Rimi + Selver |
 | Veski mati Täistera odrajahu 1000g | Flour & sugar | 1.55 € | — | 1.51 € | Selver |
 | Veski mati Täisteraspeltajahu 1000g | Flour & sugar | 2.49 € | 2.69 € | — | Barbora |
+| Härmavili Köögiviljad šampinjonidega 400g | Frozen vegetables & berries | — | 2.29 € | 2.26 € (1.75 € Partner) | Selver |
+| Hortex Metsaseened julienne 400g | Frozen vegetables & berries | — | 3.65 € | 3.65 € | Rimi + Selver |
+| Maahärra Köögiviljasegu fit 400g | Frozen vegetables & berries | — | 1.49 € | 1.49 € | Rimi + Selver |
+| Maahärra Pühapäevapada 400g | Frozen vegetables & berries | — | 1.75 € | 1.72 € | Selver |
+| Maahärra seenesegu 400g | Frozen vegetables & berries | — | 3.29 € | 3.04 € (2.59 € Partner) | Selver |
 | Ananass kg | Fruits & vegetables | 2.79 € | 2.79 € | 2.29 € | Selver |
 | Avokaado kg | Fruits & vegetables | 5.99 € | 5.99 € | 6.99 € | Barbora + Rimi |
 | Baklažaan kg | Fruits & vegetables | 2.19 € | 2.79 € | 3.19 € | Barbora |
@@ -711,6 +726,12 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Vaarikatomat kg | Fruits & vegetables | 2.99 € | 2.59 € | — | Rimi |
 | Viinamari red globe punane kg | Fruits & vegetables | 3.99 € | — | 3.99 € | Barbora + Selver |
 | Virsik kg | Fruits & vegetables | — | 2.99 € | 3.99 € | Rimi |
+| Balbiino Koorejäätis laktoosivaba lactose-free 480g | Ice cream | 5.69 € | — | 5.68 € | Selver |
+| Eriti rammus Koorejäätis mustika 110g | Ice cream | 1.78 € | 1.19 € | — | Rimi |
+| Eriti rammus Koorejäätis vanilli 100g | Ice cream | 1.78 € (1.19 € Aitäh) | 1.19 € | — | Rimi |
+| Premia Koorejäätis mango meloni 480g | Ice cream | 4.15 € | — | 4.15 € (3.39 € Partner) | Barbora + Selver |
+| Premia Koorejäätis pistaatsia 240g | Ice cream | 4.19 € | — | 4.22 € | Barbora |
+| Premia Koorejäätis stracciatella 480g | Ice cream | 4.79 € | — | 4.79 € (3.79 € Partner) | Barbora + Selver |
 | Bonne Mangopüree 500ml | Jam & honey & spreads | 3.45 € | — | 2.99 € | Selver |
 | Bonne Ploomipüree 500ml | Jam & honey & spreads | 4.25 € | — | 4.26 € | Barbora |
 | Bonne Virsikupüree 500ml | Jam & honey & spreads | 3.45 € | — | 3.45 € | Barbora + Selver |
@@ -1723,4 +1744,75 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Rimi "Mandlid Arimex 300g" (4.99 €) | Selver "Lemmiksegu, ARIMEX, 300g" (5.99 €) |
 | Rimi "Sarapuupähklid Arimex 300g" (6.99 €) | Selver "Lemmiksegu, ARIMEX, 300g" (5.99 €) |
 | Rimi "Maapähklid tšillimaitselised Taffel 140g" (2.29 €) | Selver "Tšillimaitselised röstitud maapähklid, TAFFEL, 140g" (2.33 €) |
+
+### Frozen vegetables & berries (13)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Külm.kartuli-sibulasegu MAAHÄRRA,1kg" (2.89 €) | Selver "Kartuli-sibulasegu, MAAHÄRRA, 1 kg" (2.94 €) |
+| Barbora "Külm. fit tervisepada MAAHÄRRA 400g" (1.89 €) | Selver "FIT tervisepada, MAAHÄRRA, 400 g" (1.89 €) |
+| Barbora "Külm.lillkapsas ja brokoli MAAHÄRRA 400g" (1.79 €) | Selver "Maahärra lillkapsas ja brokoli, MAAHÄRRA, 400 g" (1.82 €) |
+| Barbora "Külm.ahjuköögiviljad HÄRMAVILI,700g" (4.39 €) | Selver "Ahjuköögiviljad, HÄRMAVILI, 700 g" (3.19 €) |
+| Barbora "Külm.marjasegu vaarikatega HORTEX, 300g" (2.79 €) | Selver "Marjasegu vaarikatega, HORTEX, 300 g" (3.29 €) |
+| Barbora "Külm.vaarikad, mustikad HÄRMAVILI, 300g" (5.89 €) | Selver "Vaarikad, mustikad, HÄRMAVILI, 300 g" (5.89 €) |
+| Barbora "Külm.maasikas,rabarber HÄRMAVILI 300g" (2.69 €) | Selver "Maasikas-rabarber, HÄRMAVILI, 300g" (2.69 €) |
+| Barbora "Külm.marjasegu MAAHÄRRA 300g" (2.59 €) | Selver "Marjasegu, MAAHÄRRA, 300 g" (2.59 €) |
+| Barbora "Külm.mustsõstar BAUER, 300g" (2.75 €) | Selver "Mustsõstar, BAUER, 300 g" (2.23 €) |
+| Rimi "Köögiviljasegu Tervist! Härmavili 400g" (1.89 €) | Selver "Köögiviljasegu Tervist! Fitlap, HÄRMAVILI, 400 g" (1.92 €) |
+| Rimi "Köögiviljasegu Mehhiko Maahärra 400g" (2.15 €) | Selver "Mehhiko segu, MAAHÄRRA, 400 g" (2.19 €) |
+| Rimi "Köögiviljasegu läätsedega Härmavili 400g" (2.15 €) | Selver "Rikkalik köögiviljasegu läätsedega, HÄRMAVILI, 400 g" (2.12 €) |
+| Rimi "Köögiviljad seemnetega Härmavili 0,4kg" (2.29 €) | Selver "Köögiviljad seemnetega Fitlap, HÄRMAVILI, 400 g" (2.29 €) |
+
+### Ice cream (27)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Jäätis VÄIKE TOM vanillimaits., 60g" (0.95 €) | Rimi "Jäätis lehmakommi Väike Tom 60g" (0.99 €) |
+| Barbora "Jäätis VÄIKE TOM pähklitäidis., 60g" (0.95 €) | Rimi "Jäätis lehmakommi Väike Tom 60g" (0.99 €) |
+| Barbora "Jäätis VÄIKE TOM lehmakommimaits.,60g" (0.79 €) | Rimi "Jäätis lehmakommi Väike Tom 60g" (0.99 €) |
+| Barbora "Jäätis šok.-koore.gl.VANILLA NINJA, 80g" (1.19 €) | Rimi "Jäätis vanilli šok.gl. Vanilla Ninja 80g" (1.19 €) |
+| Barbora "Jäätis šok.-koore.gl.VANILLA NINJA, 80g" (1.19 €) | Rimi "Jäätis šokol. Šok. gl. Vanilla Ninja 80g" (1.19 €) |
+| Barbora "Jäätis VANA TOOMAS vanilliplombiir, 90g" (1.49 €) | Rimi "Jäätis soolakaramelli Vana Toomas 90g" (1.39 €) |
+| Barbora "Jäätis VANA TOOMAS vanilliplombiir, 90g" (1.49 €) | Rimi "Vanilliplombiir Vana Toomas 90g/150ml" (1.39 €) |
+| Barbora "Maasika-puuviljasorbett DRAKO, 90g" (1.05 €) | Selver "Maasika-puuviljasorbett, DRAAKON, 90 g" (1.07 €) |
+| Barbora "Jäätis VANA TOOMAS šokolaadiplomb., 90g" (1.49 €) | Rimi "Jäätis soolakaramelli Vana Toomas 90g" (1.39 €) |
+| Barbora "Koorejäätis šoko.ONU ESKIMO,57g" (0.99 €) | Selver "Vanillimaitseline koorejäätis, ONU ESKIMO, 57 g" (1.05 €) |
+| Barbora "Koorejäätis šoko.ONU ESKIMO,57g" (0.99 €) | Selver "Šokolaadi-koorejäätis, ONU ESKIMO, 57 g" (1.05 €) |
+| Barbora "Koorejäätis šoko.ONU ESKIMO,57g" (0.99 €) | Selver "Karamelli-koorejäätis, ONU ESKIMO, 57 g" (1.05 €) |
+| Barbora "Jäätis classic MAGNUM, 81g" (1.30 €) | Selver "Vanillijäätis Classic, MAGNUM, 81 g" (1.88 €) |
+| Barbora "Jäätis strawberry white MAGNUM, 81g" (1.30 €) | Selver "White Strawberry, MAGNUM, 81 g" (1.88 €) |
+| Barbora "Jogurtijäätis virsiku BALBIINO 54g" (1.19 €) | Selver "Virsiku-jogurtijäätis jogurtiglasuuris, BALBIINO, 54 g" (1.19 €) |
+| Barbora "Jäätis vanilli-kookose VÄIKE TOM 60g" (0.99 €) | Rimi "Jäätis vanilli Väike Tom 60g/90ml" (0.95 €) |
+| Barbora "Koorejäätis REGATT vanilli, 480g" (3.99 €) | Selver "Koorejäätis, REGATT, 480 g" (4.01 €) |
+| Barbora "Koorejäätis vanilliplomb.ONU ESKIMO,480g" (5.99 €) | Selver "Vanillimaitseline koorejäätis, ONU ESKIMO, 480 g" (5.89 €) |
+| Barbora "Koorejäätis laktoosivaba BALBIINO, 270g" (4.49 €) | Selver "FITLAP Laktoosivaba koorejäätis, BALBIINO, 270 g" (4.49 €) |
+| Barbora "Jäätis NUTELLA 230g" (8.19 €) | Rimi "Jäätis Nutella 230g/470ml" (8.19 €) |
+| Barbora "Vaarika sorbetipallid MINI MELTS, 72g" (2.39 €) | Rimi "Mango sorbetipallid Mini Melts 72g" (2.39 €) |
+| Rimi "Koolijäätis Väike Tom 60g/90ml" (0.99 €) | Selver "Koolijäätis, PREMIA, 60 g" (0.99 €) |
+| Rimi "Koorejäätis šokolaadi Premia 240g/0,5l" (2.99 €) | Selver "Šokolaadi-koorejäätis, VAU, 240 g" (2.84 €) |
+| Rimi "Karamelli-koorejäätis glas. Vanilla Ninja 80g" (1.19 €) | Selver "Karamelli-koorejäätis glasuuris, VANILLA NINJA, 80 g" (1.19 €) |
+| Rimi "Jäätis Mango-passioni La Muu vegan 250g/500ml" (3.99 €) | Selver "Mango-passioni jäätis, vegan, LA MUU, 250 g" (4.49 €) |
+| Rimi "Jogurtijäätis mustika jogurtigl. Balbiino 54g" (1.25 €) | Selver "Mustika-jogurtijäätis jogurtiglasuuris, BALBIINO, 54 g" (1.19 €) |
+| Rimi "Kondenspiimajäätis La Muu 250g/500ml" (4.49 €) | Selver "Kondenspiimajäätis, LA MUU, 250 g" (4.49 €) |
+
+### Dumplings, pizza & fries (16)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Külm.pelmeenid PEALINNA, 350g" (1.89 €) | Selver "Laste pelmeenid, PEALINNA, 350 g" (2.29 €) |
+| Barbora "Külm. pelmeenid UVIC Hiina, 1kg" (6.36 €) | Selver "Hiina pelmeenid, UVIC, 1 kg" (7.98 €) |
+| Barbora "Külm. vareenikud UVIC kartuli-seene,500g" (3.09 €) | Selver "Vareenikud Ivan kartuli-seene, UVIC, 500 g" (3.14 €) |
+| Barbora "Külm.laste pelmeenid PEALINNA 350g" (1.83 €) | Selver "Laste pelmeenid, PEALINNA, 350 g" (2.29 €) |
+| Barbora "Külm.pelmeenid seentega Gyoza, 400g" (2.63 €) | Selver "Pelmeenid seentega Gyoza, Vici, 400 g" (3.65 €) |
+| Barbora "Külm. hinkaalid VICI, 400g" (2.99 €) | Rimi "Hinkaalid külmutatud  Vici 400g" (2.99 €) |
+| Barbora "Külm.pelmeenid praesibulaga RAKVERE,400g" (1.72 €) | Selver "Pelmeenid praesibulaga, RAKVERE LK, 400 g" (2.15 €) |
+| Barbora "Külm.pelmeenid ISUKAS, 700g" (2.15 €) | Selver "Külmutatud pelmeenid, ISUKAS, 700 g" (2.69 €) |
+| Barbora "Külm.hinkaalid RANNAROOTSI, 420g" (2.63 €) | Rimi "Hinkaalid külmutatud Rannarootsi 420g" (3.29 €) |
+| Barbora "Külm.pitsa Prosciutto RISTORANTE, 340g" (4.05 €) | Selver "Pitsa Ristorante Prosciutto, DR.OETKER, 340g" (4.06 €) |
+| Barbora "Külm.pitsa RISTORANTE Speciale, 345g" (3.99 €) | Selver "Pitsa Ristorante Speciale, DR.OETKER, 345g" (4.06 €) |
+| Barbora "Külm.Margherita pitsa PEALINNA 300g" (2.19 €) | Selver "Margherita pitsa, PREMIA, 300 g" (2.77 €) |
+| Barbora "Külm.friikartul MAAHÄRRA sakiline, 750g" (2.99 €) | Selver "Friikartul sakiline, MAAHÄRRA, 750 g" (3.04 €) |
+| Rimi "Pealinna minipelmeenid 700g" (4.39 €) | Selver "Minipelmeenid Pealinna, PREMIA, 700 g" (4.29 €) |
+| Rimi "Minipelmeenid Pealinna 350g" (2.35 €) | Selver "Minipelmeenid Pealinna, PREMIA, 350 g" (2.39 €) |
+| Rimi "Kartulipallid Aviko külmutatud 600g" (2.75 €) | Selver "Kartulipallid, AVIKO, 600 g" (2.43 €) |
 

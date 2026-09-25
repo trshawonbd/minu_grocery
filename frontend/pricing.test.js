@@ -96,9 +96,9 @@ const results = [
   test("Store images: with SHOW_STORE_IMAGES off, productImage returns null even when every store has a photo — so no image URL is ever put in the page and no store is contacted", () => {
     const product = {
       prices: {
-        barbora: { price: 1, currency: "EUR", url: "b", image: "https://cdn.barbora.ee/products/x_m.png" },
-        rimi: { price: 1, currency: "EUR", url: "r", image: "https://rimibaltic-res.cloudinary.com/x" },
-        selver: { price: 1, currency: "EUR", url: "s", image: "https://www.selver.ee/img/800/800/resize/x.jpg" },
+        barbora: { price: 1, currency: "EUR", url: "b", image: "https://example.test/b/x_m.png" },
+        rimi: { price: 1, currency: "EUR", url: "r", image: "https://example.test/r/x" },
+        selver: { price: 1, currency: "EUR", url: "s", image: "https://example.test/s/x.jpg" },
       },
     };
     assert.equal(productImage(product, false), null);
@@ -107,12 +107,12 @@ const results = [
   test("Store images: one store's photo per product, in the fixed preference order, skipping a store with no photo or an unavailable listing", () => {
     const all = {
       prices: {
-        barbora: { price: 1, currency: "EUR", url: "b", image: "https://cdn.barbora.ee/products/x_m.png" },
-        rimi: { price: 1, currency: "EUR", url: "r", image: "https://rimibaltic-res.cloudinary.com/x" },
-        selver: { price: 1, currency: "EUR", url: "s", image: "https://www.selver.ee/img/800/800/resize/x.jpg" },
+        barbora: { price: 1, currency: "EUR", url: "b", image: "https://example.test/b/x_m.png" },
+        rimi: { price: 1, currency: "EUR", url: "r", image: "https://example.test/r/x" },
+        selver: { price: 1, currency: "EUR", url: "s", image: "https://example.test/s/x.jpg" },
       },
     };
-    assert.deepEqual(productImage(all, true), { url: "https://cdn.barbora.ee/products/x_m.png", store: "barbora" });
+    assert.deepEqual(productImage(all, true), { url: "https://example.test/b/x_m.png", store: "barbora" });
     const noBarbora = { prices: { rimi: all.prices.rimi, selver: all.prices.selver } };
     assert.equal(productImage(noBarbora, true).store, "selver");
     const barboraGone = { prices: { ...all.prices, barbora: { ...all.prices.barbora, unavailable: true } } };

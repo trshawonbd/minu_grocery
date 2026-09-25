@@ -14,7 +14,7 @@ and a static HTML page.
 | Rimi | category listing pages, server-rendered HTML |
 | Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
 
-Six categories are scraped today, with this many matched products in
+Ten categories are scraped today, with this many matched products in
 each as of the last run (`data/prices.json`):
 
 | Category | Matched products |
@@ -25,7 +25,11 @@ each as of the last run (`data/prices.json`):
 | Bread | 83 |
 | Drinks (non-alcoholic only) | 94 |
 | Meat (fresh & frozen chicken, pork, beef, lamb, minced) | 18 |
-| **Total** | **315** |
+| Pasta | 7 |
+| Rice & grains | 19 |
+| Flour & sugar | 25 |
+| Cooking oil | 18 |
+| **Total** | **384** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's
@@ -35,7 +39,7 @@ cleanly — e.g. no category dedicated to formula alone, or a "Water"
 leaf mixing in vitamin water). The comments next to each category's
 URLs/IDs spell out exactly what's included and excluded, and why.
 
-Meat works differently from the other five, in two ways:
+Meat works differently from every other category, in two ways:
 - **Cheapest is decided by per-kg price, not pack price**
   (`cheapestByUnitPrice` in `scraper/categories.js`) — a real weight is
   captured from each store's own per-kg field (Barbora's

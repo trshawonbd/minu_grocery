@@ -153,6 +153,7 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
       order: CATEGORIES.indexOf(category),
       strictPackaging: category.strictPackaging !== false,
       matchAcrossWeights: category.matchAcrossWeights === true,
+      diaperMatching: category.diaperMatching === true,
       resultsByStore: rawToWrite,
     });
   }

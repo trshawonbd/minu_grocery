@@ -92,6 +92,7 @@ async function main() {
       order: CATEGORIES.indexOf(category),
       strictPackaging: category.strictPackaging !== false,
       matchAcrossWeights: category.matchAcrossWeights === true,
+      diaperMatching: category.diaperMatching === true,
       resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
     });
 

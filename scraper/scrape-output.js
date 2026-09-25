@@ -67,6 +67,7 @@ async function fetchAllUrls(fetchFn, urlOrUrls, pageParam) {
 function prepareItem(item, category) {
   if (category.strictPackaging !== false) item.strictPackaging = true;
   if (category.matchAcrossWeights === true) item.matchAcrossWeights = true;
+  if (category.diaperMatching === true) item.diaperMatching = true;
   item.signature = computeSignature(item);
   return item;
 }

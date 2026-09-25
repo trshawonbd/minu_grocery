@@ -109,10 +109,28 @@ const NAMED_VARIANTS = [
 //   generic "any 2-3 digit number" rule — deliberately limited to the
 //   four grade values actually seen, so it can't misread an unrelated
 //   number (e.g. a coincidental "550g" pack weight) as a grade.
+// Loanwords that happen to end in "-ga" but are never the Estonian
+// comitative case — real bug found while adding Diapers & baby wipes:
+// "Mega Pack" (a real, recurring wholesale-listing term at every
+// store, e.g. "HULGI Püksmähkmed Mega Pack S4") was read as "with X"
+// the same way "küüslauguga" (with garlic) is, blocking an otherwise-
+// clean match against a plain "Extra Care" listing of the same real
+// pack. "omega" (as in omega-3 oils/supplements, elsewhere in this
+// project's scope) is the same shape of false positive, excluded
+// defensively alongside it.
+const NON_COMITATIVE_GA_WORDS = new Set(["mega", "omega"]);
+
 const IDENTITY_QUALIFIER_PATTERNS = [
   { pattern: /\bmahe\b/i, extract: () => "mahe" },
   { pattern: /\b([2-9])\.?\s*kl\.?\b/i, extract: (m) => `${m[1]}kl` },
-  { pattern: /\b\p{L}{2,}ga\b/giu, extract: (m) => m[0].toLowerCase(), all: true },
+  {
+    pattern: /\b\p{L}{2,}ga\b/giu,
+    extract: (m) => {
+      const word = m[0].toLowerCase();
+      return NON_COMITATIVE_GA_WORDS.has(word) ? null : word;
+    },
+    all: true,
+  },
   {
     pattern: /\b(?:(?:t[\s.-]*|tüüp\s+)(00|405|550|812)|(00|405|550|812)[cd])\b/i,
     extract: (m) => `t${m[1] || m[2]}`,
@@ -133,12 +151,15 @@ function extractColors(name) {
 
 function extractQualifiers(name) {
   const found = new Set();
+  const add = (value) => {
+    if (value !== null) found.add(value);
+  };
   for (const { pattern, extract, all } of IDENTITY_QUALIFIER_PATTERNS) {
     if (all) {
-      for (const m of name.matchAll(pattern)) found.add(extract(m));
+      for (const m of name.matchAll(pattern)) add(extract(m));
     } else {
       const m = name.match(pattern);
-      if (m) found.add(extract(m));
+      if (m) add(extract(m));
     }
   }
   return [...found].sort().join(" ");
@@ -827,6 +848,16 @@ function computeSignature(item) {
     // sameBrandedProduct. Off by default so this never changes
     // behavior for a category that hasn't opted in.
     matchAcrossWeights: item.matchAcrossWeights === true,
+    // Set by the caller per category (currently just Diapers & baby
+    // wipes) — see sameDiaperProduct. Off by default so this never
+    // changes behavior for a category that hasn't opted in; the other
+    // diaper-specific fields below are cheap to always compute and are
+    // only ever consulted when this is true.
+    diaperMatching: item.diaperMatching === true,
+    diaperSize: extractDiaperSize(name),
+    diaperPieceCount: extractDiaperPieceCount(name),
+    diaperMultipack: isDiaperMultipack(name),
+    isDiaperWipe: DIAPER_WIPE_PATTERN.test(name),
   };
 }
 
@@ -897,6 +928,100 @@ function sameBrandedProduct(sigA, sigB) {
   return true;
 }
 
+// Diapers & baby wipes: the owner's explicit rule is "size number and
+// piece count must both agree" — neither is the generic brand/size
+// pair the rest of this file extracts (the stated weight, e.g.
+// "9-14kg", is a RANGE that differs slightly by brand for what's
+// really the same size tier, and is never the purchasing unit; the
+// piece count, e.g. "44tk", is). Kept fully separate from every other
+// category's matching (see sameDiaperProduct/computeSignature's
+// diaperMatching flag) rather than bent into the generic size/variant
+// fields, since diapers' own shape (a size digit AND a piece count,
+// both potentially absent or fused to a neighbouring word) doesn't
+// fit either.
+//
+// Piece count: the LAST "Ntk" in the name. Usually the only one, but
+// a multipack states its per-box count earlier too (Barbora's own
+// HULGI/wholesale listings, "4tk, PAMPERS, 4 x 52 tk") — the final
+// number is the one a shopper actually compares.
+const DIAPER_PIECE_COUNT_PATTERN = /(\d+)\s*tk\b/gi;
+
+function extractDiaperPieceCount(name) {
+  const matches = [...name.matchAll(DIAPER_PIECE_COUNT_PATTERN)];
+  return matches.length > 0 ? matches[matches.length - 1][1] : null;
+}
+
+// A multipack of the piece-count unit itself ("3 x 48tk", "4x52tk") —
+// never the same purchase as a single pack even when the per-box
+// count happens to extract identically (both "48tk" e.g.), the same
+// principle isMultipack already applies to a weight-based size.
+const DIAPER_PIECE_MULTIPACK_PATTERN = /\d+\s*x\s*\d+\s*tk\b/i;
+
+function isDiaperMultipack(name) {
+  return DIAPER_PIECE_MULTIPACK_PATTERN.test(name);
+}
+
+// Diaper size (e.g. "S4", "suurus 4", "nr 5", a bare "Extra Care 3"),
+// tried in order of how explicit/reliable the signal is:
+// 1. An explicit "S"/"s" immediately followed by the digit(s) — "S5",
+//    "S 5", "s3,". The most common real form across all three stores.
+// 2. "suurus N" / "nr N" — spelled out, mostly GRØN BALANCE/MUUMI.
+// 3. A digit fused directly onto the preceding word with no space
+//    (Barbora's own abbreviation style, "ExtraCare3", "ExtraCare5")
+//    identified by what follows it — a weight range, with or without
+//    its own separating space ("ExtraCare5 12-17kg", "kg" itself
+//    matched loosely since Barbora sometimes runs it straight into
+//    the piece count with no space either, "17kg34tk").
+// 4. A final bare standalone 1-2 digit fallback, once whatever's
+//    already been extracted (S-prefix cases won't reach here) doesn't
+//    apply — guarded the same way extractVariant's stage-number guess
+//    is (not part of a decimal/percent/plus/another digit run, not
+//    immediately followed by a letter or "tk").
+const DIAPER_SIZE_PATTERNS = [
+  /\bs\s?(\d{1,2})\b/i,
+  /\b(?:suurus|nr\.?)\s*(\d{1,2})\b/i,
+  /[a-zA-Z](\d{1,2})(?=\s?\d+(?:[.,]\d+)?\s*-\s*\d+(?:[.,]\d+)?\s*\+?\s*kg(?![a-zA-Z]))/i,
+];
+const DIAPER_SIZE_FALLBACK_PATTERN = /(?<![\d.,-])\b(\d{1,2})\b(?!\s*(?:[.,]\d|%|\+|tk\b))(?![a-zA-Z])(?!-)/i;
+
+function extractDiaperSize(name) {
+  for (const pattern of DIAPER_SIZE_PATTERNS) {
+    const match = name.match(pattern);
+    if (match) return match[1];
+  }
+  const fallback = name.match(DIAPER_SIZE_FALLBACK_PATTERN);
+  return fallback ? fallback[1] : null;
+}
+
+// Same brand, same product TYPE (a wipe is never a diaper even under
+// the same brand — Pampers sells both), same piece-count/multipack
+// shape, and — for actual diapers, not wipes, which carry no size
+// number at all — the same size. A diaper with no size number found
+// on either side (a newborn "vastsündinule" listing with only a
+// weight, never an S-number) still has to agree on everything else;
+// it just isn't blocked on a size neither side states.
+function sameDiaperProduct(sigA, sigB) {
+  if (!sigA.brand || !sigB.brand || sigA.brand !== sigB.brand) return false;
+  if (sigA.isDiaperWipe !== sigB.isDiaperWipe) return false;
+  if (sigA.diaperMultipack !== sigB.diaperMultipack) return false;
+  if (sigA.diaperPieceCount === null || sigB.diaperPieceCount === null || sigA.diaperPieceCount !== sigB.diaperPieceCount) {
+    return false;
+  }
+
+  if (!sigA.isDiaperWipe) {
+    if ((sigA.diaperSize === null) !== (sigB.diaperSize === null)) return false;
+    if (sigA.diaperSize !== null && sigA.diaperSize !== sigB.diaperSize) return false;
+  }
+
+  return true;
+}
+
+// A wet-wipe product's name always contains "salv" as a word start
+// ("salvrätik", the abbreviated "salv."/"salv.r.") — checked against
+// every real Barbora/Rimi/Selver wipe name found by hand. Diapers
+// never do.
+const DIAPER_WIPE_PATTERN = /\bsalv/i;
+
 function escapeRegExp(word) {
   return word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
@@ -951,6 +1076,13 @@ function sameProduct(a, b) {
   // the comparison would otherwise take.
   if (sigA.qualifiers !== sigB.qualifiers) {
     return false;
+  }
+
+  // Diapers & baby wipes: brand/size/variant/produce — none of the
+  // rules below apply to this category, which has its own identity
+  // (see sameDiaperProduct's own comment for why).
+  if (sigA.diaperMatching && sigB.diaperMatching) {
+    return sameDiaperProduct(sigA, sigB);
   }
 
   // A recognized brand present on only one side means a different
@@ -1045,9 +1177,34 @@ function capitalize(word) {
   return word ? word[0].toUpperCase() + word.slice(1) : "";
 }
 
+// Real bug found reviewing the first Diapers & baby wipes scrape: the
+// generic naming below reaches for the generic `size` field (a plain
+// weight/volume like "500g"), which for a diaper is whatever the
+// stated weight RANGE happened to extract as (e.g. "17kg" out of
+// "12-17kg") — not a real product fact, producing nonsense names like
+// "Pampers Püksmähkmed 15000g" or "Pampers Püksmähkmed 44" (a bare
+// piece count with no unit). Diapers' real identity is size + piece
+// count (see sameDiaperProduct); the display name uses exactly those,
+// never the generic size/variant fields.
+function synthesizeDiaperName(sigA, sigB) {
+  const brand = sigA.brand || sigB.brand || "";
+  const nameLower = sigA.nameLower || sigB.nameLower || "";
+  const kind = sigA.isDiaperWipe ? "Niisked salvrätikud" : /püksmähk/i.test(nameLower) ? "Püksmähkmed" : "Mähkmed";
+  const size = sigA.diaperSize ?? sigB.diaperSize;
+  const count = sigA.diaperPieceCount ?? sigB.diaperPieceCount;
+  const parts = [capitalize(brand) || "Unknown", kind];
+  if (size !== null) parts.push(`S${size}`);
+  if (count !== null) parts.push(`${count}tk`);
+  return parts.join(" ");
+}
+
 function synthesizeCanonicalName(a, b) {
   const sigA = signatureOf(a);
   const sigB = signatureOf(b);
+
+  if (sigA.diaperMatching && sigB.diaperMatching) {
+    return synthesizeDiaperName(sigA, sigB);
+  }
 
   const branded = sigA.hasBrand && sigB.hasBrand;
   if (!branded && sigA.isProduce && sigB.isProduce) {

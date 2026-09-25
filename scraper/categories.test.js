@@ -46,6 +46,16 @@ const bakingBarboraFilter = category("Baking supplies").urls.barbora[0].nameFilt
 const selverSpicesWorldCuisineFilter = SELVER_CATEGORIES["Spices"].sources[1].nameFilter;
 const selverSpicesCatchAllFilter = SELVER_CATEGORIES["Spices"].sources[0].nameFilter;
 
+const diaperBarboraFilter = category("Diapers & baby wipes").urls.barbora[0].nameFilter;
+const diaperBarboraWipeFilter = category("Diapers & baby wipes").urls.barbora[1].nameFilter;
+const diaperRimiFilter = category("Diapers & baby wipes").urls.rimi[0].nameFilter;
+const householdRimiFilter = category("Household").urls.rimi[0].nameFilter;
+const personalCareRimiHairFilter = category("Personal care").urls.rimi[3].nameFilter;
+const personalCareRimiBodyFilter = category("Personal care").urls.rimi[4].nameFilter;
+const babyFoodSelverFilter = SELVER_CATEGORIES["Baby food"].sources[0].nameFilter;
+const diaperSelverFilter = SELVER_CATEGORIES["Diapers & baby wipes"].sources.find((s) => s.id === 308).nameFilter;
+const diaperSelverWipeFilter = SELVER_CATEGORIES["Diapers & baby wipes"].sources.find((s) => s.id === 309).nameFilter;
+
 const results = [
   test("Cheese: a real bug — 'näkk' (double k) missed Selver's inflected 'Juustusnäkid', letting a cheese snack scrape through and match another store's cheese snack", () => {
     assert.equal(cheeseRimiFilter("Juustusnäkk sin.hallitusjuustu"), false, "Rimi's own double-k spelling must still be excluded");
@@ -260,6 +270,55 @@ const results = [
     assert.equal(sausagesSelver223("Frankfurter, RANNAROOTSI, 500 g"), true);
     assert.equal(hamSelver227("Fuetec trühvliga, ELPOZO, 150 g"), false, "dry sausage belongs to Sausages");
     assert.equal(hamSelver227("Serrano sink, EMBUTIDOS CAULA, 100 g"), true, "a real cured ham stays in scope");
+  }),
+
+  test("Diapers & baby wipes: special-purpose diapers (swim, Dry Nites, Ninjamas) and Selver's stray 'Rinnapadjad' (breast pads) are excluded; wet wipes are isolated from the surrounding baby-hygiene leaf by requiring both 'wet' and 'napkin'", () => {
+    assert.equal(diaperBarboraFilter("Püksmähkmed PAMPERS MP S5 12-17kg 96tk"), true);
+    assert.equal(diaperBarboraFilter("Mähk.HUGGIES Little Swim.(S) 7-12kg 12tk"), false, "swim diaper");
+    assert.equal(diaperBarboraFilter("Ujumismähkmed PAMPERS S3-4 6-11kg 12tk"), false);
+    assert.equal(diaperBarboraFilter("Püksmähk.DRY NITES boy 4-7a 17-30kg 10tk"), false, "bedwetting pants, a different product from a size-numbered diaper");
+
+    assert.equal(diaperBarboraWipeFilter("Niisked salvrätikud PAMPERS Water, 60tk"), true);
+    assert.equal(diaperBarboraWipeFilter("Niisk. salv. HUGGIES All Over Clear 56tk"), true, "Barbora's own abbreviated form");
+    assert.equal(diaperBarboraWipeFilter("JOHNSON'S beebiõli 200ml"), false, "baby oil, not a wet wipe");
+    assert.equal(diaperBarboraWipeFilter("Rinnapadjad Bel Baby 30tk"), false, "nursing pads, not a wipe");
+
+    assert.equal(diaperRimiFilter("Püksmähkmed Pants Little Movers 5 Boy 12-17kg, HUGGIES, 48 tk"), true);
+    assert.equal(diaperRimiFilter("Ujumismähkmed Pampers S4-5 9-15kg 11tk"), false);
+    assert.equal(diaperRimiFilter("Öömähkmed Pampers Ninjamas Space JP S7 10tk"), false, "Ninjamas night pants");
+
+    assert.equal(diaperSelverFilter("Püksmähkmed Pants Little Movers 5 Boy 12-17kg, HUGGIES, 48 tk"), true);
+    assert.equal(diaperSelverFilter("Mähkmed Little Swimmers S, HUGGIES, 7-15 kg/12 tk"), false);
+    assert.equal(diaperSelverFilter("Püksmähkmed Dry Nites tüdrukutele, HUGGIES, 17-30 kg/10 tk"), false);
+    assert.equal(diaperSelverFilter("Rinnapadjad, GRØN BALANCE, 50 tk"), false, "the real stray item found in category 308");
+
+    assert.equal(diaperSelverWipeFilter("Niisked salvrätikud All Over Clear, HUGGIES, 56tk"), true);
+    assert.equal(diaperSelverWipeFilter("Vatitikud ohutud imikutele mõeldud 56 tk, CANPOL, 56 tk"), false, "cotton swabs, not a wipe");
+    assert.equal(diaperSelverWipeFilter("Beebipuuder talgivaba, BÜBCHEN, 80 g"), false, "baby powder, not a wipe");
+  }),
+
+  test("Baby food (Selver): excludes real formula ('piimasegu') so no product is ever in both Baby formula and Baby food — the owner's explicit rule for this batch", () => {
+    assert.equal(babyFoodSelverFilter("Piimasegu al. sünnist NAN 1, 800g"), false, "real formula");
+    assert.equal(babyFoodSelverFilter("Puuviljapüree õun-banaan HIPP, 125g"), true, "a real fruit purée");
+    assert.equal(babyFoodSelverFilter("Piimapuder banaaniga, HIPP, 250g"), true, "a porridge, not formula");
+  }),
+
+  test("Household (Rimi): reusable tools (cloths, sponges, gloves, dust bags) and the shoe-care aisle Rimi bundles into the same department are excluded from the one combined SH-14 page; real cleaning/paper products pass", () => {
+    assert.equal(householdRimiFilter("Prügikotid Eco Line 60l 15tk"), true);
+    assert.equal(householdRimiFilter("Nõudepesumasina tabletid Somat All-in-One Ex 75tk"), true);
+    assert.equal(householdRimiFilter("Mikrokiudlapid Spontex 16tk"), false, "reusable cloth");
+    assert.equal(householdRimiFilter("Svammid Spontex 10tk 2+1"), false, "reusable sponge");
+    assert.equal(householdRimiFilter("Kingaviks Silver must 75ml"), false, "shoe polish");
+    assert.equal(householdRimiFilter("Kingapaelad valged 120cm"), false, "shoelaces");
+  }),
+
+  test("Personal care (Rimi): hair dye and hairbrushes/combs excluded from hair-care, bath sponges from body-care — the owner's call to keep this a hygiene-only category, separate from the planned Beauty deals feature", () => {
+    assert.equal(personalCareRimiHairFilter("Šampoon Head & Shoulders Classic 400ml"), true);
+    assert.equal(personalCareRimiHairFilter("Püsivärv Garnier Color Nat Olive Oil 3"), false, "hair dye, a cosmetic treatment");
+    assert.equal(personalCareRimiHairFilter("Kamm lokkis juustele Afro"), false, "a comb, a reusable tool");
+
+    assert.equal(personalCareRimiBodyFilter("Dušigeel Nivea Men 250ml"), true);
+    assert.equal(personalCareRimiBodyFilter("Svamm Oreon 1tk"), false, "a bath sponge, a reusable tool");
   }),
 ];
 

@@ -136,6 +136,41 @@ const curdFilter = excludeWords(["kreem", "pasta", "kohupiimap.", "vorm", "kinde
 const HAM_WORDS = ["sink", "singi", "pancetta"];
 const SAUSAGE_WORDS = ["vorst", "viiner", "sardell", "salaami", "salami", "fuet", "chorizo", "salchichon", "pepperoni", "kabanos", "servelaat", /\bkäkk/i];
 
+// Diapers & baby wipes: special-purpose diapers (swim, and bedwetting
+// pants for older kids like Huggies Dry Nites) are a genuinely
+// different product from an everyday absorbent diaper — no S-number,
+// priced and sized on a completely different scale — so they're kept
+// out rather than mixed in with the size-numbered kind the owner's
+// matching rule (size + piece count) is built for. "rinnapadi" (breast
+// pad) is a real stray found by hand in Selver's own diaper listing
+// (GRØN BALANCE) — a nursing accessory, not a diaper.
+const DIAPER_EXCLUDE = excludeWords(["uju", "swim", "dry nites", "ninjamas", "öömähk", "oomahk", "rinnapad"]);
+// The three stores' wet-wipe leaves are bundled in with unrelated baby
+// hygiene items (shampoo, cream, powder, cotton swabs, bottles) —
+// isolated by requiring both "wet" and "napkin" appear, the two
+// Estonian words every real wet-wipe name states together
+// ("Niisked salvrätikud", abbreviated "Niisk. salv."). Neither word
+// alone is safe: "salv" alone also catches dry tissues/napkins
+// elsewhere, "niis" alone catches other "moistened"-anything.
+const DIAPER_WIPE_ONLY = excludeWords([], [/niis.*salv|salv.*niis/i]);
+
+// Household: Rimi's whole cleaning-and-paper department is one single
+// page (no per-leaf URL the way Barbora/Selver have) — real cleaning/
+// paper products separated by name from reusable tools (cloths,
+// sponges, gloves, vacuum dust bags — not a single-use consumable the
+// way a trash bag is) and from the shoe-care aisle Rimi bundles into
+// the same department (polish, laces, insoles, shoe deodorant — a
+// different kind of good, not cleaning or paper).
+const HOUSEHOLD_RIMI_EXCLUDE = excludeWords(["kinga", "jalanõu", "sisetald", "lapp", "lapid", "svamm", "käsn", "kinnas", "kindad", "tolmukot"]);
+
+// Personal care: Rimi's hair-care and body-care leaves are each one
+// page too (see HOUSEHOLD_RIMI_EXCLUDE) — hair dye ("püsivärv"/
+// "poolpüsivärv") and combs/brushes excluded from hair-care (a
+// cosmetic treatment and a reusable tool, neither "hygiene"); bath
+// sponges (reusable tool) from body-care.
+const PERSONAL_CARE_RIMI_HAIR_EXCLUDE = excludeWords(["värv", "kamm", "juuksehari"]);
+const PERSONAL_CARE_RIMI_BODY_EXCLUDE = excludeWords(["svamm", "käsn"]);
+
 const CATEGORIES = [
   {
     name: "Baby formula",
@@ -1159,6 +1194,207 @@ const CATEGORIES = [
       ],
     },
   },
+  {
+    // Purées, porridge, snacks and drinks made for babies — everything
+    // under "children's food" except formula/follow-on formula, which
+    // already has its own category ("Baby formula") and must never
+    // also appear here (the owner's explicit rule for this batch: no
+    // product in two categories). Barbora/Rimi keep formula in its own
+    // leaf(s), simply never fetched here. Strict packaging left on its
+    // default (true) — real flavours vary a lot brand-to-brand (apple,
+    // apple-banana, pumpkin, ...) and only the descriptor check strict
+    // mode adds actually distinguishes them; the plain numeric-stage
+    // `variant` field this category would otherwise fall back to only
+    // catches an age number, not a flavour.
+    name: "Baby food",
+    urls: {
+      barbora: [
+        "https://barbora.ee/lastekaubad/liha-ja-koogiviljapureed",
+        "https://barbora.ee/lastekaubad/puuviljapureed",
+        "https://barbora.ee/lastekaubad/pudrud",
+        "https://barbora.ee/lastekaubad/snakid-ja-joogid",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/meals/c/SH-5-6-17",
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/drinks-for-children/c/SH-5-6-19",
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/porridges/c/SH-5-6-20",
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/fruit-and-berry-purees/c/SH-5-6-23",
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/snacks/c/SH-5-6-24",
+      ],
+    },
+  },
+  {
+    // The owner's explicit matching rule for this category: size
+    // number (e.g. "S4", "S5") and piece count (e.g. "44tk") must both
+    // agree — not brand+weight the way every other packaged category
+    // works (see sameDiaperProduct in match-products.js). Diapers are
+    // always sold in a size (matched to a baby's weight, which is
+    // redundant advice, not the purchasing unit, and differs slightly
+    // by brand for what's really the same tier) and a piece count.
+    // Special-purpose diapers (swim, bedwetting pants) excluded — see
+    // DIAPER_EXCLUDE. Wet wipes included in the same category — a
+    // genuinely different real purchase from a diaper, but too small a
+    // product line at every store to warrant a category of its own —
+    // isolated from the surrounding baby-hygiene leaf by
+    // DIAPER_WIPE_ONLY, and never confused for a diaper by the matcher
+    // itself (see isDiaperWipe in match-products.js).
+    name: "Diapers & baby wipes",
+    // strictPackaging is irrelevant here — diaperMatching branches to
+    // its own comparison (sameDiaperProduct) before strictPackaging is
+    // ever consulted — set to false anyway so a reader doesn't have to
+    // trace that to know it plays no part in this category.
+    strictPackaging: false,
+    diaperMatching: true,
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/lastekaubad/mahkmed", nameFilter: DIAPER_EXCLUDE },
+        { url: "https://barbora.ee/lastekaubad/laste-hugieenitarbed", nameFilter: DIAPER_WIPE_ONLY },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/en/products/children-s-goods/diapers/c/SH-5-7", nameFilter: DIAPER_EXCLUDE },
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-care-products/wet-wipes/c/SH-5-1-2",
+      ],
+    },
+  },
+  {
+    // The owner's call: a grocery-store category, the three grocery
+    // stores only — separate from the planned Beauty deals feature
+    // (beauty-store products). "Hygiene only": deodorant, shampoo/
+    // conditioner/styling, shower gel/soap, hand/body lotion, shaving,
+    // oral care, feminine hygiene. Excluded, all by the owner's
+    // explicit answers: face care and decorative cosmetics/makeup
+    // (Kosmeetika/Dekoratiivkosmeetika/Korean skincare — the Beauty
+    // feature's own territory), hair dye and tanning products (a
+    // cosmetic treatment, not hygiene), home pharmacy (OTC medicine,
+    // wound care, vitamins/supplements, pregnancy tests — a
+    // regulatory/legal angle CLAUDE.md flags), perfume/eau de toilette
+    // (a fragrance/luxury good, not hygiene), and every reusable tool
+    // (hairbrushes/combs, manicure/pedicure implements, bath sponges —
+    // not a repurchased consumable the way soap or shampoo is). Strict
+    // packaging left on its default (true) — a real bug, found reading
+    // the first live scrape by hand: without it, two different named
+    // product lines from the same brand at the same size (e.g. Gliss
+    // "Blond Perfector" shampoo vs Gliss "Split-End" shampoo, Pantene
+    // "Shake Repair" vs "Bond Repair" spray) matched as if they were
+    // the same listing — nothing in the lenient path's brand+size+
+    // numeric-variant check reads a named product-line word at all.
+    name: "Personal care",
+    urls: {
+      barbora: [
+        "https://barbora.ee/enesehooldustooted/intiimhugieeni-vahendid/hugieenisidemed",
+        "https://barbora.ee/enesehooldustooted/intiimhugieeni-vahendid/intiimhugieeni-niisked-salvratikud",
+        "https://barbora.ee/enesehooldustooted/intiimhugieeni-vahendid/intiimpesuvahendid",
+        "https://barbora.ee/enesehooldustooted/intiimhugieeni-vahendid/pesukaitsmed",
+        "https://barbora.ee/enesehooldustooted/intiimhugieeni-vahendid/tampoonid",
+        "https://barbora.ee/enesehooldustooted/juuksehooldustooted/juukselakid-geelid-ja-vahud",
+        "https://barbora.ee/enesehooldustooted/juuksehooldustooted/juuksepalsamid",
+        "https://barbora.ee/enesehooldustooted/juuksehooldustooted/juuksesampoonid",
+        "https://barbora.ee/enesehooldustooted/juuksehooldustooted/kuivsampoonid",
+        "https://barbora.ee/enesehooldustooted/juuksehooldustooted/maskid-seerumid-ja-juukseolid",
+        "https://barbora.ee/enesehooldustooted/juuksehooldustooted/meeste-sampoonid",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/dusigeelid",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/dusigeelid-meestele",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/jalahooldus",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/katehooldus",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/kehakoorijad",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/kehakreemid-kehaolid",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/tuki-ja-vedelseebid",
+        "https://barbora.ee/enesehooldustooted/kehahooldustooted/vannivahud-ja-vannisoolad",
+        "https://barbora.ee/enesehooldustooted/parfuumid-ja-deodorandid/meeste-aerosooldeodorandid",
+        "https://barbora.ee/enesehooldustooted/parfuumid-ja-deodorandid/meeste-rull-ja-pulkdeodorandid",
+        "https://barbora.ee/enesehooldustooted/parfuumid-ja-deodorandid/naiste-aerosooldeodorandid",
+        "https://barbora.ee/enesehooldustooted/parfuumid-ja-deodorandid/naiste-rull-ja-pulkdeodorandid",
+        "https://barbora.ee/enesehooldustooted/raseerimisvahendid",
+        "https://barbora.ee/enesehooldustooted/suuhugieen",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/en/products/self-care-products/deodorants/c/SH-2-2",
+        "https://www.rimi.ee/epood/en/products/self-care-products/hygienic-napkins-and-wipes/c/SH-2-3",
+        "https://www.rimi.ee/epood/en/products/self-care-products/intimate-hygiene/c/SH-2-4",
+        { url: "https://www.rimi.ee/epood/en/products/self-care-products/hair-care/c/SH-2-5", nameFilter: PERSONAL_CARE_RIMI_HAIR_EXCLUDE },
+        { url: "https://www.rimi.ee/epood/en/products/self-care-products/body-care/c/SH-2-6", nameFilter: PERSONAL_CARE_RIMI_BODY_EXCLUDE },
+        "https://www.rimi.ee/epood/en/products/self-care-products/shaving-and-depilatory-products/c/SH-2-10",
+        "https://www.rimi.ee/epood/en/products/self-care-products/oral-care/c/SH-2-11",
+      ],
+    },
+  },
+  {
+    // The owner's call: consumables only (things people repurchase
+    // regularly) — cleaning supplies and paper products. Excluded:
+    // kitchen tools, small appliances, textiles/bedding, home décor,
+    // garden goods (none a repurchased consumable), every reusable
+    // cleaning tool (cloths, sponges, gloves, mops/buckets, vacuum
+    // dust bags), shoe/clothing care, and pest control (a chemical
+    // product with its own safety-labelling angle, kept out the same
+    // conservative way home pharmacy is for Personal care). Barbora
+    // has no laundry-detergent leaf under this department — genuinely
+    // absent from the leaf tree, not a filtering mistake. Strict
+    // packaging left on its default (true) — same real bug class as
+    // Personal care: a scent/formula variant (Ambi Pur "Cotton Flower"
+    // vs "Lenor Spring Awakening", Ariel gel "Sensitive" vs "Color")
+    // at the same brand and pack size matched as the same listing
+    // without it.
+    name: "Household",
+    urls: {
+      barbora: [
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/majapidamis-ja-koristustarbed/majapidamispaberid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/majapidamis-ja-koristustarbed/prugikotid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/majapidamis-ja-koristustarbed/taskuratikud",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/majapidamis-ja-koristustarbed/tualettpaberid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/akna-ja-klaasipuhastusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/eriotstarbelised-puhastusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/katlakivieemaldusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/koogi-puhastusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/ohuvarskendajad",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/poranda-ja-vaipade-puhastusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/uldpuhastusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/vannitoa-puhastusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/wc-poti-puhastusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/kodukeemia/wc-poti-varskendajad",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/noudepesuvahendid/kasipesuvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/noudepesuvahendid/noudepesumasina-soolad-ja-hooldusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/noudepesuvahendid/noudepesuvahendid-masinpesuks",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/pesupesemisvahendid/pesugeelid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/pesupesemisvahendid/pesukapslid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/pesupesemisvahendid/pesuloputusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/pesupesemisvahendid/pesumasina-hooldusvahendid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/pesupesemisvahendid/pesupulbrid",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/pesupesemisvahendid/plekieemaldusvahendid-ja-valgendajad",
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/en/products/detergents-and-cleaning-supplies/c/SH-14", nameFilter: HOUSEHOLD_RIMI_EXCLUDE },
+      ],
+    },
+  },
+  {
+    // Pet FOOD only — the roadmap's own scope. Excluded: litter/
+    // bedding, toys, and other pet accessories/supplies (a durable
+    // good, not something repurchased the way food is). Treats
+    // included alongside meals/dry food — still a food product, not a
+    // toy or accessory. Strict packaging left on its default (true) —
+    // a real, serious bug, found reading the first live scrape by
+    // hand: Club 4 Paws sells both a cat food AND a dog food at the
+    // same 900g size, and without the descriptor check, a Barbora dog
+    // food (lamb-rice) matched a Rimi CAT food (veal) as the same
+    // listing — the lenient path's brand+size check alone never reads
+    // the species or flavour word at all.
+    name: "Pet food",
+    urls: {
+      barbora: [
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/kassi-maiustused",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/kasside-konservid-ja-eined",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/kasside-kuivsoot",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/koerte-konservid-ja-eined",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/koerte-kuivsoot",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/koerte-maiustused",
+        "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/vaikeloomatoidud",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/c/SH-7-1",
+        "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/c/SH-7-2",
+      ],
+    },
+  },
 ];
 
 // Whether a category opts into strict packaged-product matching (the
@@ -1186,6 +1422,19 @@ function matchAcrossWeightsFor(categoryName) {
   return category.matchAcrossWeights === true;
 }
 
+// Whether a category uses diaper-specific matching (currently just
+// Diapers & baby wipes — see sameDiaperProduct in match-products.js
+// and the comment on that category's entry below). Off unless a
+// category explicitly opts in, the same reasoning as the two throw-
+// on-unknown-name helpers above.
+function diaperMatchingFor(categoryName) {
+  const category = CATEGORIES.find((c) => c.name === categoryName);
+  if (!category) {
+    throw new Error(`Unknown category "${categoryName}". Known categories: ${CATEGORIES.map((c) => c.name).join(", ")}`);
+  }
+  return category.diaperMatching === true;
+}
+
 // Builds one item the same shape a real scrape produces (store, name,
 // price, currency, url, ean, plus whatever the caller needs to set —
 // brand, ean, etc. — via `extra`), with strictPackaging/
@@ -1199,7 +1448,8 @@ function buildItem(categoryName, store, name, extra = {}) {
   const item = { store, name, price: 0, currency: "EUR", url: "x", ean: null, ...extra };
   if (strictPackagingFor(categoryName)) item.strictPackaging = true;
   if (matchAcrossWeightsFor(categoryName)) item.matchAcrossWeights = true;
+  if (diaperMatchingFor(categoryName)) item.diaperMatching = true;
   return item;
 }
 
-module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, buildItem };
+module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, buildItem };

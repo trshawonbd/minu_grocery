@@ -166,6 +166,16 @@ const SELVER_PLANT_BASED_WORDS = ["taimne", "taimse", "taimevalgu", "vegan", "to
 const SELVER_HAM_WORDS = ["sink", "singi", "pancetta"];
 const SELVER_SAUSAGE_WORDS = ["vorst", "viiner", "sardell", "salaami", "salami", "fuet", "chorizo", "salchichon", "pepperoni", "kabanos", "servelaat"];
 
+// Diapers & baby wipes: special-purpose diapers (swim, bedwetting
+// pants) and "rinnapad" (a stray nursing accessory found by hand in
+// category 308's own listing, GRØN BALANCE brand) — see the fuller
+// comment on categories.js's own copy of this same word list.
+const SELVER_DIAPER_EXCLUDE = ["uju", "swim", "dry nites", "ninjamas", "öömähk", "oomahk", "rinnapad"];
+// Isolates real wet-wipe listings from the rest of category 309's
+// baby-hygiene items (shampoo, cream, powder, cotton swabs, bottles)
+// — see categories.js's own copy for why neither word alone is safe.
+const SELVER_DIAPER_WIPE_ONLY = [/niis.*salv|salv.*niis/i];
+
 const CATEGORIES = {
   // Unlike Barbora/Rimi, Selver has no subcategory dedicated to
   // formula alone — category 307 ("Lastetoidud") holds every baby
@@ -658,6 +668,60 @@ const CATEGORIES = {
   // marinated, sprats, herring, dried) — checked by hand, clean.
   "Fish & seafood": {
     sources: [{ id: 228 }, { id: 229 }, { id: 230 }, { id: 231, nameFilter: excludeWords(SELVER_PLANT_BASED_WORDS) }],
+  },
+  // Same source as "Baby formula" (307, "Lastetoidud" — Selver has no
+  // finer category), the opposite filter: every real formula product
+  // contains "piimasegu", excluded outright here so nothing is ever
+  // in both categories (the owner's explicit rule for this batch).
+  "Baby food": {
+    sources: [{ id: 307, nameFilter: excludeWords(["piimasegu"]) }],
+  },
+  // 308 "Mähkmed" is flat (no further split by size the way Barbora's
+  // own leaf is) — special-purpose diapers and the stray "Rinnapadjad"
+  // (breast pads) excluded by name. 309 "Beebi hooldusvahendid" bundles
+  // real wet wipes in with shampoo/cream/powder/cotton swabs/bottles —
+  // isolated by requiring both "wet" and "napkin" (see
+  // SELVER_DIAPER_WIPE_ONLY).
+  "Diapers & baby wipes": {
+    sources: [
+      { id: 308, nameFilter: excludeWords(SELVER_DIAPER_EXCLUDE) },
+      { id: 309, nameFilter: excludeWords([], SELVER_DIAPER_WIPE_ONLY) },
+    ],
+  },
+  // "Enesehooldustarbed" (63) hygiene-only leaves — the owner's call:
+  // deodorant (88), hair care minus dye (78/79/518 — hair dye, 80, is
+  // its own separate id, simply never fetched), body wash/soap/lotion/
+  // hand care (83/84/93 — sun care, manicure/pedicure, and body
+  // brushes/sponges are their own separate ids under 82, never
+  // fetched), shaving (86), oral care (68's own children, 69/70 —
+  // 68 itself holds no products directly), feminine hygiene (91).
+  // Never fetched at all: 64 (Tervisekaubad/Apteegikaubad — home
+  // pharmacy, a regulatory/legal angle CLAUDE.md flags), 71
+  // (Näohooldus — face care), 92 (Lõhnad, tualettveed — perfume), 94
+  // (Dekoratiivkosmeetika — makeup; all three the Beauty deals
+  // feature's own territory, per the owner's explicit separation).
+  "Personal care": {
+    sources: [{ id: 69 }, { id: 70 }, { id: 78 }, { id: 79 }, { id: 518 }, { id: 83 }, { id: 84 }, { id: 86 }, { id: 88 }, { id: 91 }, { id: 93 }],
+  },
+  // "Majapidamis- ja kodukaubad" (100) consumables only — the owner's
+  // call: paper products (102/103/104) and cleaning products
+  // (108/110/111/112). Never fetched: reusable tools (109, sponges/
+  // brushes), clothing/shoe care (113), kitchenware (123), appliances
+  // (135), bathroom/sauna accessories (143), textiles (149), décor
+  // (155), garden goods (161), and — under 118's own children —
+  // clothing storage (119), lightbulbs/cords (121), batteries (122),
+  // tape (505), and pest control (120, kept out the same conservative
+  // way home pharmacy is for Personal care). No laundry-detergent leaf
+  // exists anywhere in this department — genuinely absent from
+  // Selver's own tree, not a filtering mistake.
+  "Household": {
+    sources: [{ id: 102 }, { id: 103 }, { id: 104 }, { id: 108 }, { id: 110 }, { id: 111 }, { id: 112 }],
+  },
+  // "Lemmiklooma kaubad" (314) pet FOOD only — the roadmap's own scope.
+  // 319 "Lemmikloomatarbed" (litter, toys, accessories) never fetched —
+  // not food.
+  "Pet food": {
+    sources: [{ id: 315 }, { id: 316 }, { id: 317 }, { id: 318 }],
   },
 };
 

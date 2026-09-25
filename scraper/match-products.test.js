@@ -11,7 +11,7 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, matchPool, computeSignature } = require("./match-products");
+const { sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, matchPool, matchItems, computeSignature } = require("./match-products");
 const { buildItem } = require("./categories");
 
 function item(store, name) {
@@ -711,6 +711,25 @@ const tests = [
       assert.equal(computeSignature(unrelated).qualifiers, "");
     },
   },
+  {
+    name: "Qualifiers: 'Mega' and 'omega' are never read as the Estonian comitative case (\"-ga\", with X) — real bug found while adding Diapers & baby wipes, where 'Mega Pack' wholesale listings blocked an otherwise-clean match",
+    run: () => {
+      const megaPack = buildItem("Diapers & baby wipes", "Rimi", "HULGI Püksmähkmed Mega Pack S5, PAMPERS, 11-18kg/96 tk", { brand: "pampers" });
+      const plain = buildItem("Diapers & baby wipes", "Barbora", "Püksmähkmed PAMPERS MP S5 12-17kg 96tk", { brand: "pampers" });
+      assert.equal(computeSignature(megaPack).qualifiers, "");
+      assert.equal(sameProduct(megaPack, plain), true);
+
+      const omegaOil = buildItem("Baking supplies", "Barbora", "Omega-3 kalaõli MOLLER 250ml", { brand: "MOLLER" });
+      assert.equal(computeSignature(omegaOil).qualifiers, "");
+
+      // A real comitative word must still block, same as before —
+      // this fix excludes two specific loanwords, not "-ga" entirely.
+      const withGarlic = buildItem("Baking supplies", "Barbora", "Salatikaste küüslauguga BALTIC 300g", { brand: "BALTIC" });
+      const plainSauce = buildItem("Baking supplies", "Rimi", "Salatikaste BALTIC 300g", { brand: "BALTIC" });
+      assert.equal(computeSignature(withGarlic).qualifiers, "küüslauguga");
+      assert.equal(sameProduct(withGarlic, plainSauce), false);
+    },
+  },
 
   // --- matchPool: shared pool across any number of stores ---
   {
@@ -822,6 +841,83 @@ const tests = [
         ambiguous[0].items.map((i) => i.store).sort(),
         ["Barbora", "Rimi", "Selver"]
       );
+    },
+  },
+  // --- Diapers & baby wipes ---
+  {
+    name: "Diapers: same brand, same size, same piece count, different-looking weight range -> true (the weight range is not the identity)",
+    run: () => {
+      const barbora = buildItem("Diapers & baby wipes", "Barbora", "Püksmähkmed PAMPERS MP S5 12-17kg 96tk", { brand: "pampers" });
+      const rimi = buildItem("Diapers & baby wipes", "Rimi", "HULGI Püksmähkmed Mega Pack S5, PAMPERS, 11-18kg/96 tk", { brand: "pampers" });
+      assert.equal(sameProduct(barbora, rimi), true);
+    },
+  },
+  {
+    name: "Diapers: same brand and piece count but a different size -> false",
+    run: () => {
+      const s4 = buildItem("Diapers & baby wipes", "Barbora", "Mähkmed PAMPERS Premium Care S4 60tk", { brand: "pampers" });
+      const s5 = buildItem("Diapers & baby wipes", "Rimi", "Mähkmed PAMPERS Premium Care S5 60tk", { brand: "pampers" });
+      assert.equal(sameProduct(s4, s5), false);
+    },
+  },
+  {
+    name: "Diapers: same brand and size but a different piece count -> false (a different pack size is a different purchase)",
+    run: () => {
+      const pack60 = buildItem("Diapers & baby wipes", "Barbora", "Mähkmed PAMPERS Premium Care S3,60tk", { brand: "pampers" });
+      const pack120 = buildItem("Diapers & baby wipes", "Rimi", "Mähkmed PAMPERS PC MB S3 120tk", { brand: "pampers" });
+      assert.equal(sameProduct(pack60, pack120), false);
+    },
+  },
+  {
+    name: "Diapers: Barbora's fused abbreviation 'ExtraCare5 12-17kg34tk' (no space before the weight range, none between kg and the piece count) still extracts size 5 and count 34",
+    run: () => {
+      const fused = buildItem("Diapers & baby wipes", "Barbora", "Püksmähk.HUGGIES ExtraCare5 12-17kg34tk", { brand: "huggies" });
+      const spelled = buildItem("Diapers & baby wipes", "Rimi", "Püksmähkmed Extra Care 5, HUGGIES, 12-17kg/34tk", { brand: "huggies" });
+      assert.equal(sameProduct(fused, spelled), true);
+    },
+  },
+  {
+    name: "Diapers: a wet wipe never matches a diaper, even same brand and same extracted piece count (Pampers sells both)",
+    run: () => {
+      const wipes = buildItem("Diapers & baby wipes", "Barbora", "Niisked salvrätikud PAMPERS Water, 60tk", { brand: "pampers" });
+      const diapers = buildItem("Diapers & baby wipes", "Rimi", "Mähkmed PAMPERS Premium Care S5, 60tk", { brand: "pampers" });
+      assert.equal(sameProduct(wipes, diapers), false);
+    },
+  },
+  {
+    name: "Diapers: two wet wipes, same brand and piece count, no size number on either side -> true",
+    run: () => {
+      const a = buildItem("Diapers & baby wipes", "Barbora", "Niisked salvrätikud PAMPERS Water, 60tk", { brand: "pampers" });
+      const b = buildItem("Diapers & baby wipes", "Rimi", "Niisked salv.r. Pampers Aqua Soft Touch 60tk", { brand: "pampers" });
+      assert.equal(sameProduct(a, b), true);
+    },
+  },
+  {
+    name: "Diapers: a 3-pack bundle never matches a single pack of the same brand even when the piece count extracts identically (per-box count, not a stated grand total)",
+    run: () => {
+      const bundle = buildItem("Diapers & baby wipes", "Rimi", "Niisked salvrätikud Huggies Pure 3 x 48tk", { brand: "huggies" });
+      const single = buildItem("Diapers & baby wipes", "Rimi", "Niisked salvrätikud Huggies Pure 48tk", { brand: "huggies" });
+      assert.equal(sameProduct(bundle, single), false);
+    },
+  },
+  {
+    name: "Diapers: a newborn pack with no size number stated on either side still matches on brand + piece count",
+    run: () => {
+      const a = buildItem("Diapers & baby wipes", "Barbora", "Mähkmed vastsündinule 2-4 KG, GRØN BALANCE, 28 tk", { brand: "grøn balance" });
+      const b = buildItem("Diapers & baby wipes", "Selver", "Mähkmed vastsündinule 2-3 KG, GRØN BALANCE, 28 tk", { brand: "grøn balance" });
+      assert.equal(sameProduct(a, b), true);
+    },
+  },
+  {
+    name: "Diapers: real bug — the display name used the generic size field (the weight range's own digits, e.g. '17kg' -> '15000g') instead of the real size+count; canonical name now reads 'Pampers Püksmähkmed S5 96tk', never 'Pampers Püksmähkmed 15000g'",
+    run: () => {
+      const a = buildItem("Diapers & baby wipes", "Barbora", "Püksmähkmed PAMPERS MP S5 12-17kg 96tk", { brand: "pampers" });
+      const b = buildItem("Diapers & baby wipes", "Rimi", "HULGI Püksmähkmed Mega Pack S5, PAMPERS, 11-18kg/96 tk", { brand: "pampers" });
+      assert.equal(matchItems(a, b).canonicalName, "Pampers Püksmähkmed S5 96tk");
+
+      const wipeA = buildItem("Diapers & baby wipes", "Barbora", "Niisked salvrätikud PAMPERS Water, 60tk", { brand: "pampers" });
+      const wipeB = buildItem("Diapers & baby wipes", "Rimi", "Niisked salv.r. Pampers Aqua Soft Touch 60tk", { brand: "pampers" });
+      assert.equal(matchItems(wipeA, wipeB).canonicalName, "Pampers Niisked salvrätikud 60tk");
     },
   },
 ];

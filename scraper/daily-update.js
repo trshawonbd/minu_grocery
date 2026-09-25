@@ -184,15 +184,21 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
   );
 }
 
-function gitCommit(log) {
+// Commits everything under data/ — called AFTER the day's log file is
+// written (see main()), specifically so the log itself is included in
+// the commit instead of being left behind, uncommitted, every single
+// run. Its own outcome is only ever logged to the console, never back
+// into the log file — by the time this runs, that file's content is
+// already decided.
+function gitCommit() {
   const status = execFileSync("git", ["status", "--porcelain", "--", "data/"], { cwd: ROOT, encoding: "utf8" });
   if (!status.trim()) {
-    log.push("No data changes — nothing to commit.");
+    console.log("No data changes — nothing to commit.");
     return;
   }
   execFileSync("git", ["add", "--", "data/"], { cwd: ROOT });
   execFileSync("git", ["commit", "-m", `Daily update ${today()}`], { cwd: ROOT });
-  log.push(`Committed: "Daily update ${today()}"`);
+  console.log(`Committed: "Daily update ${today()}"`);
 }
 
 async function main() {
@@ -221,12 +227,14 @@ async function main() {
     for (const a of alerts) log.push(`  [${a.category}] ${a.store}: ${a.reason} — ${a.detail}`);
   }
 
-  gitCommit(log);
-
+  // Written before the commit so the log itself is included in it —
+  // real bug found by hand testing this: writing it after left every
+  // day's log file uncommitted and untracked, forever.
   fs.mkdirSync(LOGS_DIR, { recursive: true });
   fs.writeFileSync(path.join(LOGS_DIR, `${today()}.txt`), log.join("\n") + "\n");
 
   console.log(log.join("\n"));
+  gitCommit();
 }
 
 main().catch((err) => {

@@ -121,6 +121,19 @@ function toStoreEntry(item) {
   if (item.image) {
     entry.image = item.image;
   }
+  // The store's own pre-sale ("Tavahind"/retail) price, only when the
+  // store states one above what's paid today — the app's "Cheaper
+  // than usual" reads this, and only this: a loyalty-card price never
+  // counts as a discount. Display-only, never read by matching.
+  if (typeof item.regularPrice === "number" && item.regularPrice > item.price) {
+    entry.regularPrice = item.regularPrice;
+  }
+  // The store's own listing title, shown in small print under the
+  // store's row on the product screen so a shopper can check the
+  // match with their own eyes. Display-only.
+  if (item.name) {
+    entry.storeName = item.name;
+  }
   return entry;
 }
 

@@ -5,407 +5,190 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Minu</title>
 <style>
+  :root {
+    --bg: #F4F5F0; --card: #FFFFFF; --line: #E1E1D6; --ink: #1C1B17; --muted: #6B6A5F;
+    --green: #1F5D46; --green-soft: #E4F0EA; --amber: #A6522B; --amber-soft: #FBEADF;
+    --barbora: #B45309; --rimi: #B91C1C; --selver: #1D4ED8;
+  }
   * { box-sizing: border-box; }
-  body {
-    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
-    background: #F2F3EE; color: #1C1B17;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    padding: 24px;
+  html, body { margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  body { padding-bottom: 76px; }
+  .page { max-width: 560px; margin: 0 auto; padding: 16px 16px 8px; }
+  .brand { font-size: 15px; font-weight: 700; color: var(--green); letter-spacing: 0.08em; }
+  .tagline { font-size: 12.5px; color: var(--muted); margin: 2px 0 12px; }
+  .screen-title { font-size: 19px; font-weight: 700; margin: 8px 0 6px; line-height: 1.25; }
+  .section-title { font-size: 15px; font-weight: 700; margin: 22px 0 10px; }
+  .muted { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+  .header { display: flex; align-items: center; margin: 2px 0 6px; }
+  .back, .btn-add, .qty-btn, .qty-remove, .tile, .pcard-open, .nav-item, .basket-name {
+    -webkit-appearance: none; appearance: none; border: none; background: none; font: inherit; color: inherit; cursor: pointer; text-align: left; padding: 0;
   }
-  .card {
-    background: #FFFFFF; border: 1px solid #DAD9CD; border-radius: 14px;
-    padding: 24px; max-width: 380px; width: 100%;
+  .back { font-size: 13px; font-weight: 600; color: var(--green); padding: 6px 10px 6px 0; }
+  .update-status { font-size: 11.5px; color: var(--muted); margin: 18px 0 8px; }
+  .update-status.stale { color: var(--amber); font-weight: 600; }
+
+  .searchbar input {
+    width: 100%; font: inherit; font-size: 15px; padding: 12px 14px; border-radius: 12px;
+    border: 1px solid var(--line); background: var(--card); color: var(--ink); outline: none;
   }
-  .brand { font-size: 14px; font-weight: 600; color: #1F5D46; letter-spacing: 0.02em; }
-  .update-status { font-size: 11px; color: #6B6A5F; margin-top: 4px; }
-  .update-status.stale { color: #A6522B; font-weight: 600; }
-  .header { display: flex; align-items: center; margin-top: 16px; margin-bottom: 2px; }
-  .back {
-    -webkit-appearance: none; appearance: none; border: none; background: #F2F3EE; color: #1F5D46;
-    font-size: 13px; font-weight: 600; padding: 6px 10px; border-radius: 8px; cursor: pointer;
-  }
-  .back:hover { background: #E4F0EA; }
-  h1 { font-size: 17px; font-weight: 600; margin: 14px 0 0; }
-  .subtitle { font-size: 12.5px; color: #6B6A5F; margin: 4px 0 16px; }
-  .list { display: flex; flex-direction: column; gap: 8px; }
-  .row {
-    -webkit-appearance: none; appearance: none; display: flex; justify-content: space-between;
-    align-items: center; gap: 12px; padding: 12px 14px; border-radius: 10px;
-    background: #F2F3EE; cursor: pointer; border: 1px solid transparent;
-    text-align: left; width: 100%; font: inherit; color: inherit;
-  }
-  .row:hover { border-color: #1F5D46; }
-  .row-title { font-size: 14px; font-weight: 600; }
-  .row-sub { font-size: 12px; color: #6B6A5F; margin-top: 2px; }
-  .row-meta { text-align: right; flex-shrink: 0; }
-  .row-meta-price { font-size: 13px; font-weight: 700; color: #1F5D46; }
-  .row-meta-sub { font-size: 11px; color: #6B6A5F; margin-top: 1px; }
-  .store-row {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 10px 12px; border-radius: 8px; margin-bottom: 6px;
-    background: #F2F3EE; font-size: 14px;
-  }
-  .store-row.cheapest { background: #E4F0EA; border: 1px solid #1F5D46; }
-  .store-name { color: #1C1B17; font-weight: 600; }
-  .store-right { text-align: right; }
-  .store-price { font-weight: 700; color: #1C1B17; }
-  .store-row.cheapest .store-price { color: #1F5D46; }
-  .store-unit-price, .store-pack-info { font-size: 11px; color: #6B6A5F; margin-top: 1px; }
-  .store-diff { font-size: 11.5px; color: #A6522B; margin-top: 1px; }
-  .store-diff.cheapest-tag { color: #1F5D46; font-weight: 600; }
-  .store-card-price { font-size: 11px; color: #6B6A5F; margin-top: 2px; }
-  .store-availability-note { font-size: 11px; color: #A6522B; margin-top: 2px; font-style: italic; }
-  .row-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
-  .row-thumb {
-    width: 44px; height: 44px; flex-shrink: 0; border-radius: 8px; overflow: hidden;
-    background: #FFFFFF; border: 1px solid #DAD9CD; display: flex; align-items: center; justify-content: center;
-  }
-  .row-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
-  .product-image { display: flex; flex-direction: column; align-items: center; margin: 12px 0 4px; }
-  .product-image .frame {
-    width: 140px; height: 140px; border-radius: 12px; overflow: hidden;
-    background: #FFFFFF; border: 1px solid #DAD9CD; display: flex; align-items: center; justify-content: center;
-  }
+  .searchbar input:focus { border-color: var(--green); box-shadow: 0 0 0 3px var(--green-soft); }
+
+  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px 8px; text-align: center; min-height: 86px; }
+  .tile:hover { border-color: var(--green); }
+  .tile-icon { font-size: 24px; line-height: 1; }
+  .tile-name { font-size: 11.5px; font-weight: 600; margin-top: 6px; line-height: 1.2; }
+  .tile-count { font-size: 10.5px; color: var(--muted); margin-top: 2px; }
+
+  .hrow { display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 8px; margin: 0 -2px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+  .hrow .pcard { flex: 0 0 160px; scroll-snap-align: start; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+  .pcard { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+  .pcard-open { display: flex; flex-direction: column; gap: 6px; width: 100%; }
+  .pcard-thumb, .row-thumb { width: 100%; aspect-ratio: 1; border-radius: 10px; background: #FAFAF6; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .pcard-thumb img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .pcard-name { font-size: 13px; font-weight: 600; line-height: 1.25; }
+  .pcard-price { font-size: 13.5px; font-weight: 700; color: var(--green); }
+  .pcard-badges { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .pcard-stores { font-size: 11px; color: var(--muted); }
+  .badge { display: inline-block; font-size: 10.5px; font-weight: 700; padding: 3px 7px; border-radius: 999px; }
+  .badge-gap { background: var(--green-soft); color: var(--green); }
+  .badge-deal { background: var(--amber-soft); color: var(--amber); }
+  .neutral-icon { width: 46%; height: 46%; color: #C9C8BC; }
+
+  .qty { display: flex; align-items: center; gap: 8px; }
+  .qty.large { margin: 10px 0 14px; }
+  .btn-add { background: var(--green); color: #fff; font-weight: 700; font-size: 13px; padding: 9px 12px; border-radius: 10px; width: 100%; text-align: center; }
+  .qty.large .btn-add { width: auto; padding: 11px 18px; font-size: 14px; }
+  .qty-btn { width: 36px; height: 36px; border-radius: 10px; background: var(--green-soft); color: var(--green); font-size: 18px; font-weight: 700; text-align: center; }
+  .qty-value { min-width: 24px; text-align: center; font-weight: 700; font-size: 15px; }
+  .qty-remove { font-size: 12px; color: var(--amber); font-weight: 600; margin-left: auto; }
+
+  .product-image { display: flex; flex-direction: column; align-items: center; margin: 6px 0 8px; }
+  .product-image .frame { width: 160px; height: 160px; border-radius: 14px; background: #FAFAF6; border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; overflow: hidden; }
   .product-image img { width: 100%; height: 100%; object-fit: contain; display: block; }
-  .image-caption { font-size: 11px; color: #6B6A5F; margin-top: 4px; }
-  .neutral-icon { width: 55%; height: 55%; color: #C9C8BC; }
-  .store-link {
-    display: inline-block; margin-top: 5px; font-size: 12px; font-weight: 600; color: #1F5D46;
-    text-decoration: none; border: 1px solid #1F5D46; border-radius: 6px; padding: 3px 8px;
-  }
-  .store-link:hover { background: #E4F0EA; }
-  .note {
-    margin-top: 20px; padding-top: 16px; border-top: 1px solid #DAD9CD;
-    font-size: 12px; color: #6B6A5F; line-height: 1.5;
-  }
+  .image-caption { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+  .store-list { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+  .store-row { display: flex; justify-content: space-between; gap: 12px; padding: 12px 14px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); }
+  .store-row.cheapest { background: var(--green-soft); border-color: var(--green); }
+  .store-left { min-width: 0; }
+  .store-name { font-weight: 700; font-size: 14px; }
+  .store-barbora { color: var(--barbora); } .store-rimi { color: var(--rimi); } .store-selver { color: var(--selver); }
+  .store-own-name { font-size: 11px; color: var(--muted); margin-top: 2px; line-height: 1.3; }
+  .store-link { display: inline-block; margin-top: 6px; font-size: 12px; font-weight: 600; color: var(--green); text-decoration: none; border: 1px solid var(--green); border-radius: 8px; padding: 4px 9px; }
+  .store-link:hover { background: var(--green-soft); }
+  .store-right { text-align: right; flex-shrink: 0; }
+  .store-price { font-size: 16px; font-weight: 700; }
+  .store-sub { font-size: 11px; color: var(--muted); margin-top: 1px; }
+  .store-regular { text-decoration: line-through; }
+  .store-availability-note { font-size: 11px; color: var(--amber); margin-top: 2px; font-style: italic; }
+  .store-tag { font-size: 11.5px; font-weight: 700; margin-top: 4px; }
+  .store-tag.best { color: var(--green); } .store-tag.more { color: var(--amber); }
+
+  .basket-list { display: flex; flex-direction: column; gap: 8px; }
+  .basket-line { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+  .basket-name { font-size: 13.5px; font-weight: 600; width: 100%; margin-bottom: 8px; line-height: 1.3; }
+  .split { margin-top: 14px; background: var(--card); border: 1px dashed var(--green); border-radius: 12px; padding: 12px 14px; }
+  .split-title { font-weight: 700; font-size: 14px; }
+  .split-total { font-size: 15px; font-weight: 700; color: var(--green); margin: 4px 0; }
+  .split-saving { font-size: 13px; font-weight: 600; color: var(--green); }
+
+  nav.bottom { position: fixed; left: 0; right: 0; bottom: 0; background: var(--card); border-top: 1px solid var(--line); display: flex; justify-content: space-around; padding: 6px 0 calc(6px + env(safe-area-inset-bottom)); }
+  .nav-item { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px 16px; color: var(--muted); font-size: 11px; font-weight: 600; }
+  .nav-item.active { color: var(--green); }
+  .nav-icon { font-size: 20px; line-height: 1; }
+  @media (min-width: 480px) { .tiles { grid-template-columns: repeat(4, 1fr); } }
 </style>
 </head>
 <body>
-  <div class="card">
-    <div class="brand">MINU</div>
-    <div id="update-status" class="update-status"></div>
-    <div id="app"></div>
-  </div>
+  <div class="page" id="app"></div>
+  <nav class="bottom" id="nav" aria-label="Main"></nav>
 
   <script src="/frontend/pricing.js"></script>
+  <script src="/frontend/app-logic.js"></script>
+  <script src="/frontend/render.js"></script>
   <script>
-    let allPrices = [];
-    let screen = "categories"; // "categories" | "products" | "product"
-    let currentCategory = null;
-    let currentProduct = null;
+    // State lives here; every screen is drawn by render.js from it.
+    const state = {
+      products: [],
+      searchIndex: [],
+      screen: "home",
+      category: null,
+      product: null,
+      query: "",
+      basket: loadBasket(typeof localStorage !== "undefined" ? localStorage : null),
+      updatedAt: null,
+      stale: false,
+    };
+    const root = document.getElementById("app");
+    const nav = document.getElementById("nav");
 
-    const STORE_LABELS = { barbora: "Barbora", rimi: "Rimi", selver: "Selver" };
-
-    function storeLabel(key) {
-      return STORE_LABELS[key] || key.charAt(0).toUpperCase() + key.slice(1);
+    // Routes: #/  #/search  #/c/<category>  #/p/<category::name>  #/basket
+    function routeFromHash() {
+      const hash = decodeURIComponent(location.hash || "#/");
+      if (hash.startsWith("#/c/")) return { screen: "category", category: hash.slice(4) };
+      if (hash.startsWith("#/p/")) return { screen: "product", key: hash.slice(4) };
+      if (hash === "#/search") return { screen: "search" };
+      if (hash === "#/basket") return { screen: "basket" };
+      return { screen: "home" };
     }
 
-    function currencySymbol(code) {
-      return code === "EUR" ? "€" : (code || "");
-    }
-
-    // A product the daily update (scraper/daily-update.js) left with
-    // fewer than 2 available stores — never deleted, just excluded
-    // from every screen here, the same way an unavailable store's own
-    // row is excluded within a still-visible product (see
-    // pricing.js's storeEntries).
-    function visibleProducts(prices) {
-      return prices.filter((p) => !p.hidden);
-    }
-
-    function groupByCategory(prices) {
-      const map = new Map();
-      for (const p of visibleProducts(prices)) {
-        if (!map.has(p.category)) map.set(p.category, []);
-        map.get(p.category).push(p);
+    function applyRoute() {
+      const route = routeFromHash();
+      state.screen = route.screen;
+      if (route.screen === "category") state.category = route.category;
+      if (route.screen === "product") {
+        state.product = visibleProducts(state.products).find((p) => productKey(p) === route.key) || null;
+        if (!state.product) state.screen = "home";
       }
-      return map;
+      render();
+      if (typeof window !== "undefined") window.scrollTo(0, 0);
     }
 
-    function el(tag, className, text) {
-      const e = document.createElement(tag);
-      if (className) e.className = className;
-      if (text !== undefined) e.textContent = text;
-      return e;
-    }
-
-    // The neutral placeholder shown whenever there's no store photo to
-    // hotlink (images off, no store has one, or the store's URL failed
-    // to load) — a plain outline, no brand, no store.
-    function neutralIcon() {
-      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-      svg.setAttribute("viewBox", "0 0 24 24");
-      svg.setAttribute("class", "neutral-icon");
-      svg.setAttribute("aria-hidden", "true");
-      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      path.setAttribute("d", "M6 7h12l1 13H5L6 7zm3 0V5a3 3 0 0 1 6 0v2");
-      path.setAttribute("fill", "none");
-      path.setAttribute("stroke", "currentColor");
-      path.setAttribute("stroke-width", "1.6");
-      path.setAttribute("stroke-linejoin", "round");
-      svg.appendChild(path);
-      return svg;
-    }
-
-    // A product's photo box: the one store image productImage()
-    // (pricing.js) picked, hotlinked straight from the store's own URL
-    // and lazy-loaded — or the neutral icon. When SHOW_STORE_IMAGES is
-    // false productImage returns null, so no <img> is ever created and
-    // no store is contacted for an image. If the store's URL fails to
-    // load, the icon takes its place and `onFallback` (the caption)
-    // is told. Nothing is ever downloaded, saved, resized or edited.
-    function imageBox(product, className, onFallback) {
-      const box = el("div", className);
-      const pick = productImage(product);
-      if (!pick) {
-        box.appendChild(neutralIcon());
-        return { box, pick: null };
-      }
-      const img = document.createElement("img");
-      img.loading = "lazy";
-      img.decoding = "async";
-      img.alt = "";
-      img.referrerPolicy = "no-referrer";
-      img.addEventListener("error", () => {
-        box.textContent = "";
-        box.appendChild(neutralIcon());
-        if (onFallback) onFallback();
-      });
-      img.src = pick.url;
-      box.appendChild(img);
-      return { box, pick };
-    }
-
-    function renderCategories() {
-      const app = document.getElementById("app");
-      app.textContent = "";
-
-      const visibleCount = visibleProducts(allPrices).length;
-      app.appendChild(el("h1", "", "Categories"));
-      app.appendChild(el("div", "subtitle", `${visibleCount} matched product${visibleCount === 1 ? "" : "s"} across stores`));
-
-      const list = el("div", "list");
-      for (const [category, items] of groupByCategory(allPrices)) {
-        const row = document.createElement("button");
-        row.className = "row";
-
-        const left = el("div");
-        left.appendChild(el("div", "row-title", category));
-        left.appendChild(el("div", "row-sub", `${items.length} product${items.length === 1 ? "" : "s"}`));
-        row.appendChild(left);
-        row.appendChild(el("div", "row-meta-price", "›"));
-
-        row.addEventListener("click", () => {
-          currentCategory = category;
-          screen = "products";
-          render();
-        });
-        list.appendChild(row);
-      }
-      app.appendChild(list);
-    }
-
-    function renderProducts() {
-      const app = document.getElementById("app");
-      app.textContent = "";
-
-      const header = el("div", "header");
-      const back = document.createElement("button");
-      back.className = "back";
-      back.textContent = "‹ Categories";
-      back.addEventListener("click", () => { screen = "categories"; render(); });
-      header.appendChild(back);
-      app.appendChild(header);
-
-      app.appendChild(el("h1", "", currentCategory));
-
-      const items = visibleProducts(allPrices).filter((p) => p.category === currentCategory);
-      app.appendChild(el("div", "subtitle", `${items.length} product${items.length === 1 ? "" : "s"} matched`));
-
-      const list = el("div", "list");
-      for (const product of items) {
-        const entries = storeEntries(product);
-        const cheapest = entries[0];
-
-        const row = document.createElement("button");
-        row.className = "row";
-
-        const left = el("div", "row-left");
-        left.appendChild(imageBox(product, "row-thumb").box);
-        const text = el("div");
-        text.appendChild(el("div", "row-title", product.name));
-        text.appendChild(el("div", "row-sub", `${entries.length} store${entries.length === 1 ? "" : "s"}`));
-        left.appendChild(text);
-        row.appendChild(left);
-
-        const meta = el("div", "row-meta");
-        // Meat ranks (and here, displays) by the store's own per-kg
-        // price, not pack price — see cheapestByUnitPrice in
-        // pricing.js's storeEntries/rankKey. Falls back to showing pack
-        // price if this particular listing's per-kg value is missing,
-        // rather than showing nothing.
-        if (product.cheapestByUnitPrice && cheapest.storeUnitPrice != null) {
-          meta.appendChild(el("div", "row-meta-price", `${cheapest.storeUnitPrice.toFixed(2)} ${currencySymbol(cheapest.currency)}/kg`));
-        } else {
-          meta.appendChild(el("div", "row-meta-price", `${cheapest.price.toFixed(2)} ${currencySymbol(cheapest.currency)}`));
-        }
-        meta.appendChild(el("div", "row-meta-sub", `at ${storeLabel(cheapest.store)}`));
-        row.appendChild(meta);
-
-        row.addEventListener("click", () => {
-          currentProduct = product;
-          screen = "product";
-          render();
-        });
-        list.appendChild(row);
-      }
-      app.appendChild(list);
-    }
-
-    function renderProduct() {
-      const app = document.getElementById("app");
-      app.textContent = "";
-
-      const header = el("div", "header");
-      const back = document.createElement("button");
-      back.className = "back";
-      back.textContent = `‹ ${currentCategory}`;
-      back.addEventListener("click", () => { screen = "products"; render(); });
-      header.appendChild(back);
-      app.appendChild(header);
-
-      app.appendChild(el("h1", "", currentProduct.name));
-      app.appendChild(el("div", "subtitle", `Matched via ${currentProduct.matchedVia}`));
-
-      // One store's photo, hotlinked, with its source named underneath;
-      // the caption goes away if the image fails and the icon shows.
-      const figure = el("div", "product-image");
-      const caption = el("div", "image-caption");
-      const { box, pick } = imageBox(currentProduct, "frame", () => { caption.textContent = ""; });
-      figure.appendChild(box);
-      if (pick) {
-        caption.textContent = `Image: ${storeLabel(pick.store)}`;
-        figure.appendChild(caption);
-      }
-      app.appendChild(figure);
-
-      // However many stores this product has (2, 3, ...) — every
-      // store at the lowest price is marked best, not just the first
-      // one, a tie means a tie, not a coin flip on object identity.
-      // The isCheapest/diff/pct logic itself lives in productRows so
-      // it's tested against the exact code this renders with.
-      const rows = productRows(currentProduct);
-
-      const list = el("div", "list");
-      for (const entry of rows) {
-        const row = el("div", "store-row" + (entry.isCheapest ? " cheapest" : ""));
-        const nameCell = el("div");
-        nameCell.appendChild(el("div", "store-name", storeLabel(entry.store)));
-        if (entry.url) {
-          // Opens the store's own product page in a NEW tab, so this
-          // app stays open behind it.
-          const link = document.createElement("a");
-          link.className = "store-link";
-          link.href = entry.url;
-          link.target = "_blank";
-          link.rel = "noopener noreferrer";
-          link.textContent = "View at store ›";
-          nameCell.appendChild(link);
-        }
-        row.appendChild(nameCell);
-
-        const right = el("div", "store-right");
-        if (currentProduct.cheapestByUnitPrice) {
-          // Meat: the per-kg price is the headline number (what
-          // decided isCheapest above), pack price + weight is the
-          // secondary line — the reverse of every other category. A
-          // store missing its own per-kg value falls back to showing
-          // pack price as the headline, rather than nothing.
-          if (entry.storeUnitPrice != null) {
-            right.appendChild(el("div", "store-price", `${entry.storeUnitPrice.toFixed(2)} ${currencySymbol(entry.currency)}/kg`));
-            const packText = entry.size ? `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)} · ${entry.size}` : `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`;
-            right.appendChild(el("div", "store-pack-info", packText));
-          } else {
-            right.appendChild(el("div", "store-price", `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`));
-          }
-        } else {
-          right.appendChild(el("div", "store-price", `${entry.price.toFixed(2)} ${currencySymbol(entry.currency)}`));
-          if (entry.unitPrice) {
-            // Display only, computed in productRows from the size
-            // string alone — never affects isCheapest/diff above, and
-            // silently skipped (no line at all) when the size is
-            // unknown, rather than guessed at.
-            right.appendChild(el("div", "store-unit-price", `${entry.unitPrice.value.toFixed(2)} ${currencySymbol(entry.currency)}/${entry.unitPrice.unit}`));
-          }
-        }
-        if (entry.cardPrice != null) {
-          // Informational only — cheapest is decided in productRows
-          // from entry.price alone, never from this.
-          right.appendChild(el("div", "store-card-price", `${entry.cardPrice.toFixed(2)} ${currencySymbol(entry.currency)} with ${entry.cardName} card`));
-        }
-        if (entry.store === "selver") {
-          // Selver exposes no live stock signal at all (checked: the
-          // search index, a dedicated stock endpoint, GraphQL — every
-          // one is constant/unmanaged, see the Selver scraper) — so
-          // its price still counts for cheapest, but this stays
-          // visible unconditionally whenever Selver is in the product,
-          // never folded into a dismissible or collapsed state.
-          right.appendChild(el("div", "store-availability-note", "Selver: availability not verified"));
-        }
-        if (entry.isCheapest) {
-          right.appendChild(el("div", "store-diff cheapest-tag", "Cheapest"));
-        } else if (entry.diff != null) {
-          right.appendChild(el("div", "store-diff", `+${entry.diff.toFixed(2)} ${currencySymbol(entry.currency)} (${entry.pct.toFixed(0)}% more)`));
-        }
-        row.appendChild(right);
-        list.appendChild(row);
-      }
-      app.appendChild(list);
-    }
-
-    function renderError(message) {
-      const app = document.getElementById("app");
-      app.textContent = "";
-      app.appendChild(el("h1", "", "No price data yet"));
-      app.appendChild(el("div", "note", message));
-    }
+    const actions = {
+      goto(screen) { location.hash = screen === "home" ? "#/" : `#/${screen}`; },
+      goHome() { location.hash = "#/"; },
+      openCategory(category) { location.hash = `#/c/${encodeURIComponent(category)}`; },
+      openProduct(product) { location.hash = `#/p/${encodeURIComponent(productKey(product))}`; },
+      setQuery(query) {
+        state.query = query;
+        if (state.screen !== "search") { location.hash = "#/search"; return; }
+        // Only the results re-render, so the input keeps focus and
+        // typing never lags: the index is built once, per keystroke
+        // it's a few thousand substring checks.
+        const results = document.getElementById("search-results");
+        if (results) renderSearchResults(results, state, actions);
+      },
+      setQuantity(key, quantity) {
+        state.basket = setBasketQuantity(state.basket, key, quantity);
+        saveBasket(typeof localStorage !== "undefined" ? localStorage : null, state.basket);
+        render();
+      },
+    };
 
     function render() {
-      if (screen === "categories") renderCategories();
-      else if (screen === "products") renderProducts();
-      else if (screen === "product") renderProduct();
+      renderApp(root, nav, state, actions);
     }
 
     // How long data/prices.json can go without a successful daily
-    // update (scraper/daily-update.js) before this warns — 2 days,
-    // matching what a missed/failed run would look like (the job runs
-    // once a day, so 1 day old is completely normal).
+    // update before the line warns — 2 days (the job runs daily).
     const STALE_AFTER_MS = 2 * 24 * 60 * 60 * 1000;
 
-    // data/last-update.json ({ updatedAt }) is written by
-    // scraper/daily-update.js at the end of every run, success or not
-    // (a run that alerts on some stores still updates the others and
-    // still writes this) — absent entirely only before that script has
-    // ever run once, which this treats as "no banner" rather than an
-    // error.
     async function loadUpdateStatus() {
-      const el = document.getElementById("update-status");
       try {
         const response = await fetch("/data/last-update.json");
         if (!response.ok) return;
         const { updatedAt } = await response.json();
         const date = new Date(updatedAt);
         if (isNaN(date.getTime())) return;
-
-        const stale = Date.now() - date.getTime() > STALE_AFTER_MS;
-        el.textContent = `Updated: ${date.toLocaleString(undefined, {
-          year: "numeric", month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
-        })}${stale ? " — data may be out of date" : ""}`;
-        el.classList.toggle("stale", stale);
+        state.updatedAt = date.toLocaleString(undefined, { year: "numeric", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+        state.stale = Date.now() - date.getTime() > STALE_AFTER_MS;
+        render();
       } catch (err) {
-        // No banner rather than an error — this is informational, and
-        // the rest of the page (real price data) still works fine
-        // without it.
+        // Informational only — the rest of the page works without it.
       }
     }
 
@@ -413,23 +196,17 @@
       try {
         const response = await fetch("/data/prices.json");
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
         const prices = await response.json();
-        if (!Array.isArray(prices) || prices.length === 0) {
-          throw new Error("data/prices.json is empty");
-        }
-
-        allPrices = prices;
-        render();
+        if (!Array.isArray(prices) || prices.length === 0) throw new Error("data/prices.json is empty");
+        state.products = prices;
+        state.searchIndex = buildSearchIndex(prices);
+        applyRoute();
       } catch (err) {
-        renderError(
-          "Run \"node scraper/fetch-price.js\" from the project root, then reload this page. " +
-          "If it still doesn't load, make sure you're viewing this through a local server " +
-          "(e.g. \"npx serve\" from the project root), not opening the file directly."
-        );
+        renderError(root, "Run \"node scraper/fetch-price.js\" from the project root, then reload this page. If it still doesn't load, make sure you're viewing this through a local server (\"npm start\"), not opening the file directly.");
       }
     }
 
+    window.addEventListener("hashchange", applyRoute);
     loadPrices();
     loadUpdateStatus();
   </script>

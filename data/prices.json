@@ -33623,88 +33623,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Sheba Kassipasteet kanaga 85g",
-    "category": "Pet food",
-    "prices": {
-      "barbora": {
-        "price": 0.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kassipasteet-kanaga-sheba-85-g",
-        "size": "85g",
-        "storeUnitPrice": 9.29
-      },
-      "selver": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kassipasteet-kanaga-sheba-85g",
-        "size": "85g",
-        "storeUnitPrice": 11.65
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Sheba Kiisueine kastmes segavalik 4x85g",
-    "category": "Pet food",
-    "prices": {
-      "barbora": {
-        "price": 3.49,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kiisueine-sheba-segavalik-tarret-4-x-85-g",
-        "size": "4x85g",
-        "storeUnitPrice": 10.26
-      },
-      "selver": {
-        "price": 3.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kiisueine-segavalik-kastmes-4-pakk-sheba-4x85-g",
-        "size": "4x85g",
-        "storeUnitPrice": 10.26
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Pedigree Koeraeine 4x100g",
-    "category": "Pet food",
-    "prices": {
-      "barbora": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koeraeine-pedigree-4-x-100-g",
-        "size": "4x100g",
-        "storeUnitPrice": 4.48
-      },
-      "rimi": {
-        "price": 2.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/canned-food-for-dogs/koeraeine-pedigree-4-pakk-4x100g/p/735459",
-        "size": "4x100g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Pedigree Koeraeine junior 4x100g",
-    "category": "Pet food",
-    "prices": {
-      "barbora": {
-        "price": 1.67,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/koeraeine-pedigree-junior-4-x-100-g",
-        "size": "4x100g",
-        "storeUnitPrice": 4.18
-      },
-      "rimi": {
-        "price": 2.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/canned-food-for-dogs/koeraeine-pedigree-4-pakk-junior-4x100g/p/140754",
-        "size": "4x100g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Aptamil 1 800g",
     "category": "Baby formula",
     "prices": {
@@ -37787,5 +37705,249 @@
     },
     "matchedVia": "automatic",
     "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Dreamies Suupiste kassi lõhega 60g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suupiste-kassidele-dreamies-lohega-60-g",
+        "size": "60g",
+        "storeUnitPrice": 29.83
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/cat-snacks-and-vitamins/kasside-suupiste-dreamies-lohega-60g/p/7077328",
+        "size": "60g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kassi-suupiste-lohega-dreamies-60g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "60g",
+        "storeUnitPrice": 33.17
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Felix Kassimaius deli lõhe moments 4x10g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kassimaius-felix-deli-moments-lohe-4-x-10-g",
+        "size": "4x10g",
+        "storeUnitPrice": 39.75
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kassimaius-felix-deli-moments-lohe-4x10g-felix",
+        "size": "4x10g",
+        "storeUnitPrice": 49.75
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Felix Kassimaius deli kana moments 4x10g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kassimaius-felix-deli-moments-kana-4-x-10-g",
+        "size": "4x10g",
+        "storeUnitPrice": 39.75
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kassimaius-felix-deli-moments-kana-4x10g-felix",
+        "size": "4x10g",
+        "storeUnitPrice": 49.75
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sheba Kassipasteet kanaga 85g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kassipasteet-kanaga-sheba-85-g",
+        "size": "85g",
+        "storeUnitPrice": 9.29
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassipasteet-kanaga-sheba-85g",
+        "size": "85g",
+        "storeUnitPrice": 11.65
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sheba Kiisueine kastmes segavalik 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiisueine-sheba-segavalik-tarret-4-x-85-g",
+        "size": "4x85g",
+        "storeUnitPrice": 10.26
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiisueine-segavalik-kastmes-4-pakk-sheba-4x85-g",
+        "size": "4x85g",
+        "storeUnitPrice": 10.26
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pedigree Koeraeine 4x100g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koeraeine-pedigree-4-x-100-g",
+        "size": "4x100g",
+        "storeUnitPrice": 4.48
+      },
+      "rimi": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/canned-food-for-dogs/koeraeine-pedigree-4-pakk-4x100g/p/735459",
+        "size": "4x100g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pedigree Koeraeine junior 4x100g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 1.67,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koeraeine-pedigree-junior-4-x-100-g",
+        "size": "4x100g",
+        "storeUnitPrice": 4.18
+      },
+      "rimi": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/canned-food-for-dogs/koeraeine-pedigree-4-pakk-junior-4x100g/p/140754",
+        "size": "4x100g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pedigree Koeramaius rodeo 70g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koeramaius-rodeo-pedigree-70-g",
+        "size": "70g",
+        "storeUnitPrice": 12.86
+      },
+      "rimi": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/dog-snacks-and-vitamins/koeramaiused-pedigree-rodeo-4tk-70g/p/119437",
+        "size": "70g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-koeramaius-rodeo-pedigree-70g",
+        "size": "70g",
+        "storeUnitPrice": 18.43
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Dreamies Kassi kanalihaga suupiste 60g",
+    "category": "Pet food",
+    "prices": {
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/cat-snacks-and-vitamins/kasside-suupiste-dreamies-kanalihaga-60g/p/7077565",
+        "size": "60g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kassi-suupiste-kanalihaga-dreamies-60g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "60g",
+        "storeUnitPrice": 33.17
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sheba Kiisueine lõhega 85g",
+    "category": "Pet food",
+    "prices": {
+      "rimi": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/canned-food-for-cats/kiisueine-sheba-lohega-85g/p/7135949",
+        "size": "85g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-lohega-sheba-85g",
+        "size": "85g",
+        "storeUnitPrice": 11.65
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Dreamies Kassi pardilihaga suupiste 60g",
+    "category": "Pet food",
+    "prices": {
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/cat-snacks-and-vitamins/kasside-suupiste-dreamies-pardilihaga-60g/p/7077572",
+        "size": "60g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassi-suupiste-pardilihaga-dreamies-60-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "60g",
+        "storeUnitPrice": 33.17
+      }
+    },
+    "matchedVia": "automatic"
   }
 ]

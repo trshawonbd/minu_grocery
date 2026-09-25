@@ -4,5 +4,10 @@
   "strictPackaging": true,
   "matchAcrossWeights": false,
   "diaperMatching": false,
-  "fetchedAt": "2026-09-25T16:59:57.384Z"
+  "fixedWeightMustMatch": false,
+  "impliedDescriptors": [
+    "täiendsööt",
+    "täistoit"
+  ],
+  "fetchedAt": "2026-09-25T20:50:06.772Z"
 }

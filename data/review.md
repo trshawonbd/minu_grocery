@@ -6,24 +6,29 @@ Matching pools every store's items for a category together (scraper/match-produc
 
 ## Summary
 
-| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Sausages | Ham & cold cuts | Fish & seafood | Total |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 121 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 16371 |
-| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 5 | 6 | 10 | 61 | 53 | 20 | 1200 |
-| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 0 | 0 | 0 | 23 | 9 | 2 | 327 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 0 | 2 | 1 | 17 | 14 | 2 | 268 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 0 | 4 | 1 | 14 | 12 | 13 | 353 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 5 | 0 | 8 | 7 | 18 | 3 | 252 |
-| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 189 | 636 | 257 | 382 | 516 | 723 | 13487 |
-| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 7 |
-| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 2 | 3 | 42 |
+| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Sausages | Ham & cold cuts | Fish & seafood | Baby food | Diapers & baby wipes | Personal care | Household | Pet food | Total |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 121 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 257 + 157 + 162 | 142 + 78 + 78 | 1648 + 1600 + 764 | 716 + 644 + 329 | 389 + 324 + 194 | 23853 |
+| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 5 | 6 | 10 | 61 | 53 | 20 | 5 | 44 | 196 | 60 | 4 | 1509 |
+| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 0 | 0 | 0 | 23 | 9 | 2 | 0 | 29 | 37 | 4 | 0 | 397 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 0 | 2 | 1 | 17 | 14 | 2 | 4 | 1 | 91 | 45 | 2 | 411 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 0 | 4 | 1 | 14 | 12 | 13 | 1 | 13 | 42 | 7 | 2 | 418 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 5 | 0 | 8 | 7 | 18 | 3 | 0 | 1 | 26 | 4 | 0 | 283 |
+| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 189 | 636 | 257 | 382 | 516 | 723 | 566 | 111 | 3583 | 1565 | 899 | 20211 |
+| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |
+| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 2 | 3 | 0 | 15 | 0 | 0 | 0 | 57 |
 
-**Note:** recomputed 1198 matches from data/raw/, but data/prices.json has 1200 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 1507 matches from data/raw/, but data/prices.json has 1509 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
 | Product | Category | Barbora | Rimi | Selver | Cheapest |
 |---|---|---|---|---|---|
+| Organix Kaerabatoon maasika õuna 23g | Baby food | 1.59 € | — | 1.69 € | Barbora |
+| Plasmon Beebiküpsised k 120g | Baby food | 2.55 € | 2.55 € | — | Barbora + Rimi |
+| Plasmon Beebiküpsised k 60g | Baby food | 1.45 € | 1.45 € | — | Barbora + Rimi |
+| Põnn Kõrvitsapüree ökoloogiline 125g | Baby food | 1.55 € | 1.65 € | — | Barbora |
+| Põnn Ühepajatoit k sealihaga 130g | Baby food | 2.19 € | 2.19 € | — | Barbora + Rimi |
 | Aptamil 1 400g | Baby formula | 10.99 € | 11.59 € | — | Barbora |
 | Aptamil 1 800g | Baby formula | 15.99 € | 18.99 € | 19.19 € | Barbora |
 | Aptamil Piimapulber 3 800g | Baby formula | — | 14.05 € | 19.19 € | Rimi |
@@ -525,6 +530,50 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Tere Või 200g | Dairy | 2.59 € | 2.19 € | 2.59 € | Rimi |
 | Tere Või laktoosivaba lactose-free 200g | Dairy | — | 2.79 € | 3.29 € | Rimi |
 | Valio Meiereivõi soolata või 500g | Dairy | 4.99 € | 5.89 € | 5.79 € | Barbora |
+| Huggies Mähkmed 1 5000g | Diapers & baby wipes | 5.99 € | 6.79 € | 7.10 € (5.49 € Partner) | Barbora |
+| Huggies Mähkmed 1 5000g | Diapers & baby wipes | 13.29 € | 20.49 € | 21.90 € | Barbora |
+| Huggies Mähkmed 2 6000g | Diapers & baby wipes | 17.25 € | 17.29 € | — | Barbora |
+| Huggies Mähkmed 3 10000g | Diapers & baby wipes | 15.99 € | 24.99 € | 25.81 € (20.99 € Partner) | Barbora |
+| Huggies Mähkmed 4 16000g | Diapers & baby wipes | 15.99 € | 24.99 € | 25.81 € (20.99 € Partner) | Barbora |
+| Huggies Mähkmed 5 25000g | Diapers & baby wipes | 15.99 € | 24.99 € | 25.81 € (20.99 € Partner) | Barbora |
+| Huggies Mähkmed 6000g | Diapers & baby wipes | 13.29 € | 20.49 € | 21.90 € | Barbora |
+| Huggies Niisk | Diapers & baby wipes | 2.43 € | 2.45 € | 2.43 € (1.69 € Partner) | Barbora + Selver |
+| Huggies Püksmähkm 3 11000g | Diapers & baby wipes | 25.99 € | 25.99 € | 26.90 € | Barbora + Rimi |
+| Huggies Püksmähkm 4 14000g | Diapers & baby wipes | 25.99 € | 25.99 € | 26.90 € | Barbora + Rimi |
+| Huggies Püksmähkm 4 14000g | Diapers & baby wipes | 14.15 € | — | 15.49 € | Barbora |
+| Huggies Püksmähkm 5 17000g | Diapers & baby wipes | 14.15 € | — | 15.49 € | Barbora |
+| Huggies Püksmähkm 6 25000g | Diapers & baby wipes | 25.99 € | 25.99 € | 26.90 € | Barbora + Rimi |
+| Huggies Püksmähkm 6 25000g | Diapers & baby wipes | 14.15 € | — | 15.49 € | Barbora |
+| Muumi baby Püksmähkmed 5 15000g | Diapers & baby wipes | — | 16.99 € | 17.99 € | Rimi |
+| Neutral Niisked | Diapers & baby wipes | 4.59 € | 3.39 € | 4.59 € | Rimi |
+| Pampers Mähkmed | Diapers & baby wipes | 12.49 € | 11.99 € | 13.99 € | Rimi |
+| Pampers Mähkmed 0 3000g | Diapers & baby wipes | 6.79 € | — | 7.10 € (5.79 € Partner) | Barbora |
+| Pampers Mähkmed 10000g | Diapers & baby wipes | 13.19 € | 24.49 € | 16.79 € | Barbora |
+| Pampers Mähkmed 14000g | Diapers & baby wipes | 13.19 € | 24.49 € | 16.79 € | Barbora |
+| Pampers Mähkmed 5 16000g | Diapers & baby wipes | 14.99 € | — | 16.79 € | Barbora |
+| Pampers Mähkmed 5000g | Diapers & baby wipes | 6.60 € | 6.79 € | 6.60 € (4.99 € Partner) | Barbora + Selver |
+| Pampers Mähkmed 6000g | Diapers & baby wipes | 6.09 € | 6.79 € | 6.09 € (4.99 € Partner) | Barbora + Selver |
+| Pampers Mähkmed 8000g | Diapers & baby wipes | 11.99 € | 11.99 € | 13.99 € | Barbora + Rimi |
+| Pampers Niisk | Diapers & baby wipes | 10.66 € (6.29 € Aitäh) | 11.19 € | 7.96 € | Selver |
+| Pampers Püksmähk | Diapers & baby wipes | 13.79 € | 24.49 € | 23.88 € | Barbora |
+| Pampers Püksmähk 11000g | Diapers & baby wipes | 13.79 € | 24.49 € | 23.88 € | Barbora |
+| Pampers Püksmähk 17000g | Diapers & baby wipes | 13.79 € | 24.49 € | 23.88 € | Barbora |
+| Pampers Püksmähkmed | Diapers & baby wipes | 12.77 € | 22.99 € | 22.26 € (14.99 € Partner) | Barbora |
+| Pampers Püksmähkmed | Diapers & baby wipes | 12.77 € | 22.99 € | 22.26 € (14.99 € Partner) | Barbora |
+| Pampers Püksmähkmed | Diapers & baby wipes | 14.31 € | — | 23.88 € | Barbora |
+| Pampers Püksmähkmed | Diapers & baby wipes | 14.69 € | 17.99 € | 24.49 € | Barbora |
+| Pampers Püksmähkmed | Diapers & baby wipes | 14.69 € | 17.99 € | 24.49 € | Barbora |
+| Pampers Püksmähkmed 11000g | Diapers & baby wipes | 12.77 € | 22.99 € | 22.26 € (14.99 € Partner) | Barbora |
+| Pampers Püksmähkmed 15000g | Diapers & baby wipes | 24.33 € | — | 40.55 € | Barbora |
+| Pampers Püksmähkmed 15000g | Diapers & baby wipes | 12.77 € | — | 22.26 € (14.99 € Partner) | Barbora |
+| Pampers Püksmähkmed 15000g | Diapers & baby wipes | 22.99 € | 22.99 € | 23.90 € | Barbora + Rimi |
+| Pampers Püksmähkmed 18000g | Diapers & baby wipes | 12.77 € | 22.99 € | 22.26 € (14.99 € Partner) | Barbora |
+| Pampers Püksmähkmed 19000g | Diapers & baby wipes | 12.77 € | 24.49 € | 22.26 € (14.99 € Partner) | Barbora |
+| Pampers Püksmähkmed 44 | Diapers & baby wipes | 14.69 € | — | 24.49 € | Barbora |
+| Pampers Püksmähkmed 50 19000g | Diapers & baby wipes | 14.69 € | — | 24.49 € | Barbora |
+| Pampers Püksmähkmed 58 17000g | Diapers & baby wipes | 14.69 € | — | 24.49 € | Barbora |
+| Pampers Püksmähkmed 84 | Diapers & baby wipes | 24.33 € | — | 40.55 € | Barbora |
+| Pampers Püksmähkmed 96 17000g | Diapers & baby wipes | 24.33 € | — | 40.55 € | Barbora |
 | A. le coq Kali klassikaline 2000ml | Drinks | 2.09 € | — | 2.08 € | Selver |
 | A. le coq Kali klassikaline 500ml | Drinks | 0.99 € | — | 0.97 € | Selver |
 | A. le coq Kali rukkilinnase 500ml | Drinks | 1.05 € | — | 0.99 € | Selver |
@@ -799,6 +848,66 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Tallegg Kanasigar 200g | Ham & cold cuts | 2.99 € | 2.79 € | — | Rimi |
 | Tallegg Kanasink tilliga 130g | Ham & cold cuts | — | 1.69 € | 1.72 € | Rimi |
 | Tallegg Suitsukanakuubikud 300g | Ham & cold cuts | 4.35 € | — | 4.39 € | Barbora |
+| Ajax Üldpuhastusvahend blossom peach 1000ml | Household | 3.69 € | 3.99 € | 2.59 € | Selver |
+| Ambi pur Õhuvärskendaja mist ocean 185ml | Household | 6.59 € | — | 6.49 € | Selver |
+| Ariel Pesugeel color pk 1125ml | Household | 13.59 € | 12.99 € | — | Rimi |
+| Ariel Pesugeel color pk 1800ml | Household | 17.99 € | 17.99 € | — | Barbora + Rimi |
+| Ariel Pesugeel gold orchid pk 1575ml | Household | 17.99 € | 19.99 € | — | Barbora |
+| Ariel Pesugeel gold orchid pk 2250ml | Household | 24.89 € | 26.29 € | — | Barbora |
+| Ariel Pesugeel mountain pk spring 1800ml | Household | 18.29 € | 17.99 € | — | Rimi |
+| Ariel Pesugeel pk sensitive 1125ml | Household | 13.59 € | 12.99 € | — | Rimi |
+| Domestos Wc lime p värskendaja 3x50g | Household | 3.59 € | 5.99 € | — | Barbora |
+| Domestos Wc pine täide värskendaja 35g | Household | 0.95 € | — | 1.59 € | Barbora |
+| Fairy Nõudepesuvahend apple 900ml | Household | 4.79 € | 3.79 € | — | Rimi |
+| Fairy Nõudepesuvahend citrus 650ml | Household | — | 3.05 € | 3.59 € (2.59 € Partner) | Rimi |
+| Fairy Nõudepesuvahend clean pure 900ml | Household | 4.79 € | — | 3.19 € | Selver |
+| Fairy Nõudepesuvahend lemon 1350ml | Household | 6.69 € | 6.99 € | 6.69 € (4.69 € Partner) | Barbora + Selver |
+| Fairy Nõudepesuvahend lemon 450ml | Household | 2.55 € (1.99 € Aitäh) | — | 2.89 € | Barbora |
+| Fairy Nõudepesuvahend lemon 900ml | Household | 4.79 € | — | 4.79 € | Barbora + Selver |
+| Fairy Nõudepesuvahend pomegranate 450ml | Household | 2.55 € | 2.55 € | — | Barbora + Rimi |
+| Fairy Nõudepesuvahend pomegranate 900ml | Household | 4.79 € | 4.19 € | — | Rimi |
+| Finish Nõudepesumasina loputusvahend 400ml | Household | — | 5.79 € | 5.79 € | Rimi + Selver |
+| Finish Nõudepesumasina sool 1500g | Household | 3.57 € | 5.59 € | 5.79 € | Barbora |
+| Finish Nõudepesumasina sool 4000g | Household | 5.51 € | 5.69 € | — | Barbora |
+| Kh-7 Katlakivieemaldaja 750ml | Household | 6.29 € | 6.29 € | — | Barbora + Rimi |
+| Kh-7 Plekieemaldaja effect oxy 750ml | Household | 7.15 € | 7.15 € | — | Barbora + Rimi |
+| Kh-7 Rasvaeemaldaja 750ml | Household | 6.29 € | 6.29 € | 4.49 € | Selver |
+| Kh-7 Vannitoa puhastusvahend 500ml | Household | 6.29 € | 4.89 € | — | Rimi |
+| Mayeri Katlakivieemaldaja 500ml | Household | — | 2.39 € | 1.79 € | Selver |
+| Mayeri Nõudepesuvahend cranberry 500ml | Household | 1.01 € | — | 1.59 € | Barbora |
+| Mayeri Nõudepesuvahend sensitive 500ml | Household | — | 1.45 € | 1.59 € (1.19 € Partner) | Rimi |
+| Mayeri Nõudepesuvahend sensitive 900ml | Household | 1.53 € | 2.19 € | — | Barbora |
+| Mayeri Pesugeel sensitive 1650ml | Household | 5.91 € | 8.49 € | — | Barbora |
+| Mayeri Pesupulber color sensitive 1650g | Household | 5.70 € | 7.99 € | — | Barbora |
+| Mayeri Pesupulber sensitive 1650g | Household | 5.67 € | 8.19 € | — | Barbora |
+| Mayeri Üldpuhastuvahend sensitive 500ml | Household | 1.71 € | — | 2.69 € | Barbora |
+| Mayeri Wc lavender puhastusvahend 750ml | Household | 2.09 € | 2.99 € | — | Barbora |
+| Mayeri Wc lemon puhastusvahend 750ml | Household | 2.09 € | 2.99 € | — | Barbora |
+| Mulieres Pesugeel roosiaed 1500ml | Household | 13.19 € | 13.19 € | — | Barbora + Rimi |
+| Persil Pesugeel color lavender pk 1800ml | Household | 18.29 € | 20.90 € | — | Barbora |
+| Persil Pesugeel color pk 1980ml | Household | 18.29 € | 20.90 € | — | Barbora |
+| Persil Pesugeel color pk 990ml | Household | 10.19 € (7.25 € Aitäh) | 8.99 € | — | Rimi |
+| Persil Pesugeel pk sensitive 1800ml | Household | 18.29 € | 20.90 € | — | Barbora |
+| Persil Pesugeel pk sensitive 900ml | Household | 10.19 € (7.25 € Aitäh) | 8.39 € | — | Rimi |
+| Persil Pesugeel pk universal 1980ml | Household | 18.29 € | 20.90 € | — | Barbora |
+| Persil Pesugeel pk universal 990ml | Household | 10.15 € | 10.15 € | — | Barbora + Rimi |
+| Persil Pesupulber color pk 1100g | Household | 10.19 € (6.99 € Aitäh) | 7.29 € | — | Rimi |
+| Persil Pesupulber color pk 2200g | Household | 21.29 € | 21.29 € | — | Barbora + Rimi |
+| Persil Pesupulber pk sensitive 990g | Household | 10.15 € | 7.29 € | — | Rimi |
+| Perwoll Pesugeel black pk 1000ml | Household | 9.19 € (5.79 € Aitäh) | 6.19 € | — | Rimi |
+| Perwoll Pesugeel black pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Perwoll Pesugeel black pk 3000ml | Household | 20.99 € | 12.39 € | — | Rimi |
+| Perwoll Pesugeel bloom dark pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Perwoll Pesugeel blossom pk 1000ml | Household | 9.19 € | 6.19 € | — | Rimi |
+| Perwoll Pesugeel blossom pk 2000ml | Household | 16.25 € | 15.99 € | — | Rimi |
+| Perwoll Pesugeel blossom pk 3000ml | Household | 20.99 € | 12.39 € | — | Rimi |
+| Perwoll Pesugeel color pk 1000ml | Household | 9.19 € (5.79 € Aitäh) | 6.19 € | — | Rimi |
+| Perwoll Pesugeel color pk 2000ml | Household | 16.25 € | 15.99 € | — | Rimi |
+| Perwoll Pesugeel color pk 3000ml | Household | 20.99 € | 12.39 € | — | Rimi |
+| Perwoll Pesugeel pk sport 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Perwoll Pesugeel pk wool 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Somat Nõudepesumasina sool 1500g | Household | 5.07 € (2.99 € Aitäh) | 5.19 € | — | Barbora |
+| Tri-bio Nõudepesuvahend 420ml | Household | 3.29 € | 3.29 € | — | Barbora + Rimi |
 | Balbiino Koorejäätis laktoosivaba lactose-free 480g | Ice cream | 5.69 € | — | 5.68 € | Selver |
 | Eriti rammus Koorejäätis mustika 110g | Ice cream | 1.78 € | 1.19 € | — | Rimi |
 | Eriti rammus Koorejäätis vanilli 100g | Ice cream | 1.78 € (1.19 € Aitäh) | 1.19 € | — | Rimi |
@@ -904,6 +1013,206 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Presto Makaronid cornetti 400g | Pasta | 0.44 € | 0.69 € | — | Barbora |
 | Presto Makaronid fusilli 400g | Pasta | 0.44 € | 0.69 € | — | Barbora |
 | Tartu mill Makaronid chiffari lisci 500g | Pasta | 1.01 € | 1.39 € | — | Barbora |
+| Aussie Palsam repair revive sos 200ml | Personal care | 10.69 € | 10.69 € | — | Barbora + Rimi |
+| Aussie Šampoon repair revive sos 300ml | Personal care | 10.69 € | 10.69 € | — | Barbora + Rimi |
+| Batiste Kuivšampoon original 200ml | Personal care | 6.79 € | 4.75 € | 6.80 € | Rimi |
+| Batiste Kuivšampoon sensitive 200ml | Personal care | — | 4.75 € | 7.10 € | Rimi |
+| Batiste Kuivšampoon tropical 200ml | Personal care | 6.79 € | 6.79 € | — | Barbora + Rimi |
+| Batiste Kuivšampoon volume xxl 200ml | Personal care | 7.29 € | — | 7.31 € | Barbora |
+| Colgate Hambapasta action triple 125ml | Personal care | 3.19 € (2.29 € Aitäh) | — | 3.69 € | Barbora |
+| Colgate Hambapasta action triple 75ml | Personal care | 2.49 € | 2.15 € | 2.69 € | Rimi |
+| Colgate Hambapasta advanced white 125ml | Personal care | 4.29 € | 2.55 € | — | Rimi |
+| Colgate Hambapasta advanced white 75ml | Personal care | 3.19 € | 2.29 € | 3.79 € | Rimi |
+| Colgate Hambapasta crystals max white 75ml | Personal care | — | 2.39 € | 2.99 € | Rimi |
+| Colgate Hambapasta max one white 75ml | Personal care | 7.49 € | — | 7.29 € (4.29 € Partner) | Selver |
+| Colgate Hambapasta max white 125ml | Personal care | 4.69 € | — | 4.99 € | Barbora |
+| Colgate Hambapasta multi protect 50ml | Personal care | 9.19 € (5.05 € Aitäh) | 4.99 € | — | Rimi |
+| Colgate Hambapasta original total 75ml | Personal care | 4.19 € | — | 4.69 € | Barbora |
+| Colgate Hambapasta total whitening 75ml | Personal care | 4.19 € | — | 4.69 € | Barbora |
+| Colgate Suuvesi total 500ml | Personal care | — | 8.29 € | 8.29 € | Rimi + Selver |
+| Corega Proteesiliim care gum 40g | Personal care | 7.79 € | 7.79 € | 7.99 € | Barbora + Rimi |
+| Corega Proteesiliim tugev 40g | Personal care | — | 8.89 € | 8.59 € | Selver |
+| Dove Deodorant aloe pearl vera 150ml | Personal care | 4.55 € | 5.19 € | — | Barbora |
+| Dove Deodorant care invisible 150ml | Personal care | 4.55 € | — | 5.99 € | Barbora |
+| Dove Dušigeel care fresh 450ml | Personal care | 5.01 € | 7.59 € | — | Barbora |
+| Dove Dušigeel care nourishing 400ml | Personal care | 5.24 € | 8.49 € | — | Barbora |
+| Dove Dušigeel creamy indulge 450ml | Personal care | 6.99 € (4.49 € Aitäh) | 7.59 € | — | Barbora |
+| Dove Dušigeel creamy indulge 720ml | Personal care | 6.99 € | 10.99 € | — | Barbora |
+| Dove Dušigeel deeply nourishing 400ml | Personal care | 7.99 € | — | 8.99 € (6.09 € Partner) | Barbora |
+| Dove Dušigeel gentle pamper 450ml | Personal care | 5.01 € | 7.59 € | — | Barbora |
+| Dove Dušigeel hydrate 450ml | Personal care | 5.01 € | 7.59 € | — | Barbora |
+| Dove Dušigeel rebalancing 400ml | Personal care | 7.49 € (4.99 € Aitäh) | 5.79 € | — | Rimi |
+| Dove Tükiseep replenishing 90g | Personal care | 1.79 € (1.09 € Aitäh) | — | 1.79 € | Barbora + Selver |
+| Dove Vedelseep fresh täide 500ml | Personal care | 3.99 € (2.49 € Aitäh) | 4.19 € | — | Barbora |
+| Elmex Hambapasta caries protection 75ml | Personal care | 5.99 € (4.39 € Aitäh) | 5.99 € | 5.99 € | Barbora + Rimi + Selver |
+| Elmex Hambapasta junior 75ml | Personal care | — | 5.99 € | 6.69 € | Rimi |
+| Elmex Hambapasta plus sensitive 75ml | Personal care | 8.79 € | 8.79 € | — | Barbora + Rimi |
+| Elmex Hambapasta professional sensitive 75ml | Personal care | — | 8.79 € | 8.99 € | Rimi |
+| Elmex Hambapasta sensitive 75ml | Personal care | 6.19 € | 5.99 € | 6.89 € (4.59 € Partner) | Rimi |
+| Elmex Hambapasta sensitive whitening 75ml | Personal care | — | 5.99 € | 6.89 € (4.59 € Partner) | Rimi |
+| Elmex Suuvesi caries protection 400ml | Personal care | 8.19 € | 8.19 € | — | Barbora + Rimi |
+| Elmex Suuvesi sensitive 400ml | Personal care | 8.19 € | — | 8.99 € | Barbora |
+| Elseve Juuksemask hyaluron plump 300ml | Personal care | 9.19 € | 9.79 € | — | Barbora |
+| Elseve Juukseõli extraordinary oil 100ml | Personal care | 14.99 € | 14.99 € | — | Barbora + Rimi |
+| Elseve Juukseseerum hyaluron plump 150ml | Personal care | 7.99 € | 7.99 € | — | Barbora + Rimi |
+| Elseve Palsam bond repair 150ml | Personal care | 10.99 € | 10.99 € | — | Barbora + Rimi |
+| Elseve Palsam color vive 400ml | Personal care | 8.19 € | 8.19 € | — | Barbora + Rimi |
+| Elseve Palsam extraordinary oil 200ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
+| Elseve Palsam hyaluron plump 200ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
+| Elseve Palsam repair total 5 200ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
+| Elseve Šampoon color vive 400ml | Personal care | 7.99 € | 8.19 € | — | Barbora |
+| Elseve Šampoon dream long 1000ml | Personal care | 19.99 € (9.99 € Aitäh) | 9.99 € | — | Rimi |
+| Elseve Šampoon hyaluron plump 1000ml | Personal care | 19.99 € (9.99 € Aitäh) | 9.99 € | — | Rimi |
+| Elseve Šampoon hyaluron plump 250ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
+| Elseve Šampoon hyaluron plump 400ml | Personal care | 8.19 € | 8.19 € | — | Barbora + Rimi |
+| Elseve Šampoon repair total 5 400ml | Personal care | 7.99 € | 8.19 € | — | Barbora |
+| Fa Deodorant passion pink 150ml | Personal care | 4.79 € (2.99 € Aitäh) | 3.19 € | — | Rimi |
+| Fa Dušigeel aloe vera yogurt 400ml | Personal care | 5.49 € (3.49 € Aitäh) | — | 5.49 € | Barbora + Selver |
+| Fa Dušigeel attraction force men 400ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
+| Fa Dušigeel blueberry yogh 400ml | Personal care | 5.49 € | 3.49 € | — | Rimi |
+| Fa Dušigeel cacao cream oil 400ml | Personal care | 5.49 € | 3.59 € | — | Rimi |
+| Fa Dušigeel coconut milk 400ml | Personal care | 5.49 € | 4.09 € | — | Rimi |
+| Fa Dušigeel divine moments 400ml | Personal care | 5.49 € | — | 5.49 € | Barbora + Selver |
+| Fa Dušigeel dream fiji 400ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
+| Fa Dušigeel honey pistachio soft 400ml | Personal care | — | 3.59 € | 5.49 € | Rimi |
+| Fa Dušigeel men xtracool 400ml | Personal care | 5.49 € | 3.59 € | — | Rimi |
+| Fructis Palsam color resist 200ml | Personal care | 4.99 € | 5.29 € | — | Barbora |
+| Fructis Šampoon color resist 400ml | Personal care | 5.99 € | 4.29 € | — | Rimi |
+| Gillette Habemepalsam c king 100ml | Personal care | 13.19 € | 13.19 € | — | Barbora + Rimi |
+| Gliss Juuksemask in shine 400ml | Personal care | 10.69 € | — | 11.17 € | Barbora |
+| Gliss Palsam full hair wonder 200ml | Personal care | 5.39 € | — | 5.69 € | Barbora |
+| Gliss Šampoon gentle scalp 200ml | Personal care | 10.29 € | — | 10.99 € | Barbora |
+| Gliss Šampoon repair ultimate 400ml | Personal care | 6.59 € | — | 7.59 € | Barbora |
+| Got2b Juukselakk glued 300ml | Personal care | 10.39 € | 10.99 € | 10.15 € | Selver |
+| Head & shoulders Šampoon apple 400ml | Personal care | — | 10.29 € | 9.44 € | Selver |
+| Head & shoulders Šampoon clarify shine 400ml | Personal care | — | 8.79 € | 9.44 € | Rimi |
+| Head & shoulders Šampoon in menthol 400ml | Personal care | — | 8.99 € | 9.44 € (7.29 € Partner) | Rimi |
+| Himalaya Hambapasta sparkly white 75ml | Personal care | 4.79 € | 4.79 € | — | Barbora + Rimi |
+| Jordan Hambapasta breath fresh 75ml | Personal care | 2.65 € | 2.79 € | 2.89 € | Barbora |
+| Jordan Hambapasta caries defence 75ml | Personal care | 2.65 € | — | 2.89 € | Barbora |
+| Jordan Hambapasta smile white 75ml | Personal care | 2.65 € | 2.79 € | 2.89 € (2.29 € Partner) | Barbora |
+| Listerine Suuvesi care extra mild total 500ml | Personal care | — | 7.69 € | 8.29 € | Rimi |
+| Listerine Suuvesi care total 1000ml | Personal care | — | 7.79 € | 10.99 € | Rimi |
+| Listerine Suuvesi care total 500ml | Personal care | 7.09 € | — | 8.29 € | Barbora |
+| Listerine Suuvesi coolmint 1000ml | Personal care | 10.15 € | — | 10.15 € | Barbora + Selver |
+| Listerine Suuvesi freshburst 500ml | Personal care | 6.09 € | 6.69 € | — | Barbora |
+| Mayeri Dušigeel sensitive 300ml | Personal care | 4.39 € | 4.39 € | — | Barbora + Rimi |
+| Mayeri Vahuseep grapefruit 300ml | Personal care | 2.85 € | 2.85 € | — | Barbora + Rimi |
+| Mayeri Vahuseep sensitive 300ml | Personal care | 2.85 € | 2.85 € | 2.99 € (2.19 € Partner) | Barbora + Rimi |
+| Natura estonica Šampoon c power 400ml | Personal care | — | 5.49 € | 5.58 € | Rimi |
+| Naturalis Kätekreem aloe vera 125ml | Personal care | 2.99 € | — | 2.43 € (2.09 € Partner) | Selver |
+| Naturalis Kätekreem mandliõliga 125ml | Personal care | 2.99 € | — | 2.43 € (2.09 € Partner) | Selver |
+| Neutral Seep sensitive skin 100g | Personal care | 1.59 € | 1.39 € | — | Rimi |
+| Nivea Dušigeel apricot care 500ml | Personal care | 7.25 € | 7.25 € | — | Barbora + Rimi |
+| Nivea Dušigeel care fruit star 500ml | Personal care | 7.25 € | 7.25 € | 7.10 € (4.89 € Partner) | Selver |
+| Nivea Dušigeel creme soft 250ml | Personal care | 4.49 € | — | 4.56 € | Barbora |
+| Nivea Dušigeel creme soft 750ml | Personal care | 9.19 € | 6.79 € | — | Rimi |
+| Nivea Dušigeel lemon oil 250ml | Personal care | 4.49 € | 3.29 € | — | Rimi |
+| Nivea Dušigeel lemon oil 500ml | Personal care | 7.25 € | 5.29 € | — | Rimi |
+| Nivea Dušigeel men sport 500ml | Personal care | 7.25 € | 7.25 € | — | Barbora + Rimi |
+| Nivea Ihupiim aloe hydration 400ml | Personal care | 9.79 € | 9.99 € | 9.99 € | Barbora |
+| Nivea Ihupiim aloe hydration 625ml | Personal care | 9.99 € | 10.99 € | — | Barbora |
+| Nivea Juukselakk strong ultra 250ml | Personal care | 5.31 € | — | 7.61 € | Barbora |
+| Nivea Kreem universaalne 75ml | Personal care | — | 2.95 € | 3.55 € | Rimi |
+| Nivea Šampoon color cristal gloss 250ml | Personal care | 3.35 € | — | 4.79 € | Barbora |
+| Nivea Šampoon in palsam 250ml | Personal care | 3.35 € | — | 4.79 € | Barbora |
+| Nivea Šampoon sensation volume 250ml | Personal care | 3.35 € | — | 4.79 € (3.29 € Partner) | Barbora |
+| Old spice Deodorant claw tiger 150ml | Personal care | 5.05 € | — | 5.07 € | Barbora |
+| Old spice Deodorant oasis 150ml | Personal care | 5.05 € | 5.19 € | — | Barbora |
+| Old spice Deodorant wolfthorn 150ml | Personal care | 5.05 € | 5.19 € | — | Barbora |
+| Old spice Dušigeel bearglove 400ml | Personal care | 5.75 € | 4.99 € | 5.78 € | Rimi |
+| Old spice Dušigeel captain 1000ml | Personal care | 11.59 € | 7.99 € | — | Rimi |
+| Old spice Dušigeel captain 400ml | Personal care | 5.79 € | 5.99 € | 5.78 € | Selver |
+| Old spice Dušigeel claw tiger 400ml | Personal care | 5.75 € | 6.19 € | 5.69 € | Selver |
+| Old spice Dušigeel night panther 400ml | Personal care | 5.75 € | 4.99 € | 5.78 € (4.69 € Partner) | Rimi |
+| Old spice Dušigeel oasis 400ml | Personal care | 5.75 € | 5.99 € | — | Barbora |
+| Old spice Dušigeel rockstar 400ml | Personal care | 5.75 € | 5.99 € | 6.09 € | Barbora |
+| Old spice Dušigeel whitewater 1000ml | Personal care | 12.49 € | 7.99 € | — | Rimi |
+| Old spice Dušigeel whitewater 400ml | Personal care | 5.75 € (4.49 € Aitäh) | 5.99 € | 5.78 € | Barbora |
+| Old spice Dušigeel wolfthorn 400ml | Personal care | 5.75 € | 5.99 € | — | Barbora |
+| Old spice Pulkdeodorant bearglove 50ml | Personal care | — | 4.29 € | 5.07 € | Rimi |
+| Old spice Pulkdeodorant captain 50ml | Personal care | — | 5.19 € | 5.07 € | Selver |
+| Old spice Pulkdeodorant oasis 50ml | Personal care | 5.05 € | 5.19 € | — | Barbora |
+| Palmolive Seep aloe hygiene plus 90g | Personal care | 0.95 € | 0.95 € | — | Barbora + Rimi |
+| Palmolive Tükiseep black naturals orchid 90g | Personal care | — | 0.95 € | 0.95 € | Rimi + Selver |
+| Palmolive Vedelseep honey milk 300ml | Personal care | — | 2.89 € | 3.89 € | Rimi |
+| Palmolive Vedelseep milk olive 300ml | Personal care | 2.89 € | — | 3.49 € | Barbora |
+| Pantene Juukseõli keratin protect 100ml | Personal care | 13.99 € | 13.99 € | — | Barbora + Rimi |
+| Pantene Palsam aqua light 275ml | Personal care | 6.99 € | 6.99 € | 7.10 € | Barbora + Rimi |
+| Pantene Palsam infinite lenghts 275ml | Personal care | 6.99 € | — | 7.10 € | Barbora |
+| Pantene Palsam strong thick 275ml | Personal care | 6.99 € | 6.99 € | — | Barbora + Rimi |
+| Pantene Šampoon hydration recharge 400ml | Personal care | 6.99 € | 7.79 € | — | Barbora |
+| Pantene Šampoon in strong thick 325ml | Personal care | 6.79 € | 6.99 € | — | Barbora |
+| Pantene Šampoon infinite lenghts 400ml | Personal care | 6.99 € | — | 7.10 € | Barbora |
+| Pantene Šampoon strong thick 400ml | Personal care | 6.99 € | 7.69 € | — | Barbora |
+| Parodontax Hambapasta active gum repair 75ml | Personal care | — | 7.39 € | 6.99 € | Selver |
+| Parodontax Hambapasta classic 75ml | Personal care | 6.39 € | 6.39 € | 6.59 € (5.59 € Partner) | Barbora + Rimi |
+| Parodontax Hambapasta fluoride 75ml | Personal care | 7.79 € | 7.99 € | — | Barbora |
+| Parodontax Suuvesi 500ml | Personal care | 8.39 € | — | 8.99 € (7.29 € Partner) | Barbora |
+| Puhas loodus Dušigeel kadakamari 250ml | Personal care | 2.55 € | 2.99 € | — | Barbora |
+| Puhas loodus Kehakreem kibuvits 150ml | Personal care | 3.99 € | 4.39 € | — | Barbora |
+| Puhas loodus Šampoon nõges toitev 250ml | Personal care | 2.39 € | 2.69 € | — | Barbora |
+| Puhas loodus Šampoon takjas tugevd 250ml | Personal care | 2.39 € | 2.69 € | — | Barbora |
+| Rexona Deodorant bouquet sexy 200ml | Personal care | 5.99 € | 6.15 € | — | Barbora |
+| Rexona Deodorant cobalt dry men 200ml | Personal care | 5.99 € | 6.15 € | — | Barbora |
+| Rich Palsam andev kohevust 200ml | Personal care | 15.19 € | — | 15.24 € | Barbora |
+| Rich Palsam collagen repairing 200ml | Personal care | 15.59 € | 12.39 € | — | Rimi |
+| Rich Šampoon andev kohevust 250ml | Personal care | 14.19 € | — | 14.22 € | Barbora |
+| Rich Šampoon collagen repairing 250ml | Personal care | 14.29 € | 11.39 € | — | Rimi |
+| Schauma Palsam color 250ml | Personal care | 3.99 € | — | 4.06 € | Barbora |
+| Schauma Šampoon care repair 400ml | Personal care | 5.09 € | 3.79 € | — | Rimi |
+| Schauma Šampoon color shine 400ml | Personal care | 5.09 € | 3.79 € | 5.07 € | Rimi |
+| Sensodyne Hambapasta care multi 75ml | Personal care | 5.29 € | 5.49 € | 5.29 € | Barbora + Selver |
+| Sensodyne Hambapasta cavity sensitivity 75ml | Personal care | — | 6.79 € | 6.69 € | Selver |
+| Sensodyne Hambapasta clean deep 75ml | Personal care | 6.39 € | 6.79 € | 7.29 € | Barbora |
+| Sensodyne Hambapasta clinical white 75ml | Personal care | 9.99 € (6.49 € Aitäh) | — | 9.99 € | Barbora + Selver |
+| Sensodyne Hambapasta daily protection 100ml | Personal care | — | 5.29 € | 5.29 € | Rimi + Selver |
+| Sensodyne Hambapasta fluoride 75ml | Personal care | 6.59 € | 6.59 € | 6.59 € | Barbora + Rimi + Selver |
+| Sensodyne Hambapasta gum sensitivity 75ml | Personal care | — | 8.39 € | 8.99 € | Rimi |
+| Sensodyne Hambapasta pronamel 75ml | Personal care | 8.19 € | 8.19 € | 7.99 € | Selver |
+| Sensodyne Hambapasta protect repair 75ml | Personal care | 8.49 € (5.52 € Aitäh) | 6.99 € | 8.99 € | Rimi |
+| Sensodyne Hambapasta whitening 75ml | Personal care | — | 6.99 € | 6.99 € | Rimi + Selver |
+| Sensodyne Suuvesi cool mint 500ml | Personal care | 8.79 € (5.71 € Aitäh) | 7.39 € | 8.99 € | Rimi |
+| Splat Hambapasta biocalcium 100ml | Personal care | 5.49 € | 5.49 € | 5.59 € | Barbora + Rimi |
+| Splat Hambapasta herbs medical 100ml | Personal care | 5.49 € | 5.49 € | 5.59 € | Barbora + Rimi |
+| Splat Hambapasta plus white 100ml | Personal care | 5.49 € | — | 5.29 € | Selver |
+| Splat Hambapasta sensitive 100ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
+| Splat Hambapasta ultracomplex 100ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
+| Syoss Juuksegeel hold max 250ml | Personal care | 6.43 € | 5.59 € | — | Rimi |
+| Syoss Juuksemask intense keratin 400ml | Personal care | 7.69 € | 8.39 € | — | Barbora |
+| Syoss Juuksevaha hold max 150ml | Personal care | 5.66 € | 6.79 € | — | Barbora |
+| Syoss Juuksevaht control curl 250ml | Personal care | 5.94 € | 5.79 € | — | Rimi |
+| Syoss Kuivšampoon fresh pure 200ml | Personal care | 5.03 € | 4.99 € | 8.99 € (5.59 € Partner) | Rimi |
+| Syoss Palsam color 440ml | Personal care | 5.59 € | 5.29 € | 5.49 € | Rimi |
+| Syoss Palsam curls intense 250ml | Personal care | 5.59 € | 5.59 € | — | Barbora + Rimi |
+| Syoss Palsam intense plex 250ml | Personal care | 5.38 € | 5.49 € | — | Barbora |
+| Syoss Palsam keratin 250ml | Personal care | 5.38 € | — | 7.99 € (5.29 € Partner) | Barbora |
+| Syoss Palsam repair 440ml | Personal care | 5.59 € | 5.29 € | 7.99 € (5.29 € Partner) | Rimi |
+| Syoss Šampoon anti dandruff 440ml | Personal care | 5.59 € | 7.99 € | — | Barbora |
+| Syoss Šampoon color 440ml | Personal care | 5.59 € | 5.39 € | 5.49 € | Rimi |
+| Syoss Šampoon curls waves 440ml | Personal care | 5.59 € | — | 7.99 € (5.29 € Partner) | Barbora |
+| Syoss Šampoon glaze intense 440ml | Personal care | 5.59 € | 5.79 € | 7.99 € (5.29 € Partner) | Barbora |
+| Syoss Šampoon intense oleo 440ml | Personal care | 5.59 € | 5.29 € | — | Rimi |
+| Syoss Šampoon intense plex 440ml | Personal care | 5.59 € | 5.79 € | — | Barbora |
+| Syoss Šampoon keratin 750ml | Personal care | — | 12.39 € | 13.99 € | Rimi |
+| Syoss Šampoon repair 440ml | Personal care | 5.59 € | 5.39 € | 7.99 € (5.29 € Partner) | Rimi |
+| Syoss Šampoon volume 440ml | Personal care | 5.59 € | 5.29 € | 7.99 € (5.29 € Partner) | Rimi |
+| Taft Juukselakk aloe boost 250ml | Personal care | 7.15 € | 4.99 € | — | Rimi |
+| Taft Juukselakk invisible power 250ml | Personal care | 7.15 € | 3.69 € | 5.49 € | Rimi |
+| Taft Juukselakk ultimate 250ml | Personal care | 7.15 € | 5.19 € | — | Rimi |
+| Taft Juukselakk up volume 250ml | Personal care | — | 5.19 € | 7.10 € | Rimi |
+| Taft Juuksepuuder volume 10g | Personal care | 8.19 € | 4.99 € | — | Rimi |
+| Taft Juuksevaha creative look 75ml | Personal care | 7.15 € | 6.39 € | — | Rimi |
+| Woom Hambapasta aloe vera 75ml | Personal care | 6.29 € | 6.29 € | — | Barbora + Rimi |
+| Woom Hambapasta sensitive 75ml | Personal care | 6.29 € | 6.29 € | — | Barbora + Rimi |
+| Ziaja Dušigeel butter cocoa 500ml | Personal care | 3.99 € (2.79 € Aitäh) | — | 4.06 € | Barbora |
+| Ziaja Dušigeel butter orange 500ml | Personal care | 3.69 € (2.59 € Aitäh) | — | 4.06 € | Barbora |
+| Ziaja Dušigeel natural olive 500ml | Personal care | 3.99 € | — | 4.06 € | Barbora |
+| Ziaja Šampoon oil olive 400ml | Personal care | 3.99 € | — | 3.29 € | Selver |
+| Pedigree Koeraeine 4x100g | Pet food | 1.79 € | 2.49 € | — | Barbora |
+| Pedigree Koeraeine junior 4x100g | Pet food | 1.67 € | 2.49 € | — | Barbora |
+| Sheba Kassipasteet kanaga 85g | Pet food | 0.79 € | — | 0.99 € | Barbora |
+| Sheba Kiisueine kastmes segavalik 4x85g | Pet food | 3.49 € | — | 3.49 € | Barbora + Selver |
 | Baltix Hirss 1000g | Rice & grains | 2.45 € | 2.49 € | 2.50 € | Barbora |
 | Baltix Odrakruup 1000g | Rice & grains | 1.39 € | — | 1.41 € | Barbora |
 | Baltix Tatar 1000g | Rice & grains | 1.64 € | — | 2.35 € | Barbora |
@@ -1273,6 +1582,21 @@ Card prices shown in parentheses are informational only — never used to decide
 | Fish & seafood | Barbora "Heeringafilee traditsiooniline VICI,240g" (3.19 €); Barbora "Heeringafilee traditsiooniline VICI,400g" (4.99 €); Barbora "Heeringafilee traditsiooniline VICI 1kg" (9.99 €); Selver "Heeringafilee traditsiooniline, VICI, 240 g" (3.19 €); Selver "Heeringafilee traditsiooniline, VICI, 400 g" (4.99 €) |
 | Fish & seafood | Barbora "Jahutatud surimist pulgad VICI, 150g" (2.19 €); Barbora "Jahutatud surimist pulgad VICI, 500g" (5.99 €); Selver "Surimist pulgad, VICI, 150 g" (2.09 €); Selver "Surimist pulgad, VICI, 300 g" (4.09 €) |
 | Fish & seafood | Rimi "Sprotid õlis Rannaküla 240g" (2.99 €); Rimi "Sprotid õlis Rannaküla 160g" (2.85 €); Selver "Sprotid õlis, RANNAKÜLA, 250 g" (4.79 €); Selver "Sprotid õlis, RANNAKÜLA, 160 g" (2.99 €); Selver "Sprotid õlis, RANNAKÜLA, 100 g" (2.29 €); Selver "Sprotid õlis, RANNAKÜLA, 160 g" (2.85 €) |
+| Diapers & baby wipes | Barbora "Püksmähkm.HUGGIES ExtraCare5 12-17kg34tk" (25.99 €); Barbora "Püksmähkmed HUGGIES S5 Girl 12-17kg 34tk" (18.25 €); Barbora "Püksmähkmed HUGGIES S5 Boy 12-17kg 34tk" (18.25 €); Rimi "Püksmähkmed Huggies Extra Care 5 12-17kg 34tk" (25.99 €); Selver "Püksmähkmed Extra Care 5, HUGGIES, 12-17kg/34tk" (26.90 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed HUGGIES S4 Mega Girl 52tk" (20.29 €); Barbora "Püksmähkmed HUGGIES S4 Mega Boy 52tk" (20.29 €); Rimi "Püksmähkmed Huggies 4 Girl 9-14 kg 52 tk" (12.49 €); Rimi "Püksmähkmed Huggies 4 Boy 9-14kg 52tk" (12.49 €); Selver "Püksmähkmed Pants Little Movers 4 Boy 9-14kg, HUGGIES, 52 tk" (20.32 €); Selver "Püksmähkmed Pants Little Movers 4 Girl 9-14kg, HUGGIES, 52 tk" (20.32 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed HUGGIES S5 Boy 12-17kg 48tk" (20.29 €); Barbora "Püksmähkmed HUGGIES S5 Girl 12-17kg 48tk" (20.29 €); Rimi "Püksmähkmed Huggies 5 Girl,12-17kg 48tk" (12.49 €); Selver "Püksmähkmed Pants Little Movers 5 Boy 12-17kg, HUGGIES, 48 tk" (20.32 €); Selver "Püksmähkmed Pants Little Movers 5 Girl 12-17kg, HUGGIES, 48 tk" (20.32 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed PAMPERS s5,22tk" (8.69 €); Barbora "Püksmähkmed PAMPERS Night VP S5 22tk" (9.49 €); Rimi "Püksm. Pampers Night Pants VP S5,22tk" (12.69 €); Selver "Öö püksmähkmed VP S5, PAMPERS, 22tk" (12.69 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed PAMPERS S6,19tk" (8.69 €); Barbora "Püksmähkmed PAMPERS Night VP S6 19tk" (9.49 €); Rimi "Püksm. Pampers Night Pants VP S6,19tk" (12.69 €); Selver "Öö püksmähkmed VP S6, PAMPERS, 19tk" (12.69 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed HUGGIES Girl S4 9-14kg 72tk" (27.89 €); Barbora "Püksmähkmed HUGGIES Boy S4 9-14kg 72tk" (27.89 €); Selver "Püksmähkmed Pants Little Movers 4 Box Boy, HUGGIES, 9-14kg/72 tk" (29.90 €); Selver "Püksmähkmed Pants Little Movers 4 Box Girl, HUGGIES,  9-14 kg/72 tk" (29.90 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed HUGGIES Girl S5 12-17kg 68tk" (27.89 €); Barbora "Püksmähkmed HUGGIES Boy S5 12-17kg 68tk" (27.89 €); Selver "Püksmähkmed Pants 5 Box Boy, HUGGIES, 12-17 kg/68 tk" (29.90 €); Selver "Püksmähkmed Pants Little Movers 5 Box Girl, HUGGIES, 12-17 kg/68 tk" (29.90 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed HUGGIES Girl S6 15-25kg 60tk" (27.89 €); Barbora "Püksmähkmed HUGGIES Boy S6 15-25kg 60tk" (27.89 €); Selver "Püksmähkmed Pants Little Movers 6 Box Boy, HUGGIES, 15-25 kg/60 tk" (29.90 €); Selver "Püksmähkmed Pants Little Movers 6 Box Girl, HUGGIES, 15-25 kg/60 tk" (29.90 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed HUGGIES S3 Mega Boy 58tk" (20.29 €); Barbora "Püksmähkmed HUGGIES S3 Mega Girl 58tk" (20.29 €); Rimi "Püksmäh. Huggies Meg.girl S3 6-11kg 58tk" (12.49 €); Rimi "Püksmähkmed Huggies Mega Boy S3, 6-11kg 58tk" (12.49 €); Selver "Püksmähkmed Pants Little Movers 3 Boy 6-11kg, HUGGIES, 58 tk" (20.32 €); Selver "Püksmähkmed Pants Little Movers 3 Girl 6-11kg, HUGGIES, 58 tk" (20.32 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed HUGGIES S6 Girl 15-25kg 44tk" (20.29 €); Barbora "Püksmähkmed HUGGIES S6 Boy 15-25kg 44tk" (20.29 €); Rimi "Püksmäh. Huggies Mega Boy S6, 15-25kg 44tk" (12.49 €); Rimi "Püksmähkmed Huggies 6 Girl,15-25kg 44tk" (12.49 €); Selver "Püksmähkmed Pants 6 Boy, HUGGIES, 15-25kg/44tk" (20.32 €); Selver "Püksmähkmed Pants Little Movers 6 Girl 15-25kg, HUGGIES, 44 tk" (20.32 €) |
+| Diapers & baby wipes | Barbora "Püksmähkmed PAMPERS S4 9-15 kg 25tk" (8.09 €); Barbora "Püksmähkmed PAMPERS Night VP S4 25tk" (9.49 €); Rimi "Püksm. Pampers Night Pants VP S4,25tk" (12.69 €); Selver "Öö püksmähkmed VP S4, PAMPERS, 25tk" (12.69 €) |
+| Diapers & baby wipes | Barbora "Niisked salvrätik.PAMPERS Sensit.PF 52tk" (2.89 €); Barbora "Niisk.salvrätik.PAMPERS Fresh Clean 52tk" (2.89 €); Rimi "Niisked salvrätikud Pampers Sensitive 52tk" (1.55 €); Rimi "Niis. salv.r. Pampers Fresh Clean Pl.Fr. 52tk" (2.69 €); Selver "Niisked salvrätikud Sensitive PF (plastic free), Pampers, 52tk" (1.99 €) |
+| Diapers & baby wipes | Barbora "Niisk.salvr.HUGGIES Sensit.ExtraCare48tk" (4.09 €); Barbora "Niisked salvrätikud HUGGIES Pure 48tk" (3.19 €); Barbora "Niisked salvr. HUGGIES Natural Care 48tk" (3.19 €); Rimi "Niisked salvrätikud Huggies Pure 48tk" (3.29 €); Rimi "Niisk. salvrät. Huggies Extra Care Sens. 48tk" (4.39 €); Selver "Niisked salvrätikud Pure, HUGGIES, 48 tk" (3.39 €) |
+| Diapers & baby wipes | Barbora "Niisked salvrätikud PAMPERS Water,3x60tk" (10.99 €); Barbora "Niisk.salvr.PAMPERS AquaSoftTouch,3x60tk" (13.49 €); Rimi "Niisked salvrätikud Pampers Water 3x60tk" (10.49 €) |
+| Diapers & baby wipes | Barbora "Niisked salvrätikud PAMPERS Water, 60tk" (2.99 €); Barbora "Niisk.salvr.PAMPERS Aqua Soft Touch 60tk" (5.29 €); Rimi "Niisked salvrätikud Pampers Water 60tk" (3.59 €); Rimi "Niisked salv.r. Pampers Aqua Soft Touch 60tk" (4.69 €) |
 
 ## 3. Unclassified
 
@@ -2066,4 +2390,110 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Jah. krabinuudel, surimi, VICI, 200g" (3.15 €) | Selver "Krabinuudel surimi, VICI, 200 g" (2.09 €) |
 | Barbora "Jah. surimist pulgad Smart Choice, 250g" (2.49 €) | Selver "Surimist pulgad Smart Choice, VICI, 250 g" (2.49 €) |
 | Barbora "Maksikrevetid surimi soolvees, 320g" (3.99 €) | Selver "Maksikrevetid surimist soolvees, VICI, 320 g" (3.99 €) |
+
+### Baby food (9)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Kanaroog riisiga ELLA'S KITCHEN 130g 7k" (3.29 €) | Selver "Kanaroog riisiga, ELLA'S KITCHEN, 130 g" (3.65 €) |
+| Barbora "Kalkunilihapüree HIPP BIO 125g, 4k" (3.65 €) | Selver "Kalkunilihapüree BIO 4+, HIPP, 125 g" (3.65 €) |
+| Barbora "Pirnipüree Williams BIO HIPP 125g, 4k" (1.79 €) | Selver "Pirnipüree Williams Öko 4k, HIPP, 125 g" (1.82 €) |
+| Barbora "Õunapüree banaaniga HIPP BIO 100g 4k" (2.05 €) | Selver "Hippis õunapüree banaaniga BIO 4+, HIPP, 100 g" (2.02 €) |
+| Barbora "Piimapuder šokolaaditük. MILUPA 250g,8k" (3.71 €) | Rimi "Riisipuder Milupa šokolaaditük. 8k+ 250g" (3.69 €) |
+| Barbora "Mitmeviljapud.õuna-kan.Öko PÕNN 110g 6k" (1.85 €) | Rimi "Mitmeviljapud. õuna-kaneeli 6k+ Põnn öko 110g" (1.89 €) |
+| Barbora "Apteegitilli tee BEBIVITA 200g 5k" (4.45 €) | Selver "Apteegitilli tee, 5+ kuud, BEBIVITA, 200 g" (4.46 €) |
+| Barbora "Maisirõngad krõbedad ORGANIX Öko 6k 20g" (1.95 €) | Rimi "Maisirõngad al. 6k Organix öko 20g" (1.95 €) |
+| Rimi "Öko. Mango-kookosesmuuti 6k+ Põnn 110g" (1.79 €) | Selver "Ökoloogiline Mango-kookosesmuuti 6+, PÕNN, 110 g" (1.85 €) |
+
+### Personal care (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Juukselakk TAFT Shine 250ml" (7.15 €) | Rimi "Juukselakk Taft cashmere 250 ml" (4.79 €) |
+| Barbora "Juukselakk TAFT Ultra 250ml" (7.15 €) | Rimi "Juukselakk Taft cashmere 250 ml" (4.79 €) |
+| Barbora "Juukselakk NIVEA Volume Care 250ml" (5.31 €) | Rimi "Juukselakk Nivea volume 250ml" (4.09 €) |
+| Barbora "Juukselakk NIVEA Volume Care 250ml" (5.31 €) | Selver "Juukselakk Volume Sensation, NIVEA, 250 ml" (7.61 €) |
+| Barbora "Juuksevaht NIVEA Volume Care 150ml" (5.31 €) | Selver "Juuksevaht Volume Sensation, NIVEA, 150 ml" (7.61 €) |
+| Barbora "Juuksevaht NIVEA Volume Care 150ml" (5.31 €) | Selver "Juuksevaht Diamond Care, NIVEA, 150ml" (7.61 €) |
+| Barbora "Juuksevaht WELLA Ultra Tugev 200ml" (7.69 €) | Rimi "Juuksevaht Wellaflex ultra tugev 200ml" (7.79 €) |
+| Barbora "Juukselakk TAFT Power,250ml" (7.15 €) | Rimi "Juukselakk Taft cashmere 250 ml" (4.79 €) |
+| Barbora "Juuksepasta GOT2B Beach boy100ml" (11.19 €) | Rimi "Juuksepasta Got2B beach boy super 100ml" (10.99 €) |
+| Barbora "Juukselakk TAFT Power Cashmere 250ml" (7.15 €) | Rimi "Juukselakk Taft cashmere 250 ml" (4.79 €) |
+| Barbora "Juuksevaht TAFT Power Cashm.200ml" (7.15 €) | Rimi "Juuksevaht Taft Power kašmiir 200ml" (5.19 €) |
+| Barbora "Juukselakk SYOSS Max Hold 300ml" (5.94 €) | Rimi "Juukselakk Syoss max 300 ml" (5.79 €) |
+| Barbora "Juukselakk SYOSS Max Hold 300ml" (5.94 €) | Selver "Juukselakk Shine&Hold, SYOSS, 300 ml" (8.99 €) |
+| Barbora "Juukselakk SYOSS Strong Hold 300ml" (5.94 €) | Selver "Juukselakk Shine&Hold, SYOSS, 300 ml" (8.99 €) |
+| Barbora "Juukselakk SYOSS KERATIN CARE 300ml" (5.94 €) | Rimi "Juukselakk Syoss keratin 300 ml" (8.49 €) |
+| Barbora "Juukselakk TAFT Perfect Flex 250ml" (7.15 €) | Rimi "Juukselakk Taft perf.flex. 250 ml" (3.69 €) |
+| Barbora "Juuksepasta GOT2B Phenomenal,meest.100ml" (11.19 €) | Rimi "Juuksepasta got2b PhenoMENal text 100ml" (10.99 €) |
+| Barbora "Juuksepasta GOT2B Phenomenal,meest.100ml" (11.19 €) | Rimi "Juuksepasta Got2b Phenomenal 100ml" (10.99 €) |
+| Barbora "Juukselakk SYOSS Style Ceramide 300ml" (5.94 €) | Rimi "Juukselakk Syoss ceramide 300 ml" (8.49 €) |
+| Barbora "Juukselakk GOT2B VolumaniacBoosting300ml" (11.19 €) | Rimi "Juukselakk Got2b volumania 300 ml" (10.99 €) |
+| Barbora "Juuksepasta SYOSS Texture Clay 100ml" (6.99 €) | Rimi "Stiliseerimispasta Syoss Texture Clay 100ml" (6.99 €) |
+| Barbora "Juuksevaht NIVEA Diamond Volume 150ml" (5.31 €) | Selver "Juuksevaht Volume Sensation, NIVEA, 150 ml" (7.61 €) |
+| Barbora "Juuksevaht NIVEA Diamond Volume 150ml" (5.31 €) | Selver "Juuksevaht Diamond Care, NIVEA, 150ml" (7.61 €) |
+| Barbora "Juukselakk SYOSS Glaze 3in1 300ml" (6.29 €) | Rimi "Juukselakk Syoss Glaze 300ml" (6.39 €) |
+| Barbora "Juukselakk SYOSS Glaze 3in1 300ml" (6.29 €) | Selver "Juukselakk Intense Glaze, SYOSS, 300ml" (8.99 €) |
+| Barbora "Palsam NIVEA Color Cristal Gloss 200ml" (3.35 €) | Selver "Palsam Color Cristal Gloss värvi, NIVEA, 200 ml" (4.79 €) |
+| Barbora "Palsam RICH Miracle Renew CC 200ml" (15.79 €) | Rimi "Palsam Rich Miracle Renew Keratin 200ml" (15.69 €) |
+| Barbora "Palsam NIVEA Hairmilk Shine 200ml" (3.35 €) | Selver "Palsam hooldav Hairmilk Shine, NIVEA, 200ml" (4.79 €) |
+| Barbora "Palsam PUHAS LOODUS Takjas tugev. 250ml" (2.39 €) | Rimi "Palsam Puhas Loodus tuge. takjas 250ml" (2.99 €) |
+| Barbora "Palsam PUHAS LOODUS Sheavõiga 250ml" (2.39 €) | Selver "Palsam sheavõiga, hooldav, PUHAS LOODUS, 250 ml" (3.39 €) |
+
+### Household (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Klaasipuhastusvahend CLIN Citrus 500ml" (3.35 €) | Rimi "Aknapuhastusvahend clin citrus 500 ml" (3.39 €) |
+| Barbora "Klaasipuhastusvahend CLIN Citrus 500ml" (3.35 €) | Selver "Klaasipuhastusvahend Lemon, CLIN, 500 ml" (3.34 €) |
+| Barbora "Klaasipuhastusvahend CLIN Citrus 500ml" (3.35 €) | Selver "Klaasipuhastusvahend AntiFog, CLIN, 500 ml" (3.34 €) |
+| Barbora "Klaasipuhastusvahend CLIN Anti-Fog 500ml" (3.35 €) | Rimi "Aknapuhastusvahend clin anti-fog 500 ml" (3.39 €) |
+| Barbora "Torupuhastusvahend TORU-SIIL 1L" (1.74 €) | Rimi "Torupuhastusvahend Toru-Siil Mayeri 1l" (2.35 €) |
+| Barbora "Hallituse eemaldaja CILLIT BANG 750ml" (8.79 €) | Selver "Hallituse eemaldaja, CILLIT, 750 ml" (9.19 €) |
+| Barbora "Torupuhastusvahend PUHAS KODU 500ml" (1.99 €) | Rimi "Torupuhastusgeel Puhas Kodu 500ml" (2.65 €) |
+| Barbora "Torugeel PUHAS KODU 500ml" (2.39 €) | Rimi "Torupuhastusgeel Puhas Kodu 500ml" (2.65 €) |
+| Barbora "Vaibapuhastusvaht THE PINK STUFF 500ml" (4.49 €) | Rimi "Üldpuhastusvahend The Pink Stuff 500ml" (4.39 €) |
+| Barbora "Katlakivieemaldi PUHAS KODU 500ml" (1.99 €) | Rimi "Torupuhastusgeel Puhas Kodu 500ml" (2.65 €) |
+| Barbora "Rasvaeemaldaja CILLIT BANG Spray 750ml" (5.49 €) | Rimi "Rasvaeemaldaja Cillit spray 750 ml" (6.29 €) |
+| Barbora "Köögipuhastusvahend SANYTOL 500ml" (4.69 €) | Selver "Köögipuhastusvahend desinfitseeriv, SANYTOL, 500 ml" (4.69 €) |
+| Barbora "Köögipuhastusvahend CIF 500ml" (4.69 €) | Rimi "Vannitoapuhastusvahend Cif 500 ml" (4.69 €) |
+| Barbora "Õhuvärsk.AIR WICK Citrus täide 250ml" (9.99 €) | Selver "Õhuvärskendaja Citrus täide, AIR WICK, 250 ml" (6.99 €) |
+| Barbora "Õhuvärskendaja AIR WICK PureCherry 250ml" (5.69 €) | Selver "Õhuvärskendaja täide, AIR WICK, 250 ml" (9.99 €) |
+| Barbora "Kodulõhnastaja AREON Vanilla Black 85ml" (10.99 €) | Rimi "Õhuvärskendaja Areon Black Vanilla 85ml" (10.19 €) |
+| Barbora "Õhuvärskendaja AIR WICK Jasmine 237ml" (6.29 €) | Rimi "Õhuvärskendaja Air Wick Jasmine-Freesia 237ml" (4.75 €) |
+| Barbora "El.õhuvärsk. täide AMBI PUR Cotton 20ml" (4.59 €) | Rimi "El. õhuvärsk. Ambi Pur 3Vol Cotton 20ml" (10.19 €) |
+| Barbora "Õhuvärsk.AMBI PUR Flowers&Spring 185ml" (3.95 €) | Rimi "Õhuvärskendaja Ambi Pur Flowers&Spring 185ml" (6.59 €) |
+| Barbora "Üldpuhastusvahend SANYTOL 500ml" (4.69 €) | Selver "Üldpuhastusvahend desinfitseeriv, SANYTOL, 500 ml" (3.69 €) |
+| Barbora "Puhastuskreem CIF Lemon mikroos. 540g" (3.69 €) | Selver "Puhastuskreem Lemon Cream, CIF, 540 g" (3.89 €) |
+| Barbora "Üldpuhastusvahend SANYTOL Greip 500ml" (4.69 €) | Selver "Üldpuhastusvahend desinfitseeriv, SANYTOL, 500 ml" (3.69 €) |
+| Barbora "Universaalne puhastusvahend CIF 500ml" (4.79 €) | Rimi "Puhastusvahend Cif köögile 500ml" (4.69 €) |
+| Barbora "Üldpuhastusvahend MAYERI Rhubarb 500ml" (2.06 €) | Rimi "Üldpuhastusvahend Mayeri Sensitive 500ml" (2.75 €) |
+| Barbora "Vannitoa puhastusvahend CIF 500ml" (4.69 €) | Rimi "Puhastusvahend Cif köögile 500ml" (4.69 €) |
+| Barbora "WC puhastusvahend Harpic Original 750ml" (3.85 €) | Rimi "WC puhastusvahend Harpic hygiene 750ml" (4.99 €) |
+| Barbora "WC puhastusvahend Harpic Original 750ml" (3.85 €) | Selver "WC-poti puhastusvahend Original, HARPIC, 750 ml" (3.85 €) |
+| Barbora "WC puhastusvahend FROSCH lavender 750ml" (2.39 €) | Rimi "WC puhastusvahend Frosch vaarika 750ml" (2.35 €) |
+| Barbora "WC puhastusvahend FROSCH lavender 750ml" (2.39 €) | Rimi "WC puhastusvahend Frosch sidruni 750ml" (2.35 €) |
+| Barbora "WC puhastusvahend FROSCH citrus 750ml" (2.35 €) | Rimi "WC puhastusvahend Frosch vaarika 750ml" (2.35 €) |
+
+### Pet food (17)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Suupiste kassidele DREAMIES lõhega 60g" (1.79 €) | Rimi "Kasside suupiste Dreamies lõhega 60g" (1.29 €) |
+| Barbora "Kassimaius FELIX Deli Moments lõhe 4x10g" (1.59 €) | Selver "Täiendsööt. Kassimaius FELIX Deli Moments lõhe 4x10g, FELIX," (1.99 €) |
+| Barbora "Kassimaius FELIX Deli Moments kana 4x10g" (1.59 €) | Selver "Täiendsööt. Kassimaius FELIX Deli Moments kana 4x10g, FELIX," (1.99 €) |
+| Barbora "Kiisueine SHEBA kodulind 4x85g" (3.49 €) | Selver "Kiisueine kodulinnuvalik 4-pakk, SHEBA, 4x85 g" (3.49 €) |
+| Barbora "Kiisueine lihavalik SHEBA 4x85g" (3.49 €) | Selver "Kiisueine kodulinnuvalik 4-pakk, SHEBA, 4x85 g" (3.49 €) |
+| Barbora "Kiisueine SHEBA lõhega, kastmes 85g" (1.05 €) | Rimi "Kiisueine Sheba lõhega 85g" (0.75 €) |
+| Barbora "Kiisueine SHEBA lõhega, kastmes 85g" (1.05 €) | Selver "Täistoit. Kiisueine lõhega, SHEBA, 85g" (0.99 €) |
+| Barbora "Kiisueine SHEBA kanalihaga, kastmes 85g" (1.05 €) | Rimi "Kiisueine Sheba kanalihaga 85g" (0.75 €) |
+| Barbora "Kiisueine linnuliha valik SHEBA 4x85g" (3.49 €) | Rimi "Kiisueine Sheba linnuliha tarretises 4x85g" (1.99 €) |
+| Barbora "Kassipasteet lõhega SHEBA 85g" (0.79 €) | Rimi "Kiisueine Sheba lõhega 85g" (0.75 €) |
+| Barbora "Kuiv kassitoit tuunikalaga WHISKAS 800g" (4.79 €) | Rimi "Kassitoit tuunikalaga Whiskas Adult 800g" (4.99 €) |
+| Barbora "Koeramaiused PEDIGREE markies 150g" (1.25 €) | Rimi "Koeraküpsised Pedigree Markies 150 g" (2.29 €) |
+| Barbora "Koeramaius Rodeo PEDIGREE 70g" (0.90 €) | Rimi "Koeramaiused Pedigree Rodeo, 4tk, 70g" (1.35 €) |
+| Barbora "Koeramaius Rodeo PEDIGREE 70g" (0.90 €) | Selver "Täiendsööt. Koeramaius Rodeo, PEDIGREE, 70g" (1.29 €) |
+| Barbora "Koeramaius kana Jerkies PEDIGREE 70g" (1.39 €) | Rimi "Koeramaius Pedigree Ranchos Jerkies kana 70g" (2.19 €) |
+| Rimi "Kiisueine Sheba lõhega 85g" (0.75 €) | Selver "Täistoit. Kiisueine lõhega, SHEBA, 85g" (0.99 €) |
+| Rimi "Kasside suupiste Dreamies pardilihaga 60g" (1.29 €) | Selver "Kassi suupiste pardilihaga, DREAMIES, 60 g" (1.99 €) |
 

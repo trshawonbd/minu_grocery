@@ -93,7 +93,9 @@ progress as each batch finishes.
    (& fries) — *done*
 6. **Meat products & fish**: sausages, ham & cold cuts, fish & seafood
    (fresh, smoked, canned) — *done*
-7. **Baby food, household, personal care, pet food**
+7. **Baby food, household, personal care, pet food** — *done* (plus a
+   fifth category the owner asked for mid-batch, **Diapers & baby
+   wipes**, with its own size+piece-count matching rule)
 8. **Abbreviation-matching round** (after batch 7): one pass over the
    low-match categories — Chips & snacks, Tea & cocoa, Pasta, and any
    other with few matches — using `data/review.md`'s "possible matches
@@ -123,6 +125,46 @@ online/publicly reachable.
   product, and anything already owned by an existing category (sugar
   in any form, starch, flour, quinoa/millet → Flour & sugar / Rice &
   grains).
+- **Baby food excludes formula** — Baby formula is its own category,
+  and no product goes in two categories. Follow-on/growing-up formula
+  (found while mapping batch 7) isn't scraped anywhere — a known gap,
+  not covered by either category, left for the owner to decide later.
+- **Personal care is a grocery category, the three grocery stores
+  only** — kept separate from the planned Beauty deals feature (beauty
+  stores). Hygiene only: deodorant, shampoo/conditioner/styling,
+  shower gel/soap, hand/body lotion, shaving, oral care, feminine
+  hygiene. Excluded: face care, decorative cosmetics/makeup, Korean
+  skincare, hair dye, tanning products (all the Beauty feature's own
+  territory), home pharmacy (OTC medicine, wound care, vitamins/
+  supplements, pregnancy tests — a legal/regulatory angle), perfume/
+  eau de toilette, and every reusable tool (hairbrushes/combs,
+  manicure/pedicure implements, bath sponges).
+- **Diapers & baby wipes** is its own category (the owner's call, not
+  folded into Personal care) — every-day absorbent diapers and wet
+  wipes only, not swim/bedwetting-pants diapers (a different product,
+  not sized the same way). Its matching rule is different from every
+  other category: size number and piece count must both agree, not
+  brand+weight — the weight range on the pack is redundant advice, not
+  the purchasing unit (see `diaperMatching` in `scraper/categories.js`,
+  `sameDiaperProduct` in `scraper/match-products.js`).
+- **Household is consumables only** — cleaning supplies and paper
+  products (the things people repurchase regularly), never kitchen
+  tools, small appliances, textiles/bedding, home décor, garden goods,
+  reusable cleaning tools (cloths, sponges, gloves), shoe/clothing
+  care, or pest control (kept out the same conservative way home
+  pharmacy is, for the same reason).
+- **Pet food is food only** — never litter, toys, or other pet
+  supplies/accessories.
+- Categories with a lot of named product-line variety per brand
+  (cosmetics/toiletries, cleaning products, pet food by flavour/
+  species) need strict packaging (the default) — the lenient path's
+  brand+size(+numeric-stage) check never reads a named variant word at
+  all, and real, different products at the same brand+size can match
+  as if identical. Found the hard way in batch 7: different shampoo
+  lines, different scents, and once a dog food matching a cat food.
+  Only turn strict packaging off for a category that's genuinely
+  produce-shaped (loose fruit/veg) or as narrow and low-variant as
+  Baby formula.
 
 ## Fast-mode review (required for every batch)
 

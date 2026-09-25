@@ -136,6 +136,43 @@ const results = [
       assert.equal(meat[0].signature.descriptors, "broilerifilee külmutatud", "the same word stays a real descriptor where it isn't implied");
     });
   }),
+  test("loadRawPool propagates fixedWeightMustMatch from meta.json (Fish & seafood) and leaves it unset for a category that never opted in", () => {
+    withTempDir((dir) => {
+      writeRaw(
+        "Fish & seafood",
+        {
+          order: 0,
+          strictPackaging: true,
+          matchAcrossWeights: true,
+          diaperMatching: false,
+          fixedWeightMustMatch: true,
+          resultsByStore: {
+            Barbora: [{ store: "Barbora", name: "Sprotid õlis KAIJA, 190g", price: 1.99, currency: "EUR", url: "x", ean: null, brand: "KAIJA" }],
+          },
+        },
+        { dir }
+      );
+      writeRaw(
+        "Meat",
+        {
+          order: 1,
+          strictPackaging: true,
+          matchAcrossWeights: true,
+          diaperMatching: false,
+          resultsByStore: {
+            Barbora: [{ store: "Barbora", name: "Seahakkliha RAKVERE 400g", price: 3.49, currency: "EUR", url: "x", ean: null, brand: "RAKVERE" }],
+          },
+        },
+        { dir }
+      );
+      const fish = loadRawPool("Fish & seafood", { dir });
+      assert.equal(fish[0].fixedWeightMustMatch, true);
+      assert.equal(fish[0].signature.fixedWeightMustMatch, true);
+      const meat = loadRawPool("Meat", { dir });
+      assert.equal(meat[0].fixedWeightMustMatch, undefined);
+      assert.equal(meat[0].signature.fixedWeightMustMatch, false);
+    });
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

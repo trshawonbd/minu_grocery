@@ -1106,6 +1106,25 @@ const tests = [
       assert.equal(sameProduct(baby("Barbora", "Kanaroog riisiga ELLA'S KITCHEN 130g 7k"), baby("Selver", "Kanaroog riisiga, ELLA'S KITCHEN, 130 g")), true);
     },
   },
+  {
+    name: "Fish & seafood: the owner's call — a fixed-weight pack or tin matches only an equal weight (190g sprats are not 240g sprats; a 900g bag of shrimp is not a 300g jar), a per-kg listing may still match across weights, and Meat keeps its own fully relaxed rule",
+    run: () => {
+      const fish = (store, name, brand) => buildItem("Fish & seafood", store, name, { brand });
+      // Real tins from the round's ambiguous groups.
+      assert.equal(sameProduct(fish("Barbora", "Sprotid õlis KAIJA, 190g", "kaija"), fish("Rimi", "Sprotid õlis EO Kaija 190g", "kaija")), true);
+      assert.equal(sameProduct(fish("Barbora", "Sprotid õlis KAIJA, 240g", "kaija"), fish("Rimi", "Sprotid õlis EO Kaija 190g", "kaija")), false);
+      assert.equal(sameProduct(fish("Barbora", "Heeringafilee traditsiooniline VICI,240g", "vici"), fish("Selver", "Heeringafilee traditsiooniline, VICI, 240 g", "vici")), true);
+      assert.equal(sameProduct(fish("Barbora", "Heeringafilee traditsiooniline VICI,400g", "vici"), fish("Selver", "Heeringafilee traditsiooniline, VICI, 240 g", "vici")), false);
+      assert.equal(sameProduct(fish("Barbora", "Kooritud krevetid soolvees 900g", "marwi"), fish("Rimi", "Krevetid kooritud soolvees Marwi MSC 300/140g", "marwi")), false);
+      // Per-kg (no size stated) still matches a fixed pack of the same
+      // fish — the rule fresh fish is sold under is untouched.
+      assert.equal(sameProduct(fish("Rimi", "Lõhefilee nahaga Avektra kg", "avektra"), fish("Selver", "Lõhefilee nahaga, AVEKTRA, 500 g", "avektra")), true);
+      // Meat is a separate, earlier decision: different pack weights of
+      // the same cut are still the same product there.
+      const meat = (store, name) => buildItem("Meat", store, name, { brand: "rakvere" });
+      assert.equal(sameProduct(meat("Barbora", "Seahakkliha RAKVERE 400g"), meat("Rimi", "Seahakkliha Rakvere 500g")), true);
+    },
+  },
 ];
 
 let pass = 0;

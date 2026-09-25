@@ -156,6 +156,31 @@ online/publicly reachable.
   pharmacy is, for the same reason).
 - **Pet food is food only** — never litter, toys, or other pet
   supplies/accessories.
+- **Fish & seafood pack sizes** (owner, 2026-09-25): a fixed-weight
+  pack or tin matches only an equal weight (a 190g tin of sprats is
+  not a 240g tin); only a per-kg listing (no size in the name) may
+  match across weights. Meat keeps its own earlier rule (400g, 500g
+  and per-kg of the same cut are one product). `fixedWeightMustMatch`
+  in `scraper/categories.js`.
+- **Abbreviation round — decided NOT to normalize (yet), owner has
+  the list, undecided as of 2026-09-25**: "purutee" vs "tee"
+  (crushed-leaf vs unspecified tea), ridged/textured variants
+  ("sakilised" chips, "rigate" conchiglie vs plain), Panzani
+  "Premium", Panzani "3-minuti" quick-cook, pasta numbers ("nr.5" —
+  the digit isn't compared yet), the "Fitlap" co-branding label,
+  organic wording (Öko / Ökoloogiline / BIO / Mahe as one word or
+  not), pet life-stage labels ("Adult"), "kastmes" (in gravy) vs
+  unstated, Dilmah's "Tseil."/"karp". Leave these as non-matches
+  until the owner decides; don't add a rule for any of them without
+  asking.
+- **Per-category implied words**: a word true of every item in a
+  category (`impliedDescriptors` in `scraper/categories.js` —
+  "külmutatud" in the frozen categories, Pasta's generic
+  makaronid/pasta/durum, "jäätis" in Ice cream, Selver's feed-law
+  labels in Pet food) is dropped from descriptors for that category
+  only. Never drop such a word globally: "külmutatud" must keep
+  blocking frozen vs fresh in Meat/Fish, "pasta" is a real word (a
+  paste) in Sauces/Spices.
 - Categories with a lot of named product-line variety per brand
   (cosmetics/toiletries, cleaning products, pet food by flavour/
   species) need strict packaging (the default) — the lenient path's

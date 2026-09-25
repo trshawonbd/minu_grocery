@@ -1216,6 +1216,15 @@ const CATEGORIES = [
     name: "Fish & seafood",
     cheapestByUnitPrice: true,
     matchAcrossWeights: true,
+    // The owner's call (abbreviation round): matchAcrossWeights here
+    // applies to per-kg listings only — a fixed-weight pack or tin
+    // (a 190g tin of sprats, a 240g herring fillet pack) matches only
+    // an equal weight. Found by hand: the fully relaxed rule put seven
+    // real tin/pack pairs into data/ambiguous.json (Vici herring
+    // 240g/400g/1kg all matching each other) and matched a 900g bag
+    // of shrimp with a 300g jar. Meat keeps the relaxed rule — a
+    // separate, earlier decision of the owner's.
+    fixedWeightMustMatch: true,
     urls: {
       barbora: [
         "https://barbora.ee/liha-kala-valmistoit/varske-kala-ja-mereannid/varske-kala",
@@ -1500,14 +1509,27 @@ function impliedDescriptorsFor(categoryName) {
   return Array.isArray(category.impliedDescriptors) ? category.impliedDescriptors : [];
 }
 
+// Whether a category narrows matchAcrossWeights to per-kg listings
+// only (currently just Fish & seafood — see its entry above and
+// sameBrandedProduct in match-products.js). Off unless a category
+// explicitly opts in; throws on an unknown name like the others.
+function fixedWeightMustMatchFor(categoryName) {
+  const category = CATEGORIES.find((c) => c.name === categoryName);
+  if (!category) {
+    throw new Error(`Unknown category "${categoryName}". Known categories: ${CATEGORIES.map((c) => c.name).join(", ")}`);
+  }
+  return category.fixedWeightMustMatch === true;
+}
+
 function buildItem(categoryName, store, name, extra = {}) {
   const item = { store, name, price: 0, currency: "EUR", url: "x", ean: null, ...extra };
   if (strictPackagingFor(categoryName)) item.strictPackaging = true;
   if (matchAcrossWeightsFor(categoryName)) item.matchAcrossWeights = true;
   if (diaperMatchingFor(categoryName)) item.diaperMatching = true;
+  if (fixedWeightMustMatchFor(categoryName)) item.fixedWeightMustMatch = true;
   const implied = impliedDescriptorsFor(categoryName);
   if (implied.length > 0) item.impliedDescriptors = implied;
   return item;
 }
 
-module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, impliedDescriptorsFor, buildItem };
+module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, fixedWeightMustMatchFor, impliedDescriptorsFor, buildItem };

@@ -93,6 +93,7 @@ async function main() {
       strictPackaging: category.strictPackaging !== false,
       matchAcrossWeights: category.matchAcrossWeights === true,
       diaperMatching: category.diaperMatching === true,
+      fixedWeightMustMatch: category.fixedWeightMustMatch === true,
       impliedDescriptors: category.impliedDescriptors || [],
       resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
     });

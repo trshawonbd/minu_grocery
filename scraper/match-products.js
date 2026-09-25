@@ -1029,6 +1029,10 @@ function computeSignature(item) {
     // sameBrandedProduct. Off by default so this never changes
     // behavior for a category that hasn't opted in.
     matchAcrossWeights: item.matchAcrossWeights === true,
+    // Set by the caller per category (currently just Fish & seafood) —
+    // narrows matchAcrossWeights to per-kg listings only, see
+    // sameBrandedProduct. Off by default.
+    fixedWeightMustMatch: item.fixedWeightMustMatch === true,
     // Set by the caller per category (currently just Diapers & baby
     // wipes) — see sameDiaperProduct. Off by default so this never
     // changes behavior for a category that hasn't opted in; the other
@@ -1074,6 +1078,15 @@ function sameBrandedProduct(sigA, sigB) {
     // different purchase from a single pack, even at the same brand
     // and per-unit weight — never folded together.
     if (isMultipack(sigA.size) !== isMultipack(sigB.size)) return false;
+    // Fish & seafood (the owner's call, abbreviation round): a fixed-
+    // weight pack or tin only ever matches an equal weight — a 190g tin
+    // of sprats is not a 240g tin. Only a per-kg listing (no size in
+    // the name at all) may still match across weights, the way fresh
+    // fish is sold. Meat keeps the fully relaxed rule above — its
+    // 400g/500g/per-kg decision was the owner's own, separately.
+    if (sigA.fixedWeightMustMatch && sigB.fixedWeightMustMatch && sigA.size && sigB.size && sigA.size !== sigB.size) {
+      return false;
+    }
   } else if (!sigA.size || !sigB.size || sigA.size !== sigB.size) {
     return false;
   }

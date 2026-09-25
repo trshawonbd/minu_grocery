@@ -9892,5 +9892,112 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Farmi Keefir täispiimast 1000g",
+    "category": "Kefir & buttermilk",
+    "prices": {
+      "barbora": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/keefir-farmi-taispiimast-3-8-4-2-proc-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 1.25
+      },
+      "rimi": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/keefir-taispiimast-farmi-3-8-4-2-1kg/p/915621",
+        "size": "1000g",
+        "storeUnitPrice": 1.25
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Farmi Hapendatud pett 1000g",
+    "category": "Kefir & buttermilk",
+    "prices": {
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/hapendatud-pett-farmi-1kg/p/938843",
+        "size": "1000g",
+        "storeUnitPrice": 1.29
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapendatud-pett-farmi-1-kg",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "1000g",
+        "storeUnitPrice": 1.31
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hellus Keefir laktoosivaba lactose-free 1000g",
+    "category": "Kefir & buttermilk",
+    "prices": {
+      "rimi": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/keefir-laktoosivaba-hellus-1kg/p/952482",
+        "size": "1000g",
+        "storeUnitPrice": 2.09
+      },
+      "selver": {
+        "price": 2.12,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefir-laktoosivaba-hellus-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 2.12
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Farmi Hapendatud täispiim 1000g",
+    "category": "Kefir & buttermilk",
+    "prices": {
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/hapendatud-taispiim-3-6-4-2-farmi-1kg/p/909348",
+        "size": "1000g",
+        "storeUnitPrice": 1.89
+      },
+      "selver": {
+        "price": 1.92,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapendatud-taispiim-3-6-4-2-farmi-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 1.92
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Farmi Rjaženka 400g",
+    "category": "Kefir & buttermilk",
+    "prices": {
+      "rimi": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/rjazenka-farmi-400g/p/4007169",
+        "size": "400g",
+        "storeUnitPrice": 2.22
+      },
+      "selver": {
+        "price": 1.01,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rjazenka-farmi-400-g",
+        "size": "400g",
+        "storeUnitPrice": 2.53
+      }
+    },
+    "matchedVia": "automatic"
   }
 ]

@@ -19,7 +19,7 @@ products in each as of the last run (`data/prices.json`):
 
 | Category | Matched products |
 |---|---|
-| Baby formula | 12 |
+| Baby formula | 20 |
 | Fruits & vegetables | 67 |
 | Dairy | 41 |
 | Bread | 83 |
@@ -57,7 +57,7 @@ products in each as of the last run (`data/prices.json`):
 | Personal care | 196 |
 | Household | 60 |
 | Pet food | 4 |
-| **Total** | **1509** |
+| **Total** | **1517** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's

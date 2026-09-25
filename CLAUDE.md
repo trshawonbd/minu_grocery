@@ -127,8 +127,9 @@ online/publicly reachable.
   grains).
 - **Baby food excludes formula** — Baby formula is its own category,
   and no product goes in two categories. Follow-on/growing-up formula
-  (found while mapping batch 7) isn't scraped anywhere — a known gap,
-  not covered by either category, left for the owner to decide later.
+  (stage 2, 3, 4 and similar) is scraped as part of **Baby formula**
+  (the owner's decision), matched the same way stage 1 always has
+  been — stage numbers must agree.
 - **Personal care is a grocery category, the three grocery stores
   only** — kept separate from the planned Beauty deals feature (beauty
   stores). Hygiene only: deodorant, shampoo/conditioner/styling,

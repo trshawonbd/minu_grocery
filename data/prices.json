@@ -23927,115 +23927,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Maahärra Köögiviljasegu fit 400g",
-    "category": "Frozen vegetables & berries",
-    "prices": {
-      "rimi": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-koogiviljad/koogiviljasegu-fit-maaharra-400g/p/973644",
-        "size": "400g",
-        "storeUnitPrice": 3.72
-      },
-      "selver": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/fit-koogiviljasegu-maaharra-400-g",
-        "size": "400g",
-        "storeUnitPrice": 3.73
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Härmavili Köögiviljad šampinjonidega 400g",
-    "category": "Frozen vegetables & berries",
-    "prices": {
-      "rimi": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-koogiviljad/koogiviljad-sampinjonidega-harmavili-400g/p/4008452",
-        "size": "400g",
-        "storeUnitPrice": 5.72
-      },
-      "selver": {
-        "price": 2.26,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/koogiviljad-sampinjonidega-harmavili-400-g",
-        "cardPrice": 1.75,
-        "cardName": "Partner",
-        "size": "400g",
-        "storeUnitPrice": 5.65
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Maahärra Pühapäevapada 400g",
-    "category": "Frozen vegetables & berries",
-    "prices": {
-      "rimi": {
-        "price": 1.75,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-koogiviljad/puhapaevapada-maaharra-400g/p/260403",
-        "size": "400g",
-        "storeUnitPrice": 4.37
-      },
-      "selver": {
-        "price": 1.72,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/puhapaevapada-maaharra-400-g",
-        "size": "400g",
-        "storeUnitPrice": 4.3
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Hortex Metsaseened julienne 400g",
-    "category": "Frozen vegetables & berries",
-    "prices": {
-      "rimi": {
-        "price": 3.65,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-seened/metsaseened-hortex-julienne-400g/p/267544",
-        "size": "400g",
-        "storeUnitPrice": 9.12
-      },
-      "selver": {
-        "price": 3.65,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/julienne-metsaseened-hortex-400-g",
-        "size": "400g",
-        "storeUnitPrice": 9.13
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Maahärra seenesegu 400g",
-    "category": "Frozen vegetables & berries",
-    "prices": {
-      "rimi": {
-        "price": 3.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-seened/maaharra-seenesegu-400g/p/4008449",
-        "size": "400g",
-        "storeUnitPrice": 8.22
-      },
-      "selver": {
-        "price": 3.04,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/seenesegu-maaharra-400-g",
-        "cardPrice": 2.59,
-        "cardName": "Partner",
-        "size": "400g",
-        "storeUnitPrice": 7.6
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Rannarootsi Külmutatud ehe mini pelmeenid 350g",
     "category": "Dumplings, pizza & fries",
     "prices": {
@@ -36724,6 +36615,322 @@
         "url": "https://www.selver.ee/pasta-elbows-reggia-500-g",
         "size": "500g",
         "storeUnitPrice": 3.74
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hortex julienne metsaseened 400g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-julienne-metsaseened-hortex-400-g",
+        "size": "400g",
+        "storeUnitPrice": 6.23
+      },
+      "rimi": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-seened/metsaseened-hortex-julienne-400g/p/267544",
+        "size": "400g",
+        "storeUnitPrice": 9.12
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/julienne-metsaseened-hortex-400-g",
+        "size": "400g",
+        "storeUnitPrice": 9.13
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra kartuli sibulasegu 1000g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-kartuli-sibulasegu-maaharra-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 2.89
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartuli-sibulasegu-maaharra-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 2.94
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra seenesegu 400g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-seenesegu-maaharra-400-g",
+        "size": "400g",
+        "storeUnitPrice": 7.48
+      },
+      "rimi": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-seened/maaharra-seenesegu-400g/p/4008449",
+        "size": "400g",
+        "storeUnitPrice": 8.22
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seenesegu-maaharra-400-g",
+        "cardPrice": 2.59,
+        "cardName": "Partner",
+        "size": "400g",
+        "storeUnitPrice": 7.6
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra fit tervisepada 400g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-fit-tervisepada-maaharra-400-g",
+        "size": "400g",
+        "storeUnitPrice": 4.73
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fit-tervisepada-maaharra-400-g",
+        "size": "400g",
+        "storeUnitPrice": 4.73
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra brokoli ja lillkapsas 400g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-lillkapsas-ja-brokoli-maaharra-400-g",
+        "size": "400g",
+        "storeUnitPrice": 4.48
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maaharra-lillkapsas-ja-brokoli-maaharra-400-g",
+        "cardPrice": 1.45,
+        "cardName": "Partner",
+        "size": "400g",
+        "storeUnitPrice": 4.55
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Härmavili ahjuköögiviljad 700g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-ahjukoogiviljad-harmavili-700-g",
+        "size": "700g",
+        "storeUnitPrice": 6.27
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ahjukoogiviljad-harmavili-700-g",
+        "size": "700g",
+        "storeUnitPrice": 4.56
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hortex marjasegu vaarikatega 300g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-marjasegu-vaarikatega-hortex-300-g",
+        "size": "300g",
+        "storeUnitPrice": 9.3
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marjasegu-vaarikatega-hortex-300-g",
+        "size": "300g",
+        "storeUnitPrice": 10.97
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Härmavili mustikad vaarikad 300g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-vaarikad-mustikad-harmavili-300-g",
+        "size": "300g",
+        "storeUnitPrice": 19.63
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarikad-mustikad-harmavili-300-g",
+        "size": "300g",
+        "storeUnitPrice": 19.63
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Härmavili maasikas rabarber 300g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-maasikas-rabarber-harmavili-300-g",
+        "size": "300g",
+        "storeUnitPrice": 8.97
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasikas-rabarber-harmavili-300g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "300g",
+        "storeUnitPrice": 8.97
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra marjasegu 300g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-marjasegu-maaharra-300-g",
+        "size": "300g",
+        "storeUnitPrice": 8.63
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marjasegu-maaharra-300-g",
+        "size": "300g",
+        "storeUnitPrice": 8.63
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Bauer mustsõstar 300g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "barbora": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-mustsostar-bauer-300-g",
+        "size": "300g",
+        "storeUnitPrice": 9.17
+      },
+      "selver": {
+        "price": 2.23,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustsostar-bauer-300-g",
+        "size": "300g",
+        "storeUnitPrice": 7.43
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra Köögiviljasegu fit 400g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-koogiviljad/koogiviljasegu-fit-maaharra-400g/p/973644",
+        "size": "400g",
+        "storeUnitPrice": 3.72
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fit-koogiviljasegu-maaharra-400-g",
+        "size": "400g",
+        "storeUnitPrice": 3.73
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Härmavili Köögiviljad šampinjonidega 400g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-koogiviljad/koogiviljad-sampinjonidega-harmavili-400g/p/4008452",
+        "size": "400g",
+        "storeUnitPrice": 5.72
+      },
+      "selver": {
+        "price": 2.26,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koogiviljad-sampinjonidega-harmavili-400-g",
+        "cardPrice": 1.75,
+        "cardName": "Partner",
+        "size": "400g",
+        "storeUnitPrice": 5.65
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra Pühapäevapada 400g",
+    "category": "Frozen vegetables & berries",
+    "prices": {
+      "rimi": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/kulmutatud-koogiviljad/puhapaevapada-maaharra-400g/p/260403",
+        "size": "400g",
+        "storeUnitPrice": 4.37
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puhapaevapada-maaharra-400-g",
+        "size": "400g",
+        "storeUnitPrice": 4.3
       }
     },
     "matchedVia": "automatic"

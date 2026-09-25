@@ -8,17 +8,17 @@ Matching pools every store's items for a category together (scraper/match-produc
 
 | | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Sausages | Ham & cold cuts | Fish & seafood | Baby food | Diapers & baby wipes | Personal care | Household | Pet food | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 121 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 257 + 157 + 162 | 142 + 78 + 78 | 1648 + 1600 + 764 | 716 + 644 + 329 | 389 + 324 + 194 | 23853 |
-| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 5 | 6 | 10 | 61 | 53 | 20 | 5 | 44 | 196 | 60 | 4 | 1509 |
-| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 0 | 0 | 0 | 23 | 9 | 2 | 0 | 29 | 37 | 4 | 0 | 397 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 0 | 2 | 1 | 17 | 14 | 2 | 4 | 1 | 91 | 45 | 2 | 411 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 0 | 4 | 1 | 14 | 12 | 13 | 1 | 13 | 42 | 7 | 2 | 418 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 5 | 0 | 8 | 7 | 18 | 3 | 0 | 1 | 26 | 4 | 0 | 283 |
-| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 189 | 636 | 257 | 382 | 516 | 723 | 566 | 111 | 3583 | 1565 | 899 | 20211 |
+| Scraped (Barbora + Rimi + Selver) | 49 + 31 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 121 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 257 + 157 + 162 | 142 + 78 + 78 | 1648 + 1600 + 764 | 716 + 644 + 329 | 389 + 324 + 194 | 23889 |
+| Matched (any store combination) | 20 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 5 | 6 | 10 | 61 | 53 | 20 | 5 | 44 | 196 | 60 | 4 | 1517 |
+| — at all 3 stores | 8 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 0 | 0 | 0 | 23 | 9 | 2 | 0 | 29 | 37 | 4 | 0 | 404 |
+| — at 2 stores only (Barbora + Rimi) | 5 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 0 | 2 | 1 | 17 | 14 | 2 | 4 | 1 | 91 | 45 | 2 | 415 |
+| — at 2 stores only (Barbora + Selver) | 4 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 0 | 4 | 1 | 14 | 12 | 13 | 1 | 13 | 42 | 7 | 2 | 420 |
+| — at 2 stores only (Rimi + Selver) | 3 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 5 | 0 | 8 | 7 | 18 | 3 | 0 | 1 | 26 | 4 | 0 | 278 |
+| Unmatched | 57 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 189 | 636 | 257 | 382 | 516 | 723 | 566 | 111 | 3583 | 1565 | 899 | 20230 |
 | Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |
-| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 2 | 3 | 0 | 15 | 0 | 0 | 0 | 57 |
+| Ambiguous groups | 0 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 2 | 3 | 0 | 15 | 0 | 0 | 0 | 55 |
 
-**Note:** recomputed 1507 matches from data/raw/, but data/prices.json has 1509 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 1515 matches from data/raw/, but data/prices.json has 1517 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
@@ -31,16 +31,24 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Põnn Ühepajatoit k sealihaga 130g | Baby food | 2.19 € | 2.19 € | — | Barbora + Rimi |
 | Aptamil 1 400g | Baby formula | 10.99 € | 11.59 € | — | Barbora |
 | Aptamil 1 800g | Baby formula | 15.99 € | 18.99 € | 19.19 € | Barbora |
-| Aptamil Piimapulber 3 800g | Baby formula | — | 14.05 € | 19.19 € | Rimi |
-| Aptamil Piimapulber 4 800g | Baby formula | — | 14.05 € | 19.19 € | Rimi |
-| Aptamil Piimasegu 2 1200g | Baby formula | — | 24.49 € | 24.49 € | Rimi + Selver |
-| Aptamil Piimasegu 2 800g | Baby formula | — | 14.05 € | 19.19 € | Rimi |
-| Aptamil Piimasegu 3 1200g | Baby formula | — | 24.49 € | 24.49 € | Rimi + Selver |
+| Aptamil 2 1200g | Baby formula | 26.99 € | 24.49 € | 24.49 € | Rimi + Selver |
+| Aptamil 2 800g | Baby formula | 15.99 € | 14.05 € | 19.19 € | Rimi |
+| Aptamil 3 1200g | Baby formula | 26.99 € | 24.49 € | 24.49 € | Rimi + Selver |
+| Aptamil 3 800g | Baby formula | 15.99 € | 14.05 € | 19.19 € | Rimi |
+| Aptamil 4 800g | Baby formula | 15.99 € | 14.05 € | 19.19 € | Rimi |
+| Aptamil Jätkupiimasegu 2 2x200ml | Baby formula | 4.49 € | 4.39 € | 4.39 € | Rimi + Selver |
+| Aptamil Jätkupiimasegu comfort2 400g | Baby formula | 13.99 € | 14.75 € | — | Barbora |
+| Aptamil Piimajook 3 200ml | Baby formula | 2.69 € | 2.29 € | — | Rimi |
+| Aptamil Piimasegu ar 400g | Baby formula | 13.19 € | 13.19 € | — | Barbora + Rimi |
+| Aptamil Piimasegu comfort 400g | Baby formula | — | 13.99 € | 13.99 € | Rimi + Selver |
+| Friso Jätkupiimasegu 2 800g | Baby formula | 26.45 € | — | 22.90 € | Selver |
 | Hipp Jätkup 2 800g | Baby formula | — | 19.99 € | 20.90 € | Rimi |
+| Hipp Öko 2 400g | Baby formula | 16.49 € | — | 20.32 € (16.49 € Partner) | Barbora |
 | Hipp Öko 400g | Baby formula | 20.29 € | — | 20.32 € | Barbora |
 | Hipp P 1 800g | Baby formula | — | 19.99 € | 20.90 € | Rimi |
-| Tutteli Piimasegu 2 650g | Baby formula | — | 9.99 € | 9.99 € | Rimi + Selver |
+| Hipp Piimasegu 3 500g | Baby formula | 10.49 € | 11.99 € | — | Barbora |
 | Tutteli Tuttelitm 1 650g | Baby formula | 9.99 € | — | 9.99 € | Barbora + Selver |
+| Tutteli Tuttelitm 2 650g | Baby formula | 11.49 € | 9.99 € | 9.99 € | Rimi + Selver |
 | Dr.oetker Küpsetuspulber 160g | Baking supplies | — | 2.99 € | 3.00 € | Rimi |
 | Dr.oetker Küpsetuspulber 30g | Baking supplies | 0.49 € | 0.55 € | — | Barbora |
 | Dr.oetker Söögisooda 70g | Baking supplies | 0.60 € | 0.65 € | — | Barbora |
@@ -1540,8 +1548,6 @@ Card prices shown in parentheses are informational only — never used to decide
 
 | Category | Items in the group |
 |---|---|
-| Baby formula | Barbora "Mahepiimasegu imikutele HOLLE 400g sünn." (11.59 €); Selver "Kitsepiimasegu nr2 6+, HOLLE, 400 g" (20.50 €); Selver "Kitsepiimasegu nr1 0+, HOLLE, 400 g" (20.50 €) |
-| Baby formula | Rimi "Piimasegu Aptamil Comfort sünnist 400g" (13.99 €); Rimi "Piimasegu Aptamil Comfort 2 al. 6k 400g" (14.75 €); Selver "Piimasegu Comfort nr1 0+, APTAMIL, 400 g" (13.99 €) |
 | Fruits & vegetables | Barbora "Kartul varajane lahtine kg" (0.69 €); Barbora "Kartul varajane pakitud, kg" (0.99 €); Rimi "Kartul varajane pesemata, kg" (0.49 €); Selver "Kartul pesemata, kg" (0.37 €) |
 | Fruits & vegetables | Barbora "Sibul võrgus, kg" (0.75 €); Barbora "Eesti sibul võrgus, 1tk" (2.99 €); Rimi "Sibul võrgus Eesti kg" (2.99 €) |
 | Fruits & vegetables | Barbora "Arbuus, kg" (0.99 €); Selver "Arbuus seemneteta, kg" (1.99 €); Selver "Arbuus, kg" (1.59 €) |
@@ -1709,10 +1715,10 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Makaronid Puntine TARTU MILL 500g" (1.03 €) | Rimi "Durumnisupasta Puntine Tartu Mill 500g" (1.39 €) |
 | Barbora "Makaronid Mini Penne PANZANI 500g" (1.82 €) | Rimi "Makaronid Penne Rigatte Panzani 500g" (2.19 €) |
 | Barbora "Makaronid Mini Penne PANZANI 500g" (1.82 €) | Selver "Mini Penne torud, PANZANI, 500 g" (2.43 €) |
-| Barbora "Spagetid nr7 TARTU MILL 500g" (1.01 €) | Selver "Durumnisujahust spagetid nr.7, TARTU MILL, 500 g" (1.15 €) |
 | Barbora "Makaronid Vermicelli PANZANI 500g" (1.49 €) | Rimi "Makaronid Chifferini Panzani 500g" (2.19 €) |
 | Barbora "Makaronid Vermicelli PANZANI 500g" (1.49 €) | Rimi "Makaronid Fusilli Panzani  500g" (2.19 €) |
 | Barbora "Täistera makar.Fusilli TARTU MILL 500g" (1.10 €) | Selver "Täistera fusilli, TARTU MILL, 500 g" (1.47 €) |
+| Barbora "Makaronid Ditali Lisci TARTU MILL 500g" (1.03 €) | Rimi "Makaronid durum Ditali Lisci Tartu Mill 500g" (1.39 €) |
 
 ### Rice & grains (16)
 

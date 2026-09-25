@@ -1,266 +1,5 @@
 [
   {
-    "name": "Aptamil 1 800g",
-    "category": "Baby formula",
-    "prices": {
-      "barbora": {
-        "price": 15.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/piim-poh-piimasegu-aptamil-1-al-sun-800-g",
-        "size": "800g",
-        "storeUnitPrice": 19.99
-      },
-      "rimi": {
-        "price": 18.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-1-al-sun-800g/p/704117",
-        "size": "800g"
-      },
-      "selver": {
-        "price": 19.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piimasegu-nutribiotik-1-alates-sunnist-aptamil-800g",
-        "size": "800g",
-        "storeUnitPrice": 23.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Aptamil 1 400g",
-    "category": "Baby formula",
-    "prices": {
-      "barbora": {
-        "price": 10.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/piim-poh-piimasegu-aptamil-1-al-sun-400-g",
-        "size": "400g",
-        "storeUnitPrice": 27.48
-      },
-      "rimi": {
-        "price": 11.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-1-al-sun-400g/p/7156910",
-        "size": "400g"
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Hipp Öko 400g",
-    "category": "Baby formula",
-    "prices": {
-      "barbora": {
-        "price": 20.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/oko-kitsepiimasegu-hipp-pre-400-g-sunn",
-        "size": "400g",
-        "storeUnitPrice": 50.73
-      },
-      "selver": {
-        "price": 20.32,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/pre-imiku-piimasegu-kitsepiimast-oko-al-sunnist-hipp-400-g",
-        "size": "400g",
-        "storeUnitPrice": 50.8
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Tutteli Tuttelitm 1 650g",
-    "category": "Baby formula",
-    "prices": {
-      "barbora": {
-        "price": 9.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/piimasegu-tutteli-1-650-g-0-k",
-        "size": "650g",
-        "storeUnitPrice": 15.37
-      },
-      "selver": {
-        "price": 9.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piimasegu-1-alates-sunnist-tutteli-650-g",
-        "size": "650g",
-        "storeUnitPrice": 15.37
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Aptamil Piimasegu 2 800g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 14.05,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-2-alates-6k-800g/p/704118",
-        "size": "800g"
-      },
-      "selver": {
-        "price": 19.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/jatkupiimasegu-nutribiotik-2-alates-6-kuust-aptamil-800-g",
-        "size": "800g",
-        "storeUnitPrice": 23.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Aptamil Piimapulber 3 800g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 14.05,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimapulber-aptamil-3-al-12-kuust-800g/p/7090380",
-        "size": "800g"
-      },
-      "selver": {
-        "price": 19.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piimasegu-nutribiotik-3-alates-12-kuust-aptamil-800-g",
-        "size": "800g",
-        "storeUnitPrice": 23.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Aptamil Piimapulber 4 800g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 14.05,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimapulber-aptamil-4-al-24-kuust-800g/p/7090382",
-        "size": "800g"
-      },
-      "selver": {
-        "price": 19.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piimasegu-nutribiotik-4-alates-2-aasta-vanusest-aptamil-800-g",
-        "size": "800g",
-        "storeUnitPrice": 23.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Tutteli Piimasegu 2 650g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 9.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-tutteli-2-al-6k-650g/p/7281332",
-        "size": "650g"
-      },
-      "selver": {
-        "price": 9.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/jatkupiimasegu-2-6k-tutteli-650-g",
-        "size": "650g",
-        "storeUnitPrice": 15.37
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Hipp Jätkup 2 800g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 19.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkup-segu-hipp-2-comb-al-6k-oko-800g/p/7317258",
-        "size": "800g"
-      },
-      "selver": {
-        "price": 20.9,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/2-organic-combiotic-jatkupiimasegu-6kuud-hipp-800-g",
-        "size": "800g",
-        "storeUnitPrice": 26.13
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Aptamil Piimasegu 2 1200g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 24.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-2-alates-6k-1-2kg/p/7043483",
-        "size": "1200g"
-      },
-      "selver": {
-        "price": 24.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/jatkupiimasegu-nutribiotik-2-alates-6-kuust-aptamil-1-2-kg",
-        "size": "1200g",
-        "storeUnitPrice": 20.41
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Hipp P 1 800g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 19.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/p-segu-imikule-hipp-1-comb-al-sun-oko-800g/p/7317281",
-        "size": "800g"
-      },
-      "selver": {
-        "price": 20.9,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/imiku-piimasegu-1-organic-combiotic-0-hipp-800-g-t000092526",
-        "size": "800g",
-        "storeUnitPrice": 26.13
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Aptamil Piimasegu 3 1200g",
-    "category": "Baby formula",
-    "prices": {
-      "rimi": {
-        "price": 24.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-3-al-12-kuust-1-2kg/p/7225242",
-        "size": "1200g"
-      },
-      "selver": {
-        "price": 24.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piimasegu-nutribiotik-3-alates-12-kuust-aptamil-1-2-kg",
-        "size": "1200g",
-        "storeUnitPrice": 20.41
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
     "name": "Kaalikas kg",
     "category": "Fruits & vegetables",
     "prices": {
@@ -35171,6 +34910,468 @@
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/canned-food-for-dogs/koeraeine-pedigree-4-pakk-junior-4x100g/p/140754",
         "size": "4x100g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil 1 800g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piim-poh-piimasegu-aptamil-1-al-sun-800-g",
+        "size": "800g",
+        "storeUnitPrice": 19.99
+      },
+      "rimi": {
+        "price": 18.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-1-al-sun-800g/p/704117",
+        "size": "800g"
+      },
+      "selver": {
+        "price": 19.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasegu-nutribiotik-1-alates-sunnist-aptamil-800g",
+        "size": "800g",
+        "storeUnitPrice": 23.99
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil 1 400g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piim-poh-piimasegu-aptamil-1-al-sun-400-g",
+        "size": "400g",
+        "storeUnitPrice": 27.48
+      },
+      "rimi": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-1-al-sun-400g/p/7156910",
+        "size": "400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hipp Öko 400g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 20.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/oko-kitsepiimasegu-hipp-pre-400-g-sunn",
+        "size": "400g",
+        "storeUnitPrice": 50.73
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pre-imiku-piimasegu-kitsepiimast-oko-al-sunnist-hipp-400-g",
+        "size": "400g",
+        "storeUnitPrice": 50.8
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Tutteli Tuttelitm 1 650g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimasegu-tutteli-1-650-g-0-k",
+        "size": "650g",
+        "storeUnitPrice": 15.37
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasegu-1-alates-sunnist-tutteli-650-g",
+        "size": "650g",
+        "storeUnitPrice": 15.37
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil 2 800g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jatkupiimasegu-aptamil-2-6-k-800-g",
+        "size": "800g",
+        "storeUnitPrice": 19.99
+      },
+      "rimi": {
+        "price": 14.05,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-2-alates-6k-800g/p/704118",
+        "size": "800g"
+      },
+      "selver": {
+        "price": 19.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jatkupiimasegu-nutribiotik-2-alates-6-kuust-aptamil-800-g",
+        "size": "800g",
+        "storeUnitPrice": 23.99
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil 2 1200g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 26.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jatkupiimasegu-aptamil-2-1-2-kg-6-k",
+        "size": "1200g",
+        "storeUnitPrice": 22.49
+      },
+      "rimi": {
+        "price": 24.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-2-alates-6k-1-2kg/p/7043483",
+        "size": "1200g"
+      },
+      "selver": {
+        "price": 24.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jatkupiimasegu-nutribiotik-2-alates-6-kuust-aptamil-1-2-kg",
+        "size": "1200g",
+        "storeUnitPrice": 20.41
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil Jätkupiimasegu 2 2x200ml",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/valmis-piimasegu-2-aptamil-2-x-200-ml-6-k",
+        "size": "2x200ml",
+        "storeUnitPrice": 11.23
+      },
+      "rimi": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/liquid-breast-milk-substitutes/piimasegu-jook-aptamil-2-alates-6k-2x200ml/p/7099203",
+        "size": "2x200ml"
+      },
+      "selver": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valmis-piimasegu-aptamil-nr2-6-aptamil-2x200-ml",
+        "size": "2x200ml",
+        "storeUnitPrice": 10.98
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Tutteli Tuttelitm 2 650g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jatkupiimasegu-tutteli-2-650-g-6-k",
+        "size": "650g",
+        "storeUnitPrice": 17.68
+      },
+      "rimi": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-tutteli-2-al-6k-650g/p/7281332",
+        "size": "650g"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jatkupiimasegu-2-6k-tutteli-650-g",
+        "size": "650g",
+        "storeUnitPrice": 15.37
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Friso Jätkupiimasegu 2 800g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 26.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jatkupiimasegu-friso-gold-2-6-12-k-800-g-10126",
+        "size": "800g",
+        "storeUnitPrice": 33.06
+      },
+      "selver": {
+        "price": 22.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gold-2-jatkupiimasegu-6-12-kuud-friso-800-g",
+        "size": "800g",
+        "storeUnitPrice": 28.63
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil 3 800g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimajook-aptamil-3-12-k-800-g",
+        "size": "800g",
+        "storeUnitPrice": 19.99
+      },
+      "rimi": {
+        "price": 14.05,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimapulber-aptamil-3-al-12-kuust-800g/p/7090380",
+        "size": "800g"
+      },
+      "selver": {
+        "price": 19.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasegu-nutribiotik-3-alates-12-kuust-aptamil-800-g",
+        "size": "800g",
+        "storeUnitPrice": 23.99
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil 4 800g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimajook-aptamil-4-24-k-800-g",
+        "size": "800g",
+        "storeUnitPrice": 19.99
+      },
+      "rimi": {
+        "price": 14.05,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimapulber-aptamil-4-al-24-kuust-800g/p/7090382",
+        "size": "800g"
+      },
+      "selver": {
+        "price": 19.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasegu-nutribiotik-4-alates-2-aasta-vanusest-aptamil-800-g",
+        "size": "800g",
+        "storeUnitPrice": 23.99
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hipp Piimasegu 3 500g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimasegu-hipp-3-combiotic-500-g-12",
+        "size": "500g",
+        "storeUnitPrice": 20.98
+      },
+      "rimi": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/vaikelastepiim-hipp-3-jr-comb-12-500g/p/7120140",
+        "size": "500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil Piimajook 3 200ml",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimajook-aptamil-12-200-ml",
+        "size": "200ml",
+        "storeUnitPrice": 13.45
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/liquid-breast-milk-substitutes/piimajook-aptamil-3-al-12-kuust-200ml/p/7225209",
+        "size": "200ml"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil 3 1200g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 26.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimajook-aptamil-3-12-1-2-kg",
+        "size": "1200g",
+        "storeUnitPrice": 22.49
+      },
+      "rimi": {
+        "price": 24.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-3-al-12-kuust-1-2kg/p/7225242",
+        "size": "1200g"
+      },
+      "selver": {
+        "price": 24.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasegu-nutribiotik-3-alates-12-kuust-aptamil-1-2-kg",
+        "size": "1200g",
+        "storeUnitPrice": 20.41
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil Piimasegu ar 400g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 13.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimasegu-ar-aptamil-400-g-sunnist",
+        "size": "400g",
+        "storeUnitPrice": 32.98
+      },
+      "rimi": {
+        "price": 13.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-ar-alates-sunnist-400g/p/160745",
+        "size": "400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil Jätkupiimasegu comfort2 400g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 13.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jatkupiimasegu-aptamil-comfort-2-400-g-6-k",
+        "size": "400g",
+        "storeUnitPrice": 34.98
+      },
+      "rimi": {
+        "price": 14.75,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-comfort-2-al-6k-400g/p/160747",
+        "size": "400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hipp Öko 2 400g",
+    "category": "Baby formula",
+    "prices": {
+      "barbora": {
+        "price": 16.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/oko-kitsepiimasegu-hipp-2-400-g-6-k",
+        "size": "400g",
+        "storeUnitPrice": 41.23
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/2-jatkupiimasegu-kitsepiimast-al-6-kuust-hipp-400-g",
+        "cardPrice": 16.49,
+        "cardName": "Partner",
+        "size": "400g",
+        "storeUnitPrice": 50.8
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hipp Jätkup 2 800g",
+    "category": "Baby formula",
+    "prices": {
+      "rimi": {
+        "price": 19.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkup-segu-hipp-2-comb-al-6k-oko-800g/p/7317258",
+        "size": "800g"
+      },
+      "selver": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/2-organic-combiotic-jatkupiimasegu-6kuud-hipp-800-g",
+        "size": "800g",
+        "storeUnitPrice": 26.13
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Aptamil Piimasegu comfort 400g",
+    "category": "Baby formula",
+    "prices": {
+      "rimi": {
+        "price": 13.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-comfort-sunnist-400g/p/160746",
+        "size": "400g"
+      },
+      "selver": {
+        "price": 13.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasegu-comfort-nr1-0-aptamil-400-g",
+        "size": "400g",
+        "storeUnitPrice": 34.98
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hipp P 1 800g",
+    "category": "Baby formula",
+    "prices": {
+      "rimi": {
+        "price": 19.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/p-segu-imikule-hipp-1-comb-al-sun-oko-800g/p/7317281",
+        "size": "800g"
+      },
+      "selver": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/imiku-piimasegu-1-organic-combiotic-0-hipp-800-g-t000092526",
+        "size": "800g",
+        "storeUnitPrice": 26.13
       }
     },
     "matchedVia": "automatic"

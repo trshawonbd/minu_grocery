@@ -404,6 +404,13 @@ const CATEGORIES = [
     // scope excludes them on principle the same way as every other
     // category).
     name: "Pasta",
+    // Every store's own generic "this is pasta" word — dropped here
+    // only (see impliedDescriptors below CATEGORIES): "pasta" alone is
+    // a real word elsewhere (a paste in Sauces/Spices). "durum"/
+    // "durumnisu(jahu)pasta" is always true of these dried pastas
+    // (Tartu Mill states it, Barbora doesn't); "täistera" (whole
+    // grain) is NOT here — a genuinely different product.
+    impliedDescriptors: ["makaronid", "makaron", "makar", "pasta", "durum", "durumnisupasta", "durumnisujahupasta"],
     urls: {
       // The parent page aggregates every leaf (gluten-free, egg,
       // lasagne/cannelloni, whole-grain, the main "makaronid" leaf) —
@@ -1046,6 +1053,11 @@ const CATEGORIES = [
     // Selver's), and frozen smoothie packs ("smuuti" — Barbora's
     // berries leaf; a drink, the same call as Drinks).
     name: "Frozen vegetables & berries",
+    // Everything here is frozen by definition — Barbora prefixes
+    // "Külm." on every item, Selver states nothing (9 real pairs in the
+    // first abbreviation round). Dropped here only; in Meat/Fish the
+    // same word keeps blocking a frozen cut against a fresh one.
+    impliedDescriptors: ["külmutatud"],
     urls: {
       // "supp"/"supi" (soup, incl. the inflected "Supi köögiviljasegu",
       // a soup vegetable mix) and "smuuti" (smoothie packs) at every
@@ -1071,6 +1083,9 @@ const CATEGORIES = [
     // dropped every Rimi item literally named "Jäätis …" — caught by
     // the count (107 where ~250 were expected) in the first scrape.
     name: "Ice cream",
+    // "jäätis" is the category itself (Barbora "Jäätis strawberry white
+    // MAGNUM" vs Selver "White Strawberry, MAGNUM"); frozen likewise.
+    impliedDescriptors: ["jäätis", "külmutatud"],
     urls: {
       barbora: [
         "https://barbora.ee/kulmutatud-tooted/jaatised-ja-jaakuubikud/pulgajaatised",
@@ -1091,6 +1106,9 @@ const CATEGORIES = [
     // at Selver, everything in the ready-products ID that isn't
     // dumplings/pizza by name).
     name: "Dumplings, pizza & fries",
+    // Same reasoning as Frozen vegetables & berries — Barbora prefixes
+    // "Külm." on all 112 of its items here.
+    impliedDescriptors: ["külmutatud"],
     urls: {
       barbora: [
         "https://barbora.ee/kulmutatud-tooted/kulmutatud-pooltooted/kulmutatud-pelmeenid-ja-vareenikud",
@@ -1400,6 +1418,10 @@ const CATEGORIES = [
     // listing — the lenient path's brand+size check alone never reads
     // the species or flavour word at all.
     name: "Pet food",
+    // Selver prefixes the feed-law class on every item ("Täiendsööt."
+    // = complementary feed, "Täistoit." = complete feed) — a
+    // regulatory label, not a product fact the other stores state.
+    impliedDescriptors: ["täiendsööt", "täistoit"],
     urls: {
       barbora: [
         "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/kassi-maiustused",
@@ -1465,12 +1487,27 @@ function diaperMatchingFor(categoryName) {
 // `{ store, name, ... }` and guess at these flags, which is what led
 // to the wrong "39 pairs already match" conclusion in an earlier
 // session.
+// Words a category declares as true of every item in it, dropped from
+// descriptors for that category only — see extractDescriptors in
+// match-products.js and each category's own impliedDescriptors comment.
+// Empty for every category that hasn't opted in; throws on an unknown
+// name like the helpers above.
+function impliedDescriptorsFor(categoryName) {
+  const category = CATEGORIES.find((c) => c.name === categoryName);
+  if (!category) {
+    throw new Error(`Unknown category "${categoryName}". Known categories: ${CATEGORIES.map((c) => c.name).join(", ")}`);
+  }
+  return Array.isArray(category.impliedDescriptors) ? category.impliedDescriptors : [];
+}
+
 function buildItem(categoryName, store, name, extra = {}) {
   const item = { store, name, price: 0, currency: "EUR", url: "x", ean: null, ...extra };
   if (strictPackagingFor(categoryName)) item.strictPackaging = true;
   if (matchAcrossWeightsFor(categoryName)) item.matchAcrossWeights = true;
   if (diaperMatchingFor(categoryName)) item.diaperMatching = true;
+  const implied = impliedDescriptorsFor(categoryName);
+  if (implied.length > 0) item.impliedDescriptors = implied;
   return item;
 }
 
-module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, buildItem };
+module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, impliedDescriptorsFor, buildItem };

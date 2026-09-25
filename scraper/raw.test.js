@@ -99,6 +99,43 @@ const results = [
       assert.equal(pool[0].signature.strictPackaging, true);
     });
   }),
+  test("loadRawPool propagates a category's impliedDescriptors from meta.json so a pool item's descriptors drop them, and leaves items alone when the category declares none", () => {
+    withTempDir((dir) => {
+      writeRaw(
+        "Frozen vegetables & berries",
+        {
+          order: 0,
+          strictPackaging: true,
+          matchAcrossWeights: false,
+          diaperMatching: false,
+          impliedDescriptors: ["külmutatud"],
+          resultsByStore: {
+            Barbora: [{ store: "Barbora", name: "Külm.marjasegu MAAHÄRRA 300g", price: 2.59, currency: "EUR", url: "x", ean: null, brand: "MAAHÄRRA" }],
+          },
+        },
+        { dir }
+      );
+      writeRaw(
+        "Meat",
+        {
+          order: 1,
+          strictPackaging: true,
+          matchAcrossWeights: true,
+          diaperMatching: false,
+          resultsByStore: {
+            Barbora: [{ store: "Barbora", name: "Külm.broilerifilee TALLEGG 500g", price: 4.99, currency: "EUR", url: "x", ean: null, brand: "TALLEGG" }],
+          },
+        },
+        { dir }
+      );
+      const frozen = loadRawPool("Frozen vegetables & berries", { dir });
+      assert.deepEqual(frozen[0].impliedDescriptors, ["külmutatud"]);
+      assert.equal(frozen[0].signature.descriptors, "marjasegu", "the implied word is gone from a frozen item's descriptors");
+      const meat = loadRawPool("Meat", { dir });
+      assert.equal(meat[0].impliedDescriptors, undefined);
+      assert.equal(meat[0].signature.descriptors, "broilerifilee külmutatud", "the same word stays a real descriptor where it isn't implied");
+    });
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

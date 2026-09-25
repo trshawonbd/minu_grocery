@@ -625,6 +625,9 @@ const BRAND_ABBREVIATIONS = {
   // a display suffix — its own brand field is plain "RAKVERE", same as
   // Barbora/Rimi's, so only the stray "LK" needs stripping.
   rakvere: ["lk"],
+  // Barbora's fish names fuse "Kapten Grant" into "KGrant"
+  // ("Heeringafilee vähesoolane KGrant, 240g").
+  "kapten grant": ["kgrant"],
 };
 
 // Abbreviations, spelling/grammatical-case variants, translations,
@@ -649,7 +652,7 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   ["m[.-]+ta", "maitsestamata"], // "m-ta" (unflavoured)
   ["m[.-]+mata", "maitsestamata"], // "m.-mata" (unflavoured)
   ["martsip", "martsipani"], // "ploomi-martsip.jogurt"
-  ["plomb", "plombiirimaitseline"], // "marja-plomb."
+  ["plomb", "plombiiri"], // "marja-plomb." — the other side's "plombiirimaitseline" loses its "-flavoured" suffix first (see the suffix pattern below), so both meet at "plombiiri"
   ["karbon", "karboniseeritud"], // "karbon.mineraalvesi"
   ["täisterahel", "täisterahelvest"], // "täisterahel.FAZER"
   ["röstsai", "röst"],
@@ -708,9 +711,98 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   // ("mustikamarin.").
   ["marinaadis", ""],
   ["marineeritud", ""],
+
+  // --- Abbreviation-matching round (roadmap step 8) ---
+  // Each entry verified by hand against a real cross-store pair from
+  // data/review.md's "possible matches to check by hand" for the
+  // low-match categories (Chips, Tea, Pasta, Frozen, Ice cream, Fish,
+  // Pet food, Baby food): only wording differences that never signal
+  // a real product difference. Anything in doubt (a ridged/textured
+  // variant, a quality tier, a quick-cook line, "purutee" vs "tee",
+  // organic wording, a life-stage label) was deliberately left alone
+  // for the owner to decide, not normalized.
+  // Spelling / grammatical variants of one word
+  ["originaal", "original"],
+  ["till", "tilli"], // dill: "hapukoore/till" vs "hapukoore-tilli"
+  ["mikropopkorn", "mikropopcorn"],
+  ["seakrõps", "seakrõpsud"],
+  ["rigatte", "rigate"], // Rimi's own misspelling of the ridged-pasta word
+  ["lintspagetid", "lintspagett"],
+  ["vürtskilufilee", "vürtsikilufilee"],
+  ["tšill", "tšilli"],
+  ["surimist", "surimi"], // elative case
+  ["hõbeheik", "heik"], // silver hake is hake
+  ["mustasõstra", "mustsõstra"], // blackcurrant, with/without the linking vowel (only ever seen once the "maits" suffix below is gone)
+  ["kassidele", "kassi"], // for cats / cats' / cat's
+  ["kasside", "kassi"],
+  ["koeramaiused", "koeramaius"],
+  ["vähesoolatud", "vähesoolane"], // lightly salted, participle vs adjective
+  // Abbreviations (a store's own shorthand, usually period-marked)
+  ["rohel", "roheline"],
+  ["hapuk", "hapukoore"],
+  ["tomatikast", "tomatikastmes"],
+  ["vähes", "vähesoolane"],
+  ["küüslaugumar", "küüslaugumarinaadis"],
+  ["pr", "praetud"],
+  ["glas", "glasuuris"],
+  ["jogurtigl", "jogurtiglasuuris"],
+  ["šoko", "šokolaadi"],
+  ["šokol", "šokolaadi"],
+  ["šok", "šokolaadi"],
+  // Barbora's "Külm." is EXPANDED to the full word, never dropped —
+  // frozen vs fresh must keep blocking in Meat/Fish, where Barbora
+  // uses the same abbreviation on a frozen cut. The categories where
+  // everything is frozen by definition drop it as an implied word
+  // instead (see impliedDescriptors in scraper/categories.js).
+  ["külm", "külmutatud"],
+  ["jah", ""], // "jahutatud", already dropped above
+  ["mar", ""], // "marinaadis", already dropped above
+  // Translations
+  ["anchovy", "anšoovis"],
+  ["black", "must"],
+  ["sarvekesed", "chifferini"], // Estonian "little horns" is the same elbow pasta shape
+  ["sarveke", "chifferini"],
+  // Potato chips — every store's own word for the same thing, plus
+  // Selver's own one-letter typo "kartuliaastud" (seen next to its
+  // correctly spelled "kartulilaastud" on sibling items).
+  ["krõpsud", "kartulikrõpsud"],
+  ["kartulikrõps", "kartulikrõpsud"],
+  ["kartulilaastud", "kartulikrõpsud"],
+  ["kartuliaastud", "kartulikrõpsud"],
+  // Leftover fragments that never carry real distinguishing weight
+  ["ml", ""], // a unit left behind by Rimi's "90g/150ml" dual size
+  ["l", ""],
+  ["g", ""],
+  ["k", ""], // orphaned age markers ("6k", "5+ kuud", "al. 6k") — the digit itself is already dropped by the letter-only tokenizer
+  ["kuud", ""],
+  ["al", ""],
+  ["eo", ""], // canned fish "EO" marking (easy-open lid), Kaija/Vici/Minu at Rimi and Selver
+  ["asc", ""], // sustainability certification badges
+  ["msc", ""],
+  ["oü", ""], // company-form suffix leaking out of a brand name ("VIRU RAND OÜ")
+  ["spaghetti", "spagetid"], // the Italian / singular spelling of "Spagetid" — kept as the Estonian word (not dropped) so the shape stays in the product's display name
+  ["spagett", "spagetid"],
+  ["spiraalid", ""], // a shape already named in Italian: fusilli are spirals,
+  ["spiraal", ""], // penne are tubes, conchiglie are shells
+  ["torud", ""],
+  ["teokarbid", ""],
+  ["specialita", ""], // Selver's "Specialità" line word on Panzani pasta
 ];
 
-const DESCRIPTOR_NORMALIZATION_PATTERNS = DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
+const DESCRIPTOR_NORMALIZATION_PATTERNS = [
+  // "-flavoured" as a SUFFIX fused onto the flavour word, in every
+  // spelling a store abbreviates it to — "juustumaitseline",
+  // "juustumaitselised", "juustumaitsel.", "ketšupimaits.",
+  // "pitsamait." — all stripped down to the flavour word itself
+  // ("juustu", "ketšupi", "pitsa"), which is the part that actually
+  // distinguishes anything; a bare standalone "maitseline"/"maits."
+  // (nothing fused in front) strips to nothing for the same reason.
+  // Runs BEFORE the whole-word list, so a word that only exists once
+  // the suffix is gone ("mustasõstra") can still be normalized there.
+  // Never touches "maitsestamata"/"maitsestatud"/"maitseaine": those
+  // continue with a letter after "maits", which the lookahead rejects.
+  { regex: /mait(?:s(?:elised|eline|el)?)?(?![\p{L}])/giu, replacement: "" },
+].concat(DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
   // Unicode-aware word boundary — a plain \b treats a leading/trailing
   // diacritic (ö, õ, ä, ü, š) as "not a word character", so it fails
   // to bound a word like "öko" at all; this checks for an adjacent
@@ -718,7 +810,7 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = DESCRIPTOR_WORD_NORMALIZATIONS.map(([p
   // elsewhere in this file.
   regex: new RegExp(`(?<![\\p{L}])${pattern}(?![\\p{L}])`, "giu"),
   replacement,
-})).concat([
+}))).concat([
   // "marin" also needs to strip as a SUFFIX on a flavour word
   // compounded directly onto it with no separator, Barbora's own
   // style ("Grill-liha mustikamarin. RAKVERE,500g" -> flavour word
@@ -735,7 +827,14 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = DESCRIPTOR_WORD_NORMALIZATIONS.map(([p
 // "soolata"). Two items with the same brand and size but different
 // leftover words are a different product, the same principle as
 // produce's variety — see sameBrandedProduct.
-function extractDescriptors(name, brand) {
+// `impliedWords`: words a category declares as true of every item in
+// it (see impliedDescriptors in scraper/categories.js — "külmutatud"
+// in the frozen categories, "makaronid"/"pasta" in Pasta, ...), so one
+// store stating it and another not can never block a match there.
+// Applied after normalization, whole-word, and only for the category
+// that opted in — the same word stays a real descriptor everywhere
+// else (frozen vs fresh in Meat/Fish).
+function extractDescriptors(name, brand, impliedWords = []) {
   let text = stripQualityGrade(name);
 
   if (brand) {
@@ -791,7 +890,10 @@ function extractDescriptors(name, brand) {
     text = text.replace(regex, replacement);
   }
 
-  const words = [...new Set([...text.matchAll(/\p{L}+/gu)].map((m) => m[0].toLowerCase()))].sort();
+  const implied = new Set(impliedWords.map((w) => w.toLowerCase()));
+  const words = [...new Set([...text.matchAll(/\p{L}+/gu)].map((m) => m[0].toLowerCase()))]
+    .filter((w) => !implied.has(w))
+    .sort();
   return words.length > 0 ? words.join(" ") : null;
 }
 
@@ -915,7 +1017,10 @@ function computeSignature(item) {
     qualifiers: extractQualifiers(name),
     colors: extractColors(name),
     fatPercent: extractFatPercent(name),
-    descriptors: extractDescriptors(name, item.brand),
+    descriptors: extractDescriptors(name, item.brand, item.impliedDescriptors || []),
+    // Kept on the signature only for synthesizeCanonicalName, so the
+    // display name's type word gets the same treatment descriptors do.
+    impliedDescriptors: item.impliedDescriptors || [],
     // Set by the caller (fetch-price.js) per category, not guessed
     // here — see sameBrandedProduct. Off by default so this never
     // changes behavior for a category that hasn't opted in.
@@ -1253,6 +1358,22 @@ function capitalize(word) {
   return word ? word[0].toUpperCase() + word.slice(1) : "";
 }
 
+// The display-name counterpart of extractDescriptors' normalization:
+// one raw first word, abbreviations expanded/dropped the same way, and
+// gone entirely if the category declares it implied. Returns "" when
+// nothing meaningful is left.
+function normalizeTypeWord(type, impliedWords = []) {
+  let text = type || "";
+  for (const { regex, replacement } of DESCRIPTOR_NORMALIZATION_PATTERNS) {
+    text = text.replace(regex, replacement);
+  }
+  const implied = new Set(impliedWords.map((w) => w.toLowerCase()));
+  return [...text.matchAll(/\p{L}+/gu)]
+    .map((m) => m[0].toLowerCase())
+    .filter((w) => !implied.has(w))
+    .join(" ");
+}
+
 // Real bug found reviewing the first Diapers & baby wipes scrape: the
 // generic naming below reaches for the generic `size` field (a plain
 // weight/volume like "500g"), which for a diaper is whatever the
@@ -1301,7 +1422,14 @@ function synthesizeCanonicalName(a, b) {
   // size happen to match. Skipped when type and brand are the same
   // word (formula items like Aptamil, where the type fallback just
   // re-finds the brand itself — adding it would only be noise).
-  const typeName = type && type.toLowerCase() !== brand.toLowerCase() ? capitalize(type) : null;
+  // The type word is the raw first word of one store's name — run it
+  // through the same abbreviation normalization and implied-word
+  // filter descriptors get, so a display name never reads "Külm
+  // seenesegu" (Barbora's frozen abbreviation, implied in a frozen
+  // category) or "Pr räimed" (for "Praetud") — found reviewing the
+  // abbreviation round's new matches by hand.
+  const typeKey = normalizeTypeWord(type, sigA.impliedDescriptors ?? sigB.impliedDescriptors ?? []);
+  const typeName = typeKey && typeKey !== brand.toLowerCase() ? capitalize(typeKey) : null;
   // Same principle, one level further: two same-brand, same-size,
   // same-type packaged items can still be different products — two
   // Alma Muah yoghurts ("Alma Koorejogurt 380g" for both stracciatella
@@ -1317,7 +1445,7 @@ function synthesizeCanonicalName(a, b) {
   const useDescriptors = sigA.strictPackaging && sigB.strictPackaging;
   const descriptors = useDescriptors ? sigA.descriptors ?? sigB.descriptors : null;
   const descriptorWords = descriptors
-    ? descriptors.split(" ").filter((w) => w !== type.toLowerCase() && w !== brand.toLowerCase())
+    ? descriptors.split(" ").filter((w) => w !== typeKey && w !== brand.toLowerCase())
     : [];
   const descriptorName = descriptorWords.length > 0 ? descriptorWords.join(" ") : null;
   return [capitalize(brand) || "Unknown", typeName, descriptorName, variant, size].filter(Boolean).join(" ");

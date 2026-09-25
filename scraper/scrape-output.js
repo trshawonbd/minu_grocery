@@ -68,6 +68,9 @@ function prepareItem(item, category) {
   if (category.strictPackaging !== false) item.strictPackaging = true;
   if (category.matchAcrossWeights === true) item.matchAcrossWeights = true;
   if (category.diaperMatching === true) item.diaperMatching = true;
+  if (Array.isArray(category.impliedDescriptors) && category.impliedDescriptors.length > 0) {
+    item.impliedDescriptors = category.impliedDescriptors;
+  }
   item.signature = computeSignature(item);
   return item;
 }

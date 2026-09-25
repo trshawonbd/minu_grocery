@@ -154,6 +154,7 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
       strictPackaging: category.strictPackaging !== false,
       matchAcrossWeights: category.matchAcrossWeights === true,
       diaperMatching: category.diaperMatching === true,
+      impliedDescriptors: category.impliedDescriptors || [],
       resultsByStore: rawToWrite,
     });
   }

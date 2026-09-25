@@ -993,6 +993,119 @@ const tests = [
       assert.equal(matchItems(wipeA, wipeB).canonicalName, "Pampers Niisked salvrätikud 60tk");
     },
   },
+
+  // --- Abbreviation-matching round (roadmap step 8) ---
+  // Every pair below is a real cross-store pair from data/review.md's
+  // "possible matches to check by hand", read by hand. Each "SAME"
+  // pair is one the rules must now match; each "DIFF" pair is a
+  // genuinely different product that must keep NOT matching even
+  // though it shares brand, size and every other word.
+  {
+    name: "Abbreviations: '-flavoured' fused onto a flavour word in any store's spelling (juustumaitseline / juustumaitsel. / ketšupimaits. / pitsamait.) strips to the flavour word itself; a different flavour still never matches",
+    run: () => {
+      const chips = (store, name, brand) => buildItem("Chips & snacks", store, name, { brand });
+      assert.equal(sameProduct(chips("Barbora", "Maisipallid juustu. Nacho TAFFEL 165g", "taffel"), chips("Selver", "Maisipallid juustumaitselised Nacho, TAFFEL, 165g", "taffel")), true);
+      assert.equal(sameProduct(chips("Barbora", "Kartulikrõps.Cheddari maits.TAFFEL 180g", "taffel"), chips("Selver", "Kartulikrõps cheddari maitseline, TAFFEL, 180 g", "taffel")), true);
+      assert.equal(sameProduct(chips("Barbora", "Ketšupimaits.maisikrõpsud CHEETOS 165g", "cheetos"), chips("Rimi", "Maisikrõpsud Cheetos ketšupi 165g", "cheetos")), true);
+      const tea = (store, name) => buildItem("Tea & cocoa", store, name, { brand: "dilmah" });
+      assert.equal(sameProduct(tea("Barbora", "Must tee mustasõstramaits.DILMAH,20x1,5g"), tea("Rimi", "Tee must mustsõstramaitseline Dilmah 20x1,5g")), true, "blackcurrant with and without the linking vowel, once the suffix is gone");
+      assert.equal(sameProduct(tea("Barbora", "Must tee mustasõstramaits.DILMAH,20x1,5g"), tea("Rimi", "Tee must vaarikamaitseline Dilmah 20x1,5g")), false, "blackcurrant is not raspberry");
+      const ice = (store, name) => buildItem("Ice cream", store, name, { brand: "väike tom" });
+      assert.equal(sameProduct(ice("Barbora", "Jäätis VÄIKE TOM lehmakommimaits.,60g"), ice("Rimi", "Jäätis lehmakommi Väike Tom 60g")), true);
+      // "maitsestamata"/"maitsestatud" (unflavoured/seasoned) are NOT
+      // this suffix — a letter follows "maits" — and must keep blocking.
+      const milk = (store, name) => buildItem("Dairy", store, name, { brand: "alma" });
+      assert.equal(sameProduct(milk("Barbora", "Piim maitsestamata ALMA 1L"), milk("Rimi", "Piim maitsestatud Alma 1l")), false);
+      // The pre-existing "plomb" expansion still meets the other side
+      // once both lose the suffix.
+      const yog = (store, name) => buildItem("Dairy", store, name, { brand: "farmi" });
+      assert.equal(sameProduct(yog("Barbora", "Jogurt marja-plomb. FARMI 380g"), yog("Rimi", "Jogurt marja-plombiirimaitseline Farmi 380g")), true);
+    },
+  },
+  {
+    name: "Abbreviations: potato-chip synonyms (krõpsud / kartulikrõps / kartulilaastud / Selver's typo kartuliaastud) and spelling variants (originaal, till/tilli, popkorn/popcorn) — a different flavour or sweet vs salty still never matches",
+    run: () => {
+      const chips = (store, name, brand) => buildItem("Chips & snacks", store, name, { brand });
+      assert.equal(sameProduct(chips("Barbora", "Krõpsud Original PRINGLES 165g", "pringles"), chips("Rimi", "Krõpsud Pringles Originaal 165g", "pringles")), true);
+      assert.equal(sameProduct(chips("Barbora", "Krõpsud PRINGLES Hot&Spicy,165g", "pringles"), chips("Rimi", "Kartulikrõpsud Hot&Spicy Pringles 165g", "pringles")), true);
+      assert.equal(sameProduct(chips("Rimi", "Kartulikrõpsud juustumaitselised Taffel 180g", "taffel"), chips("Selver", "Juustumaitselised kartuliaastud, TAFFEL, 180g", "taffel")), true);
+      assert.equal(sameProduct(chips("Barbora", "Kartulivahvel hapukoore/till BALSNACK90g", "balsnack"), chips("Rimi", "Kartulivahvel hapukoore-tilli Balsnack 90g", "balsnack")), true);
+      assert.equal(sameProduct(chips("Barbora", "Kartulikrõpsud Peekoni PRINGLES, 165g", "pringles"), chips("Rimi", "Kartulikrõpsud juustu Pringles 165g", "pringles")), false, "bacon is not cheese");
+      assert.equal(sameProduct(chips("Rimi", "Kartulikrõpsud juustu Pringles 165g", "pringles"), chips("Selver", "Kartulikrõpsud Juustu-sibula, PRINGLES, 165 g", "pringles")), false, "cheese is not cheese-onion");
+      assert.equal(sameProduct(chips("Barbora", "Magus mikropopkorn ESTRELLA 90g", "estrella"), chips("Rimi", "Mikropopkorn soolane Estrella 90g", "estrella")), false, "sweet is not salty");
+    },
+  },
+  {
+    name: "Abbreviations: Pasta drops its own generic words (makaronid / makar. / pasta / durum(nisu(jahu)pasta)) as implied, translates sarvekesed to chifferini, fixes Rimi's 'rigatte' — but whole grain, tri-colour, a different shape, Premium and a quick-cook line still never match",
+    run: () => {
+      const pasta = (store, name, brand) => buildItem("Pasta", store, name, { brand });
+      assert.equal(sameProduct(pasta("Barbora", "Makaronid Fusilli DELVERDE 500g", "delverde"), pasta("Selver", "Fusilli, DELVERDE, 500 g", "delverde")), true);
+      assert.equal(sameProduct(pasta("Barbora", "Makaronid Penne TARTU MILL 500g", "tartu mill"), pasta("Rimi", "Durumnisupasta Penne Tartu Mill 500g", "tartu mill")), true);
+      assert.equal(sameProduct(pasta("Barbora", "Täistera makar.Fusilli TARTU MILL 500g", "tartu mill"), pasta("Selver", "Täistera fusilli, TARTU MILL, 500 g", "tartu mill")), true);
+      assert.equal(sameProduct(pasta("Barbora", "Makaronid sarvekesed PANZANI 500g", "panzani"), pasta("Rimi", "Makaronid Chifferini Panzani 500g", "panzani")), true);
+      assert.equal(sameProduct(pasta("Rimi", "Makaronid Chifferini Panzani 500g", "panzani"), pasta("Selver", "Sarveke Chifferini, PANZANI, 500 g", "panzani")), true);
+      assert.equal(sameProduct(pasta("Barbora", "Makaronid Penne Rigate PANZANI 500g", "panzani"), pasta("Rimi", "Makaronid Penne Rigatte Panzani 500g", "panzani")), true);
+      assert.equal(sameProduct(pasta("Barbora", "Makaronid Fusilli TARTU MILL 500g", "tartu mill"), pasta("Selver", "Täistera fusilli, TARTU MILL, 500 g", "tartu mill")), false, "whole grain is a different product");
+      assert.equal(sameProduct(pasta("Barbora", "Makaronid spiraalid Fusilli PANZANI 500g", "panzani"), pasta("Rimi", "Makaronid 3-värvilised Fusilli Panzani 500g", "panzani")), false, "tri-colour is a different product");
+      assert.equal(sameProduct(pasta("Barbora", "Makaronid Penne Rigate PANZANI 500g", "panzani"), pasta("Rimi", "Makaronid Conchiglie Rigate Panzani 500g", "panzani")), false, "a different shape");
+      assert.equal(sameProduct(pasta("Barbora", "Spagetid Premium PANZANI 500g", "panzani"), pasta("Selver", "Spagetid Spaghetti, PANZANI, 500 g", "panzani")), false, "Premium left for the owner to decide");
+      // "pasta" is only implied inside the Pasta category — elsewhere
+      // it stays a real word (a paste), so nothing outside Pasta
+      // changes.
+      assert.equal(computeSignature(buildItem("Spices", "Rimi", "Karri pasta Santa Maria 100g", { brand: "santa maria" })).descriptors, "karri pasta");
+    },
+  },
+  {
+    name: "Abbreviations: Barbora's 'Külm.' expands to 'külmutatud' everywhere, and only the frozen categories drop it as implied — a frozen cut in Meat still never matches a fresh one",
+    run: () => {
+      const frozen = (store, name, brand) => buildItem("Frozen vegetables & berries", store, name, { brand });
+      assert.equal(sameProduct(frozen("Barbora", "Külm.marjasegu vaarikatega HORTEX, 300g", "hortex"), frozen("Selver", "Marjasegu vaarikatega, HORTEX, 300 g", "hortex")), true);
+      assert.equal(sameProduct(frozen("Barbora", "Külm.mustsõstar BAUER, 300g", "bauer"), frozen("Selver", "Mustsõstar, BAUER, 300 g", "bauer")), true);
+      const meat = (store, name) => buildItem("Meat", store, name, { brand: "tallegg" });
+      assert.equal(sameProduct(meat("Barbora", "Külm.broilerifilee TALLEGG 500g"), meat("Rimi", "Broilerifilee Tallegg 500g")), false, "frozen vs fresh keeps blocking in Meat");
+      assert.equal(computeSignature(meat("Barbora", "Külm.broilerifilee TALLEGG 500g")).descriptors, "broilerifilee külmutatud");
+    },
+  },
+  {
+    name: "Abbreviations: Ice cream drops 'jäätis' as implied and a unit left behind by Rimi's dual size ('230g/470ml'); šoko./šok./šokol. read as šokolaadi, glas. as glasuuris — a different flavour still never matches",
+    run: () => {
+      const ice = (store, name, brand) => buildItem("Ice cream", store, name, { brand });
+      assert.equal(sameProduct(ice("Barbora", "Jäätis strawberry white MAGNUM, 81g", "magnum"), ice("Selver", "White Strawberry, MAGNUM, 81 g", "magnum")), true);
+      assert.equal(sameProduct(ice("Barbora", "Jäätis NUTELLA 230g", "nutella"), ice("Rimi", "Jäätis Nutella 230g/470ml", "nutella")), true);
+      assert.equal(sameProduct(ice("Barbora", "Koorejäätis šoko.ONU ESKIMO,57g", "onu eskimo"), ice("Selver", "Šokolaadi-koorejäätis, ONU ESKIMO, 57 g", "onu eskimo")), true);
+      assert.equal(sameProduct(ice("Rimi", "Karamelli-koorejäätis glas. Vanilla Ninja 80g", "vanilla ninja"), ice("Selver", "Karamelli-koorejäätis glasuuris, VANILLA NINJA, 80 g", "vanilla ninja")), true);
+      assert.equal(sameProduct(ice("Barbora", "Koorejäätis šoko.ONU ESKIMO,57g", "onu eskimo"), ice("Selver", "Karamelli-koorejäätis, ONU ESKIMO, 57 g", "onu eskimo")), false, "chocolate is not caramel");
+    },
+  },
+  {
+    name: "Abbreviations: Fish — 'EO' (easy-open lid), Pr. (praetud), Jah. (jahutatud), KGrant (Kapten Grant), anchovy/anšoovis, surimist/surimi — a different fish or a different cure (dried vs smoked) still never matches",
+    run: () => {
+      const fish = (store, name, brand) => buildItem("Fish & seafood", store, name, { brand });
+      assert.equal(sameProduct(fish("Barbora", "Skumbria tomatikastmes KAIJA, 240g", "kaija"), fish("Selver", "Skumbria tomatikastmes EO, KAIJA, 240 g", "kaija")), true);
+      assert.equal(sameProduct(fish("Barbora", "Pr.räimed tomatikastmes KALURI,500g", "kaluri"), fish("Selver", "Praetud räimed tomatikastmes, KALURI, 500 g", "kaluri")), true);
+      assert.equal(sameProduct(fish("Barbora", "Heeringafilee vähesoolane KGrant, 240g", "kapten grant"), fish("Selver", "Heeringafilee vähesoolane, KAPTEN GRANT, 240 g", "kapten grant")), true);
+      assert.equal(sameProduct(fish("Barbora", "Jah. krabinuudel, surimi, VICI, 200g", "vici"), fish("Selver", "Krabinuudel surimi, VICI, 200 g", "vici")), true);
+      assert.equal(sameProduct(fish("Barbora", "Anšoovis filee klassikaline BRIIS,145g", "briis"), fish("Selver", "Anchovy klassikaline filee, BRIIS, 145 g", "briis")), true);
+      assert.equal(sameProduct(fish("Barbora", "Kuivatatud tursk MSDM, 36g", "msdm"), fish("Selver", "Tursk suitsutatud, MSDM, 36 g", "msdm")), false, "dried is not smoked");
+      assert.equal(sameProduct(fish("Barbora", "Skumbria õlis KAPTEN GRANT,240g", "kapten grant"), fish("Rimi", "Sardiinid õlis Kapten Grant 240g", "kapten grant")), false, "mackerel is not sardines");
+    },
+  },
+  {
+    name: "Abbreviations: Pet food drops Selver's feed-law labels (Täiendsööt./Täistoit.) as implied and reads kassidele/kasside/kassi as one word; Tea reads 'Black' as 'must' and 'Rohel' as 'roheline'; Baby food drops an orphaned age marker — a different selection, an added flavour, or purutee vs tee still never matches",
+    run: () => {
+      const pet = (store, name, brand) => buildItem("Pet food", store, name, { brand });
+      assert.equal(sameProduct(pet("Barbora", "Suupiste kassidele DREAMIES lõhega 60g", "dreamies"), pet("Rimi", "Kasside suupiste Dreamies lõhega 60g", "dreamies")), true);
+      assert.equal(sameProduct(pet("Barbora", "Kassimaius FELIX Deli Moments kana 4x10g", "felix"), pet("Selver", "Täiendsööt. Kassimaius FELIX Deli Moments kana 4x10g, FELIX,", "felix")), true);
+      assert.equal(sameProduct(pet("Barbora", "Kiisueine lihavalik SHEBA 4x85g", "sheba"), pet("Selver", "Kiisueine kodulinnuvalik 4-pakk, SHEBA, 4x85 g", "sheba")), false, "meat selection is not poultry selection");
+      const tea = (store, name, brand) => buildItem("Tea & cocoa", store, name, { brand });
+      assert.equal(sameProduct(tea("Barbora", "Must tee LOYD Intense 25x2g", "loyd"), tea("Rimi", "Tee must Black Intense Loyd 25x2g", "loyd")), true);
+      assert.equal(sameProduct(tea("Barbora", "Rohel tee Jasmine Green BASILUR 100g", "basilur"), tea("Rimi", "Roheline tee Jasmine Green Basilur 100g", "basilur")), true);
+      assert.equal(sameProduct(tea("Barbora", "Must tee LIPTON Mango 20x1.7g", "lipton"), tea("Rimi", "Must tee virsiku-mango Lipton 20x1,7g", "lipton")), false, "peach-mango is not mango");
+      assert.equal(sameProduct(tea("Barbora", "Must tee English Aristocratic HYLEYS100g", "hyleys"), tea("Selver", "Must purutee English Aristocratic, HYLEYS, 100 g", "hyleys")), false, "purutee vs tee left for the owner to decide");
+      const baby = (store, name) => buildItem("Baby food", store, name, { brand: "ella's kitchen" });
+      assert.equal(sameProduct(baby("Barbora", "Kanaroog riisiga ELLA'S KITCHEN 130g 7k"), baby("Selver", "Kanaroog riisiga, ELLA'S KITCHEN, 130 g")), true);
+    },
+  },
 ];
 
 let pass = 0;

@@ -6045,5 +6045,403 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Seakaelakarbonaad",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/seakaelakarbonaad-kg",
+        "storeUnitPrice": 8.99
+      },
+      "rimi": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/varske-sealiha/seakaelakarbonaad-kg/p/905415",
+        "storeUnitPrice": 9.99
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Mustika grill ribi",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mustika-grill-ribi-rakvere-kg",
+        "storeUnitPrice": 11.19
+      },
+      "selver": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustika-grill-ribi-rakvere-lk-kg",
+        "storeUnitPrice": 7.49
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Grill liha mustika 500g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/grill-liha-mustikamarin-rakvere-500-g",
+        "size": "500g",
+        "storeUnitPrice": 13.78
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustika-grill-liha-rakvere-lk-500-g",
+        "size": "500g",
+        "storeUnitPrice": 9.98
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Armeenia grill Armeenia šašlõkk",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/armeenia-saslokk-armeenia-grill-kg",
+        "storeUnitPrice": 8.99
+      },
+      "rimi": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/maitsestatud-sealiha/armeenia-saslokk-armeenia-grill-kg/p/4007299",
+        "storeUnitPrice": 11.99
+      },
+      "selver": {
+        "price": 12.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/armeenia-saslokk-armeenia-grill-kg",
+        "storeUnitPrice": 12.19
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Armeenia grill Sea šašlõkk",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sea-saslokk-armeenia-grill-kg",
+        "storeUnitPrice": 11.99
+      },
+      "rimi": {
+        "price": 12.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/maitsestatud-sealiha/sea-saslokk-armeenia-grill-kg/p/293457",
+        "storeUnitPrice": 12.49
+      },
+      "selver": {
+        "price": 12.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sea-saslokk-armeenia-grill-kg",
+        "storeUnitPrice": 12.59
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Ahjubroiler klassikaline",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ahjubroiler-klassikaline-tallegg-kg",
+        "storeUnitPrice": 5.99
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/klassikaline-ahjubroiler-tallegg-kg",
+        "storeUnitPrice": 4.99
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Eestimaine broilerikoib",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/eestimaine-broilerikoib-tallegg-kg",
+        "storeUnitPrice": 3.59
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eestimaine-broilerikoib-tallegg-kg",
+        "storeUnitPrice": 5.99
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Br broileri klassikalises poolkoivad 800g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/br-poolkoivad-klassik-marin-tallegg-800-g",
+        "size": "800g",
+        "storeUnitPrice": 4.69
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/broileri-poolkoivad-klassikalises-marinaadis-tallegg-800-g",
+        "cardPrice": 3.99,
+        "cardName": "Partner",
+        "size": "800g",
+        "storeUnitPrice": 6.24
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Armeenia grill Br broileri kintsuliha šašlõkk",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/br-kintsuliha-saslokk-armeenia-grill-kg",
+        "storeUnitPrice": 11.99
+      },
+      "rimi": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/linnuliha/maitsestatud-linnuliha/broileri-kintsuliha-saslokk-armeenia-grill-kg/p/4007310",
+        "storeUnitPrice": 8.99
+      },
+      "selver": {
+        "price": 12.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/broileri-kintsuliha-saslokk-armeenia-grill-kg",
+        "storeUnitPrice": 12.19
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Broilerikintsuliha juustuga kolme 400g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/br-kintsuliha-kolme-juustugatallegg-400-g",
+        "size": "400g",
+        "storeUnitPrice": 12.48
+      },
+      "selver": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/broilerikintsuliha-kolme-juustuga-tallegg-400-g",
+        "size": "400g",
+        "storeUnitPrice": 13.48
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar Kebab lambalihaga 400g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kebab-lambalihaga-oskar-400-g",
+        "size": "400g",
+        "storeUnitPrice": 18.48
+      },
+      "selver": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kebab-lambalihaga-oskar-400-g",
+        "cardPrice": 4.99,
+        "cardName": "Partner",
+        "size": "400g",
+        "storeUnitPrice": 18.48
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Delikatesshakkliha 300g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/delikatesshakkliha-matsimoka-300-g",
+        "size": "300g",
+        "storeUnitPrice": 9.83
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/seahakkliha/delikatesshakkliha-matsimoka-300g/p/986839",
+        "size": "300g",
+        "storeUnitPrice": 7.63
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Liivimaa lihaveis Rohumaaveise hakkliha 300g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mahe-rohumaaveise-hakkliha-liivimaa-300-g",
+        "size": "300g",
+        "storeUnitPrice": 19.3
+      },
+      "selver": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-rohumaaveise-hakkliha-liivimaa-lihaveis-300-g",
+        "size": "300g",
+        "storeUnitPrice": 19.3
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Külmutatud broilerikael 500g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulmutatud-broilerikael-tallegg-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.98
+      },
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-lihatooted/broilerikael-kulmutatud-tallegg-500g/p/4005041",
+        "size": "500g",
+        "storeUnitPrice": 2.98
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Sea sisefilee",
+    "category": "Meat",
+    "prices": {
+      "rimi": {
+        "price": 8.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/varske-sealiha/sea-sisefilee-rakvere-kg/p/919198",
+        "storeUnitPrice": 8.69
+      },
+      "selver": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sea-sisefilee-rakvere-lk-kg",
+        "storeUnitPrice": 11.99
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Baby back searibi",
+    "category": "Meat",
+    "prices": {
+      "rimi": {
+        "price": 11.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/varske-sealiha/baby-back-searibi-jahutatud-rakvere-kg/p/940127",
+        "storeUnitPrice": 11.79
+      },
+      "selver": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/baby-back-searibi-rakvere-kg",
+        "storeUnitPrice": 10.49
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Sea välisfilee",
+    "category": "Meat",
+    "prices": {
+      "rimi": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/varske-sealiha/sea-valisfilee-rakvere-kg/p/200794",
+        "storeUnitPrice": 9.99
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sea-valisfilee-rakvere-lk-kg",
+        "storeUnitPrice": 9.99
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Delikatess broilerihakklihasegu 300g",
+    "category": "Meat",
+    "prices": {
+      "rimi": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/hakkliha/kanahakkliha/delikatess-broilerihakklihasegu-tallegg-300g/p/266352",
+        "size": "300g",
+        "storeUnitPrice": 12.3
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/delikatess-broilerihakklihasegu-tallegg-300-g",
+        "size": "300g",
+        "storeUnitPrice": 12.17
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
   }
 ]

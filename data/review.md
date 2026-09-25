@@ -1,22 +1,22 @@
 # Price comparison review
 
-Generated 2026-09-24 by `npm run review` (scraper/build-review.js) from already-scraped data — data/raw/ and data/prices.json. Never contacts a store; run `npm run fetch-prices` first for fresh numbers. Unmatched/unclassified/ambiguous counts and listings are recomputed fresh from data/raw/ every time (not read from data/unmatched.json etc., which a single-category run narrows to just that category — see the comment at the top of this file).
+Generated 2026-09-25 by `npm run review` (scraper/build-review.js) from already-scraped data — data/raw/ and data/prices.json. Never contacts a store; run `npm run fetch-prices` first for fresh numbers. Unmatched/unclassified/ambiguous counts and listings are recomputed fresh from data/raw/ every time (not read from data/unmatched.json etc., which a single-category run narrows to just that category — see the comment at the top of this file).
 
 Matching pools every store's items for a category together (scraper/match-products.js's `matchPool`) instead of comparing store pairs — a product can hold any number of stores. A group is only accepted when every pair inside it agrees on being the same product AND it holds at most one item per store; anything that fails either check (two same-store items both matching a third, or a chain that isn't a clique) goes to the ambiguous list instead of a guess. Selver has no live stock signal in its public API, so its price always carries a "Selver: availability not verified" note on the product screen, and its Partner card price is shown only as a small secondary line — neither ever decides which store is cheapest.
 
 ## Summary
 
-| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Total |
-|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 201 + 276 + 261 | 130 + 80 + 134 | 117 + 94 + 98 | 418 + 420 + 349 | 2647 |
-| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 297 |
-| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 69 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 80 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 94 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 54 |
-| Unmatched | 38 | 565 | 250 | 125 | 969 | 1947 |
-| Unclassified | 0 | 4 | 0 | 0 | 0 | 4 |
-| Ambiguous groups | 2 | 5 | 0 | 0 | 3 | 10 |
+| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Total |
+|---|---|---|---|---|---|---|---|
+| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 201 + 276 + 261 | 130 + 80 + 134 | 117 + 94 + 98 | 418 + 420 + 349 | 149 + 129 + 110 | 3035 |
+| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 315 |
+| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 72 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 83 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 102 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 58 |
+| Unmatched | 38 | 565 | 250 | 125 | 969 | 342 | 2289 |
+| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 4 |
+| Ambiguous groups | 2 | 5 | 0 | 0 | 3 | 2 | 12 |
 
 ## 1. All matched products
 
@@ -319,6 +319,24 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Vaarikatomat kg | Fruits & vegetables | 2.99 € | 2.59 € | — | Rimi |
 | Viinamari red globe punane kg | Fruits & vegetables | 3.99 € | — | 3.99 € | Barbora + Selver |
 | Virsik kg | Fruits & vegetables | — | 2.99 € | 3.99 € | Rimi |
+| Armeenia grill Armeenia šašlõkk | Meat | 8.99 € | 11.99 € | 12.19 € | Barbora |
+| Armeenia grill Br broileri kintsuliha šašlõkk | Meat | 11.99 € | 8.99 € | 12.19 € | Rimi |
+| Armeenia grill Sea šašlõkk | Meat | 11.99 € | 12.49 € | 12.59 € | Barbora |
+| Liivimaa lihaveis Rohumaaveise hakkliha 300g | Meat | 5.79 € | — | 5.79 € | Barbora + Selver |
+| Matsimoka Delikatesshakkliha 300g | Meat | 2.95 € | 2.29 € | — | Rimi |
+| Oskar Kebab lambalihaga 400g | Meat | 7.39 € | — | 7.39 € (4.99 € Partner) | Barbora + Selver |
+| Rakvere Baby back searibi | Meat | — | 11.79 € | 10.49 € | Selver |
+| Rakvere Grill liha mustika 500g | Meat | 6.89 € | — | 4.99 € | Selver |
+| Rakvere Mustika grill ribi | Meat | 11.19 € | — | 7.49 € | Selver |
+| Rakvere Sea sisefilee | Meat | — | 8.69 € | 11.99 € | Rimi |
+| Rakvere Sea välisfilee | Meat | — | 9.99 € | 9.99 € | Rimi + Selver |
+| Seakaelakarbonaad | Meat | 8.99 € | 9.99 € | — | Barbora |
+| Tallegg Ahjubroiler klassikaline | Meat | 5.99 € | — | 4.99 € | Selver |
+| Tallegg Br broileri klassikalises poolkoivad 800g | Meat | 3.75 € | — | 4.99 € (3.99 € Partner) | Barbora |
+| Tallegg Broilerikintsuliha juustuga kolme 400g | Meat | 4.99 € | — | 5.39 € | Barbora |
+| Tallegg Delikatess broilerihakklihasegu 300g | Meat | — | 3.69 € | 3.65 € | Selver |
+| Tallegg Eestimaine broilerikoib | Meat | 3.59 € | — | 5.99 € | Barbora |
+| Tallegg Külmutatud broilerikael 500g | Meat | 1.49 € | 1.49 € | — | Barbora + Rimi |
 
 Card prices shown in parentheses are informational only — never used to decide the Cheapest column.
 
@@ -336,6 +354,8 @@ Card prices shown in parentheses are informational only — never used to decide
 | Drinks | Barbora "Karastusjook COCA-COLA 1.5L*2tk" (3.59 €); Barbora "Karastusjook COCA-COLA 1.5L" (2.25 €); Rimi "Karastusjook Coca-Cola 1,5l" (2.25 €); Selver "Karastusjook Coca-Cola, COCA-COLA, 1,5 L" (2.29 €) |
 | Drinks | Barbora "Karastusjook COCA-COLA Zero 1.5L*2tk" (3.59 €); Barbora "Karastusjook COCA-COLA Zero 1.5L" (2.29 €); Rimi "Karastusjook Coca-Cola Zero 1,5l" (2.25 €) |
 | Drinks | Barbora "Karastusjook COCA-COLA 330ml" (1.21 €); Selver "Karastusjook Coca-Cola, COCA-COLA, 330 ml" (1.21 €); Selver "Karastusjook Coca-Cola, COCA-COLA, 330 ml" (1.29 €) |
+| Meat | Barbora "Kodune hakkliha RAKVERE,600g" (6.99 €); Rimi "Hakkliha kodune Rakvere 400g" (3.59 €); Selver "Kodune hakkliha, RAKVERE LK, 400 g" (3.55 €); Selver "Kodune hakkliha, RAKVERE LK, 600 g" (6.99 €) |
+| Meat | Rimi "Sea kaelakarbonaad Rakvere kg" (8.49 €); Selver "Sea kaelakarbonaad, RAKVERE LK, kg" (5.99 €); Selver "Sea kaelakarbonaad, RAKVERE LK, kg" (10.15 €) |
 
 ## 3. Unclassified
 
@@ -406,4 +426,14 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Karastusjook COCA COLA sidrun 330ml" (1.21 €) | Rimi "Karastusjook Coca-Cola 0,33l prk" (0.89 €) |
 | Barbora "Karastusjook COCA COLA sidrun 330ml" (1.21 €) | Rimi "Karastusjook Coca-Cola 0,33l pudel" (1.35 €) |
 | Barbora "Karastusjook COCA COLA sidrun 330ml" (1.21 €) | Rimi "Karastusjook Lemon Coca-Cola 0,33l" (0.89 €) |
+
+### Meat (5)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Kirsi-rum.grill-liha seaväl.RAKVERE,580g" (5.59 €) | Selver "Kirsi-rummimarinaadis grill-liha seavälisfileest, RAKVERE LK, 580 g" (5.99 €) |
+| Barbora "Grill-liha Meistrite NÕO,450g" (6.49 €) | Rimi "Meistrite grill-liha sealihast Nõo 450g" (5.99 €) |
+| Barbora "Br.poolkoivad jogurti-tilli TALLEGG,800g" (3.75 €) | Selver "Broileri poolkoivad jogurti-tillimarinaadis, TALLEGG, 800 g" (4.99 €) |
+| Rimi "Armeenia šašlõkk seakaelakarb. Steff 600g" (6.29 €) | Selver "Šašlõkk seakaelakarbonaadist Armeenia, STEFF, 600 g" (7.99 €) |
+| Rimi "Armeenia šašlõkk seakaelakarb. Steff 600g" (6.29 €) | Selver "Šašlõkk broilerikintsulihast Armeenia, STEFF, 600 g" (7.99 €) |
 

@@ -14,7 +14,7 @@ and a static HTML page.
 | Rimi | category listing pages, server-rendered HTML |
 | Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
 
-Five categories are scraped today, with this many matched products in
+Six categories are scraped today, with this many matched products in
 each as of the last run (`data/prices.json`):
 
 | Category | Matched products |
@@ -24,15 +24,36 @@ each as of the last run (`data/prices.json`):
 | Dairy | 41 |
 | Bread | 83 |
 | Drinks (non-alcoholic only) | 94 |
-| **Total** | **297** |
+| Meat (fresh & frozen chicken, pork, beef, lamb, minced) | 18 |
+| **Total** | **315** |
 
 Each store's own category tree is mapped onto these by hand in
-`scraper/fetch-price.js` (URLs for Barbora/Rimi) and
-`scraper/stores/selver.js` (category IDs, and a name filter wherever
-Selver's own category doesn't split cleanly — e.g. no category
-dedicated to formula alone, or a "Water" leaf mixing in vitamin
-water). The comments next to each category's URLs/IDs spell out
-exactly what's included and excluded, and why.
+`scraper/categories.js` (URLs for Barbora/Rimi, and each category's
+own settings — see below) and `scraper/stores/selver.js` (category
+IDs, and a name filter wherever Selver's own category doesn't split
+cleanly — e.g. no category dedicated to formula alone, or a "Water"
+leaf mixing in vitamin water). The comments next to each category's
+URLs/IDs spell out exactly what's included and excluded, and why.
+
+Meat works differently from the other five, in two ways:
+- **Cheapest is decided by per-kg price, not pack price**
+  (`cheapestByUnitPrice` in `scraper/categories.js`) — a real weight is
+  captured from each store's own per-kg field (Barbora's
+  `comparative_unit_price`, Rimi's "Hind ühiku kohta" card text,
+  Selver's `unit_price`), not parsed from the name, since a large
+  share of meat is sold "per kg" with no weight in the name at all.
+  The product screen shows €/kg as the headline number for Meat, pack
+  price and weight as the small line underneath — the reverse of every
+  other category.
+- **A match can span different pack weights**, including "sold per
+  kg" vs a fixed pack (`matchAcrossWeights` in `scraper/categories.js`
+  and `sameBrandedProduct` in `scraper/match-products.js`) — since
+  cheapest is per-kg anyway, the pack size itself isn't part of a meat
+  product's identity, the one exception being a multipack ("2x500g"),
+  which never matches a single pack. Fresh vs frozen, marinated vs
+  plain (and different marinade flavours), bone, skin, cut, and mince
+  type still always block, the same strict-packaging descriptor check
+  every other category uses.
 
 ## How matching works, in plain words
 
@@ -137,7 +158,7 @@ which are edited by hand):
 | File | What it holds |
 |---|---|
 | `data/raw/<category>/<store>.json` + `meta.json` | Every item exactly as that store returned it, for that category — the only file anything other than `fetch-price.js` should ever read scraped data from |
-| `data/prices.json` | Matched products the app actually displays — one entry per product, with a price per store it was found at |
+| `data/prices.json` | Matched products the app actually displays — one entry per product, with a price per store it was found at (plus that store's own per-kg `storeUnitPrice` when known, and `cheapestByUnitPrice: true` on a Meat product — see "Meat works differently" above) |
 | `data/unmatched.json` | Items with a recognizable type or brand that still didn't find a match anywhere — worth a person's look |
 | `data/unclassified.json` | Items with no recognizable type or brand at all — never had a reliable comparison to begin with |
 | `data/ambiguous.json` | Groups that don't agree with each other cleanly — needs a person to pick, see "How matching works" above |
@@ -157,10 +178,10 @@ minu-project/
 │   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows, unit price) — kept separate from the DOM code so it's directly testable
 ├── scraper/
 │   ├── fetch-price.js            the only file that contacts a store; writes data/raw/, data/prices.json, and the leftover files
-│   ├── categories.js             the five categories' store URLs and strictPackaging settings — fetch-price.js's single source for both, and the one place a test/by-hand check should build an item from (buildItem)
+│   ├── categories.js             the six categories' store URLs and settings (strictPackaging, and Meat's cheapestByUnitPrice/matchAcrossWeights) — fetch-price.js's single source for all of it, and the one place a test/by-hand check should build an item from (buildItem)
 │   ├── build-review.js           regenerates data/review.md from already-scraped data; never scrapes
 │   ├── match-products.js         the matching rules (sameProduct, matchPool)
-│   ├── raw.js                    reads/writes data/raw/
+│   ├── raw.js                    reads/writes data/raw/ (+ raw.test.js, that a category's settings round-trip through meta.json)
 │   ├── no-scrape.test.js         enforces that only fetch-price.js contacts a store
 │   └── stores/
 │       ├── barbora.js            fetches + parses Barbora category pages

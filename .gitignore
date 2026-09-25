@@ -1,3 +1,16 @@
 node_modules/
+
+# Per-machine Claude Code settings (permissions granted on this Mac) —
+# never shared through the repo.
+.claude/settings.local.json
+
+# Local marker that pauses the daily automatic update (see CLAUDE.md).
+data/.work-in-progress
+
+# OS junk
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
+desktop.ini

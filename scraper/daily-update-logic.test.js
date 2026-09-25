@@ -173,6 +173,22 @@ const results = [
     assert.equal(result.safe, false);
     assert.equal(result.reason, "work-in-progress");
   }),
+
+  // Source-level guard, same style as no-scrape.test.js: the push step
+  // is I/O with no pure logic to unit-test, but its two invariants —
+  // it exists, and it can never force-push — are cheap to pin down by
+  // reading the script itself.
+  test("Daily update pushes after committing, and never with --force (or any force-push spelling)", () => {
+    const fs = require("node:fs");
+    const path = require("node:path");
+    const source = fs.readFileSync(path.join(__dirname, "daily-update.js"), "utf8");
+    assert.match(source, /execFileSync\("git",\s*\["push",\s*"origin",\s*"HEAD"\]/, "a plain `git push origin HEAD` must be present");
+    assert.doesNotMatch(source, /--force|force-with-lease|"-f"|"\+[A-Za-z]/, "no force-push flag or +refspec anywhere in the script");
+    // The push is wrapped so a failure is logged, not thrown — the
+    // whole run must never exit non-zero just because GitHub or the
+    // network was unreachable.
+    assert.match(source, /function gitPush\(\) \{\s*try \{/, "push must be inside a try block");
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

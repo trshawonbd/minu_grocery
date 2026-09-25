@@ -31,7 +31,9 @@
 // Then commits every changed file under data/ with the message
 // "Daily update YYYY-MM-DD" — the one file in this project that
 // commits on its own, since the whole point is running without a
-// person watching.
+// person watching — and pushes it to the GitHub remote (best-effort:
+// a failed push is logged and the commit stays local until the next
+// push; never a force-push — see gitPush()).
 //
 // Before any of that: skips the entire run, untouched, if the repo
 // has uncommitted changes or data/.work-in-progress exists — see
@@ -209,6 +211,25 @@ function gitCommit() {
   console.log(`Committed: "Daily update ${today()}"`);
 }
 
+// Pushes the commit to the GitHub remote. Deliberately best-effort:
+// this runs unattended at 06:00, and a push can fail for reasons
+// nobody is around to fix (no internet, GitHub down, or `main` moved
+// on the remote because someone pushed from another clone). Any of
+// those is logged and the run still counts as done — the commit is
+// safe locally and the next `git pull`/push by a person or by
+// tomorrow's run picks it up. NEVER force-pushes: a plain `git push`
+// is rejected on divergence rather than overwriting anyone's work,
+// which is exactly the behaviour wanted here.
+function gitPush() {
+  try {
+    execFileSync("git", ["push", "origin", "HEAD"], { cwd: ROOT, stdio: "pipe", timeout: 120000 });
+    console.log("Pushed to origin.");
+  } catch (err) {
+    const detail = (err.stderr && err.stderr.toString().trim()) || err.message;
+    console.log(`Push failed (commit kept locally, will retry next run): ${detail}`);
+  }
+}
+
 // Checked first thing in main(), before any store is even fetched —
 // see checkRepoSafety in daily-update-logic.js for why. Deliberately
 // writes nothing to disk when unsafe (not even a log file): the whole
@@ -263,6 +284,11 @@ async function main() {
 
   console.log(log.join("\n"));
   gitCommit();
+  // Always attempted, even on a day with nothing new to commit — a
+  // push that failed on an earlier run leaves that commit unpushed
+  // locally, and this is what gets it out the next morning. When
+  // everything is already on the remote it's a harmless no-op.
+  gitPush();
 }
 
 main().catch((err) => {

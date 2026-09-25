@@ -10,26 +10,7 @@
     "storeUnitPrice": 5.5,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-basmati-veski-mati-500g/p/140082",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "riis",
-      "unit": "500g",
-      "variety": "veski mati",
-      "nameLower": "riis basmati veski mati 500g",
-      "brand": "veski mati",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "basmati riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -42,26 +23,7 @@
     "storeUnitPrice": 0.99,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/pikateraline-riis-rimi-smart-800g/p/804297",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pikateraline",
-      "unit": "800g",
-      "variety": "rimi smart",
-      "nameLower": "pikateraline riis rimi smart 800g",
-      "brand": "rimi smart",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -74,58 +36,7 @@
     "storeUnitPrice": 3.99,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/basmati-riis-budget-oko-1kg/p/816818",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "basmati",
-      "unit": "1000g",
-      "variety": "budget",
-      "nameLower": "basmati riis budget öko 1kg",
-      "brand": "budget",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "basmati riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Risotoriis Veski Mati 500g",
-    "price": 2.49,
-    "regularPrice": 2.49,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Veski Mati",
-    "storeUnitPrice": 4.98,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/risotoriis-veski-mati-500g/p/164575",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "risotoriis",
-      "unit": "500g",
-      "variety": "veski mati",
-      "nameLower": "risotoriis veski mati 500g",
-      "brand": "veski mati",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "risotoriis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -138,26 +49,20 @@
     "storeUnitPrice": 3.97,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/pikateraline-basmati-riis-rimi-planet-400g/p/817695",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pikateraline",
-      "unit": "400g",
-      "variety": "rimi planet",
-      "nameLower": "pikateraline basmati riis rimi planet 400g",
-      "brand": "rimi planet",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "basmati pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
+  },
+  {
+    "store": "Rimi",
+    "name": "Risotoriis Veski Mati 500g",
+    "price": 2.49,
+    "regularPrice": 2.49,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Veski Mati",
+    "storeUnitPrice": 4.98,
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/risotoriis-veski-mati-500g/p/164575",
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -170,26 +75,7 @@
     "storeUnitPrice": 3.09,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/pudruriis-veski-mati-1kg/p/100252",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "pudruriis",
-      "unit": "1000g",
-      "variety": "veski mati",
-      "nameLower": "pudruriis veski mati 1kg",
-      "brand": "veski mati",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pudruriis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -202,26 +88,7 @@
     "storeUnitPrice": 2.99,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-aurutatud-tartu-mill-1kg/p/165296",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "riis",
-      "unit": "1000g",
-      "variety": "tartu mill",
-      "nameLower": "riis  tartu mill 1kg",
-      "brand": "tartu mill",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -234,26 +101,7 @@
     "storeUnitPrice": 3.09,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-somer-veski-mati-1kg/p/100391",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "riis",
-      "unit": "1000g",
-      "variety": "veski mati",
-      "nameLower": "riis sõmer veski mati 1kg",
-      "brand": "veski mati",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis sõmer",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -266,26 +114,7 @@
     "storeUnitPrice": 3.97,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/sushi-riis-rimi-planet-400g/p/817664",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "sushi",
-      "unit": "400g",
-      "variety": "rimi planet",
-      "nameLower": "sushi riis rimi planet 400g",
-      "brand": "rimi planet",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis sushi",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -298,26 +127,7 @@
     "storeUnitPrice": 2.75,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-pikateraline-tartu-mill-1kg/p/165295",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "riis",
-      "unit": "1000g",
-      "variety": "tartu mill",
-      "nameLower": "riis pikateraline tartu mill 1kg",
-      "brand": "tartu mill",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -330,26 +140,7 @@
     "storeUnitPrice": 3.99,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/jasmiini-riis-budget-oko-1kg/p/816819",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "jasmiini",
-      "unit": "1000g",
-      "variety": "budget",
-      "nameLower": "jasmiini riis budget öko 1kg",
-      "brand": "budget",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jasmiini riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -362,26 +153,7 @@
     "storeUnitPrice": 1.94,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/aurutatud-riis-rimi-smart-800g/p/817638",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "riis",
-      "unit": "800g",
-      "variety": "rimi smart",
-      "nameLower": " riis rimi smart 800g",
-      "brand": "rimi smart",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -394,26 +166,7 @@
     "storeUnitPrice": 3.12,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/pruun-riisi-greatlife-400g/p/817662",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "pruun",
-      "unit": "400g",
-      "variety": "greatlife",
-      "nameLower": "pruun riisi greatlife 400g",
-      "brand": "pruun",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "greatlife pruun riisi",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -426,26 +179,7 @@
     "storeUnitPrice": 7.99,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/basmati-riisi-taj-mahal-1kg/p/171904",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "basmati",
-      "unit": "1000g",
-      "variety": "taj mahal",
-      "nameLower": "basmati riisi taj mahal 1kg",
-      "brand": "taj mahal",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "basmati riisi",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -458,26 +192,7 @@
     "storeUnitPrice": 2.19,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/pikateraline-riis-rimi-800g/p/817463",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pikateraline",
-      "unit": "800g",
-      "variety": "rimi",
-      "nameLower": "pikateraline riis rimi 800g",
-      "brand": "rimi",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -490,26 +205,7 @@
     "storeUnitPrice": 5.97,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/aurutatud-metsiku-riisi-segu-rimi-planet-400g/p/817661",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "metsiku",
-      "unit": "400g",
-      "variety": "rimi planet",
-      "nameLower": "-metsiku riisi segu rimi planet 400g",
-      "brand": "rimi planet",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "metsiku riisi segu",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -522,26 +218,7 @@
     "storeUnitPrice": 2.72,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/eelkeedetud-riis-rimi-400g/p/817696",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "eelkeedetud",
-      "unit": "400g",
-      "variety": "rimi",
-      "nameLower": "eelkeedetud riis rimi 400g",
-      "brand": "rimi",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "eelkeedetud riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -554,26 +231,7 @@
     "storeUnitPrice": 2.61,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-umarateraline-rimi-800g/p/817084",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "riis",
-      "unit": "800g",
-      "variety": "rimi",
-      "nameLower": "riis ümarateraline rimi 800g",
-      "brand": "rimi",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis ümarateraline",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -586,26 +244,7 @@
     "storeUnitPrice": 7.38,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-bosto-poke-bowl-500g/p/1014771",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "riis",
-      "unit": "500g",
-      "variety": "bosto poke bowl",
-      "nameLower": "riis bosto poke bowl 500g",
-      "brand": "bosto",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "bowl poke riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -618,26 +257,7 @@
     "storeUnitPrice": 7.18,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maailmakook/jaapani-kook/sushi-riis-fudo-500g/p/168924",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "sushi",
-      "unit": "500g",
-      "variety": "fudo",
-      "nameLower": "sushi riis fudo 500g",
-      "brand": "fudo",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis sushi",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -650,26 +270,7 @@
     "storeUnitPrice": 7.58,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-mediterraneo-bosto-500g/p/102994",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "riis",
-      "unit": "500g",
-      "variety": "mediterraneo bosto",
-      "nameLower": "riis mediterraneo bosto 500g",
-      "brand": "bosto",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "mediterraneo riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -682,26 +283,7 @@
     "storeUnitPrice": 4.18,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pikateraline-riis-bosto-4x125g/p/102782",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "pikateraline",
-      "unit": "4x125g",
-      "variety": "bosto",
-      "nameLower": "pikateraline riis bosto 4x125g",
-      "brand": "bosto",
-      "size": "4x125g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -714,26 +296,7 @@
     "storeUnitPrice": 6.58,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/basmati-riis-bosto-4x125g/p/103128",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "basmati",
-      "unit": "4x125g",
-      "variety": "bosto",
-      "nameLower": "basmati riis bosto 4x125g",
-      "brand": "bosto",
-      "size": "4x125g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "basmati riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -746,58 +309,7 @@
     "storeUnitPrice": 3.47,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/jasmiini-riis-rimi-planet-4x100g/p/817451",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "jasmiini",
-      "unit": "4x100g",
-      "variety": "rimi planet",
-      "nameLower": "jasmiini riis rimi planet 4x100g",
-      "brand": "rimi planet",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jasmiini riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Pruun riis Bosto 4x125g",
-    "price": 1.99,
-    "regularPrice": 1.99,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Bosto",
-    "storeUnitPrice": 3.98,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pruun-riis-bosto-4x125g/p/102802",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "pruun",
-      "unit": "4x125g",
-      "variety": "bosto",
-      "nameLower": "pruun riis bosto 4x125g",
-      "brand": "bosto",
-      "size": "4x125g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pruun riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -810,26 +322,20 @@
     "storeUnitPrice": 2.11,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pikateraline-riis-rimi-8x100g/p/817697",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pikateraline",
-      "unit": "8x100g",
-      "variety": "rimi",
-      "nameLower": "pikateraline riis rimi 8x100g",
-      "brand": "rimi",
-      "size": "8x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
+  },
+  {
+    "store": "Rimi",
+    "name": "Pruun riis Bosto 4x125g",
+    "price": 1.99,
+    "regularPrice": 1.99,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Bosto",
+    "storeUnitPrice": 3.98,
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pruun-riis-bosto-4x125g/p/102802",
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -842,26 +348,7 @@
     "storeUnitPrice": 3.97,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pikateraline-basmati-riis-rimi-planet-4x100g/p/817464",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pikateraline",
-      "unit": "4x100g",
-      "variety": "rimi planet",
-      "nameLower": "pikateraline basmati riis rimi planet 4x100g",
-      "brand": "rimi planet",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "basmati pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -874,26 +361,7 @@
     "storeUnitPrice": 4.58,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/jasmiini-riis-bosto-4x125g/p/102993",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "jasmiini",
-      "unit": "4x125g",
-      "variety": "bosto",
-      "nameLower": "jasmiini riis bosto 4x125g",
-      "brand": "bosto",
-      "size": "4x125g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jasmiini riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -906,26 +374,7 @@
     "storeUnitPrice": 2.72,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pikateraline-riis-rimi-smart-4x100g/p/805069",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pikateraline",
-      "unit": "4x100g",
-      "variety": "rimi smart",
-      "nameLower": "pikateraline riis rimi smart 4x100g",
-      "brand": "rimi smart",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -938,26 +387,7 @@
     "storeUnitPrice": 3.78,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/riis-aurutatud-tartu-mill-4x125g/p/1003552",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "riis",
-      "unit": "4x125g",
-      "variety": "tartu mill",
-      "nameLower": "riis  tartu mill 4x125g",
-      "brand": "tartu mill",
-      "size": "4x125g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -970,26 +400,7 @@
     "storeUnitPrice": 4.58,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/aurutoodeldud-riis-bosto-4x125g/p/102371",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "aurutöödeldud",
-      "unit": "4x125g",
-      "variety": "bosto",
-      "nameLower": "aurutöödeldud riis bosto 4x125g",
-      "brand": "bosto",
-      "size": "4x125g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "aurutöödeldud riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1002,26 +413,7 @@
     "storeUnitPrice": 10.3,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pruun-riis-spelta-ja-kinoaga-bosto-4x75g/p/1004045",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "pruun",
-      "unit": "4x75g",
-      "variety": "bosto",
-      "nameLower": "pruun riis spelta ja kinoaga bosto 4x75g",
-      "brand": "bosto",
-      "size": "4x75g",
-      "variant": null,
-      "qualifiers": "kinoaga",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "ja kinoaga pruun riis spelta",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1034,26 +426,7 @@
     "storeUnitPrice": 3.37,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/aurutatud-riis-rimi-4x100g/p/817452",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "riis",
-      "unit": "4x100g",
-      "variety": "rimi",
-      "nameLower": " riis rimi 4x100g",
-      "brand": "rimi",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1066,26 +439,7 @@
     "storeUnitPrice": 2.87,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pruun-riis-rimi-greatlife-4x100g/p/817453",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pruun",
-      "unit": "4x100g",
-      "variety": "rimi greatlife",
-      "nameLower": "pruun riis rimi greatlife 4x100g",
-      "brand": "rimi greatlife",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pruun riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1098,26 +452,7 @@
     "storeUnitPrice": 3.22,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/pikateraline-riis-rimi-4x100g/p/817462",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pikateraline",
-      "unit": "4x100g",
-      "variety": "rimi",
-      "nameLower": "pikateraline riis rimi 4x100g",
-      "brand": "rimi",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pikateraline riis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1130,26 +465,7 @@
     "storeUnitPrice": 0.92,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatratang-rimi-smart-800g/p/804281",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "tatratang",
-      "unit": "800g",
-      "variety": "rimi smart",
-      "nameLower": "tatratang rimi smart 800g",
-      "brand": "rimi smart",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatratang",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1162,26 +478,7 @@
     "storeUnitPrice": 2.39,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-tartu-mill-1kg/p/173122",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "tatar",
-      "unit": "1000g",
-      "variety": "tartu mill",
-      "nameLower": "tatar tartu mill 1kg",
-      "brand": "tartu mill",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1194,26 +491,7 @@
     "storeUnitPrice": 2.35,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-rimi-smart-4-x-100g/p/805135",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "tatar",
-      "unit": "4x100g",
-      "variety": "rimi smart",
-      "nameLower": "tatar rimi smart 4 x 100g",
-      "brand": "rimi smart",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1226,26 +504,7 @@
     "storeUnitPrice": 1.45,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/manna-tartu-mill-1kg/p/126496",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "manna",
-      "unit": "1000g",
-      "variety": "tartu mill",
-      "nameLower": "manna tartu mill 1kg",
-      "brand": "tartu mill",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "manna",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1258,26 +517,7 @@
     "storeUnitPrice": 8.97,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/kolme-kinoa-segu-rimi-greatlife-400g/p/811332",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "kolme",
-      "unit": "400g",
-      "variety": "rimi greatlife",
-      "nameLower": "kolme kinoa segu rimi greatlife 400g",
-      "brand": "rimi greatlife",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "kinoa kolme segu",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1290,26 +530,7 @@
     "storeUnitPrice": 1.36,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/kruubid-ja-tangud/odrakruup-rimi-smart-800g/p/808157",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "odrakruup",
-      "unit": "800g",
-      "variety": "rimi smart",
-      "nameLower": "odrakruup rimi smart 800g",
-      "brand": "rimi smart",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "odrakruup",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1322,26 +543,7 @@
     "storeUnitPrice": 2.1,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/manna-veski-mati-500g/p/100292",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "manna",
-      "unit": "500g",
-      "variety": "veski mati",
-      "nameLower": "manna veski mati 500g",
-      "brand": "veski mati",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "manna",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1354,26 +556,7 @@
     "storeUnitPrice": 4.61,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/toortatar-rimi-800g/p/810608",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "toortatar",
-      "unit": "800g",
-      "variety": "rimi",
-      "nameLower": "toortatar rimi 800g",
-      "brand": "rimi",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "toortatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1386,26 +569,7 @@
     "storeUnitPrice": 1.06,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/manna-rimi-800g/p/808792",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "manna",
-      "unit": "800g",
-      "variety": "rimi",
-      "nameLower": "manna rimi 800g",
-      "brand": "rimi",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "manna",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1418,26 +582,7 @@
     "storeUnitPrice": 3.98,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/kuskuss-rimi-planet-500g/p/809488",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "kuskuss",
-      "unit": "500g",
-      "variety": "rimi planet",
-      "nameLower": "kuskuss rimi planet 500g",
-      "brand": "rimi planet",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "kuskuss",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1450,58 +595,7 @@
     "storeUnitPrice": 4.97,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-baltix-4x100g/p/137968",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "tatar",
-      "unit": "4x100g",
-      "variety": "baltix",
-      "nameLower": "tatar baltix 4x100g",
-      "brand": "baltix",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Kinoa valge Rimi 400g",
-    "price": 2.99,
-    "regularPrice": 2.99,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Rimi",
-    "storeUnitPrice": 7.47,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/kinoa-valge-rimi-400g/p/809625",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "kinoa",
-      "unit": "400g",
-      "variety": "rimi valge",
-      "nameLower": "kinoa valge rimi 400g",
-      "brand": "rimi",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "valge",
-      "fatPercent": null,
-      "descriptors": "kinoa valge",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1514,26 +608,20 @@
     "storeUnitPrice": 3.47,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-rimi-4x100g/p/816381",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "tatar",
-      "unit": "4x100g",
-      "variety": "rimi",
-      "nameLower": "tatar rimi 4x100g",
-      "brand": "rimi",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
+  },
+  {
+    "store": "Rimi",
+    "name": "Kinoa valge Rimi 400g",
+    "price": 2.99,
+    "regularPrice": 2.99,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Rimi",
+    "storeUnitPrice": 7.47,
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/kinoa-valge-rimi-400g/p/809625",
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1546,26 +634,7 @@
     "storeUnitPrice": 2.31,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-rimi-800g/p/816373",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "tatar",
-      "unit": "800g",
-      "variety": "rimi",
-      "nameLower": "tatar rimi 800g",
-      "brand": "rimi",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1578,58 +647,7 @@
     "storeUnitPrice": 2.35,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-baltix-fritar-1kg/p/126069",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "tatar",
-      "unit": "1000g",
-      "variety": "baltix fritar",
-      "nameLower": "tatar baltix fritar 1kg",
-      "brand": "baltix",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "fritar tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Pärlkuskuss Bosto 4x75g",
-    "price": 3.45,
-    "regularPrice": 3.45,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Bosto",
-    "storeUnitPrice": 11.5,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/parlkuskuss-bosto-4x75g/p/1014746",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "pärlkuskuss",
-      "unit": "4x75g",
-      "variety": "bosto",
-      "nameLower": "pärlkuskuss bosto 4x75g",
-      "brand": "bosto",
-      "size": "4x75g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "pärlkuskuss",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1642,26 +660,7 @@
     "storeUnitPrice": 2.49,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/hirss-baltix-1kg/p/129051",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "hirss",
-      "unit": "1000g",
-      "variety": "baltix",
-      "nameLower": "hirss baltix 1kg",
-      "brand": "baltix",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "hirss",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1674,26 +673,20 @@
     "storeUnitPrice": 1.22,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/kruubid-ja-tangud/odratang-rimi-smart-800g/p/808187",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "odratang",
-      "unit": "800g",
-      "variety": "rimi smart",
-      "nameLower": "odratang rimi smart 800g",
-      "brand": "rimi smart",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "odratang",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
+  },
+  {
+    "store": "Rimi",
+    "name": "Pärlkuskuss Bosto 4x75g",
+    "price": 3.45,
+    "regularPrice": 3.45,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Bosto",
+    "storeUnitPrice": 11.5,
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/parlkuskuss-bosto-4x75g/p/1014746",
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1706,26 +699,7 @@
     "storeUnitPrice": 3.47,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/bulgur-rimi-400g/p/816263",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "bulgur",
-      "unit": "400g",
-      "variety": "rimi",
-      "nameLower": "bulgur rimi 400g",
-      "brand": "rimi",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "bulgur",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1738,26 +712,7 @@
     "storeUnitPrice": 2.18,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/maisitang-veski-mati-500g/p/133035",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "maisitang",
-      "unit": "500g",
-      "variety": "veski mati",
-      "nameLower": "maisitang veski mati 500g",
-      "brand": "veski mati",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "maisitang",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1770,26 +725,7 @@
     "storeUnitPrice": 2.24,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-rimi-smart-8x100g/p/815410",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "tatar",
-      "unit": "8x100g",
-      "variety": "rimi smart",
-      "nameLower": "tatar rimi smart 8x100g",
-      "brand": "rimi smart",
-      "size": "8x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1802,26 +738,7 @@
     "storeUnitPrice": 3.97,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/kruubid-ja-tangud/odra-parlkruup-tartu-mill-4x100g/p/1020033",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "odra",
-      "unit": "4x100g",
-      "variety": "tartu mill",
-      "nameLower": "odra pärlkruup tartu mill 4x100g",
-      "brand": "tartu mill",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "odra pärlkruup",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1834,26 +751,7 @@
     "storeUnitPrice": 7.12,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/muud-teraviljasegud/amaranti-seemned-rimi-greatlife-400g/p/812186",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "amaranti",
-      "unit": "400g",
-      "variety": "rimi greatlife",
-      "nameLower": "amaranti seemned rimi greatlife 400g",
-      "brand": "rimi greatlife",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "amaranti seemned",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1866,58 +764,7 @@
     "storeUnitPrice": 3.83,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/kuskuss-moyen-rimi-smart-300g/p/815547",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "kuskuss",
-      "unit": "300g",
-      "variety": "moyen rimi smart",
-      "nameLower": "kuskuss moyen rimi smart 300g",
-      "brand": "rimi smart",
-      "size": "300g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "kuskuss moyen",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Toortatar Baltix 4x100g",
-    "price": 2.35,
-    "regularPrice": 2.35,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Baltix",
-    "storeUnitPrice": 5.87,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/toortatar-baltix-4x100g/p/195430",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "toortatar",
-      "unit": "4x100g",
-      "variety": "baltix",
-      "nameLower": "toortatar baltix 4x100g",
-      "brand": "baltix",
-      "size": "4x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "toortatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1930,26 +777,20 @@
     "storeUnitPrice": 2.58,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/muud-teraviljasegud/hirss-veski-mati-500g/p/1020034",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "hirss",
-      "unit": "500g",
-      "variety": "veski mati",
-      "nameLower": "hirss veski mati 500g",
-      "brand": "veski mati",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "hirss",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
+  },
+  {
+    "store": "Rimi",
+    "name": "Toortatar Baltix 4x100g",
+    "price": 2.35,
+    "regularPrice": 2.35,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Baltix",
+    "storeUnitPrice": 5.87,
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/toortatar-baltix-4x100g/p/195430",
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1962,26 +803,7 @@
     "storeUnitPrice": 3.72,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/pruun-taistera-bulgur-rimi-400g/p/816259",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "pruun",
-      "unit": "400g",
-      "variety": "rimi",
-      "nameLower": "pruun täistera bulgur rimi 400g",
-      "brand": "rimi",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "bulgur pruun täistera",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -1994,26 +816,7 @@
     "storeUnitPrice": 1.55,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/kruubid-ja-tangud/nisutang-rimi-smart-800g/p/808188",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "nisutang",
-      "unit": "800g",
-      "variety": "rimi smart",
-      "nameLower": "nisutang rimi smart 800g",
-      "brand": "rimi smart",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "nisutang",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -2026,26 +829,7 @@
     "storeUnitPrice": 9.3,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/bulgur-bosto-4x75g/p/1014747",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "bulgur",
-      "unit": "4x75g",
-      "variety": "bosto",
-      "nameLower": "bulgur bosto 4x75g",
-      "brand": "bosto",
-      "size": "4x75g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "bulgur",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -2058,58 +842,7 @@
     "storeUnitPrice": 3.11,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/tatratangud/tatar-rimi-8x100g/p/816396",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "tatar",
-      "unit": "8x100g",
-      "variety": "rimi",
-      "nameLower": "tatar rimi 8x100g",
-      "brand": "rimi",
-      "size": "8x100g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "tatar",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Gricotto Valdo metsaseentega 250g",
-    "price": 3.79,
-    "regularPrice": 3.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Valdo",
-    "storeUnitPrice": 15.16,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/gricotto-valdo-metsaseentega-250g/p/1015990",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "gricotto",
-      "unit": "250g",
-      "variety": "valdo",
-      "nameLower": "gricotto valdo metsaseentega 250g",
-      "brand": "valdo",
-      "size": "250g",
-      "variant": null,
-      "qualifiers": "metsaseentega",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "gricotto metsaseentega",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -2122,26 +855,20 @@
     "storeUnitPrice": 10.2,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/gricotto-valdo-koogiviljadega-250g/p/1015988",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "gricotto",
-      "unit": "250g",
-      "variety": "valdo",
-      "nameLower": "gricotto valdo köögiviljadega 250g",
-      "brand": "valdo",
-      "size": "250g",
-      "variant": null,
-      "qualifiers": "köögiviljadega",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "gricotto köögiviljadega",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
+  },
+  {
+    "store": "Rimi",
+    "name": "Gricotto Valdo metsaseentega 250g",
+    "price": 3.79,
+    "regularPrice": 3.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Valdo",
+    "storeUnitPrice": 15.16,
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/gricotto-valdo-metsaseentega-250g/p/1015990",
+    "ean": null
   },
   {
     "store": "Rimi",
@@ -2154,25 +881,6 @@
     "storeUnitPrice": 10.2,
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/teised-tangusegud/grubotto-valdo-paikesekuiv-tomatitega-250g/p/1015977",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "grubotto",
-      "unit": "250g",
-      "variety": "valdo",
-      "nameLower": "grubotto valdo päikesekuiv. tomatitega 250g",
-      "brand": "valdo",
-      "size": "250g",
-      "variant": null,
-      "qualifiers": "tomatitega",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "grubotto päikesekuiv tomatitega",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
+    "ean": null
   }
 ]

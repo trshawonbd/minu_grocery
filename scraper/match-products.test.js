@@ -1107,6 +1107,20 @@ const tests = [
     },
   },
   {
+    name: "Abbreviations: a unit letter left behind by a dual size ('675g/360g', '230g/470ml', '4 x 100 g') or an age marker ('6k') is stripped only when a digit precedes it — real bug: dropping a bare 'g' as a word also erased the 'G' of 'Sensitivity&G' (& Gum) and matched a different toothpaste",
+    run: () => {
+      const canned = (store, name) => buildItem("Canned food", store, name, { brand: "salvest" });
+      assert.equal(sameProduct(canned("Barbora", "Talukurk SALVEST 675g"), canned("Rimi", "Talukurk Salvest 675g/360g")), true);
+      const rice = (store, name) => buildItem("Rice & grains", store, name, { brand: "baltix" });
+      assert.equal(sameProduct(rice("Barbora", "Tatar BALTIX 4x100g"), rice("Selver", "Tatar 4 x 100 g, BALTIX, 400 g")), true);
+      const ice = (store, name) => buildItem("Ice cream", store, name, { brand: "nutella" });
+      assert.equal(sameProduct(ice("Barbora", "Jäätis NUTELLA 230g"), ice("Rimi", "Jäätis Nutella 230g/470ml")), true);
+      const care = (store, name) => buildItem("Personal care", store, name, { brand: "sensodyne" });
+      assert.equal(sameProduct(care("Barbora", "Hambapasta SENSODYNE Sensitivity&G 75ml"), care("Rimi", "Hambapasta Sensodyne Sensitivity 75ml")), false, "Sensitivity & Gum is not plain Sensitivity");
+      assert.equal(computeSignature(care("Barbora", "Hambapasta SENSODYNE Sensitivity&G 75ml")).descriptors, "g hambapasta sensitivity");
+    },
+  },
+  {
     name: "Fish & seafood: the owner's call — a fixed-weight pack or tin matches only an equal weight (190g sprats are not 240g sprats; a 900g bag of shrimp is not a 300g jar), a per-kg listing may still match across weights, and Meat keeps its own fully relaxed rule",
     run: () => {
       const fish = (store, name, brand) => buildItem("Fish & seafood", store, name, { brand });

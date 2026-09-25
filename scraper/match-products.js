@@ -769,11 +769,13 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   ["kartulikrõps", "kartulikrõpsud"],
   ["kartulilaastud", "kartulikrõpsud"],
   ["kartuliaastud", "kartulikrõpsud"],
-  // Leftover fragments that never carry real distinguishing weight
-  ["ml", ""], // a unit left behind by Rimi's "90g/150ml" dual size
-  ["l", ""],
-  ["g", ""],
-  ["k", ""], // orphaned age markers ("6k", "5+ kuud", "al. 6k") — the digit itself is already dropped by the letter-only tokenizer
+  // Leftover fragments that never carry real distinguishing weight.
+  // (A bare unit letter — the "g" of Rimi's "675g/360g" dual size or
+  // the "k" of an age marker "6k" — is NOT in this list: it's stripped
+  // by the digit-adjacent pattern below instead. Dropping "g" as a
+  // word was a real bug: it also erased the "G" of Barbora's
+  // "Sensitivity&G" — Sensodyne Sensitivity & Gum, a different
+  // toothpaste from plain Sensitivity — and matched the two.)
   ["kuud", ""],
   ["al", ""],
   ["eo", ""], // canned fish "EO" marking (easy-open lid), Kaija/Vici/Minu at Rimi and Selver
@@ -802,6 +804,13 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
   // Never touches "maitsestamata"/"maitsestatud"/"maitseaine": those
   // continue with a letter after "maits", which the lookahead rejects.
   { regex: /mait(?:s(?:elised|eline|el)?)?(?![\p{L}])/giu, replacement: "" },
+  // A unit or age-marker letter still attached to a digit once the
+  // main size is blanked — the second half of Rimi's "675g/360g" or
+  // "230g/470ml" dual size, Selver's "4 x 100 g" spelled-out multipack,
+  // an age marker "6k"/"0K+" — is never a word. Only when a digit
+  // precedes it: a bare letter after anything else ("Sensitivity&G",
+  // "&G" = "& Gum") is an abbreviation and stays a real descriptor.
+  { regex: /(?<=\d)\s*(?:kg|ml|g|l|k)(?![\p{L}])/giu, replacement: "" },
 ].concat(DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
   // Unicode-aware word boundary — a plain \b treats a leading/trailing
   // diacritic (ö, õ, ä, ü, š) as "not a word character", so it fails

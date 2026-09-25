@@ -65,6 +65,31 @@ function checkStoreSafety(previousItems, freshItems) {
   return { safe: true };
 }
 
+// Guards the whole run, before any store is even fetched — a person
+// (or another Claude Code session) working in the repo when the
+// schedule fires is a real scenario (this runs at 06:00 unattended,
+// with no guarantee nobody's mid-edit), and this script's own
+// self-commit (see gitCommit in daily-update.js) would otherwise
+// scoop up and commit whatever uncommitted work is sitting there —
+// confusing at best, wrong at worst. Two independent signals, either
+// one enough to skip the entire run untouched: uncommitted changes
+// anywhere in the repo (not just data/ — a mid-edit in scraper/*.js
+// counts too), or an explicit data/.work-in-progress marker file a
+// person creates before starting work and removes when done, for the
+// case where they *want* to leave things uncommitted overnight.
+// Pure by design (takes already-gathered strings/booleans, not a live
+// git call) so it's directly testable — see daily-update.js for the
+// real git status/fs.existsSync call this wraps.
+function checkRepoSafety(gitStatusOutput, workInProgressExists) {
+  if (workInProgressExists) {
+    return { safe: false, reason: "work-in-progress", detail: "data/.work-in-progress exists" };
+  }
+  if (gitStatusOutput.trim().length > 0) {
+    return { safe: false, reason: "uncommitted-changes", detail: "git status is not clean" };
+  }
+  return { safe: true };
+}
+
 // Every store an existing product entry could be keyed under, lowercased
 // (see toPricesObject in scrape-output.js) — used to go from a fresh
 // scrape's "Barbora"/"Rimi"/"Selver" store name to the matching
@@ -145,6 +170,7 @@ module.exports = {
   ITEM_COUNT_DROP_THRESHOLD,
   PRICE_CHANGE_RATIO_THRESHOLD,
   PRICE_CHANGE_FRACTION_THRESHOLD,
+  checkRepoSafety,
   checkStoreSafety,
   updateProductPrices,
   availableStoreCount,

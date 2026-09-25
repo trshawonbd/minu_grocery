@@ -33,6 +33,13 @@
 // commits on its own, since the whole point is running without a
 // person watching.
 //
+// Before any of that: skips the entire run, untouched, if the repo
+// has uncommitted changes or data/.work-in-progress exists — see
+// repoSafetyCheck() and checkRepoSafety() in daily-update-logic.js.
+// To pause the automatic run while working on something you don't
+// want committed yet, create an empty data/.work-in-progress file and
+// delete it when done.
+//
 // Run with: node scraper/daily-update.js
 
 const fs = require("fs");
@@ -45,7 +52,7 @@ const { CATEGORIES } = require("./categories");
 const { matchPool } = require("./match-products");
 const { loadRaw, writeRaw } = require("./raw");
 const { fetchAllUrls, prepareItem, toPricesObject } = require("./scrape-output");
-const { checkStoreSafety, updateProductPrices, updateHidden, findLeftoverPool } = require("./daily-update-logic");
+const { checkRepoSafety, checkStoreSafety, updateProductPrices, updateHidden, findLeftoverPool } = require("./daily-update-logic");
 
 const ROOT = path.join(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
@@ -57,6 +64,7 @@ const ALERTS_PATH = path.join(DATA_DIR, "alerts.json");
 const HISTORY_DIR = path.join(DATA_DIR, "history");
 const LOGS_DIR = path.join(DATA_DIR, "logs");
 const LAST_UPDATE_PATH = path.join(DATA_DIR, "last-update.json");
+const WORK_IN_PROGRESS_PATH = path.join(DATA_DIR, ".work-in-progress");
 
 function loadJson(filePath, fallback) {
   if (!fs.existsSync(filePath)) return fallback;
@@ -201,7 +209,27 @@ function gitCommit() {
   console.log(`Committed: "Daily update ${today()}"`);
 }
 
+// Checked first thing in main(), before any store is even fetched —
+// see checkRepoSafety in daily-update-logic.js for why. Deliberately
+// writes nothing to disk when unsafe (not even a log file): the whole
+// point is to leave the repo exactly as a person left it, and a log
+// entry here would itself be a new uncommitted file, tripping this
+// same check again on tomorrow's run and skipping forever. The
+// console output still reaches ~/Library/Logs/minu/daily-update.*.log
+// via launchd's own StandardOutPath (see install-daily-update.sh).
+function repoSafetyCheck() {
+  const gitStatusOutput = execFileSync("git", ["status", "--porcelain"], { cwd: ROOT, encoding: "utf8" });
+  const workInProgressExists = fs.existsSync(WORK_IN_PROGRESS_PATH);
+  return checkRepoSafety(gitStatusOutput, workInProgressExists);
+}
+
 async function main() {
+  const safety = repoSafetyCheck();
+  if (!safety.safe) {
+    console.log(`Skipping daily update: ${safety.reason} (${safety.detail}).`);
+    return;
+  }
+
   const prices = loadJson(PRICES_PATH, []);
   const overrides = loadJson(PRODUCTS_PATH, []);
   const knownDifferent = loadJson(KNOWN_DIFFERENT_PATH, []);

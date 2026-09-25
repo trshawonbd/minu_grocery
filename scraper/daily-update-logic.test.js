@@ -5,6 +5,7 @@
 
 const assert = require("node:assert/strict");
 const {
+  checkRepoSafety,
   checkStoreSafety,
   updateProductPrices,
   availableStoreCount,
@@ -149,6 +150,28 @@ const results = [
   test("Safety: with no previous data at all (a brand-new category), any fresh list is safe — nothing to compare against", () => {
     const fresh = [{ url: "u1", price: 1 }];
     assert.equal(checkStoreSafety([], fresh).safe, true);
+  }),
+
+  test("Repo safety: a clean git status and no work-in-progress marker is safe", () => {
+    assert.equal(checkRepoSafety("", false).safe, true);
+  }),
+
+  test("Repo safety: uncommitted changes anywhere in the repo (not just data/) are unsafe", () => {
+    const result = checkRepoSafety(" M scraper/categories.js\n", false);
+    assert.equal(result.safe, false);
+    assert.equal(result.reason, "uncommitted-changes");
+  }),
+
+  test("Repo safety: data/.work-in-progress existing is unsafe even with an otherwise-clean git status", () => {
+    const result = checkRepoSafety("", true);
+    assert.equal(result.safe, false);
+    assert.equal(result.reason, "work-in-progress");
+  }),
+
+  test("Repo safety: the work-in-progress marker is checked first — its reason wins even when git status is also dirty", () => {
+    const result = checkRepoSafety(" M data/prices.json\n", true);
+    assert.equal(result.safe, false);
+    assert.equal(result.reason, "work-in-progress");
   }),
 ];
 

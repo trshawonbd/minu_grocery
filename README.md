@@ -26,7 +26,7 @@ products in each as of the last run (`data/prices.json`):
 | Drinks (non-alcoholic only) | 94 |
 | Meat (fresh & frozen chicken, pork, beef, lamb, minced) | 18 |
 | Pasta | 38 |
-| Rice & grains | 19 |
+| Rice & grains | 21 |
 | Flour & sugar | 25 |
 | Cooking oil | 18 |
 | Cheese | 54 |
@@ -36,14 +36,14 @@ products in each as of the last run (`data/prices.json`):
 | Coffee | 49 |
 | Tea & cocoa | 15 |
 | Cereals & oats | 36 |
-| Canned food | 26 |
-| Sauces & condiments | 117 |
+| Canned food | 35 |
+| Sauces & condiments | 120 |
 | Spices | 114 |
 | Jam & honey & spreads | 39 |
 | Baking supplies | 18 |
 | Chocolate | 37 |
-| Candy | 55 |
-| Biscuits | 29 |
+| Candy | 58 |
+| Biscuits | 33 |
 | Chips & snacks | 30 |
 | Nuts, seeds & dried fruit | 30 |
 | Frozen vegetables & berries | 14 |
@@ -57,7 +57,7 @@ products in each as of the last run (`data/prices.json`):
 | Personal care | 196 |
 | Household | 60 |
 | Pet food | 11 |
-| **Total** | **1643** |
+| **Total** | **1664** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's

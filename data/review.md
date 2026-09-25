@@ -8,17 +8,17 @@ Matching pools every store's items for a category together (scraper/match-produc
 
 | | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Sausages | Ham & cold cuts | Fish & seafood | Baby food | Diapers & baby wipes | Personal care | Household | Pet food | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 49 + 31 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 110 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 118 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 257 + 157 + 162 | 142 + 78 + 78 | 1648 + 1600 + 764 | 716 + 644 + 329 | 389 + 324 + 194 | 23885 |
-| Matched (any store combination) | 20 | 67 | 41 | 83 | 94 | 18 | 38 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 15 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 30 | 30 | 14 | 16 | 21 | 61 | 53 | 47 | 8 | 44 | 196 | 60 | 11 | 1643 |
-| — at all 3 stores | 8 | 18 | 12 | 18 | 20 | 3 | 11 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 3 | 5 | 2 | 2 | 3 | 23 | 9 | 5 | 1 | 29 | 37 | 4 | 2 | 431 |
-| — at 2 stores only (Barbora + Rimi) | 5 | 23 | 4 | 30 | 22 | 3 | 7 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 11 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 9 | 5 | 0 | 6 | 3 | 17 | 14 | 7 | 3 | 1 | 91 | 45 | 2 | 437 |
-| — at 2 stores only (Barbora + Selver) | 4 | 12 | 16 | 24 | 40 | 8 | 9 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 4 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 7 | 9 | 9 | 4 | 9 | 14 | 12 | 29 | 4 | 13 | 42 | 7 | 4 | 473 |
-| — at 2 stores only (Rimi + Selver) | 3 | 14 | 9 | 11 | 12 | 4 | 11 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 11 | 11 | 3 | 4 | 6 | 7 | 18 | 6 | 0 | 1 | 26 | 4 | 3 | 302 |
-| Unmatched | 57 | 577 | 249 | 122 | 964 | 341 | 289 | 210 | 129 | 172 | 694 | 71 | 51 | 68 | 547 | 557 | 393 | 524 | 586 | 543 | 278 | 139 | 425 | 963 | 607 | 534 | 526 | 169 | 614 | 229 | 382 | 516 | 678 | 559 | 111 | 3581 | 1565 | 883 | 19903 |
+| Scraped (Barbora + Rimi + Selver) | 49 + 31 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 110 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 177 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 118 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 257 + 157 + 162 | 142 + 78 + 78 | 1648 + 1600 + 764 | 716 + 644 + 329 | 389 + 324 + 194 | 23884 |
+| Matched (any store combination) | 20 | 67 | 41 | 83 | 94 | 18 | 38 | 21 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 15 | 36 | 35 | 120 | 114 | 39 | 18 | 37 | 58 | 33 | 30 | 30 | 14 | 16 | 21 | 61 | 53 | 47 | 8 | 44 | 196 | 60 | 11 | 1664 |
+| — at all 3 stores | 8 | 18 | 12 | 18 | 20 | 3 | 11 | 7 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 8 | 45 | 57 | 19 | 1 | 12 | 9 | 5 | 3 | 5 | 2 | 2 | 3 | 23 | 9 | 5 | 1 | 29 | 37 | 4 | 2 | 439 |
+| — at 2 stores only (Barbora + Rimi) | 5 | 23 | 4 | 30 | 22 | 3 | 7 | 2 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 11 | 7 | 7 | 22 | 15 | 4 | 10 | 9 | 18 | 5 | 9 | 5 | 0 | 6 | 3 | 17 | 14 | 7 | 3 | 1 | 91 | 45 | 2 | 444 |
+| — at 2 stores only (Barbora + Selver) | 4 | 12 | 16 | 24 | 40 | 8 | 9 | 6 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 4 | 7 | 11 | 38 | 26 | 16 | 4 | 7 | 17 | 13 | 7 | 9 | 9 | 4 | 9 | 14 | 12 | 29 | 4 | 13 | 42 | 7 | 4 | 472 |
+| — at 2 stores only (Rimi + Selver) | 3 | 14 | 9 | 11 | 12 | 4 | 11 | 6 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 9 | 15 | 16 | 0 | 3 | 9 | 14 | 10 | 11 | 11 | 3 | 4 | 6 | 7 | 18 | 6 | 0 | 1 | 26 | 4 | 3 | 309 |
+| Unmatched | 57 | 577 | 249 | 122 | 964 | 341 | 289 | 210 | 129 | 172 | 694 | 71 | 51 | 68 | 547 | 557 | 393 | 523 | 586 | 543 | 278 | 139 | 425 | 963 | 607 | 534 | 526 | 169 | 614 | 229 | 382 | 516 | 678 | 559 | 111 | 3583 | 1565 | 883 | 19904 |
 | Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 7 |
 | Ambiguous groups | 0 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 2 | 1 | 0 | 15 | 0 | 0 | 0 | 53 |
 
-**Note:** recomputed 1663 matches from data/raw/, but data/prices.json has 1643 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 1662 matches from data/raw/, but data/prices.json has 1664 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
@@ -74,13 +74,15 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Domino Küpsised choco crunchy lemon 150g | Biscuits | — | 2.99 € | 2.99 € | Rimi + Selver |
 | Domino Küpsised choco crunchy nougat 150g | Biscuits | — | 2.99 € | 2.99 € | Rimi + Selver |
 | Domino Küpsised dumle fun 120g | Biscuits | — | 2.89 € | 2.95 € | Rimi |
+| Domino Küpsised original vegan 175g | Biscuits | — | 2.59 € | 2.79 € | Rimi |
+| Domino Küpsised original vegan 350g | Biscuits | — | 4.49 € | 4.59 € | Rimi |
 | Gullon Küpsised digestive 400g | Biscuits | — | 1.99 € | 2.19 € | Rimi |
 | Kalev Ekstra küpsis 180g | Biscuits | 1.19 € | 1.19 € | — | Barbora + Rimi |
 | Kalev Klassikaline küpsis 163g | Biscuits | 0.95 € | 1.04 € | 1.19 € | Barbora |
 | Kalev Küpsised pähklikreemi täidisega 205g | Biscuits | — | 2.65 € | 2.63 € (1.95 € Partner) | Selver |
-| Kalev Sidrunimaitseline küpsis 163g | Biscuits | 1.19 € | 1.19 € | 1.19 € | Barbora + Rimi + Selver |
-| Kalev Šokolaadimaitseline küpsis 163g | Biscuits | 1.19 € | 1.19 € | 1.19 € | Barbora + Rimi + Selver |
-| Kalev Vanillimaitseline küpsis 163g | Biscuits | 1.19 € | 1.19 € | — | Barbora + Rimi |
+| Kalev Sidruni küpsis 163g | Biscuits | 1.19 € | 1.19 € | 1.19 € | Barbora + Rimi + Selver |
+| Kalev Šokolaadi küpsis 163g | Biscuits | 1.19 € | 1.19 € | 1.19 € | Barbora + Rimi + Selver |
+| Kalev Vanilli küpsis 163g | Biscuits | 1.19 € | 1.19 € | — | Barbora + Rimi |
 | Kinder Küpsised cards 76.8g | Biscuits | 2.95 € | — | 2.95 € (2.39 € Partner) | Barbora + Selver |
 | Lorenz Soolakõrsik saltletts 75g | Biscuits | 0.85 € | 0.89 € | — | Barbora |
 | Magus kõrsik 250g | Biscuits | 1.85 € | — | 1.79 € | Selver |
@@ -91,11 +93,13 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Marmiton Rosinaküpsised tallinn 180g | Biscuits | 1.69 € | — | 1.69 € | Barbora + Selver |
 | Milka Küpsis choc 150g | Biscuits | — | 2.99 € | 3.39 € | Rimi |
 | Nutella Küpsised 193g | Biscuits | 4.59 € | — | 4.59 € | Barbora + Selver |
-| Selga Vahvlid šokolaadimaitselised 180g | Biscuits | — | 1.85 € | 1.85 € | Rimi + Selver |
+| Selga Küpsis kookose 180g | Biscuits | 1.25 € | 1.15 € | — | Rimi |
+| Selga Vahvlid šokolaadi 180g | Biscuits | — | 1.85 € | 1.85 € | Rimi + Selver |
 | Tuc Kreekerid juustuga 100g | Biscuits | 1.65 € (1.65 € Aitäh) | — | 1.65 € (1.29 € Partner) | Barbora + Selver |
 | Tuc Kreekerid paprikaga 100g | Biscuits | 1.65 € (1.65 € Aitäh) | — | 1.65 € (1.29 € Partner) | Barbora + Selver |
 | Tuc Kreekerid peekoniga 100g | Biscuits | 1.65 € (1.65 € Aitäh) | — | 1.65 € (1.29 € Partner) | Barbora + Selver |
 | Väike väänik Kaeraküpsis 500g | Biscuits | 1.55 € | — | 2.35 € | Barbora |
+| Väike väänik Präänik piparmündi 250g | Biscuits | 1.15 € | — | 1.19 € | Barbora |
 | Väike väänik Präänik vanilli 250g | Biscuits | 1.15 € | — | 1.19 € | Barbora |
 | Väike väänik Rahvapräänik 500g | Biscuits | 1.55 € | 1.79 € | 2.25 € | Barbora |
 | Väike väänik Tatraküpsis 250g | Biscuits | 1.39 € | — | 1.39 € (1.19 € Partner) | Barbora + Selver |
@@ -196,10 +200,10 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Haribo Kummikommid ussid 100g | Candy | 1.39 € | — | 1.39 € | Barbora + Selver |
 | Kalev Batoonike kirju koer 200g | Candy | 3.59 € | 3.59 € | 2.79 € | Selver |
 | Kalev Kama jogurtibatoonike 150g | Candy | 2.39 € | 2.45 € | 2.39 € | Barbora + Selver |
-| Kalev Karamell apelsinimaitseline 120g | Candy | 1.09 € | 1.09 € | — | Barbora + Rimi |
-| Kalev Karamell barbarissimaitseline 120g | Candy | 1.09 € | 1.09 € | 1.07 € | Selver |
+| Kalev Karamell apelsini 120g | Candy | 1.09 € | 1.09 € | — | Barbora + Rimi |
+| Kalev Karamell barbarissi 120g | Candy | 1.09 € | 1.09 € | 1.07 € | Selver |
 | Kalev Karamell eukalüpti mentoolim 120g | Candy | 1.09 € | 1.09 € | — | Barbora + Rimi |
-| Kalev Karamell piparmündimaitseline 120g | Candy | 1.09 € | — | 1.07 € | Selver |
+| Kalev Karamell piparmündi 120g | Candy | 1.09 € | — | 1.07 € | Selver |
 | Kalev Klassikalised trühvlid 160g | Candy | 9.95 € | 9.99 € | 9.97 € | Barbora |
 | Kalev Kommisegu lemmikut 7 500g | Candy | 7.95 € (5.79 € Aitäh) | — | 7.97 € (5.99 € Partner) | Barbora |
 | Kalev Kungla pralineekomme valik 390g | Candy | 19.69 € | — | 19.69 € | Barbora + Selver |
@@ -217,13 +221,16 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Kalev Valik aitäh piimašokolaadikomme 226g | Candy | — | 7.99 € | 7.97 € | Selver |
 | Karl fazer Kommikarp selection 150g | Candy | 4.99 € | — | 4.99 € | Barbora + Selver |
 | Karl fazer Piimašokolaadikompvekid 250g | Candy | — | 7.99 € | 8.29 € | Rimi |
-| Laima Sefiir mustikamaitseline 200g | Candy | — | 2.09 € | 2.19 € | Rimi |
-| Laima Sefiir vaniljemaitseline 200g | Candy | 2.09 € (1.49 € Aitäh) | — | 2.19 € | Barbora |
+| Laima Sefiir mustika 200g | Candy | — | 2.09 € | 2.19 € | Rimi |
+| Laima Sefiir vanilje 200g | Candy | 2.09 € (1.49 € Aitäh) | — | 2.19 € | Barbora |
 | Lockets Pastillid extra strong 41g | Candy | 1.05 € | 1.05 € | — | Barbora + Rimi |
+| Marmiton Halvaa ali baba vanilli 100g | Candy | — | 1.09 € | 1.07 € | Selver |
 | Marmiton Halvaa kakaoga 150g | Candy | 2.09 € | — | 2.09 € | Barbora + Selver |
 | Marmiton Halvaa pistaatsia 150g | Candy | 1.95 € | — | 1.98 € (1.59 € Partner) | Barbora |
 | Marmiton Marmelaad hapu 150g | Candy | 1.99 € | — | 2.15 € | Barbora |
 | Marmiton Marmelaad lõigud 150g | Candy | 2.09 € | — | 2.12 € | Barbora |
+| Marmiton Marmelaad mango 150g | Candy | 2.49 € | 2.49 € | — | Barbora + Rimi |
+| Marmiton Marmelaad rabarberi 150g | Candy | 2.49 € | 2.49 € | — | Barbora + Rimi |
 | Miisu Batoonike 150g | Candy | 2.49 € | 2.49 € | — | Barbora + Rimi |
 | Mynthon Pastillid extra strong 34g | Candy | 0.95 € | 0.95 € | 0.95 € (0.75 € Partner) | Barbora + Rimi + Selver |
 | Orbit Närimiskumm freshmint white 14g | Candy | — | 0.59 € | 0.90 € | Rimi |
@@ -237,6 +244,9 @@ Matching pools every store's items for a category together (scraper/match-produc
 | True dates Datlid cookie dough 100g | Candy | — | 2.75 € | 2.79 € | Rimi |
 | True dates Datlid peach sweet 100g | Candy | — | 2.75 € | 2.79 € | Rimi |
 | Van damme Mini vahukommid 100g | Candy | 1.49 € | — | 1.39 € | Selver |
+| Bonduelle Läätsed vapeur 310g | Canned food | 2.49 € | 2.59 € | — | Barbora |
+| Bonduelle Magus mais 340g | Canned food | 2.09 € | 1.69 € | — | Rimi |
+| Bonduelle Šampinjonid 540g | Canned food | — | 4.49 € | 4.59 € | Rimi |
 | Felix Kurgi sinepisalat 280g | Canned food | 2.29 € | — | 2.29 € | Barbora + Selver |
 | Felix Kurgisalat 280g | Canned food | 2.29 € | 1.99 € | 2.29 € | Rimi |
 | Felix Piknikukurk terve 680g | Canned food | 2.95 € | — | 2.89 € | Selver |
@@ -245,24 +255,30 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Heinz Punased kidney oad 400g | Canned food | 1.89 € | — | 1.89 € | Barbora + Selver |
 | Heinz Viie oa segu tomatikastmes 415g | Canned food | 2.65 € | 2.65 € | — | Barbora + Rimi |
 | Minu Tomatid 680g | Canned food | 2.79 € | — | 2.79 € | Barbora + Selver |
-| Mõisaproua Marin kurgid 1000g | Canned food | 3.65 € | — | 3.29 € | Selver |
-| Mõisaproua Marin kurk mesine 500g | Canned food | 2.45 € | — | 2.43 € | Selver |
+| Mõisaproua kurgid 1000g | Canned food | 3.65 € | — | 3.29 € | Selver |
+| Mõisaproua kurk mesine 500g | Canned food | 2.45 € | — | 2.43 € | Selver |
 | Mõisaproua Tomatid mahlas omas 1000g | Canned food | 3.49 € | — | 3.04 € | Selver |
 | Põltsamaa Jahimehesalat 550g | Canned food | — | 3.89 € | 3.65 € | Selver |
+| Põltsamaa Maitselt kurk 680g | Canned food | 2.89 € | 2.89 € | — | Barbora + Rimi |
+| Põltsamaa Punapeediviilud 570g | Canned food | — | 2.09 € | 2.05 € | Selver |
 | Põltsamaa Sügisesalat 530g | Canned food | — | 3.69 € | 2.99 € | Selver |
 | Salvest Aedoad tomatikastmes 530g | Canned food | 2.89 € | — | 2.89 € | Barbora + Selver |
 | Salvest Delikatesskurk 330g | Canned food | 2.49 € | 2.59 € | 2.49 € | Barbora + Selver |
 | Salvest Hapukurk 675g | Canned food | 3.49 € | 3.49 € | 3.49 € | Barbora + Rimi + Selver |
 | Salvest Köögiviljasalat magus vürtsikas 380g | Canned food | — | 3.79 € | 3.65 € | Selver |
-| Salvest Kurk 675g | Canned food | 2.69 € | — | 2.69 € (2.29 € Partner) | Barbora + Selver |
+| Salvest Kurk 675g | Canned food | 2.69 € | 2.69 € | 2.69 € (2.29 € Partner) | Barbora + Rimi + Selver |
 | Salvest Kurk maitselt 1600g | Canned food | — | 4.99 € | 4.99 € | Rimi + Selver |
-| Salvest Küüslaugukurk 675g | Canned food | 2.79 € | — | 2.79 € | Barbora + Selver |
+| Salvest Küüslaugukurk 675g | Canned food | 2.79 € | 2.79 € | 2.79 € | Barbora + Rimi + Selver |
 | Salvest Magus kurk 675g | Canned food | 2.79 € | 2.79 € | 2.79 € | Barbora + Rimi + Selver |
-| Salvest Maitselt kurk 675g | Canned food | 2.79 € | — | 2.79 € (1.99 € Partner) | Barbora + Selver |
+| Salvest Maitselt kurk 675g | Canned food | 2.79 € | 2.79 € | 2.79 € (1.99 € Partner) | Barbora + Rimi + Selver |
 | Salvest Pohlasalat 310g | Canned food | — | 3.95 € | 3.45 € | Selver |
 | Salvest Roheline hernes 690g | Canned food | 2.29 € | — | 2.29 € | Barbora + Selver |
 | Salvest Salat toome 520g | Canned food | — | 2.59 € | 2.59 € | Rimi + Selver |
-| Salvest Talukurk 675g | Canned food | 2.95 € | — | 2.49 € | Selver |
+| Salvest Salatikurk 395g | Canned food | 1.99 € | 1.99 € | — | Barbora + Rimi |
+| Salvest Talukurk 675g | Canned food | 2.95 € | 2.79 € | 2.49 € | Selver |
+| Salvest Viilukurk 675g | Canned food | 2.79 € | 2.95 € | — | Barbora |
+| Salvest Võileivakurk 530g | Canned food | 2.79 € | 2.85 € | — | Barbora |
+| Sunfood Kurgid cm 680g | Canned food | — | 2.19 € | 2.19 € | Rimi + Selver |
 | Axa Kiirkaerahelbepuder koore maasika 40g | Cereals & oats | 0.55 € | 0.55 € | — | Barbora + Rimi |
 | Axa Müsli marjadega premium 330g | Cereals & oats | 2.73 € | — | 2.73 € | Barbora + Selver |
 | Baltix Hirsihelbed 500g | Cereals & oats | 1.59 € | 1.59 € | 1.59 € | Barbora + Rimi + Selver |
@@ -1343,16 +1359,18 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Sheba Kiisueine lõhega 85g | Pet food | — | 0.75 € | 0.99 € | Rimi |
 | Baltix Hirss 1000g | Rice & grains | 2.45 € | 2.49 € | 2.50 € | Barbora |
 | Baltix Odrakruup 1000g | Rice & grains | 1.39 € | — | 1.41 € | Barbora |
+| Baltix Odrakruup 4x100g | Rice & grains | 0.89 € | — | 1.01 € | Barbora |
 | Baltix Tatar 1000g | Rice & grains | 1.64 € | — | 2.35 € | Barbora |
-| Baltix Tatar 4x100g | Rice & grains | 1.69 € | 1.99 € | — | Barbora |
+| Baltix Tatar 4x100g | Rice & grains | 1.69 € | 1.99 € | 1.92 € | Barbora |
 | Baltix Toortatar 4x100g | Rice & grains | 1.64 € | 2.35 € | 2.23 € | Barbora |
-| Bosto Bulgur 4x75g | Rice & grains | 2.73 € | 2.79 € | — | Barbora |
+| Bosto Bulgur 4x75g | Rice & grains | 2.73 € | 2.79 € | 2.73 € | Barbora + Selver |
 | Bosto Pärlkuskuss 4x75g | Rice & grains | 3.45 € | 3.45 € | — | Barbora + Rimi |
+| Bosto Pruun riis 4x125g | Rice & grains | — | 1.99 € | 2.25 € | Rimi |
 | Just nature Must kinoa 500g | Rice & grains | 3.85 € | — | 3.85 € | Barbora + Selver |
 | Just nature Punane kinoa 500g | Rice & grains | 3.55 € | — | 3.55 € | Barbora + Selver |
 | Just nature Valge kinoa 500g | Rice & grains | 3.85 € | — | 3.03 € | Selver |
 | Tartu mill Manna 1000g | Rice & grains | — | 1.45 € | 1.51 € | Rimi |
-| Tartu mill Odra pärlkruup 4x100g | Rice & grains | 1.59 € | 1.59 € | — | Barbora + Rimi |
+| Tartu mill Odra pärlkruup 4x100g | Rice & grains | 1.59 € | 1.59 € | 1.59 € | Barbora + Rimi + Selver |
 | Tartu mill Tatar 1000g | Rice & grains | 2.24 € | 2.39 € | — | Barbora |
 | Veski mati Hirss 500g | Rice & grains | 1.25 € | 1.29 € | 1.25 € | Barbora + Selver |
 | Veski mati Maisitang 500g | Rice & grains | — | 1.09 € | 1.01 € | Selver |
@@ -1418,13 +1436,16 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Heinz Bbq kaste klassikaline 480g | Sauces & condiments | — | 4.79 € | 4.46 € | Selver |
 | Heinz Burgerikaste ameerikapärane 400ml | Sauces & condiments | — | 4.79 € | 4.79 € | Rimi + Selver |
 | Heinz Ketšup 460g | Sauces & condiments | 3.59 € | 3.59 € | — | Barbora + Rimi |
+| Heinz Ketšup original 700g | Sauces & condiments | — | 5.09 € | 5.07 € | Selver |
 | Heinz Küüslaugukaste 420g | Sauces & condiments | 4.69 € | 4.69 € | — | Barbora + Rimi |
+| Heinz Majoneesi ketšupikaste 425g | Sauces & condiments | 4.35 € | 4.39 € | — | Barbora |
 | Heinz Worcester kaste 150ml | Sauces & condiments | — | 2.95 € | 2.63 € | Selver |
 | Hellmann's Bbq kaste original 430ml | Sauces & condiments | 3.99 € | 3.99 € | — | Barbora + Rimi |
 | Hellmann's Kaste burger chunky 250ml | Sauces & condiments | — | 3.19 € | 3.39 € | Rimi |
 | Hellmann's Majonees light 405ml | Sauces & condiments | 3.99 € | — | 4.89 € | Barbora |
 | Hellmann's Majonees original 405ml | Sauces & condiments | 3.69 € (2.39 € Aitäh) | — | 3.99 € (2.29 € Partner) | Barbora |
 | Hellmann's Majonees original 625ml | Sauces & condiments | 5.79 € (3.99 € Aitäh) | 6.39 € | — | Barbora |
+| Hellmann's Majonees original 855ml | Sauces & condiments | 6.99 € (4.59 € Aitäh) | — | 7.99 € | Barbora |
 | Lemmik Majonees juustu 200g | Sauces & condiments | 1.49 € | 1.59 € | — | Barbora |
 | Lemmik Majonees oliivi provansaal 210g | Sauces & condiments | 1.39 € (0.79 € Aitäh) | 1.49 € | 1.55 € | Barbora |
 | Lemmik Majonees provansaal 405g | Sauces & condiments | 1.99 € | 2.05 € | 2.25 € | Barbora |
@@ -1432,7 +1453,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Maggi Kaste salsa texicana 500ml | Sauces & condiments | 4.99 € | 4.99 € | — | Barbora + Rimi |
 | Meira Sinep traditsiooniline 500g | Sauces & condiments | 2.99 € | — | 3.04 € | Barbora |
 | Merevaik Juustudipp cheddari 200g | Sauces & condiments | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
-| Merevaik Juustudipp originaal 200g | Sauces & condiments | 1.89 € | — | 1.89 € | Barbora + Selver |
+| Merevaik Juustudipp original 200g | Sauces & condiments | 1.89 € | — | 1.89 € | Barbora + Selver |
 | Merevaik Juustumajonees tere 210g | Sauces & condiments | 1.55 € | 1.89 € | — | Barbora |
 | Minu Mädarõigas delikatess 170g | Sauces & condiments | 1.19 € | — | 1.31 € | Barbora |
 | Minu Mädarõigas ekstra kange 200g | Sauces & condiments | 1.69 € | — | 1.79 € | Barbora |
@@ -1453,7 +1474,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Salvest Ketšup 530g | Sauces & condiments | 2.99 € | 2.99 € | 2.49 € | Selver |
 | Salvest Majonees kerge 430g | Sauces & condiments | 2.35 € | 2.49 € | 2.39 € | Barbora |
 | Salvest Majonees klassikaline 430g | Sauces & condiments | 2.35 € | 2.49 € | 1.99 € | Selver |
-| Salvest Majonees mädarõikamaitseline 430g | Sauces & condiments | — | 2.49 € | 2.53 € | Rimi |
+| Salvest Majonees mädarõika 430g | Sauces & condiments | 2.35 € | 2.49 € | 2.53 € | Barbora |
 | Salvest Pastakaste bolognese hakklihaga 460g | Sauces & condiments | — | 2.65 € | 2.45 € | Selver |
 | Salvest Pastakaste köögiviljadega 460g | Sauces & condiments | 3.19 € | 3.19 € | 3.19 € | Barbora + Rimi + Selver |
 | Salvest Pastakaste ürtidega 460g | Sauces & condiments | 3.19 € | 2.99 € | 3.19 € | Rimi |
@@ -1476,7 +1497,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Thai choice Kalakaste 200ml | Sauces & condiments | 2.19 € (1.75 € Aitäh) | — | 2.19 € | Barbora + Selver |
 | Thai choice Magus tšillikaste 200ml | Sauces & condiments | 2.19 € | — | 2.09 € | Selver |
 | Vilux Sinep dijoni teraline 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
-| Vilux Sinep dijoni teravamaitseline 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
+| Vilux Sinep dijoni terava 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
 | Karni Täissuitsuvorst kuningate 250g | Sausages | 3.95 € | 3.95 € | 3.95 € | Barbora + Rimi + Selver |
 | Maks & moorits Koduviiner 500g | Sausages | 2.05 € | 2.05 € | — | Barbora + Rimi |
 | Maks & moorits Sardell 375g | Sausages | 1.99 € | 2.29 € | — | Barbora |
@@ -1776,16 +1797,10 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 
 | Item A | Item B |
 |---|---|
-| Barbora "Looduslik mineraalvesi HAAGE 1l,g-ta" (1.09 €) | Rimi "Mineraalvesi looduslik Haage 1l" (1.15 €) |
-| Barbora "Looduslik mineraalvesi HAAGE 1l,g-ta" (1.09 €) | Rimi "Karb. looduslik mineraalvesi Haage 1l" (1.15 €) |
-| Barbora "Looduslik mineraalvesi HAAGE 1l,g-ta" (1.09 €) | Selver "Mullita looduslik mineraalvesi, HAAGE, 1 L" (1.19 €) |
-| Barbora "Looduslik mineraalvesi HAAGE 6x1l,g-ta" (6.49 €) | Selver "Mullita looduslik mineraalvesi, HAAGE, 6 x 1L" (6.99 €) |
 | Barbora "VÄRSKA Originaal aluseline 1,5L" (1.65 €) | Selver "Värska Sidruni, VÄRSKA, 1,5 L" (1.55 €) |
 | Barbora "VÄRSKA Originaal aluseline 1,5L" (1.65 €) | Selver "Värska Originaal aluseline gaasita, VÄRSKA, 1,5 L" (1.68 €) |
 | Barbora "VÄRSKA Originaal aluseline 1,5L" (1.65 €) | Selver "Värska Granaatõun, VÄRSKA, 1,5 L" (1.55 €) |
 | Barbora "Looduslik karb.mineraalvesi BORJOMI 6x1L" (14.49 €) | Selver "Karboniseeritud looduslik mineraalvesi 6-pakk, BORJOMI, 6 x 1 L" (14.99 €) |
-| Barbora "Mineraalvesi VYTAUTAS 1L,g-tud" (0.99 €) | Selver "Mineraalvesi, VYTAUTAS, 1 L" (0.90 €) |
-| Barbora "Mineraalvesi VICHY Looduslik g-tud 1.5L" (0.80 €) | Selver "Looduslik mineraalvesi, VICHY, 1,5 L" (0.80 €) |
 | Barbora "Loodus.karbon.mineraalvesi BORJOMI 330ml" (1.25 €) | Rimi "Mineraalvesi karboniseeritud Borjomi 0,33l" (1.29 €) |
 | Barbora "Kergelt gaseeritud vesi AURA Mg 500ml" (1.29 €) | Selver "Vesi kergelt gaseeritud, AURA, 500 ml" (0.56 €) |
 | Barbora "Vesi AURA FRUIT Mustikas 1.5l" (1.35 €) | Selver "Vesi Ananass, AURA FRUIT, 1,5 L" (1.39 €) |
@@ -1806,6 +1821,12 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Kar.jook BORJOMI Limonati tsitrus 330ml" (1.49 €) | Rimi "Kar.jook tsitruse Limonati Borjomi 0,33l" (1.55 €) |
 | Barbora "Kar.jook BORJOMI Limonati mandariin330ml" (1.49 €) | Rimi "Kar.jook pirnimait. Limonati Borjomi 0,33l" (1.55 €) |
 | Barbora "Kar.jook BORJOMI Limonati mandariin330ml" (1.49 €) | Rimi "Kar.jook mandariini Limonati Borjomi 0,33l" (1.55 €) |
+| Barbora "Kar.jook BORJOMI Limonati mandariin330ml" (1.49 €) | Rimi "Kar.jook tsitruse Limonati Borjomi 0,33l" (1.55 €) |
+| Barbora "Kar.jook BORJOMI Limonati Tarkhun 330ml" (1.49 €) | Rimi "Kar.jook pirnimait. Limonati Borjomi 0,33l" (1.55 €) |
+| Barbora "Kar.jook BORJOMI Limonati Tarkhun 330ml" (1.49 €) | Rimi "Kar.jook mandariini Limonati Borjomi 0,33l" (1.55 €) |
+| Barbora "Kar.jook BORJOMI Limonati Tarkhun 330ml" (1.49 €) | Rimi "Kar.jook tsitruse Limonati Borjomi 0,33l" (1.55 €) |
+| Barbora "Karastusjook COCA-COLA Zero Caffe.500ml" (1.25 €) | Rimi "Karastusjook Zero Caff. Coca-Cola 0,5l" (1.29 €) |
+| Barbora "Karastusjook COCA-COLA Zero Caffe.500ml" (1.25 €) | Rimi "Karastusjook Coca-Cola Zero Lime 0,5l" (1.29 €) |
 
 ### Meat (5)
 
@@ -1872,11 +1893,10 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Odrakruup VESKI MATI 500g" (0.99 €) | Selver "Riisimanna, VESKI MATI, 500 g" (1.72 €) |
 | Barbora "Odrakruup VESKI MATI 500g" (0.99 €) | Selver "Tatar, VESKI MATI, 500 g" (1.65 €) |
 
-### Flour & sugar (14)
+### Flour & sugar (13)
 
 | Item A | Item B |
 |---|---|
-| Barbora "Nisujahu k/s T550 KALEW 1,0 kg" (1.19 €) | Selver "Nisujahu T550, KALEW, 1 kg" (1.19 €) |
 | Barbora "Pruun tükksuhkur DAN SUKKER 500g" (2.56 €) | Selver "Tume tükksuhkur, DAN SUKKER, 500 g" (2.56 €) |
 | Barbora "Pruun tükksuhkur DAN SUKKER 500g" (2.56 €) | Selver "Kõva tükksuhkur, DAN SUKKER, 500 g" (1.59 €) |
 | Barbora "Karamellsuhkur DANSUKER 500g" (2.69 €) | Selver "Karamellsuhkur, DAN SUKKER, 500 g" (2.69 €) |
@@ -2249,8 +2269,10 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Kondenspiimamait. küpsised SELGA, 180g" (1.25 €) | Selver "Kondenspiima küpsis, SELGA, 180 g" (1.27 €) |
 | Barbora "Šokolaadimaitselised küpsised SELGA 180g" (1.25 €) | Rimi "Vormiküpsised šokolaadi Selga 180g" (1.15 €) |
 | Barbora "Šokolaadimaitselised küpsised SELGA 180g" (1.25 €) | Selver "Šokolaadi küpsis, SELGA, 180 g" (1.27 €) |
+| Barbora "Rosinaküpsis Tallinn MARMITON 350g" (2.99 €) | Selver "Rosinaküpsised Tallinn, MARMITON, 350 g" (3.04 €) |
 | Barbora "Biskviitküpsis šok.täidis.BARNI 30g" (0.69 €) | Selver "Barni šokolaadi biskviitküpsis, LU, 30 g" (0.70 €) |
 | Barbora "Biskviitküpsis piimatäidis.BARNI 150g" (2.99 €) | Selver "Barni piima biskviitküpsis, BARNI, 150 g" (2.99 €) |
+| Barbora "Vahvlid vaniljekr.Kooli MARMITON 110g" (1.49 €) | Rimi "Vahvlid Kooli Marmiton 110g" (1.49 €) |
 | Barbora "Küpsised Choco Cookie MILKA 135g" (2.65 €) | Selver "Küpsised Choco Cookies, MILKA, 135 g" (2.79 €) |
 | Barbora "Biskviitküpsis maasikat.BARNI 150g" (2.99 €) | Selver "Barni piima biskviitküpsis, BARNI, 150 g" (2.99 €) |
 | Barbora "Küpsised Choco Grain MILKA 126g" (2.59 €) | Rimi "Kaeraküpsised Milka Choco Grain 126g" (2.59 €) |
@@ -2262,8 +2284,6 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Küpsised Choco Cookies rosin.MILKA 135g" (2.59 €) | Selver "Küpsised Choco Cookies, MILKA, 135 g" (2.79 €) |
 | Barbora "Vahvel valge glasuuriga MARMITON 150g" (2.75 €) | Rimi "Vahvlid valge glasuuriga Marmiton 150g" (2.79 €) |
 | Barbora "Vahvel valge glasuuriga MARMITON 150g" (2.75 €) | Selver "Heleda glasuuriga vahvel, MARMITON, 150 g" (2.75 €) |
-| Barbora "Rosinaküpsis Tallinn MARMITON 350g" (2.99 €) | Selver "Rosinaküpsised Tallinn, MARMITON, 350 g" (3.04 €) |
-| Barbora "Vahvlid vaniljekr.Kooli MARMITON 110g" (1.49 €) | Rimi "Vahvlid Kooli Marmiton 110g" (1.49 €) |
 | Rimi "Küpsised juustumaitselised Tuc Mini 100g" (1.49 €) | Selver "Kreekerid Juustu Mini, TUC, 100 g" (1.69 €) |
 | Rimi "Vormiküpsised šokolaadi Selga 180g" (1.15 €) | Selver "Šokolaadi küpsis, SELGA, 180 g" (1.27 €) |
 | Rimi "Vormiküpsised kondenspiima Selga 180g" (1.15 €) | Selver "Kondenspiima küpsis, SELGA, 180 g" (1.27 €) |

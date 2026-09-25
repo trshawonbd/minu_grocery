@@ -52,12 +52,12 @@ products in each as of the last run (`data/prices.json`):
 | Sausages | 61 |
 | Ham & cold cuts | 53 |
 | Fish & seafood | 47 |
-| Baby food | 8 |
+| Baby food | 20 |
 | Diapers & baby wipes | 44 |
 | Personal care | 196 |
 | Household | 60 |
 | Pet food | 11 |
-| **Total** | **1664** |
+| **Total** | **1676** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's

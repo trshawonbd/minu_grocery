@@ -27970,107 +27970,6 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Põnn Ühepajatoit k sealihaga 130g",
-    "category": "Baby food",
-    "prices": {
-      "barbora": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/uhepajatoit-sealihaga-oko-ponn-130-g-7-k",
-        "size": "130g",
-        "storeUnitPrice": 16.85
-      },
-      "rimi": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/meals/uhepajatoit-sealihaga-7k-ponn-oko-130g/p/7309753",
-        "size": "130g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Põnn Kõrvitsapüree ökoloogiline 125g",
-    "category": "Baby food",
-    "prices": {
-      "barbora": {
-        "price": 1.55,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/korvitsapuree-ponn-okoloogiline-125-g",
-        "size": "125g",
-        "storeUnitPrice": 12.4
-      },
-      "rimi": {
-        "price": 1.65,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/meals/korvitsapuree-ponn-okoloogiline-4-125g/p/7277699",
-        "size": "125g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Plasmon Beebiküpsised k 120g",
-    "category": "Baby food",
-    "prices": {
-      "barbora": {
-        "price": 2.55,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/beebikupsised-plasmon-120-g-6-k",
-        "size": "120g",
-        "storeUnitPrice": 21.25
-      },
-      "rimi": {
-        "price": 2.55,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/snacks/beebikupsised-plasmon-6k-120g/p/7287163",
-        "size": "120g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Plasmon Beebiküpsised k 60g",
-    "category": "Baby food",
-    "prices": {
-      "barbora": {
-        "price": 1.45,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/beebikupsised-plasmon-60-g-6-k",
-        "size": "60g",
-        "storeUnitPrice": 24.17
-      },
-      "rimi": {
-        "price": 1.45,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/snacks/beebikupsised-plasmon-6k-60g/p/7287148",
-        "size": "60g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Organix Kaerabatoon maasika õuna 23g",
-    "category": "Baby food",
-    "prices": {
-      "barbora": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kaerabatoon-organix-maasika-ouna-23-g",
-        "size": "23g",
-        "storeUnitPrice": 69.13
-      },
-      "selver": {
-        "price": 1.69,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kaerabatoon-maasika-ouna-organix-23-g",
-        "size": "23g",
-        "storeUnitPrice": 73.48
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
     "name": "Nivea Juukselakk strong ultra 250ml",
     "category": "Personal care",
     "prices": {
@@ -37946,6 +37845,177 @@
         "cardName": "Partner",
         "size": "60g",
         "storeUnitPrice": 33.17
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Ella's kitchen Kanaroog riisiga 130g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanaroog-riisiga-ella-s-kitchen-130-g-7-k",
+        "size": "130g",
+        "storeUnitPrice": 25.31
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanaroog-riisiga-ella-s-kitchen-130-g",
+        "size": "130g",
+        "storeUnitPrice": 28.08
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Põnn Ühepajatoit sealihaga 130g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/uhepajatoit-sealihaga-oko-ponn-130-g-7-k",
+        "size": "130g",
+        "storeUnitPrice": 16.85
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/meals/uhepajatoit-sealihaga-7k-ponn-oko-130g/p/7309753",
+        "size": "130g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hipp Kalkunilihapüree bio 125g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kalkunilihapuree-hipp-bio-125-g-4-k",
+        "size": "125g",
+        "storeUnitPrice": 29.2
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalkunilihapuree-bio-4-hipp-125-g",
+        "size": "125g",
+        "storeUnitPrice": 29.2
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Põnn Kõrvitsapüree ökoloogiline 125g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/korvitsapuree-ponn-okoloogiline-125-g",
+        "size": "125g",
+        "storeUnitPrice": 12.4
+      },
+      "rimi": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/meals/korvitsapuree-ponn-okoloogiline-4-125g/p/7277699",
+        "size": "125g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Plasmon Beebiküpsised 120g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/beebikupsised-plasmon-120-g-6-k",
+        "size": "120g",
+        "storeUnitPrice": 21.25
+      },
+      "rimi": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/snacks/beebikupsised-plasmon-6k-120g/p/7287163",
+        "size": "120g"
+      },
+      "selver": {
+        "price": 2.33,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/beebikupsised-plasmon-120-g",
+        "size": "120g",
+        "storeUnitPrice": 19.42
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Plasmon Beebiküpsised 60g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/beebikupsised-plasmon-60-g-6-k",
+        "size": "60g",
+        "storeUnitPrice": 24.17
+      },
+      "rimi": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/snacks/beebikupsised-plasmon-6k-60g/p/7287148",
+        "size": "60g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Bebivita Apteegitilli tee 200g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 4.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/apteegitilli-tee-bebivita-200-g-5-k",
+        "size": "200g",
+        "storeUnitPrice": 22.25
+      },
+      "selver": {
+        "price": 4.46,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apteegitilli-tee-5-kuud-bebivita-200-g",
+        "size": "200g",
+        "storeUnitPrice": 22.3
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Organix Kaerabatoon maasika õuna 23g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kaerabatoon-organix-maasika-ouna-23-g",
+        "size": "23g",
+        "storeUnitPrice": 69.13
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaerabatoon-maasika-ouna-organix-23-g",
+        "size": "23g",
+        "storeUnitPrice": 73.48
       }
     },
     "matchedVia": "automatic"

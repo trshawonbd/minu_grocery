@@ -1,7 +1,10 @@
-// Enforces that only scraper/fetch-price.js ever contacts a store —
-// everything else (scraper/raw.js, scraper/build-review.js, matching
-// experiments) must read data/raw/ instead of scraping again. See
-// scraper/raw.js.
+// Enforces that only scraper/fetch-price.js and scraper/daily-update.js
+// ever contact a store — everything else (scraper/raw.js,
+// scraper/build-review.js, matching experiments) must read data/raw/
+// instead of scraping again. See scraper/raw.js. daily-update.js is
+// the unattended, scheduled counterpart to fetch-price.js's by-hand
+// run (see scraper/daily-update.js) — it's a second legitimate
+// scraper, not an exception to the rule.
 //
 // Two independent checks, since either one alone could be worked
 // around: a file could avoid naming fetchBarboraPrice/etc. and inline
@@ -15,7 +18,8 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
-const FETCH_PRICE_FILE = path.join(__dirname, "fetch-price.js");
+// The only files allowed to reference a store's fetch function.
+const SCRAPER_ENTRY_FILES = [path.join(__dirname, "fetch-price.js"), path.join(__dirname, "daily-update.js")];
 // This file itself necessarily names every function/domain it's
 // scanning for, in the lists right below — excluded from its own
 // scan for that reason, not because it's allowed to call them.
@@ -63,11 +67,13 @@ function test(name, run) {
 }
 
 const results = [
-  test("Only scraper/fetch-price.js references a store's fetch function (fetchBarboraPrice/fetchRimiPrice/fetchSelverPrice)", () => {
+  test("Only scraper/fetch-price.js and scraper/daily-update.js reference a store's fetch function (fetchBarboraPrice/fetchRimiPrice/fetchSelverPrice)", () => {
     // Each store module legitimately defines and exports its own
     // fetch function — a definition isn't a call, so those files are
     // excluded here; a caller anywhere else is the violation.
-    const candidates = allFiles.filter((f) => f !== FETCH_PRICE_FILE && f !== THIS_FILE && !STORE_MODULE_FILES.includes(f));
+    const candidates = allFiles.filter(
+      (f) => !SCRAPER_ENTRY_FILES.includes(f) && f !== THIS_FILE && !STORE_MODULE_FILES.includes(f)
+    );
     const offenders = [];
     for (const file of candidates) {
       const text = fs.readFileSync(file, "utf8");
@@ -75,11 +81,11 @@ const results = [
         if (text.includes(name)) offenders.push(`${path.relative(ROOT, file)} references ${name}`);
       }
     }
-    assert.deepEqual(offenders, [], `found a store-fetch reference outside fetch-price.js:\n${offenders.join("\n")}`);
+    assert.deepEqual(offenders, [], `found a store-fetch reference outside fetch-price.js/daily-update.js:\n${offenders.join("\n")}`);
   }),
-  test("Only scraper/fetch-price.js, the store modules, and categories.js mention a store's domain", () => {
+  test("Only scraper/fetch-price.js, scraper/daily-update.js, the store modules, and categories.js mention a store's domain", () => {
     const candidates = allFiles.filter(
-      (f) => f !== FETCH_PRICE_FILE && f !== THIS_FILE && f !== CATEGORIES_FILE && !STORE_MODULE_FILES.includes(f)
+      (f) => !SCRAPER_ENTRY_FILES.includes(f) && f !== THIS_FILE && f !== CATEGORIES_FILE && !STORE_MODULE_FILES.includes(f)
     );
     const offenders = [];
     for (const file of candidates) {
@@ -88,7 +94,7 @@ const results = [
         if (text.includes(domain)) offenders.push(`${path.relative(ROOT, file)} mentions ${domain}`);
       }
     }
-    assert.deepEqual(offenders, [], `found a store domain reference outside fetch-price.js/stores:\n${offenders.join("\n")}`);
+    assert.deepEqual(offenders, [], `found a store domain reference outside fetch-price.js/daily-update.js/stores:\n${offenders.join("\n")}`);
   }),
 ];
 

@@ -36,9 +36,10 @@ const path = require("path");
 const { fetchBarboraPrice } = require("./stores/barbora");
 const { fetchRimiPrice } = require("./stores/rimi");
 const { fetchSelverPrice } = require("./stores/selver");
-const { matchPool, computeSignature } = require("./match-products");
+const { matchPool } = require("./match-products");
 const { writeRaw } = require("./raw");
 const { CATEGORIES } = require("./categories");
+const { fetchAllUrls, prepareItem, isUnclassified, toLeftoverEntry, toPricesObject } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -49,108 +50,6 @@ const AMBIGUOUS_PATH = path.join(__dirname, "..", "data", "ambiguous.json");
 
 function loadJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
-}
-
-// Mirrors the classification matchPool already applies when choosing
-// between its two console.warn messages — reused here so
-// data/unclassified.json and data/unmatched.json split the same way
-// the log output does, instead of re-deriving it differently.
-function isUnclassified(item) {
-  const sig = item.signature;
-  return !sig.isProduce && !sig.hasBrand && sig.brand === null;
-}
-
-function toLeftoverEntry(item) {
-  return { store: item.store, name: item.name, price: item.price };
-}
-
-// prices.json's per-product store map: one entry per item in the
-// group, keyed by the store's own name lowercased — however many
-// stores a product was found at, not a fixed barbora/rimi shape.
-function toPricesObject(groupItems) {
-  return Object.fromEntries(groupItems.map((item) => [item.store.toLowerCase(), toStoreEntry(item)]));
-}
-
-// `price` is always what any shopper can pay today (see splitPrice in
-// scraper/stores/barbora.js) — the only field matching or the
-// cheapest-store comparison ever reads. cardPrice/cardName are
-// included only when a loyalty-card price actually exists for this
-// item, so they never silently influence which store looks cheaper.
-// `size` is the already-normalized string from computeSignature
-// (comma/period and unit collapsed to one base unit — see
-// match-products.js) — display-only, for the frontend's unit-price
-// line (frontend/pricing.js's unitPrice); never read by matching.
-// `storeUnitPrice` is the store's OWN per-kg/per-l price (Barbora's
-// comparative_unit_price, Rimi's card "Hind ühiku kohta", Selver's
-// unit_price) — unlike `size`-derived unitPrice, this is available
-// even when an item is priced "per kg" with no weight of its own in
-// the name (most of Meat). Display-only, like `size`; never read by
-// matching.
-function toStoreEntry(item) {
-  const entry = { price: item.price, currency: item.currency, url: item.url };
-  if (item.cardPrice != null) {
-    entry.cardPrice = item.cardPrice;
-    entry.cardName = item.cardName;
-  }
-  if (item.signature.size) {
-    entry.size = item.signature.size;
-  }
-  if (item.storeUnitPrice != null) {
-    entry.storeUnitPrice = item.storeUnitPrice;
-  }
-  return entry;
-}
-
-// Both stores cap a category listing at one page and require a page
-// number to get the rest. Barbora signals the end with a clean empty
-// page (`window.b_productList = []`); Rimi has no such signal — a
-// page past the last one throws instead — so past page 1, any fetch
-// error is treated as "no more pages" rather than surfaced. A page 1
-// error still throws, since that means the category itself failed.
-async function fetchAllPages(fetchFn, baseUrl, pageParam) {
-  const items = [];
-  let page = 1;
-
-  while (true) {
-    const url = `${baseUrl}?${pageParam}=${page}`;
-    let pageItems;
-    if (page === 1) {
-      pageItems = await fetchFn(url);
-    } else {
-      try {
-        pageItems = await fetchFn(url);
-      } catch (err) {
-        break;
-      }
-    }
-
-    if (pageItems.length === 0) break;
-    items.push(...pageItems);
-    page++;
-  }
-
-  return items;
-}
-
-// Normalizes a category's urls.barbora/urls.rimi (a single URL, an
-// array of them, or — when a subcategory bundles in a product type we
-// don't want with no finer URL to split on, e.g. Rimi's juice tree
-// mixing "mahl"/"nektar" with "mahlajook" at every level — an array
-// entry can instead be `{ url, nameFilter }`) and fetches every one,
-// paginated, concatenated into one list. Mirrors the nameFilter
-// already used for Selver's sources (see stores/selver.js) — same
-// principle, extended here since Barbora/Rimi needed it for the first
-// time with Drinks.
-async function fetchAllUrls(fetchFn, urlOrUrls, pageParam) {
-  const entries = Array.isArray(urlOrUrls) ? urlOrUrls : [urlOrUrls];
-  const results = await Promise.all(
-    entries.map(async (entry) => {
-      const { url, nameFilter } = typeof entry === "string" ? { url: entry, nameFilter: null } : entry;
-      const items = await fetchAllPages(fetchFn, url, pageParam);
-      return nameFilter ? items.filter((item) => nameFilter(item.name)) : items;
-    })
-  );
-  return results.flat();
 }
 
 async function main() {
@@ -196,34 +95,16 @@ async function main() {
       resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
     });
 
-    // Default true; a category opts out explicitly (see CATEGORIES)
-    // rather than opting in, so a new category gets the safer rule
-    // without anyone having to remember to ask for it.
-    const strictPackaging = category.strictPackaging !== false;
-    // Opt-in, unlike strictPackaging — off unless a category explicitly
-    // sets it (currently just Meat). See sameBrandedProduct in
-    // match-products.js.
-    const matchAcrossWeights = category.matchAcrossWeights === true;
-
     // Run every item through the extraction functions exactly once
     // here, instead of once per pair inside matchPool — with N
     // Barbora items and M Rimi items, that's N+M extraction passes
-    // instead of up to N×M.
-    for (const item of barboraResults) {
-      if (strictPackaging) item.strictPackaging = true;
-      if (matchAcrossWeights) item.matchAcrossWeights = true;
-      item.signature = computeSignature(item);
-    }
-    for (const item of rimiResults) {
-      if (strictPackaging) item.strictPackaging = true;
-      if (matchAcrossWeights) item.matchAcrossWeights = true;
-      item.signature = computeSignature(item);
-    }
-    for (const item of selverResults) {
-      if (strictPackaging) item.strictPackaging = true;
-      if (matchAcrossWeights) item.matchAcrossWeights = true;
-      item.signature = computeSignature(item);
-    }
+    // instead of up to N×M. prepareItem sets strictPackaging/
+    // matchAcrossWeights from the category's own settings (default
+    // true / opt-in false respectively — see scraper/categories.js)
+    // before computing the signature.
+    for (const item of barboraResults) prepareItem(item, category);
+    for (const item of rimiResults) prepareItem(item, category);
+    for (const item of selverResults) prepareItem(item, category);
 
     // One flat pool per category — every store's items together, not
     // a fixed "store A vs store B" pair.

@@ -170,6 +170,35 @@ const results = [
     // storeUnitPrice) would wrongly win. It must still be Rimi.
     assert.deepEqual(rows.filter((r) => r.isCheapest).map((r) => r.store), ["rimi"]);
   }),
+
+  test("Daily update: a store the update marked unavailable is never shown as a row and never competes for cheapest", () => {
+    const twoAvailable = {
+      prices: {
+        barbora: { price: 1.99, currency: "EUR", url: "b", unavailable: true },
+        rimi: { price: 3.79, currency: "EUR", url: "r" },
+        selver: { price: 3.99, currency: "EUR", url: "s" },
+      },
+    };
+    const rows = productRows(twoAvailable);
+    assert.equal(rows.length, 2, "the unavailable store never appears as a row");
+    assert.deepEqual(
+      rows.map((r) => r.store).sort(),
+      ["rimi", "selver"]
+    );
+    // Barbora's 1.99 is the lowest real number in the data, but it's
+    // unavailable — must never win cheapest just by being cheap.
+    assert.deepEqual(rows.filter((r) => r.isCheapest).map((r) => r.store), ["rimi"]);
+  }),
+  test("Daily update: every store unavailable leaves productRows/cheapestPrice empty rather than crashing", () => {
+    const allGone = {
+      prices: {
+        barbora: { price: 1.99, currency: "EUR", url: "b", unavailable: true },
+        rimi: { price: 3.79, currency: "EUR", url: "r", unavailable: true },
+      },
+    };
+    assert.deepEqual(productRows(allGone), []);
+    assert.equal(cheapestPrice(storeEntries(allGone)), null);
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

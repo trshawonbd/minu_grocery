@@ -14,10 +14,16 @@ function rankKey(product) {
 
 function storeEntries(product) {
   const key = rankKey(product);
+  // A store the daily update (scraper/daily-update.js) marked
+  // unavailable — its listing disappeared from that store, not
+  // repriced — is never shown as a row and never competes for
+  // cheapest; its data stays in product.prices (never deleted, so a
+  // later run can reactivate it), just excluded here.
   // A store missing the ranking value (shouldn't happen once scraped,
   // but not assumed) sorts to the end rather than winning a NaN
   // comparison — it still shows in the list, just never first.
   return Object.entries(product.prices)
+    .filter(([, info]) => !info.unavailable)
     .map(([store, info]) => ({ store, ...info }))
     .sort((a, b) => (a[key] ?? Infinity) - (b[key] ?? Infinity));
 }
@@ -27,6 +33,11 @@ function storeEntries(product) {
 // "cheapest" — a tie is a tie, not just entries[0]. `key` defaults to
 // "price" so a plain (non-Meat) product works exactly as before.
 function cheapestPrice(entries, key = "price") {
+  // Only reachable if every store on a product is unavailable — the
+  // app hides a product before this once fewer than 2 stores are
+  // available, but this stays defensive rather than assuming a caller
+  // always does that first.
+  if (entries.length === 0) return null;
   return entries[0][key];
 }
 

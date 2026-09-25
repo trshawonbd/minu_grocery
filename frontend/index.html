@@ -17,6 +17,8 @@
     padding: 24px; max-width: 380px; width: 100%;
   }
   .brand { font-size: 14px; font-weight: 600; color: #1F5D46; letter-spacing: 0.02em; }
+  .update-status { font-size: 11px; color: #6B6A5F; margin-top: 4px; }
+  .update-status.stale { color: #A6522B; font-weight: 600; }
   .header { display: flex; align-items: center; margin-top: 16px; margin-bottom: 2px; }
   .back {
     -webkit-appearance: none; appearance: none; border: none; background: #F2F3EE; color: #1F5D46;
@@ -62,6 +64,7 @@
 <body>
   <div class="card">
     <div class="brand">MINU</div>
+    <div id="update-status" class="update-status"></div>
     <div id="app"></div>
   </div>
 
@@ -82,9 +85,18 @@
       return code === "EUR" ? "€" : (code || "");
     }
 
+    // A product the daily update (scraper/daily-update.js) left with
+    // fewer than 2 available stores — never deleted, just excluded
+    // from every screen here, the same way an unavailable store's own
+    // row is excluded within a still-visible product (see
+    // pricing.js's storeEntries).
+    function visibleProducts(prices) {
+      return prices.filter((p) => !p.hidden);
+    }
+
     function groupByCategory(prices) {
       const map = new Map();
-      for (const p of prices) {
+      for (const p of visibleProducts(prices)) {
         if (!map.has(p.category)) map.set(p.category, []);
         map.get(p.category).push(p);
       }
@@ -102,8 +114,9 @@
       const app = document.getElementById("app");
       app.textContent = "";
 
+      const visibleCount = visibleProducts(allPrices).length;
       app.appendChild(el("h1", "", "Categories"));
-      app.appendChild(el("div", "subtitle", `${allPrices.length} matched product${allPrices.length === 1 ? "" : "s"} across stores`));
+      app.appendChild(el("div", "subtitle", `${visibleCount} matched product${visibleCount === 1 ? "" : "s"} across stores`));
 
       const list = el("div", "list");
       for (const [category, items] of groupByCategory(allPrices)) {
@@ -140,7 +153,7 @@
 
       app.appendChild(el("h1", "", currentCategory));
 
-      const items = allPrices.filter((p) => p.category === currentCategory);
+      const items = visibleProducts(allPrices).filter((p) => p.category === currentCategory);
       app.appendChild(el("div", "subtitle", `${items.length} product${items.length === 1 ? "" : "s"} matched`));
 
       const list = el("div", "list");
@@ -269,6 +282,39 @@
       else if (screen === "product") renderProduct();
     }
 
+    // How long data/prices.json can go without a successful daily
+    // update (scraper/daily-update.js) before this warns — 2 days,
+    // matching what a missed/failed run would look like (the job runs
+    // once a day, so 1 day old is completely normal).
+    const STALE_AFTER_MS = 2 * 24 * 60 * 60 * 1000;
+
+    // data/last-update.json ({ updatedAt }) is written by
+    // scraper/daily-update.js at the end of every run, success or not
+    // (a run that alerts on some stores still updates the others and
+    // still writes this) — absent entirely only before that script has
+    // ever run once, which this treats as "no banner" rather than an
+    // error.
+    async function loadUpdateStatus() {
+      const el = document.getElementById("update-status");
+      try {
+        const response = await fetch("/data/last-update.json");
+        if (!response.ok) return;
+        const { updatedAt } = await response.json();
+        const date = new Date(updatedAt);
+        if (isNaN(date.getTime())) return;
+
+        const stale = Date.now() - date.getTime() > STALE_AFTER_MS;
+        el.textContent = `Updated: ${date.toLocaleString(undefined, {
+          year: "numeric", month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+        })}${stale ? " — data may be out of date" : ""}`;
+        el.classList.toggle("stale", stale);
+      } catch (err) {
+        // No banner rather than an error — this is informational, and
+        // the rest of the page (real price data) still works fine
+        // without it.
+      }
+    }
+
     async function loadPrices() {
       try {
         const response = await fetch("/data/prices.json");
@@ -291,6 +337,7 @@
     }
 
     loadPrices();
+    loadUpdateStatus();
   </script>
 </body>
 </html>

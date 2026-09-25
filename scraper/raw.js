@@ -8,9 +8,12 @@
 // This is the single source for anything that needs the scraped items
 // after a run — reports, review.md, matching experiments. Those must
 // read from here and never scrape again: only scraper/fetch-price.js
-// may contact the stores (see scraper/no-scrape.test.js), and it is
-// the only caller of writeRaw. Files are overwritten each run, a
-// category at a time (a single-category run leaves the others alone).
+// and scraper/daily-update.js may contact the stores (see
+// scraper/no-scrape.test.js), and they're the only callers of
+// writeRaw. Files are overwritten each run, a category (and for
+// daily-update.js, a store within it) at a time — a single-category
+// run leaves the others alone, and a store daily-update.js judged
+// unsafe to apply this run leaves that store's own file alone too.
 
 const fs = require("fs");
 const path = require("path");

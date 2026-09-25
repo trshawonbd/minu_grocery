@@ -1561,19 +1561,6 @@
   },
   {
     "store": "Selver",
-    "name": "Bolognese kaste, FELIX, 490 g",
-    "price": 2.69,
-    "regularPrice": 2.69,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/bolognese-kaste-felix-490-g",
-    "ean": "4750022503091",
-    "storeUnitPrice": 5.49,
-    "brand": "FELIX"
-  },
-  {
-    "store": "Selver",
     "name": "Kaste Sweet and Sour ananassiga, FELIX, 500 g",
     "price": 2.19,
     "regularPrice": 2.19,
@@ -1583,19 +1570,6 @@
     "url": "https://www.selver.ee/kaste-sweet-and-sour-ananassiga-felix-500-g",
     "ean": "4750022504098",
     "storeUnitPrice": 4.38,
-    "brand": "FELIX"
-  },
-  {
-    "store": "Selver",
-    "name": "Adžika, FELIX, 260 g",
-    "price": 1.95,
-    "regularPrice": 1.95,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/adzika-felix-260-g",
-    "ean": "4750022501080",
-    "storeUnitPrice": 7.5,
     "brand": "FELIX"
   },
   {
@@ -2809,19 +2783,6 @@
   },
   {
     "store": "Selver",
-    "name": "Hiina kaste (poolmagus), FELIX, 500 g",
-    "price": 2.53,
-    "regularPrice": 2.53,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/hiina-kaste-poolmagus-felix-500-g",
-    "ean": "4750022519115",
-    "storeUnitPrice": 5.06,
-    "brand": "FELIX"
-  },
-  {
-    "store": "Selver",
     "name": "Mango-tsilli kaste, FELIX, 285 g",
     "price": 2.99,
     "regularPrice": 2.99,
@@ -3313,6 +3274,45 @@
     "ean": "4740125637113",
     "storeUnitPrice": 8.75,
     "brand": "ALMA"
+  },
+  {
+    "store": "Selver",
+    "name": "Hiina kaste (poolmagus), FELIX, 500 g",
+    "price": 2.53,
+    "regularPrice": 2.53,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/hiina-kaste-poolmagus-felix-500-g",
+    "ean": "4750022519115",
+    "storeUnitPrice": 5.06,
+    "brand": "FELIX"
+  },
+  {
+    "store": "Selver",
+    "name": "Bolognese kaste, FELIX, 490 g",
+    "price": 2.69,
+    "regularPrice": 2.69,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/bolognese-kaste-felix-490-g",
+    "ean": "4750022503091",
+    "storeUnitPrice": 5.49,
+    "brand": "FELIX"
+  },
+  {
+    "store": "Selver",
+    "name": "Adžika, FELIX, 260 g",
+    "price": 1.95,
+    "regularPrice": 1.95,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/adzika-felix-260-g",
+    "ean": "4750022501080",
+    "storeUnitPrice": 7.5,
+    "brand": "FELIX"
   },
   {
     "store": "Selver",

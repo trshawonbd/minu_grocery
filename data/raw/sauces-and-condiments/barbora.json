@@ -393,20 +393,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Kaste friikartulitele HEINZ 400ml",
-    "price": 5.19,
-    "regularPrice": 5.19,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kaste-friikartulitele-heinz-400-ml",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 12.07,
-    "brand": "HEINZ"
-  },
-  {
-    "store": "Barbora",
     "name": "Magustsilli kaste CHUMAK 200g",
     "price": 1.29,
     "regularPrice": 1.29,
@@ -1093,6 +1079,20 @@
   },
   {
     "store": "Barbora",
+    "name": "Kaste friikartulitele HEINZ 400ml",
+    "price": 5.19,
+    "regularPrice": 5.19,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kaste-friikartulitele-heinz-400-ml",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 12.07,
+    "brand": "HEINZ"
+  },
+  {
+    "store": "Barbora",
     "name": "Sinepi-meekaste PURE 270g",
     "price": 2.49,
     "regularPrice": 2.49,
@@ -1485,6 +1485,20 @@
   },
   {
     "store": "Barbora",
+    "name": "Pastakaste basiilikuga MUTTI 400g",
+    "price": 3.55,
+    "regularPrice": 3.55,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/pastakaste-basiilikuga-mutti-400-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 8.88,
+    "brand": null
+  },
+  {
+    "store": "Barbora",
     "name": "Pastakaste juustuga MUTTI 400g",
     "price": 3.09,
     "regularPrice": 3.09,
@@ -1593,20 +1607,6 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 16.61,
-    "brand": "WELL DONE PREMIUM"
-  },
-  {
-    "store": "Barbora",
-    "name": "Pastakaste röst.pistaats.ricott.WDP 300g",
-    "price": 3.74,
-    "regularPrice": 4.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/pastakaste-rost-pistaats-ricott-wdp-300-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 12.46,
     "brand": "WELL DONE PREMIUM"
   },
   {
@@ -1723,20 +1723,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Pastakaste basiilikuga MUTTI 400g",
-    "price": 3.55,
-    "regularPrice": 3.55,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/pastakaste-basiilikuga-mutti-400-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 8.88,
-    "brand": null
-  },
-  {
-    "store": "Barbora",
     "name": "Pastakaste grill.köög.MUTTI 400g",
     "price": 3.09,
     "regularPrice": 3.09,
@@ -1762,6 +1748,20 @@
     "unit": "kg",
     "storeUnitPrice": 15.74,
     "brand": "SACLA"
+  },
+  {
+    "store": "Barbora",
+    "name": "Pastakaste röst.pistaats.ricott.WDP 300g",
+    "price": 3.74,
+    "regularPrice": 4.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/pastakaste-rost-pistaats-ricott-wdp-300-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 12.46,
+    "brand": "WELL DONE PREMIUM"
   },
   {
     "store": "Barbora",
@@ -2087,20 +2087,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Tomatikaste tom.tükk.WELLDONE 500g",
-    "price": 2.95,
-    "regularPrice": 2.95,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/tomatikaste-tom-tukk-welldone-500-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 5.9,
-    "brand": "WELL DONE"
-  },
-  {
-    "store": "Barbora",
     "name": "Tomatikaste WELLDONE 480g",
     "price": 2.35,
     "regularPrice": 2.35,
@@ -2248,6 +2234,20 @@
     "cardName": null,
     "currency": "EUR",
     "url": "https://barbora.ee/toode/tom-kaste-gril-koogiv-filippo-berio-340-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 11.74,
+    "brand": "FILIPPO BERIO"
+  },
+  {
+    "store": "Barbora",
+    "name": "Tomatikaste basiilik.FILIPPO BERIO 340g",
+    "price": 3.99,
+    "regularPrice": 3.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/tomatikaste-basiilik-filippo-berio-340-g",
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.74,
@@ -2409,17 +2409,17 @@
   },
   {
     "store": "Barbora",
-    "name": "Tomatikaste basiilik.FILIPPO BERIO 340g",
-    "price": 3.99,
-    "regularPrice": 3.99,
+    "name": "Tomatikaste tom.tükk.WELLDONE 500g",
+    "price": 2.95,
+    "regularPrice": 2.95,
     "cardPrice": null,
     "cardName": null,
     "currency": "EUR",
-    "url": "https://barbora.ee/toode/tomatikaste-basiilik-filippo-berio-340-g",
+    "url": "https://barbora.ee/toode/tomatikaste-tom-tukk-welldone-500-g",
     "ean": null,
     "unit": "kg",
-    "storeUnitPrice": 11.74,
-    "brand": "FILIPPO BERIO"
+    "storeUnitPrice": 5.9,
+    "brand": "WELL DONE"
   },
   {
     "store": "Barbora",
@@ -3193,6 +3193,20 @@
   },
   {
     "store": "Barbora",
+    "name": "Tomatine ketsup SALVEST 1kg",
+    "price": 4.05,
+    "regularPrice": 4.05,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/tomatine-ketsup-salvest-1-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 4.05,
+    "brand": "SALVEST"
+  },
+  {
+    "store": "Barbora",
     "name": "Tomatiketšup suhkruta FELIX 970g",
     "price": 4.65,
     "regularPrice": 4.65,
@@ -3515,20 +3529,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Tomatine ketsup SALVEST 1kg",
-    "price": 4.05,
-    "regularPrice": 4.05,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/tomatine-ketsup-salvest-1-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.05,
-    "brand": "SALVEST"
-  },
-  {
-    "store": "Barbora",
     "name": "Ketšup terav HEINZ 460g",
     "price": 3.75,
     "regularPrice": 3.75,
@@ -3823,20 +3823,6 @@
   },
   {
     "store": "Barbora",
-    "name": "Dijoni sinep WELL DONE Prem.210g",
-    "price": 1.49,
-    "regularPrice": 1.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/dijoni-sinep-well-done-prem-210-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 7.1,
-    "brand": "WELL DONE PREMIUM"
-  },
-  {
-    "store": "Barbora",
     "name": "Teraline sinep WELL DONE Prem.210g",
     "price": 1.49,
     "regularPrice": 1.99,
@@ -3890,6 +3876,20 @@
     "unit": "kg",
     "storeUnitPrice": 22.92,
     "brand": "FELIX"
+  },
+  {
+    "store": "Barbora",
+    "name": "Dijoni sinep WELL DONE Prem.210g",
+    "price": 1.49,
+    "regularPrice": 1.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/dijoni-sinep-well-done-prem-210-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 7.1,
+    "brand": "WELL DONE PREMIUM"
   },
   {
     "store": "Barbora",

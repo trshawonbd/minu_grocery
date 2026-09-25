@@ -143,6 +143,14 @@ function excludeWords(exclude, require) {
 const MEAT_OFFAL = ["maks", "süda", /\bneer/, "kops", "magu", /\bkeel\b/, "puljongikont", "supikogu", /\bluu\b/, "veri"];
 const MEAT_GAME = ["küülik", "uluk", "metssea", "hirve", "põdra", "vutt", "vuti"];
 
+// Frozen potato PRODUCTS (fries, wedges, rösti, balls, pancakes,
+// croquettes, "vigurkartul" shapes, hash browns) — the owner's call
+// puts these in Dumplings, pizza & fries, not Frozen vegetables.
+// Deliberately not "kartul" itself: a vegetable mix containing potato
+// is still a vegetable mix. Shared by both frozen categories below,
+// one excluding these words, the other requiring them.
+const SELVER_FROZEN_POTATO_WORDS = ["friik", "kartulisektor", "kartuliviil", "kartulipall", "kartulipannkoo", "kartulikroket", "rösti", "vigurkartul", "hash brown"];
+
 const CATEGORIES = {
   // Unlike Barbora/Rimi, Selver has no subcategory dedicated to
   // formula alone — category 307 ("Lastetoidud") holds every baby
@@ -560,6 +568,34 @@ const CATEGORIES = {
   // mixes; checked by hand, clean.
   "Nuts, seeds & dried fruit": {
     sources: [{ id: 277 }],
+  },
+  // Frozen — all under 284 "Külmutatud toidukaubad".
+  // 287 "Külmutatud köögiviljad, marjad, puuviljad" also holds every
+  // frozen potato product (fries, wedges, rösti, potato balls/
+  // pancakes/croquettes — Dumplings, pizza & fries' scope by the
+  // owner's call) and one frozen soup; the specific potato-PRODUCT
+  // words are excluded, not "kartul" itself, so a vegetable mix that
+  // merely contains potato ("Kartuli-sibulasegu", "Praadimissegu
+  // kartuliga") stays here.
+  "Frozen vegetables & berries": {
+    sources: [{ id: 287, nameFilter: excludeWords(SELVER_FROZEN_POTATO_WORDS.concat(["supp", "supi", "smuuti"])) }],
+  },
+  // 289 "Jäätised" — ice cream, incl. juice ices; ice cubes excluded.
+  "Ice cream": {
+    sources: [{ id: 289, nameFilter: excludeWords(["jääkuubik"]) }],
+  },
+  // Selver spreads this across three IDs: dumplings sit in 285
+  // "Külmutatud liha- ja kalatooted" (41 of its 106 items — the rest
+  // is breaded fish, seafood, offal, none wanted), pizza and one
+  // vareniki in 286 "Külmutatud valmistooted" (otherwise ready meals:
+  // nuggets, spring rolls, pancakes, boxed meals, baby purée), and
+  // the potato products in 287 (see above). Each is taken by name.
+  "Dumplings, pizza & fries": {
+    sources: [
+      { id: 285, nameFilter: excludeWords([], ["pelmeen", "vareenik"]) },
+      { id: 286, nameFilter: excludeWords([], ["pelmeen", "vareenik", "pitsa", "pizza"]) },
+      { id: 287, nameFilter: excludeWords([], SELVER_FROZEN_POTATO_WORDS) },
+    ],
   },
 };
 

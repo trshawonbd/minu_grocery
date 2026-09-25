@@ -965,6 +965,74 @@ const CATEGORIES = [
       rimi: "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kuivatatud-puuviljad-ja-pahklid/c/SH-9-4",
     },
   },
+  {
+    // Strict packaging applies (the default). Scope: frozen
+    // vegetables, vegetable mixes, mushrooms, berries and fruit.
+    // Excluded: frozen fries/wedges/hash browns (the owner's call —
+    // Dumplings & pizza, see CLAUDE.md; Barbora's own fries leaf is
+    // simply never fetched here, Selver's veg ID needs a name filter),
+    // frozen soup ("supp" — one in Barbora's veg leaf, one in
+    // Selver's), and frozen smoothie packs ("smuuti" — Barbora's
+    // berries leaf; a drink, the same call as Drinks).
+    name: "Frozen vegetables & berries",
+    urls: {
+      // "supp"/"supi" (soup, incl. the inflected "Supi köögiviljasegu",
+      // a soup vegetable mix) and "smuuti" (smoothie packs) at every
+      // store, so the same call is made everywhere.
+      barbora: [
+        { url: "https://barbora.ee/kulmutatud-tooted/kulmutatud-koogiviljad-seened-ja-marjad/kulmutatud-koogiviljad-ja-seened", nameFilter: excludeWords(["supp", "supi", "smuuti"]) },
+        { url: "https://barbora.ee/kulmutatud-tooted/kulmutatud-koogiviljad-seened-ja-marjad/kulmutatud-marjad", nameFilter: excludeWords(["supp", "supi", "smuuti"]) },
+      ],
+      // Parent aggregates vegetables, berries, mushrooms — fries live
+      // in a different Rimi department entirely. Checked by hand: one
+      // smoothie mix and one borscht soup vegetable mix mixed in.
+      rimi: { url: "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-koogiviljad-marjad/c/SH-4-3", nameFilter: excludeWords(["supp", "supi", "smuuti"]) },
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: ice cream of
+    // every form (sticks, cones, tubs, family packs, multipacks and
+    // ice-cream cakes, juice ices and sorbets). Excluded: ice cubes
+    // ("jääkuubik" — the only thing in Rimi's "Jää" leaf too) sold in
+    // the same department at every store. Plain substring on purpose:
+    // a first attempt used /\bjää\b/, and JS's \b treats "ä" as a
+    // non-word character, so it matched inside "Jäätis" and silently
+    // dropped every Rimi item literally named "Jäätis …" — caught by
+    // the count (107 where ~250 were expected) in the first scrape.
+    name: "Ice cream",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kulmutatud-tooted/jaatised-ja-jaakuubikud/pulgajaatised",
+        "https://barbora.ee/kulmutatud-tooted/jaatised-ja-jaakuubikud/perejaatised",
+        "https://barbora.ee/kulmutatud-tooted/jaatised-ja-jaakuubikud/muud-vaikejaatised",
+        "https://barbora.ee/kulmutatud-tooted/jaatised-ja-jaakuubikud/topsi-ja-koonusjaatised",
+      ],
+      rimi: { url: "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/c/SH-4-1", nameFilter: excludeWords(["jääkuubik"]) },
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: frozen dumplings
+    // (pelmeenid, vareenikud, gyoza), frozen pizza, and — the owner's
+    // call — frozen fries, wedges, hash browns and other pre-fried
+    // potato products (frozen convenience food, see CLAUDE.md).
+    // Excluded: every other frozen ready meal (nuggets, spring rolls,
+    // pancakes, boxed meals — each store's own "valmistoit" leaf or,
+    // at Selver, everything in the ready-products ID that isn't
+    // dumplings/pizza by name).
+    name: "Dumplings, pizza & fries",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-pooltooted/kulmutatud-pelmeenid-ja-vareenikud",
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-pooltooted/kulmutatud-pitsad",
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-koogiviljad-seened-ja-marjad/kulmutatud-friikartulid-ja-kartulisektorid",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/pelmeenid-ja-vareenikud/c/SH-4-7",
+        "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-pitsa-friikartulid-valmistoit/kulmutatud-pitsa/c/SH-4-5-19",
+        "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-pitsa-friikartulid-valmistoit/friikartulid/c/SH-4-3-13",
+      ],
+    },
+  },
 ];
 
 // Whether a category opts into strict packaged-product matching (the

@@ -90,6 +90,7 @@ progress as each batch finishes.
 4. **Sweets & snacks**: chocolate, candy, biscuits, chips & snacks,
    nuts, seeds & dried fruit — *done*
 5. **Frozen**: vegetables & berries, ice cream, dumplings & pizza
+   (& fries) — *done*
 6. **Meat products & fish**: sausages, ham & cold cuts, fish (fresh,
    smoked, canned)
 7. **Baby food, household, personal care, pet food**
@@ -106,6 +107,22 @@ progress as each batch finishes.
 **Not allowed without the owner's explicit decision:** alcohol, adding
 a new store (e.g. PROMO Cash&Carry), or anything that puts the app
 online/publicly reachable.
+
+## Scope decisions to remember (owner's calls, apply every time)
+
+- Frozen fries, potato wedges and hash browns belong in **Dumplings &
+  pizza** (frozen convenience food), never in Frozen vegetables —
+  stores disagree (Barbora shelves them with vegetables, Rimi with
+  pizza/ready meals), the owner decided.
+- Cocoa/drinking chocolate goes with Tea; canned fruit and fruit
+  purée with Jam & honey & spreads; dried fruit and seeds with Nuts;
+  chewing gum and pastilles with Candy.
+- Excluded everywhere unless the owner says otherwise: ready meals,
+  soups (canned, packet, or frozen), dip mixes/sauce packets sold
+  next to another category, plant-based imitations of a dairy
+  product, and anything already owned by an existing category (sugar
+  in any form, starch, flour, quinoa/millet → Flour & sugar / Rice &
+  grains).
 
 ## Fast-mode review (required for every batch)
 

@@ -178,6 +178,33 @@ const results = [
     assert.equal(chipsSelver("Dipikastmepulber küüslauguga, GESTUS, 16g"), false);
     assert.equal(chipsSelver("Juustumaitselised kartuliaastud, TAFFEL, 180g"), true);
   }),
+
+  test("Frozen: a real bug — a /\\bjää\\b/ ice-cube exclude matched inside 'Jäätis' (JS's \\b treats 'ä' as a non-word char) and dropped every Rimi item named 'Jäätis …'; plus the frozen veg/potato routing", () => {
+    const iceRimi = category("Ice cream").urls.rimi.nameFilter;
+    const iceSelver = SELVER_CATEGORIES["Ice cream"].sources[0].nameFilter;
+    const vegBarbora = category("Frozen vegetables & berries").urls.barbora[0].nameFilter;
+    const vegRimi = category("Frozen vegetables & berries").urls.rimi.nameFilter;
+    const vegSelver = SELVER_CATEGORIES["Frozen vegetables & berries"].sources[0].nameFilter;
+    const dumplingsSelverPotato = SELVER_CATEGORIES["Dumplings, pizza & fries"].sources[2].nameFilter;
+    const dumplingsSelverReady = SELVER_CATEGORIES["Dumplings, pizza & fries"].sources[1].nameFilter;
+
+    assert.equal(iceRimi("Jäätis VÄIKE TOM šokolaadiga, 60g"), true, "the actual bug — an ice cream named 'Jäätis' must never be excluded");
+    assert.equal(iceRimi("Mahlajää arbuusi Pirulo 67g"), true, "juice ice is ice cream scope");
+    assert.equal(iceRimi("Jääkuubikud Balbiino 2kg"), false, "ice cubes are excluded");
+    assert.equal(iceSelver("Jääkuubikud topsis, külmutatud, ICE CUP, 130 g"), false);
+    assert.equal(iceSelver("Jäätis brikett, REGATT, 90 g"), true);
+
+    assert.equal(vegBarbora("Külm.talvine supp WELL DONE, 400g"), false, "frozen soup, same call as every other soup");
+    assert.equal(vegRimi("Supi köögiviljasegu Ukraina Borš Bauer 400g"), false, "the inflected 'Supi' must be caught too");
+    assert.equal(vegRimi("Smuutisegu suvine Nice'n Easy külm. 375g"), false, "a frozen smoothie pack is a drink");
+    assert.equal(vegRimi("Külmutatud brokoli Rimi 400g"), true);
+    assert.equal(vegSelver("Friikartul sakiline, MAAHÄRRA, 750 g"), false, "fries leave Frozen vegetables (owner's call)…");
+    assert.equal(dumplingsSelverPotato("Friikartul sakiline, MAAHÄRRA, 750 g"), true, "…and land in Dumplings, pizza & fries");
+    assert.equal(vegSelver("Kartuli-sibulasegu, MAAHÄRRA, 1 kg"), true, "a vegetable mix that merely contains potato stays a vegetable mix");
+    assert.equal(dumplingsSelverPotato("Kartuli-sibulasegu, MAAHÄRRA, 1 kg"), false);
+    assert.equal(dumplingsSelverReady("Asia Box Tikka Masala kana jasmiiniriisiga, SPICEFIELD, 350 g"), false, "a boxed ready meal");
+    assert.equal(dumplingsSelverReady("Pitsa Ristorante Hawaii, DR.OETKER, 355g"), true);
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

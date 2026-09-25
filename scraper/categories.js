@@ -173,11 +173,32 @@ const PERSONAL_CARE_RIMI_BODY_EXCLUDE = excludeWords(["svamm", "käsn"]);
 
 const CATEGORIES = [
   {
+    // The owner's call: follow-on and growing-up formula (stage 2, 3,
+    // 4 and similar — Nestlé's "Plus2"/"Plus3"/"Plus4", Aptamil's
+    // piimajook range) belong in this same category, matched the same
+    // way as stage 1 always has been (stage numbers must agree).
+    // Barbora splits by stage across separate leaves (from-birth,
+    // follow-on 6mo+, growing-up 12mo+, plus a fourth leaf for special-
+    // needs formula — lactose-free, anti-reflux, goat milk — that
+    // isn't split by stage at all); Rimi's own "breast-milk-
+    // substitutes" leaf already lists every stage on one page (added
+    // nothing new there), so only its separate liquid/ready-to-feed
+    // leaf needed adding. Selver was already covering every stage —
+    // its own filter only requires "piimasegu" appear in the name,
+    // with no stage split of its own to miss.
     name: "Baby formula",
     strictPackaging: false,
     urls: {
-      barbora: "https://barbora.ee/lastekaubad/piimasegud-ja-jatkupiimasegud/piimasegud-alates-sunnist",
-      rimi: "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/c/SH-5-6-18",
+      barbora: [
+        "https://barbora.ee/lastekaubad/piimasegud-ja-jatkupiimasegud/piimasegud-alates-sunnist",
+        "https://barbora.ee/lastekaubad/piimasegud-ja-jatkupiimasegud/jatkupiimasegud-6-kuud",
+        "https://barbora.ee/lastekaubad/piimasegud-ja-jatkupiimasegud/piimajoogid-12-kuud",
+        "https://barbora.ee/lastekaubad/piimasegud-ja-jatkupiimasegud/eriotstarbelised-piimasegud",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/c/SH-5-6-18",
+        "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/liquid-breast-milk-substitutes/c/SH-5-6-25",
+      ],
     },
   },
   {

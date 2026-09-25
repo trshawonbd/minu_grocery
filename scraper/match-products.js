@@ -62,18 +62,93 @@ const SIZE_PATTERNS = [
 // "brand". Colour agreement is separately enforced by qualifiers
 // (see IDENTITY_QUALIFIER_PATTERNS) once a real brand is found, so
 // skipping them here doesn't lose that check.
+// Baby formula's own generic/descriptive words, added while expanding
+// the category to follow-on and growing-up formula: "jätkupiimasegu"
+// (follow-on formula), "kitsepiim"/"kitsepiimasegu" (goat milk formula
+// — the real distinguishing fact there is the brand, Kabrita, which
+// only makes goat-milk formula, so once this is skipped the brand
+// alone is enough), "imiku" (baby's/infant), "algpiimasegu" (starter
+// formula), "öko"/"mahepiimasegu" (organic/organic-formula), "piimas"
+// (Barbora's own period-truncated "Piimas." for "Piimasegu"), "ar"
+// (Aptamil's anti-reflux line — a real, different product from plain
+// formula, so also recognized as its own NAMED_VARIANTS entry below;
+// this only keeps it from being mistaken for the BRAND). Real bug,
+// found reviewing the expanded scrape by hand: two DIFFERENT real
+// brands ("Jätkupiimasegu Combiotic2Bio HIPP800g" and "Jätkupiimasegu
+// APTAMIL Comfort2 400g") both extracted the same wrong pseudo-brand
+// ("jätkupiimasegu") before this — a same-size coincidence between
+// two such items would have matched two different brands' formula as
+// the same product.
+// "comfort"/"comfort1".."comfort4" (also recognized as a NAMED_VARIANTS
+// entry — see below): whichever word order a store's own name uses,
+// "Comfort" (or the fused "Comfort2") coming before the real brand
+// must not become the pseudo-brand itself. Real bug, same shape as the
+// generic-word collision above: "Piimasegu Comfort nr1 0+, APTAMIL,
+// 400 g" (brand written last) extracted "comfort" as the brand, not
+// "aptamil".
 const CATEGORY_WORDS = new Set([
   "piimasegu", "eripiimasegu", "eesti", "and",
   "punane", "sinine", "kollane", "roheline", "valge", "must", "oranž",
+  "jätkupiimasegu", "kitsepiim", "kitsepiimasegu", "imiku", "algpiimasegu", "öko", "mahepiimasegu", "piimas", "ar",
+  "comfort", "comfort1", "comfort2", "comfort3", "comfort4",
 ]);
 
 // Named product variants that aren't a stage number — checked before
-// falling back to a numeric stage. "lv" is Rimi's own abbreviation
-// for "laktoosivaba" (lactose-free), taken straight from the raw
-// product name text.
+// falling back to a numeric stage. Each `token` is a function of the
+// match, not a plain string — needed for "plus" below, whose real
+// distinguishing value is the digit it carries, not a fixed label.
+// "lv" is Rimi's own abbreviation for "laktoosivaba" (lactose-free),
+// taken straight from the raw product name text.
 const NAMED_VARIANTS = [
-  { pattern: /\bcomf(?:ort)?\b/i, token: "comfort" },
-  { pattern: /\b(?:lv|laktoosivaba)\b/i, token: "lactose-free" },
+  // "Comfort1"/"Comfort 2" (Aptamil's own line — the digit sometimes
+  // fused directly onto the word, sometimes spaced) — checked before
+  // the plain "comfort" entry below, so the stage digit is kept:
+  // Comfort1 and Comfort2 are different real products, not just "the
+  // comfort one" either way. Real bug, the fused form: a bare \b fails
+  // between a letter and a digit (both are "word" characters to JS
+  // regex), so it matched neither this file's existing comfort pattern
+  // nor the generic numeric fallback below. A second real bug, the
+  // SPACED form ("Comfort 2"): NAMED_VARIANTS returns on its first
+  // match and never reaches the numeric fallback at all, so the plain
+  // "comfort" entry below matched first and silently dropped the "2" —
+  // Rimi's own "Piimasegu Aptamil Comfort sünnist 400g" (stage 1,
+  // implied) and "Piimasegu Aptamil Comfort 2 al. 6k 400g" (stage 2)
+  // both extracted the same bare "comfort" variant, and only fell into
+  // data/ambiguous.json instead of quietly mismatching by luck because
+  // a same-store pair can never form a match in the first place — but
+  // a genuine cross-store Comfort-stage-2 pair would have been blocked
+  // by this the same way. Both found reviewing the expanded formula
+  // scrape's ambiguous groups by hand.
+  { pattern: /\bcomfort\s*(\d)\b/i, token: (m) => `comfort${m[1]}` },
+  { pattern: /\bcomf(?:ort)?\b/i, token: () => "comfort" },
+  { pattern: /\b(?:lv|laktoosivaba)\b/i, token: () => "lactose-free" },
+  // Aptamil's anti-reflux line ("Piimasegu AR APTAMIL...") — a real,
+  // different product from plain formula (a medical dietary need), not
+  // just a wording difference. Case-sensitive (no /i/) on purpose: a
+  // bare two-letter token is only safe to treat as meaningful when it
+  // appears exactly as the all-caps abbreviation real AR formula
+  // packaging uses, not as a coincidental capitalized fragment
+  // elsewhere.
+  { pattern: /\bAR\b/, token: () => "ar" },
+  // Nestlé NAN's "Optipro Plus1"/"Plus2"/"Plus3"/"Plus4" line states
+  // its stage as "Plus" + digit — sometimes fused ("Plus4"), sometimes
+  // spaced ("Plus 2"); both extract to the bare digit here so they
+  // still agree with a same-stage item from a store/line that states
+  // the stage number alone (Plus is NAN's own branding around the
+  // stage, not a distinct product line the way Comfort is). The spaced
+  // form already worked via the generic numeric fallback below; this
+  // exists for the fused form, which — same root cause as Comfort1/2
+  // above — a bare \b can't reach.
+  { pattern: /\bplus\s*(\d{1,2})\b/i, token: (m) => m[1] },
+  // "nr1"/"nr2" (Selver's own shorthand for the stage number, "nr" =
+  // "number") — equivalent to the bare stage digit everywhere else,
+  // not a distinguishing product line, so this extracts just the
+  // digit itself rather than a "nr"-prefixed token (a same-stage item
+  // stated as a bare digit elsewhere must still agree with it). Real
+  // bug, same root cause as Comfort/Plus above: "nr1" fuses "nr"
+  // directly to the digit with no space, which the generic fallback's
+  // \b can't reach.
+  { pattern: /\bnr\s*(\d{1,2})\b/i, token: (m) => m[1] },
 ];
 
 // Marks a genuinely different product or listing, wherever it shows
@@ -484,8 +559,9 @@ function extractSize(name) {
 
 function extractVariant(name) {
   for (const { pattern, token } of NAMED_VARIANTS) {
-    if (pattern.test(name)) {
-      return token;
+    const match = name.match(pattern);
+    if (match) {
+      return token(match);
     }
   }
 

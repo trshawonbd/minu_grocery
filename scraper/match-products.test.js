@@ -11,7 +11,7 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, matchPool, matchItems, computeSignature } = require("./match-products");
+const { sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, extractBrand, extractVariant, matchPool, matchItems, computeSignature } = require("./match-products");
 const { buildItem } = require("./categories");
 
 function item(store, name) {
@@ -63,6 +63,79 @@ const tests = [
         sameProduct(item("Barbora", "Eripiimasegu NESTLE NAN Comf.400g sün."), item("Rimi", "Eripiimasegu imikutele Nan lv 400g")),
         false
       ),
+  },
+  {
+    name: "Formula: real bug — generic Estonian formula words (jätkupiimasegu, kitsepiim(asegu), imiku, algpiimasegu, öko, mahepiimasegu) were mistaken for the brand, letting two DIFFERENT real brands' formula extract the same wrong pseudo-brand and risk a cross-brand match",
+    run: () => {
+      assert.equal(extractBrand("Algpiimasegu NESTLE NAN OptiPro 650g 0+"), "nestle");
+      assert.equal(extractBrand("Öko.kitsepiimasegu HIPP Pre 400g sünn."), "hipp");
+      assert.equal(extractBrand("Mahepiimasegu imikutele HOLLE 400g sünn."), "holle");
+      assert.equal(extractBrand("Kitsepiim.jätk.KABRITA 800g 0-6k"), "kabrita");
+      // The real cross-brand collision this fixes: before, both of
+      // these extracted the same wrong pseudo-brand ("jätkupiimasegu")
+      // despite being two different real manufacturers — HIPP's own
+      // "Combiotic" line name (fused to a stage digit, a separate,
+      // narrower gap left for the abbreviation-matching round) still
+      // isn't "jätkupiimasegu" any more, and Aptamil now correctly
+      // extracts as itself.
+      assert.equal(extractBrand("Jätkupiimasegu APTAMIL Comfort2 400g 6K"), "aptamil");
+      assert.notEqual(extractBrand("Jätkupiimasegu Combiotic2Bio HIPP800g,6k"), "jätkupiimasegu");
+    },
+  },
+  {
+    name: "Formula: real bug — a stage digit fused directly onto a named variant word with no space (Comfort1, Comfort2, Nan's Plus1..Plus4) extracted no variant at all, since a bare \\b never fires between a letter and a digit",
+    run: () => {
+      assert.equal(extractVariant("Piimasegu Comfort1 APTAMIL 400g, sünnist"), "comfort1");
+      assert.equal(extractVariant("Jätkupiimasegu APTAMIL Comfort2 400g 6K"), "comfort2");
+      assert.equal(extractVariant("P.segu Optipro Nan Plus1 al.sünnist 800g"), "1");
+      assert.equal(extractVariant("Piimasegu  Nan Optipro Plus4 al.2a 800g"), "4");
+      // The spaced form (a different store's own wording) already
+      // worked before this fix and must still agree with the fused
+      // form of the same real stage.
+      assert.equal(extractVariant("Jä.p.segu Optipro Nan Plus 2 al.6k 800g"), "2");
+    },
+  },
+  {
+    name: "Formula: Aptamil AR (anti-reflux) is a real, different product from plain Aptamil at the same size/stage-less wording — never matches",
+    run: () => {
+      const ar = item("Barbora", "Piimasegu AR APTAMIL 400g, sünnist");
+      const plain = item("Rimi", "Piimasegu Aptamil 400g, sünnist");
+      assert.equal(sameProduct(ar, plain), false);
+      const arAgain = item("Rimi", "Piimasegu Aptamil AR alates sünnist 400g");
+      assert.equal(sameProduct(ar, arAgain), true, "the same AR formula, worded differently, still matches");
+    },
+  },
+  {
+    name: "Formula: real bug — 'Comfort' with a SPACED stage digit ('Comfort 2') silently dropped the digit, since NAMED_VARIANTS returns on its first match (the plain 'comfort' entry) and never reaches the numeric fallback; and whichever word order a store uses, 'Comfort'/'Comfort1' coming before the real brand must not become the pseudo-brand",
+    run: () => {
+      assert.equal(extractVariant("Piimasegu Aptamil Comfort sünnist 400g"), "comfort");
+      assert.equal(extractVariant("Piimasegu Aptamil Comfort 2 al. 6k 400g"), "comfort2");
+      assert.equal(extractBrand("Piimasegu Comfort nr1 0+, APTAMIL, 400 g"), "aptamil");
+      assert.equal(extractBrand("Piimasegu Comfort1 APTAMIL 400g, sünnist"), "aptamil");
+
+      // The real case this fixes: two DIFFERENT real Rimi products
+      // (Comfort stage 1, implied, vs Comfort stage 2) used to extract
+      // the identical "comfort" variant and only avoided a wrong match
+      // because they came from the same store — a genuine cross-store
+      // stage-2 Comfort pair would have wrongly matched a stage-1 one.
+      const comfort1 = item("Rimi", "Piimasegu Aptamil Comfort sünnist 400g");
+      const comfort2 = item("Rimi", "Piimasegu Aptamil Comfort 2 al. 6k 400g");
+      assert.equal(sameProduct(comfort1, comfort2), false);
+    },
+  },
+  {
+    name: "Formula: real bug — Selver's 'nr1'/'nr2' stage shorthand (fused, no space) extracted no variant at all, the same fused-digit root cause as Comfort/Plus — HOLLE's plain organic formula (no stage stated) correctly stays unmatched against either of Selver's goat-milk-specific nr1/nr2 listings rather than ambiguously matching both",
+    run: () => {
+      assert.equal(extractVariant("Kitsepiimasegu nr1 0+, HOLLE, 400 g"), "1");
+      assert.equal(extractVariant("Kitsepiimasegu nr2 6+, HOLLE, 400 g"), "2");
+
+      const holleBarbora = item("Barbora", "Mahepiimasegu imikutele HOLLE 400g sünn.");
+      const holleNr1 = item("Selver", "Kitsepiimasegu nr1 0+, HOLLE, 400 g");
+      const holleNr2 = item("Selver", "Kitsepiimasegu nr2 6+, HOLLE, 400 g");
+      assert.equal(sameProduct(holleBarbora, holleNr1), false);
+      assert.equal(sameProduct(holleBarbora, holleNr2), false);
+      assert.equal(sameProduct(holleNr1, holleNr2), false, "sanity: the two Selver stages never match each other either");
+    },
   },
 
   // --- Produce: type and variety ---

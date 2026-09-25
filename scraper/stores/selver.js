@@ -339,6 +339,55 @@ const CATEGORIES = {
   "Cooking oil": {
     sources: [{ id: 267, nameFilter: excludeWords(["äädik", "palsamikreem", "sprei"]) }],
   },
+  // Cheese — Selver keeps cheese under its own department (242
+  // "Juustud"), separate from 233 "Piimatooted, munad, võid" that the
+  // rest of Dairy uses. Its 4 children: 243 "Juustud" (general/hard/
+  // sliced/grated/mozzarella, 115 items), 244 "Määrdejuustud"
+  // (spreadable/cream/melted, 59 items), 245 "Delikatessjuustud"
+  // (gourmet — blue, goat/sheep, halloumi, feta, 80 items); 246
+  // "Gurmee juustud" was checked by hand and found empty (0 items) —
+  // left out entirely. All three mix in cheese snacks/sticks/chips
+  // (243, 245) and vegan cheese/tofu (243, 244) — same cheeseFilter
+  // as Barbora/Rimi (scraper/categories.js), duplicated here for the
+  // same self-contained reason every other filter in this file is.
+  "Cheese": {
+    sources: [
+      { id: 243, nameFilter: excludeWords(["näk", "pulgad", "laastud", "ribad", "tofu", "violife", "paprika"]) },
+      { id: 244, nameFilter: excludeWords(["näk", "pulgad", "laastud", "ribad", "tofu", "violife", "paprika"]) },
+      { id: 245, nameFilter: excludeWords(["näk", "pulgad", "laastud", "ribad", "tofu", "violife", "paprika"]) },
+    ],
+  },
+  // Curd & cottage cheese — 235 "Kohupiimad, kodujuustud" (child of
+  // 233, sibling of 234/236/237/239/240 that the rest of Dairy uses)
+  // mixes plain kohupiim/kodujuust with dessert-form curd products
+  // (curd cream, curd paste) and even two stray Kinder chocolate
+  // biscuit cakes and one kohuke — same curdFilter reasoning as
+  // Barbora/Rimi (scraper/categories.js), duplicated here.
+  "Curd & cottage cheese": {
+    sources: [{ id: 235, nameFilter: excludeWords(["kreem", "pasta", "kohupiimap.", "vorm", "kinder", "kohoke"]) }],
+  },
+  // Cream & sour cream — Selver has no dedicated ID: 234 "Piimad,
+  // koored" (the same id Dairy's own milk uses, filtered there down to
+  // "piim"-named items only) also holds every cream/sour-cream product
+  // under one of five real words (hapukoor, vahukoor, kohvikoor,
+  // toidukoor, köögikoor) — every one of them contains "koor", and
+  // nothing else in the category does (checked against all 150 items
+  // by hand: the plant-based oat "kreem"/"kaerajook" items use neither
+  // word, so requiring "koor" alone cleanly excludes them with no
+  // separate plant-based filter needed).
+  "Cream & sour cream": {
+    sources: [{ id: 234, nameFilter: excludeWords([], ["koor"]) }],
+  },
+  // Kefir & buttermilk — same id 234 as Cream, this time requiring one
+  // of kefir/hapupiim/hapendatud/pett/rjaženka (the same "cultured
+  // sour milk" family Dairy's own milk filter already excludes as
+  // not-milk — see the Dairy category's id:234 comment). Checked by
+  // hand against all 150 items: none of the plant-based drink/dessert
+  // items in this category use any of these words, so no separate
+  // exclude is needed on top of the require list.
+  "Kefir & buttermilk": {
+    sources: [{ id: 234, nameFilter: excludeWords([], ["keefir", "kefiir", "hapupiim", "hapendatud", /\bpett\b/, "rjaženka", "rjazenka"]) }],
+  },
 };
 
 async function fetchSelverPrice(categoryName) {

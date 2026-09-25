@@ -82,6 +82,45 @@ function addMeatExclusions(entry) {
 // matches instead of 2, since Barbora's "0K+" and Rimi's "al. sün."
 // are the same "from birth" stage worded completely differently, and
 // strict packaging's descriptor check can't tell that apart).
+// Shared across Cheese's three sources at every store — cheese snacks
+// (Barbora/Rimi/Selver all genuinely mix these into their main cheese
+// leaf: "Juustupulgad"/"Juustusnäkk"/cheese sticks, chips, and one
+// stuffed-pepper item, "Paprika ... juustuga" at Barbora and "Juustuga
+// täidetud magus paprika" at Selver — checked by hand, not guessed),
+// and plant-based cheese alternatives (Selver mixes in BON VEGAN tofu
+// and VIOLIFE vegan cheese slices under the same category IDs as real
+// cheese). "näk" (not "näkk") catches every real spelling found by
+// hand: "Juustusnäkk" (Rimi), "Juustu snäkk" (Barbora), and
+// "Juustusnäkid" (Selver) — Estonian consonant gradation drops one k
+// in some inflected forms ("näkk" -> "näkid"), the same reasoning
+// "spordi" is listed separately from "sport" in waterFilter above. A
+// real bug found by hand in the first scrape run: "näkk" (double k)
+// didn't catch Selver's "Juustusnäkid", letting a cheese-snack match
+// a cheese-snack across stores instead of being excluded from either.
+// "roh.pepper"/"magus pip" catch two more Barbora items missed by
+// "paprika" alone — the same GRIKIOS cream-cheese-stuffed-pepper
+// product line Selver lists in full ("Juustuga täidetud magus
+// paprika"), but abbreviated at Barbora as "Roh.pepper. GRIKIOS
+// toorjuust." and "Magus pip.GRIKIOS toorjuus.l.v." — neither contains
+// "paprika" literally. "Salatijuust GRIKIOS" (a real salad cheese from
+// the same brand) is untouched by either phrase.
+const cheeseFilter = excludeWords(["näk", "pulgad", "laastud", "ribad", "tofu", "violife", "paprika", "roh.pepper", "magus pip"]);
+
+// Shared across Curd & cottage cheese's sources at every store — all
+// three genuinely mix dessert-style curd products into the same leaf
+// as plain kohupiim/kodujuust: "kohupiimakreem" (curd cream, flavoured
+// dessert pudding), "kohupiimapasta" (curd paste dessert; Barbora also
+// abbreviates this as "Kohupiimap." with no full "pasta" substring —
+// caught separately), "kohupiimavorm" (molded curd dessert, Rimi
+// only), and Selver additionally mixes in Kinder chocolate biscuit
+// cakes and one stray "Kohoke" (kohuke, a chocolate-glazed curd bar —
+// already excluded by category choice everywhere else). A flavoured
+// but non-dessert-form variant (jam, herbs, pickle-dill, chocolate
+// chips) is NOT excluded here — that's a real flavoured product, not a
+// dessert, and strict packaging's descriptor check already keeps it
+// from matching the plain version.
+const curdFilter = excludeWords(["kreem", "pasta", "kohupiimap.", "vorm", "kinder", "kohoke"]);
+
 const CATEGORIES = [
   {
     name: "Baby formula",
@@ -399,6 +438,94 @@ const CATEGORIES = [
         "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/rapsioli/c/SH-13-19-111",
         "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/vaarisoliiviolid/c/SH-13-19-114",
       ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: cheese of any
+    // type (Eesti, Gouda, Edam, mozzarella, feta, blue/mould, goat/
+    // sheep milk, hard, soft, processed/melted, cream/spreadable) —
+    // excluded everywhere: cheese snacks/sticks/chips (see
+    // cheeseFilter above) and plant-based cheese alternatives (tofu,
+    // Violife).
+    name: "Cheese",
+    urls: {
+      // Aggregates all 10 of Barbora's own leaves (mould, snacks,
+      // goat-milk, hard, sliced, spreadable, mozzarella, soft/white,
+      // processed, chunk) in one page — checked by hand, 52 items, 6
+      // of which are cheese snacks/a stuffed pepper, filtered by name.
+      barbora: { url: "https://barbora.ee/piimatooted-ja-munad/juustud", nameFilter: cheeseFilter },
+      // Aggregates all 10 of Rimi's own leaves the same way — checked
+      // by hand (~200+ items across feta/mozzarella, grill cheese,
+      // mould, snacks, goat/sheep, mascarpone/ricotta, spreadable/
+      // cream/smoked, grated, chunk, sliced).
+      rimi: { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/c/SH-11-3", nameFilter: cheeseFilter },
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: curd (kohupiim)
+    // and cottage cheese (kodujuust) of any fat%/flavour — excluded
+    // everywhere: dessert-form curd products (curd cream, curd paste,
+    // molded curd dessert — see curdFilter above) and kohukesed
+    // (chocolate-glazed curd bars — excluded by category choice at
+    // Barbora/Selver, which both have kohukesed as a separate sibling
+    // leaf never fetched here; caught by name at Rimi/Selver where a
+    // stray one leaked into the same leaf as plain curd).
+    name: "Curd & cottage cheese",
+    urls: {
+      // Barbora's two leaves are used directly rather than the parent
+      // (which also aggregates kohukesed and a dedicated desserts
+      // leaf) — kodujuustud is clean as-is; kohupiimad itself still
+      // mixes in curd-cream/curd-paste desserts, filtered by name.
+      barbora: [
+        "https://barbora.ee/piimatooted-ja-munad/kohupiimatooted/kodujuustud",
+        { url: "https://barbora.ee/piimatooted-ja-munad/kohupiimatooted/kohupiimad", nameFilter: curdFilter },
+      ],
+      rimi: { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kohupiim-kodujuust/c/SH-11-4", nameFilter: curdFilter },
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: cream (vahukoor,
+    // toidukoor, kohvikoor, köögikoor) and sour cream (hapukoor,
+    // smetana, creme fraiche) of any fat% — excluded everywhere:
+    // plant-based cream alternatives (oat, coconut, soy — Barbora's
+    // own "taimsed-koored" sibling leaf, never fetched here).
+    name: "Cream & sour cream",
+    urls: {
+      // Barbora's two clean leaves, used directly — the parent one
+      // level up also aggregates "taimsed-koored" (plant-based
+      // creams), with no filter needed once the leaves are used
+      // instead (checked by hand: 23 items between the two, matching
+      // the parent's 28 minus the plant leaf's 5 exactly).
+      barbora: [
+        "https://barbora.ee/piimatooted-ja-munad/hapukoored-ja-koored/koored",
+        "https://barbora.ee/piimatooted-ja-munad/hapukoored-ja-koored/hapukoor",
+      ],
+      // Rimi's "Koored" aggregates hapukoor + vahukoor/kohvikoor with
+      // no plant-based items mixed in (checked by hand) — no filter.
+      rimi: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/c/SH-11-5",
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: kefir (plain and
+    // flavoured/drinkable), sour milk (hapupiim), buttermilk (pett),
+    // and ryazhenka/baked fermented milk (rjaženka) — all four are the
+    // same "cultured sour milk" family, bundled together at every
+    // store's own category tree (Barbora: "keefirid-ja-hapupiimad";
+    // this is also exactly what Dairy's own Selver milk filter already
+    // excludes from "milk" — see the Dairy category's id:234 comment —
+    // confirming these were always meant to live here, not there).
+    // Excluded: one real miscategorized item found by hand, a cold
+    // beet soup sold under Barbora's kefir leaf despite not being a
+    // dairy product at all.
+    name: "Kefir & buttermilk",
+    urls: {
+      // Aggregates all 3 of Barbora's own leaves (keefirid,
+      // keefirijoogid, hapupiimajoogid) — checked by hand, 30 items,
+      // one of which is a cold beet soup, filtered by name.
+      barbora: { url: "https://barbora.ee/piimatooted-ja-munad/keefirid-ja-hapupiimad", nameFilter: excludeWords(["supp"]) },
+      // Rimi's "Hapupiim ja keefir" is clean as-is (checked by hand:
+      // 23 items, all real kefir/sour milk, no soup/dessert/plant-based).
+      rimi: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/c/SH-11-1",
     },
   },
 ];

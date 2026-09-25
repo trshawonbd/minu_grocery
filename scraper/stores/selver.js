@@ -434,6 +434,98 @@ const CATEGORIES = {
   "Canned food": {
     sources: [{ id: 20, nameFilter: excludeWords(["pesto", "kaste", "bruschetta"]) }],
   },
+  // Sauces & condiments — 267 "Õlid, äädikad" is shared with Cooking
+  // oil, which excludes vinegar/balsamic; here it's the other way
+  // round, requiring one of those same words (vinegar is meant to
+  // live in this category instead — see the fuller comment on the
+  // Sauces & condiments entry in scraper/categories.js). 268
+  // "Majoneesid, sinepid" and 270 "Gurmee kastmed" are clean as-is
+  // (270 currently holds a single pesto item); 269 "Ketšupid,
+  // tomatipastad, kastmed" mixes in one sweet dessert dip. 264
+  // "Maailma köök" (world cuisine) is a big mixed department — only
+  // its real liquid-sauce items are pulled in by requiring "kaste" or
+  // "salsa" (its spice blends go to Spices instead, its tortilla
+  // chips/noodles/wraps/coconut drink are out of scope entirely).
+  "Sauces & condiments": {
+    sources: [
+      { id: 267, nameFilter: excludeWords([], ["äädik", "palsamikreem"]) },
+      { id: 268 },
+      { id: 269, nameFilter: excludeWords(["šokolaadi hummus"]) },
+      { id: 270 },
+      { id: 264, nameFilter: excludeWords([], ["kaste", "salsa"]) },
+    ],
+  },
+  // Spices — 263 "Maitseained" is a large flat catch-all (337 items,
+  // also shared with Flour & sugar, which requires "suhkur" from it)
+  // that also mixes in every baking additive (same words Baking
+  // supplies below requires), one Swedish-style cold fruit soup
+  // ("Mustikasupp"), and — found by hand in the first live scrape —
+  // syrup and sweetener ("siirup"/"asendaja"/"magusaine", the same
+  // words Flour & sugar's own comment already excludes for the same
+  // reason), almond flour ("jahu" — already fully inside Flour &
+  // sugar, same "same product, two categories" risk as vanilla
+  // sugar), and baking soda ("söögisooda", missed on the first pass
+  // even though "küpsetuspulber"/baking powder was already excluded —
+  // moved to Baking supplies' require list instead). 264 "Maailma
+  // köök" contributes its spice-blend items here (the sauce/salsa
+  // side of the same department goes to Sauces & condiments instead).
+  "Spices": {
+    sources: [
+      {
+        id: 263,
+        nameFilter: excludeWords([
+          "suhkur",
+          "siirup",
+          "asendaja",
+          "magusaine",
+          "jahu",
+          "küpsetuspulber",
+          "söögisooda",
+          "želatiin",
+          "paksendaja",
+          "glasuur",
+          "dekoratsioon",
+          "nonparell",
+          "toiduvärv",
+          "vaniljekaun",
+          "pärm",
+          "mustikasupp",
+        ]),
+      },
+      // "kaste" excluded here even though "maitseainesegu" matches —
+      // one real hybrid product, "Tandoori kaste ja maitseainesegu",
+      // literally names both a sauce and a spice mix; without this it
+      // scraped into Spices AND Sauces & condiments as the same URL,
+      // the same same-product-in-two-categories problem as vanilla
+      // sugar. Kept in Sauces & condiments only (see that category's
+      // own id 264 source, which requires "kaste"/"salsa").
+      { id: 264, nameFilter: excludeWords(["kaste"], ["maitseainesegu"]) },
+    ],
+  },
+  // Jam & honey & spreads — 19 "Magusad hoidised" already bundles jam,
+  // honey, canned/preserved fruit, fruit purée, and sweet spreads
+  // (Nutella-style, peanut/cashew butter, tahini, lemon curd, maple-
+  // adjacent dessert sauces) cleanly, checked against all 109 items by
+  // hand — no filter needed.
+  "Jam & honey & spreads": {
+    sources: [{ id: 19 }],
+  },
+  // Baking supplies — same 263 "Maitseained" catch-all as Spices,
+  // this time requiring one of the baking-additive words instead of
+  // excluding them. "Maitsepärm" (nutritional/savoury yeast — a
+  // seasoning, not a leavening agent) is excluded even though it
+  // contains "pärm", the same word real baking yeast is caught by.
+  "Baking supplies": {
+    sources: [
+      {
+        id: 263,
+        nameFilter: excludeWords(
+          ["maitsepärm"],
+          ["küpsetuspulber", "söögisooda", "želatiin", "paksendaja", "glasuur", "dekoratsioon", "nonparell", "toiduvärv", "vaniljekaun", "pärm"]
+        ),
+      },
+    ],
+  },
 };
 
 async function fetchSelverPrice(categoryName) {

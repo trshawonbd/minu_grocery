@@ -696,6 +696,149 @@ const CATEGORIES = [
       ],
     },
   },
+  {
+    // Strict packaging applies (the default). Scope: sauces of any
+    // kind (ketchup, pasta/tomato sauce, pesto, BBQ, salad dressing,
+    // dip, Asian condiment sauces), mayonnaise (incl. vegan), mustard,
+    // horseradish, and vinegar/balsamic — vinegar deliberately excluded
+    // from the existing Cooking oil category (see its own comment) is
+    // meant to live here. Excluded: dry soup/ready-meal seasoning
+    // packets (Selver's "Kuivsupid ja -kastmed" — checked by hand, all
+    // 23 items are instant soup or meal-starter mixes, not a sauce to
+    // pour), and one sweet dessert dip (Selver's "Šokolaadi hummus" —
+    // a chocolate spread, not a savoury condiment).
+    name: "Sauces & condiments",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/muud-kastmed",
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/pastakastmed",
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/tomatikastmed-ja-pastad",
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/pestod",
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/aadikad-ja-palsamikreemid",
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/ketsupid",
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/sinepid-ja-madaroikad",
+        "https://barbora.ee/kauasailivad-toidukaubad/kastmed/salatikastmed",
+        // Barbora files mayonnaise under "Piimatooted ja munad" (dairy
+        // & eggs), not "kauasäilivad toidukaubad" — egg-based, same odd
+        // placement Rimi uses (SH-11-6, below).
+        "https://barbora.ee/piimatooted-ja-munad/majoneesid-ja-kastmed/majoneesid",
+        "https://barbora.ee/piimatooted-ja-munad/majoneesid-ja-kastmed/dipi-ja-muud-kastmed",
+        "https://barbora.ee/piimatooted-ja-munad/majoneesid-ja-kastmed/majoneesikastmed",
+        "https://barbora.ee/piimatooted-ja-munad/majoneesid-ja-kastmed/taimsed-majoneesid",
+      ],
+      rimi: [
+        // Aggregates all 10 of Rimi's own sauce/ketchup/mustard leaves
+        // (Adžika, BBQ, cooking sauces, other sauces, horseradish,
+        // pesto, salad dressings, mustard, tomato sauce/paste, ketchup)
+        // — checked by hand, clean.
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kastmed-ketsupid-sinep-ja-madaroigas/c/SH-13-6",
+        // Mayo/dip, also filed under dairy & eggs at Rimi.
+        "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kastmed-majonees/c/SH-11-6",
+        // Vinegar/balsamic — 4 leaves under the same "oil and vinegar"
+        // department Cooking oil already uses (id/URL disjoint from
+        // Cooking oil's own oil leaves, so no overlap).
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/aadikas/c/SH-13-19-104",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/palsamiaadikad-ja-kastmed/c/SH-13-19-105",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/ounaaadikas/c/SH-13-19-109",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/veiniaadikas/c/SH-13-19-113",
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: spice blends,
+    // pure herbs/spices, salt, pepper, and marinades — excluded:
+    // sugar in any form (already fully covered by the existing Flour
+    // & sugar category, including flavoured sugars — see the Baking
+    // supplies entry below for the fuller story) and every baking
+    // additive (baking powder, yeast, gelatin, thickener, cake
+    // decorations/food colouring — Baking supplies' scope instead).
+    name: "Spices",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/maitseained/maitseainesegud",
+        "https://barbora.ee/kauasailivad-toidukaubad/maitseained/urdid-ja-puhtad-maitsed",
+        "https://barbora.ee/kauasailivad-toidukaubad/maitseained/soolad",
+        "https://barbora.ee/kauasailivad-toidukaubad/maitseained/piprad",
+        "https://barbora.ee/kauasailivad-toidukaubad/maitseained/marinaadid",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/maitseainesegud/c/SH-13-12-73",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/marinaadid/c/SH-13-12-74",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/piprad-must-pipar/c/SH-13-12-75",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/puhtad-maitseained-ja-urdid/c/SH-13-12-76",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/sool/c/SH-13-12-77",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/universaalsed-maitseained/c/SH-13-12-78",
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: jam/marmalade,
+    // honey, sweet fruit/nut spreads (Nutella-style, peanut/cashew
+    // butter, tahini, lemon curd, maple syrup), and canned/preserved
+    // fruit (peach halves, pineapple, fruit cocktail, 100% fruit
+    // purée) — the owner's call: neither jam nor the earlier Canned
+    // food category (vegetables only) cleanly covered canned fruit, so
+    // it's folded in here rather than left out. Excluded: one
+    // Scandinavian cold fruit soup (Selver's "Mustikasupp" — a drink,
+    // not a preserve, and miscategorized into the spice catch-all it's
+    // scraped alongside).
+    name: "Jam & honey & spreads",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/magusad-hoidised",
+        "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/magusad-maarded",
+        "https://barbora.ee/kauasailivad-toidukaubad/hoidised-ja-konservid/mesi",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/magusad-hoidised/mesi/c/SH-13-10-53",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/magusad-hoidised/moos-ja-marmelaad/c/SH-13-10-54",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/magusad-hoidised/puuviljad-ja-marjad/c/SH-13-10-60",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/magusad-hoidised/sokolaadi--ja-pahklikreemid-magusad-kastmed/c/SH-13-10-62",
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: home baking
+    // ingredients not already covered by an existing category —
+    // baking powder, yeast, gelatin/thickeners, cake decorations and
+    // food colouring, and confectionery ingredients (almond/coconut
+    // flakes, baking chocolate chips, citric acid, vanilla bean,
+    // cinnamon, saffron, poppy/sesame seeds). Excluded: anything named
+    // "*suhkur*" (vanilla sugar, cinnamon sugar, powdered sugar, ...) —
+    // a real find checked against the existing data: Barbora's own
+    // vanilla sugar is already inside Flour & sugar (it shares that
+    // category's "sugars and sugar substitutes" leaf there), so
+    // pulling flavoured sugar in here too would silently split the
+    // same real product across two categories, never compared against
+    // each other — confirmed live in the first scrape, where Barbora's
+    // own cake-decorations leaf turned up a cinnamon sugar with no
+    // filter yet. Also excluded: dessert-mix coffee creamer (Rimi's
+    // "Desserdid" leaf also holds Coffeeta/Mokate whitener powder,
+    // same product type already excluded from Coffee for the same
+    // reason) and Selver's "Maitsepärm" (nutritional/savoury yeast — a
+    // seasoning, not a baking leavening agent, despite containing the
+    // same "pärm" word as real baking yeast).
+    name: "Baking supplies",
+    urls: {
+      barbora: [
+        // "tärklis" (starch) excluded — the existing Flour & sugar
+        // category's own scope already explicitly includes starch,
+        // and Rimi's side of it already has real starch products;
+        // "kaljapulber" (kvass/kali drink powder) excluded — a
+        // beverage mix, not a baking ingredient, despite living in
+        // the same "kupsetuslisandid" leaf as real baking aids.
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/maitseained/kupsetuslisandid", nameFilter: excludeWords(["suhkur", "tärklis", "kaljapulber"]) },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/maitseained/koogikaunistused-ja-toiduvarvid", nameFilter: excludeWords(["suhkur"]) },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/c/SH-13-13-79", nameFilter: excludeWords(["coffeeta", "mokate"]) },
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/zelatiin-paksendajad/c/SH-13-13-80",
+        { url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/c/SH-13-13-81", nameFilter: excludeWords(["suhkur"]) },
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/c/SH-13-13-82",
+        "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/c/SH-13-13-83",
+      ],
+    },
+  },
 ];
 
 // Whether a category opts into strict packaged-product matching (the

@@ -8,6 +8,7 @@
 
 const assert = require("node:assert/strict");
 const { CATEGORIES } = require("./categories");
+const { CATEGORIES: SELVER_CATEGORIES } = require("./stores/selver");
 
 function test(name, run) {
   try {
@@ -40,6 +41,10 @@ const cerealsRimiFilter = category("Cereals & oats").urls.rimi.nameFilter;
 const cannedBarboraPickleFilter = category("Canned food").urls.barbora[1].nameFilter;
 const cannedRimiBeansFilter = category("Canned food").urls.rimi[1].nameFilter;
 const cannedRimiSaladFilter = category("Canned food").urls.rimi[4].nameFilter;
+const bakingBarboraDecorFilter = category("Baking supplies").urls.barbora[1].nameFilter;
+const bakingBarboraFilter = category("Baking supplies").urls.barbora[0].nameFilter;
+const selverSpicesWorldCuisineFilter = SELVER_CATEGORIES["Spices"].sources[1].nameFilter;
+const selverSpicesCatchAllFilter = SELVER_CATEGORIES["Spices"].sources[0].nameFilter;
 
 const results = [
   test("Cheese: a real bug — 'näkk' (double k) missed Selver's inflected 'Juustusnäkid', letting a cheese snack scrape through and match another store's cheese snack", () => {
@@ -112,6 +117,36 @@ const results = [
     assert.equal(cannedRimiSaladFilter("Baklažaani kaaviar Janarat 470g"), false, "eggplant caviar is a spread, not a whole/chunked vegetable");
     assert.equal(cannedRimiSaladFilter("Köögiviljahautis Ratatouille Nizhyn 450g"), false, "a cooked vegetable stew is a ready meal, not a plain canned vegetable");
     assert.equal(cannedRimiSaladFilter("Sügisesalat Põltsamaa 530g"), true, "a real preserved vegetable salad stays in scope");
+  }),
+
+  test("Baking supplies: a real bug — cinnamon sugar leaked into Barbora's cake-decorations leaf with no filter, duplicating the existing Flour & sugar category", () => {
+    assert.equal(bakingBarboraDecorFilter("Kaneelisuhkur DR.OETKER 20g"), false);
+    assert.equal(bakingBarboraDecorFilter("Toiduvärv sinine  DR. OETKER 10g"), true, "real cake decorations/food colouring stay in scope");
+  }),
+
+  test("Baking supplies: a real bug — corn/potato starch and kvass drink powder both leaked into Barbora's baking-additives leaf, one duplicating Flour & sugar's own starch scope", () => {
+    assert.equal(bakingBarboraFilter("Maisitärklis DR.OETKER 200g"), false, "starch is already Flour & sugar's scope (it already has real starch products)");
+    assert.equal(bakingBarboraFilter("Kartulitärklis KLINGAI 400g"), false);
+    assert.equal(bakingBarboraFilter("Kaljapulber KLINGAI 126g"), false, "a kvass/kali drink powder, not a baking ingredient");
+    assert.equal(bakingBarboraFilter("Küpsetuspulber SANTA MARIA 45g"), true, "real baking powder stays in scope");
+  }),
+
+  test("Spices: a real bug — a hybrid 'sauce and spice mix' product (Selver's Tandoori kaste ja maitseainesegu) scraped into both Spices and Sauces & condiments as the same URL", () => {
+    assert.equal(selverSpicesWorldCuisineFilter("Tandoori kaste ja maitseainesegu, SANTA MARIA, 360 g"), false, "kept in Sauces & condiments only, not duplicated here");
+    assert.equal(selverSpicesWorldCuisineFilter("Tandoori maitseainesegu, SANTA MARIA, 35 g"), true, "a pure spice mix with no sauce in the name stays in scope");
+  }),
+
+  test("Spices: a real bug — syrup, sweetener, almond flour, and baking soda all leaked into Selver's flat spice catch-all, each duplicating an existing category's scope", () => {
+    assert.equal(selverSpicesCatchAllFilter("Glükoosisiirup, DAN SUKKER, 400 ml"), false, "syrup is not a spice, and Flour & sugar already excludes it too");
+    assert.equal(
+      selverSpicesCatchAllFilter("Steviaga suhkruasendaja – stevioolglükosiidil ja erütritoolil põhinev lauamagusaine, UMAMI, 300 g"),
+      false,
+      "a sweetener, same exclusion Flour & sugar already applies"
+    );
+    assert.equal(selverSpicesCatchAllFilter("Mandlijahu, MEIRA, 80 g"), false, "almond flour is already fully inside Flour & sugar");
+    assert.equal(selverSpicesCatchAllFilter("Söögisooda, DNIPRYANOCHKA, 400 g"), false, "baking soda belongs to Baking supplies, not Spices");
+    assert.equal(selverSpicesCatchAllFilter("Jahvatatud ingver, SANTA MARIA, 20 g"), true, "'jahvatatud' (ground) must not be caught by the 'jahu' (flour) exclude");
+    assert.equal(selverSpicesCatchAllFilter("Karri, SANTA MARIA, 25 g"), true, "a real spice stays in scope");
   }),
 ];
 

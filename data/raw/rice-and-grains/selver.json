@@ -10,7 +10,26 @@
     "url": "https://www.selver.ee/jasmiiniriis-veski-mati-500-g",
     "ean": "4740281006846",
     "storeUnitPrice": 5,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006846",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiiniriis",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "jasmiiniriis, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiiniriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -23,7 +42,26 @@
     "url": "https://www.selver.ee/risotoriis-arborio-riso-scotti-500-g",
     "ean": "8001860201516",
     "storeUnitPrice": 7.3,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8001860201516",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "500g",
+      "variety": "arborio riso scotti",
+      "nameLower": "risotoriis arborio, riso scotti, 500 g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arborio risotoriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -36,7 +74,26 @@
     "url": "https://www.selver.ee/pikateraline-riis-8-x-125-g-bosto-1-kg",
     "ean": "5410106033904",
     "storeUnitPrice": 3.29,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106033904",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "8x125g",
+      "variety": "bosto",
+      "nameLower": "pikateraline riis 8 x 125 g, bosto, 1 kg",
+      "brand": "bosto",
+      "size": "8x125g",
+      "variant": "1",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -49,7 +106,26 @@
     "url": "https://www.selver.ee/pikateraline-riis-4-x-125-g-bosto-500-g",
     "ean": "5410106033638",
     "storeUnitPrice": 4.5,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106033638",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pikateraline riis 4 x 125 g, bosto, 500 g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g pikateraline riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -62,7 +138,26 @@
     "url": "https://www.selver.ee/basmati-riis-4-x-125-g-bosto-500-g",
     "ean": "5410106033812",
     "storeUnitPrice": 5.78,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106033812",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "basmati riis 4 x 125 g, bosto, 500 g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati g riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -75,7 +170,26 @@
     "url": "https://www.selver.ee/pruun-riis-4-x-125-g-bosto-500-g",
     "ean": "5410106033645",
     "storeUnitPrice": 4.5,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106033645",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pruun riis 4 x 125 g, bosto, 500 g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g pruun riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -88,7 +202,26 @@
     "url": "https://www.selver.ee/tai-jasmiiniriis-4-x-125-g-bosto-500-g",
     "ean": "5410106033829",
     "storeUnitPrice": 4.78,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106033829",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tai",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "tai jasmiiniriis 4 x 125 g, bosto, 500 g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g jasmiiniriis tai",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -101,7 +234,26 @@
     "url": "https://www.selver.ee/somer-riis-veski-mati-1-kg",
     "ean": "4740281006709",
     "storeUnitPrice": 3,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006709",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sõmer",
+      "unit": "1000g",
+      "variety": "veski mati",
+      "nameLower": "sõmer riis, veski mati, 1 kg",
+      "brand": "veski mati",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis sõmer",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -114,7 +266,26 @@
     "url": "https://www.selver.ee/pikateraline-riis-baltix-1-kg",
     "ean": "4742298000343",
     "storeUnitPrice": 2.12,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000343",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "pikateraline riis, baltix, 1 kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -127,7 +298,26 @@
     "url": "https://www.selver.ee/pikateraline-riis-veski-mati-500-g",
     "ean": "4740281006792",
     "storeUnitPrice": 2.7,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006792",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "pikateraline riis, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -140,7 +330,26 @@
     "url": "https://www.selver.ee/metsiku-riisi-segu-bosto-500-g",
     "ean": "5410106011186",
     "storeUnitPrice": 7.1,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106011186",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsiku",
+      "unit": "500g",
+      "variety": "bosto",
+      "nameLower": "metsiku riisi segu, bosto, 500 g",
+      "brand": "bosto",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsiku riisi segu",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -153,7 +362,26 @@
     "url": "https://www.selver.ee/pruun-basmati-riis-4x125g-bosto-500-g",
     "ean": "5410106018666",
     "storeUnitPrice": 7.62,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106018666",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x125g",
+      "variety": "basmati bosto",
+      "nameLower": "pruun basmati riis 4x125g, bosto, 500 g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati g pruun riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -166,7 +394,26 @@
     "url": "https://www.selver.ee/jasmiiniriis-oriente-1-kg",
     "ean": "5601228223117",
     "storeUnitPrice": 3.99,
-    "brand": "ORIENTE"
+    "brand": "ORIENTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5601228223117",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiiniriis",
+      "unit": "1000g",
+      "variety": "oriente",
+      "nameLower": "jasmiiniriis, oriente, 1 kg",
+      "brand": "oriente",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiiniriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -179,7 +426,26 @@
     "url": "https://www.selver.ee/poke-bowl-riis-bosto-500-g",
     "ean": "5410106017782",
     "storeUnitPrice": 7.3,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106017782",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "poke",
+      "unit": "500g",
+      "variety": "bosto",
+      "nameLower": "poke bowl riis, bosto, 500 g",
+      "brand": "bosto",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bowl poke riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -192,7 +458,26 @@
     "url": "https://www.selver.ee/risotoriis-oriente-1-kg",
     "ean": "5601228221113",
     "storeUnitPrice": 4.99,
-    "brand": "ORIENTE"
+    "brand": "ORIENTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5601228221113",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "1000g",
+      "variety": "oriente",
+      "nameLower": "risotoriis, oriente, 1 kg",
+      "brand": "oriente",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "risotoriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -205,7 +490,26 @@
     "url": "https://www.selver.ee/basmati-riis-4-x-75-g-bosto-300-g",
     "ean": "5410106011247",
     "storeUnitPrice": 9.97,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106011247",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "basmati riis 4 x 75 g, bosto, 300 g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati g riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -218,7 +522,26 @@
     "url": "https://www.selver.ee/pudruriis-umarateraline-riis-baltix-1-kg",
     "ean": "4742298000060",
     "storeUnitPrice": 2.73,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000060",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pudruriis",
+      "unit": "1000g",
+      "variety": "ümarateraline baltix",
+      "nameLower": "pudruriis (ümarateraline riis), baltix, 1 kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pudruriis riis ümarateraline",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -231,7 +554,26 @@
     "url": "https://www.selver.ee/riis-aurutatud-somer-4x125g-tartu-mill-500-g",
     "ean": "4740493666678",
     "storeUnitPrice": 3.54,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493666678",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x125g",
+      "variety": "tartu mill",
+      "nameLower": "riis  (sõmer) 4x125g, tartu mill, 500 g",
+      "brand": "tartu mill",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g riis sõmer",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -244,7 +586,26 @@
     "url": "https://www.selver.ee/pikateraline-riis-baltix-1kg",
     "ean": "4742298001180",
     "storeUnitPrice": 0.49,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298001180",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "pikateraline riis, baltix, 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -257,7 +618,26 @@
     "url": "https://www.selver.ee/basmati-riis-first-price-1-kg",
     "ean": "7311041085387",
     "storeUnitPrice": 3.99,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7311041085387",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "1000g",
+      "variety": "first price",
+      "nameLower": "basmati riis, first price, 1 kg",
+      "brand": "first price",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -270,7 +650,26 @@
     "url": "https://www.selver.ee/pikateraline-valge-riis4-x-125-g-first-price-500-g",
     "ean": "7311041074756",
     "storeUnitPrice": 3.18,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7311041074756",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "first price valge",
+      "nameLower": "pikateraline valge riis4 x 125 g, first price, 500 g",
+      "brand": "first price",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "g pikateraline riis valge",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -283,7 +682,26 @@
     "url": "https://www.selver.ee/aurutatud-riis-kotis-4x125-g-first-price-500-g",
     "ean": "7311041074763",
     "storeUnitPrice": 3.58,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7311041074763",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x125g",
+      "variety": "first price",
+      "nameLower": " riis kotis 4x125 g, first price, 500 g",
+      "brand": "first price",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g kotis riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -296,7 +714,26 @@
     "url": "https://www.selver.ee/punane-jasmiiniriis-ricefield-1-kg",
     "ean": "4316734061283",
     "storeUnitPrice": 5.58,
-    "brand": "RICEFIELD"
+    "brand": "RICEFIELD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4316734061283",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punane",
+      "unit": "1000g",
+      "variety": "ricefield punane",
+      "nameLower": "punane jasmiiniriis, ricefield, 1 kg",
+      "brand": "ricefield",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "punane",
+      "fatPercent": null,
+      "descriptors": "jasmiiniriis punane",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -309,7 +746,26 @@
     "url": "https://www.selver.ee/jasmiiniriis-first-price-1kg",
     "ean": "7311041080801",
     "storeUnitPrice": 2.99,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7311041080801",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiiniriis",
+      "unit": "1000g",
+      "variety": "first price",
+      "nameLower": "jasmiiniriis, first price, 1kg",
+      "brand": "first price",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiiniriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -322,7 +778,26 @@
     "url": "https://www.selver.ee/taistera-pruun-riis-veski-mati-400-g",
     "ean": "4740281005580",
     "storeUnitPrice": 3.38,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281005580",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "400g",
+      "variety": "veski mati",
+      "nameLower": "täistera pruun riis, veski mati, 400 g",
+      "brand": "veski mati",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pruun riis täistera",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -335,7 +810,26 @@
     "url": "https://www.selver.ee/pudruriis-veski-mati-1-kg",
     "ean": "4740281006594",
     "storeUnitPrice": 3.13,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006594",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pudruriis",
+      "unit": "1000g",
+      "variety": "veski mati",
+      "nameLower": "pudruriis, veski mati, 1 kg",
+      "brand": "veski mati",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pudruriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -348,7 +842,26 @@
     "url": "https://www.selver.ee/risotoriis-veski-mati-500-g",
     "ean": "4740281006839",
     "storeUnitPrice": 4.78,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006839",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "risotoriis, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "risotoriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -361,7 +874,26 @@
     "url": "https://www.selver.ee/basmati-riis-veski-mati-500-g",
     "ean": "4740281006853",
     "storeUnitPrice": 5.38,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006853",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "basmati riis, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -374,7 +906,26 @@
     "url": "https://www.selver.ee/pikateraline-riis-baltix-400-g",
     "ean": "4742298000114",
     "storeUnitPrice": 3.35,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000114",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "400g",
+      "variety": "baltix",
+      "nameLower": "pikateraline riis, baltix, 400 g",
+      "brand": "baltix",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -387,7 +938,26 @@
     "url": "https://www.selver.ee/aurutatud-riis-baltix-1-kg",
     "ean": "4742298000350",
     "storeUnitPrice": 2.49,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000350",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": " riis, baltix, 1 kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -400,7 +970,26 @@
     "url": "https://www.selver.ee/eelkeedetud-somer-riis-tartu-mill-1-kg",
     "ean": "4750020030278",
     "storeUnitPrice": 2.92,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020030278",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "eelkeedetud",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "eelkeedetud sõmer riis, tartu mill, 1 kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "eelkeedetud riis sõmer",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -413,7 +1002,26 @@
     "url": "https://www.selver.ee/pikateraline-riis-tartu-mill-1-kg",
     "ean": "4750020030292",
     "storeUnitPrice": 2.53,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020030292",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "pikateraline riis, tartu mill, 1 kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -426,7 +1034,26 @@
     "url": "https://www.selver.ee/jasmiiniriis-4x125g-gestus-500g",
     "ean": "5701410371326",
     "storeUnitPrice": 5.38,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5701410371326",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiiniriis",
+      "unit": "4x125g",
+      "variety": "gestus",
+      "nameLower": "jasmiiniriis 4x125g, gestus, 500g",
+      "brand": "gestus",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g jasmiiniriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -439,7 +1066,26 @@
     "url": "https://www.selver.ee/basmati-riis-4x125g-gestus-500g",
     "ean": "5701410371319",
     "storeUnitPrice": 5.78,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5701410371319",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "4x125g",
+      "variety": "gestus",
+      "nameLower": "basmati riis 4x125g, gestus, 500g",
+      "brand": "gestus",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati g riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -452,7 +1098,26 @@
     "url": "https://www.selver.ee/risotoriis-gestus-500g",
     "ean": "5701410412647",
     "storeUnitPrice": 4.78,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5701410412647",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "500g",
+      "variety": "gestus",
+      "nameLower": "risotoriis, gestus, 500g",
+      "brand": "gestus",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "risotoriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -465,7 +1130,26 @@
     "url": "https://www.selver.ee/taistera-riis-4x125g-gestus-500g",
     "ean": "5701410361396",
     "storeUnitPrice": 4.78,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5701410361396",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "4x125g",
+      "variety": "gestus",
+      "nameLower": "täistera riis 4x125g, gestus, 500g",
+      "brand": "gestus",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g riis täistera",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -478,7 +1162,26 @@
     "url": "https://www.selver.ee/basmati-riis-gestus-1kg",
     "ean": "5701410368586",
     "storeUnitPrice": 4.69,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5701410368586",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "1000g",
+      "variety": "gestus",
+      "nameLower": "basmati riis, gestus, 1kg",
+      "brand": "gestus",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -491,7 +1194,26 @@
     "url": "https://www.selver.ee/jasmiiniriis-gestus-1kg",
     "ean": "5701410368616",
     "storeUnitPrice": 4.89,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5701410368616",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiiniriis",
+      "unit": "1000g",
+      "variety": "gestus",
+      "nameLower": "jasmiiniriis, gestus, 1kg",
+      "brand": "gestus",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiiniriis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -504,7 +1226,26 @@
     "url": "https://www.selver.ee/aurutatud-metsik-riis-gestus-1kg",
     "ean": "5701410368623",
     "storeUnitPrice": 6.99,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5701410368623",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsik",
+      "unit": "1000g",
+      "variety": "gestus",
+      "nameLower": " metsik riis, gestus, 1kg",
+      "brand": "gestus",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsik riis",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -517,7 +1258,26 @@
     "url": "https://www.selver.ee/eriti-pikk-sella-basmati-aururiis-xxl-banno-500-g",
     "ean": "8908000668522",
     "storeUnitPrice": 4.46,
-    "brand": "BANNO"
+    "brand": "BANNO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8908000668522",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "eriti",
+      "unit": "500g",
+      "variety": "sella basmati xxl banno",
+      "nameLower": "eriti pikk sella basmati aururiis xxl, banno, 500 g",
+      "brand": "banno",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aururiis basmati eriti pikk sella xxl",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -530,7 +1290,26 @@
     "url": "https://www.selver.ee/pruun-tai-jasmiiniriis-royal-tiger-1kg",
     "ean": "8720301100521",
     "storeUnitPrice": 6.25,
-    "brand": "ROYAL TIGER"
+    "brand": "ROYAL TIGER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8720301100521",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "1000g",
+      "variety": "tai royal tiger",
+      "nameLower": "pruun tai jasmiiniriis, royal tiger, 1kg",
+      "brand": "royal tiger",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiiniriis pruun tai",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -543,7 +1322,26 @@
     "url": "https://www.selver.ee/hirss-4x100g-baltix-4-100g",
     "ean": "4742298003443",
     "storeUnitPrice": 3.78,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298003443",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hirss",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "hirss 4x100g, baltix, 4*100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": "4",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g hirss",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -556,7 +1354,26 @@
     "url": "https://www.selver.ee/maisipolenta-taistera-baule-volante-500-g",
     "ean": "8018848004380",
     "storeUnitPrice": 7.3,
-    "brand": "BAULE VOLANTE"
+    "brand": "BAULE VOLANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8018848004380",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisipolenta",
+      "unit": "500g",
+      "variety": "baule volante",
+      "nameLower": "maisipolenta, täistera, baule volante, 500 g",
+      "brand": "baule volante",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maisipolenta täistera",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -569,7 +1386,26 @@
     "url": "https://www.selver.ee/bulgur-4-x-75g-bosto-300-g",
     "ean": "5410106070169",
     "storeUnitPrice": 9.1,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106070169",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "bulgur",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "bulgur 4 x 75g, bosto, 300 g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bulgur g",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -582,7 +1418,26 @@
     "url": "https://www.selver.ee/quinoa-valge-4x75g-bosto-300-g",
     "ean": "5410106070022",
     "storeUnitPrice": 11.7,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106070022",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "quinoa",
+      "unit": "4x75g",
+      "variety": "bosto valge",
+      "nameLower": "quinoa, valge 4x75g, bosto, 300 g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "g quinoa valge",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -595,7 +1450,26 @@
     "url": "https://www.selver.ee/riisimanna-veski-mati-500-g",
     "ean": "4740281005566",
     "storeUnitPrice": 3.44,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281005566",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisimanna",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "riisimanna, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisimanna",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -608,7 +1482,26 @@
     "url": "https://www.selver.ee/tatar-baltix-1-kg",
     "ean": "4742298000374",
     "storeUnitPrice": 2.35,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000374",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "tatar, baltix, 1 kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -621,7 +1514,26 @@
     "url": "https://www.selver.ee/odrakruup-mahe-jahu-jaan-750-g",
     "ean": "4745010371226",
     "storeUnitPrice": 2.69,
-    "brand": "JAHU-JAAN"
+    "brand": "JAHU-JAAN",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745010371226",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "750g",
+      "variety": "jahu jaan",
+      "nameLower": "odrakruup, , jahu-jaan, 750 g",
+      "brand": "jahu-jaan",
+      "size": "750g",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -634,7 +1546,26 @@
     "url": "https://www.selver.ee/maisitang-veski-mati-500-g",
     "ean": "4740281006648",
     "storeUnitPrice": 2.02,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006648",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisitang",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "maisitang, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maisitang",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -647,7 +1578,26 @@
     "url": "https://www.selver.ee/mahe-nisuklii-jahu-jaan-500-g",
     "ean": "4745010371134",
     "storeUnitPrice": 2.82,
-    "brand": "JAHU-JAAN"
+    "brand": "JAHU-JAAN",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745010371134",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nisuklii",
+      "unit": "500g",
+      "variety": "jahu jaan",
+      "nameLower": " nisuklii, jahu-jaan, 500 g",
+      "brand": "jahu-jaan",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nisuklii",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -660,7 +1610,26 @@
     "url": "https://www.selver.ee/kinoa-punane-just-nature-500-g",
     "ean": "4750323000183",
     "storeUnitPrice": 7.1,
-    "brand": "JUST NATURE"
+    "brand": "JUST NATURE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750323000183",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kinoa",
+      "unit": "500g",
+      "variety": "just nature punane",
+      "nameLower": "kinoa punane, just nature, 500 g",
+      "brand": "just nature",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "punane",
+      "fatPercent": null,
+      "descriptors": "kinoa punane",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -673,7 +1642,26 @@
     "url": "https://www.selver.ee/kinoa-must-just-nature-500-g",
     "ean": "4750323000190",
     "storeUnitPrice": 7.7,
-    "brand": "JUST NATURE"
+    "brand": "JUST NATURE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750323000190",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kinoa",
+      "unit": "500g",
+      "variety": "just nature must",
+      "nameLower": "kinoa must, just nature, 500 g",
+      "brand": "just nature",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "must",
+      "fatPercent": null,
+      "descriptors": "kinoa must",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -686,7 +1674,26 @@
     "url": "https://www.selver.ee/kinoa-valge-just-nature-500-g",
     "ean": "4750323000206",
     "storeUnitPrice": 6.06,
-    "brand": "JUST NATURE"
+    "brand": "JUST NATURE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750323000206",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kinoa",
+      "unit": "500g",
+      "variety": "just nature valge",
+      "nameLower": "kinoa valge, just nature, 500 g",
+      "brand": "just nature",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "kinoa valge",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -699,7 +1706,26 @@
     "url": "https://www.selver.ee/toortatar-baltix-4x100-g",
     "ean": "4742298001128",
     "storeUnitPrice": 5.58,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298001128",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "toortatar",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "toortatar, baltix, 4x100 g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "toortatar",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -712,7 +1738,26 @@
     "url": "https://www.selver.ee/odrakruup-tartu-mill-1-kg",
     "ean": "4750020030933",
     "storeUnitPrice": 1.43,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020030933",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "odrakruup, tartu mill, 1 kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -725,7 +1770,26 @@
     "url": "https://www.selver.ee/kaerakliid-tartu-mill-500-g",
     "ean": "4740493031056",
     "storeUnitPrice": 2.82,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493031056",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaerakliid",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": "kaerakliid, tartu mill, 500 g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerakliid",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -738,7 +1802,26 @@
     "url": "https://www.selver.ee/odrakruup-4x100g-baltix-400-g",
     "ean": "4742298003450",
     "storeUnitPrice": 2.53,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298003450",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "odrakruup 4x100g, baltix, 400 g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g odrakruup",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -751,7 +1834,26 @@
     "url": "https://www.selver.ee/hirss-veski-mati-500-g",
     "ean": "4740281006662",
     "storeUnitPrice": 2.5,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006662",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hirss",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "hirss, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hirss",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -764,7 +1866,26 @@
     "url": "https://www.selver.ee/kinoa-segu-smart-organic-300-g",
     "ean": "3800225477963",
     "storeUnitPrice": 11.7,
-    "brand": "SMART ORGANIC"
+    "brand": "SMART ORGANIC",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "3800225477963",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kinoa",
+      "unit": "300g",
+      "variety": "smart organic",
+      "nameLower": "kinoa, segu, smart organic, 300 g",
+      "brand": "smart organic",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kinoa segu",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -777,7 +1898,26 @@
     "url": "https://www.selver.ee/odra-parlkruup-4x100g-tartu-mill-400-g",
     "ean": "4743303166665",
     "storeUnitPrice": 3.98,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4743303166665",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odra",
+      "unit": "4x100g",
+      "variety": "tartu mill",
+      "nameLower": "odra pärlkruup 4x100g, tartu mill, 400 g",
+      "brand": "tartu mill",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g odra pärlkruup",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -790,7 +1930,26 @@
     "url": "https://www.selver.ee/quinoa-kolmevarviline-4x75g-bosto-300-g",
     "ean": "5410106070121",
     "storeUnitPrice": 12.63,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410106070121",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "quinoa",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "quinoa, kolmevärviline 4x75g, bosto, 300 g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g kolmevärviline quinoa",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -803,7 +1962,26 @@
     "url": "https://www.selver.ee/mahe-toortatra-peentang-wiru-mill-500-g",
     "ean": "4742898010308",
     "storeUnitPrice": 6.08,
-    "brand": "WIRU MILL"
+    "brand": "WIRU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742898010308",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "toortatra",
+      "unit": "500g",
+      "variety": "wiru mill",
+      "nameLower": " toortatra peentang, wiru mill, 500 g",
+      "brand": "wiru mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "peentang toortatra",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -816,7 +1994,26 @@
     "url": "https://www.selver.ee/gluteenivabad-kaerakliid-bauckhof-300-g",
     "ean": "4015637007274",
     "storeUnitPrice": 15.77,
-    "brand": "BAUCKHOF"
+    "brand": "BAUCKHOF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4015637007274",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "gluteenivabad",
+      "unit": "300g",
+      "variety": "bauckhof",
+      "nameLower": "gluteenivabad kaerakliid, bauckhof, 300 g",
+      "brand": "bauckhof",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gluteenivabad kaerakliid",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -829,7 +2026,26 @@
     "url": "https://www.selver.ee/tatar-veski-mati-1-kg",
     "ean": "4740281006679",
     "storeUnitPrice": 2.25,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006679",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "1000g",
+      "variety": "veski mati",
+      "nameLower": "tatar, veski mati, 1 kg",
+      "brand": "veski mati",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -842,7 +2058,26 @@
     "url": "https://www.selver.ee/tatar-veski-mati-500-g",
     "ean": "4740281006778",
     "storeUnitPrice": 3.3,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006778",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "tatar, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -855,7 +2090,26 @@
     "url": "https://www.selver.ee/manna-veski-mati-500-g",
     "ean": "4740281006822",
     "storeUnitPrice": 2.04,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006822",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "manna",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "manna, veski mati, 500 g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "manna",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -868,7 +2122,26 @@
     "url": "https://www.selver.ee/manna-tartu-mill-1-kg",
     "ean": "4740493000168",
     "storeUnitPrice": 1.51,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493000168",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "manna",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "manna, tartu mill, 1 kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "manna",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -881,7 +2154,26 @@
     "url": "https://www.selver.ee/tatar-selver-1kg",
     "ean": "4740581300071",
     "storeUnitPrice": 0.93,
-    "brand": "SELVER"
+    "brand": "SELVER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740581300071",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "1000g",
+      "variety": "selver",
+      "nameLower": "tatar, selver, 1kg",
+      "brand": "selver",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -894,7 +2186,26 @@
     "url": "https://www.selver.ee/tatar-4-x-100-g-baltix-400-g",
     "ean": "4742298000145",
     "storeUnitPrice": 4.8,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000145",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "tatar 4 x 100 g, baltix, 400 g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g tatar",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -907,7 +2218,26 @@
     "url": "https://www.selver.ee/odrakruup-baltix-1-kg",
     "ean": "4742298000404",
     "storeUnitPrice": 1.41,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000404",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "odrakruup, baltix, 1 kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -920,7 +2250,26 @@
     "url": "https://www.selver.ee/hirss-baltix-1-kg",
     "ean": "4742298000466",
     "storeUnitPrice": 2.5,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000466",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hirss",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "hirss, baltix, 1 kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hirss",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   },
   {
     "store": "Selver",
@@ -933,6 +2282,25 @@
     "url": "https://www.selver.ee/odratang-tartu-mill-1-kg",
     "ean": "4750020030384",
     "storeUnitPrice": 1.37,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020030384",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odratang",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "odratang, tartu mill, 1 kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odratang",
+      "strictPackaging": true,
+      "matchAcrossWeights": false
+    }
   }
 ]

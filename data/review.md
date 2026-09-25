@@ -6,19 +6,19 @@ Matching pools every store's items for a category together (scraper/match-produc
 
 ## Summary
 
-| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Total |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 5211 |
-| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 478 |
-| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 110 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 122 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 140 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 106 |
-| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 4060 |
-| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
-| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 25 |
+| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Total |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 7542 |
+| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 598 |
+| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 141 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 145 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 180 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 132 |
+| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 6115 |
+| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 6 |
+| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 26 |
 
-**Note:** recomputed 476 matches from data/raw/, but data/prices.json has 478 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 596 matches from data/raw/, but data/prices.json has 598 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
@@ -119,6 +119,68 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Leibur Vilja kuldne röst 525g | Bread | 1.55 € | 1.55 € | 1.55 € | Barbora + Rimi + Selver |
 | Lõuna pagarid Rukkileib idandatud teradega 300g | Bread | — | 1.59 € | 1.49 € | Selver |
 | Lõuna pagarid Rukkileib seemnetega 300g | Bread | — | 1.69 € | 1.59 € | Selver |
+| Felix Kurgi sinepisalat 280g | Canned food | 2.29 € | — | 2.29 € | Barbora + Selver |
+| Felix Kurgisalat 280g | Canned food | 2.29 € | 1.99 € | 2.29 € | Rimi |
+| Felix Piknikukurk terve 680g | Canned food | 2.95 € | — | 2.89 € | Selver |
+| Felix Särtsukurk 460g | Canned food | 2.95 € | — | 2.59 € | Selver |
+| Gourmante Kapparid äädikas 100g | Canned food | 1.79 € | — | 1.82 € | Barbora |
+| Heinz Punased kidney oad 400g | Canned food | 1.89 € | — | 1.89 € | Barbora + Selver |
+| Heinz Viie oa segu tomatikastmes 415g | Canned food | 2.65 € | 2.65 € | — | Barbora + Rimi |
+| Minu Tomatid 680g | Canned food | 2.79 € | — | 2.79 € | Barbora + Selver |
+| Mõisaproua Marin kurgid 1000g | Canned food | 3.65 € | — | 3.29 € | Selver |
+| Mõisaproua Marin kurk mesine 500g | Canned food | 2.45 € | — | 2.43 € | Selver |
+| Mõisaproua Tomatid mahlas omas 1000g | Canned food | 3.49 € | — | 3.04 € | Selver |
+| Põltsamaa Jahimehesalat 550g | Canned food | — | 3.89 € | 3.65 € | Selver |
+| Põltsamaa Sügisesalat 530g | Canned food | — | 3.69 € | 2.99 € | Selver |
+| Salvest Aedoad tomatikastmes 530g | Canned food | 2.89 € | — | 2.89 € | Barbora + Selver |
+| Salvest Delikatesskurk 330g | Canned food | 2.49 € | 2.59 € | 2.49 € | Barbora + Selver |
+| Salvest Hapukurk 675g | Canned food | 3.49 € | 3.49 € | 3.49 € | Barbora + Rimi + Selver |
+| Salvest Köögiviljasalat magus vürtsikas 380g | Canned food | — | 3.79 € | 3.65 € | Selver |
+| Salvest Kurk 675g | Canned food | 2.69 € | — | 2.69 € (2.29 € Partner) | Barbora + Selver |
+| Salvest Kurk maitselt 1600g | Canned food | — | 4.99 € | 4.99 € | Rimi + Selver |
+| Salvest Küüslaugukurk 675g | Canned food | 2.79 € | — | 2.79 € | Barbora + Selver |
+| Salvest Magus kurk 675g | Canned food | 2.79 € | 2.79 € | 2.79 € | Barbora + Rimi + Selver |
+| Salvest Maitselt kurk 675g | Canned food | 2.79 € | — | 2.79 € (1.99 € Partner) | Barbora + Selver |
+| Salvest Pohlasalat 310g | Canned food | — | 3.95 € | 3.45 € | Selver |
+| Salvest Roheline hernes 690g | Canned food | 2.29 € | — | 2.29 € | Barbora + Selver |
+| Salvest Salat toome 520g | Canned food | — | 2.59 € | 2.59 € | Rimi + Selver |
+| Salvest Talukurk 675g | Canned food | 2.95 € | — | 2.49 € | Selver |
+| Axa Kiirkaerahelbepuder koore maasika 40g | Cereals & oats | 0.55 € | 0.55 € | — | Barbora + Rimi |
+| Axa Müsli marjadega premium 330g | Cereals & oats | 2.73 € | — | 2.73 € | Barbora + Selver |
+| Baltix Hirsihelbed 500g | Cereals & oats | 1.59 € | 1.59 € | 1.59 € | Barbora + Rimi + Selver |
+| Baltix Kiirkaerahelbed 1000g | Cereals & oats | 1.99 € | 1.99 € | — | Barbora + Rimi |
+| Baltix Maisihelbed 500g | Cereals & oats | 1.59 € | 1.59 € | — | Barbora + Rimi |
+| Baltix Neljaviljahelbed 1000g | Cereals & oats | 2.29 € | 2.29 € | — | Barbora + Rimi |
+| Elovena Kaerahelbed kaerakliidega 600g | Cereals & oats | — | 2.69 € | 2.43 € (2.15 € Partner) | Selver |
+| Elovena Kiirkaerahelbed 500g | Cereals & oats | — | 2.25 € | 2.25 € (1.89 € Partner) | Rimi + Selver |
+| Elovena Kiirkaerapuder vaarikatega 6x35g | Cereals & oats | 2.99 € | — | 2.99 € | Barbora + Selver |
+| Helen Kiirkaerahelbed 500g | Cereals & oats | 1.47 € | 1.49 € | 1.47 € | Barbora + Selver |
+| Helen Neljaviljahelbed 500g | Cereals & oats | 1.35 € | 1.35 € | 1.35 € | Barbora + Rimi + Selver |
+| Helen Riisihelbed 500g | Cereals & oats | 2.25 € | 2.35 € | 2.39 € | Barbora |
+| Helen Täisterakaerahelbed 500g | Cereals & oats | 1.34 € | 1.39 € | 1.35 € | Barbora |
+| Helen Tatrahelbed 500g | Cereals & oats | 3.09 € | 3.19 € | 3.13 € | Barbora |
+| Herkuless Müsli granola šokolaadi 3 350g | Cereals & oats | 2.79 € | — | 2.79 € | Barbora + Selver |
+| Kellogg's Hommikuhelbed corn flakes 375g | Cereals & oats | 2.79 € | 3.89 € | 3.99 € | Barbora |
+| Lotte Meerõngad 225g | Cereals & oats | 1.67 € | — | 1.67 € | Barbora + Selver |
+| Sante Röstitud banaani müsli šokolaadi 350g | Cereals & oats | — | 2.79 € | 2.89 € | Rimi |
+| Sante Röstitud müsli puuviljadega 350g | Cereals & oats | 2.79 € | 2.79 € | 2.84 € | Barbora + Rimi |
+| Start Padjakesed kakaotäidisega 500g | Cereals & oats | 3.65 € | 3.59 € | — | Rimi |
+| Tartu mill Kaerahelbed 500g | Cereals & oats | 0.94 € | — | 1.09 € | Barbora |
+| Tartu mill Kaerahelbed jämedad täistera 1000g | Cereals & oats | — | 2.39 € | 2.39 € | Rimi + Selver |
+| Tartu mill Kaerahelbed jämedad täistera 500g | Cereals & oats | — | 1.29 € | 1.29 € | Rimi + Selver |
+| Tartu mill Kaerahelbepuder kaneeli õuna 35g | Cereals & oats | — | 0.49 € | 0.49 € | Rimi + Selver |
+| Tartu mill Kaerahelbepuder mustasõstra 35g | Cereals & oats | — | 0.49 € | 0.39 € | Selver |
+| Tartu mill Kaerahelbepuder vaarika 35g | Cereals & oats | 0.49 € (0.39 € Aitäh) | 0.49 € | 0.49 € | Barbora + Rimi + Selver |
+| Tartu mill Neljaviljahelbed täistera 500g | Cereals & oats | — | 1.29 € | 1.29 € | Rimi + Selver |
+| Tartu mill Riisihelbed 500g | Cereals & oats | 1.99 € | 1.99 € | 1.99 € | Barbora + Rimi + Selver |
+| Tartu mill Täistera kiirkaerahelbed 1000g | Cereals & oats | 2.39 € | 2.39 € | 2.39 € | Barbora + Rimi + Selver |
+| Tartu mill Täistera kiirkaerahelbed 500g | Cereals & oats | 1.29 € (0.99 € Aitäh) | 1.29 € | 1.29 € | Barbora + Rimi + Selver |
+| Tartu mill Täistera neljaviljahelbed 1000g | Cereals & oats | 2.39 € | 2.39 € | 1.99 € | Selver |
+| Veski mati Helbed ja kliidega seemnete 500g | Cereals & oats | — | 1.45 € | 1.99 € | Rimi |
+| Veski mati Kaera ja riisihelbe segu 500g | Cereals & oats | 1.99 € | — | 2.02 € | Barbora |
+| Veski mati Kaerakliid 1000g | Cereals & oats | 3.09 € | 2.95 € | — | Rimi |
+| Veski mati Kiirkaerahelbed 500g | Cereals & oats | 1.69 € | 1.45 € | — | Rimi |
+| Veski mati Viljahelbed kliidega 500g | Cereals & oats | 1.85 € | — | 1.85 € | Barbora + Selver |
 | Alma Sulatatud cheddari juust tšilli 200g | Cheese | 1.99 € (1.59 € Aitäh) | 1.99 € | 1.69 € | Selver |
 | Alma Sulatatud juust 200g | Cheese | 1.99 € (1.59 € Aitäh) | 1.89 € | 1.99 € (1.49 € Partner) | Rimi |
 | Alma Sulatatud juust kreveti 200g | Cheese | 1.99 € (1.59 € Aitäh) | — | 1.99 € (1.49 € Partner) | Barbora + Selver |
@@ -173,6 +235,55 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Valio Sulatatud juust 185g | Cheese | 1.99 € | 1.99 € | 1.98 € | Selver |
 | Valio Sulatatud juust 370g | Cheese | 2.49 € | 2.69 € | — | Barbora |
 | Valio Sulatatud juust murulaugu ürdi 185g | Cheese | — | 1.99 € | 1.98 € | Selver |
+| Caffebo Kohvioad tõde 1000g | Coffee | — | 19.99 € | 18.28 € | Selver |
+| Caffebo Kohviuba kratt 1000g | Coffee | — | 16.99 € | 15.24 € | Selver |
+| Jacobs Jahvatatud kohv krönung 250g | Coffee | 6.49 € | — | 6.29 € (4.99 € Partner) | Selver |
+| Jacobs Jahvatatud kohv kronung 500g | Coffee | 10.79 € (6.99 € Aitäh) | 10.79 € | — | Barbora + Rimi |
+| Jacobs Jahvatatud kohv kronung mild 500g | Coffee | 12.69 € (8.99 € Aitäh) | 12.69 € | — | Barbora + Rimi |
+| Jacobs Jahvatatud kohv selection 500g | Coffee | 13.89 € (7.99 € Aitäh) | 13.89 € | 12.49 € | Selver |
+| Jacobs Kohv kronung lahustuv 200g | Coffee | — | 13.79 € | 13.99 € (8.99 € Partner) | Rimi |
+| Jacobs Kohvioad barista crema 1000g | Coffee | 29.99 € (14.99 € Aitäh) | 13.99 € | 23.49 € | Rimi |
+| Jacobs Kohvioad barista espresso 1000g | Coffee | 29.99 € (14.99 € Aitäh) | 13.99 € | — | Rimi |
+| Jacobs Lahustuv cronat gold kohv 100g | Coffee | 6.49 € (3.99 € Aitäh) | 6.49 € | 6.49 € | Barbora + Rimi + Selver |
+| Jacobs Lahustuv cronat gold kohv 200g | Coffee | 11.79 € (6.99 € Aitäh) | 11.79 € | 7.99 € | Selver |
+| Jacobs Lahustuv kohv krönung 100g | Coffee | 8.19 € (4.69 € Aitäh) | — | 8.12 € | Selver |
+| L'or Kohvikapslid capri 10x5.2g | Coffee | 4.59 € (3.59 € Aitäh) | 5.79 € | — | Barbora |
+| L'or Kohvikapslid santorini 10x5.2g | Coffee | 4.79 € (3.69 € Aitäh) | 5.79 € | — | Barbora |
+| Lavazza Jahvatatud inblu kohv 250g | Coffee | 10.99 € (6.29 € Aitäh) | — | 11.59 € (5.99 € Partner) | Barbora |
+| Lavazza Jahvatatud kohv oro 250g | Coffee | 9.99 € (6.99 € Aitäh) | 9.99 € | — | Barbora + Rimi |
+| Lavazza Jahvatatud kohv oro qualita 250g | Coffee | 10.99 € (5.99 € Aitäh) | — | 5.69 € | Selver |
+| Lavazza Jahvatatud kohv rossa 250g | Coffee | 8.69 € (5.99 € Aitäh) | 8.69 € | — | Barbora + Rimi |
+| Lavazza Kohv club jahvatatud purgis 250g | Coffee | — | 10.99 € | 10.99 € | Rimi + Selver |
+| Lavazza Kohvioad aroma crema e 1000g | Coffee | 29.99 € (12.99 € Aitäh) | 29.99 € | 29.99 € (14.99 € Partner) | Barbora + Rimi + Selver |
+| Lavazza Kohvioad dark oro qualita roast 1000g | Coffee | — | 33.49 € | 34.99 € (18.99 € Partner) | Rimi |
+| Lavazza Kohvioad italy napoli of tales 450g | Coffee | — | 18.99 € | 17.99 € (10.99 € Partner) | Selver |
+| Lavazza Kohvioad italy of roma tales 450g | Coffee | — | 18.99 € | 17.99 € (10.99 € Partner) | Selver |
+| Lavazza Kohvioad qualita rossa 1000g | Coffee | 29.99 € (12.99 € Aitäh) | — | 29.99 € (14.99 € Partner) | Barbora + Selver |
+| Löfbergs Jahvatatud inferno kohv 450g | Coffee | 10.15 € | — | 10.15 € | Barbora + Selver |
+| Löfbergs Kohvioad brazil 1000g | Coffee | 24.29 € | — | 24.29 € | Barbora + Selver |
+| Löfbergs Kohvioad crema 1000g | Coffee | 23.89 € | — | 23.90 € | Barbora |
+| Merrild Kohvioad arabica 1000g | Coffee | 25.89 € (13.99 € Aitäh) | — | 26.99 € (12.99 € Partner) | Barbora |
+| Merrild Kohvioad barista cremoso 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 25.79 € | 27.99 € | Rimi |
+| Merrild Kohvioad barista espresso 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 26.99 € | 27.99 € | Barbora |
+| Merrild Kohvioad crema 1000g | Coffee | 25.89 € (13.99 € Aitäh) | 11.99 € | 26.99 € | Rimi |
+| Merrild Kohvioad crema dolce 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 26.35 € | 26.99 € (11.99 € Partner) | Barbora |
+| Merrild Kohvioad roast vienna 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 24.99 € | — | Rimi |
+| Mövenpick Jahvatatud der himmlische kohv 500g | Coffee | 13.29 € | — | 9.99 € | Selver |
+| Nescafe Lahustuv classic crema kohv 100g | Coffee | 7.49 € (4.99 € Aitäh) | — | 7.49 € | Barbora + Selver |
+| Nescafe Lahustuv gold kohv 200g | Coffee | 16.99 € (8.99 € Aitäh) | 16.99 € | 16.99 € | Barbora + Rimi + Selver |
+| Paulig Kohv classic cremoso jahvatatud 500g | Coffee | — | 6.49 € | 10.19 € | Rimi |
+| Paulig Kohv jahvatatud mokka 475g | Coffee | — | 6.99 € | 9.59 € (5.69 € Partner) | Rimi |
+| Paulig Kohvioad arabica 1000g | Coffee | 24.39 € | 12.49 € | 23.90 € | Rimi |
+| Paulig Kohvioad aromatico classic 1000g | Coffee | — | 23.69 € | 24.49 € (12.99 € Partner) | Rimi |
+| Paulig Kohvioad classic 1000g | Coffee | 24.89 € (12.99 € Aitäh) | 23.69 € | 24.49 € | Rimi |
+| Paulig Kohvioad classic crema 1000g | Coffee | 24.89 € (12.99 € Aitäh) | 23.69 € | 24.49 € | Rimi |
+| Paulig Kohviuba arabica selected 1000g | Coffee | — | 12.49 € | 23.90 € | Rimi |
+| Segafredo Jahvatatud dolce kohv 450g | Coffee | 9.19 € | — | 9.19 € | Barbora + Selver |
+| Segafredo Kohvioad crema perfetto 900g | Coffee | 27.39 € | — | 27.39 € | Barbora + Selver |
+| Seve Lahustuv siguriga viljakohv 100g | Coffee | 1.49 € | — | 1.19 € | Selver |
+| Starbucks Kohvioad blonde espresso 450g | Coffee | 14.99 € (10.99 € Aitäh) | 14.99 € | 17.99 € | Barbora + Rimi |
+| Starbucks Kohvioad pike place 450g | Coffee | 14.99 € (10.99 € Aitäh) | 14.99 € | — | Barbora + Rimi |
+| Tasuja Kohviuba tambet 1000g | Coffee | 23.29 € (21.09 € Aitäh) | — | 24.90 € | Barbora |
 | Borges Ekstra väärisoliiviõli 250ml | Cooking oil | — | 5.59 € | 5.49 € | Selver |
 | Borges Ekstra väärisoliiviõli 750ml | Cooking oil | — | 14.69 € | 14.99 € (8.99 € Partner) | Rimi |
 | Borges Viinamarjaseemneõli 500ml | Cooking oil | 4.57 € | — | 6.09 € | Barbora |
@@ -502,6 +613,15 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Veski mati Pudruriis 1000g | Rice & grains | — | 3.09 € | 3.13 € | Rimi |
 | Veski mati Riis sõmer 1000g | Rice & grains | — | 3.09 € | 3.00 € | Selver |
 | Veski mati Risotoriis 500g | Rice & grains | — | 2.49 € | 2.39 € | Selver |
+| Basilur Must ceylon leaf of tee 100g | Tea & cocoa | 4.19 € | 4.19 € | — | Barbora + Rimi |
+| Dilmah Must earl grey tee 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
+| Lipton Must earl grey tee 20x1.6g | Tea & cocoa | 3.09 € | 3.19 € | — | Barbora |
+| Loyd Must ceylon tee 50x2g | Tea & cocoa | 4.09 € (3.19 € Aitäh) | 4.09 € | — | Barbora + Rimi |
+| Loyd Must earl gray tee 25x2g | Tea & cocoa | 2.19 € | 2.29 € | — | Barbora |
+| Nesquik Lahustuv kakaojook 150g | Tea & cocoa | 2.59 € | — | 2.29 € | Selver |
+| Nesquik Lahustuv kakaojook 300g | Tea & cocoa | 3.89 € | — | 4.19 € | Barbora |
+| Twinings Must grey lady tee 100g | Tea & cocoa | 6.39 € | 6.39 € | — | Barbora + Rimi |
+| Twinings Roheline gunpowder purutee 100g | Tea & cocoa | 6.39 € | — | 6.39 € | Barbora + Selver |
 
 Card prices shown in parentheses are informational only — never used to decide the Cheapest column.
 
@@ -534,6 +654,7 @@ Card prices shown in parentheses are informational only — never used to decide
 | Rice & grains | Barbora "Aurutatud riis TARTU MILL 4x125g" (1.89 €); Barbora "Aurutatud riis TARTU MILL 4x125g" (1.89 €); Rimi "Riis aurutatud Tartu Mill 4x125g" (1.89 €) |
 | Rice & grains | Barbora "Riis Poke bowl BOSTO 500g" (3.65 €); Barbora "Riis Poke bowl BOSTO 500g" (3.65 €); Rimi "Riis Bosto Poke Bowl 500g" (3.69 €); Selver "Poke bowl riis, BOSTO, 500 g" (3.65 €) |
 | Cooking oil | Rimi "Ekstra väärisoliiviõli Borges 500ml" (9.65 €); Selver "Ekstra väärisoliiviõli, BORGES, 500 ml" (10.49 €); Selver "Ekstra väärisoliiviõli, BORGES, 500 ml" (11.69 €) |
+| Coffee | Barbora "Jahvatatud kohv Espresso LAVAZZA 250g" (9.99 €); Barbora "Jahvatatud kohv LAVAZZA Espresso 250g" (10.99 €); Rimi "Kohv jahvatatud Lavazza Espresso 250g" (9.99 €) |
 
 ## 3. Unclassified
 
@@ -545,6 +666,8 @@ No recognized type and no recognized brand on any side — never had a reliable 
 | Barbora | Eesti sibula mix võrgus, 1kg | 3.29 € |
 | Rimi | Mahe pohl Eesti 250g | 4.79 € |
 | Selver | Marineeritud kuuseriisikad, 450 g | 5.99 € |
+| Rimi | Must tee mango-virsiku maitseline 20x1,7g | 2.75 € |
+| Rimi | Roheline tee mangomaitseline 20x1,5g | 2.75 € |
 
 ## 4. Possible matches to check by hand
 
@@ -756,4 +879,142 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Item A | Item B |
 |---|---|
 | Barbora "Keefir FARMI 2,5% 1kg, kile" (0.89 €) | Selver "Keefir 2,5% kiles, FARMI, 1 kg" (0.73 €) |
+
+### Coffee (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Kohvioad Krönung JACOBS 1 kg" (29.49 €) | Selver "Kohviuba Krönung, JACOBS, 1 kg" (21.49 €) |
+| Barbora "Kohvioad Crema JACOBS 1 kg" (29.49 €) | Selver "Kohviuba Crema, JACOBS, 1 kg" (12.99 €) |
+| Barbora "Kohvioad Qualita Oro LAVAZZA 1kg" (33.49 €) | Rimi "Kohvioad Lavazza Oro 1kg" (33.49 €) |
+| Barbora "Kohvioad Qualita Oro LAVAZZA 1kg" (33.49 €) | Selver "Kohviuba Qualita Oro, LAVAZZA, 1 kg" (34.99 €) |
+| Barbora "Kohvioad keskm.röst LÖFBERGS 1kg" (24.29 €) | Selver "Kohvioad keskmine röst, LÖFBERGS, 1 kg" (24.29 €) |
+| Barbora "Kohvioad Espresso LÖFBERGS 1kg" (24.29 €) | Selver "Kohviuba Espresso, LÖFBERGS, 1 kg" (24.29 €) |
+| Barbora "Kohvioad Kharisma LÖFBERGS 1kg" (24.29 €) | Selver "Kohviuba Kharisma, LÖFBERGS, 1 kg" (24.29 €) |
+| Barbora "Kohviuba JACOBS Uganda&Kenya 1kg" (29.99 €) | Selver "Kohviuba Origins Uganda & Kenya, JACOBS, 1 kg" (23.49 €) |
+| Barbora "Kohvioad LAVAZZA Espresso Gran Crema 1kg" (33.49 €) | Rimi "Kohvioad Barista Gran Crema Lavazza 1kg" (33.49 €) |
+| Barbora "Kohvioad LAVAZZA Espresso Gran Crema 1kg" (33.49 €) | Selver "Kohvioad Lavazza Espresso Barista Gran Crema , LAVAZZA, 1 kg" (34.99 €) |
+| Barbora "Kohvioad Selezione Crema SEGAFREDO 1kg" (27.39 €) | Selver "Kohvioad Selezione Crema, SEGAFREDO ZANETTI, 1 kg" (16.99 €) |
+| Barbora "Kohvioad LAVAZZA Espresso Perfetto 1kg" (34.99 €) | Selver "Kohvioad Lavazza Espresso Barista Perfetto , LAVAZZA, 1 kg" (34.99 €) |
+| Barbora "Kohviuba Jaanus TASUJA 1kg" (23.29 €) | Selver "Kohviuba Wahur, TASUJA, 1 kg" (24.90 €) |
+| Barbora "Kohviuba Jaanus TASUJA 1kg" (23.29 €) | Selver "Espresso kohviuba Jaanus, TASUJA, 1 kg" (24.90 €) |
+| Barbora "Kohvioad Caffe Crema MÖVENPICK 1kg" (25.89 €) | Selver "Café Crema kohvioad, MÖVENPICK, 1 kg" (22.90 €) |
+| Barbora "Kohvioad Arabica Espresso PAULIG 1kg" (24.39 €) | Selver "Kohviuba Arabica Espresso, PAULIG, 1 kg" (23.90 €) |
+| Barbora "Kovhioad OA No.2 1kg" (23.35 €) | Selver "Kohviuba No1, OA, 1 kg" (23.90 €) |
+| Barbora "Kovhioad OA No.2 1kg" (23.35 €) | Selver "Kohviuba No2, OA, 1 kg" (17.99 €) |
+| Barbora "Kohviuba Oa N4 1kg" (37.99 €) | Selver "Kohviuba No1, OA, 1 kg" (23.90 €) |
+| Barbora "Kohviuba Oa N4 1kg" (37.99 €) | Selver "Kohviuba No2, OA, 1 kg" (17.99 €) |
+| Barbora "Kohvioad Mokka PAULIG,1kg" (22.99 €) | Selver "Paulig Mokka kohviuba, PAULIG, 1kg" (21.99 €) |
+| Barbora "Lahustuv kohv NESCAFÉ® CLASSIC 100g" (6.99 €) | Selver "Lahustuv kohv Classic (klaaspurk), NESCAFE, 100g" (6.99 €) |
+| Barbora "Lahustuv kohv Classic NESCAFE 200g" (11.99 €) | Rimi "Lahustuv kohv Nescafe Classic Crema 200g" (11.99 €) |
+| Barbora "Lahustuv kohv Classic NESCAFE 200g" (11.99 €) | Selver "Lahustuv kohv Classic (klaaspurk), NESCAFE, 200 g" (11.99 €) |
+| Barbora "Lahustuv kohv NESCAFE Strong 250g" (12.19 €) | Selver "Lahustuv kohv Classic Strong, NESCAFE, 250g" (12.19 €) |
+| Barbora "Lahustuv kohvijook NESCAFÉ® 3IN1 Creamy Latte 10x15g" (2.95 €) | Selver "Lahustuv kohvijook 3in1 Creamy Latte 10X15g, NESCAFE, 150 g" (3.30 €) |
+| Barbora "Lahustuv kohv NESCAFÉ® CLASSIC Crema 200g" (11.99 €) | Rimi "Lahustuv kohv Nescafe Classic Crema 200g" (11.99 €) |
+| Barbora "Lah.kohvijook JACOBS 3in1 20x12.6g" (5.69 €) | Rimi "Lah. kohvijook Jacobs 3in1 Original 20x12,6g" (5.29 €) |
+| Barbora "Lah. kohvijook JACOBS 2in1 12.4g" (0.27 €) | Rimi "Kohvijook lahustuv 2in1 Jacobs 12,4g" (0.26 €) |
+| Barbora "Lah.kohvijook JACOBS 3in1 12.6g" (0.27 €) | Rimi "Lahustuv kohvijook Jacobs 3in1 12,6g" (0.26 €) |
+
+### Tea & cocoa (29)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Must lehetee DILMAH karp 100g" (2.21 €) | Selver "Ceyloni must lehetee, DILMAH, 100 g" (2.45 €) |
+| Barbora "Must tee English Aristocratic HYLEYS100g" (1.79 €) | Selver "Must purutee English Aristocratic, HYLEYS, 100 g" (1.89 €) |
+| Barbora "Must purutee TWININGS Earl Grey,100g" (6.39 €) | Rimi "Tee must Earl Grey Twinings 100g" (6.39 €) |
+| Barbora "Must purutee TWININGS Earl Grey,100g" (6.39 €) | Selver "Earl Grey purutee, TWININGS, 100 g" (5.29 €) |
+| Barbora "Must tee mustasõstramaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must mustsõstramaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee mustasõstramaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must vaarikamaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee mustasõstramaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must karamellimaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee karamellimaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must mustsõstramaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee karamellimaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must vaarikamaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee karamellimaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must karamellimaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee sidrunimaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must mustsõstramaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee sidrunimaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must vaarikamaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee sidrunimaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must karamellimaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee vaarikamaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must mustsõstramaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee vaarikamaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must vaarikamaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee vaarikamaits.DILMAH,20x1,5g" (1.55 €) | Rimi "Tee must karamellimaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee DILMAH maasika 20x1.5g" (1.55 €) | Rimi "Tee must mustsõstramaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee DILMAH maasika 20x1.5g" (1.55 €) | Rimi "Tee must vaarikamaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must tee DILMAH maasika 20x1.5g" (1.55 €) | Rimi "Tee must karamellimaitseline Dilmah 20x1,5g" (2.59 €) |
+| Barbora "Must Tseil.tee DILMAH Premium 25x2g" (1.55 €) | Rimi "Tee must Dilmah Premium 25x2g" (2.59 €) |
+| Barbora "Must tseil.tee DILMAH Premium 50x2g" (2.57 €) | Rimi "Tee must Dilmah Premium 50x2g" (4.29 €) |
+| Barbora "Must tee LOYD Intense 25x2g" (2.19 €) | Rimi "Tee must Black Intense Loyd 25x2g" (2.29 €) |
+| Barbora "Must tee LIPTON Mango 20x1.7g" (3.09 €) | Rimi "Must tee virsiku-mango Lipton 20x1,7g" (3.19 €) |
+| Barbora "Roheline Tseiloni tee DILMAH 100g" (2.01 €) | Selver "Roheline Tseiloni purutee, DILMAH, 100 g" (3.34 €) |
+| Barbora "Rohel tee Jasmine Green BASILUR 100g" (5.99 €) | Rimi "Roheline tee Jasmine Green Basilur 100g" (5.99 €) |
+| Barbora "Lahustuv jook NESQUIK maasika 350g" (4.89 €) | Selver "Lahustuv jook maasikamaitseline, NESQUIK, 350 g" (4.89 €) |
+| Barbora "Lahustuv jook NESQUIK maasika 350g" (4.89 €) | Selver "Lahustuv jook Vanilla, NESQUIK, 350 g" (4.99 €) |
+| Barbora "Kakaojook NESQUIK 600g" (8.49 €) | Selver "Lahustuv kakaojook, NESQUIK, 600g" (8.49 €) |
+| Rimi "Jook Nesquik Pouch maasikamaitseline 350g" (4.89 €) | Selver "Lahustuv jook maasikamaitseline, NESQUIK, 350 g" (4.89 €) |
+
+### Cereals & oats (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Hommikuhelbed Chocapic NESTLE 375g" (4.29 €) | Rimi "Hommikueine Nestle Chocapic 375g" (3.45 €) |
+| Barbora "Hommikuhelbed Cookie Crisp NESTLE 375g" (4.29 €) | Rimi "Hommikueine Nestle Cookie Crisp 375g" (4.29 €) |
+| Barbora "Hommikuhelbed Lion NESTLE 400g" (4.29 €) | Rimi "Hommikueine Nestle Lion 400g" (4.29 €) |
+| Barbora "Hommikuhelbed NESTLE Cookie Crisp 625g" (6.19 €) | Rimi "Hommikueine Nestle Cookie Crisp 625g" (6.19 €) |
+| Barbora "Hommikuhelbed Cheerios Honey NESTLE 375g" (4.29 €) | Rimi "Hommikueine Nestle Cheerios Honey 375g" (4.29 €) |
+| Barbora "Hommikuhelbed Smacks KELLOGG'S 330g" (5.19 €) | Selver "Hommikuhelbed Frosties, KELLOGG'S, 330 g" (3.85 €) |
+| Barbora "Hommikuhelbed KitKat NESTLE 330g" (4.29 €) | Rimi "Hommikueine Nestle KitKat 330g" (4.29 €) |
+| Barbora "Hommikusöök Coco Pops KELLOGG'S 330g" (5.29 €) | Selver "Hommikusöögihelbed Coco Pops, KELLOGG'S, 330 g" (5.28 €) |
+| Barbora "Hommikuhelbed Coco Pops KELLOGG'S 330g" (4.59 €) | Selver "Hommikusöögihelbed Coco Pops, KELLOGG'S, 330 g" (5.28 €) |
+| Barbora "Helbed Tresor Milk Choco KELLOGG'S 410g" (5.07 €) | Selver "Hommikuhelbed Tresor Milk Choco, KELLOGG'S, 410g" (5.07 €) |
+| Barbora "Kaerahelbed peened VESKI MATI 1kg" (2.39 €) | Rimi "Kaerahelbed Veski Mati 1kg" (2.49 €) |
+| Barbora "Kaerahelbed peened VESKI MATI 1kg" (2.39 €) | Selver "Täistera peened kaerahelbed, VESKI MATI, 1 kg" (2.39 €) |
+| Barbora "Kaerahelbed jämedad VESKI MATI 1kg" (2.49 €) | Rimi "Kaerahelbed jämedad röstitud Veski Mati 1kg" (2.55 €) |
+| Barbora "Kaerahelbed jämedad VESKI MATI 1kg" (2.49 €) | Rimi "Kaerahelbed Veski Mati 1kg" (2.49 €) |
+| Barbora "Kaerahelbed jämedad VESKI MATI 1kg" (2.49 €) | Selver "Täistera jämedad kaerahelbed, VESKI MATI, 1 kg" (2.19 €) |
+| Barbora "Riisihelbed BALTIX 500g" (1.49 €) | Rimi "Täisterakaerahelbed Baltix 500g" (1.29 €) |
+| Barbora "Riisihelbed BALTIX 500g" (1.49 €) | Selver "Hernehelbed, BALTIX, 500 g" (1.39 €) |
+| Barbora "Kaerah. kiirpuder õuna VESKI MATI 45g" (0.63 €) | Selver "Kiirpuder Õuna, VESKI MATI, 45 g" (0.63 €) |
+| Barbora "Täistera 4-viljahelbed TARTU MILL 500g" (1.29 €) | Rimi "Kiirtatrahelbed täistera Tartu Mill 500g" (2.89 €) |
+| Barbora "Tatrahelbed VESKI MATI 500g" (2.79 €) | Rimi "Kaheksaviljahelbed Veski Mati 500g" (1.45 €) |
+| Barbora "Tatrahelbed VESKI MATI 500g" (2.79 €) | Rimi "Odrahelbed Veski Mati 500g" (2.25 €) |
+| Barbora "Tatrahelbed VESKI MATI 500g" (2.79 €) | Selver "Täistera Tatrahelbed, VESKI MATI, 500 g" (2.79 €) |
+| Barbora "Kiirkaerahelbepuder AXA õuna-kaneeli 40g" (0.56 €) | Selver "Kiirkaerahelbepuder õuna ja kaneeli, AXA, 40 g" (0.56 €) |
+| Barbora "Naturaalne röstitud müsli SANTE 350g" (2.39 €) | Selver "Röstitud müsli, SANTE, 350 g" (2.39 €) |
+| Barbora "Müsli troop.viljadega Premium AXA 330g" (2.73 €) | Selver "Premium müsli troopiliste viljadega, AXA, 330 g" (2.73 €) |
+| Rimi "Kiirtatrahelbed täistera Tartu Mill 500g" (2.89 €) | Selver "Täistera röstitud kiirtatrahelbed, TARTU MILL, 500 g" (2.59 €) |
+| Rimi "Granola müsli punaste marjadega Sante 350g" (2.29 €) | Selver "Krõbe müsli punaste marjadega, SANTE, 350 g" (2.19 €) |
+| Rimi "Hommikusöök šokolaadiga riis Oho 500g" (3.59 €) | Selver "Šokolaadiga riis, OHO, 500 g" (3.65 €) |
+| Rimi "Hommikusöök nisu meega Oho 500g" (4.29 €) | Selver "Nisu meega, OHO, 500 g" (4.26 €) |
+| Rimi "Kaerahelbed jämedad röstitud Veski Mati 1kg" (2.55 €) | Selver "Täistera jämedad kaerahelbed, VESKI MATI, 1 kg" (2.19 €) |
+
+### Canned food (29)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Konsev.mais BONDUELLE 670g" (3.49 €) | Rimi "Mais Bonduelle 670g/570g" (2.95 €) |
+| Barbora "Valged oad tomatikastmes HEINZ 415g" (2.39 €) | Rimi "Oad tomatikastmes küpsetatud Heinz 415g" (2.35 €) |
+| Barbora "Konserveeritud mais BONDUELLE 530g" (2.59 €) | Rimi "Mais Bonduelle 530g/360g" (2.19 €) |
+| Barbora "Magus mais BONDUELLE 340g" (2.09 €) | Rimi "Mais magus Bonduelle 340g / 285g" (1.69 €) |
+| Barbora "Punased oad mais.kastmes BONDUELLE 430g" (2.85 €) | Selver "Punased oad tšilli kastmes, BONDUELLE, 430 g" (1.89 €) |
+| Barbora "Piknikukurk (viilud) PÕLTSAMAA 680g" (2.89 €) | Rimi "Piknikukurk viilutatud Põltsamaa 680/360g" (3.25 €) |
+| Barbora "Piknikukurk (viilud) PÕLTSAMAA 680g" (2.89 €) | Selver "Piknikukurk viiludena, PÕLTSAMAA, 680 g" (3.19 €) |
+| Barbora "Võileivakurk (pikiviilud) PÕLTSAMAA 460g" (2.99 €) | Rimi "Võileivakurk Põltsamaa 460g/240g" (2.99 €) |
+| Barbora "Salatikurk SALVEST 395g" (1.99 €) | Rimi "Salatikurk Salvest 395g/237g" (1.99 €) |
+| Barbora "Salatikurk SALVEST 395g" (1.99 €) | Selver "Salatikurk, SALVEST, 395g neto" (1.99 €) |
+| Barbora "Maitselt mahe kurk PÕLTSAMAA 680g" (2.89 €) | Rimi "Kurk maitselt mahe Põltsamaa 680g/360g" (2.89 €) |
+| Barbora "Võileivakurk SALVEST 530g" (2.79 €) | Rimi "Võileivakurk Salvest 530g/290g" (2.85 €) |
+| Barbora "Viilukurk SALVEST 675g" (2.79 €) | Rimi "Viilukurk Salvest 675g/350g" (2.95 €) |
+| Barbora "Viilukurk SALVEST 675g" (2.79 €) | Selver "Piprakurk, SALVEST, 675 g" (2.79 €) |
+| Barbora "Marin.kirsstomatid NIZHYN 450g" (2.55 €) | Rimi "Kabatšokipüree Nizhyn 450g" (2.49 €) |
+| Barbora "Marin.kirsstomatid NIZHYN 450g" (2.55 €) | Rimi "Letšo Nizhyn 450g" (3.59 €) |
+| Barbora "Aurutatud läätsed vapeur BONDUELLE 310g" (2.49 €) | Rimi "Läätsed aurutatud Bonduelle Vapeur 310g/265g" (2.59 €) |
+| Barbora "Röst.punased maguspiprad GOURMANTE 450g" (4.55 €) | Selver "Röstitud punased maguspiprad, GOURMANTE, 450 g" (4.55 €) |
+| Barbora "Küüslauguküüned äädikas GOURMANTE 100g" (1.89 €) | Selver "Küüslaugud äädikas, GOURMANTE, 100 g" (1.92 €) |
+| Barbora "Viil.artišokid SACLA 285g" (4.19 €) | Rimi "Artišokid marineeritud Sacla 285g/171g" (4.59 €) |
+| Barbora "Sibulad äädikas GOURMANTE 100g" (1.79 €) | Selver "Küüslaugud äädikas, GOURMANTE, 100 g" (1.92 €) |
+| Rimi "Piknikukurk viilutatud Põltsamaa 680/360g" (3.25 €) | Selver "Piknikukurk viiludena, PÕLTSAMAA, 680 g" (3.19 €) |
+| Rimi "Kurgid marineeritud 6-9cm Sunfood 680g/360g" (2.19 €) | Selver "Marineeritud kurgid 6-9 cm, SUNFOOD, 680 g" (2.19 €) |
+| Rimi "Mais ja hernes Bonduelle 425ml/285g" (2.89 €) | Selver "Mais, hernes ja paprika, BONDUELLE, 425 ml" (2.89 €) |
+| Rimi "Salatikurk Salvest 395g/237g" (1.99 €) | Selver "Salatikurk, SALVEST, 395g neto" (1.99 €) |
+| Rimi "Salatiporgand Salvest 400g" (2.09 €) | Selver "Salatiporgand, SALVEST, neto 400g" (2.09 €) |
+| Rimi "Punapeediviilud Põltsamaa 570g/380g" (2.09 €) | Selver "Punapeediviilud, PÕLTSAMAA, 570 g" (2.05 €) |
+| Rimi "Šampinjonid marineeritud Bonduelle 540g/290g" (4.49 €) | Selver "Šampinjonid traditsiooniliselt marineeritud, BONDUELLE, 540 g" (4.49 €) |
+| Rimi "Šampinjonid marineeritud Bonduelle 540g/290g" (4.49 €) | Selver "Marineeritud šampinjonid, BONDUELLE, 540 g" (4.59 €) |
 

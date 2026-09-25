@@ -126,6 +126,25 @@ function toPricesObject(groupItems) {
   return Object.fromEntries(groupItems.map((item) => [item.store.toLowerCase(), toStoreEntry(item)]));
 }
 
+// One data/prices.json product from one matchPool match — the single
+// place that shape is built, shared by fetch-price.js (a live scrape)
+// and rebuild-prices.js (the same pipeline re-run over data/raw/ with
+// no network), so the two can never drift apart.
+function toProductEntry(category, match) {
+  const entry = {
+    name: match.canonicalName,
+    category: category.name,
+    prices: toPricesObject(match.items),
+    matchedVia: match.reason,
+  };
+  // Meat decides "cheapest" by per-kg price, not pack price — see
+  // frontend/pricing.js's cheapestPrice/productRows and
+  // cheapestByUnitPrice in scraper/categories.js. Every other
+  // category leaves this unset and keeps comparing by `price`.
+  if (category.cheapestByUnitPrice) entry.cheapestByUnitPrice = true;
+  return entry;
+}
+
 module.exports = {
   fetchAllPages,
   fetchAllUrls,
@@ -134,4 +153,5 @@ module.exports = {
   toLeftoverEntry,
   toStoreEntry,
   toPricesObject,
+  toProductEntry,
 };

@@ -1121,6 +1121,26 @@ const tests = [
     },
   },
   {
+    name: "Organic: 'mahe', 'öko', 'ökoloogiline' and 'BIO' are one qualifier — Öko on one side agrees with BIO on the other, and organic never matches non-organic (the owner's decision)",
+    run: () => {
+      const baby = (store, name) => buildItem("Baby food", store, name, { brand: "hipp" });
+      assert.equal(sameProduct(baby("Barbora", "Pirnipüree Williams BIO HIPP 125g, 4k"), baby("Selver", "Pirnipüree Williams Öko 4k, HIPP, 125 g")), true);
+      assert.equal(sameProduct(baby("Barbora", "Pirnipüree Williams HIPP 125g, 4k"), baby("Selver", "Pirnipüree Williams Öko 4k, HIPP, 125 g")), false, "organic vs non-organic");
+      const ponn = (store, name) => buildItem("Baby food", store, name, { brand: "põnn" });
+      assert.equal(sameProduct(ponn("Barbora", "Kõrvitsapüree PÕNN Ökoloogiline 125g"), ponn("Rimi", "Kõrvitsapüree Põnn ökoloogiline 4+ 125g")), true);
+      assert.equal(computeSignature(ponn("Barbora", "Kõrvitsapüree PÕNN Ökoloogiline 125g")).qualifiers, "mahe");
+      // Selver's English "Organic" and the compound prefix "Mahe…" are
+      // the same qualifier — real pairs that broke the moment "öko"
+      // stopped being dropped as noise.
+      const formula = (store, name) => buildItem("Baby formula", store, name, { brand: "hipp" });
+      assert.equal(sameProduct(formula("Rimi", "Jätkup.segu Hipp 2 Comb. al. 6k öko 800g"), formula("Selver", "2 Organic Combiotic jätkupiimasegu 6kuud, HIPP, 800 g")), true);
+      const milk = (store, name) => buildItem("Dairy", store, name, { brand: "mo saaremaa" });
+      assert.equal(sameProduct(milk("Barbora", "Mahetäispiim MO SAAREMAA öko 3,8-4,4% 1L"), milk("Selver", "Mahetäispiim 3,8-4,4%, MO SAAREMAA, 1 L")), true);
+      // "Biocalcium" is not "bio".
+      assert.equal(computeSignature(buildItem("Personal care", "Barbora", "Hambapasta SPLAT Biocalcium,100ml", { brand: "splat" })).qualifiers, "");
+    },
+  },
+  {
     name: "Fish & seafood: the owner's call — a fixed-weight pack or tin matches only an equal weight (190g sprats are not 240g sprats; a 900g bag of shrimp is not a 300g jar), a per-kg listing may still match across weights, and Meat keeps its own fully relaxed rule",
     run: () => {
       const fish = (store, name, brand) => buildItem("Fish & seafood", store, name, { brand });

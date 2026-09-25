@@ -196,7 +196,18 @@ const NAMED_VARIANTS = [
 const NON_COMITATIVE_GA_WORDS = new Set(["mega", "omega"]);
 
 const IDENTITY_QUALIFIER_PATTERNS = [
-  { pattern: /\bmahe\b/i, extract: () => "mahe" },
+  // Organic, in every spelling the stores use — "mahe", "öko",
+  // "ökoloogiline", "BIO" — is ONE qualifier (the owner's decision,
+  // 2026-09-26): organic and non-organic are different products, and
+  // "Öko" on one side still agrees with "BIO" on the other. Letter
+  // boundaries rather than \b, since \b never fires before "ö".
+  // Also Selver's English "Organic" ("2 Organic Combiotic ..."), and
+  // the compound prefix "Mahe…" ("Mahetäispiim", "Mahepiimasegu") —
+  // real pairs found by hand where one store writes the prefix and the
+  // other a standalone "öko". ("mahe" is also Estonian for "mild", as
+  // in "maitselt mahe kurk" — harmless: both stores of such a pair
+  // write it, so the qualifier agrees.)
+  { pattern: /(?<![\p{L}])(?:mahe\p{L}*|öko|ökoloogiline|bio|organic)(?![\p{L}])/iu, extract: () => "mahe" },
   { pattern: /\b([2-9])\.?\s*kl\.?\b/i, extract: (m) => `${m[1]}kl` },
   {
     pattern: /\b\p{L}{2,}ga\b/giu,
@@ -252,7 +263,13 @@ const QUALITY_GRADE_PATTERN = /\b1\.?\s*kl\.?\b/gi;
 // type "punapeet", never "aurutatud"; "Mahe šampinjonid" (organic
 // mushrooms) should extract as "šampinjonid", never "mahe".
 // Stripped everywhere the quality grade is.
-const NON_IDENTITY_PATTERN = /\b(aurutatud|keedetud|mahe|marineeritud)\b/gi;
+// The organic words (öko/ökoloogiline/bio/organic, alongside the
+// original "mahe") are stripped here for the same reason "mahe" always
+// was: they're tracked as the organic QUALIFIER instead (see
+// IDENTITY_QUALIFIER_PATTERNS), so they must not also survive as a
+// descriptor word that differs by spelling ("BIO" vs "Öko") between
+// stores. Letter boundaries rather than \b — \b never fires before "ö".
+const NON_IDENTITY_PATTERN = /(?<![\p{L}])(aurutatud|keedetud|mahe|öko|ökoloogiline|bio|organic|marineeritud)(?![\p{L}])/giu;
 
 // Color words, checked the same way NAMED_VARIANTS checks for named
 // brand variants — a color found on one side and not the other, or a
@@ -668,7 +685,10 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   // Synonyms
   ["mullita", "gaasita"], // both "still/no bubbles"
   ["gaseerimata", "gaasita"], // both "not carbonated"
-  ["öko", ""], // redundant with "mahe" (organic), already part of the type word here (e.g. "Mahetäispiim")
+  // "öko"/"ökoloogiline"/"bio" are NOT dropped here any more — they are
+  // the organic qualifier (see IDENTITY_QUALIFIER_PATTERNS), compared
+  // before descriptors ever are. Dropping "öko" as noise (the old
+  // entry) would have let an organic item match a non-organic one.
   ["vahujook", "karastusjook"], // both generic "sparkling/soft drink"
   // Leftover fragments that never carry real distinguishing weight: a
   // piece-count artifact ("4tk" -> "tk", the digit is dropped

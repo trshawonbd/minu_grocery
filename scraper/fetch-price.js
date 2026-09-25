@@ -39,7 +39,7 @@ const { fetchSelverPrice } = require("./stores/selver");
 const { matchPool } = require("./match-products");
 const { writeRaw } = require("./raw");
 const { CATEGORIES } = require("./categories");
-const { fetchAllUrls, prepareItem, isUnclassified, toLeftoverEntry, toPricesObject } = require("./scrape-output");
+const { fetchAllUrls, prepareItem, isUnclassified, toLeftoverEntry, toProductEntry } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -137,19 +137,8 @@ async function main() {
         `${unmatched.length - unclassifiedCount} unmatched, ${unclassifiedCount} unclassified, ${ambiguous.length} ambiguous`
     );
 
-    for (const { items: groupItems, canonicalName, reason } of matches) {
-      const entry = {
-        name: canonicalName,
-        category: category.name,
-        prices: toPricesObject(groupItems),
-        matchedVia: reason,
-      };
-      // Meat decides "cheapest" by per-kg price, not pack price — see
-      // frontend/pricing.js's cheapestPrice/productRows and
-      // cheapestByUnitPrice in scraper/categories.js. Every other
-      // category leaves this unset and keeps comparing by `price`.
-      if (category.cheapestByUnitPrice) entry.cheapestByUnitPrice = true;
-      freshEntries.push(entry);
+    for (const match of matches) {
+      freshEntries.push(toProductEntry(category, match));
     }
   }
 

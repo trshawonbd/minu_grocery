@@ -162,17 +162,23 @@ online/publicly reachable.
   match across weights. Meat keeps its own earlier rule (400g, 500g
   and per-kg of the same cut are one product). `fixedWeightMustMatch`
   in `scraper/categories.js`.
-- **Abbreviation round — decided NOT to normalize (yet), owner has
-  the list, undecided as of 2026-09-25**: "purutee" vs "tee"
-  (crushed-leaf vs unspecified tea), ridged/textured variants
-  ("sakilised" chips, "rigate" conchiglie vs plain), Panzani
-  "Premium", Panzani "3-minuti" quick-cook, pasta numbers ("nr.5" —
-  the digit isn't compared yet), the "Fitlap" co-branding label,
-  organic wording (Öko / Ökoloogiline / BIO / Mahe as one word or
-  not), pet life-stage labels ("Adult"), "kastmes" (in gravy) vs
-  unstated, Dilmah's "Tseil."/"karp". Leave these as non-matches
-  until the owner decides; don't add a rule for any of them without
-  asking.
+- **Abbreviation round — DECIDED by the owner (2026-09-26): these
+  all stay NOT matched. Never add a rule for any of them, and don't
+  ask again:** "purutee" vs "tee" (crushed-leaf vs unspecified tea)
+  are different products; ridged/textured variants ("sakilised"
+  chips, "rigate" conchiglie vs plain) are different products;
+  Panzani "Premium" is a different product; Panzani "3-minuti"
+  quick-cook is a different product; a pasta number ("nr.5") is part
+  of the product — a listing with it and one without don't match;
+  the "Fitlap" co-branding label makes a different product; a pet
+  life-stage label ("Adult") and "kastmes" (in gravy) vs unstated
+  are different products; Dilmah's "Tseil."/"karp" stay unmatched.
+- **Organic wording (owner, 2026-09-26): Öko / Ökoloogiline / BIO
+  count as organic, the same rule as "mahe"** — organic and
+  non-organic are different products, and one side stating it and
+  the other not blocks the match (see IDENTITY_QUALIFIER_PATTERNS in
+  `scraper/match-products.js`). The four spellings are one qualifier,
+  so "Öko" on one side and "BIO" on the other still match each other.
 - **Per-category implied words**: a word true of every item in a
   category (`impliedDescriptors` in `scraper/categories.js` —
   "külmutatud" in the frozen categories, Pasta's generic

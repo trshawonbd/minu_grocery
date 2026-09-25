@@ -6,19 +6,19 @@ Matching pools every store's items for a category together (scraper/match-produc
 
 ## Summary
 
-| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Total |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 121 + 73 + 83 | 14381 |
-| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 5 | 6 | 10 | 1066 |
-| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 0 | 0 | 0 | 293 |
-| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 0 | 2 | 1 | 235 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 0 | 4 | 1 | 314 |
-| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 5 | 0 | 8 | 224 |
-| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 189 | 636 | 257 | 11866 |
-| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
-| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 26 |
+| | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Sausages | Ham & cold cuts | Fish & seafood | Total |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Scraped (Barbora + Rimi + Selver) | 15 + 29 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 111 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 178 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 121 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 16371 |
+| Matched (any store combination) | 12 | 67 | 41 | 83 | 94 | 18 | 7 | 19 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 9 | 36 | 26 | 117 | 114 | 39 | 18 | 37 | 55 | 29 | 8 | 30 | 5 | 6 | 10 | 61 | 53 | 20 | 1200 |
+| — at all 3 stores | 1 | 18 | 12 | 18 | 20 | 3 | 0 | 4 | 6 | 7 | 10 | 9 | 2 | 0 | 14 | 0 | 13 | 4 | 44 | 57 | 19 | 1 | 12 | 9 | 5 | 0 | 5 | 0 | 0 | 0 | 23 | 9 | 2 | 327 |
+| — at 2 stores only (Barbora + Rimi) | 1 | 23 | 4 | 30 | 22 | 3 | 6 | 5 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 6 | 7 | 1 | 21 | 15 | 4 | 10 | 9 | 16 | 4 | 3 | 5 | 0 | 2 | 1 | 17 | 14 | 2 | 268 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 1 | 5 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 3 | 7 | 15 | 37 | 26 | 16 | 4 | 7 | 17 | 12 | 1 | 9 | 0 | 4 | 1 | 14 | 12 | 13 | 353 |
+| — at 2 stores only (Rimi + Selver) | 8 | 14 | 9 | 11 | 12 | 4 | 0 | 5 | 6 | 3 | 23 | 4 | 3 | 4 | 11 | 0 | 9 | 6 | 15 | 16 | 0 | 3 | 9 | 13 | 8 | 4 | 11 | 5 | 0 | 8 | 7 | 18 | 3 | 252 |
+| Unmatched | 38 | 577 | 249 | 122 | 964 | 342 | 363 | 219 | 129 | 172 | 695 | 71 | 51 | 68 | 547 | 569 | 393 | 546 | 593 | 543 | 278 | 139 | 425 | 969 | 615 | 581 | 526 | 189 | 636 | 257 | 382 | 516 | 723 | 13487 |
+| Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 7 |
+| Ambiguous groups | 2 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 2 | 3 | 42 |
 
-**Note:** recomputed 1064 matches from data/raw/, but data/prices.json has 1066 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 1198 matches from data/raw/, but data/prices.json has 1200 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
@@ -629,6 +629,26 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Rannarootsi Külmutatud mini pelmeenid 700g | Dumplings, pizza & fries | — | 3.99 € | 3.89 € | Selver |
 | Tallegg Minipelmeenid broilerilihaga 350g | Dumplings, pizza & fries | — | 2.69 € | 2.59 € | Selver |
 | Uvic Pelmeenid hiina 400g | Dumplings, pizza & fries | — | 3.29 € | 3.34 € (2.79 € Partner) | Rimi |
+| Abba Tuunikalapasteet msc 145g | Fish & seafood | — | 2.65 € | 2.69 € | Rimi |
+| Briis Praetud räimed tomatikastmes 270g | Fish & seafood | 1.59 € | 2.15 € | 2.05 € | Barbora |
+| Briis Vürtsikilud balti 400g | Fish & seafood | 1.95 € | — | 1.95 € | Barbora + Selver |
+| Kaija Tuunikala eo õlis 160g | Fish & seafood | 4.49 € | 3.59 € | — | Rimi |
+| Kaluri Tallinna kilud 250g | Fish & seafood | 3.09 € | — | 3.09 € | Barbora + Selver |
+| Kaluri Vinnutatud särg 200g | Fish & seafood | 5.69 € | 5.69 € | 5.09 € | Selver |
+| Kapten grant Lõhe eo mahlas omas 230g | Fish & seafood | 2.65 € | — | 2.65 € | Barbora + Selver |
+| Kapten grant Merekapsasalat 500g | Fish & seafood | — | 2.99 € | 2.85 € | Selver |
+| Kapten grant Skumbria tomatikastmes 240g | Fish & seafood | 2.45 € | — | 2.45 € | Barbora + Selver |
+| Kapten grant Sprotid eo õlis 240g | Fish & seafood | 2.79 € | — | 2.79 € | Barbora + Selver |
+| Kapten grant Tallinna kilud 240g | Fish & seafood | 2.69 € | — | 2.69 € | Barbora + Selver |
+| Kapten grant Vürtsikilufilee 100g | Fish & seafood | 2.99 € | — | 3.05 € | Barbora |
+| Minu Räimed praetud tomatikastmes 240g | Fish & seafood | — | 2.55 € | 2.59 € | Rimi |
+| Msdm Kuivatatud meritint 36g | Fish & seafood | 2.15 € | 2.15 € | — | Barbora + Rimi |
+| Vici Heeringafilee 240g | Fish & seafood | 3.39 € | — | 3.39 € | Barbora + Selver |
+| Vici Heeringafilee kergsoola 220g | Fish & seafood | 1.99 € | — | 2.85 € | Barbora |
+| Vici Heeringafilee rasvane 240g | Fish & seafood | 3.09 € | — | 3.09 € | Barbora + Selver |
+| Vici Kuumsuitsu nahaga skumbriafilee 175g | Fish & seafood | 4.89 € | — | 5.89 € | Barbora |
+| Viru rand Heeringasalat murulauguga 360g | Fish & seafood | 4.99 € | — | 6.29 € | Barbora |
+| Viru rand Vürtsikilufileed 100g | Fish & seafood | 2.49 € | — | 2.89 € | Barbora |
 | Dan sukker Fariinsuhkur 500g | Flour & sugar | 1.95 € | — | 1.95 € | Barbora + Selver |
 | Dan sukker Hele muscovado suhkur 400g | Flour & sugar | 2.43 € | — | 2.43 € | Barbora + Selver |
 | Dan sukker Mini tükksuhkur 500g | Flour & sugar | 1.99 € | — | 1.95 € | Selver |
@@ -726,6 +746,59 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Vaarikatomat kg | Fruits & vegetables | 2.99 € | 2.59 € | — | Rimi |
 | Viinamari red globe punane kg | Fruits & vegetables | 3.99 € | — | 3.99 € | Barbora + Selver |
 | Virsik kg | Fruits & vegetables | — | 2.99 € | 3.99 € | Rimi |
+| Chef lunden Kanamaksapasteet 200g | Ham & cold cuts | 2.59 € | — | 2.59 € | Barbora + Selver |
+| Chef lunden Kodune pasteet 200g | Ham & cold cuts | — | 2.65 € | 2.59 € | Selver |
+| Frank pott Turistieine 325g | Ham & cold cuts | — | 2.29 € | 2.39 € | Rimi |
+| Frank pott Vürtsisealiha 325g | Ham & cold cuts | 2.29 € | — | 2.39 € | Barbora |
+| Karni Broileri rinnalihasink 300g | Ham & cold cuts | — | 3.69 € | 3.69 € | Rimi + Selver |
+| Karni Kuningate sink 120g | Ham & cold cuts | — | 2.49 € | 2.49 € | Rimi + Selver |
+| Linnamäe Metssealiha konserv 240g | Ham & cold cuts | 4.79 € | 4.79 € | — | Barbora + Rimi |
+| Maks & moorits Kreemjas kodupasteet 210g | Ham & cold cuts | 1.59 € | 1.59 € | — | Barbora + Rimi |
+| Maks & moorits Pitsasink 250g | Ham & cold cuts | 2.09 € | 1.89 € | — | Rimi |
+| Maks & moorits Pühajärve sink 300g | Ham & cold cuts | 2.54 € | 3.39 € | — | Barbora |
+| Matsimoka Küüslaugupekk viil 110g | Ham & cold cuts | 1.85 € | 1.85 € | — | Barbora + Rimi |
+| Matsimoka Pasteet 170g | Ham & cold cuts | 2.29 € | 2.29 € | 2.29 € (1.59 € Partner) | Barbora + Rimi + Selver |
+| Matsimoka Suitsuliha viilutatud 110g | Ham & cold cuts | — | 2.39 € | 2.45 € | Rimi |
+| Matsimoka Sült kallerdisega naturaalse 320g | Ham & cold cuts | — | 2.99 € | 4.26 € | Rimi |
+| Minu Turistieine de lux sealihast 525g | Ham & cold cuts | 4.79 € | 4.79 € | — | Barbora + Rimi |
+| Nõo Delikatess sült 300g | Ham & cold cuts | 2.45 € | 2.55 € | — | Barbora |
+| Nõo Hommikupeekon 135g | Ham & cold cuts | — | 1.79 € | 2.65 € | Rimi |
+| Nõo Kanasink fitlap 105g | Ham & cold cuts | — | 1.79 € | 2.23 € (1.49 € Partner) | Rimi |
+| Nõo Kanasült fitlap 300g | Ham & cold cuts | 2.89 € | 2.89 € | — | Barbora + Rimi |
+| Nõo Kodune maksapasteet 200g | Ham & cold cuts | 2.15 € | — | 2.15 € | Barbora + Selver |
+| Nõo Maksapasteet delikatess 200g | Ham & cold cuts | 1.95 € | 1.95 € | 2.19 € | Barbora + Rimi |
+| Nõo Pitsakate 300g | Ham & cold cuts | 3.29 € | 3.29 € | 3.29 € | Barbora + Rimi + Selver |
+| Nõo Seakõrvasnäkid 130g | Ham & cold cuts | 2.39 € | 2.79 € | 3.10 € | Barbora |
+| Nõo Suitsupõsk | Ham & cold cuts | 8.19 € | — | 9.14 € (5.99 € Partner) | Barbora |
+| Nõo Suitsutatud seakeel 200g | Ham & cold cuts | 2.69 € | — | 2.79 € | Barbora |
+| Nõo Suur memme sült 500g | Ham & cold cuts | 4.29 € | — | 4.29 € (2.99 € Partner) | Barbora + Selver |
+| Oskar E maksapasteet vaba 200g | Ham & cold cuts | 1.89 € | 1.89 € | — | Barbora + Rimi |
+| Oskar Sealihasült 330g | Ham & cold cuts | 3.05 € (2.15 € Aitäh) | 3.05 € | — | Barbora + Rimi |
+| Rakvere Kreemjas maksapasteet 300g | Ham & cold cuts | 1.99 € | 1.99 € | — | Barbora + Rimi |
+| Rakvere Prosciutto peekon viilutatud 140g | Ham & cold cuts | — | 2.59 € | 2.59 € | Rimi + Selver |
+| Rakvere Seavälisfilee suitsutatud 130g | Ham & cold cuts | — | 2.39 € | 11.99 € | Rimi |
+| Rakvere Snäkk pro ribisnäkk 300g | Ham & cold cuts | 3.45 € | 3.45 € | 3.45 € | Barbora + Rimi + Selver |
+| Rakvere Suitsusink 350g | Ham & cold cuts | 4.29 € | 3.85 € | — | Rimi |
+| Rakvere Talurulaad 350g | Ham & cold cuts | 3.29 € | — | 3.34 € (2.59 € Partner) | Barbora |
+| Rakvere Toorsuitsupeekon ameerikapärane 150g | Ham & cold cuts | — | 2.85 € | 2.99 € | Rimi |
+| Rakvere Toorsuitsupeekon inglisepärane 150g | Ham & cold cuts | — | 2.89 € | 2.94 € | Rimi |
+| Rakvere Toorsuitsupeekoni kuubikud 140g | Ham & cold cuts | 2.19 € | 2.09 € | 2.19 € | Rimi |
+| Rakvere Võileivapeekon 130g | Ham & cold cuts | 2.59 € | — | 2.63 € | Barbora |
+| Rannarootsi Hirveliha mahlas omas 240g | Ham & cold cuts | — | 3.59 € | 3.65 € | Rimi |
+| Rannarootsi Kodune pasteet 180g | Ham & cold cuts | 1.39 € | — | 1.09 € | Selver |
+| Rannarootsi Maksapasteet 240g | Ham & cold cuts | 1.85 € | — | 1.89 € | Barbora |
+| Rannarootsi Sealiha mahlas omas 240g | Ham & cold cuts | 2.89 € | — | 2.99 € | Barbora |
+| Rannarootsi Sealihasült 330g | Ham & cold cuts | 2.75 € | 2.59 € | 2.79 € | Rimi |
+| Rannarootsi Seasink ehe välisfileest 120g | Ham & cold cuts | — | 1.89 € | 1.69 € | Selver |
+| Rannarootsi Turistieine 240g | Ham & cold cuts | — | 2.89 € | 2.99 € | Rimi |
+| Rannarootsi Veiseliha mahlas omas 240g | Ham & cold cuts | 2.89 € | 2.89 € | 2.99 € | Barbora + Rimi |
+| Rannarootsi Veisesink ehe välisfileest 120g | Ham & cold cuts | — | 3.09 € | 3.15 € | Rimi |
+| Tallegg Delikatessrulaad 500g | Ham & cold cuts | 6.79 € | 6.79 € | 2.84 € | Selver |
+| Tallegg Kanafileesink fit 130g | Ham & cold cuts | — | 1.89 € | 1.89 € | Rimi + Selver |
+| Tallegg kanarulaad klassikaline 400g | Ham & cold cuts | 3.99 € | 4.99 € | — | Barbora |
+| Tallegg Kanasigar 200g | Ham & cold cuts | 2.99 € | 2.79 € | — | Rimi |
+| Tallegg Kanasink tilliga 130g | Ham & cold cuts | — | 1.69 € | 1.72 € | Rimi |
+| Tallegg Suitsukanakuubikud 300g | Ham & cold cuts | 4.35 € | — | 4.39 € | Barbora |
 | Balbiino Koorejäätis laktoosivaba lactose-free 480g | Ice cream | 5.69 € | — | 5.68 € | Selver |
 | Eriti rammus Koorejäätis mustika 110g | Ice cream | 1.78 € | 1.19 € | — | Rimi |
 | Eriti rammus Koorejäätis vanilli 100g | Ice cream | 1.78 € (1.19 € Aitäh) | 1.19 € | — | Rimi |
@@ -967,6 +1040,67 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Thai choice Magus tšillikaste 200ml | Sauces & condiments | 2.19 € | — | 2.09 € | Selver |
 | Vilux Sinep dijoni teraline 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
 | Vilux Sinep dijoni teravamaitseline 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
+| Karni Täissuitsuvorst kuningate 250g | Sausages | 3.95 € | 3.95 € | 3.95 € | Barbora + Rimi + Selver |
+| Maks & moorits Koduviiner 500g | Sausages | 2.05 € | 2.05 € | — | Barbora + Rimi |
+| Maks & moorits Sardell 375g | Sausages | 1.99 € | 2.29 € | — | Barbora |
+| Maks & moorits Suitsusardell lemmik 375g | Sausages | 2.19 € | 2.19 € | — | Barbora + Rimi |
+| Maks & moorits Suitsuviiner 300g | Sausages | 1.62 € | 1.69 € | — | Barbora |
+| Maks & moorits Täissuitsuvorst pepperoni 240g | Sausages | 3.59 € | 2.39 € | — | Rimi |
+| Maks & moorits Väike viiner 260g | Sausages | 1.89 € | 1.69 € | — | Rimi |
+| Matsimoka Salaami chorizo 150g | Sausages | 3.45 € | — | 3.45 € | Barbora + Selver |
+| Matsimoka Salaami traditsiooniline 150g | Sausages | 3.45 € | — | 3.45 € | Barbora + Selver |
+| Matsimoka Suitsuvorst juustuga 240g | Sausages | 3.79 € | 3.79 € | 4.09 € | Barbora + Rimi |
+| Matsimoka Tailihaviiner 250g | Sausages | 4.05 € | 4.05 € | 4.06 € | Barbora + Rimi |
+| Nõo Grillvorstid jäägri 365g | Sausages | 4.65 € | 4.59 € | 4.59 € | Rimi + Selver |
+| Nõo Keedusalaami tarbatu 105g | Sausages | — | 3.59 € | 3.65 € | Rimi |
+| Nõo Keedusalaami vasalli 250g | Sausages | 4.99 € | — | 3.19 € | Selver |
+| Nõo Keeduvorst nomps 350g | Sausages | 4.99 € | — | 4.99 € (3.39 € Partner) | Barbora + Selver |
+| Nõo Suitsuvorst terräv treski 240g | Sausages | 4.69 € | — | 4.69 € | Barbora + Selver |
+| Nõo Täislihaviiner suitsutatud 310g | Sausages | 4.35 € | — | 4.39 € | Barbora |
+| Nõo Täissuitsuvorst eesti juustuga 250g | Sausages | 4.89 € | 4.89 € | — | Barbora + Rimi |
+| Nõo Täissuitsuvorst juustuga moskva 250g | Sausages | 4.39 € | 4.39 € | — | Barbora + Rimi |
+| Nõo Täissuitsuvorst moskva 250g | Sausages | 4.19 € | 3.59 € | 4.19 € (3.49 € Partner) | Rimi |
+| Nõo Täissuitsuvorst wabariigi 250g | Sausages | 4.25 € | 4.25 € | 3.29 € | Selver |
+| Oskar E lihaviiner vaba 125g | Sausages | 1.49 € | 1.49 € | 1.19 € | Selver |
+| Oskar Täissuitsuvorst moskva 210g | Sausages | 4.59 € | 4.59 € | 4.59 € | Barbora + Rimi + Selver |
+| Oskar Viiner lambasooles päris 350g | Sausages | 3.65 € | 3.65 € | — | Barbora + Rimi |
+| Rakvere Grillvorstid juustuga rohke 400g | Sausages | 4.29 € | 3.99 € | 4.29 € | Rimi |
+| Rakvere Keeduvorst doktori 300g | Sausages | 1.55 € | — | 2.02 € | Barbora |
+| Rakvere Keeduvorst juustu 300g | Sausages | 1.75 € | — | 2.43 € | Barbora |
+| Rakvere Krakov lihakas 300g | Sausages | — | 2.99 € | 2.39 € | Selver |
+| Rakvere Lasteviiner 200g | Sausages | 1.89 € | 1.49 € | 1.89 € | Rimi |
+| Rakvere Mini juustuviiner 200g | Sausages | 2.29 € | — | 2.39 € | Barbora |
+| Rakvere Poolsuitsuvorst 350g | Sausages | 3.69 € | 3.79 € | — | Barbora |
+| Rakvere Poolsuitsuvorst servelaat 500g | Sausages | 5.79 € | 5.79 € | 6.29 € | Barbora + Rimi |
+| Rakvere Salaami itaaliapärane 130g | Sausages | — | 3.19 € | 2.49 € | Selver |
+| Rakvere Šašlõki toorvorstid 400g | Sausages | 4.19 € | 3.79 € | 4.39 € | Rimi |
+| Rakvere Suitsujuustuvorst lihakas 360g | Sausages | 3.49 € | 3.15 € | 3.75 € | Rimi |
+| Rakvere Suitsusardell 500g | Sausages | 2.99 € | 2.99 € | — | Barbora + Rimi |
+| Rakvere Täissuitsuvorst mõnus 210g | Sausages | 3.79 € | 3.79 € | — | Barbora + Rimi |
+| Rakvere Toorsuitsuvorst seemnekattega 110g | Sausages | — | 2.59 € | 2.49 € | Selver |
+| Rakvere Toorvorstid merevaigu 400g | Sausages | 5.19 € (3.99 € Aitäh) | 3.49 € | — | Rimi |
+| Rakvere Toorvorstid mustika 400g | Sausages | 4.99 € | 4.65 € | — | Rimi |
+| Rakvere Verikäkk 440g | Sausages | 1.85 € | 1.85 € | — | Barbora + Rimi |
+| Rakvere Verivorst 500g | Sausages | 2.35 € | 2.39 € | — | Barbora |
+| Rakvere Viiner 500g | Sausages | 2.69 € | 2.69 € | 3.45 € | Barbora + Rimi |
+| Rakvere Viiner lihakas 260g | Sausages | — | 2.89 € | 2.99 € | Rimi |
+| Rannarootsi Frankfurter 500g | Sausages | 2.59 € | — | 3.55 € (2.79 € Partner) | Barbora |
+| Rannarootsi Miniviiner ehe 200g | Sausages | 1.95 € (1.59 € Aitäh) | 1.95 € | 1.99 € | Barbora + Rimi |
+| Rannarootsi Poolsuitsuvorst juustu 330g | Sausages | 3.35 € | — | 1.75 € | Selver |
+| Rannarootsi Poolsuitsuvorst kalevi 330g | Sausages | 2.99 € | — | 3.09 € | Barbora |
+| Rannarootsi Sealihasardell 500g | Sausages | 3.29 € | 2.85 € | 3.39 € | Rimi |
+| Rannarootsi Suitsusardell 500g | Sausages | 2.39 € | 2.89 € | 2.39 € | Barbora + Selver |
+| Rannarootsi Suitsusardell ehe 375g | Sausages | — | 3.25 € | 3.23 € (2.59 € Partner) | Selver |
+| Rannarootsi Suitsusardell juustuga 500g | Sausages | 3.09 € | 3.15 € | 3.13 € | Barbora |
+| Rannarootsi Täissuitsuvorst hirve 240g | Sausages | 3.55 € | 3.55 € | 3.55 € | Barbora + Rimi + Selver |
+| Rannarootsi Viiner ehe 330g | Sausages | 2.89 € | 2.61 € | 2.49 € | Selver |
+| Toored grillvorstid lambasooles vk 400g | Sausages | 3.69 € | 3.69 € | — | Barbora + Rimi |
+| Valla Keeduvorst juustu 600g | Sausages | 1.99 € | — | 1.98 € | Selver |
+| Wõro Juustuvorst 600g | Sausages | 2.09 € | 2.09 € | 2.12 € | Barbora + Rimi |
+| Wõro Õllemops juustuga 500g | Sausages | 2.29 € | 2.39 € | 3.39 € | Barbora |
+| Wõro Peipsi sibulagrill 900g | Sausages | 3.99 € | 4.59 € | 4.99 € | Barbora |
+| Wõro Poolsuitsuvorst tõmmu 350g | Sausages | 1.59 € | — | 2.19 € (1.69 € Partner) | Barbora |
+| Wõro Suitsuvorst juustuga tõmmu 350g | Sausages | — | 2.55 € | 2.39 € (2.09 € Partner) | Selver |
 | Kotanyi Loorberilehed 4g | Spices | 1.39 € (0.99 € Aitäh) | 1.55 € | — | Barbora |
 | Meira Cajuni vürts 32g | Spices | 1.45 € | — | 1.47 € | Barbora |
 | Meira Jahvatatud kardemon 8g | Spices | 0.89 € | — | 0.90 € | Barbora |
@@ -1123,6 +1257,22 @@ Card prices shown in parentheses are informational only — never used to decide
 | Rice & grains | Barbora "Riis Poke bowl BOSTO 500g" (3.65 €); Barbora "Riis Poke bowl BOSTO 500g" (3.65 €); Rimi "Riis Bosto Poke Bowl 500g" (3.69 €); Selver "Poke bowl riis, BOSTO, 500 g" (3.65 €) |
 | Cooking oil | Rimi "Ekstra väärisoliiviõli Borges 500ml" (9.65 €); Selver "Ekstra väärisoliiviõli, BORGES, 500 ml" (10.49 €); Selver "Ekstra väärisoliiviõli, BORGES, 500 ml" (11.69 €) |
 | Coffee | Barbora "Jahvatatud kohv Espresso LAVAZZA 250g" (9.99 €); Barbora "Jahvatatud kohv LAVAZZA Espresso 250g" (10.99 €); Rimi "Kohv jahvatatud Lavazza Espresso 250g" (9.99 €) |
+| Sausages | Barbora "Keeduvorst Laste RAKVERE, 300g" (1.55 €); Selver "Keeduvorst Laste, RAKVERE LK, 190 g" (1.69 €); Selver "Keeduvorst Laste, RAKVERE LK, 300 g" (2.12 €); Selver "Keeduvorst Laste, RAKVERE, kg" (6.99 €) |
+| Sausages | Barbora "Doktorivorst RAKVERE, 600g" (3.95 €); Rimi "Doktorivorst Rakvere 300g" (1.55 €); Rimi "Doktorivorst Rakvere 600g" (3.95 €); Selver "Doktorivorst, RAKVERE LK, 600 g" (3.95 €) |
+| Sausages | Barbora "Juustuvorst RAKVERE, 600g" (4.45 €); Rimi "Juustuvorst Rakvere 300g" (1.55 €); Rimi "Juustuvorst Rakvere 600g" (4.49 €); Selver "Juustuvorst, RAKVERE LK, 600 g" (4.46 €) |
+| Sausages | Barbora "Lastevorst RAKVERE, 600g" (3.85 €); Rimi "Lastevorst Rakvere 600g" (3.69 €); Rimi "Lastevorst Rakvere 300g" (1.55 €); Selver "Lastevorst, RAKVERE LK, 600 g" (3.85 €) |
+| Sausages | Barbora "Lastevorst VALLA, 600g" (2.09 €); Rimi "Lastevorst Valla 1kg" (2.29 €); Rimi "Lastevorst Valla 240g" (0.92 €); Selver "Lastevorst, VALLA, 240 g" (1.15 €) |
+| Sausages | Barbora "Pereviiner RAKVERE, 500g" (2.29 €); Rimi "Pereviiner Rakvere 900g" (3.59 €); Rimi "Pereviiner Rakvere 500g" (1.99 €); Selver "Pereviiner, RAKVERE LK, 500 g" (1.99 €) |
+| Sausages | Barbora "Täissuitsuvorst Pepperoni OSKAR, 210g" (4.89 €); Rimi "Täissuitsuvorst Pepperoni Oskar 210g" (4.89 €); Selver "Pepperoni täissuitsuvorst, OSKAR, 210 g" (4.89 €); Selver "Täissuitsuvorst Pepperoni, OSKAR, 80 g" (1.79 €) |
+| Sausages | Barbora "Palermo salaami RAKVERE,200g" (3.39 €); Rimi "Salaami Palermo Rakvere 110g" (2.69 €); Rimi "Salaami Palermo Rakvere 200g" (3.45 €); Selver "Palermo salaami , RAKVERE LK, 200 g" (3.49 €); Selver "Palermo salaami, RAKVERE, 110 g" (2.79 €) |
+| Sausages | Barbora "Suitsuvorst Tamula WÕRO,350g" (2.39 €); Barbora "Suitsuvorst Tamula WÕRO,150g" (1.35 €); Rimi "Suitsuvorst Tamula Wõro 150g" (1.19 €); Rimi "Suitsuvorst Tamula Wõro 350g" (2.45 €) |
+| Sausages | Barbora "E-vaba täissuitsuvorst OSKAR,210g" (3.79 €); Rimi "Täissuitsuvorst E-vaba Oskar 210g" (3.79 €); Selver "Täissuitsuvorst E-vaba, OSKAR, 210 g" (5.22 €); Selver "Täissuitsuvorst E-vaba, OSKAR, 120 g" (3.29 €) |
+| Sausages | Rimi "Lastevorst Lihakas Rakvere 360g" (3.45 €); Selver "Lihakas Lastevorst, RAKVERE LK, 360 g" (3.85 €); Selver "Lihakas lastevorst, RAKVERE, 170 g" (2.08 €) |
+| Ham & cold cuts | Barbora "Suitsusingike RAKVERE, 350g" (4.99 €); Rimi "Suitsusingike Rakvere 130g" (2.29 €); Rimi "Suitsusingike Rakvere 350g" (4.99 €); Selver "Suitsusingike, RAKVERE LK, 350 g" (5.99 €) |
+| Ham & cold cuts | Rimi "Suitsupeekon Rakvere 130g" (3.15 €); Selver "Rakvere suitsupeekon, RAKVERE, kg" (11.99 €); Selver "Suitsupeekon, RAKVERE LK, 130 g" (3.13 €) |
+| Fish & seafood | Barbora "Heeringafilee traditsiooniline VICI,240g" (3.19 €); Barbora "Heeringafilee traditsiooniline VICI,400g" (4.99 €); Barbora "Heeringafilee traditsiooniline VICI 1kg" (9.99 €); Selver "Heeringafilee traditsiooniline, VICI, 240 g" (3.19 €); Selver "Heeringafilee traditsiooniline, VICI, 400 g" (4.99 €) |
+| Fish & seafood | Barbora "Jahutatud surimist pulgad VICI, 150g" (2.19 €); Barbora "Jahutatud surimist pulgad VICI, 500g" (5.99 €); Selver "Surimist pulgad, VICI, 150 g" (2.09 €); Selver "Surimist pulgad, VICI, 300 g" (4.09 €) |
+| Fish & seafood | Rimi "Sprotid õlis Rannaküla 240g" (2.99 €); Rimi "Sprotid õlis Rannaküla 160g" (2.85 €); Selver "Sprotid õlis, RANNAKÜLA, 250 g" (4.79 €); Selver "Sprotid õlis, RANNAKÜLA, 160 g" (2.99 €); Selver "Sprotid õlis, RANNAKÜLA, 100 g" (2.29 €); Selver "Sprotid õlis, RANNAKÜLA, 160 g" (2.85 €) |
 
 ## 3. Unclassified
 
@@ -1136,6 +1286,7 @@ No recognized type and no recognized brand on any side — never had a reliable 
 | Selver | Marineeritud kuuseriisikad, 450 g | 5.99 € |
 | Rimi | Must tee mango-virsiku maitseline 20x1,7g | 2.75 € |
 | Rimi | Roheline tee mangomaitseline 20x1,5g | 2.75 € |
+| Barbora | Marineeritud angersäga, 250g | 7.69 € |
 
 ## 4. Possible matches to check by hand
 
@@ -1815,4 +1966,104 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Rimi "Pealinna minipelmeenid 700g" (4.39 €) | Selver "Minipelmeenid Pealinna, PREMIA, 700 g" (4.29 €) |
 | Rimi "Minipelmeenid Pealinna 350g" (2.35 €) | Selver "Minipelmeenid Pealinna, PREMIA, 350 g" (2.39 €) |
 | Rimi "Kartulipallid Aviko külmutatud 600g" (2.75 €) | Selver "Kartulipallid, AVIKO, 600 g" (2.43 €) |
+
+### Sausages (25)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Juustuvorst VALLA, 240g viil" (1.25 €) | Selver "Juustuvorst viilutatud, VALLA, 240g" (1.19 €) |
+| Barbora "Lastevorst XL M&M, 300g viil" (1.65 €) | Rimi "Lastevorst XL viilutatud Maks&Moorits 300g" (1.95 €) |
+| Barbora "Juustuvorst RAKVERE, 190g viil" (1.89 €) | Selver "Juustuvorst viilutatud, RAKVERE LK, 190 g" (1.92 €) |
+| Barbora "Merevaigu grillvorstid RAKVERE 600g" (4.99 €) | Rimi "Klassikalised grillvorstid Rakvere 600g" (4.39 €) |
+| Barbora "Merevaigu grillvorstid RAKVERE 600g" (4.99 €) | Rimi "Grillvorstid Merevaik Rakvere 600g" (4.49 €) |
+| Barbora "Šašlõkivorst MATSIMOKA,365g" (5.69 €) | Rimi "Šašlõkivorst lambasooles Matsimoka 365g" (5.99 €) |
+| Barbora "Kanaviinerid TALLEGG, 400g" (1.99 €) | Rimi "Kanaviiner Tallegg 400g" (1.99 €) |
+| Barbora "Poolsuitsuvorst Täpi NÕO, 135g viil" (2.89 €) | Selver "Poolsuitsuvorst Täpi, NÕO, 135 g" (2.94 €) |
+| Barbora "Poolsuitsuvorst Mini NÕO, 135g viil" (2.79 €) | Selver "Poolsuitsuvorst Mini, NÕO, 135 g" (2.80 €) |
+| Barbora "Poolsuitsuvorst Krakov NÕO, 270g" (3.65 €) | Rimi "Vorst Krakov Nõo 270g" (2.99 €) |
+| Barbora "Poolsuitsuvorst Krakov NÕO, 270g" (3.65 €) | Selver "Poolsuitsuvorst Krakovi, NÕO, 270 g" (3.65 €) |
+| Barbora "Keedusalaami Paruni NÕO, 90g viil" (2.75 €) | Rimi "Keedusalaami Paruni Nõo 90g" (2.75 €) |
+| Barbora "E-vaba täissuitsuvorst OSKAR, 120g viil" (3.25 €) | Rimi "Täissuitsuvorst e-vaba viilutatud Oskar 120g" (3.19 €) |
+| Barbora "Täissuitsuvorst Ordu küüslaugug.NÕO,250g" (4.79 €) | Rimi "Täissuitsuvorst Ordu Nõo 250g" (4.79 €) |
+| Barbora "Täissuitsuvorst Kalevipoja NÕO, 250g" (4.39 €) | Rimi "Täissuitsuvorst Ordu Nõo 250g" (4.79 €) |
+| Barbora "Täissuitsuvorst Kalevipoja NÕO, 250g" (4.39 €) | Selver "BBQ täissuitsuvorst, NÕO, 250 g" (5.09 €) |
+| Barbora "Täissuitsuvorst Moskva RANNAROOTSI,240g" (3.49 €) | Selver "Lihaveise täissuitsuvorst, RANNAROOTSI, 240 g" (3.75 €) |
+| Barbora "Täissuitsuvorst veise RANNAROOTSI,240g" (3.59 €) | Selver "Lihaveise täissuitsuvorst, RANNAROOTSI, 240 g" (3.75 €) |
+| Barbora "Poolsuitsuvorst Krakov VALLA, 450g" (2.69 €) | Rimi "Vorst Krakov Valla 450g" (2.59 €) |
+| Barbora "Täissuitsuvorst Tooma M&M, 240g" (3.29 €) | Rimi "Täissuitsuvorst klassik. Maks&Moorits 240g" (2.39 €) |
+| Barbora "Täissuitsuvorst Tõeline RAKVERE, 210g" (3.79 €) | Rimi "Täissuitsuvorst Äge Rakvere 210g" (3.79 €) |
+| Barbora "Täissuitsuvorst klassikaline M&M 240g" (3.59 €) | Rimi "Täissuitsuvorst klassik. Maks&Moorits 240g" (2.39 €) |
+| Rimi "Lihaveise täissuitsuv. Rannarootsi 240g" (3.59 €) | Selver "Lihaveise täissuitsuvorst, RANNAROOTSI, 240 g" (3.75 €) |
+| Rimi "Täissuitsuvorst Ordu Nõo 250g" (4.79 €) | Selver "BBQ täissuitsuvorst, NÕO, 250 g" (5.09 €) |
+| Rimi "Maitsesalaami viilutatud Karni 120g" (2.49 €) | Selver "Maitsesalaami, KARNI, 120 g" (2.59 €) |
+
+### Ham & cold cuts (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Rulaad NÕO, 135g viil" (2.49 €) | Rimi "Rulaad Nõo viilutatud Nõo 135g" (1.79 €) |
+| Barbora "Rulaad NÕO, 135g viil" (2.49 €) | Selver "Rulaad Nõo, NÕO, 135 g" (2.49 €) |
+| Barbora "Kaelakarbonaad NÕO, 135g viil" (2.69 €) | Selver "Kaelakarbonaad, NÕO, 135 g" (2.69 €) |
+| Barbora "Kalkunifileesink NÕO, 105g viil" (2.02 €) | Rimi "Kalkunifileesink Nõo 105g" (1.79 €) |
+| Barbora "Veiserind OSKAR, 100g viil" (2.85 €) | Rimi "Veiserind viilutatud Oskar 100g" (2.85 €) |
+| Barbora "Lõunasink OSKAR, 300g viil" (2.32 €) | Selver "Lõunasink, OSKAR, 300 g" (3.13 €) |
+| Barbora "Maamehe suitsusink NÕO, 105g viil" (2.14 €) | Selver "Maamehe suitsusink, NÕO, 105 g" (2.90 €) |
+| Barbora "Eri suitsupeekon OSKAR, 120g viil" (2.49 €) | Rimi "Suitsupeekon viilutatud Eri Oskar 120g" (2.49 €) |
+| Barbora "Suitsupeekon Ehe RANNAROOTSI,120g viil" (2.39 €) | Selver "Suitsupeekon Ehe, RANNAROOTSI, 120 g" (2.49 €) |
+| Barbora "Õhuline Viru sink RAKVERE, 150g viil" (1.27 €) | Selver "Õhuline Viru sink, RAKVERE LK, 150 g" (1.72 €) |
+| Barbora "Kalkunisink Fitlap NÕO, 105g viil" (1.87 €) | Selver "Kalkunisink Fitlap, NÕO LIHAVÜRST, 105 g" (2.53 €) |
+| Barbora "Talusink M&M,150g viil" (1.79 €) | Rimi "Talusink Maks&Moorits 150g" (2.39 €) |
+| Barbora "Einepeekon MAKS&MOORITS, 150g viil" (1.99 €) | Rimi "Einepeekon Maks&Moorits 150g" (1.99 €) |
+| Barbora "Seaseljafilee NÕO, 105g viil" (2.65 €) | Rimi "Seaseljafilee suits. Nõo 105g" (1.79 €) |
+| Barbora "Kanasink TALLEGG,300g viil" (3.14 €) | Rimi "Kanasink Tallegg 300g" (2.99 €) |
+| Barbora "Viru sink RAKVERE,300g viil" (2.59 €) | Rimi "Viru sink Rakvere 300g" (3.49 €) |
+| Barbora "Suitsurulaad RAKVERE,130g viil" (1.87 €) | Rimi "Suitsurulaad Rakvere 130g" (2.49 €) |
+| Barbora "Veisemaksapasteet NÕO, 200g" (1.99 €) | Rimi "Hanemaksapasteet Nõo 200g" (2.25 €) |
+| Barbora "Hautatud veiseliha FRANK POTT, 240g" (1.85 €) | Selver "Hautatud sealiha, FRANK POTT, 240 g" (1.79 €) |
+| Barbora "Hautatud kanaliha FRANK POTT, 240g" (2.09 €) | Selver "Hautatud sealiha, FRANK POTT, 240 g" (1.79 €) |
+| Barbora "Kons.turistieine sealihast MINU 250g" (2.05 €) | Rimi "Turistieine sealihast Minu 250g" (2.05 €) |
+| Barbora "Vinnut.veiseliha Hot KARNI,50g" (2.79 €) | Selver "Vinnutatud veiseliha Hot, KARNI, 50 g" (2.80 €) |
+| Barbora "Vinnut.veiseliha Teriyaki KARNI,50g" (2.79 €) | Rimi "Vinnut. veiseliha Teriyaki Jerkey Karni 50g" (2.79 €) |
+| Barbora "Vinnut.veiseliha Teriyaki KARNI,50g" (2.79 €) | Selver "Vinnutatud veiseliha Teriyaki, KARNI, 50 g" (2.80 €) |
+| Barbora "Vinnut.veiseliha Original KARNI,50g" (2.79 €) | Rimi "Kuivatatud veiseliha Original Karni 50g" (2.79 €) |
+| Barbora "Vinnut.veiseliha Original KARNI,50g" (2.79 €) | Selver "Vinnutatud veiseliha Original, KARNI, 50 g" (2.80 €) |
+| Barbora "Snäkk 'n' Go sealiha NÕO,70g" (2.29 €) | Rimi "Sealiha snäkk Snack 'n' Go Nõo 70g" (1.99 €) |
+| Barbora "Snäkk 'n' Go Chorizo NÕO,70g" (2.29 €) | Rimi "Chorizo snäkk Snack 'n' Go Nõo 70g" (1.99 €) |
+| Rimi "Rulaad Nõo viilutatud Nõo 135g" (1.79 €) | Selver "Rulaad Nõo, NÕO, 135 g" (2.49 €) |
+| Rimi "Suitsukana poolkoivad Tallegg 600g" (4.89 €) | Selver "Suitsukana poolkoib, TALLEGG, 600 g" (5.09 €) |
+
+### Fish & seafood (30)
+
+| Item A | Item B |
+|---|---|
+| Barbora "Soolalõhe viilutatud M.V.WOOL,100g" (3.07 €) | Selver "Soolalõhe fileelõigud viilutatud, M.V.WOOL, 100 g" (2.99 €) |
+| Barbora "Skumbria õlis KAIJA, 240g" (3.09 €) | Rimi "Skumbria õlis Kaija 240g/144g" (3.09 €) |
+| Barbora "Skumbria tomatikastmes KAIJA, 240g" (3.05 €) | Selver "Skumbria tomatikastmes EO, KAIJA, 240 g" (2.99 €) |
+| Barbora "Skumbria omas mahlas KAIJA, 240g" (3.05 €) | Selver "Skumbria omas mahlas EO, KAIJA, 240 g" (2.89 €) |
+| Barbora "Sprotid õlis KAIJA, 190g" (3.45 €) | Rimi "Sprotid õlis EO Kaija 190g" (3.49 €) |
+| Barbora "Marineeritud hõbeheik M.V.Wool, 250g" (4.49 €) | Selver "Marineeritud heik, M.V.WOOL, 250 g" (4.49 €) |
+| Barbora "Marineeritud hõbeheik M.V.Wool, 250g" (4.49 €) | Selver "Marineeritud skumbria, M.V.WOOL, 250 g" (5.29 €) |
+| Barbora "Tursamaks VICI, EO 121g" (3.29 €) | Selver "Tursamaks, VICI, 121 g" (3.29 €) |
+| Barbora "Skumbria õlis KAPTEN GRANT,240g" (2.55 €) | Rimi "Sardiinid õlis Kapten Grant 240g" (2.19 €) |
+| Barbora "Lõhetükid tomatikast. KAPTEN GRANT, 230g" (2.99 €) | Rimi "Lõhetükid tomatikastmes Kapten Grant 230g" (2.99 €) |
+| Barbora "Sprotid tomatikastmes KAPTEN GRANT, 230g" (3.19 €) | Rimi "Lõhetükid tomatikastmes Kapten Grant 230g" (2.99 €) |
+| Barbora "Kalapallid tomatikastmes MINU, EO 240g" (2.15 €) | Selver "Sprotid tomatikastmes EO, MINU, 240 g" (3.49 €) |
+| Barbora "Kalapallid tomatikastmes MINU, EO 240g" (2.15 €) | Selver "Kilu tomatikastmes EO, MINU, 240 g" (2.19 €) |
+| Barbora "Tuunikala pipra ja sidruniga KAIJA 160g" (4.49 €) | Rimi "Tuunikala roh. pipra ja sidruniga Kaija 160g" (3.59 €) |
+| Barbora "Vähes.heeringafilee õlis ZIGMAS, 240g" (2.39 €) | Rimi "Heeringafilee õlis vähesoolatud Zigmas 240g" (2.49 €) |
+| Barbora "Heeringafilee vähesoolane KGrant, 240g" (2.49 €) | Selver "Heeringafilee vähesoolane, KAPTEN GRANT, 240 g" (1.99 €) |
+| Barbora "Heeringafilee ilma õlita VICI, 200g" (2.89 €) | Selver "Atlandi heeringafilee ilma õlita, VICI, 200 g" (2.89 €) |
+| Barbora "Räimerullid küüslaugumar.VIRU RAND, 400g" (4.99 €) | Selver "Räimerullid küüslaugumarinaadis, VIRU RAND, 400 g" (5.69 €) |
+| Barbora "Vürtsikilufilee BRIIS, 160g" (2.59 €) | Rimi "Vürtskilufilee Briis 160g" (2.59 €) |
+| Barbora "Anšoovis filee klassikaline BRIIS,145g" (2.05 €) | Selver "Anchovy klassikaline filee, BRIIS, 145 g" (2.05 €) |
+| Barbora "Pr.räimed tomatikastmes KALURI,500g" (3.89 €) | Selver "Praetud räimed tomatikastmes, KALURI, 500 g" (3.89 €) |
+| Barbora "Vürtsisilgufilee KAPTEN GRANT, 100g" (2.49 €) | Selver "Forellimari, KAPTEN GRANT, 100 g" (10.79 €) |
+| Barbora "Pr.räimed koduses marinaadis KALURI,500g" (3.79 €) | Selver "Praetud räimed koduses marinaadis, KALURI, 500 g" (3.69 €) |
+| Barbora "Kuivatatud tursk MSDM, 36g" (1.99 €) | Rimi "Tursk vürtsikas kuivatatud MSDM 36g" (2.15 €) |
+| Barbora "Kuivatatud tursk MSDM, 36g" (1.99 €) | Selver "Tursk suitsutatud, MSDM, 36 g" (1.99 €) |
+| Barbora "Kuivatatud tursk MSDM, 36g" (1.99 €) | Selver "Tursk vähesoolane, MSDM, 36 g" (1.99 €) |
+| Barbora "Jah. surimist liha Lumekrabi , 120g" (2.19 €) | Selver "Surimist liha Lumekrabi, VICI, 120 g" (1.49 €) |
+| Barbora "Jah. krabinuudel, surimi, VICI, 200g" (3.15 €) | Selver "Krabinuudel surimi, VICI, 200 g" (2.09 €) |
+| Barbora "Jah. surimist pulgad Smart Choice, 250g" (2.49 €) | Selver "Surimist pulgad Smart Choice, VICI, 250 g" (2.49 €) |
+| Barbora "Maksikrevetid surimi soolvees, 320g" (3.99 €) | Selver "Maksikrevetid surimist soolvees, VICI, 320 g" (3.99 €) |
 

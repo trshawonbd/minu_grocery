@@ -27131,5 +27131,1243 @@
     },
     "matchedVia": "automatic",
     "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Pitsakate 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pitsakate-noo-300-g",
+        "size": "300g",
+        "storeUnitPrice": 10.97
+      },
+      "rimi": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/pitsakate-noo-300g/p/265265",
+        "size": "300g",
+        "storeUnitPrice": 10.97
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pitsakate-noo-300-g",
+        "size": "300g",
+        "storeUnitPrice": 10.97
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg kanarulaad klassikaline 400g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/klassikaline-broilerirulaad-tallegg-400-g",
+        "size": "400g",
+        "storeUnitPrice": 9.98
+      },
+      "rimi": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanarulaad-klassikaline-tallegg-400g/p/276651",
+        "size": "400g",
+        "storeUnitPrice": 12.47
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Suitsusink 350g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suitsusink-rakvere-350-g",
+        "size": "350g",
+        "storeUnitPrice": 12.26
+      },
+      "rimi": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/suitsusink-rakvere-350g/p/285773",
+        "size": "350g",
+        "storeUnitPrice": 11
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Delikatessrulaad 500g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 6.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/delikatessrulaad-tallegg-500-g",
+        "size": "500g",
+        "storeUnitPrice": 13.58
+      },
+      "rimi": {
+        "price": 6.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/delikatessrulaad-tallegg-500g/p/912505",
+        "size": "500g",
+        "storeUnitPrice": 13.58
+      },
+      "selver": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/delikatessrulaad-tallegg-130-g",
+        "size": "130g",
+        "storeUnitPrice": 21.85
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Toorsuitsupeekoni kuubikud 140g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/toorsuitsupeekoni-kuubikud-rakvere-140-g",
+        "size": "140g",
+        "storeUnitPrice": 15.64
+      },
+      "rimi": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/toorsuitsupeekoni-kuubikud-rakvere-140g/p/924668",
+        "size": "140g",
+        "storeUnitPrice": 14.93
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toorsuitsupeekoni-kuubikud-rakvere-lk-140-g",
+        "size": "140g",
+        "storeUnitPrice": 15.64
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Talurulaad 350g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/talurulaad-rakvere-350-g",
+        "size": "350g",
+        "storeUnitPrice": 9.4
+      },
+      "selver": {
+        "price": 3.34,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/talurulaad-rakvere-lk-350-g",
+        "cardPrice": 2.59,
+        "cardName": "Partner",
+        "size": "350g",
+        "storeUnitPrice": 9.54
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Võileivapeekon 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/voileivapeekon-rakvere-130-g",
+        "size": "130g",
+        "storeUnitPrice": 19.92
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voileivapeekon-rakvere-130-g",
+        "size": "130g",
+        "storeUnitPrice": 20.23
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Pitsasink 250g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pitsasink-m-m-250-g",
+        "size": "250g",
+        "storeUnitPrice": 8.36
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/pitsasink-maks-moorits-250g/p/904482",
+        "size": "250g",
+        "storeUnitPrice": 7.56
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Pühajärve sink 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.54,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/puhajarve-sink-m-m-300-g",
+        "size": "300g",
+        "storeUnitPrice": 8.47
+      },
+      "rimi": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/puhajarve-sink-maks-moorits-300g/p/922748",
+        "size": "300g",
+        "storeUnitPrice": 11.3
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Küüslaugupekk viil 110g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kuuslaugupekk-matsimoka-110-g-viil",
+        "size": "110g",
+        "storeUnitPrice": 16.82
+      },
+      "rimi": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kuuslaugupekk-matsimoka-viil-110g/p/995493",
+        "size": "110g",
+        "storeUnitPrice": 16.82
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Suitsutatud seakeel 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suitsutatud-seakeel-noo-200-g",
+        "size": "200g",
+        "storeUnitPrice": 13.45
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsutatud-seakeel-noo-200-g",
+        "size": "200g",
+        "storeUnitPrice": 13.95
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Suitsupõsk",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suitsuposk-noo-kg",
+        "storeUnitPrice": 8.19
+      },
+      "selver": {
+        "price": 9.14,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsuposk-noo-kg",
+        "cardPrice": 5.99,
+        "cardName": "Partner",
+        "storeUnitPrice": 9.14
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Suitsukanakuubikud 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suitsukanakuubikud-tallegg-300-g",
+        "size": "300g",
+        "storeUnitPrice": 14.5
+      },
+      "selver": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsukanakuubikud-tallegg-300-g",
+        "size": "300g",
+        "storeUnitPrice": 14.63
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Sealihasült 330g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sealihasult-rannarootsi-330-g",
+        "size": "330g",
+        "storeUnitPrice": 8.33
+      },
+      "rimi": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/sult/sealihasult-rannarootsi-330g/p/203338",
+        "size": "330g",
+        "storeUnitPrice": 7.85
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sealihasult-rannarootsi-330-g",
+        "size": "330g",
+        "storeUnitPrice": 8.45
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar Sealihasült 330g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sealihasult-oskar-330-g",
+        "cardPrice": 2.15,
+        "cardName": "Aitäh",
+        "size": "330g",
+        "storeUnitPrice": 6.51
+      },
+      "rimi": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/sult/sealihasult-oskar-330g/p/288408",
+        "size": "330g",
+        "storeUnitPrice": 9.24
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Delikatess sült 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/delikatess-sult-noo-300-g",
+        "size": "300g",
+        "storeUnitPrice": 8.17
+      },
+      "rimi": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/sult/delikatess-sult-noo-300g/p/982237",
+        "size": "300g",
+        "storeUnitPrice": 8.5
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Suur memme sült 500g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suur-sult-memme-noo-500-g",
+        "size": "500g",
+        "storeUnitPrice": 8.58
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/memme-suur-sult-noo-500-g",
+        "cardPrice": 2.99,
+        "cardName": "Partner",
+        "size": "500g",
+        "storeUnitPrice": 8.58
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Kanasült fitlap 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanasult-fitlap-noo-300-g",
+        "size": "300g",
+        "storeUnitPrice": 9.63
+      },
+      "rimi": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/sult/kanasult-fitlap-noo-300g/p/980127",
+        "size": "300g",
+        "storeUnitPrice": 9.63
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Kodune maksapasteet 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodune-maksapasteet-noo-200-g",
+        "size": "200g",
+        "storeUnitPrice": 10.75
+      },
+      "selver": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodune-maksapasteet-noo-200g",
+        "size": "200g",
+        "storeUnitPrice": 10.75
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Maksapasteet 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/maksapasteet-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 7.71
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maksapasteet-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 7.88
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Kodune pasteet 180g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodune-pasteet-rannarootsi-180-g",
+        "size": "180g",
+        "storeUnitPrice": 7.72
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodune-pasteet-rannarootsi-180-g",
+        "size": "180g",
+        "storeUnitPrice": 6.06
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar E maksapasteet vaba 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/e-vaba-maksapasteet-oskar-200-g",
+        "size": "200g",
+        "storeUnitPrice": 9.45
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/pasteet/maksapasteet-e-vaba-oskar-200g/p/298583",
+        "size": "200g",
+        "storeUnitPrice": 9.45
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Kreemjas maksapasteet 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kreemjas-maksapasteet-rakvere-300-g",
+        "size": "300g",
+        "storeUnitPrice": 6.63
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/pasteet/maksapasteet-kreemjas-rakvere-300g/p/905571",
+        "size": "300g",
+        "storeUnitPrice": 6.63
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Kreemjas kodupasteet 210g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kreemjas-kodupasteet-m-m-210-g",
+        "size": "210g",
+        "storeUnitPrice": 7.57
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/pasteet/kreemjas-kodupasteet-maks-moorits-210g/p/993763",
+        "size": "210g",
+        "storeUnitPrice": 7.57
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Chef lunden Kanamaksapasteet 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanamaksapasteet-chef-lunden-200-g",
+        "size": "200g",
+        "storeUnitPrice": 12.95
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanamaksapasteet-chef-lunden-200-g",
+        "size": "200g",
+        "storeUnitPrice": 12.95
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Pasteet 170g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pasteet-matsimoka-170-g",
+        "size": "170g",
+        "storeUnitPrice": 13.47
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/pasteet/pasteet-matsimoka-170g/p/994866",
+        "size": "170g",
+        "storeUnitPrice": 13.47
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasteet-matsimoka-170-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "170g",
+        "storeUnitPrice": 13.47
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Maksapasteet delikatess 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/maksapasteet-delikatess-noo-200-g",
+        "size": "200g",
+        "storeUnitPrice": 9.75
+      },
+      "rimi": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/pasteet/maksapasteet-delikatess-noo-200g/p/134882",
+        "size": "200g",
+        "storeUnitPrice": 9.75
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/delikatess-maksapasteet-noo-200-g",
+        "size": "200g",
+        "storeUnitPrice": 10.95
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Veiseliha mahlas omas 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/veiseliha-omas-mahlas-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 12.04
+      },
+      "rimi": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/veiseliha-omas-mahlas-rannarootsi-240g/p/266095",
+        "size": "240g",
+        "storeUnitPrice": 12.04
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/veiseliha-omas-mahlas-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 12.46
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Sealiha mahlas omas 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sealiha-omas-mahlas-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 12.04
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sealiha-omas-mahlas-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 12.46
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Frank pott Vürtsisealiha 325g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vurtsisealiha-frank-pott-325-g",
+        "size": "325g",
+        "storeUnitPrice": 7.05
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vurtsisealiha-frank-pott-325-g",
+        "size": "325g",
+        "storeUnitPrice": 7.35
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe Metssealiha konserv 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/metssealiha-konserv-linnamae-240-g",
+        "size": "240g",
+        "storeUnitPrice": 19.96
+      },
+      "rimi": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/metssealiha-konserv-linnamae-240g/p/293198",
+        "size": "240g",
+        "storeUnitPrice": 19.96
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu Turistieine de lux sealihast 525g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/turistieine-sealihast-minu-de-lux-525-g",
+        "size": "525g",
+        "storeUnitPrice": 9.12
+      },
+      "rimi": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/turistieine-sealihast-minu-de-lux-525g/p/4009957",
+        "size": "525g",
+        "storeUnitPrice": 9.12
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Snäkk pro ribisnäkk 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ribisnakk-snakk-pro-rakvere-300-g",
+        "size": "300g",
+        "storeUnitPrice": 11.5
+      },
+      "rimi": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/snakid/ribisnakk-snakk-pro-rakvere-300g/p/909843",
+        "size": "300g",
+        "storeUnitPrice": 11.5
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ribisnakk-snakk-pro-rakvere-lk-300-g",
+        "size": "300g",
+        "storeUnitPrice": 11.5
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Seakõrvasnäkid 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/seakorvasnakid-noo-130-g",
+        "size": "130g",
+        "storeUnitPrice": 18.39
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/snakid/seakorvasnakid-noo-130g/p/971656",
+        "size": "130g",
+        "storeUnitPrice": 21.46
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seakorvasnakid-noo-130-g",
+        "size": "130g",
+        "storeUnitPrice": 23.85
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanasigar 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanasigar-tallegg-200-g",
+        "size": "200g",
+        "storeUnitPrice": 14.95
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/snakid/kanasigar-tallegg-200g/p/917418",
+        "size": "200g",
+        "storeUnitPrice": 13.95
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Toorsuitsupeekon ameerikapärane 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/toorsuitsupeekon-ameerikaparane-rakvere-150g/p/903641",
+        "size": "150g",
+        "storeUnitPrice": 19
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ameerikaparane-toorsuitsupeekon-rakvere-lk-150-g",
+        "size": "150g",
+        "storeUnitPrice": 19.93
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanafileesink fit 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanafileesink-fit-tallegg-130g/p/4007664",
+        "size": "130g",
+        "storeUnitPrice": 14.54
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fit-kanafileesink-tallegg-130-g",
+        "size": "130g",
+        "storeUnitPrice": 14.54
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Seasink ehe välisfileest 120g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/seasink-ehe-valisfileest-rannarootsi-120g/p/928414",
+        "size": "120g",
+        "storeUnitPrice": 15.75
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seasink-valisfileest-ehe-rannarootsi-120-g",
+        "size": "120g",
+        "storeUnitPrice": 14.08
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Kuningate sink 120g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kuningate-sink-karni-120g/p/961244",
+        "size": "120g",
+        "storeUnitPrice": 20.75
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuningate-sink-karni-120-g",
+        "size": "120g",
+        "storeUnitPrice": 20.75
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Hommikupeekon 135g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/hommikupeekon-noo-135g/p/258909",
+        "size": "135g",
+        "storeUnitPrice": 13.26
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikupeekon-noo-135-g",
+        "size": "135g",
+        "storeUnitPrice": 19.63
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Seavälisfilee suitsutatud 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/seavalisfilee-suitsutatud-rakvere-130g/p/4007080",
+        "size": "130g",
+        "storeUnitPrice": 18.38
+      },
+      "selver": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsutatud-seavalisfilee-rakvere-lk-kg",
+        "storeUnitPrice": 11.99
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Prosciutto peekon viilutatud 140g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/prosciutto-peekon-viilutatud-rakvere-140g/p/981300",
+        "size": "140g",
+        "storeUnitPrice": 18.5
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/prosciutto-peekon-viilutatud-rakvere-lk-140-g",
+        "size": "140g",
+        "storeUnitPrice": 18.5
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Broileri rinnalihasink 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/broileri-rinnalihasink-karni-300g/p/297586",
+        "size": "300g",
+        "storeUnitPrice": 12.3
+      },
+      "selver": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/broileri-rinnalihasink-karni-300-g",
+        "size": "300g",
+        "storeUnitPrice": 12.3
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Kanasink fitlap 105g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanasink-fitlap-noo-105g/p/960660",
+        "size": "105g",
+        "storeUnitPrice": 17.05
+      },
+      "selver": {
+        "price": 2.23,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanasink-fitlap-noo-105-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "105g",
+        "storeUnitPrice": 21.24
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Suitsuliha viilutatud 110g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/suitsuliha-viilutatud-matsimoka-110g/p/994863",
+        "size": "110g",
+        "storeUnitPrice": 21.73
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsuliha-viilutatud-matsimoka-110-g",
+        "size": "110g",
+        "storeUnitPrice": 22.27
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Toorsuitsupeekon inglisepärane 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/toorsuitsupeekon-ingliseparane-rakvere-150g/p/908648",
+        "size": "150g",
+        "storeUnitPrice": 19.27
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ingliseparane-toorsuitsupeekon-rakvere-lk-150-g",
+        "size": "150g",
+        "storeUnitPrice": 19.6
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Veisesink ehe välisfileest 120g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/veisesink-ehe-valisfileest-rannarootsi-120g/p/928397",
+        "size": "120g",
+        "storeUnitPrice": 25.75
+      },
+      "selver": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/veisesink-valisfileest-ehe-rannarootsi-120-g",
+        "size": "120g",
+        "storeUnitPrice": 26.25
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanasink tilliga 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanasink-tilliga-tallegg-130g/p/4007665",
+        "size": "130g",
+        "storeUnitPrice": 13
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanasink-tilliga-tallegg-130-g",
+        "size": "130g",
+        "storeUnitPrice": 13.23
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Chef lunden Kodune pasteet 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/pasteet/kodune-pasteet-chef-lunden-200g/p/4012567",
+        "size": "200g",
+        "storeUnitPrice": 13.25
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodune-pasteet-chef-lunden-200g",
+        "size": "200g",
+        "storeUnitPrice": 12.95
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Sült kallerdisega naturaalse 320g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/sult/sult-naturaalse-kallerdisega-matsimoka-320g/p/978718",
+        "size": "320g",
+        "storeUnitPrice": 9.34
+      },
+      "selver": {
+        "price": 4.26,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sult-naturaalse-kallerdisega-matsimoka-320-g",
+        "size": "320g",
+        "storeUnitPrice": 13.31
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Frank pott Turistieine 325g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/turistieine-frank-pott-325g/p/202570",
+        "size": "325g",
+        "storeUnitPrice": 7.05
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/turistieine-frank-pott-325-g",
+        "size": "325g",
+        "storeUnitPrice": 7.35
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Turistieine 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/turistieine-rannarootsi-240g/p/285447",
+        "size": "240g",
+        "storeUnitPrice": 12.04
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/turistieine-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 12.46
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Hirveliha mahlas omas 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "rimi": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/hirveliha-omas-mahlas-rannarootsi-240g/p/266094",
+        "size": "240g",
+        "storeUnitPrice": 14.96
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hirveliha-omas-mahlas-rannarootsi-240-g",
+        "size": "240g",
+        "storeUnitPrice": 15.21
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
   }
 ]

@@ -287,13 +287,25 @@ about anything ambiguous.
   and never a card price) and `storeName` (the store's own listing
   title, shown in small print on the product screen).
 - `frontend/` — the app: `index.html` (state, hash routes `#/`,
-  `#/search`, `#/c/<category>`, `#/p/<category::name>`, `#/basket`,
-  data loading), `render.js` (every screen as DOM-building functions,
-  no state), `app-logic.js` (search with Estonian letters folded,
+  `#/search`, `#/c/<display category id>`, `#/p/<category::name>`,
+  `#/basket`, data loading, the language setting `minu.lang` in
+  localStorage — Estonian default), `render.js` (every screen as
+  DOM-building functions, no state; all text via `t()`),
+  `catalog.js` (the DISPLAY categories: Estonian names in shopping
+  order laid over the data categories, which never change — Fruits &
+  vegetables split into Puuviljad/Köögiviljad, Dairy into Piim ja
+  jogurt/Või/Munad, Household into Nõudepesu/Pesuvahendid/
+  Puhastusvahendid/Paberitooted, Coffee + Tea & cocoa merged into
+  Kohv ja tee, Baby formula + Baby food + Diapers into Lapsed; a
+  data category nobody names falls back to a "Muu" tile; icons are
+  our own SVG line drawings in `ICON_PATHS`, never another app's
+  artwork), `i18n.js` (UI strings in et/en/ru; a new string goes in
+  all three), `app-logic.js` (search with Estonian letters folded,
   price gaps, "cheaper than usual", basket math — basket lives in the
   browser's localStorage only, key `minu.basket.v1`), `pricing.js`
   (cheapest/tie/unit-price rules, `SHOW_STORE_IMAGES`). Tests:
-  `app-logic.test.js`, `render.test.js` (runs the real screens on a
+  `app-logic.test.js`, `catalog.test.js` (the display splits, order,
+  three-language names, i18n fallback), `render.test.js` (runs the real screens on a
   tiny fake document), `pricing.test.js`. Own design, no store logos
   — store names are coloured text labels.
 - `data/review.md`, `data/ambiguous.json`, `data/unmatched.json`,

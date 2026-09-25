@@ -261,7 +261,11 @@ minu-project/
 ├── package.json                npm scripts: fetch-prices, review, test, start
 ├── data/                       see "Where each data file is" above
 ├── frontend/
-│   ├── index.html               renders the comparison from data/prices.json
+│   ├── index.html               state, hash routes, loads data/prices.json; the UI language setting (localStorage "minu.lang", Estonian default)
+│   ├── render.js                 every screen as DOM-building functions (+ render.test.js on a fake document)
+│   ├── catalog.js                the DISPLAY taxonomy: Estonian category names in shopping order laid over the data categories, with splits (Fruits & vegetables -> Puuviljad/Köögiviljad, Dairy -> Piim ja jogurt/Või/Munad, Household -> four aisles) and merges (Coffee + Tea & cocoa -> Kohv ja tee); our own simple SVG line icons (+ catalog.test.js)
+│   ├── i18n.js                   all UI strings in et (default), en and ru; t() fills placeholders, falls back ru -> en -> et
+│   ├── app-logic.js              search index (Estonian letters folded), price gaps, "Cheaper than usual" (never card prices), basket storage and comparison (+ app-logic.test.js)
 │   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows, unit price) — kept separate from the DOM code so it's directly testable
 ├── scraper/
 │   ├── fetch-price.js            the only file that contacts a store; writes data/raw/, data/prices.json, and the leftover files

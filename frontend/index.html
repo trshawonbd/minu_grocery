@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,13 @@
   .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
   .tile { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px 8px; text-align: center; min-height: 86px; }
   .tile:hover { border-color: var(--green); }
-  .tile-icon { font-size: 24px; line-height: 1; }
+  .tile-icon { display: flex; justify-content: center; }
+  .cat-icon { width: 28px; height: 28px; color: var(--green); }
+  .title-icon { width: 24px; height: 24px; vertical-align: -4px; margin-right: 8px; }
+  .lang-switch { display: flex; align-items: center; gap: 4px; margin: 4px 0 8px; font-size: 11.5px; color: var(--muted); }
+  .lang-label { margin-right: 4px; }
+  .lang-btn { -webkit-appearance: none; appearance: none; border: 1px solid var(--line); background: var(--card); font: inherit; font-size: 11px; font-weight: 700; color: var(--muted); border-radius: 8px; padding: 3px 8px; cursor: pointer; }
+  .lang-btn.active { color: var(--green); border-color: var(--green); background: var(--green-soft); }
   .tile-name { font-size: 11.5px; font-weight: 600; margin-top: 6px; line-height: 1.2; }
   .tile-count { font-size: 10.5px; color: var(--muted); margin-top: 2px; }
 
@@ -99,7 +105,8 @@
   nav.bottom { position: fixed; left: 0; right: 0; bottom: 0; background: var(--card); border-top: 1px solid var(--line); display: flex; justify-content: space-around; padding: 6px 0 calc(6px + env(safe-area-inset-bottom)); }
   .nav-item { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 4px 16px; color: var(--muted); font-size: 11px; font-weight: 600; }
   .nav-item.active { color: var(--green); }
-  .nav-icon { font-size: 20px; line-height: 1; }
+  .nav-icon { display: flex; }
+  .nav-svg { width: 22px; height: 22px; }
   @media (min-width: 480px) { .tiles { grid-template-columns: repeat(4, 1fr); } }
 </style>
 </head>
@@ -109,24 +116,35 @@
 
   <script src="/frontend/pricing.js"></script>
   <script src="/frontend/app-logic.js"></script>
+  <script src="/frontend/catalog.js"></script>
+  <script src="/frontend/i18n.js"></script>
   <script src="/frontend/render.js"></script>
   <script>
+    // The UI language: Estonian unless the shopper chose another one
+    // (kept per browser in localStorage; i18n.js has en and ru ready).
+    const LANG_STORAGE_KEY = "minu.lang";
+    function loadLang() {
+      try { return normalizeLang(localStorage.getItem(LANG_STORAGE_KEY)); } catch (err) { return DEFAULT_LANG; }
+    }
+
     // State lives here; every screen is drawn by render.js from it.
     const state = {
       products: [],
       searchIndex: [],
       screen: "home",
-      category: null,
+      category: null,   // a display category id (frontend/catalog.js)
       product: null,
       query: "",
       basket: loadBasket(typeof localStorage !== "undefined" ? localStorage : null),
       updatedAt: null,
       stale: false,
+      lang: loadLang(),
     };
     const root = document.getElementById("app");
     const nav = document.getElementById("nav");
+    document.documentElement.lang = state.lang;
 
-    // Routes: #/  #/search  #/c/<category>  #/p/<category::name>  #/basket
+    // Routes: #/  #/search  #/c/<display category id>  #/p/<category::name>  #/basket
     function routeFromHash() {
       const hash = decodeURIComponent(location.hash || "#/");
       if (hash.startsWith("#/c/")) return { screen: "category", category: hash.slice(4) };
@@ -167,6 +185,12 @@
         saveBasket(typeof localStorage !== "undefined" ? localStorage : null, state.basket);
         render();
       },
+      setLang(lang) {
+        state.lang = normalizeLang(lang);
+        document.documentElement.lang = state.lang;
+        try { localStorage.setItem(LANG_STORAGE_KEY, state.lang); } catch (err) { /* per-browser convenience only */ }
+        render();
+      },
     };
 
     function render() {
@@ -202,7 +226,7 @@
         state.searchIndex = buildSearchIndex(prices);
         applyRoute();
       } catch (err) {
-        renderError(root, "Run \"node scraper/fetch-price.js\" from the project root, then reload this page. If it still doesn't load, make sure you're viewing this through a local server (\"npm start\"), not opening the file directly.");
+        renderError(root, state);
       }
     }
 

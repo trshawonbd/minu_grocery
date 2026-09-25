@@ -526,6 +526,41 @@ const CATEGORIES = {
       },
     ],
   },
+  // Sweets & snacks — all under 271 "Maiustused, küpsised, näksid".
+  // Its seasonal leaves (280/281 "Tähtpäeva …") were empty when
+  // checked, 276 "Näkileivad" (crispbread) is deliberately out (same
+  // call as Bread), and 279 "Gurmee …" held a single real biscuit —
+  // fetched with Biscuits so it isn't lost.
+  // 283 "Šokolaadid" — chocolate bars incl. countlines; clean.
+  "Chocolate": {
+    sources: [{ id: 283 }],
+  },
+  // 272 "Kommipakid" (bags, incl. chocolate-COATED candy the other
+  // stores also file as candy), 273 "Nätsud, pastillid", 274 "Muud
+  // maiustused" (surprise eggs, toffee, halva, marmalade, marzipan),
+  // 282 "Kommikarbid" (boxed) — all checked by hand, clean.
+  "Candy": {
+    sources: [{ id: 272 }, { id: 273 }, { id: 274 }, { id: 282 }],
+  },
+  // 275 "Küpsised" also mixes in one crispbread ("Näkileivad") —
+  // excluded, same call as Bread — and, found in the first scrape,
+  // garlic bread and pumpernickel from Selver's own bakery
+  // ("Küüslauguleivad", "Pumpernikkel"): bread, not a biscuit.
+  "Biscuits": {
+    sources: [{ id: 275, nameFilter: excludeWords(["näkileiv", "näkileib", "küüslauguleiv", "pumpernik"]) }, { id: 279 }],
+  },
+  // 278 "Sipsid" also holds chip-dip mixes/sauces ("Dipikaste…",
+  // "Dipikastmepulber…") — a sauce mix, not a snack, same exclusion
+  // as Rimi's own "Dipikastmed"/"Dipisegu"/"Dipp…" and Barbora's
+  // never-fetched "kuivad-dipikastmed" leaf.
+  "Chips & snacks": {
+    sources: [{ id: 278, nameFilter: excludeWords(["dipi", "dipp"]) }],
+  },
+  // 277 "Pähklid ja kuivatatud puuviljad" — nuts, seeds, dried fruit,
+  // mixes; checked by hand, clean.
+  "Nuts, seeds & dried fruit": {
+    sources: [{ id: 277 }],
+  },
 };
 
 async function fetchSelverPrice(categoryName) {

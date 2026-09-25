@@ -839,6 +839,132 @@ const CATEGORIES = [
       ],
     },
   },
+  {
+    // Strict packaging applies (the default). Scope: chocolate bars
+    // (milk, dark, white) and countline/candy-style chocolate bars
+    // ("šokolaadibatoonid" — Snickers-type), the way all three stores
+    // file them under their own "chocolate" node. Chocolate-COATED
+    // candy (M&M's, chocolate-covered nuts, pralines in boxes) is
+    // Candy instead, again matching every store's own filing.
+    name: "Chocolate",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/sokolaadid/sokolaadibatoonid",
+        "https://barbora.ee/kauasailivad-toidukaubad/sokolaadid/piimasokolaadid",
+        "https://barbora.ee/kauasailivad-toidukaubad/sokolaadid/tumedad-sokolaadid",
+        "https://barbora.ee/kauasailivad-toidukaubad/sokolaadid/valged-sokolaadid",
+      ],
+      // Parent aggregates all 4 leaves (milk, dark, white, bars). One
+      // real find in the first scrape: "Hematogeen" (an iron-supplement
+      // bar sold as a sweet — a health product, not chocolate).
+      rimi: { url: "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/sokolaad/c/SH-9-9", nameFilter: excludeWords(["hematogeen"]) },
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: non-chocolate-bar
+    // confectionery — gummies, toffee/caramel, dragées, boxed candy,
+    // candy bags, lollipops and surprise eggs, marshmallow/sefiir,
+    // marmalade/halva/marzipan, weighed per-kg candy, plus chewing gum
+    // and pastilles (the owner's call — same aisle, same purchase;
+    // Barbora already mixes them in). Nothing excluded: every leaf at
+    // every store was checked by hand and holds only confectionery.
+    name: "Candy",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/kummikommid-ja-natsukommid",
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/kommipakid-ja-drazeed",
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/pulgakommid-ja-ullatusmunad",
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/natsud-ja-pastillid",
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/kommikarbid",
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/muud-maiustused",
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/kaalutud-kommid-ja-maiustused",
+        "https://barbora.ee/kauasailivad-toidukaubad/kommid-ja-maiustused/sefiirid-vahukommid-ja-marmelaadid",
+      ],
+      rimi: [
+        // Parent aggregates all 9 candy leaves, incl. per-kg "Kaalukommid".
+        "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kommid-ja-maiustused/c/SH-9-6",
+        // Gum and pastilles are their own parent at Rimi.
+        "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/narimiskumm-ja-pastillid/c/SH-9-11",
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: sweet and savoury
+    // biscuits/cookies, crackers, waffles, gingerbread and ring
+    // biscuits. Excluded: crispbread ("näkileib/näkileivad" — already
+    // deliberately left out of Bread, and Selver mixes one into its
+    // biscuits leaf).
+    name: "Biscuits",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/kupsised/soolased-kupsised",
+        "https://barbora.ee/kauasailivad-toidukaubad/kupsised/magusad-kupsised-ja-vahvlid",
+        "https://barbora.ee/kauasailivad-toidukaubad/kupsised/rongikud-ja-praanikud",
+      ],
+      // Parent aggregates sweet, savoury, and waffles. Real finds in
+      // the first scrape, none a biscuit: packaged croissants
+      // ("Sarvesai"/"Croissant" — a pastry, the same thing Bread
+      // deliberately leaves out), an ice-cream cone cup ("Jäätisetops"),
+      // a brownie (matched only as a name STARTING with "Brownie" —
+      // "Küpsis Choco Brownie OREO"/Milka's brownie-flavoured cookie are
+      // real biscuits Barbora and Selver keep, so a bare "brownie"
+      // substring would silently drop Rimi's copy of the same product),
+      // and corn sticks ("Maisipulgad" — Chips & snacks' scope at every
+      // other store).
+      rimi: {
+        url: "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kupsised-vahvlid/c/SH-9-5",
+        nameFilter: excludeWords(["sarvesai", "croissant", "jäätisetops", /^brownie\b/i, "maisipulg"]),
+      },
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: potato/vegetable
+    // chips, corn snacks and corn sticks (the "Maisikepikesed" kept out
+    // of Cereals & oats belong here), tortilla/nacho chips, popcorn,
+    // bread chips and rusks, rice/corn cakes, pork rinds. Excluded:
+    // dip-mix powders and dip sauces shelved with chips at every store
+    // ("dipi…" — a sauce mix, not a snack; Barbora's own
+    // "kuivad-dipikastmed" leaf is simply never fetched), and, at
+    // Rimi, the tortilla WRAPS and taco shells sharing the
+    // "Tortiljad ja krõpsud" leaf with tortilla chips (only "krõp…"
+    // items taken — the abbreviation "krõp." occurs too).
+    name: "Chips & snacks",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/kartulikropsud",
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/maisisnakid",
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/popcornid",
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/leivasnakid",
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/muud-snakid",
+      ],
+      rimi: [
+        // "dipp" as well as "dipi": the first scrape showed Rimi also
+        // spells its dips "Dipp guacamole"/"Juustudipp", which "dipi"
+        // alone missed; "maitseainesegu" catches a guacamole spice mix
+        // shelved with the chips (Spices' scope, not a snack).
+        { url: "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kropsud-popkorn/c/SH-9-8", nameFilter: excludeWords(["dipi", "dipp", "maitseainesegu"]) },
+        { url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maailmakook/tortiljad-ja-kropsud/c/SH-13-11-65", nameFilter: excludeWords([], ["krõp"]) },
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). Scope: nuts and nut
+    // mixes, seeds, dried fruit and berries, and trail mixes of those
+    // — the owner's call to take all three together, since every
+    // store shelves them as one department and the mixes span all of
+    // them. Nothing excluded: every leaf checked by hand.
+    name: "Nuts, seeds & dried fruit",
+    urls: {
+      barbora: [
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/pahklid-ja-pahklisegud",
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/pakendatud-seemned",
+        "https://barbora.ee/kauasailivad-toidukaubad/snakid/kuivatatud-marjad-ja-puuviljad",
+      ],
+      // Parent aggregates nuts, flavoured nuts, seeds, dried fruit,
+      // and mixes — checked by hand, clean.
+      rimi: "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kuivatatud-puuviljad-ja-pahklid/c/SH-9-4",
+    },
+  },
 ];
 
 // Whether a category opts into strict packaged-product matching (the

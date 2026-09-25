@@ -148,6 +148,36 @@ const results = [
     assert.equal(selverSpicesCatchAllFilter("Jahvatatud ingver, SANTA MARIA, 20 g"), true, "'jahvatatud' (ground) must not be caught by the 'jahu' (flour) exclude");
     assert.equal(selverSpicesCatchAllFilter("Karri, SANTA MARIA, 25 g"), true, "a real spice stays in scope");
   }),
+
+  test("Sweets & snacks: real finds from the first scrape — an iron-supplement bar in chocolate, pastries/cone cups/bread in biscuits, and 'Dipp'-spelled dips the 'dipi' filter missed in chips", () => {
+    const chocolateRimi = category("Chocolate").urls.rimi.nameFilter;
+    const biscuitsRimi = category("Biscuits").urls.rimi.nameFilter;
+    const biscuitsSelver = SELVER_CATEGORIES["Biscuits"].sources[0].nameFilter;
+    const chipsRimi = category("Chips & snacks").urls.rimi[0].nameFilter;
+    const chipsSelver = SELVER_CATEGORIES["Chips & snacks"].sources[0].nameFilter;
+
+    assert.equal(chocolateRimi("Hematogeen Vita+ 50g"), false, "a health product, not chocolate");
+    assert.equal(chocolateRimi("Piimašok. Kalevipoeg purust. mand. Kalev 270g"), true);
+
+    assert.equal(biscuitsRimi("Croissant kakao täidisega 7 Days Mini 185g"), false);
+    assert.equal(biscuitsRimi("Sarvesai kakaotäidisega 7Days 60g"), false);
+    assert.equal(biscuitsRimi("Jäätisetops Marmiton 50g"), false, "an ice-cream cone cup");
+    assert.equal(biscuitsRimi("Maisipulgad kondenspiima Kuki Muki 250g"), false, "corn sticks are Chips & snacks at every other store");
+    assert.equal(biscuitsRimi("Brownie Belgia šokolaadi tükkidega 200g"), false, "an actual brownie cake");
+    assert.equal(biscuitsRimi("Küpsis Choco Brownie OREO 154g"), true, "a brownie-FLAVOURED biscuit stays — Barbora/Selver keep the same product, so a bare 'brownie' substring would split it");
+    assert.equal(biscuitsRimi("Soolapulgad Rimi 125g"), true, "savoury sticks are a real biscuit product");
+    assert.equal(biscuitsSelver("Küüslauguleivad, SELVERI KÖÖK, 200 g"), false, "garlic bread is bread");
+    assert.equal(biscuitsSelver("Näkileivad laktoosivaba, PRIILEIB, 120 g"), false, "crispbread — same call as Bread");
+    assert.equal(biscuitsSelver("Juustuküpsis laktoosivaba, PRIILEIB, 120 g"), true, "the brand name PRIILEIB must not trip the bread exclusions");
+
+    assert.equal(chipsRimi("Dipp guacamole Rimi Planet 300g"), false, "'Dipp' spelling was missed by 'dipi' alone");
+    assert.equal(chipsRimi("Juustudipp Rimi Planet jalapenoga 300g"), false);
+    assert.equal(chipsRimi("Dipisegu tilliga Salling 20g"), false);
+    assert.equal(chipsRimi("Guacamole-kastme maitseainesegu S.M. 15g"), false, "a spice mix, Spices' scope");
+    assert.equal(chipsRimi("Kartulikr. tšilli- ja laimimait. Lay's 170g"), true);
+    assert.equal(chipsSelver("Dipikastmepulber küüslauguga, GESTUS, 16g"), false);
+    assert.equal(chipsSelver("Juustumaitselised kartuliaastud, TAFFEL, 180g"), true);
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "category": "Ham & cold cuts",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Suitsusingike RAKVERE, 350g",
+        "price": 4.99
+      },
+      {
+        "store": "Rimi",
+        "name": "Suitsusingike Rakvere 130g",
+        "price": 2.29
+      },
+      {
+        "store": "Rimi",
+        "name": "Suitsusingike Rakvere 350g",
+        "price": 4.99
+      },
+      {
+        "store": "Selver",
+        "name": "Suitsusingike, RAKVERE LK, 350 g",
+        "price": 5.99
+      }
+    ]
+  },
+  {
+    "category": "Ham & cold cuts",
+    "items": [
+      {
+        "store": "Rimi",
+        "name": "Suitsupeekon Rakvere 130g",
+        "price": 3.15
+      },
+      {
+        "store": "Selver",
+        "name": "Rakvere suitsupeekon, RAKVERE, kg",
+        "price": 11.99
+      },
+      {
+        "store": "Selver",
+        "name": "Suitsupeekon, RAKVERE LK, 130 g",
+        "price": 3.13
+      }
+    ]
+  }
+]

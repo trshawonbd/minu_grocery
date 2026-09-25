@@ -121,6 +121,21 @@ const cheeseFilter = excludeWords(["näk", "pulgad", "laastud", "ribad", "tofu",
 // from matching the plain version.
 const curdFilter = excludeWords(["kreem", "pasta", "kohupiimap.", "vorm", "kinder", "kohoke"]);
 
+// Shared between Sausages and Ham & cold cuts — stores disagree on
+// where dried/cured products go: Barbora and Selver put Serrano ham
+// and pancetta in their *sausage* leaves, Rimi and Selver put fuet/
+// salami/chorizo/kabanos in their *ham & deli* groups. Left as-is, the
+// same product would land in two categories at different stores and
+// never be compared. One rule everywhere instead: a name with a ham
+// word is Ham & cold cuts, a name with a sausage word is Sausages —
+// each contested leaf is fetched once per category, with the other
+// category's words excluded. "singi" alongside "sink" — Estonian
+// consonant gradation ("sink" → genitive "singi") means the bare word
+// misses real ham names like "Singivalik"/"Singikreem"; found by hand
+// in the first scrape when hand-reviewing what "sink"-only left out.
+const HAM_WORDS = ["sink", "singi", "pancetta"];
+const SAUSAGE_WORDS = ["vorst", "viiner", "sardell", "salaami", "salami", "fuet", "chorizo", "salchichon", "pepperoni", "kabanos", "servelaat", /\bkäkk/i];
+
 const CATEGORIES = [
   {
     name: "Baby formula",
@@ -1030,6 +1045,117 @@ const CATEGORIES = [
         "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/pelmeenid-ja-vareenikud/c/SH-4-7",
         "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-pitsa-friikartulid-valmistoit/kulmutatud-pitsa/c/SH-4-5-19",
         "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-pitsa-friikartulid-valmistoit/friikartulid/c/SH-4-3-13",
+      ],
+    },
+  },
+  {
+    // Meat's own matching rules (see the Meat entry): a large share of
+    // sausages is sold per kg from the deli counter ("kg-lett") with no
+    // pack weight in the name, so cheapest is decided by €/kg and
+    // different pack weights of the same product may match — the
+    // owner's call for all three categories of this batch.
+    // Scope: boiled, smoked/half-smoked/dried, grill, raw/oven, blood
+    // sausages, frankfurters, kabanos. Excluded: pre-cooked meat
+    // (Rimi shelves "Eelküpsetatud lihatooted" inside its grill group
+    // with no telltale word, so that group is taken by REQUIRING a
+    // sausage word instead), and plant-based imitations (Selver mixes
+    // BON VEGAN "Taimne viiner"/"Taimne suitsuvorst" into its sausage
+    // leaf).
+    name: "Sausages",
+    cheapestByUnitPrice: true,
+    matchAcrossWeights: true,
+    urls: {
+      barbora: [
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/keeduvorstid",
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/grillvorstid",
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/viinerid-ja-sardellid",
+        // Real find: this leaf also carries Serrano ham and pancetta
+        // (HAM_WORDS) — cured, but ham, not a sausage.
+        { url: "https://barbora.ee/liha-kala-valmistoit/lihatooted/suitsutatud-vinnutatud-vorstid", nameFilter: excludeWords(HAM_WORDS) },
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/verivorstid",
+        "https://barbora.ee/liha-kala-valmistoit/liha/toorvorstid",
+      ],
+      rimi: [
+        // Grill/raw/blood sausages + pre-cooked meat in one group —
+        // "käkk" is "Verikäkk" (blood-sausage loaf), "sibulagrill" a
+        // Wõro grill sausage with no "vorst" in its name.
+        { url: "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/grill--ja-verivorstid-eelkupsetatud-lihatooted/c/SH-8-1", nameFilter: excludeWords([], ["vorst", "käkk", "sibulagrill"]) },
+        // Real find: this leaf also carries sliced ham ("Sealihasink
+        // keed., kuumsuit., viil.") — HAM_WORDS excluded.
+        { url: "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/keeduvorst-ja-suitsuvorst/c/SH-8-50", nameFilter: excludeWords(HAM_WORDS) },
+        // "Muud lihatooted" is shared with Ham & cold cuts (pâté, sült,
+        // canned, snacks) and holds meatballs/offal too — only the
+        // frankfurter/sardell/kabanos items are taken here.
+        { url: "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/c/SH-8-12", nameFilter: excludeWords([], ["viiner", "sardell", "kabanos"]) },
+      ],
+    },
+  },
+  {
+    // Meat's rules again (per-kg deli counter, see Sausages). Scope:
+    // ham, bacon, roulades and other smoked/cured/dried meat (incl.
+    // smoked chicken and cured Mediterranean cold cuts), and — the
+    // owner's call — pâté and sült (jellied meat), canned meat, and
+    // meat snacks/jerky. Excluded: meatballs/patties/cutlets/nuggets,
+    // breaded and pre-cooked items, offal (Barbora's "liha-
+    // subproduktid" and Rimi's "Liha subproduktid" leaves are never
+    // fetched; Selver's are filtered by name), smoked soup bones
+    // ("supikogu"), and plant-based imitations.
+    name: "Ham & cold cuts",
+    cheapestByUnitPrice: true,
+    matchAcrossWeights: true,
+    urls: {
+      barbora: [
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/sink-peekon-ja-rulaadid",
+        { url: "https://barbora.ee/liha-kala-valmistoit/lihatooted/suitsulihatooted", nameFilter: excludeWords(["supikogu"]) },
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/muud-lihatooted",
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/pasteedid",
+        "https://barbora.ee/liha-kala-valmistoit/lihatooted/lihakonservid",
+        { url: "https://barbora.ee/liha-kala-valmistoit/lihatooted/lihasnakid", nameFilter: excludeWords(["soja", "taimne", "vegan"]) },
+      ],
+      rimi: [
+        // Real find: this leaf also carries fuet/chorizo/salchichon
+        // dry sausages ("Fuet Artesano", "Vorst Salchichon", "Vorst
+        // Fuetec") — SAUSAGE_WORDS excluded — and one soup-bone kit
+        // ("Hernesupikogu", a pea-soup bone set, not a cold cut).
+        {
+          url: "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/c/SH-8-11",
+          nameFilter: excludeWords(SAUSAGE_WORDS.concat(["hernesupikogu"])),
+        },
+        // The pâté/sült/snack/canned side of "Muud lihatooted" (see
+        // Sausages for the other side); meatballs and offal never
+        // carry these words.
+        {
+          url: "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/c/SH-8-12",
+          nameFilter: excludeWords([], ["pasteet", "sült", "snäk", "sigar", "konserv", "hautatud", "omas mahlas", "turisti", "jerky", "vinnut", "kuivat"]),
+        },
+      ],
+    },
+  },
+  {
+    // Meat's rules again (fresh fish is almost entirely per kg). Scope:
+    // fresh and thawed fish, salted/smoked fish, canned and marinated
+    // fish incl. herring and sprats, dried fish snacks, and — the
+    // owner's call — seafood, roe/caviar, crab sticks, and seaweed/
+    // seafood salads. One category, "smoked"/"canned"/"marinated"
+    // staying as descriptors the matcher already keeps distinct.
+    // Excluded: plant-based imitations ("taimne"/"vegan").
+    name: "Fish & seafood",
+    cheapestByUnitPrice: true,
+    matchAcrossWeights: true,
+    urls: {
+      barbora: [
+        "https://barbora.ee/liha-kala-valmistoit/varske-kala-ja-mereannid/varske-kala",
+        "https://barbora.ee/liha-kala-valmistoit/kalatooted/soolatud-ja-suitsutatud-kalatooted",
+        "https://barbora.ee/liha-kala-valmistoit/kalatooted/kalakonservid-ja-marineeritud-kalad",
+        "https://barbora.ee/liha-kala-valmistoit/kalatooted/heeringad-ja-heeringatooted",
+        "https://barbora.ee/liha-kala-valmistoit/kalatooted/vurtsikilud-ja-raimed",
+        "https://barbora.ee/liha-kala-valmistoit/kalatooted/kuivatatud-kalatooted",
+        "https://barbora.ee/liha-kala-valmistoit/kalatooted/mereannid-ja-kalamari",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/varske-kala/c/SH-8-20",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/c/SH-8-16",
+        "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/kalamari-ja-mereannid/c/SH-8-3",
       ],
     },
   },

@@ -205,6 +205,62 @@ const results = [
     assert.equal(dumplingsSelverReady("Asia Box Tikka Masala kana jasmiiniriisiga, SPICEFIELD, 350 g"), false, "a boxed ready meal");
     assert.equal(dumplingsSelverReady("Pitsa Ristorante Hawaii, DR.OETKER, 355g"), true);
   }),
+
+  test("Meat products & fish: the by-name splits — Rimi's pre-cooked meat has no telltale word so its grill group REQUIRES a sausage word; the shared 'Muud lihatooted' group splits into Sausages vs Ham & cold cuts; Selver's mixed leaf keeps deli items and drops meatballs/plant fakes", () => {
+    const sausagesRimiGrill = category("Sausages").urls.rimi[0].nameFilter;
+    const sausagesRimiOther = category("Sausages").urls.rimi[2].nameFilter;
+    const hamRimiOther = category("Ham & cold cuts").urls.rimi[1].nameFilter;
+    const sausagesSelver = SELVER_CATEGORIES["Sausages"].sources[0].nameFilter;
+    const hamSelverMixed = SELVER_CATEGORIES["Ham & cold cuts"].sources.find((s) => s.id === 225).nameFilter;
+    const fishSelverOther = SELVER_CATEGORIES["Fish & seafood"].sources.find((s) => s.id === 231).nameFilter;
+
+    assert.equal(sausagesRimiGrill("Hõrgud kanafileelõigud M&M 200g"), false, "pre-cooked meat in the grill group, no 'eelküps' in its name");
+    assert.equal(sausagesRimiGrill("Peipsi sibulagrill Wõro 900g"), true, "a grill sausage with no 'vorst' in its name");
+    assert.equal(sausagesRimiGrill("Verikäkk Rakvere 440g"), true);
+    assert.equal(sausagesRimiOther("Pereviiner Rakvere 900g"), true);
+    assert.equal(sausagesRimiOther("Maksapasteet Delikatess Nõo 200g"), false, "pâté belongs to Ham & cold cuts, not Sausages");
+    assert.equal(hamRimiOther("Maksapasteet Delikatess Nõo 200g"), true);
+    assert.equal(hamRimiOther("Pere lihapallid Rakvere 400g"), false, "meatballs are out of every category");
+    assert.equal(hamRimiOther("Broilerimaks, värske, A-klass Tallegg 500g"), false, "offal is out");
+    assert.equal(hamRimiOther("Pereviiner Rakvere 900g"), false, "frankfurters go to Sausages, not here — no double-listing");
+
+    assert.equal(sausagesSelver("Taimne viiner, BON VEGAN, 250 g"), false, "plant-based imitation");
+    assert.equal(sausagesSelver("Viiner, RAKVERE, 500 g"), true);
+    assert.equal(hamSelverMixed("Hautatud sealiha, FRANK POTT, 240 g"), true, "canned meat (owner's call)");
+    assert.equal(hamSelverMixed("Snäkk pro Beef jerky, RAKVERE LK, 50 g"), true, "meat snack (owner's call)");
+    assert.equal(hamSelverMixed("Vürtsisealiha, FRANK POTT, 325 g"), true, "canned spiced pork");
+    assert.equal(hamSelverMixed("Vürtsikad kanapooltiivad, TALLEGG, 400 g"), false, "spicy chicken wings are pre-cooked, not a cold cut — a bare 'vürtsi' had kept them");
+    assert.equal(hamSelverMixed("Kiievi kotlet, TALLEGG, 300 g"), false);
+    assert.equal(hamSelverMixed("Kanaloog ehk taimne filee, MATI, 180 g"), false, "plant-based fake chicken");
+    assert.equal(fishSelverOther("Kalaloog ehk taimne filee, MATI, 170 g"), false, "plant-based fake fish");
+    assert.equal(fishSelverOther("Sprotid õlis, RANNAKÜLA, 250 g"), true);
+  }),
+
+  test("Sausages vs Ham & cold cuts: a real bug — the first live scrape found genuine ham (Serrano ham, sliced ham) leaking into Sausages, and genuine dry sausage (fuet/salchichon) plus a soup-bone kit leaking into Ham & cold cuts, at every store; 'singi' (genitive of 'sink') needed alongside the bare word", () => {
+    const sausagesBarboraVinnutatud = category("Sausages").urls.barbora[3].nameFilter;
+    const sausagesRimiSmoked = category("Sausages").urls.rimi[1].nameFilter;
+    const hamRimiSinkPeekon = category("Ham & cold cuts").urls.rimi[0].nameFilter;
+    const sausagesSelver223 = SELVER_CATEGORIES["Sausages"].sources[0].nameFilter;
+    const hamSelver227 = SELVER_CATEGORIES["Ham & cold cuts"].sources.find((s) => s.id === 227).nameFilter;
+
+    assert.equal(sausagesBarboraVinnutatud("Vinnut. sink Serrano ELPOZO, 500g viil"), false, "Serrano ham, not a sausage");
+    assert.equal(sausagesBarboraVinnutatud("Pancetta Arrotolata WELL DONE 100g viil"), false);
+    assert.equal(sausagesBarboraVinnutatud("Kuumsuits. servelaat PORMET,280g"), true, "a real cured sausage stays in scope");
+    assert.equal(sausagesRimiSmoked("Sealihasink keed., kuumsuit., viil. Rimi 200g"), false, "sliced ham, not a sausage");
+    assert.equal(sausagesRimiSmoked("Krakov Lihakas Rakvere 300g"), true);
+
+    assert.equal(hamRimiSinkPeekon("Fuet Artesano Selection by Rimi 160g"), false, "dry sausage belongs to Sausages");
+    assert.equal(hamRimiSinkPeekon("Vorst Salchichon viil. Selection by Rimi 80g"), false);
+    assert.equal(hamRimiSinkPeekon("Hernesupikogu Rakvere 800g"), false, "a soup-bone kit, not a cold cut");
+    assert.equal(hamRimiSinkPeekon("Veiserind viilutatud Oskar 100g"), true, "a real cured cut stays in scope");
+    assert.equal(hamRimiSinkPeekon("Singivalik viilutatud Argal 120g"), true, "the genitive 'Singivalik' must still be recognised as ham");
+
+    assert.equal(sausagesSelver223("Suitusink Treski Hüä, NÕO, kg"), false, "smoked ham, not a sausage");
+    assert.equal(sausagesSelver223("Lainelised singilõigud, NÕO, 100 g"), false, "'singilõigud' (ham slices) — the genitive form");
+    assert.equal(sausagesSelver223("Frankfurter, RANNAROOTSI, 500 g"), true);
+    assert.equal(hamSelver227("Fuetec trühvliga, ELPOZO, 150 g"), false, "dry sausage belongs to Sausages");
+    assert.equal(hamSelver227("Serrano sink, EMBUTIDOS CAULA, 100 g"), true, "a real cured ham stays in scope");
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

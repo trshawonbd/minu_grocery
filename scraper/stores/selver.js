@@ -151,6 +151,21 @@ const MEAT_GAME = ["küülik", "uluk", "metssea", "hirve", "põdra", "vutt", "vu
 // one excluding these words, the other requiring them.
 const SELVER_FROZEN_POTATO_WORDS = ["friik", "kartulisektor", "kartuliviil", "kartulipall", "kartulipannkoo", "kartulikroket", "rösti", "vigurkartul", "hash brown"];
 
+// Plant-based imitations Selver shelves inside its meat/sausage leaves
+// (BON VEGAN, THORMI, MATI's "kanaloog" fake chicken, "taimne"/
+// "taimse"/"vegan"/tofu/soy) — never a match for a real meat product,
+// the same call as the dairy categories make for plant "milk".
+const SELVER_PLANT_BASED_WORDS = ["taimne", "taimse", "taimevalgu", "vegan", "tofu", "soja", "kanaloog", "thormi", "bon vegan"];
+
+// Shared between Sausages and Ham & cold cuts, same self-contained
+// duplication as categories.js's own copy (see the fuller comment
+// there) — Selver's sausage IDs also carry Serrano ham/pancetta,
+// its ham/gourmet IDs also carry fuet/salami/chorizo. "singi"
+// alongside "sink": Estonian consonant gradation ("sink" → genitive
+// "singi") means the bare word misses real ham names.
+const SELVER_HAM_WORDS = ["sink", "singi", "pancetta"];
+const SELVER_SAUSAGE_WORDS = ["vorst", "viiner", "sardell", "salaami", "salami", "fuet", "chorizo", "salchichon", "pepperoni", "kabanos", "servelaat"];
+
 const CATEGORIES = {
   // Unlike Barbora/Rimi, Selver has no subcategory dedicated to
   // formula alone — category 307 ("Lastetoidud") holds every baby
@@ -596,6 +611,53 @@ const CATEGORIES = {
       { id: 286, nameFilter: excludeWords([], ["pelmeen", "vareenik", "pitsa", "pizza"]) },
       { id: 287, nameFilter: excludeWords([], SELVER_FROZEN_POTATO_WORDS) },
     ],
+  },
+  // Meat products & fish — all under 218 "Liha- ja kalatooted"
+  // (219–222 are the fresh cuts Meat already uses).
+  // 223 "Keedu- ja suitsuvorstid, viinerid" and 226 "Grillvorstid,
+  // verivorstid" — sausages; BON VEGAN "Taimne viiner"/"Taimne
+  // suitsuvorst" mixed into 223, excluded.
+  // Real find: 223 also carries smoked/sliced ham ("Suitusink",
+  // "Lainelised singilõigud", "Singi-šampinjoni lõige") — SELVER_HAM_WORDS
+  // excluded on both, so a stray one in 226 is caught too.
+  "Sausages": {
+    sources: [
+      { id: 223, nameFilter: excludeWords(SELVER_PLANT_BASED_WORDS.concat(SELVER_HAM_WORDS)) },
+      { id: 226, nameFilter: excludeWords(SELVER_PLANT_BASED_WORDS.concat(SELVER_HAM_WORDS)) },
+    ],
+  },
+  // 224 "Singid, rulaadid" is clean (two "Xvorst" items, e.g.
+  // "Sinkvorst XL" — a pressed ham loaf, genuinely ham despite the
+  // "vorst" ending, left as-is). 227 "Gurmee lihatooted" (prosciutto,
+  // coppa, terrines) also carries real dry sausage (Fuetec, Tapas
+  // fuet) — SAUSAGE_WORDS excluded. 225 "Muud lihatooted" is a real
+  // mixed bag — pâté, sült, canned meat, jerky/snacks, smoked chicken
+  // and cured cuts (wanted) next to meatballs, cutlets, nuggets,
+  // breaded schnitzel, pulled meat, a soup kit, and plant-based fakes
+  // (not) — so it's taken by REQUIRING an in-scope word, checked
+  // against all 160 names by hand.
+  "Ham & cold cuts": {
+    sources: [
+      { id: 224, nameFilter: excludeWords(SELVER_PLANT_BASED_WORDS) },
+      { id: 227, nameFilter: excludeWords(SELVER_SAUSAGE_WORDS) },
+      {
+        id: 225,
+        nameFilter: excludeWords(
+          SELVER_PLANT_BASED_WORDS.concat(["supikogu"]),
+          // "vürtsisealiha"/"vürtsine sealiha"/"vürtsikas lihaveise" are
+          // canned meats; a bare "vürtsi" also caught spicy chicken
+          // wings (pre-cooked, not a cold cut) — checked on the dump.
+          ["sült", "pasteet", "konserv", "omas mahlas", "hautatud", "turisti", "vürtsisealiha", "vürtsine sealiha", "vürtsikas lihaveise", "jerky", "vinnut", "kuivat", "snäk", "kabanos", "salaami", "sink", "prosciutto", "suitsu", "äkis", "terriin", "vaht", "seakõrv"]
+        ),
+      },
+    ],
+  },
+  // 228 "Värske kala, mereannid" (nearly all per kg), 229 "Soolatud ja
+  // suitsutatud kalatooted", 230 "Töödeldud mereannid" (mussels,
+  // shrimp, roe, caviar, seaweed), 231 "Muud kalatooted" (canned,
+  // marinated, sprats, herring, dried) — checked by hand, clean.
+  "Fish & seafood": {
+    sources: [{ id: 228 }, { id: 229 }, { id: 230 }, { id: 231, nameFilter: excludeWords(SELVER_PLANT_BASED_WORDS) }],
   },
 };
 

@@ -91,8 +91,8 @@ progress as each batch finishes.
    nuts, seeds & dried fruit — *done*
 5. **Frozen**: vegetables & berries, ice cream, dumplings & pizza
    (& fries) — *done*
-6. **Meat products & fish**: sausages, ham & cold cuts, fish (fresh,
-   smoked, canned)
+6. **Meat products & fish**: sausages, ham & cold cuts, fish & seafood
+   (fresh, smoked, canned) — *done*
 7. **Baby food, household, personal care, pet food**
 8. **Abbreviation-matching round** (after batch 7): one pass over the
    low-match categories — Chips & snacks, Tea & cocoa, Pasta, and any

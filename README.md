@@ -6,76 +6,78 @@ shows a side-by-side price comparison with the cheapest store
 highlighted. No build step, no external dependencies — just Node.js
 and a static HTML page.
 
-## The three stores and five categories
+## The four stores and the categories
 
 | Store | How it's fetched |
 |---|---|
 | Barbora | category listing pages, server-rendered HTML |
 | Rimi | category listing pages, server-rendered HTML |
 | Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
+| Coop (Haapsalu) | the public WooCommerce Store API of coophaapsalu.ee (`/wp-json/wc/store/v1/products`), one request per second; in-stock items only. Regional pricing — the Haapsalu e-shop's prices, labelled as such in the app. Its `sku` is a barcode on branded goods, so Coop–Selver pairs mostly match by EAN (see CLAUDE.md) |
 
 Fifty-three categories are scraped today, with this many matched
-products in each as of the last run (`data/prices.json`). The three
+products in each as of the last run (`data/prices.json`) — a product
+is a group of 2, 3 or 4 store listings. The three
 alcohol categories exist for private testing only and are hidden
 entirely when `SHOW_ALCOHOL` (frontend/app-logic.js) is false — see
 CLAUDE.md:
 
 | Category | Matched products |
 |---|---|
-| Baby formula | 20 |
-| Fruits & vegetables | 67 |
-| Dairy | 43 |
-| Bread | 83 |
-| Drinks (non-alcoholic only) | 94 |
-| Meat (fresh & frozen chicken, pork, beef, lamb, minced) | 18 |
-| Pasta | 38 |
-| Rice & grains | 21 |
-| Flour & sugar | 25 |
-| Cooking oil | 18 |
-| Cheese | 56 |
-| Curd & cottage cheese | 24 |
-| Cream & sour cream | 11 |
-| Kefir & buttermilk | 5 |
-| Coffee | 49 |
-| Tea & cocoa | 15 |
-| Cereals & oats | 36 |
-| Canned food | 35 |
-| Sauces & condiments | 120 |
-| Spices | 114 |
-| Jam & honey & spreads | 39 |
-| Baking supplies | 18 |
-| Chocolate | 39 |
-| Candy | 58 |
-| Biscuits | 33 |
-| Chips & snacks | 30 |
-| Nuts, seeds & dried fruit | 30 |
-| Frozen vegetables & berries | 14 |
-| Ice cream | 16 |
-| Dumplings, pizza & fries | 21 |
-| Sausages | 74 |
-| Ham & cold cuts | 63 |
-| Fish & seafood | 47 |
-| Baby food | 20 |
-| Diapers & baby wipes | 44 |
-| Personal care | 203 |
-| Household | 80 |
-| Pet food (incl. cat litter) | 12 |
-| Cakes & pastries | 14 |
-| Instant food | 31 |
-| World cuisine | 15 |
-| Alcohol-free beer, cider & wine | 11 |
-| Beer & cider (private testing) | 66 |
-| Wine (private testing) | 80 |
-| Spirits (private testing) | 192 |
-| Curd snacks & desserts | 27 |
-| Milk drinks & drinking yoghurt | 12 |
-| Crispbreads | 3 |
-| Energy, sports & iced-tea drinks | 27 |
-| Syrups & juice drinks | 21 |
-| Frozen fish & seafood | 8 |
-| Frozen dough & pastries | 15 |
-| Broths & stock | 4 |
-| **Total** | **2259** |
+| Baby formula | 26 |
+| Fruits & vegetables | 132 |
+| Dairy | 91 |
+| Bread | 115 |
+| Drinks (non-alcoholic only) | 238 |
+| Meat (fresh & frozen chicken, pork, beef, lamb, minced) | 32 |
+| Pasta | 61 |
+| Rice & grains | 34 |
+| Flour & sugar | 49 |
+| Cooking oil | 34 |
+| Cheese | 146 |
+| Curd & cottage cheese | 34 |
+| Cream & sour cream | 19 |
+| Kefir & buttermilk | 6 |
+| Coffee | 99 |
+| Tea & cocoa | 66 |
+| Cereals & oats | 87 |
+| Canned food | 73 |
+| Sauces & condiments | 193 |
+| Spices | 155 |
+| Jam & honey & spreads | 66 |
+| Baking supplies | 27 |
+| Chocolate | 103 |
+| Candy | 212 |
+| Biscuits | 111 |
+| Chips & snacks | 67 |
+| Nuts, seeds & dried fruit | 82 |
+| Frozen vegetables & berries | 34 |
+| Ice cream | 55 |
+| Dumplings, pizza & fries | 43 |
+| Sausages | 134 |
+| Ham & cold cuts | 117 |
+| Fish & seafood | 109 |
+| Baby food | 109 |
+| Diapers & baby wipes | 56 |
+| Personal care | 464 |
+| Household | 249 |
+| Pet food (incl. cat litter) | 105 |
+| Cakes & pastries | 29 |
+| Instant food | 61 |
+| World cuisine | 29 |
+| Alcohol-free beer, cider & wine | 33 |
+| Beer & cider (private testing) | 209 |
+| Wine (private testing) | 235 |
+| Spirits (private testing) | 279 |
+| Curd snacks & desserts | 56 |
+| Milk drinks & drinking yoghurt | 28 |
+| Crispbreads | 12 |
+| Energy, sports & iced-tea drinks | 61 |
+| Syrups & juice drinks | 63 |
+| Frozen fish & seafood | 14 |
+| Frozen dough & pastries | 23 |
+| Broths & stock | 9 |
+| **Total** | **4974** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's
@@ -300,7 +302,8 @@ minu-project/
 │   └── stores/
 │       ├── barbora.js            fetches + parses Barbora category pages
 │       ├── rimi.js               fetches + parses Rimi category pages (+ rimi.test.js, its brand-facet matching)
-│       └── selver.js             fetches Selver's catalog search API
+│       ├── selver.js             fetches Selver's catalog search API
+│       └── coop.js               fetches Coop Haapsalu's WooCommerce Store API (+ coop.test.js: item shape, the category map, the dairy-family split)
 └── scripts/
     └── serve.js                  tiny local static server, no dependencies
 ```

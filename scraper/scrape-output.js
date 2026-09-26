@@ -93,7 +93,9 @@ function inferBrands(pool) {
   const brands = [...new Set(pool.filter((it) => it.brand).map((it) => String(it.brand).trim()).filter((b) => b.length >= 3))];
   const patterns = brands
     .sort((a, b) => b.length - a.length)
-    .map((brand) => ({ brand, regex: new RegExp(`(?<![\\p{L}\\p{N}])${brand.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+")}(?![\\p{L}\\p{N}])`, "iu") }));
+    // A digit may follow the brand directly ("Holle2" — Coop fuses the
+    // formula stage onto it); a letter may not ("Alma" is not "Almar").
+    .map((brand) => ({ brand, regex: new RegExp(`(?<![\\p{L}\\p{N}])${brand.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+")}(?![\\p{L}])`, "iu") }));
   let inferred = 0;
   for (const item of pool) {
     if (item.brand || !item.name) continue;

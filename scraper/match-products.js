@@ -139,6 +139,18 @@ const NAMED_VARIANTS = [
   { pattern: /(?<![\p{L}\d])(\d{1,2})\s*-?\s*(?:yo|y\.o\.?|years?(?:\s+old)?|aastane|aastat|a[nñ]os)(?![\p{L}])/iu, token: (m) => `${m[1]}yo` },
   { pattern: /\bcomfort\s*(\d)\b/i, token: (m) => `comfort${m[1]}` },
   { pattern: /\bcomf(?:ort)?\b/i, token: () => "comfort" },
+  // HiPP's "Combiotic" line states its stage the way NAN's "Plus" does
+  // (see below) — sometimes fused ("Combiotic2", Coop's own style),
+  // sometimes spaced ("Combiotic 2"). Extracts the bare digit so it
+  // still agrees with a stage stated alone elsewhere ("HIPP 2 Bio").
+  // Listed after the Comfort entries: "Comfort Combiotic 1" is the
+  // Comfort product, not stage 1 of plain Combiotic. Also Coop's
+  // abbreviation "Comb.1" (the period made the digit invisible to the
+  // numeric fallback, which refuses a digit after a period so that a
+  // decimal is never split). A letter may follow the digit (Barbora's
+  // "Combiotic2Bio" is stage 2) — but not an age marker's letter
+  // ("Combiotic 6k", "6kuud", "2a", "2aastat") and never "0+".
+  { pattern: /\bcomb(?:iotic|\.)\s*(\d)(?![\d.,%+-])(?![ka](?![\p{L}])|kuu|aast)/iu, token: (m) => m[1] },
   { pattern: /\b(?:lv|laktoosivaba)\b/i, token: () => "lactose-free" },
   // Aptamil's anti-reflux line ("Piimasegu AR APTAMIL...") — a real,
   // different product from plain formula (a medical dietary need), not
@@ -148,6 +160,12 @@ const NAMED_VARIANTS = [
   // packaging uses, not as a coincidental capitalized fragment
   // elsewhere.
   { pattern: /\bAR\b/, token: () => "ar" },
+  // The same anti-reflux line spelled out ("Hipp Anti Reflux imiku
+  // piimasegu 300g" — Coop writes it in words, no "AR" at all). Real
+  // wrong match found reviewing the first Coop scrape by hand: with
+  // the words invisible to the variant rules, Coop's HiPP Anti Reflux
+  // 300g matched Barbora's HiPP Comfort 300g on brand+size alone.
+  { pattern: /\banti[\s-]?reflux\b/i, token: () => "ar" },
   // Nestlé NAN's "Optipro Plus1"/"Plus2"/"Plus3"/"Plus4" line states
   // its stage as "Plus" + digit — sometimes fused ("Plus4"), sometimes
   // spaced ("Plus 2"); both extract to the bare digit here so they
@@ -577,7 +595,10 @@ function extractBrand(name) {
   // Otherwise, first capitalized word is fine to start — skipping
   // past known category words so they don't get mistaken for the
   // brand.
-  for (const match of stripQualityGrade(name).matchAll(/\p{Lu}[\p{L}\p{N}]*/gu)) {
+  // (Coop's leading age marker "6K"/"1A" is not a capitalized word
+  // — it was guessed as the brand "k" on every brand-less Coop baby
+  // food, see stripLeadingAgeMarker.)
+  for (const match of stripLeadingAgeMarker(stripQualityGrade(name)).matchAll(/\p{Lu}[\p{L}\p{N}]*/gu)) {
     const word = match[0].toLowerCase();
     if (!CATEGORY_WORDS.has(word)) {
       return word;
@@ -666,7 +687,19 @@ function extractVintage(name) {
 // formula's age marker ("al. 6k") is never mistaken for it.
 const LAYER_PATTERN = /(?<![\d])(\d)\s*-?\s*(?:kih\p{L}*|k\.)(?![\p{L}])/iu;
 
-function extractVariant(name, { pieceCounts = false } = {}) {
+// The store's own age marker written as a leading token — Coop's "6K"
+// (from 6 months), "10K", "1A" (from 1 year) — is never the product's
+// type word or a descriptor. Barbora's trailing "6K+"/"0K+" was
+// already invisible (a unit-like letter after a digit is dropped, see
+// DESCRIPTOR_NORMALIZATION_PATTERNS); the LEADING form still became
+// the type word "k" ("Hipp K mahe 2 800g" on the screen).
+const LEADING_AGE_MARKER = /^\s*\d{1,2}\s*[kKaA]\+?(?![\p{L}])\s*/u;
+
+function stripLeadingAgeMarker(name) {
+  return name.replace(LEADING_AGE_MARKER, "");
+}
+
+function extractVariant(name, { pieceCounts = false, brand = null } = {}) {
   if (pieceCounts) {
     const layers = name.match(LAYER_PATTERN);
     if (layers) return `${layers[1]}kih`;
@@ -685,6 +718,13 @@ function extractVariant(name, { pieceCounts = false } = {}) {
   if (size) {
     text = name.slice(0, size.index) + " ".repeat(size.raw.length) + name.slice(size.index + size.raw.length);
   }
+  // A stage digit fused straight onto the brand ("Holle2", Coop's own
+  // style) is unreachable to the \b below (letter and digit are both
+  // "word" characters); blanking the known brand first leaves the
+  // bare digit. Letter boundaries only, so the digit survives.
+  if (brand) {
+    text = text.replace(new RegExp(`(?<![\\p{L}])${escapeRegExp(brand).replace(/\s+/g, "\\s+")}(?![\\p{L}])`, "giu"), (m) => " ".repeat(m.length));
+  }
 
   // A standalone 1-2 digit number, as long as it isn't part of an
   // age range or marker like "0-6k", "0+", "10%" — those aren't a
@@ -700,7 +740,11 @@ function extractVariant(name, { pieceCounts = false } = {}) {
 // matching (see sameBrandedProduct) — two milks at the same brand and
 // size but different fat % are different products, not a wording
 // difference.
-const FAT_PERCENT_PATTERN = /\b(\d+(?:[.,]\d+)?(?:\s*-\s*\d+(?:[.,]\d+)?)?)\s*%/;
+// The number may be fused straight onto the preceding word (Coop's
+// "Strong7.5%"): a plain \b can't reach a digit after a letter and
+// read ".5%" as 5%. The lookbehind only forbids starting inside a
+// number ("7.5" must not be re-read from its "5").
+const FAT_PERCENT_PATTERN = /(?<!\d[.,]?)(\d+(?:[.,]\d+)?(?:\s*-\s*\d+(?:[.,]\d+)?)?)\s*%/;
 
 function extractFatPercent(name) {
   const match = name.match(FAT_PERCENT_PATTERN);
@@ -982,6 +1026,10 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
   // precedes it: a bare letter after anything else ("Sensitivity&G",
   // "&G" = "& Gum") is an abbreviation and stays a real descriptor.
   { regex: /(?<=\d)\s*(?:kg|ml|cl|g|l|k)(?![\p{L}])/giu, replacement: "" },
+  // The year form of the same age marker ("1A" = from 1 year, Coop;
+  // "al.2a", Barbora) — fused to the digit only, so a spaced "2 a"
+  // or any word is never touched.
+  { regex: /(?<=\d)a(?![\p{L}])/giu, replacement: "" },
   // "Alcohol-free" in every abbreviation the three stores use —
   // "Alk.vaba", "Alk. Vaba", "Alkovaba", "Alk.v.", "Al.vaba",
   // "Alkoh. vaba" — all meet at the full word, so the same
@@ -1146,7 +1194,7 @@ function extractType(name, { strictPackaging = false } = {}) {
   // The same type-phrase fold the descriptors get ("Hele õlu SAKU
   // Kuld" is an "õlu", not a "hele") — otherwise the first word "Hele"
   // became the display name's type word ("Corona Hele extra pudel").
-  const word = firstWord(stripQualityGrade(name).replace(TYPE_PHRASE_FOLD, "õlu"));
+  const word = firstWord(stripLeadingAgeMarker(stripQualityGrade(name)).replace(TYPE_PHRASE_FOLD, "õlu"));
   return word ? word.toLowerCase() : null;
 }
 
@@ -1206,8 +1254,23 @@ function extractProduceVariant(name) {
 // (extractSize requires a leading digit, extractUnit doesn't).
 // Exported so fetch-price.js can compute this once per item, right
 // after scraping, instead of leaving it to happen once per pair.
+// Barbora sometimes runs the (all-caps) brand straight onto the word
+// before it: "Imiku piimasegu ComfortHIPP 300g" — one token, so
+// neither the brand pattern nor the "comfort" variant rule can see
+// either half. Real wrong match found reviewing the first Coop
+// scrape: with "Comfort" invisible, this listing matched Coop's HiPP
+// Anti Reflux 300g. Split only when the store-stated brand appears in
+// capitals directly after a lowercase letter — never case-insensitive
+// (brand "Alma" inside "Palma" must stay one word).
+function splitFusedBrand(name, brand) {
+  if (!brand || brand.length < 3) return name;
+  const upper = brand.toUpperCase();
+  if (upper === brand.toLowerCase()) return name;
+  return name.replace(new RegExp(`(\\p{Ll})(${escapeRegExp(upper)})(?![\\p{L}])`, "gu"), "$1 $2");
+}
+
 function computeSignature(item) {
-  const name = item.name;
+  const name = splitFusedBrand(item.name, item.brand);
   const sizeOptions = { pieceCounts: item.pieceCountSizes === true };
   // In the piece-count categories a brand found by the KNOWN_BRANDS
   // list (Barbora prints no brand field on its Dava eggs) is stripped
@@ -1248,7 +1311,7 @@ function computeSignature(item) {
     // showed a nonsense €/kg line. Written to prices.json by
     // toStoreEntry, priced per piece by frontend/pricing.js.
     size: item.diaperMatching === true ? diaperPieceCountSize(name) : extractSize(name, sizeOptions),
-    variant: extractVariant(name, sizeOptions),
+    variant: extractVariant(name, { ...sizeOptions, brand: item.brand || null }),
     // Checked against the raw name, not the stripped/produce-typed
     // text — applies the same way on the brand path and the produce
     // path. See IDENTITY_QUALIFIER_PATTERNS.
@@ -1447,7 +1510,10 @@ function isDiaperMultipack(name) {
 const DIAPER_SIZE_PATTERNS = [
   /\bs\s?(\d{1,2})\b/i,
   /\b(?:suurus|nr\.?)\s*(\d{1,2})\b/i,
-  /[a-zA-Z](\d{1,2})(?=\s?\d+(?:[.,]\d+)?\s*-\s*\d+(?:[.,]\d+)?\s*\+?\s*kg(?![a-zA-Z]))/i,
+  // The space before the weight range is required: Coop's "Girl12-17kg"
+  // fuses the RANGE onto the word, and without it the "1" of "12" was
+  // read as the size ("S1" on the screen for a size-5 box).
+  /[a-zA-Z](\d{1,2})(?=\s\d+(?:[.,]\d+)?\s*-\s*\d+(?:[.,]\d+)?\s*\+?\s*kg(?![a-zA-Z]))/i,
 ];
 const DIAPER_SIZE_FALLBACK_PATTERN = /(?<![\d.,-])\b(\d{1,2})\b(?!\s*(?:[.,]\d|%|\+|tk\b))(?![a-zA-Z])(?!-)/i;
 
@@ -1535,7 +1601,7 @@ function sameProduct(a, b) {
 
   const ean = eanVerdict(sigA, sigB);
   if (ean === "same") return true;
-  if (ean === "different" || ean === "conflict") return false;
+  if (ean === "conflict") return false;
 
   // Checked before either path's own rules, and after EAN (a matching
   // barcode is definitive regardless) — a qualifier disagreement means
@@ -1943,17 +2009,47 @@ function isValidEan(value) {
 // What two valid barcodes say about a pair: "same" (equal, and the
 // names agree on the things a barcode can't excuse — pack size, fat %
 // / strength, stage or age variant), "conflict" (equal barcode but
-// those disagree — reported, never matched), "different" (two valid
-// barcodes that differ — a different product even if the names look
-// alike), or null (at least one side has no valid barcode; the name
-// rules decide).
+// those disagree — reported, never matched), or null (no shared valid
+// barcode; the name rules decide). Two DIFFERENT valid barcodes decide
+// nothing: the same product carries different codes at two stores
+// often enough (Fazer Juuretise röst 450g: 4750212903427 at Coop,
+// 4740103011256 at Selver; Diamant sugar likewise) — found when the
+// old "different barcodes = different product" rule broke 65
+// long-standing groups the day Coop joined.
 function eanVerdict(sigA, sigB) {
   if (!sigA.ean || !sigB.ean) return null;
-  if (sigA.ean !== sigB.ean) return "different";
-  if (sigA.size && sigB.size && sigA.size !== sigB.size) return "conflict";
-  if (sigA.fatPercent !== null && sigB.fatPercent !== null && sigA.fatPercent !== sigB.fatPercent) return "conflict";
+  if (sigA.ean !== sigB.ean) return null;
+  if (sigA.size && sigB.size && !sameAmount(sigA.size, sigB.size)) return "conflict";
+  if (sigA.fatPercent !== null && sigB.fatPercent !== null && !sameFatPercent(sigA.fatPercent, sigB.fatPercent)) return "conflict";
   if (sigA.variant !== null && sigB.variant !== null && sigA.variant !== sigB.variant) return "conflict";
+  // Diapers: the size number is the product (the owner's rule) — a
+  // barcode can't excuse two stated sizes disagreeing either.
+  if (sigA.diaperMatching && sigB.diaperMatching && sigA.diaperSize !== null && sigB.diaperSize !== null && sigA.diaperSize !== sigB.diaperSize) return "conflict";
   return "same";
+}
+
+// Under a shared barcode, two sizes "clearly disagree" only when the
+// AMOUNT differs — not the notation: "500 g" and "500ml" (milk),
+// "4x75g" and "300g" (the same four rolls), "240g" and "4*60g" are
+// the same pack described two ways. Different totals (70 g vs 50 g)
+// stay a conflict. Piece/roll/length counts compare as-is.
+function sameAmount(sizeA, sizeB) {
+  if (sizeA === sizeB) return true;
+  const total = (size) => {
+    const m = String(size).match(/^(?:(\d+(?:\.\d+)?)x)?(\d+(?:\.\d+)?)(g|ml)$/);
+    return m ? Math.round((m[1] ? parseFloat(m[1]) : 1) * parseFloat(m[2]) * 100) / 100 : null;
+  };
+  const a = total(sizeA);
+  const b = total(sizeB);
+  return a !== null && b !== null && a === b;
+}
+
+// "3.6" and "3.6-4.2" (a range one store prints in full) agree; two
+// different single values don't.
+function sameFatPercent(a, b) {
+  if (a === b) return true;
+  const low = (v) => String(v).split("-")[0];
+  return low(a) === low(b) && (String(a).includes("-") || String(b).includes("-"));
 }
 
 // Union-find over an item pool's index positions — used by matchPool
@@ -2033,32 +2129,91 @@ function matchPool(items, overrides = [], knownDifferent = []) {
   const unmatched = [];
   const ambiguous = [];
 
-  for (const indices of groups.values()) {
-    if (indices.length === 1) {
-      unmatched.push(items[indices[0]]);
-      continue;
-    }
+  const edgeOf = (i, j) => edges.get(i < j ? `${i}-${j}` : `${j}-${i}`);
 
+  // Is this set of indices one clean product? One item per store, and
+  // every cross-store pair either matched directly or is linked
+  // through a barcode: when i and j didn't pair by name but one of
+  // them shares a valid EAN with a third member k that the other did
+  // pair with, i and j are the same product too (Coop's names differ
+  // in wording from Barbora's/Rimi's, but Coop = Selver by barcode and
+  // Selver = Barbora by name). Without this, adding a store with
+  // barcodes turned 526 existing groups ambiguous.
+  function isCleanGroup(indices) {
     const stores = new Set(indices.map((i) => items[i].store));
-    const oneItemPerStore = stores.size === indices.length;
-
-    let isClique = true;
-    for (let a = 0; a < indices.length && isClique; a++) {
+    if (stores.size !== indices.length) return false;
+    // A barcode core (items joined by EAN edges, transitively) is one
+    // certain product: whatever pairs with any member pairs with the
+    // core. Two items with no direct edge are still the same product
+    // when they belong to, or pair into, one and the same core. Real
+    // two-hop case: Barbora "Pizzamaitseaine" = Coop "Pizzamaitseaine"
+    // by name, Coop = Selver by barcode, Selver = Rimi "Pitsamaitseaine"
+    // by name — one product at four stores.
+    const coreId = new Map();
+    let nextCore = 0;
+    for (const i of indices) {
+      if (coreId.has(i)) continue;
+      const members = [i];
+      for (let n = 0; n < members.length; n++) for (const k of indices) if (!members.includes(k) && edgeOf(members[n], k)?.reason === "ean") members.push(k);
+      if (members.length >= 2) for (const m of members) coreId.set(m, nextCore);
+      if (members.length >= 2) nextCore++;
+    }
+    const coresOf = (i) => {
+      const set = new Set();
+      if (coreId.has(i)) set.add(coreId.get(i));
+      for (const k of indices) if (coreId.has(k) && edgeOf(i, k)) set.add(coreId.get(k));
+      return set;
+    };
+    for (let a = 0; a < indices.length; a++) {
       for (let b = a + 1; b < indices.length; b++) {
         const i = indices[a];
         const j = indices[b];
-        if (items[i].store === items[j].store) continue;
-        const key = i < j ? `${i}-${j}` : `${j}-${i}`;
-        if (!edges.has(key)) {
-          isClique = false;
-          break;
-        }
+        if (edgeOf(i, j)) continue;
+        const ci = coresOf(i);
+        if (![...coresOf(j)].some((c) => ci.has(c))) return false;
       }
     }
+    return true;
+  }
 
-    if (!oneItemPerStore || !isClique) {
+  // A group that isn't clean but holds barcode pairs is split along
+  // them: each set of items joined by EAN edges is a core; an item
+  // with no barcode joins the one core it has an edge to; an item with
+  // edges to two cores is undecidable and left out (ambiguous); items
+  // touching no core are considered as a group of their own. Real
+  // case: Barbora's "Combiotic2Bio" (stage digit fused, unreadable)
+  // paired by name with BOTH of Coop's Hipp stages, while Coop's
+  // barcodes tie each stage to Selver's — the barcodes settle it.
+  function splitByEan(indices) {
+    const parent = new Map(indices.map((i) => [i, i]));
+    const find = (i) => (parent.get(i) === i ? i : find(parent.get(i)));
+    let anyEan = false;
+    for (const i of indices) for (const j of indices) if (i < j && edgeOf(i, j)?.reason === "ean") { anyEan = true; parent.set(find(i), find(j)); }
+    if (!anyEan) return null;
+    const cores = new Map();
+    for (const i of indices) { const r = find(i); if (!cores.has(r)) cores.set(r, []); cores.get(r).push(i); }
+    const coreList = [...cores.values()].filter((c) => c.length >= 2);
+    const inCore = new Set(coreList.flat());
+    const free = [];
+    const leftovers = [];
+    for (const i of indices) {
+      if (inCore.has(i)) continue;
+      const touched = coreList.filter((core) => core.some((m) => edgeOf(i, m)));
+      if (touched.length === 1) touched[0].push(i);
+      else if (touched.length >= 2) leftovers.push(i);
+      else free.push(i);
+    }
+    return { cores: coreList, free, leftovers };
+  }
+
+  function emit(indices) {
+    if (indices.length === 1) {
+      unmatched.push(items[indices[0]]);
+      return;
+    }
+    if (!isCleanGroup(indices)) {
       ambiguous.push({ items: indices.map((i) => items[i]) });
-      continue;
+      return;
     }
 
     const groupItems = indices.map((i) => items[i]).sort((x, y) => x.store.localeCompare(y.store));
@@ -2072,10 +2227,7 @@ function matchPool(items, overrides = [], knownDifferent = []) {
     let overrideEdge = null;
     for (let a = 0; a < indices.length && !overrideEdge; a++) {
       for (let b = a + 1; b < indices.length; b++) {
-        const i = indices[a];
-        const j = indices[b];
-        const key = i < j ? `${i}-${j}` : `${j}-${i}`;
-        const edge = edges.get(key);
+        const edge = edgeOf(indices[a], indices[b]);
         if (edge?.reason === "override") {
           overrideEdge = edge;
           break;
@@ -2085,10 +2237,24 @@ function matchPool(items, overrides = [], knownDifferent = []) {
 
     const canonicalName = overrideEdge ? overrideEdge.canonicalName : synthesizeCanonicalName(groupItems[0], groupItems[1], groupItems.slice(2));
     // "ean" when any pair in the group was decided by a shared barcode.
-    const eanEdge = !overrideEdge && indices.some((i, a) => indices.slice(a + 1).some((j) => (edges.get(i < j ? `${i}-${j}` : `${j}-${i}`) || {}).reason === "ean"));
+    const eanEdge = !overrideEdge && indices.some((i, a) => indices.slice(a + 1).some((j) => (edgeOf(i, j) || {}).reason === "ean"));
     const reason = overrideEdge ? "override" : eanEdge ? "ean" : "automatic";
 
     matches.push({ items: groupItems, canonicalName, reason });
+  }
+
+  for (const indices of groups.values()) {
+    if (indices.length > 1 && !isCleanGroup(indices)) {
+      const split = splitByEan(indices);
+      if (split) {
+        for (const core of split.cores) emit(core);
+        if (split.free.length > 0) emit(split.free);
+        if (split.leftovers.length > 1) ambiguous.push({ items: split.leftovers.map((i) => items[i]) });
+        else if (split.leftovers.length === 1) unmatched.push(items[split.leftovers[0]]);
+        continue;
+      }
+    }
+    emit(indices);
   }
 
   // An item with no recognized produce type, no recognized brand, and

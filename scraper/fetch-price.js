@@ -67,6 +67,9 @@ async function main() {
   // data/raw/ (what the last scrape / daily update recorded), then pool
   // as usual — for adding a store without re-scraping everything.
   const onlyStore = (args.find((a) => a.startsWith("--only-store=")) || "").split("=")[1] || null;
+  // --from-raw (with --only-store): take that store from data/raw/ too,
+  // no network at all — re-pool after a matching-rule change.
+  const fromRaw = args.includes("--from-raw");
   const requestedName = args.find((a) => !a.startsWith("--"));
   const categories = requestedName ? CATEGORIES.filter((c) => c.name === requestedName) : CATEGORIES;
   const fetchers = {
@@ -106,7 +109,7 @@ async function main() {
     if (onlyStore) {
       const previous = rawByCategory.get(category.name) || {};
       resultsByStore = { Barbora: previous.Barbora || [], Rimi: previous.Rimi || [], Selver: previous.Selver || [], Coop: previous.Coop || [] };
-      resultsByStore[onlyStore] = await fetchers[onlyStore](category);
+      if (!fromRaw) resultsByStore[onlyStore] = await fetchers[onlyStore](category);
     } else {
       const [barboraResults, rimiResults, selverResults, coopResults] = await Promise.all(Object.values(fetchers).map((f) => f(category)));
       resultsByStore = { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults, Coop: coopResults };
@@ -127,7 +130,7 @@ async function main() {
       alcoholMatching: category.alcoholMatching === true,
       pieceCountSizes: category.pieceCountSizes === true,
       impliedDescriptors: category.impliedDescriptors || [],
-      resultsByStore: onlyStore ? { [onlyStore]: resultsByStore[onlyStore] } : resultsByStore,
+      resultsByStore: onlyStore ? (fromRaw ? {} : { [onlyStore]: resultsByStore[onlyStore] }) : resultsByStore,
     });
 
     // Run every item through the extraction functions exactly once
@@ -146,11 +149,22 @@ async function main() {
     for (const item of pool) prepareItem(item, category);
     let { matches, unmatched, ambiguous, eanConflicts } = matchPool(pool, overrides, knownDifferent);
 
-    if (onlyStore && DAILY_UPDATED.includes(category.name)) {
-      const existingUrls = new Set(existing.filter((p) => p.category === category.name).flatMap((p) => Object.values(p.prices).map((e) => e.url)));
-      const keep = matches.filter((m) => m.items.some((it) => it.store === onlyStore) || m.items.some((it) => existingUrls.has(it.url)));
-      for (const m of matches) if (!keep.includes(m)) unmatched.push(...m.items);
-      matches = keep;
+    let carriedOver = [];
+    if (onlyStore) {
+      const existingHere = existing.filter((p) => p.category === category.name);
+      if (DAILY_UPDATED.includes(category.name)) {
+        const existingUrls = new Set(existingHere.flatMap((p) => Object.values(p.prices).map((e) => e.url)));
+        const keep = matches.filter((m) => m.items.some((it) => it.store === onlyStore) || m.items.some((it) => existingUrls.has(it.url)));
+        for (const m of matches) if (!keep.includes(m)) unmatched.push(...m.items);
+        matches = keep;
+      }
+      // A pre-existing (reviewed) product the re-pool can't keep —
+      // its items are gone from data/raw/ (the daily update marked
+      // them unavailable), or the new store's wording bridged it into
+      // an ambiguous cluster — is carried over exactly as it was; the
+      // cluster stays in data/ambiguous.json for a person.
+      const keptUrls = new Set(matches.flatMap((m) => m.items.map((it) => it.url)));
+      carriedOver = existingHere.filter((p) => !Object.values(p.prices).some((e) => keptUrls.has(e.url)));
     }
 
     for (const { a, b } of eanConflicts) {
@@ -185,6 +199,8 @@ async function main() {
     for (const match of uniqueCanonicalNames(matches)) {
       freshEntries.push(toProductEntry(category, match));
     }
+    freshEntries.push(...carriedOver);
+    if (carriedOver.length) console.log(`  (${carriedOver.length} pre-existing ${category.name} products carried over unchanged: ${carriedOver.map((p) => p.name).join("; ")})`);
   }
 
   const prices = [...untouched, ...freshEntries];

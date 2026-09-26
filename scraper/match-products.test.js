@@ -96,6 +96,95 @@ const tests = [
     },
   },
   {
+    name: "Formula (Coop review): 'Anti Reflux' in words is the AR line — Coop's HiPP Anti Reflux 300g never matches Barbora's HiPP Comfort 300g (real wrong match: Barbora fuses the brand, 'ComfortHIPP', hiding 'Comfort'); the de-fused Barbora Comfort matches Selver's and Coop's Comfort by name",
+    run: () => {
+      const f = (store, name, brand, ean = null) => buildItem("Baby formula", store, name, { brand, ean });
+      const barboraComfort = f("Barbora", "Imiku piimasegu ComfortHIPP 300g sünnist", "HIPP");
+      const coopAr = f("Coop", "Hipp Anti Reflux imiku piimasegu 300g", "HIPP", "9062300137627");
+      const coopComfort = f("Coop", "Imiku piimasegu Hipp Comfort Combiotic 1 300g al.s", "HIPP", "9062300137634");
+      const selverComfort = f("Selver", "Imiku piimasegu Comfort Combiotic(puhituste ja kõhukinnisuse puhul) 0+, HIPP, 300 g", "HIPP", "9062300137634");
+      assert.equal(extractVariant("Hipp Anti Reflux imiku piimasegu 300g"), "ar");
+      assert.equal(extractVariant("Piimasegu Anti-Reflux 300g"), "ar");
+      assert.equal(computeSignature(barboraComfort).variant, "comfort", "the fused brand is split off, 'Comfort' is read");
+      assert.equal(sameProduct(barboraComfort, coopAr), false);
+      assert.equal(sameProduct(coopAr, selverComfort), false);
+      assert.equal(sameProduct(barboraComfort, selverComfort), true);
+      assert.equal(sameProduct(barboraComfort, coopComfort), true);
+      const pool = matchPool([barboraComfort, coopAr, coopComfort, selverComfort]);
+      assert.equal(pool.matches.length, 1);
+      assert.equal(pool.matches[0].items.length, 3, "Barbora + Coop + Selver Comfort");
+      assert.ok(pool.matches[0].items.every((it) => !/Reflux/.test(it.name)));
+      // Case-sensitive: a brand merely contained in a longer word is
+      // never split ("Palma" is not "P Alma").
+      assert.equal(computeSignature(buildItem("Dairy", "Barbora", "Jogurt Palma 400g", { brand: "Alma" })).descriptors, "jogurt palma");
+    },
+  },
+  {
+    name: "Formula (Coop review): Coop's leading age marker ('6K', '10K', '1A') is not the type word — the display name reads 'Hipp Jätkupiimasegu mahe 2 800g', never 'Hipp K mahe 2 800g'; the Combiotic line's stage digit is read fused ('Combiotic2'), spaced, abbreviated ('Comb.1') and never from an age marker ('Combiotic 0+', '6kuud')",
+    run: () => {
+      assert.equal(extractType("6K Jätkupiimasegu Hipp Bio Organic Combiotic2 800g", { strictPackaging: true }), "jätkupiimasegu");
+      assert.equal(extractType("1A Jätkupiimasegu Hipp Combiotic Junior 3 500g", { strictPackaging: true }), "jätkupiimasegu");
+      assert.equal(extractType("10K Kitsepiimasegu Holle 3 400g", { strictPackaging: true }), "kitsepiimasegu");
+      assert.equal(extractType("7K Ökol.makaroni-juusturoog Põnn 130g veiselihaga", { strictPackaging: true }), "ökol");
+      assert.equal(extractBrand("1A Jätkupiimasegu Hipp Combiotic Junior 3 500g"), "hipp", "the marker is never guessed as the brand");
+      assert.equal(computeSignature(buildItem("Baby food", "Coop", "1A Aedviljapüree kalkuniliha riisiga Hipp Bio 220g", { brand: "Hipp Bio" })).descriptors, "aedviljapüree kalkuniliha riisiga", "no leftover 'a'");
+      assert.equal(extractVariant("6K Jätkupiimasegu Hipp Bio Organic Combiotic2 800g"), "2");
+      assert.equal(extractVariant("Jätkupiimasegu Combiotic2Bio HIPP800g,6k"), "2");
+      assert.equal(extractVariant("Imiku piimasegu Hipp Organic Comb.1 800g al.s.mahe"), "1");
+      assert.equal(extractVariant("Imiku piimasegu 1 Organic Combiotic 0+, HIPP, 800 g"), "1", "'0+' is an age marker, not stage 0");
+      assert.equal(extractVariant("Jätkupiimasegu Combiotic 6kuud, HIPP, 800 g"), null);
+      assert.equal(extractVariant("Imiku piimasegu Hipp Comfort Combiotic 1 300g al.s"), "comfort", "Comfort wins over the Combiotic digit");
+      // A stage digit fused onto the brand itself ("Holle2") is read
+      // once the brand is known — and the brand is inferred from
+      // Selver's stated one even with the digit attached.
+      assert.equal(extractVariant("6K Kitsepiimasegu Holle2 400g", { brand: "Holle" }), "2");
+      const holle = [
+        buildItem("Baby formula", "Coop", "6K Kitsepiimasegu Holle2 400g", { brand: null, ean: "7640230491976" }),
+        buildItem("Baby formula", "Selver", "Kitsepiimasegu nr2 6+, HOLLE, 400 g", { brand: "HOLLE", ean: "7640230491976" }),
+        buildItem("Baby formula", "Coop", "Holle1 kitsepiimasegu 400g", { brand: null, ean: "7640230491839" }),
+        buildItem("Baby formula", "Selver", "Kitsepiimasegu nr1 0+, HOLLE, 400 g", { brand: "HOLLE", ean: "7640230491839" }),
+      ];
+      assert.equal(require("./scrape-output").inferBrands(holle), 2);
+      const pool = matchPool(holle);
+      assert.equal(pool.matches.length, 2);
+      // (Coop's "Holle1 kitsepiimasegu" starts with the brand, so its
+      // type word is the brand and is dropped — same as "Aptamil 1 800g".)
+      assert.deepEqual(pool.matches.map((m) => m.canonicalName).sort(), ["Holle 1 400g", "Holle Kitsepiimasegu 2 400g"]);
+      const hipp = matchPool([
+        buildItem("Baby formula", "Coop", "6K Jätkupiimasegu Hipp Bio Organic Combiotic2 800g", { brand: "HIPP", ean: "4062300401242" }),
+        buildItem("Baby formula", "Selver", "2 Organic Combiotic jätkupiimasegu 6kuud, HIPP, 800 g", { brand: "HIPP", ean: "4062300401242" }),
+      ]);
+      assert.equal(hipp.matches[0].canonicalName, "Hipp Jätkupiimasegu mahe 2 800g");
+    },
+  },
+  {
+    name: "Diapers (Coop review): Coop's 'Girl12-17kg68tk' (weight range fused onto the word) is size 5 from 'LM 5', not 'S1' from the '1' of '12' — and a shared barcode never excuses two stated sizes disagreeing",
+    run: () => {
+      const d = (store, name, brand, ean = null) => buildItem("Diapers & baby wipes", store, name, { brand, ean });
+      const coop = d("Coop", "Püksmähkmed Huggies Pants LM 5 Box Girl12-17kg68tk", "Huggies", "5029053564111");
+      const selver = d("Selver", "Püksmähkmed Pants Little Movers 5 Box Girl, HUGGIES, 12-17 kg/68 tk", "HUGGIES", "5029053564111");
+      assert.equal(computeSignature(coop).diaperSize, "5");
+      assert.equal(sameProduct(coop, selver), true);
+      assert.equal(matchItems(coop, selver).canonicalName, "Huggies Little Movers Lm Box Püksmähkmed S5 68tk Girl");
+      // Barbora's own fused form keeps working (space before the range).
+      assert.equal(computeSignature(d("Barbora", "Püksmähk.HUGGIES ExtraCare5 12-17kg34tk", "huggies")).diaperSize, "5");
+      const size4 = d("Selver", "Püksmähkmed Pants Little Movers 4 Box Girl, HUGGIES, 9-14 kg/68 tk", "HUGGIES", "5029053564111");
+      const pool = matchPool([coop, size4]);
+      assert.equal(pool.matches.length, 0);
+      assert.equal(pool.eanConflicts.length, 1, "same barcode, size 5 vs 4: reported, never matched");
+    },
+  },
+  {
+    name: "Alcohol (Coop review): a strength fused onto the word before it ('Strong7.5%') reads 7.5, not the '5' after the decimal point; 'alk.0,0%vol' still reads 0.0",
+    run: () => {
+      const b = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });
+      assert.equal(computeSignature(b("Coop", "Muu alk.jook Hartwall Original LD Strong7.5% 0.33L", "Hartwall")).fatPercent, "7.5");
+      assert.equal(computeSignature(b("Rimi", "Õlu Saku Kuld 5,2%vol 0,5L purk", "Saku")).fatPercent, "5.2");
+      assert.equal(computeSignature(b("Barbora", "Õlu A. LE COQ Premium alk.0,0%vol 500ml", "A. Le Coq")).fatPercent, "0.0");
+      assert.equal(matchItems(b("Coop", "Muu alk.jook Hartwall Original LD Strong7.5% 0.33L", "Hartwall"), b("Selver", "Long drink Strong, HARTWALL, 330 ml purk", "HARTWALL")).matched, false, "one side 'original', 'ld', 'muu', 'jook' — different words, no name match (the barcode joins them in the real data)");
+    },
+  },
+  {
     name: "Formula: Aptamil AR (anti-reflux) is a real, different product from plain Aptamil at the same size/stage-less wording — never matches",
     run: () => {
       const ar = item("Barbora", "Piimasegu AR APTAMIL 400g, sünnist");
@@ -1371,7 +1460,7 @@ const tests = [
     },
   },
   {
-    name: "EAN (Coop + Selver): only a valid 8/13-digit barcode counts; the same barcode is the same product (reason 'ean'); the same barcode with a different size, fat % or stage is an EAN conflict — never matched, reported by matchPool; two different valid barcodes never match; no barcode means the name rules decide",
+    name: "EAN (Coop + Selver): only a valid 8/13-digit barcode counts; the same barcode is the same product (reason 'ean'); the same barcode with a different size, fat % or stage is an EAN conflict — never matched, reported by matchPool; two different valid barcodes decide nothing; no barcode means the name rules decide",
     run: () => {
       assert.equal(isValidEan("4740252000217"), true);
       assert.equal(isValidEan("96385074"), true);
@@ -1383,7 +1472,16 @@ const tests = [
       assert.equal(matchItems(d("Coop", "Piim 2,5% Alma 1l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")).reason, "ean");
       assert.equal(matchItems(d("Coop", "Piim 2,5% Alma 1,5l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")).reason, "ean-conflict", "size disagrees");
       assert.equal(matchItems(d("Coop", "Piim 3,5% Alma 1l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")).reason, "ean-conflict", "fat % disagrees");
-      assert.equal(sameProduct(d("Coop", "Piim 2,5% Alma 1l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4070481000307", "ALMA")), false, "two different barcodes");
+      // Notation is not disagreement: the same amount in g vs ml, a
+      // multipack vs its total, a fat range vs its lower value.
+      assert.equal(matchItems(d("Coop", "Mlekovita lakt.vaba UHT piim 3.2% 500ml", "5900512982502", null), d("Selver", "Piim 3,2% kõrgpastöriseeritud laktoosivaba, MLEKOVITA, 500 g", "5900512982502", "MLEKOVITA")).reason, "ean");
+      const bread = (store, name, ean, brand) => buildItem("Bread", store, name, { ean, brand });
+      assert.equal(matchItems(bread("Coop", "Kodukandi koorikleib 4tk 300g Eesti Pagar", "4740086019898", null), bread("Selver", "Kodukandi koorikleib, EESTI PAGAR, 4x75 g", "4740086019898", "EESTI PAGAR")).reason, "ean");
+      assert.equal(matchItems(d("Coop", "Farmi Täispiim 3.6-4.2% 2L pure", "4740113091514", null), d("Selver", "Täispiim 3,6%-4,2% pure, FARMI, 2 L", "4740113091514", "FARMI")).reason, "ean");
+      const veg = (store, name, ean) => buildItem("Canned food", store, name, { ean });
+      assert.equal(matchItems(veg("Coop", "Mahe Küüslauguidu 50g", "6416332001013"), veg("Selver", "Küüslaugu idandid, LÕUNAIDU, 70 g", "6416332001013")).reason, "ean-conflict", "70 g vs 50 g is a real disagreement");
+      assert.equal(sameProduct(d("Coop", "Piim 2,5% Alma 1l", "4740252000217", "ALMA"), d("Selver", "Piim 2,5%, ALMA, 1 L", "4070481000307", "ALMA")), true, "two different barcodes decide nothing — the names do (the same product carries different codes at two stores often enough)");
+      assert.equal(sameProduct(d("Coop", "Piim 3,5% Alma 1l", "4740252000217", "ALMA"), d("Selver", "Piim 2,5%, ALMA, 1 L", "4070481000307", "ALMA")), false, "…and the names still block a real difference");
       assert.equal(sameProduct(d("Coop", "Piim 2,5% Alma 1l", "005255", "Alma"), d("Selver", "Piim 2,5%, ALMA, 1 L", "4070481000307", "ALMA")), true, "an invalid code is no barcode — names decide");
       const pool = matchPool([d("Coop", "Piim 2,5% Alma 1,5l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")]);
       assert.equal(pool.matches.length, 0);
@@ -1398,6 +1496,64 @@ const tests = [
       assert.equal(three.matches.length, 1);
       assert.equal(three.matches[0].items.length, 3, "Barbora joins by name, Coop-Selver by barcode");
       assert.equal(three.matches[0].reason, "ean");
+      // A barcode is transitive: Coop's wording doesn't pair with
+      // Barbora's by name, but Coop = Selver by barcode and Selver =
+      // Barbora by name, so the three are one product, not ambiguous.
+      const wording = [d("Coop", "Isa peenleib 355g Leibur", "4740086019898", null), d("Selver", "Isa peenleib, LEIBUR, 355 g", "4740086019898", "LEIBUR"), d("Barbora", "Isa peenleib LEIBUR, 355g", null, "LEIBUR")];
+      wording[0].brand = null;
+      const viaEan = matchPool(wording.map((it) => ({ ...it })));
+      assert.equal(viaEan.ambiguous.length, 0);
+      assert.equal(viaEan.matches.length, 1);
+      assert.equal(viaEan.matches[0].items.length, 3);
+      // …but two items that disagree by name and share NO barcode link
+      // are still ambiguous with a third that matches both.
+      const chain = matchPool([d("Coop", "Piim 2,5% Alma 1l", null, "ALMA"), d("Selver", "Piim 2,5%, ALMA, 1 L", null, "ALMA"), d("Barbora", "Piim ALMA 2,5% 1L", null, "ALMA")]);
+      assert.equal(chain.matches.length, 1, "three plain-name matches still form one group");
+      // Barcodes split an otherwise ambiguous cluster: Barbora's fused
+      // Each Coop stage shares a barcode with the matching Selver
+      // stage — two products. Barbora's fused "Combiotic2Bio" reads as
+      // stage 2 (the Combiotic rule) and joins the stage-2 core; when
+      // it was unreadable it paired with both cores and was left out —
+      // the barcode cores decided either way.
+      const f = (store, name, ean, brand) => buildItem("Baby formula", store, name, { ean, brand });
+      const hipp = matchPool([
+        f("Barbora", "Jätkupiimasegu Combiotic2Bio HIPP800g,6k", null, "HIPP"),
+        f("Coop", "Imiku piimasegu Hipp Organic Comb.1 800g al.s.mahe", "4062300401235", "HIPP"),
+        f("Coop", "6K Jätkupiimasegu Hipp Bio Organic Combiotic2 800g", "4062300401242", "HIPP"),
+        f("Selver", "Imiku piimasegu 1 Organic Combiotic 0+, HIPP, 800 g", "4062300401235", "HIPP"),
+        f("Selver", "2 Organic Combiotic jätkupiimasegu 6kuud, HIPP, 800 g", "4062300401242", "HIPP"),
+        f("Rimi", "Jätkup.segu Hipp 2 Comb. al. 6k öko 800g", null, "Hipp"),
+      ]);
+      assert.equal(hipp.matches.length, 2, "two Hipp stages");
+      const stage2 = hipp.matches.find((m) => m.items.some((it) => it.store === "Rimi"));
+      assert.equal(stage2.items.length, 4, "Rimi's and Barbora's stage 2 join the stage-2 core by name");
+      assert.ok(stage2.items.every((it) => !/Comb\.1|piimasegu 1 /.test(it.name)), "no stage-1 item in the stage-2 group");
+      assert.equal(hipp.ambiguous.length, 0);
+      assert.equal(hipp.unmatched.length, 0);
+      // The same pool with Barbora's stage unreadable ("Combiotic Bio
+      // HIPP800g" — no digit at all): it pairs with both cores and is
+      // left out, never guessed into one.
+      const unreadable = matchPool([
+        f("Barbora", "Jätkupiimasegu Combiotic Bio HIPP800g,6k", null, "HIPP"),
+        f("Coop", "Imiku piimasegu Hipp Organic Comb.1 800g al.s.mahe", "4062300401235", "HIPP"),
+        f("Coop", "6K Jätkupiimasegu Hipp Bio Organic Combiotic2 800g", "4062300401242", "HIPP"),
+        f("Selver", "Imiku piimasegu 1 Organic Combiotic 0+, HIPP, 800 g", "4062300401235", "HIPP"),
+        f("Selver", "2 Organic Combiotic jätkupiimasegu 6kuud, HIPP, 800 g", "4062300401242", "HIPP"),
+      ]);
+      assert.equal(unreadable.matches.length, 2);
+      assert.ok(unreadable.matches.every((m) => m.items.every((it) => it.store !== "Barbora")), "the undecidable Barbora item is in neither");
+      // Two hops through a barcode: Barbora = Coop by name (pizza),
+      // Coop = Selver by barcode, Selver = Rimi by name (pitsa).
+      const sp = (store, name, ean, brand) => buildItem("Spices", store, name, { ean, brand });
+      const pizza = matchPool([
+        sp("Barbora", "Pizzamaitseaine SANTA MARIA 5g", null, "SANTA MARIA"),
+        sp("Coop", "Pizzamaitseaine Santa Maria 5g", "7311312002563", "SANTA MARIA"),
+        sp("Selver", "Pitsamaitseaine, SANTA MARIA, 5 g", "7311312002563", "SANTA MARIA"),
+        sp("Rimi", "Pitsamaitseaine Santa Maria 5g", null, "Santa Maria"),
+      ]);
+      assert.equal(pizza.matches.length, 1);
+      assert.equal(pizza.matches[0].items.length, 4);
+      assert.equal(pizza.ambiguous.length, 0);
     },
   },
   {

@@ -54,7 +54,9 @@ long prose.
   contact a store.** Always ask the owner before running any live
   scrape. Selver may only be fetched via its open, explicitly-allowed
   path (`/api/catalog/vue_storefront_catalog_et/...`), at 1
-  request/second, strictly sequential.
+  request/second, strictly sequential; Coop (Haapsalu) only via its
+  public Store API (`/wp-json/wc/store/v1/products`), also 1
+  request/second.
 - **Every test or by-hand check builds items via `buildItem()`** (in
   `scraper/categories.js`) with the real category settings
   (`strictPackaging`, `matchAcrossWeights`) — never hand-roll a test
@@ -125,9 +127,17 @@ progress as each batch finishes.
     are already covered. Cat litter went into Pet food (the owner's
     call), the Household gaps were fixed the same day.
 
+11. **Coop (Haapsalu) as the fourth store — done 2026-09-27** (the
+    owner's decision; see the Coop section below): 7,545 Coop items
+    scraped over all 53 categories, 3,847 products carry a Coop price
+    (3,460 joined by barcode, 387 by name), total 2259 → 4974. Review
+    found one wrong match (HiPP Comfort vs HiPP Anti Reflux, Baby
+    formula) — fixed with regression tests; 145 EAN-vs-name conflicts
+    left unmatched in `data/ean-conflicts.json`.
+
 **Not allowed without the owner's explicit decision:** adding a new
-store (e.g. PROMO Cash&Carry), or anything that puts the app
-online/publicly reachable. Alcohol was decided by the owner for
+store beyond the four (e.g. PROMO Cash&Carry, Lidl), or anything that
+puts the app online/publicly reachable. Alcohol was decided by the owner for
 batch 9 — private testing only, never public, see next.
 
 **Alcohol is shown for private testing only.** The three alcohol
@@ -147,6 +157,41 @@ hidden by it. Store access: Barbora, Rimi and Selver all list alcohol
 with prices behind nothing more than a simple "I am 18+" click
 (checked 2026-09-26) — if a store ever puts alcohol behind a login or
 ID check, stop and tell the owner; never bypass it.
+
+**Coop (Haapsalu) is the fourth store (the owner's decision,
+2026-09-27) — regional pricing.** `scraper/stores/coop.js` reads
+coophaapsalu.ee's public WooCommerce Store API
+(`/wp-json/wc/store/v1/products`, 1 request/second, in-stock items
+only). Its prices are the Haapsalu consumer cooperative's e-shop
+prices — other Coop regions differ — so the app labels it "Coop
+(Haapsalu)" and shows "Haapsalu e-poe hind, teistes piirkondades võib
+erineda" under its rows; the price used is what anyone pays online
+(Säästukaart discounts don't apply online). **Before anything public,
+Coop needs the same lawyer check as the other stores** (robots.txt
+allows the API and the sales terms say nothing about automated access,
+but that is not a legal opinion). Coop states no brand: `inferBrands`
+in `scraper/scrape-output.js` gives a brand-less item a brand another
+store states in the same pool before signatures. Coop's `sku` is a
+barcode on branded goods: `isValidEan` (8/13 digits, mod-10 check) in
+`scraper/match-products.js` decides whether it counts; the same valid
+EAN at Coop and Selver = the same product (matchedVia "ean"), the same
+EAN with a different size / fat % / stage is an **EAN conflict —
+never matched**, written to `data/ean-conflicts.json` for a person.
+`node scraper/fetch-price.js --only-store=Coop` fetches Coop alone and
+pools it with the other stores' `data/raw/` (no re-scrape); in the
+daily-updated categories it never creates a group that has neither a
+Coop item nor a pre-existing product. The daily update fetches Coop
+with the same safety rules. Coop's own naming habits the matcher now
+reads (each with a regression test in `scraper/match-products.test.js`):
+a leading age marker ("6K", "10K", "1A") is never the type word or a
+brand guess; a stage digit fused onto a line or brand word
+("Combiotic2", "Holle2", "Comb.1") is the stage; "Anti Reflux" in
+words is the AR line; a strength fused onto a word ("Strong7.5%")
+reads 7.5; a weight range fused onto a word ("Girl12-17kg") is not a
+diaper size. Barbora's all-caps brand fused onto the previous word
+("ComfortHIPP", "MajoneesTARPLAN") is split off before anything else
+is read (`splitFusedBrand`). A shared barcode never excuses two
+stated diaper sizes disagreeing either.
 
 **Store images are hotlinked, for private testing only.** Each store
 entry in `data/prices.json` may carry the store's own product-photo

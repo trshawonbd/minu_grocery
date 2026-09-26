@@ -30,9 +30,17 @@ async function throttle() {
   lastRequestAt = Date.now();
 }
 
-async function fetchJson(url) {
+// A WooCommerce site answers a page with an occasional HTTP 5xx (seen
+// on the first full scrape: one 500 on a healthy category). Such a
+// page is retried twice, 5 s apart, still sequential; a 4xx or a third
+// failure throws like any other store's error.
+async function fetchJson(url, attempt = 1) {
   await throttle();
   const response = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } });
+  if (response.status >= 500 && attempt < 3) {
+    await new Promise((resolve) => setTimeout(resolve, 5000));
+    return fetchJson(url, attempt + 1);
+  }
   if (!response.ok) throw new Error(`Coop: HTTP ${response.status} for ${url}`);
   const totalPages = parseInt(response.headers.get("x-wp-totalpages") || "1", 10);
   return { data: await response.json(), totalPages: Number.isFinite(totalPages) ? totalPages : 1 };

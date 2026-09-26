@@ -38,6 +38,14 @@
 // a failed push is logged and the commit stays local until the next
 // push; never a force-push — see gitPush()).
 //
+// LAST, after that grocery commit/push are already done: runs
+// outlets/scraper/daily-update.js as its own step (see
+// runOutletsStep()) — a completely separate section of the project
+// (malls and brand discounts, see CLAUDE.md's "Outlets" section).
+// Any failure there (a crash, a bad exit code) is caught and logged,
+// never fatal to this script and never able to change anything the
+// grocery run already did.
+//
 // Before any of that: skips the entire run, untouched, if the repo
 // has uncommitted changes or data/.work-in-progress exists — see
 // repoSafetyCheck() and checkRepoSafety() in daily-update-logic.js.
@@ -386,6 +394,30 @@ async function main() {
   // locally, and this is what gets it out the next morning. When
   // everything is already on the remote it's a harmless no-op.
   gitPush();
+
+  // Outlets (2026-09-28) run as their own step, strictly AFTER the
+  // grocery commit/push above have already happened — so nothing an
+  // outlets scraper does (a crash, a bad exit code, its own file
+  // writes) can ever stop or change the grocery update; by the time
+  // this runs, that update is already finished and irreversible.
+  runOutletsStep();
+}
+
+// Runs outlets/scraper/daily-update.js as its own child process and
+// swallows anything it does — a non-zero exit, a thrown error, output
+// on stderr — logging it but never rethrowing, never touching the
+// exit code of THIS process. See outlets/README.md and CLAUDE.md's
+// "Outlets" section for what that script does (a stub today).
+function runOutletsStep() {
+  try {
+    const output = execFileSync("node", ["outlets/scraper/daily-update.js"], { cwd: ROOT, encoding: "utf8", timeout: 120000 });
+    console.log(output.trim());
+    appendLog([output.trim()]);
+  } catch (err) {
+    const detail = (err.stdout && err.stdout.toString().trim()) || (err.stderr && err.stderr.toString().trim()) || err.message;
+    console.log(`Outlets step failed (grocery update is unaffected — it already finished): ${detail}`);
+    appendLog([`Outlets step failed (grocery update is unaffected — it already finished): ${detail}`]);
+  }
 }
 
 main().catch((err) => {

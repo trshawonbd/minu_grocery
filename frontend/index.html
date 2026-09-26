@@ -161,7 +161,9 @@
     document.documentElement.lang = state.lang;
 
     // Routes: #/  #/search  #/g/<group id>[/<display category id>]
-    // #/c/<display category id>  #/p/<category::name>  #/basket
+    // #/c/<display category id>  #/p/<category::name>  #/outlets
+    // (placeholder — see outlets/ and CLAUDE.md's "Outlets" section)
+    // #/basket
     function routeFromHash() {
       const hash = decodeURIComponent(location.hash || "#/");
       if (hash.startsWith("#/g/")) {
@@ -171,6 +173,7 @@
       if (hash.startsWith("#/c/")) return { screen: "category", category: hash.slice(4) };
       if (hash.startsWith("#/p/")) return { screen: "product", key: hash.slice(4) };
       if (hash === "#/search") return { screen: "search" };
+      if (hash === "#/outlets") return { screen: "outlets" };
       if (hash === "#/basket") return { screen: "basket" };
       return { screen: "home" };
     }

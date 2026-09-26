@@ -143,6 +143,17 @@ const results = [
     assert.ok(text.includes("andmed võivad olla vananenud"));
     assert.ok(navText.includes("Korv (3)"));
   }),
+  test("Outletid (2026-09-28, placeholder): its own nav tab between Search and Basket, opens a screen with no grocery data on it at all", () => {
+    const root = new FakeNode("div");
+    const nav = new FakeNode("nav");
+    renderApp(root, nav, makeState({ screen: "outlets" }), actions);
+    const labels = nav.children.map((n) => n.children[1].textContent);
+    assert.deepEqual(labels, ["Avaleht", "Otsing", "Outletid", "Korv"], "Outletid sits between Search and Basket");
+    assert.equal(nav.find((n) => n.className.includes("active"))[0].children[1].textContent, "Outletid");
+    assert.ok(root.textContent.includes("Outletid"));
+    assert.ok(root.textContent.includes("veel arendamisel"), "a placeholder message, in Estonian");
+    assert.ok(!root.textContent.includes("Alma Piim") && !root.textContent.includes("Tere Või") && !root.textContent.includes("€"), "no grocery product or price on the placeholder screen");
+  }),
   test("Category (a display id): only that split's products, Estonian title, 2-column grid cards with image/icon, name, price range, gap badge, store count, Lisa korvi", () => {
     const { root, text } = render(makeState({ screen: "category", category: "piim-ja-jogurt" }));
     assert.ok(text.includes("Piim ja jogurt"));

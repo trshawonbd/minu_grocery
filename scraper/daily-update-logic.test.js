@@ -262,6 +262,21 @@ const results = [
     // network was unreachable.
     assert.match(source, /function gitPush\(\) \{\s*try \{/, "push must be inside a try block");
   }),
+  test("Outlets (2026-09-28): run as their own step, strictly after the grocery commit and push, wrapped so any failure there is caught and logged, never rethrown and never able to change the grocery result", () => {
+    const fs = require("node:fs");
+    const path = require("node:path");
+    const source = fs.readFileSync(path.join(__dirname, "daily-update.js"), "utf8");
+    const pushIndex = source.indexOf("gitPush();");
+    const outletsCallIndex = source.indexOf("runOutletsStep();");
+    assert.ok(pushIndex > -1 && outletsCallIndex > -1, "both calls must exist");
+    assert.ok(outletsCallIndex > pushIndex, "the outlets step is called strictly after gitPush(), i.e. after the grocery update is already finished");
+    assert.match(source, /function runOutletsStep\(\) \{\s*try \{/, "the outlets step must be inside a try block");
+    // Whatever the try block does, the catch below it must never
+    // rethrow, exit the process, or call any grocery-mutating
+    // function (gitCommit/gitPush/writeJson) — it only logs.
+    const runOutletsSource = source.slice(source.indexOf("function runOutletsStep"), source.indexOf("function runOutletsStep") + 800);
+    assert.doesNotMatch(runOutletsSource, /catch[\s\S]*?\{[\s\S]*?(throw |process\.exit|gitCommit\(|gitPush\(|writeJson\()/, "the catch block only logs, never rethrows or touches grocery state");
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

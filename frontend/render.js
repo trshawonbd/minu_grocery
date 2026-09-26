@@ -513,6 +513,11 @@ function renderBasket(root, state, actions) {
 const NAV_ICONS = {
   home: ["M4 11l8-7 8 7v9H4v-9z", "M10 20v-6h4v6"],
   search: ["M10 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12z", "M15 15l5 5"],
+  // A simple storefront — scalloped awning, walls, a door — for the
+  // "Outletid" tab (2026-09-28): malls and brand discounts, a
+  // separate section from the grocery comparison, own icon so it
+  // never looks like another category tile.
+  outlets: ["M4 10h16", "M5 10l1-6h12l1 6", "M5 10v9h14v-9", "M9 19v-5h6v5"],
   basket: ICON_PATHS.cart,
 };
 
@@ -522,6 +527,7 @@ function renderNav(nav, state, actions) {
   const items = [
     ["home", tr(state, "home")],
     ["search", tr(state, "search")],
+    ["outlets", tr(state, "outlets")],
     ["basket", count > 0 ? tr(state, "basketWithCount", { n: count }) : tr(state, "basket")],
   ];
   for (const [screen, label] of items) {
@@ -532,6 +538,16 @@ function renderNav(nav, state, actions) {
     b.appendChild(el("span", "nav-label", label));
     nav.appendChild(b);
   }
+}
+
+// Placeholder screen for the "Outletid" nav tab (2026-09-28) — malls
+// and brand discounts, a fully separate section from the grocery
+// comparison (see outlets/ and CLAUDE.md's own "Outlets" section);
+// nothing here reads state.products or any grocery data at all.
+function renderOutlets(root, state) {
+  root.textContent = "";
+  root.appendChild(el("h1", "screen-title", tr(state, "outlets")));
+  root.appendChild(el("div", "muted", tr(state, "outletsPlaceholder")));
 }
 
 function renderError(root, state) {
@@ -546,10 +562,11 @@ function renderApp(root, nav, state, actions) {
   else if (state.screen === "category") renderCategory(root, state, actions);
   else if (state.screen === "group") renderGroup(root, state, actions);
   else if (state.screen === "product") renderProduct(root, state, actions);
+  else if (state.screen === "outlets") renderOutlets(root, state, actions);
   else if (state.screen === "basket") renderBasket(root, state, actions);
   renderNav(nav, state, actions);
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { renderApp, renderHome, renderSearch, renderSearchResults, renderCategory, renderGroup, renderProduct, renderBasket, renderNav, renderError, storeLabel, categoryIconSvg, money };
+  module.exports = { renderApp, renderHome, renderSearch, renderSearchResults, renderCategory, renderGroup, renderProduct, renderOutlets, renderBasket, renderNav, renderError, storeLabel, categoryIconSvg, money };
 }

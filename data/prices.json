@@ -36550,16 +36550,26 @@
         "storeUnitPrice": 5.45,
         "storeName": "Aedoad tomatikastmes SALVEST 530g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aeduba-tomatikastm-530g/",
+        "size": "530g",
+        "ean": "4740073050361",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073050361.png",
+        "storeName": "Salvest aeduba 530g tomatikastmes"
+      },
       "selver": {
         "price": 2.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/aedoad-tomatikastmes-salvest-530-g",
         "size": "530g",
+        "ean": "4740073050361",
         "storeUnitPrice": 5.45,
         "storeName": "Aedoad tomatikastmes, SALVEST, 530 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Bonduelle Magus mais 340g",
@@ -36586,6 +36596,30 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Bonduelle Väikesed rohelised herned 400g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vaikesed-rohelised-herned-bonduelle-400-g",
+        "size": "400g",
+        "storeUnitPrice": 6.73,
+        "storeName": "Väikesed rohelised herned BONDUELLE 400g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bonduelle-vaikesed-rohelised-herned-400g/",
+        "size": "400g",
+        "ean": "3083680004053",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/3083680004053.png",
+        "storeName": "Bonduelle väikesed rohelised herned 400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Heinz Punased oad kidney 400g",
     "category": "Canned food",
     "prices": {
@@ -36597,13 +36631,71 @@
         "storeUnitPrice": 4.73,
         "storeName": "Punased oad Kidney HEINZ 400g"
       },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pun-oad-soolvees-400g/",
+        "size": "400g",
+        "ean": "5900783007638",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900783007638.png",
+        "storeName": "Heinz punased oad Kidney 400g soolvees"
+      },
       "selver": {
         "price": 1.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/punased-kidney-oad-heinz-400-g",
         "size": "400g",
+        "ean": "5900783007638",
         "storeUnitPrice": 8.59,
         "storeName": "Punased Kidney oad, HEINZ, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bonduelle Pun oad vapeur 310g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/aurutatud-pun-oad-vapeur-bonduelle-310-g",
+        "size": "310g",
+        "storeUnitPrice": 7.71,
+        "storeName": "Aurutatud pun.oad vapeur BONDUELLE 310g"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punased-oad-310g/",
+        "size": "310g",
+        "ean": "3083681012606",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/3083681012606.jpg",
+        "storeName": "Bonduelle Vapeur Aurutatud pun.oad 310g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Bonduelle Valg oad vapeur 310g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/aurutatud-valg-oad-vapeur-bonduelle-310-g",
+        "size": "310g",
+        "storeUnitPrice": 6.94,
+        "storeName": "Aurutatud valg.oad vapeur BONDUELLE 310g"
+      },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valged-oad-310g/",
+        "size": "310g",
+        "ean": "3083681003901",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/3083681003901.png",
+        "storeName": "Bonduelle Vapeur Aurutatud valg.oad 310g"
       }
     },
     "matchedVia": "automatic"
@@ -36619,6 +36711,15 @@
         "size": "415g",
         "storeUnitPrice": 6.39,
         "storeName": "Viie oa segu tomatikastmes HEINZ 415g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/viie-oa-segu-415g/",
+        "size": "415g",
+        "ean": "5000157072023",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000157072023.png",
+        "storeName": "Viie oa segu tomatikastmes Heinz 415g"
       },
       "rimi": {
         "price": 2.65,
@@ -36643,16 +36744,26 @@
         "storeUnitPrice": 3.32,
         "storeName": "Roheline hernes SALVEST 690g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/roh-hernes-salvest-690g/",
+        "size": "690g",
+        "ean": "4740073141113",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073141113-1.png",
+        "storeName": "Roheline hernes Salvest 690g"
+      },
       "selver": {
         "price": 2.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/roheline-hernes-salvest-690-g",
         "size": "690g",
+        "ean": "4740073141113",
         "storeUnitPrice": 5.09,
         "storeName": "Roheline hernes, SALVEST, 690 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Maitselt kurk 675g",
@@ -36665,6 +36776,15 @@
         "size": "675g",
         "storeUnitPrice": 4.13,
         "storeName": "Maitselt mahe kurk SALVEST 675g"
+      },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-kurk-salvest-675g/",
+        "size": "675g",
+        "ean": "4740073060346",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073060346-1.png",
+        "storeName": "Salvest Mahe kurk 675g"
       },
       "rimi": {
         "price": 2.79,
@@ -36681,11 +36801,12 @@
         "cardPrice": 1.99,
         "cardName": "Partner",
         "size": "675g",
+        "ean": "4740073060346",
         "storeUnitPrice": 7.75,
         "storeName": "Maitselt mahe kurk, SALVEST, 675 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Magus kurk 675g",
@@ -36698,6 +36819,15 @@
         "size": "675g",
         "storeUnitPrice": 4.13,
         "storeName": "Magus kurk SALVEST 675g"
+      },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magus-kurk-salvest-675g/",
+        "size": "675g",
+        "ean": "4740073060360",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073060360-1.png",
+        "storeName": "Magus kurk Salvest 675g"
       },
       "rimi": {
         "price": 2.79,
@@ -36712,11 +36842,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/magus-kurk-salvest-675-g",
         "size": "675g",
+        "ean": "4740073060360",
         "storeUnitPrice": 7.75,
         "storeName": "Magus kurk SALVEST, 675 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Küüslaugukurk 675g",
@@ -36729,6 +36860,15 @@
         "size": "675g",
         "storeUnitPrice": 4.13,
         "storeName": "Küüslaugukurk SALVEST 675g"
+      },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuuslaugukurk-675g/",
+        "size": "675g",
+        "ean": "4740073060483",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073060483-1.png",
+        "storeName": "Küüslaugukurk Salvest 675g"
       },
       "rimi": {
         "price": 2.79,
@@ -36743,8 +36883,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kuuslaugukurk-salvest-675-g",
         "size": "675g",
+        "ean": "4740073060483",
         "storeUnitPrice": 7.75,
         "storeName": "Küüslaugukurk, SALVEST, 675 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa Minikurk 330g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/minikurk-poltsamaa-330-g",
+        "size": "330g",
+        "storeUnitPrice": 7.24,
+        "storeName": "Minikurk PÕLTSAMAA 330g"
+      },
+      "coop": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/minikurk-poltsamaa-330g/",
+        "size": "330g",
+        "ean": "4740029040309",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029040309.png",
+        "storeName": "Minikurk Põltsamaa 330g"
       }
     },
     "matchedVia": "automatic"
@@ -36761,6 +36926,15 @@
         "storeUnitPrice": 4.37,
         "storeName": "Talukurk SALVEST 675g"
       },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/talukurk-salvest-675g/",
+        "size": "675g",
+        "ean": "4740073070925",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073070925-1.png",
+        "storeName": "Talukurk Salvest 675g"
+      },
       "rimi": {
         "price": 2.79,
         "currency": "EUR",
@@ -36774,11 +36948,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/talukurk-salvest-675-g",
         "size": "675g",
+        "ean": "4740073070925",
         "storeUnitPrice": 6.92,
         "storeName": "Talukurk, SALVEST, 675 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Delikatesskurk 330g",
@@ -36791,6 +36966,15 @@
         "size": "330g",
         "storeUnitPrice": 7.55,
         "storeName": "Delikatesskurk SALVEST 330g"
+      },
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/delikatesskurk-330g/",
+        "size": "330g",
+        "ean": "4740073072059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740073072059-1.png",
+        "storeName": "Delikatesskurk Salvest 330g"
       },
       "rimi": {
         "price": 2.59,
@@ -36805,11 +36989,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/delikatesskurk-salvest-330-g",
         "size": "330g",
+        "ean": "4740073072059",
         "storeUnitPrice": 7.55,
         "storeName": "Delikatesskurk, SALVEST, 330 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Kurk 675g",
@@ -36822,6 +37007,15 @@
         "size": "675g",
         "storeUnitPrice": 3.99,
         "storeName": "Marineeritud kurk SALVEST 675g"
+      },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marineeritud-kurk-675g/",
+        "size": "675g",
+        "ean": "4740073071878",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740073071878.png",
+        "storeName": "Salvest Marineeritud kurk 675g"
       },
       "rimi": {
         "price": 2.69,
@@ -36838,11 +37032,12 @@
         "cardPrice": 2.29,
         "cardName": "Partner",
         "size": "675g",
+        "ean": "4740073071878",
         "storeUnitPrice": 7.47,
         "storeName": "Marineeritud kurk, SALVEST, 675 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Salatikurk 395g",
@@ -36856,6 +37051,15 @@
         "storeUnitPrice": 5.04,
         "storeName": "Salatikurk SALVEST 395g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salatikurk-salvest-395g/",
+        "size": "395g",
+        "ean": "4740073074220",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073074220.png",
+        "storeName": "Salatikurk Salvest 395g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -36863,9 +37067,18 @@
         "size": "395g",
         "storeUnitPrice": 8.4,
         "storeName": "Salatikurk Salvest 395g/237g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/salatikurk-salvest-395g-neto",
+        "size": "395g",
+        "ean": "4740073074220",
+        "storeUnitPrice": 5.04,
+        "storeName": "Salatikurk, SALVEST, 395g neto"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mõisaproua kurgid 1000g",
@@ -36879,16 +37092,26 @@
         "storeUnitPrice": 3.65,
         "storeName": "Marin.kurgid MÕISAPROUA 1kg"
       },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marin-kurk-moisaproua1kg/",
+        "size": "1000g",
+        "ean": "4748001005261",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4748001005261-1.png",
+        "storeName": "Marineeritud kurk Mõisaproua 1kg"
+      },
       "selver": {
         "price": 3.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/marineeritud-kurgid-moisaproua-1-kg",
         "size": "1000g",
+        "ean": "4748001005261",
         "storeUnitPrice": 6.58,
         "storeName": "Marineeritud kurgid, MÕISAPROUA, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Maitselt kurk 680g",
@@ -36925,6 +37148,15 @@
         "storeUnitPrice": 5.26,
         "storeName": "Võileivakurk SALVEST 530g"
       },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-voileivakurk-530g/",
+        "size": "530g",
+        "ean": "4740073079133",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740073079133.png",
+        "storeName": "Võileivakurk Salvest 530g"
+      },
       "rimi": {
         "price": 2.85,
         "currency": "EUR",
@@ -36948,6 +37180,15 @@
         "storeUnitPrice": 4.13,
         "storeName": "Viilukurk SALVEST 675g"
       },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-viilukurk-675g/",
+        "size": "675g",
+        "ean": "4740073078389",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4740073078389.png",
+        "storeName": "Viilukurk Salvest 675g"
+      },
       "rimi": {
         "price": 2.95,
         "currency": "EUR",
@@ -36955,6 +37196,30 @@
         "size": "675g",
         "storeUnitPrice": 8.43,
         "storeName": "Viilukurk Salvest 675g/350g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Põltsamaa Salatikurk 380g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/salatikurk-poltsamaa-380-g",
+        "size": "380g",
+        "storeUnitPrice": 7.08,
+        "storeName": "Salatikurk PÕLTSAMAA 380g"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/poltsamaa-salatikurk-380g/",
+        "size": "380g",
+        "ean": "4740029040774",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740029040774.png",
+        "storeName": "Salatikurk Põltsamaa 380g"
       }
     },
     "matchedVia": "automatic"
@@ -36971,6 +37236,15 @@
         "storeUnitPrice": 5.17,
         "storeName": "Hapukurk SALVEST 675g"
       },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-hapukurk-675g/",
+        "size": "675g",
+        "ean": "4740073002773",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/11/4740073002773.png",
+        "storeName": "Hapukurk Salvest 675g"
+      },
       "rimi": {
         "price": 3.49,
         "currency": "EUR",
@@ -36984,11 +37258,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hapukurk-salvest-675-g",
         "size": "675g",
+        "ean": "4740073002773",
         "storeUnitPrice": 5.17,
         "storeName": "Hapukurk, SALVEST, 675 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mõisaproua Tomatid omas mahlas 1000g",
@@ -37002,16 +37277,26 @@
         "storeUnitPrice": 3.49,
         "storeName": "Tomatid omas mahlas MÕISAPROUA 1000g"
       },
+      "coop": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatid-omas-mahlas-1kg/",
+        "size": "1000g",
+        "ean": "4748001005285",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4748001005285-1.png",
+        "storeName": "Mõisaproua Tomat omas mahlas 1kg"
+      },
       "selver": {
         "price": 3.04,
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatid-omas-mahlas-moisaproua-1-kg",
         "size": "1000g",
+        "ean": "4748001005285",
         "storeUnitPrice": 3.04,
         "storeName": "Tomatid omas mahlas, MÕISAPROUA, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Minu Tomatid 680g",
@@ -37030,6 +37315,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatid-marinaadis-minu-680g",
         "size": "680g",
+        "ean": "4743144001279",
         "storeUnitPrice": 9.12,
         "storeName": "Tomatid marinaadis, MINU, 680g"
       }
@@ -37053,6 +37339,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/marineeritud-kurk-mesine-moisaproua-500-g-t000085953",
         "size": "500g",
+        "ean": "4745010129506",
         "storeUnitPrice": 8.38,
         "storeName": "Marineeritud kurk mesine, MÕISAPROUA, 500 g"
       }
@@ -37076,6 +37363,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kurgi-sinepisalat-felix-280-g",
         "size": "280g",
+        "ean": "4740029700371",
         "storeUnitPrice": 8.18,
         "storeName": "Kurgi-sinepisalat, FELIX, 280 g"
       }
@@ -37108,6 +37396,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kurgisalat-felix-280-g",
         "size": "280g",
+        "ean": "4740029700364",
         "storeUnitPrice": 8.18,
         "storeName": "Kurgisalat, FELIX, 280 g"
       }
@@ -37131,6 +37420,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sartsukurk-felix-460-g",
         "size": "460g",
+        "ean": "4740029700302",
         "storeUnitPrice": 11.26,
         "storeName": "Särtsukurk, FELIX, 460 g"
       }
@@ -37154,8 +37444,57 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piknikukurk-terve-felix-680g",
         "size": "680g",
+        "ean": "4740029700296",
         "storeUnitPrice": 8.03,
         "storeName": "Piknikukurk (terve), FELIX, 680g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mikado Nameko seened 530g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/nameko-seened-mikado-530-g",
+        "size": "530g",
+        "storeUnitPrice": 9.42,
+        "storeName": "Nameko seened MIKADO 530g"
+      },
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mikado-marineeritud-nameko-seened-530g/",
+        "size": "530g",
+        "ean": "4007415005961",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4007415005961.png",
+        "storeName": "Mikado marineeritud Nameko seened 530g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mikado Shiitake seened 530g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/shiitake-seened-mikado-530-g",
+        "size": "530g",
+        "storeUnitPrice": 8.66,
+        "storeName": "Shiitake seened MIKADO 530g"
+      },
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mikado-marineeritud-shiitake-seened-530g/",
+        "size": "530g",
+        "ean": "4007415009051",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4007415009051.png",
+        "storeName": "Mikado marineeritud Shiitake seened 530g"
       }
     },
     "matchedVia": "automatic"
@@ -37172,6 +37511,15 @@
         "storeUnitPrice": 8.03,
         "storeName": "Aurutatud läätsed vapeur BONDUELLE 310g"
       },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bonduelle-vapeur-aurutatud-laatsed-310g/",
+        "size": "310g",
+        "ean": "3083681003963",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/3083681003963.png",
+        "storeName": "Bonduelle Vapeur Aurutatud läätsed 310g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -37182,6 +37530,39 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Gourmante Röst punased maguspiprad 450g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 4.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rost-punased-maguspiprad-gourmante-450-g",
+        "size": "450g",
+        "storeUnitPrice": 10.11,
+        "storeName": "Röst.punased maguspiprad GOURMANTE 450g"
+      },
+      "coop": {
+        "price": 4.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punased-maguspiprad-450g/",
+        "size": "450g",
+        "ean": "5200110730520",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/5200110730520.png",
+        "storeName": "Gourmante röst.punased maguspiprad 450g"
+      },
+      "selver": {
+        "price": 4.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostitud-punased-maguspiprad-gourmante-450-g",
+        "size": "450g",
+        "ean": "5200110730520",
+        "storeUnitPrice": 12.64,
+        "storeName": "Röstitud punased maguspiprad, GOURMANTE, 450 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Gourmante Kapparid äädikas 100g",
@@ -37195,21 +37576,171 @@
         "storeUnitPrice": 17.9,
         "storeName": "Kapparid äädikas GOURMANTE 100g"
       },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmante-kapparid-aadikas-100g/",
+        "size": "100g",
+        "ean": "5200110732449",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/5200110732449.png",
+        "storeName": "Gourmante Kapparid äädikas 100g"
+      },
       "selver": {
         "price": 1.82,
         "currency": "EUR",
         "url": "https://www.selver.ee/kapparid-aadikas-gourmante-100-g",
         "size": "100g",
+        "ean": "5200110732449",
         "storeUnitPrice": 30.33,
         "storeName": "Kapparid äädikas, GOURMANTE, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Minu Pepperoni pipar 630g",
+    "category": "Canned food",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pepperoni-pipar-minu-630-g",
+        "size": "630g",
+        "storeUnitPrice": 3.95,
+        "storeName": "Pepperoni pipar MINU 630g"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pepperoni-pipar-630g/",
+        "size": "630g",
+        "ean": "4743144002832",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743144002832.jpg",
+        "storeName": "Pepperoni pipar Minu 630g"
       }
     },
     "matchedVia": "automatic"
   },
   {
-    "name": "Salvest Kurk maitselt 1600g",
+    "name": "Minu Kreeka salat 850g",
     "category": "Canned food",
     "prices": {
+      "barbora": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kreeka-salat-minu-850-g",
+        "size": "850g",
+        "storeUnitPrice": 4.81,
+        "storeName": "Kreeka salat MINU 850g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/minu-kreeka-salat-850g/",
+        "size": "850g",
+        "ean": "4743144000920",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/5902256002775.jpeg",
+        "storeName": "Kreeka salat Minu 850g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Põltsamaa Võileivakurk 460g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voileivakurk-460g/",
+        "size": "460g",
+        "ean": "4740029700012",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029040248.png",
+        "storeName": "Võileivakurk Põltsamaa 460g"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/kurgid/voileivakurk-poltsamaa-460g-240g/p/1022375",
+        "size": "460g",
+        "storeUnitPrice": 12.46,
+        "storeName": "Võileivakurk Põltsamaa 460g/240g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Põltsamaa Perekurk viilutatud 680g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/perekurk-680g-viilutatud/",
+        "size": "680g",
+        "ean": "4740029040132",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029040132-1.png",
+        "storeName": "Perekurk Põltsamaa 680g viilutatud"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/kurgid/perekurk-viilutatud-poltsamaa-680-340g/p/127784",
+        "size": "680g",
+        "storeUnitPrice": 8.79,
+        "storeName": "Perekurk viilutatud Põltsamaa 680/340g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Põltsamaa Piknikukurk viilutatud 680g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piknikukurk-680g-viil/",
+        "size": "680g",
+        "ean": "4740029040149",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740029040149-1.png",
+        "storeName": "Piknikukurk Põltsamaa 680g viilutatud"
+      },
+      "rimi": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/kurgid/piknikukurk-viilutatud-poltsamaa-680-360g/p/100242",
+        "size": "680g",
+        "storeUnitPrice": 9.03,
+        "storeName": "Piknikukurk viilutatud Põltsamaa 680/360g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piknikukurk-viiludena-poltsamaa-680-g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "680g",
+        "ean": "4740029040149",
+        "storeUnitPrice": 9.38,
+        "storeName": "Piknikukurk viiludena, PÕLTSAMAA, 680 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Salvest Maitselt kurk 1600g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-kurk-salvest-1-6kg/",
+        "size": "1600g",
+        "ean": "4740073060353",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740073060353-1.png",
+        "storeName": "Maitselt mahe kurk Salvest 1.6kg"
+      },
       "rimi": {
         "price": 4.99,
         "currency": "EUR",
@@ -37223,16 +37754,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maitselt-mahe-kurk-salvest-1-6-kg",
         "size": "1600g",
+        "ean": "4740073060353",
         "storeUnitPrice": 5.87,
         "storeName": "Maitselt mahe kurk, SALVEST, 1,6 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Sunfood Kurgid cm 680g",
+    "name": "Sunfood Kurk cm 680g",
     "category": "Canned food",
     "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sunfood-marineeritud-kurk-6-9cm-680g/",
+        "size": "680g",
+        "ean": "4745010129377",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4745010129377.png",
+        "storeName": "Marineeritud kurk Sunfood 6-9cm 680g"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -37246,16 +37787,108 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/marineeritud-kurgid-6-9-cm-sunfood-680-g-t000080796",
         "size": "680g",
+        "ean": "4745010129377",
         "storeUnitPrice": 3.22,
         "storeName": "Marineeritud kurgid 6-9 cm, SUNFOOD, 680 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bonduelle Mais 530g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mais-bonduelle-530g/",
+        "size": "530g",
+        "ean": "3083680015424",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/3083680015424.png",
+        "storeName": "Mais Bonduelle 530g"
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/mais/-mais-bonduelle-530g-360g/p/133988",
+        "size": "530g",
+        "storeUnitPrice": 6.08,
+        "regularPrice": 2.59,
+        "storeName": "Mais Bonduelle 530g/360g"
       }
     },
     "matchedVia": "automatic"
   },
   {
+    "name": "Põltsamaa Kõrvitsasalat 560g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/korvitsasalat-560g/",
+        "size": "560g",
+        "ean": "4740029043119",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029043119.png",
+        "storeName": "Kõrvitsasalat Põltsamaa 560g"
+      },
+      "rimi": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/muud-hoidised-salatid/korvitsasalat-poltsamaa-560g-310g/p/169235",
+        "size": "560g",
+        "storeUnitPrice": 8.23,
+        "storeName": "Kõrvitsasalat Põltsamaa 560g/310g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Salvest Salatiporgand 400g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salatiporgand-400g/",
+        "size": "400g",
+        "ean": "4740073074268",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073074268.png",
+        "storeName": "Salatiporgand Salvest 400g"
+      },
+      "rimi": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/muud-hoidised-salatid/salatiporgand-salvest-400g/p/195662",
+        "size": "400g",
+        "storeUnitPrice": 5.22,
+        "storeName": "Salatiporgand Salvest 400g"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/salatiporgand-salvest-neto-400g",
+        "size": "400g",
+        "ean": "4740073074268",
+        "storeUnitPrice": 5.23,
+        "storeName": "Salatiporgand, SALVEST, neto 400g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Põltsamaa Jahimehesalat 550g",
     "category": "Canned food",
     "prices": {
+      "coop": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jahimehesalat-550g/",
+        "size": "550g",
+        "ean": "4740029042082",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029042082.png",
+        "storeName": "Jahimehesalat Põltsamaa 550g"
+      },
       "rimi": {
         "price": 3.89,
         "currency": "EUR",
@@ -37269,16 +37902,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahimehesalat-poltsamaa-550-g",
         "size": "550g",
+        "ean": "4740029042082",
         "storeUnitPrice": 6.64,
         "storeName": "Jahimehesalat, PÕLTSAMAA, 550 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Salat toome 520g",
     "category": "Canned food",
     "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salat-toome-520g/",
+        "size": "520g",
+        "ean": "4740073030707",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073030707.png",
+        "storeName": "Salat Toome Salvest 520g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -37292,16 +37935,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/salat-toome-salvest-520-g",
         "size": "520g",
+        "ean": "4740073030707",
         "storeUnitPrice": 4.98,
         "storeName": "Salat Toome, SALVEST, 520 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Põltsamaa Punapeediviilud 570g",
+    "name": "Põltsamaa Punapeedi viilud 570g",
     "category": "Canned food",
     "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punapeedi-viilud-570g/",
+        "size": "570g",
+        "ean": "4740029044413",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029044413.png",
+        "storeName": "Punapeedi viilud Põltsamaa 570g"
+      },
       "rimi": {
         "price": 2.09,
         "currency": "EUR",
@@ -37315,16 +37968,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/punapeediviilud-poltsamaa-570-g",
         "size": "570g",
+        "ean": "4740029044413",
         "storeUnitPrice": 5.39,
         "storeName": "Punapeediviilud, PÕLTSAMAA, 570 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Sügisesalat 530g",
     "category": "Canned food",
     "prices": {
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sugisesalat-530g/",
+        "size": "530g",
+        "ean": "4740029043126",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029043126.png",
+        "storeName": "Sügisesalat Põltsamaa 530g"
+      },
       "rimi": {
         "price": 3.69,
         "currency": "EUR",
@@ -37338,16 +38001,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sugisesalat-poltsamaa-530-g",
         "size": "530g",
+        "ean": "4740029043126",
         "storeUnitPrice": 5.64,
         "storeName": "Sügisesalat, PÕLTSAMAA, 530 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Köögiviljasalat magus vürtsikas 380g",
     "category": "Canned food",
     "prices": {
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koogiviljasalat-380g/",
+        "size": "380g",
+        "ean": "4740073071847",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073071847-1.png",
+        "storeName": "Köögiviljasalat Salvest 380g magus-vürtsikas"
+      },
       "rimi": {
         "price": 3.79,
         "currency": "EUR",
@@ -37361,16 +38034,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/magus-vurtsikas-koogiviljasalat-salvest-380-g",
         "size": "380g",
+        "ean": "4740073071847",
         "storeUnitPrice": 9.61,
         "storeName": "Magus-vürtsikas köögiviljasalat, SALVEST, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Pohlasalat 310g",
     "category": "Canned food",
     "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-pohlasalat-310g/",
+        "size": "310g",
+        "ean": "4740073030189",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740073030189-1.png",
+        "storeName": "Pohlasalat Salvest 310g"
+      },
       "rimi": {
         "price": 3.95,
         "currency": "EUR",
@@ -37384,8 +38067,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pohlasalat-salvest-310-g",
         "size": "310g",
+        "ean": "4740073030189",
         "storeUnitPrice": 11.13,
         "storeName": "Pohlasalat, SALVEST, 310 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gaea kalamata oliivid kivideta 150g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 4.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gaea-kalamata-oliivid-150g-kivideta/",
+        "size": "150g",
+        "ean": "5201671802466",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/5201671802466.png",
+        "storeName": "Gaea Kalamata oliivid 150g kivideta"
+      },
+      "rimi": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/konserveeritud-koogiviljad/oliivid/oliivid-kivideta-kalamata-gaea-150g-140g/p/174403",
+        "size": "150g",
+        "storeUnitPrice": 30.64,
+        "storeName": "Oliivid kivideta Kalamata Gaea 150g/140g"
       }
     },
     "matchedVia": "automatic"
@@ -37407,11 +38115,543 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/marineeritud-sampinjonid-bonduelle-540-g",
         "size": "540g",
+        "ean": "5900281002968",
         "storeUnitPrice": 15.83,
         "storeName": "Marineeritud šampinjonid, BONDUELLE, 540 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Organic foods Foods kikerhernes vees mahe 400g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kikerhernes-vees-400g/",
+        "size": "400g",
+        "ean": "8002225650147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8002225650147.png",
+        "storeName": "Organic Foods kikerhernes vees 400g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kikerherned-vees-organic-foods-400-g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "8002225650147",
+        "storeUnitPrice": 7.46,
+        "storeName": "Kikerherned vees, ORGANIC FOODS, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmante kivideta oliivid roh 360g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmante-roh-oliivid-360g-kivideta/",
+        "size": "360g",
+        "ean": "5200110731077",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/5200110731077.png",
+        "storeName": "Gourmante roh.oliivid 360g kivideta"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kivideta-rohelised-oliivid-gourmante-360-g",
+        "size": "360g",
+        "ean": "5200110731077",
+        "storeUnitPrice": 22.17,
+        "storeName": "Kivideta rohelised oliivid, GOURMANTE, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Organic foods Foods mustad oad vees mahe 400g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustad-oad-vees-400g/",
+        "size": "400g",
+        "ean": "8002225650710",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/8002225650710.png",
+        "storeName": "Organic Foods Mustad oad vees 400g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustad-oad-vees-organic-foods-400-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "8002225650710",
+        "storeUnitPrice": 7.71,
+        "storeName": "Mustad oad vees, ORGANIC FOODS, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Green Valged riisikad 530g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valged-riisikad-mar-530g/",
+        "size": "530g",
+        "ean": "4744148010915",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744148010915.png",
+        "storeName": "Valged riisikad marineeritud Green 530g"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valged-riisikad-marineeritud-green-530-g",
+        "size": "530g",
+        "ean": "4744148010915",
+        "storeUnitPrice": 7.66,
+        "storeName": "Valged riisikad marineeritud, GREEN, 530 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmante Rohelised oliivid kividega 360g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmante-roh-oliivid-360g-kividega/",
+        "size": "360g",
+        "ean": "5200110730070",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/5200110730070.png",
+        "storeName": "Rohelised oliivid Gourmante 360g kividega"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreeka-rohelised-oliivid-gourmante-360-g",
+        "size": "360g",
+        "ean": "5200110730070",
+        "storeUnitPrice": 17.86,
+        "storeName": "Kreeka rohelised oliivid, GOURMANTE, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reggia Tomat kooritud 400g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomat-kooritud-400g/",
+        "size": "400g",
+        "ean": "8008857010021",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8008857010021.png",
+        "storeName": "Tomat kooritud Reggia 400g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kooritud-tomatid-reggia-400-g",
+        "size": "400g",
+        "ean": "8008857010021",
+        "storeUnitPrice": 7,
+        "storeName": "Kooritud tomatid, REGGIA, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Citres küüslauk ürtidega päeval õlis 290g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 4.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/citres-kuuslauk-urtidega-paeval-olis290g/",
+        "size": "290g",
+        "ean": "80127208",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/80127208.jpg",
+        "storeName": "Citres küüslauk ürtidega päeval.õlis290g"
+      },
+      "selver": {
+        "price": 4.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuuslauk-urtidega-paevalilleolis-citres-290-g",
+        "size": "290g",
+        "ean": "80127208",
+        "storeUnitPrice": 16.38,
+        "storeName": "Küüslauk ürtidega päevalilleõlis, CITRES, 290 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Salvest Salat tervist 520g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salat-tervist-520g/",
+        "size": "520g",
+        "ean": "4740073030080",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073030080.png",
+        "storeName": "Salat Tervist Salvest 520g"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/salat-tervist-salvest-520-g",
+        "size": "520g",
+        "ean": "4740073030080",
+        "storeUnitPrice": 5.17,
+        "storeName": "Salat Tervist, SALVEST, 520 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Salvest Kõrvitsasalat 560g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/korvitsasalat-560g-2/",
+        "size": "560g",
+        "ean": "4740073030257",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073030257.png",
+        "storeName": "Kõrvitsasalat Salvest 560g"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/korvitsasalat-salvest-560-g",
+        "size": "560g",
+        "ean": "4740073030257",
+        "storeUnitPrice": 7.78,
+        "storeName": "Kõrvitsasalat, SALVEST, 560 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Salvest Piprakurk 675g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-piprakurk-675g/",
+        "size": "675g",
+        "ean": "4740073060384",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740073060384-1.png",
+        "storeName": "Piprakurk Salvest 675g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piprakurk-salvest-675-g",
+        "size": "675g",
+        "ean": "4740073060384",
+        "storeUnitPrice": 7.75,
+        "storeName": "Piprakurk, SALVEST, 675 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Green rohelised oliivid krevetiga 300g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/green-rohelised-oliivid-300g-krevetiga/",
+        "size": "300g",
+        "ean": "4744148011127",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/4744148011127.png",
+        "storeName": "Green Rohelised oliivid 300g krevetiga"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rohelised-oliivid-krevettidega-300g-green-neto-120-g",
+        "size": "300g",
+        "ean": "4744148011127",
+        "storeUnitPrice": 16.58,
+        "storeName": "Rohelised oliivid krevettidega 300g, GREEN, neto 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bonduelle Borlotti oad chilli kastmes 430g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bonduelle-borlotti-oad-430g-chilli/",
+        "size": "430g",
+        "ean": "3083680090742",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/3083680090742.png",
+        "storeName": "Borlotti oad chilli kastmes Bonduelle 430g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/punased-oad-tsilli-kastmes-bonduelle-430-g",
+        "size": "430g",
+        "ean": "3083680090742",
+        "storeUnitPrice": 4.4,
+        "storeName": "Punased oad tšilli kastmes, BONDUELLE, 430 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dittmann kerg pepperoni pikantne mahe 250g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dittmann-pepperoni-250g-kerg-pikantne/",
+        "size": "250g",
+        "ean": "4002239804004",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4002239804004.png",
+        "storeName": "Dittmann pepperoni.250g kerg.pikantne"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-pipar-dittmann-250-g",
+        "size": "250g",
+        "ean": "4002239804004",
+        "storeUnitPrice": 19.92,
+        "storeName": "Mahe pipar, DITTMANN, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Minu Letsho naturaalne 680g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/letsho-minu-680g/",
+        "size": "680g",
+        "ean": "4743144000555",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743144000555.jpg",
+        "storeName": "Letsho Minu 680g naturaalne"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/letso-minu-680-g",
+        "size": "680g",
+        "ean": "4743144000555",
+        "storeUnitPrice": 3.96,
+        "storeName": "Letšo, MINU, 680 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Salvest Aasiapärane salat 380g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-aasiaparane-salat-380g/",
+        "size": "380g",
+        "ean": "4740073003381",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740073003381.png",
+        "storeName": "Aasiapärane salat Salvest 380g"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aasiaparane-salat-salvest-380-g",
+        "cardPrice": 3.19,
+        "cardName": "Partner",
+        "size": "380g",
+        "ean": "4740073003381",
+        "storeUnitPrice": 9.97,
+        "storeName": "Aasiapärane salat, SALVEST, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pro champ Shampinjonid soolvees viilutatud 290g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shampinjoniviilud-290g/",
+        "size": "290g",
+        "ean": "8710911004098",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8710911004098.png",
+        "storeName": "Shampinjonid soolvees Pro Champ 290g viilutatud"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sampinjonid-viilutatud-pro-champ-290-g",
+        "size": "290g",
+        "ean": "8710911004098",
+        "storeUnitPrice": 8.97,
+        "storeName": "Šampinjonid viilutatud, PRO CHAMP, 290 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Figaro Mustad oliivid kivideta 142g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/figaro-mustad-oliivid-142g-kivideta/",
+        "size": "142g",
+        "ean": "8410159362102",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/8410159362102.png",
+        "storeName": "Mustad oliivid Figaro 142g kivideta"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustad-kivideta-oliivid-figaro-142-g",
+        "size": "142g",
+        "ean": "8410159362102",
+        "storeUnitPrice": 25,
+        "storeName": "Mustad kivideta oliivid, FIGARO, 142 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Figaro Mustad oliivid kivideta 240g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-oliiv-kivita-240g/",
+        "size": "240g",
+        "ean": "8410159044077",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410159044077.png",
+        "storeName": "Mustad oliivid Figaro 240g kivideta"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustad-oliivid-kivideta-figaro-240-g",
+        "size": "240g",
+        "ean": "8410159044077",
+        "storeUnitPrice": 15.36,
+        "storeName": "Mustad oliivid kivideta, FIGARO, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Figaro Rohelised oliivid kivideta 240g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/roh-oliiv-kivita-240g/",
+        "size": "240g",
+        "ean": "8410159047320",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410159047320.jpg",
+        "storeName": "Rohelised oliivid Figaro 240g kivideta"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rohelised-oliivid-kivideta-figaro-240-g",
+        "size": "240g",
+        "ean": "8410159047320",
+        "storeUnitPrice": 15.36,
+        "storeName": "Rohelised oliivid kivideta, FIGARO, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Figaro oliivid aedpipratäidis roh paprikaga 240g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/figaro-roh-oliivid-240g-aedpiprataidis/",
+        "size": "240g",
+        "ean": "8410159044329",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/8410159044329.png",
+        "storeName": "Figaro Roh.oliivid 240g aedpipratäidis."
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rohelised-oliivid-paprikaga-figaro-240-g",
+        "size": "240g",
+        "ean": "8410159044329",
+        "storeUnitPrice": 12.5,
+        "storeName": "Rohelised oliivid paprikaga, FIGARO, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Figaro rohelised oliivid kivideta 142g",
+    "category": "Canned food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/figaro-rohelised-oliivid-142g-kivideta/",
+        "size": "142g",
+        "ean": "8410159044947",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/8410159044947.png",
+        "storeName": "Figaro rohelised oliivid 142g kivideta"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rohelised-oliivid-kivideta-figaro-142g",
+        "size": "142g",
+        "ean": "8410159044947",
+        "storeUnitPrice": 25,
+        "storeName": "Rohelised oliivid kivideta, FIGARO, 142g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Maggi Kaste texicana salsa 500ml",

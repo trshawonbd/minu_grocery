@@ -7,7 +7,8 @@
     "review": "node scraper/build-review.js",
     "start": "node scripts/serve.js",
     "test": "node scraper/match-products.test.js && node scraper/categories.test.js && node scraper/stores/barbora.test.js && node scraper/stores/rimi.test.js && node scraper/stores/coop.test.js && node scraper/raw.test.js && node scraper/scrape-output.test.js && node scraper/daily-update-logic.test.js && node scraper/price-history.test.js && node scraper/no-scrape.test.js && node frontend/pricing.test.js && node frontend/app-logic.test.js && node frontend/catalog.test.js && node frontend/render.test.js",
-    "test:outlets": "node outlets/scraper/malls.test.js && node outlets/scraper/daily-update.test.js",
-    "fetch-malls": "node outlets/scraper/fetch-malls.js"
+    "test:outlets": "node outlets/scraper/malls.test.js && node outlets/scraper/brands.test.js && node outlets/scraper/daily-update.test.js",
+    "fetch-malls": "node outlets/scraper/fetch-malls.js",
+    "fetch-denim-dream": "node outlets/scraper/fetch-denim-dream.js"
   }
 }

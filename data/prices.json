@@ -61012,6 +61012,15 @@
         "storeUnitPrice": 16.5,
         "storeName": "Kreekerid paprikaga TUC 100g"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soolakups-tuc-papr-100g/",
+        "size": "100g",
+        "ean": "5410041435900",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410041121407.png",
+        "storeName": "Kreeker Tuc 100g paprikaga"
+      },
       "selver": {
         "price": 1.65,
         "currency": "EUR",
@@ -61019,11 +61028,12 @@
         "cardPrice": 1.29,
         "cardName": "Partner",
         "size": "100g",
+        "ean": "5410041435900",
         "storeUnitPrice": 16.5,
         "storeName": "Kreekerid paprikaga, TUC, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tuc Kreekerid peekoniga 100g",
@@ -61039,6 +61049,15 @@
         "storeUnitPrice": 16.5,
         "storeName": "Kreekerid peekoniga TUC 100g"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soolakups-tuc-peekon100g/",
+        "size": "100g",
+        "ean": "7622300570293",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410041143508.png",
+        "storeName": "Kreeker Tuc 100g peekoni"
+      },
       "selver": {
         "price": 1.65,
         "currency": "EUR",
@@ -61046,11 +61065,12 @@
         "cardPrice": 1.29,
         "cardName": "Partner",
         "size": "100g",
+        "ean": "7622300570293",
         "storeUnitPrice": 16.5,
         "storeName": "Kreekerid peekoniga, TUC, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tuc Kreekerid juustuga 100g",
@@ -61066,6 +61086,15 @@
         "storeUnitPrice": 16.5,
         "storeName": "Kreekerid juustuga TUC 100g"
       },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kreeker-tuc-juustu100g/",
+        "size": "100g",
+        "ean": "5998711388928",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5998711388928.png",
+        "storeName": "Tuc kreeker 100g juustu"
+      },
       "selver": {
         "price": 1.65,
         "currency": "EUR",
@@ -61073,8 +61102,92 @@
         "cardPrice": 1.29,
         "cardName": "Partner",
         "size": "100g",
+        "ean": "5998711388928",
         "storeUnitPrice": 16.5,
         "storeName": "Kreekerid juustuga, TUC, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Laurieri Kreeker scrocchi pitsa 175g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kreeker-scrocchi-pitsamaits-laurieri-175-g",
+        "size": "175g",
+        "storeUnitPrice": 13.66,
+        "storeName": "Kreeker Scrocchi pitsamaits.LAURIERI175g"
+      },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/laurieri-scrocchi-kreeker-175g-pitsamait/",
+        "size": "175g",
+        "ean": "8015565030258",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8015565030258.png",
+        "storeName": "Laurieri Scrocchi kreeker 175g pitsamait"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/naksid-pizzamaitzelised-laurieri-175-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "8015565030258",
+        "storeUnitPrice": 13.43,
+        "storeName": "Näksid pizzamaitzelised, LAURIERI, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Laurieri Kreeker scrocchi trühvliga 175g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kreeker-scrocchi-truhvliga-laurieri-175-g",
+        "size": "175g",
+        "storeUnitPrice": 13.43,
+        "storeName": "Kreeker Scrocchi trühvliga LAURIERI175g"
+      },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/laurieri-kreeker-scrocchi-175g-truhvliga/",
+        "size": "175g",
+        "ean": "8015565030654",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8015565030654.png",
+        "storeName": "Kreeker Scrocchi Laurieri 175g trühvliga"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Waffa sofi Kreeker kreete kuldkalake 150g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kreeker-kreete-kuldkalake-waffa-sofi-150-g",
+        "size": "150g",
+        "storeUnitPrice": 6.6,
+        "storeName": "Kreeker Kreete kuldkalake WAFFA SOFI150g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/waffa-sofi-kreeker-kreete-kuldkalake150g/",
+        "size": "150g",
+        "ean": "4743144008599",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4743144008599.png",
+        "storeName": "Kreeker Kreete kuldkalake Waffa Sofi 150g"
       }
     },
     "matchedVia": "automatic"
@@ -61096,6 +61209,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kirsikupsised-maiasmokk-130-g",
         "size": "130g",
+        "ean": "4742267001616",
         "storeUnitPrice": 13.46,
         "storeName": "Kirsiküpsised, MAIASMOKK, 130 g"
       }
@@ -61114,16 +61228,61 @@
         "storeUnitPrice": 9.39,
         "storeName": "Rosinaküpsised Tallinn MARMITON 180g"
       },
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rosinakups-tallinn-180g/",
+        "size": "180g",
+        "ean": "4740059081105",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740059081105-1.png",
+        "storeName": "Rosinaküpsis Tallinn Marmiton 180g"
+      },
       "selver": {
         "price": 1.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/rosinakupsised-tallinn-marmiton-180-g",
         "size": "180g",
+        "ean": "4740059081105",
         "storeUnitPrice": 9.39,
         "storeName": "Rosinaküpsised Tallinn, MARMITON, 180 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Rosinaküpsis tallinn 350g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rosinakupsis-tallinn-marmiton-350-g",
+        "size": "350g",
+        "storeUnitPrice": 8.54,
+        "storeName": "Rosinaküpsis Tallinn MARMITON 350g"
+      },
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmiton-tallinn-rosinakupsis-350g/",
+        "size": "350g",
+        "ean": "4740059077788",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740059077788.png",
+        "storeName": "Rosinaküpsis Tallinn Marmiton 350g"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rosinakupsised-tallinn-marmiton-350-g",
+        "cardPrice": 2.45,
+        "cardName": "Partner",
+        "size": "350g",
+        "ean": "4740059077788",
+        "storeUnitPrice": 8.69,
+        "storeName": "Rosinaküpsised Tallinn, MARMITON, 350 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Maiasmokk Maasikaküpsised 130g",
@@ -61142,6 +61301,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maasikakupsised-maiasmokk-130-g",
         "size": "130g",
+        "ean": "4742267001128",
         "storeUnitPrice": 10.3,
         "storeName": "Maasikaküpsised, MAIASMOKK, 130 g"
       }
@@ -61160,11 +61320,21 @@
         "storeUnitPrice": 7.4,
         "storeName": "Magus kõrsik, 250g"
       },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magus-korsik-250g/",
+        "size": "250g",
+        "ean": "4740252000217",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740252000217.jpg",
+        "storeName": "Magus kõrsik Hellar & Pojad 250g"
+      },
       "selver": {
         "price": 1.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/magus-korsik-250-g",
         "size": "250g",
+        "ean": "4740252000217",
         "storeUnitPrice": 7.16,
         "storeName": "Magus kõrsik 250 g"
       }
@@ -61183,16 +61353,26 @@
         "storeUnitPrice": 3.1,
         "storeName": "Kaeraküpsis VÄIKE VÄÄNIK 500g"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerakupsis-500g/",
+        "size": "500g",
+        "ean": "4740320001467",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320001467.jpg",
+        "storeName": "Väike Väänik Kaeraküpsis 500g"
+      },
       "selver": {
         "price": 2.35,
         "currency": "EUR",
         "url": "https://www.selver.ee/kaerakupsis-vaike-vaanik-500-g",
         "size": "500g",
+        "ean": "4740320001467",
         "storeUnitPrice": 4.7,
         "storeName": "Kaeraküpsis, VÄIKE VÄÄNIK, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Väike väänik Tatraküpsis 250g",
@@ -61213,6 +61393,7 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "4740320006622",
         "storeUnitPrice": 5.56,
         "storeName": "Tatraküpsis, VÄIKE VÄÄNIK, 250 g"
       }
@@ -61254,6 +61435,15 @@
         "storeUnitPrice": 11,
         "storeName": "Kaeraküpsised jõhvikatega MARMITON 150g"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmiton-kaerakupsis-150g-johvikatega/",
+        "size": "150g",
+        "ean": "4740059812037",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740059812037-1.png",
+        "storeName": "Kaeraküpsis Marmiton 150g jõhvikatega"
+      },
       "rimi": {
         "price": 1.69,
         "currency": "EUR",
@@ -61267,11 +61457,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kaerakupsised-johvikatega-marmiton-150-g",
         "size": "150g",
+        "ean": "4740059812037",
         "storeUnitPrice": 10.8,
         "storeName": "Kaeraküpsised jõhvikatega, MARMITON, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Selga Küpsis kookose 180g",
@@ -61284,6 +61475,15 @@
         "size": "180g",
         "storeUnitPrice": 6.94,
         "storeName": "Küpsis kookosemaits. SELGA 180g"
+      },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/selga-kupsis-180g-kookosemaitseline/",
+        "size": "180g",
+        "ean": "4750007898839",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4750007898839.png",
+        "storeName": "Küpsis Selga 180g kookosemaitseline"
       },
       "rimi": {
         "price": 1.15,
@@ -61298,7 +61498,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Kinder Küpsised cards 76.8g",
+    "name": "Kinder Küpsised cards piimashokolaadiga 76.8g",
     "category": "Biscuits",
     "prices": {
       "barbora": {
@@ -61309,6 +61509,15 @@
         "storeUnitPrice": 38.41,
         "storeName": "Küpsised Cards KINDER,76.8g"
       },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kinder-cards-kupsis-76-8g-piimashok/",
+        "size": "76.8g",
+        "ean": "8000500347508",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/8000500347508.png",
+        "storeName": "Küpsis Kinder Cards 76.8g piimashokolaadiga"
+      },
       "selver": {
         "price": 2.95,
         "currency": "EUR",
@@ -61316,11 +61525,12 @@
         "cardPrice": 2.39,
         "cardName": "Partner",
         "size": "76.8g",
+        "ean": "8000500347508",
         "storeUnitPrice": 38.41,
         "storeName": "Küpsised Cards, KINDER, 76,8 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Nutella Küpsised 193g",
@@ -61334,13 +61544,97 @@
         "storeUnitPrice": 23.78,
         "storeName": "Küpsised NUTELLA 193g"
       },
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nutella-kupsis-193g/",
+        "size": "193g",
+        "ean": "8000500390306",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/8000500390306.png",
+        "storeName": "Küpsis Nutella 193g"
+      },
       "selver": {
         "price": 4.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/nutella-kupsised-nutella-193-g",
         "size": "193g",
+        "ean": "8000500390306",
         "storeUnitPrice": 23.78,
         "storeName": "Nutella küpsised, NUTELLA, 193 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Liivaküpsis mulino bianco girotondi 350g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/liivakupsis-girotondi-mulino-bianco-350-g",
+        "size": "350g",
+        "storeUnitPrice": 9.4,
+        "storeName": "Liivaküpsis.Girotondi MULINO BIANCO 350g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mulino-bianco-liivakupsis-girotondi-350g/",
+        "size": "350g",
+        "ean": "8076809572880",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/8076809572880.png",
+        "storeName": "Liivaküpsis Mulino Bianco Girotondi 350g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Liivaküpsis mulino bianco galletti 350g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/liivakupsis-galletti-mulino-bianco-350-g",
+        "size": "350g",
+        "storeUnitPrice": 9.4,
+        "storeName": "Liivaküpsis.Galletti MULINO BIANCO 350g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mulino-bianco-liivakupsis-galletti-350g/",
+        "size": "350g",
+        "ean": "8076809572873",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/8076809572873.png",
+        "storeName": "Liivaküpsis Mulino Bianco Galletti 350g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Oreo Küpsis golden 154g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kupsis-golden-oreo-154-g",
+        "cardPrice": 1.69,
+        "cardName": "Aitäh",
+        "size": "154g",
+        "storeUnitPrice": 10.97,
+        "storeName": "Küpsis Golden OREO 154g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oreo-kupsis-golden-154g/",
+        "size": "154g",
+        "ean": "7622202330810",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/12/7622202330810.png",
+        "storeName": "Oreo küpsis Golden 154g"
       }
     },
     "matchedVia": "automatic"
@@ -61357,6 +61651,15 @@
         "storeUnitPrice": 7.3,
         "storeName": "Šokolaadimaitseline küpsis KALEV 163g"
       },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kupsis-163g-shok-maitseline/",
+        "size": "163g",
+        "ean": "4740012601388",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740012601388.png",
+        "storeName": "Küpsis Kalev 163g shok.maitseline"
+      },
       "rimi": {
         "price": 1.19,
         "currency": "EUR",
@@ -61370,11 +61673,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sokolaadimaitseline-kupsis-kalev-163g",
         "size": "163g",
+        "ean": "4740012601388",
         "storeUnitPrice": 7.3,
         "storeName": "Šokolaadimaitseline küpsis, KALEV, 163g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Sidruni küpsis 163g",
@@ -61387,6 +61691,15 @@
         "size": "163g",
         "storeUnitPrice": 7.3,
         "storeName": "Sidrunimaitseline küpsis KALEV 163g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kupsis-163g-sidrunimaitseline/",
+        "size": "163g",
+        "ean": "4740012601371",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740012601371.png",
+        "storeName": "Küpsis Kalev 163g sidrunimaitseline"
       },
       "rimi": {
         "price": 1.19,
@@ -61401,11 +61714,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sidrunimaitseline-kupsis-kalev-163g",
         "size": "163g",
+        "ean": "4740012601371",
         "storeUnitPrice": 7.3,
         "storeName": "Sidrunimaitseline küpsis, KALEV, 163g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Vanilli küpsis 163g",
@@ -61418,6 +61732,15 @@
         "size": "163g",
         "storeUnitPrice": 7.3,
         "storeName": "Vanillimaitseline küpsis KALEV 163g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kupsis-163g-vanillimaitseline/",
+        "size": "163g",
+        "ean": "4740012601364",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740012601364.png",
+        "storeName": "Küpsis Kalev 163g vanillimaitseline"
       },
       "rimi": {
         "price": 1.19,
@@ -61442,6 +61765,15 @@
         "storeUnitPrice": 5.83,
         "storeName": "Klassikaline küpsis KALEV 163g"
       },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kupsis-163g-klassikaline/",
+        "size": "163g",
+        "ean": "4740012601357",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4740012601357.png",
+        "storeName": "Küpsis Kalev 163g klassikaline"
+      },
       "rimi": {
         "price": 1.04,
         "currency": "EUR",
@@ -61455,11 +61787,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikaline-kupsis-kalev-163g",
         "size": "163g",
+        "ean": "4740012601357",
         "storeUnitPrice": 7.3,
         "storeName": "Klassikaline küpsis, KALEV, 163g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Ekstra küpsis 180g",
@@ -61473,6 +61806,15 @@
         "storeUnitPrice": 6.61,
         "storeName": "Ekstra küpsis KALEV 180g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-ekstra-teekupsis-180g/",
+        "size": "180g",
+        "ean": "4740012601333",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740012601333.png",
+        "storeName": "Küpsis Ekstra Kalev 180g"
+      },
       "rimi": {
         "price": 1.19,
         "currency": "EUR",
@@ -61480,12 +61822,54 @@
         "size": "180g",
         "storeUnitPrice": 6.61,
         "storeName": "Küpsis Ekstra Kalev 180g"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsis-tee-ekstra-kalev-180g",
+        "size": "180g",
+        "ean": "4740012601333",
+        "storeUnitPrice": 6.06,
+        "storeName": "Küpsis Tee Ekstra, KALEV, 180g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Väike väänik Präänik piparmündi 250g",
+    "name": "Marmiton Vahvel valge glasuuriga 150g",
+    "category": "Biscuits",
+    "prices": {
+      "barbora": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vahvel-valge-glasuuriga-marmiton-150-g",
+        "size": "150g",
+        "storeUnitPrice": 18.33,
+        "storeName": "Vahvel valge glasuuriga MARMITON 150g"
+      },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmiton-vahvel-150g-valge-glasuuriga/",
+        "size": "150g",
+        "ean": "4742194000225",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4742194000225.jpg",
+        "storeName": "Vahvel Marmiton 150g valge glasuuriga"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/heleda-glasuuriga-vahvel-marmiton-150-g",
+        "size": "150g",
+        "ean": "4742194000225",
+        "storeUnitPrice": 18.33,
+        "storeName": "Heleda glasuuriga vahvel, MARMITON, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike väänik Präänik piparmündi piparmündiga 250g",
     "category": "Biscuits",
     "prices": {
       "barbora": {
@@ -61496,16 +61880,26 @@
         "storeUnitPrice": 4.6,
         "storeName": "Präänik Piparmündimait.VÄIKE VÄÄNIK 250g"
       },
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-vaanik-praanik-250g-piparmundiga/",
+        "size": "250g",
+        "ean": "4740320004499",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740320004499.png",
+        "storeName": "Präänik Väike Väänik 250g piparmündiga"
+      },
       "selver": {
         "price": 1.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/piparmundi-praanik-vaike-vaanik-250-g",
         "size": "250g",
+        "ean": "4740320004499",
         "storeUnitPrice": 4.76,
         "storeName": "Piparmündi präänik, VÄIKE VÄÄNIK, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Väike väänik Präänik vanilli 250g",
@@ -61519,16 +61913,26 @@
         "storeUnitPrice": 4.6,
         "storeName": "Präänik Vanilli VÄIKE VÄÄNIK 250g"
       },
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-vaanik-praanik-250g-vanilje/",
+        "size": "250g",
+        "ean": "4740320004451",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/4740320004451.png",
+        "storeName": "Präänik Väike Väänik 250g vanilje"
+      },
       "selver": {
         "price": 1.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/praanik-vanilli-vaike-vaanik-250-g",
         "size": "250g",
+        "ean": "4740320004451",
         "storeUnitPrice": 4.76,
         "storeName": "Präänik vanilli, VÄIKE VÄÄNIK, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Väike väänik Rahvapräänik 500g",
@@ -61541,6 +61945,15 @@
         "size": "500g",
         "storeUnitPrice": 3.1,
         "storeName": "Rahvapräänik VÄIKE VÄÄNIK 500g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rahvapraanik-500g/",
+        "size": "500g",
+        "ean": "4740320002037",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320002037.png",
+        "storeName": "Präänik Rahvapräänik Väike Väänik 500g"
       },
       "rimi": {
         "price": 1.79,
@@ -61555,11 +61968,47 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rahvapraanik-vaike-vaanik-500-g",
         "size": "500g",
+        "ean": "4740320002037",
         "storeUnitPrice": 4.5,
         "storeName": "Rahvapräänik, VÄIKE VÄÄNIK, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jyväshyvä Küpsis fazer shok tükkidega 350g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jyvashyva-kupsis-350g-shok-tukkidega/",
+        "size": "350g",
+        "ean": "6416453073494",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/6416453073494.png",
+        "storeName": "Küpsis Jyväshyvä Fazer 350g shok.tükkidega"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kupsised-vahvlid/magusad-kupsised/kupsised-sokolaaditukkidega-jyvashyva-350g/p/195741",
+        "size": "350g",
+        "storeUnitPrice": 8.54,
+        "storeName": "Küpsised šokolaaditükkidega Jyväshyvä 350g"
+      },
+      "selver": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-sokolaaditukkidega-jyvashyva-350-g",
+        "cardPrice": 2.59,
+        "cardName": "Partner",
+        "size": "350g",
+        "ean": "6416453073494",
+        "storeUnitPrice": 11,
+        "storeName": "Küpsised šokolaaditükkidega, JYVÄSHYVÄ, 350 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Gullon Küpsised digestive 400g",
@@ -61578,6 +62027,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kupsised-digestive-gullon-400-g",
         "size": "400g",
+        "ean": "8410376016789",
         "storeUnitPrice": 5.48,
         "storeName": "Küpsised Digestive, GULLON, 400 g"
       }
@@ -61585,9 +62035,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Domino Küpsised originaal vegan 350g",
+    "name": "Domino Küpsis original fazer vegan 350g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-original-kupsis-350g-vegan/",
+        "size": "350g",
+        "ean": "6416453075122",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/6416453075122.png",
+        "storeName": "Küpsis Domino Original Fazer 350g vegan"
+      },
       "rimi": {
         "price": 4.49,
         "currency": "EUR",
@@ -61601,16 +62060,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/original-kupsised-vegan-domino-350-g",
         "size": "350g",
+        "ean": "6416453075122",
         "storeUnitPrice": 13.11,
         "storeName": "Original küpsised Vegan, DOMINO, 350 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Milka Küpsis choc 150g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsis-chocchoc-150g/",
+        "size": "150g",
+        "ean": "7622210413147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/7622210413147.png",
+        "storeName": "Küpsis Milka Choc&Choc 150g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -61624,11 +62093,113 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kupsis-choc-choc-milka-150-g",
         "size": "150g",
+        "ean": "7622210413147",
         "storeUnitPrice": 22.6,
         "storeName": "Küpsis Choc & Choc, MILKA, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Croco soolakringlid 300g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/croco-soolakringlid-300g/",
+        "size": "300g",
+        "ean": "5941194000771",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/5941194000771.png",
+        "storeName": "Croco soolakringlid 300g"
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kupsised-vahvlid/soolased-kupsised/soolakringlid-croco-300g/p/157812",
+        "size": "300g",
+        "storeUnitPrice": 9.3,
+        "storeName": "Soolakringlid Croco 300g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolakringel-croco-300-g",
+        "size": "300g",
+        "ean": "5941194000771",
+        "storeUnitPrice": 10.97,
+        "storeName": "Soolakringel, CROCO, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jyväshyvä Kaeraküpsis fazer kaerajahust 350g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jyvashyva-kaerakupsis-350g-100kaerajahu/",
+        "size": "350g",
+        "ean": "6416453073432",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/6416453073432.png",
+        "storeName": "Kaeraküpsis Jyväshyvä Fazer 350g 100% kaerajahust"
+      },
+      "rimi": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kupsised-vahvlid/magusad-kupsised/kaerakupsised-100-kaerajahust-jyvashyva-350g/p/1001167",
+        "size": "350g",
+        "storeUnitPrice": 10.83,
+        "storeName": "Kaeraküpsised 100% kaerajahust Jyväshyvä 350g"
+      },
+      "selver": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/100-kaerajahust-kaerakupsised-jyvashyva-350-g",
+        "cardPrice": 2.59,
+        "cardName": "Partner",
+        "size": "350g",
+        "ean": "6416453073432",
+        "storeUnitPrice": 11,
+        "storeName": "100% kaerajahust kaeraküpsised, JYVÄSHYVÄ, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Elephant Rõngik soolaga 80g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/elephant-rongik-80g-soolaga/",
+        "size": "80g",
+        "ean": "5949040201044",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/5949040201044.png",
+        "storeName": "Rõngik Elephant 80g soolaga"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kupsised-vahvlid/soolased-kupsised/rongik-soolaga-elephant-80g/p/177034",
+        "size": "80g",
+        "storeUnitPrice": 19.88,
+        "storeName": "Rõngik soolaga Elephant 80g"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/elephant-rongik-soolaga-alka-80-g",
+        "size": "80g",
+        "ean": "5949040201044",
+        "storeUnitPrice": 20.63,
+        "storeName": "Elephant rõngik soolaga, ALKA, 80 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Selga Vahvlid šokolaadi 180g",
@@ -61647,6 +62218,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sokolaadimaitselised-vahvlid-selga-180-g",
         "size": "180g",
+        "ean": "4750007817809",
         "storeUnitPrice": 10.28,
         "storeName": "Šokolaadimaitselised vahvlid, SELGA, 180 g"
       }
@@ -61654,9 +62226,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Domino Küpsised originaal vegan 175g",
+    "name": "Domino Küpsis original fazer vegan 175g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-original-kupsis-175g-vegan/",
+        "size": "175g",
+        "ean": "6416453075115",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/6416453075115.png",
+        "storeName": "Küpsis Domino Original Fazer 175g vegan"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -61670,16 +62251,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/original-kupsised-vegan-domino-175-g",
         "size": "175g",
+        "ean": "6416453075115",
         "storeUnitPrice": 15.94,
         "storeName": "Original küpsised Vegan, DOMINO, 175 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Domino Küpsised crunchy choco nougat 150g",
+    "name": "Domino Küpsis crunchy choco nougat fazer 150g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-crunchy-choco-nougat-kupsis-150g/",
+        "size": "150g",
+        "ean": "6416453077058",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/6416453077058.png",
+        "storeName": "Küpsis Domino Crunchy Choco Nougat Fazer 150g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -61693,16 +62284,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/crunchy-choco-nougat-kupsised-domino-150g",
         "size": "150g",
+        "ean": "6416453077058",
         "storeUnitPrice": 19.93,
         "storeName": "Crunchy choco Nougat küpsised, DOMINO, 150g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Domino Küpsised fun dumle 120g",
+    "name": "Domino Küpsis fun dumle fazer 120g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-fun-dumle-kupsis-120g/",
+        "size": "120g",
+        "ean": "6416453075733",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/6416453075733.png",
+        "storeName": "Küpsis Domino Fun Dumle Fazer 120g"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -61716,16 +62317,61 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/fun-dumle-kupsised-domino-120-g",
         "size": "120g",
+        "ean": "6416453075733",
         "storeUnitPrice": 24.58,
         "storeName": "Fun Dumle küpsised, DOMINO, 120 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Domino Küpsised crunchy choco lemon 150g",
+    "name": "Lorenz Soolakõrsik saltletts 150g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soolakors-saltletts-150g/",
+        "size": "150g",
+        "ean": "4017100737909",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4017100737909.jpg",
+        "storeName": "Soolakõrsik Saltletts Lorenz 150g"
+      },
+      "rimi": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kupsised-vahvlid/soolased-kupsised/soolakorsik-saltletts-lorenz-150g/p/1005125",
+        "size": "150g",
+        "storeUnitPrice": 11,
+        "storeName": "Soolakõrsik Saltletts Lorenz 150g"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolakorsikud-salzletten-lorenz-150-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4017100737909",
+        "storeUnitPrice": 11,
+        "storeName": "Soolakõrsikud Salzletten, LORENZ, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Domino Küpsis crunchy choco lemon fazer 150g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-crunchy-choco-lemon-kupsis-150g/",
+        "size": "150g",
+        "ean": "6416453077065",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/6416453077065.png",
+        "storeName": "Küpsis Crunchy Choco Lemon Domino Fazer 150g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -61739,16 +62385,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/crunchy-choco-lemon-kupsised-domino-150g",
         "size": "150g",
+        "ean": "6416453077065",
         "storeUnitPrice": 19.93,
         "storeName": "Crunchy choco Lemon küpsised, DOMINO, 150g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Küpsised pähklikreemi täidisega 205g",
+    "name": "Kalev Küpsis pähklikreemi täidisega 205g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kupsis-pahklikreemi-taidisega-205g/",
+        "size": "205g",
+        "ean": "4740012600275",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740012600275.png",
+        "storeName": "Küpsis Kalev pähklikreemi täidisega 205g"
+      },
       "rimi": {
         "price": 2.65,
         "currency": "EUR",
@@ -61764,16 +62420,26 @@
         "cardPrice": 1.95,
         "cardName": "Partner",
         "size": "205g",
+        "ean": "4740012600275",
         "storeUnitPrice": 12.83,
         "storeName": "Pähklikreemi täidisega küpsised, KALEV, 205 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Domino Küpsised fun avec 120g",
+    "name": "Domino Küpsis fun avec fazer 120g",
     "category": "Biscuits",
     "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-fun-avec-kupsis-120g/",
+        "size": "120g",
+        "ean": "6416453075726",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/6416453075726.png",
+        "storeName": "Küpsis Domino Fun Avec Fazer 120g"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -61787,11 +62453,1665 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/fun-avec-kupsised-domino-120-g",
         "size": "120g",
+        "ean": "6416453075726",
         "storeUnitPrice": 24.58,
         "storeName": "Fun Avec küpsised, DOMINO, 120 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike väänik Präänik maris gilden shokolaadi šokolaadiga 250g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-vaanik-praanik-250g-shokolaadi/",
+        "size": "250g",
+        "ean": "4740320004475",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/4740320004475.png",
+        "storeName": "Präänik Väike Väänik Maris Gilden 250g shokolaadi"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/praanik-sokolaadiga-vaike-vaanik-250-g",
+        "size": "250g",
+        "ean": "4740320004475",
+        "storeUnitPrice": 4.76,
+        "storeName": "Präänik šokolaadiga, VÄIKE VÄÄNIK, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bahlsen hit küpsis kakao 220g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bahlsen-hit-kupsis-220g-kakao/",
+        "size": "220g",
+        "ean": "5901414203931",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/5901414203931.png",
+        "storeName": "Bahlsen Hit küpsis 220g kakao"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-hit-kakao-bahlsen-220-g",
+        "size": "220g",
+        "ean": "5901414203931",
+        "storeUnitPrice": 12.23,
+        "storeName": "Küpsised HIT kakao, BAHLSEN, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka Küpsis sensation cookie shok täidisega 156g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milka-kupsis-cookie-sensation-156g-shok/",
+        "size": "156g",
+        "ean": "7622210998781",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/7622210998781.png",
+        "storeName": "Küpsis Milka Cookie Sensation 156g shok.täidisega"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-sensation-sokolaaditaidisega-milka-156-g",
+        "size": "156g",
+        "ean": "7622210998781",
+        "storeUnitPrice": 17.88,
+        "storeName": "Küpsised Sensation šokolaaditäidisega, MILKA, 156 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Küpsis vallatud seenekesed shokolaadi šokolaadiga 170g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsis-seenekesed-170g/",
+        "size": "170g",
+        "ean": "4779036940326",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4779036940326.png",
+        "storeName": "Küpsis Vallatud seenekesed 170g shokolaadimaits."
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-sokolaadiga-vallatud-seenekesed-miltonas-170-g",
+        "size": "170g",
+        "ean": "4779036940326",
+        "storeUnitPrice": 12.88,
+        "storeName": "Küpsised šokolaadiga \"Vallatud seenekesed\", MILTONAS, 170 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Võileivaküpsised carrs 125g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voileivakupsis-carrs125g/",
+        "size": "125g",
+        "ean": "5000168001104",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000168001104.png",
+        "storeName": "Võileivaküpsised Carrs 125g"
+      },
+      "selver": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voileivakupsis-carr-s-125-g",
+        "size": "125g",
+        "ean": "5000168001104",
+        "storeUnitPrice": 14.24,
+        "storeName": "Võileivaküpsis, CARR`S, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tuc Kreeker originaal soolaga 100g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soolakups-tuc-orig-100g/",
+        "size": "100g",
+        "ean": "5410041435702",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410041001204.png",
+        "storeName": "Kreeker Tuc Originaal 100g soolaga"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolakreekerid-tuc-100-g",
+        "size": "100g",
+        "ean": "5410041435702",
+        "storeUnitPrice": 12.5,
+        "storeName": "Soolakreekerid, TUC, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barni Küpsis shokolaaditäidisega 150g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barni-kupsis-150g-shokolaaditaidisega/",
+        "size": "150g",
+        "ean": "5906747313937",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/5906747313937.jpg",
+        "storeName": "Küpsis Barni 150g shokolaaditäidisega"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/biskviit-sokolaaditaidisega-barni-150-g",
+        "size": "150g",
+        "ean": "5906747313937",
+        "storeUnitPrice": 19.93,
+        "storeName": "Biskviit šokolaaditäidisega, BARNI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Croco mix soolakreeker ja kringel 500g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/croco-mix-soolakreeker-ja-kringel-500g/",
+        "size": "500g",
+        "ean": "5941194000917",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/5941194000917.png",
+        "storeName": "Croco Mix Soolakreeker ja -kringel 500g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolakreekerite-kringlite-mix-croco-500-g",
+        "size": "500g",
+        "ean": "5941194000917",
+        "storeUnitPrice": 8.58,
+        "storeName": "Soolakreekerite/kringlite mix, CROCO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tuc Kreeker sibula ja hapukoore hapukoorega 100g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soolakups-tuc-sibul100g/",
+        "size": "100g",
+        "ean": "5998711388935",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5998711388935.jpg",
+        "storeName": "Kreeker Tuc 100g sibula ja hapukoore"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreekerid-sibula-ja-hapukoorega-tuc-100-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "5998711388935",
+        "storeUnitPrice": 16.5,
+        "storeName": "Kreekerid sibula ja hapukoorega, TUC, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tuc Kreeker mini juustu 100g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tuc-mini-juustu-100g/",
+        "size": "100g",
+        "ean": "5998711388980",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5998711388980.png",
+        "storeName": "Kreeker Tuc Mini 100g juustu"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreekerid-juustu-mini-tuc-100-g",
+        "size": "100g",
+        "ean": "5998711388980",
+        "storeUnitPrice": 16.9,
+        "storeName": "Kreekerid Juustu Mini, TUC, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Küpsis doris trühvlitäidisega 250g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kups-doris-truhvli-250g/",
+        "size": "250g",
+        "ean": "6411401062117",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411401032189.png",
+        "storeName": "Küpsis Doris Fazer 250g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/truhvlitaidisega-kakaokupsis-doris-fazer-250-g",
+        "size": "250g",
+        "ean": "6411401062117",
+        "storeUnitPrice": 13.16,
+        "storeName": "Trühvlitäidisega kakaoküpsis Doris, FAZER, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka Küpsis choco minis piimatäidisega 150g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsis-choco-minis-150g/",
+        "size": "150g",
+        "ean": "7622300441715",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622300441715.jpg",
+        "storeName": "Küpsis Milka Choco Minis 150g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadiglasuuri-ja-piimataidisega-kupsised-milka-150-g",
+        "size": "150g",
+        "ean": "7622300441715",
+        "storeUnitPrice": 14.6,
+        "storeName": "Šokolaadiglasuuri ja piimatäidisega küpsised, MILKA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka Küpsisepulgad choco stix 112g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milka-choco-stix-kupsisepulgad-112g/",
+        "size": "112g",
+        "ean": "7622210406354",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/7622210406354.png",
+        "storeName": "Küpsisepulgad Milka Choco Stix 112g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/korsik-piimasokolaadis-milka-112-g",
+        "size": "112g",
+        "ean": "7622210406354",
+        "storeUnitPrice": 24.91,
+        "storeName": "Kõrsik piimašokolaadis, MILKA, 112 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Belvita Küpsis metsamarja 300g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kups-metsamarja-300g/",
+        "size": "300g",
+        "ean": "7622210346735",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622210346735.png",
+        "storeName": "Küpsis Belvita 300g metsamarja"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-metsamarja-belvita-300-g",
+        "size": "300g",
+        "ean": "7622210346735",
+        "storeUnitPrice": 11.83,
+        "storeName": "Küpsised metsamarja, BELVITA, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka Küpsis choco cookies 135g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kups-choco-cookies-135g/",
+        "size": "135g",
+        "ean": "7622300766610",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/7622300766610.png",
+        "storeName": "Küpsis Milka Choco Cookies 135g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-choco-cookies-milka-135-g",
+        "size": "135g",
+        "ean": "7622300766610",
+        "storeUnitPrice": 20.67,
+        "storeName": "Küpsised Choco Cookies, MILKA, 135 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Arcor Kreeker kiudainega 200g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kreeker-kiudainega-200g/",
+        "size": "200g",
+        "ean": "7790040669109",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/7790040669109.png",
+        "storeName": "Kreeker Arcor 200g kiudainega"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreeker-kliidega-arcor-200-g",
+        "size": "200g",
+        "ean": "7790040669109",
+        "storeUnitPrice": 7.95,
+        "storeName": "Kreeker kliidega, ARCOR, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Krõbe kaeraküpsis 300g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krobe-kaerakupsis-300g/",
+        "size": "300g",
+        "ean": "4740012370734",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012370734.png",
+        "storeName": "Krõbe kaeraküpsis Kalev 300g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krobe-kaerakupsis-kalev-300-g",
+        "size": "300g",
+        "ean": "4740012370734",
+        "storeUnitPrice": 9.97,
+        "storeName": "Krõbe kaeraküpsis, KALEV, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vikstal Vahvel ahjupiima 240g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahvel-ahjupiimam-240g/",
+        "size": "240g",
+        "ean": "4741469004128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741469004128.png",
+        "storeName": "Vahvel Vikstal 240g ahjupiimamaitseline"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahvlid-ahjupiimamaitselised-vikstal-240-g",
+        "size": "240g",
+        "ean": "4741469004128",
+        "storeUnitPrice": 6.63,
+        "storeName": "Vahvlid ahjupiimamaitselised, VIKSTAL, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bahlsen vahvlirullid piimashok ga piimašokolaadiga 100g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bahlsen-vahvlirullid-piimashok-ga-100g/",
+        "size": "100g",
+        "ean": "4017100219900",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4017100219900.png",
+        "storeName": "Bahlsen Vahvlirullid piimashok-ga 100g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahvlirullid-waffeletten-piimasokolaadiga-bahlsen-100-g",
+        "size": "100g",
+        "ean": "4017100219900",
+        "storeUnitPrice": 31.9,
+        "storeName": "Vahvlirullid Waffeletten piimašokolaadiga, BAHLSEN, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lorenz kreeker lunch clubs 180g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kreeker-lunch-clubs-180g/",
+        "size": "180g",
+        "ean": "4018077005824",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4018077635502.png",
+        "storeName": "Lorenz kreeker Lunch Clubs 180g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-lunch-clubs-lorenz-180-g",
+        "size": "180g",
+        "ean": "4018077005824",
+        "storeUnitPrice": 11.06,
+        "storeName": "Küpsised Lunch Clubs, LORENZ, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knoppers Vahvel storck piima ja pähklitäidisega 25g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 0.7,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/storck-knoppers-vahvel-25g-piima-pahkli/",
+        "size": "25g",
+        "ean": "40144382",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/40144382.png",
+        "storeName": "Vahvel Knoppers Storck25g piima-ja pähklitäidisega"
+      },
+      "selver": {
+        "price": 0.66,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimavahvel-knoppers-pahklitaidisega-storck-25-g",
+        "cardPrice": 0.49,
+        "cardName": "Partner",
+        "size": "25g",
+        "ean": "40144382",
+        "storeUnitPrice": 26.4,
+        "storeName": "Piimavahvel Knoppers pähklitäidisega, STORCK, 25 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Küpsis täidisega dops kalev vanillim 210g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mesikapp-dops-vanil-210g/",
+        "size": "210g",
+        "ean": "4740012370673",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012370673.jpg",
+        "storeName": "Küpsis Mesikäpp Dops Kalev 210g vanillim.täidisega"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsis-vanillimaitselise-taidisega-mesikapp-dops-kalev-210-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "210g",
+        "ean": "4740012370673",
+        "storeUnitPrice": 12.62,
+        "storeName": "Küpsis vanillimaitselise täidisega Mesikäpp Dops, KALEV, 210 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Vahvel kreemiga kalev shok 250g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahv-mesikapp-shok-250g/",
+        "size": "250g",
+        "ean": "4740012370727",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012370727.png",
+        "storeName": "Vahvel Mesikäpp Kalev 250g shok.maits.kreemiga"
+      },
+      "selver": {
+        "price": 3.13,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadimaitselise-kreemiga-vahvlid-kalev-250-g",
+        "cardPrice": 2.45,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4740012370727",
+        "storeUnitPrice": 12.52,
+        "storeName": "Šokolaadimaitselise kreemiga vahvlid, KALEV, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Krõbe kaeraküpsis kaera ants 400g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmiton-krobe-kaerakups-kaera-ants-400g/",
+        "size": "400g",
+        "ean": "4740059008119",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740059008119-1.png",
+        "storeName": "Krõbe kaeraküpsis Kaera-Ants Marmiton 400g"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krobe-kaerakupsis-kaera-ants-marmiton-400-g",
+        "size": "400g",
+        "ean": "4740059008119",
+        "storeUnitPrice": 8.88,
+        "storeName": "Krõbe kaeraküpsis Kaera-Ants, MARMITON, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Vahvel dessert kakaokreemiga 110g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahvel-dessert-110g/",
+        "size": "110g",
+        "ean": "4740062750272",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062750272.png",
+        "storeName": "Vahvel Dessert Marmiton 110g kakaokreemiga"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahvel-dessert-marmiton-110-g",
+        "size": "110g",
+        "ean": "4740062750272",
+        "storeUnitPrice": 11.36,
+        "storeName": "Vahvel Dessert, MARMITON, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka Küpsis choco pause shokolaadikreemiga 260g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milka-kupsis-choco-pause-260g-shok-kreem/",
+        "size": "260g",
+        "ean": "7622210100917",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/7622210100917.png",
+        "storeName": "Küpsis Milka Choco Pause 260g shokolaadikreemiga"
+      },
+      "selver": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kihilised-kupsised-piimasokolaadi-kreemiga-milka-260-g",
+        "size": "260g",
+        "ean": "7622210100917",
+        "storeUnitPrice": 13.04,
+        "storeName": "Kihilised küpsised piimašokolaadi kreemiga, MILKA, 260 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka Küpsis cake brownie šokolaaditükkidega 150g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milka-cake-brownie-kupsis-150g/",
+        "size": "150g",
+        "ean": "7622210669315",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/7622210669315.png",
+        "storeName": "Küpsis Milka Cake Brownie 150g"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadikupsis-brownie-sokolaaditukkidega-milka-150-g",
+        "size": "150g",
+        "ean": "7622210669315",
+        "storeUnitPrice": 23.67,
+        "storeName": "Šokolaadiküpsis brownie šokolaaditükkidega, MILKA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barni Küpsis piimatäidisega 150g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barni-kupsis-150g-piimataidisega/",
+        "size": "150g",
+        "ean": "5906747318321",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/5906747318321.jpg",
+        "storeName": "Küpsis Barni 150g piimatäidisega"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barni-piima-biskviitkupsis-barni-150-g",
+        "size": "150g",
+        "ean": "5906747318321",
+        "storeUnitPrice": 19.93,
+        "storeName": "Barni piima biskviitküpsis, BARNI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Belvita Küpsis shokolaadi 300g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kups-shok-maits-300g/",
+        "size": "300g",
+        "ean": "7622300443269",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622300443269.png",
+        "storeName": "Küpsis Belvita 300g shokolaadimaitseline"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadikupsised-belvita-300-g",
+        "size": "300g",
+        "ean": "7622300443269",
+        "storeUnitPrice": 13.63,
+        "storeName": "Šokolaadiküpsised, BELVITA, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Elephant Rõngik valgete mustade seesamiseemne seesamiseemnetaga 80g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/elephant-rongik-80g-seesamiseemnetega/",
+        "size": "80g",
+        "ean": "5949040201068",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/5949040201068.png",
+        "storeName": "Rõngik Elephant 80g valgete-mustade seesamiseemne."
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/elephant-rongik-valgete-ja-mustade-seesamiseemnetaga-alka-80-g",
+        "size": "80g",
+        "ean": "5949040201068",
+        "storeUnitPrice": 14.38,
+        "storeName": "Elephant rõngik valgete ja mustade seesamiseemnetaga, ALKA, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oreo Küpsis vaniljekreemiga 44g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 0.98,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oreo-kupsis-44g-vaniljekreemiga/",
+        "size": "44g",
+        "ean": "7622210411679",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/7622210411679.png",
+        "storeName": "Küpsis Oreo 44g vaniljekreemiga"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oreo-vanilla-original-kupsis-oreo-44-g",
+        "size": "44g",
+        "ean": "7622210411679",
+        "storeUnitPrice": 22.5,
+        "storeName": "Oreo Vanilla Original küpsis, OREO, 44 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Elephant Rõngik mee sibula ja sinepi meega 70g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/elephant-rongik-70g-mee-sibula-ja-sinepi/",
+        "size": "70g",
+        "ean": "5949040202058",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/5949040202058.png",
+        "storeName": "Rõngik Elephant 70g mee-sibula-ja sinepimaitseline"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/elephant-rongik-meega-70g-alka",
+        "size": "70g",
+        "ean": "5949040202058",
+        "storeUnitPrice": 23.57,
+        "storeName": "Elephant rõngik meega, 70g, ALKA"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Elephant Rõngik tomati ürdi 70g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/elephant-rongik-70g-tomati-urdimaitsel/",
+        "size": "70g",
+        "ean": "5949040203000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/5949040203000.png",
+        "storeName": "Rõngik Elephant 70g tomati-ürdimaitselised"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/elephant-rongik-pitsamaitseline-70g-alka",
+        "size": "70g",
+        "ean": "5949040203000",
+        "storeUnitPrice": 23.57,
+        "storeName": "Elephant rõngik pitsamaitseline, 70g, ALKA"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Domino Küpsis marianne fazer piparmünditükkidega täidisega 350g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-marianne-350g/",
+        "size": "350g",
+        "ean": "6416453074316",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6416453074316.png",
+        "storeName": "Küpsis Domino Marianne Fazer 350g"
+      },
+      "selver": {
+        "price": 4.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kakaokupsised-piparmunditukkidega-taidisega-domino-350-g",
+        "size": "350g",
+        "ean": "6416453074316",
+        "storeUnitPrice": 13.03,
+        "storeName": "Kakaoküpsised piparmünditükkidega täidisega, DOMINO, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Küpsis kreemitäidisega shok 205g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kupsis-kreemitaidisega-205g-shok/",
+        "size": "205g",
+        "ean": "4740012600268",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740012600268.png",
+        "storeName": "Küpsis Kalev kreemitäidisega 205g shok."
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadimaitselise-kreemitaidisega-kupsis-kalev-205-g",
+        "cardPrice": 1.95,
+        "cardName": "Partner",
+        "size": "205g",
+        "ean": "4740012600268",
+        "storeUnitPrice": 12.83,
+        "storeName": "Šokolaadimaitselise kreemitäidisega küpsis, KALEV, 205 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Küpsis vicenzi grisbi lemon cream sidrunikreemitäidisega 135g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vicenzi-grisbi-lemon-cream-kupsis-135g/",
+        "size": "135g",
+        "ean": "8000350007935",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/8000350007935.png",
+        "storeName": "Küpsis Vicenzi Grisbi Lemon Cream 135g"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-sidrunikreemitaidisega-matilde-vicenzi-135-g",
+        "size": "135g",
+        "ean": "8000350007935",
+        "storeUnitPrice": 20.37,
+        "storeName": "Küpsised sidrunikreemitäidisega, MATILDE VICENZI, 135 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bahlsen Küpsisebatoon pick shok tumeda up piimašokolaadiga 28g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 0.86,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bahlsen-kupsis-pick-up-28g-tumeda-shok/",
+        "size": "28g",
+        "ean": "4017100263101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/4017100263101.png",
+        "storeName": "Küpsisebatoon Pick Up Bahlsen 28g tumeda shok."
+      },
+      "selver": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsisebatoon-piimasokolaadiga-bahlsen-28-g",
+        "size": "28g",
+        "ean": "4017100263101",
+        "storeUnitPrice": 30.36,
+        "storeName": "Küpsisebatoon piimašokolaadiga, BAHLSEN, 28 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bahlsen Küpsisebatoon pick piimashok up kreemitäidisega 28g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 0.86,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bahlsen-kupsis-pick-up-28g-piimashok/",
+        "size": "28g",
+        "ean": "4017100248214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/4017100248214.png",
+        "storeName": "Küpsisebatoon Pick Up Bahlsen 28g piimashok."
+      },
+      "selver": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsisebatoon-piimasokolaadi-ja-kreemitaidisega-bahlsen-28-g",
+        "size": "28g",
+        "ean": "4017100248214",
+        "storeUnitPrice": 30.36,
+        "storeName": "Küpsisebatoon piimašokolaadi ja -kreemitäidisega, BAHLSEN, 28 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fasupala Vahvlipala geisha fazer 175g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fazer-vahvlipala-fasupala-geisha-175g/",
+        "size": "175g",
+        "ean": "6416453073647",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/08/6416453073647.png",
+        "storeName": "Vahvlipala Fasupala Geisha Fazer 175g"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/geisha-vahvlipala-fasupala-175-g",
+        "cardPrice": 2.99,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "6416453073647",
+        "storeUnitPrice": 23.37,
+        "storeName": "Geisha vahvlipala, FASUPALA, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fasupala Vahvlipala dumle fazer 175g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fazer-vahvlipala-fasupala-dumle-175g/",
+        "size": "175g",
+        "ean": "6416453075955",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/08/6416453075955.png",
+        "storeName": "Vahvlipala Fasupala Dumle Fazer 175g"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dumle-vahvlipala-fasupala-175-g",
+        "cardPrice": 2.99,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "6416453075955",
+        "storeUnitPrice": 23.37,
+        "storeName": "Dumle vahvlipala, FASUPALA, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Domino Küpsis täidisega fazer laimi 350g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-kupsis-350g-laimi-maits-taidisega/",
+        "size": "350g",
+        "ean": "6416453075917",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/6416453075917.png",
+        "storeName": "Küpsis Domino Fazer 350g laimi maits.täidisega"
+      },
+      "selver": {
+        "price": 4.77,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/laimimaitselise-taidisega-kupsised-domino-350-g",
+        "size": "350g",
+        "ean": "6416453075917",
+        "storeUnitPrice": 13.63,
+        "storeName": "Laimimaitselise täidisega küpsised, DOMINO, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Selga Küpsis klassikaline 180g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kups-selga-klassika180g/",
+        "size": "180g",
+        "ean": "4750007689512",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750007101281.png",
+        "storeName": "Küpsis Klassikaline Selga 180g"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/klassikaline-kupsis-selga-180-g",
+        "size": "180g",
+        "ean": "4750007689512",
+        "storeUnitPrice": 7.06,
+        "storeName": "Klassikaline küpsis, SELGA, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Selga Küpsis shokolaadi 180g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsis-selga-shok-180g/",
+        "size": "180g",
+        "ean": "4750007689536",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750007135286.png",
+        "storeName": "Küpsis Selga 180g shokolaadimaitseline"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadi-kupsis-selga-180-g",
+        "size": "180g",
+        "ean": "4750007689536",
+        "storeUnitPrice": 7.06,
+        "storeName": "Šokolaadi küpsis, SELGA, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Selga Küpsis kondenspiima 180g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kups-selga-kondensp180g/",
+        "size": "180g",
+        "ean": "4750007689574",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750007688140.png",
+        "storeName": "Küpsis Selga 180g kondenspiima"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kondenspiima-kupsis-selga-180-g",
+        "size": "180g",
+        "ean": "4750007689574",
+        "storeUnitPrice": 7.06,
+        "storeName": "Kondenspiima küpsis, SELGA, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka choco cookies raisins rosinatega 135g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milka-choco-cookies-raisins-135g/",
+        "size": "135g",
+        "ean": "5906747312169",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/5906747312169.png",
+        "storeName": "Milka Choco Cookies Raisins 135g"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-sokolaaditukkide-ja-rosinatega-milka-135g",
+        "size": "135g",
+        "ean": "5906747312169",
+        "storeUnitPrice": 19.93,
+        "storeName": "Küpsised šokolaaditükkide ja rosinatega, MILKA, 135g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oreo Küpsis classic vaniljekreemiga 154g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oreo-classic-kupsis-vaniljekreemiga-154g/",
+        "size": "154g",
+        "ean": "7622202331381",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/7622202331381.png",
+        "storeName": "Küpsis Oreo Classic vaniljekreemiga 154g"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kakaokupsis-vaniljemaitselise-taidisega-original-oreo-154-g",
+        "size": "154g",
+        "ean": "7622202331381",
+        "storeUnitPrice": 17.47,
+        "storeName": "Kakaoküpsis vaniljemaitselise täidisega Original, OREO, 154 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oreo Küpsis double stuff pocket vaniljetäidisega 157g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oreo-kupsis-double-stuff-pocket-157g/",
+        "size": "157g",
+        "ean": "7622210137258",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/12/7622210137258.png",
+        "storeName": "Küpsis Oreo Double Stuff Pocket 157g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kakaokupsised-topelt-vaniljetaidisega-oreo-157-g",
+        "size": "157g",
+        "ean": "7622210137258",
+        "storeUnitPrice": 12.68,
+        "storeName": "Kakaoküpsised topelt vaniljetäidisega, OREO, 157 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Küpsis suhkruvaba 163g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kupsis-163g-suhkruvaba/",
+        "size": "163g",
+        "ean": "4740012601340",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740012601340.png",
+        "storeName": "Küpsis Kalev 163g suhkruvaba"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suhkruvaba-klassikaline-kupsis-kalev-163g",
+        "size": "163g",
+        "ean": "4740012601340",
+        "storeUnitPrice": 8.53,
+        "storeName": "Suhkruvaba klassikaline küpsis, KALEV, 163g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lotus biscoff Lotus karamelliseer küpsis 250g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lotus-biscoff-kupsis-250g-karamelliseer/",
+        "size": "250g",
+        "ean": "5410126716016",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/5410126716016.png",
+        "storeName": "Lotus Biscoff küpsis 250g karamelliseer."
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-karamelliseeritud-lotus-biscoff-250g",
+        "size": "250g",
+        "ean": "5410126716016",
+        "storeUnitPrice": 13.96,
+        "storeName": "Küpsised karamelliseeritud, LOTUS BISCOFF, 250g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Domino Küpsis täidisega fazer maasika 175g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/domino-kupsis-175g-maasikamait-taidisega/",
+        "size": "175g",
+        "ean": "6416453555501",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/6416453555501.png",
+        "storeName": "Küpsis Domino Fazer 175g maasikamaits.täidisega"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-maasikamaitselise-taidisega-domino-175g",
+        "size": "175g",
+        "ean": "6416453555501",
+        "storeUnitPrice": 15.94,
+        "storeName": "Küpsised maasikamaitselise täidisega, DOMINO, 175g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Praline Pehmed vahvlid 250g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pehmed-vahvlid-250g/",
+        "size": "250g",
+        "ean": "8720100989525",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8720100989525.jpg",
+        "storeName": "Pehmed vahvlid Praline 250g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pehmed-vahvlid-praline-250-g",
+        "size": "250g",
+        "ean": "8720100989525",
+        "storeUnitPrice": 9.96,
+        "storeName": "Pehmed vahvlid, PRALINE, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gullon Küpsis maria 200g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gullon-maria-kupsis-200g/",
+        "size": "200g",
+        "ean": "8410376000108",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/8410376000108.png",
+        "storeName": "Küpsis Maria Gullon 200g"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-maria-gullon-200-g",
+        "size": "200g",
+        "ean": "8410376000108",
+        "storeUnitPrice": 6.75,
+        "storeName": "Küpsised Maria, GULLON, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gullon Küpsis digestive suhkruvaba magusainetega 400g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kups-gullon-digest-400g/",
+        "size": "400g",
+        "ean": "8410376040913",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410376040913.jpg",
+        "storeName": "Küpsis Digestive Gullon 400g suhkruvaba"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suhkruvabad-kupsised-digestive-magusainetega-gullon-400-g",
+        "size": "400g",
+        "ean": "8410376040913",
+        "storeUnitPrice": 8.23,
+        "storeName": "Suhkruvabad küpsised Digestive magusainetega, GULLON, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gullon Küpsis digestive gluteenivaba 150g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gullon-digestive-kupsis-150g-glut-vaba/",
+        "size": "150g",
+        "ean": "8410376045024",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/8410376045024.png",
+        "storeName": "Küpsis Digestive Gullon 150g gluteenivaba"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsis-digestive-gluteenivaba-gullon-150-g",
+        "size": "150g",
+        "ean": "8410376045024",
+        "storeUnitPrice": 16.6,
+        "storeName": "Küpsis digestive gluteenivaba, GULLON, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gullon Kreeker cheddari juustuga 250g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gullon-kreeker-250g-cheddari-juustuga/",
+        "size": "250g",
+        "ean": "8410376051933",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/8410376051933.png",
+        "storeName": "Kreeker Gullon 250g cheddari juustuga"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreekerid-cheddari-juustumaitsega-gullon-250-g",
+        "size": "250g",
+        "ean": "8410376051933",
+        "storeUnitPrice": 13.96,
+        "storeName": "Kreekerid Cheddari juustumaitsega, GULLON, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gullon Kreeker kinoa ja chia seemnetega 250g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gullon-kreeker-250g-kinoa-ja-chia-seemne/",
+        "size": "250g",
+        "ean": "8410376051940",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/8410376051940.png",
+        "storeName": "Kreeker Gullon 250g kinoa ja chia seemnetega"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreekerid-quinoa-ja-chia-seemnetega-gullon-250-g",
+        "size": "250g",
+        "ean": "8410376051940",
+        "storeUnitPrice": 13.96,
+        "storeName": "Kreekerid Quinoa ja Chia seemnetega, GULLON, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gullon Suhkruvaba kiudaineterikas küpsis 170g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gullon-suhk-v-kiudaineterikas-kupsis170g/",
+        "size": "170g",
+        "ean": "8410376039733",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/8410376039733.png",
+        "storeName": "Suhkruvaba kiudaineterikas küpsis Gullon 170g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsis-suhkruvaba-kiudainerikkad-gullon-170-g",
+        "size": "170g",
+        "ean": "8410376039733",
+        "storeUnitPrice": 11.71,
+        "storeName": "Küpsis suhkruvaba, kiudainerikkad, GULLON, 170 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gullon Suhkruvaba vahvel shokolaadi magusaine magusainega 60g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gullon-suhkruvaba-vahvel-60g-shok/",
+        "size": "60g",
+        "ean": "8410376058826",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/8410376058826.png",
+        "storeName": "Suhkruvaba vahvel Gullon 60g shokolaadi, magusaine"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suhkruvabad-sokolaadi-vahvlid-magusainega-gullon-60-g",
+        "size": "60g",
+        "ean": "8410376058826",
+        "storeUnitPrice": 18.17,
+        "storeName": "Suhkruvabad šokolaadi vahvlid magusainega, GULLON, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Vahvel kooli vanillikreemiga 110g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahvel-kooli-110g/",
+        "size": "110g",
+        "ean": "4740062750678",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062750678.jpg",
+        "storeName": "Vahvel Kooli Marmiton 110g vanillikreemiga"
+      },
+      "selver": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahvel-kooli-vanilliga-marmiton-110-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "110g",
+        "ean": "4740062750678",
+        "storeUnitPrice": 13.73,
+        "storeName": "Vahvel kooli vanilliga, MARMITON, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barni Küpsis shokolaaditäidisega 30g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 0.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsis-barni-shok-30g/",
+        "size": "30g",
+        "ean": "5906747314118",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5906747314118.jpg",
+        "storeName": "Küpsis Barni 30g shokolaaditäidisega"
+      },
+      "selver": {
+        "price": 0.7,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barni-sokolaadi-biskviitkupsis-lu-30-g",
+        "cardPrice": 0.55,
+        "cardName": "Partner",
+        "size": "30g",
+        "ean": "5906747314118",
+        "storeUnitPrice": 23.33,
+        "storeName": "Barni šokolaadi biskviitküpsis, LU, 30 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barni Küpsis piimatäidisega 30g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 0.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barni-kupsis-30g-piimataidisega/",
+        "size": "30g",
+        "ean": "5906747318345",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/5906747318345.png",
+        "storeName": "Küpsis Barni 30g piimatäidisega"
+      },
+      "selver": {
+        "price": 0.7,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barni-piima-biskviitkupsis-lu-30-g",
+        "cardPrice": 0.55,
+        "cardName": "Partner",
+        "size": "30g",
+        "ean": "5906747318345",
+        "storeUnitPrice": 23.33,
+        "storeName": "Barni piima biskviitküpsis, LU, 30 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tuc Kreeker mini sibula hapukoore sibulaga 100g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tuc-mini-sibula-100g/",
+        "size": "100g",
+        "ean": "5998711389000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5998711389000.jpg",
+        "storeName": "Kreeker Tuc Mini 100g sibula.hapukoore"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsised-hapuk-ja-sibulaga-tuc-100-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "5998711389000",
+        "storeUnitPrice": 16.8,
+        "storeName": "Küpsised hapuk. ja sibulaga, TUC, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike väänik Väike juustupulgad 140g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-vaanik-juustupulgad-140g/",
+        "size": "140g",
+        "ean": "4740320004987",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4740320004987.png",
+        "storeName": "Väike Väänik Juustupulgad 140g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustupulgad-vaike-vaanik-140-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "140g",
+        "ean": "4740320004987",
+        "storeUnitPrice": 19.93,
+        "storeName": "Juustupulgad, VÄIKE VÄÄNIK, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pally küpsis digestive täisterajahu 400g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pally-kupsis-digestive-400g-taisterajahu/",
+        "size": "400g",
+        "ean": "8710736790046",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/8710736790046.png",
+        "storeName": "Pally küpsis Digestive 400g täisterajahu"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-digestive-kupsis-pally-400-g",
+        "cardPrice": 1.69,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "8710736790046",
+        "storeUnitPrice": 5.23,
+        "storeName": "Täistera digestive küpsis, PALLY, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Krõbe kaeraküpsis 150g",
+    "category": "Biscuits",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krobe-kaerakupsis-150g/",
+        "size": "150g",
+        "ean": "4740059811658",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740059811658-1.png",
+        "storeName": "Krõbe kaeraküpsis Marmiton 150g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krobe-kaerakupsis-marmiton-150-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740059811658",
+        "storeUnitPrice": 9.8,
+        "storeName": "Krõbe kaeraküpsis, MARMITON, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Pringles Kartulikrõpsud original 165g",

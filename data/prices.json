@@ -19876,6 +19876,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/odrakruup-baltix-1-kg",
         "size": "1000g",
+        "ean": "4742298000404",
         "storeUnitPrice": 1.41,
         "storeName": "Odrakruup, BALTIX, 1 kg"
       }
@@ -19907,6 +19908,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hirss-baltix-1-kg",
         "size": "1000g",
+        "ean": "4742298000466",
         "storeUnitPrice": 2.5,
         "storeName": "Hirss, BALTIX, 1 kg"
       }
@@ -19931,6 +19933,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tatar-baltix-1-kg",
         "size": "1000g",
+        "ean": "4742298000374",
         "storeUnitPrice": 2.35,
         "storeName": "Tatar, BALTIX, 1 kg"
       }
@@ -19949,6 +19952,15 @@
         "storeUnitPrice": 4.23,
         "storeName": "Tatar BALTIX 4x100g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tatar-4100g/",
+        "size": "4x100g",
+        "ean": "4742298000145",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742298000145.png",
+        "storeName": "Tatar Baltix 4*100g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -19962,11 +19974,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tatar-4-x-100-g-baltix-400-g",
         "size": "4x100g",
+        "ean": "4742298000145",
         "storeUnitPrice": 4.8,
         "storeName": "Tatar 4 x 100 g, BALTIX, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Tatar 1000g",
@@ -19980,6 +19993,15 @@
         "storeUnitPrice": 2.24,
         "regularPrice": 2.99,
         "storeName": "Tatar TARTU MILL 1kg"
+      },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tatar-tartu-mill-1kg/",
+        "size": "1000g",
+        "ean": "4750020030919",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020030919.png",
+        "storeName": "Tatar Tartu Mill 1kg"
       },
       "rimi": {
         "price": 2.39,
@@ -20004,16 +20026,59 @@
         "storeUnitPrice": 2.23,
         "storeName": "Odrakruup BALTIX 4x100g"
       },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/odrakruup-4100g/",
+        "size": "4x100g",
+        "ean": "4742298003450",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742298003450.jpg",
+        "storeName": "Odrakruup Baltix 4*100g"
+      },
       "selver": {
         "price": 1.01,
         "currency": "EUR",
         "url": "https://www.selver.ee/odrakruup-4x100g-baltix-400-g",
         "size": "4x100g",
+        "ean": "4742298003450",
         "storeUnitPrice": 2.53,
         "storeName": "Odrakruup 4x100g, BALTIX, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Baltix Hirss 4x100g",
+    "category": "Rice & grains",
+    "prices": {
+      "barbora": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hirss-baltix-4-x-100-g",
+        "size": "4x100g",
+        "storeUnitPrice": 3.78,
+        "storeName": "Hirss BALTIX 4x100g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/baltix-hirss-4100g/",
+        "size": "4x100g",
+        "ean": "4742298003443",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4742298003443.png",
+        "storeName": "Hirss Baltix 4*100g"
+      },
+      "selver": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hirss-4x100g-baltix-4-100g",
+        "size": "4x100g",
+        "ean": "4742298003443",
+        "storeUnitPrice": 3.78,
+        "storeName": "Hirss 4x100g, BALTIX, 4*100g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Baltix Toortatar 4x100g",
@@ -20028,6 +20093,15 @@
         "regularPrice": 2.19,
         "storeName": "Toortatar BALTIX 4x100g"
       },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/baltix-toortatar-4100g/",
+        "size": "4x100g",
+        "ean": "4742298001128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4742298001128.png",
+        "storeName": "Toortatar Baltix 4*100g"
+      },
       "rimi": {
         "price": 2.35,
         "currency": "EUR",
@@ -20041,11 +20115,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/toortatar-baltix-4x100-g",
         "size": "4x100g",
+        "ean": "4742298001128",
         "storeUnitPrice": 5.58,
         "storeName": "Toortatar, BALTIX, 4x100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Just nature Punane kinoa 500g",
@@ -20064,6 +20139,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kinoa-punane-just-nature-500-g",
         "size": "500g",
+        "ean": "4750323000183",
         "storeUnitPrice": 7.1,
         "storeName": "Kinoa punane, JUST NATURE, 500 g"
       }
@@ -20082,6 +20158,15 @@
         "storeUnitPrice": 1.98,
         "storeName": "Manna VESKI MATI 500g"
       },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/manna-veski-mati-500g/",
+        "size": "500g",
+        "ean": "4740281006822",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006822.png",
+        "storeName": "Manna Veski Mati 500g"
+      },
       "rimi": {
         "price": 1.05,
         "currency": "EUR",
@@ -20095,11 +20180,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/manna-veski-mati-500-g",
         "size": "500g",
+        "ean": "4740281006822",
         "storeUnitPrice": 2.04,
         "storeName": "Manna, VESKI MATI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Just nature Valge kinoa 500g",
@@ -20118,6 +20204,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kinoa-valge-just-nature-500-g",
         "size": "500g",
+        "ean": "4750323000206",
         "storeUnitPrice": 6.06,
         "storeName": "Kinoa valge, JUST NATURE, 500 g"
       }
@@ -20141,11 +20228,45 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kinoa-must-just-nature-500-g",
         "size": "500g",
+        "ean": "4750323000190",
         "storeUnitPrice": 7.7,
         "storeName": "Kinoa must, JUST NATURE, 500 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Bosto Kinoa kolmevärviline 4x75g",
+    "category": "Rice & grains",
+    "prices": {
+      "barbora": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kinoa-kolmevarviline-bosto-4-x-75-g",
+        "size": "4x75g",
+        "storeUnitPrice": 12.63,
+        "storeName": "Kinoa kolmevärviline BOSTO 4x75g"
+      },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bosto-kolmevarviline-kinoa-475g/",
+        "size": "4x75g",
+        "ean": "5410106070121",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/5410106070121.png",
+        "storeName": "Kolmevärviline kinoa Bosto 4*75g"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/quinoa-kolmevarviline-4x75g-bosto-300-g",
+        "size": "4x75g",
+        "ean": "5410106070121",
+        "storeUnitPrice": 12.63,
+        "storeName": "Quinoa, kolmevärviline 4x75g, BOSTO, 300 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Bosto Bulgur 4x75g",
@@ -20172,6 +20293,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/bulgur-4-x-75g-bosto-300-g",
         "size": "4x75g",
+        "ean": "5410106070169",
         "storeUnitPrice": 9.1,
         "storeName": "Bulgur 4 x 75g, BOSTO, 300 g"
       }
@@ -20202,6 +20324,30 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Baltix Bulgur 4x100g",
+    "category": "Rice & grains",
+    "prices": {
+      "barbora": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/bulgur-baltix-4-x-100-g",
+        "size": "4x100g",
+        "storeUnitPrice": 5.13,
+        "storeName": "Bulgur BALTIX 4x100g"
+      },
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/baltix-bulgur-4100g/",
+        "size": "4x100g",
+        "ean": "4742298000503",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4742298000503.png",
+        "storeName": "Baltix Bulgur 4*100g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Veski mati Hirss 500g",
     "category": "Rice & grains",
     "prices": {
@@ -20212,6 +20358,15 @@
         "size": "500g",
         "storeUnitPrice": 2.5,
         "storeName": "Hirss VESKI MATI 500g"
+      },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veski-mati-hirss-500g/",
+        "size": "500g",
+        "ean": "4740281006662",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740281006662.png",
+        "storeName": "Veski Mati hirss 500g"
       },
       "rimi": {
         "price": 1.29,
@@ -20226,11 +20381,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hirss-veski-mati-500-g",
         "size": "500g",
+        "ean": "4740281006662",
         "storeUnitPrice": 2.5,
         "storeName": "Hirss, VESKI MATI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Odra pärlkruup 4x100g",
@@ -20243,6 +20399,15 @@
         "size": "4x100g",
         "storeUnitPrice": 3.98,
         "storeName": "Odra pärlkruup TARTU MILL 4x100g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-odra-parlkruup-4100g/",
+        "size": "4x100g",
+        "ean": "4743303166665",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/4743303166665.png",
+        "storeName": "Odra pärlkruup Tartu Mill 4*100g"
       },
       "rimi": {
         "price": 1.59,
@@ -20257,16 +20422,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/odra-parlkruup-4x100g-tartu-mill-400-g",
         "size": "4x100g",
+        "ean": "4743303166665",
         "storeUnitPrice": 3.98,
         "storeName": "Odra pärlkruup 4x100g, TARTU MILL, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Veski mati Risotoriis 500g",
     "category": "Rice & grains",
     "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/risotoriis-500g/",
+        "size": "500g",
+        "ean": "4740281006839",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006839.jpg",
+        "storeName": "Risotoriis Veski Mati 500g"
+      },
       "rimi": {
         "price": 2.49,
         "currency": "EUR",
@@ -20280,16 +20455,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/risotoriis-veski-mati-500-g",
         "size": "500g",
+        "ean": "4740281006839",
         "storeUnitPrice": 4.78,
         "storeName": "Risotoriis, VESKI MATI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Veski mati Pudruriis 1000g",
+    "name": "Veski mati Pudruriis ekstra 1000g",
     "category": "Rice & grains",
     "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veski-mati-pudruriis-ekstra-1kg/",
+        "size": "1000g",
+        "ean": "4740281006594",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/4740281006594.png",
+        "storeName": "Pudruriis ekstra Veski Mati 1kg"
+      },
       "rimi": {
         "price": 3.09,
         "currency": "EUR",
@@ -20303,16 +20488,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pudruriis-veski-mati-1-kg",
         "size": "1000g",
+        "ean": "4740281006594",
         "storeUnitPrice": 3.13,
         "storeName": "Pudruriis, VESKI MATI, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Veski mati Riis sõmer 1000g",
     "category": "Rice & grains",
     "prices": {
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riis-somer-1kg/",
+        "size": "1000g",
+        "ean": "4740281006709",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006709.jpg",
+        "storeName": "Riis sõmer Veski Mati 1kg"
+      },
       "rimi": {
         "price": 3.09,
         "currency": "EUR",
@@ -20326,11 +20521,335 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/somer-riis-veski-mati-1-kg",
         "size": "1000g",
+        "ean": "4740281006709",
         "storeUnitPrice": 3,
         "storeName": "Sõmer riis, VESKI MATI, 1 kg"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bosto Riis mediterraneo 500g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riis-mediterraneo-500g/",
+        "size": "500g",
+        "ean": "5410106011001",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5410106011001.png",
+        "storeName": "Riis Mediterraneo Bosto 500g"
+      },
+      "rimi": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis/riis-mediterraneo-bosto-500g/p/102994",
+        "size": "500g",
+        "storeUnitPrice": 7.58,
+        "storeName": "Riis Mediterraneo Bosto 500g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Bosto Jasmiini riis 4x125g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jasmiini-riis-4125g/",
+        "size": "4x125g",
+        "ean": "5410106033829",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410106033829.png",
+        "storeName": "Jasmiini riis Bosto 4*125g"
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/riis-kotikestes/jasmiini-riis-bosto-4x125g/p/102993",
+        "size": "4x125g",
+        "storeUnitPrice": 4.58,
+        "storeName": "Jasmiini riis Bosto 4x125g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tai-jasmiiniriis-4-x-125-g-bosto-500-g",
+        "size": "4x125g",
+        "ean": "5410106033829",
+        "storeUnitPrice": 4.78,
+        "storeName": "Tai jasmiiniriis 4 x 125 g, BOSTO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Manna kalew 1000g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/manna-kalew-1kg/",
+        "size": "1000g",
+        "ean": "4740493000168",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493000168.png",
+        "storeName": "Manna Kalew 1kg"
+      },
+      "rimi": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/manna-tartu-mill-1kg/p/126496",
+        "size": "1000g",
+        "storeUnitPrice": 1.45,
+        "storeName": "Manna Tartu Mill 1kg"
+      },
+      "selver": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/manna-tartu-mill-1-kg",
+        "size": "1000g",
+        "ean": "4740493000168",
+        "storeUnitPrice": 1.51,
+        "storeName": "Manna, TARTU MILL, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Maisitangud 500g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maisitangud-500g/",
+        "size": "500g",
+        "ean": "4740281006648",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006648.jpg",
+        "storeName": "Maisitangud Veski Mati 500g"
+      },
+      "rimi": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/maisitang-veski-mati-500g/p/133035",
+        "size": "500g",
+        "storeUnitPrice": 2.18,
+        "storeName": "Maisitang Veski Mati 500g"
+      },
+      "selver": {
+        "price": 1.01,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maisitang-veski-mati-500-g",
+        "size": "500g",
+        "ean": "4740281006648",
+        "storeUnitPrice": 2.02,
+        "storeName": "Maisitang, VESKI MATI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bosto Riis pikateraline 1 8x125g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riis-pikateraline-8125g/",
+        "size": "8x125g",
+        "ean": "5410106033904",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410106033904.png",
+        "storeName": "Riis pikateraline Bosto 8*125g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pikateraline-riis-8-x-125-g-bosto-1-kg",
+        "size": "8x125g",
+        "ean": "5410106033904",
+        "storeUnitPrice": 3.29,
+        "storeName": "Pikateraline riis 8 x 125 g, BOSTO, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Pruun täistera riis 400g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pruun-taistera-riis-400g/",
+        "size": "400g",
+        "ean": "4740281005580",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281005580.jpg",
+        "storeName": "Pruun täistera riis Veski Mati 400g"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-pruun-riis-veski-mati-400-g",
+        "size": "400g",
+        "ean": "4740281005580",
+        "storeUnitPrice": 3.38,
+        "storeName": "Täistera pruun riis, VESKI MATI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Riisimanna 500g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riisimanna-500g/",
+        "size": "500g",
+        "ean": "4740281005566",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281005566.jpg",
+        "storeName": "Riisimanna Veski Mati 500g"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/riisimanna-veski-mati-500-g",
+        "size": "500g",
+        "ean": "4740281005566",
+        "storeUnitPrice": 3.44,
+        "storeName": "Riisimanna, VESKI MATI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Odrakruup 1000g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/odrakruup-tartu-mill-1kg/",
+        "size": "1000g",
+        "ean": "4750020030933",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020030933.png",
+        "storeName": "Odrakruup Tartu Mill 1kg"
+      },
+      "selver": {
+        "price": 1.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/odrakruup-tartu-mill-1-kg",
+        "size": "1000g",
+        "ean": "4750020030933",
+        "storeUnitPrice": 1.43,
+        "storeName": "Odrakruup, TARTU MILL, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Kaerakliid 500g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerakliid-500g/",
+        "size": "500g",
+        "ean": "4740493031056",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740493031056.png",
+        "storeName": "Kaerakliid Tartu Mill 500g"
+      },
+      "selver": {
+        "price": 1.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaerakliid-tartu-mill-500-g",
+        "size": "500g",
+        "ean": "4740493031056",
+        "storeUnitPrice": 2.82,
+        "storeName": "Kaerakliid, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Wiru mill Wiru toortatra peentang mahe 500g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/remedyway-mahe-toortatra-peentang-500g/",
+        "size": "500g",
+        "ean": "4742898010308",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4742898010308.png",
+        "storeName": "Wiru Mill Mahe toortatra peentang 500g"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-toortatra-peentang-wiru-mill-500-g",
+        "size": "500g",
+        "ean": "4742898010308",
+        "storeUnitPrice": 6.08,
+        "storeName": "Mahe toortatra peentang, WIRU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Veski tatar 500g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veski-mati-tatar-500g/",
+        "size": "500g",
+        "ean": "4740281006778",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740281006778.png",
+        "storeName": "Veski Mati tatar 500g"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tatar-veski-mati-500-g",
+        "size": "500g",
+        "ean": "4740281006778",
+        "storeUnitPrice": 3.3,
+        "storeName": "Tatar, VESKI MATI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Tartu odratang 1000g",
+    "category": "Rice & grains",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/odratang-tartu-mill-1kg/",
+        "size": "1000g",
+        "ean": "4750020030384",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020030384.png",
+        "storeName": "Tartu Mill odratang 1kg"
+      },
+      "selver": {
+        "price": 1.37,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/odratang-tartu-mill-1-kg",
+        "size": "1000g",
+        "ean": "4750020030384",
+        "storeUnitPrice": 1.37,
+        "storeName": "Odratang, TARTU MILL, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Bosto Pruun riis 4x125g",
@@ -20351,52 +20870,6 @@
         "size": "4x125g",
         "storeUnitPrice": 4.5,
         "storeName": "Pruun riis 4 x 125 g, BOSTO, 500 g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Tartu mill Manna 1000g",
-    "category": "Rice & grains",
-    "prices": {
-      "rimi": {
-        "price": 1.45,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/manna-tartu-mill-1kg/p/126496",
-        "size": "1000g",
-        "storeUnitPrice": 1.45,
-        "storeName": "Manna Tartu Mill 1kg"
-      },
-      "selver": {
-        "price": 1.51,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/manna-tartu-mill-1-kg",
-        "size": "1000g",
-        "storeUnitPrice": 1.51,
-        "storeName": "Manna, TARTU MILL, 1 kg"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Veski mati Maisitang 500g",
-    "category": "Rice & grains",
-    "prices": {
-      "rimi": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/teraviljad-ja-kaunviljad/manna-bulgur-kuskuss/maisitang-veski-mati-500g/p/133035",
-        "size": "500g",
-        "storeUnitPrice": 2.18,
-        "storeName": "Maisitang Veski Mati 500g"
-      },
-      "selver": {
-        "price": 1.01,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/maisitang-veski-mati-500-g",
-        "size": "500g",
-        "storeUnitPrice": 2.02,
-        "storeName": "Maisitang, VESKI MATI, 500 g"
       }
     },
     "matchedVia": "automatic"

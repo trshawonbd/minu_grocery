@@ -136951,17 +136951,27 @@
         "image": "https://cdn.barbora.ee/products/f952a108-084a-4176-9aea-a6672c8384bc_m.png",
         "storeName": "Joogijogurt ALMA metsamarjamaits., 900g"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/joogijog-metsamarja-900g/",
+        "size": "900g",
+        "ean": "4740125525236",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125525236.jpg",
+        "storeName": "Joogijogurt metsamarjamaitseline Alma 900g"
+      },
       "selver": {
         "price": 1.82,
         "currency": "EUR",
         "url": "https://www.selver.ee/joogijogurt-metsamarjamaitseline-alma-900-g",
         "size": "900g",
+        "ean": "4740125525236",
         "storeUnitPrice": 2.02,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125525236.jpg",
         "storeName": "Joogijogurt metsamarjamaitseline, ALMA, 900 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Joogijogurt mango 900g",
@@ -136976,17 +136986,27 @@
         "image": "https://cdn.barbora.ee/products/c5a166e8-be64-46ab-b14c-4bcb1a266efa_m.png",
         "storeName": "Joogijogurt ALMA mangomaits., 900g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/joogijogurt-mango-900g/",
+        "size": "900g",
+        "ean": "4740125525243",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125525243.jpg",
+        "storeName": "Joogijogurt mango Alma 900g"
+      },
       "selver": {
         "price": 1.82,
         "currency": "EUR",
         "url": "https://www.selver.ee/joogijogurt-mango-alma-900-g",
         "size": "900g",
+        "ean": "4740125525243",
         "storeUnitPrice": 2.02,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125525243.jpg",
         "storeName": "Joogijogurt mango, ALMA, 900 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tere Joogijogurt metsmaasika 900g",
@@ -137001,17 +137021,27 @@
         "image": "https://cdn.barbora.ee/products/d3fa9d8a-ea65-44d9-80b0-c7d78bf9b261_m.png",
         "storeName": "Joogijogurt TERE metsmaasika, 900g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/joogijog-metsmaasika900g/",
+        "size": "900g",
+        "ean": "4740036014218",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740036014218-1.png",
+        "storeName": "Joogijogurt metsmaasika Tere 900g"
+      },
       "selver": {
         "price": 2.02,
         "currency": "EUR",
         "url": "https://www.selver.ee/joogijogurt-metsmaasika-tere-900-g",
         "size": "900g",
+        "ean": "4740036014218",
         "storeUnitPrice": 2.24,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036014218.jpg",
         "storeName": "Joogijogurt metsmaasika, TERE, 900 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Joogijogurt maasika nektariini 900g",
@@ -137025,6 +137055,15 @@
         "storeUnitPrice": 2.06,
         "image": "https://cdn.barbora.ee/products/d88129ff-8886-4771-ab8b-406d4c945abb_m.png",
         "storeName": "Joogijogurt ALMA maasika-nektariini,900g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-joogijogurt-maasika-nektariini-900g/",
+        "size": "900g",
+        "ean": "4740125525144",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740125525144.png",
+        "storeName": "Joogijogurt maasika-nektariini Alma 900g"
       },
       "rimi": {
         "price": 1.59,
@@ -137056,6 +137095,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/joogijogurt-mustika-vaarika-tere-900-g",
         "size": "900g",
+        "ean": "4740036016298",
         "storeUnitPrice": 2.24,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036016298.jpg",
         "storeName": "Joogijogurt mustika-vaarika, TERE, 900 g"
@@ -137116,9 +137156,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Actimel Jogurtijook metsamarja 8x100g",
+    "name": "Actimel Metsamarja jogurtijook 8x100g",
     "category": "Milk drinks & drinking yoghurt",
     "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-metsam-8100g/",
+        "size": "8x100g",
+        "ean": "5410146410581",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410146410581.png",
+        "storeName": "Metsamarja jogurtijook Actimel 8*100g"
+      },
       "rimi": {
         "price": 4.69,
         "currency": "EUR",
@@ -137133,17 +137182,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jogurtijook-metsamarja-8x100g-actimel-800-g",
         "size": "8x100g",
+        "ean": "5410146410581",
         "storeUnitPrice": 6.11,
         "image": "https://www.selver.ee/img/800/800/resize/5/9/59070665.jpg",
         "storeName": "Jogurtijook metsamarja 8x100g, ACTIMEL, 800 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Actimel Jogurtijook maasika 8x100g",
+    "name": "Actimel Maasika jogurtijook 8x100g",
     "category": "Milk drinks & drinking yoghurt",
     "prices": {
+      "coop": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-maasika-8100g/",
+        "size": "8x100g",
+        "ean": "5410146964954",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4751008971026.jpg",
+        "storeName": "Maasika jogurtijook Actimel 8*100g"
+      },
       "rimi": {
         "price": 4.69,
         "currency": "EUR",
@@ -137158,17 +137217,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jogurtijook-maasika-8x100g-actimel-800-g",
         "size": "8x100g",
+        "ean": "5410146964954",
         "storeUnitPrice": 6.11,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4751008971026.jpg",
         "storeName": "Jogurtijook maasika 8x100g, ACTIMEL, 800 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Jogurtijook kreeka vaarika virsiku 275g",
     "category": "Milk drinks & drinking yoghurt",
     "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-jogurtijook-kreeka-vaar-virsiku275g/",
+        "size": "275g",
+        "ean": "4740125582062",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740125582062.png",
+        "storeName": "Jogurtijook kreeka vaarika-virsiku Alma 275g"
+      },
       "rimi": {
         "price": 0.99,
         "currency": "EUR",
@@ -137184,17 +137253,88 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jogurtijook-kreeka-vaarika-virsiku-alma-275g",
         "size": "275g",
+        "ean": "4740125582062",
         "storeUnitPrice": 4.44,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125582062.jpg",
         "storeName": "Jogurtijook kreeka vaarika-virsiku, ALMA, 275g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Jogurtijook kreeka mango maasika 275g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-mango-maas-275g/",
+        "size": "275g",
+        "ean": "4740125582000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740125582000.png",
+        "storeName": "Jogurtijook kreeka mango-maasika Alma 275g"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/joogijogurtid/jogurtijook-kreeka-mango-maasika-alma-275g/p/926268",
+        "size": "275g",
+        "storeUnitPrice": 3.6,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_926268_PCE_EE",
+        "regularPrice": 1.25,
+        "storeName": "Jogurtijook kreeka mango-maasika Alma 275g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Actimel Metsamarja jogurtijook 4x100g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-metsam-4100g/",
+        "size": "4x100g",
+        "ean": "47500914",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/47500914.png",
+        "storeName": "Metsamarja jogurtijook Actimel 4*100g"
+      },
+      "rimi": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/joogijogurtid/jogurtijook-metsamarja-actimel-4x100g/p/293895",
+        "size": "4x100g",
+        "storeUnitPrice": 6.47,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_293895_PCE_EE",
+        "storeName": "Jogurtijook metsamarja Actimel 4x100g"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurtijook-metsmarja-4x100g-actimel-400-g",
+        "size": "4x100g",
+        "ean": "47500914",
+        "storeUnitPrice": 6.73,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/47500914.jpg",
+        "storeName": "Jogurtijook metsmarja 4x100g, ACTIMEL, 400 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Actimel Jogurtijook puuvilja 4x100g",
     "category": "Milk drinks & drinking yoghurt",
     "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-puuvilja-4100g/",
+        "size": "4x100g",
+        "ean": "47500891",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/47500891.jpg",
+        "storeName": "Jogurtijook puuvilja Actimel 4*100g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -137209,17 +137349,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jogurtijook-puuvilja-4x100g-actimel-400-g",
         "size": "4x100g",
+        "ean": "47500891",
         "storeUnitPrice": 6.73,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/47500891.jpg",
         "storeName": "Jogurtijook puuvilja 4x100g, ACTIMEL, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Activia Joogijogurt maasika kiivi 300g",
     "category": "Milk drinks & drinking yoghurt",
     "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/activia-maasika-kiivi300/",
+        "size": "300g",
+        "ean": "5900643032688",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900643021613.png",
+        "storeName": "Joogijogurt maasika-kiivi Activia 300g"
+      },
       "rimi": {
         "price": 1.45,
         "currency": "EUR",
@@ -137234,12 +137384,391 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/joogijogurt-maasika-kiivi-activia-300-g",
         "size": "300g",
+        "ean": "5900643032688",
         "storeUnitPrice": 5.63,
         "image": "https://www.selver.ee/img/800/800/resize/5/9/5900643032688.jpg",
         "storeName": "Joogijogurt maasika-kiivi, ACTIVIA, 300 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio profeel Proteiinijogurtijook metsamarja 275g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-metsamarja-275g/",
+        "size": "275g",
+        "ean": "4740125582130",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740125582130.png",
+        "storeName": "Proteiinijogurtijook metsamarja Valio PROfeel 275g"
+      },
+      "selver": {
+        "price": 1.98,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinijogurtijook-metsamarja-valio-profeel-275-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "275g",
+        "ean": "4740125582130",
+        "storeUnitPrice": 7.2,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125582130.jpg",
+        "storeName": "Proteiinijogurtijook metsamarja, VALIO PROFEEL, 275 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio profeel Proteiinijogurtijook troopiline 275g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-troopiline-275g/",
+        "size": "275g",
+        "ean": "4740125582147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740125582147.png",
+        "storeName": "Proteiinijogurtijook troopiline Valio PROfeel 275g"
+      },
+      "selver": {
+        "price": 1.98,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinijogurtijook-troopiline-valio-profeel-275-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "275g",
+        "ean": "4740125582147",
+        "storeUnitPrice": 7.2,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125582147.jpg",
+        "storeName": "Proteiinijogurtijook troopiline, VALIO PROFEEL, 275 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gefilus Joogijogurt maasika pohla harmoonia laktoosivaba 1000g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gefilus-harmoonia-maas-pohla-joogijog1kg/",
+        "size": "1000g",
+        "ean": "4740125523096",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740125523096.png",
+        "storeName": "Joogijogurt maasika-pohla Gefilus Harmoonia 1kg"
+      },
+      "selver": {
+        "price": 2.08,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/joogijogurt-harmoonia-maasika-pohla-laktoosivaba-gefilus-1-l",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "1000ml",
+        "ean": "4740125523096",
+        "storeUnitPrice": 2.08,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125523096.jpg",
+        "storeName": "Joogijogurt Harmoonia maasika-pohla laktoosivaba, GEFILUS, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio profeel Proteiinijogurtijook kirsi 275g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-profeel-prot-jog-jook-kirsi-275g/",
+        "size": "275g",
+        "ean": "4740125582154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740125582154.png",
+        "storeName": "Proteiinijogurtijook kirsi Valio PROfeel 275g"
+      },
+      "selver": {
+        "price": 1.98,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinijogurtijook-kirsi-valio-profeel-275g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "275g",
+        "ean": "4740125582154",
+        "storeUnitPrice": 7.2,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125582154.jpg",
+        "storeName": "Proteiinijogurtijook kirsi, VALIO PROFEEL, 275g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Jogurtijook kreeka stiilis mustika kirsi 275g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-jog-jook-kreeka-stiilis-mustika275g/",
+        "size": "275g",
+        "ean": "4740125582079",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740125582079.png",
+        "storeName": "Jogurtijook kreeka stiilis mustika-kirsi Alma 275g"
+      },
+      "selver": {
+        "price": 1.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurtijook-kreeka-stiilis-mustika-kirsi-alma-275-g",
+        "size": "275g",
+        "ean": "4740125582079",
+        "storeUnitPrice": 4.44,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125582079.jpg",
+        "storeName": "Jogurtijook kreeka stiilis mustika-kirsi, ALMA, 275 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Banaani maasikajoogijogurt kile 1.5% 1000g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/joogijog-ban-maas-1kg/",
+        "size": "1000g",
+        "ean": "4740125510072",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125510072.jpg",
+        "storeName": "Banaani-maasikajoogijogurt Alma 1kg kile"
+      },
+      "selver": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/joogijogurt-banaani-maasika-1-5-alma-1-kg",
+        "size": "1000g",
+        "ean": "4740125510072",
+        "storeUnitPrice": 1.51,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125510072.jpg",
+        "storeName": "Joogijogurt banaani-maasika 1,5%, ALMA, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jovi duet Jogurtijook maasika kiivi 350g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jovi-duet-jogurtijook-maasika-kiivi-350g/",
+        "size": "350g",
+        "ean": "5903767000687",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/5903767000687.png",
+        "storeName": "Jogurtijook maasika-kiivi Jovi Duet 350g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurtijook-maasika-kiivi-jovi-duet-350-g",
+        "cardPrice": 0.89,
+        "cardName": "Partner",
+        "size": "350g",
+        "ean": "5903767000687",
+        "storeUnitPrice": 3.4,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5903767000687.jpg",
+        "storeName": "Jogurtijook maasika-kiivi, JOVI DUET, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jovi duet Jogurtijook õuna pirni 350g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jovi-duet-jogurtijook-ouna-pirni-350g/",
+        "size": "350g",
+        "ean": "5903767007471",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/5903767007471.png",
+        "storeName": "Jogurtijook õuna-pirni Jovi Duet 350g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurtijook-ouna-pirni-jovi-duet-350-g",
+        "cardPrice": 0.89,
+        "cardName": "Partner",
+        "size": "350g",
+        "ean": "5903767007471",
+        "storeUnitPrice": 3.4,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5903767007471.jpg",
+        "storeName": "Jogurtijook õuna-pirni, JOVI DUET, 350  g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lotte Marja jogurtijook 6x100g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lotte-marja-jogurtijook-6100g/",
+        "size": "6x100g",
+        "ean": "4740036018100",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740036018100.png",
+        "storeName": "Marja jogurtijook Lotte 6*100g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurtijook-marja-6x100g-lotte-600-g",
+        "size": "6x100g",
+        "ean": "4740036018100",
+        "storeUnitPrice": 4.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036018100.jpg",
+        "storeName": "Jogurtijook marja 6x100g, LOTTE, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gefilus Joogijogurt vaarika passioni laktoosiv laktoosivaba 1000g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gefilus-joogijog-vaarika-passioni-1kg/",
+        "size": "1000g",
+        "ean": "4740125523133",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4740125523133.png",
+        "storeName": "Joogijogurt vaarika-passioni Gefilus 1kg laktoosiv"
+      },
+      "selver": {
+        "price": 2.08,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/joogijogurt-vaarika-passioni-laktoosivaba-gefilus-1-l",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "1000ml",
+        "ean": "4740125523133",
+        "storeUnitPrice": 2.08,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125523133.jpg",
+        "storeName": "Joogijogurt vaarika-passioni laktoosivaba, GEFILUS, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Actimel Maasika jogurtijook 4x100g",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-jook-maasika-4100g/",
+        "size": "4x100g",
+        "ean": "47500884",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/47500884.png",
+        "storeName": "Maasika jogurtijook Actimel 4*100g"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurtijook-maasika-4x100g-actimel-400-g",
+        "size": "4x100g",
+        "ean": "47500884",
+        "storeUnitPrice": 6.73,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/47500884.jpg",
+        "storeName": "Jogurtijook maasika 4x100g, ACTIMEL, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio eila Piimajook laktoosivaba 1.5% 1000ml",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piimajook-valio-eila-1l/",
+        "size": "1000ml",
+        "ean": "6408430011681",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6408432086540.png",
+        "storeName": "Piimajook 1.5% Valio Eila 1L laktoosivaba"
+      },
+      "selver": {
+        "price": 2.53,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimajook-1-5-laktoosivaba-valio-eila-1-l",
+        "size": "1000ml",
+        "ean": "6408430011681",
+        "storeUnitPrice": 2.53,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6408430011681.jpg",
+        "storeName": "Piimajook 1,5% laktoosivaba, VALIO EILA, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike tom Kõrgkuum maasikalis piimjook vitam vitamiinidega 200ml",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-tom-korgkuum-piim-maasikalisa200ml/",
+        "size": "200ml",
+        "ean": "4740093333314",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740093333314-1.png",
+        "storeName": "Kõrgkuum.piimjook maasikalis-vitam.Väike Tom200ml"
+      },
+      "selver": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/korgkuum-piimajook-maasikalisandi-ja-vitamiinidega-vaike-tom-200-ml",
+        "size": "200ml",
+        "ean": "4740093333314",
+        "storeUnitPrice": 4.25,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093333314.jpg",
+        "storeName": "Kõrgkuum piimajook maasikalisandi ja vitamiinidega, VÄIKE TOM, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike tom Kõrgkuum karamelli piimjook vitam vitamiinidega 200ml",
+    "category": "Milk drinks & drinking yoghurt",
+    "prices": {
+      "coop": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-tom-korgkuum-piimjook-karamel200ml/",
+        "size": "200ml",
+        "ean": "4740093007154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740093007154.png",
+        "storeName": "Kõrgkuum.piimjook karamelli-vitam.Väike Tom200ml"
+      },
+      "selver": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/korgkuum-piimajook-karamelli-ja-vitamiinidega-vaike-tom-200-ml",
+        "size": "200ml",
+        "ean": "4740093007154",
+        "storeUnitPrice": 4.25,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093007154.jpg",
+        "storeName": "Kõrgkuum piimajook karamelli ja vitamiinidega, VÄIKE TOM, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Wasa Näkileivad original 275g",

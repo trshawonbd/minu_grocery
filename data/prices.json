@@ -106600,6 +106600,41 @@
     "matchedVia": "ean"
   },
   {
+    "name": "Happy Kassiliiv paakuv 5000g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kassiliiv-happy-paakuv-5-kg",
+        "size": "5000g",
+        "storeUnitPrice": 0.76,
+        "image": "https://cdn.barbora.ee/products/e0e5947f-4295-4750-95e9-28541e2f2b54_m.png",
+        "storeName": "Kassiliiv HAPPY paakuv 5 kg"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kassiliiv-happy-5kg/",
+        "size": "5000g",
+        "ean": "4740260000704",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740260000704.jpg",
+        "storeName": "Kassiliiv Happy 5kg paakuv"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassiliiv-klombistuv-happy-5-kg",
+        "size": "5000g",
+        "ean": "4740260000704",
+        "storeUnitPrice": 0.64,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740260000704.jpg",
+        "storeName": "Kassiliiv klombistuv, HAPPY, 5 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Dr stern Kassiliiv kvartsteemandid 6000ml",
     "category": "Pet food",
     "prices": {
@@ -106612,17 +106647,27 @@
         "image": "https://cdn.barbora.ee/products/d6446785-37b9-4058-ae66-0ea1641ffcd1_m.png",
         "storeName": "Kassiliiv DR.STERN kvartsteemandid 6l"
       },
+      "coop": {
+        "price": 7.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-stern-kassiliiv6l-3kg-kvartsteemandid/",
+        "size": "6000ml",
+        "ean": "4742189000384",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4742189000384.jpg",
+        "storeName": "Dr.Stern kassiliiv6L/3kg kvartsteemandid"
+      },
       "selver": {
         "price": 7.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/kassiliiv-kvartsteemandid-dr-stern-6-l",
         "size": "6000ml",
+        "ean": "4742189000384",
         "storeUnitPrice": 1.27,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4742189000384.jpg",
         "storeName": "Kassiliiv kvartsteemandid, DR.STERN, 6 l"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dreamies Suupiste kassidele lõhega 60g",
@@ -106636,6 +106681,15 @@
         "storeUnitPrice": 29.83,
         "image": "https://cdn.barbora.ee/products/8c21f9b9-07ef-4152-bd00-03112d0918b6_m.png",
         "storeName": "Suupiste kassidele DREAMIES lõhega 60g"
+      },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suupiste-kassile-lohe60g/",
+        "size": "60g",
+        "ean": "5998749130858",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5998749130858.jpg",
+        "storeName": "Suupiste kassile lõhega Dreamies 60g"
       },
       "rimi": {
         "price": 1.29,
@@ -106652,9 +106706,34 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "60g",
+        "ean": "5998749130858",
         "storeUnitPrice": 33.17,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429037962.jpg",
         "storeName": "Täiendsööt. Kassi suupiste lõhega, DREAMIES, 60g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kassimaius party mix ocean 60g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kassimaius-party-mix-ocean-felix-60-g",
+        "size": "60g",
+        "storeUnitPrice": 29.17,
+        "image": "https://cdn.barbora.ee/products/5e44114e-1dbf-4510-a038-d2a11bda7d36_m.png",
+        "storeName": "Kassimaius Party Mix Ocean FELIX 60g"
+      },
+      "rimi": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/cat-snacks-and-vitamins/kassimaius-felix-party-mix-ocean-mix-60g/p/7190842",
+        "size": "60g",
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7190842_PCE_EE",
+        "storeName": "Kassimaius Felix party mix Ocean Mix 60g"
       }
     },
     "matchedVia": "automatic"
@@ -106677,6 +106756,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taiendsoot-kassimaius-felix-deli-moments-lohe-4x10g-felix",
         "size": "4x10g",
+        "ean": "8445291538115",
         "storeUnitPrice": 49.75,
         "image": "https://www.selver.ee/img/800/800/resize/0/8/08445291538115.jpg",
         "storeName": "Täiendsööt. Kassimaius FELIX Deli Moments lõhe 4x10g, FELIX,"
@@ -106702,6 +106782,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taiendsoot-kassimaius-felix-deli-moments-kana-4x10g-felix",
         "size": "4x10g",
+        "ean": "8445291532731",
         "storeUnitPrice": 49.75,
         "image": "https://www.selver.ee/img/800/800/resize/0/8/08445291532731.jpg",
         "storeName": "Täiendsööt. Kassimaius FELIX Deli Moments kana 4x10g, FELIX,"
@@ -106722,14 +106803,73 @@
         "image": "https://cdn.barbora.ee/products/901ee1fc-176c-4070-b0e8-36f8d580d329_m.png",
         "storeName": "Kassipasteet kanaga SHEBA 85g"
       },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sheba-cl-terriinis-kiisueine-85g-kanaga/",
+        "size": "85g",
+        "ean": "4008429065347",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4008429065347.png",
+        "storeName": "Kiisueine Sheba Classics Terriinis 85g kanaga"
+      },
       "selver": {
         "price": 0.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/kassipasteet-kanaga-sheba-85g",
         "size": "85g",
+        "ean": "4008429065347",
         "storeUnitPrice": 11.65,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429065347.jpg",
         "storeName": "Kassipasteet kanaga, SHEBA, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kiisueine sensations kalkun 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiisueine-felix-sensations-kalkun-4-x-85-g",
+        "size": "4x85g",
+        "storeUnitPrice": 7.03,
+        "image": "https://cdn.barbora.ee/products/7ccff082-9115-4ac7-9bd6-8c57c58de18f_m.png",
+        "storeName": "Kiisueine FELIX Sensations kalkun 4x85g"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/canned-food-for-cats/kiisueine-felix-sensations-kalkun-4x85g/p/7255791",
+        "size": "4x85g",
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7255791_PCE_EE",
+        "storeName": "Kiisueine Felix Sensations kalkun 4x85g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Felix Kiisueine fantastic küülik 85g",
+    "category": "Pet food",
+    "prices": {
+      "barbora": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiisueine-felix-fantastic-kuulik-85-g",
+        "size": "85g",
+        "storeUnitPrice": 9.29,
+        "image": "https://cdn.barbora.ee/products/26b5f8dc-50a0-412e-8f75-a2efdbbb6fee_m.png",
+        "storeName": "Kiisueine FELIX Fantastic küülik 85g"
+      },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-kiisueine-fantastic-85g-kuulik/",
+        "size": "85g",
+        "ean": "7613039835500",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/7613039835500.png",
+        "storeName": "Felix Kiisueine Fantastic 85g küülik"
       }
     },
     "matchedVia": "automatic"
@@ -106747,17 +106887,27 @@
         "image": "https://cdn.barbora.ee/products/2cc58feb-f9dd-4fff-8fcb-76fa27350d88_m.png",
         "storeName": "Kiisueine SHEBA segavalik kastmes 4x85g"
       },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sheba-natures-kiisueine-485g-segavalik/",
+        "size": "4x85g",
+        "ean": "4770608263218",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4770608263218.png",
+        "storeName": "Kiisueine Sheba Natures 4*85g segavalik"
+      },
       "selver": {
         "price": 3.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/kiisueine-segavalik-kastmes-4-pakk-sheba-4x85-g",
         "size": "4x85g",
+        "ean": "4770608263218",
         "storeUnitPrice": 10.26,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4770608263218.jpg",
         "storeName": "Kiisueine segavalik kastmes 4-pakk, SHEBA, 4x85 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pedigree Koeraeine 4x100g",
@@ -106822,6 +106972,15 @@
         "regularPrice": 1.29,
         "storeName": "Koeramaius Rodeo PEDIGREE 70g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koeramaius-rodeo-70g/",
+        "size": "70g",
+        "ean": "4008429090110",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4008429090110.png",
+        "storeName": "Maius koerale Pedigree Rodeo 70g"
+      },
       "rimi": {
         "price": 1.35,
         "currency": "EUR",
@@ -106835,17 +106994,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taiendsoot-koeramaius-rodeo-pedigree-70g",
         "size": "70g",
+        "ean": "4008429090110",
         "storeUnitPrice": 18.43,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429090110.jpg",
         "storeName": "Täiendsööt. Koeramaius Rodeo, PEDIGREE, 70g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Dreamies Kassi suupiste kanalihaga 60g",
+    "name": "Dreamies Suupiste kassile kanalihaga 60g",
     "category": "Pet food",
     "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suupiste-kassile-kana60g/",
+        "size": "60g",
+        "ean": "5998749130834",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5998749130834.jpg",
+        "storeName": "Suupiste kassile kanalihaga Dreamies 60g"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -106861,17 +107030,27 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "60g",
+        "ean": "5998749130834",
         "storeUnitPrice": 33.17,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429037894.jpg",
         "storeName": "Täiendsööt. Kassi suupiste kanalihaga, DREAMIES, 60g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Sheba Kiisueine lõhega 85g",
+    "name": "Sheba kiisueine lõhega 85g",
     "category": "Pet food",
     "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasteet-lohega-85g/",
+        "size": "85g",
+        "ean": "4008429084867",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4008429084867.png",
+        "storeName": "Sheba Kiisueine 85g lõhega"
+      },
       "rimi": {
         "price": 0.75,
         "currency": "EUR",
@@ -106885,17 +107064,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taistoit-kiisueine-lohega-sheba-85g",
         "size": "85g",
+        "ean": "4008429084867",
         "storeUnitPrice": 11.65,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429084867.jpg",
         "storeName": "Täistoit. Kiisueine lõhega, SHEBA, 85g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Dreamies Kassi suupiste pardilihaga 60g",
+    "name": "Dreamies Suupiste kassile pardi pardilihaga 60g",
     "category": "Pet food",
     "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maius-kassile-pardi-60g/",
+        "size": "60g",
+        "ean": "5998749116500",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5998749116500.png",
+        "storeName": "Suupiste kassile Dreamies 60g pardi"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -106911,12 +107100,2379 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "60g",
+        "ean": "5998749116500",
         "storeUnitPrice": 33.17,
         "image": "https://www.selver.ee/img/800/800/resize/5/9/5998749116500.jpg",
         "storeName": "Kassi suupiste pardilihaga, DREAMIES, 60 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Athena Kons kassile loomaliha loomalihaga 100g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/athena-kons-kassile-100g-loomaliha/",
+        "size": "100g",
+        "ean": "4010492051141",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4010492051141.png",
+        "storeName": "Kons.kassile Athena 100g loomaliha"
+      },
+      "selver": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassitoit-loomalihaga-athena-100g",
+        "size": "100g",
+        "ean": "4010492051141",
+        "storeUnitPrice": 5.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4010492052261.jpg",
+        "storeName": "Täissööt. Kassitoit loomalihaga , ATHENA, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Athena Kons kassile linnuliha linnulihaga 100g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/athena-kons-kassile-100g-linnuliha/",
+        "size": "100g",
+        "ean": "4010492051165",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4010492052278.png",
+        "storeName": "Kons.kassile Athena 100g linnuliha"
+      },
+      "selver": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassitoit-linnulihaga-athena-100-g",
+        "size": "100g",
+        "ean": "4010492051165",
+        "storeUnitPrice": 5.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4010492052278.jpg",
+        "storeName": "Täissööt. Kassitoit linnulihaga, ATHENA, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Athena piim kassile 200ml",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piim-kassile-0-2l/",
+        "size": "200ml",
+        "ean": "4010492976215",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4010492054548.jpg",
+        "storeName": "Athena piim kassile 0.2L"
+      },
+      "selver": {
+        "price": 0.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kassipiim-athena-200ml",
+        "size": "200ml",
+        "ean": "4010492976215",
+        "storeUnitPrice": 4.7,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4010492054548.jpg",
+        "storeName": "Täiendsööt. Kassipiim, ATHENA, 200ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Athena junior kons kassile linnulih linnulihaga 100g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kons-linnulihaga-100g/",
+        "size": "100g",
+        "ean": "4010492057006",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4010492057006.png",
+        "storeName": "Athena Junior kons.kassile 100g linnulih"
+      },
+      "selver": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassitoit-junior-linnulihaga-athena-100g",
+        "size": "100g",
+        "ean": "4010492057006",
+        "storeUnitPrice": 5.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4010492057006.jpg",
+        "storeName": "Täissööt. Kassitoit Junior linnulihaga, ATHENA, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Perfect fit Kuivt kanaga kassile steril 750g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/perfect-fit-kuivt-kassile750gsteril-kana/",
+        "size": "750g",
+        "ean": "4008429160271",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4008429088858.png",
+        "storeName": "Kuivt.kassile Perfect Fit 750g steril. kanaga"
+      },
+      "selver": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kuivsoot-steriliseeritud-kassidele-kanalihaga-perfect-fit-750g",
+        "size": "750g",
+        "ean": "4008429160271",
+        "storeUnitPrice": 8.39,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429088858.jpg",
+        "storeName": "Täistoit. Kuivsööt steriliseeritud kassidele kanalihaga, PERFECT FIT, 750g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primacat Kuivt steriliseeritud kanaga kassile 400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primacat-kuivt-sterili-kassile-400g-kana/",
+        "size": "400g",
+        "ean": "6430069580580",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/6430069580580.png",
+        "storeName": "Kuivt.steriliseeritud kassile PrimaCat 400g kanaga"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-steriliseeritud-kassidele-kanaga-primacat-400g",
+        "size": "400g",
+        "ean": "6430069580580",
+        "storeUnitPrice": 10.23,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430069580580.jpg",
+        "storeName": "Täistoit steriliseeritud kassidele kanaga, PRIMACAT, 400g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Athena kons kassile merekala krevet 100g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/athena-kons-kassile-100g-merekala-krevet/",
+        "size": "100g",
+        "ean": "4010492051189",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4010492051189.png",
+        "storeName": "Athena kons.kassile 100g merekala-krevet"
+      },
+      "selver": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassitoit-merekala-kreveti-athena-100-g",
+        "size": "100g",
+        "ean": "4010492051189",
+        "storeUnitPrice": 5.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4010492051189.jpg",
+        "storeName": "Täissööt. Kassitoit merekala-kreveti, ATHENA, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primacat Kiisueine lõhe krev tuunik 4x50g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primacat-kiisueine-450g-tuunik-lohe/",
+        "size": "4x50g",
+        "ean": "6430069581280",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/6430069581280.png",
+        "storeName": "Kiisueine PrimaCat 4*50g tuunik.-lõhe+tuunik.-krev"
+      },
+      "selver": {
+        "price": 4.77,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lisasoot-kassieine-tuunikala-lohe-tuunikala-krevett-tarrendis-primacat-200g",
+        "size": "200g",
+        "ean": "6430069581280",
+        "storeUnitPrice": 23.85,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430069581280.jpg",
+        "storeName": "Lisasööt. Kassieine tuunikala lõhe+tuunikala krevett tarrendis, PRIMACAT, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dreamies Suupiste kassile juustuga 60g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suupiste-kassile-60g/",
+        "size": "60g",
+        "ean": "5998749130896",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5998749130896.png",
+        "storeName": "Suupiste kassile juustuga Dreamies 60g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-suupiste-kassidele-juustu-dreamies-60g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "60g",
+        "ean": "5998749130896",
+        "storeUnitPrice": 33.17,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429037986.jpg",
+        "storeName": "Täiendsööt. Suupiste kassidele juustu, DREAMIES, 60g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix maius kassile party mix origin maitsega 60g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kassimaius-original-60g/",
+        "size": "60g",
+        "ean": "7613287631459",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613034119865.png",
+        "storeName": "Felix Maius kassile Party Mix Origin.60g"
+      },
+      "selver": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kassimaiused-kana-maksa-ja-kalkuni-maitsega-felix-60g",
+        "size": "60g",
+        "ean": "7613287631459",
+        "storeUnitPrice": 29.67,
+        "image": "https://www.selver.ee/img/800/800/resize/0/7/07613287631459.jpg",
+        "storeName": "Täiendsööt. Kassimaiused kana, maksa ja kalkuni maitsega, FELIX, 60g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kiisueine fantastic kana loomaliha 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-fantastic-kiisueine485g-kanaloom/",
+        "size": "4x85g",
+        "ean": "7613039894361",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/7613039894361.png",
+        "storeName": "Kiisueine Felix Fantastic 4*85g kana,loomaliha"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-fantastic-kiisueine-lihavalik-felix-340g",
+        "size": "340g",
+        "ean": "7613039894361",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613039894361.jpg",
+        "storeName": "Täissööt. Fantastic kiisueine lihavalik, FELIX, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kiisueine fantastic lõhe lest 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-fantastic-kiisueine485g-lohelest/",
+        "size": "4x85g",
+        "ean": "7613039894774",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/7613039894774.png",
+        "storeName": "Kiisueine Felix Fantastic 4*85g lõhe,lest"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-fantastic-kiisueine-kalavalik-felix-340g",
+        "size": "340g",
+        "ean": "7613039894774",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613039894774.jpg",
+        "storeName": "Täissööt. Fantastic kiisueine kalavalik, FELIX, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kiisueine sensations liha tarrendis 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-sen-kiisueine-485g-liha-tarrendis/",
+        "size": "4x85g",
+        "ean": "7613039923016",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/7613039923016.png",
+        "storeName": "Kiisueine Felix Sensations 4*85g liha tarrendis"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-sensations-kiisueine-lihavalik-tarrendis-felix-340g",
+        "size": "340g",
+        "ean": "7613039923016",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613039923016.jpg",
+        "storeName": "Täissööt. Sensations kiisueine lihavalik tarrendis, FELIX, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kiisueine sensations kala tarrendis 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-sen-kiisueine-485g-kala-tarrendis/",
+        "size": "4x85g",
+        "ean": "7613039917626",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/7613039917626.png",
+        "storeName": "Kiisueine Felix Sensations 4*85g kala tarrendis"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-sensations-kiisueine-kalavalik-tarrendis-felix-340g",
+        "size": "340g",
+        "ean": "7613039917626",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613039917626.jpg",
+        "storeName": "Täissööt. Sensations kiisueine kalavalik tarrendis, FELIX, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassile lõhe kanaliha tükkidega 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kons-lohe-kana-85g/",
+        "size": "85g",
+        "ean": "7613031806201",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613031806201.png",
+        "storeName": "Kons.kassile Gourmet Gold 85g lõhe,kanaliha"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-lohe-kana-tukkidega-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613031806201",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613031806201.jpg",
+        "storeName": "Täissööt. Kassikonserv lõhe, kana tükkidega, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassile loomalihapasteet 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kons-loomal-pasteet-85g/",
+        "size": "85g",
+        "ean": "7613033776281",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613032816506.png",
+        "storeName": "Kons.kassile Gourmet Gold 85g loomalihapasteet"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-loomalihapasteet-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613033776281",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/0/7/07613033776281.jpg",
+        "storeName": "Täissööt. Kassikonserv loomalihapasteet, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassile kalkunipasteet 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-kons-kassile-85g-kalkun/",
+        "size": "85g",
+        "ean": "7613033776533",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/7613032814953.png",
+        "storeName": "Kons.kassile Gourmet Gold 85g kalkunipasteet"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-kalkunipasteet-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613033776533",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613033776533.jpg",
+        "storeName": "Täissööt. Kassikonserv kalkunipasteet, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassile kanapasteet 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kons-kanapasteet-85g/",
+        "size": "85g",
+        "ean": "7613031806171",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613031806171.jpg",
+        "storeName": "Kons.kassile Gourmet Gold 85g kanapasteet"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-kanapasteet-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613031806171",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/0/7/07613031806171.jpg",
+        "storeName": "Täissööt. Kassikonserv kanapasteet, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassile tuunikalapasteet 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasteet-tuunikalaga-85g/",
+        "size": "85g",
+        "ean": "7613031808649",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613031808649.jpg",
+        "storeName": "Kons.kassile Gourmet Gold 85g tuunikalapasteet"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-tuunikalapasteet-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613031808649",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/0/7/07613031808649.jpg",
+        "storeName": "Täissööt. Kassikonserv tuunikalapasteet, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primacat Kuivt teraviljavaba kalkun kassile st kalkunilihaga 400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primacat-kuivt-ster-kassile-400g-kalkun/",
+        "size": "400g",
+        "ean": "6430076891990",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/6430076891990.png",
+        "storeName": "Kuivt.st.kassile PrimaCat400g kalkun,teraviljavaba"
+      },
+      "selver": {
+        "price": 4.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/steriliseeritud-kassidele-teraviljavaba-taistoit-kalkunilihaga-primacat-400g",
+        "size": "400g",
+        "ean": "6430076891990",
+        "storeUnitPrice": 12.18,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430076891990.jpg",
+        "storeName": "Steriliseeritud kassidele teraviljavaba täistoit kalkunilihaga, PRIMACAT, 400g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Maius kassile play tubes kalkuni singi 50g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-maius-kassile-play50g-kalkuni-sink/",
+        "size": "50g",
+        "ean": "7613036707503",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/7613036707503.png",
+        "storeName": "Maius kassile Felix Play Tubes 50g kalkuni-singi"
+      },
+      "selver": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kassimaius-kalkun-sink-felix-50g",
+        "size": "50g",
+        "ean": "7613036707503",
+        "storeUnitPrice": 35.6,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613036707503.jpg",
+        "storeName": "Täiendsööt. Kassimaius kalkun&sink, FELIX, 50g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kiisueine tasty shreds kalavalik 4x80g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-tasty-shreds-kiisue480g-kalavalik/",
+        "size": "4x80g",
+        "ean": "7613287650948",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/7613287650948.png",
+        "storeName": "Kiisueine Felix Tasty Shreds 4*80g kalavalik"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassieine-kalavalik-tasty-shreds-felix-320g",
+        "size": "320g",
+        "ean": "7613287650948",
+        "storeUnitPrice": 8.09,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613287650948.jpg",
+        "storeName": "Täissööt. Kassieine kalavalik Tasty Shreds, FELIX, 320g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primacat Kassieine tuunikala vees 4x50g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primacat-kassieine-450g-tuunikala-vees/",
+        "size": "4x50g",
+        "ean": "6430069581266",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/6430069581266.png",
+        "storeName": "Kassieine PrimaCat 4*50g tuunikala vees"
+      },
+      "selver": {
+        "price": 4.77,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lisasoot-eine-kassile-tuunikala-vees-primacat-200g",
+        "size": "200g",
+        "ean": "6430069581266",
+        "storeUnitPrice": 23.85,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430069581266.jpg",
+        "storeName": "Lisasööt. Eine kassile tuunikala vees , PRIMACAT, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primacat Kassieine kana vees 4x50g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primacat-kassieine-450g-kana-vees/",
+        "size": "4x50g",
+        "ean": "6430069581273",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/6430069581273.png",
+        "storeName": "Kassieine PrimaCat 4*50g kana vees"
+      },
+      "selver": {
+        "price": 4.77,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eine-kassile-kana-vees-primacat-deluxe-4x50-g",
+        "size": "4x50g",
+        "ean": "6430069581273",
+        "storeUnitPrice": 23.85,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430049625300.jpg",
+        "storeName": "Eine kassile kana vees, PRIMACAT DELUXE, 4x50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons loomaliha ja kassile sc tom 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-sc-kons-kassi-85g-loomaliha/",
+        "size": "85g",
+        "ean": "7613035464032",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/7613035464032.png",
+        "storeName": "Kons.kassile Gourmet Gold SC 85g loomaliha ja tom."
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiisueine-loomaliha-tomati-gourmet-gold-85-g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613035464032",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613035464032.jpg",
+        "storeName": "Kiisueine loomaliha-tomati, GOURMET GOLD, 85 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassile sc kana porganditega 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-sc-kons-kassi-85g-kanaporg/",
+        "size": "85g",
+        "ean": "7613035465664",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/7613035465664.png",
+        "storeName": "Kons.kassile Gourmet Gold SC 85g kana&porganditega"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kiisueine-kana-porgandi-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613035465664",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613035465664.jpg",
+        "storeName": "Täissööt. Kiisueine kana-porgandi, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassile sc lambaliha ubadega 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-sc-kons-kassi-85g-lambaliha/",
+        "size": "85g",
+        "ean": "7613035465695",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/7613035465695.png",
+        "storeName": "Kons.kassile Gourmet Gold SC 85g lambaliha ubadega"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kiisueine-lambaliha-roheliste-ubadega-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "7613035465695",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/0/7/07613035465695.jpg",
+        "storeName": "Täissööt. Kiisueine lambaliha-roheliste ubadega, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Perfect fit Kuivt veiselihaga kassile sterile 750g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuivt-veiselihaga-750g/",
+        "size": "750g",
+        "ean": "4008429160233",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4008429129223.png",
+        "storeName": "Kuivt.kassile Perfect Fit Sterile 750g veiselihaga"
+      },
+      "selver": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuivsoot-steriliseeritud-kassidele-veiselihaga-perfect-fit-750-g",
+        "size": "750g",
+        "ean": "4008429160233",
+        "storeUnitPrice": 8.39,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429160233.jpg",
+        "storeName": "Kuivsööt steriliseeritud kassidele veiselihaga, PERFECT FIT, 750 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dreamies Suupiste kassile naistenõgese naistenõgesega 60g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dreamies-suupiste-kassile60g-naistenoges/",
+        "size": "60g",
+        "ean": "5998749142875",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5998749142875.png",
+        "storeName": "Suupiste kassile Dreamies 60g naistenõgese"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassimaius-naistenogesega-dreamies-60g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "60g",
+        "ean": "5998749142875",
+        "storeUnitPrice": 33.17,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5998749142875.jpg",
+        "storeName": "Kassimaius naistenõgesega, DREAMIES, 60g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Maius kassile party mix ocean lõhe maitsega 60g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kassimaius-ocean-mix-60g/",
+        "size": "60g",
+        "ean": "7613287631435",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613034119841.jpg",
+        "storeName": "Maius kassile Felix Party Mix Ocean 60g lõhe"
+      },
+      "selver": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/party-mix-kassimaiused-ocean-lohe-susika-ja-forelli-maitsega-felix-60-g",
+        "size": "60g",
+        "ean": "7613287631435",
+        "storeUnitPrice": 29.67,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613287631435.jpg",
+        "storeName": "Party Mix kassimaiused Ocean lõhe, süsika ja forelli maitsega, FELIX, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons del kassile loom succulent loomalihaga 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-kons-kassile-85g-loomaliha/",
+        "size": "85g",
+        "ean": "8445290502636",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/8445290502636.png",
+        "storeName": "Kons.kassile Gourmet Gold Succulent Del.85g loom"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassikonserv-loomalihaga-gourmet-gold-85-g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "8445290502636",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8445290502636.jpg",
+        "storeName": "Kassikonserv loomalihaga, GOURMET GOLD, 85 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons del kala kassile succulent kalaga 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-kons-kassile-85g-kala/",
+        "size": "85g",
+        "ean": "8445290502650",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/8445290502650.png",
+        "storeName": "Kons.kassile Gourmet Gold Succulent Del.85g kala"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-kalaga-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "8445290502650",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8445290502650.jpg",
+        "storeName": "Täissööt. Kassikonserv kalaga, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kuivt kassile one steriliseeritud veisega 750g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 6.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/one-kuivt-steril-kassile-750g/",
+        "size": "750g",
+        "ean": "8445291799387",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8445291799387.png",
+        "storeName": "Kuivt.steriliseeritud kassile ONE 750g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuiv-kassitoit-sterilcat-taissoot-taiskasvanud-kassidele-veisega-purina-one-750-g",
+        "size": "750g",
+        "ean": "8445291799387",
+        "storeUnitPrice": 6.65,
+        "image": "https://www.selver.ee/img/800/800/resize/0/8/08445291799387.jpg",
+        "storeName": "Kuiv kassitoit Sterilcat täissööt täiskasvanud kassidele veisega, PURINA ONE, 750 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kuivt kanalihaga kassile 800g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-kuivt-kassile-800g-kanalihaga-2/",
+        "size": "800g",
+        "ean": "5900951355912",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/5900951355912.png",
+        "storeName": "Kuivt.kassile Whiskas 800g kanalihaga"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassi-kuivsoot-kanaga-1-whiskas-800-g",
+        "size": "800g",
+        "ean": "5900951355912",
+        "storeUnitPrice": 4.49,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951355912.jpg",
+        "storeName": "Kassi kuivsööt kanaga 1+, WHISKAS, 800 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kuivt kanalihaga kassile senior 800g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-senior-kuivt-kassile-800g-kana-2/",
+        "size": "800g",
+        "ean": "5900951356148",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/5900951356148.png",
+        "storeName": "Kuivt.kassile Whiskas Senior 800g kanalihaga"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassi-kuivsoot-kanalihaga-7-whiskas-800-g",
+        "size": "800g",
+        "ean": "5900951356148",
+        "storeUnitPrice": 4.49,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951356148.jpg",
+        "storeName": "Kassi kuivsööt kanalihaga 7+, WHISKAS, 800 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kuivt tuunikalaga kassile 800g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-kuivt-kassile-800g-tuunikalaga-2/",
+        "size": "800g",
+        "ean": "5900951356087",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/5900951356087.png",
+        "storeName": "Kuivt.kassile Whiskas 800g tuunikalaga"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassi-kuivsoot-tuunikalaga-1-whiskas-800-g",
+        "size": "800g",
+        "ean": "5900951356087",
+        "storeUnitPrice": 4.49,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951356087.jpg",
+        "storeName": "Kassi kuivsööt tuunikalaga 1+, WHISKAS, 800 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kuivt weight control kana kassile one steril kanaga 1400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 10.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/one-steril-weight-kuivt-kassi-1-4kg-kana/",
+        "size": "1400g",
+        "ean": "8445291795167",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8445291795167.png",
+        "storeName": "Kuivt.kassile ONE Steril Weight Control 1.4kg kana"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuiv-kassitoit-kanaga-steriliseeritud-kassidele-weight-control-purina-one-1-4-kg",
+        "size": "1400g",
+        "ean": "8445291795167",
+        "storeUnitPrice": 5.71,
+        "image": "https://www.selver.ee/img/800/800/resize/0/8/08445291795167.jpg",
+        "storeName": "Kuiv kassitoit kanaga steriliseeritud kassidele Weight Control, PURINA ONE,1,4 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sheba Kiisueine kalkunilihaga kastmes 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sheba-kiisueine85g-kalkunilihaga-kastmes/",
+        "size": "85g",
+        "ean": "4008429164361",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4008429164361.png",
+        "storeName": "Kiisueine Sheba 85g kalkunilihaga kastmes"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiisueine-kalkuniga-sheba-85g",
+        "size": "85g",
+        "ean": "4008429164361",
+        "storeUnitPrice": 11.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429164361.jpg",
+        "storeName": "Kiisueine kalkuniga, SHEBA, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons kassipojale kitten vasika vasikalihaga 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-kitten-kassipoja-85g-vasika/",
+        "size": "85g",
+        "ean": "8445291514522",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/8445291514522.png",
+        "storeName": "Kons.kassipojale Gourmet Gold Kitten 85g vasika"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-kitten-vasikalihaga-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "8445291514522",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8445291514522.jpg",
+        "storeName": "Täissööt. Kassikonserv Kitten vasikalihaga, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primacat kiisueine ster kass lõhe lõhega 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primacat-kiisueine-ster-kass-485g-lohe/",
+        "size": "4x85g",
+        "ean": "6438554004665",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/6438554004665.png",
+        "storeName": "PrimaCat kiisueine ster.kass 4*85g lõhe"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-eine-steriliseeritud-kassidele-lohega-4x85g-primacat-340-g",
+        "size": "4x85g",
+        "ean": "6438554004665",
+        "storeUnitPrice": 10.15,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6438554004665.jpg",
+        "storeName": "Täistoit. Eine steriliseeritud kassidele lõhega 4x85g, PRIMACAT, 340 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine pure delight kana lõhe 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-pure-kiisueine-485g-kana-lohe/",
+        "size": "4x85g",
+        "ean": "5900951303302",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/5900951303302.png",
+        "storeName": "Kiisueine Whiskas Pure Delight 4*85g kana, lõhe"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-pure-delight-segamenuu-tarrendis-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "5900951303302",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951303302.jpg",
+        "storeName": "Täistoit. Kiisueine Pure Delight segamenüü tarrendis 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine pure delight kana kalkun linnulihaga 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-pure-kiisueine-485g-kanakalkun/",
+        "size": "4x85g",
+        "ean": "5900951303197",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/5900951303197.png",
+        "storeName": "Kiisueine Whiskas Pure Delight 4*85g kana, kalkun"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-pure-delight-linnulihaga-tarrendis-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "5900951303197",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951303197.jpg",
+        "storeName": "Täistoit. Kiisueine Pure Delight linnulihaga tarrendis 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine lihavalik 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-kiisueine-485g-lihavalik/",
+        "size": "4x85g",
+        "ean": "5900951301865",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/5900951301865.png",
+        "storeName": "Kiisueine Whiskas 4*85g lihavalik"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-lihavalik-1-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "5900951301865",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951301865.jpg",
+        "storeName": "Täistoit. Kiisueine lihavalik 1+, 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine junior klassikaline valik 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-junior-kiisueine-485g-klassikal/",
+        "size": "4x85g",
+        "ean": "5900951305122",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/5900951305122.png",
+        "storeName": "Kiisueine Whiskas Junior 4*85g klassikaline valik"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-junior-klassikaline-valik-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "5900951305122",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951305122.jpg",
+        "storeName": "Täistoit. Kiisueine Junior klassikaline valik 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine kalavalik 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-kiisueine-485g-kalavalik/",
+        "size": "4x85g",
+        "ean": "8410136025433",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/8410136025433.png",
+        "storeName": "Kiisueine Whiskas 4*85g kalavalik"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-kalavalik-1-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "8410136025433",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410136025433.jpg",
+        "storeName": "Täistoit. Kiisueine kalavalik 1+, 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine eakale kassile linnuliha kodulinnulihaga 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-kiisueine-eakale-485g-linnuliha/",
+        "size": "4x85g",
+        "ean": "5900951301827",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/5900951301827.png",
+        "storeName": "Kiisueine eakale kassile Whiskas 4*85g linnuliha"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-kodulinnulihaga-7-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "5900951301827",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951301827.jpg",
+        "storeName": "Täistoit. Kiisueine kodulinnulihaga 7+, 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet gold Kons del kana kassile succulent kanaga 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-gold-kons-kassile-85g-kana/",
+        "size": "85g",
+        "ean": "8445290502599",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/8445290502599.png",
+        "storeName": "Kons.kassile Gourmet Gold Succulent Del.85g kana"
+      },
+      "selver": {
+        "price": 0.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kassikonserv-kanaga-gourmet-gold-85g",
+        "cardPrice": 0.5,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "8445290502599",
+        "storeUnitPrice": 10.35,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8445290502599.jpg",
+        "storeName": "Täissööt. Kassikonserv kanaga, GOURMET GOLD, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sheba Maius kassile creamy lõhe lõhega 4x12g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sheba-creamy-maius-kassile-412g-lohe/",
+        "size": "4x12g",
+        "ean": "4008429193491",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4008429140723.png",
+        "storeName": "Maius kassile Sheba Creamy 4*12g lõhe"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-creamy-kreemjas-suupiste-kassile-lohega-sheba-48g",
+        "size": "48g",
+        "ean": "4008429193491",
+        "storeUnitPrice": 37.29,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429140723.jpg",
+        "storeName": "Täiendsööt. Creamy kreemjas suupiste kassile lõhega, SHEBA, 48g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sheba Maius kassile creamy kana kanaga 4x12g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sheba-creamy-maius-kassile-412g-kana/",
+        "size": "4x12g",
+        "ean": "4008429193484",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4008429140662.png",
+        "storeName": "Maius kassile Sheba Creamy 4*12g kana"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-creamy-kreemjas-suupiste-kassile-kanaga-sheba-48g",
+        "size": "48g",
+        "ean": "4008429193484",
+        "storeUnitPrice": 37.29,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429140662.jpg",
+        "storeName": "Täiendsööt. Creamy kreemjas suupiste kassile kanaga, SHEBA, 48g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "One kassile kgloomaliha kuivt ster tud veisega 1400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/one-kuivt-ster-tud-kassile1-4kgloomaliha/",
+        "ean": "8445291791435",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8445291791435.png",
+        "storeName": "ONE Kuivt.ster-tud kassile1.4kgloomaliha"
+      },
+      "selver": {
+        "price": 10.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-sterilcat-taiskasvanud-kassidele-veisega-purina-one-1-4kg",
+        "size": "1400g",
+        "ean": "8445291791435",
+        "storeUnitPrice": 7.42,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8445291791435.jpg",
+        "storeName": "Täissööt Sterilcat täiskasvanud kassidele veisega, PURINA ONE, 1,4kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sheba Kiisueine tuunikalaga kastmes 85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sheba-kiisueine-85g-tuunikalaga-kastmes/",
+        "size": "85g",
+        "ean": "4008429163791",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4008429163791.png",
+        "storeName": "Kiisueine Sheba 85g tuunikalaga kastmes"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiisu-einekausike-tuunikala-kastmes-sheba-85g",
+        "size": "85g",
+        "ean": "4008429163791",
+        "storeUnitPrice": 11.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429163791.jpg",
+        "storeName": "Kiisu einekausike tuunikala kastmes, SHEBA, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sheba Kiisueine kalavalik kastmes 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiisueine-kalavalik485g/",
+        "size": "4x85g",
+        "ean": "4770608257422",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4770608257422.png",
+        "storeName": "Kiisueine Sheba 4*85g kalavalik kastmes"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-kalavalik-kastmes-sheba-340g",
+        "size": "340g",
+        "ean": "4770608257422",
+        "storeUnitPrice": 9.68,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4770608254285.jpg",
+        "storeName": "Täistoit. Kiisueine kalavalik kastmes, SHEBA, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine tasty mix creamy creations 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-tasty-mix-kiisueine-485g-creamy/",
+        "size": "4x85g",
+        "ean": "4770608262679",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4770608262679.png",
+        "storeName": "Kiisueine Whiskas Tasty Mix 4*85g Creamy Creations"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-tasty-mix-creamy-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "4770608262679",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4770608262679.jpg",
+        "storeName": "Täistoit. Kiisueine Tasty mix Creamy 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Whiskas Kiisueine linnuliha kodulinnulihaga 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/whiskas-kiisueine-485g-linnuliha/",
+        "size": "4x85g",
+        "ean": "4770608263676",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4770608263676.png",
+        "storeName": "Kiisueine Whiskas 4*85g linnuliha"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kiisueine-kodulinnulihaga-1-4x85g-whiskas-340g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "4x85g",
+        "ean": "4770608263676",
+        "storeUnitPrice": 7.03,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4770608263676.jpg",
+        "storeName": "Täistoit. Kiisueine kodulinnulihaga 1+, 4x85g, WHISKAS, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sheba Kiisueine fine flakes kodulinnuvalik 4x85g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sheba-kiisueine-485g-kodulinnuvalik/",
+        "size": "4x85g",
+        "ean": "4770608258764",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4770608258764.png",
+        "storeName": "Kiisueine Sheba Fine Flakes 4*85g kodulinnuvalik"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiisueine-kodulinnuvalik-4-pakk-sheba-4x85-g",
+        "size": "4x85g",
+        "ean": "4770608258764",
+        "storeUnitPrice": 10.26,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4770608258764.jpg",
+        "storeName": "Kiisueine kodulinnuvalik 4-pakk, SHEBA, 4x85 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Piper Kons lambaliha koerale porgandi porgandiga 400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kons-lambaliha-400g/",
+        "size": "400g",
+        "ean": "5902921306566",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/5902921303381.png",
+        "storeName": "Kons.koerale Piper 400g lambaliha-porgandi"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-koertele-lambaliha-ja-porgandiga-piper-400-g",
+        "size": "400g",
+        "ean": "5902921306566",
+        "storeUnitPrice": 5.23,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5902921300328.jpg",
+        "storeName": "Täissööt koertele lambaliha ja porgandiga, PIPER, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Piper Kons kanasüdame koerale spinati spinatiga 400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kons-kanasudame-400g/",
+        "size": "400g",
+        "ean": "5902921306542",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/5902921303428.png",
+        "storeName": "Kons.koerale Piper 400g kanasüdame-spinati"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-koertele-kanasudamete-ja-spinatiga-piper-400-g",
+        "size": "400g",
+        "ean": "5902921306542",
+        "storeUnitPrice": 5.23,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5902921300335.jpg",
+        "storeName": "Täissööt koertele kanasüdamete ja spinatiga, PIPER, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primadog Eine koerale kanaga 600g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primadog-eine-koerale-600g-kanaga/",
+        "size": "600g",
+        "ean": "6430062463941",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/6430062463941.png",
+        "storeName": "Eine koerale PrimaDog 600g kanaga"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kana-eine-primadog-600g",
+        "size": "600g",
+        "ean": "6430062463941",
+        "storeUnitPrice": 4.98,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430062463941.jpg",
+        "storeName": "Täistoit.Kana eine, PRIMADOG, 600g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Adventuros Maius koerale metssiga 90g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/adventuros-maius-koerale-90g-metssiga/",
+        "size": "90g",
+        "ean": "7613035516458",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/7613035516458.jpg",
+        "storeName": "Maius koerale Adventuros 90g metssiga"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-nagitsad-koertele-metssiga-22tk-adventuros-90g",
+        "size": "90g",
+        "ean": "7613035516458",
+        "storeUnitPrice": 20.22,
+        "image": "https://www.selver.ee/img/800/800/resize/0/7/07613035516458.jpg",
+        "storeName": "Täiendsööt. Nagitsad koertele metssiga 22tk, ADVENTUROS, 90g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Adventuros Maius koerale pühvel 120g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/narimispulgad-puhvel120g/",
+        "size": "120g",
+        "ean": "7613035516335",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/7613035516335.png",
+        "storeName": "Maius koerale Adventuros 120g pühvel"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-narimispulgad-koertele-puhvel-4tk-adventuros-120g",
+        "size": "120g",
+        "ean": "7613035516335",
+        "storeUnitPrice": 15.17,
+        "image": "https://www.selver.ee/img/800/800/resize/0/7/07613035516335.jpg",
+        "storeName": "Täiendsööt. Närimispulgad koertele pühvel 4tk, ADVENTUROS, 120g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Apollo närimisribad kana kalk kalkunilihaga 200g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/apollo-narimisribad-20tk-200g-kana-kalk/",
+        "size": "200g",
+        "ean": "4010492973702",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4010492973702.png",
+        "storeName": "Apollo närimisribad 20tk 200g kana-kalk"
+      },
+      "selver": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-narimisribad-kana-ja-kalkunilihaga-20tk-apollo-200g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4010492973702",
+        "storeUnitPrice": 7.55,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4010492055767.jpg",
+        "storeName": "Täiendsööt. Närimisribad kana- ja kalkunilihaga (20tk), APOLLO, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primadog Maius koerale lambaliha 50g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primadog-maius-koerale-50g-lambaliha/",
+        "size": "50g",
+        "ean": "6430056888293",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/6430056888293.png",
+        "storeName": "Maius koerale PrimaDog 50g lambaliha"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-treeningmaius-lambalihatukid-primadog-50g",
+        "size": "50g",
+        "ean": "6430056888293",
+        "storeUnitPrice": 47,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430056888293.jpg",
+        "storeName": "Täiendsööt. Treeningmaius lambalihatükid, PRIMADOG, 50g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pedigree dentastix närimistoode mini 68g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pedigree-dentastix-narimispulk-mini-68g/",
+        "size": "68g",
+        "ean": "4008429136382",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4008429136382.png",
+        "storeName": "Pedigree Dentastix närimistoode Mini 68g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-dentastix-chewy-chunx-mini-kanamaitseline-pedigree-68g",
+        "size": "68g",
+        "ean": "4008429136382",
+        "storeUnitPrice": 27.79,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429136382.jpg",
+        "storeName": "Täiendsööt. Dentastix Chewy Chunx Mini kanamaitseline, PEDIGREE, 68g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maius koerale delikatess kanafilee hhc 100g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maius-koerale-kana-100g/",
+        "size": "100g",
+        "ean": "6430076893437",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6430030774154.png",
+        "storeName": "Maius koerale delikatess kanafilee 100% HHC 100g"
+      },
+      "selver": {
+        "price": 4.26,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-kanafilee-hau-hau-champion-100g",
+        "size": "100g",
+        "ean": "6430076893437",
+        "storeUnitPrice": 42.6,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430076893437.jpg",
+        "storeName": "Täiendsööt. Kanafilee, HAU-HAU CHAMPION, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hau hau Maius koerale delikatess pardifilee 100g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hau-hau-maius-koerle-del-pardifilee-100g/",
+        "size": "100g",
+        "ean": "6430076893499",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/6430030783880.png",
+        "storeName": "Maius koerale Hau Hau delikatess pardifilee 100g"
+      },
+      "selver": {
+        "price": 4.26,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-pardifilee-hau-hau-champion-100g",
+        "size": "100g",
+        "ean": "6430076893499",
+        "storeUnitPrice": 42.6,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430076893499.jpg",
+        "storeName": "Täiendsööt. Pardifilee, HAU-HAU CHAMPION, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pedigree Maius koerale biscrok 200g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koerakupsis-biscrok-200g/",
+        "size": "200g",
+        "ean": "9003579302545",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9003579302545.jpg",
+        "storeName": "Maius koerale Pedigree Biscrok 200g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-bisrock-vitamiini-koerakupsised-pedigree-200g",
+        "cardPrice": 1.35,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "9003579302545",
+        "storeUnitPrice": 9.45,
+        "image": "https://www.selver.ee/img/800/800/resize/9/0/9003579302545.jpg",
+        "storeName": "Täiendsööt. Bisrock vitamiini-koeraküpsised, PEDIGREE, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primadog Närimisrullid koerale kanaga 180g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primadog-narimisrullid-koerale-180g-kana/",
+        "size": "180g",
+        "ean": "6430056887586",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/6430056887586.png",
+        "storeName": "Närimisrullid koerale PrimaDog 5tk 180g kanaga"
+      },
+      "selver": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-narimisrull-kanalihaga-13cm-5tk-primadog-180g",
+        "size": "180g",
+        "ean": "6430056887586",
+        "storeUnitPrice": 25.5,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430056887586.jpg",
+        "storeName": "Täiendsööt. Närimisrull kanalihaga 13cm, 5tk, PRIMADOG, 180g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pedigree Maius koerale rodeo veiselihaga 123g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pedigree-narismispulk-123g-veiselihaga/",
+        "size": "123g",
+        "ean": "5998749141007",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/5998749141007.png",
+        "storeName": "Maius koerale Pedigree Rodeo 123g veiselihaga"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-rodeo-keerdus-narimispulgad-veisega-pedigree-123g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "123g",
+        "ean": "5998749141007",
+        "storeUnitPrice": 15.37,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5998749141007.jpg",
+        "storeName": "Täiendsööt. Rodeo keerdus närimispulgad veisega, PEDIGREE, 123g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rex Närimiskont sõlmitud 80g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/narimiskont-rex-1tk/",
+        "ean": "4742468000067",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4742468000067.png",
+        "storeName": "Närimiskont Rex 1tk sõlmitud"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-koertele-solmitud-narimiskont-1tk-rex-80g",
+        "size": "80g",
+        "ean": "4742468000067",
+        "storeUnitPrice": 18.38,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4742468000067.jpg",
+        "storeName": "Täiendsööt koertele. Sõlmitud närimiskont 1tk, REX, 80g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dog fest Maius koerale kanaliha palad 90g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dog-fest-maius-koerale-90g-kanaliha-pala/",
+        "size": "90g",
+        "ean": "6921499711205",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/6921499711205.png",
+        "storeName": "Maius koerale Dog Fest 90g kanaliha palad"
+      },
+      "selver": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanaliha-delikatess-dog-fest-90-g",
+        "size": "90g",
+        "ean": "6921499711205",
+        "storeUnitPrice": 42.78,
+        "image": "https://www.selver.ee/img/800/800/resize/6/9/6921499711205.jpg",
+        "storeName": "Kanaliha delikatess, DOG FEST, 90 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pedigree Maius koerale rodeo duos kana peekon 123g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pedigree-rodeo-maius-koerale-123g-kana/",
+        "size": "123g",
+        "ean": "5998749144299",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5998749144299.png",
+        "storeName": "Maius koerale Pedigree Rodeo Duos 123g kana-peekon"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rodeo-duos-narimispulgad-kana-ja-peekonimaitselised-pedigree-123-g",
+        "size": "123g",
+        "ean": "5998749144299",
+        "storeUnitPrice": 15.37,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5998749144299.jpg",
+        "storeName": "Rodeo Duos närimispulgad kana- ja peekonimaitselised, PEDIGREE, 123 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pedigree tasty maius koerale veise 140g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pedigree-tasty-maius-koerale-140g-veise/",
+        "size": "140g",
+        "ean": "5998749145333",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/5998749145333.png",
+        "storeName": "Pedigree Tasty maius koerale 140g veise"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-pedigree-tasty-minis-veise-ja-juustumaitselised-koeramaiused-pedigree-140g",
+        "size": "140g",
+        "ean": "5998749145333",
+        "storeUnitPrice": 17.79,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5998749145333.jpg",
+        "storeName": "Täiendsööt. Pedigree Tasty Minis veise ja juustumaitselised koeramaiused, PEDIGREE, 140g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primadog Kuivtoit koerale kana kartul 3000g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 13.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primadog-kuivt-koerale-3kg-kana-kartul/",
+        "size": "3000g",
+        "ean": "6438554001633",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/6438554001633.png",
+        "storeName": "Kuivtoit koerale PrimaDog 3kg kana-kartul"
+      },
+      "selver": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-kana-kartul-taiskasvanud-koertele-primadog-3kg",
+        "size": "3000g",
+        "ean": "6438554001633",
+        "storeUnitPrice": 3.83,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6438554001633.jpg",
+        "storeName": "Täistoit kana-kartul täiskasvanud koertele, PRIMADOG, 3kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primadog Kuivtoit koerale lammas kartul 3000g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 15.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primadog-kuivt-koerale3kg-lammas-kartul/",
+        "size": "3000g",
+        "ean": "6438554001695",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/6438554001695.png",
+        "storeName": "Kuivtoit koerale PrimaDog 3kg lammas-kartul"
+      },
+      "selver": {
+        "price": 15.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-lammas-kartul-taiskasvanud-koertele-primadog-3-kg",
+        "size": "3000g",
+        "ean": "6438554001695",
+        "storeUnitPrice": 5.08,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6438554001695.jpg",
+        "storeName": "Täistoit lammas-kartul täiskasvanud koertele, PRIMADOG, 3 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "One koerale lõhe mini delic kuivt 1500g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/one-kuivt-koerale-mini-delic-1-5kg-lohe/",
+        "size": "1500g",
+        "ean": "7613034546210",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/7613034546210.png",
+        "storeName": "ONE kuivt.koerale Mini Delic.1.5kg lõhe"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-kuivtoit-koerale-lohe-riis-delicate-mini-purina-one-1-5kg",
+        "size": "1500g",
+        "ean": "7613034546210",
+        "storeUnitPrice": 6.66,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613034546210.jpg",
+        "storeName": "Täissööt. Kuivtoit koerale lõhe/riis Delicate Mini, PURINA ONE, 1,5kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primadog Koeraeine ulukiliha ulukilihaga 600g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primadog-koeraeine-600g-ulukiliha/",
+        "size": "600g",
+        "ean": "6430076898029",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/6430076898029.png",
+        "storeName": "Koeraeine PrimaDog 600g ulukiliha"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-koerte-eine-ulukilihaga-primadog-600g",
+        "size": "600g",
+        "ean": "6430076898029",
+        "storeUnitPrice": 4.98,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430076898029.jpg",
+        "storeName": "Täistoit. Koerte eine ulukilihaga, PRIMADOG, 600g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Apollo Närimispulgad koerale loomalihaga 95% 55g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/narimispulk-loomaliha55g/",
+        "size": "55g",
+        "ean": "4010492973627",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4010492052612.png",
+        "storeName": "Närimispulgad koerale Apollo 55g loomalihaga"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taiendsoot-narimispulgad-loomalihaga-koertele-lihasisaldus-95-apollo-55g",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "55g",
+        "ean": "4010492973627",
+        "storeUnitPrice": 23.82,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4010492973627.jpg",
+        "storeName": "Täiendsööt. Närimispulgad loomalihaga koertele ( lihasisaldus 95%), APOLLO, 55g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primadog lammas kartul koerale kuivt 10000g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 46.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/primadog-kuivt-koerale10kg-lammas-kartul/",
+        "size": "10000g",
+        "ean": "6430069588814",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/6430069588814.png",
+        "storeName": "PrimaDog kuivt.koerale10kg lammas-kartul"
+      },
+      "selver": {
+        "price": 46.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-taiskasvanud-koertele-lammas-kartul-primadog-10-kg",
+        "size": "10000g",
+        "ean": "6430069588814",
+        "storeUnitPrice": 4.67,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430069588814.jpg",
+        "storeName": "Täistoit täiskasvanud koertele lammas-kartul, PRIMADOG, 10 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pedigree Maius koerale ranchos jerkies veise veiselihaga 70g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pedigree-ranchos-maius-koerale-70g-veise/",
+        "size": "70g",
+        "ean": "4008429172953",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4008429172953.png",
+        "storeName": "Maius koerale Pedigree Ranchos Jerkies 70g veise"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koeramaius-ranchos-jerkies-veiselihaga-pedigree-70-g",
+        "size": "70g",
+        "ean": "4008429172953",
+        "storeUnitPrice": 34.14,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008429172953.jpg",
+        "storeName": "Koeramaius Ranchos Jerkies veiselihaga, PEDIGREE, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pedigree Kuivt adult koerale köögivilja veise köögiviljaga 10000g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 34.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pedigree-kuivt-koerale10kg-veise-koogiv/",
+        "size": "10000g",
+        "ean": "5900951321290",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/5900951321290.png",
+        "storeName": "Kuivt.koerale Pedigree Adult 10kg veise-köögivilja"
+      },
+      "selver": {
+        "price": 35.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuivtoit-taiskasvanud-koertele-loomaliha-ja-koogiviljaga-pedigree-10-kg",
+        "size": "10000g",
+        "ean": "5900951321290",
+        "storeUnitPrice": 3.59,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5900951321290.jpg",
+        "storeName": "Kuivtoit täiskasvanud koertele loomaliha ja köögiviljaga, PEDIGREE, 10 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.stern Kuivt premium koerale 10000g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 19.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-stern-kuivt-koerale-premium-10kg/",
+        "size": "10000g",
+        "ean": "4744355014331",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4744355014331.png",
+        "storeName": "Kuivt.koerale Premium Dr.Stern 10kg"
+      },
+      "selver": {
+        "price": 14.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissoot-premium-koertele-dr-stern-10-kg",
+        "size": "10000g",
+        "ean": "4744355014331",
+        "storeUnitPrice": 1.45,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4744355014331.jpg",
+        "storeName": "Täissööt Premium koertele, DR.STERN, 10 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.stern Vorst koerale vasikaliha 400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-stern-vorst-koerale-400g-vasikaliha/",
+        "size": "400g",
+        "ean": "4744355018001",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4744355018001.png",
+        "storeName": "Vorst koerale Dr.Stern 400g vasikaliha"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-koerale-vorst-vasikalihast-dr-stern-400g",
+        "size": "400g",
+        "ean": "4744355018001",
+        "storeUnitPrice": 3.73,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4744355018001.jpg",
+        "storeName": "Täistoit koerale, vorst vasikalihast, DR.STERN, 400g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.stern Vorst koerale linnuliha loomaliha 400g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-stern-vorst-koerale-400g-linnulooma/",
+        "size": "400g",
+        "ean": "4744355018100",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4744355018100.png",
+        "storeName": "Vorst koerale Dr.Stern 400g linnuliha-loomaliha"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistoit-koerale-vorst-linnu-ja-loomalihast-dr-stern-400g",
+        "size": "400g",
+        "ean": "4744355018100",
+        "storeUnitPrice": 3.73,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4744355018100.jpg",
+        "storeName": "Täistoit koerale, vorst linnu ja loomalihast, DR.STERN, 400g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vitakraft life täissööt merisigadele 600g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vitakraft-life-taissoot-merisigadele600g/",
+        "size": "600g",
+        "ean": "4008239251091",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/4008239251091.png",
+        "storeName": "Vitakraft Life täissööt merisigadele600g"
+      },
+      "selver": {
+        "price": 5.58,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tervislik-taistoit-merisigadele-vitagraft-600-g",
+        "size": "600g",
+        "ean": "4008239251091",
+        "storeUnitPrice": 9.3,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008239251091.jpg",
+        "storeName": "Tervislik täistoit merisigadele, VITAGRAFT, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.stern Eestimaine hein küülikute meris mahe 500g",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-hein-500g/",
+        "size": "500g",
+        "ean": "4744355010319",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4744355010319.png",
+        "storeName": "Eestimaine mahe hein meris.-küülikute Dr.Stern500g"
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-eestimaine-hein-meriseale-ja-kuulikule-dr-stern-500g",
+        "size": "500g",
+        "ean": "4744355010319",
+        "storeUnitPrice": 7.3,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4744355010319.jpg",
+        "storeName": "Mahe eestimaine hein meriseale ja küülikule, DR.STERN, 500g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Happy Kassiliiv ookeanilõhnaline paakuv 5000ml",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/happy-kassiliiv-ookeanilohnaline-5l/",
+        "size": "5000ml",
+        "ean": "4740260000711",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740260000711.png",
+        "storeName": "Kassiliiv Happy ookeanilõhnaline paakuv 5L/4.3kg"
+      },
+      "selver": {
+        "price": 5.28,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/klombistuv-kassiliiv-ookeanilohnaline-happy-5-l",
+        "size": "5000ml",
+        "ean": "4740260000711",
+        "storeUnitPrice": 1.06,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740260000711.jpg",
+        "storeName": "Klombistuv kassiliiv ookeanilõhnaline, HAPPY, 5 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primacat Kassiliiv lõhnatu valge bentoniit 5000ml",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 5.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kassiliiv-primacat-5l/",
+        "size": "5000ml",
+        "ean": "6430069584441",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/6430069584441.png",
+        "storeName": "Kassiliiv PrimaCat5L/4.4kg valge bentoniit lõhnatu"
+      },
+      "selver": {
+        "price": 5.07,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lohnatu-valge-betoniitsavist-kassiliiv-primacat-5l",
+        "cardPrice": 3.99,
+        "cardName": "Partner",
+        "size": "5000ml",
+        "ean": "6430069584441",
+        "storeUnitPrice": 1.01,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6430069584441.jpg",
+        "storeName": "Lõhnatu valge betoniitsavist kassiliiv, PRIMACAT, 5L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kitty clean Kassiliiv ränihiibliivast 3800ml",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kassiliiv-kitty-cl-3-8l/",
+        "size": "3800ml",
+        "ean": "4743171050011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743171050011.jpg",
+        "storeName": "Kassiliiv Kitty Clean 3.8L/1.6kg ränihiibliivast"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassiliiva-raniteemandid-kittyclean-3-8-l",
+        "size": "3800ml",
+        "ean": "4743171050011",
+        "storeUnitPrice": 1.05,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4743171050011.jpg",
+        "storeName": "Kassiliiva räniteemandid, KITTYCLEAN, 3,8 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Catsan kassiliiv 10000ml",
+    "category": "Pet food",
+    "prices": {
+      "coop": {
+        "price": 8.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/catsan-kassiliiv-10l-4-8kg/",
+        "size": "10000ml",
+        "ean": "5000166010641",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/5000166010641.png",
+        "storeName": "Catsan kassiliiv 10L/4.8kg"
+      },
+      "selver": {
+        "price": 8.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kassiliiv-catsan-10-l",
+        "size": "10000ml",
+        "ean": "5000166010641",
+        "storeUnitPrice": 0.83,
+        "image": "https://www.selver.ee/img/800/800/resize/5/0/5000166010641.jpg",
+        "storeName": "Kassiliiv, CATSAN, 10 l"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar Meekook 1000g",

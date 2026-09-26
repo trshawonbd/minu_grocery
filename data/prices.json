@@ -110306,6 +110306,41 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Thai choice Kana kiirnuudlid 85g",
+    "category": "Instant food",
+    "prices": {
+      "barbora": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanamaitsel-kiirnuudlid-thai-choice-85-g",
+        "size": "85g",
+        "storeUnitPrice": 13.53,
+        "image": "https://cdn.barbora.ee/products/d6134a1a-e0b2-4ef8-96d7-12c5d7684152_m.png",
+        "storeName": "Kanamaitsel.kiirnuudlid THAI-CHOICE 85g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirnuudlid-kanaliha-85g/",
+        "size": "85g",
+        "ean": "8851978805188",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8851978805188.jpg",
+        "storeName": "Kiirnuudlid Thai Choice 85g kanamaitselised"
+      },
+      "selver": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiirnuudlid-kanalihamaitselised-thai-choice-85-g",
+        "size": "85g",
+        "ean": "8851978805188",
+        "storeUnitPrice": 10.47,
+        "image": "https://www.selver.ee/img/800/800/resize/8/8/8851978805188.jpg",
+        "storeName": "Kiirnuudlid kanalihamaitselised, THAI CHOICE, 85 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Maggi Punapeedi kiirsupp saiakuub 16g",
     "category": "Instant food",
     "prices": {
@@ -110343,6 +110378,15 @@
         "image": "https://cdn.barbora.ee/products/4fd54bf1-77e9-4cbc-ae28-9c2f06ee3abf_m.png",
         "storeName": "Juustusupp saiakuubikutega MAGGI, 19g"
       },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustu-kiirsupp-19g/",
+        "size": "19g",
+        "ean": "7613032737115",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613032737115.jpg",
+        "storeName": "Juustu kiirsupp Maggi 19g saiakuubikutega"
+      },
       "rimi": {
         "price": 0.79,
         "currency": "EUR",
@@ -110359,12 +110403,13 @@
         "cardPrice": 0.49,
         "cardName": "Partner",
         "size": "19g",
+        "ean": "7613032737115",
         "storeUnitPrice": 41.58,
         "image": "https://www.selver.ee/img/800/800/resize/7/6/7613032737115.jpg",
         "storeName": "Juustusupp saiakuubikutega, MAGGI, 19 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Knorr Juustusupp 22g",
@@ -110433,6 +110478,15 @@
         "image": "https://cdn.barbora.ee/products/4ce02820-d575-4426-af93-8c5c79efb0d5_m.png",
         "storeName": "Juustu-ürdimaits.kiirnuudlid KNORR 61g"
       },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/knorr-kiirnuudlid-61g-juustu-urdimaits/",
+        "size": "61g",
+        "ean": "8714100750629",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/8714100750629.png",
+        "storeName": "Kiirnuudlid Knorr 61g juustu-ürdimaitselised"
+      },
       "rimi": {
         "price": 1.05,
         "currency": "EUR",
@@ -110441,9 +110495,19 @@
         "storeUnitPrice": 17.21,
         "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_165629_PCE_EE",
         "storeName": "Kiirnuudlid juustu-ürdi Knorr 61g"
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiirnuudlid-juustu-ja-urdimaitselised-knorr-61-g",
+        "size": "61g",
+        "ean": "8714100750629",
+        "storeUnitPrice": 18.85,
+        "image": "https://www.selver.ee/img/800/800/resize/8/7/8714100750629.jpg",
+        "storeName": "Kiirnuudlid juustu- ja ürdimaitselised, KNORR, 61 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Yatekomo Kiirnuudlid kana topsis 60g",
@@ -110463,6 +110527,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kiirnuudlid-kanamaitselised-topsis-yatekomo-60-g",
         "size": "60g",
+        "ean": "8410300349952",
         "storeUnitPrice": 29.17,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410300349952.jpg",
         "storeName": "Kiirnuudlid kanamaitselised topsis, YATEKOMO, 60 g"
@@ -110485,6 +110550,15 @@
         "image": "https://cdn.barbora.ee/products/1911195c-918f-4d24-8a30-596b02d083f7_m.png",
         "storeName": "Kanamaitselised kiirnuudlid KNORR 61g"
       },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirnuudlid-kana-61g/",
+        "size": "61g",
+        "ean": "8714100750582",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8714100750582.png",
+        "storeName": "Kiirnuudlid Knorr 61g kanamaitselised"
+      },
       "selver": {
         "price": 1.15,
         "currency": "EUR",
@@ -110492,12 +110566,13 @@
         "cardPrice": 0.59,
         "cardName": "Partner",
         "size": "61g",
+        "ean": "8714100750582",
         "storeUnitPrice": 18.85,
         "image": "https://www.selver.ee/img/800/800/resize/8/7/8714100750582.jpg",
         "storeName": "Kiirnuudlid kanamaitselised, KNORR, 61 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Knorr Tomati kiirnuudlid 65g",
@@ -110512,6 +110587,15 @@
         "image": "https://cdn.barbora.ee/products/d01d2db6-d656-4cef-a4e8-d3c742c5c899_m.png",
         "storeName": "Tomatimaitselised kiirnuudlid KNORR 65g"
       },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirnuudel-tomati-65g/",
+        "size": "65g",
+        "ean": "8714100750612",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8714100750612.png",
+        "storeName": "Kiirnuudlid Knorr 65g tomatimaitselised"
+      },
       "selver": {
         "price": 1.15,
         "currency": "EUR",
@@ -110519,12 +110603,13 @@
         "cardPrice": 0.59,
         "cardName": "Partner",
         "size": "65g",
+        "ean": "8714100750612",
         "storeUnitPrice": 17.69,
         "image": "https://www.selver.ee/img/800/800/resize/8/7/8714100750612.jpg",
         "storeName": "Kiirnuudlid tomatimaitselised, KNORR, 65 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Maggi Pasta carbonara 50g",
@@ -110539,6 +110624,15 @@
         "image": "https://cdn.barbora.ee/products/8a1efd7e-3fe4-486f-80f5-4bb62ee6add7_m.png",
         "storeName": "Pasta Carbonara MAGGI 50g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-carbonara-50g/",
+        "size": "50g",
+        "ean": "7613037087123",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/7613037087123.png",
+        "storeName": "Kiirroog makaronid Carbonara Maggi 50g topsis"
+      },
       "selver": {
         "price": 1.79,
         "currency": "EUR",
@@ -110546,12 +110640,13 @@
         "cardPrice": 1.15,
         "cardName": "Partner",
         "size": "50g",
+        "ean": "7613037087123",
         "storeUnitPrice": 35.8,
         "image": "https://www.selver.ee/img/800/800/resize/7/6/7613037087123.jpg",
         "storeName": "Pasta Carbonara, MAGGI, 50 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Maggi Kanaliha kiirnuudlid 59.2g",
@@ -110566,6 +110661,15 @@
         "image": "https://cdn.barbora.ee/products/d2acee97-e647-4221-a7cc-82e87485b5f3_m.png",
         "regularPrice": 0.79,
         "storeName": "Kanalihamaits.kiirnuudlid MAGGI 59.2g"
+      },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maggi-kiirnuudlid-59-2g-kanalihamaits/",
+        "size": "59.2g",
+        "ean": "7613037096002",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/8445291395534.png",
+        "storeName": "Kiirnuudlid Maggi 59.2g kanalihamaitselised"
       },
       "rimi": {
         "price": 0.79,
@@ -110608,6 +110712,7 @@
         "cardPrice": 0.39,
         "cardName": "Partner",
         "size": "59.2g",
+        "ean": "7613037096149",
         "storeUnitPrice": 13.39,
         "image": "https://www.selver.ee/img/800/800/resize/7/6/7613037096149.jpg",
         "storeName": "Kiirnuudlid veiselihamaitselised, MAGGI, 59,2g"
@@ -110643,6 +110748,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kiirnuudlid-juustumaitselised-maggi-59-2g",
         "size": "59.2g",
+        "ean": "7613037096187",
         "storeUnitPrice": 6.61,
         "image": "https://www.selver.ee/img/800/800/resize/7/6/7613037096187.jpg",
         "storeName": "Kiirnuudlid juustumaitselised, MAGGI, 59,2g"
@@ -110693,6 +110799,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pajaroog-tex-mex-bla-band-193-g",
         "size": "193g",
+        "ean": "7322550038344",
         "storeUnitPrice": 13.94,
         "image": "https://www.selver.ee/img/800/800/resize/7/3/7322550038344.jpg",
         "storeName": "Pajaroog Tex Mex, BLA BAND, 193 g"
@@ -110718,6 +110825,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kiirnuudlid-kanamaitseline-sun-yan-60g",
         "size": "60g",
+        "ean": "4770107254472",
         "storeUnitPrice": 13.17,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4770107254472.jpg",
         "storeName": "Kiirnuudlid kanamaitseline, SUN YAN, 60g"
@@ -110738,6 +110846,15 @@
         "image": "https://cdn.barbora.ee/products/8d493956-0963-4572-b994-8f3c582046a8_m.png",
         "storeName": "Juustu-ja peekoni kiirnuudlid REEVA 60g"
       },
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reeva-nuudliroog-60g-juustu-peekonim/",
+        "size": "60g",
+        "ean": "4820179256949",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4820179256949.png",
+        "storeName": "Kiirnuudlid Reeva 60g juustu-ja peekonimaitselised"
+      },
       "rimi": {
         "price": 0.69,
         "currency": "EUR",
@@ -110754,12 +110871,13 @@
         "cardPrice": 0.45,
         "cardName": "Partner",
         "size": "60g",
+        "ean": "4820179256949",
         "storeUnitPrice": 11.5,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179256949.jpg",
         "storeName": "Kiirnuudlid juustu- ja peekonimaitselised, REEVA, 60 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Reeva Kanaliha kiirnuudlid 60g",
@@ -110774,6 +110892,24 @@
         "image": "https://cdn.barbora.ee/products/eba49b02-847e-49f0-9f08-85cb8cc98ca3_m.png",
         "storeName": "Kanalihamaits.kiirnuudlid REEVA 60g"
       },
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reeva-nuudliroog-60g-kanamaitseline/",
+        "size": "60g",
+        "ean": "4820179256918",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4820179256918.png",
+        "storeName": "Kiirnuudlid Reeva 60g kanamaitselised"
+      },
+      "rimi": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanamaitselised-reeva-60g/p/1012269",
+        "size": "60g",
+        "storeUnitPrice": 11.5,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1012269_PCE_EE",
+        "storeName": "Kiirnuudlid kanamaitselised Reeva 60g"
+      },
       "selver": {
         "price": 0.69,
         "currency": "EUR",
@@ -110781,12 +110917,13 @@
         "cardPrice": 0.45,
         "cardName": "Partner",
         "size": "60g",
+        "ean": "4820179256918",
         "storeUnitPrice": 11.5,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179256918.jpg",
         "storeName": "Kiirnuudlid kanalihamaitselised, REEVA, 60 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Reeva Kiirnuudlid kana 85g",
@@ -110800,6 +110937,15 @@
         "storeUnitPrice": 13.53,
         "image": "https://cdn.barbora.ee/products/3ecf1785-1756-472b-82f2-5e5a2dcbb500_m.png",
         "storeName": "Kiirnuudlid kanamaits.REEVA 85g"
+      },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reeva-kiirnuudlid-85g-kanalihamaitsel/",
+        "size": "85g",
+        "ean": "4820179257007",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/4820179257007.png",
+        "storeName": "Kiirnuudlid Reeva 85g kanalihamaitselised"
       },
       "rimi": {
         "price": 1.15,
@@ -110817,12 +110963,13 @@
         "cardPrice": 0.75,
         "cardName": "Partner",
         "size": "85g",
+        "ean": "4820179257007",
         "storeUnitPrice": 13.53,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179257007.jpg",
         "storeName": "Kiirnuudlid kanamaitselised, REEVA, 85 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Maggi Köögivilja kiirnuudlid 59.2g",
@@ -110837,6 +110984,15 @@
         "image": "https://cdn.barbora.ee/products/ad79c860-a7cd-4685-a546-cd4faea07fde_m.png",
         "storeName": "Köögiviljamaits.kiirnuudlid MAGGI 59.2g"
       },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maggi-kiirnuudlid-59-2g-koogiviljamaits/",
+        "size": "59.2g",
+        "ean": "8445291528192",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/8445291528192.png",
+        "storeName": "Kiirnuudlid Maggi 59.2g köögiviljamaitselised"
+      },
       "selver": {
         "price": 0.79,
         "currency": "EUR",
@@ -110844,9 +111000,36 @@
         "cardPrice": 0.39,
         "cardName": "Partner",
         "size": "59.2g",
+        "ean": "8445291528192",
         "storeUnitPrice": 13.39,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8445291528192.jpg",
         "storeName": "Kiirnuudlid köögiviljamaitselised, MAGGI, 59,2 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Glads Riisinuudlid tom yum 65g",
+    "category": "Instant food",
+    "prices": {
+      "barbora": {
+        "price": 1.11,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/riisinuudlid-glads-tom-yum-65-g",
+        "size": "65g",
+        "storeUnitPrice": 17.08,
+        "image": "https://cdn.barbora.ee/products/f172bb9d-3197-4fc4-9d5e-066ebdca0666_m.png",
+        "regularPrice": 1.59,
+        "storeName": "Riisinuudlid GLADS Tom Yum 65g"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/riisinuudlid-tom-yum-maitselised-glads-65g/p/1023444",
+        "size": "65g",
+        "storeUnitPrice": 24.46,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023444_PCE_EE",
+        "storeName": "Riisinuudlid Tom Yum maitselised Glads 65g"
       }
     },
     "matchedVia": "automatic"
@@ -110927,6 +111110,58 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Ippin Kiirnuudlid shoyu ramen 83g",
+    "category": "Instant food",
+    "prices": {
+      "barbora": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiirnuudlid-shoyu-ramen-ippin-83-g",
+        "size": "83g",
+        "storeUnitPrice": 10.72,
+        "image": "https://cdn.barbora.ee/products/4594d613-9c23-4ecf-9b42-8ee5e10d734e_m.png",
+        "storeName": "Kiirnuudlid Shoyu Ramen IPPIN 83g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ramen-kiirnuudlid-shoyu-ippin-83g",
+        "size": "83g",
+        "ean": "8934563716172",
+        "storeUnitPrice": 11.93,
+        "image": "https://www.selver.ee/img/800/800/resize/8/9/8934563716172.jpg",
+        "storeName": "Ramen kiirnuudlid Shoyu, IPPIN, 83g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Ippin Kiirnuudlid miso ramen 80g",
+    "category": "Instant food",
+    "prices": {
+      "barbora": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiirnuudlid-miso-ramen-ippin-80-g",
+        "size": "80g",
+        "storeUnitPrice": 11.13,
+        "image": "https://cdn.barbora.ee/products/a2fd43f4-1d35-4d61-ab86-ea0b14d83266_m.png",
+        "storeName": "Kiirnuudlid Miso Ramen IPPIN 80g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ramen-kiirnuudlid-miso-ippin-80g",
+        "size": "80g",
+        "ean": "8934563721169",
+        "storeUnitPrice": 12.38,
+        "image": "https://www.selver.ee/img/800/800/resize/8/9/8934563721169.jpg",
+        "storeName": "Ramen kiirnuudlid Miso, IPPIN, 80g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Bla band Napoli pajaroog 170g",
     "category": "Instant food",
     "prices": {
@@ -110944,6 +111179,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pajaroog-napoli-bla-band-170-g",
         "size": "170g",
+        "ean": "7322550038696",
         "storeUnitPrice": 21.71,
         "image": "https://www.selver.ee/img/800/800/resize/7/3/7322550038337.jpg",
         "storeName": "Pajaroog Napoli, BLA BAND, 170 g"
@@ -110964,6 +111200,15 @@
         "image": "https://cdn.barbora.ee/products/f7a542db-010c-45b9-98f7-46e46ee68b8a_m.png",
         "storeName": "Võimaits.kartulipüree tilliga MAGGI 35g"
       },
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulipuree-voimait-35g/",
+        "size": "35g",
+        "ean": "7613032210526",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613032210526.jpg",
+        "storeName": "Kartulipüree Maggi 35g võimaitseline tilliga"
+      },
       "selver": {
         "price": 0.95,
         "currency": "EUR",
@@ -110971,12 +111216,13 @@
         "cardPrice": 0.65,
         "cardName": "Partner",
         "size": "35g",
+        "ean": "7613032210526",
         "storeUnitPrice": 27.14,
         "image": "https://www.selver.ee/img/800/800/resize/7/6/7613032210526.jpg",
         "storeName": "Võimaitseline kartulipüree tilliga, MAGGI, 35 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Kartulipuder piimaga 35g",
@@ -110996,6 +111242,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kartulipuder-piimaga-tartu-mill-35-g",
         "size": "35g",
+        "ean": "4743303100133",
         "storeUnitPrice": 12.86,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4743303100133.jpg",
         "storeName": "Kartulipuder piimaga, TARTU MILL, 35 g"
@@ -111004,9 +111251,53 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Knorr Kartulipüree peekoni ja sibulaga 51g",
+    "name": "Thai choice Kiirnuudlid tom yum 85g",
     "category": "Instant food",
     "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirnuudlid-tom-yum-85g/",
+        "size": "85g",
+        "ean": "8851978805218",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8851978805218.jpg",
+        "storeName": "Kiirnuudlid Thai Choice 85g Tom Yum maitselised"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-tom-yum-thai-choice-85g/p/109082",
+        "size": "85g",
+        "storeUnitPrice": 14,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_109082_PCE_EE",
+        "storeName": "Kiirnuudlid Tom Yum Thai Choice 85g"
+      },
+      "selver": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiirnuudlid-vurtsikas-hapu-thai-choice-85-g",
+        "size": "85g",
+        "ean": "8851978805218",
+        "storeUnitPrice": 10.47,
+        "image": "https://www.selver.ee/img/800/800/resize/8/8/8851978805218.jpg",
+        "storeName": "Kiirnuudlid vürtsikas-hapu, THAI CHOICE, 85 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr Kartulipüree peekoni sibulaga 51g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kart-puree-peekoni-51g/",
+        "size": "51g",
+        "ean": "8584057005376",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8584057005376.jpg",
+        "storeName": "Kartulipüree Knorr 51g peekoni"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -111023,12 +111314,13 @@
         "cardPrice": 1.35,
         "cardName": "Partner",
         "size": "51g",
+        "ean": "8584057005376",
         "storeUnitPrice": 44.9,
         "image": "https://www.selver.ee/img/800/800/resize/8/5/8584057005376.jpg",
         "storeName": "Kartulipüree peekoni ja sibulaga, KNORR, 51 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Maggi Kiirnuudlid vürtsika kana 59.2g",
@@ -111048,6 +111340,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kiirnuudlid-vurtsika-kanamaitselised-maggi-59-2g",
         "size": "59.2g",
+        "ean": "7613037096163",
         "storeUnitPrice": 6.61,
         "image": "https://www.selver.ee/img/800/800/resize/7/6/7613037096163.jpg",
         "storeName": "Kiirnuudlid vürtsika kanamaitselised, MAGGI, 59,2g"
@@ -111056,9 +111349,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Reeva Kiirnuudlid veiseliha 60g",
+    "name": "Reeva kiirnuudlid veiseliha 60g",
     "category": "Instant food",
     "prices": {
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reeva-nuudliroog-60g-veiselihamaitseline/",
+        "size": "60g",
+        "ean": "4820179256925",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4820179256925.png",
+        "storeName": "Reeva kiirnuudlid 60g veiselihamaits."
+      },
       "rimi": {
         "price": 0.69,
         "currency": "EUR",
@@ -111075,12 +111377,13 @@
         "cardPrice": 0.45,
         "cardName": "Partner",
         "size": "60g",
+        "ean": "4820179256925",
         "storeUnitPrice": 11.5,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179256925.jpg",
         "storeName": "Kiirnuudlid veiselihamaitselised, REEVA, 60 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Oyakata Kiirnuudlisupp sojakastme ramen 83g",
@@ -111100,6 +111403,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ramen-sojakastme-maitseline-kiirnuudlisupp-oyakata-83-g",
         "size": "83g",
+        "ean": "5901384505332",
         "storeUnitPrice": 9.52,
         "image": "https://www.selver.ee/img/800/800/resize/5/9/5901384505332.jpg",
         "storeName": "Ramen sojakastme maitseline kiirnuudlisupp, OYAKATA, 83 g"
@@ -111111,6 +111415,15 @@
     "name": "Reeva Kiirnuudlid veiseliha 85g",
     "category": "Instant food",
     "prices": {
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reeva-kiirnuudlid-85g-veiselihamaits/",
+        "size": "85g",
+        "ean": "4820179257014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/4820179257014.png",
+        "storeName": "Kiirnuudlid Reeva 85g veiselihamaitselised"
+      },
       "rimi": {
         "price": 1.15,
         "currency": "EUR",
@@ -111127,12 +111440,691 @@
         "cardPrice": 0.75,
         "cardName": "Partner",
         "size": "85g",
+        "ean": "4820179257014",
         "storeUnitPrice": 13.53,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179257014.jpg",
         "storeName": "Kiirnuudlid veiselihamaitselised, REEVA, 85 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi herne kiirsupp krutoonidega 22g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maggi-hernesupp-22g-saiakuubikutega/",
+        "size": "22g",
+        "ean": "7613036977791",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7613036977791.png",
+        "storeName": "Maggi Herne kiirsupp 22g krutoonidega"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodune-hernesupp-saiakuubikutega-maggi-22-g",
+        "cardPrice": 0.49,
+        "cardName": "Partner",
+        "size": "22g",
+        "ean": "7613036977791",
+        "storeUnitPrice": 35.91,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613036977791.jpg",
+        "storeName": "Kodune hernesupp saiakuubikutega, MAGGI, 22 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Podravka Kana nuudli pakisupp 62g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kukesupp-nuudlitega-62g/",
+        "size": "62g",
+        "ean": "3850104003189",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/3850104003189.jpg",
+        "storeName": "Kana-nuudli pakisupp Podravka 62g"
+      },
+      "selver": {
+        "price": 0.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kana-nuudlisupp-podravka-62-g",
+        "cardPrice": 0.69,
+        "cardName": "Partner",
+        "size": "62g",
+        "ean": "3850104003189",
+        "storeUnitPrice": 15.16,
+        "image": "https://www.selver.ee/img/800/800/resize/3/8/3850104003189.jpg",
+        "storeName": "Kana-nuudlisupp, PODRAVKA, 62 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Podravka Kanaliha pakisupp tähestikunuudlitega 52g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tahestiku-supp-52g/",
+        "size": "52g",
+        "ean": "3850104028250",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/3850104028250.png",
+        "storeName": "Kanaliha pakisupp Podravka 52g tähestikunuudlitega"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tahestikusupp-podravka-52-g",
+        "size": "52g",
+        "ean": "3850104028250",
+        "storeUnitPrice": 18.27,
+        "image": "https://www.selver.ee/img/800/800/resize/3/8/3850104028250.jpg",
+        "storeName": "Tähestikusupp, PODRAVKA, 52 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr Kana kiirsupp nuudlitega 12g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanasupp-nuudlitega-12g/",
+        "size": "12g",
+        "ean": "8712100867620",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8718114737720.png",
+        "storeName": "Kana kiirsupp Knorr 12g nuudlitega"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kana-nuudlisupp-knorr-12-g",
+        "size": "12g",
+        "ean": "8712100867620",
+        "storeUnitPrice": 65.83,
+        "image": "https://www.selver.ee/img/800/800/resize/8/7/8712100866272.jpg",
+        "storeName": "Kana-nuudlisupp, KNORR, 12 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi Koorene kana kiirsupp krutoonidega 16g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanapuree-kiirsupp-16g-2/",
+        "size": "16g",
+        "ean": "7613032292232",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613032292232.jpg",
+        "storeName": "Koorene kana kiirsupp Maggi 16g krutoonidega"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kana-pureesupp-saiakuubikutega-maggi-16-g",
+        "cardPrice": 0.49,
+        "cardName": "Partner",
+        "size": "16g",
+        "ean": "7613032292232",
+        "storeUnitPrice": 49.38,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613032292232.jpg",
+        "storeName": "Kana püreesupp saiakuubikutega, MAGGI, 16 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi Kana kiirsupp nuudlitega 12g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kana-kiirsupp-maggi-12g/",
+        "size": "12g",
+        "ean": "8445290057532",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613036402279.jpg",
+        "storeName": "Kana kiirsupp Maggi 12g nuudlitega"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kana-kiirsupp-nuudlitega-maggi-12-g",
+        "cardPrice": 0.49,
+        "cardName": "Partner",
+        "size": "12g",
+        "ean": "8445290057532",
+        "storeUnitPrice": 65.83,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8445290057532.jpg",
+        "storeName": "Kana kiirsupp nuudlitega, MAGGI, 12 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi Punapeedi kiirsupp saiakuubikutega 16g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maggi-punapeedi-kiirsupp-16g-saiakuubik/",
+        "size": "16g",
+        "ean": "7613032292799",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7613032292799.png",
+        "storeName": "Punapeedi kiirsupp Maggi 16g saiakuubikutega"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/punapeedi-kiirsupp-saiakuubikutega-maggi-16g",
+        "cardPrice": 0.49,
+        "cardName": "Partner",
+        "size": "16g",
+        "ean": "7613032292799",
+        "storeUnitPrice": 49.38,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613032292799.jpg",
+        "storeName": "Punapeedi kiirsupp saiakuubikutega, MAGGI, 16g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr Juustupüree kiirsupp krutoonidega 22g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustupuree-kiirsupp-22g/",
+        "size": "22g",
+        "ean": "8712100868306",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8712100866555.jpg",
+        "storeName": "Juustupüree kiirsupp Knorr 22g krutoonidega"
+      },
+      "selver": {
+        "price": 0.8,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustupureesupp-krutoonidega-knorr-22-g",
+        "size": "22g",
+        "ean": "8712100868306",
+        "storeUnitPrice": 36.36,
+        "image": "https://www.selver.ee/img/800/800/resize/8/7/8712100866555.jpg",
+        "storeName": "Juustupüreesupp krutoonidega, KNORR, 22 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr Kanapüree kiirsupp krutoonidega 16g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanapuree-kiirsupp-16g/",
+        "size": "16g",
+        "ean": "8712100867804",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8712100866111.jpg",
+        "storeName": "Kanapüree kiirsupp Knorr 16g krutoonidega"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanapureesupp-krutoonidega-knorr-16-g",
+        "cardPrice": 0.45,
+        "cardName": "Partner",
+        "size": "16g",
+        "ean": "8712100867804",
+        "storeUnitPrice": 49.38,
+        "image": "https://www.selver.ee/img/800/800/resize/8/7/8712100866111.jpg",
+        "storeName": "Kanapüreesupp krutoonidega, KNORR, 16 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr Shampinjoni kiirsupp krutoonidega 15g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shampinj-pureesupp-15g/",
+        "size": "15g",
+        "ean": "8712100868214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8711200526581.jpg",
+        "storeName": "Shampinjoni kiirsupp Knorr 15g krutoonidega"
+      },
+      "selver": {
+        "price": 0.8,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sampiljonipuree-kiirsupp-knorr-15g",
+        "size": "15g",
+        "ean": "8712100868214",
+        "storeUnitPrice": 53.33,
+        "image": "https://www.selver.ee/img/800/800/resize/8/7/8712100868214.jpg",
+        "storeName": "Šampiljonipüree kiirsupp, KNORR, 15g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr Kiirroog pasta bolognese topsis kastmega 60g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/knorr-pasta-bolognese-kastmega-60g/",
+        "size": "60g",
+        "ean": "8712423024588",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/8712423024588.png",
+        "storeName": "Kiirroog pasta Bolognese Knorr 60g topsis"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasta-bolognese-kastmega-knorr-60-g",
+        "size": "60g",
+        "ean": "8712423024588",
+        "storeUnitPrice": 38.17,
+        "image": "https://www.selver.ee/img/800/800/resize/8/7/8712423024588.jpg",
+        "storeName": "Pasta bolognese kastmega, KNORR, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi Kartulipüree peekoni ja saiakuubikutega 53g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulipuder-peekoni-53g/",
+        "size": "53g",
+        "ean": "7613037003307",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/7613037003307.png",
+        "storeName": "Kartulipüree Maggi 53g peekoni ja saiakuubikutega"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartulipuder-peekoni-ja-saiakuubikutega-maggi-53-g",
+        "cardPrice": 1.15,
+        "cardName": "Partner",
+        "size": "53g",
+        "ean": "7613037003307",
+        "storeUnitPrice": 33.77,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613037003307.jpg",
+        "storeName": "Kartulipuder peekoni ja saiakuubikutega, MAGGI, 53 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr kiirroog pasta hapukoore ürdi murulauguga 59g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/makaronid-juustu-urdi59g/",
+        "size": "59g",
+        "ean": "8584057005345",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8584057005345.png",
+        "storeName": "Knorr Kiirroog pasta hapukoore-ürdi 59g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nuudlid-koorekastmes-murulauguga-knorr-59g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "59g",
+        "ean": "8584057005345",
+        "storeUnitPrice": 38.81,
+        "image": "https://www.selver.ee/img/800/800/resize/8/5/8584057005345.jpg",
+        "storeName": "Nuudlid koorekastmes murulauguga, KNORR, 59g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi Kartulipüree rõõsakoorega 35g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulipuree-koorega35g/",
+        "size": "35g",
+        "ean": "7613032210205",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613032210205.png",
+        "storeName": "Kartulipüree Maggi 35g rõõsakoorega"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartulipuree-roosakoorega-maggi-35-g",
+        "cardPrice": 0.65,
+        "cardName": "Partner",
+        "size": "35g",
+        "ean": "7613032210205",
+        "storeUnitPrice": 27.14,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613032210205.jpg",
+        "storeName": "Kartulipüree rõõsakoorega, MAGGI, 35 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi kartulipüree tilliga 50g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulipuree-tilliga-50g/",
+        "size": "50g",
+        "ean": "7613037086546",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/7613037086546.png",
+        "storeName": "Maggi Kartulipüree 50g tilliga"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartulipuree-tilliga-tops-maggi-50-g",
+        "cardPrice": 1.15,
+        "cardName": "Partner",
+        "size": "50g",
+        "ean": "7613037086546",
+        "storeUnitPrice": 35.8,
+        "image": "https://www.selver.ee/img/800/800/resize/7/6/7613037086546.jpg",
+        "storeName": "Kartulipüree tilliga tops, MAGGI, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Samyang Kiirnuudlid tuline kana buldak carbon 130g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/samyang-ramen-carbonara-130g-tuline-kana/",
+        "size": "130g",
+        "ean": "8801073116467",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/8801073113893.png",
+        "storeName": "Kiirnuudlid Samyang Buldak Carbon.130g tuline kana"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ramen-kiirnuudlid-tuline-kana-carbonara-buldak-samyang-130g",
+        "size": "130g",
+        "ean": "8801073116467",
+        "storeUnitPrice": 19.15,
+        "image": "https://www.selver.ee/img/800/800/resize/8/8/8801073113893.jpg",
+        "storeName": "Ramen kiirnuudlid tuline kana carbonara Buldak, SAMYANG, 130g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Thai choice Kiirnuudlid veiseliha 85g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/thai-choice-kiirnuudlid-veiselihamait85g/",
+        "size": "85g",
+        "ean": "8851978805348",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/8851978805348.png",
+        "storeName": "Kiirnuudlid Thai Choice 85g veiselihamaitselised"
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/veiselihamaitselised-kiirnuudlid-kilepakis-thai-choice-85-g",
+        "size": "85g",
+        "ean": "8851978805348",
+        "storeUnitPrice": 13.53,
+        "image": "https://www.selver.ee/img/800/800/resize/8/8/8851978805348.jpg",
+        "storeName": "Veiselihamaitselised kiirnuudlid kilepakis, THAI CHOICE, 85 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ajinomoto Kiirnuudlid oyakata veise wasabi 93g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirnuudlid-veiseliha93g/",
+        "size": "93g",
+        "ean": "5901384507817",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5901384507817.png",
+        "storeName": "Kiirnuudlid Ajinomoto Oyakata 93g veise-wasabi"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nuudliroog-wasabi-lihamaitseline-oyakata-93-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "93g",
+        "ean": "5901384507817",
+        "storeUnitPrice": 21.4,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5901384507817.jpg",
+        "storeName": "Nuudliroog Wasabi lihamaitseline, OYAKATA, 93 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ajinomoto Kiirnuudlid kastmega oyakata vürts 93g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirnuudlid-vurtsikad93g/",
+        "size": "93g",
+        "ean": "5901384507794",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5901384507794.png",
+        "storeName": "Kiirnuudlid Ajinomoto Oyakata 93g vürts.kastmega"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nuudliroog-japanese-classic-oyakata-93-g",
+        "size": "93g",
+        "ean": "5901384507794",
+        "storeUnitPrice": 21.4,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5901384507794.jpg",
+        "storeName": "Nuudliroog Japanese Classic, OYAKATA, 93 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knorr Kiirroog pasta carbonara topsis 55g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/makaronid-carbonara-55g/",
+        "size": "55g",
+        "ean": "8584057005369",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8584057005369.jpg",
+        "storeName": "Kiirroog pasta Carbonara Knorr 55g topsis"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasta-carbonara-juustu-koore-kastmes-knorr-55-g",
+        "cardPrice": 1.35,
+        "cardName": "Partner",
+        "size": "55g",
+        "ean": "8584057005369",
+        "storeUnitPrice": 41.64,
+        "image": "https://www.selver.ee/img/800/800/resize/8/5/8584057005369.jpg",
+        "storeName": "Pasta Carbonara juustu-koore kastmes, KNORR, 55 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hao hao Kiirnuudlid kreveti tshilli laimi laimiga 78g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hao-hao-kiirnuudlid-78g-kreveti-tshilli/",
+        "size": "78g",
+        "ean": "8934563709150",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/06/8934563709150.png",
+        "storeName": "Kiirnuudlid Hao Hao 78g krevetimaits,tshilli-laimi"
+      },
+      "selver": {
+        "price": 0.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krevetimaitselised-kiirnuudlid-tsilli-ja-laimiga-pakis-hao-hao-78g",
+        "size": "78g",
+        "ean": "8934563709150",
+        "storeUnitPrice": 5.77,
+        "image": "https://www.selver.ee/img/800/800/resize/8/9/8934563709150.jpg",
+        "storeName": "Krevetimaitselised kiirnuudlid tšilli ja laimiga (pakis), HAO HAO, 78g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ajinomoto oyakata kiirnuudlid juustu 97g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ajinomoto-oyakata-kiirnuudlid-97g-juustu/",
+        "size": "97g",
+        "ean": "5901384510473",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/06/5901384510473.png",
+        "storeName": "Ajinomoto Oyakata kiirnuudlid 97g juustu"
+      },
+      "selver": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiirnuudlid-vurtsikas-kana-juustumaitseline-oyakata-97g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "97g",
+        "ean": "5901384510473",
+        "storeUnitPrice": 22.16,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5901384510473.jpg",
+        "storeName": "Kiirnuudlid vürtsikas kana-juustumaitseline, OYAKATA, 97g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reeva Kiirnuudlid vürtsika kana 60g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reeva-nuudliroog-60g-vurtsika-kana-maits/",
+        "size": "60g",
+        "ean": "4820179256932",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4820179256932.png",
+        "storeName": "Kiirnuudlid Reeva 60g vürtsika kana maitselised"
+      },
+      "selver": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiirnuudlid-vurtsika-kanalihamaitselised-reeva-60-g",
+        "cardPrice": 0.45,
+        "cardName": "Partner",
+        "size": "60g",
+        "ean": "4820179256932",
+        "storeUnitPrice": 11.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179256932.jpg",
+        "storeName": "Kiirnuudlid vürtsika kanalihamaitselised, REEVA, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Daryna kiirnuudlid kana 50g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/daryna-kiirnuudlid-50g-kanamaitselised/",
+        "size": "50g",
+        "ean": "4820179259070",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4820179259070.png",
+        "storeName": "Daryna kiirnuudlid 50g kanamaitselised"
+      },
+      "selver": {
+        "price": 0.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanalihamaitselised-kiirnuudlid-daryna-50-g",
+        "size": "50g",
+        "ean": "4820179259070",
+        "storeUnitPrice": 7,
+        "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179259070.jpg",
+        "storeName": "Kanalihamaitselised kiirnuudlid, DARYNA, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Daryna kiirnuudlid veise 50g",
+    "category": "Instant food",
+    "prices": {
+      "coop": {
+        "price": 0.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/daryna-kiirnuudlid-50g-veisemaitselised/",
+        "size": "50g",
+        "ean": "4820179259063",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4820179259063.png",
+        "storeName": "Daryna kiirnuudlid 50g veisemaitselised"
+      },
+      "selver": {
+        "price": 0.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/veiselihamaitselised-kiirnuudlid-daryna-50g",
+        "size": "50g",
+        "ean": "4820179259063",
+        "storeUnitPrice": 7,
+        "image": "https://www.selver.ee/img/800/800/resize/4/8/4820179259063.jpg",
+        "storeName": "Veiselihamaitselised kiirnuudlid, DARYNA, 50g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Thai choice Oanuudlid 200g",

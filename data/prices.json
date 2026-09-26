@@ -120304,6 +120304,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/torres-sangre-de-toro-75-cl",
         "size": "750ml",
+        "ean": "8410113003027",
         "storeUnitPrice": 13.32,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410113003027.jpg",
         "storeName": "Torres Sangre de Toro 75 cl"
@@ -120329,6 +120330,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/campo-viejo-tempranillo-75-cl",
         "size": "750ml",
+        "ean": "8410302106300",
         "storeUnitPrice": 15.99,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410302106300.jpg",
         "storeName": "CAMPO VIEJO Tempranillo, 75 cl"
@@ -120354,6 +120356,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/campo-viejo-reserva-75-cl",
         "size": "750ml",
+        "ean": "8410302107697",
         "storeUnitPrice": 22.12,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410302107697.jpg",
         "storeName": "Campo Viejo Reserva 75 cl"
@@ -120388,6 +120391,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/el-coto-crianza-75-cl",
         "size": "750ml",
+        "ean": "8410537200422",
         "storeUnitPrice": 18.4,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410537200422.jpg",
         "storeName": "El Coto Crianza 75 cl"
@@ -120408,6 +120412,15 @@
         "image": "https://cdn.barbora.ee/products/ee3bc25a-7d7c-4a85-9266-9decf49039cf_m.png",
         "storeName": "KPN vein MURVIEDRO Crianza 750ml"
       },
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-murviedro-colleccion-crianza-0-75l/",
+        "size": "750ml",
+        "ean": "4002567026222",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4002567026222.png",
+        "storeName": "Pv Murviedro Colleccion Crianza 0.75L"
+      },
       "rimi": {
         "price": 9.05,
         "currency": "EUR",
@@ -120422,12 +120435,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/murviedro-crianza-75-cl",
         "size": "750ml",
+        "ean": "4002567026222",
         "storeUnitPrice": 11.45,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4002567026222.jpg",
         "storeName": "Murviedro Crianza 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tamada pirosmani red 750ml",
@@ -120447,6 +120461,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tamada-pirosmani-red-75-cl",
         "size": "750ml",
+        "ean": "4860004070074",
         "storeUnitPrice": 13.32,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4860004070074.jpg",
         "storeName": "Tamada Pirosmani Red 75 cl"
@@ -120472,6 +120487,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/teliani-saperavi-75-cl",
         "size": "750ml",
+        "ean": "4860065010040",
         "storeUnitPrice": 13.99,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4860065010040.jpg",
         "storeName": "Teliani Saperavi 75 cl"
@@ -120497,6 +120513,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/italo-cescon-raboso-75-cl",
         "size": "750ml",
+        "ean": "8015543000105",
         "storeUnitPrice": 21.32,
         "image": "https://www.selver.ee/img/800/800/resize/8/0/8015543000105.jpg",
         "storeName": "Italo Cescon Raboso 75 cl"
@@ -120517,6 +120534,15 @@
         "image": "https://cdn.barbora.ee/products/8e251874-0147-4a51-8580-67a9fbc49e7f_m.png",
         "storeName": "KPN vein MURVIEDRO RESERVA 750ml"
       },
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-murviedro-collection-reserva-0-75l/",
+        "size": "750ml",
+        "ean": "8410388000769",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8410388002220.png",
+        "storeName": "Pv Murviedro Colleccion Reserva 0.75L"
+      },
       "rimi": {
         "price": 9.45,
         "currency": "EUR",
@@ -120531,12 +120557,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/murviedro-reserva-75-cl",
         "size": "750ml",
+        "ean": "8410388000769",
         "storeUnitPrice": 12.79,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410388000769.jpg",
         "storeName": "Murviedro Reserva 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Jacob's creek pinot noir 750ml",
@@ -120556,6 +120583,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jacob-s-creek-pinot-noir-75-cl",
         "size": "750ml",
+        "ean": "9300727004475",
         "storeUnitPrice": 16.79,
         "image": "https://www.selver.ee/img/800/800/resize/9/3/9300727004475.jpg",
         "storeName": "Jacob's Creek Pinot Noir 75 cl"
@@ -120606,6 +120634,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/diablo-dark-red-75-cl",
         "size": "750ml",
+        "ean": "7804320746104",
         "storeUnitPrice": 17.32,
         "image": "https://www.selver.ee/img/800/800/resize/7/8/7804320746104.jpg",
         "storeName": "Diablo Dark Red 75 cl"
@@ -120640,6 +120669,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/big-game-malbec-75-cl",
         "size": "750ml",
+        "ean": "7340048601399",
         "storeUnitPrice": 17.13,
         "image": "https://www.selver.ee/img/800/800/resize/7/3/7340048601399.jpg",
         "storeName": "Big Game Malbec 75 cl"
@@ -120660,17 +120690,27 @@
         "image": "https://cdn.barbora.ee/products/3b3e6bab-bf25-43e7-9aff-4cbfa71bd0d9_m.png",
         "storeName": "KPN vein GRAN MIRADOR Red Blend 750ml"
       },
+      "coop": {
+        "price": 9.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-gran-castillo-gran-mirador-red-0-75l/",
+        "size": "750ml",
+        "ean": "4740158007785",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4740158007785.jpg",
+        "storeName": "Pv Gran Castillo Gran Mirador Red Blend 0.75L"
+      },
       "selver": {
         "price": 9.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/gran-mirador-red-blend-75-cl",
         "size": "750ml",
+        "ean": "4740158007785",
         "storeUnitPrice": 13.32,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007785.jpg",
         "storeName": "Gran Mirador Red Blend 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Gran mirador dark blend 750ml",
@@ -120685,17 +120725,27 @@
         "image": "https://cdn.barbora.ee/products/5a8d05bc-7f6f-4f1f-9ca7-15577453d155_m.png",
         "storeName": "KPN vein GRAN MIRADOR Dark Blend 750ml"
       },
+      "coop": {
+        "price": 9.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-gran-castillo-gran-mirador-dark-0-75l/",
+        "size": "750ml",
+        "ean": "4740158007761",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4740158007761.jpg",
+        "storeName": "Pv Gran Castillo Gran Mirador Dark Blend 0.75L"
+      },
       "selver": {
         "price": 9.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/gran-mirador-dark-blend-75-cl",
         "size": "750ml",
+        "ean": "4740158007761",
         "storeUnitPrice": 13.32,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007761.jpg",
         "storeName": "Gran Mirador Dark Blend 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Codici primitivo puglia 750ml",
@@ -120715,6 +120765,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/codici-primitivo-puglia-75-cl",
         "size": "750ml",
+        "ean": "8055684024813",
         "storeUnitPrice": 14.65,
         "image": "https://www.selver.ee/img/800/800/resize/8/0/8055684024813.jpg",
         "storeName": "Codici Primitivo Puglia 75 cl"
@@ -120735,17 +120786,27 @@
         "image": "https://cdn.barbora.ee/products/eb680102-fec3-45ab-821a-d1129e2866cc_m.png",
         "storeName": "GT vein KARU Cabernet Sauvignon 750ml"
       },
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-karu-cabernet-sauvignon-0-75l/",
+        "size": "750ml",
+        "ean": "3430560014037",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/7804320306407.png",
+        "storeName": "Pv Karu Cabernet Sauvignon 0.75L"
+      },
       "selver": {
         "price": 8.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/karu-cabernet-sauvignon-75-cl",
         "size": "750ml",
+        "ean": "3430560014037",
         "storeUnitPrice": 11.99,
         "image": "https://www.selver.ee/img/800/800/resize/7/8/7804320306407.jpg",
         "storeName": "Karu Cabernet Sauvignon 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Think big zinfandel 750ml",
@@ -120760,17 +120821,27 @@
         "image": "https://cdn.barbora.ee/products/f43f3f7c-9b54-440e-b06c-6c9e7e87a7e5_m.png",
         "storeName": "GT vein THINK BIG Zinfandel 750ml"
       },
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-think-big-zinfandel-0-75l/",
+        "size": "750ml",
+        "ean": "5727510520457",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/5727510520457.png",
+        "storeName": "Pv Think Big Zinfandel 0.75L"
+      },
       "selver": {
         "price": 11.25,
         "currency": "EUR",
         "url": "https://www.selver.ee/think-big-zinfandel-75-cl",
         "size": "750ml",
+        "ean": "5727510520457",
         "storeUnitPrice": 12.65,
         "image": "https://www.selver.ee/img/800/800/resize/5/7/5727510520457.jpg",
         "storeName": "Think Big Zinfandel 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Savanha pinotage shiraz 750ml",
@@ -120798,7 +120869,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Maori bay shiraz 13% 750ml",
+    "name": "Maori bay shiraz 750ml",
     "category": "Wine",
     "prices": {
       "barbora": {
@@ -120809,6 +120880,15 @@
         "storeUnitPrice": 8.65,
         "image": "https://cdn.barbora.ee/products/46efc5fc-d680-4f96-9222-a996c0386828_m.png",
         "storeName": "GT vein MAORI BAY Shiraz 750ml"
+      },
+      "coop": {
+        "price": 7.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-maori-bay-shiraz-0-75l/",
+        "size": "750ml",
+        "ean": "4044551066630",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4044551066630.png",
+        "storeName": "Pv Maori Bay Shiraz 0.75L"
       },
       "rimi": {
         "price": 6.49,
@@ -120824,12 +120904,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maori-bay-shiraz-75-cl",
         "size": "750ml",
+        "ean": "4044551066630",
         "storeUnitPrice": 9.32,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551066630.jpg",
         "storeName": "Maori Bay Shiraz 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Maori bay shiraz rose 750ml",
@@ -120844,17 +120925,27 @@
         "image": "https://cdn.barbora.ee/products/aa577dc2-3ce6-4a92-9dab-7c0b5ccc4d9a_m.png",
         "storeName": "GT vein MAORI BAY Shiraz Rose 750ml"
       },
+      "coop": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-maori-bay-shiraz-rose-0-75l/",
+        "size": "750ml",
+        "ean": "4044551068436",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/4044551068436.png",
+        "storeName": "Rv Maori Bay Shiraz Rose 0.75L"
+      },
       "selver": {
         "price": 9.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/shiraz-rose-75-cl",
         "size": "750ml",
+        "ean": "4044551068436",
         "storeUnitPrice": 12.65,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551068436.jpg",
         "storeName": "Shiraz Rose 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mucho mas red 13.5% 750ml",
@@ -120882,6 +120973,41 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Minuty m 750ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 25.65,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kpn-vein-minuty-m-750-ml",
+        "size": "750ml",
+        "storeUnitPrice": 34.2,
+        "image": "https://cdn.barbora.ee/products/72ce4ff7-b6c4-4c6a-b107-2cc984a0f1a6_m.png",
+        "storeName": "KPN vein MINUTY M 750ml"
+      },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-minuty-m-cotes-de-provence-0-75l/",
+        "size": "750ml",
+        "ean": "3547102222000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/3547102222000.png",
+        "storeName": "Rv Minuty M Cotes de Provence 0.75L"
+      },
+      "selver": {
+        "price": 24.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/minuty-m-75cl",
+        "size": "750ml",
+        "ean": "3547102222000",
+        "storeUnitPrice": 32.12,
+        "image": "https://www.selver.ee/img/800/800/resize/3/5/3547102222000.jpg",
+        "storeName": "Minuty M  75cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "El cortez xo 750ml",
     "category": "Wine",
     "prices": {
@@ -120899,6 +121025,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/el-cortez-xo-75cl",
         "size": "750ml",
+        "ean": "8435742500365",
         "storeUnitPrice": 15.87,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410744012221.jpg",
         "storeName": "El Cortez XO 75cl"
@@ -120924,6 +121051,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/old-gruzia-kindzmarauli-75cl",
         "size": "750ml",
+        "ean": "4860065014369",
         "storeUnitPrice": 15.32,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4860065014369.jpg",
         "storeName": "Old Gruzia Kindzmarauli 75cl"
@@ -120949,6 +121077,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/silverboom-shiraz-merlot-75-cl",
         "size": "750ml",
+        "ean": "5727510520556",
         "storeUnitPrice": 13,
         "image": "https://www.selver.ee/img/800/800/resize/5/7/5727510520556.jpg",
         "storeName": "Silverboom Shiraz Merlot 75 cl"
@@ -120974,6 +121103,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kwv-classic-pinotage-75-cl",
         "size": "750ml",
+        "ean": "6002323400530",
         "storeUnitPrice": 11.59,
         "image": "https://www.selver.ee/img/800/800/resize/6/0/6002323400530.jpg",
         "storeName": "KWV Classic Pinotage 75 cl"
@@ -120999,6 +121129,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/dreamer-late-harvest-rose-75-cl-t000091099",
         "size": "750ml",
+        "ean": "4740158012062",
         "storeUnitPrice": 8.92,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158012062.jpg",
         "storeName": "DREAMER Late Harvest Rose 75 cl"
@@ -121024,6 +121155,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kindzmarauli-old-tbilisi-75-cl",
         "size": "750ml",
+        "ean": "4860004073105",
         "storeUnitPrice": 18.65,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4860004073105.jpg",
         "storeName": "Kindzmarauli, OLD TBILISI, 75 cl"
@@ -121049,6 +121181,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/anterra-pinot-noir-75-cl",
         "size": "750ml",
+        "ean": "8004305071088",
         "storeUnitPrice": 13.99,
         "image": "https://www.selver.ee/img/800/800/resize/8/1/813297000093.jpg",
         "storeName": "Anterra Pinot Noir 75 cl"
@@ -121074,6 +121207,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/el-coto-rioja-blanco-75-cl",
         "size": "750ml",
+        "ean": "8410537600727",
         "storeUnitPrice": 15.32,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8410537600727.jpg",
         "storeName": "El Coto Rioja Blanco 75 cl"
@@ -121099,6 +121233,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/gato-negro-chardonnay-75-cl",
         "size": "750ml",
+        "ean": "7804300120641",
         "storeUnitPrice": 10.65,
         "image": "https://www.selver.ee/img/800/800/resize/7/8/7804300120641.jpg",
         "storeName": "Gato Negro Chardonnay 75 cl"
@@ -121124,6 +121259,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/baron-rosen-riesling-75-cl",
         "size": "750ml",
+        "ean": "4002569237145",
         "storeUnitPrice": 7.99,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4002569237145.jpg",
         "storeName": "Baron Rosen Riesling 75 cl"
@@ -121149,6 +121285,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tarapaca-sauvignon-blanc-75-cl",
         "size": "750ml",
+        "ean": "7804340909541",
         "storeUnitPrice": 14.12,
         "image": "https://www.selver.ee/img/800/800/resize/7/8/7804340909541.jpg",
         "storeName": "Tarapaca Sauvignon Blanc 75 cl"
@@ -121174,9 +121311,35 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tamada-pirosmani-white-75-cl",
         "size": "750ml",
+        "ean": "4860004070142",
         "storeUnitPrice": 13.32,
         "image": "https://www.selver.ee/img/800/800/resize/4/8/4860004070142.jpg",
         "storeName": "Tamada Pirosmani White 75 cl"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Italo cescon pinot grigio 750ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 16.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kpn-vein-italo-cescon-pinot-grigio-750-ml",
+        "size": "750ml",
+        "storeUnitPrice": 21.72,
+        "image": "https://cdn.barbora.ee/products/12126acb-6c4d-4963-be95-9109a94bf61a_m.png",
+        "storeName": "KPN vein ITALO CESCON Pinot Grigio 750ml"
+      },
+      "rimi": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vein/valge-vein/kpn-vein-italo-cescon-pinot-grigio-0-75l/p/7020222",
+        "size": "750ml",
+        "storeUnitPrice": 22.65,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7020222_PCE_EE",
+        "storeName": "Kpn.vein Italo Cescon Pinot Grigio 0,75l"
       }
     },
     "matchedVia": "automatic"
@@ -121199,6 +121362,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jacob-s-creek-pinot-grigio-75-cl",
         "size": "750ml",
+        "ean": "9300727008527",
         "storeUnitPrice": 16.79,
         "image": "https://www.selver.ee/img/800/800/resize/9/3/9300727008527.jpg",
         "storeName": "Jacob`s Creek Pinot Grigio 75 cl"
@@ -121219,17 +121383,27 @@
         "image": "https://cdn.barbora.ee/products/3ddc03d6-3d7c-40e0-acfc-c9509b35d745_m.png",
         "storeName": "KGT vein FRANZ HOFFNER Riesling 750ml"
       },
+      "coop": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-franz-hoffner-riesling-0-75l/",
+        "size": "750ml",
+        "ean": "4740158004005",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158004005-1.jpg",
+        "storeName": "Vv Franz Hoffner Riesling 0.75L"
+      },
       "selver": {
         "price": 8.93,
         "currency": "EUR",
         "url": "https://www.selver.ee/franz-hoffner-riesling-75-cl",
         "size": "750ml",
+        "ean": "4740158004005",
         "storeUnitPrice": 11.91,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158004005.jpg",
         "storeName": "Franz Hoffner Riesling 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Franz hoffner weisswein 750ml",
@@ -121244,17 +121418,62 @@
         "image": "https://cdn.barbora.ee/products/746e903e-84d6-48dd-840d-c8c80fc96529_m.png",
         "storeName": "Vein FRANZ HOFFNER Weisswein 750ml"
       },
+      "coop": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-franz-hoffner-weisswein-0-75l/",
+        "size": "750ml",
+        "ean": "4740158005286",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740158005286.jpg",
+        "storeName": "Vv Franz Hoffner Weisswein 0.75L"
+      },
       "selver": {
         "price": 7.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/franz-hoffner-weisswein-75-cl",
         "size": "750ml",
+        "ean": "4740158005286",
         "storeUnitPrice": 10.65,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158005286.jpg",
         "storeName": "Franz Hoffner Weisswein 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Franz hoffner riesling bib 3000ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 25.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kgt-vein-franz-hoffner-riesling-3-l-bib",
+        "size": "3000ml",
+        "storeUnitPrice": 8.66,
+        "image": "https://cdn.barbora.ee/products/0529be03-af5a-40d5-b1fd-dbdbd1594775_m.png",
+        "storeName": "KGT vein FRANZ HOFFNER Riesling 3L BIB"
+      },
+      "coop": {
+        "price": 21.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-franz-hoffner-riesling-3l-bib/",
+        "size": "3000ml",
+        "ean": "4740158004203",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740158004203.jpg",
+        "storeName": "Vv Franz Hoffner Riesling 3L BIB"
+      },
+      "selver": {
+        "price": 25.92,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/franz-hoffner-riesling-300cl",
+        "size": "3000ml",
+        "ean": "4740158004203",
+        "storeUnitPrice": 7.33,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158004203.jpg",
+        "storeName": "Franz Hoffner Riesling 300cl"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Doppio passo pinot grigio 750ml",
@@ -121294,14 +121513,49 @@
         "image": "https://cdn.barbora.ee/products/cc50340e-7e04-4c6e-922e-eec1c79746cf_m.png",
         "storeName": "GT vein KARU Chardonnay 750ml"
       },
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-karu-chardonnay-0-75l/",
+        "size": "750ml",
+        "ean": "3430560014044",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/7804320306384.png",
+        "storeName": "Vv Karu Chardonnay 0.75L"
+      },
       "selver": {
         "price": 8.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/karu-chardonnay-75-cl",
         "size": "750ml",
+        "ean": "3430560014044",
         "storeUnitPrice": 11.99,
         "image": "https://www.selver.ee/img/800/800/resize/7/8/7804320306384.jpg",
         "storeName": "Karu Chardonnay 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Luciente semi sweet blanco 750ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vein-luciente-semi-sweet-blanco-750-ml",
+        "size": "750ml",
+        "storeUnitPrice": 8.25,
+        "image": "https://cdn.barbora.ee/products/bc6180df-d4cf-4784-8d27-936170904da9_m.png",
+        "storeName": "Vein LUCIENTE Semi Sweet Blanco 750ml"
+      },
+      "coop": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-luciente-semi-sweet-blanco-0-75l/",
+        "size": "750ml",
+        "ean": "8412048447013",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8412048447013.png",
+        "storeName": "Vv Luciente Semi Sweet Blanco 0.75L"
       }
     },
     "matchedVia": "automatic"
@@ -121319,6 +121573,15 @@
         "image": "https://cdn.barbora.ee/products/36cdc69e-8e4e-4b18-8365-e0b455b9d764_m.png",
         "storeName": "Vein CHILL OUT Chenin Blanc 1.5L"
       },
+      "coop": {
+        "price": 13.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-chill-out-chenin-blanc-1-5l/",
+        "size": "1500ml",
+        "ean": "5710778001851",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/5710778001851.jpg",
+        "storeName": "Vv Chill Out Chenin Blanc 1.5L"
+      },
       "rimi": {
         "price": 15.09,
         "currency": "EUR",
@@ -121333,12 +121596,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/chill-out-chenin-blanc-1-5-l",
         "size": "1500ml",
+        "ean": "5710778001851",
         "storeUnitPrice": 7.99,
         "image": "https://www.selver.ee/img/800/800/resize/5/7/5710778001851.jpg",
         "storeName": "Chill Out Chenin Blanc 1,5 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Anterra pinot grigio 750ml",
@@ -121358,6 +121622,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/anterra-pinot-grigio-75-cl",
         "size": "750ml",
+        "ean": "8004305071002",
         "storeUnitPrice": 13.99,
         "image": "https://www.selver.ee/img/800/800/resize/8/1/813297000017.jpg",
         "storeName": "Anterra Pinot Grigio 75 cl"
@@ -121383,6 +121648,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/barone-montalto-pinot-grigio-300-cl",
         "size": "3000ml",
+        "ean": "8030423004035",
         "storeUnitPrice": 8,
         "image": "https://www.selver.ee/img/800/800/resize/8/0/8030423004035.jpg",
         "storeName": "Barone Montalto Pinot Grigio, 300 cl"
@@ -121391,7 +121657,59 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Maori bay pinot grigio 12.5% 750ml",
+    "name": "Maori bay sauvignon blanc 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-maori-bay-sauvignon-blanc-0-75l/",
+        "size": "750ml",
+        "ean": "4044551025842",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4044551025842.png",
+        "storeName": "Vv Maori Bay Sauvignon Blanc 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maori-bay-sauvignon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "4044551025842",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551025842.jpg",
+        "storeName": "Maori Bay Sauvignon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maori bay blanc sauvignon 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-maori-bay-sauvignon-blanc-0-75l-2/",
+        "size": "750ml",
+        "ean": "4044551066593",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4044551066593.png",
+        "storeName": "Vv Maori Bay Sauvignon Blanc 0.75L"
+      },
+      "selver": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maori-bay-sauvigon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "4044551066593",
+        "storeUnitPrice": 9.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551066593.jpg",
+        "storeName": "Maori Bay Sauvigon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maori bay pinot grigio 750ml",
     "category": "Wine",
     "prices": {
       "barbora": {
@@ -121402,6 +121720,15 @@
         "storeUnitPrice": 8.65,
         "image": "https://cdn.barbora.ee/products/ebd87967-6fb0-485b-88cd-f76b4b815257_m.png",
         "storeName": "GT vein MAORI BAY Pinot Grigio 750ml"
+      },
+      "coop": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-maori-bay-pinot-grigio-0-75l/",
+        "size": "750ml",
+        "ean": "4044551066616",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4044551066616.png",
+        "storeName": "Vv Maori Bay Pinot Grigio 0.75L"
       },
       "rimi": {
         "price": 6.49,
@@ -121441,7 +121768,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Mucho mas white 12.5% 750ml",
+    "name": "Mucho mas white 750ml",
     "category": "Wine",
     "prices": {
       "barbora": {
@@ -121453,6 +121780,15 @@
         "image": "https://cdn.barbora.ee/products/01551156-6639-4658-9ef2-a108ea6d1148_m.png",
         "storeName": "Vein MUCHO MAS White 750ml"
       },
+      "coop": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-mucho-mas-white-0-75l/",
+        "size": "750ml",
+        "ean": "8410702055635",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/8410702055635.png",
+        "storeName": "Vv Mucho Mas White 0.75L"
+      },
       "rimi": {
         "price": 6.99,
         "currency": "EUR",
@@ -121461,6 +121797,67 @@
         "storeUnitPrice": 9.32,
         "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7312828_PCE_EE",
         "storeName": "Vein Mucho Mas White 12,5%vol 0,75l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Cafe estoril vinho verde 750ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kpn-vein-cafe-estoril-vinho-verde-750-ml",
+        "size": "750ml",
+        "storeUnitPrice": 13.99,
+        "image": "https://cdn.barbora.ee/products/e85a0e6d-af83-48e2-beed-fc41d1977362_m.png",
+        "storeName": "KPN vein CAFE ESTORIL Vinho Verde 750ml"
+      },
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-cafe-estoril-vinho-verde-0-75l/",
+        "size": "750ml",
+        "ean": "4740158010525",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740158010525.png",
+        "storeName": "Vv Cafe Estoril Vinho Verde 0.75L"
+      },
+      "selver": {
+        "price": 9.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cafe-estoril-vinho-verde-75-cl",
+        "size": "750ml",
+        "ean": "4740158010525",
+        "storeUnitPrice": 12.79,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010525.jpg",
+        "storeName": "Cafe Estoril Vinho Verde 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Devils rock riesling 750ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kpn-vein-devils-rock-riesling-750-ml",
+        "size": "750ml",
+        "storeUnitPrice": 13.99,
+        "image": "https://cdn.barbora.ee/products/80a7db09-e203-4207-bb7b-5aad4a710aff_m.png",
+        "storeName": "KPN vein Devils Rock Riesling 750ml"
+      },
+      "selver": {
+        "price": 10.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/devils-rock-riesling-75-cl",
+        "size": "750ml",
+        "ean": "4002301425700",
+        "storeUnitPrice": 13.53,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4002301425700.jpg",
+        "storeName": "Devils Rock Riesling 75 cl"
       }
     },
     "matchedVia": "automatic"
@@ -121478,17 +121875,27 @@
         "image": "https://cdn.barbora.ee/products/be311341-4e8b-4b19-a1c1-0277683b407c_m.png",
         "storeName": "Vein AMORALE Tre Uva Bianco 750ml"
       },
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-amorale-tre-uva-0-75l/",
+        "size": "750ml",
+        "ean": "4740158011140",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4740158011140.png",
+        "storeName": "Vv Amorale Tre Uva Bianco 0.75L"
+      },
       "selver": {
         "price": 11.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/amorale-tre-uva-bianco-75-cl",
         "size": "750ml",
+        "ean": "4740158011140",
         "storeUnitPrice": 12.65,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011140.jpg",
         "storeName": "Amorale Tre Uva Bianco 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Silverboom chardonnay 750ml",
@@ -121508,6 +121915,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/silverboom-chardonnay-75-cl",
         "size": "750ml",
+        "ean": "5727510620553",
         "storeUnitPrice": 13,
         "image": "https://www.selver.ee/img/800/800/resize/5/7/5727510620553.jpg",
         "storeName": "Silverboom Chardonnay 75 cl"
@@ -121533,9 +121941,35 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/bianco-il-capolavoro-75-cl",
         "size": "750ml",
+        "ean": "5704637187640",
         "storeUnitPrice": 7.99,
         "image": "https://www.selver.ee/img/800/800/resize/5/7/5704637187640.jpg",
         "storeName": "Bianco IL CAPOLAVORO 75 cl"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Casa solis chardonnay 750ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/gt-vein-casa-solis-chardonnay-750-ml",
+        "size": "750ml",
+        "storeUnitPrice": 11.99,
+        "image": "https://cdn.barbora.ee/products/9ef731b6-b827-4781-90a1-59a37a2c093b_m.png",
+        "storeName": "GT vein CASA SOLIS Chardonnay 750ml"
+      },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-casa-solis-chardonnay-0-75l/",
+        "size": "750ml",
+        "ean": "7804664410174",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/7804664410174.png",
+        "storeName": "Vv Casa Solis Chardonnay 0.75L"
       }
     },
     "matchedVia": "automatic"
@@ -121617,6 +122051,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/masi-masianco-75-cl",
         "size": "750ml",
+        "ean": "8002062001652",
         "storeUnitPrice": 22.65,
         "image": "https://www.selver.ee/img/800/800/resize/8/0/8002062001652.jpg",
         "storeName": "Masi Masianco 75 cl"
@@ -121750,6 +122185,41 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Martini asti vahuvein 7.5% 200ml",
+    "category": "Wine",
+    "prices": {
+      "barbora": {
+        "price": 5.15,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kpn-kv-vahuvein-martini-asti-7-5-proc-200-ml",
+        "size": "200ml",
+        "storeUnitPrice": 25.75,
+        "image": "https://cdn.barbora.ee/products/23eb029e-bba1-4fc3-873b-97b19a04af89_m.png",
+        "storeName": "KPN kv.vahuvein MARTINI Asti 7.5% 200ml"
+      },
+      "coop": {
+        "price": 5.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/martini-asti-vahuvein-0-2l/",
+        "size": "200ml",
+        "ean": "8000570005025",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8000570005025.png",
+        "storeName": "Vahuvein Martini Asti 0.2L"
+      },
+      "selver": {
+        "price": 5.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/martini-asti-docg-20-cl",
+        "size": "200ml",
+        "ean": "8000570005025",
+        "storeUnitPrice": 19.95,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8000570005025.jpg",
+        "storeName": "Martini Asti DOCG 20 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Törley Vahuvein charmant rose 750ml",
     "category": "Wine",
     "prices": {
@@ -121761,6 +122231,15 @@
         "storeUnitPrice": 9.05,
         "image": "https://cdn.barbora.ee/products/64e745b9-e9f0-4b97-9e49-01d138155877_m.png",
         "storeName": "Vahuvein TÖRLEY Charmant Rose 750ml"
+      },
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/torley-charmant-rose-vahuvein-0-75l/",
+        "size": "750ml",
+        "ean": "5998815750669",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/5998815750430.jpg",
+        "storeName": "Vahuvein Törley Charmant Rose 0.75L"
       },
       "rimi": {
         "price": 6.89,
@@ -121842,12 +122321,48 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/laroche-chardonnay-reserve-75-cl",
         "size": "750ml",
+        "ean": "3546680089388",
         "storeUnitPrice": 21.67,
         "image": "https://www.selver.ee/img/800/800/resize/3/5/3546680089388.jpg",
         "storeName": "Laroche Chardonnay Reserve 75 cl"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Stony ocean sauvignon blanc marlborough 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-stony-ocean-sauvignon-blanc-0-75l/",
+        "size": "750ml",
+        "ean": "4740158007464",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740158007464.png",
+        "storeName": "Vv Stony Ocean Marlborough Sauvignon Blanc 0.75L"
+      },
+      "rimi": {
+        "price": 8.15,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vein/valge-vein/gt-vein-stony-ocean-sauvignon-blanc-0-75l/p/7236530",
+        "size": "750ml",
+        "storeUnitPrice": 10.87,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7236530_PCE_EE",
+        "storeName": "Gt.vein Stony Ocean Sauvignon Blanc 0,75l"
+      },
+      "selver": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/stony-ocean-sauvignon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "4740158007464",
+        "storeUnitPrice": 11.99,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007464.jpg",
+        "storeName": "Stony Ocean Sauvignon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Blue nun riesling rheinhessen 750ml",
@@ -121867,6 +122382,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/riesling-rheinhessen-75cl-blue-nun",
         "size": "750ml",
+        "ean": "4022025390023",
         "storeUnitPrice": 13.99,
         "image": "https://www.selver.ee/img/800/800/resize/4/0/4022025390023.jpg",
         "storeName": "Riesling Rheinhessen, 75cl, BLUE NUN"
@@ -121892,6 +122408,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/doppio-passo-primitivo-75-cl",
         "size": "750ml",
+        "ean": "8008863069457",
         "storeUnitPrice": 15.85,
         "image": "https://www.selver.ee/img/800/800/resize/8/0/8008863069457.jpg",
         "storeName": "Doppio Passo Primitivo 75 cl"
@@ -121917,6 +122434,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mateus-rose-25-cl",
         "size": "250ml",
+        "ean": "5601012011203",
         "storeUnitPrice": 18.76,
         "image": "https://www.selver.ee/img/800/800/resize/5/6/5601012011203.jpg",
         "storeName": "Mateus Rose 25 cl"
@@ -121928,6 +122446,15 @@
     "name": "Blue nun original 750ml",
     "category": "Wine",
     "prices": {
+      "coop": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-blue-nun-original-0-75l/",
+        "size": "750ml",
+        "ean": "5010429000074",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/5010429000074.png",
+        "storeName": "Vv Blue Nun Original 0.75L"
+      },
       "rimi": {
         "price": 8.69,
         "currency": "EUR",
@@ -121942,12 +122469,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/blue-nun-original-75-cl",
         "size": "750ml",
+        "ean": "5010429000074",
         "storeUnitPrice": 11.59,
         "image": "https://www.selver.ee/img/800/800/resize/5/0/5010429000074.jpg",
         "storeName": "Blue Nun Original 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Gran castillo tempranillo rose 750ml",
@@ -121967,6 +122495,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/gran-castillo-tempranillo-rose-75-cl",
         "size": "750ml",
+        "ean": "4740158001981",
         "storeUnitPrice": 11.99,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158001981.jpg",
         "storeName": "Gran Castillo Tempranillo Rose 75 cl"
@@ -121978,6 +122507,15 @@
     "name": "Gran castillo viura chardonnay 750ml",
     "category": "Wine",
     "prices": {
+      "coop": {
+        "price": 8.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-gran-castillo-viura-chardonnay-0-75l/",
+        "size": "750ml",
+        "ean": "4740158003602",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158003602.png",
+        "storeName": "Vv Gran Castillo Viura Chardonnay 0.75L"
+      },
       "rimi": {
         "price": 9.59,
         "currency": "EUR",
@@ -121992,12 +122530,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/gran-castillo-viura-chardonnay-75-cl",
         "size": "750ml",
+        "ean": "4740158003602",
         "storeUnitPrice": 11.99,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158003602.jpg",
         "storeName": "Gran Castillo Viura Chardonnay 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Le grand noir cabernet syrah 187ml",
@@ -122017,6 +122556,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/le-grand-noir-cabernet-syrah-18-7-cl",
         "size": "187ml",
+        "ean": "3437540053499",
         "storeUnitPrice": 16.84,
         "image": "https://www.selver.ee/img/800/800/resize/3/3/3378633620269.jpg",
         "storeName": "Le Grand Noir Cabernet-Syrah 18,7 cl"
@@ -122042,6 +122582,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mateus-rose-75-cl",
         "size": "750ml",
+        "ean": "5601012011500",
         "storeUnitPrice": 15.19,
         "image": "https://www.selver.ee/img/800/800/resize/5/6/5601012011500.jpg",
         "storeName": "Mateus Rose 75 cl"
@@ -122067,12 +122608,48 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/le-grand-noir-sauvignon-blanc-18-7-cl",
         "size": "187ml",
+        "ean": "3437540053451",
         "storeUnitPrice": 16.84,
         "image": "https://www.selver.ee/img/800/800/resize/3/3/3378633620160.jpg",
         "storeName": "Le Grand Noir Sauvignon Blanc 18,7 cl"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Moselland riesling kabinett 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-moselland-riesling-kabinett-0-75l/",
+        "size": "750ml",
+        "ean": "4006975003622",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4006975003622.png",
+        "storeName": "Vv Moselland Riesling Kabinett 0.75L"
+      },
+      "rimi": {
+        "price": 9.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vein/valge-vein/kpn-vein-moselland-riesling-kabinett-0-75l/p/140062",
+        "size": "750ml",
+        "storeUnitPrice": 12.79,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_140062_PCE_EE",
+        "storeName": "Kpn.vein Moselland Riesling Kabinett 0,75l"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/moselland-riesling-kabinett-75-cl",
+        "size": "750ml",
+        "ean": "4006975003622",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4006975003622.jpg",
+        "storeName": "Moselland Riesling Kabinett 75 cl"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Jacob's creek riesling 750ml",
@@ -122092,6 +122669,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jacob-s-creek-riesling-75-cl",
         "size": "750ml",
+        "ean": "9300727389275",
         "storeUnitPrice": 16.79,
         "image": "https://www.selver.ee/img/800/800/resize/9/3/9300727389275.jpg",
         "storeName": "Jacob's Creek Riesling 75 cl"
@@ -122117,6 +122695,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jacob-s-creek-shiraz-cabernet-75-cl",
         "size": "750ml",
+        "ean": "9300727453600",
         "storeUnitPrice": 16.79,
         "image": "https://www.selver.ee/img/800/800/resize/9/3/9300727453006.jpg",
         "storeName": "Jacob`s Creek Shiraz Cabernet 75 cl"
@@ -122142,12 +122721,48 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/robertson-sauvignon-blanc-75-cl",
         "size": "750ml",
+        "ean": "6002039000796",
         "storeUnitPrice": 9.85,
         "image": "https://www.selver.ee/img/800/800/resize/6/0/6002039000796.jpg",
         "storeName": "Robertson Sauvignon Blanc 75 cl"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Hardys bin colombard chard 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-hardys-bin-141-colombard-chard-0-75l/",
+        "size": "750ml",
+        "ean": "9311043093319",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/9311043039157.png",
+        "storeName": "Vv Hardys Bin 141 Colombard Chard.0.75L"
+      },
+      "rimi": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vein/valge-vein/gt-vein-hardys-bin-141-colombard-chard-0-75l/p/679667",
+        "size": "750ml",
+        "storeUnitPrice": 8.65,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_679667_PCE_EE",
+        "storeName": "Gt.vein Hardys BIN 141 Colombard Chard. 0,75l"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hardys-bin-141-colombard-char-75-cl",
+        "size": "750ml",
+        "ean": "9311043093319",
+        "storeUnitPrice": 8.65,
+        "image": "https://www.selver.ee/img/800/800/resize/9/3/9311043093319.jpg",
+        "storeName": "Hardys BIN 141 Colombard Char. 75 cl"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Casal garcia rose vinho verde 750ml",
@@ -122167,6 +122782,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/casal-garcia-rose-vinho-verde-75-cl",
         "size": "750ml",
+        "ean": "5601096328303",
         "storeUnitPrice": 13.32,
         "image": "https://www.selver.ee/img/800/800/resize/5/6/5601096328303.jpg",
         "storeName": "Casal Garcia Rose Vinho Verde 75 cl"
@@ -122175,7 +122791,42 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "19 crimes cabernet sauvignon 19 750ml",
+    "name": "Savanha medium sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-savanha-medium-sweet-0-75l/",
+        "size": "750ml",
+        "ean": "6007498003883",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/6007498003883.png",
+        "storeName": "Vv Savanha Medium Sweet 0.75L"
+      },
+      "rimi": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vein/valge-vein/gt-vein-savanha-medium-sweet-0-75l/p/7218029",
+        "size": "750ml",
+        "storeUnitPrice": 11.05,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7218029_PCE_EE",
+        "storeName": "Gt. vein Savanha Medium Sweet 0,75l"
+      },
+      "selver": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spier-savanha-medium-sweet-75-cl",
+        "size": "750ml",
+        "ean": "6007498003883",
+        "storeUnitPrice": 11.32,
+        "image": "https://www.selver.ee/img/800/800/resize/6/0/6007498003883.jpg",
+        "storeName": "Spier Savanha Medium Sweet 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "19 crimes cabernet sauvignon 750ml",
     "category": "Wine",
     "prices": {
       "rimi": {
@@ -122192,6 +122843,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/19-crimes-cabernet-sauvignon-75-cl",
         "size": "750ml",
+        "ean": "9311220005517",
         "storeUnitPrice": 19.05,
         "image": "https://www.selver.ee/img/800/800/resize/9/3/9311220005517.jpg",
         "storeName": "19 Crimes Cabernet Sauvignon 75 cl"
@@ -122217,6 +122869,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/robertson-cabernet-sauvignon-75-cl",
         "size": "750ml",
+        "ean": "6002039000857",
         "storeUnitPrice": 9.85,
         "image": "https://www.selver.ee/img/800/800/resize/6/0/6002039000857.jpg",
         "storeName": "Robertson Cabernet Sauvignon 75 cl"
@@ -122242,6 +122895,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/le-grand-noir-sauvignon-blanc-75-cl",
         "size": "750ml",
+        "ean": "3378639920127",
         "storeUnitPrice": 14.39,
         "image": "https://www.selver.ee/img/800/800/resize/3/3/3378639920127.jpg",
         "storeName": "Le Grand Noir Sauvignon Blanc 75 cl"
@@ -122267,6 +122921,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/gran-castillo-viura-chardonnay-300-cl",
         "size": "3000ml",
+        "ean": "4740158006429",
         "storeUnitPrice": 6.66,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158006429.jpg",
         "storeName": "Gran Castillo Viura & Chardonnay, 300 cl"
@@ -122292,6 +122947,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/zinfandel-75-cl",
         "size": "750ml",
+        "ean": "7340048606165",
         "storeUnitPrice": 18.12,
         "image": "https://www.selver.ee/img/800/800/resize/7/3/7340048606165.jpg",
         "storeName": "Zinfandel 75 cl"
@@ -122300,9 +122956,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Jaume serra cava brut 750ml",
+    "name": "Jaume serra Cava brut 750ml",
     "category": "Wine",
     "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cava-jaume-serra-brut-0-75l/",
+        "size": "750ml",
+        "ean": "8411277205654",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/8411277205654.png",
+        "storeName": "Cava Jaume Serra Brut 0.75L"
+      },
       "rimi": {
         "price": 10.99,
         "currency": "EUR",
@@ -122317,12 +122982,83 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jaume-serra-cava-brut-75-cl",
         "size": "750ml",
+        "ean": "8411277205654",
         "storeUnitPrice": 10.65,
         "image": "https://www.selver.ee/img/800/800/resize/8/4/8411277205654.jpg",
         "storeName": "Jaume Serra Cava Brut 75 cl"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Törley Vahuvein muscateller doux 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/torley-muscateller-doux-vahuvein-0-75/",
+        "size": "750ml",
+        "ean": "5998815750645",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/5998815750645.png",
+        "storeName": "Vahuvein Törley Muscateller Doux 0.75L"
+      },
+      "rimi": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vahuveinid-ja-sampanjad/vahuvein/vahuvein-torley-muscateller-doux-0-75l/p/101645",
+        "size": "750ml",
+        "storeUnitPrice": 7.99,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_101645_PCE_EE",
+        "storeName": "Vahuvein Törley Muscateller Doux 0,75l"
+      },
+      "selver": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/torley-muscateller-75-cl",
+        "size": "750ml",
+        "ean": "5998815750645",
+        "storeUnitPrice": 9.19,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5998815750379.jpg",
+        "storeName": "Törley Muscateller 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Törley Vahuvein charmant doux 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/torley-charmant-doux-vahuvein-0-75l/",
+        "size": "750ml",
+        "ean": "5998815750638",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/5998815750638.png",
+        "storeName": "Vahuvein Törley Charmant Doux 0.75L"
+      },
+      "rimi": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vahuveinid-ja-sampanjad/vahuvein/vahuvein-torley-charmant-doux-0-75l/p/101646",
+        "size": "750ml",
+        "storeUnitPrice": 9.19,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_101646_PCE_EE",
+        "storeName": "Vahuvein Törley Charmant Doux 0,75l"
+      },
+      "selver": {
+        "price": 6.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/torley-charmant-75-cl",
+        "size": "750ml",
+        "ean": "5998815750638",
+        "storeUnitPrice": 7.99,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5998815750362.jpg",
+        "storeName": "Törley Charmant 75 cl"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Casa charlize prosecco brut 750ml",
@@ -122342,12 +123078,3651 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/casa-charlize-prosecco-brut-75-cl",
         "size": "750ml",
+        "ean": "4740158009215",
         "storeUnitPrice": 11.99,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158009215.jpg",
         "storeName": "Casa Charlize Prosecco Brut 75 cl"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Törley Vahuvein gala sec 12% 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/torley-gala-sec-vahuvein-0-75l/",
+        "size": "750ml",
+        "ean": "5998815750607",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/5998815750317.png",
+        "storeName": "Vahuvein Törley Gala Sec 0.75L"
+      },
+      "rimi": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vahuveinid-ja-sampanjad/vahuvein/vahuvein-torley-gala-sec-12-0-75l/p/135743",
+        "size": "750ml",
+        "storeUnitPrice": 9.19,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_135743_PCE_EE",
+        "storeName": "Vahuvein Törley Gala Sec 12% 0,75l"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Cinzano Vahuvein sweet edition dolce 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cinzano-sweet-edition-dolce-vahuv-0-75l/",
+        "size": "750ml",
+        "ean": "8000020005247",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8000020005247.png",
+        "storeName": "Vahuvein Cinzano Sweet Edition Dolce 0.75L"
+      },
+      "rimi": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vahuveinid-ja-sampanjad/vahuvein/vahuvein-cinzano-sweet-edition-dolce-0-75l/p/685873",
+        "size": "750ml",
+        "storeUnitPrice": 13.32,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_685873_PCE_EE",
+        "storeName": "Vahuvein Cinzano Sweet Edition Dolce 0,75l"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cinzano-sweet-edition-dolce-75-cl",
+        "size": "750ml",
+        "ean": "8000020005247",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8000020005247.jpg",
+        "storeName": "Cinzano Sweet Edition Dolce 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mionetto Prosecco treviso brut 200ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mionetto-treviso-prosecco-brut-0-2l/",
+        "size": "200ml",
+        "ean": "8006220110774",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8006220110774.png",
+        "storeName": "Prosecco Mionetto Treviso Brut 0.2L"
+      },
+      "rimi": {
+        "price": 3.95,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/vahuveinid-ja-sampanjad/prosecco/kpn-vv-mionetto-prosecco-treviso-brut-0-2l/p/7285076",
+        "size": "200ml",
+        "storeUnitPrice": 19.75,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7285076_PCE_EE",
+        "storeName": "Kpn.vv. Mionetto Prosecco Treviso Brut 0,2l"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mionetto-prestige-prosecco-doc-treviso-brut-20-cl",
+        "size": "200ml",
+        "ean": "8006220110774",
+        "storeUnitPrice": 21.45,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8006220110774.jpg",
+        "storeName": "Mionetto Prestige Prosecco Doc Treviso Brut 20 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bollino Pv rosso sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bollino-rosso-sw-arom-puuv-vein-0-75l/",
+        "size": "750ml",
+        "ean": "4740158007389",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158007389.jpg",
+        "storeName": "Pv Bollino Rosso Sweet 0.75L"
+      },
+      "selver": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bollino-rosso-sweet-75-cl",
+        "size": "750ml",
+        "ean": "4740158007389",
+        "storeUnitPrice": 7.72,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007389.jpg",
+        "storeName": "Bollino Rosso Sweet 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Monte cristo Pv red sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/monte-cristo-red-arom-puuviljavein-0-75l/",
+        "size": "750ml",
+        "ean": "4740158007440",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158007440.jpg",
+        "storeName": "Pv Monte Cristo Red Sweet 0.75L"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/monte-cristo-red-75-cl",
+        "size": "750ml",
+        "ean": "4740158007440",
+        "storeUnitPrice": 7.85,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007440.jpg",
+        "storeName": "Monte Cristo Red 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Arom puuviljavein kirss 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirss-arom-puuviljavein-0-75l/",
+        "size": "750ml",
+        "ean": "4740111012207",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740111012207.png",
+        "storeName": "Arom.puuviljavein Kirss 0.75L"
+      },
+      "selver": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karksi-puuviljavein-kirss-75-cl",
+        "size": "750ml",
+        "ean": "4740111012207",
+        "storeUnitPrice": 8.87,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740111012207.jpg",
+        "storeName": "Karksi puuviljavein Kirss 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Arom puuviljavein must sõstar 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-sostar-arom-puuviljavein-0-75l/",
+        "size": "750ml",
+        "ean": "4740111012184",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740111012184.png",
+        "storeName": "Arom.puuviljavein Must sõstar 0.75L"
+      },
+      "selver": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karksi-puuviljavein-mustsostra-75-cl",
+        "size": "750ml",
+        "ean": "4740111012184",
+        "storeUnitPrice": 8.87,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740111012184.jpg",
+        "storeName": "Karksi puuviljavein Mustsõstra 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nerone Pv negroamaro primitivo bib 13% 3000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 22.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-nerone-negroamaro-primitivo-3l-bib/",
+        "size": "3000ml",
+        "ean": "5704634162695",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/5704634162695.jpg",
+        "storeName": "Pv Nerone Negroamaro Primitivo 3L BIB"
+      },
+      "selver": {
+        "price": 27.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nerone-negroamaro-primitivo-bib-13-vol-3l",
+        "size": "3000ml",
+        "ean": "5704634162695",
+        "storeUnitPrice": 9.08,
+        "image": "https://www.selver.ee/img/800/800/resize/5/7/5704634162695.jpg",
+        "storeName": "Nerone Negroamaro Primitivo BIB 13%vol, 3L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Savanha Pv pinotage shiraz 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-savanha-pinotage-shiraz-0-75l/",
+        "size": "750ml",
+        "ean": "6007498001919",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/6007498001919.png",
+        "storeName": "Pv Savanha Pinotage Shiraz 0.75L"
+      },
+      "selver": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spier-savanha-pinotage-shiraz-75-cl",
+        "size": "750ml",
+        "ean": "6007498001919",
+        "storeUnitPrice": 11.32,
+        "image": "https://www.selver.ee/img/800/800/resize/6/0/6007498001919.jpg",
+        "storeName": "Spier Savanha Pinotage-Shiraz 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zensa Pv primitivo pugla mahe 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-zensa-primitivo-pugla-organic-0-75l/",
+        "size": "750ml",
+        "ean": "8052432830801",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/8052432830801.png",
+        "storeName": "Pv Zensa Primitivo Pugla Organic 0.75L"
+      },
+      "selver": {
+        "price": 12.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/zensa-primitivo-organic-75-cl",
+        "size": "750ml",
+        "ean": "8052432830801",
+        "storeUnitPrice": 16.73,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8052432830801.jpg",
+        "storeName": "Zensa Primitivo Organic 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Asio otus Pv cabernet merlot shiraz 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-asio-otus-cabernet-merlot-shiraz-0-75/",
+        "size": "750ml",
+        "ean": "8033765186612",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/8033765186612.png",
+        "storeName": "Pv Asio Otus Cabernet Merlot Shiraz 0.75L"
+      },
+      "selver": {
+        "price": 10.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/asio-otus-cabernet-merlot-shiraz-75-cl",
+        "size": "750ml",
+        "ean": "8033765186612",
+        "storeUnitPrice": 13.72,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8033765186612.jpg",
+        "storeName": "Asio Otus Cabernet Merlot Shiraz 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pv cabernet sauvignon b g reserve 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-bg-cabernet-sauvignon-reserve-0-75l/",
+        "size": "750ml",
+        "ean": "3035138005655",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/0087000109070.png",
+        "storeName": "Pv B&G Cabernet Sauvignon Reserve 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barton-guestier-cabernet-sauvignon-75-cl",
+        "size": "750ml",
+        "ean": "3035138005655",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/3/0/3035138005655.jpg",
+        "storeName": "Barton & Guestier Cabernet Sauvignon, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Chateau le mayne Pv bordeaux superieur 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-chateau-lemayne-heritage-dumaine0-75l/",
+        "size": "750ml",
+        "ean": "3760061292512",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/3760228141035.png",
+        "storeName": "Pv Chateau Le Mayne Bordeaux Superieur 0.75L"
+      },
+      "selver": {
+        "price": 11.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/chateau-le-mayne-bordeaux-superieur-75-cl",
+        "size": "750ml",
+        "ean": "3760061292512",
+        "storeUnitPrice": 15.67,
+        "image": "https://www.selver.ee/img/800/800/resize/3/7/3760061292253.jpg",
+        "storeName": "Chateau Le Mayne Bordeaux Superieur, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Le grand noir Pv cabernet shiraz 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-le-grand-noir-cabernet-shiraz-0-75l/",
+        "size": "750ml",
+        "ean": "3378632020220",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/3378632020220.png",
+        "storeName": "Pv Le Grand Noir Cabernet-Shiraz 0.75L"
+      },
+      "selver": {
+        "price": 10.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/le-grand-noir-cabernet-syrah-75-cl",
+        "size": "750ml",
+        "ean": "3378632020220",
+        "storeUnitPrice": 14.39,
+        "image": "https://www.selver.ee/img/800/800/resize/3/3/3378632020220.jpg",
+        "storeName": "Le Grand Noir Cabernet-Syrah 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Silk and spice Pv red blend 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 12.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-silk-and-spice-red-blend-0-75l/",
+        "size": "750ml",
+        "ean": "5601012837636",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/5601012837636.png",
+        "storeName": "Pv Silk and Spice Red Blend 0.75L"
+      },
+      "selver": {
+        "price": 12.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/silk-and-spice-red-blend-75-cl",
+        "size": "750ml",
+        "ean": "5601012837636",
+        "storeUnitPrice": 17.27,
+        "image": "https://www.selver.ee/img/800/800/resize/5/6/5601012837636.jpg",
+        "storeName": "Silk and Spice Red Blend 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cono sur Pv pinot noir bicicleta 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-cono-sur-bicicleta-pinot-noir-0-75l/",
+        "size": "750ml",
+        "ean": "7804320753454",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/7804320753454.png",
+        "storeName": "Pv Cono Sur Bicicleta Pinot Noir 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cono-sur-icicleta-reserva-pinot-noir-75-cl",
+        "size": "750ml",
+        "ean": "7804320753454",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7804320750118.jpg",
+        "storeName": "Cono Sur icicleta Reserva Pinot Noir 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tommasi Pv valpolicella 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 14.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-tommasi-valpolicella-0-75l/",
+        "size": "750ml",
+        "ean": "8004645304105",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/8004645304105.png",
+        "storeName": "Pv Tommasi Valpolicella 0.75L"
+      },
+      "selver": {
+        "price": 16.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tommasi-valpolicella-classico-superiore-75-cl",
+        "size": "750ml",
+        "ean": "8004645304105",
+        "storeUnitPrice": 16.65,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8004645304105.jpg",
+        "storeName": "Tommasi Valpolicella Classico Superiore 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barone montalto Pv passivento rosso 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 13.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-barone-montalto-passivento-rosso0-75l/",
+        "size": "750ml",
+        "ean": "8030423003212",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8030423003212.png",
+        "storeName": "Pv Barone Montalto Passivento Rosso 0.75L"
+      },
+      "selver": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barone-montalto-passivento-rosso-75-cl",
+        "size": "750ml",
+        "ean": "8030423003212",
+        "storeUnitPrice": 17.32,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8030423003212.jpg",
+        "storeName": "Barone Montalto Passivento Rosso 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Chill out Pv cabernet sauvignon bib 3000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-chill-out-cabernet-sauvignon-3l-bib/",
+        "size": "3000ml",
+        "ean": "5710778001066",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/5710778001066-1.png",
+        "storeName": "Pv Chill Out Cabernet Sauvignon 3L BIB"
+      },
+      "selver": {
+        "price": 24.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cabernet-sauvignon-bib-chill-out-300-cl",
+        "size": "3000ml",
+        "ean": "5710778001066",
+        "storeUnitPrice": 6.33,
+        "image": "https://www.selver.ee/img/800/800/resize/5/7/5710778001066.jpg",
+        "storeName": "Cabernet Sauvignon BIB, Chill Out, 300 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gran castillo Pv cabernet medium sauvig sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-gran-castillo-cab-sauv-medium-sw-0-75/",
+        "size": "750ml",
+        "ean": "4740158001936",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158001936.png",
+        "storeName": "Pv Gran Castillo Cabernet Sauvig.Medium Sweet0.75L"
+      },
+      "selver": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gran-castillo-cabernet-sauvignon-75-cl",
+        "size": "750ml",
+        "ean": "4740158001936",
+        "storeUnitPrice": 11.99,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158001936.jpg",
+        "storeName": "Gran Castillo Cabernet Sauvignon 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dreamer Pv sweet red 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dreamer-sweet-red-arom-veinijook-1l/",
+        "size": "1000ml",
+        "ean": "4740158002933",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158002933.jpg",
+        "storeName": "Pv Dreamer Sweet Red 1L"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dreamer-sweet-red-100-cl",
+        "size": "1000ml",
+        "ean": "4740158002933",
+        "storeUnitPrice": 6.49,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158002933.jpg",
+        "storeName": "Dreamer Sweet Red 100 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barone montalto Pv passivento rosso bib 3000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 29.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-barone-montalto-passiventorosso3l-bib/",
+        "size": "3000ml",
+        "ean": "8030423003649",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8030423003649.png",
+        "storeName": "Pv Barone Montalto Passivento Rosso 3L BIB"
+      },
+      "selver": {
+        "price": 32.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barone-montalto-monalto-nero-d-avola-passivento-300cl",
+        "size": "3000ml",
+        "ean": "8030423003649",
+        "storeUnitPrice": 9,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8030423003649.jpg",
+        "storeName": "BARONE MONTALTO Monalto Nero D'Avola Passivento 300cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Masso antico Pv primitivo salento 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-masso-antico-primitivo-salento-0-75l/",
+        "size": "750ml",
+        "ean": "8009620838248",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8009620838248.png",
+        "storeName": "Pv Masso Antico Primitivo Salento 0.75L"
+      },
+      "selver": {
+        "price": 11.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/masso-antico-primitivo-del-salento-igt-75-cl",
+        "size": "750ml",
+        "ean": "8009620838248",
+        "storeUnitPrice": 11.99,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8009620838248.jpg",
+        "storeName": "Masso Antico Primitivo del Salento IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maison castel Pv cotes du rhone 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 12.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-maison-castel-cotes-du-rhone-0-75l/",
+        "size": "750ml",
+        "ean": "3211201046644",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/3211201046644.png",
+        "storeName": "Pv Maison Castel Cotes du Rhone 0.75L"
+      },
+      "selver": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maison-castel-cotes-du-rhone-grenache-syrah-75-cl",
+        "size": "750ml",
+        "ean": "3211201046644",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/3/2/3211201046644.jpg",
+        "storeName": "Maison Castel Cotes Du Rhone Grenache Syrah 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize Pv passonata puglia 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-casa-charlize-passonata-puglia-0-75l/",
+        "size": "750ml",
+        "ean": "4740158011041",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4740158011041.png",
+        "storeName": "Pv Casa Charlize Passonata Puglia 0.75L"
+      },
+      "selver": {
+        "price": 12.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-passonata-puglia-75cl",
+        "size": "750ml",
+        "ean": "4740158011041",
+        "storeUnitPrice": 16.79,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011041.jpg",
+        "storeName": "Casa Charlize Passonata Puglia 75cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hardys Pv shiraz main road 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-hardys-202-main-road-shiraz-0-75l/",
+        "size": "750ml",
+        "ean": "5010134915779",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/5010134915779.png",
+        "storeName": "Pv Hardys 202 Main Road Shiraz 0.75L"
+      },
+      "selver": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hardy-s-mill-shiraz-main-road-202-75-cl",
+        "size": "750ml",
+        "ean": "5010134915779",
+        "storeUnitPrice": 7.99,
+        "image": "https://www.selver.ee/img/800/800/resize/5/0/5010134915779.jpg",
+        "storeName": "Hardy`s Mill Shiraz Main Road 202 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "La piqueta Pv cabernet sauvignon 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-la-piqueta-cabernet-sauvignon-0-75l/",
+        "size": "750ml",
+        "ean": "7804664410044",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/7804664410044.png",
+        "storeName": "Pv La Piqueta Cabernet Sauvignon 0.75L"
+      },
+      "selver": {
+        "price": 8.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cabernet-sauvignon-la-piqueta-75-cl",
+        "size": "750ml",
+        "ean": "7804664410044",
+        "storeUnitPrice": 11.19,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7804664410044.jpg",
+        "storeName": "Cabernet Sauvignon LA PIQUETA 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Serena Pv cabernet veneto sauvignon 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-serena-cabernet-sauvignon-veneto0-75l/",
+        "size": "750ml",
+        "ean": "8010719015808",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/8010719015808.png",
+        "storeName": "Pv Serena Cabernet Sauvignon Veneto 0.75L"
+      },
+      "selver": {
+        "price": 8.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/serena-cabernet-veneto-igt-75-cl",
+        "size": "750ml",
+        "ean": "8010719015808",
+        "storeUnitPrice": 11.45,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8010719015808.jpg",
+        "storeName": "Serena Cabernet Veneto IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Roberts canyon Pv california zinfandel 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-roberts-canyon-california-zinf-0-75l/",
+        "size": "750ml",
+        "ean": "4740158011669",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740158011669.png",
+        "storeName": "Pv Roberts Canyon California Zinfandel 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/california-zinfandel-75-cl",
+        "size": "750ml",
+        "ean": "4740158011669",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011669.jpg",
+        "storeName": "California Zinfandel 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Amorale Pv primitivo puglia 18 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-amorale-primitivo-18-puglia-0-75l/",
+        "size": "750ml",
+        "ean": "4740158011881",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740158011881.png",
+        "regularPrice": 13.99,
+        "storeName": "Pv Amorale Primitivo 18 Puglia 0.75L"
+      },
+      "selver": {
+        "price": 14.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/amorale-primitivo-18-puglia-igt-75-cl",
+        "size": "750ml",
+        "ean": "4740158011881",
+        "storeUnitPrice": 19.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011881.jpg",
+        "storeName": "Amorale Primitivo 18 Puglia IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Terre collina Pv primitivo puglia 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-terre-collina-primitivo-puglia-0-75l/",
+        "size": "750ml",
+        "ean": "4740158010402",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740158010402.png",
+        "storeName": "Pv Terre Collina Primitivo Puglia 0.75L"
+      },
+      "selver": {
+        "price": 9.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/terre-collina-primitivo-puglia-75-cl",
+        "size": "750ml",
+        "ean": "4740158010402",
+        "storeUnitPrice": 12.47,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010402.jpg",
+        "storeName": "Terre Collina Primitivo Puglia 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Amorale Pv puglia rosso 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-terre-collina-amorale-puglia-r-0-75l/",
+        "size": "750ml",
+        "ean": "4740158010426",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740158010426.png",
+        "storeName": "Pv Amorale Puglia Rosso 0.75L"
+      },
+      "selver": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/amorale-terre-collina-puglia-rosso-75-cl",
+        "size": "750ml",
+        "ean": "4740158010426",
+        "storeUnitPrice": 12.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010426.jpg",
+        "storeName": "Amorale Terre Collina Puglia Rosso 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lago sagrado Pv lisboa tinto 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-lago-sagrado-lisboa-tinto-0-75l/",
+        "size": "750ml",
+        "ean": "4740158010624",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740158010624.png",
+        "storeName": "Pv Lago Sagrado Lisboa Tinto 0.75L"
+      },
+      "selver": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lago-sagrado-lisboa-tinto-75-cl",
+        "size": "750ml",
+        "ean": "4740158010624",
+        "storeUnitPrice": 14.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010624.jpg",
+        "storeName": "Lago Sagrado Lisboa Tinto 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dolce cioccolato Pv rosso 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-dolce-cioccolate-rosso-0-75l/",
+        "size": "750ml",
+        "ean": "4740158010365",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740158010365.png",
+        "storeName": "Pv Dolce Cioccolato Rosso 0.75L"
+      },
+      "selver": {
+        "price": 7.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dolce-cioccolato-rosso-75cl",
+        "size": "750ml",
+        "ean": "4740158010365",
+        "storeUnitPrice": 10.52,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010365.jpg",
+        "storeName": "Dolce Cioccolato Rosso 75cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Emporium Pv primitivo di manduria 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-emporium-primitivo-di-manduria-0-75l/",
+        "size": "750ml",
+        "ean": "8003625014836",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/8003625014836.png",
+        "storeName": "Pv Emporium Primitivo Di Manduria 0.75L"
+      },
+      "selver": {
+        "price": 13.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/emporium-primitivo-di-manduria-doc-75-cl",
+        "size": "750ml",
+        "ean": "8003625014836",
+        "storeUnitPrice": 14.65,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8003625014836.jpg",
+        "storeName": "Emporium Primitivo Di Manduria Doc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mucho mas Pv red bib 3000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-mucho-mas-red-3l-bib/",
+        "size": "3000ml",
+        "ean": "8410702052269",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/8410702052269.png",
+        "storeName": "Pv Mucho Mas Red 3L BIB"
+      },
+      "selver": {
+        "price": 32.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mucho-mas-red-wine-bib-300cl",
+        "size": "3000ml",
+        "ean": "8410702052269",
+        "storeUnitPrice": 7.66,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410702052269.jpg",
+        "storeName": "Mucho Mas Red Wine BIB 300cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Uone Pv primitivo di manduria 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 13.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-uone-primitivo-di-manduria-0-75l/",
+        "size": "750ml",
+        "ean": "8009620847295",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8009620847295.png",
+        "storeName": "Pv Uone Primitivo Di Manduria 0.75L"
+      },
+      "selver": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/primitivo-di-manduria-75-cl-t000088707",
+        "size": "750ml",
+        "ean": "8009620847295",
+        "storeUnitPrice": 17.32,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8009620847295.jpg",
+        "storeName": "Primitivo di Manduria 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Baron rosen Pv vino tinto medium sweet tetra 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-baron-rosen-vino-tinto-semi-sweet-1l/",
+        "size": "1000ml",
+        "ean": "8437011515162",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8437011515162.png",
+        "storeName": "Pv Baron Rosen Vino Tinto Medium-Sweet 1L tetra"
+      },
+      "selver": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/baron-rosen-vino-tinto-100-cl",
+        "size": "1000ml",
+        "ean": "8437011515162",
+        "storeUnitPrice": 5.79,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8437011515162.jpg",
+        "storeName": "Baron Rosen Vino Tinto 100 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize Pv primitivo puglia 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-casa-charlize-primitivo-puglia-0-75l/",
+        "size": "750ml",
+        "ean": "4740158007709",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158007709.png",
+        "storeName": "Pv Casa Charlize Primitivo Puglia 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-primitivo-puglia-igt-75-cl",
+        "size": "750ml",
+        "ean": "4740158007709",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007709.jpg",
+        "storeName": "Casa Charlize Primitivo Puglia IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize Pv passonata primitivo 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-casa-charlize-passonata-primit-0-75l/",
+        "size": "750ml",
+        "ean": "4740158009505",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740158009505.png",
+        "regularPrice": 11.99,
+        "storeName": "Pv Casa Charlize Passonata Primitivo 0.75L"
+      },
+      "selver": {
+        "price": 12.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-passonata-primitivo-75-cl",
+        "size": "750ml",
+        "ean": "4740158009505",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158009505.jpg",
+        "storeName": "Casa Charlize Passonata Primitivo 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ventisquero Pv pinot noir reserva 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-ventisquero-reserva-pinot-noir-0-75l/",
+        "size": "750ml",
+        "ean": "7808725401606",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/7808725401606.png",
+        "storeName": "Pv Ventisquero Reserva Pinot Noir 0.75L"
+      },
+      "selver": {
+        "price": 9.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ventisquero-reserve-pinot-noir-75-cl",
+        "size": "750ml",
+        "ean": "7808725401606",
+        "storeUnitPrice": 10.79,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7808725401606.jpg",
+        "storeName": "Ventisquero Reserve Pinot Noir 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pv de bor chateau cot fontarabiebl 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-chateau-fontarabiebl-cot-de-bor-0-75l/",
+        "size": "750ml",
+        "ean": "3336580006277",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/3336580006277.png",
+        "storeName": "Pv Chateau FontarabieBl.Cot de Bor 0.75L"
+      },
+      "selver": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/chateau-fontarabie-blaye-cotes-de-bordeaux-75-cl",
+        "size": "750ml",
+        "ean": "3336580006277",
+        "storeUnitPrice": 15.45,
+        "image": "https://www.selver.ee/img/800/800/resize/3/3/3336580006277.jpg",
+        "storeName": "CHATEAU FONTARABIE Blaye Cotes de Bordeaux 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Old tbilisi Pv alazani red semi sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-old-tbilisi-alazani-semi-sw-red-0-75l/",
+        "size": "750ml",
+        "ean": "4860004070173",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4860004085481.png",
+        "storeName": "Pv Old Tbilisi Alazani Semi Sweet Red 0.75L"
+      },
+      "selver": {
+        "price": 9.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/old-tbilisi-alazani-75-cl",
+        "size": "750ml",
+        "ean": "4860004070173",
+        "storeUnitPrice": 13.05,
+        "image": "https://www.selver.ee/img/800/800/resize/4/8/4860004070173.jpg",
+        "storeName": "Old Tbilisi Alazani 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teliani valley Pv alazani red 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pv-teliani-valley-alazani-red-0-75l/",
+        "size": "750ml",
+        "ean": "4860065010019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4860065010019.jpg",
+        "storeName": "Pv Teliani Valley Alazani Red 0.75L"
+      },
+      "selver": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teliani-valley-alazani-red-75-cl",
+        "size": "750ml",
+        "ean": "4860065010019",
+        "storeUnitPrice": 12.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/8/4860065010019.jpg",
+        "storeName": "Teliani Valley Alazani Red 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Johann brunner riesling rheinhessen 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-johann-brunner-riesling-rheinh-0-75l/",
+        "size": "750ml",
+        "ean": "4044551030198",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4044551030198.jpg",
+        "storeName": "Vv Johann Brunner Riesling Rheinhessen 0.75L"
+      },
+      "selver": {
+        "price": 7.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/johann-brunner-riesling-rheinhessen-75-cl",
+        "size": "750ml",
+        "ean": "4044551030198",
+        "storeUnitPrice": 10.39,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551030198.jpg",
+        "storeName": "Johann Brunner Riesling Rheinhessen 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Johann brunner riesling mosel 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-johann-brunner-riesling-mosel-0-75l/",
+        "size": "750ml",
+        "ean": "4044551030211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4044551030211.png",
+        "storeName": "Vv Johann Brunner Riesling Mosel 0.75L"
+      },
+      "selver": {
+        "price": 8.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/johann-brunner-riesling-mosel-75-cl",
+        "size": "750ml",
+        "ean": "4044551030211",
+        "storeUnitPrice": 9.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551030211.jpg",
+        "storeName": "Johann Brunner Riesling Mosel 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Johann brunner gewürztraminer prestige 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-jb-gewurztraminer-prestige-0-75l/",
+        "size": "750ml",
+        "ean": "4044551033717",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4044551033717.png",
+        "storeName": "Vv Johann Brunner Gewürztraminer Prestige 0.75L"
+      },
+      "selver": {
+        "price": 8.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/johann-brunner-gewurztraminer-prestige-75-cl",
+        "size": "750ml",
+        "ean": "4044551033717",
+        "storeUnitPrice": 11.4,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551033717.jpg",
+        "storeName": "Johann Brunner Gewürztraminer Prestige 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bollino bianco sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bollino-bianco-sweet-arom-puuv-vein-0-75/",
+        "size": "750ml",
+        "ean": "4740158007341",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158007341.jpg",
+        "storeName": "Vv Bollino Bianco Sweet 0.75L"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bollino-bianco-sweet-75-cl",
+        "size": "750ml",
+        "ean": "4740158007341",
+        "storeUnitPrice": 6.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007341.jpg",
+        "storeName": "Bollino Bianco Sweet 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Monte cristo white sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/monte-cristo-white-arom-puuv-vein-0-75l/",
+        "size": "750ml",
+        "ean": "4740158007402",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158007402.jpg",
+        "storeName": "Vv Monte Cristo White Sweet 0.75L"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/monte-cristo-white-75-cl",
+        "size": "750ml",
+        "ean": "4740158007402",
+        "storeUnitPrice": 7.85,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007402.jpg",
+        "storeName": "Monte Cristo White 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Arom leedri õuna puuviljavein 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/leedri-ouna-arom-puuv-vein-0-75l/",
+        "size": "750ml",
+        "ean": "4740111012238",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740111012238.png",
+        "storeName": "Arom.puuviljavein Leedri-Õuna 0.75L"
+      },
+      "selver": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karksi-leedri-ouna-75-cl",
+        "size": "750ml",
+        "ean": "4740111012238",
+        "storeUnitPrice": 8.87,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740111012238.jpg",
+        "storeName": "Karksi Leedri-õuna 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "J.p.chenet medium sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-j-p-chenet-medium-sweet-0-75l/",
+        "size": "750ml",
+        "ean": "3263286321284",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/3263286321284.jpg",
+        "storeName": "Vv J.P.Chenet Medium Sweet 0.75L"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/j-p-chenet-white-medium-sweet-75-cl",
+        "size": "750ml",
+        "ean": "3263286321284",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/3/2/3263286321284.jpg",
+        "storeName": "J.P.Chenet White Medium Sweet 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maori bay chardonnay semillion 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-maori-bay-semillion-chardonnay-0-75l/",
+        "size": "750ml",
+        "ean": "4044551066531",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4044551066531.png",
+        "storeName": "Vv Maori Bay Semillion Chardonnay 0.75L"
+      },
+      "selver": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maori-bay-semillon-chardonnay-75-cl",
+        "size": "750ml",
+        "ean": "4044551066531",
+        "storeUnitPrice": 11.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551066531.jpg",
+        "storeName": "Maori Bay Semillon Chardonnay 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Piqueras sauvignon verdejo bib mahe 3000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-piqueras-verdejo-sauv-blanc-org3l-bib/",
+        "size": "3000ml",
+        "ean": "8414837061219",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/8414837061219.jpg",
+        "storeName": "Vv Piqueras Sauvignon Verdejo Organic 3L BIB"
+      },
+      "selver": {
+        "price": 26.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piqueras-sauvignon-verdejo-300cl",
+        "size": "3000ml",
+        "ean": "8414837061219",
+        "storeUnitPrice": 8.93,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8414837061219.jpg",
+        "storeName": "Piqueras Sauvignon-Verdejo 300cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zensa pinot grigio mahe 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-zensa-pinot-grigio-organic-0-75l/",
+        "size": "750ml",
+        "ean": "8052432831839",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/8052432831839.png",
+        "storeName": "Vv Zensa Pinot Grigio Organic 0.75L"
+      },
+      "selver": {
+        "price": 12.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/zensa-pinot-grigio-organic-75-cl",
+        "size": "750ml",
+        "ean": "8052432831839",
+        "storeUnitPrice": 16.73,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8052432831839.jpg",
+        "storeName": "Zensa Pinot Grigio Organic 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Terre collina pinot grigio 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-terre-collina-pinot-grigio-0-75l/",
+        "size": "750ml",
+        "ean": "4740158010006",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/4740158010006.png",
+        "storeName": "Vv Terre Collina Pinot Grigio 0.75L"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pinot-grigio-lucido-terre-siciliane-75-cl",
+        "size": "750ml",
+        "ean": "4740158010006",
+        "storeUnitPrice": 9.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010006.jpg",
+        "storeName": "Pinot Grigio Lucido Terre Siciliane 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dreamer late harvest chardonnay 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-dreamer-late-harvest-chardonnay-0-75l-2/",
+        "size": "750ml",
+        "ean": "4740158010709",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740158010709.png",
+        "storeName": "Vv Dreamer Late Harvest Chardonnay 0.75L"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dreamer-late-harvest-chardonnay-75-cl",
+        "size": "750ml",
+        "ean": "4740158010709",
+        "storeUnitPrice": 8.92,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010709.jpg",
+        "storeName": "Dreamer Late Harvest Chardonnay 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cono sur riesling bicicleta 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-cono-sur-bicicleta-riesling-0-75l/",
+        "size": "750ml",
+        "ean": "7804320156903",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/7804320156903.jpg",
+        "storeName": "Vv Cono Sur Bicicleta Riesling 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cono-sur-riesling-cono-sur-75-cl",
+        "size": "750ml",
+        "ean": "7804320156903",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7804320156903.jpg",
+        "storeName": "Cono Sur Riesling, Cono Sur, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tommasi le rosse pinot grigio 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-tommasi-le-rosse-pinot-grigio-0-75l/",
+        "size": "750ml",
+        "ean": "8004645365106",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8004645365106.jpg",
+        "storeName": "Vv Tommasi le Rosse Pinot Grigio 0.75L"
+      },
+      "selver": {
+        "price": 16.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tommasi-le-rosse-pinot-grigio-75-cl",
+        "size": "750ml",
+        "ean": "8004645365106",
+        "storeUnitPrice": 16.65,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8004645365106.jpg",
+        "storeName": "Tommasi Le Rosse Pinot Grigio 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Litoral blanco tetra 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-litoral-blanco-1l-tetra/",
+        "size": "1000ml",
+        "ean": "8410775402510",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8410775402510.jpg",
+        "storeName": "Vv Litoral Blanco 1L tetra"
+      },
+      "selver": {
+        "price": 6.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/litoral-blanco-1-l",
+        "size": "1000ml",
+        "ean": "8410775402510",
+        "storeUnitPrice": 6.39,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410775402510.jpg",
+        "storeName": "Litoral blanco 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marques de riscal rueda verdejo 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-marques-de-riscal-rueda-0-75l/",
+        "size": "750ml",
+        "ean": "8410866434222",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/8410866430019.png",
+        "storeName": "Vv Marques de Riscal Rueda Verdejo 0.75L"
+      },
+      "selver": {
+        "price": 13.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marques-de-riscal-rueda-75-cl",
+        "size": "750ml",
+        "ean": "8410866434222",
+        "storeUnitPrice": 18.65,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410866430019.jpg",
+        "storeName": "Marques de Riscal Rueda 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Villa maria sauvignon blanc marlborough 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-villa-maria-sauv-bl-marlborough-0-75l/",
+        "size": "750ml",
+        "ean": "9414416305528",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/9414416305528.png",
+        "storeName": "Vv Villa Maria Sauvignon Blanc Marlborough 0.75L"
+      },
+      "selver": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/villa-maria-private-bin-sauvignon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "9414416305528",
+        "storeUnitPrice": 22.65,
+        "image": "https://www.selver.ee/img/800/800/resize/9/4/9414416305528.jpg",
+        "storeName": "Villa Maria Private Bin Sauvignon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ricossa gavi 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-ricossa-gavi-0-75l/",
+        "size": "750ml",
+        "ean": "8032610316310",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/8032610316310.png",
+        "storeName": "Vv Ricossa Gavi 0.75L"
+      },
+      "selver": {
+        "price": 15.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ricossa-gavi-docg-75-cl",
+        "size": "750ml",
+        "ean": "8032610316310",
+        "storeUnitPrice": 20.07,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8032610316310.jpg",
+        "storeName": "Ricossa Gavi DOCG 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barone montalto pinot grigio 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-barone-montalto-pinot-grigio-0-75l/",
+        "size": "750ml",
+        "ean": "8030423000730",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8030423000730.jpg",
+        "storeName": "Vv Barone Montalto Pinot Grigio 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/montalto-pinot-grigio-sicilia-igt-75-cl",
+        "size": "750ml",
+        "ean": "8030423000730",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8030423000730.jpg",
+        "storeName": "Montalto Pinot Grigio Sicilia IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize floreale pinot grigio 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-casa-charlize-floreale-p-grigio-0-75l/",
+        "size": "750ml",
+        "ean": "4740158009963",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740158009963.png",
+        "storeName": "Vv Casa Charlize Floreale Pinot Grigio 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-floreale-pinot-grigio-terre-siciliane-igt-75-cl",
+        "size": "750ml",
+        "ean": "4740158009963",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158009963.jpg",
+        "storeName": "Casa Charlize Floreale Pinot Grigio Terre Siciliane IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barone montalto passivento bianco 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 13.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-barone-montalto-passivento-bian-0-75l/",
+        "size": "750ml",
+        "ean": "8030423003816",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8030423003816.png",
+        "storeName": "Vv Barone Montalto Passivento Bianco 0.75L"
+      },
+      "selver": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barone-montalto-passivento-bianco-75-cl",
+        "size": "750ml",
+        "ean": "8030423003816",
+        "storeUnitPrice": 17.32,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8030423003816.jpg",
+        "storeName": "Barone Montalto Passivento Bianco 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kendermanns riesling 187ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-kendermanns-riesling-0-187l/",
+        "size": "187ml",
+        "ean": "4069600015063",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4069600015063.png",
+        "storeName": "Vv Kendermanns Riesling 0.187L"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kendermanns-riesling-18-7-cl",
+        "size": "187ml",
+        "ean": "4069600015063",
+        "storeUnitPrice": 21.34,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4069600015063.jpg",
+        "storeName": "Kendermanns Riesling 18,7 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casal garcia vinho verde branco 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-casal-garcia-vinho-verde-branco-0-75l/",
+        "size": "750ml",
+        "ean": "5601096208308",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/5601096208308.png",
+        "storeName": "Vv Casal Garcia Vinho Verde Branco 0.75L"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casal-garcia-vinho-verde-branco-75-cl",
+        "size": "750ml",
+        "ean": "5601096201309",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/5/6/5601096208308.jpg",
+        "storeName": "Casal Garcia Vinho Verde Branco 75 cl"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pasqua pinot grigio 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-pasqua-pinot-grigio-0-75l/",
+        "size": "750ml",
+        "ean": "8007880228205",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8007880228205.png",
+        "regularPrice": 9.99,
+        "storeName": "Vv Pasqua Pinot Grigio 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasqua-pinot-grigio-75-cl",
+        "size": "750ml",
+        "ean": "8007880228205",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8007880228205.jpg",
+        "storeName": "Pasqua Pinot Grigio 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Königsmosel riesling 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-konigsmosel-riesling-0-75l/",
+        "size": "750ml",
+        "ean": "4002410422089",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4002410422089.png",
+        "storeName": "Vv Königsmosel Riesling 0.75L"
+      },
+      "selver": {
+        "price": 9.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/konigsmosel-riesling-75-cl",
+        "size": "750ml",
+        "ean": "4002410422089",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4002410422089.jpg",
+        "storeName": "Königsmosel Riesling 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dreamer sweet white 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dreamer-sweet-white-arom-veinijook-1l/",
+        "size": "1000ml",
+        "ean": "4740158002940",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158002940.jpg",
+        "storeName": "Vv Dreamer Sweet White 1L"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dreamer-sweet-white-100-cl",
+        "size": "1000ml",
+        "ean": "4740158002940",
+        "storeUnitPrice": 6.49,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158002940.jpg",
+        "storeName": "Dreamer Sweet White 100 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hardys chardonnay main road 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-hardys-202-main-road-chardonnay-0-75l/",
+        "size": "750ml",
+        "ean": "5010134915786",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/5010134915786.png",
+        "storeName": "Vv Hardys 202 Main Road Chardonnay 0.75L"
+      },
+      "selver": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hardy-s-chardonnay-main-road-202-75cl",
+        "size": "750ml",
+        "ean": "5010134915786",
+        "storeUnitPrice": 7.99,
+        "image": "https://www.selver.ee/img/800/800/resize/5/0/5010134915786.jpg",
+        "storeName": "Hardy's Chardonnay Main Road 202 75cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Calecara fiano puglia 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-calecara-fiano-puglia-0-75l/",
+        "size": "750ml",
+        "ean": "8052049651264",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/8052049651264.png",
+        "storeName": "Vv Calecara Fiano Puglia 0.75L"
+      },
+      "selver": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/calecara-fiano-puglia-igt-75-cl",
+        "size": "750ml",
+        "ean": "8052049651264",
+        "storeUnitPrice": 15.99,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8052049651264.jpg",
+        "storeName": "Calecara Fiano Puglia IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "La piqueta sauvignon blanc 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-la-piqueta-sauvignon-blanc-0-75l/",
+        "size": "750ml",
+        "ean": "7804664410075",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/7804664410075.png",
+        "storeName": "Vv La Piqueta Sauvignon Blanc 0.75L"
+      },
+      "selver": {
+        "price": 8.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/la-piqueta-sauvignon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "7804664410075",
+        "storeUnitPrice": 11.19,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7804664410075.jpg",
+        "storeName": "La Piqueta Sauvignon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zibomare zibibbo terre siciliane 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-zibomare-zibibboterre-siciliane-0-75l/",
+        "size": "750ml",
+        "ean": "4740158011300",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4740158011300.png",
+        "storeName": "Vv Zibomare Zibibbo Terre Siciliane 0.75L"
+      },
+      "selver": {
+        "price": 11.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/zibibbo-terre-75-cl",
+        "size": "750ml",
+        "ean": "4740158011300",
+        "storeUnitPrice": 14.79,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011300.jpg",
+        "storeName": "Zibibbo Terre 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Henri ehrhart alsace riesling 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-henri-ehrhart-alsace-riesling-0-75l/",
+        "size": "750ml",
+        "ean": "3322721203667",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/3322721203667.png",
+        "storeName": "Vv Henri Ehrhart Alsace Riesling 0.75L"
+      },
+      "selver": {
+        "price": 11.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/henri-ehrhart-alsace-riesling-75-cl",
+        "size": "750ml",
+        "ean": "3322721203667",
+        "storeUnitPrice": 15.27,
+        "image": "https://www.selver.ee/img/800/800/resize/3/3/3322721203667.jpg",
+        "storeName": "Henri Ehrhart Alsace Riesling 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Henri ehrhart alsace pinot blanc 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-henri-ehrhart-alsace-pinot-blanc0-75l/",
+        "size": "750ml",
+        "ean": "3322721203650",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/3322721203650.png",
+        "storeName": "Vv Henri Ehrhart Alsace Pinot Blanc 0.75L"
+      },
+      "selver": {
+        "price": 10.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/henri-ehrhart-alsace-pinot-blanc-75-cl",
+        "size": "750ml",
+        "ean": "3322721203650",
+        "storeUnitPrice": 13.85,
+        "image": "https://www.selver.ee/img/800/800/resize/3/3/3322721203650.jpg",
+        "storeName": "Henri Ehrhart Alsace Pinot Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Despassino vinho verde branco 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-despassino-vinho-verde-branco-0-75l/",
+        "size": "750ml",
+        "ean": "5600302596598",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/5600302596598.png",
+        "storeName": "Vv Despassino Vinho Verde Branco 0.75L"
+      },
+      "selver": {
+        "price": 7.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/despassino-vinho-verde-branco-75-cl",
+        "size": "750ml",
+        "ean": "5600302596598",
+        "storeUnitPrice": 10.39,
+        "image": "https://www.selver.ee/img/800/800/resize/5/6/5600302596598.jpg",
+        "storeName": "Despassino Vinho Verde Branco 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maori bay chardonnay 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-maori-bay-chardonnay-0-75l/",
+        "size": "750ml",
+        "ean": "4044551066579",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4044551066579.png",
+        "storeName": "Vv Maori Bay Chardonnay 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maori-bay-chardonnay-75-cl",
+        "size": "750ml",
+        "ean": "4044551069846",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551069846.jpg",
+        "storeName": "Maori Bay Chardonnay 75 cl"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Serena pinot grigio veneto 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-serena-pinot-grigio-veneto-0-75l/",
+        "size": "750ml",
+        "ean": "8010719015747",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/8010719015747.png",
+        "storeName": "Vv Serena Pinot Grigio Veneto 0.75L"
+      },
+      "selver": {
+        "price": 8.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/serena-pinot-grigio-doc-delle-venezie-75-cl",
+        "size": "750ml",
+        "ean": "8010719015747",
+        "storeUnitPrice": 11.45,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8010719015747.jpg",
+        "storeName": "Serena Pinot Grigio Doc Delle Venezie 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Serena sauvignon veneto blanc 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-serena-sauvignon-blanc-veneto-0-75l/",
+        "size": "750ml",
+        "ean": "8010719015723",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/8010719015723.png",
+        "storeName": "Vv Serena Sauvignon Blanc Veneto 0.75L"
+      },
+      "selver": {
+        "price": 8.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/serena-sauvignon-veneto-igt-75-cl",
+        "size": "750ml",
+        "ean": "8010719015723",
+        "storeUnitPrice": 11.45,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8010719015723.jpg",
+        "storeName": "Serena Sauvignon Veneto IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Janela branca vinho verde 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-janela-branca-vinho-verde-0-75l/",
+        "size": "750ml",
+        "ean": "5600879340297",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/5600879340297.png",
+        "storeName": "Vv Janela Branca Vinho Verde 0.75L"
+      },
+      "selver": {
+        "price": 8.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vinho-verde-75-cl-t000084080",
+        "size": "750ml",
+        "ean": "5600879340297",
+        "storeUnitPrice": 11.85,
+        "image": "https://www.selver.ee/img/800/800/resize/5/6/5600879340297.jpg",
+        "storeName": "Vinho Verde 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gran castillo barcelona sauvignon blanc 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-gran-castillo-barcelona-sauvign-0-75l/",
+        "size": "750ml",
+        "ean": "4740158011560",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740158011560.png",
+        "storeName": "Vv Gran Castillo Barcelona Sauvignon Blanc 0.75L"
+      },
+      "selver": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barcelona-sauvignon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "4740158011560",
+        "storeUnitPrice": 9.99,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011560.jpg",
+        "storeName": "Barcelona Sauvignon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Johann brunner weisswein lieblich 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-johann-brunner-weissw-lieblich-0-75l/",
+        "size": "750ml",
+        "ean": "4044551068085",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4044551068085.png",
+        "storeName": "Vv Johann Brunner Weisswein Lieblich 0.75L"
+      },
+      "selver": {
+        "price": 6.96,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/weisswein-lieblich-75-cl",
+        "size": "750ml",
+        "ean": "4044551068085",
+        "storeUnitPrice": 7.59,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551068085.jpg",
+        "storeName": "Weisswein Lieblich 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dolce cioccolato bianco 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-dolce-cioccolate-bianco-0-75l/",
+        "size": "750ml",
+        "ean": "4740158010341",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740158010341.png",
+        "storeName": "Vv Dolce Cioccolato Bianco 0.75L"
+      },
+      "selver": {
+        "price": 7.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dolce-cioccolato-bianco-75-cl",
+        "size": "750ml",
+        "ean": "4740158010341",
+        "storeUnitPrice": 10.52,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158010341.jpg",
+        "storeName": "Dolce Cioccolato Bianco 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mucho mas white bib 3000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-mucho-mas-white-3l-bib/",
+        "size": "3000ml",
+        "ean": "8410702061087",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/8410702061087.png",
+        "storeName": "Vv Mucho Mas White 3L BIB"
+      },
+      "selver": {
+        "price": 32.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mucho-mas-white-wine-bib-300-cl",
+        "size": "3000ml",
+        "ean": "8410702061087",
+        "storeUnitPrice": 7.66,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410702061087.jpg",
+        "storeName": "Mucho Mas White Wine BIB 300 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rare vinho verde 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-rare-vinho-verde-0-75l/",
+        "size": "750ml",
+        "ean": "5600879340280",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/5600879340280.png",
+        "storeName": "Vv Rare Vinho Verde 0.75L"
+      },
+      "selver": {
+        "price": 9.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vinho-verde-75-cl-t000088470",
+        "size": "750ml",
+        "ean": "5600879340280",
+        "storeUnitPrice": 12.52,
+        "image": "https://www.selver.ee/img/800/800/resize/5/6/5600879340280.jpg",
+        "storeName": "Vinho Verde 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize pinot grigio terre siciliane 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-casa-charlize-p-grigio-terre-sic0-75l/",
+        "size": "750ml",
+        "ean": "4740158007648",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158007648.png",
+        "storeName": "Vv Casa Charlize Pinot Grigio Terre Siciliane0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-pinot-grigio-terre-siciliane-igt-75-cl",
+        "size": "750ml",
+        "ean": "4740158007648",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007648.jpg",
+        "storeName": "Casa Charlize Pinot Grigio Terre Siciliane IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize pinot grigio terre bib sicil 3000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 24.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-casa-charlize-p-grigio-terre-3l-bib/",
+        "size": "3000ml",
+        "ean": "4740158008713",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158008713.png",
+        "storeName": "Vv Casa Charlize Pinot Grigio Terre Sicil.3L BIB"
+      },
+      "selver": {
+        "price": 27.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-pinot-grigio-terre-siciliane-300-cl",
+        "size": "3000ml",
+        "ean": "4740158008713",
+        "storeUnitPrice": 8,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158008713.jpg",
+        "storeName": "Casa Charlize Pinot Grigio Terre Siciliane 300 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tommasi le fornaci lugana 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 16.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-tommasi-le-fornaci-lugana-0-75l/",
+        "size": "750ml",
+        "ean": "8004645359105",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8004645359105.png",
+        "storeName": "Vv Tommasi Le Fornaci Lugana 0.75L"
+      },
+      "selver": {
+        "price": 17.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tommasi-le-fornaci-lugana-75-cl",
+        "size": "750ml",
+        "ean": "8004645359105",
+        "storeUnitPrice": 17.99,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8004645359105.jpg",
+        "storeName": "Tommasi Le Fornaci Lugana 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vv crafted collection riesling gewürztraminer 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-crafted-collect-riesling-gewurz-0-75l/",
+        "size": "750ml",
+        "ean": "4069600018491",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4069600018491.png",
+        "storeName": "Vv Crafted Collection Riesling Gewürztraminer0.75L"
+      },
+      "selver": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kendermanns-c-c-riesling-gewutztraminer-75-cl",
+        "size": "750ml",
+        "ean": "4069600018491",
+        "storeUnitPrice": 9.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4069600018491.jpg",
+        "storeName": "Kendermanns C.C. Riesling Gewutztraminer 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Baron rosen vino blanco medium sweet tetra 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-baron-rosen-vino-blanco-semi-sweet-1l/",
+        "size": "1000ml",
+        "ean": "8437007139822",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8437007139822.png",
+        "storeName": "Vv Baron Rosen Vino Blanco Medium-Sweet 1L tetra"
+      },
+      "selver": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vino-blanco-semi-sweet-baron-rosen-100-cl",
+        "size": "1000ml",
+        "ean": "8437007139822",
+        "storeUnitPrice": 5.79,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8437007139822.jpg",
+        "storeName": "Vino Blanco Semi-Sweet, BARON ROSEN, 100 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ventisquero reserva chardonnay 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-ventisquero-reserva-chardonnay-0-75l/",
+        "size": "750ml",
+        "ean": "7808725400838",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/7808725400838.png",
+        "regularPrice": 9.49,
+        "storeName": "Vv Ventisquero Reserva Chardonnay 0.75L"
+      },
+      "selver": {
+        "price": 10.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ventisquero-reserva-chardonnay-75-cl",
+        "size": "750ml",
+        "ean": "7808725400838",
+        "storeUnitPrice": 10.79,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7808725400838.jpg",
+        "storeName": "Ventisquero Reserva Chardonnay 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ventisquero blanc res sauv 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-ventisquero-res-sauv-blanc-0-75l/",
+        "size": "750ml",
+        "ean": "7808725400258",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/7808725400258.png",
+        "storeName": "Vv Ventisquero Res.Sauv.Blanc 0.75L"
+      },
+      "selver": {
+        "price": 10.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ventisquero-reserva-sauvignon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "7808725400258",
+        "storeUnitPrice": 10.79,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7808725400258.jpg",
+        "storeName": "Ventisquero Reserva Sauvignon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vv crafted collection riesling 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-crafted-collection-riesling-0-75l/",
+        "size": "750ml",
+        "ean": "4069600018477",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4069600018477.png",
+        "storeName": "Vv Crafted Collection Riesling 0.75L"
+      },
+      "selver": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kendermanns-c-c-riesling-75-cl",
+        "size": "750ml",
+        "ean": "4069600018477",
+        "storeUnitPrice": 9.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4069600018477.jpg",
+        "storeName": "Kendermanns C.C. Riesling 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maori moana sauvignon blanc 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-maori-moana-sauvignon-blanc-0-75l/",
+        "size": "750ml",
+        "ean": "4003301083532",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4003301083532.png",
+        "regularPrice": 10.29,
+        "storeName": "Vv Maori Moana Sauvignon Blanc 0.75L"
+      },
+      "selver": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maori-moana-sauvignon-blanc-75-cl",
+        "size": "750ml",
+        "ean": "4003301083532",
+        "storeUnitPrice": 15.99,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4003301083532.jpg",
+        "storeName": "MAORI MOANA Sauvignon Blanc 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Old tbilisi alazani white semi sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-old-tbilisi-alazani-semi-sweet-0-75l/",
+        "size": "750ml",
+        "ean": "4860004070227",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4860004070227.png",
+        "storeName": "Vv Old Tbilisi Alazani White Semi Sweet 0.75L"
+      },
+      "selver": {
+        "price": 9.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/old-tbilisi-alazani-white-75-cl",
+        "size": "750ml",
+        "ean": "4860004070227",
+        "storeUnitPrice": 13.05,
+        "image": "https://www.selver.ee/img/800/800/resize/4/8/4860004070227.jpg",
+        "storeName": "Old Tbilisi Alazani White 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teliani valley alazani white 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vv-teliani-valley-alazani-valley-0-75l/",
+        "size": "750ml",
+        "ean": "4860065010064",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4860065010064.jpg",
+        "storeName": "Vv Teliani Valley Alazani Valley White 0.75L"
+      },
+      "selver": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teliani-valley-alazani-white-75-cl",
+        "size": "750ml",
+        "ean": "4860065010064",
+        "storeUnitPrice": 12.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/8/4860065010064.jpg",
+        "storeName": "Teliani Valley Alazani White 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Monte cristo Rv rose sweet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/monte-cristo-rose-sw-arom-puuv-vein-0-75/",
+        "size": "750ml",
+        "ean": "4740158007426",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158007426.jpg",
+        "storeName": "Rv Monte Cristo Rose Sweet 0.75L"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/monte-cristo-rose-75-cl",
+        "size": "750ml",
+        "ean": "4740158007426",
+        "storeUnitPrice": 7.85,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158007426.jpg",
+        "storeName": "Monte Cristo Rose 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Johann brunner Rv rose dornfelder 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-johann-brunner-dornfelder-rose-0-75l/",
+        "size": "750ml",
+        "ean": "4044551062939",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4044551062939.png",
+        "regularPrice": 7.79,
+        "storeName": "Rv Johann Brunner Dornfelder Rose 0.75L"
+      },
+      "selver": {
+        "price": 7.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/johann-brunner-rose-75-cl",
+        "size": "750ml",
+        "ean": "4044551062939",
+        "storeUnitPrice": 10.39,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4044551062939.jpg",
+        "storeName": "Johann Brunner Rose 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Penasol Rv rosado 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-penasol-rosado-1l/",
+        "size": "1000ml",
+        "ean": "8410702006569",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8410702006569.png",
+        "storeName": "Rv Penasol Rosado 1L"
+      },
+      "selver": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/penasol-vino-de-mesa-rose-100-cl",
+        "size": "1000ml",
+        "ean": "8410702006569",
+        "storeUnitPrice": 6.69,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410702006569.jpg",
+        "storeName": "Penasol Vino De Mesa Rose 100 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rv rose d anjou b g 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-bg-rose-d-anjou-0-75l/",
+        "size": "750ml",
+        "ean": "3035130501100",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/3035130501100.jpg",
+        "storeName": "Rv B&G Rose D Anjou 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/barton-guestier-rose-d-anjou-75-cl",
+        "size": "750ml",
+        "ean": "3035130501100",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/3/0/3035130501100.jpg",
+        "storeName": "Barton & Guestier Rose D`Anjou 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Soleil des alpes Rv rose provence 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 13.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-soleil-des-alpes-provence-rose-0-75l/",
+        "size": "750ml",
+        "ean": "3330620021725",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/3330620021725.png",
+        "storeName": "Rv Soleil Des Alpes Provence Rose 0.75L"
+      },
+      "selver": {
+        "price": 13.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soleil-des-alpes-rose-75-cl",
+        "size": "750ml",
+        "ean": "3330620021725",
+        "storeUnitPrice": 17.99,
+        "image": "https://www.selver.ee/img/800/800/resize/3/3/3330620021725.jpg",
+        "storeName": "Soleil des alpes Rose 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maison castel Rv rose d anjou 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-maison-castel-rose-d-anjou-0-75l/",
+        "size": "750ml",
+        "ean": "3211209217602",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/3211209217602.png",
+        "storeName": "Rv Maison Castel Rose D Anjou 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maison-castel-rose-d-anjou-75-cl",
+        "size": "750ml",
+        "ean": "3211209217602",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/3/2/3211209217602.jpg",
+        "storeName": "Maison Castel Rose d'Anjou 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize Rv floreale pinot grigio blush 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-c-charlize-floreale-p-grigio-ros0-75l/",
+        "size": "750ml",
+        "ean": "4740158009987",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740158009987.png",
+        "storeName": "Rv Casa Charlize Floreale Pinot Grigio Blush 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-floreale-pinot-grigio-blush-terre-siciliane-igt-75-cl",
+        "size": "750ml",
+        "ean": "4740158009987",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158009987.jpg",
+        "storeName": "Casa Charlize Floreale Pinot Grigio Blush Terre Siciliane IGT 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cono sur Rv bicicleta pinot noir rose 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cono-sur-bicicleta-pinot-noir-rose-0-75l/",
+        "size": "750ml",
+        "ean": "7804320555959",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/7804320555959.png",
+        "storeName": "Rv Cono Sur Bicicleta Pinot Noir Rose 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cono-sur-bicicleta-pinot-noir-rose-cono-sur-75-cl",
+        "size": "750ml",
+        "ean": "7804320555959",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/7/8/7804320555959.jpg",
+        "storeName": "Cono Sur Bicicleta Pinot Noir Rose, Cono Sur, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Despassino Rv vinho verde rose 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-despassino-vinho-verde-rose-0-75l/",
+        "size": "750ml",
+        "ean": "5600302596604",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/5600302596604.png",
+        "storeName": "Rv Despassino Vinho Verde Rose 0.75L"
+      },
+      "selver": {
+        "price": 7.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/despassino-vinho-verde-rose-75-cl",
+        "size": "750ml",
+        "ean": "5600302596604",
+        "storeUnitPrice": 10.39,
+        "image": "https://www.selver.ee/img/800/800/resize/5/6/5600302596604.jpg",
+        "storeName": "Despassino Vinho Verde Rose 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gran castillo Rv ibiza bobal rose moscato 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-gran-castillo-ibizabobalmos-ros-0-75l/",
+        "size": "750ml",
+        "ean": "4740158011584",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740158011584.png",
+        "storeName": "Rv Gran Castillo Ibiza Bobal Moscato Rose 0.75L"
+      },
+      "selver": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ibiza-bobal-moscto-rose-75-cl",
+        "size": "750ml",
+        "ean": "4740158011584",
+        "storeUnitPrice": 9.99,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011584.jpg",
+        "storeName": "Ibiza Bobal Moscto Rose 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dreamer Rv sweet rose 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-dreamer-sweet-rose-1l/",
+        "size": "1000ml",
+        "ean": "4740158009147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740158009147.png",
+        "storeName": "Rv Dreamer Sweet Rose 1L"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dreamer-sweet-rose-100-cl",
+        "size": "1000ml",
+        "ean": "4740158009147",
+        "storeUnitPrice": 6.49,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158009147.jpg",
+        "storeName": "Dreamer Sweet Rose 100 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Baron rosen Rv vino rose medium sweet tetra 1000ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-baron-rosen-vino-rose-medium-sweet-1l/",
+        "size": "1000ml",
+        "ean": "8436577600862",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/8436577600862.png",
+        "storeName": "Rv Baron Rosen Vino Rose Medium-Sweet 1L tetra"
+      },
+      "selver": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/baron-rosen-vino-rose-semi-sweet-100cl",
+        "size": "1000ml",
+        "ean": "8436577600862",
+        "storeUnitPrice": 5.79,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8436577600862.jpg",
+        "storeName": "Baron Rosen Vino Rose Semi-Sweet 100cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rv mini mi rose igp mediterrannee 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rv-mini-mi-rose-igp-mediterrannee-0-75l/",
+        "size": "750ml",
+        "ean": "3334861003465",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/3334861003465.png",
+        "storeName": "Rv Mini Mi Rose IGP Mediterrannee 0.75L"
+      },
+      "selver": {
+        "price": 13.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vins-breban-mini-mi-rose-igp-mediterrannee-75-cl",
+        "size": "750ml",
+        "ean": "3334861003465",
+        "storeUnitPrice": 12.79,
+        "image": "https://www.selver.ee/img/800/800/resize/3/3/3334861003465.jpg",
+        "storeName": "Vins Breban Mini Mi Rose IGP Mediterrannee 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Freixenet Prosecco dry extra 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 15.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/prosecco-freixenet-extra-dry-0-75l/",
+        "size": "750ml",
+        "ean": "8410036806422",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8410036806422.png",
+        "storeName": "Prosecco Freixenet Extra Dry 0.75L"
+      },
+      "selver": {
+        "price": 14.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/freixenet-prosesecco-75-cl",
+        "size": "750ml",
+        "ean": "8410036806422",
+        "storeUnitPrice": 19.99,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410036806422.jpg",
+        "storeName": "Freixenet Prosesecco 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cava clos amador Cava brut delicat reser 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 12.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cava-clos-amador-brut-delicat-reser0-75l/",
+        "size": "750ml",
+        "ean": "8426998257547",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8426998257547.png",
+        "storeName": "Cava Clos Amador Brut Delicat Reser0.75L"
+      },
+      "selver": {
+        "price": 12.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/clos-amador-cava-brut-delicat-reserva-75-cl",
+        "size": "750ml",
+        "ean": "8426998257547",
+        "storeUnitPrice": 17.2,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8426998257547.jpg",
+        "storeName": "Clos Amador Cava Brut Delicat Reserva 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Champagne brut imperial karbis chandon moet 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 63.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/moetchandon-brut-imper-champagne-0-75l/",
+        "size": "750ml",
+        "ean": "3185370763957",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/3185370001233.png",
+        "storeName": "Champagne Moet&Chandon Brut Imperial 0.75L karbis"
+      },
+      "selver": {
+        "price": 61.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/moet-chandon-brut-imperial-75-cl-karbis",
+        "size": "750ml",
+        "ean": "3185370763957",
+        "storeUnitPrice": 82.65,
+        "image": "https://www.selver.ee/img/800/800/resize/3/1/3185370001233.jpg",
+        "storeName": "Moet & Chandon Brut Imperial 75 cl karbis"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Contarini Vahuvein blanc de blancs dry extra 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/contarini-blanc-de-blancs-extra-dry0-75l/",
+        "size": "750ml",
+        "ean": "8005400004049",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/8005400004049.png",
+        "storeName": "Vahuvein Contarini Blanc de Blancs Extra Dry 0.75L"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/contarini-blanc-de-blancs-milles-contarini-75-cl",
+        "size": "750ml",
+        "ean": "8005400004049",
+        "storeUnitPrice": 9.32,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8005400004049.jpg",
+        "storeName": "Contarini Blanc de Blancs Milles, CONTARINI, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gratien&meyer Cremant brut de loire 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gratienmeyer-cremant-de-loire-brut-0-75/",
+        "size": "750ml",
+        "ean": "3113590000392",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/3113590000392.png",
+        "storeName": "Cremant de Loire Gratien&Meyer Brut 0.75L"
+      },
+      "selver": {
+        "price": 12.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gratien-meyer-brut-cremant-de-loire-75-cl",
+        "size": "750ml",
+        "ean": "3113590000392",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/3/1/3113590000392.jpg",
+        "storeName": "Gratien&Meyer Brut Cremant de Loire 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Martini asti Vahuvein 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/martini-asti-kpn-kv-vahuvein-0-75l/",
+        "size": "750ml",
+        "ean": "8000570435402",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8000570001461.png",
+        "storeName": "Vahuvein Martini Asti 0.75L"
+      },
+      "selver": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/martini-asti-75-cl",
+        "size": "750ml",
+        "ean": "8000570435402",
+        "storeUnitPrice": 11.99,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8000570005056.jpg",
+        "storeName": "Martini Asti 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Martini Prosecco 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 13.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/martini-prosecco-0-75l/",
+        "size": "750ml",
+        "ean": "8000570552505",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8000570552505.jpg",
+        "storeName": "Prosecco Martini 0.75L"
+      },
+      "selver": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/martini-prosecco-75-cl",
+        "size": "750ml",
+        "ean": "8000570552505",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8000570552505.jpg",
+        "storeName": "Martini Prosecco 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maschio Prosecco extra dry treviso 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/prosecco-maschio-treviso-extra-dry-0-75l/",
+        "size": "750ml",
+        "ean": "8001540002228",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8001540002228.png",
+        "storeName": "Prosecco Maschio Treviso Extra Dry 0.75L"
+      },
+      "selver": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maschio-prosecco-spumante-extra-dry-75-cl",
+        "size": "750ml",
+        "ean": "8001540002228",
+        "storeUnitPrice": 11.45,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8001540002228.jpg",
+        "storeName": "Maschio Prosecco Spumante Extra Dry, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zonin Prosecco cuvee 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/zonin-prosecco-cuvee-1821-0-75l/",
+        "size": "750ml",
+        "ean": "8002235835053",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8002235004091.png",
+        "storeName": "Prosecco Zonin Cuvee 1821 0.75L"
+      },
+      "selver": {
+        "price": 11.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/zonin-prosecco-cuvee-brut-zonin-75-cl",
+        "size": "750ml",
+        "ean": "8002235835053",
+        "storeUnitPrice": 11.99,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8002235835053.jpg",
+        "storeName": "Zonin Prosecco Cuvee Brut, ZONIN, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mionetto Prosecco treviso brut 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mionetto-prosecco-treviso-brut-0-75l/",
+        "size": "750ml",
+        "ean": "8006220001669",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8006220001669.png",
+        "storeName": "Prosecco Mionetto Treviso Brut 0.75L"
+      },
+      "selver": {
+        "price": 11.17,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mionetto-prestige-prosecco-doc-treviso-brut-75-cl",
+        "size": "750ml",
+        "ean": "8006220001669",
+        "storeUnitPrice": 11.45,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8006220001669.jpg",
+        "storeName": "Mionetto Prestige Prosecco Doc Treviso Brut 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Freixenet Cava carta nevada seco semi 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cava-freixenet-carta-nevada-s-seco-0-75l/",
+        "size": "750ml",
+        "ean": "8410036002015",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8410036002015.png",
+        "storeName": "Cava Freixenet Carta Nevada Semi Seco 0.75L"
+      },
+      "selver": {
+        "price": 10.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/freixenet-carta-nevada-75-cl",
+        "size": "750ml",
+        "ean": "8410036002015",
+        "storeUnitPrice": 14.49,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410036002015.jpg",
+        "storeName": "Freixenet Carta Nevada 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gaseeritud rabarber mull puuviljavein 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mull-rabarber-puuviljavahuvein-0-75l/",
+        "size": "750ml",
+        "ean": "4742022090046",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4742022090046.png",
+        "storeName": "Gaseeritud puuviljavein Mull Rabarber 0.75L"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mull-rabarber-75-cl",
+        "size": "750ml",
+        "ean": "4742022090046",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4742022090046.jpg",
+        "storeName": "MULL° Rabarber 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maschio Prosecco extra dry treviso 200ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maschio-treviso-prosecco-extra-dry-0-2l/",
+        "size": "200ml",
+        "ean": "8002550504764",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/8002550504764.png",
+        "storeName": "Prosecco Maschio Treviso Extra Dry 0.2L"
+      },
+      "selver": {
+        "price": 4.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maschio-prosecco-spumante-extra-dry-20-cl",
+        "size": "200ml",
+        "ean": "8002550504764",
+        "storeUnitPrice": 16.95,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8002550504764.jpg",
+        "storeName": "Maschio Prosecco Spumante Extra Dry 20 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veuve clicquot Champagne brut karbis 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 74.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veuve-clicquot-ponsardin-champagne-0-75l/",
+        "size": "750ml",
+        "ean": "3049614225802",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/3049610004111.jpg",
+        "storeName": "Champagne Veuve Clicquot Brut 0.75L karbis"
+      },
+      "selver": {
+        "price": 59.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/veuve-clicquot-brut-75-cl",
+        "size": "750ml",
+        "ean": "3049614225802",
+        "storeUnitPrice": 79.99,
+        "image": "https://www.selver.ee/img/800/800/resize/3/0/3049614083891.jpg",
+        "storeName": "Veuve Clicquot Brut 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sovetskoje Vahuvein polusladkoje 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sovetskoje-polusl-puuviljavahuvein-0-75l/",
+        "size": "750ml",
+        "ean": "4740158001097",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158001097.jpg",
+        "storeName": "Vahuvein Sovetskoje Polusladkoje 0.75L"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sovetskoje-polusladkoje-75-cl",
+        "size": "750ml",
+        "ean": "4740158001097",
+        "storeUnitPrice": 7.85,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158001097.jpg",
+        "storeName": "Sovetskoje Polusladkoje 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sovetskoje Vahuvein sladkoje 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sovetskoje-sladkoje-puuv-vahuv-0-75l/",
+        "size": "750ml",
+        "ean": "4740158001103",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158001103.jpg",
+        "storeName": "Vahuvein Sovetskoje Sladkoje 0.75L"
+      },
+      "selver": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sovetskoje-sladkoje-75-cl",
+        "size": "750ml",
+        "ean": "4740158001103",
+        "storeUnitPrice": 5.8,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158001103.jpg",
+        "storeName": "Sovetskoje Sladkoje 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casa charlize Vahuvein blanc de blancs brut 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/casa-charlize-blanc-de-blancs-brut-0-75l/",
+        "size": "750ml",
+        "ean": "4740158012307",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740158012307.png",
+        "regularPrice": 8.59,
+        "storeName": "Vahuvein Casa Charlize Blanc de Blancs Brut 0.75L"
+      },
+      "selver": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/casa-charlize-blanc-de-blancs-75-cl",
+        "size": "750ml",
+        "ean": "4740158012307",
+        "storeUnitPrice": 9.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158012307.jpg",
+        "storeName": "CASA CHARLIZE Blanc de Blancs, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Wõlu Gas kollane ploom puuviljavein tud 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/wolu-kollane-ploom-gas-tud-vein0-75l/",
+        "size": "750ml",
+        "ean": "4740158011188",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740158011188.png",
+        "storeName": "Gas-tud puuviljavein Wõlu Kollane Ploom 0.75L"
+      },
+      "selver": {
+        "price": 6.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahutav-kollane-ploom-75-cl",
+        "size": "750ml",
+        "ean": "4740158011188",
+        "storeUnitPrice": 6.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158011188.jpg",
+        "storeName": "Vahutav Kollane Ploom 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cremant paul g valentin de limoux brut nr 88 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 16.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paul-g-valent-de-limoux-nr-88-brut-0-75l/",
+        "size": "750ml",
+        "ean": "3760090890505",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/3760090890505.png",
+        "storeName": "Cremant de Limoux Paul G Valentin Nr.88 Brut 0.75L"
+      },
+      "selver": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paul-g-valentin-cremant-de-limoux-blanc-brut-nr-88-75-cl",
+        "size": "750ml",
+        "ean": "3760090890505",
+        "storeUnitPrice": 13.32,
+        "image": "https://www.selver.ee/img/800/800/resize/3/7/3760090890505.jpg",
+        "storeName": "Paul G Valentin Crémant de Limoux Blanc Brut Nr. 88 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Paul g valentin de limoux rose 69 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 16.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paul-g-valentin-de-limoux-rose-69-0-75l/",
+        "size": "750ml",
+        "ean": "3760090890536",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/3760090890536.png",
+        "storeName": "Paul G Valentin de Limoux Rose 69 0.75L"
+      },
+      "selver": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paul-g-valentin-cremant-de-limoux-rose-brut-nr-69-75-cl",
+        "size": "750ml",
+        "ean": "3760090890536",
+        "storeUnitPrice": 14.65,
+        "image": "https://www.selver.ee/img/800/800/resize/3/7/3760090890536.jpg",
+        "storeName": "Paul G Valentin Crémant de Limoux Rosé Brut nr. 69 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ca perla Ca blanc de blancs mahe 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ca-perla-blanc-de-blancs-organic-0-75l/",
+        "size": "750ml",
+        "ean": "8022836009028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8022836009028.png",
+        "storeName": "Ca Perla Blanc de Blancs Organic 0.75L"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/blanc-de-blancs-extra-dry-75-cl",
+        "size": "750ml",
+        "ean": "8022836009028",
+        "storeUnitPrice": 8.79,
+        "image": "https://www.selver.ee/img/800/800/resize/8/0/8022836009028.jpg",
+        "storeName": "Blanc De Blancs, Extra Dry 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cabaret Cava brut 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cava-castell-dor-cabaret-brut-0-75l/",
+        "size": "750ml",
+        "ean": "8437020585163",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/8437020585163.png",
+        "storeName": "Cava Cabaret Brut 0.75L"
+      },
+      "selver": {
+        "price": 11.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cava-cabaret-brut-75-cl",
+        "size": "750ml",
+        "ean": "8437020585163",
+        "storeUnitPrice": 13.05,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8437020585163.jpg",
+        "storeName": "Cava Cabaret Brut 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dulong Cremant de bordeaux brut 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 15.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dulong-cremant-de-bordeaux-brut-0-75l/",
+        "size": "750ml",
+        "ean": "3272810304341",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/5718147419344.png",
+        "storeName": "Cremant Dulong de Bordeaux Brut 0.75L"
+      },
+      "selver": {
+        "price": 13.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dulong-cremant-de-bordeaux-brut-75-cl",
+        "size": "750ml",
+        "ean": "3272810304341",
+        "storeUnitPrice": 14.65,
+        "image": "https://www.selver.ee/img/800/800/resize/3/2/3272810304341.jpg",
+        "storeName": "Dulong Cremant de Bordeaux Brut 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jaume serra Cava semi seco 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cava-jaume-serra-semi-seco-0-75l/",
+        "size": "750ml",
+        "ean": "8411277205678",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/8411277205678.png",
+        "storeName": "Cava Jaume Serra Semi Seco 0.75L"
+      },
+      "selver": {
+        "price": 10.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jaume-serra-cava-semi-seco-75-cl",
+        "size": "750ml",
+        "ean": "8411277205678",
+        "storeUnitPrice": 10.65,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8411277205678.jpg",
+        "storeName": "Jaume Serra Cava Semi Seco 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Wõlu Gas rabarber puuviljavein tud 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/wolu-rabarber-gas-tud-puuviljavein0-75l/",
+        "size": "750ml",
+        "ean": "4740158008478",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158008478.png",
+        "storeName": "Gas-tud puuviljavein Wõlu Rabarber 0.75L"
+      },
+      "selver": {
+        "price": 6.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/wolu-rabarber-75-cl",
+        "size": "750ml",
+        "ean": "4740158008478",
+        "storeUnitPrice": 6.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158008478.jpg",
+        "storeName": "Wõlu Rabarber 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Wõlu Gas tikker puuviljavein tud 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/wolu-tikker-gas-tud-puuviljavein-0-75l/",
+        "size": "750ml",
+        "ean": "4740158008539",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158008539.png",
+        "regularPrice": 6.49,
+        "storeName": "Gas-tud puuviljavein Wõlu Tikker 0.75L"
+      },
+      "selver": {
+        "price": 6.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/wolu-vahutav-tikker-75-cl",
+        "size": "750ml",
+        "ean": "4740158008539",
+        "storeUnitPrice": 6.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158008539.jpg",
+        "storeName": "Wõlu Vahutav Tikker 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Wõlu Gas maasikas puuviljavein tud 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/wolu-maasikas-gas-tud-puuviljavein-0-75l/",
+        "size": "750ml",
+        "ean": "4740158008492",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740158008492.png",
+        "storeName": "Gas-tud puuviljavein Wõlu Maasikas 0.75L"
+      },
+      "selver": {
+        "price": 6.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahutav-maasikas-75-cl",
+        "size": "750ml",
+        "ean": "4740158008492",
+        "storeUnitPrice": 6.65,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740158008492.jpg",
+        "storeName": "Vahutav Maasikas 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Wallbreck Cremant de loire brut 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 12.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/wallbreck-cremant-de-loire-brut-0-75l/",
+        "size": "750ml",
+        "ean": "4008106010592",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4008106010592.png",
+        "storeName": "Cremant Wallbreck de Loire Brut 0.75L"
+      },
+      "selver": {
+        "price": 13.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/wallbreck-cremant-de-loire-brut-75-cl",
+        "size": "750ml",
+        "ean": "4008106010592",
+        "storeUnitPrice": 15.32,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/4008106010592.jpg",
+        "storeName": "Wallbreck  Cremant de Loire Brut 75 cl"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sära Vahuvein moijto mulliga 750ml",
+    "category": "Wine",
+    "prices": {
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sara-mulliga-moijto-vahuvein-0-75l/",
+        "ean": "4748001953494",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/4748001953494.png",
+        "storeName": "Vahuvein Sära mulliga Moijto 0.75"
+      },
+      "selver": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahuveinijook-moijto-sara-75-cl",
+        "size": "750ml",
+        "ean": "4748001953494",
+        "storeUnitPrice": 8.25,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4748001953494.jpg",
+        "storeName": "Vahuveinijook Moijto, SÄRA, 75 cl"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Absolut Viin 40% 700ml",

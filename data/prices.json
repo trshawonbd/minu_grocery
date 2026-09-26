@@ -141845,6 +141845,15 @@
         "image": "https://cdn.barbora.ee/products/2f554bb8-67ee-4313-8f95-6565872a65d6_m.png",
         "storeName": "Külmutatud kalapulgad ESVA, 250g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalapulgad-esva-250g/",
+        "size": "250g",
+        "ean": "4740056091008",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740056091008.jpg",
+        "storeName": "Kalapulgad Esva 250g külmutatud"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -141859,12 +141868,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalapulgad-esva-250-g",
         "size": "250g",
+        "ean": "4740056091008",
         "storeUnitPrice": 8.36,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056091008.jpg",
         "storeName": "Kalapulgad, ESVA, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Esva kalapulgad silver 250g",
@@ -141886,6 +141896,7 @@
         "cardPrice": 2.25,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "4740056091800",
         "storeUnitPrice": 11.56,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056091800.jpg",
         "storeName": "Kalapulgad Silver, ESVA, 250 g"
@@ -141938,6 +141949,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalapulgad-smart-choice-vici-250-g",
         "size": "250g",
+        "ean": "4740056098595",
         "storeUnitPrice": 6.36,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056098595.jpg",
         "storeName": "Kalapulgad Smart Choice, VICI, 250 g"
@@ -141958,17 +141970,27 @@
         "image": "https://cdn.barbora.ee/products/3b6377c4-5409-4ec5-98cb-fc105f5e904b_m.png",
         "storeName": "Külm. kalapulgad Muumi VICI, 250g"
       },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalapulgad-muumi-250g/",
+        "size": "250g",
+        "ean": "4740056074865",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740056074865.png",
+        "storeName": "Kalapulgad Muumi Vici 250g külmutatud"
+      },
       "selver": {
         "price": 2.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/kalapulgad-muumi-vici-250-g",
         "size": "250g",
+        "ean": "4740056074865",
         "storeUnitPrice": 9.56,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056074865.jpg",
         "storeName": "Kalapulgad Muumi, VICI, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Saare fishexport Räim 1000g",
@@ -141988,6 +142010,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kulmutatud-raim-saare-fishexport-1-kg",
         "size": "1000g",
+        "ean": "4740378000412",
         "storeUnitPrice": 2.99,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740378000412.jpg",
         "storeName": "Külmutatud räim, SAARE FISHEXPORT, 1 kg"
@@ -141996,9 +142019,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Vici Kalafilee krõbedas paneeringus 400g",
+    "name": "Vici Kalafilee krõbedas paneeringus külmut 400g",
     "category": "Frozen fish & seafood",
     "prices": {
+      "coop": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-kalafilee-krobedas-paneeringus-400g/",
+        "size": "400g",
+        "ean": "4740056000260",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/4740056000260.png",
+        "storeName": "Kalafilee krõbedas paneeringus Vici 400g külmut."
+      },
       "rimi": {
         "price": 5.59,
         "currency": "EUR",
@@ -142013,17 +142045,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalafilee-krobedas-paneeringus-msc-vici-400-g",
         "size": "400g",
+        "ean": "4740056000260",
         "storeUnitPrice": 9.98,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056000260.jpg",
         "storeName": "Kalafilee krõbedas paneeringus, MSC, VICI, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Vici Kalafileepalad tempura taignas 300g",
     "category": "Frozen fish & seafood",
     "prices": {
+      "coop": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-kalafileepalad-tempura-taignas-300g/",
+        "size": "300g",
+        "ean": "4740056076630",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740056076630.png",
+        "storeName": "Kalafileepalad tempura taignas Vici 300g"
+      },
       "rimi": {
         "price": 5.89,
         "currency": "EUR",
@@ -142038,12 +142080,178 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalafileepalad-tempura-taignas-vici-300-g",
         "size": "300g",
+        "ean": "4740056076630",
         "storeUnitPrice": 19.63,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056076630.jpg",
         "storeName": "Kalafileepalad tempura taignas, VICI, 300 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalafileepulgad double panko 285g",
+    "category": "Frozen fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalafileepulgad-285g/",
+        "size": "285g",
+        "ean": "4740056072106",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740056072106.png",
+        "storeName": "Kalafileepulgad Double Panko 285g külmutatud"
+      },
+      "rimi": {
+        "price": 5.15,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-kala-ja-mereannid/kulmutatud-kalatooted/kalafileepulgad-panko-double-285g/p/914861",
+        "size": "285g",
+        "storeUnitPrice": 18.07,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_914861_PCE_EE",
+        "storeName": "Kalafileepulgad Panko Double 285g"
+      },
+      "selver": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalafileepulgad-panko-paneeringus-vici-285-g",
+        "size": "285g",
+        "ean": "4740056072106",
+        "storeUnitPrice": 17.86,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056072106.jpg",
+        "storeName": "Kalafileepulgad Panko paneeringus, VICI, 285 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Esva Kalapulgad kiles 400g",
+    "category": "Frozen fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalapulgad-esva-400g/",
+        "size": "400g",
+        "ean": "4740056091206",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740056091206.jpg",
+        "storeName": "Kalapulgad Esva 400g kiles külmutatud"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalapulgad-esva-400-g",
+        "size": "400g",
+        "ean": "4740056091206",
+        "storeUnitPrice": 5.73,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056091206.jpg",
+        "storeName": "Kalapulgad, ESVA, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vici Pan kala 800g",
+    "category": "Frozen fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pan-kala-vici-800g/",
+        "size": "800g",
+        "ean": "4740056092050",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740056092050.png",
+        "storeName": "Pan.kala Vici 800g külmutatud"
+      },
+      "selver": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paneeritud-kala-hakitud-filee-vici-800-g",
+        "size": "800g",
+        "ean": "4740056092050",
+        "storeUnitPrice": 11.24,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056092050.jpg",
+        "storeName": "Paneeritud kala (hakitud filee), VICI, 800 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marine hiidkrevetisabad koorimata 21 300g",
+    "category": "Frozen fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 8.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marine-hiidkrevetisabad-koorimata-300g/",
+        "size": "300g",
+        "ean": "4740188018072",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4740188018072.jpg",
+        "storeName": "Marine hiidkrevetisabad koorimata 300g"
+      },
+      "selver": {
+        "price": 8.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorimata-toored-hiidkrevetisabad-vannamei-21-25-300-g-marine-240-g-neto",
+        "size": "300g",
+        "ean": "4740188018072",
+        "storeUnitPrice": 35.96,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188018072.jpg",
+        "storeName": "Koorimata toored hiidkrevetisabad Vannamei 21/25 300 g, MARINE, 240 g neto"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marine Krevetid koorimata 90 360g",
+    "category": "Frozen fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 6.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krevetid-koorimata-360g/",
+        "size": "360g",
+        "ean": "4740188017433",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740188017433.png",
+        "storeName": "Krevetid koorimata 90/120 Marine 360g külmutatud"
+      },
+      "selver": {
+        "price": 7.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krevett-koorimata-90-120-marine-360-g",
+        "size": "360g",
+        "ean": "4740188017433",
+        "storeUnitPrice": 20.25,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188017433.jpg",
+        "storeName": "Krevett koorimata 90/120, MARINE, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vici Pan surimikrevetid 170g",
+    "category": "Frozen fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pan-surimikrevetid-170g/",
+        "size": "170g",
+        "ean": "4770190036214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190036214.png",
+        "storeName": "Pan.surimikrevetid Vici 170g külmutatud"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paneeritud-krevetid-surimist-mini-vici-170-g",
+        "size": "170g",
+        "ean": "4770190036214",
+        "storeUnitPrice": 13.47,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4770190036214.jpg",
+        "storeName": "Paneeritud Krevetid surimist MINI, VICI, 170 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Vici pitsapõhjad 320g",

@@ -23342,6 +23342,15 @@
         "storeUnitPrice": 14.45,
         "storeName": "Toorjuust Classic PHILADELPHIA , 200g"
       },
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/philadelphia-classic-toorjuust-200g/",
+        "size": "200g",
+        "ean": "7622210582799",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4000339035229.png",
+        "storeName": "Philadelphia Classic toorjuust 200g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -23356,11 +23365,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/toorjuust-classic-philadelphia-200-g",
         "size": "200g",
+        "ean": "7622210582799",
         "storeUnitPrice": 14.95,
         "storeName": "Toorjuust Classic, PHILADELPHIA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Estover Juust vene viilutatud 150g",
@@ -23399,6 +23409,15 @@
         "storeUnitPrice": 8.95,
         "storeName": "Juust EESTI viilutatud, 200g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eesti-juust-200g-viil/",
+        "size": "200g",
+        "ean": "4740572000102",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572000102.png",
+        "storeName": "Eesti Juust Estover 200g viilutatud"
+      },
       "rimi": {
         "price": 2.49,
         "currency": "EUR",
@@ -23406,9 +23425,18 @@
         "size": "200g",
         "storeUnitPrice": 12.45,
         "storeName": "Juust Eesti viilutatud Estover 200g"
+      },
+      "selver": {
+        "price": 3.13,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-juust-25-2-viilud-estover-200-g",
+        "size": "200g",
+        "ean": "4740572000102",
+        "storeUnitPrice": 15.65,
+        "storeName": "Eesti Juust 25,2% viilud, ESTOVER, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Philadelphia Toorjuust light küüsl 200g",
@@ -23449,6 +23477,15 @@
         "regularPrice": 6.49,
         "storeName": "Juust VALIO Oltermanni, 500g"
       },
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-oltermanni-500g/",
+        "size": "500g",
+        "ean": "6408430033805",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6408430033805.png",
+        "storeName": "Juust Oltermanni Valio 500g"
+      },
       "rimi": {
         "price": 6.99,
         "currency": "EUR",
@@ -23456,9 +23493,18 @@
         "size": "500g",
         "storeUnitPrice": 13.98,
         "storeName": "Juust Oltermanni Valio 500g"
+      },
+      "selver": {
+        "price": 7.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-oltermanni-29-laktoosivaba-valio-500-g",
+        "size": "500g",
+        "ean": "6408430033805",
+        "storeUnitPrice": 14.64,
+        "storeName": "Juust Oltermanni 29% laktoosivaba, VALIO, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Valio Juust royal gouda red 250g",
@@ -23472,6 +23518,15 @@
         "storeUnitPrice": 14.76,
         "storeName": "Juust Royal Gouda VALIO Red, 250g"
       },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-royal-gouda-250g/",
+        "size": "250g",
+        "ean": "4740553008868",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553008868.png",
+        "storeName": "Juust Royal Gouda Red Valio 250g"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -23480,9 +23535,18 @@
         "storeUnitPrice": 11.56,
         "regularPrice": 3.69,
         "storeName": "Juust Royal Gouda Red Valio 250g"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/royal-gouda-red-juust-laktoosivaba-valio-250-g",
+        "size": "250g",
+        "ean": "4740553008868",
+        "storeUnitPrice": 15,
+        "storeName": "Royal Gouda Red juust laktoosivaba, VALIO, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Valio Juust royal gouda red viil 150g",
@@ -23532,6 +23596,30 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Valio Juust edam 200g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juust-valio-edam-200-g",
+        "size": "200g",
+        "storeUnitPrice": 12.75,
+        "storeName": "Juust VALIO Edam, 200g"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-edam-200g/",
+        "size": "200g",
+        "ean": "4740553005560",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740553005560.png",
+        "storeName": "Juust Edam Valio 200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Farmi Toorjuust murulauguga 150g",
     "category": "Cheese",
     "prices": {
@@ -23543,16 +23631,26 @@
         "storeUnitPrice": 15,
         "storeName": "Toorjuust FARMI murulauguga 150g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorjuust-murulaugu-150g/",
+        "size": "150g",
+        "ean": "4740123001640",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740123001640-1.png",
+        "storeName": "Toorjuust murulaugu Farmi 150g"
+      },
       "selver": {
         "price": 2.3,
         "currency": "EUR",
         "url": "https://www.selver.ee/toorjuust-murulauguga-farmi-150-g",
         "size": "150g",
+        "ean": "4740123001640",
         "storeUnitPrice": 15.33,
         "storeName": "Toorjuust murulauguga, FARMI, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Toorjuust küüslauguga 150g",
@@ -23566,16 +23664,95 @@
         "storeUnitPrice": 15,
         "storeName": "Toorjuust FARMI küüslauguga,150g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorjuust-kuuslaugu-150g/",
+        "size": "150g",
+        "ean": "4740123001633",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123001633-1.png",
+        "storeName": "Toorjuust küüslaugu Farmi 150g"
+      },
       "selver": {
         "price": 2.3,
         "currency": "EUR",
         "url": "https://www.selver.ee/toorjuust-kuuslauguga-farmi-150-g",
         "size": "150g",
+        "ean": "4740123001633",
         "storeUnitPrice": 15.33,
         "storeName": "Toorjuust küüslauguga, FARMI, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Riivjuust 200g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/riivjuust-mo-saaremaa-200-g",
+        "size": "200g",
+        "storeUnitPrice": 8.95,
+        "regularPrice": 2.63,
+        "storeName": "Riivjuust MO SAAREMAA, 200g"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riivjuust-200g/",
+        "size": "200g",
+        "ean": "4740153594211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153594211.png",
+        "storeName": "Riivjuust MO Saaremaa 200g"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-riivitud-laktoosivaba-mo-saaremaa-200-g",
+        "size": "200g",
+        "ean": "4740153594211",
+        "storeUnitPrice": 13.15,
+        "storeName": "Juust riivitud laktoosivaba, MO SAAREMAA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Juust emmental viil 150g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juust-emmental-estover-viil-150-g",
+        "cardPrice": 1.49,
+        "cardName": "Aitäh",
+        "size": "150g",
+        "storeUnitPrice": 9.93,
+        "storeName": "Juust Emmental ESTOVER viil.,150g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-emmental-150g-viil/",
+        "size": "150g",
+        "ean": "4740572002632",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572002632.jpg",
+        "storeName": "Juust Emmental Estover 150g viil"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/emmental-juust-28-5-viilutatud-estover-150-g",
+        "size": "150g",
+        "ean": "4740572002632",
+        "storeUnitPrice": 17.53,
+        "storeName": "Emmental juust 28,5% viilutatud, ESTOVER, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Köögi toorjuust 400g",
@@ -23589,16 +23766,26 @@
         "storeUnitPrice": 9.23,
         "storeName": "Köögi toorjuust FARMI 400g"
       },
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorjuust-koogi-400g/",
+        "size": "400g",
+        "ean": "4740113034849",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113034849.png",
+        "storeName": "Toorjuust Köögi Farmi 400g"
+      },
       "selver": {
         "price": 3.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/koogi-toorjuust-farmi-400-g",
         "size": "400g",
+        "ean": "4740113034849",
         "storeUnitPrice": 9.23,
         "storeName": "Köögi toorjuust, FARMI, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Valio Juust royal gouda yellow 300g",
@@ -23611,6 +23798,15 @@
         "size": "300g",
         "storeUnitPrice": 13.87,
         "storeName": "Juust Royal Gouda VALIO Yellow, 300g"
+      },
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-royal-gouda-300g/",
+        "size": "300g",
+        "ean": "4740553697406",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553697406.png",
+        "storeName": "Juust Royal Gouda Yellow Valio 300g"
       },
       "rimi": {
         "price": 3.29,
@@ -23648,6 +23844,41 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Valio atleet Riivjuust küpsetistele 200g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/riivjuust-atleet-valio-kupsetistele-200-g",
+        "cardPrice": 1.79,
+        "cardName": "Aitäh",
+        "size": "200g",
+        "storeUnitPrice": 8.95,
+        "storeName": "Riivjuust Atleet VALIO küpsetistele,200g"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riivjuust-atleet-200g-2/",
+        "size": "200g",
+        "ean": "4740553690032",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553690032.png",
+        "storeName": "Riivjuust küpsetistele Valio Atleet 200g"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-kupsetistele-riivitud-valio-200-g",
+        "size": "200g",
+        "ean": "4740553690032",
+        "storeUnitPrice": 13.15,
+        "storeName": "Juust Atleet küpsetistele riivitud, VALIO, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Piimameister otto Toorjuust 400g",
     "category": "Cheese",
     "prices": {
@@ -23658,6 +23889,15 @@
         "size": "400g",
         "storeUnitPrice": 8.63,
         "storeName": "Toorjuust PIIMAMEISTER OTTO , 400g"
+      },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorjuust-400g/",
+        "size": "400g",
+        "ean": "4740572004810",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572004810.jpg",
+        "storeName": "Toorjuust Piimameister Otto 400g"
       },
       "rimi": {
         "price": 3.49,
@@ -23672,11 +23912,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/toorjuust-piimameister-otto-400-g",
         "size": "400g",
+        "ean": "4740572004810",
         "storeUnitPrice": 8.63,
         "storeName": "Toorjuust, PIIMAMEISTER OTTO, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Estover Riivjuust eesti 400g",
@@ -23728,11 +23969,79 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-valio-185-g",
         "size": "185g",
+        "ean": "4740553692609",
         "storeUnitPrice": 10.7,
         "storeName": "Sulatatud juust, VALIO, 185 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Nopri Juust gouda karulauguga 250g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juust-gouda-nopri-karulauguga-250-g",
+        "size": "250g",
+        "storeUnitPrice": 15.56,
+        "regularPrice": 5.19,
+        "storeName": "Juust Gouda NOPRI karulauguga, 250g"
+      },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-gouda-karulauk250g/",
+        "size": "250g",
+        "ean": "4740218002705",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740218002705.png",
+        "storeName": "Juust Gouda karulauguga Nopri 250g"
+      },
+      "selver": {
+        "price": 5.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gouda-karulauguga-nopri-250-g",
+        "size": "250g",
+        "ean": "4740218002705",
+        "storeUnitPrice": 20.88,
+        "storeName": "Gouda Karulauguga, NOPRI, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Juustuampsud 200g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juustuampsud-mo-saaremaa-200-g",
+        "size": "200g",
+        "storeUnitPrice": 15.45,
+        "storeName": "Juustuampsud MO SAAREMAA, 200g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-juustuampsud-200g/",
+        "size": "200g",
+        "ean": "4740153510143",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740153510143.png",
+        "storeName": "Juustuampsud MO Saaremaa 200g"
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustuampsud-klassikalised-laktoosivaba-mo-saaremaa-200-g",
+        "size": "200g",
+        "ean": "4740153510143",
+        "storeUnitPrice": 15.5,
+        "storeName": "Juustuampsud klassikalised laktoosivaba, MO SAAREMAA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Nopri Grilljuust tšilliga 200g",
@@ -23760,6 +24069,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/grilljuust-tsilliga-nopri-200g",
         "size": "200g",
+        "ean": "4740218003429",
         "storeUnitPrice": 23.5,
         "storeName": "Grilljuust tšilliga, NOPRI, 200g"
       }
@@ -23779,6 +24089,15 @@
         "regularPrice": 2.09,
         "storeName": "Sulatatud juust MEREVAIK Premium, 170g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/merevaik-premium-sulatatud-juust-170g/",
+        "size": "170g",
+        "ean": "4740036016175",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4740036016175.png",
+        "storeName": "Sulatatud juust Merevaik Premium 170g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -23792,11 +24111,45 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-premium-merevaik-170-g",
         "size": "170g",
+        "ean": "4740036016175",
         "storeUnitPrice": 10.53,
         "storeName": "Sulatatud juust premium, MEREVAIK, 170 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "E-piim Juust gouda viilutatud 300g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juust-gouda-e-piim-viilutatud-300-g",
+        "size": "300g",
+        "storeUnitPrice": 12.3,
+        "storeName": "Juust Gouda E-PIIM viilutatud, 300g"
+      },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gouda-juust-300g/",
+        "size": "300g",
+        "ean": "4740142004219",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740142004219.png",
+        "storeName": "Gouda juust Epiim 300g viilutatud"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gouda-juust-viilud-laktoosivaba-epiim-300g",
+        "size": "300g",
+        "ean": "4740142004219",
+        "storeUnitPrice": 11.63,
+        "storeName": "Gouda juust viilud laktoosivaba, EPIIM, 300g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "E-piim Riivjuust light 250g",
@@ -23810,6 +24163,15 @@
         "storeUnitPrice": 7.96,
         "storeName": "Riivjuust E-PIIM Light, 250g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/e-piim-riivjuust-light-250g/",
+        "size": "250g",
+        "ean": "4740142005353",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4740142005353.png",
+        "storeName": "Riivjuust light Epiim 250g"
+      },
       "selver": {
         "price": 2.73,
         "currency": "EUR",
@@ -23817,11 +24179,78 @@
         "cardPrice": 1.89,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "4740142005353",
         "storeUnitPrice": 10.92,
         "storeName": "Riivjuust light, EPIIM, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Juust edam viil 450g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 5.88,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juust-edam-mo-saaremaa-viil-450-g",
+        "size": "450g",
+        "storeUnitPrice": 13.07,
+        "storeName": "Juust Edam MO SAAREMAA viil., 450g"
+      },
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-juust-edam-450g-viil/",
+        "size": "450g",
+        "ean": "4740153064042",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740153064042.png",
+        "storeName": "Juust Edam MO Saaremaa 450g viil"
+      },
+      "selver": {
+        "price": 5.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/edam-juust-viil-laktoosivaba-mo-saaremaa-450-g",
+        "size": "450g",
+        "ean": "4740153064042",
+        "storeUnitPrice": 13.07,
+        "storeName": "Edam juust viil laktoosivaba, MO SAAREMAA, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Juust viil 450g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 5.88,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juust-saaremaa-mo-saaremaa-viil-450-g",
+        "size": "450g",
+        "storeUnitPrice": 13.07,
+        "storeName": "Juust Saaremaa MO SAAREMAA viil., 450g"
+      },
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-saaremaa-juust-450g-viil/",
+        "size": "450g",
+        "ean": "4740153064028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/4740153064028.png",
+        "storeName": "Saaremaa juust MO Saaremaa 450g viil"
+      },
+      "selver": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saaremaa-juust-viil-laktoosivaba-mo-saaremaa-450-g",
+        "size": "450g",
+        "ean": "4740153064028",
+        "storeUnitPrice": 8.2,
+        "storeName": "Saaremaa juust viil laktoosivaba, MO SAAREMAA, 450 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Royal blue Sinihallitusjuust 100g",
@@ -23834,6 +24263,15 @@
         "size": "100g",
         "storeUnitPrice": 21.9,
         "storeName": "Sinihallitusjuust ROYAL BLUE, 100g"
+      },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/royal-blue-s-h-juust-100g/",
+        "size": "100g",
+        "ean": "4740572006227",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740572006227.png",
+        "storeName": "Sinihallitusjuust Royal Blue 100g"
       },
       "rimi": {
         "price": 1.59,
@@ -23849,11 +24287,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sinihallitusjuust-royal-blue-100-g-t000075603",
         "size": "100g",
+        "ean": "4740572006227",
         "storeUnitPrice": 18.9,
         "storeName": "Sinihallitusjuust, ROYAL BLUE, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Nopri Grilljuust 200g",
@@ -23868,6 +24307,15 @@
         "regularPrice": 4.69,
         "storeName": "Grilljuust NOPRI, 200g"
       },
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nopri-grilljuust-200g/",
+        "size": "200g",
+        "ean": "4740218002828",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740218002828.jpg",
+        "storeName": "Grilljuust Nopri 200g"
+      },
       "rimi": {
         "price": 4.9,
         "currency": "EUR",
@@ -23881,8 +24329,35 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/grilljuust-nopri-200-g",
         "size": "200g",
+        "ean": "4740218002828",
         "storeUnitPrice": 23.45,
         "storeName": "Grilljuust, NOPRI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Piimameister otto Toorjuust küüslaugu ürtidega 150g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/toorjuust-otto-kuuslaugu-urtidega-150-g",
+        "cardPrice": 1.35,
+        "cardName": "Aitäh",
+        "size": "150g",
+        "storeUnitPrice": 9,
+        "storeName": "Toorjuust OTTO küüslaugu-ürtidega,150g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pm-otto-toorjuust-kuuslaugu-urtidega150g/",
+        "size": "150g",
+        "ean": "4740572006296",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740572006296.png",
+        "storeName": "Toorjuust küüslaugu-ürtidega Piimameister Otto150g"
       }
     },
     "matchedVia": "automatic"
@@ -23899,16 +24374,35 @@
         "storeUnitPrice": 10,
         "storeName": "Sulatatud juust HIIRTE JUUST, 185g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiirte-sulatatud-juust-185g/",
+        "size": "185g",
+        "ean": "4740572006166",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740572006166.png",
+        "storeName": "Sulatatud juust Hiirte 185g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/maardejuustud-toorjuustud-suitsujuustud/sulatatud-juust-hiirte-185g/p/997401",
+        "size": "185g",
+        "storeUnitPrice": 7.51,
+        "regularPrice": 1.85,
+        "storeName": "Sulatatud juust Hiirte 185g"
+      },
       "selver": {
         "price": 1.87,
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-hiirte-juust-185-g",
         "size": "185g",
+        "ean": "4740572006166",
         "storeUnitPrice": 10.11,
         "storeName": "Sulatatud juust, HIIRTE JUUST, 185 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Piimameister otto Toorjuust 150g",
@@ -23923,6 +24417,15 @@
         "size": "150g",
         "storeUnitPrice": 9,
         "storeName": "Toorjuust OTTO, 150g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pm-otto-toorjuust-150g/",
+        "size": "150g",
+        "ean": "4740572006302",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740572006302.png",
+        "storeName": "Toorjuust Piimameister Otto 150g"
       },
       "rimi": {
         "price": 1.99,
@@ -23948,6 +24451,15 @@
         "regularPrice": 5.19,
         "storeName": "Gouda juust NOPRI tšilli 250g"
       },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-gouda-tshilli-250g/",
+        "size": "250g",
+        "ean": "4740218002477",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740218002477.png",
+        "storeName": "Juust Gouda tshilli Nopri 250g"
+      },
       "selver": {
         "price": 5.22,
         "currency": "EUR",
@@ -23955,11 +24467,12 @@
         "cardPrice": 3.99,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "4740218002477",
         "storeUnitPrice": 20.88,
         "storeName": "Gouda Tšilli juust, NOPRI, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Valio Sulatatud juust 370g",
@@ -24008,6 +24521,30 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Bergader Sinihallitusjuust gourmet 100g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sinihallitusjuust-bergader-gourmet-100-g",
+        "size": "100g",
+        "storeUnitPrice": 28.4,
+        "storeName": "Sinihallitusjuust BERGADER Gourmet,100g"
+      },
+      "selver": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gourmet-sinihallitusjuust-bergader-100-g",
+        "size": "100g",
+        "ean": "4006402101570",
+        "storeUnitPrice": 28.4,
+        "storeName": "Gourmet sinihallitusjuust, BERGADER, 100 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "E-piim Brõnsa juust 200g",
     "category": "Cheese",
     "prices": {
@@ -24024,6 +24561,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/bronsa-juust-epiim-200-g",
         "size": "200g",
+        "ean": "4740142005438",
         "storeUnitPrice": 12.65,
         "storeName": "Brõnsa juust, EPIIM, 200 g"
       }
@@ -24059,6 +24597,7 @@
         "cardPrice": 3.79,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740218004747",
         "storeUnitPrice": 23.85,
         "storeName": "Grilljuust Kohvri Döner kebab, NOPRI, 200 g"
       }
@@ -24086,6 +24625,7 @@
         "cardPrice": 1.49,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740553692814",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust maitseürdi, ALMA, 200 g"
       }
@@ -24106,6 +24646,15 @@
         "storeUnitPrice": 7.95,
         "storeName": "Sulatatud juust ALMA 200g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-sulatatud-juust-200g/",
+        "size": "200g",
+        "ean": "4740553692807",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740553692807.png",
+        "storeName": "Sulatatud juust Alma 200g"
+      },
       "rimi": {
         "price": 1.89,
         "currency": "EUR",
@@ -24121,11 +24670,12 @@
         "cardPrice": 1.49,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740553692807",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust, ALMA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Sulatatud juust trühvli 200g",
@@ -24141,6 +24691,15 @@
         "storeUnitPrice": 7.95,
         "storeName": "Sulatatud juust ALMA trühvlimaits. 200g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-sulatatud-juust-ktruhvlimaits-200g/",
+        "size": "200g",
+        "ean": "4740553692838",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740553692838.png",
+        "storeName": "Sulatatud juust trühvlimaitseline Alma 200g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24154,11 +24713,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-truhvlimaitseline-alma-200-g",
         "size": "200g",
+        "ean": "4740553692838",
         "storeUnitPrice": 8.45,
         "storeName": "Sulatatud juust trühvlimaitseline, ALMA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Sulatatud juust kreveti 200g",
@@ -24174,6 +24734,15 @@
         "storeUnitPrice": 7.95,
         "storeName": "Sulatatud juust ALMA kreveti 200g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-sulatatud-juust-kreveti-200g/",
+        "size": "200g",
+        "ean": "4740553692821",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740553692821.png",
+        "storeName": "Sulatatud juust kreveti Alma 200g"
+      },
       "selver": {
         "price": 1.99,
         "currency": "EUR",
@@ -24181,11 +24750,12 @@
         "cardPrice": 1.49,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740553692821",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust kreveti, ALMA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Sulatatud juust cheddari tšilli 200g",
@@ -24201,6 +24771,15 @@
         "storeUnitPrice": 7.95,
         "storeName": "Sulatatud juust ALMA Cheddari-tšilli200g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-sul-juust-cheddari-tshilli-200g/",
+        "size": "200g",
+        "ean": "4740553692845",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/4740553692845.png",
+        "storeName": "Sulatatud juust cheddari-tshilli Alma 200g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24214,8 +24793,59 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-cheddari-tsilli-alma-200-g",
         "size": "200g",
+        "ean": "4740553692845",
         "storeUnitPrice": 8.45,
         "storeName": "Sulatatud juust cheddari-tšilli, ALMA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kortos Salatijuust ürtidega 160g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/salatijuust-kortos-urtidega-160-g",
+        "cardPrice": 1.79,
+        "cardName": "Aitäh",
+        "size": "160g",
+        "storeUnitPrice": 11.19,
+        "storeName": "Salatijuust KORTOS ürtidega 160g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kortos-salatijuust-urtidega-160g/",
+        "size": "160g",
+        "ean": "5909000031906",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/5909000031906.png",
+        "storeName": "Salatijuust ürtidega Kortos 160g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mo saaremaa Juust saare leet viil 450g",
+    "category": "Cheese",
+    "prices": {
+      "barbora": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juust-saare-leet-mo-saaremaa-viil-450-g",
+        "size": "450g",
+        "storeUnitPrice": 13.76,
+        "storeName": "Juust Saare Leet MO SAAREMAA viil., 450g"
+      },
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-juust-saare-leet-450g-viil/",
+        "size": "450g",
+        "ean": "4740153064059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740153064059.png",
+        "storeName": "Juust Saare Leet MO Saaremaa 450g viil"
       }
     },
     "matchedVia": "automatic"
@@ -24248,6 +24878,15 @@
     "name": "Merevaik Sulatatud juust 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-merevaik-200g/",
+        "size": "200g",
+        "ean": "4740500000105",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740500000105.png",
+        "storeName": "Sulatatud juust Merevaik 200g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24261,16 +24900,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-merevaik-200-g",
         "size": "200g",
+        "ean": "4740500000105",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust, MEREVAIK, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Piimameister otto Mozzarella kirsid 125g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mozzarella-kirsid-125g-2/",
+        "size": "125g",
+        "ean": "4740588001018",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740588001018.jpg",
+        "storeName": "Mozzarella kirsid Piimameister Otto 125g"
+      },
       "rimi": {
         "price": 1.75,
         "currency": "EUR",
@@ -24284,16 +24933,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mozzarella-kirsid-piimameister-otto-125-g",
         "size": "125g",
+        "ean": "4740588001018",
         "storeUnitPrice": 13.52,
         "storeName": "Mozzarella Kirsid, PIIMAMEISTER OTTO, 125 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "President Valgehallitusjuust camembert 120g",
+    "name": "President Camembert juust valgehal 120g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-h-juust-camembert-120g-2/",
+        "size": "120g",
+        "ean": "5906207510074",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/5906207510074.png",
+        "storeName": "Camembert valgehal.juust President 120g"
+      },
       "rimi": {
         "price": 2.85,
         "currency": "EUR",
@@ -24307,16 +24966,59 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/camembert-valgehallitusjuust-president-120-g",
         "size": "120g",
+        "ean": "5906207510074",
         "storeUnitPrice": 27,
         "storeName": "Camembert valgehallitusjuust, PRESIDENT, 120 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio Juust atleet originaal viil 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-atleet-orig-150g/",
+        "size": "150g",
+        "ean": "4740553000152",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553000152.jpg",
+        "storeName": "Juust Atleet Originaal Valio 150g viil"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/viilutatud-juust/juust-atleet-originaal-viil-valio-150g/p/206916",
+        "size": "150g",
+        "storeUnitPrice": 10.6,
+        "storeName": "Juust Atleet Originaal viil. Valio 150g"
+      },
+      "selver": {
+        "price": 1.67,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-originaal-26-viilud-valio-150-g",
+        "size": "150g",
+        "ean": "4740553000152",
+        "storeUnitPrice": 11.13,
+        "storeName": "Juust Atleet Originaal 26% viilud, VALIO, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Merevaik Sulatatud juust 370g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-merevaik-370g/",
+        "size": "370g",
+        "ean": "4740036013853",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036013853-1.png",
+        "storeName": "Sulatatud juust Merevaik 370g"
+      },
       "rimi": {
         "price": 3.59,
         "currency": "EUR",
@@ -24330,16 +25032,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-merevaik-370-g",
         "size": "370g",
+        "ean": "4740036013853",
         "storeUnitPrice": 9.16,
         "storeName": "Sulatatud juust, MEREVAIK, 370 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Merevaik Sulatatud juust laktoosivaba 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-merevaik-200g-2/",
+        "size": "200g",
+        "ean": "4740036013457",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036013457.png",
+        "storeName": "Sulatatud juust Merevaik 200g laktoosivaba"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24353,16 +25065,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-200-g-laktoosivaba-merevaik",
         "size": "200g",
+        "ean": "4740036013457",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust 200 g, Laktoosivaba, MEREVAIK"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Valio Juust atleet originaal 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-atleet-orig-200g/",
+        "size": "200g",
+        "ean": "4740553000572",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553000572.jpg",
+        "storeName": "Juust Atleet Originaal Valio 200g"
+      },
       "rimi": {
         "price": 2.49,
         "currency": "EUR",
@@ -24376,16 +25098,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/juust-atleet-originaal-valio-200-g",
         "size": "200g",
+        "ean": "4740553000572",
         "storeUnitPrice": 12.65,
         "storeName": "Juust Atleet Originaal, VALIO, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Merevaik Sulatatud juust murulauguga 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-murulaugu-200g/",
+        "size": "200g",
+        "ean": "4740500000174",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740500000174.png",
+        "storeName": "Sulatatud juust murulauguga Merevaik 200g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24399,16 +25131,61 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-murulauguga-merevaik-200-g",
         "size": "200g",
+        "ean": "4740500000174",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust murulauguga, MEREVAIK, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Olympus Feta juust 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/feta-juust-olympos-150g/",
+        "size": "150g",
+        "ean": "5202178053078",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/5202178053078.png",
+        "storeName": "Feta juust Olympus 150g"
+      },
+      "rimi": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/feta-ja-mozzarellajuustud/juust-feta-olympus-150g/p/294376",
+        "size": "150g",
+        "storeUnitPrice": 22.33,
+        "storeName": "Juust Feta Olympus 150g"
+      },
+      "selver": {
+        "price": 3.34,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fetajuust-olympus-150-g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "5202178053078",
+        "storeUnitPrice": 22.27,
+        "storeName": "Fetajuust, OLYMPUS, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Merevaik Sulatatud juust röstitud kanaga 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-rostkanaga-200/",
+        "size": "200g",
+        "ean": "4740500000228",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740500000228.png",
+        "storeName": "Sulatatud juust röstitud kanaga Merevaik 200g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24422,11 +25199,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-rostitud-kanaga-merevaik-200-g",
         "size": "200g",
+        "ean": "4740500000228",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust röstitud kanaga, MEREVAIK, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Philadelphia Toorjuust light 200g",
@@ -24446,6 +25224,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/toorjuust-light-philadelphia-200-g",
         "size": "200g",
+        "ean": "7622201702816",
         "storeUnitPrice": 19.95,
         "storeName": "Toorjuust Light, PHILADELPHIA, 200 g"
       }
@@ -24469,6 +25248,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-murulaugu-urdi-valio-185-g",
         "size": "185g",
+        "ean": "4740553692647",
         "storeUnitPrice": 10.7,
         "storeName": "Sulatatud juust murulaugu-ürdi, VALIO, 185 g"
       }
@@ -24479,6 +25259,15 @@
     "name": "Merevaik Sulatatud juust kukeseentega 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-kukeseene-200g/",
+        "size": "200g",
+        "ean": "4740500000211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740500000211-1.png",
+        "storeName": "Sulatatud juust kukeseentega Merevaik 200g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24492,16 +25281,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-kukeseentega-merevaik-200-g",
         "size": "200g",
+        "ean": "4740500000211",
         "storeUnitPrice": 9.95,
         "storeName": "Sulatatud juust kukeseentega, MEREVAIK, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Juustu mix 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustu-mix-200g/",
+        "size": "200g",
+        "ean": "4740123001282",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123001282.png",
+        "storeName": "Juustu mix Farmi 200g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -24515,16 +25314,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/juustu-mix-farmi-200-g",
         "size": "200g",
+        "ean": "4740123001282",
         "storeUnitPrice": 16.25,
         "storeName": "Juustu mix, FARMI, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Tere Suitsujuust 18% 200g",
+    "name": "Tere Suitsujuust kiles 18% 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suitsujuust-200g/",
+        "size": "200g",
+        "ean": "4740036010890",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036010890.jpg",
+        "storeName": "Suitsujuust Tere 200g kiles"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -24540,16 +25349,116 @@
         "cardPrice": 2.49,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740036010890",
         "storeUnitPrice": 15.2,
         "storeName": "Suitsujuust 18%, TERE, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Merevaik Sulatatud juust krevettidega 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-kreveti-200g/",
+        "size": "200g",
+        "ean": "4740500000112",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740500000112-1.png",
+        "storeName": "Sulatatud juust krevettidega Merevaik 200g"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/maardejuustud-toorjuustud-suitsujuustud/sulatatud-juust-krevettidega-merevaik-200g/p/200120",
+        "size": "200g",
+        "storeUnitPrice": 9.95,
+        "storeName": "Sulatatud juust krevettidega Merevaik 200g"
       }
     },
     "matchedVia": "automatic"
   },
   {
+    "name": "Granarolo Juust burrata 125g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/granarolo-juust-burrata-125g/",
+        "size": "125g",
+        "ean": "8002670007466",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/8002670007466.png",
+        "storeName": "Juust Burrata Granarolo 125g"
+      },
+      "rimi": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/feta-ja-mozzarellajuustud/juust-burrata-granarolo-125g/p/4006728",
+        "size": "125g",
+        "storeUnitPrice": 27.12,
+        "storeName": "Juust Burrata Granarolo 125g"
+      },
+      "selver": {
+        "price": 3.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mozzarella-burrata-granarolo-125g",
+        "size": "125g",
+        "ean": "8002670007466",
+        "storeUnitPrice": 25.92,
+        "storeName": "Mozzarella Burrata, GRANAROLO, 125g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aristides Salatijuust 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aristides-salatijuust-200g/",
+        "size": "200g",
+        "ean": "4008960204069",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4008960204069.png",
+        "storeName": "Salatijuust Aristides 200g"
+      },
+      "rimi": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/feta-ja-mozzarellajuustud/salatijuust-aristides-200g/p/263611",
+        "size": "200g",
+        "storeUnitPrice": 12.45,
+        "storeName": "Salatijuust Aristides 200g"
+      },
+      "selver": {
+        "price": 2.5,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/salatijuust-aristides-200-g",
+        "size": "200g",
+        "ean": "4008960204069",
+        "storeUnitPrice": 12.5,
+        "storeName": "Salatijuust, ARISTIDES, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Farmi Võileivamääre hapukurgi tilli 150g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voileivamaare-150g/",
+        "size": "150g",
+        "ean": "4740113092382",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113092382.png",
+        "storeName": "Võileivamääre hapukurgi-tilli Farmi 150g"
+      },
       "rimi": {
         "price": 1.55,
         "currency": "EUR",
@@ -24563,11 +25472,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/voileivamaare-hapukurgi-tilli-farmi-150-g",
         "size": "150g",
+        "ean": "4740113092382",
         "storeUnitPrice": 9.93,
         "storeName": "Võileivamääre Hapukurgi- Tilli, FARMI, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Olympus Salatijuust kitsepiimast 150g",
@@ -24588,6 +25498,7 @@
         "cardPrice": 2.39,
         "cardName": "Partner",
         "size": "150g",
+        "ean": "5202178082900",
         "storeUnitPrice": 19.33,
         "storeName": "Salatijuust kitsepiimast, OLYMPUS, 150g"
       }
@@ -24595,9 +25506,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Exquisa Toorjuust fitline 0.2% 200g",
+    "name": "Exquisa toorjuust fitline 0.2% 200g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/exquisa-toorjuust-fitline-0-2-200g/",
+        "size": "200g",
+        "ean": "4019300005208",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/4019300005208.png",
+        "storeName": "Exquisa toorjuust fitline 0.2% 200g"
+      },
       "rimi": {
         "price": 2.29,
         "currency": "EUR",
@@ -24613,16 +25533,93 @@
         "cardPrice": 1.79,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4019300005208",
         "storeUnitPrice": 11.65,
         "storeName": "Toorjuust fitline 0,2%, EXQUISA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Mo saaremaa Sulatatud juust old saare 185g",
+    "name": "Valio Juust forte speciale 180g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-forte-speciale180g/",
+        "size": "180g",
+        "ean": "4740553698014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553698014.png",
+        "storeName": "Juust Forte Speciale Valio 180g"
+      },
+      "rimi": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/tukijuustud/juust-forte-speciale-valio-180g/p/293908",
+        "size": "180g",
+        "storeUnitPrice": 26.61,
+        "storeName": "Juust Forte Speciale Valio 180g"
+      },
+      "selver": {
+        "price": 4.67,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-forte-speciale-laktoosivaba-valio-180-g",
+        "size": "180g",
+        "ean": "4740553698014",
+        "storeUnitPrice": 25.94,
+        "storeName": "Juust Forte Speciale laktoosivaba, VALIO, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sulatatud juust maitserohelisega hiirte 185g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiirte-sul-juust-maitserohelisega-185g/",
+        "size": "185g",
+        "ean": "4740572006173",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740572006173.png",
+        "storeName": "Sulatatud juust maitserohelisega Hiirte 185g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/maardejuustud-toorjuustud-suitsujuustud/sulatatud-juust-maitserohelisega-hiirte-185g/p/997389",
+        "size": "185g",
+        "storeUnitPrice": 7.51,
+        "regularPrice": 1.85,
+        "storeName": "Sulatatud juust maitserohelisega Hiirte 185g"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sulatatud-juust-maitserohelisega-hiirte-juust-185-g",
+        "size": "185g",
+        "ean": "4740572006173",
+        "storeUnitPrice": 10.11,
+        "storeName": "Sulatatud juust maitserohelisega, HIIRTE JUUST, 185 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sulatatud juust old saare 185g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sul-juust-old-saare-185g/",
+        "size": "185g",
+        "ean": "4740153200013",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153200013.jpg",
+        "storeName": "Sulatatud juust Old Saare 185g"
+      },
       "rimi": {
         "price": 1.89,
         "currency": "EUR",
@@ -24636,8 +25633,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-old-saare-mo-saaremaa-185-g",
         "size": "185g",
+        "ean": "4740153200013",
         "storeUnitPrice": 10.11,
         "storeName": "Sulatatud juust Old Saare, MO SAAREMAA, 185 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Juust old saare 6 280g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-old-saare-juust-6-kuud-280g/",
+        "size": "280g",
+        "ean": "4740153321220",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/4740153321220.png",
+        "storeName": "Juust Old Saare 6 kuud MO Saaremaa 280g"
+      },
+      "rimi": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/tukijuustud/juust-old-saare-6-kuud-mo-saaremaa-280g/p/916800",
+        "size": "280g",
+        "storeUnitPrice": 16.75,
+        "storeName": "Juust Old Saare 6 kuud MO Saaremaa 280g"
       }
     },
     "matchedVia": "automatic"
@@ -24661,6 +25683,7 @@
         "cardPrice": 2.39,
         "cardName": "Partner",
         "size": "150g",
+        "ean": "5202178082153",
         "storeUnitPrice": 19.33,
         "storeName": "Salatijuust lambapiimast, OLYMPUS, 150g"
       }
@@ -24671,6 +25694,15 @@
     "name": "Merevaik Sulatatud juust musta trühvliga 170g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/merevaik-sul-juust-musta-truhvliga-170g/",
+        "size": "170g",
+        "ean": "4740036018117",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740036018117.png",
+        "storeName": "Sulatatud juust musta trühvliga Merevaik 170g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -24684,11 +25716,45 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sulatatud-juust-musta-truhvliga-merevaik-170-g",
         "size": "170g",
+        "ean": "4740036018117",
         "storeUnitPrice": 11.71,
         "storeName": "Sulatatud juust musta trühvliga, MEREVAIK, 170 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Juust red cheddar 280g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-juust-red-cheddar-280g/",
+        "size": "280g",
+        "ean": "4740153321268",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740153321268.png",
+        "storeName": "Juust Red Cheddar MO Saaremaa 280g"
+      },
+      "rimi": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/tukijuustud/juust-mo-saaremaa-red-cheddar-280g/p/4002600",
+        "size": "280g",
+        "storeUnitPrice": 14.61,
+        "storeName": "Juust MO Saaremaa Red Cheddar 280g"
+      },
+      "selver": {
+        "price": 4.16,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cheddar-juust-mo-saaremaa-280-g",
+        "size": "280g",
+        "ean": "4740153321268",
+        "storeUnitPrice": 14.86,
+        "storeName": "Cheddar juust, MO SAAREMAA, 280 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Mo saaremaa Sulatatud juust kadaka 185g",
@@ -24707,6 +25773,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kadaka-sulatatud-juust-mo-saaremaa-185-g",
         "size": "185g",
+        "ean": "4740153200020",
         "storeUnitPrice": 10.11,
         "storeName": "Kadaka sulatatud juust, MO SAAREMAA, 185 g"
       }
@@ -24714,9 +25781,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Synnove Juust itaallane kõva 150g",
+    "name": "Synnove Kõva juust itaallane 150g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-synnove-itaal-150g/",
+        "size": "150g",
+        "ean": "4740311000202",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7034281388000.png",
+        "storeName": "Kõva juust Synnove Itaallane 150g"
+      },
       "rimi": {
         "price": 3.69,
         "currency": "EUR",
@@ -24730,16 +25806,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kova-juust-synnove-itaallane-synnove-150-g",
         "size": "150g",
+        "ean": "4740311000202",
         "storeUnitPrice": 24.33,
         "storeName": "Kõva juust Synnove Itaallane, SYNNOVE, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Estover Juust vene viilutatud 28.5% 500g",
+    "name": "Estover Vene juust pt viil 28.5% 500g",
     "category": "Cheese",
     "prices": {
+      "coop": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vene-juust-500g-viil/",
+        "size": "500g",
+        "ean": "4740572001758",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572001758.png",
+        "storeName": "Vene juust Estover PT 500g viil"
+      },
       "rimi": {
         "price": 6.29,
         "currency": "EUR",
@@ -24753,11 +25839,1754 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vene-juust-28-5-viilutatud-estover-500-g",
         "size": "500g",
+        "ean": "4740572001758",
         "storeUnitPrice": 13.18,
         "storeName": "Vene juust 28,5% viilutatud, ESTOVER, 500 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Juust old saare 3 280g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-old-saare-juust-3-kuud-280g/",
+        "size": "280g",
+        "ean": "4740153321213",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740153321213.png",
+        "storeName": "Juust Old Saare 3 kuud MO Saaremaa 280g"
+      },
+      "rimi": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/tukijuustud/juust-old-saare-3-kuud-mo-saaremaa-280g/p/916778",
+        "size": "280g",
+        "storeUnitPrice": 14.96,
+        "storeName": "Juust Old Saare 3 kuud MO Saaremaa 280g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Golden monarch Sinihallitusjuust 100g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/golden-monarch-s-h-juust-100g/",
+        "size": "100g",
+        "ean": "4740572006234",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740572006234.png",
+        "storeName": "Sinihallitusjuust Golden Monarch 100g"
+      },
+      "rimi": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/hallitusjuustud/sinihallitusjuust-golden-monarch-100g/p/996915",
+        "size": "100g",
+        "storeUnitPrice": 21.5,
+        "storeName": "Sinihallitusjuust Golden Monarch 100g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sulatatud juust suitsujuustuga hiirte 185g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiirte-sulatatud-juust-suitsujuustu-185g/",
+        "size": "185g",
+        "ean": "4740572006180",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740572006180.png",
+        "storeName": "Sulatatud juust suitsujuustuga Hiirte 185g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/maardejuustud-toorjuustud-suitsujuustud/sulatatud-juust-suitsujuustuga-hiirte-185g/p/997388",
+        "size": "185g",
+        "storeUnitPrice": 7.51,
+        "regularPrice": 1.85,
+        "storeName": "Sulatatud juust suitsujuustuga Hiirte 185g"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sulatatud-juust-suitsujuustuga-hiirte-juust-185-g",
+        "size": "185g",
+        "ean": "4740572006180",
+        "storeUnitPrice": 10.11,
+        "storeName": "Sulatatud juust suitsujuustuga, HIIRTE JUUST, 185 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sulatatud juust grillkanaga hiirte 185g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiirte-sul-juust-grillkanaga-185g/",
+        "size": "185g",
+        "ean": "4740572006210",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740572006210.png",
+        "storeName": "Sulatatud juust grillkanaga Hiirte 185g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/maardejuustud-toorjuustud-suitsujuustud/sulatatud-juust-grillkanaga-hiirte-185g/p/997410",
+        "size": "185g",
+        "storeUnitPrice": 7.51,
+        "regularPrice": 1.85,
+        "storeName": "Sulatatud juust grillkanaga Hiirte 185g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Valio Juust tilsit 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-tilsit-juust-200g-2/",
+        "size": "200g",
+        "ean": "4740553691619",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740553691619.png",
+        "storeName": "Juust Tilsit Valio 200g"
+      },
+      "rimi": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/juust/tukijuustud/juust-tilsit-valio-200g/p/964732",
+        "size": "200g",
+        "storeUnitPrice": 12.95,
+        "storeName": "Juust Tilsit Valio 200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Viilujuust atleet cheddar 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/atleet-cheddar-150g/",
+        "size": "150g",
+        "ean": "4740553690919",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553690919.jpg",
+        "storeName": "Viilujuust Atleet Cheddar 150g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-cheddar-viilud-valio-150-g",
+        "size": "150g",
+        "ean": "4740553690919",
+        "storeUnitPrice": 15.27,
+        "storeName": "Juust Atleet Cheddar viilud, VALIO, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Juust atleet cheddar 250g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/atleet-cheddar-juust-250g/",
+        "size": "250g",
+        "ean": "4740553690902",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740553690902.png",
+        "storeName": "Juust Atleet Cheddar 250g"
+      },
+      "selver": {
+        "price": 3.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-cheddar-valio-250-g",
+        "cardPrice": 2.59,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4740553690902",
+        "storeUnitPrice": 14.48,
+        "storeName": "Juust Atleet Cheddar, VALIO, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio Viilujuust atleet cheddar 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 6.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-viilujuust-atleet-cheddar-500g/",
+        "size": "500g",
+        "ean": "4740553690926",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740553690926.png",
+        "storeName": "Viilujuust Atleet Cheddar Valio 500g"
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-cheddar-viilud-valio-500-g",
+        "size": "500g",
+        "ean": "4740553690926",
+        "storeUnitPrice": 8.98,
+        "storeName": "Juust Atleet Cheddar viilud, VALIO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Riivjuust atleet cheddar 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riivjuust-200g-2/",
+        "size": "200g",
+        "ean": "4740553690131",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740553690131.png",
+        "storeName": "Riivjuust Atleet Cheddar 200g"
+      },
+      "selver": {
+        "price": 2.73,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-cheddar-riivitud-valio-200-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740553690131",
+        "storeUnitPrice": 13.65,
+        "storeName": "Juust Atleet Cheddar riivitud, VALIO, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Delikatess Suitsutatud juustupats 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 5.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/delikatess-suitsutatud-juustupats-200g/",
+        "size": "200g",
+        "ean": "4740515888675",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4740515888675.png",
+        "storeName": "Suitsutatud juustupats Delikatess 200g"
+      },
+      "selver": {
+        "price": 5.58,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsutatud-juustupats-delikatess-200-g",
+        "size": "200g",
+        "ean": "4740515888675",
+        "storeUnitPrice": 27.9,
+        "storeName": "Suitsutatud juustupats, DELIKATESS, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Synnove Mozzarella riivjuust 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/synnove-mozzarella-riivjuust-200g/",
+        "size": "200g",
+        "ean": "5404015805530",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/5404015805530.png",
+        "storeName": "Mozzarella riivjuust Synnove 200g"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/riivjuust-mozzarella-synnove-200-g",
+        "size": "200g",
+        "ean": "5404015805530",
+        "storeUnitPrice": 15.2,
+        "storeName": "Riivjuust mozzarella, SYNNOVE, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Epiim Eesti juust viil laktoosivaba 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eesti-juust-500g-viil/",
+        "size": "500g",
+        "ean": "4740142000952",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740142000952.jpg",
+        "storeName": "Eesti juust Epiim 500g viil"
+      },
+      "selver": {
+        "price": 5.48,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-juust-viilutatud-laktoosivaba-epiim-500-g",
+        "cardPrice": 3.29,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4740142000952",
+        "storeUnitPrice": 10.96,
+        "storeName": "Eesti juust viilutatud laktoosivaba, EPIIM, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nopri gouda talujuust klassika 3 250g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nopri-gouda-talujuust-klassika-3kuud250g/",
+        "size": "250g",
+        "ean": "4740218002446",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4740218002446.png",
+        "storeName": "Nopri Gouda talujuust Klassika 3kuud250g"
+      },
+      "selver": {
+        "price": 5.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gouda-talujuust-kups-klassika-3-kuud-nopri-250-g",
+        "size": "250g",
+        "ean": "4740218002446",
+        "storeUnitPrice": 21.08,
+        "storeName": "Gouda Talujuust küps (klassika) 3 kuud, NOPRI, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Epiim Gouda juust 350g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/e-piim-gouda-juust-350g/",
+        "size": "350g",
+        "ean": "4740142001454",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740142001454.png",
+        "storeName": "Gouda juust Epiim 350g"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gouda-juust-epiim-350-g",
+        "size": "350g",
+        "ean": "4740142001454",
+        "storeUnitPrice": 9.86,
+        "storeName": "Gouda juust, EPIIM, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Epiim Juust bresto laktoosivaba 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-bresto-200g/",
+        "size": "200g",
+        "ean": "4740142002635",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740142002635.png",
+        "storeName": "Juust Bresto Epiim 200g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bresto-juust-laktoosivaba-epiim-200-g",
+        "size": "200g",
+        "ean": "4740142002635",
+        "storeUnitPrice": 12.45,
+        "storeName": "Bresto juust laktoosivaba, EPIIM, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Eesti juust täispiimast viil 450g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/estover-eesti-juust-taispiimast450g-viil/",
+        "size": "450g",
+        "ean": "4740572005244",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740572005244.png",
+        "storeName": "Eesti Juust Täispiimast Estover 450g viil"
+      },
+      "selver": {
+        "price": 6.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-juust-taispiimast-viilud-estover-450-g",
+        "cardPrice": 3.39,
+        "cardName": "Partner",
+        "size": "450g",
+        "ean": "4740572005244",
+        "storeUnitPrice": 13.53,
+        "storeName": "Eesti Juust täispiimast viilud, ESTOVER, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Eesti juust täispiimast viil 180g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eesti-juust-180g-viil/",
+        "size": "180g",
+        "ean": "4740572005251",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572005251.jpg",
+        "storeName": "Eesti Juust Täispiimast Estover 180g viil"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-juust-taispiimast-viilud-estover-180-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "180g",
+        "ean": "4740572005251",
+        "storeUnitPrice": 14.61,
+        "storeName": "Eesti Juust täispiimast viilud, ESTOVER, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zott Sulatatud juust toasty hamburger viil 120g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/zott-toasty-hamburger-120g-viil/",
+        "size": "120g",
+        "ean": "4014500517957",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4014500517957.png",
+        "storeName": "Sulatatud juust Toasty Hamburger Zott 120g viil"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toasty-hamburger-viilud-zott-120-g",
+        "size": "120g",
+        "ean": "4014500517957",
+        "storeUnitPrice": 16.58,
+        "storeName": "Toasty Hamburger viilud, ZOTT, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zott toasty sandwich viil 120g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toasty-sandwich-120g/",
+        "size": "120g",
+        "ean": "4014500517940",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4014500517940.jpg",
+        "storeName": "Zott Toasty Sandwich 120g viil"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toasty-sandwich-viilud-zott-120-g",
+        "size": "120g",
+        "ean": "4014500517940",
+        "storeUnitPrice": 16.58,
+        "storeName": "Toasty Sandwich viilud, ZOTT, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Epiim Light juust viil 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/e-piim-light-juust-150g-viil/",
+        "size": "150g",
+        "ean": "4740142000754",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/4740142000754.png",
+        "storeName": "Light juust Epiim 150g viil"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/light-juust-viilutatud-epiim-150-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740142000754",
+        "storeUnitPrice": 12.13,
+        "storeName": "Light juust viilutatud, EPIIM, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Juustoportti Lapimaa juust 140g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustoportti-lapimaa-juust-140g/",
+        "size": "140g",
+        "ean": "6408651016823",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/6408651016823.png",
+        "storeName": "Lapimaa juust Juustoportti 140g"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lapimaa-juust-juustoportti-140-g",
+        "size": "140g",
+        "ean": "6408651016823",
+        "storeUnitPrice": 28.5,
+        "storeName": "Lapimaa juust, JUUSTOPORTTI, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Juustoportti Lapimaa juust laktoosivaba 140g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustoportti-lapimaa-juust140g-lakt-vaba/",
+        "size": "140g",
+        "ean": "6408651016847",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/6408651016847.png",
+        "storeName": "Lapimaa juust Juustoportti 140g laktoosivaba"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lapimaa-juust-laktoosivaba-juustoportti-140-g",
+        "cardPrice": 3.29,
+        "cardName": "Partner",
+        "size": "140g",
+        "ean": "6408651016847",
+        "storeUnitPrice": 28.5,
+        "storeName": "Lapimaa juust laktoosivaba, JUUSTOPORTTI, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Suitsutatud kadaka juust laktoosivaba 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suits-kadaka-juust-500g/",
+        "size": "500g",
+        "ean": "4740153332080",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153332080-1.png",
+        "storeName": "Suitsutatud Kadaka juust MO Saaremaa 500g"
+      },
+      "selver": {
+        "price": 7.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsutatud-kadaka-juust-laktoosivaba-mo-saaremaa-500-g",
+        "size": "500g",
+        "ean": "4740153332080",
+        "storeUnitPrice": 14.64,
+        "storeName": "Suitsutatud Kadaka juust laktoosivaba, MO SAAREMAA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Juust saare light viil 15% laktoosivaba 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-saare-light-150g/",
+        "size": "150g",
+        "ean": "4740153081858",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153081858-1.png",
+        "storeName": "Juust Saare light MO Saaremaa 150g viil"
+      },
+      "selver": {
+        "price": 2.08,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-saare-light-15-viilud-laktoosivaba-mo-saaremaa-150-g",
+        "size": "150g",
+        "ean": "4740153081858",
+        "storeUnitPrice": 13.87,
+        "storeName": "Juust saare light 15% (viilud) laktoosivaba, MO SAAREMAA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Suitsutatud kadaka juust viil 26% laktoosivaba 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-kadaka-suitsu-150g/",
+        "size": "150g",
+        "ean": "4740153081896",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153081896.png",
+        "storeName": "Suitsutatud Kadaka juust MO Saaremaa 150g viil"
+      },
+      "selver": {
+        "price": 2.3,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kadaka-juust-26-viilud-laktoosivaba-mo-saaremaa-150-g",
+        "size": "150g",
+        "ean": "4740153081896",
+        "storeUnitPrice": 15.33,
+        "storeName": "Kadaka juust 26% viilud laktoosivaba, MO SAAREMAA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio Juust atleet originaal 26% 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-atleet-orig-500g/",
+        "size": "500g",
+        "ean": "4740553000091",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553000091.png",
+        "storeName": "Juust Atleet Originaal Valio 500g"
+      },
+      "selver": {
+        "price": 5.58,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-originaal-26-valio-500-g",
+        "cardPrice": 3.59,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4740553000091",
+        "storeUnitPrice": 11.16,
+        "storeName": "Juust Atleet Originaal 26%, VALIO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio atleet Viilujuust light 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-atleet-light-viilujuust-150g/",
+        "size": "150g",
+        "ean": "4740553000190",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/06/4740553000190.png",
+        "storeName": "Viilujuust Valio Atleet Light 150g"
+      },
+      "selver": {
+        "price": 2.08,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-light-viilud-valio-150-g",
+        "size": "150g",
+        "ean": "4740553000190",
+        "storeUnitPrice": 13.87,
+        "storeName": "Juust Atleet Light viilud, VALIO, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio atleet Viilujuust originaal 26% 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/viilujuust-atleet-500g/",
+        "size": "500g",
+        "ean": "4740553691152",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740553691152.png",
+        "storeName": "Viilujuust Valio Atleet Originaal 500g"
+      },
+      "selver": {
+        "price": 6.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-atleet-originaal-26-viilud-valio-500-g",
+        "size": "500g",
+        "ean": "4740553691152",
+        "storeUnitPrice": 12.54,
+        "storeName": "Juust Atleet Originaal 26% viilud, VALIO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio Viilujuust royal gouda yellow laktoosivaba 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-royal-gouda-yellow-viilujuust-150g/",
+        "size": "150g",
+        "ean": "4740553697109",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4740553697109.jpg",
+        "storeName": "Viilujuust Royal Gouda Yellow Valio 150g"
+      },
+      "selver": {
+        "price": 2.08,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/viilujuust-royal-gouda-yellow-laktoosivaba-valio-150-g",
+        "size": "150g",
+        "ean": "4740553697109",
+        "storeUnitPrice": 13.87,
+        "storeName": "Viilujuust Royal Gouda Yellow laktoosivaba, VALIO, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Vene juust pt viil 28.5% 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vene-juust-150g-viil/",
+        "size": "150g",
+        "ean": "4740572000294",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572000294.jpg",
+        "storeName": "Vene juust Estover PT 150g viil"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vene-juust-28-5-viilutatud-estover-150-g",
+        "size": "150g",
+        "ean": "4740572000294",
+        "storeUnitPrice": 15.27,
+        "storeName": "Vene juust 28,5% viilutatud, ESTOVER, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hiirte juust Hiirte estover pt viil 25.2% 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiirte-juust-200g-viil/",
+        "size": "200g",
+        "ean": "4740572000393",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740572000393.png",
+        "storeName": "Hiirte juust Estover PT 200g viil"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/viilutatud-juust-25-2-hiirte-juust-200-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740572000393",
+        "storeUnitPrice": 15.2,
+        "storeName": "Viilutatud juust 25,2%, HIIRTE JUUST, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Eesti juust pt viil 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eesti-juust-500g-viil-2/",
+        "size": "500g",
+        "ean": "4740572000409",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740572000409.png",
+        "storeName": "Eesti Juust Estover PT 500g viil"
+      },
+      "selver": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-juust-viilud-estover-500-g",
+        "size": "500g",
+        "ean": "4740572000409",
+        "storeUnitPrice": 12.58,
+        "storeName": "Eesti Juust viilud, ESTOVER, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Eesti juust riivitud pt 25.2% 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eesti-juust-riivitud200g/",
+        "size": "200g",
+        "ean": "4740572000416",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572000416.jpg",
+        "storeName": "Eesti Juust riivitud Estover PT 200g"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-juust-25-2-riivitud-estover-200-g",
+        "size": "200g",
+        "ean": "4740572000416",
+        "storeUnitPrice": 12.15,
+        "storeName": "Eesti juust 25,2% riivitud, ESTOVER, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Hollandi leibjuust pt viil 25.2% 300g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hollandi-leibjuust-300g/",
+        "size": "300g",
+        "ean": "4740572001352",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572001352.png",
+        "storeName": "Hollandi Leibjuust Estover PT 300g viil"
+      },
+      "selver": {
+        "price": 4.36,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hollandi-leibjuust-25-2-viilutatud-piimameister-otto-300-g",
+        "cardPrice": 2.99,
+        "cardName": "Partner",
+        "size": "300g",
+        "ean": "4740572001352",
+        "storeUnitPrice": 14.53,
+        "storeName": "Hollandi Leibjuust 25,2% viilutatud, PIIMAMEISTER OTTO, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hiirte juust Hiirte estover pt viil 25.2% 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiirte-juust-500g-viil/",
+        "size": "500g",
+        "ean": "4740572001741",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572001741.png",
+        "storeName": "Hiirte juust Estover PT 500g viil"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/viilutatud-juust-25-2-hiirte-juust-500-g",
+        "size": "500g",
+        "ean": "4740572001741",
+        "storeUnitPrice": 7.98,
+        "storeName": "Viilutatud juust 25,2%, HIIRTE JUUST, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Estover Juust maasdam viil 28.3% 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-maasdam-150g-viil/",
+        "size": "150g",
+        "ean": "4740572002625",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572002625.jpg",
+        "storeName": "Juust Maasdam Estover 150g viil"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasdam-juust-28-3-viilutatud-estover-150-g",
+        "size": "150g",
+        "ean": "4740572002625",
+        "storeUnitPrice": 17.53,
+        "storeName": "Maasdam juust 28,3% viilutatud, ESTOVER, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Deline Kõva kitsepiimajuust kitseke viil 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/deline-kova-kitsepiimaj-kitseke-150g/",
+        "size": "150g",
+        "ean": "4740572003585",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740572003585.png",
+        "storeName": "Kõva kitsepiimajuust Kitseke Deline 150g viil"
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kitseke-kova-kitsepiimajuust-viilutatud-deline-150-g",
+        "size": "150g",
+        "ean": "4740572003585",
+        "storeUnitPrice": 29.93,
+        "storeName": "Kitseke kõva kitsepiimajuust viilutatud, DELINE, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Seltskonna juustuamps koduaia ürt ürtidega 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustuampsud-200g/",
+        "size": "200g",
+        "ean": "4740153510037",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153510037-1.png",
+        "storeName": "Seltskonna juustuamps koduaia ürt MO Saaremaa 200g"
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustuampsud-koduaia-urtidega-mo-saaremaa-200-g",
+        "size": "200g",
+        "ean": "4740153510037",
+        "storeUnitPrice": 15.5,
+        "storeName": "Juustuampsud koduaia ürtidega, MO SAAREMAA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Seltskonna juustuampsud kuiv p tom tomatitega 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustuampsud-200g-3/",
+        "size": "200g",
+        "ean": "4740153510020",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153510020-1.png",
+        "storeName": "Seltskonna juustuampsud p.kuiv.tom MO Saaremaa200g"
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustuampsud-paikesekuivatatud-tomatitega-mo-saaremaa-200-g",
+        "size": "200g",
+        "ean": "4740153510020",
+        "storeUnitPrice": 15.5,
+        "storeName": "Juustuampsud päikesekuivatatud tomatitega, MO SAAREMAA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nopri Juust gouda lambaläätsedega 250g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-gouda-250g/",
+        "size": "250g",
+        "ean": "4740218002224",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740218002224.png",
+        "storeName": "Juust Gouda lambaläätsedega Nopri 250g"
+      },
+      "selver": {
+        "price": 5.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gouda-juust-lambalaatsedega-nopri-250-g",
+        "size": "250g",
+        "ean": "4740218002224",
+        "storeUnitPrice": 20.88,
+        "storeName": "Gouda juust lambaläätsedega, NOPRI, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kreemjuust kitsepiimast altenburger laktoosivaba 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kreemjuust-kitsep-150g/",
+        "size": "150g",
+        "ean": "4042089071249",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4042089001246.jpg",
+        "storeName": "Kreemjuust kitsepiimast Altenburger 150g"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreemjuust-kitsepiimast-laktoosivaba-altenburger-150-g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4042089071249",
+        "storeUnitPrice": 23.67,
+        "storeName": "Kreemjuust kitsepiimast laktoosivaba, ALTENBURGER, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Miree toorjuust mädarõikaga 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/miree-toorjuust-madaroikaga-150g/",
+        "size": "150g",
+        "ean": "40193090",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/40193090.jpg",
+        "storeName": "Miree toorjuust mädarõikaga 150g"
+      },
+      "selver": {
+        "price": 2.33,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toorjuust-madaroikaga-miree-150-g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "40193090",
+        "storeUnitPrice": 15.53,
+        "storeName": "Toorjuust mädarõikaga, MIREE, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Toorjuust maitsestamata 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorjuust-originaal-150g/",
+        "size": "150g",
+        "ean": "4740123001657",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123001657.png",
+        "storeName": "Toorjuust maitsestamata Farmi 150g"
+      },
+      "selver": {
+        "price": 2.3,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toorjuust-farmi-150-g",
+        "size": "150g",
+        "ean": "4740123001657",
+        "storeUnitPrice": 15.33,
+        "storeName": "Toorjuust, FARMI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Exquisa toorjuust 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorjuust-exquisa-200g/",
+        "size": "200g",
+        "ean": "40193151",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/40193151.png",
+        "storeName": "Exquisa toorjuust 200g"
+      },
+      "selver": {
+        "price": 2.33,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toorjuust-exquisa-200-g",
+        "cardPrice": 1.79,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "40193151",
+        "storeUnitPrice": 11.65,
+        "storeName": "Toorjuust, EXQUISA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Köögitoorjuust laktoosivaba 15% 400g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-koogitoorjuust-15-400g-lakt-vaba/",
+        "size": "400g",
+        "ean": "4740113097042",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4740113097042.png",
+        "storeName": "Köögitoorjuust 15% Farmi 400g laktoosivaba"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/toorjuust-laktoosivaba-15-farmi-400-g",
+        "size": "400g",
+        "ean": "4740113097042",
+        "storeUnitPrice": 6.98,
+        "storeName": "Toorjuust laktoosivaba 15%, FARMI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Võileivamääre karulaugupestoga 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voileivamaare-150g-3/",
+        "size": "150g",
+        "ean": "4740113092399",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113092399.png",
+        "storeName": "Võileivamääre karulaugupestoga Farmi 150g"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voileivamaare-karulaugupestoga-farmi-150-g",
+        "size": "150g",
+        "ean": "4740113092399",
+        "storeUnitPrice": 9.93,
+        "storeName": "Võileivamääre Karulaugupestoga, FARMI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valcolatte Mozzarella laktoosivaba 100g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valcolatte-mozzarella-100g-laktoosivaba/",
+        "size": "100g",
+        "ean": "8026160004568",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/8026160004568.png",
+        "storeName": "Mozzarella Valcolatte 100g laktoosivaba"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mozzarella-laktoosivaba-valcolatte-100-g",
+        "size": "100g",
+        "ean": "8026160004568",
+        "storeUnitPrice": 18.7,
+        "storeName": "Mozzarella laktoosivaba, VALCOLATTE, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Käserei fitaki juust 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-fitaki-200g/",
+        "size": "200g",
+        "ean": "4000504256824",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4000504256824.jpg",
+        "storeName": "Käserei Fitaki juust 200g"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-fitaki-kaserei-200-g",
+        "size": "200g",
+        "ean": "4000504256824",
+        "storeUnitPrice": 15.2,
+        "storeName": "Juust Fitaki, KÄSEREI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Castello V danish camembert hall juust 125g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-h-juust-danish-125g/",
+        "size": "125g",
+        "ean": "5760466736077",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/5760466819411.png",
+        "storeName": "V/hall.juust Castello Danish Camembert 125g"
+      },
+      "selver": {
+        "price": 4.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valgehallitusjuust-danish-camembert-castello-125-g",
+        "size": "125g",
+        "ean": "5760466736077",
+        "storeUnitPrice": 32.4,
+        "storeName": "Valgehallitusjuust Danish Camembert, CASTELLO, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Athena Pehme valge juust 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-athena-200g/",
+        "size": "200g",
+        "ean": "4740572004391",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572004391.png",
+        "storeName": "Pehme valge juust Athena 200g"
+      },
+      "selver": {
+        "price": 2.18,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pehme-valge-juust-athena-200-g",
+        "size": "200g",
+        "ean": "4740572004391",
+        "storeUnitPrice": 10.9,
+        "storeName": "Pehme valge juust, ATHENA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Castello V danish brie hall juust 125g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-h-juust-danish-125g-2/",
+        "size": "125g",
+        "ean": "5760466736084",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/5760466820059.png",
+        "storeName": "V/hall.juust Castello Danish Brie 125g"
+      },
+      "selver": {
+        "price": 4.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valgehallitusjuust-danish-brie-castello-125-g",
+        "size": "125g",
+        "ean": "5760466736084",
+        "storeUnitPrice": 32.4,
+        "storeName": "Valgehallitusjuust Danish Brie, CASTELLO, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Apetina juust päiksekuiv tomat tomatitega 100g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valge-juust-tomati-100g/",
+        "size": "100g",
+        "ean": "5711953136559",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5760466912198.png",
+        "storeName": "Apetina juust päiksekuiv.tomat 100g"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valge-juust-paikesekuivatatud-tomatitega-apetina-100-g",
+        "cardPrice": 2.39,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "5711953136559",
+        "storeUnitPrice": 30.4,
+        "storeName": "Valge juust päikesekuivatatud tomatitega, APETINA, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "President V camembert pähklitega hall juust 120g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-h-juust-camembert-120g/",
+        "size": "120g",
+        "ean": "5906207370074",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/5906207370074.png",
+        "storeName": "V/hall.juust Camembert President 120g pähklitega"
+      },
+      "selver": {
+        "price": 3.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/camembert-valgehallitusjuust-pahklitega-president-120-g",
+        "size": "120g",
+        "ean": "5906207370074",
+        "storeUnitPrice": 27,
+        "storeName": "Camembert valgehallitusjuust pähklitega, PRESIDENT, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "President V brie hall juust naturaalne 125g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-h-juust-brie-natur-125/",
+        "size": "125g",
+        "ean": "5906207520073",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5906207520073.jpg",
+        "storeName": "V/hall.juust naturaalne Brie President 125g"
+      },
+      "selver": {
+        "price": 3.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/brie-valgehallitusjuust-president-125-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "125g",
+        "ean": "5906207520073",
+        "storeUnitPrice": 25.92,
+        "storeName": "Brie valgehallitusjuust, PRESIDENT, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "President V brie hall juust pähkliga 125g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-h-juust-brie-pahk-125g/",
+        "size": "125g",
+        "ean": "5906207530072",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5906207530072.png",
+        "storeName": "V/hall.juust pähkliga Brie President 125g"
+      },
+      "selver": {
+        "price": 3.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/brie-valgehallitusjuust-kreeka-pahklitega-president-125-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "125g",
+        "ean": "5906207530072",
+        "storeUnitPrice": 25.92,
+        "storeName": "Brie valgehallitusjuust kreeka pähklitega, PRESIDENT, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Käserei brie ch h juust v 125g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaserei-ch-v-h-juust-brie-125g/",
+        "size": "125g",
+        "ean": "4000504141823",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4000504141823.png",
+        "storeName": "Käserei Ch.V/h.juust Brie 125g"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valgehallitusjuust-brie-kaserei-125-g",
+        "size": "125g",
+        "ean": "4000504141823",
+        "storeUnitPrice": 28.4,
+        "storeName": "Valgehallitusjuust Brie, KÄSEREI, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Paysan breton Valgehallitusjuust brie 180g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-h-juust-brie-180g/",
+        "size": "180g",
+        "ean": "3412290047059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/3412290047059.png",
+        "storeName": "Valgehallitusjuust Brie Paysan Breton 180g"
+      },
+      "selver": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valgehallitusjuust-brie-paysan-breton-180-g",
+        "size": "180g",
+        "ean": "3412290047059",
+        "storeUnitPrice": 25.5,
+        "storeName": "Valgehallitusjuust Brie, PAYSAN BRETON, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Juust forte classico 26% laktoosivaba 180g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-forte-180g/",
+        "size": "180g",
+        "ean": "4740553698113",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740553698113.jpg",
+        "storeName": "Juust Forte Classico 180g"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-forte-classico-26-laktoosivaba-valio-180-g",
+        "size": "180g",
+        "ean": "4740553698113",
+        "storeUnitPrice": 20.83,
+        "storeName": "Juust Forte Classico 26% laktoosivaba, VALIO, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Juust forte superiore 26% laktoosivaba 180g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-forte-superiore-juust-180g/",
+        "size": "180g",
+        "ean": "4740553698120",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4740553698120.jpg",
+        "storeName": "Juust Forte Superiore 180g"
+      },
+      "selver": {
+        "price": 4.26,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-forte-superiore-26-laktoosivaba-valio-180-g",
+        "size": "180g",
+        "ean": "4740553698120",
+        "storeUnitPrice": 23.67,
+        "storeName": "Juust Forte Superiore 26% laktoosivaba, VALIO, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bavaria blue Valge sinihallitusjuust bergader 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/h-juust-bavaria-blue-150/",
+        "size": "150g",
+        "ean": "4006402025128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4006402025128.png",
+        "storeName": "Valge-sinihallitusjuust Bavaria Blue Bergader 150g"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sini-valgehallitusjuust-bavaria-blu-bergader-150-g",
+        "size": "150g",
+        "ean": "4006402025128",
+        "storeUnitPrice": 25,
+        "storeName": "Sini-valgehallitusjuust Bavaria Blu, BERGADER, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Granarolo Mozzarella minikirsid 125g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mozzarella-kirsid-125g-3/",
+        "size": "125g",
+        "ean": "8002670004342",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8002670004342.png",
+        "storeName": "Mozzarella minikirsid Granarolo 125g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mozzarella-minikirsid-granarolo-125g",
+        "size": "125g",
+        "ean": "8002670004342",
+        "storeUnitPrice": 17.52,
+        "storeName": "Mozzarella minikirsid, GRANAROLO, 125g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Käserei Sinihall dorblu ch juust 100g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/s-h-juust-dorblu-100g/",
+        "size": "100g",
+        "ean": "4000504210024",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4000504210024.png",
+        "storeName": "Sinihall.juust Dorblu Käserei Ch.100g"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sinihallitusjuust-dorblu-kaserei-100-g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4000504210024",
+        "storeUnitPrice": 24.3,
+        "storeName": "Sinihallitusjuust Dorblu, KÄSEREI, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Käserei Fitaki juust ch 40% 500g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-fitaki-500g/",
+        "size": "500g",
+        "ean": "4000504251225",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4000504251225.jpg",
+        "storeName": "Fitaki juust 40% Käserei Ch. 500g"
+      },
+      "selver": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juust-fitaki-kaserei-500-g",
+        "size": "500g",
+        "ean": "4000504251225",
+        "storeUnitPrice": 12.38,
+        "storeName": "Juust Fitaki, KÄSEREI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Epiim Juust bresto light laktoosivaba 200g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juust-bresto-light-200g/",
+        "size": "200g",
+        "ean": "4740142005100",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740142005100.png",
+        "storeName": "Juust Bresto light Epiim 200g"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bresto-juust-light-laktoosivaba-epiim-200-g",
+        "size": "200g",
+        "ean": "4740142005100",
+        "storeUnitPrice": 12.15,
+        "storeName": "Bresto juust light laktoosivaba, EPIIM, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Käserei Sinihall royal blu dorblu juust 100g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaserei-s-h-juust-dorblu-royal-blu-100g/",
+        "size": "100g",
+        "ean": "4000504215227",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/4000504215227.jpg",
+        "storeName": "Sinihall.juust Dorblu Royal Blu Käserei 100g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sinihallitusjuust-royal-blu-dorblu-100-g",
+        "size": "100g",
+        "ean": "4000504215227",
+        "storeUnitPrice": 23.9,
+        "storeName": "Sinihallitusjuust Royal Blu, DORBLU, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Käserei Sinihallitusjuust cambozola 70% 150g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaserei-s-h-juust-cambozola-150g/",
+        "size": "150g",
+        "ean": "4000504133026",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4000504133026.png",
+        "storeName": "Sinihallitusjuust Cambozola Käserei 150g"
+      },
+      "selver": {
+        "price": 4.06,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cambozola-70-kaserei-150-g",
+        "size": "150g",
+        "ean": "4000504133026",
+        "storeUnitPrice": 27.07,
+        "storeName": "Cambozola 70%, KÄSEREI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Madeta Sinihallitusjuust niva 100g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/madeta-s-h-juust-niva-100g/",
+        "size": "100g",
+        "ean": "8593803336916",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/8593803336916.png",
+        "storeName": "Sinihallitusjuust Niva Madeta 100g"
+      },
+      "selver": {
+        "price": 1.86,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sinihallitusjuust-niva-madeta-100-g",
+        "size": "100g",
+        "ean": "8593803336916",
+        "storeUnitPrice": 18.6,
+        "storeName": "Sinihallitusjuust niva, MADETA, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bergader Sinihallitusjuust bavaria würzige 175g",
+    "category": "Cheese",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/s-h-juust-bavaria-175g/",
+        "size": "175g",
+        "ean": "4006402020413",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4006402020413.png",
+        "storeName": "Sinihallitusjuust Bavaria Würzige Bergader 175g"
+      },
+      "selver": {
+        "price": 4.06,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sinihallitusjuust-bavaria-wurzige-bergader-175-g",
+        "cardPrice": 3.19,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "4006402020413",
+        "storeUnitPrice": 23.2,
+        "storeName": "Sinihallitusjuust Bavaria Würzige, BERGADER, 175 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Kodujuust soolakurgi tilliga 200g",

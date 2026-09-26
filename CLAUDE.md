@@ -269,6 +269,35 @@ the owner.
   source and required on every alcohol-free source
   (`ALCOHOL_FREE_PATTERN`), so "0,0%" can never be pooled with its
   alcoholic twin.
+- **Batch 10 scope (owner, 2026-09-27):** *Curd snacks & desserts* =
+  kohukesed, curd desserts, puddings, jellies, kissell (no plant
+  imitations). *Milk drinks & drinking yoghurt* = joogijogurt,
+  flavoured milk, condensed milk — Dairy keeps plain milk and
+  spoonable yoghurt (its Selver filters drop "jook"/"joogijogurt"/
+  "kondenspiim"); barista milks and coffee drinks stay out.
+  *Crispbreads* = näkileivad, rice cakes, galettes — not croutons,
+  rusks or snack breads. *Energy, sports & iced-tea drinks* = the
+  three together; vitamin water and coffee drinks out; Selver has no
+  iced-tea leaf. *Syrups & juice drinks* = syrups, concentrates and
+  "mahlajook" together; real juice/nectar stays in Drinks (its filter
+  drops "jook"). *Frozen fish & seafood* = fish, fish products (fish
+  fingers, breaded fillets), seafood — never fish burgers/patties.
+  *Frozen dough & pastries* = doughs, pastries & pies, frozen bread,
+  frozen desserts — all four; frozen ready meals out. *Broths & stock*
+  = cubes, concentrates, liquid broth — not soups. **Pet food = food +
+  cat litter only** (LITTER_ONLY: "liiv"), never toys, bedding, hay,
+  sawdust, wood pellets or other supplies.
+- **Store candidates checked 2026-09-27 (report only, nothing
+  added):** Coop Haapsalu (coophaapsalu.ee) is WooCommerce with an
+  open Store API (`/wp-json/wc/store/v1/products`, 100 per page,
+  ~9,500 products, EAN as `sku` on branded goods, regular/sale price
+  in cents, VAT included, in-stock flag, no brand field, per-kg price
+  broken on the site) — robots.txt allows it, the sales terms say
+  nothing about automated access; prices are Haapsalu-local, so the
+  label must be "Coop (Haapsalu)". Lidl (lidl.ee) has no online
+  grocery catalogue — only ~40 weekly leaflet offers, mostly own
+  brands — not addable as a store. Neither may be added without the
+  owner's explicit decision (and a lawyer's check, like the others).
 - **Piece-count sizes (2026-09-27)**: eggs and paper products have
   no weight/volume in their names, only a count — "10tk", Rimi's
   fused "M10", "8 rulli", "300 lehte" — so the strict path (size

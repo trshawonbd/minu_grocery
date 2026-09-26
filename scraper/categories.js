@@ -1820,7 +1820,10 @@ const CATEGORIES = [
       ],
       rimi: [
         "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/c/SH-3-8-4",
-        ...[1, 2, 3, 4, 5, 6, 7].map((n) => ({ url: `https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/x/c/SH-12-20-${n}`, nameFilter: SYRUP_JUICE_FILTER })),
+        // Leaves 1-6 (citrus, vegetable, apple/pear/plum, berry, multi,
+        // exotic); leaf 7 "muud" is empty at Rimi and its empty page 1
+        // makes the Rimi module throw, so it's left out.
+        ...[1, 2, 3, 4, 5, 6].map((n) => ({ url: `https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/x/c/SH-12-20-${n}`, nameFilter: SYRUP_JUICE_FILTER })),
       ],
     },
   },

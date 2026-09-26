@@ -4342,6 +4342,15 @@
         "storeUnitPrice": 0.92,
         "storeName": "Piim ALMA 2,5%, 1,5L"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piim-2-5valio-alma-1-5l/",
+        "size": "1500ml",
+        "ean": "4740125120059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125120059.jpg",
+        "storeName": "Piim 2.5% Alma 1.5L purepakk"
+      },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
@@ -4355,11 +4364,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-2-5-alma-1-5-l",
         "size": "1500ml",
+        "ean": "4740125120059",
         "storeUnitPrice": 0.86,
         "storeName": "Piim 2,5%, ALMA, 1,5 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Piim kiles 2.5% 1000ml",
@@ -4373,16 +4383,26 @@
         "storeUnitPrice": 0.89,
         "storeName": "Piim 2,5% FARMI 1l kiles"
       },
+      "coop": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piim-2-5-farmi-1l/",
+        "size": "1000ml",
+        "ean": "4740123000872",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123000872-1.png",
+        "storeName": "Piim 2.5% Farmi 1L kilepakk"
+      },
       "selver": {
         "price": 0.62,
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-2-5-kiles-farmi-1-l",
         "size": "1000ml",
+        "ean": "4740123000872",
         "storeUnitPrice": 0.62,
         "storeName": "Piim 2,5% kiles, FARMI, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Piim 0.05% 1000ml",
@@ -4401,6 +4421,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-rasvatu-0-05-alma-1-l",
         "size": "1000ml",
+        "ean": "4740125120028",
         "storeUnitPrice": 1.25,
         "storeName": "Piim rasvatu 0,05%, ALMA, 1 L"
       }
@@ -4419,6 +4440,15 @@
         "storeUnitPrice": 1.6,
         "storeName": "Piim ALMA 2,5%, 0,5L"
       },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piim-2-5valio-alma-0-5l/",
+        "size": "500ml",
+        "ean": "4740125120042",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125120042.jpg",
+        "storeName": "Piim 2.5% Alma 0.5L purepakk"
+      },
       "rimi": {
         "price": 0.82,
         "currency": "EUR",
@@ -4432,11 +4462,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-2-5-alma-500-ml",
         "size": "500ml",
+        "ean": "4740125120042",
         "storeUnitPrice": 1.6,
         "storeName": "Piim 2,5%, ALMA, 500 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mo saaremaa Mahetäispiim mahe 3.8-4.4% 1000ml",
@@ -4455,6 +4486,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahetaispiim-3-8-4-4-mo-saaremaa-1-l",
         "size": "1000ml",
+        "ean": "4740153600004",
         "storeUnitPrice": 1.45,
         "storeName": "Mahetäispiim 3,8 - 4,4%, MO SAAREMAA, 1 L"
       }
@@ -4473,16 +4505,26 @@
         "storeUnitPrice": 14.6,
         "storeName": "Taluvõi ESTOVER Eesti 82%, 150g"
       },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/estover-eesti-taluvoi-82-150g/",
+        "size": "150g",
+        "ean": "4740572001499",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740572001499.png",
+        "storeName": "Eesti Taluvõi 82% Estover 150g"
+      },
       "selver": {
         "price": 2.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/eesti-taluvoi-82-estover-150-g",
         "size": "150g",
+        "ean": "4740572001499",
         "storeUnitPrice": 15.93,
         "storeName": "Eesti taluvõi 82%, ESTOVER, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tere Või 82% 200g",
@@ -4495,6 +4537,15 @@
         "size": "200g",
         "storeUnitPrice": 12.95,
         "storeName": "Või TERE 82%, 200g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voi-82-tere-200g/",
+        "size": "200g",
+        "ean": "4740036005551",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036005551.jpg",
+        "storeName": "Või 82% Tere 200g"
       },
       "rimi": {
         "price": 2.19,
@@ -4509,14 +4560,15 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/voi-82-tere-200-g",
         "size": "200g",
+        "ean": "4740036005551",
         "storeUnitPrice": 12.95,
         "storeName": "Või 82%, TERE, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Valio Või soolata 500g",
+    "name": "Valio Või soolata 82% 500g",
     "category": "Dairy",
     "prices": {
       "barbora": {
@@ -4526,6 +4578,15 @@
         "size": "500g",
         "storeUnitPrice": 9.98,
         "storeName": "Meiereivõi VALIO soolata, 500g"
+      },
+      "coop": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voi-82-valio-500g/",
+        "size": "500g",
+        "ean": "6408430030026",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6408430030026.png",
+        "storeName": "Või 82% Valio Meierei 500g soolata"
       },
       "rimi": {
         "price": 5.89,
@@ -4540,11 +4601,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/meierivoi-soolata-valio-500-g",
         "size": "500g",
+        "ean": "6408430030026",
         "storeUnitPrice": 11.58,
         "storeName": "Meierivõi soolata, VALIO, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mo saaremaa Või 82% 200g",
@@ -4560,6 +4622,15 @@
         "storeUnitPrice": 8.75,
         "storeName": "Või MO SAAREMAA 82%, 200g"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-voi-82-200g/",
+        "size": "200g",
+        "ean": "4740153010001",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740153010001.png",
+        "storeName": "Või 82% MO Saaremaa 200g"
+      },
       "rimi": {
         "price": 2.49,
         "currency": "EUR",
@@ -4567,9 +4638,18 @@
         "size": "200g",
         "storeUnitPrice": 12.45,
         "storeName": "Või MO Saaremaa 82% 200g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mo-saaremaa-voi-saaremaa-200-g",
+        "size": "200g",
+        "ean": "4740153010001",
+        "storeUnitPrice": 12.45,
+        "storeName": "MO Saaremaa või, SAAREMAA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mo saaremaa Või küüsl soolakrist 150g",
@@ -4608,6 +4688,15 @@
         "storeUnitPrice": 12.45,
         "storeName": "Või ALMA 82%, 200g"
       },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-voi-82-200g/",
+        "size": "200g",
+        "ean": "4740553699837",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4740553699837.png",
+        "storeName": "Või 82% Alma 200g"
+      },
       "rimi": {
         "price": 2.49,
         "currency": "EUR",
@@ -4623,11 +4712,12 @@
         "cardPrice": 1.49,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740553699837",
         "storeUnitPrice": 11.95,
         "storeName": "Või 82%, ALMA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dava Õrrekanade munad M 10tk",
@@ -4641,6 +4731,15 @@
         "storeUnitPrice": 0.28,
         "storeName": "Õrrekanade munad M DAVA 10tk"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kulli-farm-orrekanade-munad-m-10tk/",
+        "size": "10tk",
+        "ean": "4740229011895",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740229011895.png",
+        "storeName": "Õrrekanade munad M 10tk Kulli Farm"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -4653,11 +4752,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/orrekanade-munad-m10-dava-10-tk",
         "size": "10tk",
+        "ean": "4740229011895",
         "storeUnitPrice": 0.28,
         "storeName": "Õrrekanade munad M10, DAVA, 10 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dava Õrrekanade munad L 10tk",
@@ -4683,6 +4783,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/orrekanade-munad-l10-dava-10-tk",
         "size": "10tk",
+        "ean": "4740229011901",
         "storeUnitPrice": 0.33,
         "storeName": "Õrrekanade munad L10, DAVA, 10 tk"
       }
@@ -4706,6 +4807,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kreeka-jogurt-10-farmi-370-g",
         "size": "370g",
+        "ean": "4740113035631",
         "storeUnitPrice": 4.84,
         "storeName": "Kreeka jogurt 10%, FARMI, 370 g"
       }
@@ -4730,6 +4832,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maitsestamata-jogurt-5-saare-400-g",
         "size": "400g",
+        "ean": "4742231004032",
         "storeUnitPrice": 4.73,
         "storeName": "Maitsestamata jogurt 5%, SAARE, 400 g"
       }
@@ -4748,16 +4851,26 @@
         "storeUnitPrice": 5.22,
         "storeName": "Kreeka jogurt ALMA maitsestamata, 180g"
       },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maitsestamata-jogurt180g/",
+        "size": "180g",
+        "ean": "4740125531206",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740125531206.jpg",
+        "storeName": "Maitsestamata kreeka jogurt Alma 180g"
+      },
       "selver": {
         "price": 0.94,
         "currency": "EUR",
         "url": "https://www.selver.ee/kreeka-jogurt-maitsestamata-alma-180-g",
         "size": "180g",
+        "ean": "4740125531206",
         "storeUnitPrice": 5.22,
         "storeName": "Kreeka jogurt maitsestamata, ALMA, 180 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Kreeka jogurt maitsestamata 370g",
@@ -4778,6 +4891,7 @@
         "cardPrice": 1.39,
         "cardName": "Partner",
         "size": "370g",
+        "ean": "4740125531213",
         "storeUnitPrice": 4.46,
         "storeName": "Kreeka jogurt maitsestamata, ALMA, 370 g"
       }
@@ -4797,16 +4911,60 @@
         "regularPrice": 1.79,
         "storeName": "Kreeka jogurt SAARE 10%, 380g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kreeka-jogurt-10-380g/",
+        "size": "380g",
+        "ean": "4742231004551",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742231004551.jpg",
+        "storeName": "Kreeka jogurt 10% Saare 380g"
+      },
       "selver": {
         "price": 1.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/kreeka-jogurt-10-saare-380-g",
         "size": "380g",
+        "ean": "4742231004551",
         "storeUnitPrice": 4.97,
         "storeName": "Kreeka jogurt 10%, SAARE, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Koorene jogurt maitsestamata 5% 1000g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorene-jogurt-farmi-5-procmaitsestamata-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 1.89,
+        "regularPrice": 2.35,
+        "storeName": "Koorene jogurt FARMI 5%maitsestamata 1kg"
+      },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maitsestamata-jogurt-1kg-2/",
+        "size": "1000g",
+        "ean": "4740113091019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113091019.png",
+        "storeName": "Maitsestamata jogurt koorene 5% Farmi 1kg"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitsestamata-jogurt-farmi-1-kg",
+        "size": "1000g",
+        "ean": "4740113091019",
+        "storeUnitPrice": 1.99,
+        "storeName": "Maitsestamata jogurt, FARMI, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Hellus Jogurt maitsestamata 1000g",
@@ -4825,6 +4983,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maitsestamata-jogurt-hellus-1-kg",
         "size": "1000g",
+        "ean": "4740036011446",
         "storeUnitPrice": 2.09,
         "storeName": "Maitsestamata jogurt, HELLUS, 1 kg"
       }
@@ -4868,16 +5027,34 @@
         "storeUnitPrice": 4.48,
         "storeName": "Koorene jogurt FARMI mustikatega, 400g"
       },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koorene-jog-mustika-400g/",
+        "size": "400g",
+        "ean": "4740113034276",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740113034276.png",
+        "storeName": "Koorene jogurt mustika Farmi 400g"
+      },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-mustika-farmi-400g/p/272898",
+        "size": "400g",
+        "storeUnitPrice": 4.47,
+        "storeName": "Koorene jogurt mustika Farmi 400g"
+      },
       "selver": {
         "price": 1.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/koorene-jogurt-mustikatega-farmi-400-g",
         "size": "400g",
+        "ean": "4740113034276",
         "storeUnitPrice": 3.73,
         "storeName": "Koorene jogurt mustikatega, FARMI, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Koorene jogurt must kirss 400g",
@@ -4915,6 +5092,15 @@
         "storeUnitPrice": 4.48,
         "storeName": "Koorene jogurt FARMI virsikutega, 400g"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koorene-jog-virsiku-400g/",
+        "size": "400g",
+        "ean": "4740113034658",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740113034658-1.png",
+        "storeName": "Koorene jogurt virsikutega Farmi 400g"
+      },
       "selver": {
         "price": 1.79,
         "currency": "EUR",
@@ -4922,11 +5108,48 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4740113034658",
         "storeUnitPrice": 4.48,
         "storeName": "Koorene jogurt virsikutega, FARMI, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Saare Jogurtikreem mango 400g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jogurtikreem-saare-mango-400-g",
+        "size": "400g",
+        "storeUnitPrice": 3.13,
+        "regularPrice": 1.79,
+        "storeName": "Jogurtikreem SAARE mango, 400g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-kreem-mango-400g/",
+        "size": "400g",
+        "ean": "4742231004049",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742231004049.jpg",
+        "storeName": "Jogurtikreem mango Saare 400g"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mango-jogurtikreem-5-saare-400-g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "4742231004049",
+        "storeUnitPrice": 4.55,
+        "storeName": "Mango-jogurtikreem 5%, SAARE, 400 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Muah koorejogurt rukkileiva-kaneeli 380g",
@@ -4940,6 +5163,15 @@
         "storeUnitPrice": 3.66,
         "regularPrice": 1.65,
         "storeName": "Koorejogurt ALMA Muah r.leiv-kaneel,380g"
+      },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koorejog-rukkileiva-380g/",
+        "size": "380g",
+        "ean": "4740125535815",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125535815.png",
+        "storeName": "Koorejogurt Muah rukkileiva-kaneeli Alma 380g"
       },
       "rimi": {
         "price": 1.39,
@@ -4955,11 +5187,71 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koorejogurt-muah-rukkileiva-alma-380-g",
         "size": "380g",
+        "ean": "4740125535815",
         "storeUnitPrice": 4.42,
         "storeName": "Koorejogurt Muah rukkileiva, ALMA, 380 g"
       }
     },
     "matchedVia": "override"
+  },
+  {
+    "name": "Saare Jogurtikreem ahjuõuna 400g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jogurtikreem-saare-ahjuouna-400-g",
+        "size": "400g",
+        "storeUnitPrice": 3.13,
+        "regularPrice": 1.79,
+        "storeName": "Jogurtikreem SAARE ahjuõuna, 400g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-kreem-ahjuouna-400g/",
+        "size": "400g",
+        "ean": "4742231004124",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742231004124.png",
+        "storeName": "Jogurtikreem ahjuõuna Saare 400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Alma Koorejogurt muah creme brulee 380g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejogurt-alma-muah-creme-brulee-380-g",
+        "size": "380g",
+        "storeUnitPrice": 3.66,
+        "regularPrice": 1.65,
+        "storeName": "Koorejogurt ALMA Muah creme brulee,380g"
+      },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koorejog-creme-brul-380g/",
+        "size": "380g",
+        "ean": "4740125535839",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125535839.png",
+        "storeName": "Koorejogurt Muah creme brulee maitseline Alma 380g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorejogurt-muah-creme-brulee-maitseline-6-5-alma-380-g",
+        "size": "380g",
+        "ean": "4740125535839",
+        "storeUnitPrice": 4.42,
+        "storeName": "Koorejogurt Muah crème brulée maitseline 6,5%, ALMA, 380 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Koorejogurt muah stracciatella 380g",
@@ -4973,6 +5265,15 @@
         "storeUnitPrice": 3.66,
         "regularPrice": 1.65,
         "storeName": "Koorejogurt ALMA Muah stracciatella,380g"
+      },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jogurt-stracciatella380g/",
+        "size": "380g",
+        "ean": "4740125535853",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125535853.png",
+        "storeName": "Koorejogurt Muah stracciatella Alma 380g"
       },
       "rimi": {
         "price": 1.39,
@@ -4988,11 +5289,48 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koorejogurt-muah-stracciatella-alma-380-g",
         "size": "380g",
+        "ean": "4740125535853",
         "storeUnitPrice": 4.42,
         "storeName": "Koorejogurt Muah stracciatella, ALMA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Skyr metsmaasikatega 150g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/skyr-farmi-metsmaasikatega-150-g",
+        "size": "150g",
+        "storeUnitPrice": 5.66,
+        "regularPrice": 1.25,
+        "storeName": "Skyr FARMI metsmaasikatega 150g"
+      },
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-skyr-metsmaasikatega-150g/",
+        "size": "150g",
+        "ean": "4740113096878",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740113096878.png",
+        "storeName": "Skyr metsmaasikatega Farmi 150g"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/skyr-metsamaasikatega-farmi-150-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740113096878",
+        "storeUnitPrice": 8.73,
+        "storeName": "Skyr metsamaasikatega, FARMI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Saare Jogurtikreem vaarika passioni 400g",
@@ -5022,6 +5360,7 @@
         "cardPrice": 1.39,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4742231005411",
         "storeUnitPrice": 4.55,
         "storeName": "Jogurtikreem vaarika-passioni, SAARE, 400 g"
       }
@@ -5040,13 +5379,47 @@
         "storeUnitPrice": 7.17,
         "storeName": "Koorejogurt Muah troopiline ALMA 180g"
       },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-koorejogurt-muah-troopiline-180g/",
+        "size": "180g",
+        "ean": "4740125539172",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740125539172.png",
+        "storeName": "Koorejogurt Muah troopiline Alma 180g"
+      },
       "selver": {
         "price": 1.31,
         "currency": "EUR",
         "url": "https://www.selver.ee/koorejogurt-muah-troopiline-alma-180-g",
         "size": "180g",
+        "ean": "4740125539172",
         "storeUnitPrice": 7.28,
         "storeName": "Koorejogurt muah troopiline, ALMA, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Koorejogurt muah barbarissi 180g",
+    "category": "Dairy",
+    "prices": {
+      "barbora": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koorejogurt-muah-barbarissi-alma-180-g",
+        "size": "180g",
+        "storeUnitPrice": 7.5,
+        "storeName": "Koorejogurt Muah barbarissi ALMA 180g"
+      },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-koorejogurt-muah-barbarissi-180g/",
+        "size": "180g",
+        "ean": "4740125539158",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740125539158.png",
+        "storeName": "Koorejogurt Muah barbarissi Alma 180g"
       }
     },
     "matchedVia": "automatic"
@@ -5063,16 +5436,26 @@
         "storeUnitPrice": 7.17,
         "storeName": "Koorejogurt Muah marja-plomb. ALMA 180g"
       },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-koorejogurt-muah-marja-plombiir180g/",
+        "size": "180g",
+        "ean": "4740125539165",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740125539165.png",
+        "storeName": "Koorejogurt Muah marja-plombiirimaits.Alma 180g"
+      },
       "selver": {
         "price": 1.31,
         "currency": "EUR",
         "url": "https://www.selver.ee/koorejogurt-muah-marja-plombiirimaitseline-alma-180-g",
         "size": "180g",
+        "ean": "4740125539165",
         "storeUnitPrice": 7.28,
         "storeName": "Koorejogurt muah marja-plombiirimaitseline, ALMA, 180 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Skyr maasika 300g",
@@ -5100,6 +5483,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/skyr-maasika-farmi-300-g",
         "size": "300g",
+        "ean": "4740113097424",
         "storeUnitPrice": 6.07,
         "storeName": "Skyr maasika, FARMI, 300 g"
       }
@@ -5119,6 +5503,15 @@
         "regularPrice": 1.79,
         "storeName": "Skyr virsiku FARMI 300g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-skyr-virsiku-300g-tops/",
+        "size": "300g",
+        "ean": "4740113097417",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740113097417.png",
+        "storeName": "Skyr virsiku Farmi 300g tops"
+      },
       "rimi": {
         "price": 1.79,
         "currency": "EUR",
@@ -5132,11 +5525,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/skyr-virsiku-farmi-300-g",
         "size": "300g",
+        "ean": "4740113097417",
         "storeUnitPrice": 6.07,
         "storeName": "Skyr virsiku, FARMI, 300 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Koorene ploomi martsipani jogurt 200g",
@@ -5150,16 +5544,26 @@
         "storeUnitPrice": 5.95,
         "storeName": "Koorene ploomi-martsip.jogurt FARMI 200g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-koorene-ploomi-martsipani-jog-200g/",
+        "size": "200g",
+        "ean": "4740113097585",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740113097585.png",
+        "storeName": "Koorene ploomi-martsipani jogurt Farmi 200g"
+      },
       "selver": {
         "price": 1.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/koorene-ploomi-martsipani-jogurt-farmi-200-g",
         "size": "200g",
+        "ean": "4740113097585",
         "storeUnitPrice": 5.95,
         "storeName": "Koorene ploomi-martsipani jogurt, FARMI, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Koorene mustasõstra jogurt 200g",
@@ -5178,6 +5582,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koorene-mustasostra-jogurt-farmi-200-g",
         "size": "200g",
+        "ean": "4740113097592",
         "storeUnitPrice": 5.95,
         "storeName": "Koorene mustasõstra jogurt, FARMI, 200 g"
       }
@@ -5197,6 +5602,15 @@
         "regularPrice": 1.65,
         "storeName": "Koorejogurt Muah ALMA vanilli 380g"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-koorejogurt-muah-vanilli-380g/",
+        "size": "380g",
+        "ean": "4740125535976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740125535976.png",
+        "storeName": "Koorejogurt Muah vanilli Alma 380g"
+      },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
@@ -5211,11 +5625,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koorejogurt-muah-vanilli-alma-380-g",
         "size": "380g",
+        "ean": "4740125535976",
         "storeUnitPrice": 4.42,
         "storeName": "Koorejogurt muah vanilli, ALMA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Koorene jogurt kiivi tikri 400g",
@@ -5242,6 +5657,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koorene-jogurt-kiivi-tikri-farmi-400-g",
         "size": "400g",
+        "ean": "4740113097561",
         "storeUnitPrice": 4.55,
         "storeName": "Koorene jogurt kiivi-tikri, FARMI, 400 g"
       }
@@ -5265,6 +5681,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taispiim-3-6-4-2-alma-2-l",
         "size": "2000ml",
+        "ean": "4740125120325",
         "storeUnitPrice": 1,
         "storeName": "Täispiim 3,6-4,2%, ALMA, 2 L"
       }
@@ -5275,6 +5692,15 @@
     "name": "Alma Piim 2,5% 1L",
     "category": "Dairy",
     "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-piim-2-5-1l-purepakk/",
+        "size": "1000ml",
+        "ean": "4740125120011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4740125120011.png",
+        "storeName": "Piim 2.5% Alma 1L purepakk"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -5288,6 +5714,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-2-5-pure-alma-1-l",
         "size": "1000ml",
+        "ean": "4740125120011",
         "storeUnitPrice": 1.25,
         "storeName": "Piim 2,5% pure, ALMA, 1 L"
       }
@@ -5298,6 +5725,15 @@
     "name": "Farmi Täispiim 3,6-4,2% 1L",
     "category": "Dairy",
     "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taispiim-3-8-4-2-1l/",
+        "size": "1000ml",
+        "ean": "4740113090555",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113090555-2.png",
+        "storeName": "Täispiim 3.6%-4.2% Farmi 1L pure"
+      },
       "rimi": {
         "price": 1.65,
         "currency": "EUR",
@@ -5311,6 +5747,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taispiim-3-6-4-2-pure-farmi-1-l",
         "size": "1000ml",
+        "ean": "4740113090555",
         "storeUnitPrice": 1.65,
         "storeName": "Täispiim 3,6%-4,2% pure, FARMI, 1 L"
       }
@@ -5321,6 +5758,15 @@
     "name": "Farmi Piim pure 2.5% 1500ml",
     "category": "Dairy",
     "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-piim-2-5-1-5l-pure/",
+        "size": "1500ml",
+        "ean": "4740113097578",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740113097578-1.png",
+        "storeName": "Piim 2.5% Farmi 1.5L pure"
+      },
       "rimi": {
         "price": 1.59,
         "currency": "EUR",
@@ -5334,11 +5780,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-2-5-pure-farmi-1-5-l",
         "size": "1500ml",
+        "ean": "4740113097578",
         "storeUnitPrice": 0.99,
         "storeName": "Piim 2,5% pure, FARMI, 1,5 l"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tere Piim pure 1.8% 1000ml",
@@ -5357,6 +5804,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piim-1-8-pure-tere-1-l",
         "size": "1000ml",
+        "ean": "4740036018629",
         "storeUnitPrice": 1.09,
         "storeName": "Piim 1,8%, pure, TERE, 1 L"
       }
@@ -5367,6 +5815,15 @@
     "name": "Tere Või laktoosivaba 82% 200g",
     "category": "Dairy",
     "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voi-82-tere-200g-2/",
+        "size": "200g",
+        "ean": "4740036011606",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036011606.png",
+        "storeName": "Või laktoosivaba 82% Tere 200g"
+      },
       "rimi": {
         "price": 2.79,
         "currency": "EUR",
@@ -5380,11 +5837,102 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/voi-laktoosivaba-82-tere-200-g",
         "size": "200g",
+        "ean": "4740036011606",
         "storeUnitPrice": 16.45,
         "storeName": "Või  laktoosivaba 82%, TERE, 200 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Saaremaa või soolakristallidega 200g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/saaremaa-voi-200g/",
+        "size": "200g",
+        "ean": "4740153020000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153020000-1.png",
+        "storeName": "Saaremaa või soolakristallidega MO Saaremaa 200g"
+      },
+      "rimi": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-mo-saaremaa-soolakristallidega-200g/p/291697",
+        "size": "200g",
+        "storeUnitPrice": 13.45,
+        "storeName": "Või MO Saaremaa soolakristallidega 200g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voi-soolakristallidega-80-mo-saaremaa-200-g",
+        "size": "200g",
+        "ean": "4740153020000",
+        "storeUnitPrice": 12.45,
+        "storeName": "Või soolakristallidega 80%, MO SAAREMAA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Või laktoosivaba 82% 200g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-voi-laktoosivaba-82-200g/",
+        "size": "200g",
+        "ean": "4740553699844",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740553699844.png",
+        "storeName": "Või laktoosivaba 82% Alma 200g"
+      },
+      "rimi": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-laktoosivaba-alma-82-200g/p/996241",
+        "size": "200g",
+        "storeUnitPrice": 12.45,
+        "storeName": "Või laktoosivaba Alma 82% 200g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Saaremaa või koduaia ürtidega 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/saaremaa-voi-urtide-150g/",
+        "size": "150g",
+        "ean": "4740153040015",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740153040015.png",
+        "storeName": "Saaremaa või koduaia ürtidega 150g"
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-koduaia-urtidega-saaremaa-150g/p/923076",
+        "size": "150g",
+        "storeUnitPrice": 14.6,
+        "storeName": "Või koduaia ürtidega Saaremaa 150g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voi-koduaia-urtidega-saaremaa-150-g",
+        "size": "150g",
+        "ean": "4740153040015",
+        "storeUnitPrice": 14.6,
+        "storeName": "Või koduaia ürtidega, SAAREMAA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Mo saaremaa Või laktoosivaba 200g",
@@ -5403,6 +5951,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/saaremaa-voi-laktoosivaba-mo-saaremaa-200-g",
         "size": "200g",
+        "ean": "4740153040046",
         "storeUnitPrice": 9.95,
         "storeName": "Saaremaa või, laktoosivaba, MO SAAREMAA, 200 g"
       }
@@ -5413,6 +5962,15 @@
     "name": "Farmi Koorene jogurt maasikatega 400g",
     "category": "Dairy",
     "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-koorene-jogurt-maasikatega-400g/",
+        "size": "400g",
+        "ean": "4740113034269",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740113034269.png",
+        "storeName": "Koorene jogurt maasikatega Farmi 400g"
+      },
       "rimi": {
         "price": 1.19,
         "currency": "EUR",
@@ -5429,8 +5987,59 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4740113034269",
         "storeUnitPrice": 4.48,
         "storeName": "Koorene jogurt maasikatega, FARMI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Jogurt mango 1000g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-jogurt-mango-1kg/",
+        "size": "1000g",
+        "ean": "4740125521306",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740125521306.png",
+        "storeName": "Jogurt mango Alma 1kg"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-mango-alma-1kg/p/4008832",
+        "size": "1000g",
+        "storeUnitPrice": 1.99,
+        "regularPrice": 2.29,
+        "storeName": "Jogurt mango Alma 1kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Farmi Jogurt maasika banaani laktoosivaba 1000g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-jogurt-maasika-ban-1kg-lakt-vaba/",
+        "size": "1000g",
+        "ean": "4740113097400",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740113097400.png",
+        "storeName": "Jogurt maasika-banaani Farmi 1kg laktoosivaba"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-maasika-banaani-laktoosivaba-farmi-1kg/p/4011602",
+        "size": "1000g",
+        "storeUnitPrice": 1.99,
+        "regularPrice": 2.29,
+        "storeName": "Jogurt maasika-banaani laktoosivaba Farmi 1kg"
       }
     },
     "matchedVia": "automatic"
@@ -5439,6 +6048,15 @@
     "name": "Saare Jogurtikreem sidruni laktoosivaba 400g",
     "category": "Dairy",
     "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/saare-jog-kreem-sidruni-400g-lakt-vaba/",
+        "size": "400g",
+        "ean": "4742231005305",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4742231005305.png",
+        "storeName": "Jogurtikreem sidruni Saare 400g laktoosivaba"
+      },
       "rimi": {
         "price": 1.79,
         "currency": "EUR",
@@ -5454,11 +6072,955 @@
         "cardPrice": 1.39,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4742231005305",
         "storeUnitPrice": 4.55,
         "storeName": "Jogurtikreem sidruni, laktoosivaba, SAARE, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Cappuccino piim 3.5% 1000ml",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/cappuccino-piim-3-2-1l/",
+        "size": "1000ml",
+        "ean": "4740036009085",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036009085.jpg",
+        "storeName": "Cappuccino piim 3.5% Tere 1L"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/cappuccino-piim-3-5-tere-1-l",
+        "size": "1000ml",
+        "ean": "4740036009085",
+        "storeUnitPrice": 2.29,
+        "storeName": "Cappuccino piim 3,5%, TERE, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Latte piim kõrgkuumutatud 2.5% 1000ml",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/latte-piim-2-5-1l/",
+        "size": "1000ml",
+        "ean": "4740036009122",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036009122-1.jpg",
+        "storeName": "Latte piim 2.5% Tere 1L kõrgkuumutatud"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/latte-piim-2-5-tere-1-l",
+        "size": "1000ml",
+        "ean": "4740036009122",
+        "storeUnitPrice": 2.02,
+        "storeName": "Latte piim 2,5%, TERE, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike tom Kõrgk lisand piimjook shok vitamiin vitamiinidega 200ml",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-tom-korgkuum-piim-shok-lisand200ml/",
+        "size": "200ml",
+        "ean": "4740093333321",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740093333321-1.png",
+        "storeName": "Kõrgk.piimjook shok.lisand-vitamiin Väike Tom200ml"
+      },
+      "selver": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/korgkuum-piimajook-sokolaadi-ja-vitamiinidega-vaike-tom-200-ml",
+        "size": "200ml",
+        "ean": "4740093333321",
+        "storeUnitPrice": 4.25,
+        "storeName": "Kõrgkuum piimajook šokolaadi ja vitamiinidega, VÄIKE TOM, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mlekovita piim lakt uht vaba 3.2% laktoosivaba 500ml",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mlekovita-lakt-vaba-uht-piim-3-2-500ml/",
+        "size": "500ml",
+        "ean": "5900512982502",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/5900512982502.png",
+        "storeName": "Mlekovita lakt.vaba UHT piim 3.2% 500ml"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piim-3-2-korgpastoriseeritud-laktoosivaba-mlekovita-500-g",
+        "size": "500g",
+        "ean": "5900512982502",
+        "storeUnitPrice": 2.9,
+        "storeName": "Piim 3,2% kõrgpastöriseeritud laktoosivaba, MLEKOVITA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Piim d vitamiiniga laktoosivaba pure 2.5% 1000ml",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piim-2-5-tere-1l/",
+        "size": "1000ml",
+        "ean": "4740036014027",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036014027-2.png",
+        "storeName": "Piim 2.5% Tere 1L D-vitamiiniga laktoosivaba pure"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piim-d-vitamiiniga-laktoosivaba-tere-1-l",
+        "size": "1000ml",
+        "ean": "4740036014027",
+        "storeUnitPrice": 1.39,
+        "storeName": "Piim D-vitamiiniga laktoosivaba, TERE, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi täispiim pure 3.6-4.2% 2000ml",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taispiim-3-8-4-2-2l/",
+        "size": "2000ml",
+        "ean": "4740113091514",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113091514.png",
+        "storeName": "Farmi Täispiim 3.6-4.2% 2L pure"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taispiim-3-6-4-2-pure-farmi-2-l",
+        "size": "2000ml",
+        "ean": "4740113091514",
+        "storeUnitPrice": 1.3,
+        "storeName": "Täispiim 3,6%-4,2% pure, FARMI, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fantasia Kreemjogurt shokolaadipallidega 100g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fantasia-kreemjogurt-shok-pallidega-100g/",
+        "size": "100g",
+        "ean": "4751008970364",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/59034643.png",
+        "storeName": "Kreemjogurt shokolaadipallidega Fantasia 100g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreemjogurt-sokolaadipallidega-fantasia-100-g",
+        "size": "100g",
+        "ean": "4751008970364",
+        "storeUnitPrice": 11.9,
+        "storeName": "Kreemjogurt šokolaadipallidega, FANTASIA, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Skyr mustikatega 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/skyr-mustikatega-150g/",
+        "size": "150g",
+        "ean": "4740113091101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113091101.png",
+        "storeName": "Skyr mustikatega Farmi 150g"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/skyr-mustikatega-farmi-150-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740113091101",
+        "storeUnitPrice": 8.73,
+        "storeName": "Skyr mustikatega, FARMI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Skyr kirssidega 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/skyr-kirssidega-150g/",
+        "size": "150g",
+        "ean": "4740113091453",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113091453-1.png",
+        "storeName": "Skyr kirssidega Farmi 150g"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/skyr-kirssidega-farmi-150g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740113091453",
+        "storeUnitPrice": 8.73,
+        "storeName": "Skyr kirssidega, FARMI, 150g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Koorene jogurt kirssidega 400g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koorene-jog-kirsi-400g/",
+        "size": "400g",
+        "ean": "4740113034283",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740113034283.png",
+        "storeName": "Koorene jogurt kirssidega Farmi 400g"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorene-jogurt-kirssidega-farmi-400-g",
+        "size": "400g",
+        "ean": "4740113034283",
+        "storeUnitPrice": 3.73,
+        "storeName": "Koorene jogurt kirssidega, FARMI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Leiva pähkli jogurt tops laktoosivaba 400g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jogurt-leiva-pahkli-400g/",
+        "size": "400g",
+        "ean": "4740123004719",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123004719.jpg",
+        "storeName": "Leiva-pähkli jogurt Farmi 400g tops"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-leiva-pahkli-laktoosivaba-farmi-400-g",
+        "size": "400g",
+        "ean": "4740123004719",
+        "storeUnitPrice": 3.73,
+        "storeName": "Jogurt leiva-pähkli laktoosivaba, FARMI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Ab jogurt maasika laktoosivaba 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-ab-jogurt-maasika-150g-laktoosivaba/",
+        "size": "150g",
+        "ean": "4740036014805",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740036014805.png",
+        "storeName": "AB-jogurt maasika Tere 150g laktoosivaba"
+      },
+      "selver": {
+        "price": 0.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ab-jogurt-maasika-laktoosivaba-tere-150g",
+        "size": "150g",
+        "ean": "4740036014805",
+        "storeUnitPrice": 5.47,
+        "storeName": "AB-jogurt maasika Laktoosivaba, TERE, 150g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Danonino Tuubijogurt vanilje 70g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/danonki-tuubijogurt-vanilje-70g/",
+        "size": "70g",
+        "ean": "7350000550351",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/59055846.png",
+        "storeName": "Tuubijogurt vanilje Danonino 70g"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaniljejogurt-tuubis-danonino-70-g",
+        "size": "70g",
+        "ean": "7350000550351",
+        "storeUnitPrice": 15.57,
+        "storeName": "Vaniljejogurt tuubis, DANONINO, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Emma banaanijogurt laktoosivaba 110g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-emma-banaanijogurt110g-laktoosivaba/",
+        "size": "110g",
+        "ean": "4740036015529",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740036015529.png",
+        "storeName": "Emma banaanijogurt Tere 110g laktoosivaba"
+      },
+      "selver": {
+        "price": 0.93,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/banaanijogurt-laktoosivaba-emma-110-g",
+        "cardPrice": 0.75,
+        "cardName": "Partner",
+        "size": "110g",
+        "ean": "4740036015529",
+        "storeUnitPrice": 8.45,
+        "storeName": "Banaanijogurt laktoosivaba, EMMA, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Emma mustikajogurt laktoosivaba 110g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-emma-mustikajogurt110g-laktoosivaba/",
+        "size": "110g",
+        "ean": "4740036015512",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740036015512.png",
+        "storeName": "Emma mustikajogurt Tere 110g laktoosivaba"
+      },
+      "selver": {
+        "price": 0.93,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustikajogurt-laktoosivaba-emma-110-g",
+        "cardPrice": 0.75,
+        "cardName": "Partner",
+        "size": "110g",
+        "ean": "4740036015512",
+        "storeUnitPrice": 8.45,
+        "storeName": "Mustikajogurt laktoosivaba, EMMA, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Emma maasikajogurt laktoosivaba 110g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-emma-maasikajogurt110g-laktoosivaba/",
+        "size": "110g",
+        "ean": "4740036015505",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740036015505.png",
+        "storeName": "Emma maasikajogurt Tere 110g laktoosivaba"
+      },
+      "selver": {
+        "price": 0.93,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasikajogurt-laktoosivaba-emma-110-g",
+        "cardPrice": 0.75,
+        "cardName": "Partner",
+        "size": "110g",
+        "ean": "4740036015505",
+        "storeUnitPrice": 8.45,
+        "storeName": "Maasikajogurt laktoosivaba, EMMA, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Skyr apelsini stracciatella 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-skyr-apelsini-stracciatella-150g/",
+        "size": "150g",
+        "ean": "4740113097011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740113097011.png",
+        "storeName": "Skyr apelsini-stracciatella Farmi 150g"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/skyr-apelsini-stracciatella-farmi-150-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740113097011",
+        "storeUnitPrice": 8.73,
+        "storeName": "Skyr apelsini-stracciatella, FARMI, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Maasika arbuusijog lakt puuv suhkru vaba suhkrutega laktoosivaba 130g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-maasika-arbuusijog-130g-lakt-vaba/",
+        "size": "130g",
+        "ean": "4740113097134",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740113097134.png",
+        "storeName": "Maasika-arbuusijog.puuv.suhkru Farmi130g lakt.vaba"
+      },
+      "selver": {
+        "price": 0.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-maasika-arbuusi-puuviljadest-suhkrutega-laktoosivaba-farmi-130-g",
+        "size": "130g",
+        "ean": "4740113097134",
+        "storeUnitPrice": 7.46,
+        "storeName": "Jogurt maasika-arbuusi puuviljadest suhkrutega laktoosivaba, FARMI, 130 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Mangojogurt suhkrutega lakt puuv vaba laktoosivaba 130g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-mangojogurt-puuv-suhkru130g-lakt-v/",
+        "size": "130g",
+        "ean": "4740113097127",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740113097127-1.png",
+        "storeName": "Mangojogurt puuv.suhkrutega Farmi 130g lakt.vaba"
+      },
+      "selver": {
+        "price": 0.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-mango-puuviljadest-suhkrutega-laktoosivaba-farmi-130-g",
+        "size": "130g",
+        "ean": "4740113097127",
+        "storeUnitPrice": 7.46,
+        "storeName": "Jogurt mango puuviljadest suhkrutega laktoosivaba, FARMI, 130 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Kreeka jogurt maitsestamata laktoosivaba 350g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kreeka-jogurt-maits-ta-350g-lakt-v/",
+        "size": "350g",
+        "ean": "4740036014287",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/08/4740036014287.png",
+        "storeName": "Kreeka jogurt maitsestamata Tere 350g laktoosivaba"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreeka-jogurt-maitsestamata-laktoosivaba-tere-350-g",
+        "size": "350g",
+        "ean": "4740036014287",
+        "storeUnitPrice": 4.8,
+        "storeName": "Kreeka jogurt maitsestamata laktoosivaba, TERE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Koorejogurt muah sidruni juustukoogi 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-koorejog-muah-sidruni-juustuk-380g/",
+        "size": "380g",
+        "ean": "4740125535969",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740125535969.png",
+        "storeName": "Koorejogurt Muah sidruni-juustukoogimaits.Alma380g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorejogurt-muah-sidruni-juustukoogimaitseline-alma-380-g",
+        "size": "380g",
+        "ean": "4740125535969",
+        "storeUnitPrice": 4.42,
+        "storeName": "Koorejogurt muah sidruni-juustukoogimaitseline, ALMA, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Metsmaasikajogurt pure 2% 1000g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/metsmaasikajogurt-1kg/",
+        "size": "1000g",
+        "ean": "4740125521023",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125521023.jpg",
+        "storeName": "Metsmaasikajogurt Alma 1kg pure"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-metsmaasika-2-alma-1-kg",
+        "size": "1000g",
+        "ean": "4740125521023",
+        "storeUnitPrice": 1.85,
+        "storeName": "Jogurt metsmaasika 2%, ALMA, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio gefilus jogurt laktoosivaba ta 2.5% 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jogurt-maits-ta-380g/",
+        "size": "380g",
+        "ean": "4740125536096",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125536096.jpg",
+        "storeName": "Maits.-ta jogurt laktoosivaba Valio Gefilus 380g"
+      },
+      "selver": {
+        "price": 1.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitsestamata-jogurt-2-5-laktoosivaba-valio-gefilus-380-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "380g",
+        "ean": "4740125536096",
+        "storeUnitPrice": 4.11,
+        "storeName": "Maitsestamata jogurt 2,5% laktoosivaba, VALIO GEFILUS, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio gefilus Mustikajogurt laktoosivaba 2% 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-gefilus-mustikajogurt380g-lak-vaba/",
+        "size": "380g",
+        "ean": "4740125536164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740125536164.png",
+        "storeName": "Mustikajogurt Valio Gefilus 380g laktoosivaba"
+      },
+      "selver": {
+        "price": 1.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-mustika-2-laktoosivaba-valio-gefilus-380-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "380g",
+        "ean": "4740125536164",
+        "storeUnitPrice": 4.11,
+        "storeName": "Jogurt mustika 2% laktoosivaba, VALIO GEFILUS, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio gefilus Virsiku jogurt papaia lakt vaba 2% laktoosivaba 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-gefilus-virsik-papaia-jogurt-380g/",
+        "size": "380g",
+        "ean": "4740125536171",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740125536171.png",
+        "storeName": "Virsiku-papaia jogurt Valio Gefilus 380g lakt.vaba"
+      },
+      "selver": {
+        "price": 1.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-virsik-papaia-2-laktoosivaba-valio-gefilus-380-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "380g",
+        "ean": "4740125536171",
+        "storeUnitPrice": 4.11,
+        "storeName": "Jogurt virsik-papaia 2% laktoosivaba, VALIO GEFILUS, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Jogurt mandlitükkide ja shokolaadiga 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-mandli-ja-shok-150g/",
+        "size": "150g",
+        "ean": "4740125539042",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740125539042.png",
+        "storeName": "Jogurt mandlitükkide ja shokolaadiga Alma 150g"
+      },
+      "selver": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-mandli-ja-sokolaadiga-alma-150-g",
+        "size": "150g",
+        "ean": "4740125539042",
+        "storeUnitPrice": 8.07,
+        "storeName": "Jogurt mandli ja šokolaadiga, ALMA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Jogurt shokolaadirõngastega 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-shok-rongastega-150g/",
+        "size": "150g",
+        "ean": "4740125539059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740125539059.png",
+        "storeName": "Jogurt shokolaadirõngastega Alma 150g"
+      },
+      "selver": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-sokolaadirongastega-alma-150-g",
+        "size": "150g",
+        "ean": "4740125539059",
+        "storeUnitPrice": 8.07,
+        "storeName": "Jogurt šokolaadirõngastega, ALMA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Activia maasika jogurt 4x120g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-activia-maasika4120/",
+        "size": "4x120g",
+        "ean": "4751008970494",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4751008970494.png",
+        "storeName": "Activia maasika jogurt 4*120g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-maasika-4x120g-activia-480-g",
+        "size": "4x120g",
+        "ean": "4751008970494",
+        "storeUnitPrice": 6.38,
+        "storeName": "Jogurt maasika 4x120g, ACTIVIA, 480 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Activia kirsi jogurt 4x120g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-activia-kirsi-4120g/",
+        "size": "4x120g",
+        "ean": "4751008970500",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4751008970500.png",
+        "storeName": "Activia kirsi jogurt 4*120g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jogurt-kirsi-4x120g-activia-480-g",
+        "size": "4x120g",
+        "ean": "4751008970500",
+        "storeUnitPrice": 6.38,
+        "storeName": "Jogurt kirsi 4x120g, ACTIVIA, 480 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hellus Keefirijogurt sidruni vanilli tere me 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hellus-keefirijogurt-sidruni-vanilli380g/",
+        "size": "380g",
+        "ean": "4740036018360",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740036018360.png",
+        "storeName": "Keefirijogurt sidruni-vanilli Tere Hellus380g me-3"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefirijogurt-sidruni-vanilje-hellus-380-g",
+        "size": "380g",
+        "ean": "4740036018360",
+        "storeUnitPrice": 4.34,
+        "storeName": "Keefirijogurt sidruni-vanilje, HELLUS, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hellus Keefirijogurt mango orange tere me 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hellus-keefirijogurt-mango-apelsini-380g/",
+        "size": "380g",
+        "ean": "4740036018377",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740036018377.png",
+        "storeName": "Keefirijogurt mango-apelsin Tere Hellus 380g me-3"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefirijogurt-mango-apelsini-hellus-380-g",
+        "size": "380g",
+        "ean": "4740036018377",
+        "storeUnitPrice": 4.34,
+        "storeName": "Keefirijogurt mango-apelsini, HELLUS, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hellus Keefirijogurt kirsi ploomi tere me 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hellus-keefirijog-kirsi-ploomi-380g-me-3/",
+        "size": "380g",
+        "ean": "4740036018346",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740036018346.png",
+        "storeName": "Keefirijogurt kirsi-ploomi Tere Hellus 380g me-3"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefirijogurt-kirsi-ploomi-hellus-380-g",
+        "size": "380g",
+        "ean": "4740036018346",
+        "storeUnitPrice": 4.34,
+        "storeName": "Keefirijogurt kirsi-ploomi, HELLUS, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hellus Keefirijogurt maasika mustika tere me 380g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hellus-keefirijogurt-maasika-mustika380g/",
+        "size": "380g",
+        "ean": "4740036018353",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740036018353.png",
+        "storeName": "Keefirijogurt maasika-mustika Tere Hellus380g me-3"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefirijogurt-maasika-mustika-hellus-380-g",
+        "size": "380g",
+        "ean": "4740036018353",
+        "storeUnitPrice": 4.34,
+        "storeName": "Keefirijogurt maasika-mustika, HELLUS, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eggo Suured munad L 10tk",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suured-munad-l-10tk-eggo/",
+        "size": "10tk",
+        "ean": "4740229011048",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740229011048.jpg",
+        "storeName": "Suured munad L 10tk Eggo"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suured-munad-l10-valged-eggo-10-tk",
+        "size": "10tk",
+        "ean": "4740229011048",
+        "storeUnitPrice": 0.29,
+        "storeName": "Suured munad L10 valged, EGGO, 10 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eggo Peremunad M 10tk",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eggo-peremunad-m-10tk/",
+        "size": "10tk",
+        "ean": "4740229011017",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/4740229011017.png",
+        "storeName": "Peremunad M 10tk Eggo"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peremunad-m10-valged-eggo-10-tk",
+        "size": "10tk",
+        "ean": "4740229011017",
+        "storeUnitPrice": 0.24,
+        "storeName": "Peremunad M10 valged, EGGO, 10 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eggo Peremunad M 18tk",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 4.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eggo-peremunad-m-18tk/",
+        "size": "18tk",
+        "ean": "4740229011871",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740229011871.png",
+        "storeName": "Peremunad M 18tk Eggo"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peremunad-m18-eggo-18tk",
+        "size": "18tk",
+        "ean": "4740229011871",
+        "storeUnitPrice": 0.24,
+        "storeName": "Peremunad M18, EGGO, 18tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Mo või küüslaugu soolakristallidega 150g",
+    "category": "Dairy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-voi-150g/",
+        "size": "150g",
+        "ean": "4740153040022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740153040022.png",
+        "storeName": "MO Saaremaa või küüslaugu-soolakristallidega 150g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mo-saaremaa-voi-kuuslaugu-ja-soolakristallidega-saaremaa-150-g",
+        "size": "150g",
+        "ean": "4740153040022",
+        "storeUnitPrice": 14.6,
+        "storeName": "Mo Saaremaa või küüslaugu ja soolakristallidega, SAAREMAA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar Pealinna peenleib 490g",

@@ -9,29 +9,29 @@ Matching pools every store's items for a category together (scraper/match-produc
 | | Baby formula | Fruits & vegetables | Dairy | Bread | Drinks | Meat | Pasta | Rice & grains | Flour & sugar | Cooking oil | Cheese | Curd & cottage cheese | Cream & sour cream | Kefir & buttermilk | Coffee | Tea & cocoa | Cereals & oats | Canned food | Sauces & condiments | Spices | Jam & honey & spreads | Baking supplies | Chocolate | Candy | Biscuits | Chips & snacks | Nuts, seeds & dried fruit | Frozen vegetables & berries | Ice cream | Dumplings, pizza & fries | Sausages | Ham & cold cuts | Fish & seafood | Baby food | Diapers & baby wipes | Personal care | Household | Pet food | Cakes & pastries | Instant food | World cuisine | Alcohol-free beer, cider & wine | Beer & cider | Wine | Spirits | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Scraped (Barbora + Rimi + Selver) | 49 + 31 + 25 | 221 + 277 + 259 | 130 + 80 + 133 | 113 + 87 + 98 | 418 + 419 + 353 | 149 + 129 + 110 | 157 + 109 + 110 | 152 + 68 + 72 | 58 + 54 + 73 | 92 + 67 + 59 | 269 + 313 + 231 | 52 + 37 + 39 | 23 + 27 + 25 | 29 + 23 + 26 | 310 + 168 + 184 | 294 + 149 + 146 | 179 + 148 + 151 | 253 + 177 + 171 | 351 + 209 + 311 | 389 + 193 + 246 | 168 + 98 + 109 | 76 + 75 + 25 | 221 + 153 + 137 | 467 + 341 + 280 | 275 + 206 + 197 | 334 + 177 + 86 | 249 + 190 + 152 | 70 + 51 + 78 | 258 + 229 + 161 | 118 + 73 + 83 | 268 + 152 + 151 | 277 + 173 + 188 | 351 + 194 + 236 | 257 + 157 + 162 | 142 + 78 + 78 | 1648 + 1600 + 764 | 716 + 644 + 329 | 389 + 324 + 194 | 114 + 125 + 126 | 162 + 108 + 93 | 58 + 43 + 51 | 75 + 64 + 51 | 340 + 328 + 245 | 820 + 497 + 658 | 711 + 454 + 429 | 29436 |
-| Matched (any store combination) | 20 | 67 | 41 | 83 | 94 | 18 | 38 | 21 | 25 | 18 | 54 | 24 | 11 | 5 | 49 | 15 | 36 | 35 | 120 | 114 | 39 | 18 | 37 | 58 | 33 | 30 | 30 | 14 | 16 | 21 | 61 | 53 | 47 | 20 | 44 | 196 | 60 | 11 | 14 | 31 | 15 | 11 | 64 | 80 | 187 | 2078 |
-| — at all 3 stores | 9 | 18 | 12 | 18 | 20 | 4 | 11 | 7 | 6 | 7 | 11 | 9 | 2 | 0 | 14 | 0 | 14 | 8 | 46 | 57 | 21 | 1 | 12 | 9 | 5 | 3 | 5 | 2 | 2 | 3 | 23 | 9 | 5 | 4 | 29 | 37 | 4 | 2 | 0 | 5 | 7 | 1 | 10 | 7 | 48 | 527 |
-| — at 2 stores only (Barbora + Rimi) | 6 | 23 | 4 | 30 | 22 | 3 | 7 | 2 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 11 | 7 | 7 | 21 | 15 | 2 | 10 | 9 | 18 | 5 | 9 | 5 | 0 | 6 | 3 | 17 | 14 | 7 | 1 | 1 | 91 | 45 | 2 | 5 | 10 | 3 | 2 | 18 | 17 | 42 | 537 |
-| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 9 | 6 | 12 | 5 | 7 | 5 | 3 | 0 | 15 | 4 | 6 | 11 | 38 | 26 | 16 | 4 | 7 | 17 | 13 | 7 | 9 | 9 | 4 | 9 | 14 | 12 | 29 | 10 | 13 | 42 | 7 | 4 | 2 | 11 | 5 | 5 | 18 | 35 | 49 | 600 |
-| — at 2 stores only (Rimi + Selver) | 3 | 14 | 9 | 11 | 12 | 3 | 11 | 6 | 6 | 3 | 22 | 4 | 3 | 4 | 11 | 0 | 9 | 9 | 15 | 16 | 0 | 3 | 9 | 14 | 10 | 11 | 11 | 3 | 4 | 6 | 7 | 18 | 6 | 5 | 1 | 26 | 4 | 3 | 7 | 5 | 0 | 3 | 18 | 21 | 48 | 414 |
-| Unmatched | 56 | 577 | 249 | 122 | 964 | 341 | 289 | 210 | 129 | 172 | 694 | 71 | 51 | 68 | 547 | 557 | 392 | 523 | 585 | 543 | 276 | 139 | 425 | 963 | 607 | 534 | 526 | 169 | 614 | 229 | 382 | 516 | 678 | 532 | 111 | 3583 | 1565 | 883 | 337 | 296 | 115 | 164 | 763 | 1800 | 1142 | 24489 |
+| Matched (any store combination) | 20 | 67 | 43 | 83 | 94 | 18 | 38 | 21 | 25 | 18 | 56 | 24 | 11 | 5 | 49 | 15 | 36 | 35 | 120 | 114 | 39 | 18 | 39 | 58 | 33 | 30 | 30 | 14 | 16 | 21 | 74 | 63 | 47 | 20 | 44 | 203 | 64 | 11 | 14 | 31 | 15 | 11 | 66 | 80 | 192 | 2125 |
+| — at all 3 stores | 9 | 18 | 14 | 18 | 20 | 4 | 11 | 7 | 6 | 7 | 11 | 9 | 2 | 0 | 14 | 0 | 14 | 8 | 46 | 57 | 21 | 1 | 12 | 9 | 5 | 3 | 5 | 2 | 2 | 4 | 28 | 12 | 5 | 4 | 29 | 37 | 5 | 2 | 0 | 5 | 7 | 1 | 10 | 7 | 52 | 543 |
+| — at 2 stores only (Barbora + Rimi) | 6 | 23 | 4 | 30 | 22 | 3 | 7 | 2 | 1 | 3 | 14 | 6 | 3 | 1 | 9 | 11 | 7 | 7 | 21 | 15 | 2 | 10 | 9 | 18 | 5 | 9 | 5 | 0 | 6 | 2 | 12 | 11 | 7 | 1 | 1 | 93 | 46 | 2 | 5 | 10 | 3 | 2 | 20 | 17 | 42 | 533 |
+| — at 2 stores only (Barbora + Selver) | 2 | 12 | 16 | 24 | 40 | 8 | 9 | 6 | 12 | 5 | 9 | 5 | 3 | 0 | 15 | 4 | 6 | 11 | 38 | 26 | 16 | 4 | 7 | 17 | 13 | 7 | 9 | 9 | 4 | 9 | 27 | 20 | 29 | 10 | 13 | 45 | 9 | 4 | 2 | 11 | 5 | 5 | 18 | 35 | 50 | 629 |
+| — at 2 stores only (Rimi + Selver) | 3 | 14 | 9 | 11 | 12 | 3 | 11 | 6 | 6 | 3 | 22 | 4 | 3 | 4 | 11 | 0 | 9 | 9 | 15 | 16 | 0 | 3 | 11 | 14 | 10 | 11 | 11 | 3 | 4 | 6 | 7 | 20 | 6 | 5 | 1 | 28 | 4 | 3 | 7 | 5 | 0 | 3 | 18 | 21 | 48 | 420 |
+| Unmatched | 56 | 577 | 249 | 122 | 964 | 341 | 289 | 210 | 129 | 172 | 690 | 71 | 51 | 68 | 547 | 557 | 392 | 523 | 585 | 543 | 276 | 139 | 421 | 963 | 607 | 534 | 526 | 169 | 614 | 228 | 347 | 493 | 678 | 532 | 111 | 3569 | 1562 | 883 | 337 | 296 | 115 | 164 | 759 | 1800 | 1128 | 24387 |
 | Unclassified | 0 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
-| Ambiguous groups | 0 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 2 | 1 | 0 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 3 | 2 | 6 | 65 |
+| Ambiguous groups | 0 | 8 | 0 | 0 | 3 | 2 | 0 | 9 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 | 2 | 1 | 0 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 3 | 2 | 6 | 66 |
 
-**Note:** recomputed 2077 matches from data/raw/, but data/prices.json has 2078 — data/raw/ has moved on since the last run that wrote prices.json for some category.
+**Note:** recomputed 2119 matches from data/raw/, but data/prices.json has 2125 — data/raw/ has moved on since the last run that wrote prices.json for some category.
 
 ## 1. All matched products
 
 | Product | Category | Barbora | Rimi | Selver | Cheapest |
 |---|---|---|---|---|---|
-| A. le coq alkoholivaba premium purk 500ml | Alcohol-free beer, cider & wine | 0.89 € | 0.99 € | — | Barbora |
+| A. le coq alkoholivaba premium prk 500ml | Alcohol-free beer, cider & wine | 0.89 € | 0.99 € | — | Barbora |
 | Clausthaler Alkoholivaba lemon 330ml | Alcohol-free beer, cider & wine | — | 1.29 € | 1.19 € (0.95 € Partner) | Selver |
 | Estrella Alkoholivaba damm 0.0% 500ml | Alcohol-free beer, cider & wine | 1.29 € (1.09 € Aitäh) | — | 1.39 € | Barbora |
 | Heineken alkoholivaba pudel 330ml | Alcohol-free beer, cider & wine | 1.25 € | 1.29 € | — | Barbora |
-| Hoggy's Alkoholivaba apple siider 500ml | Alcohol-free beer, cider & wine | — | 1.15 € | 1.14 € | Selver |
+| Hoggy's Alkoholivaba siider apple 500ml | Alcohol-free beer, cider & wine | — | 1.15 € | 1.14 € | Selver |
 | Saku Alkoholivaba originaal purk 500ml | Alcohol-free beer, cider & wine | — | 1.25 € | 1.24 € (0.99 € Partner) | Selver |
 | Saku on ice Alkoholivaba hola 330ml | Alcohol-free beer, cider & wine | 1.09 € (0.79 € Aitäh) | — | 1.26 € | Barbora |
-| Somersby Alkoholivaba pear siider 500ml | Alcohol-free beer, cider & wine | 1.25 € (0.99 € Aitäh) | — | 1.29 € | Barbora |
+| Somersby Alkoholivaba siider pear 500ml | Alcohol-free beer, cider & wine | 1.25 € (0.99 € Aitäh) | — | 1.29 € | Barbora |
 | Staropramen Alkoholivaba 330ml | Alcohol-free beer, cider & wine | 1.29 € (0.99 € Aitäh) | — | 1.29 € | Barbora + Selver |
 | Törley Alkoholivaba vahuvein 750ml | Alcohol-free beer, cider & wine | 6.09 € | 6.19 € | 6.79 € | Barbora |
 | Warsteiner alkoholivaba fresh 330ml | Alcohol-free beer, cider & wine | 1.15 € | — | 1.17 € | Barbora |
@@ -93,74 +93,76 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Santa maria Sidrunhape 32g | Baking supplies | 0.75 € | 0.79 € | — | Barbora |
 | Santa maria Želatiin 25g | Baking supplies | 1.25 € | — | 1.25 € | Barbora + Selver |
 | Veski mati Kuivpärm 11g | Baking supplies | 0.47 € | — | 0.47 € | Barbora + Selver |
+| A le coq premium 4.7% 330ml | Beer & cider | 1.70 € | 1.79 € | — | Barbora |
+| A le coq special 5.2% 6x500ml | Beer & cider | 8.39 € | 10.99 € | — | Barbora |
 | A. le coq pilsner 4.2% 500ml | Beer & cider | 1.59 € | 1.59 € | — | Barbora + Rimi |
 | A. le coq pilsner purk 4.2% 500ml | Beer & cider | 1.59 € | 1.59 € | 1.59 € | Barbora + Rimi + Selver |
-| A. le coq premium pudel 4.7% 6x500ml | Beer & cider | — | 9.99 € | 9.99 € | Rimi + Selver |
+| A. le coq premium pdl 4.7% 6x500ml | Beer & cider | — | 9.99 € | 9.99 € | Rimi + Selver |
+| A. le coq premium prk 4.7% 500ml | Beer & cider | — | 1.35 € | 1.79 € | Rimi |
+| A. le coq premium prk 4.7% 6x500ml | Beer & cider | — | 9.99 € | 10.05 € | Rimi |
 | A. le coq premium purk 4.7% 330ml | Beer & cider | — | 0.94 € | 0.89 € | Selver |
-| A. le coq premium purk 4.7% 500ml | Beer & cider | — | 1.35 € | 1.79 € | Rimi |
-| A. le coq premium purk 4.7% 6x500ml | Beer & cider | — | 9.99 € | 10.05 € | Rimi |
 | A. le coq premium select 4.3% 355ml | Beer & cider | — | 1.29 € | 1.29 € | Rimi + Selver |
-| Alexander pils westfalen 5% 568ml | Beer & cider | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
-| Alexander pudel 5.2% 500ml | Beer & cider | — | 1.69 € | 1.59 € | Selver |
-| Alexander purk 5.2% 568ml | Beer & cider | 1.95 € | 1.79 € | — | Rimi |
-| Alexander sass väike 4.8% 6x330ml | Beer & cider | 5.29 € | — | 7.49 € | Barbora |
-| Alexander Tume dunkel purk 2% 568ml | Beer & cider | 1.95 € | — | 1.92 € | Selver |
-| Asahi dry super 5% 330ml | Beer & cider | 2.39 € | 2.55 € | — | Barbora |
-| Bitburger pils premium 4.8% 500ml | Beer & cider | 2.19 € | 2.29 € | — | Barbora |
+| Alexander pdl 5.2% 500ml | Beer & cider | — | 1.69 € | 1.59 € | Selver |
+| Alexander prk 5.2% 568ml | Beer & cider | 1.95 € | 1.79 € | — | Rimi |
+| Alexander Tume dunkel prk 2% 568ml | Beer & cider | 1.95 € | — | 1.92 € | Selver |
+| Alexander väike sass 4.8% 6x330ml | Beer & cider | 5.29 € | — | 7.49 € | Barbora |
+| Alexander westfalen pils 5% 568ml | Beer & cider | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
+| Asahi super dry 5% 330ml | Beer & cider | 2.39 € | 2.55 € | — | Barbora |
+| Bitburger premium pils 4.8% 500ml | Beer & cider | 2.19 € | 2.29 € | — | Barbora |
 | Corona extra pudel 4.5% 355ml | Beer & cider | 1.69 € | — | 1.69 € | Barbora + Selver |
 | Fizz Siider blueberry purk 4.5% 500ml | Beer & cider | 1.79 € | — | 1.75 € | Selver |
 | Grimbergen blonde 6.7% 500ml | Beer & cider | 2.49 € | 2.59 € | — | Barbora |
 | Gubernija ekstra lager 5.2% 568ml | Beer & cider | 1.89 € | 1.89 € | — | Barbora + Rimi |
 | Heineken pudel 5% 330ml | Beer & cider | 1.99 € | 1.99 € | — | Barbora + Rimi |
 | Hoggy's Siider hard purk 5.5% 500ml | Beer & cider | 1.99 € | — | 2.05 € | Barbora |
-| Karksi blond munk pudel 6% 500ml | Beer & cider | 2.29 € | 2.25 € | — | Rimi |
+| Karksi blond munk pdl 6% 500ml | Beer & cider | 2.29 € | 2.25 € | — | Rimi |
 | Karksi Kirsiõlu pudel 4.6% 500ml | Beer & cider | 2.15 € | — | 2.25 € | Barbora |
-| Karksi Tume must nunn pudel 6% 500ml | Beer & cider | 2.25 € | — | 2.25 € | Barbora + Selver |
+| Karksi Tume must nunn pdl 6% 500ml | Beer & cider | 2.25 € | — | 2.25 € | Barbora + Selver |
 | Kronenbourg blanc 5% 6x500ml | Beer & cider | 12.59 € | — | 9.99 € | Selver |
 | Lapin kulta purk 5.2% 500ml | Beer & cider | 1.79 € | — | 1.81 € | Barbora |
-| Leffe blonde purk 6.6% 500ml | Beer & cider | 2.85 € | 2.85 € | — | Barbora + Rimi |
+| Leffe blonde prk 6.6% 500ml | Beer & cider | 2.85 € | 2.85 € | — | Barbora + Rimi |
 | Mix Muu alkohoolne jook mojito 4% 330ml | Beer & cider | 2.09 € | 1.99 € | — | Rimi |
 | Pilsner urquell purk 4.4% 500ml | Beer & cider | 2.49 € | 2.59 € | 2.69 € | Barbora |
 | Põhjala kosmos 5.5% 440ml | Beer & cider | 3.49 € | 3.59 € | 3.42 € | Selver |
 | Põhjala laager 4.7% 440ml | Beer & cider | 2.29 € | — | 2.29 € | Barbora + Selver |
-| Põhjala laager punane 4.9% 440ml | Beer & cider | 2.15 € | — | 2.29 € | Barbora |
-| Põhjala maailm uus 4.7% 440ml | Beer & cider | 3.19 € | — | 3.49 € | Barbora |
-| Põhjala purk saturnus 5% 440ml | Beer & cider | 2.99 € | 3.15 € | — | Barbora |
+| Põhjala punane laager 4.9% 440ml | Beer & cider | 2.15 € | — | 2.29 € | Barbora |
+| Põhjala saturnus prk 5% 440ml | Beer & cider | 2.99 € | 3.15 € | — | Barbora |
+| Põhjala uus maailm 4.7% 440ml | Beer & cider | 3.19 € | — | 3.49 € | Barbora |
 | Põhjala virmalised 6.5% 330ml | Beer & cider | 2.99 € | — | 3.09 € | Barbora |
-| Rock purk saku 5.3% 568ml | Beer & cider | — | 1.55 € | 1.95 € | Rimi |
-| Rock purk saku 5.3% 6x568ml | Beer & cider | — | 10.79 € | 10.79 € | Rimi + Selver |
+| Rock saku prk 5.3% 568ml | Beer & cider | — | 1.55 € | 1.95 € | Rimi |
+| Rock saku prk 5.3% 6x568ml | Beer & cider | — | 10.79 € | 10.79 € | Rimi + Selver |
 | Rock unikorn 5.1% 500ml | Beer & cider | — | 1.49 € | 1.85 € | Rimi |
 | Saku hele pudel 5.2% 500ml | Beer & cider | 1.95 € | 1.59 € | 1.85 € | Rimi |
-| Saku kuld purk 5.2% 500ml | Beer & cider | 1.65 € | 1.89 € | 1.92 € | Barbora |
+| Saku kuld prk 5.2% 500ml | Beer & cider | 1.65 € | 1.89 € | 1.92 € | Barbora |
 | Saku on ice 5% 330ml | Beer & cider | 1.09 € | 1.45 € | — | Barbora |
 | Saku on ice hola 4.5% 330ml | Beer & cider | 1.09 € | 1.45 € | 1.47 € | Barbora |
-| Saku on ice pudel 5% 6x330ml | Beer & cider | 8.15 € | 8.59 € | — | Barbora |
+| Saku on ice pdl 5% 6x330ml | Beer & cider | 8.15 € | 8.59 € | — | Barbora |
+| Saku originaal prk 4.7% 6x500ml | Beer & cider | — | 10.39 € | 10.39 € | Rimi + Selver |
 | Saku originaal purk 4.7% 500ml | Beer & cider | — | 1.79 € | 1.79 € | Rimi + Selver |
-| Saku originaal purk 4.7% 6x500ml | Beer & cider | — | 10.39 € | 10.39 € | Rimi + Selver |
 | Saku pilsner 4.2% 500ml | Beer & cider | 1.65 € | — | 1.64 € | Selver |
-| Saku pudel tume 6.7% 500ml | Beer & cider | — | 2.05 € | 2.05 € | Rimi + Selver |
 | Saku safiir 5% 500ml | Beer & cider | 1.95 € | — | 1.89 € | Selver |
+| Saku tume pudel 6.7% 500ml | Beer & cider | — | 2.05 € | 2.05 € | Rimi + Selver |
 | Somersby Siider apple pet 4.5% 1000ml | Beer & cider | 3.79 € | 3.59 € | — | Rimi |
 | Somersby Siider apple purk 4.5% 500ml | Beer & cider | — | 1.59 € | 2.15 € | Rimi |
 | Somersby Siider blackberry pet 4.5% 1000ml | Beer & cider | 3.79 € | 3.59 € | — | Rimi |
 | Somersby Siider blackberry purk 4.5% 500ml | Beer & cider | 1.59 € | 1.59 € | — | Barbora + Rimi |
-| Somersby Siider lime pineapple 4.5% 1000ml | Beer & cider | — | 3.59 € | 3.49 € | Selver |
-| Staropramen premium purk 5% 500ml | Beer & cider | — | 1.69 € | 1.99 € | Rimi |
+| Somersby Siider pineapple lime 4.5% 1000ml | Beer & cider | — | 3.59 € | 3.49 € | Selver |
+| Staropramen premium prk 5% 500ml | Beer & cider | — | 1.69 € | 1.99 € | Rimi |
 | Stella artois 5% 330ml | Beer & cider | 2.09 € | — | 2.10 € | Barbora |
-| Tanker ipa kerge 5.2% 500ml | Beer & cider | 1.39 € | — | 1.92 € | Barbora |
 | Tanker Jõhvika siider 5.4% 500ml | Beer & cider | 1.99 € | 1.99 € | 2.15 € | Barbora + Rimi |
-| Tanker lager select 5% 500ml | Beer & cider | 1.39 € | — | 1.45 € | Barbora |
-| Tanker purk reloaded 5.8% 440ml | Beer & cider | 2.39 € | 2.79 € | — | Barbora |
-| Tanker purk sauna session 4.7% 440ml | Beer & cider | 2.99 € | 2.79 € | 2.32 € | Selver |
+| Tanker kerge ipa 5.2% 500ml | Beer & cider | 1.39 € | — | 1.92 € | Barbora |
+| Tanker reloaded purk 5.8% 440ml | Beer & cider | 2.39 € | 2.79 € | — | Barbora |
+| Tanker sauna session purk 4.7% 440ml | Beer & cider | 2.99 € | 2.79 € | 2.32 € | Selver |
+| Tanker select lager 5% 500ml | Beer & cider | 1.39 € | — | 1.45 € | Barbora |
 | Tuborg 4.6% 500ml | Beer & cider | — | 1.85 € | 1.89 € | Rimi |
 | Tuborg gold 5.5% 500ml | Beer & cider | 1.39 € | 1.99 € | — | Barbora |
-| Tuborg green pudel 4.6% 330ml | Beer & cider | 1.55 € | 1.55 € | 1.49 € | Selver |
+| Tuborg green pdl 4.6% 330ml | Beer & cider | 1.55 € | 1.55 € | 1.49 € | Selver |
 | Velkopopovicky kozel dark purk 3.8% 500ml | Beer & cider | — | 2.39 € | 2.40 € | Rimi |
 | Zubr gold purk 4.6% 500ml | Beer & cider | — | 1.89 € | 1.75 € | Selver |
-| Domino Küpsised avec fun 120g | Biscuits | — | 2.89 € | 2.95 € | Rimi |
-| Domino Küpsised choco crunchy lemon 150g | Biscuits | — | 2.99 € | 2.99 € | Rimi + Selver |
-| Domino Küpsised choco crunchy nougat 150g | Biscuits | — | 2.99 € | 2.99 € | Rimi + Selver |
-| Domino Küpsised dumle fun 120g | Biscuits | — | 2.89 € | 2.95 € | Rimi |
+| Domino Küpsised crunchy choco lemon 150g | Biscuits | — | 2.99 € | 2.99 € | Rimi + Selver |
+| Domino Küpsised crunchy choco nougat 150g | Biscuits | — | 2.99 € | 2.99 € | Rimi + Selver |
+| Domino Küpsised fun avec 120g | Biscuits | — | 2.89 € | 2.95 € | Rimi |
+| Domino Küpsised fun dumle 120g | Biscuits | — | 2.89 € | 2.95 € | Rimi |
 | Domino Küpsised originaal vegan 175g | Biscuits | — | 2.59 € | 2.79 € | Rimi |
 | Domino Küpsised originaal vegan 350g | Biscuits | — | 4.49 € | 4.59 € | Rimi |
 | Gullon Küpsised digestive 400g | Biscuits | — | 1.99 € | 2.19 € | Rimi |
@@ -197,7 +199,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Eesti pagar Kaera pehmik 220g | Bread | 1.15 € | — | 1.17 € | Barbora |
 | Eesti pagar Kaerasepik 300g | Bread | 1.25 € | 1.25 € | — | Barbora + Rimi |
 | Eesti pagar Kanepiseemne leib rukkiteradega 500g | Bread | 1.55 € | — | 1.58 € (1.29 € Partner) | Barbora |
-| Eesti pagar Kartuli pehmik röstsibula 240g | Bread | 1.29 € | — | 1.29 € | Barbora + Selver |
+| Eesti pagar Kartuli röstsibula pehmik 240g | Bread | 1.29 € | — | 1.29 € | Barbora + Selver |
 | Eesti pagar Leib peremehe 600g | Bread | 1.29 € | — | 1.29 € | Barbora + Selver |
 | Eesti Pagar Meeleib 500g | Bread | 1.79 € | 1.39 € | — | Rimi |
 | Eesti pagar Mitmevilja pehmik 240g | Bread | 0.89 € | — | 1.17 € | Barbora |
@@ -208,12 +210,12 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Eesti pagar Pagari kaeraröst 430g | Bread | 1.49 € | 1.59 € | — | Barbora |
 | Eesti Pagar Pagariröst täistera 430g | Bread | — | 1.59 € | 1.59 € | Rimi + Selver |
 | Eesti pagar Pealinna peenleib 490g | Bread | 1.27 € | 0.99 € | — | Rimi |
-| Eesti pagar Peedi pastinaagi pehmik porgandi 240g | Bread | 1.29 € | — | 1.35 € | Barbora |
+| Eesti pagar Peedi porgandi pastinaagi pehmik 240g | Bread | 1.29 € | — | 1.35 € | Barbora |
 | Eesti pagar Põrandaleib peremehe 450g | Bread | 1.65 € | 1.79 € | 1.67 € | Barbora |
 | Eesti pagar Rehe koorikleib 200g | Bread | 0.80 € | — | 0.80 € | Barbora + Selver |
 | Eesti pagar Rehe rukkileib 390g | Bread | 0.89 € | 1.09 € | — | Barbora |
 | Eesti Pagar Rehe rukkileib 600g | Bread | 0.65 € | 0.82 € | — | Barbora |
-| Eesti pagar Röstsai röst tosta 500g | Bread | 0.99 € | 1.19 € | — | Barbora |
+| Eesti pagar Röstsai tosta 500g | Bread | 0.99 € | 1.19 € | — | Barbora |
 | Eesti pagar Rukkiröst tosta 390g | Bread | 1.09 € | 1.19 € | 1.41 € | Barbora |
 | Eesti pagar Rukkisepik 300g | Bread | 1.19 € | 1.09 € | — | Rimi |
 | Eesti pagar Rukkitasku 340g | Bread | 1.05 € (0.79 € Aitäh) | — | 1.09 € | Barbora |
@@ -235,11 +237,11 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Fazer Kodusai röst 500g | Bread | 1.51 € | 1.60 € | 1.59 € | Barbora |
 | Fazer Kodusai suur 500g | Bread | 0.99 € | — | 1.49 € | Barbora |
 | Fazer Kodusai xxl 700g | Bread | — | 1.29 € | 1.39 € | Rimi |
-| Fazer Must juuretisega leib tume 500g | Bread | 1.09 € | 1.39 € | — | Barbora |
 | Fazer Must leib 300g | Bread | 1.09 € (0.75 € Aitäh) | — | 1.19 € | Barbora |
 | Fazer Must leib 600g | Bread | 1.55 € | 1.60 € | — | Barbora |
 | Fazer Must põrandaleib 390g | Bread | 1.45 € | 1.50 € | 1.49 € | Barbora |
 | Fazer Must seemneleib 280g | Bread | 1.29 € | 1.39 € | 1.19 € | Selver |
+| Fazer Must tume leib juuretisega 500g | Bread | 1.09 € | 1.39 € | — | Barbora |
 | Fazer Peenleib juuretise 500g | Bread | 1.25 € | 1.69 € | — | Barbora |
 | Fazer Prantsuse pikk sai 220g | Bread | 1.45 € | 1.59 € | — | Barbora |
 | Fazer Röst seemnetega 500g | Bread | 1.65 € | 1.69 € | — | Barbora |
@@ -248,21 +250,21 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Fazer Sepik seemnetega 250g | Bread | 0.79 € | 0.85 € | — | Barbora |
 | Fazer Südamesepik täistera 300g | Bread | 1.21 € | — | 1.29 € | Barbora |
 | Fazer Vilja röstsepik täisterahelvest 480g | Bread | 1.95 € | 1.55 € | — | Rimi |
-| Fazer Võileiva food street tasku 400g | Bread | 2.59 € | — | 2.65 € (2.25 € Partner) | Barbora |
+| Fazer Võileiva tasku street food 400g | Bread | 2.59 € | — | 2.65 € (2.25 € Partner) | Barbora |
 | Leibur Isa peenleib 355g | Bread | 0.99 € | 0.99 € | 0.99 € | Barbora + Rimi + Selver |
 | Leibur Kirde sai 300g | Bread | 1.09 € | 0.99 € | 0.89 € | Selver |
 | Leibur Kodune sepik 250g | Bread | 0.65 € | 0.69 € | 0.65 € | Barbora + Selver |
-| Leibur Kuldne klassikaline röst 250g | Bread | 1.25 € | — | 1.27 € | Barbora |
-| Leibur Kuldne klassikaline röst 500g | Bread | 1.09 € | — | 0.95 € | Selver |
-| Leibur Leiburi mitmevilja röst 470g | Bread | 1.29 € | 1.89 € | 1.99 € (1.29 € Partner) | Barbora |
+| Leibur Kuldne klassikaline röstsai 250g | Bread | 1.25 € | — | 1.27 € | Barbora |
+| Leibur Kuldne klassikaline röstsai 500g | Bread | 1.09 € | — | 0.95 € | Selver |
 | Leibur Mitmevilja röst 250g | Bread | — | 1.69 € | 1.62 € | Selver |
 | Leibur Peenleib isa seemnetega 390g | Bread | 1.05 € | 1.05 € | 1.05 € | Barbora + Rimi + Selver |
+| Leibur röst mitmevilja 470g | Bread | 1.29 € | 1.89 € | 1.99 € (1.29 € Partner) | Barbora |
 | Leibur Röst rukkijahu 550g | Bread | 1.95 € | — | 1.98 € (1.49 € Partner) | Barbora |
-| Leibur Röstsai graham kuldne röst 500g | Bread | — | 1.55 € | 0.69 € | Selver |
-| Leibur Röstsai kuldne röst täistera 500g | Bread | — | 1.79 € | 1.79 € | Rimi + Selver |
+| Leibur Röstsai kuldne graham 500g | Bread | — | 1.55 € | 0.69 € | Selver |
+| Leibur Röstsai täistera kuldne 500g | Bread | — | 1.79 € | 1.79 € | Rimi + Selver |
 | Leibur Rukkileib ruks 390g | Bread | 1.15 € (0.79 € Aitäh) | — | 0.89 € | Selver |
 | Leibur Rukkipala idandatud teradega 240g | Bread | 1.59 € | — | 1.95 € (1.39 € Partner) | Barbora |
-| Leibur Ruks seemneid seemneleib 390g | Bread | 1.29 € | — | 1.31 € | Barbora |
+| Leibur Ruks seemneleib seemneid 10% 390g | Bread | 1.29 € | — | 1.31 € | Barbora |
 | Leibur Ruks seemnepala 260g | Bread | 1.47 € | — | 1.47 € | Barbora + Selver |
 | Leibur Saib 370g | Bread | — | 1.69 € | 1.68 € | Selver |
 | Leibur Sibulaleib 390g | Bread | 2.09 € | 1.75 € | 1.59 € | Selver |
@@ -270,7 +272,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Leibur Täistera kaeraröst röst 550g | Bread | 2.19 € | — | 2.19 € | Barbora + Selver |
 | Leibur Täisterasepik fitlap 360g | Bread | — | 1.59 € | 1.62 € | Rimi |
 | Leibur Tallinna peenleib 490g | Bread | 0.99 € | 1.52 € | — | Barbora |
-| Leibur Vilja kuldne röst 525g | Bread | 1.55 € | 1.55 € | 1.55 € | Barbora + Rimi + Selver |
+| Leibur Vilja röstsai kuldne 525g | Bread | 1.55 € | 1.55 € | 1.55 € | Barbora + Rimi + Selver |
 | Lõuna pagarid Rukkileib idandatud teradega 300g | Bread | — | 1.59 € | 1.49 € | Selver |
 | Lõuna pagarid Rukkileib seemnetega 300g | Bread | — | 1.69 € | 1.59 € | Selver |
 | Eesti pagar Aprikoosikook 310g | Cakes & pastries | 3.55 € | — | 3.55 € (2.89 € Partner) | Barbora + Selver |
@@ -280,24 +282,24 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Eesti pagar Mini fondant 225g | Cakes & pastries | — | 3.69 € | 4.29 € | Rimi |
 | Eesti pagar Napoleoni kook 1200g | Cakes & pastries | 12.45 € | 10.89 € | — | Rimi |
 | Eesti pagar Õunakook 230g | Cakes & pastries | 3.49 € | 3.29 € | — | Rimi |
-| Eesti pagar Šokolaadi kook napoleoni 400g | Cakes & pastries | 4.39 € | — | 4.39 € | Barbora + Selver |
+| Eesti pagar Šokolaadi napoleoni kook 400g | Cakes & pastries | 4.39 € | — | 4.39 € | Barbora + Selver |
 | Eesti pagar Vaarika kohupiima tort 400g | Cakes & pastries | 7.29 € (5.99 € Aitäh) | 7.79 € | — | Barbora |
 | Europagar Kaneelisüda 200g | Cakes & pastries | — | 1.75 € | 1.95 € | Rimi |
 | Fazer Minisaiakesed kaneeliga 240g | Cakes & pastries | — | 2.69 € | 2.59 € | Selver |
 | Kuchenmeister Marmorkeeks 400g | Cakes & pastries | — | 3.29 € | 4.09 € | Rimi |
 | Kuchenmeister Rondana sidrunikeeks 250g | Cakes & pastries | — | 2.25 € | 2.79 € | Rimi |
 | Pagarini Juustukook mango passioni 520g | Cakes & pastries | — | 12.39 € | 11.79 € (9.59 € Partner) | Selver |
-| Chupa chups Mullinäts babol big 27.6g | Candy | 0.75 € | 0.75 € | — | Barbora + Rimi |
-| Chupa chups Pulgakomm best of the 12g | Candy | 0.39 € | 0.40 € | — | Barbora |
+| Chupa chups Mullinäts big babol 27.6g | Candy | 0.75 € | 0.75 € | — | Barbora + Rimi |
+| Chupa chups Pulgakomm the best of 12g | Candy | 0.39 € | 0.40 € | — | Barbora |
 | Dumle Pulgakomm 10g | Candy | 0.30 € | — | 0.30 € | Barbora + Selver |
 | Halls Pastillid colors 33.5g | Candy | 1.25 € (0.89 € Aitäh) | 1.25 € | — | Barbora + Rimi |
 | Halls Pastillid mee sidruni 33.5g | Candy | 1.25 € (0.89 € Aitäh) | 0.89 € | — | Rimi |
-| Haribo Kummikommid balla pico 160g | Candy | 2.25 € | 2.25 € | 1.59 € | Selver |
-| Haribo Kummikommid balla pico 85g | Candy | 1.35 € | — | 1.35 € | Barbora + Selver |
-| Haribo Kummikommid bussi fruity 175g | Candy | 2.39 € | — | 2.39 € (1.89 € Partner) | Barbora + Selver |
-| Haribo Kummikommid cola happy 175g | Candy | 2.25 € | 2.25 € | 2.39 € | Barbora + Rimi |
+| Haribo Kummikommid fruity bussi 175g | Candy | 2.39 € | — | 2.39 € (1.89 € Partner) | Barbora + Selver |
 | Haribo Kummikommid goldbears 175g | Candy | 2.29 € | 2.29 € | — | Barbora + Rimi |
+| Haribo Kummikommid happy cola 175g | Candy | 2.25 € | 2.25 € | 2.39 € | Barbora + Rimi |
 | Haribo Kummikommid phantasia 175g | Candy | 2.39 € | 2.15 € | — | Rimi |
+| Haribo Kummikommid pico balla 160g | Candy | 2.25 € | 2.25 € | 1.59 € | Selver |
+| Haribo Kummikommid pico balla 85g | Candy | 1.35 € | — | 1.35 € | Barbora + Selver |
 | Haribo Kummikommid ussid 100g | Candy | 1.39 € | — | 1.39 € | Barbora + Selver |
 | Kalev Batoonike kirju koer 200g | Candy | 3.59 € | 3.59 € | 2.79 € | Selver |
 | Kalev Kama jogurtibatoonike 150g | Candy | 2.39 € | 2.45 € | 2.39 € | Barbora + Selver |
@@ -307,43 +309,43 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Kalev Karamell piparmündi 120g | Candy | 1.09 € | — | 1.07 € | Selver |
 | Kalev Klassikalised trühvlid 160g | Candy | 9.95 € | 9.99 € | 9.97 € | Barbora |
 | Kalev Kommisegu lemmikut 7 500g | Candy | 7.95 € (5.79 € Aitäh) | — | 7.97 € (5.99 € Partner) | Barbora |
-| Kalev Kungla pralineekomme valik 390g | Candy | 19.69 € | — | 19.69 € | Barbora + Selver |
+| Kalev Kungla valik pralineekomme 390g | Candy | 19.69 € | — | 19.69 € | Barbora + Selver |
 | Kalev Martsipanikommid klassikalised 175g | Candy | — | 4.29 € | 3.97 € | Selver |
 | Kalev Metspähkel piimašokolaadis 140g | Candy | — | 3.39 € | 4.47 € | Rimi |
 | Kalev Pehme iiris kiss 150g | Candy | 1.89 € | — | 1.87 € | Selver |
 | Kalev Pralineekommid maiuspala 200g | Candy | 7.99 € (5.99 € Aitäh) | 7.99 € | 7.97 € | Selver |
 | Kalev Pralineekommid maiuspala 350g | Candy | 7.89 € | 7.89 € | 7.97 € | Barbora + Rimi |
 | Kalev Pralineekompvek maiuspala 175g | Candy | 2.69 € | — | 2.59 € | Selver |
-| Kalev Rosin merekivid suhkrus 160g | Candy | — | 1.99 € | 1.98 € | Selver |
-| Kalev Rosinad nurr piimašokolaadis 150g | Candy | 3.99 € | 3.99 € | — | Barbora + Rimi |
+| Kalev Rosin suhkrus merekivid 160g | Candy | — | 1.99 € | 1.98 € | Selver |
+| Kalev Rosinad piimašokolaadis nurr 150g | Candy | 3.99 € | 3.99 € | — | Barbora + Rimi |
 | Kalev Šokolaadikommid kannel 300g | Candy | — | 22.39 € | 23.28 € | Rimi |
-| Kalev Tiramisu kakaos mandel 140g | Candy | — | 3.39 € | 4.47 € | Rimi |
+| Kalev Tiramisu mandel kakaos 140g | Candy | — | 3.39 € | 4.47 € | Rimi |
 | Kalev Vahvlikompvek mesikäpp 150g | Candy | 3.79 € | — | 3.77 € (2.89 € Partner) | Selver |
-| Kalev Valik aitäh piimašokolaadikomme 226g | Candy | — | 7.99 € | 7.97 € | Selver |
+| Kalev Valik piimašokolaadikomme aitäh 226g | Candy | — | 7.99 € | 7.97 € | Selver |
 | Karl fazer Kommikarp selection 150g | Candy | 4.99 € | — | 4.99 € | Barbora + Selver |
 | Karl fazer Piimašokolaadikompvekid 250g | Candy | — | 7.99 € | 8.29 € | Rimi |
 | Laima Sefiir mustika 200g | Candy | — | 2.09 € | 2.19 € | Rimi |
 | Laima Sefiir vanilje 200g | Candy | 2.09 € (1.49 € Aitäh) | — | 2.19 € | Barbora |
 | Lockets Pastillid extra strong 41g | Candy | 1.05 € | 1.05 € | — | Barbora + Rimi |
-| Marmiton Halvaa ali baba vanilli 100g | Candy | — | 1.09 € | 1.07 € | Selver |
 | Marmiton Halvaa kakaoga 150g | Candy | 2.09 € | — | 2.09 € | Barbora + Selver |
 | Marmiton Halvaa pistaatsia 150g | Candy | 1.95 € | — | 1.98 € (1.59 € Partner) | Barbora |
+| Marmiton Halvaa vanilli ali baba 100g | Candy | — | 1.09 € | 1.07 € | Selver |
 | Marmiton Marmelaad hapu 150g | Candy | 1.99 € | — | 2.15 € | Barbora |
 | Marmiton Marmelaad lõigud 150g | Candy | 2.09 € | — | 2.12 € | Barbora |
 | Marmiton Marmelaad mango 150g | Candy | 2.49 € | 2.49 € | — | Barbora + Rimi |
 | Marmiton Marmelaad rabarberi 150g | Candy | 2.49 € | 2.49 € | — | Barbora + Rimi |
 | Miisu Batoonike 150g | Candy | 2.49 € | 2.49 € | — | Barbora + Rimi |
 | Mynthon Pastillid extra strong 34g | Candy | 0.95 € | 0.95 € | 0.95 € (0.75 € Partner) | Barbora + Rimi + Selver |
-| Orbit Närimiskumm freshmint white 14g | Candy | — | 0.59 € | 0.90 € | Rimi |
 | Orbit Närimiskumm spearmint 50g | Candy | — | 2.49 € | 2.73 € | Rimi |
+| Orbit Närimiskumm white freshmint 14g | Candy | — | 0.59 € | 0.90 € | Rimi |
 | Red band Kummikommid bubble pop 100g | Candy | 1.39 € | 1.39 € | — | Barbora + Rimi |
 | Skriveru Ploomid tumedas šokolaadis 110g | Candy | 2.75 € | 2.45 € | — | Rimi |
-| Trolli Kummikommid glowworms sour 200g | Candy | 1.95 € (1.49 € Aitäh) | 1.99 € | — | Barbora |
 | Trolli Kummikommid pfirsichringe 200g | Candy | 1.99 € | 1.99 € | — | Barbora + Rimi |
 | Trolli Kummikommid playmouse 200g | Candy | 1.92 € (1.49 € Aitäh) | 1.99 € | — | Barbora |
-| True dates Datlid cola sour 100g | Candy | — | 2.75 € | 2.79 € | Rimi |
+| Trolli Kummikommid sour glowworms 200g | Candy | 1.95 € (1.49 € Aitäh) | 1.99 € | — | Barbora |
 | True dates Datlid cookie dough 100g | Candy | — | 2.75 € | 2.79 € | Rimi |
-| True dates Datlid peach sweet 100g | Candy | — | 2.75 € | 2.79 € | Rimi |
+| True dates Datlid sour cola 100g | Candy | — | 2.75 € | 2.79 € | Rimi |
+| True dates Datlid sweet peach 100g | Candy | — | 2.75 € | 2.79 € | Rimi |
 | Van damme Mini vahukommid 100g | Candy | 1.49 € | — | 1.39 € | Selver |
 | Bonduelle Läätsed vapeur 310g | Canned food | 2.49 € | 2.59 € | — | Barbora |
 | Bonduelle Magus mais 340g | Canned food | 2.09 € | 1.69 € | — | Rimi |
@@ -353,12 +355,12 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Felix Piknikukurk terve 680g | Canned food | 2.95 € | — | 2.89 € | Selver |
 | Felix Särtsukurk 460g | Canned food | 2.95 € | — | 2.59 € | Selver |
 | Gourmante Kapparid äädikas 100g | Canned food | 1.79 € | — | 1.82 € | Barbora |
-| Heinz Punased kidney oad 400g | Canned food | 1.89 € | — | 1.89 € | Barbora + Selver |
+| Heinz Punased oad kidney 400g | Canned food | 1.89 € | — | 1.89 € | Barbora + Selver |
 | Heinz Viie oa segu tomatikastmes 415g | Canned food | 2.65 € | 2.65 € | — | Barbora + Rimi |
 | Minu Tomatid 680g | Canned food | 2.79 € | — | 2.79 € | Barbora + Selver |
 | Mõisaproua kurgid 1000g | Canned food | 3.65 € | — | 3.29 € | Selver |
 | Mõisaproua kurk mesine 500g | Canned food | 2.45 € | — | 2.43 € | Selver |
-| Mõisaproua Tomatid mahlas omas 1000g | Canned food | 3.49 € | — | 3.04 € | Selver |
+| Mõisaproua Tomatid omas mahlas 1000g | Canned food | 3.49 € | — | 3.04 € | Selver |
 | Põltsamaa Jahimehesalat 550g | Canned food | — | 3.89 € | 3.65 € | Selver |
 | Põltsamaa Maitselt kurk 680g | Canned food | 2.89 € | 2.89 € | — | Barbora + Rimi |
 | Põltsamaa Punapeediviilud 570g | Canned food | — | 2.09 € | 2.05 € | Selver |
@@ -394,33 +396,35 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Helen Riisihelbed 500g | Cereals & oats | 2.25 € | 2.35 € | 2.39 € | Barbora |
 | Helen Täisterakaerahelbed 500g | Cereals & oats | 1.34 € | 1.39 € | 1.35 € | Barbora |
 | Helen Tatrahelbed 500g | Cereals & oats | 3.09 € | 3.19 € | 3.13 € | Barbora |
-| Herkuless Müsli granola šokolaadi 3 350g | Cereals & oats | 2.79 € | — | 2.79 € | Barbora + Selver |
+| Herkuless Müsli šokolaadi granola 3 350g | Cereals & oats | 2.79 € | — | 2.79 € | Barbora + Selver |
 | Kellogg's Hommikuhelbed corn flakes 375g | Cereals & oats | 2.79 € | 3.89 € | 3.99 € | Barbora |
 | Lotte Meerõngad 225g | Cereals & oats | 1.67 € | — | 1.67 € | Barbora + Selver |
-| Sante Röstitud banaani müsli šokolaadi 350g | Cereals & oats | — | 2.79 € | 2.89 € | Rimi |
+| Sante Röstitud müsli banaani šokolaadi 350g | Cereals & oats | — | 2.79 € | 2.89 € | Rimi |
 | Sante Röstitud müsli puuviljadega 350g | Cereals & oats | 2.79 € | 2.79 € | 2.84 € | Barbora + Rimi |
 | Start Padjakesed kakaotäidisega 500g | Cereals & oats | 3.65 € | 3.59 € | — | Rimi |
 | Tartu mill Kaerahelbed 500g | Cereals & oats | 0.94 € | — | 1.09 € | Barbora |
-| Tartu mill Kaerahelbed jämedad täistera 1000g | Cereals & oats | — | 2.39 € | 2.39 € | Rimi + Selver |
-| Tartu mill Kaerahelbed jämedad täistera 500g | Cereals & oats | — | 1.29 € | 1.29 € | Rimi + Selver |
-| Tartu mill Kaerahelbepuder kaneeli õuna 35g | Cereals & oats | — | 0.49 € | 0.49 € | Rimi + Selver |
-| Tartu mill Kaerahelbepuder mustsõstra 35g | Cereals & oats | — | 0.49 € | 0.39 € | Selver |
+| Tartu mill Kaerahelbed täistera jämedad 1000g | Cereals & oats | — | 2.39 € | 2.39 € | Rimi + Selver |
+| Tartu mill Kaerahelbed täistera jämedad 500g | Cereals & oats | — | 1.29 € | 1.29 € | Rimi + Selver |
+| Tartu mill Kaerahelbepuder mustasõstra 35g | Cereals & oats | — | 0.49 € | 0.39 € | Selver |
+| Tartu mill Kaerahelbepuder õuna kaneeli 35g | Cereals & oats | — | 0.49 € | 0.49 € | Rimi + Selver |
 | Tartu mill Kaerahelbepuder vaarika 35g | Cereals & oats | 0.49 € (0.39 € Aitäh) | 0.49 € | 0.49 € | Barbora + Rimi + Selver |
 | Tartu mill Neljaviljahelbed täistera 500g | Cereals & oats | — | 1.29 € | 1.29 € | Rimi + Selver |
 | Tartu mill Riisihelbed 500g | Cereals & oats | 1.99 € | 1.99 € | 1.99 € | Barbora + Rimi + Selver |
 | Tartu mill Täistera kiirkaerahelbed 1000g | Cereals & oats | 2.39 € | 2.39 € | 2.39 € | Barbora + Rimi + Selver |
 | Tartu mill Täistera kiirkaerahelbed 500g | Cereals & oats | 1.29 € (0.99 € Aitäh) | 1.29 € | 1.29 € | Barbora + Rimi + Selver |
 | Tartu mill Täistera neljaviljahelbed 1000g | Cereals & oats | 2.39 € | 2.39 € | 1.99 € | Selver |
-| Veski mati Helbed ja kliidega seemnete 500g | Cereals & oats | — | 1.45 € | 1.99 € | Rimi |
+| Veski mati Helbed seemnete ja kliidega 500g | Cereals & oats | — | 1.45 € | 1.99 € | Rimi |
 | Veski mati Kaera ja riisihelbe segu 500g | Cereals & oats | 1.99 € | — | 2.02 € | Barbora |
 | Veski mati Kaerakliid 1000g | Cereals & oats | 3.09 € | 2.95 € | — | Rimi |
 | Veski mati Kiirkaerahelbed 500g | Cereals & oats | 1.69 € | 1.45 € | — | Rimi |
 | Veski mati Viljahelbed kliidega 500g | Cereals & oats | 1.85 € | — | 1.85 € | Barbora + Selver |
-| Alma Sulatatud cheddari juust tšilli 200g | Cheese | 1.99 € (1.59 € Aitäh) | 1.99 € | 1.69 € | Selver |
 | Alma Sulatatud juust 200g | Cheese | 1.99 € (1.59 € Aitäh) | 1.89 € | 1.99 € (1.49 € Partner) | Rimi |
+| Alma Sulatatud juust cheddari tšilli 200g | Cheese | 1.99 € (1.59 € Aitäh) | 1.99 € | 1.69 € | Selver |
 | Alma Sulatatud juust kreveti 200g | Cheese | 1.99 € (1.59 € Aitäh) | — | 1.99 € (1.49 € Partner) | Barbora + Selver |
 | Alma Sulatatud juust maitseürdi 200g | Cheese | 1.99 € (1.59 € Aitäh) | — | 1.99 € (1.49 € Partner) | Barbora + Selver |
 | Alma Sulatatud juust trühvli 200g | Cheese | 1.99 € (1.59 € Aitäh) | 1.99 € | 1.69 € | Selver |
+| E-piim Brõnsa juust 200g | Cheese | 2.49 € | — | 2.53 € | Barbora |
+| E-piim Riivjuust light 250g | Cheese | 1.99 € | — | 2.73 € (1.89 € Partner) | Barbora |
 | Estover Juust eesti viilutatud 200g | Cheese | 2.49 € (1.79 € Aitäh) | 2.49 € | — | Barbora + Rimi |
 | Estover Juust eesti viilutatud 500g | Cheese | 6.29 € | 6.29 € | — | Barbora + Rimi |
 | Estover Juust vene viilutatud 150g | Cheese | 1.69 € | 1.95 € | — | Barbora |
@@ -435,12 +439,12 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Hiirte juust Sulatatud 185g | Cheese | 1.85 € | — | 1.87 € | Barbora |
 | Merevaik Sulatatud juust 200g | Cheese | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Merevaik Sulatatud juust 370g | Cheese | — | 3.59 € | 3.39 € | Selver |
-| Merevaik Sulatatud juust kanaga röstitud 200g | Cheese | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Merevaik Sulatatud juust kukeseentega 200g | Cheese | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Merevaik Sulatatud juust laktoosivaba 200g | Cheese | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Merevaik Sulatatud juust murulauguga 200g | Cheese | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Merevaik Sulatatud juust musta trühvliga 170g | Cheese | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Merevaik Sulatatud juust premium 170g | Cheese | 1.57 € | 1.99 € | 1.79 € | Barbora |
+| Merevaik Sulatatud juust röstitud kanaga 200g | Cheese | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Mo saaremaa Sulatatud juust kadaka 185g | Cheese | — | 1.89 € | 1.87 € | Selver |
 | Mo saaremaa Sulatatud juust old saare 185g | Cheese | — | 1.89 € | 1.87 € | Selver |
 | Nopri Gouda juust tšilli 250g | Cheese | 3.89 € | — | 5.22 € (3.99 € Partner) | Barbora |
@@ -451,8 +455,8 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Olympus Salatijuust kitsepiimast 150g | Cheese | — | 2.89 € | 2.90 € (2.39 € Partner) | Rimi |
 | Olympus Salatijuust lambapiimast 150g | Cheese | — | 2.89 € | 2.90 € (2.39 € Partner) | Rimi |
 | Philadelphia Toorjuust classic 200g | Cheese | 3.75 € (2.89 € Aitäh) | 2.99 € | 2.99 € | Rimi + Selver |
-| Philadelphia Toorjuust küüsl light 200g | Cheese | 3.69 € (2.89 € Aitäh) | 2.99 € | — | Rimi |
 | Philadelphia Toorjuust light 200g | Cheese | — | 2.99 € | 3.99 € | Rimi |
+| Philadelphia Toorjuust light küüsl 200g | Cheese | 3.69 € (2.89 € Aitäh) | 2.99 € | — | Rimi |
 | Piimameister otto Mozzarella kirsid 125g | Cheese | — | 1.75 € | 1.69 € | Selver |
 | Piimameister otto Toorjuust 150g | Cheese | 1.99 € (1.35 € Aitäh) | 1.99 € | — | Barbora + Rimi |
 | Piimameister otto Toorjuust 400g | Cheese | 3.45 € | 3.49 € | 3.45 € | Barbora + Selver |
@@ -461,22 +465,22 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Synnove Juust itaallane kõva 150g | Cheese | — | 3.69 € | 3.65 € | Selver |
 | Tere Suitsujuust 18% 200g | Cheese | — | 2.99 € | 3.04 € (2.49 € Partner) | Rimi |
 | Valio Juust atleet originaal 200g | Cheese | — | 2.49 € | 2.53 € | Rimi |
-| Valio Juust gouda red royal 250g | Cheese | 3.69 € | 2.89 € | — | Rimi |
-| Valio Juust gouda red royal viil 150g | Cheese | 2.43 € | 1.89 € | — | Rimi |
-| Valio Juust gouda royal yellow 300g | Cheese | 4.16 € | 3.29 € | — | Rimi |
 | Valio Juust oltermanni 500g | Cheese | 3.99 € | 6.99 € | — | Barbora |
-| Valio Suitsujuust ants kaval 250g | Cheese | 2.95 € | 2.95 € | — | Barbora + Rimi |
-| Valio Sulatatud forte juust juustu 185g | Cheese | 1.98 € | 1.99 € | — | Barbora |
+| Valio Juust royal gouda red 250g | Cheese | 3.69 € | 2.89 € | — | Rimi |
+| Valio Juust royal gouda red viil 150g | Cheese | 2.43 € | 1.89 € | — | Rimi |
+| Valio Juust royal gouda yellow 300g | Cheese | 4.16 € | 3.29 € | — | Rimi |
+| Valio Suitsujuust kaval ants 250g | Cheese | 2.95 € | 2.95 € | — | Barbora + Rimi |
 | Valio Sulatatud juust 185g | Cheese | 1.99 € | 1.99 € | 1.98 € | Selver |
 | Valio Sulatatud juust 370g | Cheese | 2.49 € | 2.69 € | — | Barbora |
+| Valio Sulatatud juust forte juustu 185g | Cheese | 1.98 € | 1.99 € | — | Barbora |
 | Valio Sulatatud juust murulaugu ürdi 185g | Cheese | — | 1.99 € | 1.98 € | Selver |
 | Balsnack Kartulivahvel hapukoore tilli 90g | Chips & snacks | 1.05 € | 1.09 € | — | Barbora |
 | Balsnack Kartulivahvel meresoolaga 90g | Chips & snacks | 1.35 € | 1.35 € | — | Barbora + Rimi |
 | Cheetos Ketšupi maisikrõpsud 165g | Chips & snacks | 2.69 € | 2.75 € | — | Barbora |
 | Cheetos Maisikrõps juustu 165g | Chips & snacks | — | 2.75 € | 2.73 € | Selver |
 | Cheetos Maisikrõpsud pitsa 160g | Chips & snacks | 2.69 € | 2.75 € | — | Barbora |
-| Estrella Kartulikrõpsud hapukoore kurgi 170g | Chips & snacks | 3.45 € | 3.49 € | — | Barbora |
 | Estrella Kartulikrõpsud juustu 180g | Chips & snacks | — | 3.59 € | 3.75 € | Rimi |
+| Estrella Kartulikrõpsud kurgi hapukoore 170g | Chips & snacks | 3.45 € | 3.49 € | — | Barbora |
 | Estrella Kartulikrõpsud sibula 250g | Chips & snacks | 4.59 € (2.89 € Aitäh) | — | 4.49 € | Selver |
 | Estrella Mikropopkorn soolaga 90g | Chips & snacks | 1.19 € | — | 1.29 € | Barbora |
 | Estrella Mikropopkorn või 90g | Chips & snacks | 1.19 € (0.89 € Aitäh) | 1.19 € | 1.29 € | Barbora + Rimi |
@@ -487,11 +491,11 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Lotte Maisipulgad 130g | Chips & snacks | 1.39 € | 1.39 € | — | Barbora + Rimi |
 | Mogyi Mikropopkorn juustu 100g | Chips & snacks | 0.99 € | — | 0.89 € | Selver |
 | Ok snacks Röstitud seakrõpsud 50g | Chips & snacks | 2.09 € | — | 1.69 € | Selver |
-| Pringles Kartulikrõpsud herbs mediterranean 165g | Chips & snacks | 3.19 € | — | 3.55 € | Barbora |
 | Pringles Kartulikrõpsud hot spicy 165g | Chips & snacks | 3.19 € | 3.19 € | — | Barbora + Rimi |
 | Pringles Kartulikrõpsud juustu sibula 165g | Chips & snacks | — | 3.19 € | 2.95 € | Selver |
 | Pringles Kartulikrõpsud koore sibula 165g | Chips & snacks | — | 3.19 € | 3.55 € | Rimi |
-| Pringles Kartulikrõpsud originaal 165g | Chips & snacks | 3.19 € | 3.19 € | 2.95 € | Selver |
+| Pringles Kartulikrõpsud mediterranean herbs 165g | Chips & snacks | 3.19 € | — | 3.55 € | Barbora |
+| Pringles Kartulikrõpsud original 165g | Chips & snacks | 3.19 € | 3.19 € | 2.95 € | Selver |
 | Pringles Kartulikrõpsud paprika 165g | Chips & snacks | 3.19 € | — | 3.55 € | Barbora |
 | Pringles Kartulikrõpsud peekoni 165g | Chips & snacks | 3.19 € | 3.19 € | — | Barbora + Rimi |
 | Seakamarakrõpsud ossi sinepi 40g | Chips & snacks | 0.95 € | 1.12 € | — | Barbora |
@@ -499,41 +503,43 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Taffel Kartulikrõpsud hapukoore sibula 180g | Chips & snacks | — | 2.95 € | 2.97 € | Rimi |
 | Taffel Kartulikrõpsud juustu 180g | Chips & snacks | — | 2.85 € | 2.97 € (1.97 € Partner) | Rimi |
 | Taffel Maisipallid juustu nacho 165g | Chips & snacks | 2.99 € | 2.99 € | 2.97 € | Selver |
-| Taffel Maisisnäkid hearts juustu nacho 200g | Chips & snacks | — | 3.69 € | 2.85 € | Selver |
+| Taffel Maisisnäkid nacho juustu hearts 200g | Chips & snacks | — | 3.69 € | 2.85 € | Selver |
 | Geisha Šokolaadibatoon crunchy 50g | Chocolate | 1.49 € | — | 1.75 € | Barbora |
 | Kalev Brownie batoon 50g | Chocolate | 1.15 € (0.79 € Aitäh) | 1.15 € | — | Barbora + Rimi |
 | Kalev Kamatahvel 100g | Chocolate | — | 1.49 € | 1.49 € | Rimi + Selver |
-| Kalev Kamatahvel küpsise mustika 100g | Chocolate | 1.49 € | 1.49 € | — | Barbora + Rimi |
+| Kalev Kamatahvel mustika küpsise 100g | Chocolate | 1.49 € | 1.49 € | — | Barbora + Rimi |
 | Kalev Klassikaline martsipanibatoon 40g | Chocolate | 0.99 € | 0.99 € | 0.97 € | Selver |
-| Kalev Martsipanibatoon tallinn vana 40g | Chocolate | 0.99 € | 1.05 € | 0.97 € | Selver |
+| Kalev Martsipanibatoon vana tallinn 40g | Chocolate | 0.99 € | 1.05 € | 0.97 € | Selver |
 | Kalev Piimašokolaad 190g | Chocolate | 4.99 € | 2.99 € | 4.97 € | Rimi |
 | Kalev Piimašokolaad anneke 100g | Chocolate | 2.69 € (1.89 € Aitäh) | 2.59 € | 2.69 € (1.99 € Partner) | Rimi |
 | Kalev Piimašokolaad anneke 190g | Chocolate | 4.99 € (3.49 € Aitäh) | 4.99 € | — | Barbora + Rimi |
 | Kalev Piimašokolaad anneke 270g | Chocolate | 6.99 € (4.69 € Aitäh) | 6.99 € | 4.97 € | Selver |
 | Kalev Piimašokolaad anneke õhuline 65g | Chocolate | 2.25 € (1.59 € Aitäh) | 2.29 € | 2.17 € (1.59 € Partner) | Selver |
 | Kalev Piimašokolaad nurr 20g | Chocolate | 0.69 € | — | 0.99 € | Barbora |
-| Kalev Šokolaad cream tallinn vana 104g | Chocolate | 2.95 € | — | 2.97 € | Barbora |
-| Kalev Tume bitter šokolaad 56% 100g | Chocolate | 2.69 € | 2.69 € | 2.67 € | Selver |
-| Kalev Tume bitter šokolaad 70% 100g | Chocolate | 2.69 € | 2.69 € | 2.67 € | Selver |
-| Kalev Tume bitter šokolaad 70% 190g | Chocolate | 3.79 € | 5.55 € | 4.97 € | Barbora |
-| Kalev Tume bitter šokolaad 87% 100g | Chocolate | 2.69 € | 2.69 € | — | Barbora + Rimi |
-| Kalev Tume kirsiga šokolaad 190g | Chocolate | 4.99 € | 2.99 € | 4.97 € | Rimi |
-| Kalev Tume mandlitega tervete šokolaad 190g | Chocolate | — | 2.99 € | 4.97 € | Rimi |
-| Kalev Tume tuljak täidisega šokolaad 105g | Chocolate | — | 3.29 € | 2.97 € | Selver |
+| Kalev Šokolaad vana tallinn cream 104g | Chocolate | 2.95 € | — | 2.97 € | Barbora |
+| Kalev Tume šokolaad bitter 56% 100g | Chocolate | 2.69 € | 2.69 € | 2.67 € | Selver |
+| Kalev Tume šokolaad bitter 70% 100g | Chocolate | 2.69 € | 2.69 € | 2.67 € | Selver |
+| Kalev Tume šokolaad bitter 70% 190g | Chocolate | 3.79 € | 5.55 € | 4.97 € | Barbora |
+| Kalev Tume šokolaad bitter 87% 100g | Chocolate | 2.69 € | 2.69 € | — | Barbora + Rimi |
+| Kalev Tume šokolaad kirsiga 190g | Chocolate | 4.99 € | 2.99 € | 4.97 € | Rimi |
+| Kalev Tume šokolaad täidisega tuljak 105g | Chocolate | — | 3.29 € | 2.97 € | Selver |
+| Kalev Tume šokolaad tervete mandlitega 190g | Chocolate | — | 2.99 € | 4.97 € | Rimi |
 | Karl fazer Piimašokolaad 180g | Chocolate | 5.29 € | 4.99 € | 5.29 € (2.99 € Partner) | Rimi |
 | Karl fazer Piimašokolaad 95g | Chocolate | 2.99 € | — | 2.99 € (1.99 € Partner) | Barbora + Selver |
-| Karl fazer Piimašokolaad pähkli rosina 180g | Chocolate | — | 5.29 € | 5.29 € (2.99 € Partner) | Rimi + Selver |
+| Karl fazer Piimašokolaad rosina pähkli 180g | Chocolate | — | 5.29 € | 5.29 € (2.99 € Partner) | Rimi + Selver |
 | Karl fazer Šokolaadibatoon crunchy 55g | Chocolate | — | 1.75 € | 1.75 € (1.09 € Partner) | Rimi + Selver |
 | Karl fazer Tume šokolaad 180g | Chocolate | 5.29 € | — | 5.29 € (2.99 € Partner) | Barbora + Selver |
-| Kex Täidetud piimašokolaadis vahvel 60g | Chocolate | 0.99 € | — | 1.25 € | Barbora |
+| Kex Täidetud vahvel piimašokolaadis 60g | Chocolate | 0.99 € | — | 1.25 € | Barbora |
 | Kinder Šokolaadibatoon crispy 34.5g | Chocolate | 0.97 € | 1.39 € | — | Barbora |
+| Kitkat Tahvel sarapuupähkli 99g | Chocolate | — | 1.49 € | 2.59 € (1.89 € Partner) | Rimi |
+| Kitkat Tahvel soolakaramelli 99g | Chocolate | — | 1.49 € | 2.59 € (1.89 € Partner) | Rimi |
 | Mesikäpp Piimašokolaad vahvliga 270g | Chocolate | — | 6.99 € | 6.87 € | Selver |
 | Milka Piimašokolaad bubbly 90g | Chocolate | 2.35 € (1.69 € Aitäh) | 2.35 € | — | Barbora + Rimi |
 | Milka Piimašokolaad bubbly white 95g | Chocolate | 2.35 € (1.49 € Aitäh) | 2.35 € | — | Barbora + Rimi |
 | Milka Piimašokolaad daim 90g | Chocolate | 2.65 € (1.49 € Aitäh) | — | 2.99 € | Barbora |
 | Milka Piimašokolaad oreo 100g | Chocolate | — | 2.35 € | 2.99 € | Rimi |
 | Milka Piimašokolaad oreo 300g | Chocolate | 6.39 € (4.49 € Aitäh) | 6.39 € | 4.99 € | Selver |
-| Milka Piimašokolaad pähklitega tervete 250g | Chocolate | — | 6.39 € | 6.60 € | Rimi |
+| Milka Piimašokolaad tervete pähklitega 250g | Chocolate | — | 6.39 € | 6.60 € | Rimi |
 | Roshen Piimašokolaad lacmi 90g | Chocolate | 1.59 € | 1.99 € | — | Barbora |
 | Schogetten Valge šokolaad 100g | Chocolate | 2.29 € (1.79 € Aitäh) | 2.29 € | — | Barbora + Rimi |
 | Tupla Šokolaadibatoon maxi 50g | Chocolate | — | 1.19 € | 1.29 € | Rimi |
@@ -543,25 +549,25 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Jacobs Jahvatatud kohv kronung 500g | Coffee | 10.79 € (6.99 € Aitäh) | 10.79 € | — | Barbora + Rimi |
 | Jacobs Jahvatatud kohv kronung mild 500g | Coffee | 12.69 € (8.99 € Aitäh) | 12.69 € | — | Barbora + Rimi |
 | Jacobs Jahvatatud kohv selection 500g | Coffee | 13.89 € (7.99 € Aitäh) | 13.89 € | 12.49 € | Selver |
-| Jacobs Kohv kronung lahustuv 200g | Coffee | — | 13.79 € | 13.99 € (8.99 € Partner) | Rimi |
+| Jacobs Kohv lahustuv kronung 200g | Coffee | — | 13.79 € | 13.99 € (8.99 € Partner) | Rimi |
 | Jacobs Kohvioad barista crema 1000g | Coffee | 29.99 € (14.99 € Aitäh) | 13.99 € | 23.49 € | Rimi |
 | Jacobs Kohvioad barista espresso 1000g | Coffee | 29.99 € (14.99 € Aitäh) | 13.99 € | — | Rimi |
-| Jacobs Lahustuv cronat gold kohv 100g | Coffee | 6.49 € (3.99 € Aitäh) | 6.49 € | 6.49 € | Barbora + Rimi + Selver |
-| Jacobs Lahustuv cronat gold kohv 200g | Coffee | 11.79 € (6.99 € Aitäh) | 11.79 € | 7.99 € | Selver |
+| Jacobs Lahustuv kohv cronat gold 100g | Coffee | 6.49 € (3.99 € Aitäh) | 6.49 € | 6.49 € | Barbora + Rimi + Selver |
+| Jacobs Lahustuv kohv cronat gold 200g | Coffee | 11.79 € (6.99 € Aitäh) | 11.79 € | 7.99 € | Selver |
 | Jacobs Lahustuv kohv krönung 100g | Coffee | 8.19 € (4.69 € Aitäh) | — | 8.12 € | Selver |
 | L'or Kohvikapslid capri 10x5.2g | Coffee | 4.59 € (3.59 € Aitäh) | 5.79 € | — | Barbora |
 | L'or Kohvikapslid santorini 10x5.2g | Coffee | 4.79 € (3.69 € Aitäh) | 5.79 € | — | Barbora |
-| Lavazza Jahvatatud inblu kohv 250g | Coffee | 10.99 € (6.29 € Aitäh) | — | 11.59 € (5.99 € Partner) | Barbora |
+| Lavazza Jahvatatud kohv inblu 250g | Coffee | 10.99 € (6.29 € Aitäh) | — | 11.59 € (5.99 € Partner) | Barbora |
 | Lavazza Jahvatatud kohv oro 250g | Coffee | 9.99 € (6.99 € Aitäh) | 9.99 € | — | Barbora + Rimi |
-| Lavazza Jahvatatud kohv oro qualita 250g | Coffee | 10.99 € (5.99 € Aitäh) | — | 5.69 € | Selver |
+| Lavazza Jahvatatud kohv qualita oro 250g | Coffee | 10.99 € (5.99 € Aitäh) | — | 5.69 € | Selver |
 | Lavazza Jahvatatud kohv rossa 250g | Coffee | 8.69 € (5.99 € Aitäh) | 8.69 € | — | Barbora + Rimi |
-| Lavazza Kohv club jahvatatud purgis 250g | Coffee | — | 10.99 € | 10.99 € | Rimi + Selver |
-| Lavazza Kohvioad aroma crema e 1000g | Coffee | 29.99 € (12.99 € Aitäh) | 29.99 € | 29.99 € (14.99 € Partner) | Barbora + Rimi + Selver |
-| Lavazza Kohvioad dark oro qualita roast 1000g | Coffee | — | 33.49 € | 34.99 € (18.99 € Partner) | Rimi |
-| Lavazza Kohvioad italy napoli of tales 450g | Coffee | — | 18.99 € | 17.99 € (10.99 € Partner) | Selver |
-| Lavazza Kohvioad italy of roma tales 450g | Coffee | — | 18.99 € | 17.99 € (10.99 € Partner) | Selver |
+| Lavazza Kohv jahvatatud club purgis 250g | Coffee | — | 10.99 € | 10.99 € | Rimi + Selver |
+| Lavazza Kohvioad crema e aroma 1000g | Coffee | 29.99 € (12.99 € Aitäh) | 29.99 € | 29.99 € (14.99 € Partner) | Barbora + Rimi + Selver |
+| Lavazza Kohvioad qualita oro dark roast 1000g | Coffee | — | 33.49 € | 34.99 € (18.99 € Partner) | Rimi |
 | Lavazza Kohvioad qualita rossa 1000g | Coffee | 29.99 € (12.99 € Aitäh) | — | 29.99 € (14.99 € Partner) | Barbora + Selver |
-| Löfbergs Jahvatatud inferno kohv 450g | Coffee | 10.15 € | — | 10.15 € | Barbora + Selver |
+| Lavazza Kohvioad tales of italy napoli 450g | Coffee | — | 18.99 € | 17.99 € (10.99 € Partner) | Selver |
+| Lavazza Kohvioad tales of italy roma 450g | Coffee | — | 18.99 € | 17.99 € (10.99 € Partner) | Selver |
+| Löfbergs Jahvatatud kohv inferno 450g | Coffee | 10.15 € | — | 10.15 € | Barbora + Selver |
 | Löfbergs Kohvioad brazil 1000g | Coffee | 24.29 € | — | 24.29 € | Barbora + Selver |
 | Löfbergs Kohvioad crema 1000g | Coffee | 23.89 € | — | 23.90 € | Barbora |
 | Merrild Kohvioad arabica 1000g | Coffee | 25.89 € (13.99 € Aitäh) | — | 26.99 € (12.99 € Partner) | Barbora |
@@ -569,20 +575,20 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Merrild Kohvioad barista espresso 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 26.99 € | 27.99 € | Barbora |
 | Merrild Kohvioad crema 1000g | Coffee | 25.89 € (13.99 € Aitäh) | 11.99 € | 26.99 € | Rimi |
 | Merrild Kohvioad crema dolce 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 26.35 € | 26.99 € (11.99 € Partner) | Barbora |
-| Merrild Kohvioad roast vienna 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 24.99 € | — | Rimi |
-| Mövenpick Jahvatatud der himmlische kohv 500g | Coffee | 13.29 € | — | 9.99 € | Selver |
-| Nescafe Lahustuv classic crema kohv 100g | Coffee | 7.49 € (4.99 € Aitäh) | — | 7.49 € | Barbora + Selver |
-| Nescafe Lahustuv gold kohv 200g | Coffee | 16.99 € (8.99 € Aitäh) | 16.99 € | 16.99 € | Barbora + Rimi + Selver |
-| Paulig Kohv classic cremoso jahvatatud 500g | Coffee | — | 6.49 € | 10.19 € | Rimi |
+| Merrild Kohvioad vienna roast 1000g | Coffee | 25.99 € (13.99 € Aitäh) | 24.99 € | — | Rimi |
+| Mövenpick Jahvatatud kohv der himmlische 500g | Coffee | 13.29 € | — | 9.99 € | Selver |
+| Nescafe Lahustuv kohv classic crema 100g | Coffee | 7.49 € (4.99 € Aitäh) | — | 7.49 € | Barbora + Selver |
+| Nescafe Lahustuv kohv gold 200g | Coffee | 16.99 € (8.99 € Aitäh) | 16.99 € | 16.99 € | Barbora + Rimi + Selver |
+| Paulig Kohv jahvatatud classic cremoso 500g | Coffee | — | 6.49 € | 10.19 € | Rimi |
 | Paulig Kohv jahvatatud mokka 475g | Coffee | — | 6.99 € | 9.59 € (5.69 € Partner) | Rimi |
 | Paulig Kohvioad arabica 1000g | Coffee | 24.39 € | 12.49 € | 23.90 € | Rimi |
-| Paulig Kohvioad aromatico classic 1000g | Coffee | — | 23.69 € | 24.49 € (12.99 € Partner) | Rimi |
 | Paulig Kohvioad classic 1000g | Coffee | 24.89 € (12.99 € Aitäh) | 23.69 € | 24.49 € | Rimi |
+| Paulig Kohvioad classic aromatico 1000g | Coffee | — | 23.69 € | 24.49 € (12.99 € Partner) | Rimi |
 | Paulig Kohvioad classic crema 1000g | Coffee | 24.89 € (12.99 € Aitäh) | 23.69 € | 24.49 € | Rimi |
 | Paulig Kohviuba arabica selected 1000g | Coffee | — | 12.49 € | 23.90 € | Rimi |
-| Segafredo Jahvatatud dolce kohv 450g | Coffee | 9.19 € | — | 9.19 € | Barbora + Selver |
+| Segafredo Jahvatatud kohv dolce 450g | Coffee | 9.19 € | — | 9.19 € | Barbora + Selver |
 | Segafredo Kohvioad crema perfetto 900g | Coffee | 27.39 € | — | 27.39 € | Barbora + Selver |
-| Seve Lahustuv siguriga viljakohv 100g | Coffee | 1.49 € | — | 1.19 € | Selver |
+| Seve Lahustuv viljakohv siguriga 100g | Coffee | 1.49 € | — | 1.19 € | Selver |
 | Starbucks Kohvioad blonde espresso 450g | Coffee | 14.99 € (10.99 € Aitäh) | 14.99 € | 17.99 € | Barbora + Rimi |
 | Starbucks Kohvioad pike place 450g | Coffee | 14.99 € (10.99 € Aitäh) | 14.99 € | — | Barbora + Rimi |
 | Tasuja Kohviuba tambet 1000g | Coffee | 23.29 € (21.09 € Aitäh) | — | 24.90 € | Barbora |
@@ -639,7 +645,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Tere Kodujuust riisikatega 200g | Curd & cottage cheese | 1.35 € | — | 1.99 € | Barbora |
 | Tere Kohupiim 5% 200g | Curd & cottage cheese | 1.15 € | 1.09 € | 1.17 € (0.89 € Partner) | Rimi |
 | Tere Kohupiim rosinatega 200g | Curd & cottage cheese | 1.15 € | — | 1.17 € (0.89 € Partner) | Barbora |
-| Alma Koorejogurt marja muah plombiiri 180g | Dairy | 1.29 € | — | 1.31 € | Barbora |
+| Alma Koorejogurt muah marja plombiiri 180g | Dairy | 1.29 € | — | 1.31 € | Barbora |
 | Alma Koorejogurt muah stracciatella 380g | Dairy | 1.39 € | 1.39 € | 1.68 € | Barbora + Rimi |
 | Alma Koorejogurt muah troopiline 180g | Dairy | 1.29 € | — | 1.31 € | Barbora |
 | Alma Koorejogurt muah vanilli 380g | Dairy | 1.39 € | 1.39 € | 1.68 € | Barbora + Rimi |
@@ -653,14 +659,16 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Alma Proteiinijogurt kreeka maitsestamata 370g | Dairy | 1.75 € (1.39 € Aitäh) | 1.89 € | — | Barbora |
 | Alma Täispiim 3.6-4.2% 2000ml | Dairy | — | 1.99 € | 1.99 € | Rimi + Selver |
 | Alma Või 82% 200g | Dairy | 2.49 € | 2.49 € | 2.39 € (1.49 € Partner) | Selver |
+| Dava Õrrekanade munad L 10tk | Dairy | 2.99 € | 2.99 € | 3.25 € | Barbora + Rimi |
+| Dava Õrrekanade munad M 10tk | Dairy | 2.79 € | 2.89 € | 2.79 € | Barbora + Selver |
 | Estover Taluvõi eesti 82% 150g | Dairy | 2.19 € | — | 2.39 € | Barbora |
 | Farmi Koorene jogurt kiivi tikri 400g | Dairy | 1.79 € | 1.79 € | 1.82 € | Barbora + Rimi |
-| Farmi Koorene jogurt kirss must 400g | Dairy | 1.79 € | 1.19 € | — | Rimi |
 | Farmi Koorene jogurt maasikatega 400g | Dairy | — | 1.19 € | 1.79 € (1.19 € Partner) | Rimi |
-| Farmi Koorene jogurt martsipani ploomi 200g | Dairy | 1.19 € | — | 1.19 € | Barbora + Selver |
+| Farmi Koorene jogurt must kirss 400g | Dairy | 1.79 € | 1.19 € | — | Rimi |
 | Farmi Koorene jogurt mustikatega 400g | Dairy | 1.79 € | — | 1.49 € | Selver |
-| Farmi Koorene jogurt mustsõstra 200g | Dairy | 1.19 € | — | 1.19 € | Barbora + Selver |
 | Farmi Koorene jogurt virsikutega 400g | Dairy | 1.79 € | — | 1.79 € (1.19 € Partner) | Barbora + Selver |
+| Farmi Koorene mustasõstra jogurt 200g | Dairy | 1.19 € | — | 1.19 € | Barbora + Selver |
+| Farmi Koorene ploomi martsipani jogurt 200g | Dairy | 1.19 € | — | 1.19 € | Barbora + Selver |
 | Farmi Kreeka jogurt 10% 370g | Dairy | 1.49 € | — | 1.79 € | Barbora |
 | Farmi Piim kiles 2.5% 1000ml | Dairy | 0.89 € | — | 0.62 € | Selver |
 | Farmi Piim pure 2.5% 1500ml | Dairy | — | 1.59 € | 1.49 € | Selver |
@@ -673,8 +681,8 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Mo saaremaa Või küüsl soolakrist 150g | Dairy | 2.19 € (1.75 € Aitäh) | 2.19 € | — | Barbora + Rimi |
 | Mo saaremaa Või laktoosivaba 200g | Dairy | — | 2.49 € | 1.99 € | Selver |
 | Saare Jogurt maitsestamata 5% 400g | Dairy | 1.29 € | — | 1.89 € | Barbora |
-| Saare Jogurtikreem laktoosivaba sidruni 400g | Dairy | — | 1.79 € | 1.82 € (1.39 € Partner) | Rimi |
-| Saare Jogurtikreem passioni vaarika 400g | Dairy | 1.25 € | 1.79 € | 1.82 € (1.39 € Partner) | Barbora |
+| Saare Jogurtikreem sidruni laktoosivaba 400g | Dairy | — | 1.79 € | 1.82 € (1.39 € Partner) | Rimi |
+| Saare Jogurtikreem vaarika passioni 400g | Dairy | 1.25 € | 1.79 € | 1.82 € (1.39 € Partner) | Barbora |
 | Saare Kreeka jogurt 10% 380g | Dairy | 1.29 € | — | 1.89 € | Barbora |
 | Tere Piim pure 1.8% 1000ml | Dairy | — | 1.29 € | 1.09 € | Selver |
 | Tere Või 82% 200g | Dairy | 2.59 € | 2.19 € | 2.59 € | Rimi |
@@ -730,17 +738,17 @@ Matching pools every store's items for a category together (scraper/match-produc
 | A. le coq Karastusjook barbariss 1500ml | Drinks | 1.55 € | — | 1.58 € (1.09 € Partner) | Barbora |
 | Aura Ananassinektar 1000ml | Drinks | 2.75 € | 2.85 € | 2.19 € | Selver |
 | Aura Apelsinimahl 1000ml | Drinks | 2.39 € | 2.39 € | 1.89 € | Selver |
-| Aura Gaseerimata gaasita mg vesi 500ml | Drinks | 1.29 € (0.99 € Aitäh) | 1.39 € | — | Barbora |
+| Aura Gaasita vesi mg 500ml | Drinks | 1.29 € (0.99 € Aitäh) | 1.39 € | — | Barbora |
 | Aura Köögiviljamahl 1000ml | Drinks | — | 1.95 € | 1.85 € | Selver |
 | Aura Multinektar 1000ml | Drinks | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
-| Aura Nektar aprikoosi mango 1000ml | Drinks | — | 1.89 € | 1.89 € | Rimi + Selver |
+| Aura Nektar mango aprikoosi 1000ml | Drinks | — | 1.89 € | 1.89 € | Rimi + Selver |
 | Aura Õunamahl 1000ml | Drinks | 1.99 € | — | 1.98 € | Selver |
 | Aura Pirninektar 1000ml | Drinks | — | 2.05 € | 1.89 € | Selver |
 | Aura Ploominektar 1000ml | Drinks | 1.75 € | 1.79 € | 1.45 € | Selver |
 | Aura Punase greibi nektar 1000ml | Drinks | 1.89 € | — | 1.89 € | Barbora + Selver |
 | Aura Spring vesi gaasita 500ml | Drinks | 0.56 € | — | 0.56 € | Barbora + Selver |
 | Aura Tomatimahl 1000ml | Drinks | 1.79 € | 1.79 € | 1.76 € | Selver |
-| Aura Vesi gaasita spring 1500ml | Drinks | 0.78 € | — | 0.78 € | Barbora + Selver |
+| Aura Vesi spring gaasita 1500ml | Drinks | 0.78 € | — | 0.78 € | Barbora + Selver |
 | Aura Viinamarjanektar 1000ml | Drinks | 1.79 € | — | 1.79 € | Barbora + Selver |
 | Borjomi Looduslik karboniseeritud 1000ml | Drinks | 2.49 € | — | 2.49 € | Barbora + Selver |
 | Cappy Apelsininektar 1000ml | Drinks | 2.95 € (1.69 € Aitäh) | — | 2.95 € | Barbora + Selver |
@@ -767,7 +775,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Don simon Mandariinimahl 1000ml | Drinks | 3.65 € | 3.79 € | — | Barbora |
 | Don simon Mangonektar premium 1500ml | Drinks | 3.75 € (2.99 € Aitäh) | — | 3.99 € | Barbora |
 | Don simon Tomatimahl premium 200ml | Drinks | — | 1.39 € | 1.21 € | Selver |
-| Don simon Troopiliste mahl viljade 1000ml | Drinks | — | 3.65 € | 3.65 € | Rimi + Selver |
+| Don simon Troopiliste viljade mahl 1000ml | Drinks | — | 3.65 € | 3.65 € | Rimi + Selver |
 | Don simon Virsikunektar premium 1500ml | Drinks | 4.09 € (2.99 € Aitäh) | — | 3.99 € | Selver |
 | Dr.pepper Karastusjook 330ml | Drinks | 1.19 € | — | 1.11 € | Selver |
 | Evian Looduslik 1500ml | Drinks | 2.25 € | 2.25 € | — | Barbora + Rimi |
@@ -779,11 +787,11 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Fanta Karastusjook orange 850ml | Drinks | 1.69 € | 1.29 € | — | Rimi |
 | Fanta Karastusjook orange zero 1500ml | Drinks | 2.29 € | 2.29 € | — | Barbora + Rimi |
 | Fanta Karastusjook orange zero 330ml | Drinks | 1.21 € (1.21 € Aitäh) | 0.89 € | — | Rimi |
-| Fanta Karastusjook orange zero 500ml | Drinks | 1.29 € | 1.29 € | — | Barbora + Rimi |
+| Fanta Karastusjook zero apelsin 500ml | Drinks | 1.29 € | 1.29 € | — | Barbora + Rimi |
 | Fentimans Rose Lemonade 275ml | Drinks | 2.35 € | 2.35 € | 2.43 € | Barbora + Rimi |
 | Fever tree Toonik indian tonic water 500ml | Drinks | — | 3.49 € | 2.59 € | Selver |
 | Heinz Tomatimahl 290ml | Drinks | — | 1.49 € | 1.49 € | Rimi + Selver |
-| Limpa Vahujook karastusjook mullike 750ml | Drinks | 3.39 € | 3.59 € | — | Barbora |
+| Limpa Karastusjook mullike 750ml | Drinks | 3.39 € | 3.59 € | — | Barbora |
 | Pepsi Karastusjook cola 1500ml | Drinks | 1.99 € (1.29 € Aitäh) | 1.29 € | 2.02 € | Rimi |
 | Pepsi Karastusjook cola 500ml | Drinks | 1.09 € | 1.09 € | 1.07 € | Selver |
 | Põhjala Kali 440ml | Drinks | 1.89 € (1.49 € Aitäh) | — | 1.99 € (1.49 € Partner) | Barbora |
@@ -798,13 +806,13 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Pure Õunamahl 1000ml | Drinks | 3.65 € | 3.29 € | 3.69 € | Rimi |
 | Pure Tomatimahl 1000ml | Drinks | 4.69 € | 3.79 € | — | Rimi |
 | Rc cola Karastusjook 2000ml | Drinks | 2.09 € | — | 2.08 € | Selver |
-| Rynkeby Mahl kuivatatud ploomi 1000ml | Drinks | 4.25 € | — | 4.26 € | Barbora |
+| Rynkeby Mahl kuivatatud ploomist 1000ml | Drinks | 4.25 € | — | 4.26 € | Barbora |
 | Saaremaa Joogivesi 1500ml | Drinks | — | 0.85 € | 0.70 € | Selver |
 | Saaremaa Joogivesi 5000ml | Drinks | — | 1.19 € | 1.19 € | Rimi + Selver |
 | Saaremaa Joogivesi 500ml | Drinks | — | 0.54 € | 0.53 € | Selver |
 | Schweppes Toonik bitter lemon 1000ml | Drinks | 1.39 € | — | 1.92 € | Barbora |
-| Schweppes Toonik mixer pink 1000ml | Drinks | 1.95 € | — | 1.49 € | Selver |
-| Schweppes Toonik mixer pink 1500ml | Drinks | 2.75 € | — | 2.73 € (1.79 € Partner) | Selver |
+| Schweppes Toonik pink mixer 1000ml | Drinks | 1.95 € | — | 1.49 € | Selver |
+| Schweppes Toonik pink mixer 1500ml | Drinks | 2.75 € | — | 2.73 € (1.79 € Partner) | Selver |
 | Schweppes Toonik tangerine 1000ml | Drinks | 1.95 € | — | 1.92 € | Selver |
 | Sprite Karastusjook 1500ml | Drinks | 2.29 € | — | 2.29 € | Barbora + Selver |
 | Sprite Karastusjook 500ml | Drinks | 1.29 € | — | 1.27 € | Selver |
@@ -816,29 +824,29 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Värska originaal Mineraalvesi 1500ml | Drinks | 1.69 € | — | 1.68 € (1.29 € Partner) | Selver |
 | Värska originaal Mineraalvesi 500ml | Drinks | 0.99 € | — | 0.97 € | Selver |
 | Värska Originaal mineraalvesi 500ml | Drinks | 0.98 € | 1.09 € | — | Barbora |
-| Värska originaal Värska gaasita naturaal 1500ml | Drinks | 0.99 € | — | 0.99 € | Barbora + Selver |
+| Värska originaal Värska naturaal mullita 1500ml | Drinks | 0.99 € | — | 0.99 € | Barbora + Selver |
 | Vytautas Mineraalvesi 1500ml | Drinks | 1.29 € (0.79 € Aitäh) | — | 1.21 € (0.99 € Partner) | Selver |
 | Aviko Kartulipallid 600g | Dumplings, pizza & fries | — | 2.75 € | 2.43 € | Selver |
 | Dr.oetker pitsa prosciutto ristorante 340g | Dumplings, pizza & fries | 4.05 € | — | 4.06 € | Barbora |
 | Dr.oetker pitsa ristorante speciale 345g | Dumplings, pizza & fries | 3.99 € | — | 4.06 € | Barbora |
 | Isukas pelmeenid 700g | Dumplings, pizza & fries | 2.15 € | — | 2.69 € | Barbora |
 | Maahärra friikartul sakiline 750g | Dumplings, pizza & fries | 2.99 € | — | 3.04 € | Barbora |
-| Maks & moorits Kodupelmeenid 700g | Dumplings, pizza & fries | 3.11 € | 3.89 € | — | Barbora |
+| Maks & moorits Kodupelmeenid 700g | Dumplings, pizza & fries | 3.11 € | 3.89 € | 3.98 € | Barbora |
 | Pealinna laste pelmeenid 350g | Dumplings, pizza & fries | 1.83 € | — | 2.29 € | Barbora |
 | Pealinna Pelmeenid premia 350g | Dumplings, pizza & fries | — | 2.29 € | 2.29 € | Rimi + Selver |
-| Rakvere broilerilihaga pelmeenid 400g | Dumplings, pizza & fries | 2.15 € | 2.69 € | 2.73 € (2.29 € Partner) | Barbora |
 | Rakvere Minipelmeenid sealihaga 350g | Dumplings, pizza & fries | — | 2.49 € | 2.35 € (1.99 € Partner) | Selver |
 | Rakvere pelmeenid 900g | Dumplings, pizza & fries | 5.39 € (3.99 € Aitäh) | 4.59 € | 5.39 € | Rimi |
+| Rakvere pelmeenid broilerilihaga 400g | Dumplings, pizza & fries | 2.15 € | 2.69 € | 2.73 € (2.29 € Partner) | Barbora |
 | Rakvere Pelmeenid pere 600g | Dumplings, pizza & fries | — | 2.39 € | 2.99 € | Rimi |
 | Rakvere pelmeenid praesibulaga 400g | Dumplings, pizza & fries | 1.72 € | — | 2.15 € | Barbora |
-| Rannarootsi ehe mini pelmeenid 350g | Dumplings, pizza & fries | 2.23 € | — | 2.84 € | Barbora |
 | Rannarootsi hinkaalid 420g | Dumplings, pizza & fries | 2.63 € | 3.29 € | — | Barbora |
 | Rannarootsi mini pelmeenid 700g | Dumplings, pizza & fries | — | 3.99 € | 3.89 € | Selver |
+| Rannarootsi mini pelmeenid ehe 350g | Dumplings, pizza & fries | 2.23 € | — | 2.84 € | Barbora |
 | Tallegg Minipelmeenid broilerilihaga 350g | Dumplings, pizza & fries | — | 2.69 € | 2.59 € | Selver |
 | Uvic hiina pelmeenid 1000g | Dumplings, pizza & fries | 6.36 € | — | 7.98 € | Barbora |
-| Uvic hiina pelmeenid 400g | Dumplings, pizza & fries | 2.63 € | 3.29 € | 3.34 € (2.79 € Partner) | Barbora |
-| Vici gyoza pelmeenid seentega 400g | Dumplings, pizza & fries | 2.63 € | — | 3.65 € (2.99 € Partner) | Barbora |
+| Uvic pelmeenid hiina 400g | Dumplings, pizza & fries | 2.63 € | 3.29 € | 3.34 € (2.79 € Partner) | Barbora |
 | Vici hinkaalid 400g | Dumplings, pizza & fries | 2.99 € | 2.99 € | — | Barbora + Rimi |
+| Vici pelmeenid seentega gyoza 400g | Dumplings, pizza & fries | 2.63 € | — | 3.65 € (2.99 € Partner) | Barbora |
 | Abba Lõhepasteet 145g | Fish & seafood | — | 2.65 € | 2.69 € | Rimi |
 | Abba Tuunikalapasteet 145g | Fish & seafood | — | 2.65 € | 2.69 € | Rimi |
 | Briis Anšoovis filee klassikaline 145g | Fish & seafood | 2.05 € | — | 2.05 € | Barbora + Selver |
@@ -846,17 +854,17 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Briis Vürtsikilu fileed õlis 160g | Fish & seafood | — | 2.75 € | 2.75 € | Rimi + Selver |
 | Briis Vürtsikilud balti 400g | Fish & seafood | 1.95 € | 1.95 € | 1.95 € | Barbora + Rimi + Selver |
 | Briis Vürtsikilufilee 160g | Fish & seafood | 2.59 € | 2.59 € | — | Barbora + Rimi |
-| Kaija Skumbria mahlas omas 240g | Fish & seafood | 3.05 € | — | 2.89 € | Selver |
 | Kaija Skumbria õlis 240g | Fish & seafood | 3.09 € | 3.09 € | — | Barbora + Rimi |
+| Kaija Skumbria omas mahlas 240g | Fish & seafood | 3.05 € | — | 2.89 € | Selver |
 | Kaija Skumbria tomatikastmes 240g | Fish & seafood | 3.05 € | — | 2.99 € | Selver |
 | Kaija Sprotid õlis 190g | Fish & seafood | 3.45 € | 3.49 € | — | Barbora |
 | Kaija Tuunikala õlis 160g | Fish & seafood | 4.49 € | 3.59 € | — | Rimi |
-| Kaluri Praetud koduses räimed 500g | Fish & seafood | 3.79 € | — | 3.69 € (3.29 € Partner) | Selver |
+| Kaluri Praetud räimed koduses 500g | Fish & seafood | 3.79 € | — | 3.69 € (3.29 € Partner) | Selver |
 | Kaluri Praetud räimed tomatikastmes 500g | Fish & seafood | 3.89 € | — | 3.89 € (3.29 € Partner) | Barbora + Selver |
 | Kaluri Tallinna kilud 250g | Fish & seafood | 3.09 € | — | 3.09 € | Barbora + Selver |
 | Kaluri Vinnutatud särg 200g | Fish & seafood | 5.69 € | 5.69 € | 5.09 € | Selver |
 | Kapten grant Heeringafilee vähesoolane 240g | Fish & seafood | 2.49 € | — | 1.99 € | Selver |
-| Kapten grant Lõhe mahlas omas 230g | Fish & seafood | 2.65 € | — | 2.65 € | Barbora + Selver |
+| Kapten grant Lõhe omas mahlas 230g | Fish & seafood | 2.65 € | — | 2.65 € | Barbora + Selver |
 | Kapten grant Lõhetükid tomatikastmes 230g | Fish & seafood | 2.99 € | 2.99 € | — | Barbora + Rimi |
 | Kapten grant Merekapsasalat 500g | Fish & seafood | — | 2.99 € | 2.85 € | Selver |
 | Kapten grant Skumbria tomatikastmes 240g | Fish & seafood | 2.45 € | — | 2.45 € | Barbora + Selver |
@@ -864,24 +872,24 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Kapten grant Tallinna kilud 240g | Fish & seafood | 2.69 € | — | 2.69 € | Barbora + Selver |
 | Kapten grant Vürtsikilufilee 100g | Fish & seafood | 2.99 € | — | 3.05 € | Barbora |
 | M.v.wool Heik 250g | Fish & seafood | 4.49 € | — | 4.49 € | Barbora + Selver |
-| Marwi Vannamei krevetid küüslaugu tšilli 100g | Fish & seafood | — | 3.99 € | 3.99 € | Rimi + Selver |
+| Marwi Vannamei krevetid tšilli küüslaugu 100g | Fish & seafood | — | 3.99 € | 3.99 € | Rimi + Selver |
 | Minu Räimed praetud tomatikastmes 240g | Fish & seafood | — | 2.55 € | 2.59 € | Rimi |
 | Msdm Kuivatatud meritint 36g | Fish & seafood | 2.15 € | 2.15 € | — | Barbora + Rimi |
-| Vici choice pulgad smart surimi 250g | Fish & seafood | 2.49 € | — | 2.49 € (1.69 € Partner) | Barbora + Selver |
 | Vici Heeringafilee 240g | Fish & seafood | 3.39 € | — | 3.39 € | Barbora + Selver |
 | Vici Heeringafilee kergsoola 220g | Fish & seafood | 1.99 € | — | 2.85 € | Barbora |
 | Vici Heeringafilee rasvane 240g | Fish & seafood | 3.09 € | — | 3.09 € | Barbora + Selver |
 | Vici Heeringafilee traditsiooniline 240g | Fish & seafood | 3.19 € | — | 3.19 € | Barbora + Selver |
 | Vici Heeringafilee traditsiooniline 400g | Fish & seafood | 4.99 € | — | 4.99 € | Barbora + Selver |
 | Vici krabinuudel surimi 200g | Fish & seafood | 3.15 € | — | 2.09 € | Selver |
-| Vici Kuumsuitsu nahaga skumbriafilee 175g | Fish & seafood | 4.89 € | — | 5.89 € | Barbora |
-| Vici liha lumekrabi surimi 120g | Fish & seafood | 2.19 € | — | 1.49 € | Selver |
-| Vici Maksikrevetid soolvees surimi 320g | Fish & seafood | 3.99 € | — | 3.99 € | Barbora + Selver |
-| Vici pulgad surimi 150g | Fish & seafood | 2.19 € | — | 2.09 € | Selver |
-| Vici pulgad surimi 300g | Fish & seafood | 3.99 € | — | 4.09 € | Barbora |
+| Vici Kuumsuitsu skumbriafilee nahaga 175g | Fish & seafood | 4.89 € | — | 5.89 € | Barbora |
+| Vici Maksikrevetid surimi soolvees 320g | Fish & seafood | 3.99 € | — | 3.99 € | Barbora + Selver |
+| Vici surimist liha lumekrabi 120g | Fish & seafood | 2.19 € | — | 1.49 € | Selver |
+| Vici surimist pulgad 150g | Fish & seafood | 2.19 € | — | 2.09 € | Selver |
+| Vici surimist pulgad 300g | Fish & seafood | 3.99 € | — | 4.09 € | Barbora |
+| Vici surimist pulgad smart choice 250g | Fish & seafood | 2.49 € | — | 2.49 € (1.69 € Partner) | Barbora + Selver |
 | Vici Tursamaks 121g | Fish & seafood | 3.29 € | — | 3.29 € | Barbora + Selver |
 | Viru rand Heeringasalat murulauguga 360g | Fish & seafood | 4.99 € | — | 6.29 € | Barbora |
-| Viru rand Praetud koduses räimed 500g | Fish & seafood | 4.29 € (2.99 € Aitäh) | 4.99 € | 4.99 € | Barbora |
+| Viru rand Praetud räimed koduses 500g | Fish & seafood | 4.29 € (2.99 € Aitäh) | 4.99 € | 4.99 € | Barbora |
 | Viru rand Praetud räimed tomatikastmes 500g | Fish & seafood | 4.29 € (2.99 € Aitäh) | — | 4.69 € | Barbora |
 | Viru rand Räimerullid küüslaugumarinaadis 400g | Fish & seafood | 4.99 € | — | 5.69 € | Barbora |
 | Viru rand Vürtsikilufileed 100g | Fish & seafood | 2.49 € | — | 2.89 € | Barbora |
@@ -915,13 +923,13 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Härmavili ahjuköögiviljad 700g | Frozen vegetables & berries | 4.39 € | — | 3.19 € | Selver |
 | Härmavili Köögiviljad šampinjonidega 400g | Frozen vegetables & berries | — | 2.29 € | 2.26 € (1.75 € Partner) | Selver |
 | Härmavili maasikas rabarber 300g | Frozen vegetables & berries | 2.69 € | — | 2.69 € (1.89 € Partner) | Barbora + Selver |
-| Härmavili mustikad vaarikad 300g | Frozen vegetables & berries | 5.89 € | — | 5.89 € | Barbora + Selver |
-| Hortex julienne metsaseened 400g | Frozen vegetables & berries | 2.49 € | 3.65 € | 3.65 € | Barbora |
+| Härmavili vaarikad mustikad 300g | Frozen vegetables & berries | 5.89 € | — | 5.89 € | Barbora + Selver |
 | Hortex marjasegu vaarikatega 300g | Frozen vegetables & berries | 2.79 € | — | 3.29 € | Barbora |
-| Maahärra brokoli ja lillkapsas 400g | Frozen vegetables & berries | 1.79 € | — | 1.82 € (1.45 € Partner) | Barbora |
+| Hortex metsaseened julienne 400g | Frozen vegetables & berries | 2.49 € | 3.65 € | 3.65 € | Barbora |
 | Maahärra fit tervisepada 400g | Frozen vegetables & berries | 1.89 € | — | 1.89 € | Barbora + Selver |
 | Maahärra kartuli sibulasegu 1000g | Frozen vegetables & berries | 2.89 € | — | 2.94 € | Barbora |
 | Maahärra Köögiviljasegu fit 400g | Frozen vegetables & berries | — | 1.49 € | 1.49 € | Rimi + Selver |
+| Maahärra lillkapsas ja brokoli 400g | Frozen vegetables & berries | 1.79 € | — | 1.82 € (1.45 € Partner) | Barbora |
 | Maahärra marjasegu 300g | Frozen vegetables & berries | 2.59 € | — | 2.59 € | Barbora + Selver |
 | Maahärra Pühapäevapada 400g | Frozen vegetables & berries | — | 1.75 € | 1.72 € | Selver |
 | Maahärra seenesegu 400g | Frozen vegetables & berries | 2.99 € | 3.29 € | 3.04 € (2.59 € Partner) | Barbora |
@@ -932,9 +940,9 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Bataat kg | Fruits & vegetables | 2.79 € | 2.79 € | 3.99 € | Barbora + Rimi |
 | Dattel 200g | Fruits & vegetables | 0.99 € | — | 1.29 € | Barbora |
 | Eesti and Šampinjonid 500g | Fruits & vegetables | — | 5.79 € | 5.59 € | Selver |
-| Eesti and Sibulad 450g | Fruits & vegetables | — | 2.99 € | 2.99 € | Rimi + Selver |
-| Eesti and Soolakurk 300g | Fruits & vegetables | 3.49 € | — | 3.49 € | Barbora + Selver |
+| Eesti and Sibulad peedipulbriga 450g | Fruits & vegetables | — | 2.99 € | 2.99 € | Rimi + Selver |
 | Eesti And Soolakurk küüslauguga 500g | Fruits & vegetables | 3.29 € | 3.29 € | — | Barbora + Rimi |
+| Eesti and Soolakurk tšilliga 300g | Fruits & vegetables | 3.49 € | — | 3.49 € | Barbora + Selver |
 | Granaatõun kg | Fruits & vegetables | 3.49 € | 5.99 € | 5.99 € | Barbora |
 | Hapukapsas viibergi 650g | Fruits & vegetables | — | 2.99 € | 3.99 € | Rimi |
 | Hapukurk viibergi 400g | Fruits & vegetables | — | 2.99 € | 3.39 € | Rimi |
@@ -999,14 +1007,24 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Karni Broileri rinnalihasink 300g | Ham & cold cuts | — | 3.69 € | 3.69 € | Rimi + Selver |
 | Karni Kuningate sink 120g | Ham & cold cuts | — | 2.49 € | 2.49 € | Rimi + Selver |
 | Linnamäe Metssealiha konserv 240g | Ham & cold cuts | 4.79 € | 4.79 € | — | Barbora + Rimi |
-| Maks & moorits Kreemjas kodupasteet 210g | Ham & cold cuts | 1.59 € | 1.59 € | — | Barbora + Rimi |
-| Maks & moorits Pitsasink 250g | Ham & cold cuts | 2.09 € | 1.89 € | — | Rimi |
-| Maks & moorits Pühajärve sink 300g | Ham & cold cuts | 2.54 € | 3.39 € | — | Barbora |
+| Maks & moorits Kanalihasült 300g | Ham & cold cuts | 2.99 € | — | 2.99 € | Barbora + Selver |
+| Maks & moorits Kodusült 300g | Ham & cold cuts | 1.89 € | — | 2.39 € | Barbora |
+| Maks & moorits Kreemjas kodupasteet 210g | Ham & cold cuts | 1.59 € | 1.59 € | 1.62 € | Barbora + Rimi |
+| Maks & moorits Maakodu suitsusink | Ham & cold cuts | 7.99 € | — | 9.99 € | Barbora |
+| Maks & moorits Maamehesink | Ham & cold cuts | 12.69 € | — | 12.45 € (8.99 € Partner) | Selver |
+| Maks & moorits Maasuitsu fileesink | Ham & cold cuts | 11.99 € | — | 11.99 € | Barbora + Selver |
+| Maks & moorits Õrnsuitsu sisefilee kuubikud 200g | Ham & cold cuts | 1.99 € | — | 2.49 € | Barbora |
+| Maks & moorits Pitsasink 250g | Ham & cold cuts | 2.09 € | 1.89 € | 1.59 € | Selver |
+| Maks & moorits Pühajärve sink 300g | Ham & cold cuts | 2.54 € | 3.39 € | 2.99 € | Barbora |
+| Maks & moorits Sealihasült 300g | Ham & cold cuts | 1.89 € | — | 2.38 € | Barbora |
+| Maks & moorits Seavälisfilee sink 150g | Ham & cold cuts | — | 2.39 € | 2.39 € | Rimi + Selver |
+| Maks & moorits Talusink 150g | Ham & cold cuts | — | 2.39 € | 2.19 € (1.69 € Partner) | Selver |
+| Maks & moorits Veisemaksapasteet 210g | Ham & cold cuts | 1.59 € | — | 1.72 € | Barbora |
 | Matsimoka Küüslaugupekk viil 110g | Ham & cold cuts | 1.85 € | 1.85 € | — | Barbora + Rimi |
 | Matsimoka Pasteet 170g | Ham & cold cuts | 2.29 € | 2.29 € | 2.29 € (1.59 € Partner) | Barbora + Rimi + Selver |
 | Matsimoka Suitsuliha viilutatud 110g | Ham & cold cuts | — | 2.39 € | 2.45 € | Rimi |
-| Matsimoka Sült kallerdisega naturaalse 320g | Ham & cold cuts | — | 2.99 € | 4.26 € | Rimi |
-| Minu Turistieine de lux sealihast 525g | Ham & cold cuts | 4.79 € | 4.79 € | — | Barbora + Rimi |
+| Matsimoka Sült naturaalse kallerdisega 320g | Ham & cold cuts | — | 2.99 € | 4.26 € | Rimi |
+| Minu Turistieine sealihast de lux 525g | Ham & cold cuts | 4.79 € | 4.79 € | — | Barbora + Rimi |
 | Nõo Delikatess sült 300g | Ham & cold cuts | 2.45 € | 2.55 € | — | Barbora |
 | Nõo Hommikupeekon 135g | Ham & cold cuts | — | 1.79 € | 2.65 € | Rimi |
 | Nõo Kanasink fitlap 105g | Ham & cold cuts | — | 1.79 € | 2.23 € (1.49 € Partner) | Rimi |
@@ -1017,8 +1035,8 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Nõo Seakõrvasnäkid 130g | Ham & cold cuts | 2.39 € | 2.79 € | 3.10 € | Barbora |
 | Nõo Suitsupõsk | Ham & cold cuts | 8.19 € | — | 9.14 € (5.99 € Partner) | Barbora |
 | Nõo Suitsutatud seakeel 200g | Ham & cold cuts | 2.69 € | — | 2.79 € | Barbora |
-| Nõo Suur memme sült 500g | Ham & cold cuts | 4.29 € | — | 4.29 € (2.99 € Partner) | Barbora + Selver |
-| Oskar E maksapasteet vaba 200g | Ham & cold cuts | 1.89 € | 1.89 € | — | Barbora + Rimi |
+| Nõo Suur sült memme 500g | Ham & cold cuts | 4.29 € | — | 4.29 € (2.99 € Partner) | Barbora + Selver |
+| Oskar E vaba maksapasteet 200g | Ham & cold cuts | 1.89 € | 1.89 € | — | Barbora + Rimi |
 | Oskar Sealihasült 330g | Ham & cold cuts | 3.05 € (2.15 € Aitäh) | 3.05 € | — | Barbora + Rimi |
 | Rakvere Kreemjas maksapasteet 300g | Ham & cold cuts | 1.99 € | 1.99 € | — | Barbora + Rimi |
 | Rakvere Prosciutto peekon viilutatud 140g | Ham & cold cuts | — | 2.59 € | 2.59 € | Rimi + Selver |
@@ -1030,44 +1048,45 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Rakvere Toorsuitsupeekon inglisepärane 150g | Ham & cold cuts | — | 2.89 € | 2.94 € | Rimi |
 | Rakvere Toorsuitsupeekoni kuubikud 140g | Ham & cold cuts | 2.19 € | 2.09 € | 2.19 € | Rimi |
 | Rakvere Võileivapeekon 130g | Ham & cold cuts | 2.59 € | — | 2.63 € | Barbora |
-| Rannarootsi Hirveliha mahlas omas 240g | Ham & cold cuts | — | 3.59 € | 3.65 € | Rimi |
+| Rannarootsi Hirveliha omas mahlas 240g | Ham & cold cuts | — | 3.59 € | 3.65 € | Rimi |
 | Rannarootsi Kodune pasteet 180g | Ham & cold cuts | 1.39 € | — | 1.09 € | Selver |
 | Rannarootsi Maksapasteet 240g | Ham & cold cuts | 1.85 € | — | 1.89 € | Barbora |
-| Rannarootsi Sealiha mahlas omas 240g | Ham & cold cuts | 2.89 € | — | 2.99 € | Barbora |
+| Rannarootsi Sealiha omas mahlas 240g | Ham & cold cuts | 2.89 € | — | 2.99 € | Barbora |
 | Rannarootsi Sealihasült 330g | Ham & cold cuts | 2.75 € | 2.59 € | 2.79 € | Rimi |
 | Rannarootsi Seasink ehe välisfileest 120g | Ham & cold cuts | — | 1.89 € | 1.69 € | Selver |
 | Rannarootsi Turistieine 240g | Ham & cold cuts | — | 2.89 € | 2.99 € | Rimi |
-| Rannarootsi Veiseliha mahlas omas 240g | Ham & cold cuts | 2.89 € | 2.89 € | 2.99 € | Barbora + Rimi |
+| Rannarootsi Veiseliha omas mahlas 240g | Ham & cold cuts | 2.89 € | 2.89 € | 2.99 € | Barbora + Rimi |
 | Rannarootsi Veisesink ehe välisfileest 120g | Ham & cold cuts | — | 3.09 € | 3.15 € | Rimi |
 | Tallegg Delikatessrulaad 500g | Ham & cold cuts | 6.79 € | 6.79 € | 2.84 € | Selver |
 | Tallegg Kanafileesink fit 130g | Ham & cold cuts | — | 1.89 € | 1.89 € | Rimi + Selver |
-| Tallegg kanarulaad klassikaline 400g | Ham & cold cuts | 3.99 € | 4.99 € | — | Barbora |
 | Tallegg Kanasigar 200g | Ham & cold cuts | 2.99 € | 2.79 € | — | Rimi |
 | Tallegg Kanasink tilliga 130g | Ham & cold cuts | — | 1.69 € | 1.72 € | Rimi |
+| Tallegg klassikaline kanarulaad 400g | Ham & cold cuts | 3.99 € | 4.99 € | — | Barbora |
 | Tallegg Suitsukanakuubikud 300g | Ham & cold cuts | 4.35 € | — | 4.39 € | Barbora |
-| Ajax Üldpuhastusvahend blossom peach 1000ml | Household | 3.69 € | 3.99 € | 2.59 € | Selver |
-| Ambi pur Õhuvärskendaja mist ocean 185ml | Household | 6.59 € | — | 6.49 € | Selver |
+| Ajax Üldpuhastusvahend peach blossom 1000ml | Household | 3.69 € | 3.99 € | 2.59 € | Selver |
+| Ambi pur Õhuvärskendaja ocean mist 185ml | Household | 6.59 € | — | 6.49 € | Selver |
 | Ariel Pesugeel color pk 1125ml | Household | 13.59 € | 12.99 € | — | Rimi |
 | Ariel Pesugeel color pk 1800ml | Household | 17.99 € | 17.99 € | — | Barbora + Rimi |
 | Ariel Pesugeel gold orchid pk 1575ml | Household | 17.99 € | 19.99 € | — | Barbora |
 | Ariel Pesugeel gold orchid pk 2250ml | Household | 24.89 € | 26.29 € | — | Barbora |
-| Ariel Pesugeel mountain pk spring 1800ml | Household | 18.29 € | 17.99 € | — | Rimi |
-| Ariel Pesugeel pk sensitive 1125ml | Household | 13.59 € | 12.99 € | — | Rimi |
-| Domestos Wc lime p värskendaja 3x50g | Household | 3.59 € | 5.99 € | — | Barbora |
-| Domestos Wc pine täide värskendaja 35g | Household | 0.95 € | — | 1.59 € | Barbora |
+| Ariel Pesugeel mountain spring pk 1800ml | Household | 18.29 € | 17.99 € | — | Rimi |
+| Ariel Pesugeel sensitive pk 1125ml | Household | 13.59 € | 12.99 € | — | Rimi |
+| Domestos Wc värskendaja p lime 3x50g | Household | 3.59 € | 5.99 € | — | Barbora |
+| Domestos Wc värskendaja pine täide 35g | Household | 0.95 € | — | 1.59 € | Barbora |
 | Fairy Nõudepesuvahend apple 900ml | Household | 4.79 € | 3.79 € | — | Rimi |
 | Fairy Nõudepesuvahend citrus 650ml | Household | — | 3.05 € | 3.59 € (2.59 € Partner) | Rimi |
-| Fairy Nõudepesuvahend clean pure 900ml | Household | 4.79 € | — | 3.19 € | Selver |
 | Fairy Nõudepesuvahend lemon 1350ml | Household | 6.69 € | 6.99 € | 6.69 € (4.69 € Partner) | Barbora + Selver |
 | Fairy Nõudepesuvahend lemon 450ml | Household | 2.55 € (1.99 € Aitäh) | — | 2.89 € | Barbora |
 | Fairy Nõudepesuvahend lemon 900ml | Household | 4.79 € | — | 4.79 € | Barbora + Selver |
 | Fairy Nõudepesuvahend pomegranate 450ml | Household | 2.55 € | 2.55 € | — | Barbora + Rimi |
 | Fairy Nõudepesuvahend pomegranate 900ml | Household | 4.79 € | 4.19 € | — | Rimi |
+| Fairy Nõudepesuvahend pure clean 900ml | Household | 4.79 € | — | 3.19 € | Selver |
 | Finish Nõudepesumasina loputusvahend 400ml | Household | — | 5.79 € | 5.79 € | Rimi + Selver |
 | Finish Nõudepesumasina sool 1500g | Household | 3.57 € | 5.59 € | 5.79 € | Barbora |
 | Finish Nõudepesumasina sool 4000g | Household | 5.51 € | 5.69 € | — | Barbora |
+| Grite Lehträtik blossom 120tk | Household | 1.69 € | 1.79 € | — | Barbora |
 | Kh-7 Katlakivieemaldaja 750ml | Household | 6.29 € | 6.29 € | — | Barbora + Rimi |
-| Kh-7 Plekieemaldaja effect oxy 750ml | Household | 7.15 € | 7.15 € | — | Barbora + Rimi |
+| Kh-7 Plekieemaldaja oxy effect 750ml | Household | 7.15 € | 7.15 € | — | Barbora + Rimi |
 | Kh-7 Rasvaeemaldaja 750ml | Household | 6.29 € | 6.29 € | 4.49 € | Selver |
 | Kh-7 Vannitoa puhastusvahend 500ml | Household | 6.29 € | 4.89 € | — | Rimi |
 | Mayeri Katlakivieemaldaja 500ml | Household | — | 2.39 € | 1.79 € | Selver |
@@ -1075,37 +1094,40 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Mayeri Nõudepesuvahend sensitive 500ml | Household | — | 1.45 € | 1.59 € (1.19 € Partner) | Rimi |
 | Mayeri Nõudepesuvahend sensitive 900ml | Household | 1.53 € | 2.19 € | — | Barbora |
 | Mayeri Pesugeel sensitive 1650ml | Household | 5.91 € | 8.49 € | — | Barbora |
-| Mayeri Pesupulber color sensitive 1650g | Household | 5.70 € | 7.99 € | — | Barbora |
 | Mayeri Pesupulber sensitive 1650g | Household | 5.67 € | 8.19 € | — | Barbora |
+| Mayeri Pesupulber sensitive color 1650g | Household | 5.70 € | 7.99 € | — | Barbora |
+| Mayeri Toru-Siil torupuhastusvahend 1000ml | Household | 1.74 € | 2.35 € | 2.49 € | Barbora |
 | Mayeri Üldpuhastuvahend sensitive 500ml | Household | 1.71 € | — | 2.69 € | Barbora |
-| Mayeri Wc lavender puhastusvahend 750ml | Household | 2.09 € | 2.99 € | — | Barbora |
-| Mayeri Wc lemon puhastusvahend 750ml | Household | 2.09 € | 2.99 € | — | Barbora |
+| Mayeri Wc puhastusvahend lavender 750ml | Household | 2.09 € | 2.99 € | — | Barbora |
+| Mayeri Wc puhastusvahend lemon 750ml | Household | 2.09 € | 2.99 € | — | Barbora |
 | Mulieres Pesugeel roosiaed 1500ml | Household | 13.19 € | 13.19 € | — | Barbora + Rimi |
-| Persil Pesugeel color lavender pk 1800ml | Household | 18.29 € | 20.90 € | — | Barbora |
 | Persil Pesugeel color pk 1980ml | Household | 18.29 € | 20.90 € | — | Barbora |
 | Persil Pesugeel color pk 990ml | Household | 10.19 € (7.25 € Aitäh) | 8.99 € | — | Rimi |
-| Persil Pesugeel pk sensitive 1800ml | Household | 18.29 € | 20.90 € | — | Barbora |
-| Persil Pesugeel pk sensitive 900ml | Household | 10.19 € (7.25 € Aitäh) | 8.39 € | — | Rimi |
-| Persil Pesugeel pk universal 1980ml | Household | 18.29 € | 20.90 € | — | Barbora |
-| Persil Pesugeel pk universal 990ml | Household | 10.15 € | 10.15 € | — | Barbora + Rimi |
+| Persil Pesugeel lavender color pk 1800ml | Household | 18.29 € | 20.90 € | — | Barbora |
+| Persil Pesugeel sensitive pk 1800ml | Household | 18.29 € | 20.90 € | — | Barbora |
+| Persil Pesugeel sensitive pk 900ml | Household | 10.19 € (7.25 € Aitäh) | 8.39 € | — | Rimi |
+| Persil Pesugeel universal pk 1980ml | Household | 18.29 € | 20.90 € | — | Barbora |
+| Persil Pesugeel universal pk 990ml | Household | 10.15 € | 10.15 € | — | Barbora + Rimi |
 | Persil Pesupulber color pk 1100g | Household | 10.19 € (6.99 € Aitäh) | 7.29 € | — | Rimi |
 | Persil Pesupulber color pk 2200g | Household | 21.29 € | 21.29 € | — | Barbora + Rimi |
-| Persil Pesupulber pk sensitive 990g | Household | 10.15 € | 7.29 € | — | Rimi |
-| Perwoll Pesugeel bloom dark pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Persil Pesupulber sensitive pk 990g | Household | 10.15 € | 7.29 € | — | Rimi |
+| Perwoll Pesugeel black pk 1000ml | Household | 9.19 € (5.79 € Aitäh) | 6.19 € | — | Rimi |
+| Perwoll Pesugeel black pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Perwoll Pesugeel black pk 3000ml | Household | 20.99 € | 12.39 € | — | Rimi |
 | Perwoll Pesugeel blossom pk 1000ml | Household | 9.19 € | 6.19 € | — | Rimi |
 | Perwoll Pesugeel blossom pk 2000ml | Household | 16.25 € | 15.99 € | — | Rimi |
 | Perwoll Pesugeel blossom pk 3000ml | Household | 20.99 € | 12.39 € | — | Rimi |
 | Perwoll Pesugeel color pk 1000ml | Household | 9.19 € (5.79 € Aitäh) | 6.19 € | — | Rimi |
 | Perwoll Pesugeel color pk 2000ml | Household | 16.25 € | 15.99 € | — | Rimi |
 | Perwoll Pesugeel color pk 3000ml | Household | 20.99 € | 12.39 € | — | Rimi |
-| Perwoll Pesugeel must pk 1000ml | Household | 9.19 € (5.79 € Aitäh) | 6.19 € | — | Rimi |
-| Perwoll Pesugeel must pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
-| Perwoll Pesugeel must pk 3000ml | Household | 20.99 € | 12.39 € | — | Rimi |
-| Perwoll Pesugeel pk sport 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
-| Perwoll Pesugeel pk wool 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Perwoll Pesugeel dark bloom pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Perwoll Pesugeel sport pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Perwoll Pesugeel wool pk 2000ml | Household | 15.99 € | 15.99 € | — | Barbora + Rimi |
 | Somat Nõudepesumasina sool 1500g | Household | 5.07 € (2.99 € Aitäh) | 5.19 € | — | Barbora |
+| Tri-bio Nõudepesumasina tabletid mahe 25tk | Household | 10.15 € | — | 10.15 € | Barbora + Selver |
 | Tri-bio Nõudepesuvahend mahe 420ml | Household | 3.29 € | 3.29 € | — | Barbora + Rimi |
-| Balbiino Jogurtijäätis jogurtiglasuuris mustika 54g | Ice cream | — | 1.25 € | 1.19 € | Selver |
+| Zewa Majapidamispaber premium 2-kihiline 2rl | Household | 2.35 € | — | 2.33 € | Selver |
+| Balbiino Jogurtijäätis mustika jogurtiglasuuris 54g | Ice cream | — | 1.25 € | 1.19 € | Selver |
 | Balbiino Koorejäätis laktoosivaba 480g | Ice cream | 5.69 € | — | 5.68 € | Selver |
 | Eriti rammus Koorejäätis mustika 110g | Ice cream | 1.78 € | 1.19 € | — | Rimi |
 | Eriti rammus Koorejäätis vanilli 100g | Ice cream | 1.78 € (1.19 € Aitäh) | 1.19 € | — | Rimi |
@@ -1120,7 +1142,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Väike tom lehmakommi 60g | Ice cream | 0.79 € | 0.99 € | — | Barbora |
 | Väike tom vanilli 60g | Ice cream | 0.95 € | 0.95 € | — | Barbora + Rimi |
 | Vana toomas vanilliplombiir 90g | Ice cream | 1.49 € | 1.39 € | — | Rimi |
-| Vanilla ninja Karamelli glasuuris koorejäätis 80g | Ice cream | — | 1.19 € | 1.19 € (0.79 € Partner) | Rimi + Selver |
+| Vanilla ninja Karamelli koorejäätis glasuuris 80g | Ice cream | — | 1.19 € | 1.19 € (0.79 € Partner) | Rimi + Selver |
 | Bla band Itaalia pajaroog 150g | Instant food | 3.69 € | 3.39 € | — | Rimi |
 | Bla band Napoli pajaroog 170g | Instant food | 3.69 € | — | 3.69 € | Barbora + Selver |
 | Bla band Tex mex pajaroog 193g | Instant food | 3.69 € | — | 2.69 € | Selver |
@@ -1128,23 +1150,23 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Knorr Juustusupp 22g | Instant food | 0.69 € (0.45 € Aitäh) | 0.75 € | — | Barbora |
 | Knorr Kana kiirnuudlid 61g | Instant food | 0.99 € (0.55 € Aitäh) | — | 1.15 € (0.59 € Partner) | Barbora |
 | Knorr Kanapüreesupp 16g | Instant food | 0.75 € | 0.75 € | — | Barbora + Rimi |
-| Knorr Kartulipüree ja peekoni sibulaga 51g | Instant food | — | 1.99 € | 2.29 € (1.35 € Partner) | Rimi |
+| Knorr Kartulipüree peekoni ja sibulaga 51g | Instant food | — | 1.99 € | 2.29 € (1.35 € Partner) | Rimi |
 | Knorr Tomati kiirnuudlid 65g | Instant food | 1.05 € | — | 1.15 € (0.59 € Partner) | Barbora |
 | Maggi Juustu kiirnuudlid 59.2g | Instant food | 0.39 € | 0.79 € | 0.39 € | Barbora + Selver |
 | Maggi Juustusupp saiakuubikutega 19g | Instant food | 0.79 € | 0.79 € | 0.79 € (0.49 € Partner) | Barbora + Rimi + Selver |
 | Maggi Kanaliha kiirnuudlid 59.2g | Instant food | 0.39 € | 0.79 € | — | Barbora |
 | Maggi Kiirnuudlid bami goreng 185g | Instant food | 1.89 € | 1.89 € | — | Barbora + Rimi |
-| Maggi Kiirnuudlid chilli sweet 185g | Instant food | 1.89 € | 1.89 € | — | Barbora + Rimi |
-| Maggi Kiirnuudlid garlic soy 185g | Instant food | 1.89 € | 1.89 € | — | Barbora + Rimi |
-| Maggi Kiirnuudlid kana vürtsika 59.2g | Instant food | — | 0.79 € | 0.39 € | Selver |
+| Maggi Kiirnuudlid soy garlic 185g | Instant food | 1.89 € | 1.89 € | — | Barbora + Rimi |
+| Maggi Kiirnuudlid sweet chilli 185g | Instant food | 1.89 € | 1.89 € | — | Barbora + Rimi |
+| Maggi Kiirnuudlid vürtsika kana 59.2g | Instant food | — | 0.79 € | 0.39 € | Selver |
 | Maggi Köögivilja kiirnuudlid 59.2g | Instant food | 0.79 € | — | 0.79 € (0.39 € Partner) | Barbora + Selver |
 | Maggi Pasta carbonara 50g | Instant food | 1.79 € | — | 1.79 € (1.15 € Partner) | Barbora + Selver |
 | Maggi Punapeedi kiirsupp saiakuub 16g | Instant food | 0.79 € | 0.79 € | — | Barbora + Rimi |
 | Maggi Veiseliha kiirnuudlid 59.2g | Instant food | 0.79 € | 0.79 € | 0.79 € (0.39 € Partner) | Barbora + Rimi + Selver |
 | Maggi Või kartulipüree tilliga 35g | Instant food | 0.95 € | — | 0.95 € (0.65 € Partner) | Barbora + Selver |
-| Oyakata Kiirnuudlisupp ramen sojakastme 83g | Instant food | — | 1.39 € | 0.79 € | Selver |
+| Oyakata Kiirnuudlisupp sojakastme ramen 83g | Instant food | — | 1.39 € | 0.79 € | Selver |
 | Podravka Kanasupp nuudlitega 62g | Instant food | 0.89 € | 0.99 € | — | Barbora |
-| Reeva Juustu ja kiirnuudlid peekoni 60g | Instant food | 0.49 € | 0.69 € | 0.69 € (0.45 € Partner) | Barbora |
+| Reeva Juustu ja peekoni kiirnuudlid 60g | Instant food | 0.49 € | 0.69 € | 0.69 € (0.45 € Partner) | Barbora |
 | Reeva Kanaliha kiirnuudlid 60g | Instant food | 0.49 € | — | 0.69 € (0.45 € Partner) | Barbora |
 | Reeva Kiirnuudlid kana 85g | Instant food | 1.15 € | 1.15 € | 1.15 € (0.75 € Partner) | Barbora + Rimi + Selver |
 | Reeva Kiirnuudlid veiseliha 60g | Instant food | — | 0.69 € | 0.69 € (0.45 € Partner) | Rimi + Selver |
@@ -1203,14 +1225,14 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Matsimoka Delikatesshakkliha 300g | Meat | 2.95 € | 2.29 € | — | Rimi |
 | Oskar Kebab lambalihaga 400g | Meat | 7.39 € | — | 7.39 € (4.99 € Partner) | Barbora + Selver |
 | Rakvere baby back searibi | Meat | 11.79 € | 11.79 € | 10.49 € | Selver |
-| Rakvere Grill liha mustika 500g | Meat | 6.89 € | — | 4.99 € | Selver |
+| Rakvere Grill mustika liha 500g | Meat | 6.89 € | — | 4.99 € | Selver |
 | Rakvere Mustika grill ribi | Meat | 11.19 € | — | 7.49 € | Selver |
 | Rakvere Sea sisefilee | Meat | — | 8.69 € | 11.99 € | Rimi |
 | Rakvere Sea välisfilee | Meat | — | 9.99 € | 9.99 € | Rimi + Selver |
 | Seakaelakarbonaad | Meat | 8.99 € | 9.99 € | — | Barbora |
 | Tallegg Ahjubroiler klassikaline | Meat | 5.99 € | — | 4.99 € | Selver |
-| Tallegg Broileri klassikalises poolkoivad 800g | Meat | 3.75 € | — | 4.99 € (3.99 € Partner) | Barbora |
-| Tallegg Broilerikintsuliha juustuga kolme 400g | Meat | 4.99 € | — | 5.39 € | Barbora |
+| Tallegg Broileri poolkoivad klassikalises 800g | Meat | 3.75 € | — | 4.99 € (3.99 € Partner) | Barbora |
+| Tallegg Broilerikintsuliha kolme juustuga 400g | Meat | 4.99 € | — | 5.39 € | Barbora |
 | Tallegg Delikatess broilerihakklihasegu 300g | Meat | — | 3.69 € | 3.65 € | Selver |
 | Tallegg Eestimaine broilerikoib | Meat | 3.59 € | — | 5.99 € | Barbora |
 | Tallegg Külmutatud broilerikael 500g | Meat | 1.49 € | 1.49 € | — | Barbora + Rimi |
@@ -1231,7 +1253,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Pähklinäpp Maapähkel soolakaramellis 200g | Nuts, seeds & dried fruit | — | 2.25 € | 2.25 € | Rimi + Selver |
 | Pähklinäpp Maasikakuubikud 85g | Nuts, seeds & dried fruit | 1.99 € (1.59 € Aitäh) | 1.59 € | 2.02 € (1.59 € Partner) | Rimi |
 | Pähklinäpp Mandlite ja marjade segu 200g | Nuts, seeds & dried fruit | — | 3.29 € | 3.29 € (2.65 € Partner) | Rimi + Selver |
-| Pähklinäpp Mango kuivatatud viilud 200g | Nuts, seeds & dried fruit | — | 4.99 € | 4.06 € | Selver |
+| Pähklinäpp Mango viilud kuivatatud 200g | Nuts, seeds & dried fruit | — | 4.99 € | 4.06 € | Selver |
 | Pähklinäpp Mooniseemned 200g | Nuts, seeds & dried fruit | 1.99 € | — | 1.99 € | Barbora + Selver |
 | Pähklinäpp Mustikakuubikud 85g | Nuts, seeds & dried fruit | 1.99 € (1.59 € Aitäh) | 1.59 € | — | Rimi |
 | Pähklinäpp Pähklite ja puuviljade segu 200g | Nuts, seeds & dried fruit | — | 3.69 € | 3.29 € | Selver |
@@ -1241,34 +1263,34 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Pähklinäpp Seemnete segu 200g | Nuts, seeds & dried fruit | 2.19 € | — | 2.23 € | Barbora |
 | Pähklinäpp Vaarikakuubikud 85g | Nuts, seeds & dried fruit | 1.99 € (1.59 € Aitäh) | 1.59 € | 2.02 € (1.59 € Partner) | Rimi |
 | Premium Seedermänni seemned 150g | Nuts, seeds & dried fruit | 7.59 € | — | 7.55 € | Selver |
-| Seeberger Kuivatatud kivideta ploomid 200g | Nuts, seeds & dried fruit | — | 5.29 € | 5.23 € | Selver |
 | Seeberger Kuivatatud mango 100g | Nuts, seeds & dried fruit | 5.49 € | — | 5.49 € | Barbora + Selver |
+| Seeberger Kuivatatud ploomid kivideta 200g | Nuts, seeds & dried fruit | — | 5.29 € | 5.23 € | Selver |
 | Seeberger Viigimarjad kuivatatud 200g | Nuts, seeds & dried fruit | — | 6.29 € | 5.99 € (4.49 € Partner) | Selver |
 | Barilla fettuccine 500g | Pasta | 2.32 € | 2.99 € | — | Barbora |
 | Barilla fusilli 500g | Pasta | — | 2.35 € | 2.45 € | Rimi |
-| Barilla nr spagetid 500g | Pasta | — | 2.35 € | 1.45 € | Selver |
 | Barilla penne rigate 500g | Pasta | 1.64 € | 2.35 € | — | Barbora |
+| Barilla spaghetti nr 500g | Pasta | — | 2.35 € | 1.45 € | Selver |
 | Delverde fusilli 500g | Pasta | 2.02 € | — | 2.89 € | Barbora |
-| Panzani chifferini 500g | Pasta | 1.49 € | 2.19 € | 1.99 € | Barbora |
 | Panzani conchiglie rigate 500g | Pasta | — | 2.19 € | 1.99 € | Selver |
 | Panzani farfalle 500g | Pasta | 1.49 € | 2.19 € | 1.99 € | Barbora |
 | Panzani fusilli 1000g | Pasta | — | 4.29 € | 3.39 € | Selver |
 | Panzani fusilli 500g | Pasta | 1.99 € (1.59 € Aitäh) | 2.19 € | — | Barbora |
-| Panzani Laastmakaron fines nouilles 500g | Pasta | 1.49 € | — | 1.99 € | Barbora |
+| Panzani Laastmakaron nouilles fines 500g | Pasta | 1.49 € | — | 1.99 € | Barbora |
 | Panzani Lintspagett linguine 500g | Pasta | 1.49 € | — | 1.99 € | Barbora |
 | Panzani macaroni 500g | Pasta | 1.49 € | — | 1.99 € | Barbora |
 | Panzani mini penne 500g | Pasta | 1.82 € | — | 2.43 € | Barbora |
 | Panzani munaga tagliatelle 400g | Pasta | 2.47 € | 3.29 € | — | Barbora |
 | Panzani penne rigate 1000g | Pasta | — | 4.29 € | 3.39 € | Selver |
 | Panzani penne rigate 500g | Pasta | 1.49 € | 2.19 € | 1.99 € | Barbora |
-| Panzani spagetid 1000g | Pasta | — | 4.29 € | 3.39 € | Selver |
+| Panzani sarvekesed 500g | Pasta | 1.49 € | 2.19 € | 1.99 € | Barbora |
+| Panzani spaghetti 1000g | Pasta | — | 4.29 € | 3.39 € | Selver |
 | Presto chiffari lisci nr 400g | Pasta | — | 0.69 € | 0.79 € | Rimi |
 | Presto cornetti 400g | Pasta | 0.44 € | 0.69 € | 0.79 € | Barbora |
 | Presto fusilli 400g | Pasta | 0.44 € | 0.69 € | 0.79 € | Barbora |
 | Presto penne 400g | Pasta | — | 0.69 € | 0.79 € | Rimi |
 | Reggia elbows 500g | Pasta | — | 1.29 € | 1.87 € | Rimi |
 | Reggia fusilli 500g | Pasta | — | 1.29 € | 1.87 € (1.29 € Partner) | Rimi |
-| Reggia spagetid 500g | Pasta | — | 1.29 € | 1.87 € | Rimi |
+| Reggia spaghetti 500g | Pasta | — | 1.29 € | 1.87 € | Rimi |
 | Tartu mill chiffari lisci 500g | Pasta | 1.01 € | 1.39 € | 1.39 € | Barbora |
 | Tartu mill cornetti 500g | Pasta | 1.01 € | 1.35 € | 1.39 € (1.09 € Partner) | Barbora |
 | Tartu mill ditali lisci 500g | Pasta | 1.03 € | 1.39 € | 1.39 € (1.09 € Partner) | Barbora |
@@ -1276,48 +1298,48 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Tartu mill filini piccoli 500g | Pasta | 1.03 € | — | 1.39 € (1.09 € Partner) | Barbora |
 | Tartu mill fusilli 500g | Pasta | 1.01 € | 1.19 € | 1.15 € | Barbora |
 | Tartu mill fusilli tricolore 500g | Pasta | 1.39 € | 1.85 € | — | Barbora |
-| Tartu mill lasagne mini 400g | Pasta | 1.01 € | — | 1.39 € (1.15 € Partner) | Barbora |
 | Tartu mill linquine 500g | Pasta | 1.03 € | — | 1.39 € | Barbora |
-| Tartu mill lisci maccheroni 500g | Pasta | 1.03 € | 1.39 € | 1.39 € | Barbora |
+| Tartu mill maccheroni lisci 500g | Pasta | 1.03 € | 1.39 € | 1.39 € | Barbora |
+| Tartu mill mini lasagne 400g | Pasta | 1.01 € | — | 1.39 € (1.15 € Partner) | Barbora |
 | Tartu mill penne 500g | Pasta | 1.01 € | 1.35 € | 1.39 € | Barbora |
 | Tartu mill puntine 500g | Pasta | 1.03 € | 1.39 € | — | Barbora |
 | Tartu mill Täistera fusilli 500g | Pasta | 1.10 € | — | 1.47 € (1.19 € Partner) | Barbora |
-| Aussie Palsam repair revive sos 200ml | Personal care | 10.69 € | 10.69 € | — | Barbora + Rimi |
-| Aussie Šampoon repair revive sos 300ml | Personal care | 10.69 € | 10.69 € | — | Barbora + Rimi |
-| Batiste Kuivšampoon originaal 200ml | Personal care | 6.79 € | 4.75 € | 6.80 € | Rimi |
+| Aussie Palsam sos repair revive 200ml | Personal care | 10.69 € | 10.69 € | — | Barbora + Rimi |
+| Aussie Šampoon sos repair revive 300ml | Personal care | 10.69 € | 10.69 € | — | Barbora + Rimi |
+| Batiste Kuivšampoon original 200ml | Personal care | 6.79 € | 4.75 € | 6.80 € | Rimi |
 | Batiste Kuivšampoon sensitive 200ml | Personal care | — | 4.75 € | 7.10 € | Rimi |
 | Batiste Kuivšampoon tropical 200ml | Personal care | 6.79 € | 6.79 € | — | Barbora + Rimi |
-| Batiste Kuivšampoon volume xxl 200ml | Personal care | 7.29 € | — | 7.31 € | Barbora |
-| Colgate Hambapasta action triple 125ml | Personal care | 3.19 € (2.29 € Aitäh) | — | 3.69 € | Barbora |
-| Colgate Hambapasta action triple 75ml | Personal care | 2.49 € | 2.15 € | 2.69 € | Rimi |
+| Batiste Kuivšampoon xxl volume 200ml | Personal care | 7.29 € | — | 7.31 € | Barbora |
 | Colgate Hambapasta advanced white 125ml | Personal care | 4.29 € | 2.55 € | — | Rimi |
 | Colgate Hambapasta advanced white 75ml | Personal care | 3.19 € | 2.29 € | 3.79 € | Rimi |
-| Colgate Hambapasta crystals max white 75ml | Personal care | — | 2.39 € | 2.99 € | Rimi |
-| Colgate Hambapasta max one white 75ml | Personal care | 7.49 € | — | 7.29 € (4.29 € Partner) | Selver |
 | Colgate Hambapasta max white 125ml | Personal care | 4.69 € | — | 4.99 € | Barbora |
+| Colgate Hambapasta max white crystals 75ml | Personal care | — | 2.39 € | 2.99 € | Rimi |
+| Colgate Hambapasta max white one 75ml | Personal care | 7.49 € | — | 7.29 € (4.29 € Partner) | Selver |
 | Colgate Hambapasta multi protect 50ml | Personal care | 9.19 € (5.05 € Aitäh) | 4.99 € | — | Rimi |
-| Colgate Hambapasta originaal total 75ml | Personal care | 4.19 € | — | 4.69 € | Barbora |
+| Colgate Hambapasta total original 75ml | Personal care | 4.19 € | — | 4.69 € | Barbora |
 | Colgate Hambapasta total whitening 75ml | Personal care | 4.19 € | — | 4.69 € | Barbora |
+| Colgate Hambapasta triple action 125ml | Personal care | 3.19 € (2.29 € Aitäh) | — | 3.69 € | Barbora |
+| Colgate Hambapasta triple action 75ml | Personal care | 2.49 € | 2.15 € | 2.69 € | Rimi |
 | Colgate Suuvesi total 500ml | Personal care | — | 8.29 € | 8.29 € | Rimi + Selver |
-| Corega Proteesiliim care gum 40g | Personal care | 7.79 € | 7.79 € | 7.99 € | Barbora + Rimi |
+| Corega Proteesiliim gum care 40g | Personal care | 7.79 € | 7.79 € | 7.99 € | Barbora + Rimi |
 | Corega Proteesiliim tugev 40g | Personal care | — | 8.89 € | 8.59 € | Selver |
-| Dove Deodorant aloe pearl vera 150ml | Personal care | 4.55 € | 5.19 € | — | Barbora |
-| Dove Deodorant care invisible 150ml | Personal care | 4.55 € | — | 5.99 € | Barbora |
-| Dove Dušigeel care fresh 450ml | Personal care | 5.01 € | 7.59 € | — | Barbora |
-| Dove Dušigeel care nourishing 400ml | Personal care | 5.24 € | 8.49 € | — | Barbora |
+| Dove Deodorant invisible care 150ml | Personal care | 4.55 € | — | 5.99 € | Barbora |
+| Dove Deodorant pearl aloe vera 150ml | Personal care | 4.55 € | 5.19 € | — | Barbora |
 | Dove Dušigeel creamy indulge 450ml | Personal care | 6.99 € (4.49 € Aitäh) | 7.59 € | — | Barbora |
 | Dove Dušigeel creamy indulge 720ml | Personal care | 6.99 € | 10.99 € | — | Barbora |
 | Dove Dušigeel deeply nourishing 400ml | Personal care | 7.99 € | — | 8.99 € (6.09 € Partner) | Barbora |
+| Dove Dušigeel fresh care 450ml | Personal care | 5.01 € | 7.59 € | — | Barbora |
 | Dove Dušigeel gentle pamper 450ml | Personal care | 5.01 € | 7.59 € | — | Barbora |
 | Dove Dušigeel hydrate 450ml | Personal care | 5.01 € | 7.59 € | — | Barbora |
+| Dove Dušigeel nourishing care 400ml | Personal care | 5.24 € | 8.49 € | — | Barbora |
 | Dove Dušigeel rebalancing 400ml | Personal care | 7.49 € (4.99 € Aitäh) | 5.79 € | — | Rimi |
 | Dove Tükiseep replenishing 90g | Personal care | 1.79 € (1.09 € Aitäh) | — | 1.79 € | Barbora + Selver |
 | Dove Vedelseep fresh täide 500ml | Personal care | 3.99 € (2.49 € Aitäh) | 4.19 € | — | Barbora |
 | Elmex Hambapasta caries protection 75ml | Personal care | 5.99 € (4.39 € Aitäh) | 5.99 € | 5.99 € | Barbora + Rimi + Selver |
 | Elmex Hambapasta junior 75ml | Personal care | — | 5.99 € | 6.69 € | Rimi |
-| Elmex Hambapasta plus sensitive 75ml | Personal care | 8.79 € | 8.79 € | — | Barbora + Rimi |
-| Elmex Hambapasta professional sensitive 75ml | Personal care | — | 8.79 € | 8.99 € | Rimi |
 | Elmex Hambapasta sensitive 75ml | Personal care | 6.19 € | 5.99 € | 6.89 € (4.59 € Partner) | Rimi |
+| Elmex Hambapasta sensitive plus 75ml | Personal care | 8.79 € | 8.79 € | — | Barbora + Rimi |
+| Elmex Hambapasta sensitive professional 75ml | Personal care | — | 8.79 € | 8.99 € | Rimi |
 | Elmex Hambapasta sensitive whitening 75ml | Personal care | — | 5.99 € | 6.89 € (4.59 € Partner) | Rimi |
 | Elmex Suuvesi caries protection 400ml | Personal care | 8.19 € | 8.19 € | — | Barbora + Rimi |
 | Elmex Suuvesi sensitive 400ml | Personal care | 8.19 € | — | 8.99 € | Barbora |
@@ -1328,52 +1350,59 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Elseve Palsam color vive 400ml | Personal care | 8.19 € | 8.19 € | — | Barbora + Rimi |
 | Elseve Palsam extraordinary oil 200ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
 | Elseve Palsam hyaluron plump 200ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
-| Elseve Palsam repair total 5 200ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
+| Elseve Palsam total repair 5 200ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
 | Elseve Šampoon color vive 400ml | Personal care | 7.99 € | 8.19 € | — | Barbora |
 | Elseve Šampoon dream long 1000ml | Personal care | 19.99 € (9.99 € Aitäh) | 9.99 € | — | Rimi |
 | Elseve Šampoon hyaluron plump 1000ml | Personal care | 19.99 € (9.99 € Aitäh) | 9.99 € | — | Rimi |
 | Elseve Šampoon hyaluron plump 250ml | Personal care | 5.99 € | 4.19 € | — | Rimi |
 | Elseve Šampoon hyaluron plump 400ml | Personal care | 8.19 € | 8.19 € | — | Barbora + Rimi |
-| Elseve Šampoon repair total 5 400ml | Personal care | 7.99 € | 8.19 € | — | Barbora |
-| Fa Deodorant passion pink 150ml | Personal care | 4.79 € (2.99 € Aitäh) | 3.19 € | — | Rimi |
-| Fa Dušigeel aloe vera yogurt 400ml | Personal care | 5.49 € (3.49 € Aitäh) | — | 5.49 € | Barbora + Selver |
+| Elseve Šampoon total repair 5 400ml | Personal care | 7.99 € | 8.19 € | — | Barbora |
+| Fa Deodorant pink passion 150ml | Personal care | 4.79 € (2.99 € Aitäh) | 3.19 € | — | Rimi |
 | Fa Dušigeel attraction force men 400ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
-| Fa Dušigeel blueberry yogh 400ml | Personal care | 5.49 € | 3.49 € | — | Rimi |
-| Fa Dušigeel cacao cream oil 400ml | Personal care | 5.49 € | 3.59 € | — | Rimi |
 | Fa Dušigeel coconut milk 400ml | Personal care | 5.49 € | 4.09 € | — | Rimi |
+| Fa Dušigeel cream oil cacao 400ml | Personal care | 5.49 € | 3.59 € | — | Rimi |
 | Fa Dušigeel divine moments 400ml | Personal care | 5.49 € | — | 5.49 € | Barbora + Selver |
-| Fa Dušigeel dream fiji 400ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
-| Fa Dušigeel honey pistachio soft 400ml | Personal care | — | 3.59 € | 5.49 € | Rimi |
+| Fa Dušigeel fiji dream 400ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
 | Fa Dušigeel men xtracool 400ml | Personal care | 5.49 € | 3.59 € | — | Rimi |
+| Fa Dušigeel soft pistachio honey 400ml | Personal care | — | 3.59 € | 5.49 € | Rimi |
+| Fa Dušigeel yogh blueberry 400ml | Personal care | 5.49 € | 3.49 € | — | Rimi |
+| Fa Dušigeel yogurt aloe vera 400ml | Personal care | 5.49 € (3.49 € Aitäh) | — | 5.49 € | Barbora + Selver |
 | Fructis Palsam color resist 200ml | Personal care | 4.99 € | 5.29 € | — | Barbora |
 | Fructis Šampoon color resist 400ml | Personal care | 5.99 € | 4.29 € | — | Rimi |
-| Gillette Habemepalsam c king 100ml | Personal care | 13.19 € | 13.19 € | — | Barbora + Rimi |
+| Gillette Habemepalsam king c 100ml | Personal care | 13.19 € | 13.19 € | — | Barbora + Rimi |
 | Gliss Juuksemask in shine 400ml | Personal care | 10.69 € | — | 11.17 € | Barbora |
 | Gliss Palsam full hair wonder 200ml | Personal care | 5.39 € | — | 5.69 € | Barbora |
-| Gliss Šampoon gentle scalp 200ml | Personal care | 10.29 € | — | 10.99 € | Barbora |
-| Gliss Šampoon repair ultimate 400ml | Personal care | 6.59 € | — | 7.59 € | Barbora |
+| Gliss Šampoon scalp gentle 200ml | Personal care | 10.29 € | — | 10.99 € | Barbora |
+| Gliss Šampoon ultimate repair 400ml | Personal care | 6.59 € | — | 7.59 € | Barbora |
 | Got2b Juukselakk glued 300ml | Personal care | 10.39 € | 10.99 € | 10.15 € | Selver |
 | Head & shoulders Šampoon apple 400ml | Personal care | — | 10.29 € | 9.44 € | Selver |
 | Head & shoulders Šampoon clarify shine 400ml | Personal care | — | 8.79 € | 9.44 € | Rimi |
-| Head & shoulders Šampoon in menthol 400ml | Personal care | — | 8.99 € | 9.44 € (7.29 € Partner) | Rimi |
+| Head & shoulders Šampoon classic clean 800ml | Personal care | — | 18.99 € | 18.99 € | Rimi + Selver |
+| Head & shoulders Šampoon menthol 800ml | Personal care | — | 18.99 € | 18.99 € | Rimi + Selver |
+| Head & shoulders Šampoon menthol in 400ml | Personal care | — | 8.99 € | 9.44 € (7.29 € Partner) | Rimi |
+| Head&shoulders Šampoon citrus 800ml | Personal care | 18.99 € | 17.99 € | — | Rimi |
+| Head&shoulders Šampoon citrus in 400ml | Personal care | 9.09 € | — | 9.44 € (7.29 € Partner) | Barbora |
+| Head&shoulders Šampoon menthol 400ml | Personal care | 9.09 € (5.99 € Aitäh) | 9.99 € | — | Barbora |
+| Head&shoulders Šampoon sensitive 400ml | Personal care | 9.09 € | — | 9.44 € | Barbora |
+| Head&shoulders Šampoon tea tree 400ml | Personal care | 9.09 € | — | 9.44 € | Barbora |
 | Himalaya Hambapasta sparkly white 75ml | Personal care | 4.79 € | 4.79 € | — | Barbora + Rimi |
-| Jordan Hambapasta breath fresh 75ml | Personal care | 2.65 € | 2.79 € | 2.89 € | Barbora |
 | Jordan Hambapasta caries defence 75ml | Personal care | 2.65 € | — | 2.89 € | Barbora |
-| Jordan Hambapasta smile white 75ml | Personal care | 2.65 € | 2.79 € | 2.89 € (2.29 € Partner) | Barbora |
-| Listerine Suuvesi care extra mild total 500ml | Personal care | — | 7.69 € | 8.29 € | Rimi |
-| Listerine Suuvesi care total 1000ml | Personal care | — | 7.79 € | 10.99 € | Rimi |
-| Listerine Suuvesi care total 500ml | Personal care | 7.09 € | — | 8.29 € | Barbora |
+| Jordan Hambapasta fresh breath 75ml | Personal care | 2.65 € | 2.79 € | 2.89 € | Barbora |
+| Jordan Hambapasta white smile 75ml | Personal care | 2.65 € | 2.79 € | 2.89 € (2.29 € Partner) | Barbora |
 | Listerine Suuvesi coolmint 1000ml | Personal care | 10.15 € | — | 10.15 € | Barbora + Selver |
 | Listerine Suuvesi freshburst 500ml | Personal care | 6.09 € | 6.69 € | — | Barbora |
+| Listerine Suuvesi total care 1000ml | Personal care | — | 7.79 € | 10.99 € | Rimi |
+| Listerine Suuvesi total care 500ml | Personal care | 7.09 € | — | 8.29 € | Barbora |
+| Listerine Suuvesi total care extra mild 500ml | Personal care | — | 7.69 € | 8.29 € | Rimi |
 | Mayeri Dušigeel sensitive 300ml | Personal care | 4.39 € | 4.39 € | — | Barbora + Rimi |
 | Mayeri Vahuseep grapefruit 300ml | Personal care | 2.85 € | 2.85 € | — | Barbora + Rimi |
 | Mayeri Vahuseep sensitive 300ml | Personal care | 2.85 € | 2.85 € | 2.99 € (2.19 € Partner) | Barbora + Rimi |
-| Natura estonica Šampoon c power 400ml | Personal care | — | 5.49 € | 5.58 € | Rimi |
+| Natura estonica Šampoon power c 400ml | Personal care | — | 5.49 € | 5.58 € | Rimi |
 | Naturalis Kätekreem aloe vera 125ml | Personal care | 2.99 € | — | 2.43 € (2.09 € Partner) | Selver |
 | Naturalis Kätekreem mandliõliga 125ml | Personal care | 2.99 € | — | 2.43 € (2.09 € Partner) | Selver |
 | Neutral Seep sensitive skin 100g | Personal care | 1.59 € | 1.39 € | — | Rimi |
-| Nivea Dušigeel apricot care 500ml | Personal care | 7.25 € | 7.25 € | — | Barbora + Rimi |
-| Nivea Dušigeel care fruit star 500ml | Personal care | 7.25 € | 7.25 € | 7.10 € (4.89 € Partner) | Selver |
+| Nivea Dušigeel care apricot 500ml | Personal care | 7.25 € | 7.25 € | — | Barbora + Rimi |
+| Nivea Dušigeel care star fruit 500ml | Personal care | 7.25 € | 7.25 € | 7.10 € (4.89 € Partner) | Selver |
 | Nivea Dušigeel creme soft 250ml | Personal care | 4.49 € | — | 4.56 € | Barbora |
 | Nivea Dušigeel creme soft 750ml | Personal care | 9.19 € | 6.79 € | — | Rimi |
 | Nivea Dušigeel lemon oil 250ml | Personal care | 4.49 € | 3.29 € | — | Rimi |
@@ -1381,39 +1410,39 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Nivea Dušigeel men sport 500ml | Personal care | 7.25 € | 7.25 € | — | Barbora + Rimi |
 | Nivea Ihupiim aloe hydration 400ml | Personal care | 9.79 € | 9.99 € | 9.99 € | Barbora |
 | Nivea Ihupiim aloe hydration 625ml | Personal care | 9.99 € | 10.99 € | — | Barbora |
-| Nivea Juukselakk strong ultra 250ml | Personal care | 5.31 € | — | 7.61 € | Barbora |
+| Nivea Juukselakk ultra strong 250ml | Personal care | 5.31 € | — | 7.61 € | Barbora |
 | Nivea Kreem universaalne 75ml | Personal care | — | 2.95 € | 3.55 € | Rimi |
 | Nivea Šampoon color cristal gloss 250ml | Personal care | 3.35 € | — | 4.79 € | Barbora |
-| Nivea Šampoon in palsam 250ml | Personal care | 3.35 € | — | 4.79 € | Barbora |
-| Nivea Šampoon sensation volume 250ml | Personal care | 3.35 € | — | 4.79 € (3.29 € Partner) | Barbora |
-| Old spice Deodorant claw tiger 150ml | Personal care | 5.05 € | — | 5.07 € | Barbora |
+| Nivea Šampoon palsam in 250ml | Personal care | 3.35 € | — | 4.79 € | Barbora |
+| Nivea Šampoon volume sensation 250ml | Personal care | 3.35 € | — | 4.79 € (3.29 € Partner) | Barbora |
 | Old spice Deodorant oasis 150ml | Personal care | 5.05 € | 5.19 € | — | Barbora |
+| Old spice Deodorant tiger claw 150ml | Personal care | 5.05 € | — | 5.07 € | Barbora |
 | Old spice Deodorant wolfthorn 150ml | Personal care | 5.05 € | 5.19 € | — | Barbora |
 | Old spice Dušigeel bearglove 400ml | Personal care | 5.75 € | 4.99 € | 5.78 € | Rimi |
 | Old spice Dušigeel captain 1000ml | Personal care | 11.59 € | 7.99 € | — | Rimi |
 | Old spice Dušigeel captain 400ml | Personal care | 5.79 € | 5.99 € | 5.78 € | Selver |
-| Old spice Dušigeel claw tiger 400ml | Personal care | 5.75 € | 6.19 € | 5.69 € | Selver |
 | Old spice Dušigeel night panther 400ml | Personal care | 5.75 € | 4.99 € | 5.78 € (4.69 € Partner) | Rimi |
 | Old spice Dušigeel oasis 400ml | Personal care | 5.75 € | 5.99 € | — | Barbora |
 | Old spice Dušigeel rockstar 400ml | Personal care | 5.75 € | 5.99 € | 6.09 € | Barbora |
+| Old spice Dušigeel tiger claw 400ml | Personal care | 5.75 € | 6.19 € | 5.69 € | Selver |
 | Old spice Dušigeel whitewater 1000ml | Personal care | 12.49 € | 7.99 € | — | Rimi |
 | Old spice Dušigeel whitewater 400ml | Personal care | 5.75 € (4.49 € Aitäh) | 5.99 € | 5.78 € | Barbora |
 | Old spice Dušigeel wolfthorn 400ml | Personal care | 5.75 € | 5.99 € | — | Barbora |
 | Old spice Pulkdeodorant bearglove 50ml | Personal care | — | 4.29 € | 5.07 € | Rimi |
 | Old spice Pulkdeodorant captain 50ml | Personal care | — | 5.19 € | 5.07 € | Selver |
 | Old spice Pulkdeodorant oasis 50ml | Personal care | 5.05 € | 5.19 € | — | Barbora |
-| Palmolive Seep aloe hygiene plus 90g | Personal care | 0.95 € | 0.95 € | — | Barbora + Rimi |
-| Palmolive Tükiseep must naturals orchid 90g | Personal care | — | 0.95 € | 0.95 € | Rimi + Selver |
-| Palmolive Vedelseep honey milk 300ml | Personal care | — | 2.89 € | 3.89 € | Rimi |
-| Palmolive Vedelseep milk olive 300ml | Personal care | 2.89 € | — | 3.49 € | Barbora |
+| Palmolive Seep hygiene plus aloe 90g | Personal care | 0.95 € | 0.95 € | — | Barbora + Rimi |
+| Palmolive Tükiseep naturals black orchid 90g | Personal care | — | 0.95 € | 0.95 € | Rimi + Selver |
+| Palmolive Vedelseep milk honey 300ml | Personal care | — | 2.89 € | 3.89 € | Rimi |
+| Palmolive Vedelseep olive milk 300ml | Personal care | 2.89 € | — | 3.49 € | Barbora |
 | Pantene Juukseõli keratin protect 100ml | Personal care | 13.99 € | 13.99 € | — | Barbora + Rimi |
 | Pantene Palsam aqua light 275ml | Personal care | 6.99 € | 6.99 € | 7.10 € | Barbora + Rimi |
 | Pantene Palsam infinite lenghts 275ml | Personal care | 6.99 € | — | 7.10 € | Barbora |
-| Pantene Palsam strong thick 275ml | Personal care | 6.99 € | 6.99 € | — | Barbora + Rimi |
+| Pantene Palsam thick strong 275ml | Personal care | 6.99 € | 6.99 € | — | Barbora + Rimi |
 | Pantene Šampoon hydration recharge 400ml | Personal care | 6.99 € | 7.79 € | — | Barbora |
-| Pantene Šampoon in strong thick 325ml | Personal care | 6.79 € | 6.99 € | — | Barbora |
 | Pantene Šampoon infinite lenghts 400ml | Personal care | 6.99 € | — | 7.10 € | Barbora |
-| Pantene Šampoon strong thick 400ml | Personal care | 6.99 € | 7.69 € | — | Barbora |
+| Pantene Šampoon thick strong 400ml | Personal care | 6.99 € | 7.69 € | — | Barbora |
+| Pantene Šampoon thick strong in 325ml | Personal care | 6.79 € | 6.99 € | — | Barbora |
 | Parodontax Hambapasta active gum repair 75ml | Personal care | — | 7.39 € | 6.99 € | Selver |
 | Parodontax Hambapasta classic 75ml | Personal care | 6.39 € | 6.39 € | 6.59 € (5.59 € Partner) | Barbora + Rimi |
 | Parodontax Hambapasta fluoride 75ml | Personal care | 7.79 € | 7.99 € | — | Barbora |
@@ -1422,73 +1451,73 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Puhas loodus Kehakreem kibuvits 150ml | Personal care | 3.99 € | 4.39 € | — | Barbora |
 | Puhas loodus Šampoon nõges toitev 250ml | Personal care | 2.39 € | 2.69 € | — | Barbora |
 | Puhas loodus Šampoon takjas tugevd 250ml | Personal care | 2.39 € | 2.69 € | — | Barbora |
-| Rexona Deodorant bouquet sexy 200ml | Personal care | 5.99 € | 6.15 € | — | Barbora |
-| Rexona Deodorant cobalt dry men 200ml | Personal care | 5.99 € | 6.15 € | — | Barbora |
-| Rich Palsam andev kohevust 200ml | Personal care | 15.19 € | — | 15.24 € | Barbora |
-| Rich Palsam collagen repairing 200ml | Personal care | 15.59 € | 12.39 € | — | Rimi |
-| Rich Šampoon andev kohevust 250ml | Personal care | 14.19 € | — | 14.22 € | Barbora |
-| Rich Šampoon collagen repairing 250ml | Personal care | 14.29 € | 11.39 € | — | Rimi |
+| Rexona Deodorant men cobalt dry 200ml | Personal care | 5.99 € | 6.15 € | — | Barbora |
+| Rexona Deodorant sexy bouquet 200ml | Personal care | 5.99 € | 6.15 € | — | Barbora |
+| Rich Palsam kohevust andev 200ml | Personal care | 15.19 € | — | 15.24 € | Barbora |
+| Rich Palsam repairing collagen 200ml | Personal care | 15.59 € | 12.39 € | — | Rimi |
+| Rich Šampoon kohevust andev 250ml | Personal care | 14.19 € | — | 14.22 € | Barbora |
+| Rich Šampoon repairing collagen 250ml | Personal care | 14.29 € | 11.39 € | — | Rimi |
 | Schauma Palsam color 250ml | Personal care | 3.99 € | — | 4.06 € | Barbora |
-| Schauma Šampoon care repair 400ml | Personal care | 5.09 € | 3.79 € | — | Rimi |
 | Schauma Šampoon color shine 400ml | Personal care | 5.09 € | 3.79 € | 5.07 € | Rimi |
-| Sensodyne Hambapasta care multi 75ml | Personal care | 5.29 € | 5.49 € | 5.29 € | Barbora + Selver |
+| Schauma Šampoon repair care 400ml | Personal care | 5.09 € | 3.79 € | — | Rimi |
 | Sensodyne Hambapasta cavity sensitivity 75ml | Personal care | — | 6.79 € | 6.69 € | Selver |
-| Sensodyne Hambapasta clean deep 75ml | Personal care | 6.39 € | 6.79 € | 7.29 € | Barbora |
 | Sensodyne Hambapasta clinical white 75ml | Personal care | 9.99 € (6.49 € Aitäh) | — | 9.99 € | Barbora + Selver |
 | Sensodyne Hambapasta daily protection 100ml | Personal care | — | 5.29 € | 5.29 € | Rimi + Selver |
+| Sensodyne Hambapasta deep clean 75ml | Personal care | 6.39 € | 6.79 € | 7.29 € | Barbora |
 | Sensodyne Hambapasta fluoride 75ml | Personal care | 6.59 € | 6.59 € | 6.59 € | Barbora + Rimi + Selver |
-| Sensodyne Hambapasta gum sensitivity 75ml | Personal care | — | 8.39 € | 8.99 € | Rimi |
+| Sensodyne Hambapasta multi care 75ml | Personal care | 5.29 € | 5.49 € | 5.29 € | Barbora + Selver |
 | Sensodyne Hambapasta pronamel 75ml | Personal care | 8.19 € | 8.19 € | 7.99 € | Selver |
-| Sensodyne Hambapasta protect repair 75ml | Personal care | 8.49 € (5.52 € Aitäh) | 6.99 € | 8.99 € | Rimi |
+| Sensodyne Hambapasta repair protect 75ml | Personal care | 8.49 € (5.52 € Aitäh) | 6.99 € | 8.99 € | Rimi |
+| Sensodyne Hambapasta sensitivity gum 75ml | Personal care | — | 8.39 € | 8.99 € | Rimi |
 | Sensodyne Hambapasta whitening 75ml | Personal care | — | 6.99 € | 6.99 € | Rimi + Selver |
 | Sensodyne Suuvesi cool mint 500ml | Personal care | 8.79 € (5.71 € Aitäh) | 7.39 € | 8.99 € | Rimi |
 | Splat Hambapasta biocalcium 100ml | Personal care | 5.49 € | 5.49 € | 5.59 € | Barbora + Rimi |
-| Splat Hambapasta herbs medical 100ml | Personal care | 5.49 € | 5.49 € | 5.59 € | Barbora + Rimi |
-| Splat Hambapasta plus white 100ml | Personal care | 5.49 € | — | 5.29 € | Selver |
+| Splat Hambapasta medical herbs 100ml | Personal care | 5.49 € | 5.49 € | 5.59 € | Barbora + Rimi |
 | Splat Hambapasta sensitive 100ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
 | Splat Hambapasta ultracomplex 100ml | Personal care | 5.49 € | 5.49 € | — | Barbora + Rimi |
-| Syoss Juuksegeel hold max 250ml | Personal care | 6.43 € | 5.59 € | — | Rimi |
+| Splat Hambapasta white plus 100ml | Personal care | 5.49 € | — | 5.29 € | Selver |
+| Syoss Juuksegeel max hold 250ml | Personal care | 6.43 € | 5.59 € | — | Rimi |
 | Syoss Juuksemask intense keratin 400ml | Personal care | 7.69 € | 8.39 € | — | Barbora |
-| Syoss Juuksevaha hold max 150ml | Personal care | 5.66 € | 6.79 € | — | Barbora |
-| Syoss Juuksevaht control curl 250ml | Personal care | 5.94 € | 5.79 € | — | Rimi |
-| Syoss Kuivšampoon fresh pure 200ml | Personal care | 5.03 € | 4.99 € | 8.99 € (5.59 € Partner) | Rimi |
+| Syoss Juuksevaha max hold 150ml | Personal care | 5.66 € | 6.79 € | — | Barbora |
+| Syoss Juuksevaht curl control 250ml | Personal care | 5.94 € | 5.79 € | — | Rimi |
+| Syoss Kuivšampoon pure fresh 200ml | Personal care | 5.03 € | 4.99 € | 8.99 € (5.59 € Partner) | Rimi |
 | Syoss Palsam color 440ml | Personal care | 5.59 € | 5.29 € | 5.49 € | Rimi |
-| Syoss Palsam curls intense 250ml | Personal care | 5.59 € | 5.59 € | — | Barbora + Rimi |
+| Syoss Palsam intense curls 250ml | Personal care | 5.59 € | 5.59 € | — | Barbora + Rimi |
 | Syoss Palsam intense plex 250ml | Personal care | 5.38 € | 5.49 € | — | Barbora |
 | Syoss Palsam keratin 250ml | Personal care | 5.38 € | — | 7.99 € (5.29 € Partner) | Barbora |
 | Syoss Palsam repair 440ml | Personal care | 5.59 € | 5.29 € | 7.99 € (5.29 € Partner) | Rimi |
 | Syoss Šampoon anti dandruff 440ml | Personal care | 5.59 € | 7.99 € | — | Barbora |
 | Syoss Šampoon color 440ml | Personal care | 5.59 € | 5.39 € | 5.49 € | Rimi |
 | Syoss Šampoon curls waves 440ml | Personal care | 5.59 € | — | 7.99 € (5.29 € Partner) | Barbora |
-| Syoss Šampoon glaze intense 440ml | Personal care | 5.59 € | 5.79 € | 7.99 € (5.29 € Partner) | Barbora |
-| Syoss Šampoon intense oleo 440ml | Personal care | 5.59 € | 5.29 € | — | Rimi |
+| Syoss Šampoon intense glaze 440ml | Personal care | 5.59 € | 5.79 € | 7.99 € (5.29 € Partner) | Barbora |
 | Syoss Šampoon intense plex 440ml | Personal care | 5.59 € | 5.79 € | — | Barbora |
 | Syoss Šampoon keratin 750ml | Personal care | — | 12.39 € | 13.99 € | Rimi |
+| Syoss Šampoon oleo intense 440ml | Personal care | 5.59 € | 5.29 € | — | Rimi |
 | Syoss Šampoon repair 440ml | Personal care | 5.59 € | 5.39 € | 7.99 € (5.29 € Partner) | Rimi |
 | Syoss Šampoon volume 440ml | Personal care | 5.59 € | 5.29 € | 7.99 € (5.29 € Partner) | Rimi |
 | Taft Juukselakk aloe boost 250ml | Personal care | 7.15 € | 4.99 € | — | Rimi |
-| Taft Juukselakk invisible power 250ml | Personal care | 7.15 € | 3.69 € | 5.49 € | Rimi |
+| Taft Juukselakk power invisible 250ml | Personal care | 7.15 € | 3.69 € | 5.49 € | Rimi |
 | Taft Juukselakk ultimate 250ml | Personal care | 7.15 € | 5.19 € | — | Rimi |
-| Taft Juukselakk up volume 250ml | Personal care | — | 5.19 € | 7.10 € | Rimi |
+| Taft Juukselakk volume up 250ml | Personal care | — | 5.19 € | 7.10 € | Rimi |
 | Taft Juuksepuuder volume 10g | Personal care | 8.19 € | 4.99 € | — | Rimi |
 | Taft Juuksevaha creative look 75ml | Personal care | 7.15 € | 6.39 € | — | Rimi |
 | Woom Hambapasta aloe vera 75ml | Personal care | 6.29 € | 6.29 € | — | Barbora + Rimi |
 | Woom Hambapasta sensitive 75ml | Personal care | 6.29 € | 6.29 € | — | Barbora + Rimi |
-| Ziaja Dušigeel butter cocoa 500ml | Personal care | 3.99 € (2.79 € Aitäh) | — | 4.06 € | Barbora |
-| Ziaja Dušigeel butter orange 500ml | Personal care | 3.69 € (2.59 € Aitäh) | — | 4.06 € | Barbora |
+| Ziaja Dušigeel cocoa butter 500ml | Personal care | 3.99 € (2.79 € Aitäh) | — | 4.06 € | Barbora |
 | Ziaja Dušigeel natural olive 500ml | Personal care | 3.99 € | — | 4.06 € | Barbora |
-| Ziaja Šampoon oil olive 400ml | Personal care | 3.99 € | — | 3.29 € | Selver |
-| Dreamies Kassi kanalihaga suupiste 60g | Pet food | — | 1.29 € | 1.99 € (1.19 € Partner) | Rimi |
-| Dreamies Kassi pardilihaga suupiste 60g | Pet food | — | 1.29 € | 1.99 € (1.19 € Partner) | Rimi |
-| Dreamies Suupiste kassi lõhega 60g | Pet food | 1.79 € | 1.29 € | 1.99 € (1.19 € Partner) | Rimi |
-| Felix Kassimaius deli kana moments 4x10g | Pet food | 1.59 € | — | 1.99 € | Barbora |
-| Felix Kassimaius deli lõhe moments 4x10g | Pet food | 1.59 € | — | 1.99 € | Barbora |
+| Ziaja Dušigeel orange butter 500ml | Personal care | 3.69 € (2.59 € Aitäh) | — | 4.06 € | Barbora |
+| Ziaja Šampoon olive oil 400ml | Personal care | 3.99 € | — | 3.29 € | Selver |
+| Dreamies Kassi suupiste kanalihaga 60g | Pet food | — | 1.29 € | 1.99 € (1.19 € Partner) | Rimi |
+| Dreamies Kassi suupiste pardilihaga 60g | Pet food | — | 1.29 € | 1.99 € (1.19 € Partner) | Rimi |
+| Dreamies Suupiste kassidele lõhega 60g | Pet food | 1.79 € | 1.29 € | 1.99 € (1.19 € Partner) | Rimi |
+| Felix Kassimaius deli moments kana 4x10g | Pet food | 1.59 € | — | 1.99 € | Barbora |
+| Felix Kassimaius deli moments lõhe 4x10g | Pet food | 1.59 € | — | 1.99 € | Barbora |
 | Pedigree Koeraeine 4x100g | Pet food | 1.79 € | 2.49 € | — | Barbora |
 | Pedigree Koeraeine junior 4x100g | Pet food | 1.67 € | 2.49 € | — | Barbora |
 | Pedigree Koeramaius rodeo 70g | Pet food | 0.90 € | 1.35 € | 1.29 € | Barbora |
 | Sheba Kassipasteet kanaga 85g | Pet food | 0.79 € | — | 0.99 € | Barbora |
-| Sheba Kiisueine kastmes segavalik 4x85g | Pet food | 3.49 € | — | 3.49 € | Barbora + Selver |
 | Sheba Kiisueine lõhega 85g | Pet food | — | 0.75 € | 0.99 € | Rimi |
+| Sheba Kiisueine segavalik kastmes 4x85g | Pet food | 3.49 € | — | 3.49 € | Barbora + Selver |
 | Baltix Hirss 1000g | Rice & grains | 2.45 € | 2.49 € | 2.50 € | Barbora |
 | Baltix Odrakruup 1000g | Rice & grains | 1.39 € | — | 1.41 € | Barbora |
 | Baltix Odrakruup 4x100g | Rice & grains | 0.89 € | — | 1.01 € | Barbora |
@@ -1511,11 +1540,11 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Veski mati Riis sõmer 1000g | Rice & grains | — | 3.09 € | 3.00 € | Selver |
 | Veski mati Risotoriis 500g | Rice & grains | — | 2.49 € | 2.39 € | Selver |
 | Baltika Ketšup terav 500g | Sauces & condiments | 1.85 € | 2.39 € | — | Barbora |
-| Baltika Kodune kange sinep 120g | Sauces & condiments | 1.35 € | 1.49 € | 1.41 € (1.19 € Partner) | Barbora |
+| Baltika Kodune sinep kange 120g | Sauces & condiments | 1.35 € | 1.49 € | 1.41 € (1.19 € Partner) | Barbora |
 | Barilla Pastakaste basilico 400g | Sauces & condiments | 3.75 € (2.99 € Aitäh) | 3.79 € | 3.59 € | Selver |
 | Barilla Pastakaste bolognese 400g | Sauces & condiments | 4.99 € | 4.99 € | 4.99 € | Barbora + Rimi + Selver |
-| Barilla Pastakaste genovese pesto 190g | Sauces & condiments | 3.99 € | 3.59 € | — | Rimi |
 | Barilla Pastakaste napoletana 400g | Sauces & condiments | 3.79 € | 3.79 € | 2.99 € | Selver |
+| Barilla Pastakaste pesto genovese 190g | Sauces & condiments | 3.99 € | 3.59 € | — | Rimi |
 | Borges Modena palsamiäädikas 250ml | Sauces & condiments | 2.94 € | — | 2.94 € | Barbora + Selver |
 | Borges Õunaäädikas mahe 250ml | Sauces & condiments | 2.95 € | 2.95 € | 2.59 € | Selver |
 | Chumak Šašlõkiketšup 250g | Sauces & condiments | 1.29 € | — | 1.29 € | Barbora + Selver |
@@ -1529,8 +1558,8 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Felix Hellfire ketšup 500g | Sauces & condiments | 3.55 € | 2.79 € | — | Rimi |
 | Felix Hiinapärane kaste poolmagus 500g | Sauces & condiments | 2.19 € | 1.99 € | — | Rimi |
 | Felix Kartulikaste 220g | Sauces & condiments | 1.79 € | 1.45 € | 1.79 € | Rimi |
-| Felix Kaste ananassiga and sour sweet 500g | Sauces & condiments | — | 1.99 € | 2.19 € | Rimi |
-| Felix Kaste island thousand 375g | Sauces & condiments | 2.35 € | 2.69 € | 2.59 € (2.19 € Partner) | Barbora |
+| Felix Kaste sweet and sour ananassiga 500g | Sauces & condiments | — | 1.99 € | 2.19 € | Rimi |
+| Felix Kaste thousand island 375g | Sauces & condiments | 2.35 € | 2.69 € | 2.59 € (2.19 € Partner) | Barbora |
 | Felix Klassikaline salatikaste 375g | Sauces & condiments | 2.01 € | 2.69 € | 2.69 € (2.19 € Partner) | Barbora |
 | Felix Kuldse meega sinep 170g | Sauces & condiments | 2.95 € | — | 2.95 € | Barbora + Selver |
 | Felix Kurgikaste 275g | Sauces & condiments | 2.01 € | 2.69 € | 2.69 € (2.19 € Partner) | Barbora |
@@ -1538,11 +1567,11 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Felix Mädarõigas kodune 200g | Sauces & condiments | 1.69 € | 1.69 € | — | Barbora + Rimi |
 | Felix Magus tšillikaste 355g | Sauces & condiments | 1.83 € | — | 2.43 € | Barbora |
 | Felix Maheda maitsega sinep 170g | Sauces & condiments | 2.65 € | — | 2.65 € | Barbora + Selver |
-| Felix Majonees aioli laimi 220g | Sauces & condiments | 1.99 € | 1.79 € | — | Rimi |
 | Felix Majonees kerge 870g | Sauces & condiments | 3.25 € | 3.39 € | 4.06 € | Barbora |
 | Felix Majonees klassikaline 830g | Sauces & condiments | — | 4.05 € | 4.05 € | Rimi + Selver |
+| Felix Majonees laimi aioli 220g | Sauces & condiments | 1.99 € | 1.79 € | — | Rimi |
 | Felix Mangokaste 500g | Sauces & condiments | 2.59 € | — | 2.59 € | Barbora + Selver |
-| Felix Mee ja salatikaste sinepi 375g | Sauces & condiments | 1.94 € | — | 2.59 € | Barbora |
+| Felix Mee ja sinepi salatikaste 375g | Sauces & condiments | 1.94 € | — | 2.59 € | Barbora |
 | Felix Pastakaste 500g | Sauces & condiments | 2.59 € | 1.99 € | 2.59 € | Rimi |
 | Felix Pastakaste ürtidega 360g | Sauces & condiments | 2.65 € | 2.65 € | — | Barbora + Rimi |
 | Felix Põltsamaa kange sinep 65g | Sauces & condiments | 1.49 € | — | 1.49 € | Barbora + Selver |
@@ -1553,7 +1582,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Felix Terav tomatiketšup 1000g | Sauces & condiments | 4.49 € | 4.49 € | — | Barbora + Rimi |
 | Felix Terav tomatiketšup 500g | Sauces & condiments | 2.89 € | 2.89 € | — | Barbora + Rimi |
 | Felix Terav tšillikaste 350g | Sauces & condiments | 1.83 € | — | 2.43 € | Barbora |
-| Felix Tomati salatikaste tšilli 375g | Sauces & condiments | 1.94 € | — | 2.59 € (2.19 € Partner) | Barbora |
+| Felix Tomati tšilli salatikaste 375g | Sauces & condiments | 1.94 € | — | 2.59 € (2.19 € Partner) | Barbora |
 | Felix Tomatiketšup 1000g | Sauces & condiments | 4.09 € | 3.79 € | 3.79 € | Rimi + Selver |
 | Felix Tomatiketšup 1250g | Sauces & condiments | 4.95 € (3.59 € Aitäh) | 4.89 € | 4.95 € (3.29 € Partner) | Rimi |
 | Felix Tomatiketšup 500g | Sauces & condiments | 2.89 € | 2.89 € | 2.29 € | Selver |
@@ -1572,17 +1601,17 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Heinz Küüslaugukaste 420g | Sauces & condiments | 4.69 € | 4.69 € | — | Barbora + Rimi |
 | Heinz Majoneesi ketšupikaste 425g | Sauces & condiments | 4.35 € | 4.39 € | — | Barbora |
 | Heinz Worcester kaste 150ml | Sauces & condiments | — | 2.95 € | 2.63 € | Selver |
-| Hellmann's Bbq kaste originaal 430ml | Sauces & condiments | 3.99 € | 3.99 € | — | Barbora + Rimi |
-| Hellmann's Kaste burger chunky 250ml | Sauces & condiments | — | 3.19 € | 3.39 € | Rimi |
+| Hellmann's Bbq kaste original 430ml | Sauces & condiments | 3.99 € | 3.99 € | — | Barbora + Rimi |
+| Hellmann's Kaste chunky burger 250ml | Sauces & condiments | — | 3.19 € | 3.39 € | Rimi |
 | Hellmann's Majonees light 405ml | Sauces & condiments | 3.99 € | — | 4.89 € | Barbora |
-| Hellmann's Majonees originaal 405ml | Sauces & condiments | 3.69 € (2.39 € Aitäh) | — | 3.99 € (2.29 € Partner) | Barbora |
-| Hellmann's Majonees originaal 625ml | Sauces & condiments | 5.79 € (3.99 € Aitäh) | 6.39 € | — | Barbora |
 | Hellmann's Majonees originaal 855ml | Sauces & condiments | 6.99 € (4.59 € Aitäh) | — | 7.99 € | Barbora |
+| Hellmann's Majonees original 405ml | Sauces & condiments | 3.69 € (2.39 € Aitäh) | — | 3.99 € (2.29 € Partner) | Barbora |
+| Hellmann's Majonees original 625ml | Sauces & condiments | 5.79 € (3.99 € Aitäh) | 6.39 € | — | Barbora |
 | Lemmik Majonees juustu 200g | Sauces & condiments | 1.49 € | 1.59 € | — | Barbora |
-| Lemmik Majonees oliivi provansaal 210g | Sauces & condiments | 1.39 € (0.79 € Aitäh) | 1.49 € | 1.55 € | Barbora |
 | Lemmik Majonees provansaal 405g | Sauces & condiments | 1.99 € | 2.05 € | 2.25 € | Barbora |
 | Lemmik Majonees provansaal 700g | Sauces & condiments | 2.99 € | 2.99 € | 3.39 € | Barbora + Rimi |
-| Maggi Kaste salsa texicana 500ml | Sauces & condiments | 4.99 € | 4.99 € | — | Barbora + Rimi |
+| Lemmik Majonees provansaal oliivi 210g | Sauces & condiments | 1.39 € (0.79 € Aitäh) | 1.49 € | 1.55 € | Barbora |
+| Maggi Kaste texicana salsa 500ml | Sauces & condiments | 4.99 € | 4.99 € | — | Barbora + Rimi |
 | Meira Sinep traditsiooniline 500g | Sauces & condiments | 2.99 € | — | 3.04 € | Barbora |
 | Merevaik Juustudipp cheddari 200g | Sauces & condiments | 1.89 € | 1.89 € | 1.89 € | Barbora + Rimi + Selver |
 | Merevaik Juustudipp originaal 200g | Sauces & condiments | 1.89 € | — | 1.89 € | Barbora + Selver |
@@ -1590,8 +1619,8 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Minu Mädarõigas delikatess 170g | Sauces & condiments | 1.19 € | — | 1.31 € | Barbora |
 | Minu Mädarõigas ekstra kange 200g | Sauces & condiments | 1.69 € | — | 1.79 € | Barbora |
 | Mo saaremaa Juustukaste 400g | Sauces & condiments | 2.65 € (1.99 € Aitäh) | 2.65 € | — | Barbora + Rimi |
-| Panzani Bolognese pastakaste veggie 390g | Sauces & condiments | 4.99 € | — | 4.49 € (3.59 € Partner) | Selver |
-| Panzani Pastakaste bolognese extra 425g | Sauces & condiments | — | 5.29 € | 5.29 € | Rimi + Selver |
+| Panzani Bolognese veggie pastakaste 390g | Sauces & condiments | 4.99 € | — | 4.49 € (3.59 € Partner) | Selver |
+| Panzani Pastakaste extra bolognese 425g | Sauces & condiments | — | 5.29 € | 5.29 € | Rimi + Selver |
 | Panzani Pastakaste napoletana 400g | Sauces & condiments | 3.69 € | 3.69 € | 3.89 € | Barbora + Rimi |
 | Panzani Pastakaste originale 400g | Sauces & condiments | 3.69 € | 3.69 € | 3.89 € | Barbora + Rimi |
 | Panzani Pitsakaste tomapizza 390g | Sauces & condiments | 2.99 € | — | 3.05 € | Barbora |
@@ -1615,28 +1644,41 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Santa maria Bbq kaste universaalne 330g | Sauces & condiments | 4.25 € | — | 4.25 € | Barbora + Selver |
 | Sfinx-e Äädikhape 30% 500ml | Sauces & condiments | 1.19 € | — | 1.19 € | Barbora + Selver |
 | Tarplan Majonees küüslauguga 210g | Sauces & condiments | 1.19 € | — | 1.49 € | Barbora |
-| Tarplan Majonees premium provansaal 210g | Sauces & condiments | 1.12 € | 1.29 € | 1.49 € | Barbora |
 | Tarplan Majonees provansaal 380g | Sauces & condiments | 1.44 € | 1.69 € | 1.95 € | Barbora |
 | Tarplan Majonees provansaal 50% 450g | Sauces & condiments | 1.64 € | — | 2.19 € | Barbora |
 | Tarplan Majonees provansaal 900g | Sauces & condiments | — | 3.99 € | 3.95 € (3.29 € Partner) | Selver |
+| Tarplan Majonees provansaal premium 210g | Sauces & condiments | 1.12 € | 1.29 € | 1.49 € | Barbora |
 | Tarplan Majonees tšilli 210g | Sauces & condiments | 1.24 € | 1.79 € | — | Barbora |
 | Tarplan Majonees vegan 380g | Sauces & condiments | 1.65 € | — | 2.19 € | Barbora |
 | Tarplan Salatikaste caesar 210g | Sauces & condiments | 1.42 € | 1.99 € | 1.79 € | Barbora |
 | Tartu mill Pastakaste arrabbiata 340g | Sauces & condiments | 3.19 € | 3.19 € | — | Barbora + Rimi |
 | Tartu mill Pastakaste napoletana 340g | Sauces & condiments | 3.29 € | 3.29 € | — | Barbora + Rimi |
-| Tere Dipikaste dipp küüslaugu tops 200g | Sauces & condiments | 1.75 € | — | 1.75 € | Barbora + Selver |
+| Tere Dipikaste dipp tops küüslaugu 200g | Sauces & condiments | 1.75 € | — | 1.75 € | Barbora + Selver |
 | Tere Majonees laktoosivaba 410g | Sauces & condiments | — | 2.75 € | 2.65 € | Selver |
 | Thai choice Kalakaste 200ml | Sauces & condiments | 2.19 € (1.75 € Aitäh) | — | 2.19 € | Barbora + Selver |
 | Thai choice Magus tšillikaste 200ml | Sauces & condiments | 2.19 € | — | 2.09 € | Selver |
 | Vilux Sinep dijoni teraline 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
 | Vilux Sinep dijoni terava 200g | Sauces & condiments | 2.79 € | — | 2.80 € | Barbora |
 | Karni Täissuitsuvorst kuningate 250g | Sausages | 3.95 € | 3.95 € | 3.95 € | Barbora + Rimi + Selver |
-| Maks & moorits Koduviiner 500g | Sausages | 2.05 € | 2.05 € | — | Barbora + Rimi |
-| Maks & moorits Sardell 77.7% 375g | Sausages | 1.99 € | 2.29 € | — | Barbora |
+| Maks & moorits Doktorivorst 600g | Sausages | 3.69 € | — | 3.69 € (2.49 € Partner) | Barbora + Selver |
+| Maks & moorits Juustuvorst 300g | Sausages | 1.79 € | — | 1.49 € | Selver |
+| Maks & moorits Juustuvorst 77.7% 350g | Sausages | 2.59 € | — | 3.19 € | Barbora |
+| Maks & moorits Kanaviiner 500g | Sausages | 2.19 € | — | 2.29 € | Barbora |
+| Maks & moorits Keeduvorst kevadine 300g | Sausages | 1.49 € | — | 1.51 € | Barbora |
+| Maks & moorits Koduviiner 500g | Sausages | 2.05 € | 2.05 € | 1.59 € | Selver |
+| Maks & moorits Lastevorst 77.7% 350g | Sausages | 2.59 € | — | 2.89 € | Barbora |
+| Maks & moorits Lemmikvorst 300g | Sausages | 1.39 € | — | 1.39 € | Barbora + Selver |
+| Maks & moorits Sardell 77.7% 375g | Sausages | 1.99 € | 2.29 € | 2.53 € (1.99 € Partner) | Barbora |
 | Maks & moorits Suitsusardell lemmik 375g | Sausages | 2.19 € | 2.19 € | — | Barbora + Rimi |
-| Maks & moorits Suitsuviiner 300g | Sausages | 1.62 € | 1.69 € | — | Barbora |
-| Maks & moorits Täissuitsuvorst pepperoni 240g | Sausages | 3.59 € | 2.39 € | — | Rimi |
-| Maks & moorits Väike viiner 260g | Sausages | 1.89 € | 1.69 € | — | Rimi |
+| Maks & moorits Suitsutatud doktorivorst 500g | Sausages | 2.75 € | — | 3.59 € | Barbora |
+| Maks & moorits Suitsutatud juustuvorst 500g | Sausages | 2.75 € | — | 3.59 € | Barbora |
+| Maks & moorits Suitsuviiner 300g | Sausages | 1.62 € | 1.69 € | 1.62 € | Barbora + Selver |
+| Maks & moorits Täissuitsuvorst klassikaline 240g | Sausages | 3.59 € | — | 3.59 € | Barbora + Selver |
+| Maks & moorits Täissuitsuvorst pepperoni 240g | Sausages | 3.59 € | 2.39 € | 3.65 € | Rimi |
+| Maks & moorits Täissuitsuvorst tooma 240g | Sausages | 3.29 € | — | 2.49 € | Selver |
+| Maks & moorits Toorvorstikesed pühajärve 400g | Sausages | 2.39 € | — | 3.49 € | Barbora |
+| Maks & moorits Väike kanaviiner 300g | Sausages | 1.69 € | — | 1.59 € | Selver |
+| Maks & moorits Väike viiner 260g | Sausages | 1.89 € | 1.69 € | 1.79 € | Rimi |
 | Matsimoka Salaami chorizo 150g | Sausages | 3.45 € | — | 3.45 € | Barbora + Selver |
 | Matsimoka Salaami traditsiooniline 150g | Sausages | 3.45 € | — | 3.45 € | Barbora + Selver |
 | Matsimoka Suitsuvorst juustuga 240g | Sausages | 3.79 € | 3.79 € | 4.09 € | Barbora + Rimi |
@@ -1645,16 +1687,16 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Nõo Keedusalaami tarbatu 105g | Sausages | — | 3.59 € | 3.65 € | Rimi |
 | Nõo Keedusalaami vasalli 250g | Sausages | 4.99 € | — | 3.19 € | Selver |
 | Nõo Keeduvorst nomps 350g | Sausages | 4.99 € | — | 4.99 € (3.39 € Partner) | Barbora + Selver |
-| Nõo Suitsuvorst terräv treski 240g | Sausages | 4.69 € | — | 4.69 € | Barbora + Selver |
+| Nõo Suitsuvorst treski terräv 240g | Sausages | 4.69 € | — | 4.69 € | Barbora + Selver |
 | Nõo Täislihaviiner suitsutatud 310g | Sausages | 4.35 € | — | 4.39 € | Barbora |
 | Nõo Täissuitsuvorst eesti juustuga 250g | Sausages | 4.89 € | 4.89 € | — | Barbora + Rimi |
 | Nõo Täissuitsuvorst juustuga moskva 250g | Sausages | 4.39 € | 4.39 € | — | Barbora + Rimi |
 | Nõo Täissuitsuvorst moskva 250g | Sausages | 4.19 € | 3.59 € | 4.19 € (3.49 € Partner) | Rimi |
 | Nõo Täissuitsuvorst wabariigi 250g | Sausages | 4.25 € | 4.25 € | 3.29 € | Selver |
-| Oskar E lihaviiner vaba 125g | Sausages | 1.49 € | 1.49 € | 1.19 € | Selver |
+| Oskar E vaba lihaviiner 125g | Sausages | 1.49 € | 1.49 € | 1.19 € | Selver |
 | Oskar Täissuitsuvorst moskva 210g | Sausages | 4.59 € | 4.59 € | 4.59 € | Barbora + Rimi + Selver |
 | Oskar Viiner lambasooles päris 350g | Sausages | 3.65 € | 3.65 € | — | Barbora + Rimi |
-| Rakvere Grillvorstid juustuga rohke 400g | Sausages | 4.29 € | 3.99 € | 4.29 € | Rimi |
+| Rakvere Grillvorstid rohke juustuga 400g | Sausages | 4.29 € | 3.99 € | 4.29 € | Rimi |
 | Rakvere Keeduvorst doktori 300g | Sausages | 1.55 € | — | 2.02 € | Barbora |
 | Rakvere Keeduvorst juustu 300g | Sausages | 1.75 € | — | 2.43 € | Barbora |
 | Rakvere Krakov lihakas 300g | Sausages | — | 2.99 € | 2.39 € | Selver |
@@ -1727,7 +1769,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Santa maria Kardemon jahvatatud 35g | Spices | 4.99 € | 5.39 € | 4.99 € | Barbora + Selver |
 | Santa maria Karri 25g | Spices | 0.95 € | 1.05 € | 0.95 € (0.75 € Partner) | Barbora + Selver |
 | Santa maria Karri 34g | Spices | 1.59 € | 1.75 € | 1.59 € | Barbora + Selver |
-| Santa maria Karri ja maitseainesegu mango 41g | Spices | — | 3.79 € | 3.49 € | Selver |
+| Santa maria Karri ja mango maitseainesegu 41g | Spices | — | 3.79 € | 3.49 € | Selver |
 | Santa maria Kartulimaitseaine 100g | Spices | 2.25 € | 2.25 € | — | Barbora + Rimi |
 | Santa maria Kartulimaitseaine 30g | Spices | 0.95 € | 1.05 € | 0.95 € | Barbora + Selver |
 | Santa maria Kartulimaitseaine 350g | Spices | 2.91 € | 5.19 € | 5.19 € | Barbora |
@@ -1754,8 +1796,8 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Santa maria Marinaad magus tšilli 75g | Spices | — | 1.09 € | 1.05 € | Selver |
 | Santa maria Marinaadisegu kurgile 100g | Spices | 1.39 € | 1.49 € | 1.39 € | Barbora + Selver |
 | Santa maria Muskaatpähkel 10g | Spices | — | 1.59 € | 1.49 € | Selver |
-| Santa maria Must jahvatatud pipar 16g | Spices | — | 1.55 € | 1.45 € (1.09 € Partner) | Selver |
-| Santa maria Must jahvatatud pipar 45g | Spices | 3.49 € | 3.39 € | 2.59 € | Selver |
+| Santa maria Must pipar jahvatatud 16g | Spices | — | 1.55 € | 1.45 € (1.09 € Partner) | Selver |
+| Santa maria Must pipar jahvatatud 45g | Spices | 3.49 € | 3.39 € | 2.59 € | Selver |
 | Santa maria Must pipar purustatud 18g | Spices | — | 1.55 € | 1.45 € (1.09 € Partner) | Selver |
 | Santa maria Must pipar purustatud 217g | Spices | 5.39 € | 9.55 € | — | Barbora |
 | Santa maria Must pipar purustatud 36g | Spices | 2.89 € | 3.09 € | 2.89 € | Barbora + Selver |
@@ -1790,7 +1832,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Santa maria Teriyaki marinaad 75g | Spices | 1.05 € | 1.09 € | 1.05 € | Barbora + Selver |
 | Santa maria Tilli 7g | Spices | 0.95 € | 0.79 € | 0.95 € | Rimi |
 | Santa maria Tšillipipar 34g | Spices | 2.29 € | — | 2.29 € | Barbora + Selver |
-| Santa maria Tšillipipar helbed hot red 28g | Spices | — | 2.39 € | 2.29 € | Selver |
+| Santa maria Tšillipipar red hot helbed 28g | Spices | — | 2.39 € | 2.29 € | Selver |
 | Santa maria Tšillipulber 41g | Spices | 2.29 € | 2.39 € | 2.29 € | Barbora + Selver |
 | Santa maria Tsitrus grillisegu 35g | Spices | 1.59 € | 1.25 € | — | Rimi |
 | Santa maria Tuline lihamaitseaine 20g | Spices | 0.95 € | — | 0.95 € | Barbora + Selver |
@@ -1805,27 +1847,27 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Santa maria Viie pipra veski 60g | Spices | — | 9.19 € | 9.09 € (6.99 € Partner) | Selver |
 | Santa maria Vürts 15g | Spices | 1.39 € | 1.69 € | 1.39 € | Barbora + Selver |
 | Santa maria Vürtsköömen 20g | Spices | 1.19 € | 0.99 € | 1.19 € | Rimi |
-| Absolut passionfruit viin 38% 700ml | Spirits | — | 16.99 € | 25.90 € | Rimi |
-| Absolut tabasco viin 38% 700ml | Spirits | 24.89 € | — | 25.90 € | Barbora |
 | Absolut Viin 40% 1000ml | Spirits | 29.99 € | 21.99 € | 30.45 € | Rimi |
 | Absolut Viin 40% 500ml | Spirits | 10.99 € | 10.99 € | 11.99 € | Barbora + Rimi |
 | Absolut Viin 40% 700ml | Spirits | 23.79 € | 15.99 € | 24.90 € | Rimi |
+| Absolut viin passionfruit 38% 700ml | Spirits | — | 16.99 € | 25.90 € | Rimi |
+| Absolut viin tabasco 38% 700ml | Spirits | 24.89 € | — | 25.90 € | Barbora |
 | Aramis Piiritusjook xo 200ml | Spirits | — | 5.75 € | 5.75 € | Rimi + Selver |
 | Aramis Piiritusjook xo 500ml | Spirits | — | 14.69 € | 14.75 € | Rimi |
 | Ararat Brandy 40% 3YO 500ml | Spirits | — | 20.05 € | 20.09 € | Rimi |
 | Ararat Brandy 40% 5YO 500ml | Spirits | 25.69 € | 26.55 € | 26.69 € | Barbora |
 | Arsenitch Viin 40% 500ml | Spirits | — | 12.99 € | 12.59 € | Selver |
 | Bacardi Piiritusjook spiced 35% 1000ml | Spirits | — | 22.99 € | 34.89 € | Rimi |
-| Bacardi Rumm blanca carta 37.5% 1000ml | Spirits | 22.99 € | 22.99 € | 22.99 € | Barbora + Rimi + Selver |
-| Bacardi Rumm blanca carta 37.5% 500ml | Spirits | — | 18.29 € | 18.17 € | Selver |
-| Bacardi Rumm blanca carta 37.5% 700ml | Spirits | 24.15 € | 24.99 € | 25.90 € | Barbora |
+| Bacardi Rumm carta blanca 37.5% 1000ml | Spirits | 22.99 € | 22.99 € | 22.99 € | Barbora + Rimi + Selver |
+| Bacardi Rumm carta blanca 37.5% 500ml | Spirits | — | 18.29 € | 18.17 € | Selver |
+| Bacardi Rumm carta blanca 37.5% 700ml | Spirits | 24.15 € | 24.99 € | 25.90 € | Barbora |
 | Bacardi Rumm carta negra 37.5% 1000ml | Spirits | 22.99 € | 22.99 € | — | Barbora + Rimi |
 | Bacardi Rumm carta negra 37.5% 500ml | Spirits | 18.29 € | 18.29 € | 18.17 € | Selver |
-| Baileys Liköör cream irish 17% 700ml | Spirits | 24.99 € | — | 24.90 € | Selver |
-| Baileys Liköör cream irish 500ml | Spirits | 20.49 € | — | 15.99 € | Selver |
+| Baileys Liköör irish cream 17% 700ml | Spirits | 24.99 € | — | 24.90 € | Selver |
+| Baileys Liköör irish cream 500ml | Spirits | 20.49 € | — | 15.99 € | Selver |
 | Barracuda Rumm gold 38% 700ml | Spirits | 19.99 € | 21.45 € | — | Barbora |
 | Beefeater Gin 40% 500ml | Spirits | 16.99 € | — | 18.55 € | Barbora |
-| Beefeater Gin dry london 40% 700ml | Spirits | — | 16.49 € | 22.99 € | Rimi |
+| Beefeater Gin london dry 40% 700ml | Spirits | — | 16.49 € | 22.99 € | Rimi |
 | Beefeater Gin pink 37.5% 700ml | Spirits | 26.89 € | 25.75 € | 26.90 € | Rimi |
 | Belõi aist Brandy 40% 3 500ml | Spirits | 13.99 € | — | 14.89 € | Barbora |
 | Beluga Viin noble 40% 500ml | Spirits | 38.99 € | 29.99 € | — | Rimi |
@@ -1834,9 +1876,9 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Black ram Viski 40% 700ml | Spirits | 19.89 € | 18.29 € | — | Rimi |
 | Bombay sapphire Gin dry 40% 700ml | Spirits | — | 29.99 € | 21.99 € | Selver |
 | Bumbu Rumm xo 40% 700ml | Spirits | 47.99 € | 59.99 € | — | Barbora |
-| Bushmills Viski originaal 40% 700ml | Spirits | 27.69 € | 27.39 € | 26.79 € | Selver |
-| Canadian Viski old special 40% 700ml | Spirits | — | 22.49 € | 22.39 € | Selver |
-| Canari Liköör colada pina 15% 350ml | Spirits | 6.25 € | — | 6.09 € | Selver |
+| Bushmills Viski original 40% 700ml | Spirits | 27.69 € | 27.39 € | 26.79 € | Selver |
+| Canadian Viski special old 40% 700ml | Spirits | — | 22.49 € | 22.39 € | Selver |
+| Canari Liköör pina colada 15% 350ml | Spirits | 6.25 € | — | 6.09 € | Selver |
 | Canari Liköör tiramisu 16% 350ml | Spirits | 6.25 € | — | 6.09 € | Selver |
 | Captain morgan Rumm dark 40% 1000ml | Spirits | 35.99 € | 33.99 € | 34.46 € | Rimi |
 | Captain morgan Rumm dark 40% 700ml | Spirits | 24.79 € | 25.95 € | — | Barbora |
@@ -1863,7 +1905,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Fireball Liköör 33% 500ml | Spirits | — | 16.35 € | 15.99 € | Selver |
 | Flor de cana Rumm 40% 12YO 700ml | Spirits | 43.99 € | 46.69 € | 43.39 € | Selver |
 | Gordon's Gin passionfruit 37.5% 700ml | Spirits | 23.49 € | — | 23.19 € | Selver |
-| Grant's Viski triple wood 40% 1000ml | Spirits | — | 23.99 € | 32.99 € | Rimi |
+| Grants Viski triple wood 40% 1000ml | Spirits | 24.99 € | 23.99 € | 32.99 € | Rimi |
 | Grey goose Viin 40% 700ml | Spirits | 44.99 € | — | 51.69 € | Barbora |
 | Haig club Viski clubman 40% 700ml | Spirits | 31.99 € | — | 33.39 € | Barbora |
 | Hennessy Konjak vs 40% 200ml | Spirits | 16.99 € | 15.49 € | — | Rimi |
@@ -1875,8 +1917,10 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Hõbe Viin mild 39.2% 700ml | Spirits | 16.99 € | — | 21.39 € | Barbora |
 | Hõbe Viin tuubis 39.2% 700ml | Spirits | 24.99 € | — | 24.29 € | Selver |
 | Ibis Brandy xo 36% 700ml | Spirits | 18.99 € | — | 26.15 € | Barbora |
-| Imperial Brandy vsop xii 36% 500ml | Spirits | — | 8.55 € | 10.99 € | Rimi |
-| Imperial Piiritusjook vs xii 30% 500ml | Spirits | — | 7.19 € | 12.59 € | Rimi |
+| Imperial Brandy xii vsop 36% 500ml | Spirits | — | 8.55 € | 10.99 € | Rimi |
+| Imperial Piiritusjook xii vs 30% 500ml | Spirits | — | 7.19 € | 12.59 € | Rimi |
+| J.p chenet Brandy vsop 36% 500ml | Spirits | 13.99 € | 16.99 € | 18.55 € | Barbora |
+| J.p chenet Brandy vsop 36% 700ml | Spirits | 20.19 € | 19.99 € | 21.05 € | Rimi |
 | Jää Viin premium 40% 700ml | Spirits | 14.99 € | — | 19.35 € | Barbora |
 | Jagdtraum Liköör 30% 700ml | Spirits | 19.49 € | 15.89 € | — | Rimi |
 | Jägermeister Liköör 35% 1000ml | Spirits | 29.99 € | 29.99 € | 33.29 € | Barbora + Rimi |
@@ -1893,22 +1937,23 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Jameson Viski irish 40% 500ml | Spirits | 16.99 € | 16.39 € | 21.95 € | Rimi |
 | Jameson Viski irish 40% 700ml | Spirits | 21.99 € | 23.99 € | 29.39 € | Barbora |
 | Jim beam Liköör apple 32.5% 700ml | Spirits | 29.99 € | 28.19 € | — | Rimi |
-| Jim beam Viski label white 40% 200ml | Spirits | 10.99 € | — | 9.99 € | Selver |
-| Jim beam Viski label white 40% 500ml | Spirits | 15.99 € | 15.99 € | — | Barbora + Rimi |
-| Jim beam Viski label white 40% 700ml | Spirits | — | 28.19 € | 26.99 € | Selver |
+| Jim beam Viski white label 40% 200ml | Spirits | 10.99 € | — | 9.99 € | Selver |
+| Jim beam Viski white label 40% 500ml | Spirits | 15.99 € | 15.99 € | — | Barbora + Rimi |
+| Jim beam Viski white label 40% 700ml | Spirits | — | 28.19 € | 26.99 € | Selver |
 | Johan freitag Gin 38% 500ml | Spirits | 11.75 € | 11.75 € | — | Barbora + Rimi |
-| Johnnie walker Viski label must 40% 700ml | Spirits | — | 40.99 € | 39.99 € | Selver |
-| Johnnie walker Viski label red 40% 1000ml | Spirits | — | 37.65 € | 35.79 € | Selver |
-| Johnnie walker Viski label red 40% 500ml | Spirits | — | 18.79 € | 18.79 € | Rimi + Selver |
-| Johnnie walker Viski label red 40% 700ml | Spirits | — | 17.99 € | 25.40 € | Rimi |
-| Juniper island Gin dry london 40% 700ml | Spirits | 26.49 € | — | 23.99 € | Selver |
-| Kada Gin kadaka 37.5% 500ml | Spirits | 12.59 € | 12.95 € | — | Barbora |
+| Johnnie walker Viski black label 40% 700ml | Spirits | — | 40.99 € | 39.99 € | Selver |
+| Johnnie walker Viski red label 40% 1000ml | Spirits | — | 37.65 € | 35.79 € | Selver |
+| Johnnie walker Viski red label 40% 500ml | Spirits | — | 18.79 € | 18.79 € | Rimi + Selver |
+| Johnnie walker Viski red label 40% 700ml | Spirits | — | 17.99 € | 25.40 € | Rimi |
+| Juniper island Gin london dry 40% 700ml | Spirits | 26.49 € | — | 23.99 € | Selver |
+| Kada Gin kadaka 37.5% 500ml | Spirits | 12.59 € | 12.95 € | 12.59 € | Barbora + Selver |
 | Kada Gin kirsi 37.5% 500ml | Spirits | — | 12.99 € | 12.59 € | Selver |
 | Kada Gin longero 38% 500ml | Spirits | — | 14.25 € | 12.59 € | Selver |
+| Kada Gin rabarberi 37.5% 500ml | Spirits | — | 9.99 € | 12.59 € | Rimi |
 | Khortytsa Viin classic 40% 500ml | Spirits | 9.99 € | — | 11.85 € | Barbora |
 | Khortytsa Viin classic 40% 700ml | Spirits | 19.09 € | — | 15.35 € | Selver |
-| Khortytsa Viin cool silver 40% 500ml | Spirits | 9.99 € | — | 13.15 € | Barbora |
 | Khortytsa Viin platinum 40% 500ml | Spirits | 9.99 € | — | 13.15 € | Barbora |
+| Khortytsa Viin silver cool 40% 500ml | Spirits | 9.99 € | — | 13.15 € | Barbora |
 | Kingsmill Gin 38% 1000ml | Spirits | 24.49 € | — | 25.49 € | Barbora |
 | Kingsmill Gin 38% 500ml | Spirits | 9.99 € | 14.85 € | 12.99 € | Barbora |
 | Kingsmill Gin 38% 700ml | Spirits | 12.99 € | 13.99 € | 12.99 € | Barbora + Selver |
@@ -1920,7 +1965,7 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Koskenkorva Viin 40% 500ml | Spirits | 10.99 € | 13.49 € | 14.99 € | Barbora |
 | Koskenkorva Viin 40% 700ml | Spirits | 20.95 € | 14.99 € | — | Rimi |
 | Larsen Konjak vs 40% 700ml | Spirits | 41.59 € | — | 41.99 € | Barbora |
-| Liviko Liköör karbis kukk kännu 45% 500ml | Spirits | 18.25 € | — | 18.25 € | Barbora + Selver |
+| Liviko Liköör kännu kukk karbis 45% 500ml | Spirits | 18.25 € | — | 18.25 € | Barbora + Selver |
 | Liviko Liköör kirsi 21% 500ml | Spirits | 7.49 € | — | 6.99 € | Selver |
 | Liviko Liköör kirss 21% 500ml | Spirits | 7.65 € | 7.39 € | — | Rimi |
 | Liviko Liköör metsmaasikas 21% 500ml | Spirits | 7.19 € | 7.39 € | — | Barbora |
@@ -1941,21 +1986,21 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Monkey shoulder Viski 40% 700ml | Spirits | 46.99 € | 48.99 € | — | Barbora |
 | Morosha Viin spring 40% 500ml | Spirits | 13.79 € | — | 12.80 € | Selver |
 | Moskovskaya Viin osobaya 40% 500ml | Spirits | — | 13.35 € | 14.39 € | Rimi |
-| Nemiroff honey pepper viin 40% 500ml | Spirits | — | 13.99 € | 13.79 € | Selver |
 | Nemiroff Viin delikat 40% 200ml | Spirits | — | 6.19 € | 5.99 € | Selver |
 | Nemiroff Viin delikat 40% 500ml | Spirits | 9.79 € | 13.99 € | 13.99 € | Barbora |
-| Nemiroff Viin originaal 40% 500ml | Spirits | 12.96 € | 13.99 € | 13.79 € | Barbora |
-| Nipernaadi jõhvika viin 37.5% 500ml | Spirits | 13.85 € | 13.85 € | 13.75 € | Selver |
+| Nemiroff viin honey pepper 40% 500ml | Spirits | — | 13.99 € | 13.79 € | Selver |
+| Nemiroff Viin original 40% 500ml | Spirits | 12.96 € | 13.99 € | 13.79 € | Barbora |
+| Nipernaadi viin jõhvika 37.5% 500ml | Spirits | 13.85 € | 13.85 € | 13.75 € | Selver |
 | Nordic spirits lab Gin 41% 500ml | Spirits | 23.99 € | 23.99 € | — | Barbora + Rimi |
 | Old kakheti Brandy 40% 3YO 500ml | Spirits | — | 17.99 € | 17.59 € | Selver |
 | Planteray Rumm barbados 40% 5YO 700ml | Spirits | 27.99 € | 30.49 € | — | Barbora |
-| Planteray Rumm dark originaal 40% 700ml | Spirits | 21.99 € | 26.49 € | 28.09 € | Barbora |
+| Planteray Rumm original dark 40% 700ml | Spirits | 21.99 € | 26.49 € | 28.09 € | Barbora |
 | Remy martin Konjak vsop 40% 700ml | Spirits | 59.99 € | — | 82.49 € | Barbora |
 | Saare Gin roosa 37.5% 500ml | Spirits | 12.49 € | — | 12.09 € | Selver |
 | Saare Gin sõstar 37.5% 500ml | Spirits | 12.49 € | — | 12.09 € | Selver |
-| Saaremaa jõhvikas viin 37.5% 500ml | Spirits | — | 12.59 € | 12.19 € | Selver |
 | Saaremaa Viin 40% 1000ml | Spirits | — | 15.99 € | 18.99 € | Rimi |
 | Saaremaa Viin 40% 200ml | Spirits | — | 4.79 € | 4.49 € | Selver |
+| Saaremaa viin jõhvikas 37.5% 500ml | Spirits | — | 12.59 € | 12.19 € | Selver |
 | Saaremaa Viin mild 40% 500ml | Spirits | — | 12.29 € | 12.55 € | Rimi |
 | Saaremaa Viin pööriöö 40% 500ml | Spirits | 16.49 € | — | 15.99 € | Selver |
 | Saaremaa Viin rabarber 37.5% 500ml | Spirits | 9.49 € | — | 12.99 € | Barbora |
@@ -1963,6 +2008,8 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Scottish leader Viski 40% 700ml | Spirits | 21.99 € | — | 22.89 € | Barbora |
 | Smirnoff Viin red 37.5% 500ml | Spirits | 17.49 € | 11.99 € | 13.99 € | Rimi |
 | Smirnoff Viin red 37.5% 700ml | Spirits | 22.15 € | — | 18.99 € | Selver |
+| St.remy Brandy authentic vsop 36% 700ml | Spirits | 18.99 € | 18.99 € | — | Barbora + Rimi |
+| St.remy Brandy authentic xo 40% 700ml | Spirits | 31.99 € | — | 33.45 € | Barbora |
 | Stumbras Viin 40% 350ml | Spirits | 9.99 € | — | 10.69 € | Barbora |
 | Stumbras Viin 40% 500ml | Spirits | 9.99 € | 8.99 € | 15.29 € | Rimi |
 | Stumbras Viin 40% 700ml | Spirits | 19.49 € | 19.55 € | — | Barbora |
@@ -1973,14 +2020,14 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Ukrainka Viin platinum 40% 500ml | Spirits | — | 10.49 € | 10.99 € | Rimi |
 | Valge viin Viin 40% 200ml | Spirits | 4.35 € | 4.35 € | — | Barbora + Rimi |
 | Vana tallinn Liköör 40% 1000ml | Spirits | 20.99 € | 25.85 € | 25.70 € | Barbora |
-| Vana tallinn Liköör caramel toffee 35% 500ml | Spirits | — | 11.99 € | 14.95 € | Rimi |
 | Vana tallinn Liköör chocolate cream 16% 500ml | Spirits | — | 11.05 € | 10.45 € | Selver |
 | Vana tallinn Liköör coconut 16% 500ml | Spirits | 10.99 € | 11.05 € | — | Barbora |
-| Vana tallinn Liköör cream ice 16% 500ml | Spirits | 10.99 € | 11.05 € | 10.45 € | Selver |
 | Vana tallinn Liköör eesti 40% 500ml | Spirits | 14.79 € | 11.99 € | 11.99 € | Rimi + Selver |
 | Vana tallinn Liköör heritage 40% 500ml | Spirits | 25.99 € | 25.99 € | — | Barbora + Rimi |
+| Vana tallinn Liköör ice cream 16% 500ml | Spirits | 10.99 € | 11.05 € | 10.45 € | Selver |
 | Vana tallinn Liköör marzipan 16% 500ml | Spirits | 10.99 € | 11.05 € | — | Barbora |
 | Vana tallinn Liköör pet 40% 500ml | Spirits | — | 12.99 € | 11.99 € | Selver |
+| Vana tallinn Liköör toffee caramel 35% 500ml | Spirits | — | 11.99 € | 14.95 € | Rimi |
 | Viru valge Viin 40% 1000ml | Spirits | 16.99 € | 22.59 € | 22.73 € | Barbora |
 | Viru valge Viin 40% 200ml | Spirits | 5.29 € | — | 5.32 € | Barbora |
 | Viru valge Viin 40% 350ml | Spirits | 9.29 € | 9.29 € | 8.33 € | Selver |
@@ -1992,74 +2039,74 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Zubrowka Viin biala 40% 500ml | Spirits | 11.49 € | 11.49 € | — | Barbora + Rimi |
 | Zubrowka Viin biala 40% 700ml | Spirits | 13.99 € | 15.49 € | — | Barbora |
 | Zubrowka Viin cranberry 37.5% 500ml | Spirits | 13.99 € | — | 13.79 € | Selver |
-| Basilur Must ceylon leaf of tee 100g | Tea & cocoa | 4.19 € | 4.19 € | — | Barbora + Rimi |
-| Basilur Roheline green jasmine tee 100g | Tea & cocoa | 5.99 € | 5.99 € | — | Barbora + Rimi |
-| Dilmah Must earl grey tee 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
-| Dilmah Must karamelli tee 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
-| Dilmah Must mustsõstra tee 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
+| Basilur Must tee leaf of ceylon 100g | Tea & cocoa | 4.19 € | 4.19 € | — | Barbora + Rimi |
+| Basilur Roheline tee jasmine green 100g | Tea & cocoa | 5.99 € | 5.99 € | — | Barbora + Rimi |
+| Dilmah Must tee earl grey 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
+| Dilmah Must tee karamelli 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
+| Dilmah Must tee mustsõstra 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
 | Dilmah Must tee vaarika 20x1.5g | Tea & cocoa | 1.55 € | 2.59 € | — | Barbora |
-| Lipton Must earl grey tee 20x1.6g | Tea & cocoa | 3.09 € | 3.19 € | — | Barbora |
-| Loyd Must ceylon tee 50x2g | Tea & cocoa | 4.09 € (3.19 € Aitäh) | 4.09 € | — | Barbora + Rimi |
-| Loyd Must earl gray tee 25x2g | Tea & cocoa | 2.19 € | 2.29 € | — | Barbora |
-| Loyd Must intense tee 25x2g | Tea & cocoa | 2.19 € | 2.29 € | — | Barbora |
+| Lipton Must tee earl grey 20x1.6g | Tea & cocoa | 3.09 € | 3.19 € | — | Barbora |
+| Loyd Must tee ceylon 50x2g | Tea & cocoa | 4.09 € (3.19 € Aitäh) | 4.09 € | — | Barbora + Rimi |
+| Loyd Must tee earl gray 25x2g | Tea & cocoa | 2.19 € | 2.29 € | — | Barbora |
+| Loyd Must tee intense 25x2g | Tea & cocoa | 2.19 € | 2.29 € | — | Barbora |
 | Nesquik Lahustuv jook maasika 350g | Tea & cocoa | 4.89 € | — | 4.89 € (3.59 € Partner) | Barbora + Selver |
 | Nesquik Lahustuv kakaojook 150g | Tea & cocoa | 2.59 € | — | 2.29 € | Selver |
 | Nesquik Lahustuv kakaojook 300g | Tea & cocoa | 3.89 € | — | 4.19 € | Barbora |
-| Twinings Must grey lady tee 100g | Tea & cocoa | 6.39 € | 6.39 € | — | Barbora + Rimi |
-| Twinings Roheline gunpowder purutee 100g | Tea & cocoa | 6.39 € | — | 6.39 € | Barbora + Selver |
+| Twinings Must tee lady grey 100g | Tea & cocoa | 6.39 € | 6.39 € | — | Barbora + Rimi |
+| Twinings Roheline purutee gunpowder 100g | Tea & cocoa | 6.39 € | — | 6.39 € | Barbora + Selver |
 | 19 crimes cabernet sauvignon 19 750ml | Wine | — | 14.19 € | 14.29 € | Rimi |
-| Amorale bianco tre uva 750ml | Wine | 11.49 € | — | 11.49 € | Barbora + Selver |
-| Anterra grigio pinot 750ml | Wine | 10.99 € | — | 10.49 € | Selver |
-| Anterra noir pinot 750ml | Wine | 10.99 € | — | 10.49 € | Selver |
+| Amorale tre uva bianco 750ml | Wine | 11.49 € | — | 11.49 € | Barbora + Selver |
+| Anterra pinot grigio 750ml | Wine | 10.99 € | — | 10.49 € | Selver |
+| Anterra pinot noir 750ml | Wine | 10.99 € | — | 10.49 € | Selver |
 | Baron rosen riesling 750ml | Wine | 8.99 € | — | 8.35 € | Selver |
-| Barone montalto grigio pinot 3000ml | Wine | 22.99 € | — | 28.99 € | Barbora |
+| Barone montalto pinot grigio 3000ml | Wine | 22.99 € | — | 28.99 € | Barbora |
 | Big game malbec 750ml | Wine | 12.99 € | 12.85 € | 12.85 € | Rimi + Selver |
-| Blue nun originaal 750ml | Wine | — | 8.69 € | 8.69 € | Rimi + Selver |
-| Blue nun rheinhessen riesling 750ml | Wine | — | 10.99 € | 10.49 € | Selver |
+| Blue nun original 750ml | Wine | — | 8.69 € | 8.69 € | Rimi + Selver |
+| Blue nun riesling rheinhessen 750ml | Wine | — | 10.99 € | 10.49 € | Selver |
 | Campo viejo reserva 750ml | Wine | 16.49 € | — | 16.59 € | Barbora |
 | Campo viejo tempranillo 750ml | Wine | 13.49 € | — | 11.99 € | Selver |
-| Casa charlize brut prosecco 750ml | Wine | — | 10.99 € | 10.99 € | Rimi + Selver |
-| Casal garcia rose verde vinho 750ml | Wine | — | 10.25 € | 9.99 € | Selver |
-| Chill out blanc chenin 1500ml | Wine | 14.99 € | 15.09 € | 15.90 € | Barbora |
+| Casa charlize prosecco brut 750ml | Wine | — | 10.99 € | 10.99 € | Rimi + Selver |
+| Casal garcia rose vinho verde 750ml | Wine | — | 10.25 € | 9.99 € | Selver |
+| Chill out chenin blanc 1500ml | Wine | 14.99 € | 15.09 € | 15.90 € | Barbora |
 | Cocoon zinfandel 13.5% 750ml | Wine | — | 13.55 € | 13.59 € | Rimi |
 | Codici primitivo puglia 750ml | Wine | 10.99 € | — | 10.99 € | Barbora + Selver |
 | Diablo dark red 750ml | Wine | 16.49 € | — | 12.99 € | Selver |
-| Doppio passo grigio pinot 750ml | Wine | 7.99 € | 10.55 € | — | Barbora |
+| Doppio passo pinot grigio 750ml | Wine | 7.99 € | 10.55 € | — | Barbora |
 | Doppio passo primitivo 750ml | Wine | — | 10.55 € | 11.89 € | Rimi |
-| Dreamer harvest late rose 750ml | Wine | 7.99 € | — | 7.99 € | Barbora + Selver |
+| Dreamer late harvest rose 750ml | Wine | 7.99 € | — | 7.99 € | Barbora + Selver |
 | El cortez xo 750ml | Wine | 12.99 € | — | 11.90 € | Selver |
 | El coto blanco rioja 750ml | Wine | 11.49 € | — | 11.49 € | Barbora + Selver |
 | El coto crianza 750ml | Wine | 13.99 € | 13.79 € | 13.80 € | Rimi |
 | Franz hoffner riesling 750ml | Wine | 9.49 € | — | 8.93 € | Selver |
 | Franz hoffner weisswein 750ml | Wine | 8.99 € | — | 7.99 € | Selver |
-| Frontera blanc sauvignon 750ml | Wine | 6.19 € | 7.99 € | — | Barbora |
 | Frontera chardonnay 750ml | Wine | 6.19 € | 7.99 € | — | Barbora |
+| Frontera sauvignon blanc 750ml | Wine | 6.19 € | 7.99 € | — | Barbora |
 | Gato negro chardonnay 750ml | Wine | 8.65 € | — | 7.99 € | Selver |
 | Goru 750ml | Wine | 12.49 € | 12.49 € | — | Barbora + Rimi |
-| Gran castillo chardonnay viura 11% 3000ml | Wine | — | 22.99 € | 22.75 € | Selver |
-| Gran castillo chardonnay viura 750ml | Wine | — | 9.59 € | 8.99 € | Selver |
-| Gran castillo rose tempranillo 750ml | Wine | — | 9.59 € | 8.99 € | Selver |
-| Gran mirador blend dark 750ml | Wine | 7.49 € | — | 9.99 € | Barbora |
-| Gran mirador blend red 750ml | Wine | 7.49 € | — | 9.99 € | Barbora |
+| Gran castillo tempranillo rose 750ml | Wine | — | 9.59 € | 8.99 € | Selver |
+| Gran castillo viura chardonnay 11% 3000ml | Wine | — | 22.99 € | 22.75 € | Selver |
+| Gran castillo viura chardonnay 750ml | Wine | — | 9.59 € | 8.99 € | Selver |
+| Gran mirador dark blend 750ml | Wine | 7.49 € | — | 9.99 € | Barbora |
+| Gran mirador red blend 750ml | Wine | 7.49 € | — | 9.99 € | Barbora |
 | Il capolavoro bianco 750ml | Wine | 7.99 € | — | 7.99 € | Barbora + Selver |
 | Italo cescon raboso 750ml | Wine | 16.29 € | — | 15.99 € | Selver |
-| Jacob's creek cabernet shiraz 750ml | Wine | — | 13.29 € | 12.59 € | Selver |
-| Jacob's creek grigio pinot 750ml | Wine | 13.29 € | — | 12.59 € | Selver |
-| Jacob's creek noir pinot 750ml | Wine | 13.29 € | — | 12.59 € | Selver |
+| Jacob's creek pinot grigio 750ml | Wine | 13.29 € | — | 12.59 € | Selver |
+| Jacob's creek pinot noir 750ml | Wine | 13.29 € | — | 12.59 € | Selver |
 | Jacob's creek riesling 750ml | Wine | — | 13.29 € | 12.59 € | Selver |
-| Jaume serra brut cava 750ml | Wine | — | 10.99 € | 10.89 € | Selver |
+| Jacob's creek shiraz cabernet 750ml | Wine | — | 13.29 € | 12.59 € | Selver |
+| Jaume serra cava brut 750ml | Wine | — | 10.99 € | 10.89 € | Selver |
 | Karu cabernet sauvignon 750ml | Wine | 9.15 € | — | 8.99 € | Selver |
 | Karu chardonnay 750ml | Wine | 9.15 € | — | 8.99 € | Selver |
 | Kwv classic pinotage 750ml | Wine | 11.39 € | — | 10.75 € | Selver |
 | Laroche chardonnay reserve 750ml | Wine | — | 13.99 € | 16.25 € | Rimi |
-| Le grand noir blanc sauvignon 187ml | Wine | — | 3.19 € | 3.15 € | Selver |
-| Le grand noir blanc sauvignon 750ml | Wine | — | 10.49 € | 10.79 € | Rimi |
 | Le grand noir cabernet syrah 187ml | Wine | — | 3.19 € | 3.15 € | Selver |
-| Maori bay grigio pinot 12.5% 750ml | Wine | 6.49 € | 6.49 € | — | Barbora + Rimi |
-| Maori bay grigio pinot 12% 2000ml | Wine | 15.99 € | 25.75 € | — | Barbora |
-| Maori bay rose shiraz 750ml | Wine | 9.49 € | — | 9.49 € | Barbora + Selver |
+| Le grand noir sauvignon blanc 187ml | Wine | — | 3.19 € | 3.15 € | Selver |
+| Le grand noir sauvignon blanc 750ml | Wine | — | 10.49 € | 10.79 € | Rimi |
+| Maori bay pinot grigio 12.5% 750ml | Wine | 6.49 € | 6.49 € | — | Barbora + Rimi |
+| Maori bay pinot grigio 12% 2000ml | Wine | 15.99 € | 25.75 € | — | Barbora |
 | Maori bay shiraz 13% 750ml | Wine | 6.49 € | 6.49 € | 8.49 € | Barbora + Rimi |
-| Martini prosecco vahuvein 750ml | Wine | 11.99 € | 9.99 € | — | Rimi |
+| Maori bay shiraz rose 750ml | Wine | 9.49 € | — | 9.49 € | Barbora + Selver |
+| Martini vahuvein prosecco 750ml | Wine | 11.99 € | 9.99 € | — | Rimi |
 | Martini Vermut bianco 15% 1000ml | Wine | 14.99 € | 14.95 € | — | Rimi |
 | Martini Vermut bianco 15% 750ml | Wine | 14.45 € | 14.49 € | — | Barbora |
 | Martini Vermut fiero 15% 1000ml | Wine | 17.55 € | 17.49 € | — | Rimi |
@@ -2073,20 +2120,20 @@ Matching pools every store's items for a category together (scraper/match-produc
 | Murviedro reserva 750ml | Wine | 7.49 € | 9.45 € | 9.59 € | Barbora |
 | Old gruzia kindzmarauli 750ml | Wine | 11.59 € | — | 11.49 € | Selver |
 | Old tbilisi kindzmarauli 750ml | Wine | 13.99 € | — | 13.99 € | Barbora + Selver |
-| Robertson blanc sauvignon 750ml | Wine | — | 9.39 € | 8.89 € | Selver |
 | Robertson cabernet sauvignon 750ml | Wine | — | 9.39 € | 8.89 € | Selver |
+| Robertson sauvignon blanc 750ml | Wine | — | 9.39 € | 8.89 € | Selver |
 | Savanha pinotage shiraz 750ml | Wine | 8.69 € | 8.29 € | — | Rimi |
 | Silverboom chardonnay 750ml | Wine | 9.49 € | — | 9.75 € | Barbora |
-| Silverboom merlot shiraz 750ml | Wine | 9.49 € | — | 9.75 € | Barbora |
+| Silverboom shiraz merlot 750ml | Wine | 9.49 € | — | 9.75 € | Barbora |
 | Tamada pirosmani red 750ml | Wine | 9.49 € | — | 9.99 € | Barbora |
 | Tamada pirosmani white 750ml | Wine | 9.49 € | — | 9.99 € | Barbora |
-| Tarapaca blanc sauvignon 750ml | Wine | 10.99 € | — | 10.59 € | Selver |
+| Tarapaca sauvignon blanc 750ml | Wine | 10.99 € | — | 10.59 € | Selver |
 | Teliani valley saperavi 750ml | Wine | 10.89 € | — | 10.49 € | Selver |
 | Think big zinfandel 750ml | Wine | 10.59 € | — | 11.25 € | Barbora |
 | Törley Vahuvein charmant rose 750ml | Wine | 6.79 € | 6.89 € | — | Barbora |
 | Törley Vahuvein talisman 11% 750ml | Wine | 6.79 € | 6.89 € | — | Barbora |
-| Torres de sangre toro 750ml | Wine | 12.49 € | — | 9.99 € | Selver |
-| Zonin cuvee prosecco vahuvein 200ml | Wine | 4.75 € | 4.89 € | — | Barbora |
+| Torres sangre de toro 750ml | Wine | 12.49 € | — | 9.99 € | Selver |
+| Zonin vahuvein prosecco cuvee 200ml | Wine | 4.75 € | 4.89 € | — | Barbora |
 | Santa maria Klaasnuudlid 100g | World cuisine | 3.35 € | 3.38 € | — | Barbora |
 | Santa maria Kookosjook 250ml | World cuisine | 1.89 € | 2.79 € | 2.75 € | Barbora |
 | Santa maria Kookoskreem 250ml | World cuisine | 3.59 € | 3.65 € | 3.59 € (2.69 € Partner) | Barbora + Selver |
@@ -2138,6 +2185,7 @@ Card prices shown in parentheses are informational only — never used to decide
 | Sausages | Barbora "Juustuvorst RAKVERE, 600g" (4.45 €); Rimi "Juustuvorst Rakvere 300g" (1.55 €); Rimi "Juustuvorst Rakvere 600g" (4.49 €); Selver "Juustuvorst, RAKVERE LK, 600 g" (4.46 €) |
 | Sausages | Barbora "Lastevorst RAKVERE, 600g" (3.85 €); Rimi "Lastevorst Rakvere 600g" (3.69 €); Rimi "Lastevorst Rakvere 300g" (1.55 €); Selver "Lastevorst, RAKVERE LK, 600 g" (3.85 €) |
 | Sausages | Barbora "Lastevorst VALLA, 600g" (2.09 €); Rimi "Lastevorst Valla 1kg" (2.29 €); Rimi "Lastevorst Valla 240g" (0.92 €); Selver "Lastevorst, VALLA, 240 g" (1.15 €) |
+| Sausages | Barbora "Lastevorst M&M,300g" (1.25 €); Barbora "Lastevorst M&M, 600g" (2.69 €); Selver "Lastevorst, MAKS&MOORITS, 300 g" (1.05 €); Selver "Lastevorst, MAKS&MOORITS, 600 g" (2.69 €) |
 | Sausages | Barbora "Pereviiner RAKVERE, 500g" (2.29 €); Rimi "Pereviiner Rakvere 900g" (3.59 €); Rimi "Pereviiner Rakvere 500g" (1.99 €); Selver "Pereviiner, RAKVERE LK, 500 g" (1.99 €) |
 | Sausages | Barbora "Täissuitsuvorst Pepperoni OSKAR, 210g" (4.89 €); Rimi "Täissuitsuvorst Pepperoni Oskar 210g" (4.89 €); Selver "Pepperoni täissuitsuvorst, OSKAR, 210 g" (4.89 €); Selver "Täissuitsuvorst Pepperoni, OSKAR, 80 g" (1.79 €) |
 | Sausages | Barbora "Palermo salaami RAKVERE,200g" (3.39 €); Rimi "Salaami Palermo Rakvere 110g" (2.69 €); Rimi "Salaami Palermo Rakvere 200g" (3.45 €); Selver "Palermo salaami , RAKVERE LK, 200 g" (3.49 €); Selver "Palermo salaami, RAKVERE, 110 g" (2.79 €) |
@@ -2637,8 +2685,6 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Piimašokolaad Nurr KALEV 190g" (4.99 €) | Selver "Nurr kassikaline piimašokolaad, KALEV, 190 g" (4.97 €) |
 | Barbora "Piimašokolaad Nurr KALEV 100g" (2.69 €) | Selver "Piimašokolaad Eesti, KALEV, 100 g" (2.97 €) |
 | Barbora "Piimašokolaad Nurr KALEV 100g" (2.69 €) | Selver "Nurr kassikaline piimašokolaad, KALEV, 100 g" (1.97 €) |
-| Barbora "Piimašok.tahvel KIT KAT 99g" (1.55 €) | Selver "Sarapuupähkli tahvel, KIT KAT, 99 g" (2.59 €) |
-| Barbora "Piimašok.tahvel KIT KAT 99g" (1.55 €) | Selver "Soolakaramelli tahvel, KIT KAT, 99 g" (2.59 €) |
 | Barbora "Piimašok.soolamandliga MARABOU 170g" (4.69 €) | Selver "Piimašokolaad  soolamandliga, MARABOU, 170g" (4.69 €) |
 | Barbora "Tume šokolaad metsapähklitegaKALEV 100g" (2.69 €) | Rimi "Tume šokolaad kirsi Kalev 100g" (2.69 €) |
 | Barbora "Tume šokolaad Vana Tallinn KALEV 103g" (2.95 €) | Selver "Šokolaad Vana Tallinn, KALEV, 103 g" (2.97 €) |
@@ -2648,6 +2694,8 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Rimi "Šokolaadibatoon Twix 50g" (1.19 €) | Selver "Šokolaad, TWIX, 50 g" (1.29 €) |
 | Rimi "Šokolaadibatoon Daim 28g" (0.79 €) | Selver "Piimašokolaad Daim, DAIM, 28g" (0.79 €) |
 | Rimi "Piimašokolaadibatoon Bounty 57g" (1.69 €) | Selver "Šokolaad, BOUNTY, 57 g" (1.75 €) |
+| Rimi "Šokolaadibatoon Snickers 50g" (1.29 €) | Selver "Šokolaad, SNICKERS, 50 g" (1.35 €) |
+| Rimi "Tume šokolaad terv.metspähklitega Kalev 100g" (2.69 €) | Selver "Tume šokolaad tervete metspähklitega, KALEV, 100 g" (2.67 €) |
 
 ### Candy (30)
 
@@ -2845,7 +2893,7 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Rimi "Pealinna minipelmeenid 700g" (4.39 €) | Selver "Minipelmeenid Pealinna, PREMIA, 700 g" (4.29 €) |
 | Rimi "Minipelmeenid Pealinna 350g" (2.35 €) | Selver "Minipelmeenid Pealinna, PREMIA, 350 g" (2.39 €) |
 
-### Sausages (25)
+### Sausages (23)
 
 | Item A | Item B |
 |---|---|
@@ -2868,9 +2916,7 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Täissuitsuvorst Moskva RANNAROOTSI,240g" (3.49 €) | Selver "Lihaveise täissuitsuvorst, RANNAROOTSI, 240 g" (3.75 €) |
 | Barbora "Täissuitsuvorst veise RANNAROOTSI,240g" (3.59 €) | Selver "Lihaveise täissuitsuvorst, RANNAROOTSI, 240 g" (3.75 €) |
 | Barbora "Poolsuitsuvorst Krakov VALLA, 450g" (2.69 €) | Rimi "Vorst Krakov Valla 450g" (2.59 €) |
-| Barbora "Täissuitsuvorst Tooma M&M, 240g" (3.29 €) | Rimi "Täissuitsuvorst klassik. Maks&Moorits 240g" (2.39 €) |
 | Barbora "Täissuitsuvorst Tõeline RAKVERE, 210g" (3.79 €) | Rimi "Täissuitsuvorst Äge Rakvere 210g" (3.79 €) |
-| Barbora "Täissuitsuvorst klassikaline M&M 240g" (3.59 €) | Rimi "Täissuitsuvorst klassik. Maks&Moorits 240g" (2.39 €) |
 | Rimi "Lihaveise täissuitsuv. Rannarootsi 240g" (3.59 €) | Selver "Lihaveise täissuitsuvorst, RANNAROOTSI, 240 g" (3.75 €) |
 | Rimi "Täissuitsuvorst Ordu Nõo 250g" (4.79 €) | Selver "BBQ täissuitsuvorst, NÕO, 250 g" (5.09 €) |
 | Rimi "Maitsesalaami viilutatud Karni 120g" (2.49 €) | Selver "Maitsesalaami, KARNI, 120 g" (2.59 €) |
@@ -2890,7 +2936,6 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Suitsupeekon Ehe RANNAROOTSI,120g viil" (2.39 €) | Selver "Suitsupeekon Ehe, RANNAROOTSI, 120 g" (2.49 €) |
 | Barbora "Õhuline Viru sink RAKVERE, 150g viil" (1.27 €) | Selver "Õhuline Viru sink, RAKVERE LK, 150 g" (1.72 €) |
 | Barbora "Kalkunisink Fitlap NÕO, 105g viil" (1.87 €) | Selver "Kalkunisink Fitlap, NÕO LIHAVÜRST, 105 g" (2.53 €) |
-| Barbora "Talusink M&M,150g viil" (1.79 €) | Rimi "Talusink Maks&Moorits 150g" (2.39 €) |
 | Barbora "Einepeekon MAKS&MOORITS, 150g viil" (1.99 €) | Rimi "Einepeekon Maks&Moorits 150g" (1.99 €) |
 | Barbora "Seaseljafilee NÕO, 105g viil" (2.65 €) | Rimi "Seaseljafilee suits. Nõo 105g" (1.79 €) |
 | Barbora "Kanasink TALLEGG,300g viil" (3.14 €) | Rimi "Kanasink Tallegg 300g" (2.99 €) |
@@ -2909,6 +2954,7 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Snäkk 'n' Go Chorizo NÕO,70g" (2.29 €) | Rimi "Chorizo snäkk Snack 'n' Go Nõo 70g" (1.99 €) |
 | Rimi "Rulaad Nõo viilutatud Nõo 135g" (1.79 €) | Selver "Rulaad Nõo, NÕO, 135 g" (2.49 €) |
 | Rimi "Suitsukana poolkoivad Tallegg 600g" (4.89 €) | Selver "Suitsukana poolkoib, TALLEGG, 600 g" (5.09 €) |
+| Rimi "Suitsukana poolkoivad Tallegg 600g" (4.89 €) | Selver "Suitsukana pooltiib, TALLEGG, 600 g" (4.79 €) |
 
 ### Fish & seafood (25)
 
@@ -3010,7 +3056,6 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "Klaasipuhastusvahend CLIN Citrus 500ml" (3.35 €) | Selver "Klaasipuhastusvahend Lemon, CLIN, 500 ml" (3.34 €) |
 | Barbora "Klaasipuhastusvahend CLIN Citrus 500ml" (3.35 €) | Selver "Klaasipuhastusvahend AntiFog, CLIN, 500 ml" (3.34 €) |
 | Barbora "Klaasipuhastusvahend CLIN Anti-Fog 500ml" (3.35 €) | Rimi "Aknapuhastusvahend clin anti-fog 500 ml" (3.39 €) |
-| Barbora "Torupuhastusvahend TORU-SIIL 1L" (1.74 €) | Rimi "Torupuhastusvahend Toru-Siil Mayeri 1l" (2.35 €) |
 | Barbora "Hallituse eemaldaja CILLIT BANG 750ml" (8.79 €) | Selver "Hallituse eemaldaja, CILLIT, 750 ml" (9.19 €) |
 | Barbora "Torupuhastusvahend PUHAS KODU 500ml" (1.99 €) | Rimi "Torupuhastusgeel Puhas Kodu 500ml" (2.65 €) |
 | Barbora "Torugeel PUHAS KODU 500ml" (2.39 €) | Rimi "Torupuhastusgeel Puhas Kodu 500ml" (2.65 €) |
@@ -3036,6 +3081,7 @@ Not matched automatically — just a list. Same real brand, same size, same qual
 | Barbora "WC puhastusvahend Harpic Original 750ml" (3.85 €) | Selver "WC-poti puhastusvahend Original, HARPIC, 750 ml" (3.85 €) |
 | Barbora "WC puhastusvahend FROSCH lavender 750ml" (2.39 €) | Rimi "WC puhastusvahend Frosch vaarika 750ml" (2.35 €) |
 | Barbora "WC puhastusvahend FROSCH lavender 750ml" (2.39 €) | Rimi "WC puhastusvahend Frosch sidruni 750ml" (2.35 €) |
+| Barbora "WC puhastusvahend FROSCH citrus 750ml" (2.35 €) | Rimi "WC puhastusvahend Frosch vaarika 750ml" (2.35 €) |
 
 ### Pet food (11)
 

@@ -796,11 +796,38 @@ data on any of these screens; images hotlinked under the same
      evading their bot-detection on purpose — never do this, for
      Lindex or any site.
 4. **App** — location + a radius picker (5/8/10 km), malls within
-   range, each mall's shops with "kuni -X%, N toodet", and the
+   range, each mall's shops with their discount counts, and the
    discounted items themselves. Label on a brand shown because it has
    a store in that mall: "online discount at this brand, which has a
    store in this mall" (the discount itself is the brand's online
    price, not necessarily identical in-store — the label says so).
+   **Built 2026-09-26** (`locationBlock`/`mallRow` in
+   `frontend/render.js`, the pure distance/radius/summary helpers in
+   `frontend/outlets-logic.js`, tested): "Kasuta minu asukohta" (the
+   browser's own permission prompt, `navigator.geolocation`) or a
+   typed address looked up by the Land Board's public In-ADS
+   gazetteer (`inaadress.maaamet.ee/inaadress/gazetteer`, CORS-open;
+   only the typed address text is sent). **The location is never
+   stored or sent anywhere by us** — `state.outletLocation` in memory
+   only, never localStorage, never the hash, never a request; a test
+   in `frontend/outlets-logic.test.js` reads `index.html` to hold that.
+   Radius chips 5 / 8 / 10 km / Kõik (10 km default once located);
+   malls nearest first with a straight-line distance ("2.4 km",
+   haversine) and a summary line ("3 kauplust allahindlustega ·
+   Apotheka 777 toodet, Klick 30 toodet"); with no location every
+   mall shows as before. A mall page lists shops with discount data
+   first (biggest first), then the rest. Owner's decisions the same
+   day: **Euronics stays as is** — only public discounts count, a
+   club-only Sõbrahind never; it fills in on its own the day a
+   public discount exists. **MoliCare incontinence products stay**
+   (hygiene). **Apotheka's filter chips come from the product name**
+   (`apothekaChip`, `APOTHEKA_CHIP_RULES` in `outlets/scraper/brands.js`:
+   Meestele, Beebitooted, Päikesekaitse, Suuhügieen, Juuksehooldus,
+   Näohooldus, Kehahooldus — first rule wins, so every item sits in at
+   most one chip plus "Kõik"; an unmatched name is only under Kõik).
+   **A chain listed twice in one mall ("Apotheka", "Apotheka 2") is
+   one row** (`dedupeShopsByBrand`) — the online discounts are the
+   same.
 5. **Daily update** — brand discounts daily, mall shop lists weekly,
    same safety checks as groceries (an item-count-drop/price-
    volatility check per site); a compact, URL-keyed price-history log
@@ -833,8 +860,8 @@ data on any of these screens; images hotlinked under the same
   hind / uusim) — pure logic in `frontend/outlets-logic.js`
   (`filterAndSortItems`, `itemTypes`, `itemSections`), the chosen
   filter in `state.outletFilter`, reset when a different shop opens.
-- Step 4: the mall list → shops → items screens exist (see
-  "Frontend"); the location + radius picker is NOT built yet.
+- Step 4: done — mall list with location/radius/distance → shops →
+  items (see the roadmap entry above and "Frontend").
 - Step 5: `outlets/scraper/daily-update.js` refreshes malls weekly
   (only when `malls.json` is 7+ days old — `shouldRefreshMalls`) and
   every brand in its `BRANDS` list daily (Denim Dream, Klick,

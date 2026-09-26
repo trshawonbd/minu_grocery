@@ -83,11 +83,14 @@ function makeState(overrides) {
     outletBrands: [],
     outletMallId: null,
     outletShopName: null,
+    outletLocation: null,
+    outletRadius: 10,
+    outletLocationStatus: null,
     ...overrides,
   };
 }
 const noop = () => {};
-const actions = { openProduct: noop, openCategory: noop, goHome: noop, goto: noop, setQuery: noop, setQuantity: noop, setLang: noop, openOutletMall: noop, openOutletShop: noop, setOutletFilter: noop };
+const actions = { openProduct: noop, openCategory: noop, goHome: noop, goto: noop, setQuery: noop, setQuantity: noop, setLang: noop, openOutletMall: noop, openOutletShop: noop, setOutletFilter: noop, useMyLocation: noop, searchAddress: noop, clearLocation: noop, setRadius: noop };
 
 function render(state, customActions) {
   const root = new FakeNode("div");
@@ -101,12 +104,15 @@ const OUTLET_MALLS = [
     id: "ulemiste",
     name: "Ülemiste",
     address: "Suur-Sõjamäe tn 4, 11415 Tallinn",
+    lat: 59.421955,
+    lon: 24.794377,
     shops: [
       { name: "Denim Dream", category: "Mood ja aksessuaarid", floor: "1" },
       { name: "Apollo", category: "Vaba aeg", floor: "2" },
     ],
   },
-  { id: "viru", name: "Viru Keskus", address: "Viru väljak 4/6, 10111 Tallinn", shops: [{ name: "R-Kiosk", category: null, floor: null }] },
+  { id: "viru", name: "Viru Keskus", address: "Viru väljak 4/6, 10111 Tallinn", lat: 59.436198, lon: 24.75525, shops: [{ name: "R-Kiosk", category: null, floor: null }] },
+  { id: "lounakeskus", name: "Lõunakeskus", address: "Lääneringtee 39, Tartu", lat: 58.357883, lon: 26.677576, shops: [{ name: "Denim Dream", category: null, floor: "1" }, { name: "Denim Dream 2", category: null, floor: "2" }] },
 ];
 const OUTLET_BRANDS = [
   {
@@ -181,13 +187,57 @@ const results = [
     assert.ok(root.textContent.includes("Outletid"));
     assert.ok(!root.textContent.includes("Alma Piim") && !root.textContent.includes("Tere Või"), "no grocery product on the outlets screen");
   }),
-  test("Outletid mall list: name, address and shop count per mall, tapping one opens it", () => {
+  test("Outletid mall list (no location): every mall as before — name, address, shop count (a chain listed twice counted once), what its shops offer — no distance, the location block offering 'Kasuta minu asukohta' and an address search with the never-stored hint; tapping a mall opens it", () => {
     const calls = [];
-    const { root, text } = render(makeState({ screen: "outlets", outletMalls: OUTLET_MALLS }), { ...actions, openOutletMall: (id) => calls.push(id) });
+    const { root, text } = render(makeState({ screen: "outlets", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }), { ...actions, openOutletMall: (id) => calls.push(id) });
     assert.ok(text.includes("Ülemiste") && text.includes("Suur-Sõjamäe tn 4, 11415 Tallinn") && text.includes("2 kauplust"));
     assert.ok(text.includes("Viru Keskus") && text.includes("1 kauplus"));
+    assert.ok(text.includes("Lõunakeskus") && text.includes("1 kauplus"), "'Denim Dream' + 'Denim Dream 2' count once");
+    assert.equal(root.find((n) => n.className === "store-row").length, 3, "all malls, no location");
+    assert.equal(root.find((n) => n.className === "store-price mall-distance").length, 0, "no distance without a location");
+    assert.ok(text.includes("1 kauplus allahindlustega") && text.includes("Denim Dream 2 toodet"), "the mall row says what its shops offer");
+    assert.ok(text.includes("Allahindlusandmeid pole veel"), "Viru has no shop with data");
+    assert.ok(text.includes("Kasuta minu asukohta") && text.includes("Otsi") && text.includes("ei salvestata ega saadeta"));
+    assert.equal(root.find((n) => n.tagName === "input").length, 1, "the address field");
+    assert.equal(root.find((n) => n.className === "tab-row outlet-radius").length, 0, "no radius chips before a location");
     root.find((n) => n.className === "store-row" && n.textContent.includes("Ülemiste"))[0].click();
     assert.deepEqual(calls, ["ulemiste"]);
+  }),
+  test("Outletid mall list with a location: nearest first with a distance ('2.7 km'), the 10 km default keeps Tallinn's malls and drops Tartu, 'Kõik' brings it back, the chips call setRadius, 'Eemalda' clears; the location's label shows, the address field is gone", () => {
+    const calls = [];
+    const viru = { lat: 59.436198, lon: 24.75525, label: "Viru väljak 4, Kesklinna linnaosa, Tallinn" };
+    const state = makeState({ screen: "outlets", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS, outletLocation: viru, outletRadius: 10 });
+    const { root, text } = render(state, { ...actions, setRadius: (km) => calls.push(["radius", km]), clearLocation: () => calls.push(["clear"]) });
+    const rows = root.find((n) => n.className === "store-row").map((n) => n.textContent);
+    assert.equal(rows.length, 2, "Lõunakeskus (163 km) is outside 10 km");
+    assert.ok(rows[0].includes("Viru Keskus") && rows[0].includes("0.0 km"), "nearest first");
+    assert.ok(rows[1].includes("Ülemiste") && rows[1].includes("2.7 km"));
+    assert.ok(text.includes("Viru väljak 4, Kesklinna linnaosa, Tallinn") && text.includes("Eemalda"));
+    assert.equal(root.find((n) => n.tagName === "input").length, 0, "no address field once located");
+    const chips = root.find((n) => n.className === "tab-row outlet-radius")[0].children.map((c) => c.textContent);
+    assert.deepEqual(chips, ["5 km", "8 km", "10 km", "Kõik"]);
+    assert.equal(root.find((n) => n.className === "tab active")[0].textContent, "10 km");
+    root.find((n) => n.className === "tab" && n.textContent === "5 km")[0].click();
+    root.find((n) => n.className === "loc-clear")[0].click();
+    assert.deepEqual(calls, [["radius", 5], ["clear"]]);
+    const all = render(makeState({ ...state, outletRadius: null }));
+    assert.equal(all.root.find((n) => n.className === "store-row").length, 3, "Kõik shows every mall");
+    assert.ok(all.text.includes("163 km"));
+    const tight = render(makeState({ ...state, outletRadius: 5, outletLocation: { lat: 58.0, lon: 26.0, label: "Somewhere" } }));
+    assert.ok(tight.text.includes("Selles raadiuses pole ühtegi keskust"));
+  }),
+  test("Outletid location block: 'Kasuta minu asukohta' calls useMyLocation; typing an address and pressing Otsi (or Enter) calls searchAddress with the text; the locating/failed/not-found notes show", () => {
+    const calls = [];
+    const { root } = render(makeState({ screen: "outlets", outletMalls: OUTLET_MALLS }), { ...actions, useMyLocation: () => calls.push("geo"), searchAddress: (q) => calls.push(q) });
+    root.find((n) => n.className === "btn-add loc-use")[0].click();
+    const input = root.find((n) => n.tagName === "input")[0];
+    input.value = "Viru väljak 4";
+    root.find((n) => n.className === "loc-search")[0].click();
+    for (const fn of input.listeners.keydown) fn({ key: "Enter" });
+    assert.deepEqual(calls, ["geo", "Viru väljak 4", "Viru väljak 4"]);
+    assert.ok(render(makeState({ screen: "outlets", outletMalls: OUTLET_MALLS, outletLocationStatus: "locating" })).text.includes("Otsin asukohta"));
+    assert.ok(render(makeState({ screen: "outlets", outletMalls: OUTLET_MALLS, outletLocationStatus: "failed" })).text.includes("Asukohta ei saadud"));
+    assert.ok(render(makeState({ screen: "outlets", outletMalls: OUTLET_MALLS, outletLocationStatus: "notFound" })).text.includes("Aadressi ei leitud"));
   }),
   test("Outletid mall screen: a shop matching a brand file shows 'kuni -X%, N toodet' and opens the discounted items; a shop with no match shows plainly, not clickable", () => {
     const calls = [];
@@ -202,6 +252,10 @@ const results = [
     assert.deepEqual(calls, [["ulemiste", "Denim Dream"]]);
     const apolloRow = root.find((n) => n.className === "store-row" && n.textContent.includes("Apollo"))[0];
     assert.notEqual(apolloRow.tagName, "button", "a shop with no discount data is not a button — nothing to open");
+    const order = root.find((n) => n.className === "store-row").map((n) => n.children[0].children[0].textContent);
+    assert.deepEqual(order, ["Denim Dream", "Apollo"], "shops with discount data first");
+    const tartu = render(makeState({ screen: "outletMall", outletMallId: "lounakeskus", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
+    assert.equal(tartu.root.find((n) => n.className === "store-row").length, 1, "'Denim Dream' and 'Denim Dream 2' are one row");
   }),
   test("Outletid mall screen: a mall where no shop has discount data yet says so; a brand whose sale prices are ALL permanent shows small text with the count on sale, no badge", () => {
     const { text } = render(makeState({ screen: "outletMall", outletMallId: "viru", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));

@@ -551,21 +551,75 @@ function renderNav(nav, state, actions) {
 // is the array of already-fetched brand-data files (denim-dream.json
 // today) — both loaded by index.html, optional (the tab still shows
 // a mall list of zero if they haven't loaded yet).
+// The location block (roadmap step 4): "Kasuta minu asukohta" (the
+// browser asks the shopper's permission itself) or a typed address
+// (looked up by In-ADS, index.html). The location lives in state only
+// — never stored, never sent by us — and the hint says so.
+function locationBlock(state, actions) {
+  const box = el("div", "loc-box");
+  if (state.outletLocation) {
+    const line = el("div", "loc-current");
+    line.appendChild(el("span", "loc-label", state.outletLocation.label));
+    line.appendChild(button("loc-clear", tr(state, "outletClearLocation"), () => actions.clearLocation()));
+    box.appendChild(line);
+    const chips = el("div", "tab-row outlet-radius");
+    for (const km of RADIUS_OPTIONS_KM) {
+      const label = km === null ? tr(state, "outletRadiusAll") : `${km} km`;
+      chips.appendChild(button("tab" + (state.outletRadius === km ? " active" : ""), label, () => actions.setRadius(km)));
+    }
+    box.appendChild(chips);
+    return box;
+  }
+  box.appendChild(button("btn-add loc-use", tr(state, "outletUseMyLocation"), () => actions.useMyLocation()));
+  const form = el("div", "loc-form");
+  const input = document.createElement("input");
+  input.type = "search";
+  input.placeholder = tr(state, "outletAddressPlaceholder");
+  input.setAttribute("aria-label", tr(state, "outletAddressLabel"));
+  input.addEventListener("keydown", (event) => { if (event && event.key === "Enter") actions.searchAddress(input.value); });
+  form.appendChild(input);
+  form.appendChild(button("loc-search", tr(state, "outletSearch"), () => actions.searchAddress(input.value)));
+  box.appendChild(form);
+  if (state.outletLocationStatus === "locating") box.appendChild(el("div", "muted", tr(state, "outletLocating")));
+  if (state.outletLocationStatus === "failed") box.appendChild(el("div", "muted loc-error", tr(state, "outletLocationFailed")));
+  if (state.outletLocationStatus === "notFound") box.appendChild(el("div", "muted loc-error", tr(state, "outletAddressNotFound")));
+  box.appendChild(el("div", "muted loc-hint", tr(state, "outletLocationHint")));
+  return box;
+}
+
+// One mall row: name, address, distance (with a location), and what
+// its shops offer — "3 kauplust allahindlustega · Apotheka 777 toodet,
+// Klick 30 toodet".
+function mallRow(mall, state, actions, brandsByName) {
+  const row = button("store-row", "", () => actions.openOutletMall(mall.id));
+  const left = el("div", "store-left");
+  left.appendChild(el("div", "store-name", mall.name));
+  if (mall.address) left.appendChild(el("div", "store-own-name", mall.address));
+  const summary = mallSummary(mall, brandsByName);
+  const parts = [];
+  if (summary.discountShops === 0) parts.push(tr(state, "outletNoDiscountShops"));
+  else parts.push(summary.discountShops === 1 ? tr(state, "outletDiscountShop1") : tr(state, "outletDiscountShops", { n: summary.discountShops }));
+  if (summary.top.length > 0) parts.push(summary.top.map((s) => tr(state, "outletTopShop", { name: s.name, n: s.count })).join(", "));
+  left.appendChild(el("div", "store-sub mall-summary", parts.join(" · ")));
+  row.appendChild(left);
+  const right = el("div", "store-right");
+  if (mall.distanceKm != null) right.appendChild(el("div", "store-price mall-distance", formatKm(mall.distanceKm)));
+  right.appendChild(el("div", "store-sub", mall.shopCount === 1 ? tr(state, "outletShop1") : tr(state, "outletShops", { n: mall.shopCount })));
+  row.appendChild(right);
+  return row;
+}
+
 function renderOutlets(root, state, actions) {
   root.textContent = "";
   root.appendChild(el("h1", "screen-title", tr(state, "outlets")));
+  root.appendChild(locationBlock(state, actions));
+  const brandsByName = indexBrandsByName(state.outletBrands);
+  const counts = new Map(mallList(state.outletMalls).map((m) => [m.id, m.shopCount]));
+  const located = mallsWithDistance(state.outletMalls, state.outletLocation);
+  const malls = mallsInRadius(located, state.outletLocation ? state.outletRadius : null);
+  if (state.outletLocation && malls.length === 0) root.appendChild(el("div", "muted", tr(state, "outletNoMallsInRange")));
   const list = el("div", "store-list");
-  for (const mall of mallList(state.outletMalls)) {
-    const row = button("store-row", "", () => actions.openOutletMall(mall.id));
-    const left = el("div", "store-left");
-    left.appendChild(el("div", "store-name", mall.name));
-    if (mall.address) left.appendChild(el("div", "store-own-name", mall.address));
-    row.appendChild(left);
-    const right = el("div", "store-right");
-    right.appendChild(el("div", "store-sub", mall.shopCount === 1 ? tr(state, "outletShop1") : tr(state, "outletShops", { n: mall.shopCount })));
-    row.appendChild(right);
-    list.appendChild(row);
-  }
+  for (const mall of malls) list.appendChild(mallRow({ ...mall, shopCount: counts.get(mall.id) || 0 }, state, actions, brandsByName));
   root.appendChild(list);
 }
 
@@ -614,7 +668,9 @@ function renderOutletMall(root, state, actions) {
   root.appendChild(el("h1", "screen-title", mall.name));
   if (mall.address) root.appendChild(el("div", "muted", mall.address));
   const byName = indexBrandsByName(state.outletBrands);
-  const shops = shopsWithDiscounts(mall, byName);
+  // Shops with discount data first (biggest first), the rest after,
+  // one row per brand even when the mall lists a chain twice.
+  const shops = orderShopsForMall(shopsWithDiscounts(mall, byName));
   if (!shops.some((s) => s.discount)) root.appendChild(el("div", "muted", tr(state, "outletNoDiscounts")));
   const list = el("div", "store-list");
   for (const shop of shops) list.appendChild(outletShopRow(shop, state, actions, mall.id));

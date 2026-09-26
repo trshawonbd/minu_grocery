@@ -36,8 +36,83 @@ function indexBrandsByName(brandFiles) {
   return byName;
 }
 
+// A mall listing the same chain twice ("Apotheka", "Apotheka 2") shows
+// ONE row — the online discounts are the same (the owner's rule,
+// 2026-09-26). The first listing's category/floor is kept.
+function dedupeShopsByBrand(shops) {
+  const seen = new Set();
+  return (shops || []).filter((shop) => {
+    const key = brandKey(shop.name);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function mallList(malls) {
-  return (malls || []).map((mall) => ({ id: mall.id, name: mall.name, address: mall.address, shopCount: (mall.shops || []).length }));
+  return (malls || []).map((mall) => ({ id: mall.id, name: mall.name, address: mall.address, shopCount: dedupeShopsByBrand(mall.shops).length }));
+}
+
+// --- location and distance (roadmap step 4, 2026-09-26) ---
+// The shopper's location lives in the page's memory only (state),
+// never in localStorage, the URL or a request of ours — checked by
+// a test over index.html. Distances are straight-line (haversine),
+// the honest "as the crow flies" figure a radius chip implies.
+
+const EARTH_RADIUS_KM = 6371;
+const RADIUS_OPTIONS_KM = [5, 8, 10, null]; // null = "Kõik"
+const DEFAULT_RADIUS_KM = 10;
+
+function haversineKm(lat1, lon1, lat2, lon2) {
+  const toRad = (deg) => (deg * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return 2 * EARTH_RADIUS_KM * Math.asin(Math.sqrt(a));
+}
+
+// "2.4 km" under ten, "163 km" above — one decimal is meaningful for
+// a walk, noise for a drive across the country.
+function formatKm(km) {
+  return km < 10 ? `${km.toFixed(1)} km` : `${Math.round(km)} km`;
+}
+
+// Every mall with its distance from `location` ({ lat, lon }),
+// nearest first; with no location, the malls as they are, distance null.
+function mallsWithDistance(malls, location) {
+  const list = (malls || []).map((mall) => ({
+    ...mall,
+    distanceKm: location && typeof mall.lat === "number" && typeof mall.lon === "number" ? haversineKm(location.lat, location.lon, mall.lat, mall.lon) : null,
+  }));
+  if (!location) return list;
+  return list.sort((a, b) => (a.distanceKm ?? Infinity) - (b.distanceKm ?? Infinity));
+}
+
+// radiusKm null = "Kõik"; a mall with no distance (no location) always passes.
+function mallsInRadius(malls, radiusKm) {
+  if (radiusKm == null) return malls;
+  return (malls || []).filter((mall) => mall.distanceKm != null && mall.distanceKm <= radiusKm);
+}
+
+// For a mall row: how many of its (deduped) shops have discount data,
+// and the biggest of them — "Apotheka 777 toodet, Klick 30 toodet".
+function mallSummary(mall, brandsByName) {
+  const withData = dedupeShopsByBrand(shopsWithDiscounts(mall, brandsByName)).filter((shop) => shop.discount);
+  const top = withData
+    .slice()
+    .sort((a, b) => b.discount.itemCount - a.discount.itemCount || a.name.localeCompare(b.name, "et"))
+    .slice(0, 3)
+    .map((shop) => ({ name: shop.name, count: shop.discount.itemCount }));
+  return { discountShops: withData.length, top };
+}
+
+// A mall page: shops with discount data first (biggest first), then
+// the rest in the mall's own order — one row per brand.
+function orderShopsForMall(shops) {
+  const unique = dedupeShopsByBrand(shops);
+  const withData = unique.filter((s) => s.discount).sort((a, b) => b.discount.itemCount - a.discount.itemCount || a.name.localeCompare(b.name, "et"));
+  const rest = unique.filter((s) => !s.discount);
+  return [...withData, ...rest];
 }
 
 function findMall(malls, mallId) {
@@ -156,5 +231,6 @@ if (typeof module !== "undefined") {
   module.exports = {
     brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandForShopName, brandItemsForShopName, isNewDiscount, isUnknownDiscount,
     SECTION_ORDER, SORTS, DEFAULT_OUTLET_FILTER, itemSections, itemTypes, filterAndSortItems,
+    dedupeShopsByBrand, haversineKm, formatKm, mallsWithDistance, mallsInRadius, mallSummary, orderShopsForMall, RADIUS_OPTIONS_KM, DEFAULT_RADIUS_KM,
   };
 }

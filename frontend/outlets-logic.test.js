@@ -4,7 +4,12 @@
 // or as part of: npm test
 
 const assert = require("node:assert/strict");
-const { brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandItemsForShopName, itemSections, itemTypes, filterAndSortItems } = require("./outlets-logic");
+const fs = require("fs");
+const path = require("path");
+const {
+  brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandItemsForShopName, itemSections, itemTypes, filterAndSortItems,
+  dedupeShopsByBrand, haversineKm, formatKm, mallsWithDistance, mallsInRadius, mallSummary, orderShopsForMall, RADIUS_OPTIONS_KM, DEFAULT_RADIUS_KM,
+} = require("./outlets-logic");
 
 function test(name, run) {
   try {
@@ -105,6 +110,70 @@ const results = [
     assert.deepEqual(ids({ section: "Mehed", type: "Teksad", sort: "price" }), ["c", "d"]);
     assert.deepEqual(ids({ type: "Kleidid", section: "Mehed" }), []);
     assert.deepEqual(ids({ sort: "bogus" }), ["a", "c", "d", "b"], "an unknown sort falls back to discount");
+  }),
+  test("dedupeShopsByBrand / mallList: a chain listed twice in one mall ('Apotheka', 'Apotheka 2'; 'H&M', 'H&M II korrus') is one row, the first listing's details kept; the mall's shop count counts it once", () => {
+    const shops = [{ name: "Apotheka", floor: "1" }, { name: "Klick" }, { name: "Apotheka 2", floor: "2" }, { name: "H&M" }, { name: "H&M II korrus" }];
+    assert.deepEqual(dedupeShopsByBrand(shops).map((s) => s.name), ["Apotheka", "Klick", "H&M"]);
+    assert.equal(dedupeShopsByBrand(shops)[0].floor, "1");
+    assert.equal(mallList([{ id: "x", name: "X", shops }])[0].shopCount, 3);
+  }),
+  test("haversineKm: the great-circle distance — Viru Keskus to Kristiine keskus is about 2.05 km, to Lõunakeskus about 163 km, to itself 0; formatKm gives one decimal under 10 km and whole km above", () => {
+    const viru = { lat: 59.436198, lon: 24.75525 };
+    const kristiine = { lat: 59.42675, lon: 24.724157 };
+    const lounakeskus = { lat: 58.357883, lon: 26.677576 };
+    const d1 = haversineKm(viru.lat, viru.lon, kristiine.lat, kristiine.lon);
+    assert.ok(Math.abs(d1 - 2.05) < 0.05, `got ${d1}`);
+    const d2 = haversineKm(viru.lat, viru.lon, lounakeskus.lat, lounakeskus.lon);
+    assert.ok(Math.abs(d2 - 163) < 1, `got ${d2}`);
+    assert.equal(haversineKm(viru.lat, viru.lon, viru.lat, viru.lon), 0);
+    assert.equal(formatKm(2.44), "2.4 km");
+    assert.equal(formatKm(0.96), "1.0 km");
+    assert.equal(formatKm(162.99), "163 km");
+  }),
+  test("mallsWithDistance + mallsInRadius: nearest first with a distance; the 5/8/10 km chips keep only malls within, 'Kõik' (null) keeps all; without a location the order is untouched and everything passes", () => {
+    const malls = [
+      { id: "lounakeskus", name: "Lõunakeskus", lat: 58.357883, lon: 26.677576 },
+      { id: "ulemiste", name: "Ülemiste", lat: 59.421955, lon: 24.794377 },
+      { id: "kristiine", name: "Kristiine keskus", lat: 59.42675, lon: 24.724157 },
+      { id: "roccaalmare", name: "Rocca al Mare", lat: 59.426768, lon: 24.651907 },
+    ];
+    const viru = { lat: 59.436198, lon: 24.75525, label: "Viru väljak 4" };
+    const located = mallsWithDistance(malls, viru);
+    assert.deepEqual(located.map((m) => m.id), ["kristiine", "ulemiste", "roccaalmare", "lounakeskus"]);
+    assert.ok(located.every((m) => typeof m.distanceKm === "number"));
+    assert.deepEqual(mallsInRadius(located, 5).map((m) => m.id), ["kristiine", "ulemiste"]);
+    assert.deepEqual(mallsInRadius(located, 8).map((m) => m.id), ["kristiine", "ulemiste", "roccaalmare"]);
+    assert.deepEqual(mallsInRadius(located, 10).map((m) => m.id), ["kristiine", "ulemiste", "roccaalmare"]);
+    assert.equal(mallsInRadius(located, null).length, 4, "Kõik");
+    assert.deepEqual(RADIUS_OPTIONS_KM, [5, 8, 10, null]);
+    assert.equal(DEFAULT_RADIUS_KM, 10);
+    const unlocated = mallsWithDistance(malls, null);
+    assert.deepEqual(unlocated.map((m) => m.id), ["lounakeskus", "ulemiste", "kristiine", "roccaalmare"], "no location: the malls' own order");
+    assert.ok(unlocated.every((m) => m.distanceKm === null));
+    assert.equal(mallsInRadius(unlocated, 5).length, 0, "a radius without a location matches nothing — the screen never asks for that");
+  }),
+  test("mallSummary / orderShopsForMall: how many (deduped) shops have discount data and the biggest three; a mall page lists those first, biggest first, then the rest in the mall's own order", () => {
+    const byName = indexBrandsByName([
+      { brand: "Apotheka", items: Array.from({ length: 777 }, (_, i) => ({ id: String(i), discountPercent: 10, status: "unknown", newPercent: null })) },
+      { brand: "Klick", items: Array.from({ length: 30 }, (_, i) => ({ id: String(i), discountPercent: 10, status: "unknown", newPercent: null })) },
+      { brand: "Denim Dream", items: Array.from({ length: 9522 }, (_, i) => ({ id: String(i), discountPercent: 30, status: "permanent", newPercent: null })) },
+    ]);
+    const mall = { shops: [{ name: "Zara" }, { name: "Apotheka" }, { name: "Klick" }, { name: "Apotheka 2" }, { name: "Denim Dream" }, { name: "Euronics" }] };
+    assert.deepEqual(mallSummary(mall, byName), { discountShops: 3, top: [{ name: "Denim Dream", count: 9522 }, { name: "Apotheka", count: 777 }, { name: "Klick", count: 30 }] });
+    assert.deepEqual(orderShopsForMall(shopsWithDiscounts(mall, byName)).map((s) => s.name), ["Denim Dream", "Apotheka", "Klick", "Zara", "Euronics"]);
+    assert.deepEqual(mallSummary({ shops: [{ name: "Zara" }] }, byName), { discountShops: 0, top: [] });
+  }),
+  test("the shopper's location is never stored or sent (the owner's rule): index.html keeps it in state only — no localStorage/sessionStorage/cookie write mentions it, no hash route carries it, and the only outgoing address lookup sends the typed address text alone", () => {
+    const html = fs.readFileSync(path.join(__dirname, "index.html"), "utf8");
+    const lines = html.split("\n");
+    const storageLines = lines.filter((l) => /localStorage|sessionStorage|document\.cookie/.test(l));
+    assert.ok(storageLines.length > 0, "the file does use storage (for lang and basket)");
+    assert.ok(storageLines.every((l) => !/outletLocation|outletRadius|latitude|longitude|coords/.test(l)), "no storage line touches the location");
+    assert.ok(!/location\.hash\s*=[^\n]*(outletLocation|lat|lon)/.test(html), "no route carries the location");
+    const inads = lines.filter((l) => /inaadress\.maaamet\.ee/.test(l));
+    assert.equal(inads.length, 1, "exactly one In-ADS request");
+    assert.ok(/encodeURIComponent\(address\)/.test(inads[0]) && !/lat|lon|coords/.test(inads[0]), "it sends the typed address text only");
+    assert.ok(!/fetch\([^)]*(outletLocation|coords|latitude)/.test(html), "no other request carries coordinates");
   }),
 ];
 

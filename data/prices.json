@@ -135311,6 +135311,7 @@
         "cardPrice": 0.45,
         "cardName": "Partner",
         "size": "45g",
+        "ean": "4750050341412",
         "storeUnitPrice": 12.44,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4750050341412.jpg",
         "storeName": "Glasuurkohuke kookose, KARUMS, 45 g"
@@ -135363,6 +135364,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohuke-johvika-multipakk-5x40g-tere-200-g",
         "size": "5x40g",
+        "ean": "4740036016397",
         "storeUnitPrice": 11.45,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036016397.jpg",
         "storeName": "Kohuke jõhvika multipakk 5x40g, TERE, 200 g"
@@ -135383,14 +135385,49 @@
         "image": "https://cdn.barbora.ee/products/4332ee50-8cb7-4b1a-ac9c-36b5655e184b_m.png",
         "storeName": "Kohuke TERE vanilli multipakk, 7x40g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kohuke-vanilli-740g-multipakk/",
+        "size": "7x40g",
+        "ean": "4740036016410",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740036016410.png",
+        "storeName": "Kohuke vanilli Tere 7*40g multipakk"
+      },
       "selver": {
         "price": 3.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/kohuke-vanilli-multipakk-7x40g-tere-280-g",
         "size": "7x40g",
+        "ean": "4740036016410",
         "storeUnitPrice": 12.46,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036016410.jpg",
         "storeName": "Kohuke vanilli multipakk 7x40g, TERE, 280 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Kohuke kondenspiima multipakk 5x40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kohuke-tere-kondenspiima-multipakk-5-x-40-g",
+        "size": "5x40g",
+        "storeUnitPrice": 12.95,
+        "image": "https://cdn.barbora.ee/products/0400f143-de5e-4fbd-8825-2db1c9cc47a8_m.png",
+        "storeName": "Kohuke TERE kondenspiima multipakk 5x40g"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kohuke-kondenspiima-540g-multipakk/",
+        "size": "5x40g",
+        "ean": "4740036016977",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740036016977.png",
+        "storeName": "Kohuke kondenspiima Tere 5*40g multipakk"
       }
     },
     "matchedVia": "automatic"
@@ -135434,6 +135471,15 @@
         "regularPrice": 1.09,
         "storeName": "Kohupiimakreem ALMA Creme Brulee, 150g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koh-kreem-cr-brulee-150g/",
+        "size": "150g",
+        "ean": "4740125631326",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740125631289.png",
+        "storeName": "Kohupiimakreem creme brulee maitseline Alma 150g"
+      },
       "rimi": {
         "price": 1.09,
         "currency": "EUR",
@@ -135442,6 +135488,32 @@
         "storeUnitPrice": 7.27,
         "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_918382_PCE_EE",
         "storeName": "Kohupiimakreem creme brulee Alma 150g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Alma Kohupiimakreem metsmaasika 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "barbora": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kohupiimakreem-alma-metsmaasika-150-g",
+        "size": "150g",
+        "storeUnitPrice": 5.67,
+        "image": "https://cdn.barbora.ee/products/227660e8-670c-485e-b0c3-1781f90ee9cc_m.png",
+        "regularPrice": 1.09,
+        "storeName": "Kohupiimakreem ALMA metsmaasika, 150g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koh-kreem-m-maasika-150g/",
+        "size": "150g",
+        "ean": "4740125631371",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125631371.png",
+        "storeName": "Kohupiimakreem metsmaasika Alma 150g"
       }
     },
     "matchedVia": "automatic"
@@ -135459,6 +135531,15 @@
         "image": "https://cdn.barbora.ee/products/7f4ab0c5-c6f2-4015-a554-7ff92f9fa81c_m.png",
         "regularPrice": 0.89,
         "storeName": "Kohupiimakreem ALMA mangokisselliga,140g"
+      },
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohupiimakreem-mangokisselliga-140g/",
+        "size": "140g",
+        "ean": "4740125632255",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740125632255.png",
+        "storeName": "Kohupiimakreem mangokisselliga Alma 140g"
       },
       "rimi": {
         "price": 0.79,
@@ -135485,17 +135566,27 @@
         "image": "https://cdn.barbora.ee/products/4c2aa359-369e-44ce-a03e-3ed0bf6797e2_m.png",
         "storeName": "Kohupiimahõrgutis ALMA ahjuõuna 150g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohupiimahorgutis-ahjuouna-150g/",
+        "size": "150g",
+        "ean": "4740125632484",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740125632484.png",
+        "storeName": "Kohupiimahõrgutis ahjuõuna Alma 150g"
+      },
       "selver": {
         "price": 1.04,
         "currency": "EUR",
         "url": "https://www.selver.ee/kohupiimahorgutis-ahjuouna-alma-150-g",
         "size": "150g",
+        "ean": "4740125632484",
         "storeUnitPrice": 6.93,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125632484.jpg",
         "storeName": "Kohupiimahõrgutis ahjuõuna, ALMA, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Kohupiimakreem vanilli 150g",
@@ -135538,6 +135629,15 @@
         "image": "https://cdn.barbora.ee/products/9092acd7-f661-49dc-a2de-219229a6079d_m.png",
         "storeName": "Tarretis JÄNKS vaarikamaitseline, 150g"
       },
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tarretis-vaarikam-150g/",
+        "size": "150g",
+        "ean": "4740113070014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113070014.jpg",
+        "storeName": "Tarretis vaarikamaitseline Jänks 150g"
+      },
       "rimi": {
         "price": 0.49,
         "currency": "EUR",
@@ -135552,12 +135652,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tarretis-vaarikamaitseline-janks-150-g",
         "size": "150g",
+        "ean": "4740113070014",
         "storeUnitPrice": 4.13,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740113070014.jpg",
         "storeName": "Tarretis vaarikamaitseline, JÄNKS, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Jänks Tarretis kirsi 150g",
@@ -135574,6 +135675,15 @@
         "image": "https://cdn.barbora.ee/products/188fad4c-b13a-432d-b493-ddc98e957788_m.png",
         "storeName": "Tarretis JÄNKS kirsimaitseline, 150g"
       },
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tarretis-kirsimaits-150g/",
+        "size": "150g",
+        "ean": "4740113070106",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113070106.jpg",
+        "storeName": "Tarretis kirsimaitseline Jänks 150g"
+      },
       "rimi": {
         "price": 0.49,
         "currency": "EUR",
@@ -135588,12 +135698,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kirsimaitseline-tarretis-janks-150-g",
         "size": "150g",
+        "ean": "4740113070106",
         "storeUnitPrice": 4.13,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740113070106.jpg",
         "storeName": "Kirsimaitseline tarretis, JÄNKS, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Aasa Riisipuder kirssidega 6% 200g",
@@ -135633,6 +135744,15 @@
         "image": "https://cdn.barbora.ee/products/6d9dd03a-2909-4a8e-91d9-cd7561be8b3f_m.png",
         "storeName": "Puding FARMI koorene vanilje, 230g"
       },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vanilje-puding-230g/",
+        "size": "230g",
+        "ean": "4740113035976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113035976.png",
+        "storeName": "Koorene vanilje puding Farmi 230g"
+      },
       "rimi": {
         "price": 1.15,
         "currency": "EUR",
@@ -135641,9 +135761,19 @@
         "storeUnitPrice": 5,
         "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_901958_PCE_EE",
         "storeName": "Koorene vanilje puding Farmi 230g"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorene-vaniljepuding-4-9-farmi-230-g",
+        "size": "230g",
+        "ean": "4740113035976",
+        "storeUnitPrice": 4.74,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740113035976.jpg",
+        "storeName": "Koorene vaniljepuding 4,9%, FARMI, 230 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Puding koorene šokolaadi 230g",
@@ -135658,17 +135788,27 @@
         "image": "https://cdn.barbora.ee/products/6de20879-1428-488c-8394-fa7dd7ee68de_m.png",
         "storeName": "Puding FARMI koorene šok.maits., 230g"
       },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-shokolaadipuding-230g/",
+        "size": "230g",
+        "ean": "4740113090814",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740113090814-1.png",
+        "storeName": "Koorene shokolaadipuding Farmi 230g"
+      },
       "selver": {
         "price": 1.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/koorene-sokolaadi-puding-farmi-230-g",
         "size": "230g",
+        "ean": "4740113090814",
         "storeUnitPrice": 4.74,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740113090814.jpg",
         "storeName": "Koorene šokolaadi puding, FARMI, 230 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Jänks Tarretis kiivi 150g",
@@ -135710,6 +135850,15 @@
         "image": "https://cdn.barbora.ee/products/8ddf6c7f-dedb-4467-895d-5be2667ed1ce_m.png",
         "storeName": "Puding ALMA vanilli, 230g"
       },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puding-vanilli-230g/",
+        "size": "230g",
+        "ean": "4740125534177",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125534177.png",
+        "storeName": "Puding vanilli Alma 230g"
+      },
       "rimi": {
         "price": 1.25,
         "currency": "EUR",
@@ -135735,6 +135884,15 @@
         "image": "https://cdn.barbora.ee/products/1e0bb6d5-8b5f-4243-b64c-3d822ae93d74_m.png",
         "storeName": "Puding ALMA karamelli, 230g"
       },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puding-karamelli-230g/",
+        "size": "230g",
+        "ean": "4740125534184",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125534184.png",
+        "storeName": "Puding karamelli Alma 230g"
+      },
       "rimi": {
         "price": 1.25,
         "currency": "EUR",
@@ -135749,12 +135907,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puding-alma-karamelli-alma-230-g",
         "size": "230g",
+        "ean": "4740125534184",
         "storeUnitPrice": 5.52,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125534184.jpg",
         "storeName": "Puding Alma karamelli, ALMA, 230 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Puding šokolaadi metsapähkli 230g",
@@ -135768,6 +135927,15 @@
         "storeUnitPrice": 5.43,
         "image": "https://cdn.barbora.ee/products/49f53585-e106-4c93-9232-44b0b9814ab8_m.png",
         "storeName": "Puding ALMA šokolaadi-metsapähkli, 230g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puding-shokolaadi-230g/",
+        "size": "230g",
+        "ean": "4740125534191",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125534191.png",
+        "storeName": "Puding shokolaadi-metsapähkli maitseline Alma 230g"
       },
       "rimi": {
         "price": 1.25,
@@ -135783,12 +135951,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puding-alma-sokolaadi-metsapahkli-maitseline-alma-230-g",
         "size": "230g",
+        "ean": "4740125534191",
         "storeUnitPrice": 5.52,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125534191.jpg",
         "storeName": "Puding Alma šokolaadi-metsapähkli maitseline, ALMA, 230 G"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Fantasia Jogurt kirsilisandiga 118g",
@@ -135836,6 +136005,7 @@
         "cardPrice": 1.49,
         "cardName": "Partner",
         "size": "150g",
+        "ean": "4740218004136",
         "storeUnitPrice": 13,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740218004136.jpg",
         "storeName": "Panna Cotta vaarika, NOPRI, 150 g"
@@ -135861,6 +136031,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/keefirimaius-metsamarja-hellus-200-g",
         "size": "200g",
+        "ean": "4740036018148",
         "storeUnitPrice": 6.95,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036018148.jpg",
         "storeName": "Keefirimaius metsamarja, HELLUS, 200 g"
@@ -135895,6 +136066,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puding-kohvi-alma-230-g",
         "size": "230g",
+        "ean": "4740125534344",
         "storeUnitPrice": 5.52,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125534344.jpg",
         "storeName": "Puding kohvi, ALMA, 230 g"
@@ -135929,6 +136101,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suvepuding-mango-tere-200-g",
         "size": "200g",
+        "ean": "4740036017417",
         "storeUnitPrice": 6.2,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036017417.jpg",
         "storeName": "Suvepuding mango, TERE, 200 g"
@@ -135955,6 +136128,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohuke-vanilli-kakaoglasuuris-7x40g-alma-280-g",
         "size": "7x40g",
+        "ean": "4740125639308",
         "storeUnitPrice": 9.25,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125639308.jpg",
         "storeName": "Kohuke vanilli kakaoglasuuris 7x40g, ALMA, 280 g"
@@ -135980,6 +136154,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohuke-koorekommi-karamelliglasuuris-alma-40-g",
         "size": "40g",
+        "ean": "4740125639179",
         "storeUnitPrice": 12.5,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125639179.jpg",
         "storeName": "Kohuke koorekommi karamelliglasuuris, ALMA, 40 g"
@@ -135988,9 +136163,43 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Alma Kohuke kakao kakaoglasuuris 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohuke-kakao-kakaoglasuuris-40g/",
+        "size": "40g",
+        "ean": "4740125639117",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4740125639117.png",
+        "storeName": "Kohuke kakao kakaoglasuuris Alma 40g"
+      },
+      "rimi": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/kohukesed/kohuke-kakao-kakaoglasuuris-alma-40g/p/4004820",
+        "size": "40g",
+        "storeUnitPrice": 12.25,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4004820_PCE_EE",
+        "storeName": "Kohuke kakao kakaoglasuuris Alma 40g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Alma Kohuke vanilli kakaoglasuuris 40g",
     "category": "Curd snacks & desserts",
     "prices": {
+      "coop": {
+        "price": 0.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohuke-vanilli-kakaoglasuuris-40g/",
+        "size": "40g",
+        "ean": "4740125639100",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4740125639100.png",
+        "storeName": "Kohuke vanilli kakaoglasuuris Alma 40g"
+      },
       "rimi": {
         "price": 0.49,
         "currency": "EUR",
@@ -136005,9 +136214,111 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohuke-vanilli-kakaoglasuuris-alma-40-g",
         "size": "40g",
+        "ean": "4740125639100",
         "storeUnitPrice": 12.5,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125639100.jpg",
         "storeName": "Kohuke vanilli kakaoglasuuris, ALMA, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fit Proteiinibatoon maasika magusainetega 46g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "rimi": {
+        "price": 0.76,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/kohukesed/proteiinibatoon-maasika-magusainetega-fit-46g/p/4005251",
+        "size": "46g",
+        "storeUnitPrice": 16.52,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4005251_PCE_EE",
+        "storeName": "Proteiinibatoon maasika magusainetega Fit 46g"
+      },
+      "selver": {
+        "price": 0.76,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinibatoon-maasika-magusainetega-fit-46-g",
+        "size": "46g",
+        "ean": "4740036017530",
+        "storeUnitPrice": 16.52,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036017530.jpg",
+        "storeName": "Proteiinibatoon maasika magusainetega, FIT, 46 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Alma Kohupiimakreem metsmaasika 300g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohup-kreem-maasika-300g/",
+        "size": "300g",
+        "ean": "4740125612103",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125612103.jpg",
+        "storeName": "Kohupiimakreem metsmaasika Alma 300g"
+      },
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/desserdid/kohupiimakreem-metsmaasika-alma-300g/p/915811",
+        "size": "300g",
+        "storeUnitPrice": 4.97,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_915811_PCE_EE",
+        "storeName": "Kohupiimakreem metsmaasika Alma 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Emma Kohupiimakreem mustikakisselliga 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohup-kreem-mustika-150g/",
+        "size": "150g",
+        "ean": "4740294012674",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740294012674.png",
+        "storeName": "Kohupiimakreem mustikakisselliga Emma 150g"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/desserdid/kohupiimakreem-mustikakisselliga-emma-150g/p/203467",
+        "size": "150g",
+        "storeUnitPrice": 6.6,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_203467_PCE_EE",
+        "storeName": "Kohupiimakreem mustikakisselliga Emma 150g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Emma Kohupiimakreem vaarikakisselliga 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohup-kreem-vaarika-150g/",
+        "size": "150g",
+        "ean": "4740294012667",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740294012667.jpg",
+        "storeName": "Kohupiimakreem vaarikakisselliga Emma 150g"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/desserdid/kohupiimakreem-vaarikakisselliga-emma-150g/p/203465",
+        "size": "150g",
+        "storeUnitPrice": 6.6,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_203465_PCE_EE",
+        "storeName": "Kohupiimakreem vaarikakisselliga Emma 150g"
       }
     },
     "matchedVia": "automatic"
@@ -136030,12 +136341,602 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koorekreem-vaarikamaitseline-karums-150-g",
         "size": "150g",
+        "ean": "4750025000917",
         "storeUnitPrice": 7.8,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4750025000917.jpg",
         "storeName": "Koorekreem vaarikamaitseline, KARUMS, 150 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Saare Koorene kohuke toffee 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koorene-koh-toffee-40g/",
+        "size": "40g",
+        "ean": "4742231002038",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742231002038.png",
+        "storeName": "Koorene kohuke toffee Saare 40g"
+      },
+      "selver": {
+        "price": 0.57,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohuke-toffe-saare-40-g",
+        "size": "40g",
+        "ean": "4742231002038",
+        "storeUnitPrice": 14.25,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4742231002038.jpg",
+        "storeName": "Kohuke Toffe, SAARE, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Skyr vanillidessert shokolaadiglasuuris 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-skyr-vanillidessert-shok-glas-40g/",
+        "size": "40g",
+        "ean": "4740113097547",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740113097547-1.png",
+        "storeName": "Skyr vanillidessert shokolaadiglasuuris Farmi 40g"
+      },
+      "selver": {
+        "price": 0.66,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/skyr-vanillidessert-farmi-40-g",
+        "size": "40g",
+        "ean": "4740113097547",
+        "storeUnitPrice": 16.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740113097547.jpg",
+        "storeName": "Skyr vanillidessert, FARMI, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Skyr mustikadessert shokolaadiglasuuris 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-skyr-mustikadessert-shok-glas-40g/",
+        "size": "40g",
+        "ean": "4740113097554",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740113097554-1.png",
+        "storeName": "Skyr mustikadessert shokolaadiglasuuris Farmi 40g"
+      },
+      "selver": {
+        "price": 0.66,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/skyr-mustikadessert-farmi-40-g",
+        "size": "40g",
+        "ean": "4740113097554",
+        "storeUnitPrice": 16.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740113097554.jpg",
+        "storeName": "Skyr mustikadessert, FARMI, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kohuke vaarikatäidisega kakaoglasuuris 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohuke-vaarikataidisega-kakaogl-40g/",
+        "size": "40g",
+        "ean": "4740125639131",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4740125639131.png",
+        "storeName": "Kohuke vaarikatäidisega kakaoglasuuris Alma 40g"
+      },
+      "selver": {
+        "price": 0.5,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohuke-vaarikataidisega-kakaoglasuuris-alma-40-g",
+        "size": "40g",
+        "ean": "4740125639131",
+        "storeUnitPrice": 12.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125639131.jpg",
+        "storeName": "Kohuke vaarikatäidisega kakaoglasuuris, ALMA, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kohuke mangotäidisega kakaoglasuuris 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohuke-mangotaidisega-kakaogl-40g/",
+        "size": "40g",
+        "ean": "4740125639124",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4740125639124.png",
+        "storeName": "Kohuke mangotäidisega kakaoglasuuris Alma 40g"
+      },
+      "selver": {
+        "price": 0.5,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohuke-mangotaidisega-kakaoglasuuris-alma-40-g",
+        "size": "40g",
+        "ean": "4740125639124",
+        "storeUnitPrice": 12.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125639124.jpg",
+        "storeName": "Kohuke mangotäidisega kakaoglasuuris, ALMA, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kohuke metsmaasika kakaoglasuuris 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohuke-metsmaasika-kakaoglasuur-40g/",
+        "size": "40g",
+        "ean": "4740125639148",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740125639148.png",
+        "storeName": "Kohuke metsmaasika kakaoglasuuris Alma 40g"
+      },
+      "selver": {
+        "price": 0.5,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohuke-metsmaasika-kakaoglasuuris-alma-40-g",
+        "size": "40g",
+        "ean": "4740125639148",
+        "storeUnitPrice": 12.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125639148.jpg",
+        "storeName": "Kohuke metsmaasika kakaoglasuuris, ALMA, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karums Vanillikohuke multipakk 1 7x45g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karums-vanillikohuke-multipakk-745g/",
+        "size": "7x45g",
+        "ean": "4750050342211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4750050342211.jpg",
+        "storeName": "Vanillikohuke multipakk Karums 7*45g"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/glasuurkohuke-vanilli-multipakk-6-1-7x45g-karums-315-g",
+        "size": "7x45g",
+        "ean": "4750050342211",
+        "storeUnitPrice": 11.9,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4750050342211.jpg",
+        "storeName": "Glasuurkohuke vanilli multipakk 6+1 7x45g, KARUMS, 315 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Kohuke vanilli shokolaadiglasuuriga 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kohuke-vanilli-shokolaadigl-40g/",
+        "size": "40g",
+        "ean": "47430051",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/47430051.png",
+        "storeName": "Kohuke vanilli shokolaadiglasuuriga Tere 40g"
+      },
+      "selver": {
+        "price": 0.52,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohuke-vanilli-sokolaadiglasuuriga-tere-40-g",
+        "cardPrice": 0.45,
+        "cardName": "Partner",
+        "size": "40g",
+        "ean": "47430051",
+        "storeUnitPrice": 13,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/47430051.jpg",
+        "storeName": "Kohuke vanilli šokolaadiglasuuriga, TERE, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Kohuke mustika shokolaadiglasuuriga 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kohuke-mustika-shokolaadigl-40g/",
+        "size": "40g",
+        "ean": "47431058",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/47431058.png",
+        "storeName": "Kohuke mustika shokolaadiglasuuriga Tere 40g"
+      },
+      "selver": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohuke-mustika-sokolaadiglasuuriga-tere-40-g",
+        "cardPrice": 0.45,
+        "cardName": "Partner",
+        "size": "40g",
+        "ean": "47431058",
+        "storeUnitPrice": 13.75,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/47431058.jpg",
+        "storeName": "Kohuke mustika šokolaadiglasuuriga, TERE, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Kohuke kondenspiima ja karamelliglasuuriga 40g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kohuke-kondenspiima-karamelligl-40g/",
+        "size": "40g",
+        "ean": "47435056",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/47435056.png",
+        "storeName": "Kohuke kondenspiima ja karamelliglasuuriga Tere40g"
+      },
+      "selver": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohuke-kondenspiima-ja-karamelliglasuuriga-tere-40-g",
+        "cardPrice": 0.45,
+        "cardName": "Partner",
+        "size": "40g",
+        "ean": "47435056",
+        "storeUnitPrice": 13.75,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/47435056.jpg",
+        "storeName": "Kohuke kondenspiima ja karamelliglasuuriga, TERE, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karums Vanillikohuke 45g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karums-vanilli-45g/",
+        "size": "45g",
+        "ean": "4750050341405",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750050341405.jpg",
+        "storeName": "Vanillikohuke Karums 45g"
+      },
+      "selver": {
+        "price": 0.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/glasuurkohuke-vanilli-karums-45-g",
+        "cardPrice": 0.45,
+        "cardName": "Partner",
+        "size": "45g",
+        "ean": "4750050341405",
+        "storeUnitPrice": 12.44,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4750050341405.jpg",
+        "storeName": "Glasuurkohuke vanilli, KARUMS, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karums Shokolaadikohuke 45g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohup-juustuke-karums45g/",
+        "size": "45g",
+        "ean": "4750050341511",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4750050341511.png",
+        "storeName": "Shokolaadikohuke Karums 45g"
+      },
+      "selver": {
+        "price": 0.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/glasuurkohuke-sokolaadi-karums-45-g",
+        "cardPrice": 0.45,
+        "cardName": "Partner",
+        "size": "45g",
+        "ean": "4750050341511",
+        "storeUnitPrice": 12.44,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4750050341511.jpg",
+        "storeName": "Glasuurkohuke šokolaadi, KARUMS, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zott liegeois dessert sh vahuk 175g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-dessert-zott-175g/",
+        "ean": "40338453",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/40338453.jpg",
+        "storeName": "Zott Liegeois sh.maits.dessert vahuk.175"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadipuding-liegeois-zott-175-g",
+        "cardPrice": 0.69,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "40338453",
+        "storeUnitPrice": 5.14,
+        "image": "https://www.selver.ee/img/800/800/resize/4/0/40338453.jpg",
+        "storeName": "Šokolaadipuding Liegeois, ZOTT, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Fit proteiinipuding kakao 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/proteiinipuding-fit-150g-2/",
+        "size": "150g",
+        "ean": "4740036013426",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740036013426-1.png",
+        "storeName": "Fit proteiinipuding kakao Tere 150g"
+      },
+      "selver": {
+        "price": 1.37,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinipuding-kakao-fit-150-g",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740036013426",
+        "storeUnitPrice": 9.13,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036013426.jpg",
+        "storeName": "Proteiinipuding kakao, FIT, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Fit proteiinipuding vanilli 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/proteiinipuding-fit-150g-3/",
+        "size": "150g",
+        "ean": "4740036013440",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740036013440-1.png",
+        "storeName": "Fit proteiinipuding vanilli Tere 150g"
+      },
+      "selver": {
+        "price": 1.37,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinipuding-vanilli-fit-150-g",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740036013440",
+        "storeUnitPrice": 9.13,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036013440.jpg",
+        "storeName": "Proteiinipuding vanilli, FIT, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Fit proteiinipuding karamelli 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/proteiinipuding-fit-150g/",
+        "size": "150g",
+        "ean": "4740036013433",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036013433.png",
+        "storeName": "Fit proteiinipuding karamelli Tere 150g"
+      },
+      "selver": {
+        "price": 1.37,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinipuding-soolakaramelli-fit-150-g",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740036013433",
+        "storeUnitPrice": 9.13,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036013433.jpg",
+        "storeName": "Proteiinipuding soolakaramelli, FIT, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio profeel Proteiinipuding piimashok 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-prot-puding-piimashok-maits-150g/",
+        "size": "150g",
+        "ean": "4740125534245",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740125534245.png",
+        "storeName": "Proteiinipuding piimashok.maits.Valio PROfeel 150g"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinipuding-piimasokolaadimaitseline-valio-profeel-150g",
+        "size": "150g",
+        "ean": "4740125534245",
+        "storeUnitPrice": 8.47,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125534245.jpg",
+        "storeName": "Proteiinipuding piimašokolaadimaitseline, VALIO PROFEEL, 150g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Valio profeel Proteiinipuding valge pähk shok 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valio-prot-puding-valge-shok-pahkli150g/",
+        "size": "150g",
+        "ean": "4740125534269",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740125534269.png",
+        "storeName": "Proteiinipuding valge shok.-pähk.Valio PROfeel150g"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinipuding-valge-sokolaadi-pahklimaitseline-valio-profeel-150g",
+        "size": "150g",
+        "ean": "4740125534269",
+        "storeUnitPrice": 8.47,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125534269.jpg",
+        "storeName": "Proteiinipuding valge šokolaadi-pähklimaitseline, VALIO PROFEEL, 150g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jänks Tutti frutti tarretis 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/janks-tarretis-tutti-frutti-150g/",
+        "size": "150g",
+        "ean": "4740113093693",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740113093693.png",
+        "storeName": "Tutti-frutti tarretis Jänks 150g"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tarretis-tutti-frutti-janks-150-g",
+        "size": "150g",
+        "ean": "4740113093693",
+        "storeUnitPrice": 4.13,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740113093693.jpg",
+        "storeName": "Tarretis tutti-frutti, JÄNKS, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Kakaopuding laktoosivaba 200g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kakaopuding-200g-laktoosivaba/",
+        "size": "200g",
+        "ean": "4740036015925",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740036015925.png",
+        "storeName": "Kakaopuding Tere 200g laktoosivaba"
+      },
+      "selver": {
+        "price": 1.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kakaopuding-laktoosivaba-tere-200-g",
+        "size": "200g",
+        "ean": "4740036015925",
+        "storeUnitPrice": 6.2,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740036015925.jpg",
+        "storeName": "Kakaopuding laktoosivaba, TERE, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kohupiimahõrgutis maasika mustika 150g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohup-horgutis-maasika-mustika-150g/",
+        "size": "150g",
+        "ean": "4740125632477",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740125632477.png",
+        "storeName": "Kohupiimahõrgutis maasika-mustika Alma 150g"
+      },
+      "selver": {
+        "price": 1.07,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohupiimahorgutis-maasika-mustika-alma-150-g",
+        "size": "150g",
+        "ean": "4740125632477",
+        "storeUnitPrice": 7.13,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125632477.jpg",
+        "storeName": "Kohupiimahõrgutis maasika-mustika, ALMA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Puding vaarika mascarpone 230g",
+    "category": "Curd snacks & desserts",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-puding-vaarika-mascarpone-maits230g/",
+        "size": "230g",
+        "ean": "4740125534320",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740125534320.png",
+        "storeName": "Puding vaarika-mascarpone maitseline Alma 230g"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puding-vaarika-mascarpone-maitseline-alma-230-g",
+        "size": "230g",
+        "ean": "4740125534320",
+        "storeUnitPrice": 5.52,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740125534320.jpg",
+        "storeName": "Puding vaarika-mascarpone maitseline, ALMA, 230 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Joogijogurt metsamarja 900g",

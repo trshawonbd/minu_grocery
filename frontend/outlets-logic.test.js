@@ -4,7 +4,7 @@
 // or as part of: npm test
 
 const assert = require("node:assert/strict");
-const { brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandItemsForShopName } = require("./outlets-logic");
+const { brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandItemsForShopName, itemSections, itemTypes, filterAndSortItems } = require("./outlets-logic");
 
 function test(name, run) {
   try {
@@ -64,6 +64,32 @@ const results = [
     const byName = indexBrandsByName([DENIM_DREAM]);
     assert.equal(brandItemsForShopName(byName, "Denim Dream").length, 2);
     assert.deepEqual(brandItemsForShopName(byName, "No Match"), []);
+  }),
+  test("itemSections/itemTypes: sections in the store's own order, only those present; types by count then Estonian alphabet, within the chosen section only", () => {
+    const items = [
+      { section: "Mehed", type: "Teksad" }, { section: "Naised", type: "Kleidid" }, { section: "Naised", type: "Teksad" },
+      { section: "Naised", type: "Teksad" }, { section: "Lapsed", type: "Sokid" }, { section: "Naised", type: "Ülerõivad" },
+    ];
+    assert.deepEqual(itemSections(items), ["Naised", "Mehed", "Lapsed"]);
+    assert.deepEqual(itemSections(items.slice(0, 1)), ["Mehed"]);
+    assert.deepEqual(itemTypes(items, null), [{ type: "Teksad", count: 3 }, { type: "Kleidid", count: 1 }, { type: "Sokid", count: 1 }, { type: "Ülerõivad", count: 1 }]);
+    assert.deepEqual(itemTypes(items, "Naised"), [{ type: "Teksad", count: 2 }, { type: "Kleidid", count: 1 }, { type: "Ülerõivad", count: 1 }]);
+  }),
+  test("filterAndSortItems: section and type narrow; 'discount' = biggest % first, 'price' = cheapest first, 'newest' = latest firstSeen, then fresh, then the store's own order; a filter matching nothing gives an empty list, not everything", () => {
+    const items = [
+      { id: "a", name: "A", section: "Naised", type: "Teksad", salePrice: 40, discountPercent: 50, firstSeen: "2026-09-20", fresh: false, position: 3 },
+      { id: "b", name: "B", section: "Naised", type: "Kleidid", salePrice: 30, discountPercent: 25, firstSeen: "2026-09-26", fresh: false, position: 2 },
+      { id: "c", name: "C", section: "Mehed", type: "Teksad", salePrice: 10, discountPercent: 30, firstSeen: "2026-09-26", fresh: true, position: 1 },
+      { id: "d", name: "D", section: "Mehed", type: "Teksad", salePrice: 20, discountPercent: 30, firstSeen: "2026-09-26", fresh: true, position: 5 },
+    ];
+    const ids = (f) => filterAndSortItems(items, f).map((i) => i.id);
+    assert.deepEqual(ids({}), ["a", "c", "d", "b"], "default: discount desc, then cheaper first");
+    assert.deepEqual(ids({ sort: "price" }), ["c", "d", "b", "a"]);
+    assert.deepEqual(ids({ sort: "newest" }), ["c", "d", "b", "a"], "2026-09-26 before 2026-09-20; fresh before not; store order within");
+    assert.deepEqual(ids({ section: "Naised" }), ["a", "b"]);
+    assert.deepEqual(ids({ section: "Mehed", type: "Teksad", sort: "price" }), ["c", "d"]);
+    assert.deepEqual(ids({ type: "Kleidid", section: "Mehed" }), []);
+    assert.deepEqual(ids({ sort: "bogus" }), ["a", "c", "d", "b"], "an unknown sort falls back to discount");
   }),
 ];
 

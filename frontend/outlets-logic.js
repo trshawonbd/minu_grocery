@@ -1,8 +1,9 @@
 // Pure helpers for the Outletid tab (2026-09-26 app work, roadmap
 // step "App") — matching a mall's own shop list (outlets/data/malls.json)
 // against a brand's own scraped sale items (outlets/data/denim-dream.json
-// today, more brand files later) by shop NAME. Never touches grocery
-// data (state.products) — a fully separate section, same as
+// today, more brand files later) by shop NAME, and the discount
+// list's own filters and sorts. Never touches grocery data
+// (state.products) — a fully separate section, same as
 // outlets/scraper and outlets/data are their own folders from
 // scraper/ and data/.
 //
@@ -50,14 +51,76 @@ function shopsWithDiscounts(mall, brandsByName) {
   });
 }
 
+// The brand-data object a shop's name matches, or null.
+function brandForShopName(brandsByName, shopName) {
+  return brandsByName.get(brandKey(shopName)) || null;
+}
+
 // The real sale items for whichever brand a shop's name matches, or
 // an empty list when there's no match (a shop with no discount data
 // at all, or a shop screen opened directly by name with a typo).
 function brandItemsForShopName(brandsByName, shopName) {
-  const brand = brandsByName.get(brandKey(shopName));
+  const brand = brandForShopName(brandsByName, shopName);
   return brand ? brand.items : [];
 }
 
+// --- the discount list's filters and sorts (2026-09-26 redesign) ---
+
+// Sections are the store's own (Naised / Mehed / Lapsed), in this
+// fixed order; only those with an item are offered.
+const SECTION_ORDER = ["Naised", "Mehed", "Lapsed"];
+const SORTS = ["discount", "price", "newest"];
+const DEFAULT_OUTLET_FILTER = { section: null, type: null, sort: "discount" };
+
+function itemSections(items) {
+  const present = new Set((items || []).map((item) => item.section).filter(Boolean));
+  return SECTION_ORDER.filter((s) => present.has(s));
+}
+
+// Product types with counts, most common first (ties alphabetical, Estonian
+// order) — within the currently selected section, so the chips only
+// ever offer a type that has an item to show.
+function itemTypes(items, section) {
+  const counts = new Map();
+  for (const item of items || []) {
+    if (section && item.section !== section) continue;
+    if (!item.type) continue;
+    counts.set(item.type, (counts.get(item.type) || 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([type, count]) => ({ type, count }))
+    .sort((a, b) => b.count - a.count || a.type.localeCompare(b.type, "et"));
+}
+
+function compareItems(sort) {
+  if (sort === "price") return (a, b) => a.salePrice - b.salePrice || b.discountPercent - a.discountPercent || a.name.localeCompare(b.name, "et");
+  if (sort === "newest") {
+    // First seen most recently first (from the price history's first
+    // date per link), the store's own "fresh" flag next, then the
+    // store's own listing order — so a brand-new item is on top even
+    // on the day everything shares one first-seen date.
+    return (a, b) =>
+      (b.firstSeen || "").localeCompare(a.firstSeen || "") ||
+      (b.fresh === true) - (a.fresh === true) ||
+      (a.position ?? Infinity) - (b.position ?? Infinity) ||
+      a.name.localeCompare(b.name, "et");
+  }
+  return (a, b) => b.discountPercent - a.discountPercent || a.salePrice - b.salePrice || a.name.localeCompare(b.name, "et");
+}
+
+// filter: { section, type, sort } (see DEFAULT_OUTLET_FILTER). A
+// section/type that matches nothing yields an empty list rather than
+// silently showing everything — the chip the shopper tapped stays
+// honest.
+function filterAndSortItems(items, filter) {
+  const f = { ...DEFAULT_OUTLET_FILTER, ...(filter || {}) };
+  const kept = (items || []).filter((item) => (!f.section || item.section === f.section) && (!f.type || item.type === f.type));
+  return kept.slice().sort(compareItems(SORTS.includes(f.sort) ? f.sort : "discount"));
+}
+
 if (typeof module !== "undefined") {
-  module.exports = { brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandItemsForShopName };
+  module.exports = {
+    brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandForShopName, brandItemsForShopName,
+    SECTION_ORDER, SORTS, DEFAULT_OUTLET_FILTER, itemSections, itemTypes, filterAndSortItems,
+  };
 }

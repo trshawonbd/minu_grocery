@@ -94,6 +94,26 @@
   .product-image img { width: 100%; height: 100%; object-fit: contain; display: block; }
   .image-caption { font-size: 11px; color: var(--muted); margin-top: 4px; }
 
+  /* Outletid discount list (2026-09-26 redesign): a fashion-shop card
+     grid — 2 columns on a phone, 4 on a desktop — each card one link
+     to the brand's own product page. Photos are shown whole (contain),
+     never cropped; the discount badge sits on the photo's corner. */
+  .page-wide { max-width: 1100px; }
+  .outlet-note { margin: 0 0 6px; }
+  .outlet-meta { margin: 8px 0 10px; }
+  .ogrid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (min-width: 900px) { .ogrid { grid-template-columns: repeat(4, 1fr); gap: 16px; } }
+  .ocard { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; color: inherit; text-decoration: none; text-align: left; }
+  .ocard:hover { border-color: var(--green); }
+  .ocard-img { position: relative; width: 100%; aspect-ratio: 3 / 4; background: #FAFAF6; border-bottom: 1px solid var(--line); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ocard-img img { width: 100%; height: 100%; object-fit: contain; display: block; }
+  .ocard-badge { position: absolute; top: 8px; left: 8px; background: var(--amber); color: #fff; font-size: 12px; font-weight: 700; padding: 3px 7px; border-radius: 8px; }
+  .ocard-body { display: flex; flex-direction: column; gap: 2px; padding: 8px 10px 10px; }
+  .ocard-brand { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  .ocard-name { font-size: 13px; font-weight: 600; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.5em; }
+  .ocard-price { font-size: 17px; font-weight: 700; color: var(--ink); margin-top: 4px; }
+  .ocard-old { font-size: 12px; color: var(--muted); }
+
   .store-list { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
   .store-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); }
   .store-row.cheapest { background: var(--green-soft); border-color: var(--green); }
@@ -167,6 +187,7 @@
       outletBrands: [],  // one entry per outlets/data/<brand>.json fetched
       outletMallId: null,
       outletShopName: null,
+      outletFilter: { ...DEFAULT_OUTLET_FILTER }, // the discount list's section/type/sort (outlets-logic.js)
     };
     const root = document.getElementById("app");
     const nav = document.getElementById("nav");
@@ -207,7 +228,11 @@
       if (route.screen === "category") state.category = route.category;
       if (route.screen === "group") { state.group = route.group; state.groupTab = route.groupTab; }
       if (route.screen === "outletMall") state.outletMallId = route.mallId;
-      if (route.screen === "outletShop") { state.outletMallId = route.mallId; state.outletShopName = route.shopName; }
+      if (route.screen === "outletShop") {
+        if (route.shopName !== state.outletShopName) state.outletFilter = { ...DEFAULT_OUTLET_FILTER };
+        state.outletMallId = route.mallId;
+        state.outletShopName = route.shopName;
+      }
       if (route.screen === "product") {
         state.product = visibleProducts(state.products).find((p) => productKey(p) === route.key) || null;
         if (!state.product) state.screen = "home";
@@ -224,6 +249,11 @@
       openProduct(product) { location.hash = `#/p/${encodeURIComponent(productKey(product))}`; },
       openOutletMall(mallId) { location.hash = `#/outlets/${encodeURIComponent(mallId)}`; },
       openOutletShop(mallId, shopName) { location.hash = `#/outlets/${encodeURIComponent(mallId)}/${encodeURIComponent(shopName)}`; },
+      setOutletFilter(patch) {
+        state.outletFilter = { ...DEFAULT_OUTLET_FILTER, ...state.outletFilter, ...patch };
+        render();
+        if (typeof window !== "undefined") window.scrollTo(0, 0);
+      },
       setQuery(query) {
         state.query = query;
         if (state.screen !== "search") { location.hash = "#/search"; return; }

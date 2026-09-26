@@ -611,75 +611,129 @@ function renderOutletMall(root, state, actions) {
   root.appendChild(list);
 }
 
-// One brand's own hotlinked photo, or the neutral icon — same
-// SHOW_STORE_IMAGES gate as grocery product photos (pricing.js): off
-// means no image URL is ever requested here either.
-function outletImageBox(item) {
-  const box = el("div", "row-thumb");
-  if (!SHOW_STORE_IMAGES || !item.image) {
+// One brand's own hotlinked photo (whole product shown — contain,
+// never cropped), or the neutral icon — same SHOW_STORE_IMAGES gate
+// as grocery product photos (pricing.js): off means no image URL is
+// ever requested here either.
+function outletImageBox(item, discountPercent) {
+  const box = el("div", "ocard-img");
+  if (SHOW_STORE_IMAGES && item.image) {
+    const img = document.createElement("img");
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.alt = "";
+    img.referrerPolicy = "no-referrer";
+    img.addEventListener("error", () => {
+      box.textContent = "";
+      box.appendChild(neutralIcon());
+      box.appendChild(el("span", "ocard-badge", `-${discountPercent}%`));
+    });
+    img.src = item.image;
+    box.appendChild(img);
+  } else {
     box.appendChild(neutralIcon());
-    return box;
   }
-  const img = document.createElement("img");
-  img.loading = "lazy";
-  img.decoding = "async";
-  img.alt = "";
-  img.referrerPolicy = "no-referrer";
-  img.addEventListener("error", () => {
-    box.textContent = "";
-    box.appendChild(neutralIcon());
-  });
-  img.src = item.image;
-  box.appendChild(img);
+  box.appendChild(el("span", "ocard-badge", `-${discountPercent}%`));
   return box;
 }
 
-// One real sale item: photo, name, sale price, struck-through regular
-// price, discount %, and a link to the brand's own product page.
-function outletItemRow(item, state) {
-  const row = el("div", "store-row single-row");
-  row.appendChild(outletImageBox(item));
-  const left = el("div", "store-left");
-  left.appendChild(el("div", "single-name", item.name));
+// One real sale item as a fashion-shop card (2026-09-26 redesign):
+// large 3:4 photo with the discount badge on it, brand small, name
+// (two lines at most), sale price big, regular price struck through
+// — the WHOLE card is the link to the brand's own product page, in a
+// new tab; no separate button.
+function outletItemCard(item, state) {
+  const card = document.createElement("a");
+  card.className = "ocard";
   if (item.link) {
-    const link = document.createElement("a");
-    link.className = "store-link";
-    link.href = item.link;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.textContent = tr(state, "viewAtStore");
-    left.appendChild(link);
+    card.href = item.link;
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
   }
-  row.appendChild(left);
-  const right = el("div", "store-right");
-  right.appendChild(el("div", "store-price", money(item.salePrice)));
-  right.appendChild(el("div", "store-sub store-regular", tr(state, "usually", { price: money(item.regularPrice) })));
-  right.appendChild(el("span", "badge badge-deal", `-${item.discountPercent}%`));
-  row.appendChild(right);
+  card.appendChild(outletImageBox(item, item.discountPercent));
+  const body = el("div", "ocard-body");
+  if (item.brand) body.appendChild(el("div", "ocard-brand", item.brand));
+  body.appendChild(el("div", "ocard-name", item.name));
+  body.appendChild(el("div", "ocard-price", money(item.salePrice)));
+  const old = el("div", "ocard-old");
+  old.appendChild(el("span", "ocard-old-label", `${tr(state, "outletRegular")} `));
+  old.appendChild(el("s", "", money(item.regularPrice)));
+  body.appendChild(old);
+  card.appendChild(body);
+  return card;
+}
+
+function chipRow(className, chips) {
+  const row = el("div", `tab-row ${className}`);
+  for (const { label, active, onClick } of chips) row.appendChild(button("tab" + (active ? " active" : ""), label, onClick));
   return row;
 }
 
-// The discounted items for one shop's brand — the label the owner
-// asked for ("e-poe allahindlus; see bränd on selles keskuses
-// esindatud") is shown right under the title, every time, so it's
-// never mistaken for an in-mall price.
+function formatTime(iso) {
+  const date = new Date(iso);
+  if (isNaN(date.getTime())) return iso || "";
+  return date.toLocaleString("et-EE", { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" });
+}
+
+// The discounted items for one shop's brand — the note the owner
+// asked for ("E-poe allahindlus. See bränd on selles keskuses
+// esindatud.") is shown right under the title every time, so it's
+// never mistaken for an in-mall price. Filters (the store's own
+// sections, product type) and sorts are state.outletFilter (see
+// outlets-logic.js); the count and "Uuendatud" line reflect the
+// current selection and the brand file's own scrape time.
 function renderOutletShop(root, state, actions) {
   root.textContent = "";
+  root.className = "page page-wide";
   const mall = findMall(state.outletMalls, state.outletMallId);
   const header = el("div", "header");
   header.appendChild(button("back", tr(state, "back", { name: mall ? mall.name : tr(state, "outlets") }), () => actions.openOutletMall(state.outletMallId)));
   root.appendChild(header);
   root.appendChild(el("h1", "screen-title", state.outletShopName || ""));
-  root.appendChild(el("div", "muted", tr(state, "outletOnlineNote")));
+  root.appendChild(el("div", "muted outlet-note", tr(state, "outletOnlineNote")));
   const byName = indexBrandsByName(state.outletBrands);
-  const items = brandItemsForShopName(byName, state.outletShopName);
+  const brand = brandForShopName(byName, state.outletShopName);
+  const allItems = brand ? brand.items : [];
+  if (allItems.length === 0) {
+    root.appendChild(el("div", "muted", tr(state, "outletNoItems")));
+    return;
+  }
+  const filter = { ...DEFAULT_OUTLET_FILTER, ...(state.outletFilter || {}) };
+  const set = (patch) => actions.setOutletFilter(patch);
+
+  const sections = itemSections(allItems);
+  if (sections.length > 1) {
+    root.appendChild(chipRow("outlet-sections", [
+      { label: tr(state, "allTab"), active: !filter.section, onClick: () => set({ section: null, type: null }) },
+      ...sections.map((s) => ({ label: s, active: filter.section === s, onClick: () => set({ section: s, type: null }) })),
+    ]));
+  }
+  const types = itemTypes(allItems, filter.section);
+  if (types.length > 1) {
+    root.appendChild(chipRow("outlet-types", [
+      { label: tr(state, "allTab"), active: !filter.type, onClick: () => set({ type: null }) },
+      ...types.map(({ type, count }) => ({ label: `${type} (${count})`, active: filter.type === type, onClick: () => set({ type }) })),
+    ]));
+  }
+  root.appendChild(chipRow("outlet-sorts", [
+    { label: tr(state, "outletSortDiscount"), active: filter.sort === "discount", onClick: () => set({ sort: "discount" }) },
+    { label: tr(state, "outletSortPrice"), active: filter.sort === "price", onClick: () => set({ sort: "price" }) },
+    { label: tr(state, "outletSortNewest"), active: filter.sort === "newest", onClick: () => set({ sort: "newest" }) },
+  ]));
+
+  const items = filterAndSortItems(allItems, filter);
+  const meta = el("div", "muted outlet-meta");
+  meta.appendChild(el("span", "", tr(state, "outletItemCount", { n: items.length })));
+  if (brand.scrapedAt) meta.appendChild(el("span", "", ` · ${tr(state, "updated", { time: formatTime(brand.scrapedAt) })}`));
+  root.appendChild(meta);
   if (items.length === 0) {
     root.appendChild(el("div", "muted", tr(state, "outletNoItems")));
     return;
   }
-  const list = el("div", "store-list");
-  for (const item of items) list.appendChild(outletItemRow(item, state));
-  root.appendChild(list);
+  const grid = el("div", "ogrid");
+  for (const item of items) grid.appendChild(outletItemCard(item, state));
+  root.appendChild(grid);
+  root.appendChild(el("div", "muted image-caption", tr(state, "outletImageFrom", { brand: brand.brand })));
 }
 
 function renderError(root, state) {
@@ -689,6 +743,7 @@ function renderError(root, state) {
 }
 
 function renderApp(root, nav, state, actions) {
+  root.className = "page";
   if (state.screen === "home") renderHome(root, state, actions);
   else if (state.screen === "search") renderSearch(root, state, actions);
   else if (state.screen === "category") renderCategory(root, state, actions);

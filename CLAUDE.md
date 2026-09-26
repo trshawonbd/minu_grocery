@@ -620,8 +620,9 @@ Basket. Three screens in `frontend/render.js` (`renderOutlets` — the
 mall list; `renderOutletMall` — one mall's shops, a shop whose name
 matches a brand file shows "kuni -X%, N toodet" and is tappable, one
 without is shown plainly; `renderOutletShop` — that brand's real sale
-items with the label "e-poe allahindlus; see bränd on selles
-keskuses esindatud" under the title every time). Routes `#/outlets`,
+items as a card grid, the note "E-poe allahindlus. See bränd on
+selles keskuses esindatud." under the title every time, each card one
+link to the brand's own page in a new tab). Routes `#/outlets`,
 `#/outlets/<mall id>`, `#/outlets/<mall id>/<shop name>` — the shop
 name is split off the RAW hash and decoded on its own, because real
 shop names contain "/" ("Juku / Kidzone"). Pure matching lives in
@@ -688,19 +689,25 @@ data on any of these screens; images hotlinked under the same
    for a later "is this discount actually new" check.
    **The 12-brand list and where each currently stands (owner's
    decisions, 2026-09-26):**
-   - **Denim Dream — done 2026-09-26, page 1 only.**
-     `outlets/scraper/fetch-denim-dream.js` reads the brand's own
-     outlet page (`/EE/et/<Naised|Mehed|Lapsed>/Outlet`, a
-     server-rendered Next.js `__NEXT_DATA__` blob — parser in
-     `outlets/scraper/brands.js`), 150 real sale items into
-     `outlets/data/denim-dream.json`, price history in
-     `outlets/data/denim-dream-price-history.json`. **Limitation,
-     checked by hand:** only the first 50 items per section are in
-     the HTML — a real `?page=2` request returns page 1 unchanged, so
-     the remaining ~9,200 items load through an unidentified
-     client-side API. Not chased (same "private API" category as
-     Reserved/Mohito); the owner decides whether it's worth a browser
-     network-tab investigation later. Never guess that endpoint.
+   - **Denim Dream — built 2026-09-26, via the site's own list API**
+     (the owner's decision, with conditions — all four checked and
+     recorded in `outlets/scraper/fetch-denim-dream.js`'s header):
+     `https://api-v2.denimdream.com/api/v2/product/product?country=EE&lang=et&sale=true&sexId=<1|2|4|5>&page=<n>&size=50`
+     — the same JSON the brand's own pages load (found by reading its
+     app bundle, the way Selver's catalog path was), a host with NO
+     `robots.txt` at all (so nothing disallowed there; the main site's
+     `Disallow: /api` is that host only and is never touched), no
+     login, 1 request/second, **sale items only** (`sale=true` on the
+     request AND regular > sale re-checked per item in
+     `outlets/scraper/brands.js`) — never the whole catalogue. The
+     page-1 HTML route (`__NEXT_DATA__`) is the same product shape and
+     the same parser. Output `outlets/data/denim-dream.json` (per item:
+     brand, name, the store's own section Naised/Mehed/Lapsed and type
+     e.g. "Teksad", both prices, discount %, link, image, `fresh`,
+     store `position`, `firstSeen`), price history in
+     `outlets/data/denim-dream-price-history.json` (one entry per link
+     per change; `firstSeen` is that link's first date). Ask the owner
+     before a full fetch, as with every scrape.
    - **Klick, Apotheka, Euronics** — next in line (plain-HTML
      shape found in step 1); **Apotheka is cosmetics and hygiene
      discounts ONLY, never medicines** (a pharmacy's OTC medicine
@@ -737,17 +744,27 @@ data on any of these screens; images hotlinked under the same
 - Step 1: see `outlets/investigation.md`; Ideaal Kosmeetika and Lindex
   excluded, Apotheka scoped to cosmetics/hygiene only, the rest
   deferred (above).
-- Step 2: `outlets/data/malls.json` — 5 malls, 589 shops (Ülemiste
-  164, Rocca al Mare 107, Kristiine 90, Viru 63, Lõunakeskus 165),
+- Step 2: `outlets/data/malls.json` — 5 malls, 539 shops (Ülemiste
+  162, Rocca al Mare 106, Kristiine 89, Viru 62, Lõunakeskus 120),
   In-ADS coordinates verified against the registry's own
   point-of-interest list. Parsers in `outlets/scraper/malls.js`, one
   per mall (five different site shapes), fetch in
-  `outlets/scraper/fetch-malls.js`. Known gaps: Lõunakeskus's site
-  gives no per-shop category (client-side filter only), so a few
-  services there (e.g. a car wash) can't be filtered out by category;
-  Viru gives no floor. Opening hours: none of the five list them on
-  the shop-list page — not stored.
-- Step 3: Denim Dream, 150 items, page 1 only (above).
+  `outlets/scraper/fetch-malls.js`. Lõunakeskus's site gives no
+  per-shop category (client-side filter only), so services there are
+  dropped by NAME instead — `isServiceByName` (the owner's word list,
+  2026-09-26: pank, autopesula, kliinik, pesula, juuksur, kingsepp,
+  lukud/võtmed, pakiautomaat, tankla, EV chargers, telecom desks,
+  phone repair, casino, hotel, adventure park ...), applied at every
+  mall; 50 listings removed, all reviewed by the owner. A pharmacy
+  (Apotheka) is a shop and stays. Viru gives no floor. Opening hours:
+  none of the five list them on the shop-list page — not stored.
+- Step 3: Denim Dream via its list API (above); the app's discount
+  list is a fashion-shop card grid (2 columns on a phone, 4 on a
+  desktop) with the store's own section chips (Naised/Mehed/Lapsed),
+  product-type chips, and three sorts (suurim allahindlus / madalaim
+  hind / uusim) — pure logic in `frontend/outlets-logic.js`
+  (`filterAndSortItems`, `itemTypes`, `itemSections`), the chosen
+  filter in `state.outletFilter`, reset when a different shop opens.
 - Step 4: the mall list → shops → items screens exist (see
   "Frontend"); the location + radius picker is NOT built yet.
 - Step 5: `outlets/scraper/daily-update.js` refreshes malls weekly

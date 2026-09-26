@@ -87,7 +87,7 @@ function makeState(overrides) {
   };
 }
 const noop = () => {};
-const actions = { openProduct: noop, openCategory: noop, goHome: noop, goto: noop, setQuery: noop, setQuantity: noop, setLang: noop, openOutletMall: noop, openOutletShop: noop };
+const actions = { openProduct: noop, openCategory: noop, goHome: noop, goto: noop, setQuery: noop, setQuantity: noop, setLang: noop, openOutletMall: noop, openOutletShop: noop, setOutletFilter: noop };
 
 function render(state, customActions) {
   const root = new FakeNode("div");
@@ -114,8 +114,8 @@ const OUTLET_BRANDS = [
     scrapedAt: "2026-09-26T10:00:00.000Z",
     catalogueCount: 5575,
     items: [
-      { id: "1", name: "Calvin Klein Teksaseelik", regularPrice: 99.9, salePrice: 69.9, discountPercent: 30, link: "https://www.denimdream.com/EE/et/toode/1", image: null },
-      { id: "2", name: "Levi's Teksad", regularPrice: 90, salePrice: 45, discountPercent: 50, link: "https://www.denimdream.com/EE/et/toode/2", image: null },
+      { id: "1", brand: "Calvin Klein", name: "Teksaseelik 90S MINI", section: "Naised", type: "Seelikud", regularPrice: 99.9, salePrice: 69.9, discountPercent: 30, link: "https://www.denimdream.com/EE/et/toode/1", image: "https://pic.denimdream.com/1.jpg", fresh: false, position: 2, firstSeen: "2026-09-20" },
+      { id: "2", brand: "Levi's", name: "Teksad 501", section: "Mehed", type: "Teksad", regularPrice: 90, salePrice: 45, discountPercent: 50, link: "https://www.denimdream.com/EE/et/toode/2", image: null, fresh: true, position: 1, firstSeen: "2026-09-26" },
     ],
   },
 ];
@@ -206,14 +206,45 @@ const results = [
     const { text } = render(makeState({ screen: "outletMall", outletMallId: "viru", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
     assert.ok(text.includes("Ühelgi selle keskuse kauplusel pole praegu allahindlusandmeid"));
   }),
-  test("Outletid shop screen: real sale items with sale price, struck-through regular price, discount %, a link to the brand's own page, and the required 'online discount' label shown every time", () => {
+  test("Outletid shop screen (2026-09-26 redesign): a card grid — each card ONE link to the brand's page in a new tab, 3:4 photo with the discount badge on it (neutral icon when there's no photo), brand small, name, sale price, 'tavahind' struck through; the Estonian note, the item count and 'Uuendatud' line; biggest discount first by default", () => {
     const { root, text } = render(makeState({ screen: "outletShop", outletMallId: "ulemiste", outletShopName: "Denim Dream", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
-    assert.ok(text.includes("e-poe allahindlus; see bränd on selles keskuses esindatud"), "the owner's required label");
-    assert.ok(text.includes("Calvin Klein Teksaseelik") && text.includes("69.90") && text.includes("tavahind 99.90") && text.includes("-30%"));
-    assert.ok(text.includes("Levi's Teksad") && text.includes("-50%"));
-    const link = root.find((n) => n.tagName === "a")[0];
-    assert.equal(link.href, "https://www.denimdream.com/EE/et/toode/1");
-    assert.equal(link.target, "_blank");
+    assert.equal(root.className, "page page-wide", "the wide layout, for 4 columns on a desktop");
+    assert.ok(text.includes("E-poe allahindlus. See bränd on selles keskuses esindatud."), "the owner's required note, in Estonian");
+    assert.ok(text.includes("2 toodet") && text.includes("Uuendatud:"));
+    const cards = root.find((n) => n.className === "ocard");
+    assert.equal(cards.length, 2);
+    assert.deepEqual(cards.map((c) => c.href), ["https://www.denimdream.com/EE/et/toode/2", "https://www.denimdream.com/EE/et/toode/1"], "-50% before -30%");
+    assert.ok(cards.every((c) => c.tagName === "a" && c.target === "_blank" && c.rel === "noopener noreferrer"));
+    assert.equal(root.find((n) => n.className === "store-link").length, 0, "no separate 'Vaata poes' button");
+    const [levis, ck] = cards;
+    assert.ok(ck.textContent.includes("Calvin Klein") && ck.textContent.includes("Teksaseelik 90S MINI") && ck.textContent.includes("69.90 €") && ck.textContent.includes("tavahind 99.90 €") && ck.textContent.includes("-30%"));
+    assert.equal(ck.find((n) => n.tagName === "img").length, 1, "a photo when the brand has one");
+    assert.equal(ck.find((n) => n.tagName === "img")[0].src, "https://pic.denimdream.com/1.jpg");
+    assert.equal(levis.find((n) => n.tagName === "img").length, 0, "no <img> without a photo");
+    assert.equal(levis.find((n) => n.attributes.class === "neutral-icon").length, 1, "the neutral icon instead");
+    assert.ok(levis.find((n) => n.className === "ocard-badge")[0].textContent === "-50%");
+    assert.ok(text.includes("Pilt: Denim Dream"));
+  }),
+  test("Outletid shop screen: section / type / sort chips — tapping one calls setOutletFilter; a chosen section narrows the type chips and the grid; 'Madalaim hind' and 'Uusim' reorder", () => {
+    const calls = [];
+    const base = { screen: "outletShop", outletMallId: "ulemiste", outletShopName: "Denim Dream", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS };
+    const { root } = render(makeState(base), { ...actions, setOutletFilter: (p) => calls.push(p) });
+    const chips = (cls) => root.find((n) => n.className === `tab-row ${cls}`)[0].children.map((c) => c.textContent);
+    assert.deepEqual(chips("outlet-sections"), ["Kõik", "Naised", "Mehed"], "the store's own sections that have an item, in its order");
+    assert.deepEqual(chips("outlet-types"), ["Kõik", "Seelikud (1)", "Teksad (1)"]);
+    assert.deepEqual(chips("outlet-sorts"), ["Suurim allahindlus", "Madalaim hind", "Uusim"]);
+    root.find((n) => n.className === "tab" && n.textContent === "Mehed")[0].click();
+    root.find((n) => n.className === "tab" && n.textContent === "Madalaim hind")[0].click();
+    assert.deepEqual(calls, [{ section: "Mehed", type: null }, { sort: "price" }]);
+    const mehed = render(makeState({ ...base, outletFilter: { section: "Mehed", type: null, sort: "discount" } }));
+    assert.deepEqual(mehed.root.find((n) => n.className === "ocard").map((c) => c.href), ["https://www.denimdream.com/EE/et/toode/2"]);
+    assert.ok(mehed.text.includes("1 toodet"));
+    assert.equal(mehed.root.find((n) => n.className === "tab-row outlet-types").length, 0, "one type only in Mehed -> no type row needed");
+    const byPrice = render(makeState({ ...base, outletFilter: { section: null, type: null, sort: "price" } }));
+    assert.deepEqual(byPrice.root.find((n) => n.className === "ocard").map((c) => c.href), ["https://www.denimdream.com/EE/et/toode/2", "https://www.denimdream.com/EE/et/toode/1"]);
+    const newest = render(makeState({ ...base, outletFilter: { section: null, type: null, sort: "newest" } }));
+    assert.equal(newest.root.find((n) => n.className === "tab active")[0].textContent, "Kõik");
+    assert.ok(newest.root.find((n) => n.className === "tab active").some((n) => n.textContent === "Uusim"));
   }),
   test("Category (a display id): only that split's products, Estonian title, 2-column grid cards with image/icon, name, price range, gap badge, store count, Lisa korvi", () => {
     const { root, text } = render(makeState({ screen: "category", category: "piim-ja-jogurt" }));

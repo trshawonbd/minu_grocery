@@ -1,20 +1,27 @@
-// Pure parsers for a brand's own sale/outlet page — outlets roadmap
-// step 3. Each brand gets its own extractor here (the site shapes
-// differ as much as the five malls' did); Denim Dream is first.
+// Pure parsers for a brand's own sale data — outlets roadmap step 3.
+// Each brand gets its own extractor here (the site shapes differ as
+// much as the five malls' did); Denim Dream is first.
 //
-// Denim Dream's outlet page (https://www.denimdream.com/EE/et/<Sex>/Outlet)
-// server-renders its first 50 items as a Next.js __NEXT_DATA__ JSON
-// blob — no regex-scraping of HTML needed, just JSON.parse. One
-// "item" here is one (product, colour) pair, since that is the level
-// with its own link, own picture and own price — a product with two
-// colours in the sale is two separate sale items, matching what a
-// shopper actually clicks through to.
+// Denim Dream serves ONE product shape in two places: the first 50
+// items of a section are server-rendered into the page's Next.js
+// __NEXT_DATA__ blob, and every page (including page 1) comes from
+// its own JSON list API (api-v2.denimdream.com, see
+// fetch-denim-dream.js). Both carry the same `products` array, so one
+// parser reads both. One "item" is one (product, colour) pair — the
+// level with its own link, own picture and own price; a product with
+// two colours in the sale is two sale items, matching what a shopper
+// actually clicks through to.
 //
-// Only variants where the sale price is genuinely below the regular
-// price are kept ("Only real sale items (regular > sale)", the
-// owner's rule) — the page's own "sale"/"outlet" flags are read too
-// but never trusted alone, the same caution groceries give a loyalty
-// price: checked against the real numbers here, not assumed.
+// Only variants whose sale price is genuinely below the regular price
+// are kept ("Only real sale items (regular > sale)", the owner's
+// rule) — the API's own sale/outlet flags are never trusted alone,
+// the same caution groceries give a loyalty price: checked against
+// the real numbers here.
+
+// The API's own sexId values: 1 Mehed, 2 Naised, 3 Lapsed (the kids'
+// section as a whole), 4 Poisid, 5 Tüdrukud, 6 Unisex Kids — the
+// last four are all "Lapsed" on screen, the store's own three tabs.
+const SECTION_BY_SEX_ID = { 1: "Mehed", 2: "Naised", 3: "Lapsed", 4: "Lapsed", 5: "Lapsed", 6: "Lapsed" };
 
 function extractNextData(html) {
   const m = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
@@ -22,17 +29,19 @@ function extractNextData(html) {
   return JSON.parse(m[1]);
 }
 
-// `data` is one page's already-parsed __NEXT_DATA__ object (see
-// extractNextData). Returns { items, count, size } — count/size are
-// the CATALOGUE's own totals (for the fetch script to know it only
-// ever sees page 1 — see the fetch script's own comment on why).
-function parseDenimDreamPage(data) {
-  const pl = data?.props?.pageProps?.initialState?.productsList?.data;
-  if (!pl) return { items: [], count: 0, size: 0 };
+// `list` is the API's own list object ({ products, count, size, page })
+// — identical in shape to the page blob's productsList.data. Returns
+// { items, count, size }; count/size are the CATALOGUE's totals, for
+// the fetch script to know when it has the last page.
+function parseDenimDreamProducts(list) {
+  if (!list) return { items: [], count: 0, size: 0 };
   const items = [];
-  for (const product of pl.products || []) {
+  for (const product of list.products || []) {
     const brand = product.brand?.brand || "";
-    const name = `${brand} ${product.model || ""}`.trim();
+    const name = (product.model || "").trim();
+    const sexId = product.sex?.sexId;
+    const section = SECTION_BY_SEX_ID[sexId] || (product.sex?.kids ? "Lapsed" : product.sex?.sexLocal || null);
+    const type = product.category?.categoryLocal || product.modelType || null;
     for (const color of product.colors || []) {
       if (!color.price) continue;
       const regularPrice = parseFloat(color.price.price);
@@ -42,16 +51,26 @@ function parseDenimDreamPage(data) {
       const picture = color.pictures && color.pictures[0];
       items.push({
         id: String(color.productId),
+        brand,
         name,
+        section,
+        type,
         regularPrice,
         salePrice,
         discountPercent,
         link: color.shareUrl || null,
         image: picture ? picture.urlMedium : null,
+        fresh: product.fresh === true,
+        position: typeof product.position === "number" ? product.position : null,
       });
     }
   }
-  return { items, count: pl.count || 0, size: pl.size || 0 };
+  return { items, count: list.count || 0, size: list.size || 0 };
 }
 
-module.exports = { extractNextData, parseDenimDreamPage };
+// The page-1 HTML route (a whole page's parsed __NEXT_DATA__).
+function parseDenimDreamPage(data) {
+  return parseDenimDreamProducts(data?.props?.pageProps?.initialState?.productsList?.data);
+}
+
+module.exports = { extractNextData, parseDenimDreamProducts, parseDenimDreamPage, SECTION_BY_SEX_ID };

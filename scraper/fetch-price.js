@@ -38,6 +38,7 @@ const { fetchRimiPrice } = require("./stores/rimi");
 const { fetchSelverPrice } = require("./stores/selver");
 const { matchPool } = require("./match-products");
 const { writeRaw } = require("./raw");
+const { buildSingles } = require("./build-singles");
 const { CATEGORIES } = require("./categories");
 const { fetchAllUrls, prepareItem, isUnclassified, toLeftoverEntry, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
 
@@ -162,6 +163,9 @@ async function main() {
   console.log(`Wrote ${unmatchedEntries.length} leftover items to data/unmatched.json.`);
   console.log(`Wrote ${unclassifiedEntries.length} leftover items to data/unclassified.json.`);
   console.log(`Wrote ${ambiguousEntries.length} ambiguous groups to data/ambiguous.json.`);
+  // The app's "Ainult ühes poes" search section follows the data —
+  // see build-singles.js (reads data/raw/ and the file just written).
+  console.log(`Wrote ${buildSingles().length} single-store listings to data/singles.json.`);
 }
 
 main().catch((err) => {

@@ -23,6 +23,7 @@
 const fs = require("fs");
 const path = require("path");
 const { loadRaw, loadRawPool } = require("./raw");
+const { buildSingles } = require("./build-singles");
 const { matchPool } = require("./match-products");
 
 const DATA_DIR = path.join(__dirname, "..", "data");
@@ -275,6 +276,9 @@ function main() {
     `Matched: ${matchedRow.reduce((a, b) => a + b, 0)}, unmatched: ${perCategory.reduce((s, c) => s + c.unmatched, 0)}, ` +
       `unclassified: ${unclassifiedItems.length}, ambiguous groups: ${ambiguousGroups.length}.`
   );
+  // The app's "Ainult ühes poes" search section — see build-singles.js.
+  const singles = buildSingles();
+  console.log(`Wrote ${singles.length} single-store listings to data/singles.json.`);
 }
 
 main();

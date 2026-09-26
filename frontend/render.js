@@ -248,14 +248,61 @@ function renderSearchResults(container, state, actions) {
     return;
   }
   const found = searchProducts(state.searchIndex, query, 60);
-  if (found.length === 0) {
+  const singles = searchSingles(state.singlesIndex, query, 40);
+  if (found.length === 0 && singles.length === 0) {
     container.appendChild(el("div", "muted", tr(state, "nothingFound", { q: query })));
     return;
   }
-  container.appendChild(el("div", "muted", tr(state, found.length === 60 ? "resultsMore" : "results", { n: found.length })));
-  const grid = el("div", "grid");
-  for (const product of found) grid.appendChild(productCard(product, state, actions));
-  container.appendChild(grid);
+  if (found.length > 0) {
+    container.appendChild(el("div", "muted", tr(state, found.length === 60 ? "resultsMore" : "results", { n: found.length })));
+    const grid = el("div", "grid");
+    for (const product of found) grid.appendChild(productCard(product, state, actions));
+    container.appendChild(grid);
+  }
+  // Search only — never on a category screen (see app-logic.js).
+  if (singles.length > 0) {
+    container.appendChild(el("h2", "section-title", tr(state, "onlyOneStore")));
+    container.appendChild(el("div", "muted", tr(state, "onlyOneStoreHint")));
+    const list = el("div", "store-list");
+    for (const single of singles) list.appendChild(singleRow(single, state));
+    container.appendChild(list);
+  }
+}
+
+// One single-store listing: coloured store label, the store's own
+// name, price, unit price, and "View at store" in a new tab. No
+// "cheapest", no basket — there is nothing to compare it against.
+function singleRow(single, state) {
+  const row = el("div", "store-row single-row");
+  const left = el("div", "store-left");
+  left.appendChild(el("div", `store-name store-${single.store}`, storeLabel(single.store)));
+  left.appendChild(el("div", "single-name", single.name));
+  if (single.url) {
+    const link = document.createElement("a");
+    link.className = "store-link";
+    link.href = single.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = tr(state, "viewAtStore");
+    left.appendChild(link);
+  }
+  row.appendChild(left);
+  const right = el("div", "store-right");
+  right.appendChild(el("div", "store-price", money(single.price, single.currency)));
+  const unit = unitPrice(single);
+  if (unit) {
+    right.appendChild(el("div", "store-sub", `${money(unit.value, single.currency)}/${unit.unit}`));
+  } else if (single.storeUnitPrice != null) {
+    right.appendChild(el("div", "store-sub", `${money(single.storeUnitPrice, single.currency)}${tr(state, "perKg")}`));
+  }
+  if (single.regularPrice != null && single.regularPrice > single.price) {
+    right.appendChild(el("div", "store-sub store-regular", tr(state, "usually", { price: money(single.regularPrice, single.currency) })));
+  }
+  if (single.cardPrice != null) {
+    right.appendChild(el("div", "store-sub", tr(state, "withCard", { price: money(single.cardPrice, single.currency), card: single.cardName })));
+  }
+  row.appendChild(right);
+  return row;
 }
 
 // state.category is a display category id (catalog.js).

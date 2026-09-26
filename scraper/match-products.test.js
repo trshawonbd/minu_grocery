@@ -1352,6 +1352,20 @@ const tests = [
     },
   },
   {
+    name: "Brand spelling: hyphens, periods, spaces and apostrophes in a store's brand field are not part of the brand (TORU-SIIL = TORUSIIL, MAKS & MOORITS = MAKS&MOORITS, A. Le Coq = A.LE COQ, Grant's = Grants) — a genuinely different brand still never matches",
+    run: () => {
+      const h = (store, name, brand) => buildItem("Household", store, name, { brand });
+      assert.equal(sameProduct(h("Barbora", "Torupuhastusvahend TORU-SIIL 1L", "TORU-SIIL"), h("Selver", "Torupuhastusvahend, TORUSIIL, 1 l", "TORUSIIL")), true);
+      const s = (store, name, brand) => buildItem("Sausages", store, name, { brand });
+      assert.equal(sameProduct(s("Barbora", "Koduviiner M&M,500g", "MAKS & MOORITS"), s("Selver", "Koduviiner, MAKS&MOORITS, 500 g", "MAKS&MOORITS")), true);
+      const b = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });
+      assert.equal(sameProduct(b("Barbora", "Hele õlu A. LE COQ Premium 4.7% 330ml", "A. LE COQ"), b("Rimi", "Õlu A. Le Coq Premium 4,7% 0,33l", "A.Le Coq")), true);
+      const sp = (store, name, brand) => buildItem("Spirits", store, name, { brand });
+      assert.equal(sameProduct(sp("Barbora", "Whisky GRANTS Triple Wood 40% 1L", "GRANTS"), sp("Rimi", "Whisky Grant's Triple Wood 40%vol 1l", "Grant's")), true);
+      assert.equal(sameProduct(h("Barbora", "Torupuhastusvahend TIRET 1L", "TIRET"), h("Selver", "Torupuhastusvahend, TORUSIIL, 1 l", "TORUSIIL")), false);
+    },
+  },
+  {
     name: "Beer: 'Hele õlu' as the type phrase folds to 'õlu' (Barbora/Selver's lager prefix vs Rimi's plain 'Õlu'), but a product's own 'Hele' (Saku Hele) stays its name — it matches itself across stores and never Saku Kuld",
     run: () => {
       const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });

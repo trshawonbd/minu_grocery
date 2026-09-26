@@ -271,6 +271,23 @@ the owner.
   wanted). Many paper products still don't match because the stores
   describe them differently ("Pure White" vs "White") — missing, not
   wrong.
+- **Brand spelling (2026-09-27)**: a store's brand field is compared
+  with hyphens, periods, spaces and apostrophes removed (`brandKey` in
+  `scraper/match-products.js`): TORU-SIIL = TORUSIIL, MAKS & MOORITS
+  = MAKS&MOORITS, A. Le Coq = A.LE COQ, Grant's = Grants. Found via
+  Torusiil 1 l (all three stores, never matched); the rule added 42
+  correct matches across Cheese, Chocolate, Sausages, Ham & cold
+  cuts, Personal care, Beer and Spirits, every one read by hand. The
+  Torusiil product itself needed a `data/products.json` override too
+  (Rimi adds the manufacturer "Mayeri" to the name).
+- **Single-store listings in search** (owner, 2026-09-27):
+  `data/singles.json` (`scraper/build-singles.js`, run by `npm run
+  review`, `fetch-price.js` and `daily-update.js`) holds every scraped
+  listing no comparison contains — the app shows them ONLY under
+  search results, after the compared products, as "Ainult ühes poes"
+  with the store's own name, price, unit price and link; never on a
+  category screen, never with "cheapest" or a basket button. The
+  `SHOW_ALCOHOL` gate applies to them by category.
 - **Per-category implied words**: a word true of every item in a
   category (`impliedDescriptors` in `scraper/categories.js` —
   "külmutatud" in the frozen categories, Pasta's generic

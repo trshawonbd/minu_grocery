@@ -87,6 +87,23 @@ const results = [
     assert.ok(!cheaperThanUsual(withAlcoholHidden, 50).some((d) => isAlcoholProduct(d.product)));
     assert.equal(compareBasket(withAlcoholHidden, { [productKey(beer)]: 1 }).lines.length, 0);
   }),
+  test("Single-store listings: searchSingles folds Estonian letters and needs every word, honours the limit, and SHOW_ALCOHOL hides alcohol singles by category", () => {
+    const { visibleSingles, buildSinglesIndex, searchSingles } = require("./app-logic");
+    const singles = [
+      { store: "selver", category: "Household", name: "Torupuhastusvahend, TORUSIIL, 1 l", price: 2.49, currency: "EUR", url: "https://example.test/s/torusiil", size: "1000ml" },
+      { store: "barbora", category: "Beer & cider", name: "Õlu SAKU Kuld 5,2% 500ml", price: 1.65, currency: "EUR", url: "https://example.test/b/saku" },
+      { store: "rimi", category: "Dairy", name: "Kanamunad Rimi Smart M 10tk", price: 1.99, currency: "EUR", url: "https://example.test/r/munad" },
+    ];
+    const index = buildSinglesIndex(singles);
+    assert.deepEqual(searchSingles(index, "toru").map((s) => s.name), ["Torupuhastusvahend, TORUSIIL, 1 l"]);
+    assert.deepEqual(searchSingles(index, "olu saku").map((s) => s.name), ["Õlu SAKU Kuld 5,2% 500ml"], "Estonian letters optional, any word order");
+    assert.deepEqual(searchSingles(index, "saku tume"), [], "every word must be there");
+    assert.deepEqual(searchSingles(index, ""), []);
+    assert.equal(searchSingles(index, "a", 1).length, 1, "limit");
+    assert.deepEqual(visibleSingles(singles, false).map((s) => s.category), ["Household", "Dairy"], "alcohol singles hidden when SHOW_ALCOHOL is false");
+    assert.equal(visibleSingles(singles, true).length, 3);
+    assert.deepEqual(searchSingles(undefined, "toru"), [], "no singles file loaded");
+  }),
   test("Search skips hidden products and honours the result limit", () => {
     const hidden = product("Piim hidden", "Dairy", { barbora: { price: 1 } }, { hidden: true });
     const many = Array.from({ length: 70 }, (_, i) => product(`Piim ${i}`, "Dairy", { barbora: { price: 1 }, rimi: { price: 1 } }));

@@ -93,6 +93,8 @@
   .store-availability-note { font-size: 11px; color: var(--amber); margin-top: 2px; font-style: italic; }
   .store-tag { font-size: 11.5px; font-weight: 700; margin-top: 4px; }
   .store-tag.best { color: var(--green); } .store-tag.more { color: var(--amber); }
+  .single-row { background: #FAFAF6; }
+  .single-name { font-size: 12.5px; font-weight: 600; margin-top: 2px; line-height: 1.3; }
 
   .basket-list { display: flex; flex-direction: column; gap: 8px; }
   .basket-line { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
@@ -139,6 +141,8 @@
       updatedAt: null,
       stale: false,
       lang: loadLang(),
+      singles: [],       // data/singles.json — search results only
+      singlesIndex: [],
     };
     const root = document.getElementById("app");
     const nav = document.getElementById("nav");
@@ -230,9 +234,29 @@
       }
     }
 
+    // Single-store listings for the search screen's "Ainult ühes poes"
+    // section — optional: the page works without the file.
+    async function loadSingles() {
+      try {
+        const response = await fetch("/data/singles.json");
+        if (!response.ok) return;
+        const singles = await response.json();
+        if (!Array.isArray(singles)) return;
+        state.singles = singles;
+        state.singlesIndex = buildSinglesIndex(singles);
+        if (state.screen === "search") {
+          const results = document.getElementById("search-results");
+          if (results) renderSearchResults(results, state, actions);
+        }
+      } catch (err) {
+        // Informational only.
+      }
+    }
+
     window.addEventListener("hashchange", applyRoute);
     loadPrices();
     loadUpdateStatus();
+    loadSingles();
   </script>
 </body>
 </html>

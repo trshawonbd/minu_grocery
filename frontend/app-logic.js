@@ -80,6 +80,33 @@ function searchProducts(index, query, limit = 60) {
   return results;
 }
 
+// --- Single-store listings ("Ainult ühes poes", search only) ---
+// data/singles.json (scraper/build-singles.js): every scraped listing
+// no comparison holds. Shown ONLY under search results, after the
+// compared products, with the store's own name, price and link —
+// category browsing stays comparisons only (the owner's call,
+// 2026-09-27). The same SHOW_ALCOHOL gate applies by category.
+function visibleSingles(singles, showAlcohol = SHOW_ALCOHOL) {
+  return (singles || []).filter((s) => showAlcohol || !ALCOHOL_CATEGORIES.has(s.category));
+}
+
+function buildSinglesIndex(singles) {
+  return visibleSingles(singles).map((single) => ({ single, text: normalizeText(single.name) }));
+}
+
+function searchSingles(index, query, limit = 40) {
+  const words = normalizeText(query).split(" ").filter(Boolean);
+  if (words.length === 0) return [];
+  const results = [];
+  for (const entry of index || []) {
+    if (words.every((w) => entry.text.includes(w))) {
+      results.push(entry.single);
+      if (results.length >= limit) break;
+    }
+  }
+  return results;
+}
+
 // --- Price gaps ---
 
 // min/max across the product's available stores of the value that
@@ -242,6 +269,9 @@ if (typeof module !== "undefined") {
     normalizeText,
     buildSearchIndex,
     searchProducts,
+    visibleSingles,
+    buildSinglesIndex,
+    searchSingles,
     priceSummary,
     biggestDifferences,
     cheaperThanUsual,

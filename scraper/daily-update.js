@@ -53,6 +53,7 @@ const { fetchSelverPrice } = require("./stores/selver");
 const { CATEGORIES } = require("./categories");
 const { matchPool } = require("./match-products");
 const { loadRaw, writeRaw } = require("./raw");
+const { buildSingles } = require("./build-singles");
 const { fetchAllUrls, prepareItem, toPricesObject } = require("./scrape-output");
 const { checkRepoSafety, checkStoreSafety, updateProductPrices, updateHidden, findLeftoverPool } = require("./daily-update-logic");
 
@@ -269,6 +270,8 @@ async function main() {
   }
 
   writeJson(PRICES_PATH, prices);
+  // data/singles.json follows the refreshed raw data and prices — see build-singles.js.
+  buildSingles();
   writeJson(PENDING_PATH, pendingEntries);
   writeJson(ALERTS_PATH, alerts);
   writeJson(path.join(HISTORY_DIR, `${today()}.json`), prices);

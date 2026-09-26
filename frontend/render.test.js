@@ -192,6 +192,32 @@ const results = [
     assert.ok(!container.textContent.includes("Lisa korvi"));
     assert.ok(container.find((n) => n.className === "qty-value").some((n) => n.textContent === "2"));
   }),
+  test("Search: 'Ainult ühes poes' shows single-store listings after the compared results — store label, the store's own name, price, unit price, Vaata poes in a new tab — also when no compared product matches; a category screen never shows them", () => {
+    const singles = [
+      { store: "selver", category: "Household", name: "Torupuhastusvahend, TORUSIIL, 1 l", price: 2.49, currency: "EUR", url: "https://example.test/s/torusiil", size: "1000ml" },
+      { store: "rimi", category: "Dairy", name: "Kanamunad Rimi Smart M 10tk", price: 1.99, currency: "EUR", url: "https://example.test/r/munad", size: "10tk" },
+    ];
+    const withSingles = (overrides) => makeState({ singles, singlesIndex: buildSinglesIndex(singles), ...overrides });
+    const container = new FakeNode("div");
+    renderSearchResults(container, withSingles({ query: "toru" }), actions);
+    const text = container.textContent;
+    assert.ok(!text.includes("Midagi ei leitud"), "a single-store hit is a result");
+    assert.ok(text.includes("Ainult ühes poes") && text.includes("Torupuhastusvahend, TORUSIIL, 1 l") && text.includes("2.49 €") && text.includes("2.49 €/l"));
+    assert.ok(container.find((n) => n.className === "store-name store-selver").length === 1, "coloured store label");
+    const links = container.find((n) => n.tagName === "a");
+    assert.equal(links.length, 1);
+    assert.ok(links[0].target === "_blank" && links[0].href === "https://example.test/s/torusiil" && links[0].textContent.includes("Vaata poes"));
+    assert.ok(!text.includes("Lisa korvi"), "nothing to add to a basket");
+    // Compared products first, singles after.
+    renderSearchResults(container, withSingles({ query: "piim" }), actions);
+    assert.ok(container.textContent.includes("Alma Piim 2.5% 1000ml") && !container.textContent.includes("Ainult ühes poes"));
+    renderSearchResults(container, withSingles({ query: "munad" }), actions);
+    assert.ok(container.textContent.includes("Kanamunad Rimi Smart M 10tk") && container.textContent.includes("0.20 €/tk"));
+    renderSearchResults(container, withSingles({ query: "zzzz" }), actions);
+    assert.ok(container.textContent.includes("Midagi ei leitud"));
+    const cat = render(withSingles({ screen: "category", category: "piim-ja-jogurt" })).text;
+    assert.ok(!cat.includes("Ainult ühes poes") && !cat.includes("TORUSIIL"), "category browsing stays comparisons only");
+  }),
   test("Basket: lines with quantity, Võrdle korvi with the complete store cheapest, a store missing items never cheapest, the split total and its saving; empty basket message", () => {
     const state = makeState({ screen: "basket", basket: { [productKey(piim)]: 2, [productKey(oun)]: 1 } });
     const { text } = render(state);

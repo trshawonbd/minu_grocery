@@ -1313,8 +1313,17 @@ function isMultipack(size) {
   return typeof size === "string" && /^\d/.test(size) && size.includes("x");
 }
 
+// Two spellings of one brand are one brand: Selver's "TORUSIIL" is
+// Barbora's and Rimi's "TORU-SIIL", "A.Le Coq" is "A. Le Coq" — the
+// hyphens, periods and spaces a store's brand field happens to carry
+// are not part of the brand. Found because Torusiil 1 l, sold at all
+// three stores, never matched (2026-09-27).
+function brandKey(brand) {
+  return String(brand).toLowerCase().replace(/[\s.\-–'’]/g, "");
+}
+
 function sameBrandedProduct(sigA, sigB) {
-  if (!sigA.brand || !sigB.brand || sigA.brand !== sigB.brand) return false;
+  if (!sigA.brand || !sigB.brand || brandKey(sigA.brand) !== brandKey(sigB.brand)) return false;
 
   if (sigA.matchAcrossWeights && sigB.matchAcrossWeights) {
     // Meat: cheapest is decided by per-kg price (see storeUnitPrice in
@@ -1456,7 +1465,7 @@ function extractDiaperSize(name) {
 // weight, never an S-number) still has to agree on everything else;
 // it just isn't blocked on a size neither side states.
 function sameDiaperProduct(sigA, sigB) {
-  if (!sigA.brand || !sigB.brand || sigA.brand !== sigB.brand) return false;
+  if (!sigA.brand || !sigB.brand || brandKey(sigA.brand) !== brandKey(sigB.brand)) return false;
   if (sigA.isDiaperWipe !== sigB.isDiaperWipe) return false;
   if (sigA.diaperMultipack !== sigB.diaperMultipack) return false;
   if (sigA.diaperPieceCount === null || sigB.diaperPieceCount === null || sigA.diaperPieceCount !== sigB.diaperPieceCount) {

@@ -55,6 +55,8 @@ const STRINGS = {
     perKg: "/kg",
     back: "‹ {name}",
     other: "Muu",
+    onlyOneStore: "Ainult ühes poes",
+    onlyOneStoreHint: "Neid tooteid müüb ainult üks pood — võrdlust pole, hind on poe enda hind.",
   },
   en: {
     tagline: "{n} products compared — Barbora, Rimi and Selver",
@@ -103,6 +105,8 @@ const STRINGS = {
     perKg: "/kg",
     back: "‹ {name}",
     other: "Other",
+    onlyOneStore: "Only at one store",
+    onlyOneStoreHint: "Only one store sells these — no comparison, the price is the store's own.",
   },
   ru: {
     tagline: "{n} товаров в сравнении — Barbora, Rimi и Selver",
@@ -151,6 +155,8 @@ const STRINGS = {
     perKg: "/кг",
     back: "‹ {name}",
     other: "Прочее",
+    onlyOneStore: "Только в одном магазине",
+    onlyOneStoreHint: "Эти товары продаёт только один магазин — сравнения нет, цена магазина.",
   },
 };
 

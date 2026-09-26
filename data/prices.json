@@ -34074,6 +34074,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hommikuhelbed-corn-flakes-kellogg-s-375g",
         "size": "375g",
+        "ean": "5059319014739",
         "storeUnitPrice": 10.64,
         "storeName": "Hommikuhelbed Corn Flakes, KELLOGG'S, 375g"
       }
@@ -34097,6 +34098,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/meerongad-lotte-225-g",
         "size": "225g",
+        "ean": "4771395191852",
         "storeUnitPrice": 7.42,
         "storeName": "Meerõngad, LOTTE, 225 g"
       }
@@ -34152,6 +34154,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kiirkaerapuder-vaarikatega-elovena-6x35-g",
         "size": "6x35g",
+        "ean": "6416597839352",
         "storeUnitPrice": 14.24,
         "storeName": "Kiirkaerapuder vaarikatega, ELOVENA, 6x35 g"
       }
@@ -34170,6 +34173,15 @@
         "storeUnitPrice": 2.94,
         "storeName": "Kiirkaerahelbed HELEN 500g"
       },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirkaerahelbed-500g-4/",
+        "size": "500g",
+        "ean": "4740120000066",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000066.png",
+        "storeName": "Kiirkaerahelbed Helen 500g"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -34183,11 +34195,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kiirkaerahelbed-helen-500-g",
         "size": "500g",
+        "ean": "4740120000066",
         "storeUnitPrice": 2.94,
         "storeName": "Kiirkaerahelbed, HELEN, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Helen Riisihelbed 500g",
@@ -34200,6 +34213,15 @@
         "size": "500g",
         "storeUnitPrice": 4.5,
         "storeName": "Riisihelbed HELEN 500g"
+      },
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riisihelbed-helen-500g/",
+        "size": "500g",
+        "ean": "4740120000097",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000097.png",
+        "storeName": "Riisihelbed Helen 500g"
       },
       "rimi": {
         "price": 2.35,
@@ -34214,11 +34236,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/riisihelbed-helen-500-g",
         "size": "500g",
+        "ean": "4740120000097",
         "storeUnitPrice": 4.78,
         "storeName": "Riisihelbed, HELEN, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Helen Neljaviljahelbed 500g",
@@ -34231,6 +34254,15 @@
         "size": "500g",
         "storeUnitPrice": 2.7,
         "storeName": "Neljaviljahelbed HELEN 500g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/neljaviljahelbed-500g-3/",
+        "size": "500g",
+        "ean": "4740120000059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000059.png",
+        "storeName": "Neljaviljahelbed Helen 500g"
       },
       "rimi": {
         "price": 1.35,
@@ -34245,11 +34277,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/neljaviljahelbed-helen-500-g",
         "size": "500g",
+        "ean": "4740120000059",
         "storeUnitPrice": 2.7,
         "storeName": "Neljaviljahelbed, HELEN, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Helen Täisterakaerahelbed 500g",
@@ -34262,6 +34295,15 @@
         "size": "500g",
         "storeUnitPrice": 2.68,
         "storeName": "Täisterakaerahelbed HELEN 500g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taisterakaerah-500g/",
+        "size": "500g",
+        "ean": "4740120000073",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000073.png",
+        "storeName": "Täisterakaerahelbed Helen 500g"
       },
       "rimi": {
         "price": 1.39,
@@ -34276,11 +34318,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taisterakaerahelbed-helen-500-g",
         "size": "500g",
+        "ean": "4740120000073",
         "storeUnitPrice": 2.7,
         "storeName": "Täisterakaerahelbed, HELEN, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Helen Tatrahelbed 500g",
@@ -34293,6 +34336,15 @@
         "size": "500g",
         "storeUnitPrice": 6.18,
         "storeName": "Tatrahelbed HELEN 500g"
+      },
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tatrahelbed-helen-500g/",
+        "size": "500g",
+        "ean": "4740120000103",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000103.png",
+        "storeName": "Tatrahelbed Helen 500g"
       },
       "rimi": {
         "price": 3.19,
@@ -34307,11 +34359,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tatrahelbed-helen-500-g",
         "size": "500g",
+        "ean": "4740120000103",
         "storeUnitPrice": 6.26,
         "storeName": "Tatrahelbed, HELEN, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Baltix Hirsihelbed 500g",
@@ -34324,6 +34377,15 @@
         "size": "500g",
         "storeUnitPrice": 3.18,
         "storeName": "Hirsihelbed BALTIX 500g"
+      },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hirsihelbed-500g/",
+        "size": "500g",
+        "ean": "4742298000695",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742298000695.png",
+        "storeName": "Hirsihelbed Baltix 500g"
       },
       "rimi": {
         "price": 1.59,
@@ -34338,11 +34400,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hirsihelbed-baltix-500-g",
         "size": "500g",
+        "ean": "4742298000695",
         "storeUnitPrice": 3.18,
         "storeName": "Hirsihelbed, BALTIX, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Veski mati Viljahelbed kliidega 500g",
@@ -34356,16 +34419,26 @@
         "storeUnitPrice": 3.7,
         "storeName": "8-Viljahelbed kliidega VESKI MATI 500g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veski-mati-8-viljahelbed-500g-kliidega/",
+        "size": "500g",
+        "ean": "4740281003180",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740281003180.png",
+        "storeName": "8-viljahelbed Veski Mati 500g kliidega"
+      },
       "selver": {
         "price": 1.85,
         "currency": "EUR",
         "url": "https://www.selver.ee/8-viljahelbed-kliidega-veski-mati-500-g",
         "size": "500g",
+        "ean": "4740281003180",
         "storeUnitPrice": 3.7,
         "storeName": "8-viljahelbed kliidega, VESKI MATI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Täistera kiirkaerahelbed 1000g",
@@ -34378,6 +34451,15 @@
         "size": "1000g",
         "storeUnitPrice": 2.39,
         "storeName": "Täistera kiirkaerahelbed TARTU MILL 1kg"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-kiirkaerah-1kg/",
+        "size": "1000g",
+        "ean": "4740493003015",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493003015.png",
+        "storeName": "Täistera kiirkaerahelbed Tartu Mill 1kg"
       },
       "rimi": {
         "price": 2.39,
@@ -34392,11 +34474,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taistera-kiirkaerahelbed-tartu-mill-1-kg",
         "size": "1000g",
+        "ean": "4740493003015",
         "storeUnitPrice": 2.39,
         "storeName": "Täistera kiirkaerahelbed, TARTU MILL, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Täistera neljaviljahelbed 1000g",
@@ -34409,6 +34492,15 @@
         "size": "1000g",
         "storeUnitPrice": 2.39,
         "storeName": "Täistera neljaviljahelbed TARTU MILL 1kg"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-neljaviljah-1kg/",
+        "size": "1000g",
+        "ean": "4740493003022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740493003022.png",
+        "storeName": "Täistera neljaviljahelbed Tartu Mill 1kg"
       },
       "rimi": {
         "price": 2.39,
@@ -34423,11 +34515,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taistera-neljaviljahelbed-tartu-mill-1-kg",
         "size": "1000g",
+        "ean": "4740493003022",
         "storeUnitPrice": 1.99,
         "storeName": "Täistera neljaviljahelbed, TARTU MILL, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Täistera kiirkaerahelbed 500g",
@@ -34443,6 +34536,15 @@
         "storeUnitPrice": 1.98,
         "storeName": "Täistera kiirkaerahelbed TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-kiirkaerah-500g/",
+        "size": "500g",
+        "ean": "4740493030035",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493030035.jpg",
+        "storeName": "Täistera kiirkaerahelbed Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -34456,11 +34558,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taistera-kiirkaerahelbed-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4740493030035",
         "storeUnitPrice": 2.58,
         "storeName": "Täistera kiirkaerahelbed, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Riisihelbed 500g",
@@ -34473,6 +34576,15 @@
         "size": "500g",
         "storeUnitPrice": 3.98,
         "storeName": "Riisihelbed TARTU MILL 500g"
+      },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-riisihelbed-500g/",
+        "size": "500g",
+        "ean": "4740493031049",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740493031049.jpg",
+        "storeName": "Riisihelbed Tartu Mill 500g"
       },
       "rimi": {
         "price": 1.99,
@@ -34487,8 +34599,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/riisihelbed-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4740493031049",
         "storeUnitPrice": 3.98,
         "storeName": "Riisihelbed, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Axa Kiirkaerahelbepuder mustikaga 40g",
+    "category": "Cereals & oats",
+    "prices": {
+      "barbora": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiirkaerahelbepuder-axa-mustikaga-40-g",
+        "size": "40g",
+        "storeUnitPrice": 13.75,
+        "storeName": "Kiirkaerahelbepuder AXA mustikaga 40g"
+      },
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/axa-kiirkaerahelbepuder-40g-mustikaga/",
+        "size": "40g",
+        "ean": "4820008123251",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4820008123251.png",
+        "storeName": "Kiirkaerahelbepuder Axa 40g mustikaga"
       }
     },
     "matchedVia": "automatic"
@@ -34528,16 +34665,26 @@
         "storeUnitPrice": 3.98,
         "storeName": "Kaera-ja riisihelbe segu VESKI MATI 500g"
       },
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veski-mati-kaera-ja-riisihelbe-segu-500g/",
+        "size": "500g",
+        "ean": "4740281003111",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/4740281003111.png",
+        "storeName": "Kaera- ja riisihelbe segu Veski Mati 500g"
+      },
       "selver": {
         "price": 2.02,
         "currency": "EUR",
         "url": "https://www.selver.ee/kaera-ja-riisihelbe-segu-veski-mati-500-g",
         "size": "500g",
+        "ean": "4740281003111",
         "storeUnitPrice": 4.04,
         "storeName": "Kaera- ja riisihelbe segu, VESKI MATI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Veski mati Kiirkaerahelbed 500g",
@@ -34598,16 +34745,26 @@
         "storeUnitPrice": 1.88,
         "storeName": "Kaerahelbed TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerahelbed-500g/",
+        "size": "500g",
+        "ean": "4743303155430",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743303155430.png",
+        "storeName": "Kaerahelbed Tartu Mill 500g"
+      },
       "selver": {
         "price": 1.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/kaerahelbed-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4743303155430",
         "storeUnitPrice": 2.18,
         "storeName": "Kaerahelbed, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Kaerahelbepuder vaarika 35g",
@@ -34623,6 +34780,15 @@
         "storeUnitPrice": 11.14,
         "storeName": "Kaerahelbepuder vaarika TARTU MILL 35g"
       },
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-kaerah-kiirpuder-35g-vaarika/",
+        "size": "35g",
+        "ean": "4743303100027",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4743303100027.png",
+        "storeName": "Kaerahelbe kiirpuder Tartu Mill 35g vaarika"
+      },
       "rimi": {
         "price": 0.49,
         "currency": "EUR",
@@ -34636,11 +34802,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kaerahelbepuder-vaarika-tartu-mill-35-g",
         "size": "35g",
+        "ean": "4743303100027",
         "storeUnitPrice": 14,
         "storeName": "Kaerahelbepuder vaarika, TARTU MILL, 35 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Veski mati Kaerakliid 1000g",
@@ -34723,6 +34890,15 @@
         "storeUnitPrice": 7.97,
         "storeName": "Röstitud müsli puuviljadega SANTE 350g"
       },
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rost-musli-puuvilja-350g/",
+        "size": "350g",
+        "ean": "5900617002211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5900617002211.png",
+        "storeName": "Röst.müsli Sante 350g puuviljadega"
+      },
       "rimi": {
         "price": 2.79,
         "currency": "EUR",
@@ -34736,11 +34912,45 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rostitud-musli-puuviljadega-sante-350-g",
         "size": "350g",
+        "ean": "5900617002211",
         "storeUnitPrice": 8.11,
         "storeName": "Röstitud müsli puuviljadega, SANTE, 350 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sante Naturaalne röstitud müsli 350g",
+    "category": "Cereals & oats",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/naturaalne-rostitud-musli-sante-350-g",
+        "size": "350g",
+        "storeUnitPrice": 6.83,
+        "storeName": "Naturaalne röstitud müsli SANTE 350g"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rost-musli-sante-350g/",
+        "size": "350g",
+        "ean": "5900617002228",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5900617002228.png",
+        "storeName": "Röstitud müsli Sante 350g naturaalne"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostitud-musli-sante-350-g",
+        "size": "350g",
+        "ean": "5900617002228",
+        "storeUnitPrice": 6.83,
+        "storeName": "Röstitud müsli, SANTE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Herkuless Müsli šokolaadi granola 3 350g",
@@ -34754,16 +34964,26 @@
         "storeUnitPrice": 7.97,
         "storeName": "Müsli 3 šokolaadi Granola HERKULESS 350g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herkuless-rostitud-musli-350g-3-shok/",
+        "size": "350g",
+        "ean": "4750020001407",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4750020001407.png",
+        "storeName": "Röstitud müsli Herkuless 350g 3 shokolaadi"
+      },
       "selver": {
         "price": 2.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/granola-musli-3-sokolaadi-herkuless-350-g",
         "size": "350g",
+        "ean": "4750020001407",
         "storeUnitPrice": 7.97,
         "storeName": "Granola müsli 3 šokolaadi, HERKULESS, 350 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Axa Müsli marjadega premium 330g",
@@ -34777,21 +34997,40 @@
         "storeUnitPrice": 8.27,
         "storeName": "Müsli marjadega Premium AXA 330g"
       },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/axa-premium-musli-330g-marjadega/",
+        "size": "330g",
+        "ean": "4820237692566",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/08/4820237692566.png",
+        "storeName": "Müsli Axa Premium 330g marjadega"
+      },
       "selver": {
         "price": 2.73,
         "currency": "EUR",
         "url": "https://www.selver.ee/premium-musli-marjadega-axa-330-g",
         "size": "330g",
+        "ean": "4820237692566",
         "storeUnitPrice": 8.27,
         "storeName": "Premium müsli marjadega, AXA, 330 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Tartu mill Kaerahelbed täistera jämedad 1000g",
+    "name": "Tartu mill Täistera jämedad kaerahelbed 1000g",
     "category": "Cereals & oats",
     "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jamedad-kaerahelbed-1kg-2/",
+        "size": "1000g",
+        "ean": "4740493003008",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493003008.jpg",
+        "storeName": "Täistera jämedad kaerahelbed Tartu Mill 1kg"
+      },
       "rimi": {
         "price": 2.39,
         "currency": "EUR",
@@ -34805,16 +35044,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taistera-jamedad-kaerahelbed-tartu-mill-1kg",
         "size": "1000g",
+        "ean": "4740493003008",
         "storeUnitPrice": 2.39,
         "storeName": "Täistera jämedad kaerahelbed, TARTU MILL, 1kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Tartu mill Kaerahelbed täistera jämedad 500g",
+    "name": "Tartu mill Täistera jämedad kaerahelbed 500g",
     "category": "Cereals & oats",
     "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jamedad-kaerahelbed-500g/",
+        "size": "500g",
+        "ean": "4740493004036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740493004036.jpg",
+        "storeName": "Täistera jämedad kaerahelbed Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -34828,16 +35077,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taistera-jamedad-kaerahelbed-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4740493004036",
         "storeUnitPrice": 2.58,
         "storeName": "Täistera jämedad kaerahelbed, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Tartu mill Neljaviljahelbed täistera 500g",
+    "name": "Tartu mill Täistera neljaviljahelbed 500g",
     "category": "Cereals & oats",
     "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-4-viljah-500g/",
+        "size": "500g",
+        "ean": "4740493031032",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493031032.png",
+        "storeName": "Täistera neljaviljahelbed Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -34851,16 +35110,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taistera-neljaviljahelbed-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4740493031032",
         "storeUnitPrice": 2.58,
         "storeName": "Täistera neljaviljahelbed, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Veski mati Helbed seemnete ja kliidega 500g",
+    "name": "Veski mati Seemnete ja kliidega helbed 500g",
     "category": "Cereals & oats",
     "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seemne-klii-helbed-500g/",
+        "size": "500g",
+        "ean": "4740281003104",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281003104.png",
+        "storeName": "Seemnete ja kliidega helbed Veski Mati 500g"
+      },
       "rimi": {
         "price": 1.45,
         "currency": "EUR",
@@ -34875,16 +35144,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/helbed-seemnete-ja-kliidega-veski-mati-500-g",
         "size": "500g",
+        "ean": "4740281003104",
         "storeUnitPrice": 3.98,
         "storeName": "Helbed seemnete ja kliidega, VESKI MATI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Sante Röstitud müsli banaani šokolaadi 350g",
+    "name": "Sante Röst müsli banaani ja shokolaadiga 350g",
     "category": "Cereals & oats",
     "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rost-musli-ban-shok-350g/",
+        "size": "350g",
+        "ean": "5900617002617",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900617002617.png",
+        "storeName": "Röst.müsli Sante 350g banaani ja shokolaadiga"
+      },
       "rimi": {
         "price": 2.79,
         "currency": "EUR",
@@ -34898,11 +35177,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rostitud-musli-banaani-sokolaadi-sante-350-g",
         "size": "350g",
+        "ean": "5900617002617",
         "storeUnitPrice": 8.26,
         "storeName": "Röstitud müsli banaani-šokolaadi, SANTE, 350 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Elovena Kiirkaerahelbed 500g",
@@ -34923,6 +35203,7 @@
         "cardPrice": 1.89,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "6416597838409",
         "storeUnitPrice": 4.5,
         "storeName": "Kiirkaerahelbed, ELOVENA, 500 g"
       }
@@ -34946,6 +35227,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kaerahelbepuder-mustasostra-tartu-mill-35-g",
         "size": "35g",
+        "ean": "4743303100041",
         "storeUnitPrice": 11.14,
         "storeName": "Kaerahelbepuder mustasõstra, TARTU MILL, 35 g"
       }
@@ -34971,6 +35253,7 @@
         "cardPrice": 2.15,
         "cardName": "Partner",
         "size": "600g",
+        "ean": "6411200004400",
         "storeUnitPrice": 4.05,
         "storeName": "Kaerahelbed kaerakliidega, ELOVENA, 600 g"
       }
@@ -34978,9 +35261,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Tartu mill Kaerahelbepuder õuna kaneeli 35g",
+    "name": "Tartu mill Kaerahelbe kiirpuder õuna kaneeli 35g",
     "category": "Cereals & oats",
     "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-kaerah-kiirpuder-35g-o-kaneel/",
+        "size": "35g",
+        "ean": "4743303100089",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4743303100089.png",
+        "storeName": "Kaerahelbe kiirpuder Tartu Mill 35g õuna-kaneeli"
+      },
       "rimi": {
         "price": 0.49,
         "currency": "EUR",
@@ -34994,11 +35286,1257 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kaerahelbepuder-ouna-kaneeli-tartu-mill-35-g",
         "size": "35g",
+        "ean": "4743303100089",
         "storeUnitPrice": 14,
         "storeName": "Kaerahelbepuder õuna-kaneeli, TARTU MILL, 35 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oho Hommikusöök shokolaadiga riis 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/h-sook-shok-ga-riis-500g/",
+        "size": "500g",
+        "ean": "4770149204053",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770149204053.jpg",
+        "storeName": "Hommikusöök shokolaadiga riis Oho 500g"
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadiga-riis-oho-500-g",
+        "size": "500g",
+        "ean": "4770149204053",
+        "storeUnitPrice": 7.3,
+        "storeName": "Šokolaadiga riis, OHO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle lion helb kar shok terav karamelliga 600g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-viljahelb-lion-600g/",
+        "size": "600g",
+        "ean": "5900020025579",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/5900020025579.png",
+        "storeName": "Nestle Lion terav.helb.600g shok.-kar."
+      },
+      "selver": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teraviljahelbed-sokolaadi-ja-karamelliga-lion-nestle-600-g",
+        "cardPrice": 4.49,
+        "cardName": "Partner",
+        "size": "600g",
+        "ean": "5900020025579",
+        "storeUnitPrice": 10.32,
+        "storeName": "Teraviljahelbed šokolaadi ja karamelliga Lion, NESTLÉ, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fitness Täistera nisuhelbed nestle 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fitness-taistera-nisuhelbed-375g/",
+        "size": "375g",
+        "ean": "3387390339499",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/3387390339499.png",
+        "storeName": "Täistera nisuhelbed Fitness Nestle 375g"
+      },
+      "selver": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-fitness-nestle-375-g",
+        "cardPrice": 3.49,
+        "cardName": "Partner",
+        "size": "375g",
+        "ean": "3387390339499",
+        "storeUnitPrice": 11.71,
+        "storeName": "Hommikusöök Fitness, NESTLÉ, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cini minis Nisuruudud kaneeli nestle 645g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-cini-minis-645g/",
+        "size": "645g",
+        "ean": "5900020027061",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900020027061.png",
+        "storeName": "Nisuruudud Nestle Cini Minis 645g kaneelimaits."
+      },
+      "selver": {
+        "price": 6.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaneelimaitselised-nisuruudud-cini-minis-nestle-645-g",
+        "cardPrice": 4.49,
+        "cardName": "Partner",
+        "size": "645g",
+        "ean": "5900020027061",
+        "storeUnitPrice": 9.6,
+        "storeName": "Kaneelimaitselised nisuruudud Cini-Minis, NESTLE, 645 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike väänik Terav padjakesed vaniljetäidisega 250g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/padjakesed-vanilje-250g/",
+        "size": "250g",
+        "ean": "4740320003560",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320003560.jpg",
+        "storeName": "Terav.padjakesed Väike Väänik250g vaniljetäidisega"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/terav-padjakesed-vanilje-vaike-vaanik-250-g",
+        "size": "250g",
+        "ean": "4740320003560",
+        "storeUnitPrice": 9.8,
+        "storeName": "Terav.padjakesed vanilje, VÄIKE VÄÄNIK, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle Teraviljahelbed cookie crisp 625g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teraviljahelbed-625g/",
+        "size": "625g",
+        "ean": "5900020018342",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900020018342.png",
+        "storeName": "Teraviljahelbed Nestle Cookie Crisp 625g"
+      },
+      "selver": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-cookie-crisp-nestle-625-g",
+        "size": "625g",
+        "ean": "5900020018342",
+        "storeUnitPrice": 10.38,
+        "storeName": "Hommikusöök Cookie Crisp, NESTLÉ, 625 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nesquik Teraviljapallid nestle kakaoga 625g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-nesquik-teraviljapallid625g-kakao/",
+        "size": "625g",
+        "ean": "5900020018403",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/5900020018403.png",
+        "storeName": "Teraviljapallid Nestle Nesquik 625g kakaoga"
+      },
+      "selver": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-nesquik-nestle-625-g",
+        "size": "625g",
+        "ean": "5900020018403",
+        "storeUnitPrice": 10.38,
+        "storeName": "Hommikusöök Nesquik, NESTLÉ, 625 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sante Krõbe müsli granola punaste marjadega 350g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krobe-musli-pun-mari350g/",
+        "size": "350g",
+        "ean": "5900617002969",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900617002969.jpg",
+        "storeName": "Krõbe müsli Granola Sante 350g punaste marjadega"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krobe-musli-punaste-marjadega-sante-350-g",
+        "size": "350g",
+        "ean": "5900617002969",
+        "storeUnitPrice": 6.26,
+        "storeName": "Krõbe müsli punaste marjadega, SANTE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sante Röst müsli granola maapähkli premium maapähklikreemiga 350g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sante-granola-premium-350g-maapahkli/",
+        "size": "350g",
+        "ean": "5900617002976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/5900617002976.png",
+        "storeName": "Röst.müsli Granola Premium Sante 350g maapähkli"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostitud-musli-maapahklite-ja-maapahklikreemiga-granola-sante-350-g",
+        "size": "350g",
+        "ean": "5900617002976",
+        "storeUnitPrice": 5.69,
+        "storeName": "Röstitud müsli maapähklite ja maapähklikreemiga Granola, SANTE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sante Krõbe röstitud müsli granola t shok ga šokolaadiga 350g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krobe-musli-granola-350g/",
+        "size": "350g",
+        "ean": "5900617002983",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900617002983.png",
+        "storeName": "Krõbe röstitud müsli Sante Granola 350g t/shok-ga"
+      },
+      "selver": {
+        "price": 3.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krobe-musli-tumeda-sokolaadiga-sante-350-g",
+        "size": "350g",
+        "ean": "5900617002983",
+        "storeUnitPrice": 9.26,
+        "storeName": "Krõbe müsli tumeda šokolaadiga, SANTE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Krõb gl maisihelb mee nestlecornfl pähkli vab 350g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestlecornfl-350g-mee-pahkli-gl-vaba/",
+        "size": "350g",
+        "ean": "5900020038616",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/5900020038616.png",
+        "storeName": "Krõb.maisihelb.NestleCornFl.350g mee-pähkli gl.vab"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-corn-flakes-honey-nut-nestle-350-g",
+        "size": "350g",
+        "ean": "5900020038616",
+        "storeUnitPrice": 10.71,
+        "storeName": "Hommikusöök Corn Flakes Honey & Nut, NESTLÉ, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle Maisihelbed corn flakes gl v 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-corn-flakes-maisihelbed375g-gl-v/",
+        "size": "375g",
+        "ean": "5900020038555",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/5900020038555.png",
+        "storeName": "Maisihelbed Nestle Corn Flakes 375g gl.v."
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-corn-flakes-nestle-375-g",
+        "size": "375g",
+        "ean": "5900020038555",
+        "storeUnitPrice": 7.17,
+        "storeName": "Hommikusöök Corn Flakes, NESTLÉ, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oho Hommikusöögihelbed cookie pillows 175g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oho-hommikusoogihelb-cookie-pillows-175g/",
+        "size": "175g",
+        "ean": "4770149214595",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4770149214595.png",
+        "storeName": "Hommikusöögihelbed Oho Cookie Pillows 175g"
+      },
+      "selver": {
+        "price": 1.58,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-cookie-pillows-oho-175-g",
+        "cardPrice": 1.25,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "4770149214595",
+        "storeUnitPrice": 9.03,
+        "storeName": "Hommikusöök Cookie pillows, OHO, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Axa Röstitud müsli puuviljade ja meega 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rostitud-musli-375g/",
+        "size": "375g",
+        "ean": "4820008120793",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4820008120793-1.png",
+        "storeName": "Röstitud müsli Axa 375g puuviljade ja meega"
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljamusli-meega-axa-375-g",
+        "cardPrice": 2.39,
+        "cardName": "Partner",
+        "size": "375g",
+        "ean": "4820008120793",
+        "storeUnitPrice": 7.84,
+        "storeName": "Puuviljamüsli meega, AXA, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fitness Müsli nestle granola meega 300g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-musli-fitness-granola-300g-meega/",
+        "size": "300g",
+        "ean": "7613035619456",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/7613035619456.png",
+        "storeName": "Müsli Nestle Fitness Granola 300g meega"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/musli-fitness-granola-meega-nestle-300g",
+        "size": "300g",
+        "ean": "7613035619456",
+        "storeUnitPrice": 13.63,
+        "storeName": "Müsli Fitness Granola meega, NESTLÉ, 300g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cini minis Nestle kaneeli 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-cini-minis-375g-kaneelimaits/",
+        "size": "375g",
+        "ean": "5900020022769",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5900020022769.png",
+        "storeName": "Nestle Cini Minis 375g kaneelimaits."
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-cini-minis-nestle-375-g",
+        "size": "375g",
+        "ean": "5900020022769",
+        "storeUnitPrice": 11.44,
+        "storeName": "Hommikusöök Cini-Minis, NESTLÉ, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle Teraviljahelbed lion karamelli shok 400g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-lion-terav-helb-400g-shok-kar/",
+        "size": "400g",
+        "ean": "5900020019530",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5900020019530.png",
+        "storeName": "Teraviljahelbed Nestle Lion 400g shok.-karamelli"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-lion-nestle-400-g",
+        "size": "400g",
+        "ean": "5900020019530",
+        "storeUnitPrice": 10.73,
+        "storeName": "Hommikusöök Lion, NESTLÉ, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle Teraviljahelbed cookie crisp shok 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-cookie-crisp-teraviljahelbed-375g/",
+        "size": "375g",
+        "ean": "5900020011886",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5900020011886.png",
+        "storeName": "Teraviljahelbed Nestle Cookie Crisp 375g shok.mait"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-cookie-crisp-nestle-375-g",
+        "size": "375g",
+        "ean": "5900020011886",
+        "storeUnitPrice": 11.44,
+        "storeName": "Hommikusöök Cookie Crisp, NESTLÉ, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Täistera röstitud kiirtatrahelbed 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-kiirtatrah-500g/",
+        "size": "500g",
+        "ean": "4740493003053",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493003053.jpg",
+        "storeName": "Täistera röstitud kiirtatrahelbed Tartu Mill 500g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-rostitud-kiirtatrahelbed-tartu-mill-500-g",
+        "size": "500g",
+        "ean": "4740493003053",
+        "storeUnitPrice": 5.18,
+        "storeName": "Täistera röstitud kiirtatrahelbed, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Täistera kiirkaerahelbed mahe 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-tera-kiirkaerahel-500g/",
+        "size": "500g",
+        "ean": "4740493006078",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493006078.png",
+        "storeName": "Öko täistera kiirkaerahelbed Tartu Mill 500g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-taistera-kiirkaerahelbed-tartu-mill-500-g",
+        "size": "500g",
+        "ean": "4740493006078",
+        "storeUnitPrice": 4.98,
+        "storeName": "Mahe täistera kiirkaerahelbed, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Kaerahelbe kiirpuder metsamarja metsamarjadega 45g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerah-kiirpuder-45g/",
+        "size": "45g",
+        "ean": "4740281006396",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006396.jpg",
+        "storeName": "Kaerahelbe kiirpuder Veski Mati 45g metsamarja"
+      },
+      "selver": {
+        "price": 0.7,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaerahelbe-kiirpuder-metsamarjadega-veski-mati-45-g",
+        "size": "45g",
+        "ean": "4740281006396",
+        "storeUnitPrice": 15.56,
+        "storeName": "Kaerahelbe kiirpuder metsamarjadega, VESKI MATI, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike väänik Terav padjakesed kakaotäidisega 250g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/padjakesed-kakao-250g/",
+        "size": "250g",
+        "ean": "4740320001542",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320001542.jpg",
+        "storeName": "Terav.padjakesed Väike Väänik 250g kakaotäidisega"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/terav-padjakesed-kakao-vaike-vaanik-250-g",
+        "size": "250g",
+        "ean": "4740320001542",
+        "storeUnitPrice": 9.8,
+        "storeName": "Terav.padjakesed kakao, VÄIKE VÄÄNIK, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle Padjakesed lion wildcrush karam shok 360g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-lion-360g/",
+        "size": "360g",
+        "ean": "7613036673334",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/7613036673334.png",
+        "storeName": "Padjakesed Nestle Lion WildCrush 360g karam.-shok."
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/padjakesed-lion-wildcrush-nestle-360-g",
+        "size": "360g",
+        "ean": "7613036673334",
+        "storeUnitPrice": 13.86,
+        "storeName": "Padjakesed Lion Wildcrush, NESTLÉ, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Täistera kiirkaerahelbed 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiirkaerahelbed-500g-2/",
+        "size": "500g",
+        "ean": "4740281005665",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281005665.jpg",
+        "storeName": "Täistera kiirkaerahelbed Veski Mati 500g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-kiirkaerahelbed-veski-mati-500-g",
+        "size": "500g",
+        "ean": "4740281005665",
+        "storeUnitPrice": 2.58,
+        "storeName": "Täistera Kiirkaerahelbed, VESKI MATI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Veski täistera viljahelbed 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veski-mati-5-viljahelbed-500g/",
+        "size": "500g",
+        "ean": "4740281003333",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740281003333.png",
+        "storeName": "Veski Mati Täistera 5-viljahelbed 500g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-4-viljahelbed-veski-mati-500-g",
+        "size": "500g",
+        "ean": "4740281005672",
+        "storeUnitPrice": 2.58,
+        "storeName": "Täistera 4-viljahelbed, VESKI MATI, 500 g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Elovena Täistera suured glut kaerahelbed vaba 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suured-kaerahelbed-500g/",
+        "size": "500g",
+        "ean": "6411200111351",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411200111351.png",
+        "storeName": "Täistera suured kaerahelbed Elovena 500g glut.vaba"
+      },
+      "selver": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gluteenivabad-suured-taisterakaerahelbed-elovena-500-g",
+        "size": "500g",
+        "ean": "6411200111351",
+        "storeUnitPrice": 6.5,
+        "storeName": "Gluteenivabad suured täisterakaerahelbed, ELOVENA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oho Hommikusöögihelbed cookie rings 150g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oho-hommikusoogihelbed-cookie-rings-150g/",
+        "size": "150g",
+        "ean": "4770149213826",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4770149213826.png",
+        "storeName": "Hommikusöögihelbed Oho Cookie rings 150g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-cookie-rings-oho-150-g",
+        "cardPrice": 1.15,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4770149213826",
+        "storeUnitPrice": 9.8,
+        "storeName": "Hommikusöök \"Cookie rings\", OHO, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oho hommikusöögihelbed fruity froops 150g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oho-hommikusoogihelbed-fruity-froops150g/",
+        "size": "150g",
+        "ean": "4770149213444",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4770149213444.png",
+        "storeName": "Oho Hommikusöögihelbed Fruity froops150g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-fruity-froops-oho-150-g",
+        "cardPrice": 1.15,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4770149213444",
+        "storeUnitPrice": 9.8,
+        "storeName": "Hommikusöök \"Fruity froops\", OHO, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nesquik Teraviljapallid kakao nestle 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-nesquik-teraviljapallid375g-kakao/",
+        "size": "375g",
+        "ean": "5900020013668",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900020013668.png",
+        "storeName": "Teraviljapallid Nestle Nesquik 375g kakaomaits."
+      },
+      "selver": {
+        "price": 4.36,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusoogihelbed-nesquik-nestle-375-g",
+        "size": "375g",
+        "ean": "5900020013668",
+        "storeUnitPrice": 11.63,
+        "storeName": "Hommikusöögihelbed Nesquik, NESTLÉ, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle Hommikusöögihelbed kitkat 330g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-kitkat-hommikusoogihelbed-330g/",
+        "size": "330g",
+        "ean": "5900020043191",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/5900020043191.png",
+        "storeName": "Hommikusöögihelbed Nestle KitKat 330g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusoogihelbed-kitkat-nestle-330-g",
+        "size": "330g",
+        "ean": "5900020043191",
+        "storeUnitPrice": 13,
+        "storeName": "Hommikusöögihelbed KitKat, NESTLÉ, 330 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sante Röst müsli maasika granola shok v 350g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sante-rost-musli-goon-protein350g-v-shok/",
+        "size": "350g",
+        "ean": "5900617043160",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900617043160.png",
+        "storeName": "Röst.müsli Sante Granola 350g v.shok.-maasika"
+      },
+      "selver": {
+        "price": 3.34,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostitud-musli-valge-sokolaadi-maasika-granola-sante-350-g",
+        "size": "350g",
+        "ean": "5900617043160",
+        "storeUnitPrice": 9.54,
+        "storeName": "Röstitud müsli valge šokolaadi-maasika Granola, SANTE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nestle Teraviljarõngad honey cheerios meega 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-honey-cheerios-375g-meega/",
+        "size": "375g",
+        "ean": "5900020022745",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900020022745.png",
+        "storeName": "Teraviljarõngad Nestle Honey Cheerios 375g meega"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-cheerios-nestle-375-g",
+        "size": "375g",
+        "ean": "5900020022745",
+        "storeUnitPrice": 11.44,
+        "storeName": "Hommikusöök Cheerios, NESTLÉ, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Start Padjakesed piima täidisega 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/start-padjakesed-500g-piimam-taidisega/",
+        "size": "500g",
+        "ean": "4820008120854",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4820008120854.png",
+        "storeName": "Padjakesed Start 500g piimamaits.täidisega"
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/padjakesed-piimaga-start-500-g",
+        "size": "500g",
+        "ean": "4820008120854",
+        "storeUnitPrice": 7.3,
+        "storeName": "Padjakesed piimaga, START, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fitness Täistera protein kakaoga nestle padj 310g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-fitness-protein-310g-kakaoga/",
+        "size": "310g",
+        "ean": "5900020043481",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/5900020043481.png",
+        "storeName": "Täistera padj.Nestle Fitness Protein 310g kakaoga"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusoogihelbed-nestle-cocoa-protein-nestle-310-g",
+        "cardPrice": 3.19,
+        "cardName": "Partner",
+        "size": "310g",
+        "ean": "5900020043481",
+        "storeUnitPrice": 13.19,
+        "storeName": "Hommikusöögihelbed Nestlé Cocoa Protein, NESTLÉ, 310 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Axa Röstitud müsli premium troopilise vilja viljadega 330g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/axa-rostitud-musli-330g-troopilise-vilja/",
+        "size": "330g",
+        "ean": "4820237692528",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820237692528.png",
+        "storeName": "Röstitud müsli Axa Premium 330g troopilise vilja"
+      },
+      "selver": {
+        "price": 2.73,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/premium-musli-troopiliste-viljadega-axa-330-g",
+        "size": "330g",
+        "ean": "4820237692528",
+        "storeUnitPrice": 8.27,
+        "storeName": "Premium müsli troopiliste viljadega, AXA, 330 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Herkuless Röstitud müsli pähkli mee meega 350g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herkuless-rostitud-musli-350g-pahkli-mee/",
+        "size": "350g",
+        "ean": "4750020001131",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4750020001131.png",
+        "storeName": "Röstitud müsli Herkuless 350g pähkli-mee"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/granola-musli-pahklite-ja-meega-herkuless-350-g",
+        "size": "350g",
+        "ean": "4750020001131",
+        "storeUnitPrice": 7.69,
+        "storeName": "Granola müsli pähklite ja meega, HERKULESS, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Täistera odrahelbed 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veski-mati-odrahelbed-500g/",
+        "size": "500g",
+        "ean": "4740281002992",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740281002992.png",
+        "storeName": "Täistera odrahelbed Veski Mati 500g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-odrahelbed-veski-mati-500-g",
+        "size": "500g",
+        "ean": "4740281002992",
+        "storeUnitPrice": 3.78,
+        "storeName": "Täistera Odrahelbed, VESKI MATI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Kaerahelbe kiirpuder mustika 45g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerah-kiirp-mustkai45g/",
+        "size": "45g",
+        "ean": "4740281006358",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006358.jpg",
+        "storeName": "Kaerahelbe kiirpuder Veski Mati 45g mustika"
+      },
+      "selver": {
+        "price": 0.52,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiirpuder-mustika-veski-mati-45-g",
+        "size": "45g",
+        "ean": "4740281006358",
+        "storeUnitPrice": 11.56,
+        "storeName": "Kiirpuder Mustika, VESKI MATI, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Veski mati Täistera jämedad kaerahelbed 1000g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jamedad-kaerahelbed-1kg/",
+        "size": "1000g",
+        "ean": "4740281006723",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006723.jpg",
+        "storeName": "Täistera jämedad kaerahelbed Veski Mati 1kg"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-jamedad-kaerahelbed-veski-mati-1-kg",
+        "size": "1000g",
+        "ean": "4740281006723",
+        "storeUnitPrice": 2.19,
+        "storeName": "Täistera jämedad kaerahelbed, VESKI MATI, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oho hommikusöök kolm sõpra 150g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oho-hommikusook-kolm-sopra-150g/",
+        "size": "150g",
+        "ean": "4770149203391",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4770149203391.png",
+        "storeName": "Oho Hommikusöök Kolm sõpra 150g"
+      },
+      "selver": {
+        "price": 1.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-kolm-sopra-oho-150-g",
+        "size": "150g",
+        "ean": "4770149203391",
+        "storeUnitPrice": 8.13,
+        "storeName": "Hommikusöök Kolm sõpra, OHO!, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Axa Röstitud müsli shokolaadi ja meega 375g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rost-musli-shok-375g/",
+        "size": "375g",
+        "ean": "4820008120809",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4820008120809-1.png",
+        "storeName": "Röstitud müsli Axa 375g shokolaadi ja meega"
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadimusli-meega-axa-375-g",
+        "cardPrice": 2.39,
+        "cardName": "Partner",
+        "size": "375g",
+        "ean": "4820008120809",
+        "storeUnitPrice": 7.84,
+        "storeName": "Šokolaadimüsli meega, AXA, 375 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nesquik Teraviljapallid nestle maasika 330g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-nesquik-terav-pallid-330g-maasika/",
+        "size": "330g",
+        "ean": "5900020049308",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/5900020049308.png",
+        "storeName": "Teraviljapallid Nestle Nesquik 330g maasika"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusoogihelbed-nesquik-maasika-nestle-330-g",
+        "size": "330g",
+        "ean": "5900020049308",
+        "storeUnitPrice": 13,
+        "storeName": "Hommikusöögihelbed Nesquik Maasika, NESTLÉ, 330 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Elovena Täistera kiirkaerahelbed gluteenivaba 500g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/elovena-taistera-kiirkaerahelbed-500g/",
+        "size": "500g",
+        "ean": "6411200112983",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/6411200112983.png",
+        "storeName": "Täistera kiirkaerahelbed Elovena 500g gluteenivaba"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-kiirkaerahelbed-elovena-500-g",
+        "size": "500g",
+        "ean": "6411200112983",
+        "storeUnitPrice": 7.1,
+        "storeName": "Täistera kiirkaerahelbed, ELOVENA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Axa Röstitud müsli granola banaani kookose 300g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/axa-rost-musli-granola-300g-ban-kookose/",
+        "size": "300g",
+        "ean": "4820237693150",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820237693150.png",
+        "storeName": "Röstitud müsli Axa Granola 300g banaani, kookose"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seemnete-banaani-kookose-granola-ilma-lisatud-suhkruta-axa-300-g",
+        "cardPrice": 3.19,
+        "cardName": "Partner",
+        "size": "300g",
+        "ean": "4820237693150",
+        "storeUnitPrice": 12.63,
+        "storeName": "Seemnete-banaani-kookose granola ilma lisatud suhkruta, AXA, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fitness Müsli nestle granola jõhvika kõrvitsa 300g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-musli-fitness-granola300g-johvika/",
+        "size": "300g",
+        "ean": "7613035758834",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/7613035758834.png",
+        "storeName": "Müsli Nestle Fitness Granola 300g jõhvika-kõrvitsa"
+      },
+      "selver": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fitness-granola-johvika-nestle-300-g",
+        "size": "300g",
+        "ean": "7613035758834",
+        "storeUnitPrice": 13.97,
+        "storeName": "Fitness Granola Jõhvika, NESTLÉ, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sante Röst goon müsli protein pähkli shok sokolaadiga 300g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sante-rost-musli-goon-protein-300g-pahkl/",
+        "size": "300g",
+        "ean": "5900617039262",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900617039262.png",
+        "storeName": "Röst.müsli Sante GoOn Protein 300g pähkli-shok."
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinigranola-pahklite-ja-sokolaadiga-go-on-300-g",
+        "size": "300g",
+        "ean": "5900617039262",
+        "storeUnitPrice": 10.97,
+        "storeName": "Proteiinigranola pähklite ja sokolaadiga, Go On, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sante Röst brownie kirsi goon müsli protein 300g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sante-rost-musli-goon-protein-300g-brown/",
+        "size": "300g",
+        "ean": "5900617043481",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900617043481.png",
+        "storeName": "Röst.müsli Sante GoOn Protein 300g brownie-kirsi"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/proteiinigranola-brownie-kirsi-go-on-300g",
+        "size": "300g",
+        "ean": "5900617043481",
+        "storeUnitPrice": 10.97,
+        "storeName": "Proteiinigranola brownie-kirsi, Go On, 300g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fitness Müsli nestle granola kinoa shok pähkl pähklitega 300g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-musli-fitness-granola-300g-kinoa/",
+        "size": "300g",
+        "ean": "7613037014952",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/7613037014952.png",
+        "storeName": "Müsli Nestle Fitness Granola 300g kinoa-shok-pähkl"
+      },
+      "selver": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikusook-fitness-granola-quinoa-sokolaadi-ja-pahklitega-nestle-300-g",
+        "size": "300g",
+        "ean": "7613037014952",
+        "storeUnitPrice": 13.97,
+        "storeName": "Hommikusöök Fitness Granola Quinoa, sokolaadi ja pähklitega, NESTLÉ, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oho Hommikusöök kakaoga teraviljahelbed 150g",
+    "category": "Cereals & oats",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oho-hommikusook-kakaoga-terav-helbed150g/",
+        "size": "150g",
+        "ean": "4770149202639",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4770149202639.jpg",
+        "storeName": "Hommikusöök Kakaoga teraviljahelbed Oho 150g+30g"
+      },
+      "selver": {
+        "price": 1.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kakaoga-teraviljahelbed-oho-150-g",
+        "size": "150g",
+        "ean": "4770149202639",
+        "storeUnitPrice": 8.13,
+        "storeName": "Kakaoga teraviljahelbed, OHO!, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Aedoad tomatikastmes 530g",

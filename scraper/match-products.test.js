@@ -1211,6 +1211,76 @@ const tests = [
       assert.equal(sameProduct(meat("Barbora", "Seahakkliha RAKVERE 400g"), meat("Rimi", "Seahakkliha Rakvere 500g")), true);
     },
   },
+  // ---- Batch 9: alcohol ----
+  {
+    name: "Alcohol sizes: 'cl' becomes ml (75 cl = 0,75l = 750ml), the multipack separator may be x, × or *, and Rimi's 'N-pakk' after a single size is the same multipack Barbora writes as Nx — never equal to one can",
+    run: () => {
+      assert.equal(extractSize("Espiritu De Chile Shiraz Cabernet 75 cl"), "750ml");
+      assert.equal(extractSize("Kgt.vein Cielo Primasole Primitivo 0,75l"), "750ml");
+      assert.equal(extractSize("Viin ABSOLUT 40% 700ml"), "700ml");
+      assert.equal(extractSize("Viin BELVEDERE Pure, 70 cl"), "700ml");
+      assert.equal(extractSize("Hele õlu Saku Kuld 5,2% 12*0,33L prk"), "12x330ml");
+      assert.equal(extractSize("Hele õlu A.LE COQ Premium 4.7% 24x330ml"), "24x330ml");
+      assert.equal(extractSize("Õlu Originaal 6-pakk, SAKU, 6 x 500 ml purk"), "6x500ml");
+      assert.equal(extractSize("Õlu Saku Rock 5,3% 0,568l prk 6-pakk"), "6x568ml");
+      assert.equal(extractSize("Õlu A.Le Coq Premium 4,7% 0,5l prk 6-pakk"), "6x500ml");
+      assert.equal(extractSize("Õlu Alexander 5,2 %vol 0,568l prk"), "568ml");
+      const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });
+      assert.equal(sameProduct(beer("Rimi", "Õlu Saku Rock 5,3% 0,568l prk 6-pakk", "saku"), beer("Barbora", "Hele õlu SAKU Rock 5.3% 6x0.568l, prk", "saku")), true, "the same six-pack, two spellings");
+      assert.equal(sameProduct(beer("Rimi", "Õlu Saku Rock 5,3% 0,568l prk 6-pakk", "saku"), beer("Rimi", "Õlu Saku Rock 5,3% 0,568l prk", "saku")), false, "a six-pack is not one can");
+    },
+  },
+  {
+    name: "Alcohol strength: both stores printing it must agree (4,5% ≠ 5,2%, 37,5% ≠ 40%; '%vol' and '% vol' read the same), Selver printing none is tolerated in the alcohol categories only — every other category keeps blocking a one-sided percent",
+    run: () => {
+      const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });
+      assert.equal(sameProduct(beer("Rimi", "Õlu Alexander 5,2 %vol 0,568l prk", "a. le coq"), beer("Barbora", "Hele õlu ALEXANDER 5.2% 568ml prk", "a. le coq")), true);
+      assert.equal(sameProduct(beer("Rimi", "Õlu Alexander 4,5 %vol 0,568l prk", "a. le coq"), beer("Barbora", "Hele õlu ALEXANDER 5.2% 568ml prk", "a. le coq")), false, "different strength = different beer");
+      assert.equal(sameProduct(beer("Barbora", "Hele õlu LAPIN KULTA 5,2% 0.5L prk", "lapin kulta"), beer("Selver", "Õlu, LAPIN KULTA, 500 ml purk", "lapin kulta")), true, "Selver prints no strength; brand, size, can and every word agree");
+      const spirits = (store, name, brand) => buildItem("Spirits", store, name, { brand });
+      assert.equal(sameProduct(spirits("Barbora", "Viin ABSOLUT 40% 700ml", "absolut"), spirits("Selver", "Viin ABSOLUT, 70 cl", "absolut")), true);
+      assert.equal(sameProduct(spirits("Rimi", "Gin Bartender´s Club Dry 37,5%vol 0,7l", "bartender's club"), spirits("Barbora", "Gin BARTENDER'S CLUB Dry 40% 700ml", "bartender's club")), false);
+      // Outside the alcohol categories nothing changed: a one-sided
+      // fat % still blocks (Dairy's original rule).
+      const dairy = (store, name) => buildItem("Dairy", store, name, { brand: "alma" });
+      assert.equal(sameProduct(dairy("Barbora", "Piim ALMA 2,5% 1L"), dairy("Selver", "Piim, ALMA, 1 L")), false);
+    },
+  },
+  {
+    name: "Alcohol: can vs bottle must agree when stated (purk/prk = purk, pudel/pdl = pudel; one side saying purk and the other nothing never matches), a wine's vintage must agree, and grape/type words stay real (Merlot ≠ Cabernet, Brut ≠ Semi Seco)",
+    run: () => {
+      const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });
+      assert.equal(sameProduct(beer("Barbora", "Õlu CRONUS Lager 5% 500ml prk", "cronus"), beer("Selver", "Õlu Lager, CRONUS, 500 ml purk", "cronus")), true);
+      assert.equal(sameProduct(beer("Barbora", "Õlu CRONUS Lager 5% 500ml prk", "cronus"), beer("Selver", "Õlu Lager, CRONUS, 500 ml pudel", "cronus")), false, "can is not bottle");
+      assert.equal(sameProduct(beer("Barbora", "Õlu CRONUS Lager 5% 500ml", "cronus"), beer("Selver", "Õlu Lager, CRONUS, 500 ml purk", "cronus")), false, "one side states the can, the other nothing — unsure, no match");
+      const wine = (store, name, brand) => buildItem("Wine", store, name, { brand });
+      assert.equal(sameProduct(wine("Barbora", "GT vein ANDES Merlot 750ml", "andes"), wine("Rimi", "Gt.vein Andes Merlot 0,75l", "andes")), true);
+      assert.equal(sameProduct(wine("Barbora", "KPN vein ANDES Merlot 750ml", "andes"), wine("Selver", "Andes Merlot 75 cl", "andes")), true, "the KPN/KGT/GT label class and the word 'vein' are implied");
+      assert.equal(sameProduct(wine("Barbora", "GT vein ANDES Merlot 750ml", "andes"), wine("Rimi", "Gt.vein Andes Cabernet Sauvignon 0,75l", "andes")), false);
+      assert.equal(sameProduct(wine("Rimi", "Kpn.kv.v.vein Cava Jaume Serra Brut 0,75l", "jaume serra"), wine("Selver", "Jaume Serra Cava Brut 75 cl", "jaume serra")), true);
+      assert.equal(sameProduct(wine("Rimi", "Kpn.kv.v.vein Cava Jaume Serra Brut 0,75l", "jaume serra"), wine("Selver", "Jaume Serra Cava Semi Seco 75 cl", "jaume serra")), false);
+      assert.equal(sameProduct(wine("Barbora", "KPN vein RIOJA Reserva 2018 750ml", "rioja"), wine("Selver", "Rioja Reserva 2018 75 cl", "rioja")), true);
+      assert.equal(sameProduct(wine("Barbora", "KPN vein RIOJA Reserva 2018 750ml", "rioja"), wine("Selver", "Rioja Reserva 2019 75 cl", "rioja")), false, "two harvests are two wines");
+      assert.equal(sameProduct(wine("Barbora", "KPN vein RIOJA Reserva 2018 750ml", "rioja"), wine("Selver", "Rioja Reserva 75 cl", "rioja")), false, "a vintage on one side only — unsure");
+      assert.equal(sameProduct(beer("Barbora", "Õlu KRONENBOURG 1664 Blanc 5% 500ml prk", "kronenbourg"), beer("Rimi", "Õlu Kronenbourg 1664 Blanc 5% 0,5l purk", "kronenbourg")), true, "1664 is a name, not a vintage");
+    },
+  },
+  {
+    name: "Alcohol-free: every abbreviation of 'alkoholivaba' is one word, and a 0,0% listing never matches its alcoholic twin — different strength within one pool, and a different category in real scraping",
+    run: () => {
+      const free = (store, name, brand) => buildItem("Alcohol-free beer, cider & wine", store, name, { brand });
+      assert.equal(sameProduct(free("Barbora", "Alk.vaba õlu WARSTEINER Fresh 330ml", "warsteiner"), free("Selver", "Alkoholivaba õlu Warsteiner Fresh, WARSTEINER, 330 ml", "warsteiner")), true);
+      assert.equal(sameProduct(free("Rimi", "Alk.v. õlu Kronenbourg 1664 Blanc 0,33l pdl", "kronenbourg"), free("Barbora", "Alkoholivaba õlu KRONENBOURG 1664 Blanc 330ml pudel", "kronenbourg")), true);
+      assert.equal(sameProduct(free("Rimi", "Alkoholivaba õlu Heineken alk.0,0%vol 0,5l", "heineken"), free("Selver", "Alkoholivaba õlu, HEINEKEN, 500 ml", "heineken")), true);
+      const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });
+      assert.equal(sameProduct(beer("Rimi", "Õlu Heineken 0,0% 0,33l pudel", "heineken"), beer("Barbora", "Õlu HEINEKEN 5% 330ml pudel", "heineken")), false, "0,0% ≠ 5%");
+      assert.equal(sameProduct(beer("Rimi", "Alkoholivaba õlu Heineken 0,33l pudel", "heineken"), beer("Barbora", "Õlu HEINEKEN 5% 330ml pudel", "heineken")), false, "'alkoholivaba' is a real word on one side only");
+      // Nothing else changed: a category outside batch 9 reads the
+      // new normalizations the same way (whole words only).
+      const chips = (store, name) => buildItem("Chips & snacks", store, name, { brand: "taffel" });
+      assert.equal(sameProduct(chips("Barbora", "Maisipallid Nacho TAFFEL 190g"), chips("Rimi", "Maisipallid Nacho Taffel 190g")), true);
+    },
+  },
 ];
 
 let pass = 0;

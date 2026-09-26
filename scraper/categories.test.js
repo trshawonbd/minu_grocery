@@ -320,6 +320,63 @@ const results = [
     assert.equal(personalCareRimiBodyFilter("Dušigeel Nivea Men 250ml"), true);
     assert.equal(personalCareRimiBodyFilter("Svamm Oreon 1tk"), false, "a bath sponge, a reusable tool");
   }),
+  // ---- Batch 9 ----
+  test("Batch 9 categories exist in both files with the same names; only the three alcohol categories are in ALCOHOL_CATEGORIES; alcoholMatching is on for those and the alcohol-free one, off everywhere else; buildItem carries it", () => {
+    const { ALCOHOL_CATEGORIES, buildItem, alcoholMatchingFor } = require("./categories");
+    for (const name of ["Cakes & pastries", "Instant food", "World cuisine", "Alcohol-free beer, cider & wine", "Beer & cider", "Wine", "Spirits"]) {
+      assert.ok(CATEGORIES.some((c) => c.name === name), `${name} in categories.js`);
+      assert.ok(SELVER_CATEGORIES[name], `${name} in selver.js`);
+    }
+    assert.deepEqual(ALCOHOL_CATEGORIES, ["Beer & cider", "Wine", "Spirits"]);
+    for (const name of ["Beer & cider", "Wine", "Spirits", "Alcohol-free beer, cider & wine"]) assert.equal(alcoholMatchingFor(name), true, name);
+    for (const name of ["Cakes & pastries", "Instant food", "World cuisine", "Dairy", "Drinks", "Pasta"]) assert.equal(alcoholMatchingFor(name), false, name);
+    assert.equal(buildItem("Wine", "Rimi", "Vein 0,75l").alcoholMatching, true);
+    assert.equal(buildItem("Dairy", "Rimi", "Piim 1l").alcoholMatching, undefined);
+  }),
+  test("Alcohol-free filter: required on every alcohol-free source (every store abbreviation, 0,0%, Zero/Null names; sparkling juice drinks on the same shelf fail), excluded from every alcohol source — so a 0,0% beer is never in the alcohol pool", () => {
+    const category = (name) => CATEGORIES.find((c) => c.name === name);
+    const freeBarbora = category("Alcohol-free beer, cider & wine").urls.barbora[0].nameFilter;
+    const freeSelver = SELVER_CATEGORIES["Alcohol-free beer, cider & wine"].sources[0].nameFilter;
+    for (const n of ["Alk.vaba õlu WARSTEINER Fresh 330ml", "Alk. Vaba Õlu A. Le Coq Premium 0.5L prk", "Alkovaba siider Hoggy's Apple 0,5l", "Alk.v. õlu Kronenbourg 1664 Blanc 0,33l pdl", "Al.vaba jook Ananassi-Vaarika Mull Null 0,75l", "Alkoh. vaba v.v. Wõlu Vahutav Rabarber 0,75l", "Õlu Corona Cero 0,0% 0,33l pudel", "Saku Rock Zero 500ml"]) {
+      assert.equal(freeBarbora(n), true, n);
+      assert.equal(freeSelver(n), true, n);
+    }
+    assert.equal(freeSelver("Sinikuslapuu-tüümian vahujook, ÖUN, 750 ml"), false, "a sparkling drink with no alcohol-free claim");
+    for (const name of ["Beer & cider", "Wine", "Spirits"]) {
+      const barbora = category(name).urls.barbora[0].nameFilter;
+      const rimi = category(name).urls.rimi[0].nameFilter;
+      const selver = SELVER_CATEGORIES[name].sources[0].nameFilter;
+      for (const f of [barbora, rimi, selver]) {
+        assert.equal(f("Alkoholivaba õlu Heineken 0,0% 0,5l"), false, `${name}: alcohol-free out`);
+        assert.equal(f("Õlu Heineken 5% 0,5l purk"), true, `${name}: alcohol in`);
+      }
+    }
+  }),
+  test("Cakes, Instant food and World cuisine filters: dough/biscuits out of cakes; bouillon, sauce/meal mixes and desserts out of instant food; chips, sauces, spice mixes, rice, flour, vinegar and non-food out of world cuisine; Pasta no longer takes Asian noodles", () => {
+    const category = (name) => CATEGORIES.find((c) => c.name === name);
+    const cakes = SELVER_CATEGORIES["Cakes & pastries"].sources[1].nameFilter;
+    assert.equal(cakes("Vaarika beseerull, REVAL KONDIITER, 300 g"), true);
+    assert.equal(cakes("Kohupiimataskud karbis, LÕUNA PAGARID, 250 g"), true);
+    assert.equal(cakes("Lehttainas, EESTI PAGAR, 500 g"), false);
+    assert.equal(cakes("Küpsis kihiline Reval 140g"), false);
+    const instant = category("Instant food").urls.rimi[0].nameFilter;
+    assert.equal(instant("Kiirnuudlid kanamaitselised Knorr 57g"), true);
+    assert.equal(instant("Kiirkartulipuder, FELIX, 220g"), true);
+    assert.equal(instant("Juustusupp saiakuubikutega MAGGI, 19g"), true);
+    assert.equal(instant("Kiirnuudliroog karrimaitselise kastmega, OYAKATA, 90 g"), true, "'kastmega' is the dish, not a sauce packet");
+    assert.equal(instant("Kanapuljong I Love Eco 66g"), false);
+    assert.equal(instant("Kaste pastale Spag. Bolognese Maggi Idea 44g"), false);
+    assert.equal(instant("Idea segu kanalihale koore-ürdikastmes, MAGGI, 30 g"), false);
+    assert.equal(instant("Segu kartuli-hakklihavormile, MAGGI, 42 g"), false);
+    assert.equal(instant("Kiirkissell maasika 50g"), false);
+    const world = category("World cuisine").urls.rimi[0].nameFilter;
+    for (const n of ["Nisutortilja Mehhiko Santa Maria 371g", "Maisitaskud Taco Shells SANTA MARIA 135g", "Riisinuudlid THAI-CHOICE 250g", "Kookospiim Blue Dragon 400ml", "Punane karripasta SANTA MARIA 110g", "Riisilehed EXOTIC FOOD 100g", "Ingver sushi FUDO 190g"]) assert.equal(world(n), true, n);
+    for (const n of ["Tortiljakrõpsud kerge soolaga Santa Maria 185", "Krevetikrõpsud Santa Maria 73g", "Kaste Teriyaki BLUE DRAGON 120g", "Taco maitseainesegu Santa Maria 28g", "Roheline jalapeno Rimi Planet 335/160g", "Sushiriis FUDO 500g", "Tempura jahu JAPANESE CHOICE 150g", "Sushi äädikas Japanese Choice 200ml", "Sushimatt JAPANESE CHOICE", "Kanamaitsel.kiirnuudlid THAI-CHOICE 85g", "Supisegu Tom Kha, SANTA MARIA, 30 g"]) assert.equal(world(n), false, n);
+    const pasta = category("Pasta").urls.barbora.nameFilter;
+    assert.equal(pasta("Munanuudlid THAI-CHOICE 500g"), false);
+    assert.equal(pasta("Makaronid nuudlid EXTRA LINE 400g"), true);
+    assert.equal(SELVER_CATEGORIES["Pasta"].sources[0].nameFilter("Riisinuudlid, BLUE DRAGON, 250 g"), false);
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

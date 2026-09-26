@@ -104,11 +104,34 @@ progress as each batch finishes.
    "kartulilaastud" vs "kart.krõp") and add tested normalizations,
    the same way earlier abbreviation rules were added. Every new rule
    needs a regression test, and every other category's counts must
-   stay unchanged.
+   stay unchanged. — *done*
+9. **Batch 9** (owner's request, 2026-09-26): Cakes & pastries,
+   Instant food, World cuisine, Alcohol-free beer, cider & wine, and —
+   for private testing on this PC only — the three alcohol categories
+   Beer & cider, Wine, Spirits (see the alcohol rules below).
 
-**Not allowed without the owner's explicit decision:** alcohol, adding
-a new store (e.g. PROMO Cash&Carry), or anything that puts the app
-online/publicly reachable.
+**Not allowed without the owner's explicit decision:** adding a new
+store (e.g. PROMO Cash&Carry), or anything that puts the app
+online/publicly reachable. Alcohol was decided by the owner for
+batch 9 — private testing only, never public, see next.
+
+**Alcohol is shown for private testing only.** The three alcohol
+categories (Beer & cider, Wine, Spirits — `ALCOHOL_CATEGORIES` in
+`scraper/categories.js` and `frontend/app-logic.js`) exist so the
+owner can test them on this PC. The single setting `SHOW_ALCOHOL` in
+`frontend/app-logic.js` is `true` for now; when `false`, every
+alcohol category and product is completely hidden in the app — no
+tile, no search hit, no home-screen card, no product page, no basket
+line (`visibleProducts` is the one gate every screen reads through).
+**Before the app is ever made public, `SHOW_ALCOHOL` must be reviewed
+with a lawyer and set to `false`** — Estonian alcohol advertising law
+(alkoholiseadus) restricts showing alcohol and its prices; this is a
+legal question, not a technical one. Never change the setting without
+the owner. The alcohol-free category is not alcohol and is never
+hidden by it. Store access: Barbora, Rimi and Selver all list alcohol
+with prices behind nothing more than a simple "I am 18+" click
+(checked 2026-09-26) — if a store ever puts alcohol behind a login or
+ID check, stop and tell the owner; never bypass it.
 
 **Store images are hotlinked, for private testing only.** Each store
 entry in `data/prices.json` may carry the store's own product-photo
@@ -193,6 +216,40 @@ the owner.
   the other not blocks the match (see IDENTITY_QUALIFIER_PATTERNS in
   `scraper/match-products.js`). The four spellings are one qualifier,
   so "Öko" on one side and "BIO" on the other still match each other.
+- **Batch 9 scope (owner, 2026-09-26):** *Cakes & pastries* =
+  packaged cakes, cake rolls, keeks, pastries; never in-store bakery,
+  dough, biscuits/wafers/gingerbread. *Instant food* = instant
+  noodles, instant mash, instant/cup soups ONLY — bouillon and dry
+  sauce/meal-mix packets stay out. *World cuisine* = only what no
+  category already owns: tortillas/wraps/taco shells, Asian noodles,
+  coconut milk/cream, curry pastes, sushi ingredients (nori, rice
+  paper, wasabi, pickled ginger), miso, kimchi, tofu; tortilla chips
+  stay in Chips & snacks, soy/teriyaki/oyster and every sauce in
+  Sauces & condiments, taco/curry spice mixes in Spices, jalapeños in
+  Canned food, sushi rice/tempura flour with Rice / Flour. **Asian
+  noodles leave Pasta** (`PASTA_NO_ASIAN`) — one product, one
+  category. *Alcohol-free beer, cider & wine* = everything a store
+  labels "alkoholivaba" (legally ≤0.5%), beer, cider, wine and
+  cocktails in one category, "0,0%" shown wherever the store prints
+  it. *Alcohol* = the stores' own three shelves: Beer & cider (beer,
+  cider, long drinks, beer cocktails, RTD mixes), Wine (still,
+  sparkling, fortified, vermouth), Spirits (vodka, gin, whisky, rum,
+  brandy/cognac, tequila, liqueurs, other).
+- **Alcohol matching rules** (`alcoholMatching` in
+  `scraper/categories.js`, `sameBrandedProduct` in
+  `scraper/match-products.js`): the alcohol strength is read like a
+  fat % and must agree when both stores print it (4,5% ≠ 5,2%) — but
+  Selver prints it on nothing, so a one-sided value alone doesn't
+  block in these categories (everywhere else it still does); the
+  vintage year must agree (one-sided → no match); can vs bottle must
+  agree when stated (one-sided → no match); "cl" sizes are ml; "6x0,5l",
+  "6 x 500 ml", "12*0,33L" and "0,5l 6-pakk" are the same six-pack and
+  never one can; grape/type words (Merlot, Brut) are real descriptors;
+  the label classes KPN/KGT/GT/kv are implied in Wine, "õlu"/"hele" in
+  Beer & cider. Alcohol-free items are excluded from every alcohol
+  source and required on every alcohol-free source
+  (`ALCOHOL_FREE_PATTERN`), so "0,0%" can never be pooled with its
+  alcoholic twin.
 - **Per-category implied words**: a word true of every item in a
   category (`impliedDescriptors` in `scraper/categories.js` —
   "külmutatud" in the frozen categories, Pasta's generic
@@ -296,7 +353,9 @@ about anything ambiguous.
   vegetables split into Puuviljad/Köögiviljad, Dairy into Piim ja
   jogurt/Või/Munad, Household into Nõudepesu/Pesuvahendid/
   Puhastusvahendid/Paberitooted, Coffee + Tea & cocoa merged into
-  Kohv ja tee, Baby formula + Baby food + Diapers into Lapsed; a
+  Kohv ja tee, Baby formula + Baby food + Diapers into Lapsed; the
+  three alcohol tiles carry `alcohol: true` and disappear on their
+  own when `SHOW_ALCOHOL` is false, because no product reaches them; a
   data category nobody names falls back to a "Muu" tile; icons are
   our own SVG line drawings in `ICON_PATHS`, never another app's
   artwork), `i18n.js` (UI strings in et/en/ru; a new string goes in

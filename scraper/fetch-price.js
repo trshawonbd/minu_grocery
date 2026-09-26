@@ -94,6 +94,7 @@ async function main() {
       matchAcrossWeights: category.matchAcrossWeights === true,
       diaperMatching: category.diaperMatching === true,
       fixedWeightMustMatch: category.fixedWeightMustMatch === true,
+      alcoholMatching: category.alcoholMatching === true,
       impliedDescriptors: category.impliedDescriptors || [],
       resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
     });

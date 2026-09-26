@@ -15,8 +15,26 @@ function productKey(product) {
 
 // Products the daily update left with fewer than 2 available stores
 // are hidden, never deleted — excluded from every screen.
-function visibleProducts(products) {
-  return products.filter((p) => !p.hidden);
+// ---- Alcohol (private testing only) ----
+// When false, the three alcohol categories and every product in them
+// are gone from the app completely: no tile, no search hit, no
+// "biggest differences"/"cheaper than usual" card, no product route,
+// no basket line. Estonian alcohol-advertising law: this MUST be
+// reviewed with a lawyer and set to false before the app is ever
+// public (see CLAUDE.md). The alcohol-free category is not alcohol
+// and is never hidden by this.
+const SHOW_ALCOHOL = true;
+const ALCOHOL_CATEGORIES = new Set(["Beer & cider", "Wine", "Spirits"]);
+
+function isAlcoholProduct(product) {
+  return ALCOHOL_CATEGORIES.has(product.category);
+}
+
+// Everything the app may show: never a hidden product, and never an
+// alcohol product unless SHOW_ALCOHOL. Every screen, the search index
+// and the basket read through this.
+function visibleProducts(products, showAlcohol = SHOW_ALCOHOL) {
+  return products.filter((p) => !p.hidden && (showAlcohol || !isAlcoholProduct(p)));
 }
 
 // --- Search ---
@@ -217,6 +235,9 @@ function round2(n) {
 if (typeof module !== "undefined") {
   module.exports = {
     productKey,
+    SHOW_ALCOHOL,
+    ALCOHOL_CATEGORIES,
+    isAlcoholProduct,
     visibleProducts,
     normalizeText,
     buildSearchIndex,

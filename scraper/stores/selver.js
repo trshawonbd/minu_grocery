@@ -129,6 +129,24 @@ function excludeWords(exclude, require) {
   };
 }
 
+// Batch 9 filters — copies of the ones in scraper/categories.js (same
+// reasoning as excludeWords above: this module stays self-contained).
+// Keep the two in step; scraper/categories.test.js checks they agree
+// on the same names.
+const ALCOHOL_FREE_PATTERN = /(?:alk(?:oh(?:oli)?)?|al)\.?\s*v(?:aba|\.)|alkovaba|0[,.]0\s*%|(?<![\p{L}])(?:zero|null)(?![\p{L}])/iu;
+const ALCOHOL_FREE_ONLY = excludeWords([], [ALCOHOL_FREE_PATTERN]);
+const NO_ALCOHOL_FREE = excludeWords([ALCOHOL_FREE_PATTERN]);
+const CAKES_FILTER = excludeWords(["tain", "taig", "küpsis", "kreeker", "vahvl", "piparkoo", "präänik"]);
+const INSTANT_FILTER = excludeWords(
+  ["puljong", /(?<![\p{L}])kaste(?![\p{L}])/u, /(?<![\p{L}])kastme(?![\p{L}])/u, /(?<![\p{L}])segu(?![\p{L}])/u, "idea", /(?<![\p{L}])fix(?![\p{L}])/u, "kissell", "puding", "pudding", "tarretis", "kakao", "maitseaine", "vorm", "konserv", "külmutatud"],
+  [/nuudl/, /supp/, /pud(?:er|ru)/, /püree/, /kartuli/, /(?<![\p{L}])riis/u, /roog|road/, /pasta/, /makaron/],
+);
+const WORLD_FILTER = excludeWords(
+  ["krõps", "krõp", "chips", /(?<![\p{L}])kaste(?![\p{L}])/u, "kastme", "maitseaine", /(?<![\p{L}])segu(?![\p{L}])/u, "äädik", "matt", "pulgad", "pulk", "jahu", "sushiriis", /(?<![\p{L}])riis(?![\p{L}])/u, "supisegu", "supp", "kiir", "salsa", "dipp", /(?<![\p{L}])dip(?![\p{L}])/u, "külmutatud"],
+  [/tortil/, /wrap/, /taco/, /nuudl/, /kookos(?:piim|kreem|jook|vesi)/, /karri\s*-?pasta|currypasta|curry\s*paste/, /riisipaber|riisileh/, /(?<![\p{L}])nori(?![\p{L}])/u, /wasabi/, /(?<![\p{L}])miso(?![\p{L}])/u, /kimchi/, /tofu/, /sushi/, /pad\s*thai/, /burrito/, /enchilada/, /fajita/],
+);
+const PASTA_NO_ASIAN = excludeWords(["thai", "riisinuudl", "klaasnuudl", "udon", "ramen", "soba", "aasia", "wok"]);
+
 // Each of our three shared categories maps to one or more Selver
 // category IDs (its Magento category tree, not the separate
 // `eshop_category` attribute — see the id-mismatch note below).
@@ -350,7 +368,8 @@ const CATEGORIES = {
   },
   // Pasta — 11 "Makaronid" is already a clean leaf, checked by hand.
   "Pasta": {
-    sources: [{ id: 11 }],
+    // Asian noodles go to World cuisine since batch 9 (PASTA_NO_ASIAN).
+    sources: [{ id: 11, nameFilter: PASTA_NO_ASIAN }],
   },
   // Rice & grains — 13 "Riisid" is clean; 12 "Tangained" mixes in
   // legumes (chickpeas, mung beans, lentils), filtered by name the
@@ -728,6 +747,57 @@ const CATEGORIES = {
   // not food.
   "Pet food": {
     sources: [{ id: 315 }, { id: 316 }, { id: 317 }, { id: 318 }],
+  },
+  // ---- Batch 9 (the filters mirror scraper/categories.js's own
+  // copies, entry by entry — see the comments there) ----
+  // 247 "Leivad, saiad, kondiitritooted": 253 "Tordid", 254 "Koogid,
+  // rullbiskviidid, tainad" (dough excluded by name), 255 "Saiakesed,
+  // stritslid, kringlid". 252 "Selveri Pagarid" (in-store bakery) is
+  // never fetched.
+  "Cakes & pastries": {
+    sources: [
+      { id: 253, nameFilter: CAKES_FILTER },
+      { id: 254, nameFilter: CAKES_FILTER },
+      { id: 255, nameFilter: CAKES_FILTER },
+    ],
+  },
+  // 8 "Kuivained, hommikusöögid, hoidised" > 9: 16 "Kuivsupid ja
+  // -kastmed" (sauce/meal mixes excluded by name), 17 "Paja- ja
+  // nuudliroad" (instant noodle dishes and mash). 265 "Puljongid" is
+  // never fetched (out of scope).
+  "Instant food": {
+    sources: [
+      { id: 16, nameFilter: INSTANT_FILTER },
+      { id: 17, nameFilter: INSTANT_FILTER },
+    ],
+  },
+  // 262 "Maailma köök, maitseained, puljongid" > 264 "Maailma köök" —
+  // tortillas, noodles, coconut milk, curry paste, sushi items; its
+  // chips, sauces and spice mixes are filtered out (owned elsewhere).
+  "World cuisine": {
+    sources: [{ id: 264, nameFilter: WORLD_FILTER }],
+  },
+  // 28 "Joogid" > 52 "Karastus- ja energiajoogid, toonikud" > 55
+  // "Alkoholivabad joogid" — alcohol-free beer/cider/wine/cocktails
+  // plus sparkling drinks with no such claim (filtered out).
+  "Alcohol-free beer, cider & wine": {
+    sources: [{ id: 55, nameFilter: ALCOHOL_FREE_ONLY }],
+  },
+  // 28 "Joogid" > 29 "Lahja alkohol": 30 "Õlu, siider, segujoogid"
+  // (one leaf for beer, cider, long drinks and mixes); 31 red, 32
+  // white, 33 rosé, 34 fortified, 35 sparkling wine (36 "Sommelier
+  // soovitab" is a curated repeat of the others — not fetched, so no
+  // wine is listed twice). 37 "Kange alkohol": 38 vodka, 39 gin, 40
+  // whisky, 41 cognac/brandy, 42 rum, 43 aperitifs, 44 liqueurs, 45
+  // other. Alcohol-free items are excluded from every one of these.
+  "Beer & cider": {
+    sources: [{ id: 30, nameFilter: NO_ALCOHOL_FREE }],
+  },
+  "Wine": {
+    sources: [31, 32, 33, 34, 35].map((id) => ({ id, nameFilter: NO_ALCOHOL_FREE })),
+  },
+  "Spirits": {
+    sources: [38, 39, 40, 41, 42, 43, 44, 45].map((id) => ({ id, nameFilter: NO_ALCOHOL_FREE })),
   },
 };
 

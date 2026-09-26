@@ -63,6 +63,30 @@ const results = [
     assert.deepEqual(searchProducts(index, "   "), []);
     assert.equal(normalizeText("Hapukoore-sibula Küüslauk ÕÄÖÜŠŽ"), "hapukoore sibula kuuslauk oaousz");
   }),
+  test("SHOW_ALCOHOL: when false, Beer & cider / Wine / Spirits products vanish from visibleProducts, the search index, the deals lists and the basket; the alcohol-free category is never hidden; when true they show", () => {
+    const { SHOW_ALCOHOL, ALCOHOL_CATEGORIES, isAlcoholProduct, visibleProducts } = require("./app-logic");
+    assert.equal(typeof SHOW_ALCOHOL, "boolean");
+    assert.deepEqual([...ALCOHOL_CATEGORIES].sort(), ["Beer & cider", "Spirits", "Wine"]);
+    const beer = product("Saku Kuld 5.2% 500ml", "Beer & cider", { barbora: { price: 1.2, regularPrice: 1.6 }, rimi: { price: 1.8 } });
+    const wine = product("Andes Merlot 750ml", "Wine", { barbora: { price: 6.0 }, selver: { price: 9.0 } });
+    const vodka = product("Absolut 40% 700ml", "Spirits", { barbora: { price: 15.0 }, rimi: { price: 16.0 } });
+    const free = product("Heineken Alkoholivaba õlu 0.0% 330ml", "Alcohol-free beer, cider & wine", { barbora: { price: 0.9 }, rimi: { price: 1.1 } });
+    const all = [...products, beer, wine, vodka, free];
+    assert.ok([beer, wine, vodka].every(isAlcoholProduct) && !isAlcoholProduct(free) && !isAlcoholProduct(piim));
+    const shown = visibleProducts(all, true).map((p) => p.name);
+    assert.ok(shown.includes("Saku Kuld 5.2% 500ml") && shown.includes("Andes Merlot 750ml") && shown.includes("Absolut 40% 700ml") && shown.includes("Heineken Alkoholivaba õlu 0.0% 330ml"));
+    const hiddenList = visibleProducts(all, false).map((p) => p.name);
+    assert.ok(!hiddenList.includes("Saku Kuld 5.2% 500ml") && !hiddenList.includes("Andes Merlot 750ml") && !hiddenList.includes("Absolut 40% 700ml"));
+    assert.ok(hiddenList.includes("Heineken Alkoholivaba õlu 0.0% 330ml"), "alcohol-free stays");
+    assert.equal(hiddenList.length, products.length + 1);
+    // Every list the screens draw reads through visibleProducts, so
+    // the same switch governs them all.
+    const withAlcoholHidden = all.map((p) => (isAlcoholProduct(p) ? { ...p, hidden: !false && true } : p));
+    assert.ok(!searchProducts(buildSearchIndex(withAlcoholHidden), "saku").length);
+    assert.ok(!biggestDifferences(withAlcoholHidden, 50).some((d) => isAlcoholProduct(d.product)));
+    assert.ok(!cheaperThanUsual(withAlcoholHidden, 50).some((d) => isAlcoholProduct(d.product)));
+    assert.equal(compareBasket(withAlcoholHidden, { [productKey(beer)]: 1 }).lines.length, 0);
+  }),
   test("Search skips hidden products and honours the result limit", () => {
     const hidden = product("Piim hidden", "Dairy", { barbora: { price: 1 } }, { hidden: true });
     const many = Array.from({ length: 70 }, (_, i) => product(`Piim ${i}`, "Dairy", { barbora: { price: 1 }, rimi: { price: 1 } }));

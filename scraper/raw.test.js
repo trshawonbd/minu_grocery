@@ -173,6 +173,19 @@ const results = [
       assert.equal(meat[0].signature.fixedWeightMustMatch, false);
     });
   }),
+  test("loadRawPool propagates alcoholMatching from meta.json (Wine) and leaves it unset for a category that never opted in", () => {
+    withTempDir((dir) => {
+      writeRaw("Wine", { order: 0, strictPackaging: true, matchAcrossWeights: false, diaperMatching: false, alcoholMatching: true, resultsByStore: { Selver: [{ store: "Selver", name: "Andes Merlot 75 cl", price: 6.99, currency: "EUR", url: "x", ean: null, brand: "ANDES" }] } }, { dir });
+      writeRaw("Meat", { order: 1, strictPackaging: true, matchAcrossWeights: true, diaperMatching: false, resultsByStore: { Barbora: [{ store: "Barbora", name: "Seahakkliha RAKVERE 400g", price: 3.49, currency: "EUR", url: "x", ean: null, brand: "RAKVERE" }] } }, { dir });
+      const wine = loadRawPool("Wine", { dir });
+      assert.equal(wine[0].alcoholMatching, true);
+      assert.equal(wine[0].signature.alcoholMatching, true);
+      assert.equal(wine[0].signature.size, "750ml");
+      const meat = loadRawPool("Meat", { dir });
+      assert.equal(meat[0].alcoholMatching, undefined);
+      assert.equal(meat[0].signature.alcoholMatching, false);
+    });
+  }),
 ];
 
 const pass = results.filter(Boolean).length;

@@ -171,6 +171,67 @@ const HOUSEHOLD_RIMI_EXCLUDE = excludeWords(["kinga", "jalanõu", "sisetald", "l
 const PERSONAL_CARE_RIMI_HAIR_EXCLUDE = excludeWords(["värv", "kamm", "juuksehari"]);
 const PERSONAL_CARE_RIMI_BODY_EXCLUDE = excludeWords(["svamm", "käsn"]);
 
+// Batch 9 — alcohol-free drinks: "alcohol-free" in every abbreviation
+// the three stores use ("Alkoholivaba", "Alk.vaba", "Alk. Vaba",
+// "Alkovaba", "Alk.v.", "Al.vaba", "Alkoh. vaba"), plus a "0,0%" or a
+// "Zero"/"Null" product name. REQUIRED on every alcohol-free source
+// (Barbora's and Selver's alcohol-free shelves also hold sparkling
+// juice-style drinks with no beer/wine/cider claim at all) and
+// EXCLUDED from every alcohol source — so an alcohol-free beer can
+// never be scraped into the same pool as its alcoholic twin, which is
+// how "0.0% never matches the alcoholic version" is guaranteed
+// structurally, not by a matching rule alone. Kept identical in
+// scraper/stores/selver.js (its own copy, same reasoning as
+// excludeWords above).
+const ALCOHOL_FREE_PATTERN = /(?:alk(?:oh(?:oli)?)?|al)\.?\s*v(?:aba|\.)|alkovaba|0[,.]0\s*%|(?<![\p{L}])(?:zero|null)(?![\p{L}])/iu;
+const ALCOHOL_FREE_ONLY = excludeWords([], [ALCOHOL_FREE_PATTERN]);
+const NO_ALCOHOL_FREE = excludeWords([ALCOHOL_FREE_PATTERN]);
+
+// Cakes & pastries: packaged cakes, cake rolls, keeks, pastries only.
+// Excluded by name wherever a store's confectionery shelf mixes them
+// in: raw dough/pastry sheets ("tainas"/"taigen" — Selver's "Koogid,
+// rullbiskviidid, tainad" leaf), biscuits/crackers/wafers/gingerbread
+// (Biscuits' scope — Rimi's "kondiitritooted" holds a layered Reval
+// biscuit). In-store bakery is never fetched (Selver's "Selveri
+// Pagarid" 252, Barbora's "värsked pagaritooted", Rimi's "Rimi
+// pagarid" SH-6-6 are not sources).
+const CAKES_FILTER = excludeWords(["tain", "taig", "küpsis", "kreeker", "vahvl", "piparkoo", "präänik"]);
+
+// Instant food — the owner's scope: instant noodles, instant mashed
+// potato, and instant/cup soups, nothing else on the same shelf. A
+// positive list (the name must say noodle/soup/mash/purée/potato/
+// rice/pasta/dish) plus exclusions for the shelf-mates: bouillon
+// (puljong), dry sauce and meal-mix packets (Maggi Idea/Fix, "segu",
+// "kaste" as a whole word — "kastmega" on an instant noodle dish is
+// the dish itself and stays), sweet instant desserts (kissell,
+// pudding, jelly, cocoa), casserole mixes ("vorm"), tins and frozen.
+const INSTANT_FILTER = excludeWords(
+  ["puljong", /(?<![\p{L}])kaste(?![\p{L}])/u, /(?<![\p{L}])kastme(?![\p{L}])/u, /(?<![\p{L}])segu(?![\p{L}])/u, "idea", /(?<![\p{L}])fix(?![\p{L}])/u, "kissell", "puding", "pudding", "tarretis", "kakao", "maitseaine", "vorm", "konserv", "külmutatud"],
+  [/nuudl/, /supp/, /pud(?:er|ru)/, /püree/, /kartuli/, /(?<![\p{L}])riis/u, /roog|road/, /pasta/, /makaron/],
+);
+
+// World cuisine — the owner's call: only what no existing category
+// owns. Tortillas/wraps/taco shells, Asian noodles (rice, glass, egg,
+// ramen, udon, soba), coconut milk/cream/drink for cooking, curry
+// pastes, sushi ingredients (nori, rice paper, wasabi, pickled
+// ginger), miso, kimchi, tofu. Everything else on the same shelves
+// stays where it already is or out: tortilla/prawn chips (Chips &
+// snacks), soy/teriyaki/oyster and every other sauce (Sauces &
+// condiments), taco/fajita/curry spice mixes (Spices), jalapeños
+// (Canned food), sushi rice and tempura flour (Rice & grains / Flour
+// & sugar own rice and flour), sushi vinegar, instant noodles and cup
+// soups (Instant food), salsa and dips, and non-food (sushi mats,
+// chopsticks).
+const WORLD_FILTER = excludeWords(
+  ["krõps", "krõp", "chips", /(?<![\p{L}])kaste(?![\p{L}])/u, "kastme", "maitseaine", /(?<![\p{L}])segu(?![\p{L}])/u, "äädik", "matt", "pulgad", "pulk", "jahu", "sushiriis", /(?<![\p{L}])riis(?![\p{L}])/u, "supisegu", "supp", "kiir", "salsa", "dipp", /(?<![\p{L}])dip(?![\p{L}])/u, "külmutatud"],
+  [/tortil/, /wrap/, /taco/, /nuudl/, /kookos(?:piim|kreem|jook|vesi)/, /karri\s*-?pasta|currypasta|curry\s*paste/, /riisipaber|riisileh/, /(?<![\p{L}])nori(?![\p{L}])/u, /wasabi/, /(?<![\p{L}])miso(?![\p{L}])/u, /kimchi/, /tofu/, /sushi/, /pad\s*thai/, /burrito/, /enchilada/, /fajita/],
+);
+
+// Pasta must not take the Asian noodles World cuisine now owns
+// (Thai-Choice egg noodles, rice/glass noodles, udon, ramen, soba) —
+// one product, one category.
+const PASTA_NO_ASIAN = excludeWords(["thai", "riisinuudl", "klaasnuudl", "udon", "ramen", "soba", "aasia", "wok"]);
+
 const CATEGORIES = [
   {
     // The owner's call: follow-on and growing-up formula (stage 2, 3,
@@ -419,7 +480,9 @@ const CATEGORIES = [
       // The parent page aggregates every leaf (gluten-free, egg,
       // lasagne/cannelloni, whole-grain, the main "makaronid" leaf) —
       // checked by hand, clean: no ready meals or sauces mixed in.
-      barbora: "https://barbora.ee/kauasailivad-toidukaubad/makaronid",
+      // Asian noodles (Thai-Choice egg noodles were here) belong to
+      // World cuisine since batch 9 — see PASTA_NO_ASIAN.
+      barbora: { url: "https://barbora.ee/kauasailivad-toidukaubad/makaronid", nameFilter: PASTA_NO_ASIAN },
       rimi: [
         "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/c/SH-13-14-20",
         "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/gluteenivaba-pasta/c/SH-13-14-21",
@@ -1451,7 +1514,189 @@ const CATEGORIES = [
       ],
     },
   },
+  // ---- Batch 9 ----
+  {
+    // Strict packaging applies (the default). Packaged cakes, cake
+    // rolls, keeks and pastries — see CAKES_FILTER for what the same
+    // shelves mix in and why it's excluded. Every store's own-kitchen
+    // items (Selveri Köök, Rimi's own cakes) are fetched but can only
+    // ever stay unmatched — one store's kitchen isn't sold elsewhere.
+    name: "Cakes & pastries",
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/leivad-saiad-kondiitritooted/koogid-ja-tordid/koogid", nameFilter: CAKES_FILTER },
+        { url: "https://barbora.ee/leivad-saiad-kondiitritooted/koogid-ja-tordid/tordid", nameFilter: CAKES_FILTER },
+        { url: "https://barbora.ee/leivad-saiad-kondiitritooted/koogid-ja-tordid/muud-kondiitritooted", nameFilter: CAKES_FILTER },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/kondiitritooted/c/SH-6-1", nameFilter: CAKES_FILTER },
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). The owner's scope:
+    // instant noodles, instant mash, instant/cup soups only — see
+    // INSTANT_FILTER. Barbora's "kiirtoidud" department has separate
+    // leaves for the excluded shelf-mates (puljongid, kuivkastmed,
+    // magusad kiirtoidud), which are simply not sources; Rimi's
+    // "kiirtoit" and Selver's dry-soup/noodle-dish leaves mix them in
+    // and are filtered.
+    name: "Instant food",
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/kiirtoidud/kiirnuudlid-ja-supid", nameFilter: INSTANT_FILTER },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/kiirtoidud/kiirkartulipudrud", nameFilter: INSTANT_FILTER },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/c/SH-13-8", nameFilter: INSTANT_FILTER },
+      ],
+    },
+  },
+  {
+    // Strict packaging applies (the default). See WORLD_FILTER for the
+    // owner's scope (only what no other category owns). Barbora's
+    // sauce and spice-mix leaves under "maailma köögid" are not
+    // sources at all — those products live in Sauces & condiments and
+    // Spices already; the leaves that are sources still go through
+    // the filter (tortilla chips share the tortilla leaf).
+    name: "World cuisine",
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/maailma-koogid/aasia-nuudlid", nameFilter: WORLD_FILTER },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/maailma-koogid/kookosjoogid-ja-kreemid", nameFilter: WORLD_FILTER },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/maailma-koogid/tortillad-ja-maisikropsud", nameFilter: WORLD_FILTER },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/maailma-koogid/muud-aasia-maitsed", nameFilter: WORLD_FILTER },
+        { url: "https://barbora.ee/kauasailivad-toidukaubad/maailma-koogid/aasia-kastmed-ja-maitseainesegud", nameFilter: WORLD_FILTER },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maailmakook/c/SH-13-11", nameFilter: WORLD_FILTER },
+      ],
+    },
+  },
+  {
+    // Alcohol-free beer, cider, wine and cocktails — the owner's call:
+    // everything a store sells as "alkoholivaba" (by Estonian law at
+    // most 0.5%), the name showing 0.0% wherever the store prints it;
+    // one category for all four kinds. NOT an alcohol category:
+    // always shown, whatever SHOW_ALCOHOL says. alcoholMatching is on
+    // for the same reasons as the alcohol categories below (Selver
+    // prints no strength; a one-sided "0,0%" must not block). The
+    // ALCOHOL_FREE_ONLY requirement keeps sparkling juice-style drinks
+    // on the same shelves out.
+    name: "Alcohol-free beer, cider & wine",
+    alcoholMatching: true,
+    impliedDescriptors: ["õlu", "hele"],
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/joogid/alkoholivabad-joogid/alkoholivabad-olled", nameFilter: ALCOHOL_FREE_ONLY },
+        { url: "https://barbora.ee/joogid/alkoholivabad-joogid/alkoholivabad-siidrid", nameFilter: ALCOHOL_FREE_ONLY },
+        { url: "https://barbora.ee/joogid/alkoholivabad-joogid/alkoholivabad-veinid", nameFilter: ALCOHOL_FREE_ONLY },
+        { url: "https://barbora.ee/joogid/alkoholivabad-joogid/alkoholivabad-kokteilid", nameFilter: ALCOHOL_FREE_ONLY },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/c/SH-3-1", nameFilter: ALCOHOL_FREE_ONLY },
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/c/SH-3-2", nameFilter: ALCOHOL_FREE_ONLY },
+        { url: "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/c/SH-3-3", nameFilter: ALCOHOL_FREE_ONLY },
+      ],
+    },
+  },
+  // ---- Alcohol: private testing on this PC only. SHOW_ALCOHOL in
+  // frontend/app-logic.js hides these three categories and their
+  // products completely when false; it must be reviewed with a lawyer
+  // and set to false before the app is ever public (see CLAUDE.md).
+  // Every alcohol source EXCLUDES alcohol-free items (NO_ALCOHOL_FREE),
+  // and alcoholMatching adds the strength/vintage rules — see
+  // sameBrandedProduct in match-products.js. Traps watched: alcohol %
+  // (4,5% ≠ 5,2%), volume (cl/ml/l all normalized), can vs bottle
+  // (purk/pudel must agree when stated), multipacks ("6x0,5l" =
+  // "0,5l 6-pakk" ≠ one can), vintage year, grape/type words.
+  {
+    // The owner's call: beer, cider, long drinks, beer cocktails and
+    // ready-to-drink mixes — the stores' own "õlu ja siider" /
+    // "kokteilid-segujoogid" shelves as they are.
+    name: "Beer & cider",
+    alcoholMatching: true,
+    // "õlu" is what the category is; "hele" (pale) is Barbora's
+    // habitual prefix on every lager ("Hele õlu SAKU Rock") that Rimi
+    // and Selver leave off — never the product's own name word (a
+    // "Saku Hele" keeps "hele" on both sides only if both print it,
+    // and loses it on both sides otherwise, so it still never matches
+    // a "Saku Kuld").
+    impliedDescriptors: ["õlu", "hele"],
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/joogid/olu-ja-siider/heledad-olled", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/olu-ja-siider/tumedad-olled", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/olu-ja-siider/nisuolled", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/olu-ja-siider/kasitooolled", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/olu-ja-siider/siidrid", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/olu-ja-siider/long-dringid", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/olu-ja-siider/ollekokteilid", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/olu-ja-siider/kokteilijoogid", nameFilter: NO_ALCOHOL_FREE },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/olu/c/SH-1-6", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/siider/c/SH-1-8", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kokteilid-segujoogid/c/SH-1-3", nameFilter: NO_ALCOHOL_FREE },
+      ],
+    },
+  },
+  {
+    // The owner's call: still, sparkling, fortified and vermouth
+    // together (Rimi shelves vermouth under strong alcohol; it's a
+    // wine product). Barbora's three wine departments are fetched as
+    // parents (each aggregates its grape leaves; checked by hand).
+    name: "Wine",
+    alcoholMatching: true,
+    // The word "vein" itself, and the legal quality classes Barbora
+    // and Rimi prefix inconsistently ("KPN vein", "Kgt.vein", "GT
+    // vein", "Kpn.kv.vahuvein") while Selver prints none — a label
+    // class, not the wine's identity; the grape/type words (Merlot,
+    // Cabernet, Prosecco, Brut) stay real descriptors.
+    // "v"/"vv" are the fragments of Rimi's "kv.v.vein"/"kv.vv" shorthand
+    // ("kvaliteetvahuvein"), the same label class.
+    impliedDescriptors: ["vein", "kpn", "kgt", "gt", "kv", "kvv", "v", "vv"],
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/joogid/punased-ja-roosad-veinid", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/valged-veinid", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://barbora.ee/joogid/muud-veinid-ja-veinijoogid", nameFilter: NO_ALCOHOL_FREE },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/vein/c/SH-1-11", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/vahuveinid-ja-sampanjad/c/SH-1-10", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/vermut/c/SH-1-12", nameFilter: NO_ALCOHOL_FREE },
+      ],
+    },
+  },
+  {
+    // The owner's call: vodka, gin, whisky, rum, brandy/cognac,
+    // tequila, liqueurs and other strong alcohol — the stores' own
+    // "kange alkohol" as it is (minus vermouth, in Wine).
+    name: "Spirits",
+    alcoholMatching: true,
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/joogid/kange-alkohol", nameFilter: NO_ALCOHOL_FREE },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/viin/c/SH-1-13", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/dzinn/c/SH-1-2", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/viski/c/SH-1-14", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/rumm/c/SH-1-7", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/brandi/c/SH-1-1", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/konjak/c/SH-1-4", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/tekiila/c/SH-1-9", nameFilter: NO_ALCOHOL_FREE },
+        { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/likoor/c/SH-1-5", nameFilter: NO_ALCOHOL_FREE },
+      ],
+    },
+  },
 ];
+
+// The three alcohol categories — the ones SHOW_ALCOHOL (frontend/
+// app-logic.js) hides. The alcohol-free category is deliberately not
+// here. Exported so the app and the tests read one list.
+const ALCOHOL_CATEGORIES = ["Beer & cider", "Wine", "Spirits"];
 
 // Whether a category opts into strict packaged-product matching (the
 // default — see the comment above CATEGORIES). Throws on an unknown
@@ -1525,15 +1770,29 @@ function fixedWeightMustMatchFor(categoryName) {
   return category.fixedWeightMustMatch === true;
 }
 
+// Whether a category uses the alcohol rules (strength compared only
+// when both stores print it, vintage must agree — see
+// sameBrandedProduct in match-products.js): Beer & cider, Wine,
+// Spirits and the alcohol-free drinks. Off unless a category opts in;
+// throws on an unknown name like the others.
+function alcoholMatchingFor(categoryName) {
+  const category = CATEGORIES.find((c) => c.name === categoryName);
+  if (!category) {
+    throw new Error(`Unknown category "${categoryName}". Known categories: ${CATEGORIES.map((c) => c.name).join(", ")}`);
+  }
+  return category.alcoholMatching === true;
+}
+
 function buildItem(categoryName, store, name, extra = {}) {
   const item = { store, name, price: 0, currency: "EUR", url: "x", ean: null, ...extra };
   if (strictPackagingFor(categoryName)) item.strictPackaging = true;
   if (matchAcrossWeightsFor(categoryName)) item.matchAcrossWeights = true;
   if (diaperMatchingFor(categoryName)) item.diaperMatching = true;
   if (fixedWeightMustMatchFor(categoryName)) item.fixedWeightMustMatch = true;
+  if (alcoholMatchingFor(categoryName)) item.alcoholMatching = true;
   const implied = impliedDescriptorsFor(categoryName);
   if (implied.length > 0) item.impliedDescriptors = implied;
   return item;
 }
 
-module.exports = { CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, fixedWeightMustMatchFor, impliedDescriptorsFor, buildItem };
+module.exports = { CATEGORIES, ALCOHOL_CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, fixedWeightMustMatchFor, alcoholMatchingFor, impliedDescriptorsFor, buildItem };

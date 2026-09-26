@@ -64,6 +64,22 @@ const results = [
     assert.equal(id("Pampers Premium Care Püksmähkmed S5 34tk", "Diapers & baby wipes"), "lapsed");
     assert.equal(id("Whiskas 400g", "Pet food"), "lemmikloomad");
   }),
+  test("Batch 9 display tiles: cakes after bread, instant food after pasta, world cuisine after sauces, alcohol-free after drinks, then the three alcohol tiles (flagged alcohol), each with its own icon", () => {
+    const ids = DISPLAY_CATEGORIES.map((c) => c.id);
+    assert.equal(ids.indexOf("koogid"), ids.indexOf("leib-ja-sai") + 1);
+    assert.equal(ids.indexOf("kiirtoit"), ids.indexOf("pasta") + 1);
+    assert.equal(ids.indexOf("maailma-kook"), ids.indexOf("kastmed") + 1);
+    assert.deepEqual(ids.slice(ids.indexOf("mahlad-ja-joogid"), ids.indexOf("mahlad-ja-joogid") + 5), ["mahlad-ja-joogid", "alkoholivaba", "olu-ja-siider", "vein", "kange-alkohol"]);
+    assert.deepEqual(DISPLAY_CATEGORIES.filter((c) => c.alcohol).map((c) => c.id), ["olu-ja-siider", "vein", "kange-alkohol"]);
+    assert.equal(id("Saku Kuld 500ml", "Beer & cider"), "olu-ja-siider");
+    assert.equal(id("Andes Merlot 750ml", "Wine"), "vein");
+    assert.equal(id("Absolut 700ml", "Spirits"), "kange-alkohol");
+    assert.equal(id("Heineken 0.0% 330ml", "Alcohol-free beer, cider & wine"), "alkoholivaba");
+    assert.equal(id("Nisutortilja 320g", "World cuisine"), "maailma-kook");
+    assert.equal(id("Kiirnuudlid 60g", "Instant food"), "kiirtoit");
+    assert.equal(id("Meekook 1kg", "Cakes & pastries"), "koogid");
+    assert.equal(categoryName(displayCategoryById("kange-alkohol"), "et"), "Kange alkohol");
+  }),
   test("A data category no display category names falls back to Muu instead of vanishing", () => {
     assert.equal(id("Something", "Brand new category"), FALLBACK_CATEGORY.id);
     const list = displayCategoriesWithCounts([p("Something", "Brand new category"), p("Õun kg", "Fruits & vegetables")]);

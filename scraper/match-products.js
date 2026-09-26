@@ -29,14 +29,25 @@
 // two different rules picking different sides of the same format.
 const SPLIT_WEIGHT_PATTERN = /(\d+(?:[.,]\d+)?)\s*\/\s*\d+(?:[.,]\d+)?\s*(kg|g|ml|l)\b/i;
 
+// "cl" (centilitre) is Selver's unit for every wine and spirit ("75
+// cl", "70 cl", "20 cl") — normalized to ml below, the way "l" is.
+// The multipack separator is "x", "×" or "*" (Barbora: "12*0,33L").
 const SIZE_PATTERNS = [
-  // multipack, e.g. "2x200ml"
-  /\d+(?:[.,]\d+)?\s*x\s*\d+(?:[.,]\d+)?\s*(?:kg|g|ml|l)\b/i,
+  // multipack, e.g. "2x200ml", "6 x 500 ml", "12*0,33L"
+  /\d+(?:[.,]\d+)?\s*[x×*]\s*\d+(?:[.,]\d+)?\s*(?:kg|g|ml|cl|l)\b/i,
   // e.g. "10-pack"
   /\d+(?:[.,]\d+)?\s*-?\s*pack\b/i,
-  // simple size, e.g. "800g", "1L", "0,5l"
-  /\d+(?:[.,]\d+)?\s*(?:kg|g|ml|l)\b/i,
+  // simple size, e.g. "800g", "1L", "0,5l", "75 cl"
+  /\d+(?:[.,]\d+)?\s*(?:kg|g|ml|cl|l)\b/i,
 ];
+
+// A pack count written as its own word after a single size — Rimi's
+// "0,5l prk 6-pakk", "0,33l 24-pakk" — is the same multipack Barbora
+// writes as "6x0,5l". Folded into the size ("6x500ml") so a six-pack
+// never equals one can, and two stores' spellings of the same
+// six-pack do equal each other. Only a digit-marked "N-pakk"/"N pakk"
+// counts; a bare "pakk" stays what it was (see extractDescriptors).
+const PACK_COUNT_PATTERN = /(?<!\d)(\d+)\s*-?\s*(?:pakk|pack)(?![\p{L}])/iu;
 
 // Words that are the first capitalized word in plenty of raw names
 // but aren't a real brand — either because they describe the
@@ -550,10 +561,10 @@ function extractBrand(name) {
 // Anything that isn't a plain "number(xnumber)unit" shape (e.g. the
 // unitless "10-pack" pattern) falls back to the old whitespace-
 // stripped/lowercased behavior unchanged.
-const NORMALIZED_SIZE_PATTERN = /^(\d+(?:[.,]\d+)?)(?:x(\d+(?:[.,]\d+)?))?(kg|g|ml|l)$/;
+const NORMALIZED_SIZE_PATTERN = /^(\d+(?:[.,]\d+)?)(?:x(\d+(?:[.,]\d+)?))?(kg|g|ml|cl|l)$/;
 
 function normalizeSizeValue(rawValue) {
-  const compact = rawValue.replace(/\s+/g, "").toLowerCase();
+  const compact = rawValue.replace(/\s+/g, "").replace(/[×*]/g, "x").toLowerCase();
   const match = compact.match(NORMALIZED_SIZE_PATTERN);
   if (!match) return compact;
 
@@ -564,6 +575,9 @@ function normalizeSizeValue(rawValue) {
 
   if (unit === "l") {
     each *= 1000;
+    unit = "ml";
+  } else if (unit === "cl") {
+    each *= 10;
     unit = "ml";
   } else if (unit === "kg") {
     each *= 1000;
@@ -578,7 +592,28 @@ function normalizeSizeValue(rawValue) {
 
 function extractSize(name) {
   const size = matchSize(name);
-  return size ? normalizeSizeValue(size.value) : null;
+  if (!size) return null;
+  const normalized = normalizeSizeValue(size.value);
+  // A separate "N-pakk" count turns a single size into that multipack
+  // (see PACK_COUNT_PATTERN); a size that already is one keeps it.
+  const pack = name.match(PACK_COUNT_PATTERN);
+  if (pack && /^\d+(?:\.\d+)?(?:ml|g)$/.test(normalized)) {
+    return `${parseInt(pack[1], 10)}x${normalized}`;
+  }
+  return normalized;
+}
+
+// A wine's vintage — a four-digit year on its own ("Rioja Reserva
+// 2018"). Compared in the alcohol categories only (see
+// sameBrandedProduct): the same wine from two harvests is two
+// products. Never a year glued to other digits, and not the
+// four-digit brand-numbers beers carry (Kronenbourg 1664 is outside
+// the range).
+const VINTAGE_PATTERN = /(?<![\d.,])(19[6-9]\d|20[0-4]\d)(?![\d.,%])/;
+
+function extractVintage(name) {
+  const match = name.match(VINTAGE_PATTERN);
+  return match ? match[1] : null;
 }
 
 function extractVariant(name) {
@@ -817,6 +852,35 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   ["torud", ""],
   ["teokarbid", ""],
   ["specialita", ""], // Selver's "Specialità" line word on Panzani pasta
+  // Alcohol (batch 9). The "% vol"/"%vol" alcohol strength leaves a
+  // bare "vol" once the percent itself is read (extractFatPercent
+  // reads any "N%", so 5,2% beer and 40% vodka compare the same way
+  // fat % does); "alk." alone ("alk.0,0%vol") is the same leftover.
+  ["vol", ""],
+  ["alk", ""],
+  // Packaging words a store abbreviates: can vs bottle stays a real
+  // difference (one side saying "purk" and the other nothing never
+  // matches — see the note above DESCRIPTOR_WORD_NORMALIZATIONS), but
+  // the same can must not fail on spelling.
+  ["prk", "purk"],
+  ["pdl", "pudel"],
+  ["plastpudel", "pet"],
+  // English/other spellings of the spirit and drink types Barbora,
+  // Rimi and Selver mostly write in Estonian — the Estonian word is
+  // kept (not dropped) so the type stays in the display name.
+  ["vodka", "viin"],
+  ["whisky", "viski"],
+  ["whiskey", "viski"],
+  ["rum", "rumm"],
+  ["dzinn", "gin"],
+  ["džinn", "gin"],
+  ["cognac", "konjak"],
+  ["brändi", "brandy"],
+  ["liqueur", "liköör"],
+  ["likoor", "liköör"],
+  ["cider", "siider"],
+  ["beer", "õlu"],
+  ["wine", "vein"],
 ];
 
 const DESCRIPTOR_NORMALIZATION_PATTERNS = [
@@ -838,7 +902,14 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
   // an age marker "6k"/"0K+" — is never a word. Only when a digit
   // precedes it: a bare letter after anything else ("Sensitivity&G",
   // "&G" = "& Gum") is an abbreviation and stays a real descriptor.
-  { regex: /(?<=\d)\s*(?:kg|ml|g|l|k)(?![\p{L}])/giu, replacement: "" },
+  { regex: /(?<=\d)\s*(?:kg|ml|cl|g|l|k)(?![\p{L}])/giu, replacement: "" },
+  // "Alcohol-free" in every abbreviation the three stores use —
+  // "Alk.vaba", "Alk. Vaba", "Alkovaba", "Alk.v.", "Al.vaba",
+  // "Alkoh. vaba" — all meet at the full word, so the same
+  // alcohol-free beer isn't two products over a period. Runs before
+  // the whole-word list, whose "alk" -> "" would otherwise eat the
+  // prefix first.
+  { regex: /(?<![\p{L}])(?:alk(?:oh(?:oli)?)?|al)\.?\s*v(?:aba|\.)|alkovaba/giu, replacement: "alkoholivaba" },
 ].concat(DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
   // Unicode-aware word boundary — a plain \b treats a leading/trailing
   // diacritic (ö, õ, ä, ü, š) as "not a word character", so it fails
@@ -1077,6 +1148,14 @@ function computeSignature(item) {
     // narrows matchAcrossWeights to per-kg listings only, see
     // sameBrandedProduct. Off by default.
     fixedWeightMustMatch: item.fixedWeightMustMatch === true,
+    // Set by the caller per category (Beer & cider, Wine, Spirits and
+    // the alcohol-free drinks — batch 9): the alcohol strength ("5,2%",
+    // "40%") is read by extractFatPercent like a fat %, and under this
+    // flag ONE side leaving it out is tolerated (Selver never prints
+    // it) while two stated values must still agree; the vintage year
+    // must agree too. Off by default — nothing changes elsewhere.
+    alcoholMatching: item.alcoholMatching === true,
+    vintage: extractVintage(name),
     // Set by the caller per category (currently just Diapers & baby
     // wipes) — see sameDiaperProduct. Off by default so this never
     // changes behavior for a category that hasn't opted in; the other
@@ -1152,8 +1231,21 @@ function sameBrandedProduct(sigA, sigB) {
     // isn't blocked on this alone — but one side stating it and the
     // other not, or the two stating different values (Alma 0.05% vs
     // Alma 2.5%), is exactly the kind of gap this exists to catch.
-    if ((sigA.fatPercent === null) !== (sigB.fatPercent === null)) return false;
-    if (sigA.fatPercent !== null && sigA.fatPercent !== sigB.fatPercent) return false;
+    if (sigA.alcoholMatching && sigB.alcoholMatching) {
+      // Alcohol: the strength is compared when both stores print it
+      // (4,5% is not 5,2%; 37,5% is not 40%) — but Selver prints it on
+      // nothing, so a one-sided value alone doesn't block: the brand,
+      // size, every remaining word and the vintage still have to
+      // agree. An alcohol-free "0,0%" listing can never reach here
+      // against its alcoholic twin: they're scraped into different
+      // categories, and within one pool 0,0% ≠ 5%.
+      if (sigA.fatPercent !== null && sigB.fatPercent !== null && sigA.fatPercent !== sigB.fatPercent) return false;
+      if ((sigA.vintage === null) !== (sigB.vintage === null)) return false;
+      if (sigA.vintage !== null && sigA.vintage !== sigB.vintage) return false;
+    } else {
+      if ((sigA.fatPercent === null) !== (sigB.fatPercent === null)) return false;
+      if (sigA.fatPercent !== null && sigA.fatPercent !== sigB.fatPercent) return false;
+    }
 
     // Descriptors (flavour, or another describing word) work the same
     // way variant does above: both sides having nothing left over is

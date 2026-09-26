@@ -69,6 +69,7 @@ function prepareItem(item, category) {
   if (category.matchAcrossWeights === true) item.matchAcrossWeights = true;
   if (category.diaperMatching === true) item.diaperMatching = true;
   if (category.fixedWeightMustMatch === true) item.fixedWeightMustMatch = true;
+  if (category.alcoholMatching === true) item.alcoholMatching = true;
   if (Array.isArray(category.impliedDescriptors) && category.impliedDescriptors.length > 0) {
     item.impliedDescriptors = category.impliedDescriptors;
   }

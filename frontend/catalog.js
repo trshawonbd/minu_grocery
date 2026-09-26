@@ -64,13 +64,16 @@ const DISPLAY_CATEGORIES = [
   { id: "lihatooted", sources: ["Ham & cold cuts"], icon: "meat", name: { et: "Lihatooted", en: "Ham & cold cuts", ru: "Мясные изделия" } },
   { id: "kala", sources: ["Fish & seafood"], icon: "fish", name: { et: "Kala", en: "Fish & seafood", ru: "Рыба" } },
   { id: "leib-ja-sai", sources: ["Bread"], icon: "bread", name: { et: "Leib ja sai", en: "Bread", ru: "Хлеб" } },
+  { id: "koogid", sources: ["Cakes & pastries"], icon: "cake", name: { et: "Koogid ja saiakesed", en: "Cakes & pastries", ru: "Торты и выпечка" } },
   { id: "hommikusook", sources: ["Cereals & oats"], icon: "bowl", name: { et: "Hommikusöök", en: "Breakfast cereals", ru: "Завтраки" } },
   { id: "riis-ja-teraviljad", sources: ["Rice & grains"], icon: "grain", name: { et: "Riis ja teraviljad", en: "Rice & grains", ru: "Рис и крупы" } },
   { id: "pasta", sources: ["Pasta"], icon: "pasta", name: { et: "Pasta", en: "Pasta", ru: "Макароны" } },
+  { id: "kiirtoit", sources: ["Instant food"], icon: "noodles", name: { et: "Kiirtoit", en: "Instant food", ru: "Быстрое питание" } },
   { id: "jahu-ja-suhkur", sources: ["Flour & sugar"], icon: "bag", name: { et: "Jahu ja suhkur", en: "Flour & sugar", ru: "Мука и сахар" } },
   { id: "kupsetamine", sources: ["Baking supplies"], icon: "cupcake", name: { et: "Küpsetamine", en: "Baking", ru: "Выпечка" } },
   { id: "hoidised", sources: ["Canned food"], icon: "can", name: { et: "Hoidised", en: "Canned & preserved", ru: "Консервы" } },
   { id: "kastmed", sources: ["Sauces & condiments"], icon: "bottle", name: { et: "Kastmed", en: "Sauces", ru: "Соусы" } },
+  { id: "maailma-kook", sources: ["World cuisine"], icon: "globe", name: { et: "Maailma köök", en: "World cuisine", ru: "Кухни мира" } },
   { id: "olid", sources: ["Cooking oil"], icon: "bottle", name: { et: "Õlid", en: "Cooking oil", ru: "Масла" } },
   { id: "maitseained", sources: ["Spices"], icon: "spoon", name: { et: "Maitseained", en: "Spices", ru: "Специи" } },
   { id: "moosid-ja-maarded", sources: ["Jam & honey & spreads"], icon: "jar", name: { et: "Moosid ja määrded", en: "Jam, honey & spreads", ru: "Джемы и пасты" } },
@@ -84,6 +87,14 @@ const DISPLAY_CATEGORIES = [
   { id: "jaatis", sources: ["Ice cream"], icon: "icecream", name: { et: "Jäätis", en: "Ice cream", ru: "Мороженое" } },
   { id: "kohv-ja-tee", sources: ["Coffee", "Tea & cocoa"], icon: "cup", name: { et: "Kohv ja tee", en: "Coffee & tea", ru: "Кофе и чай" } },
   { id: "mahlad-ja-joogid", sources: ["Drinks"], icon: "cup", name: { et: "Mahlad ja joogid", en: "Juices & drinks", ru: "Соки и напитки" } },
+  { id: "alkoholivaba", sources: ["Alcohol-free beer, cider & wine"], icon: "beer", name: { et: "Alkoholivaba õlu ja vein", en: "Alcohol-free beer & wine", ru: "Безалкогольное пиво и вино" } },
+  // Alcohol — private testing only; hidden entirely when SHOW_ALCOHOL
+  // (frontend/app-logic.js) is false, because visibleProducts() then
+  // returns no product of these data categories and a tile with no
+  // products is never drawn.
+  { id: "olu-ja-siider", sources: ["Beer & cider"], icon: "beer", alcohol: true, name: { et: "Õlu ja siider", en: "Beer & cider", ru: "Пиво и сидр" } },
+  { id: "vein", sources: ["Wine"], icon: "wine", alcohol: true, name: { et: "Vein", en: "Wine", ru: "Вино" } },
+  { id: "kange-alkohol", sources: ["Spirits"], icon: "glass", alcohol: true, name: { et: "Kange alkohol", en: "Spirits", ru: "Крепкий алкоголь" } },
   { id: "lapsed", sources: ["Baby formula", "Baby food", "Diapers & baby wipes"], icon: "baby", name: { et: "Lapsed", en: "Baby & children", ru: "Дети" } },
   { id: "hugieen", sources: ["Personal care"], icon: "drop", name: { et: "Hügieen", en: "Personal care", ru: "Гигиена" } },
   { id: "noudepesu", sources: ["Household"], split: "dish", icon: "spray", name: { et: "Nõudepesu", en: "Dishwashing", ru: "Для посуды" } },
@@ -128,6 +139,12 @@ const ICON_PATHS = {
   paper: ["M6 3h9l4 4v14H6V3z", "M15 3v4h4", "M9 12h6M9 16h6"],
   paw: ["M12 13c-3 0-5 2-5 4s2 3 5 3 5-1 5-3-2-4-5-4z", "M7 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM17 10a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM10 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM14 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"],
   cart: ["M3 4h2l2 11h11l2-7H7", "M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM17 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"],
+  cake: ["M4 13h16v7H4z", "M4 13a3 2 0 0 1 4 0 3 2 0 0 0 4 0 3 2 0 0 0 4 0 3 2 0 0 1 4 0", "M12 9V6", "M11 4c0-1 1-1 1-2 0 1 1 1 1 2a1 1 0 0 1-2 0z"],
+  noodles: ["M4 11h16a8 8 0 0 1-16 0z", "M5 11l2-8M9 11l2-8", "M7 19h10"],
+  globe: ["M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18z", "M3 12h18", "M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"],
+  beer: ["M6 6h9v14H6z", "M15 9h2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2", "M6 6a2 2 0 0 1 2-3h5a2 2 0 0 1 2 3", "M9 10v7M12 10v7"],
+  wine: ["M8 3h8l1 6a5 5 0 0 1-10 0l1-6z", "M12 14v6", "M9 20h6"],
+  glass: ["M7 3h10l-1 9a4 4 0 0 1-8 0L7 3z", "M12 16v4", "M9 20h6", "M8 7h8"],
 };
 
 function displayCategoryById(id) {

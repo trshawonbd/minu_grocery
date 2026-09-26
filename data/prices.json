@@ -29355,6 +29355,15 @@
         "storeUnitPrice": 12.99,
         "storeName": "Kohvioad Classic PAULIG 1kg"
       },
+      "coop": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-paulig-cl-1kg/",
+        "size": "1000g",
+        "ean": "6411300164783",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300164783.jpg",
+        "storeName": "Kohviuba Paulig Classic 1kg"
+      },
       "rimi": {
         "price": 23.69,
         "currency": "EUR",
@@ -29368,11 +29377,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-classic-paulig-1-kg",
         "size": "1000g",
+        "ean": "6411300164783",
         "storeUnitPrice": 24.49,
         "storeName": "Kohvioad Classic, PAULIG, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Paulig Kohvioad classic crema 1000g",
@@ -29388,6 +29398,15 @@
         "storeUnitPrice": 12.99,
         "storeName": "Kohvioad Classic Crema PAULIG 1kg"
       },
+      "coop": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-uba-classic-crema-1kg/",
+        "size": "1000g",
+        "ean": "6411300172467",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300172467.jpg",
+        "storeName": "Kohviuba Paulig Classic Crema 1kg"
+      },
       "rimi": {
         "price": 23.69,
         "currency": "EUR",
@@ -29401,11 +29420,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-classic-crema-paulig-1-kg",
         "size": "1000g",
+        "ean": "6411300172467",
         "storeUnitPrice": 24.49,
         "storeName": "Kohvioad Classic Crema, PAULIG, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Lavazza Kohvioad qualita rossa 1000g",
@@ -29421,6 +29441,15 @@
         "storeUnitPrice": 12.99,
         "storeName": "Kohvioad Qualita Rossa LAVAZZA 1kg"
       },
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-lavazza-1kg-2/",
+        "size": "1000g",
+        "ean": "8000070035904",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070035898.jpg",
+        "storeName": "Kohviuba Lavazza Qualita Rossa 1kg"
+      },
       "selver": {
         "price": 29.99,
         "currency": "EUR",
@@ -29428,11 +29457,12 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "1000g",
+        "ean": "8000070035904",
         "storeUnitPrice": 29.99,
         "storeName": "Kohvioad Qualita Rossa, LAVAZZA, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Lavazza Kohvioad crema e aroma 1000g",
@@ -29447,6 +29477,15 @@
         "size": "1000g",
         "storeUnitPrice": 12.99,
         "storeName": "Kohvioad LAVAZZA Crema e Aroma,1kg"
+      },
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-lavazza-1kg/",
+        "size": "1000g",
+        "ean": "8000070024441",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070025400.jpg",
+        "storeName": "Kohviuba Lavazza Crema e Aroma 1kg"
       },
       "rimi": {
         "price": 29.99,
@@ -29463,11 +29502,12 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "1000g",
+        "ean": "8000070024441",
         "storeUnitPrice": 29.99,
         "storeName": "Kohvioad Crema E Aroma, LAVAZZA, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Merrild Kohvioad arabica 1000g",
@@ -29483,6 +29523,15 @@
         "storeUnitPrice": 13.99,
         "storeName": "Kohvioad Arabica MERRILD 1kg"
       },
+      "coop": {
+        "price": 21.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-merrild-1kg-2/",
+        "size": "1000g",
+        "ean": "8000070201347",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070201347.jpg",
+        "storeName": "Kohviuba Merrild Arabica 1kg"
+      },
       "selver": {
         "price": 26.99,
         "currency": "EUR",
@@ -29490,11 +29539,12 @@
         "cardPrice": 12.99,
         "cardName": "Partner",
         "size": "1000g",
+        "ean": "8000070201347",
         "storeUnitPrice": 26.99,
         "storeName": "Kohvioad Arabica, MERRILD, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Merrild Kohvioad crema 1000g",
@@ -29510,6 +29560,15 @@
         "storeUnitPrice": 13.99,
         "storeName": "Kohvioad MERRILD Crema 1kg"
       },
+      "coop": {
+        "price": 21.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-merrild-1kg-3/",
+        "size": "1000g",
+        "ean": "8000070022904",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8000070022904.png",
+        "storeName": "Kohviuba Merrild Crema 1kg"
+      },
       "rimi": {
         "price": 11.99,
         "currency": "EUR",
@@ -29523,11 +29582,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-crema-merrild-1-kg",
         "size": "1000g",
+        "ean": "8000070022904",
         "storeUnitPrice": 26.99,
         "storeName": "Kohvioad Crema, MERRILD, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Merrild Kohvioad crema dolce 1000g",
@@ -29558,6 +29618,7 @@
         "cardPrice": 11.99,
         "cardName": "Partner",
         "size": "1000g",
+        "ean": "8000070076280",
         "storeUnitPrice": 26.99,
         "storeName": "Kohvioad Crema Dolce, MERRILD, 1 kg"
       }
@@ -29578,6 +29639,15 @@
         "storeUnitPrice": 13.99,
         "storeName": "Kohvioad MERRILD Barista Cremoso 1kg"
       },
+      "coop": {
+        "price": 21.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/merrild-barista-cremoso-kohviuba-1kg/",
+        "size": "1000g",
+        "ean": "8000070068681",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/8000070068681.png",
+        "storeName": "Merrild Barista Cremoso kohviuba 1kg"
+      },
       "rimi": {
         "price": 25.79,
         "currency": "EUR",
@@ -29591,11 +29661,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-barista-cremoso-merrild-1-kg",
         "size": "1000g",
+        "ean": "8000070068681",
         "storeUnitPrice": 27.99,
         "storeName": "Kohvioad Barista Cremoso, MERRILD, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Merrild Kohvioad barista espresso 1000g",
@@ -29611,6 +29682,15 @@
         "storeUnitPrice": 13.99,
         "storeName": "Kohvioad MERRILD Barista Espresso 1kg"
       },
+      "coop": {
+        "price": 21.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/merrild-barista-espresso-kohviuba-1kg/",
+        "size": "1000g",
+        "ean": "8000070068667",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/8000070068667.png",
+        "storeName": "Merrild Barista Espresso kohviuba 1kg"
+      },
       "rimi": {
         "price": 26.99,
         "currency": "EUR",
@@ -29624,11 +29704,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-barista-espresso-merrild-1-kg",
         "size": "1000g",
+        "ean": "8000070068667",
         "storeUnitPrice": 27.99,
         "storeName": "Kohvioad Barista Espresso, MERRILD, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Merrild Kohvioad vienna roast 1000g",
@@ -29667,16 +29748,26 @@
         "storeUnitPrice": 24.29,
         "storeName": "Kohvioad Brazil LÖFBERGS 1kg"
       },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lofbergs-kohviuba-brazil-1kg-keskm-rost/",
+        "size": "1000g",
+        "ean": "7310050012544",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/7310050012506.png",
+        "storeName": "Kohviuba Löfbergs Brazil 1kg keskmine röst"
+      },
       "selver": {
         "price": 24.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-brazil-lofbergs-1-kg",
         "size": "1000g",
+        "ean": "7310050012544",
         "storeUnitPrice": 24.29,
         "storeName": "Kohvioad Brazil, LÖFBERGS, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Löfbergs Kohvioad crema 1000g",
@@ -29690,16 +29781,69 @@
         "storeUnitPrice": 23.89,
         "storeName": "Kohvioad LÖFBERGS Crema 1kg"
       },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lofbergs-kohviuba-crema-1kg/",
+        "size": "1000g",
+        "ean": "7310050012551",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/7310050012551.png",
+        "storeName": "Kohviuba Löfbergs Crema 1kg"
+      },
       "selver": {
         "price": 23.9,
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-crema-lofbergs-1-kg",
         "size": "1000g",
+        "ean": "7310050012551",
         "storeUnitPrice": 23.9,
         "storeName": "Kohvioad Crema, LÖFBERGS, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Paulig Kohviuba classic aromatico 1000g",
+    "category": "Coffee",
+    "prices": {
+      "barbora": {
+        "price": 24.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kohviuba-paulig-classic-aromatico-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 24.39,
+        "storeName": "Kohviuba PAULIG Classic Aromatico 1kg"
+      },
+      "coop": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paulig-classic-aromatico-kohviuba-1kg/",
+        "size": "1000g",
+        "ean": "6411300182220",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/6411300182220.png",
+        "storeName": "Kohviuba Paulig Classic Aromatico 1kg"
+      },
+      "rimi": {
+        "price": 23.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/kohvioad/kohvioad-paulig-classic-aromatico-1kg/p/1016887",
+        "size": "1000g",
+        "storeUnitPrice": 23.69,
+        "storeName": "Kohvioad Paulig Classic Aromatico 1kg"
+      },
+      "selver": {
+        "price": 24.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvioad-classic-aromatico-paulig-1kg",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "6411300182220",
+        "storeUnitPrice": 24.49,
+        "storeName": "Kohvioad Classic Aromatico, PAULIG, 1kg"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Paulig Kohvioad arabica 1000g",
@@ -29712,6 +29856,15 @@
         "size": "1000g",
         "storeUnitPrice": 24.39,
         "storeName": "Kohvioad Arabica PAULIG 1kg"
+      },
+      "coop": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paulig-arabica-1kg/",
+        "size": "1000g",
+        "ean": "6418474039008",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411301162825.png",
+        "storeName": "Kohviuba Paulig Arabica 1kg"
       },
       "rimi": {
         "price": 12.49,
@@ -29727,11 +29880,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-arabica-paulig-1-kg",
         "size": "1000g",
+        "ean": "6418474039008",
         "storeUnitPrice": 23.9,
         "storeName": "Kohvioad Arabica, PAULIG, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tasuja Kohviuba tambet 1000g",
@@ -29747,16 +29901,61 @@
         "storeUnitPrice": 21.09,
         "storeName": "Kohviuba Tambet TASUJA 1kg"
       },
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-tasuja-1kg/",
+        "size": "1000g",
+        "ean": "4742650001049",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4742650001049.jpg",
+        "storeName": "Kohviuba Tasuja Tambet 1kg"
+      },
       "selver": {
         "price": 24.9,
         "currency": "EUR",
         "url": "https://www.selver.ee/kohviuba-tambet-tasuja-1-kg",
         "size": "1000g",
+        "ean": "4742650001049",
         "storeUnitPrice": 24.9,
         "storeName": "Kohviuba Tambet, TASUJA, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tasuja Kohviuba jaanus 1000g",
+    "category": "Coffee",
+    "prices": {
+      "barbora": {
+        "price": 23.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kohviuba-jaanus-tasuja-1-kg",
+        "size": "1000g",
+        "storeUnitPrice": 23.29,
+        "storeName": "Kohviuba Jaanus TASUJA 1kg"
+      },
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jaanus-kohviuba-tasuja-1kg/",
+        "size": "1000g",
+        "ean": "4742650001025",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4742650001025.png",
+        "storeName": "Kohviuba Tasuja Jaanus 1kg"
+      },
+      "selver": {
+        "price": 24.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/espresso-kohviuba-jaanus-tasuja-1-kg",
+        "cardPrice": 18.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "4742650001025",
+        "storeUnitPrice": 24.9,
+        "storeName": "Espresso kohviuba Jaanus, TASUJA, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Jacobs Kohvioad barista espresso 1000g",
@@ -29797,6 +29996,15 @@
         "storeUnitPrice": 14.99,
         "storeName": "Kohvioad Barista Crema JACOBS 1kg"
       },
+      "coop": {
+        "price": 22.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-uba-jacobs-crema-1kg-2/",
+        "size": "1000g",
+        "ean": "8711000895849",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8711000895849-2.png",
+        "storeName": "Jacobs kohviuba Barista Crema 1kg"
+      },
       "rimi": {
         "price": 13.99,
         "currency": "EUR",
@@ -29810,11 +30018,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-barista-crema-jacobs-1-kg",
         "size": "1000g",
+        "ean": "8711000895849",
         "storeUnitPrice": 23.49,
         "storeName": "Kohvioad Barista Crema, JACOBS, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Starbucks Kohvioad blonde espresso 450g",
@@ -29843,6 +30052,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/blonde-espresso-kohvioad-starbucks-450g",
         "size": "450g",
+        "ean": "7613037204797",
         "storeUnitPrice": 39.98,
         "storeName": "Blonde Espresso kohvioad, STARBUCKS, 450g"
       }
@@ -29886,16 +30096,26 @@
         "storeUnitPrice": 30.43,
         "storeName": "Kohvioad SEGAFREDO Crema Perfetto 900g"
       },
+      "coop": {
+        "price": 27.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/segafredo-crema-perfetto-kohviuba-900g/",
+        "size": "900g",
+        "ean": "6420101885537",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/6420101885537.png",
+        "storeName": "Kohviuba Segafredo Crema Perfetto 900g"
+      },
       "selver": {
         "price": 27.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-crema-perfetto-segafredo-900-g",
         "size": "900g",
+        "ean": "6420101885537",
         "storeUnitPrice": 30.43,
         "storeName": "Kohvioad Crema Perfetto, SEGAFREDO, 900 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Jacobs Lahustuv kohv cronat gold 100g",
@@ -29911,6 +30131,15 @@
         "storeUnitPrice": 39.9,
         "storeName": "Lahustuv kohv Cronat Gold JACOBS 100g"
       },
+      "coop": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lah-kohv-jacobs-100g/",
+        "size": "100g",
+        "ean": "8711000517857",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622400001079.png",
+        "storeName": "Lahustuv kohv Jacobs Cronat Gold 100g"
+      },
       "rimi": {
         "price": 6.49,
         "currency": "EUR",
@@ -29924,11 +30153,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-kohv-cronat-gold-jacobs-100g",
         "size": "100g",
+        "ean": "8711000517857",
         "storeUnitPrice": 64.9,
         "storeName": "Lahustuv kohv Cronat Gold, JACOBS, 100g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Jacobs Lahustuv kohv cronat gold 200g",
@@ -29944,6 +30174,15 @@
         "storeUnitPrice": 34.95,
         "storeName": "Lahustuv kohv Cronat Gold JACOBS 200g"
       },
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lah-kohv-cronat-gold200g/",
+        "size": "200g",
+        "ean": "8711000517918",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/7622400001086.png",
+        "storeName": "Lahustuv kohv Jacobs Cronat Gold 200g"
+      },
       "rimi": {
         "price": 11.79,
         "currency": "EUR",
@@ -29957,11 +30196,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-kohv-cronat-gold-jacobs-200-g",
         "size": "200g",
+        "ean": "8711000517918",
         "storeUnitPrice": 39.95,
         "storeName": "Lahustuv kohv Cronat Gold, JACOBS, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Jacobs Lahustuv kohv krönung 100g",
@@ -29977,13 +30217,93 @@
         "storeUnitPrice": 46.9,
         "storeName": "Lahustuv kohv Krönung JACOBS 100g"
       },
+      "coop": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lah-kohv-j-kronung-100g/",
+        "size": "100g",
+        "ean": "8711000517888",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622400005589.png",
+        "storeName": "Lahustuv kohv Jacobs Krönung 100g"
+      },
       "selver": {
         "price": 8.12,
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-kohv-kronung-jacobs-100-g",
         "size": "100g",
+        "ean": "8711000517888",
         "storeUnitPrice": 81.2,
         "storeName": "Lahustuv kohv Krönung, JACOBS, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Lahustuv kohv krönung 200g",
+    "category": "Coffee",
+    "prices": {
+      "barbora": {
+        "price": 13.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/lahustuv-kohv-kronung-jacobs-200-g",
+        "cardPrice": 7.99,
+        "cardName": "Aitäh",
+        "size": "200g",
+        "storeUnitPrice": 39.95,
+        "storeName": "Lahustuv kohv Krönung JACOBS 200g"
+      },
+      "coop": {
+        "price": 14.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lah-kohv-j-kronung-200g/",
+        "size": "200g",
+        "ean": "8711000517949",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622201043933.png",
+        "storeName": "Lahustuv kohv Jacobs Krönung 200g"
+      },
+      "rimi": {
+        "price": 13.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/lahustuv-kohv/kohv-lahustuv-jacobs-kronung-200g/p/124199",
+        "size": "200g",
+        "storeUnitPrice": 68.95,
+        "storeName": "Kohv lahustuv Jacobs Kronung 200g"
+      },
+      "selver": {
+        "price": 13.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lahustuv-kohv-kronung-jacobs-200-g",
+        "cardPrice": 8.99,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "8711000517949",
+        "storeUnitPrice": 69.95,
+        "storeName": "Lahustuv kohv Kronung, JACOBS, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aroma gold Lahustuv kohv 200g",
+    "category": "Coffee",
+    "prices": {
+      "barbora": {
+        "price": 13.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/lahustuv-kohv-aroma-gold-200-g",
+        "cardPrice": 6.99,
+        "cardName": "Aitäh",
+        "size": "200g",
+        "storeUnitPrice": 34.95,
+        "storeName": "Lahustuv kohv AROMA GOLD 200g"
+      },
+      "rimi": {
+        "price": 13.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/lahustuv-kohv/lahustuv-kohv-aroma-gold-200g/p/135745",
+        "size": "200g",
+        "storeUnitPrice": 67.45,
+        "storeName": "Lahustuv kohv Aroma Gold 200g"
       }
     },
     "matchedVia": "automatic"
@@ -30002,13 +30322,49 @@
         "storeUnitPrice": 49.9,
         "storeName": "Lahustuv kohv NESCAFE CLASSIC Crema 100g"
       },
+      "coop": {
+        "price": 7.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nescafe-classic-crema-lah-kohv-100g/",
+        "size": "100g",
+        "ean": "7613034584236",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/7613034584236.png",
+        "storeName": "Lahustuv kohv Nescafe Classic Crema 100g"
+      },
       "selver": {
         "price": 7.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-kohv-classic-crema-nescafe-100-g",
         "size": "100g",
+        "ean": "7613034584236",
         "storeUnitPrice": 74.9,
         "storeName": "Lahustuv kohv Classic Crema, NESCAFE, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nescafe Lahustuv kohv gold 100g",
+    "category": "Coffee",
+    "prices": {
+      "barbora": {
+        "price": 10.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/lahustuv-kohv-nescafe-gold-100-g",
+        "cardPrice": 6.49,
+        "cardName": "Aitäh",
+        "size": "100g",
+        "storeUnitPrice": 64.9,
+        "storeName": "Lahustuv kohv NESCAFE Gold 100g"
+      },
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nescafe-gold-lahustuv-kohv-100g/",
+        "size": "100g",
+        "ean": "7613036299497",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/7613036299497.png",
+        "storeName": "Lahustuv kohv Nescafe Gold 100g"
       }
     },
     "matchedVia": "automatic"
@@ -30040,6 +30396,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-kohv-gold-nescafe-200-g",
         "size": "200g",
+        "ean": "7613036299459",
         "storeUnitPrice": 84.95,
         "storeName": "Lahustuv kohv Gold, NESCAFE, 200 g"
       }
@@ -30063,8 +30420,35 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-viljakohv-siguriga-seve-100-g",
         "size": "100g",
+        "ean": "4740506100410",
         "storeUnitPrice": 11.9,
         "storeName": "Lahustuv viljakohv siguriga, SEVE, 100 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Jacobs Lahustuv kohv velvet 200g",
+    "category": "Coffee",
+    "prices": {
+      "barbora": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/lahustuv-kohv-jacobs-velvet-200-g",
+        "cardPrice": 6.99,
+        "cardName": "Aitäh",
+        "size": "200g",
+        "storeUnitPrice": 34.95,
+        "storeName": "Lahustuv kohv JACOBS Velvet 200g"
+      },
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jacobs-velvet-lahustuv-kohv-200g/",
+        "size": "200g",
+        "ean": "8711000515297",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000515297.png",
+        "storeName": "Lahustuv kohv Jacobs Velvet 200g"
       }
     },
     "matchedVia": "automatic"
@@ -30138,6 +30522,7 @@
         "cardPrice": 4.99,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "8711000576533",
         "storeUnitPrice": 25.16,
         "storeName": "Jahvatatud kohv Krönung, JACOBS, 250 g"
       }
@@ -30188,6 +30573,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-kohv-qualita-oro-lavazza-250-g",
         "size": "250g",
+        "ean": "8000070019911",
         "storeUnitPrice": 22.76,
         "storeName": "Jahvatatud kohv Qualita Oro, LAVAZZA, 250 g"
       }
@@ -30220,6 +30606,49 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Lavazza Jahvatatud kohv club 250g",
+    "category": "Coffee",
+    "prices": {
+      "barbora": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jahvatatud-kohv-club-lavazza-250-g",
+        "cardPrice": 5.99,
+        "cardName": "Aitäh",
+        "size": "250g",
+        "storeUnitPrice": 23.96,
+        "storeName": "Jahvatatud kohv Club LAVAZZA 250g"
+      },
+      "coop": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-club-jahvatatud-kohv-250g/",
+        "size": "250g",
+        "ean": "8000070015456",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/8000070015456.png",
+        "storeName": "Jahvatatud kohv Lavazza Club 250g"
+      },
+      "rimi": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/jahvatatud-kohv/kohv-jahvatatud-lavazza-club-purgis-250g/p/156712",
+        "size": "250g",
+        "storeUnitPrice": 43.96,
+        "storeName": "Kohv jahvatatud Lavazza Club purgis 250g"
+      },
+      "selver": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-kohv-club-purgis-lavazza-250-g",
+        "size": "250g",
+        "ean": "8000070015456",
+        "storeUnitPrice": 43.96,
+        "storeName": "Jahvatatud kohv Club purgis, LAVAZZA, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Mövenpick Jahvatatud kohv der himmlische 500g",
     "category": "Coffee",
     "prices": {
@@ -30236,6 +30665,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-kohv-der-himmlische-movenpick-500-g",
         "size": "500g",
+        "ean": "4006581001777",
         "storeUnitPrice": 19.98,
         "storeName": "Jahvatatud kohv Der Himmlische, MÖVENPICK, 500 g"
       }
@@ -30256,6 +30686,15 @@
         "storeUnitPrice": 15.98,
         "storeName": "Jahvatatud kohv Selection JACOBS 500g"
       },
+      "coop": {
+        "price": 12.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohv-jacobs-500g/",
+        "size": "500g",
+        "ean": "8711000891568",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8711000891568-1.png",
+        "storeName": "Jahvatatud kohv Jacobs Selection 500g"
+      },
       "rimi": {
         "price": 13.89,
         "currency": "EUR",
@@ -30269,11 +30708,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-kohv-selection-jacobs-500-g",
         "size": "500g",
+        "ean": "8711000891568",
         "storeUnitPrice": 24.98,
         "storeName": "Jahvatatud kohv Selection, JACOBS, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Löfbergs Jahvatatud kohv inferno 450g",
@@ -30287,16 +30727,26 @@
         "storeUnitPrice": 22.56,
         "storeName": "Jahvatatud kohv LÖFBERGS Inferno 450g"
       },
+      "coop": {
+        "price": 10.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lofbergs-inferno-jahvatatud-kohv-450g/",
+        "size": "450g",
+        "ean": "7310050010847",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/7310050010847.png",
+        "storeName": "Jahvatatud kohv Löfbergs Inferno 450g"
+      },
       "selver": {
         "price": 10.15,
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-kohv-inferno-lofbergs-450-g",
         "size": "450g",
+        "ean": "7310050010847",
         "storeUnitPrice": 22.56,
         "storeName": "Jahvatatud kohv Inferno, LÖFBERGS, 450 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Segafredo Jahvatatud kohv dolce 450g",
@@ -30315,6 +30765,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-kohv-dolce-segafredo-450-g",
         "size": "450g",
+        "ean": "6420101886213",
         "storeUnitPrice": 20.42,
         "storeName": "Jahvatatud kohv Dolce, SEGAFREDO, 450 g"
       }
@@ -30397,9 +30848,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Paulig Kohv jahvatatud classic cremoso 500g",
+    "name": "Paulig Jahvatatud kohv classic cremoso 500g",
     "category": "Coffee",
     "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paulig-classic-cremoso-jahv-kohv-500g/",
+        "size": "500g",
+        "ean": "6411300176229",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/6411300176229.png",
+        "storeName": "Jahvatatud kohv Paulig Classic Cremoso 500g"
+      },
       "rimi": {
         "price": 6.49,
         "currency": "EUR",
@@ -30413,39 +30873,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-kohv-classic-cremoso-paulig-500-g",
         "size": "500g",
+        "ean": "6411300176229",
         "storeUnitPrice": 20.38,
         "storeName": "Jahvatatud kohv Classic Cremoso, PAULIG, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Lavazza Kohv jahvatatud club purgis 250g",
+    "name": "Paulig Jahvatatud kohv mokka 475g",
     "category": "Coffee",
     "prices": {
-      "rimi": {
-        "price": 10.99,
+      "coop": {
+        "price": 7.99,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/jahvatatud-kohv/kohv-jahvatatud-lavazza-club-purgis-250g/p/156712",
-        "size": "250g",
-        "storeUnitPrice": 43.96,
-        "storeName": "Kohv jahvatatud Lavazza Club purgis 250g"
+        "url": "https://coophaapsalu.ee/toode/paulig-mokka-jahvatatud-kohv-475g/",
+        "size": "475g",
+        "ean": "6411300180721",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/6411300180721.png",
+        "storeName": "Jahvatatud kohv Paulig Mokka 475g"
       },
-      "selver": {
-        "price": 10.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/jahvatatud-kohv-club-purgis-lavazza-250-g",
-        "size": "250g",
-        "storeUnitPrice": 43.96,
-        "storeName": "Jahvatatud kohv Club purgis, LAVAZZA, 250 g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Paulig Kohv jahvatatud mokka 475g",
-    "category": "Coffee",
-    "prices": {
       "rimi": {
         "price": 6.99,
         "currency": "EUR",
@@ -30461,11 +30908,12 @@
         "cardPrice": 5.69,
         "cardName": "Partner",
         "size": "475g",
+        "ean": "6411300180721",
         "storeUnitPrice": 20.19,
         "storeName": "Mokka jahvatatud kohv, PAULIG, 475 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Caffebo Kohvioad tõde 1000g",
@@ -30484,6 +30932,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvioad-tode-caffebo-1kg",
         "size": "1000g",
+        "ean": "4745010015014",
         "storeUnitPrice": 18.28,
         "storeName": "Kohvioad Tõde, CAFFEBO, 1kg"
       }
@@ -30507,6 +30956,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohviuba-kratt-caffebo-1-kg",
         "size": "1000g",
+        "ean": "4745010015212",
         "storeUnitPrice": 15.24,
         "storeName": "Kohviuba Kratt, CAFFEBO, 1 kg"
       }
@@ -30532,6 +30982,7 @@
         "cardPrice": 10.99,
         "cardName": "Partner",
         "size": "450g",
+        "ean": "8000070083837",
         "storeUnitPrice": 39.98,
         "storeName": "Kohvioad Tales of Italy Roma, LAVAZZA, 450g"
       }
@@ -30557,6 +31008,7 @@
         "cardPrice": 10.99,
         "cardName": "Partner",
         "size": "450g",
+        "ean": "8000070083882",
         "storeUnitPrice": 39.98,
         "storeName": "Kohvioad Tales of Italy Napoli, LAVAZZA, 450g"
       }
@@ -30567,6 +31019,15 @@
     "name": "Paulig Kohviuba arabica selected 1000g",
     "category": "Coffee",
     "prices": {
+      "coop": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paulig-arabica-selected-kohviuba-1kg/",
+        "size": "1000g",
+        "ean": "6411300177851",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/6411300177851.png",
+        "storeName": "Kohviuba Paulig Arabica Selected 1kg"
+      },
       "rimi": {
         "price": 12.49,
         "currency": "EUR",
@@ -30581,41 +31042,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohviuba-arabica-selected-paulig-1-kg",
         "size": "1000g",
+        "ean": "6411300177851",
         "storeUnitPrice": 23.9,
         "storeName": "Kohviuba Arabica Selected, PAULIG, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Paulig Kohvioad classic aromatico 1000g",
+    "name": "Lavazza qualita oro dark roast 1000g",
     "category": "Coffee",
     "prices": {
-      "rimi": {
-        "price": 23.69,
+      "coop": {
+        "price": 28.9,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/kohvioad/kohvioad-paulig-classic-aromatico-1kg/p/1016887",
+        "url": "https://coophaapsalu.ee/toode/lavazza-qualita-oro-moun-gr-kohviuba-1kg/",
         "size": "1000g",
-        "storeUnitPrice": 23.69,
-        "storeName": "Kohvioad Paulig Classic Aromatico 1kg"
+        "ean": "8000070030022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8000070030022.png",
+        "storeName": "Lavazza Qualita Oro Dark Roast 1kg"
       },
-      "selver": {
-        "price": 24.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kohvioad-classic-aromatico-paulig-1kg",
-        "cardPrice": 12.99,
-        "cardName": "Partner",
-        "size": "1000g",
-        "storeUnitPrice": 24.49,
-        "storeName": "Kohvioad Classic Aromatico, PAULIG, 1kg"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Lavazza Kohvioad qualita oro dark roast 1000g",
-    "category": "Coffee",
-    "prices": {
       "rimi": {
         "price": 33.49,
         "currency": "EUR",
@@ -30631,36 +31077,1168 @@
         "cardPrice": 18.99,
         "cardName": "Partner",
         "size": "1000g",
+        "ean": "8000070030022",
         "storeUnitPrice": 34.99,
         "storeName": "Kohvioad Qualita Oro Dark Roast, LAVAZZA, 1kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Jacobs Kohv lahustuv kronung 200g",
+    "name": "Nescafe dolce gusto Kohvikapsel au lait 16 16x10g",
     "category": "Coffee",
     "prices": {
-      "rimi": {
-        "price": 13.79,
+      "coop": {
+        "price": 6.59,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/lahustuv-kohv/kohv-lahustuv-jacobs-kronung-200g/p/124199",
-        "size": "200g",
-        "storeUnitPrice": 68.95,
-        "storeName": "Kohv lahustuv Jacobs Kronung 200g"
+        "url": "https://coophaapsalu.ee/toode/nescafe-dolce-gusto-au-lait-1610g/",
+        "size": "16x10g",
+        "ean": "7613033174704",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/7613033174704.png",
+        "storeName": "Kohvikapsel Nescafe Dolce Gusto Au Lait 16*10g"
       },
       "selver": {
-        "price": 13.99,
+        "price": 6.99,
         "currency": "EUR",
-        "url": "https://www.selver.ee/lahustuv-kohv-kronung-jacobs-200-g",
-        "cardPrice": 8.99,
-        "cardName": "Partner",
-        "size": "200g",
-        "storeUnitPrice": 69.95,
-        "storeName": "Lahustuv kohv Kronung, JACOBS, 200 g"
+        "url": "https://www.selver.ee/kohvikapslid-dolce-gusto-caffe-au-lait-nescafe-16-tk",
+        "ean": "7613033174704",
+        "storeUnitPrice": 0.44,
+        "storeName": "Kohvikapslid Dolce Gusto Caffe Au Lait, NESCAFE, 16 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Merrild Tassikohv in cup 400g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-kohv-merrild-400g/",
+        "size": "400g",
+        "ean": "8000070060326",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070002395.png",
+        "storeName": "Tassikohv Merrild In-Cup 400g"
+      },
+      "selver": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-tassikohv-in-cup-merrild-400-g",
+        "size": "400g",
+        "ean": "8000070060326",
+        "storeUnitPrice": 28.98,
+        "storeName": "Jahvatatud tassikohv In-Cup, MERRILD, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Arvid nordquist Arvid kohviuba mellan 500g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/arvid-nordquist-kohviuba-mellan-500g/",
+        "size": "500g",
+        "ean": "7310760041094",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/7310760041094.png",
+        "storeName": "Arvid Nordquist kohviuba Mellan 500g"
+      },
+      "selver": {
+        "price": 15.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvioad-classic-keskmine-rost-arvid-nordquist-500-g",
+        "size": "500g",
+        "ean": "7310760041094",
+        "storeUnitPrice": 30.48,
+        "storeName": "Kohvioad Classic keskmine röst, ARVID NORDQUIST, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Löfbergs Kohviuba medium 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lofbergs-kohviuba-keskmine-rost-1kg/",
+        "size": "1000g",
+        "ean": "7310050012513",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7310050012292.png",
+        "storeName": "Kohviuba Löfbergs Medium 1kg"
+      },
+      "selver": {
+        "price": 24.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvioad-keskmine-rost-lofbergs-1-kg",
+        "size": "1000g",
+        "ean": "7310050012513",
+        "storeUnitPrice": 24.29,
+        "storeName": "Kohvioad keskmine röst, LÖFBERGS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kulta katriina Presskannu kohv utz 450g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohv-kulta-katriina-450g/",
+        "size": "450g",
+        "ean": "6420101883946",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6420101883946.png",
+        "storeName": "Presskannu kohv Kulta Katriina UTZ 450g"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/presskannukohv-kulta-katriina-meira-450-g",
+        "size": "450g",
+        "ean": "6420101883946",
+        "storeUnitPrice": 15.53,
+        "storeName": "Presskannukohv Kulta Katriina, MEIRA, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohviuba qualita oro 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 24.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-qualita-oro-kohviuba-1kg/",
+        "size": "1000g",
+        "ean": "8000070020566",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/8000070020566.png",
+        "storeName": "Kohviuba Lavazza Qualita Oro 1kg"
+      },
+      "selver": {
+        "price": 34.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-qualita-oro-lavazza-1-kg",
+        "size": "1000g",
+        "ean": "8000070020566",
+        "storeUnitPrice": 34.99,
+        "storeName": "Kohviuba Qualita Oro, LAVAZZA, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nescafe Kohvikapsel latte macchiato dg 16 16x11.45g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nescafe-dg-latte-macch-k-kapsel-183-2g/",
+        "size": "16x11.45g",
+        "ean": "7613037491159",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/7613037491159.png",
+        "storeName": "Kohvikapsel Nescafe DG Latte Macchiato 16*11.45g"
+      },
+      "selver": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-dolce-gusto-latte-macchiato-nescafe-16-tk",
+        "ean": "7613037491159",
+        "storeUnitPrice": 0.53,
+        "storeName": "Kohvikapslid Dolce Gusto Latte Macchiato, NESCAFE, 16 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nescafe Kohvikapsel gusto cappuccino d 16 16x11.65g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nescafe-dolce-gusto-cappuccino-1611-65g/",
+        "size": "16x11.65g",
+        "ean": "7613036306270",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/7613036306270.jpg",
+        "storeName": "Kohvikapsel Nescafe D.Gusto Cappuccino 16*11.65g"
+      },
+      "selver": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-dolce-gusto-cappucino-nescafe-16-tk",
+        "ean": "7613036306270",
+        "storeUnitPrice": 0.53,
+        "storeName": "Kohvikapslid Dolce Gusto Cappucino, NESCAFE, 16 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Luxus Kannukohv bodum 500g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-kohv-luxus-bodum-500g/",
+        "size": "500g",
+        "ean": "6411300147137",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300147137.jpg",
+        "storeName": "Kannukohv Luxus Bodum 500g"
+      },
+      "selver": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keskmiselt-rostitud-presskannukohv-luxus-500-g",
+        "size": "500g",
+        "ean": "6411300147137",
+        "storeUnitPrice": 21.98,
+        "storeName": "Keskmiselt röstitud presskannukohv, LUXUS, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Paulig Kannukohv classic 500g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-kohv-paulig-clas-500g/",
+        "size": "500g",
+        "ean": "6411300158096",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300158096.jpg",
+        "storeName": "Kannukohv Paulig Classic 500g"
+      },
+      "selver": {
+        "price": 10.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-presskannukohv-classic-paulig-500-g",
+        "size": "500g",
+        "ean": "6411300158096",
+        "storeUnitPrice": 20.38,
+        "storeName": "Jahvatatud presskannukohv Classic, PAULIG, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Löfbergs Presskannukohv prezzo 500g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohv-lofbergs-prezzo500g/",
+        "size": "500g",
+        "ean": "7310050001586",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310050001494.png",
+        "storeName": "Presskannukohv Löfbergs Prezzo 500g"
+      },
+      "selver": {
+        "price": 10.66,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/presskannukohv-lofbergs-500-g",
+        "size": "500g",
+        "ean": "7310050001586",
+        "storeUnitPrice": 21.32,
+        "storeName": "Presskannukohv, LÖFBERGS, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza espresso italiano classico 250g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-espresso-italiano-classico-250g/",
+        "size": "250g",
+        "ean": "8000070018808",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/8000070018808.png",
+        "storeName": "Lavazza Espresso Italiano Classico 250g"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-kohv-espresso-italiano-classico-lavazza-250-g",
+        "size": "250g",
+        "ean": "8000070018808",
+        "storeUnitPrice": 39.96,
+        "storeName": "Jahvatatud kohv Espresso Italiano Classico, LAVAZZA, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza espresso barista perfetto 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 28.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-espresso-barista-perfetto-1kg/",
+        "size": "1000g",
+        "ean": "8000070024816",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/8000070024816.png",
+        "storeName": "Lavazza Espresso Barista Perfetto 1kg"
+      },
+      "selver": {
+        "price": 34.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvioad-lavazza-espresso-barista-perfetto-lavazza-1-kg",
+        "size": "1000g",
+        "ean": "8000070024816",
+        "storeUnitPrice": 34.99,
+        "storeName": "Kohvioad Lavazza Espresso Barista Perfetto , LAVAZZA, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Löfbergs Tassikohv in cup keskmine röst 500g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tassikohv-lofbergs-500g/",
+        "size": "500g",
+        "ean": "7310050001869",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310050001869.png",
+        "storeName": "Tassikohv Löfbergs In-Cup 500g keskmine röst"
+      },
+      "selver": {
+        "price": 10.66,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tassikohv-keskmine-rost-lofbergs-500-g",
+        "size": "500g",
+        "ean": "7310050001869",
+        "storeUnitPrice": 21.32,
+        "storeName": "Tassikohv keskmine röst, LÖFBERGS, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Löfbergs Kohviuba espresso 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lofbergs-kohviuba-espresso-1kg/",
+        "size": "1000g",
+        "ean": "7310050012520",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7310050012346.png",
+        "storeName": "Kohviuba Löfbergs Espresso 1kg"
+      },
+      "selver": {
+        "price": 24.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-espresso-lofbergs-1-kg",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "7310050012520",
+        "storeUnitPrice": 24.29,
+        "storeName": "Kohviuba Espresso, LÖFBERGS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Jahvatatud kohv qualita oro purgis 250g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/j-kohv-lavazza-250g-purk/",
+        "size": "250g",
+        "ean": "8000070020580",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8000070020580.png",
+        "storeName": "Jahvatatud kohv Lavazza Qualita Oro 250g purgis"
+      },
+      "selver": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-kohv-purgis-qualita-oro-tin-lavazza",
+        "ean": "8000070020580",
+        "storeUnitPrice": 43.96,
+        "storeName": "Jahvatatud kohv purgis Qualita Oro TIN, LAVAZZA,"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nescafe Lahustuv kohv classic strong 250g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 12.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nescafe-classic-strong-lah-kohv-250g/",
+        "size": "250g",
+        "ean": "7891000256831",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/7891000256831.png",
+        "storeName": "Lahustuv kohv Nescafe Classic Strong 250g"
+      },
+      "selver": {
+        "price": 12.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lahustuv-kohv-classic-strong-nescafe-250g",
+        "size": "250g",
+        "ean": "7891000256831",
+        "storeUnitPrice": 48.76,
+        "storeName": "Lahustuv kohv Classic Strong, NESCAFE, 250g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Löfbergs Kohviuba kharisma 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lofbergs-kohviuba-kharisma-1kg/",
+        "size": "1000g",
+        "ean": "7310050012537",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7310050012391.png",
+        "storeName": "Kohviuba Löfbergs Kharisma 1kg"
+      },
+      "selver": {
+        "price": 24.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-kharisma-lofbergs-1-kg",
+        "cardPrice": 13.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "7310050012537",
+        "storeUnitPrice": 24.29,
+        "storeName": "Kohviuba Kharisma, LÖFBERGS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohvikapsel a modo mio lungo dolce 16x8g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-a-modo-mio-lungo-dolce-168g/",
+        "size": "16x8g",
+        "ean": "8000070086494",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/8000070086494.png",
+        "storeName": "Kohvikapsel Lavazza A Modo Mio Lungo Dolce 16*8g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-a-modo-mio-lungo-dolce-lavazza-16tk",
+        "ean": "8000070086494",
+        "storeUnitPrice": 0.37,
+        "storeName": "Kohvikapslid A Modo Mio Lungo Dolce, LAVAZZA, 16tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohvikapsel a modo mio oro 16x7.5g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-a-modo-mio-oro-167-5g/",
+        "size": "16x7.5g",
+        "ean": "8000070063310",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/8000070063310.png",
+        "storeName": "Kohvikapsel Lavazza A Modo Mio Oro 16*7.5g"
+      },
+      "selver": {
+        "price": 8.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-a-modo-mio-q-oro-lavazza-16tk",
+        "ean": "8000070063310",
+        "storeUnitPrice": 0.56,
+        "storeName": "Kohvikapslid A Modo Mio Q Oro, LAVAZZA, 16tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Paulig Kohviuba mokka 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 19.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paulig-mokka-kohviuba-1kg/",
+        "size": "1000g",
+        "ean": "6411300180417",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/6411300180417.png",
+        "storeName": "Kohviuba Paulig Mokka 1kg"
+      },
+      "selver": {
+        "price": 21.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paulig-mokka-kohviuba-paulig-1kg",
+        "cardPrice": 12.49,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "6411300180417",
+        "storeUnitPrice": 21.99,
+        "storeName": "Paulig Mokka kohviuba, PAULIG, 1kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohvikapsel qualita oro 10x5.5g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 6.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-qualita-oro-kohvikapsel-105-5g/",
+        "size": "10x5.5g",
+        "ean": "8000070053465",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8000070053465.png",
+        "storeName": "Kohvikapsel Lavazza Qualita Oro 10*5.5g"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-qualita-oro-lavazza-10tk",
+        "cardPrice": 4.29,
+        "cardName": "Partner",
+        "ean": "8000070053465",
+        "storeUnitPrice": 0.7,
+        "storeName": "Kohvikapslid Qualita Oro, LAVAZZA, 10tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohvikapsel espresso lungo 10x5.6g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 6.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-espresso-lungo-k-kapsel-105-6g/",
+        "size": "10x5.6g",
+        "ean": "8000070053571",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8000070053571.png",
+        "storeName": "Kohvikapsel Lavazza Espresso Lungo 10*5.6g"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-espresso-lungo-lavazza-10tk",
+        "ean": "8000070053571",
+        "storeUnitPrice": 0.7,
+        "storeName": "Kohvikapslid Espresso Lungo, LAVAZZA, 10tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohviuba caffe crema classico 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-caffe-crema-classico-k-uba-1kg/",
+        "size": "1000g",
+        "ean": "8000070027411",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/8000070027411.png",
+        "storeName": "Kohviuba Lavazza Caffe Crema Classico 1kg"
+      },
+      "selver": {
+        "price": 29.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvioad-caffe-crema-classico-lavazza-1kg",
+        "size": "1000g",
+        "ean": "8000070027411",
+        "storeUnitPrice": 29.99,
+        "storeName": "Kohvioad Caffe Crema Classico, LAVAZZA, 1kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohvipadjad crema e aroma 18 18x6.94g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-padjad-lavazza186-94g/",
+        "size": "18x6.94g",
+        "ean": "8000070062528",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070026940.png",
+        "storeName": "Kohvipadjad Lavazza Crema e Aroma 18*6.94g"
+      },
+      "selver": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvipadjad-crema-e-aroma-lavazza-18-tk",
+        "ean": "8000070062528",
+        "storeUnitPrice": 0.41,
+        "storeName": "Kohvipadjad Crema e Aroma, LAVAZZA, 18 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Segafredo Jahvatatud kohv pausa 450g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 9.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohv-pausa-450g/",
+        "size": "450g",
+        "ean": "6420101882550",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6420101882550.png",
+        "storeName": "Jahvatatud kohv Segafredo Pausa 450g"
+      },
+      "selver": {
+        "price": 9.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-kohv-pausa-segafredo-450-g",
+        "size": "450g",
+        "ean": "6420101882550",
+        "storeUnitPrice": 20.42,
+        "storeName": "Jahvatatud kohv Pausa, SEGAFREDO, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Paulig Kohviuba arabica espresso 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-arabica-1kg/",
+        "size": "1000g",
+        "ean": "6411300171057",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300171057.jpg",
+        "storeName": "Kohviuba Paulig Arabica Espresso 1kg"
+      },
+      "selver": {
+        "price": 23.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-arabica-espresso-paulig-1-kg",
+        "size": "1000g",
+        "ean": "6411300171057",
+        "storeUnitPrice": 23.9,
+        "storeName": "Kohviuba Arabica Espresso, PAULIG, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nescafe Lahustuv kohv classic 100g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 4.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lah-kohv-nescafe-cl-100g/",
+        "size": "100g",
+        "ean": "7613031918867",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613036235617.jpg",
+        "storeName": "Lahustuv kohv Nescafe Classic 100g"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lahustuv-kohv-classic-klaaspurk-nescafe-100g",
+        "size": "100g",
+        "ean": "7613031918867",
+        "storeUnitPrice": 69.9,
+        "storeName": "Lahustuv kohv Classic (klaaspurk), NESCAFE, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kohviuba oa no 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 25.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-n-2-oa-1kg/",
+        "size": "1000g",
+        "ean": "4744364010812",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4744364010812.png",
+        "storeName": "Kohviuba OA No2 1kg"
+      },
+      "selver": {
+        "price": 17.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-no2-oa-1-kg",
+        "size": "1000g",
+        "ean": "4744364010812",
+        "storeUnitPrice": 17.99,
+        "storeName": "Kohviuba No2, OA, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohvikapsel a modo mio passionale 16x7.5g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-a-modo-mio-passionale-167-5g/",
+        "size": "16x7.5g",
+        "ean": "8000070086005",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8000070086005.png",
+        "storeName": "Kohvikapsel Lavazza A Modo Mio Passionale 16*7.5g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-a-modo-mio-passionale-lavazza-16tk",
+        "ean": "8000070086005",
+        "storeUnitPrice": 0.37,
+        "storeName": "Kohvikapslid A Modo Mio Passionale, LAVAZZA, 16tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Jahvatatud kohv caffe decaffeinato 250g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-caffe-decaffeinato-jah-kohv-250g/",
+        "size": "250g",
+        "ean": "8000070011052",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/8000070011052.png",
+        "storeName": "Jahvatatud kohv Lavazza Caffe Decaffeinato 250g"
+      },
+      "selver": {
+        "price": 10.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-kohv-caffe-decaffeinato-lavazza-250-g",
+        "size": "250g",
+        "ean": "8000070011052",
+        "storeUnitPrice": 43.96,
+        "storeName": "Jahvatatud kohv Caffe Decaffeinato, LAVAZZA, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Paulig Jahvatatud kohv classic aromatico 500g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paulig-classic-aromatico-jahv-kohv-500g/",
+        "size": "500g",
+        "ean": "6411300182213",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/6411300182213.png",
+        "storeName": "Jahvatatud kohv Paulig Classic Aromatico 500g"
+      },
+      "selver": {
+        "price": 10.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-kohv-classic-aromatico-paulig-500-g",
+        "cardPrice": 5.99,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "6411300182213",
+        "storeUnitPrice": 20.38,
+        "storeName": "Jahvatatud kohv Classic Aromatico, PAULIG, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lavazza Kohvikapsel a modo mio decaf cremo 16 16x7.5g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lavazza-a-modo-mio-decaf-cremoso-167-5g/",
+        "size": "16x7.5g",
+        "ean": "8000070086036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8000070186033.png",
+        "storeName": "Kohvikapsel Lavazza A Modo Mio Decaf.Cremo.16*7.5g"
+      },
+      "selver": {
+        "price": 8.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-a-modo-mio-decaf-cremoso-lavazza-16-tk",
+        "cardPrice": 5.69,
+        "cardName": "Partner",
+        "ean": "8000070086036",
+        "storeUnitPrice": 0.56,
+        "storeName": "Kohvikapslid A Modo Mio Decaf Cremoso, LAVAZZA, 16 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Coffeestar Kohviuba creme brulee 200g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohviuba-creme-br-200g/",
+        "size": "200g",
+        "ean": "4740275000416",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740275000416.png",
+        "storeName": "Kohviuba Coffeestar Creme Brulee 200g"
+      },
+      "selver": {
+        "price": 6.7,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvioad-creme-brulee-coffeestar-200-g",
+        "size": "200g",
+        "ean": "4740275000416",
+        "storeUnitPrice": 33.5,
+        "storeName": "Kohvioad Crème Brulée, COFFEESTAR, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Best beans Kohviuba espresso supreme 900g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 25.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/best-beans-espresso-supreme-kohviuba-1kg/",
+        "size": "900g",
+        "ean": "4742650000011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4742650000011.png",
+        "storeName": "Kohviuba Best Beans Espresso Supreme 900g"
+      },
+      "selver": {
+        "price": 18.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvioad-supreme-best-beans-gourmet-coffee-900g",
+        "size": "900g",
+        "ean": "4742650000011",
+        "storeUnitPrice": 21.1,
+        "storeName": "Kohvioad Supreme, BEST BEANS GOURMET COFFEE, 900g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Kofeiinivaba kohv krönung 250g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 7.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kof-vaba-j-kronung-250g/",
+        "size": "250g",
+        "ean": "8711000517451",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000517451.png",
+        "storeName": "Kofeiinivaba kohv Jacobs Krönung 250g"
+      },
+      "selver": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kofeiinivaba-kohv-jacobs-250-g",
+        "size": "250g",
+        "ean": "8711000517451",
+        "storeUnitPrice": 29.96,
+        "storeName": "Kofeiinivaba kohv, JACOBS, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Kohviuba crema gold 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-uba-jacobs-crema-1kg/",
+        "size": "1000g",
+        "ean": "8711000539217",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000539217.png",
+        "storeName": "Kohviuba Jacobs Crema Gold 1kg"
+      },
+      "selver": {
+        "price": 12.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-crema-jacobs-1-kg",
+        "size": "1000g",
+        "ean": "8711000539217",
+        "storeUnitPrice": 12.99,
+        "storeName": "Kohviuba Crema, JACOBS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Kohviuba espresso 1 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-uba-jacobs-espresso1kg-2/",
+        "size": "1000g",
+        "ean": "8711000539187",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8711000539187.png",
+        "storeName": "Kohviuba Jacobs Espresso 1kg"
+      },
+      "selver": {
+        "price": 21.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-espresso-1kg-jacobs-1-kg",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "8711000539187",
+        "storeUnitPrice": 21.49,
+        "storeName": "Kohviuba Espresso 1kg, JACOBS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Kohviuba krönung 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 20.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-uba-jacobs-kronung-1kg/",
+        "size": "1000g",
+        "ean": "8711000539330",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000539330.png",
+        "storeName": "Kohviuba Jacobs Krönung 1kg"
+      },
+      "selver": {
+        "price": 21.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-kronung-jacobs-1-kg",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "8711000539330",
+        "storeUnitPrice": 21.49,
+        "storeName": "Kohviuba Krönung, JACOBS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Senseo kohvipadjad strong 36x6.9g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-padjad-strong-250g/",
+        "size": "36x6.9g",
+        "ean": "8711000393765",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000393765.png",
+        "storeName": "Senseo Strong kohvipadjad 36*6.9g"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvipadjad-strong-senseo-36tk",
+        "ean": "8711000393765",
+        "storeUnitPrice": 0.28,
+        "storeName": "Kohvipadjad Strong, SENSEO, 36tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Kohviuba origins brazil colombia 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 22.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jacobs-k-uba-origins-brazilcolombia-1kg/",
+        "size": "1000g",
+        "ean": "8711000576885",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/8711000576885.png",
+        "storeName": "Kohviuba Jacobs Origins Brazil&Colombia 1kg"
+      },
+      "selver": {
+        "price": 23.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-brazil-colombia-jacobs-1-kg",
+        "cardPrice": 13.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "8711000576885",
+        "storeUnitPrice": 23.49,
+        "storeName": "Kohviuba Brazil&Colombia, JACOBS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Kohviuba origins uganda kenya 1000g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 22.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jacobs-k-uba-origins-ugandakenya-1kg/",
+        "size": "1000g",
+        "ean": "8711000591154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000591154.png",
+        "storeName": "Kohviuba Jacobs Origins Uganda&Kenya 1kg"
+      },
+      "selver": {
+        "price": 23.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohviuba-origins-uganda-kenya-jacobs-1-kg",
+        "cardPrice": 13.99,
+        "cardName": "Partner",
+        "size": "1000g",
+        "ean": "8711000591154",
+        "storeUnitPrice": 23.49,
+        "storeName": "Kohviuba Origins Uganda & Kenya, JACOBS, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Jahvatatud kohv origins uganda kenya 450g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jacobs-origins-ugandakenya-jahv-k450g/",
+        "size": "450g",
+        "ean": "8711000594711",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000594711.png",
+        "storeName": "Jahvatatud kohv Jacobs Origins Uganda&Kenya 450g"
+      },
+      "selver": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatataud-kohv-uganda-kenya-origins-jacobs-450-g",
+        "size": "450g",
+        "ean": "8711000594711",
+        "storeUnitPrice": 25.53,
+        "storeName": "Jahvatataud kohv Uganda&Kenya Origins, JACOBS, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jacobs Jahvatatud kohv origins brazil colomba 450g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jacobs-origins-brazilcolomba-jahv-k450g/",
+        "size": "450g",
+        "ean": "8711000594681",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000594681.png",
+        "storeName": "Jahvatatud kohv Jacobs Origins Brazil&Colomba 450g"
+      },
+      "selver": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-kohv-brazil-columbia-origins-jacobs-450-g",
+        "size": "450g",
+        "ean": "8711000594681",
+        "storeUnitPrice": 25.53,
+        "storeName": "Jahvatatud kohv Brazil&Columbia Origins, JACOBS, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nescafe dolce gusto Nescafe grande 16 16x8.5g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nescafe-dolce-gusto-grande-168-5g/",
+        "size": "16x8.5g",
+        "ean": "8445290446244",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8445290446244.png",
+        "storeName": "Nescafe Dolce Gusto Grande 16*8.5g"
+      },
+      "selver": {
+        "price": 8.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-dolce-gusto-grande-nescafe-16-tk",
+        "ean": "8445290446244",
+        "storeUnitPrice": 0.53,
+        "storeName": "Kohvikapslid Dolce Gusto Grande, NESCAFE, 16 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nescafe dolce gusto Nescafe intenso gr 16 16x8.3g",
+    "category": "Coffee",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nescafe-dolce-gusto-gr-intenso-168-3g/",
+        "size": "16x8.3g",
+        "ean": "8445290448668",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/8445290448668.png",
+        "storeName": "Nescafe Dolce Gusto Gr.Intenso 16*8.3g"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikapslid-dolce-gusto-grande-intenso-nescafe-16-tk",
+        "ean": "8445290448668",
+        "storeUnitPrice": 0.44,
+        "storeName": "Kohvikapslid Dolce Gusto Grande Intenso, NESCAFE, 16 tk"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Basilur Must tee leaf of ceylon 100g",

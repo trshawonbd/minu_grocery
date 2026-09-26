@@ -14,7 +14,7 @@ and a static HTML page.
 | Rimi | category listing pages, server-rendered HTML |
 | Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
 
-Forty-five categories are scraped today, with this many matched
+Fifty-three categories are scraped today, with this many matched
 products in each as of the last run (`data/prices.json`). The three
 alcohol categories exist for private testing only and are hidden
 entirely when `SHOW_ALCOHOL` (frontend/app-logic.js) is false — see
@@ -24,7 +24,7 @@ CLAUDE.md:
 |---|---|
 | Baby formula | 20 |
 | Fruits & vegetables | 67 |
-| Dairy | 41 |
+| Dairy | 43 |
 | Bread | 83 |
 | Drinks (non-alcoholic only) | 94 |
 | Meat (fresh & frozen chicken, pork, beef, lamb, minced) | 18 |
@@ -32,7 +32,7 @@ CLAUDE.md:
 | Rice & grains | 21 |
 | Flour & sugar | 25 |
 | Cooking oil | 18 |
-| Cheese | 54 |
+| Cheese | 56 |
 | Curd & cottage cheese | 24 |
 | Cream & sour cream | 11 |
 | Kefir & buttermilk | 5 |
@@ -44,7 +44,7 @@ CLAUDE.md:
 | Spices | 114 |
 | Jam & honey & spreads | 39 |
 | Baking supplies | 18 |
-| Chocolate | 37 |
+| Chocolate | 39 |
 | Candy | 58 |
 | Biscuits | 33 |
 | Chips & snacks | 30 |
@@ -52,22 +52,30 @@ CLAUDE.md:
 | Frozen vegetables & berries | 14 |
 | Ice cream | 16 |
 | Dumplings, pizza & fries | 21 |
-| Sausages | 61 |
-| Ham & cold cuts | 53 |
+| Sausages | 74 |
+| Ham & cold cuts | 63 |
 | Fish & seafood | 47 |
 | Baby food | 20 |
 | Diapers & baby wipes | 44 |
-| Personal care | 196 |
-| Household | 60 |
-| Pet food | 11 |
+| Personal care | 203 |
+| Household | 80 |
+| Pet food (incl. cat litter) | 12 |
 | Cakes & pastries | 14 |
 | Instant food | 31 |
 | World cuisine | 15 |
 | Alcohol-free beer, cider & wine | 11 |
-| Beer & cider (private testing) | 64 |
+| Beer & cider (private testing) | 66 |
 | Wine (private testing) | 80 |
-| Spirits (private testing) | 187 |
-| **Total** | **2078** |
+| Spirits (private testing) | 192 |
+| Curd snacks & desserts | 27 |
+| Milk drinks & drinking yoghurt | 12 |
+| Crispbreads | 3 |
+| Energy, sports & iced-tea drinks | 27 |
+| Syrups & juice drinks | 21 |
+| Frozen fish & seafood | 8 |
+| Frozen dough & pastries | 15 |
+| Broths & stock | 4 |
+| **Total** | **2259** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's

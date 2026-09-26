@@ -112,8 +112,8 @@ progress as each batch finishes.
    (2026-09-26: 402 products added, total 2078; one wrong match found
    and fixed in the review — a spirit's age statement now must agree).
 
-10. **Batch 10 — PROPOSAL, not started** (coverage audit of all three
-    stores, 2026-09-27, see `data/coverage.md`): Kohukesed & dairy
+10. **Batch 10 — done 2026-09-27** (from the coverage audit, see
+    `data/coverage.md`; 118 products added, total 2259): Kohukesed & dairy
     desserts; drinking yoghurts & flavoured/condensed milk; Näkileivad
     (crispbreads); energy/sports/iced-tea drinks; syrups &
     concentrates + juice drinks; frozen fish & seafood; frozen doughs
@@ -122,7 +122,8 @@ progress as each batch finishes.
     laundry detergents never fetched; foil/cling film/baking paper).
     Kept out: ready meals, salads, sushi, in-store bakery, bulk packs,
     medicine, makeup, non-grocery. Spreadable/deli cheeses and vinegar
-    are already covered.
+    are already covered. Cat litter went into Pet food (the owner's
+    call), the Household gaps were fixed the same day.
 
 **Not allowed without the owner's explicit decision:** adding a new
 store (e.g. PROMO Cash&Carry), or anything that puts the app

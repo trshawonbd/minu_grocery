@@ -11,7 +11,7 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { isValidEan, sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, extractBrand, extractVariant, matchPool, matchItems, computeSignature } = require("./match-products");
+const { isValidEan, isInternalEanPrefix, amountCandidatesOverlap, sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, extractBrand, extractVariant, matchPool, matchItems, computeSignature } = require("./match-products");
 const { buildItem } = require("./categories");
 
 function item(store, name) {
@@ -1565,6 +1565,93 @@ const tests = [
       assert.equal(sameProduct(beer("Barbora", "Hele õlu Saku Hele 5.2% 500ml,pdl", "saku"), beer("Rimi", "Õlu Saku Kuld 5,2%vol 0,5L pdl", "saku")), false);
       const { matches } = matchPool([beer("Barbora", "Hele õlu Saku Hele 5.2% 500ml,pdl", "saku"), beer("Selver", "Õlu Hele, SAKU, 500 ml pudel", "saku")]);
       assert.equal(matches[0].canonicalName, "Saku hele pudel 5.2% 500ml", "the name keeps Hele");
+    },
+  },
+  {
+    name: "EAN (2026-09-28, owner's rule): GS1's restricted-circulation prefixes ('02', '04', '20'-'29') are a store's own internal code — never a matching signal, even when structurally valid — so a coincidentally equal internal code between two stores' own loose-produce/deli listings decides nothing and name rules take over",
+    run: () => {
+      assert.equal(isValidEan("2700014000000"), true, "structurally a valid EAN (correct check digit)");
+      assert.equal(isInternalEanPrefix("2700014000000"), true);
+      assert.equal(isInternalEanPrefix("0223000001413"), true);
+      assert.equal(isInternalEanPrefix("0270010035105"), true, "Coop's own Haapsalu-bakery code, prefix 02");
+      assert.equal(isInternalEanPrefix("4740046012525"), false, "a real manufacturer prefix stays a real EAN");
+      const fv = (store, name, ean) => buildItem("Fruits & vegetables", store, name, { ean, brand: null });
+      // Selver's own per-kg code for two DIFFERENT vegetables, made to
+      // coincidentally share one barcode — a real EAN match would
+      // wrongly call this "same"; the internal prefix must block it,
+      // leaving the (genuinely different) names to correctly not match.
+      const avocado = fv("Selver", "Avokaado, kg", "2700014000000");
+      const kiwi = fv("Selver", "Kiivi, kg", "2700014000000");
+      assert.equal(computeSignature(avocado).ean, null, "an internal-prefix code is never kept as the item's ean");
+      assert.equal(matchItems(avocado, kiwi).matched, false, "no EAN shortcut — and the names disagree, so no match either");
+      // The real find, 2026-09-28: 0 of the 3,451 EAN matches in
+      // data/prices.json turned out to rely on an internal-prefix
+      // code — checked by hand across the whole file — so nothing in
+      // the shipped data changed; this only guards the future.
+    },
+  },
+  {
+    name: "EAN conflicts (2026-09-28, owner's rule): a shared barcode whose names disagree in SIZE gets one more chance — matched when the total is the same written differently, still a conflict when the numbers really differ",
+    run: () => {
+      // A multipack whose stated weight is already the TOTAL (Selver's
+      // '4-pakk, ..., 340g' for a 4x85g cat-food tray) — extractSize's
+      // own '4-pakk multiplies the size' reading (right for beer cans)
+      // reads this as 4x340g; the unmultiplied 340 is now ALSO a
+      // candidate, matching Coop's independently-computed 4x85g=340.
+      const pet = (store, name, ean, brand) => buildItem("Pet food", store, name, { ean, brand });
+      const purina = pet("Selver", "Täissööt. Kiisueine steriliseeritud kassidele lõhe ja porgandiga 4-pakk, PURINA ONE, 340g", "8445291743694", "Purina One");
+      const sterilcat = pet("Coop", "Kiisueine One Sterilcat 4*85g lõhe-porgand", "8445291743694", "Purina One");
+      assert.equal(matchItems(purina, sterilcat).reason, "ean");
+      // A gross-volume/net-weight (or per-unit/whole-pack) PAIR OF
+      // NUMBERS stated together in one name — ice cream's '1L/480g'
+      // (tub volume / net weight): either number is a real fact about
+      // the same pack, so a plain '480 g' on the other side agrees.
+      const ice = (store, name, ean, brand) => buildItem("Ice cream", store, name, { ean, brand });
+      const stracciatella = ice("Selver", "Stracciatella koorejäätis, PREMIA, 480 g", "4740093045675", "Premia");
+      const tub = ice("Coop", "Vanilli koorejäätis shokolaaditükk. Premia 1L/480g", "4740093045675", "Premia");
+      assert.equal(matchItems(stracciatella, tub).reason, "ean");
+      // A paper product's roll/piece/sheet count is one purchasing
+      // unit either way ('rl'/'tk'/'lehte'), wherever in the name the
+      // matching number sits — Zewa's own '2 rl' against Coop's
+      // '2kih 2tk' (the 2-ply detail, not the count, is what "2kih" adds).
+      const paper = (store, name, ean, brand) => buildItem("Household", store, name, { ean, brand });
+      const zewaRolls = paper("Selver", "Majapidamispaber Wisch&Weg Design, ZEWA, 2 rl", "7322540973112", "Zewa");
+      const zewaPieces = paper("Coop", "Majapidamispaber Zewa Wisch&Weg Design 2kih 2tk", "7322540973112", "Zewa");
+      assert.equal(matchItems(zewaRolls, zewaPieces).reason, "ean");
+      // A foil/baking-paper roll's LENGTH stated wherever in the name
+      // it appears — Selver's own trailing '1 tk' (one box) never
+      // overrides the length both sides agree on.
+      const foilBox = paper("Selver", "Alumiiniumfoolium 45cmx10m, SMILE, 1 tk", "4742002005978", "Smile");
+      const foilRoll = paper("Coop", "Smile Alumiiniumfoolium 45cm*10m kiles", "4742002005978", "Smile");
+      assert.equal(matchItems(foilBox, foilRoll).reason, "ean");
+      // Genuinely different totals stay conflicts, never guessed —
+      // Küüslaugu idandid 70g is not 50g, no reading of either name
+      // produces a shared number.
+      const fv = (store, name, ean, brand) => buildItem("Fruits & vegetables", store, name, { ean, brand });
+      const idandid70 = fv("Selver", "Küüslaugu idandid, LÕUNAIDU, 70 g", "6416332001013", "Lõunaidu");
+      const idandid50 = fv("Coop", "Mahe Küüslauguidu 50g", "6416332001013", "Lõunaidu");
+      assert.equal(matchItems(idandid70, idandid50).reason, "ean-conflict");
+      // Close-but-not-equal (a rounding gap in the store's own label,
+      // Merrild's 36 pads stated as 250g when 36*6.9g is 248.4g) is
+      // never treated as "close enough" — only an exact shared number
+      // resolves a conflict.
+      const coffee = (store, name, ean, brand) => buildItem("Coffee", store, name, { ean, brand });
+      const padsA = coffee("Selver", "Kohvipadjad keskmine röst 36tk, MERRILD, 250 g", "8000070200241", "Merrild");
+      const padsB = coffee("Coop", "Kohvipadjad Merrild 36*6.9g keskmine röst", "8000070200241", "Merrild");
+      assert.equal(matchItems(padsA, padsB).reason, "ean-conflict");
+      assert.equal(amountCandidatesOverlap("Kohvipadjad keskmine röst 36tk, MERRILD, 250 g", "Kohvipadjad Merrild 36*6.9g keskmine röst"), false);
+      // A variant disagreement (lactose-free vs a plain aged cheese)
+      // still blocks the match even though nothing here is about size.
+      const cheese = (store, name, ean, brand) => buildItem("Cheese", store, name, { ean, brand });
+      const lactoseFree = cheese("Selver", "Old saare 3 kuud laktoosivaba, MO SAAREMAA, 280 g", "4740153321213", "Mo Saaremaa");
+      const plain = cheese("Coop", "Juust Old Saare 3 kuud MO Saaremaa 280g", "4740153321213", "Mo Saaremaa");
+      assert.equal(matchItems(lactoseFree, plain).reason, "ean-conflict");
+      // The real numbers, checked against every current EAN conflict
+      // by hand, 2026-09-28: of the 145 conflicts on file, 84 resolve
+      // this way (all hand-reviewed against known real packaging —
+      // 4x85g/4x100g cat/dog food trays, Corona's 355ml six-pack,
+      // ice cream tubs, Zewa/Serla/Lambi/Grite paper, Smile/Saga foil
+      // and baking paper); 61 remain genuine conflicts for a person.
     },
   },
 ];

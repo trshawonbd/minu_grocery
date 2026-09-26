@@ -1280,7 +1280,7 @@ function computeSignature(item) {
   const descriptorBrand = item.brand || (sizeOptions.pieceCounts ? extractKnownBrand(name) : null);
   const strictPackaging = item.strictPackaging === true;
   return {
-    ean: isValidEan(item.ean) ? String(item.ean).trim() : null,
+    ean: isValidEan(item.ean) && !isInternalEanPrefix(item.ean) ? String(item.ean).trim() : null,
     isProduce: isProduceItem(name, { strictPackaging }),
     hasBrand: hasKnownBrand(name),
     type: extractType(name, { strictPackaging }),
@@ -1599,7 +1599,7 @@ function sameProduct(a, b) {
   const sigA = signatureOf(a);
   const sigB = signatureOf(b);
 
-  const ean = eanVerdict(sigA, sigB);
+  const ean = eanVerdict(sigA, sigB, a.name, b.name);
   if (ean === "same") return true;
   if (ean === "conflict") return false;
 
@@ -1969,7 +1969,7 @@ function matchItems(a, b, overrides = [], knownDifferent = []) {
     return { matched: true, canonicalName: overrideName, reason: "override" };
   }
 
-  const ean = eanVerdict(signatureOf(a), signatureOf(b));
+  const ean = eanVerdict(signatureOf(a), signatureOf(b), a.name, b.name);
   if (ean === "same") {
     return { matched: true, canonicalName: synthesizeCanonicalName(a, b), reason: "ean" };
   }
@@ -2006,6 +2006,26 @@ function isValidEan(value) {
   return check === digits.charCodeAt(digits.length - 1) - 48;
 }
 
+// GS1's own "restricted circulation number" prefixes — "02", "04",
+// and "20"-"29" — are reserved for a store's INTERNAL use: its own
+// per-kg label for loose produce or weighed meat/deli, or (as found
+// reviewing Coop's own bakery goods, 2026-09-28) a small producer's
+// self-assigned code for its own shelf. These are structurally valid
+// (correct check digit) but never globally unique the way a real
+// manufacturer EAN is — two different stores' scales can print the
+// same "27xxxxx" code for two completely different vegetables. Found
+// live in the data: Selver's own per-kg codes for every loose fruit/
+// veg and cut of meat (2700014000000 = its own "Avokaado kg"), and 26
+// of Coop's own "Haapsalu" bakery items (02700100xxxxx). None happened
+// to have decided a match yet (checked 2026-09-28: every current
+// matchedVia "ean" product's barcode is a real manufacturer prefix),
+// but the rule is never safe to skip — never a matching signal, name
+// rules decide instead (see eanVerdict/computeSignature below).
+function isInternalEanPrefix(ean) {
+  const digits = String(ean).trim();
+  return /^(?:02|04|2[0-9])/.test(digits);
+}
+
 // What two valid barcodes say about a pair: "same" (equal, and the
 // names agree on the things a barcode can't excuse — pack size, fat %
 // / strength, stage or age variant), "conflict" (equal barcode but
@@ -2016,10 +2036,19 @@ function isValidEan(value) {
 // 4740103011256 at Selver; Diamant sugar likewise) — found when the
 // old "different barcodes = different product" rule broke 65
 // long-standing groups the day Coop joined.
-function eanVerdict(sigA, sigB) {
+function eanVerdict(sigA, sigB, nameA = null, nameB = null) {
   if (!sigA.ean || !sigB.ean) return null;
   if (sigA.ean !== sigB.ean) return null;
-  if (sigA.size && sigB.size && !sameAmount(sigA.size, sigB.size)) return "conflict";
+  if (sigA.size && sigB.size && !sameAmount(sigA.size, sigB.size)) {
+    // One more chance before calling it a conflict: does either raw
+    // name, read in full, state a number the other side's stated
+    // total also equals (a gross/net pair, an unmultiplied pack
+    // total, a roll/piece/sheet count, a length)? See
+    // amountCandidatesOverlap's own comment for exactly what this
+    // does and doesn't resolve. Only reachable when both raw names
+    // were passed in (both real call sites do).
+    if (!nameA || !nameB || !amountCandidatesOverlap(nameA, nameB)) return "conflict";
+  }
   if (sigA.fatPercent !== null && sigB.fatPercent !== null && !sameFatPercent(sigA.fatPercent, sigB.fatPercent)) return "conflict";
   if (sigA.variant !== null && sigB.variant !== null && sigA.variant !== sigB.variant) return "conflict";
   // Diapers: the size number is the product (the owner's rule) — a
@@ -2042,6 +2071,94 @@ function sameAmount(sizeA, sizeB) {
   const a = total(sizeA);
   const b = total(sizeB);
   return a !== null && b !== null && a === b;
+}
+
+// Every plausible "how much is really in this pack" reading of a raw
+// item name — typed by kind (a weight/volume "amount" collapsed to
+// g/ml, a "count" of tk/rl/lehte — piece/roll/sheet, one purchasing
+// unit either way — or a bare-metre "length" for foil/baking paper)
+// so two candidates only ever compare within the same kind. Used ONLY
+// as a fallback in eanVerdict, once sameAmount(sigA.size, sigB.size)
+// has already said the two sides disagree — a pair that already
+// shares a real barcode gets one more chance to agree from what its
+// OWN name actually states, before being called a conflict. Never
+// read anywhere else: it can't affect the displayed `size`, ordinary
+// name-based matching, or a pair that doesn't already share a
+// barcode.
+//
+// Hand-reviewed against every real EAN conflict in the data,
+// 2026-09-28 — three genuine patterns this resolves, each with a
+// regression test:
+// - A multipack whose "N-pakk" count and stated weight are BOTH the
+//   TOTAL, not per-unit — Selver's "4-pakk, PURINA ONE, 340g" for a
+//   4x85g cat-food tray. extractSize's own "N-pakk multiplies the
+//   size" rule (right for Rimi's "0,5l prk 6-pakk" beer cans) reads
+//   this the other way (4x340g) — the UNMULTIPLIED reading, 340, is
+//   also kept as a candidate, alongside the multiplied one so nothing
+//   that already matched today stops matching.
+// - A gross/net, or per-item/whole-pack, PAIR OF NUMBERS stated
+//   together in one name: ice cream's "1L/480g" (tub volume / net
+//   weight), a jar's "720 ml, ... 630 g neto", Marine's "200g/160g" —
+//   either number is a real fact about the same pack, so both become
+//   candidates; nothing is inferred that isn't written down.
+// - A paper/foil product's roll, piece or sheet count ("rl", "tk",
+//   "lehte" are one purchasing unit for these — a napkin sheet, a
+//   towel roll), or its length ("10m"), wherever in the name it
+//   appears — not just the one matchSize happened to pick as the
+//   primary size.
+//
+// Deliberately NOT resolved this way (found in the same review, left
+// as conflicts, reported to a person): two numbers that are merely
+// CLOSE — a coffee pad's stated "250g" against 36 pads' own "36x6.9g"
+// (248.4g), a few teas' stated bag count and per-bag weight not quite
+// multiplying out — those are a real rounding gap in the store's own
+// label, not the same number written differently, and this function
+// requires an EXACT match, never an approximate one.
+const AMOUNT_TOKEN_PATTERN = /(?:(\d+(?:[.,]\d+)?)\s*[x×*]\s*)?(\d+(?:[.,]\d+)?)\s*(kg|g|ml|cl|l)\b/giu;
+const COUNT_TOKEN_PATTERNS = [
+  /(\d+)\s*[x×*]\s*(\d+)\s*(?:tk|tük\p{L}*)\.?(?![\p{L}])/giu,
+  /(\d+)\s*(?:tk|tük\p{L}*)\.?(?![\p{L}])/giu,
+  /(\d+)\s*(?:rl|rul\p{L}*)\.?(?![\p{L}])/giu,
+  /(\d+)\s*(?:lehte|leh\.?)(?![\p{L}])/giu,
+];
+const LENGTH_TOKEN_PATTERN = /(\d+(?:[.,]\d+)?)\s*m(?![\p{L}])/giu;
+
+function toBaseAmount(rawNumber, unit) {
+  const n = parseFloat(String(rawNumber).replace(",", "."));
+  const u = unit.toLowerCase();
+  const scaled = u === "kg" || u === "l" ? n * 1000 : u === "cl" ? n * 10 : n;
+  return Math.round(scaled * 100) / 100;
+}
+
+function computeAmountCandidates(name) {
+  const candidates = new Set();
+  const packMatch = name.match(PACK_COUNT_PATTERN);
+  const packCount = packMatch ? parseInt(packMatch[1], 10) : null;
+
+  for (const m of name.matchAll(AMOUNT_TOKEN_PATTERN)) {
+    const base = toBaseAmount(m[2], m[3]);
+    candidates.add(`amount:${base}`);
+    if (m[1]) candidates.add(`amount:${Math.round(parseFloat(m[1].replace(",", ".")) * base * 100) / 100}`);
+    if (packCount) candidates.add(`amount:${Math.round(packCount * base * 100) / 100}`);
+  }
+  for (const pattern of COUNT_TOKEN_PATTERNS) {
+    for (const m of name.matchAll(pattern)) {
+      if (m.length > 2 && m[2] !== undefined) {
+        candidates.add(`count:${parseInt(m[2], 10)}`);
+        candidates.add(`count:${parseInt(m[1], 10) * parseInt(m[2], 10)}`);
+      } else {
+        candidates.add(`count:${parseInt(m[1], 10)}`);
+      }
+    }
+  }
+  for (const m of name.matchAll(LENGTH_TOKEN_PATTERN)) candidates.add(`length:${parseFloat(m[1].replace(",", "."))}`);
+  return candidates;
+}
+
+function amountCandidatesOverlap(nameA, nameB) {
+  const candidatesB = computeAmountCandidates(nameB);
+  for (const candidate of computeAmountCandidates(nameA)) if (candidatesB.has(candidate)) return true;
+  return false;
 }
 
 // "3.6" and "3.6-4.2" (a range one store prints in full) agree; two
@@ -2287,7 +2404,9 @@ function matchPool(items, overrides = [], knownDifferent = []) {
 module.exports = {
   synthesizeCanonicalName,
   isValidEan,
+  isInternalEanPrefix,
   eanVerdict,
+  amountCandidatesOverlap,
   extractBrand,
   extractSize,
   extractVariant,

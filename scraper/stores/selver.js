@@ -739,8 +739,12 @@ const CATEGORIES = {
   // way home pharmacy is for Personal care). No laundry-detergent leaf
   // exists anywhere in this department — genuinely absent from
   // Selver's own tree, not a filtering mistake.
+  // 114 "Pesupesemisvahendid" (laundry) was missing until the
+  // 2026-09-27 coverage audit — every laundry product had been
+  // Barbora+Rimi only. 127 "Fooliumid, kiled, küpsetuspaberid" is a
+  // household consumable (the owner's call, batch 10 proposal).
   "Household": {
-    sources: [{ id: 102 }, { id: 103 }, { id: 104 }, { id: 108 }, { id: 110 }, { id: 111 }, { id: 112 }],
+    sources: [{ id: 102 }, { id: 103 }, { id: 104 }, { id: 108 }, { id: 110 }, { id: 111 }, { id: 112 }, { id: 114 }, { id: 127 }],
   },
   // "Lemmiklooma kaubad" (314) pet FOOD only — the roadmap's own scope.
   // 319 "Lemmikloomatarbed" (litter, toys, accessories) never fetched —

@@ -333,6 +333,12 @@ const results = [
     assert.equal(buildItem("Wine", "Rimi", "Vein 0,75l").alcoholMatching, true);
     assert.equal(buildItem("Dairy", "Rimi", "Piim 1l").alcoholMatching, undefined);
   }),
+  test("Household fetches Selver's laundry (114) and foil/baking paper (127) and Rimi's foil leaf — the gap the 2026-09-27 coverage audit found", () => {
+    const ids = SELVER_CATEGORIES["Household"].sources.map((s) => s.id);
+    assert.ok(ids.includes(114) && ids.includes(127), ids.join(","));
+    const rimi = category("Household").urls.rimi.map((u) => u.url);
+    assert.ok(rimi.some((u) => u.includes("/c/SH-10-6-23")), "Rimi foolium-kupsetuspaber");
+  }),
   test("pieceCountSizes is on for Dairy (eggs) and Household (paper) only, and buildItem carries it", () => {
     const { pieceCountSizesFor, buildItem } = require("./categories");
     assert.equal(pieceCountSizesFor("Dairy"), true);

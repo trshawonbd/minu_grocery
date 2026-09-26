@@ -1342,6 +1342,11 @@ const tests = [
       assert.equal(extractSize("Majapidamispaber BLOOM Regular 2kih 300l"), "300000ml", "without the flag the old litre reading stands (no category without paper uses it)");
       assert.equal(extractSize("Taskurätikud ZEWA Softis 4kih, 10x9tk", { pieceCounts: true }), "10x9tk");
       assert.equal(extractVariant("Tualettpaber Rimi 8 rulli, 3 kihiline", { pieceCounts: true }), "3kih");
+      // Foil, cling film, baking paper: the length is the size.
+      assert.equal(extractSize("Küpsetuspaber TOPPITS 20m", { pieceCounts: true }), "20m");
+      assert.equal(extractSize("Alumiiniumfoolium, PACLAN, 30 m", { pieceCounts: true }), "30m");
+      assert.equal(sameProduct(paper("Rimi", "Küpsetuspaber Toppits 20m", "Toppits"), paper("Selver", "Küpsetuspaber, TOPPITS, 20 m", "TOPPITS")), true);
+      assert.equal(sameProduct(paper("Rimi", "Küpsetuspaber Toppits 20m", "Toppits"), paper("Selver", "Küpsetuspaber, TOPPITS, 8 m", "TOPPITS")), false);
       assert.equal(extractVariant("Piimasegu Aptamil 2 al. 6k 400g"), "2", "Baby formula reads no ply");
       assert.equal(sameProduct(paper("Barbora", "Tualettpaber ZEWA Deluxe 3kih 8rl", "ZEWA"), paper("Rimi", "Tualettpaber Zewa Deluxe 3 kihiline 8 rulli", "Zewa")), true);
       assert.equal(sameProduct(paper("Barbora", "Tualettpaber ZEWA Deluxe 3kih 8rl", "ZEWA"), paper("Rimi", "Tualettpaber Zewa Deluxe 2 kihiline 8 rulli", "Zewa")), false, "2-ply is not 3-ply");

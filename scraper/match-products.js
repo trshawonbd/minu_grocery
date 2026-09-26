@@ -523,6 +523,9 @@ const COUNT_SIZE_PATTERNS = [
   { pattern: /(\d+)\s*[x×*]\s*(\d+)\s*(?:tk|tük\p{L}*)\.?(?![\p{L}])/iu, value: (m) => `${m[1]}x${m[2]}tk` },
   { pattern: /(\d+)\s*(?:tk|tük\p{L}*)\.?(?![\p{L}])/iu, value: (m) => `${m[1]}tk` },
   { pattern: /(\d+)\s*(?:rl|rul\p{L}*)\.?(?![\p{L}])/iu, value: (m) => `${m[1]}rl` },
+  // Foil, cling film and baking paper are sold by length ("20m",
+  // "30 m") — the length is the size, like a roll count.
+  { pattern: /(\d+(?:[.,]\d+)?)\s*m(?![\p{L}])/iu, value: (m) => `${m[1].replace(",", ".")}m` },
 ];
 const SHEET_COUNT_PATTERN = /(\d+)\s*(?:lehte|leh\.?|l)(?![\p{L}])/iu;
 

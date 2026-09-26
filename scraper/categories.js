@@ -1488,6 +1488,10 @@ const CATEGORIES = [
       ],
       rimi: [
         { url: "https://www.rimi.ee/epood/en/products/detergents-and-cleaning-supplies/c/SH-14", nameFilter: HOUSEHOLD_RIMI_EXCLUDE },
+        // Foil, cling film, baking paper — Rimi shelves them under
+        // kitchenware (the owner's call, 2026-09-27); Barbora has no
+        // such leaf.
+        { url: "https://www.rimi.ee/epood/ee/tooted/kodu--ja-vabaajakaubad/koogitarvikud/foolium-kupsetuspaber/c/SH-10-6-23", nameFilter: HOUSEHOLD_RIMI_EXCLUDE },
       ],
     },
   },

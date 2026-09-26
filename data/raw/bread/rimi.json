@@ -8,6 +8,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 1.37,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_281671_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-rehe-eesti-pagar-600g/p/281671",
     "ean": null,
@@ -27,8 +28,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rehe rukkileib",
+      "descriptorOrder": [
+        "rukkileib",
+        "rehe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkileib": "rukkileib",
+        "rehe": "rehe"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -40,6 +59,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.32,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_975422_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/leib-peremehe-parmivaba-eesti-pagar-600g/p/975422",
     "ean": null,
@@ -59,8 +79,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "leib peremehe pärmivaba",
+      "descriptorOrder": [
+        "leib",
+        "peremehe",
+        "pärmivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "leib": "leib",
+        "peremehe": "peremehe",
+        "pärmivaba": "pärmivaba"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -72,6 +112,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.03,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_205906_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-kodukandi-eesti-pagar-390g/p/205906",
     "ean": null,
@@ -91,8 +132,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kodukandi rukkileib",
+      "descriptorOrder": [
+        "rukkileib",
+        "kodukandi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkileib": "rukkileib",
+        "kodukandi": "kodukandi"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -104,6 +163,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 3.05,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_279166_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/ruks-leibur-390g/p/279166",
     "ean": null,
@@ -123,8 +183,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ruks",
+      "descriptorOrder": [
+        "ruks"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ruks": "ruks"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -136,6 +212,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.08,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_220819_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-vormileib-eesti-pagar-600g/p/220819",
     "ean": null,
@@ -155,8 +232,26 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "must vormileib",
+      "descriptorOrder": [
+        "must",
+        "vormileib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "vormileib": "vormileib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -168,6 +263,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 3.1,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200247_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-tallinna-leibur-490g/p/200247",
     "ean": null,
@@ -187,8 +283,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "peenleib tallinna",
+      "descriptorOrder": [
+        "peenleib",
+        "tallinna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peenleib": "peenleib",
+        "tallinna": "tallinna"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -200,6 +314,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.77,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_205649_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/seemneleib-jassi-eesti-pagar-310g/p/205649",
     "ean": null,
@@ -219,8 +334,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jassi seemneleib",
+      "descriptorOrder": [
+        "seemneleib",
+        "jassi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seemneleib": "seemneleib",
+        "jassi": "jassi"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -232,6 +365,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.02,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_206532_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-pealinna-eesti-pagar-490g/p/206532",
     "ean": null,
@@ -251,8 +385,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pealinna peenleib",
+      "descriptorOrder": [
+        "peenleib",
+        "pealinna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peenleib": "peenleib",
+        "pealinna": "pealinna"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -264,6 +416,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_917984_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/leib-kanepiseem--rukki-eesti-pagar-500g/p/917984",
     "ean": null,
@@ -283,8 +436,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kanepiseem leib rukki",
+      "descriptorOrder": [
+        "leib",
+        "kanepiseem",
+        "rukki"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "leib": "leib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -296,6 +467,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.05,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_975406_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-pealinna-seem-eesti-pagar-390g/p/975406",
     "ean": null,
@@ -315,8 +487,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pealinna peenleib seem",
+      "descriptorOrder": [
+        "peenleib",
+        "pealinna",
+        "seem"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peenleib": "peenleib",
+        "pealinna": "pealinna"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -328,6 +519,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 2.79,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_273278_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-isa-leibur-355g/p/273278",
     "ean": null,
@@ -347,8 +539,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "isa peenleib",
+      "descriptorOrder": [
+        "peenleib",
+        "isa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peenleib": "peenleib",
+        "isa": "isa"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -360,6 +570,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 2.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4008650_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-tume-leib-juuretisega-fazer-500g/p/4008650",
     "ean": null,
@@ -379,8 +590,30 @@
       "colors": "must tume",
       "fatPercent": null,
       "descriptors": "juuretisega leib must tume",
+      "descriptorOrder": [
+        "must",
+        "tume",
+        "leib",
+        "juuretisega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "tume": "tume",
+        "leib": "leib",
+        "juuretisega": "juuretisega"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -392,6 +625,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 4.96,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_274017_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-seemneleib-fazer-280g/p/274017",
     "ean": null,
@@ -411,8 +645,26 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "must seemneleib",
+      "descriptorOrder": [
+        "must",
+        "seemneleib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "seemneleib": "seemneleib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -424,6 +676,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.79,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_281670_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-rehe-eesti-pagar-390g/p/281670",
     "ean": null,
@@ -443,72 +696,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rehe rukkileib",
+      "descriptorOrder": [
+        "rukkileib",
+        "rehe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkileib": "rukkileib",
+        "rehe": "rehe"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Rukkileib Pärnu ELT 600g",
-    "price": 1.29,
-    "regularPrice": 1.29,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": null,
-    "storeUnitPrice": 2.15,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-parnu-elt-600g/p/277956",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "rukkileib",
-      "unit": "600g",
-      "variety": "pärnu elt",
-      "nameLower": "rukkileib pärnu elt 600g",
-      "brand": "rukkileib",
-      "size": "600g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "elt pärnu rukkileib",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Must Leib Fazer 600g",
-    "price": 1.6,
-    "regularPrice": 1.6,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 2.67,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-leib-fazer-600g/p/265341",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "must",
-      "unit": "600g",
-      "variety": "leib fazer must",
-      "nameLower": "must leib fazer 600g",
-      "brand": "fazer",
-      "size": "600g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "must",
-      "fatPercent": null,
-      "descriptors": "leib must",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -520,6 +727,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 3.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006278_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-juuretise-fazer-500g/p/4006278",
     "ean": null,
@@ -539,40 +747,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "juuretise peenleib",
+      "descriptorOrder": [
+        "peenleib",
+        "juuretise"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peenleib": "peenleib",
+        "juuretise": "juuretise"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Must vormileib Fazer 300g",
-    "price": 1.19,
-    "regularPrice": 1.19,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 3.97,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-vormileib-fazer-300g/p/265592",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "must",
-      "unit": "300g",
-      "variety": "fazer must",
-      "nameLower": "must vormileib fazer 300g",
-      "brand": "fazer",
-      "size": "300g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "must",
-      "fatPercent": null,
-      "descriptors": "must vormileib",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -584,6 +778,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 4.79,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_917992_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/leib-kanepiseem--rukki-eesti-pagar-240g/p/917992",
     "ean": null,
@@ -603,8 +798,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kanepiseem leib rukki",
+      "descriptorOrder": [
+        "leib",
+        "kanepiseem",
+        "rukki"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "leib": "leib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -616,6 +829,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_975407_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/taist-rukkileib-parmita-eesti-pagar-730g/p/975407",
     "ean": null,
@@ -635,8 +849,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pärmita rukkileib täist",
+      "descriptorOrder": [
+        "täist",
+        "rukkileib",
+        "pärmita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pärmita": "pärmita"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -648,6 +880,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.75,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_270271_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-vormileib-eesti-pagar-280g/p/270271",
     "ean": null,
@@ -667,8 +900,26 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "must vormileib",
+      "descriptorOrder": [
+        "must",
+        "vormileib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "vormileib": "vormileib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -680,6 +931,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 3.5,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006303_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/taisteravormileib-ruks-leibur-300g/p/4006303",
     "ean": null,
@@ -699,8 +951,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ruks täisteravormileib",
+      "descriptorOrder": [
+        "täisteravormileib",
+        "ruks"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisteravormileib": "täisteravormileib",
+        "ruks": "ruks"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -712,6 +982,7 @@
     "cardName": null,
     "brand": "Pärnamäed",
     "storeUnitPrice": 3.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_918681_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/taisterarukkileib-parmita-parnamaed-400g/p/918681",
     "ean": null,
@@ -731,40 +1002,130 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pärmita täisterarukkileib",
+      "descriptorOrder": [
+        "täisterarukkileib",
+        "pärmita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisterarukkileib": "täisterarukkileib",
+        "pärmita": "pärmita"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Rimi",
-    "name": "Seemneleib Fazer 400g",
-    "price": 2.09,
-    "regularPrice": 2.09,
+    "name": "Rukkileib täistera Fitlap Leibur 390g",
+    "price": 1.35,
+    "regularPrice": 1.35,
     "cardPrice": null,
     "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 5.22,
+    "brand": "Leibur",
+    "storeUnitPrice": 3.46,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4009615_PCE_EE",
     "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/seemneleib-fazer-400g/p/940346",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-taistera-fitlap-leibur-390g/p/4009615",
     "ean": null,
     "strictPackaging": true,
     "signature": {
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
-      "type": "seemneleib",
-      "unit": "400g",
-      "variety": "fazer",
-      "nameLower": "seemneleib fazer 400g",
-      "brand": "fazer",
-      "size": "400g",
+      "type": "rukkileib",
+      "unit": "390g",
+      "variety": "fitlap leibur",
+      "nameLower": "rukkileib täistera fitlap leibur 390g",
+      "brand": "leibur",
+      "size": "390g",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "seemneleib",
+      "descriptors": "fitlap rukkileib täistera",
+      "descriptorOrder": [
+        "rukkileib",
+        "täistera",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkileib": "rukkileib",
+        "täistera": "täistera",
+        "fitlap": "fitlap"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Põrandaleib Peremehe Eesti Pagar 450g",
+    "price": 1.79,
+    "regularPrice": 1.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Eesti Pagar",
+    "storeUnitPrice": 3.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_996812_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/porandaleib-peremehe-eesti-pagar-450g/p/996812",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "põrandaleib",
+      "unit": "450g",
+      "variety": "peremehe pagar",
+      "nameLower": "põrandaleib peremehe eesti pagar 450g",
+      "brand": "eesti pagar",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "peremehe põrandaleib",
+      "descriptorOrder": [
+        "põrandaleib",
+        "peremehe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "põrandaleib": "põrandaleib",
+        "peremehe": "peremehe"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -776,6 +1137,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_912031_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-rukkileib-eesti-pagar-390g/p/912031",
     "ean": null,
@@ -795,8 +1157,26 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "must rukkileib",
+      "descriptorOrder": [
+        "must",
+        "rukkileib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "rukkileib": "rukkileib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -808,6 +1188,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 4.03,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_298345_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-seemneleib-jassi-eesti-pagar-310g/p/298345",
     "ean": null,
@@ -827,40 +1208,28 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "jassi must seemneleib",
+      "descriptorOrder": [
+        "must",
+        "seemneleib",
+        "jassi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "seemneleib": "seemneleib",
+        "jassi": "jassi"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Must põrandaleib Fazer 390g",
-    "price": 1.5,
-    "regularPrice": 1.5,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 3.85,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-porandaleib-fazer-390g/p/295821",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "must",
-      "unit": "390g",
-      "variety": "fazer must",
-      "nameLower": "must põrandaleib fazer 390g",
-      "brand": "fazer",
-      "size": "390g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "must",
-      "fatPercent": null,
-      "descriptors": "must põrandaleib",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -872,6 +1241,7 @@
     "cardName": null,
     "brand": "Pärnamäed",
     "storeUnitPrice": 3.24,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_298413_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-parnamaed-800g/p/298413",
     "ean": null,
@@ -891,40 +1261,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "peenleib",
+      "descriptorOrder": [
+        "peenleib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peenleib": "peenleib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Narva peenleib Eesti Pagar 310g",
-    "price": 0.75,
-    "regularPrice": 0.75,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Eesti Pagar",
-    "storeUnitPrice": 2.42,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/narva-peenleib-eesti-pagar-310g/p/905438",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "narva",
-      "unit": "310g",
-      "variety": "pagar",
-      "nameLower": "narva peenleib eesti pagar 310g",
-      "brand": "eesti pagar",
-      "size": "310g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "narva peenleib",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -936,6 +1290,7 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 4.94,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_984463_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/muhu-leib-seemnetega-425g/p/984463",
     "ean": null,
@@ -955,40 +1310,130 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "leib muhu seemnetega",
+      "descriptorOrder": [
+        "muhu",
+        "leib",
+        "seemnetega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "muhu": "muhu",
+        "leib": "leib",
+        "seemnetega": "seemnetega"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Rimi",
-    "name": "Juuretise peenleib seemnetega Fazer 500g",
-    "price": 1.79,
-    "regularPrice": 1.79,
+    "name": "Narva peenleib Eesti Pagar 310g",
+    "price": 0.75,
+    "regularPrice": 0.75,
     "cardPrice": null,
     "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 3.58,
+    "brand": "Eesti Pagar",
+    "storeUnitPrice": 2.42,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_905438_PCE_EE",
     "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/juuretise-peenleib-seemnetega-fazer-500g/p/4011352",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/narva-peenleib-eesti-pagar-310g/p/905438",
     "ean": null,
     "strictPackaging": true,
     "signature": {
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
-      "type": "juuretise",
-      "unit": "500g",
-      "variety": "fazer",
-      "nameLower": "juuretise peenleib seemnetega fazer 500g",
-      "brand": "fazer",
-      "size": "500g",
+      "type": "narva",
+      "unit": "310g",
+      "variety": "pagar",
+      "nameLower": "narva peenleib eesti pagar 310g",
+      "brand": "eesti pagar",
+      "size": "310g",
       "variant": null,
-      "qualifiers": "seemnetega",
+      "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "juuretise peenleib seemnetega",
+      "descriptors": "narva peenleib",
+      "descriptorOrder": [
+        "narva",
+        "peenleib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "narva": "narva",
+        "peenleib": "peenleib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Must põrandaleib Fazer 390g",
+    "price": 1.5,
+    "regularPrice": 1.5,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Fazer",
+    "storeUnitPrice": 3.85,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_295821_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-porandaleib-fazer-390g/p/295821",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "must",
+      "unit": "390g",
+      "variety": "fazer must",
+      "nameLower": "must põrandaleib fazer 390g",
+      "brand": "fazer",
+      "size": "390g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "must",
+      "fatPercent": null,
+      "descriptors": "must põrandaleib",
+      "descriptorOrder": [
+        "must",
+        "põrandaleib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "põrandaleib": "põrandaleib"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1000,6 +1445,7 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 4.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_984458_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/muhu-leib-seemnetega-850g/p/984458",
     "ean": null,
@@ -1019,8 +1465,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "leib muhu seemnetega",
+      "descriptorOrder": [
+        "muhu",
+        "leib",
+        "seemnetega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "muhu": "muhu",
+        "leib": "leib",
+        "seemnetega": "seemnetega"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1032,6 +1498,7 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 3.15,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_929090_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/uudseleib-meie-eesti-100-elt-600g/p/929090",
     "ean": null,
@@ -1051,8 +1518,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "eesti elt meie uudseleib",
+      "descriptorOrder": [
+        "uudseleib",
+        "meie",
+        "eesti",
+        "elt"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "uudseleib": "uudseleib",
+        "meie": "meie",
+        "eesti": "eesti",
+        "elt": "elt"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1064,6 +1553,7 @@
     "cardName": null,
     "brand": "Lõuna Pagarid",
     "storeUnitPrice": 5.3,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010987_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-idan-teradega-louna-pagarid-300g/p/4010987",
     "ean": null,
@@ -1083,8 +1573,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "idandatud rukkileib teradega",
+      "descriptorOrder": [
+        "rukkileib",
+        "idandatud",
+        "teradega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkileib": "rukkileib",
+        "teradega": "teradega"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1096,6 +1605,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 4.49,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010715_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/sibulaleib-leibur-390g/p/4010715",
     "ean": null,
@@ -1115,8 +1625,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "sibulaleib",
+      "descriptorOrder": [
+        "sibulaleib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sibulaleib": "sibulaleib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1128,6 +1654,7 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 4.68,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_915533_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/krompsuv-leib-kanepiseemn-louna-pagar-310g/p/915533",
     "ean": null,
@@ -1147,8 +1674,31 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kanepiseemn krõmpsuv leib lõuna pagar",
+      "descriptorOrder": [
+        "krõmpsuv",
+        "leib",
+        "kanepiseemn",
+        "lõuna",
+        "pagar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "krõmpsuv": "krõmpsuv",
+        "leib": "leib",
+        "lõuna": "lõuna",
+        "pagar": "pagar"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1160,6 +1710,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4011381_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/meeleib-eesti-pagar-500g/p/4011381",
     "ean": null,
@@ -1179,8 +1730,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "meeleib",
+      "descriptorOrder": [
+        "meeleib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "meeleib": "meeleib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1192,6 +1759,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4011362_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/porgandileib-eesti-pagar-500g/p/4011362",
     "ean": null,
@@ -1211,8 +1779,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "porgandileib",
+      "descriptorOrder": [
+        "porgandileib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "porgandileib": "porgandileib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1224,6 +1808,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 3.08,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4009588_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/vormileib-ruks-leibur-600g/p/4009588",
     "ean": null,
@@ -1243,8 +1828,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ruks vormileib",
+      "descriptorOrder": [
+        "vormileib",
+        "ruks"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vormileib": "vormileib",
+        "ruks": "ruks"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1256,6 +1859,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 2.69,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4009620_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-seemnetega-isa-leibur-390g/p/4009620",
     "ean": null,
@@ -1275,8 +1879,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "isa peenleib seemnetega",
+      "descriptorOrder": [
+        "peenleib",
+        "seemnetega",
+        "isa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peenleib": "peenleib",
+        "seemnetega": "seemnetega",
+        "isa": "isa"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1288,6 +1912,7 @@
     "cardName": null,
     "brand": "Lõuna Pagarid",
     "storeUnitPrice": 5.17,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006380_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/leib-varska-tummo-louna-pagarid-240g/p/4006380",
     "ean": null,
@@ -1307,40 +1932,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "leib tummõ värska",
+      "descriptorOrder": [
+        "leib",
+        "värska",
+        "tummõ"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "leib": "leib",
+        "värska": "värska",
+        "tummõ": "tummõ"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Rukkileib päevalille seemnet. Pärnamäed 300g",
-    "price": 1.19,
-    "regularPrice": 1.19,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Pärnamäed",
-    "storeUnitPrice": 3.97,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-paevalille-seemnet-parnamaed-300g/p/4010725",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "rukkileib",
-      "unit": "300g",
-      "variety": "pärnamäed",
-      "nameLower": "rukkileib päevalille seemnet. pärnamäed 300g",
-      "brand": "pärnamäed",
-      "size": "300g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "päevalille rukkileib seemnet",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1352,6 +1965,7 @@
     "cardName": null,
     "brand": "Lõuna Pagarid",
     "storeUnitPrice": 5.63,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4011003_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-seemnetega-louna-pagarid-300g/p/4011003",
     "ean": null,
@@ -1371,40 +1985,78 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rukkileib seemnetega",
+      "descriptorOrder": [
+        "rukkileib",
+        "seemnetega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkileib": "rukkileib",
+        "seemnetega": "seemnetega"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Rimi",
-    "name": "Rukkisepik Eesti Pagar 300g",
-    "price": 1.09,
-    "regularPrice": 1.09,
+    "name": "Rukkileib päevalille seemnet. Pärnamäed 300g",
+    "price": 1.19,
+    "regularPrice": 1.19,
     "cardPrice": null,
     "cardName": null,
-    "brand": "Eesti Pagar",
-    "storeUnitPrice": 3.63,
+    "brand": "Pärnamäed",
+    "storeUnitPrice": 3.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010725_PCE_EE",
     "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rukkisepik-eesti-pagar-300g/p/298347",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-paevalille-seemnet-parnamaed-300g/p/4010725",
     "ean": null,
     "strictPackaging": true,
     "signature": {
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
-      "type": "rukkisepik",
+      "type": "rukkileib",
       "unit": "300g",
-      "variety": "pagar",
-      "nameLower": "rukkisepik eesti pagar 300g",
-      "brand": "eesti pagar",
+      "variety": "pärnamäed",
+      "nameLower": "rukkileib päevalille seemnet. pärnamäed 300g",
+      "brand": "pärnamäed",
       "size": "300g",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "rukkisepik",
+      "descriptors": "päevalille rukkileib seemnet",
+      "descriptorOrder": [
+        "rukkileib",
+        "päevalille",
+        "seemnet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkileib": "rukkileib",
+        "päevalille": "päevalille"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1416,6 +2068,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 1.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_290363_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-perenaise-suur-eesti-pagar-500g/p/290363",
     "ean": null,
@@ -1435,8 +2088,77 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "perenaise sai suur",
+      "descriptorOrder": [
+        "sai",
+        "perenaise",
+        "suur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sai": "sai",
+        "perenaise": "perenaise",
+        "suur": "suur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Rukkisepik Eesti Pagar 300g",
+    "price": 1.09,
+    "regularPrice": 1.09,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Eesti Pagar",
+    "storeUnitPrice": 3.63,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_298347_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rukkisepik-eesti-pagar-300g/p/298347",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rukkisepik",
+      "unit": "300g",
+      "variety": "pagar",
+      "nameLower": "rukkisepik eesti pagar 300g",
+      "brand": "eesti pagar",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "rukkisepik",
+      "descriptorOrder": [
+        "rukkisepik"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkisepik": "rukkisepik"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1448,6 +2170,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_207009_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-perenaise-eesti-pagar-320g/p/207009",
     "ean": null,
@@ -1467,8 +2190,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "perenaise sai",
+      "descriptorOrder": [
+        "sai",
+        "perenaise"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sai": "sai",
+        "perenaise": "perenaise"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1480,6 +2221,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 1.83,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_268137_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/hea-sai-eesti-pagar-300g/p/268137",
     "ean": null,
@@ -1499,8 +2241,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "hea sai",
+      "descriptorOrder": [
+        "hea",
+        "sai"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hea": "hea",
+        "sai": "sai"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1512,6 +2272,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.63,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_206617_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sepik-onne-eesti-pagar-300g/p/206617",
     "ean": null,
@@ -1531,40 +2292,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "sepik õnne",
+      "descriptorOrder": [
+        "sepik",
+        "õnne"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sepik": "sepik",
+        "õnne": "õnne"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Täisterasepik Eesti Pagar 500g",
-    "price": 1.09,
-    "regularPrice": 1.29,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Eesti Pagar",
-    "storeUnitPrice": 2.18,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/taisterasepik-eesti-pagar-500g/p/930282",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "täisterasepik",
-      "unit": "500g",
-      "variety": "pagar",
-      "nameLower": "täisterasepik eesti pagar 500g",
-      "brand": "eesti pagar",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "täisterasepik",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1576,6 +2323,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 3.57,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_920924_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/keefirisai-kaltsiumiga-fazer-350g/p/920924",
     "ean": null,
@@ -1595,8 +2343,75 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kaltsiumiga keefirisai",
+      "descriptorOrder": [
+        "keefirisai",
+        "kaltsiumiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "keefirisai": "keefirisai",
+        "kaltsiumiga": "kaltsiumiga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Täisterasepik Eesti Pagar 500g",
+    "price": 1.09,
+    "regularPrice": 1.29,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Eesti Pagar",
+    "storeUnitPrice": 2.18,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_930282_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/taisterasepik-eesti-pagar-500g/p/930282",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täisterasepik",
+      "unit": "500g",
+      "variety": "pagar",
+      "nameLower": "täisterasepik eesti pagar 500g",
+      "brand": "eesti pagar",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "täisterasepik",
+      "descriptorOrder": [
+        "täisterasepik"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisterasepik": "täisterasepik"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1608,6 +2423,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 3.3,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_939466_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-kirde-leibur-300g/p/939466",
     "ean": null,
@@ -1627,8 +2443,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kirde sai",
+      "descriptorOrder": [
+        "sai",
+        "kirde"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sai": "sai",
+        "kirde": "kirde"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1640,6 +2474,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_957205_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsepik-taistera-tosta-eesti-pagar-500g/p/957205",
     "ean": null,
@@ -1659,8 +2494,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "röstsepik tosta täistera",
+      "descriptorOrder": [
+        "röstsepik",
+        "täistera",
+        "tosta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstsepik": "röstsepik",
+        "täistera": "täistera",
+        "tosta": "tosta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1672,6 +2527,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 3.4,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006279_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sepik-seemnetega-fazer-250g/p/4006279",
     "ean": null,
@@ -1691,40 +2547,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "seemnetega sepik",
+      "descriptorOrder": [
+        "sepik",
+        "seemnetega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sepik": "sepik",
+        "seemnetega": "seemnetega"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Kodusai XXL Fazer 700g",
-    "price": 1.29,
-    "regularPrice": 1.29,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 1.84,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kodusai-xxl-fazer-700g/p/4002974",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "kodusai",
-      "unit": "700g",
-      "variety": "xxl fazer",
-      "nameLower": "kodusai xxl fazer 700g",
-      "brand": "fazer",
-      "size": "700g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "kodusai xxl",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1736,6 +2578,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 3.58,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_926710_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsai-taistera-kuldne-leibur-500g/p/926710",
     "ean": null,
@@ -1755,8 +2598,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kuldne röst täistera",
+      "descriptorOrder": [
+        "röst",
+        "täistera",
+        "kuldne"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "täistera": "täistera",
+        "kuldne": "kuldne"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1768,6 +2631,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 4.17,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_971850_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kaerasepik-eesti-pagar-300g/p/971850",
     "ean": null,
@@ -1787,8 +2651,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kaerasepik",
+      "descriptorOrder": [
+        "kaerasepik"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerasepik": "kaerasepik"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1800,6 +2680,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 2.76,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010724_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kodune-sepik-leibur-250g/p/4010724",
     "ean": null,
@@ -1819,8 +2700,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kodune sepik",
+      "descriptorOrder": [
+        "kodune",
+        "sepik"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "sepik": "sepik"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1832,6 +2731,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 4.42,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4002667_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/taisterasepik-fitlap-leibur-360g/p/4002667",
     "ean": null,
@@ -1851,40 +2751,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "fitlap täisterasepik",
+      "descriptorOrder": [
+        "täisterasepik",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisterasepik": "täisterasepik",
+        "fitlap": "fitlap"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Sai Kodusai suur Fazer 500g",
-    "price": 1.45,
-    "regularPrice": 1.45,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 2.9,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-kodusai-suur-fazer-500g/p/279257",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "sai",
-      "unit": "500g",
-      "variety": "kodusai fazer",
-      "nameLower": "sai kodusai suur fazer 500g",
-      "brand": "fazer",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "kodusai sai suur",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1896,6 +2782,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4000100_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/ciabatta-hele-eesti-pagar-300g/p/4000100",
     "ean": null,
@@ -1915,8 +2802,26 @@
       "colors": "hele",
       "fatPercent": null,
       "descriptors": "ciabatta hele",
+      "descriptorOrder": [
+        "ciabatta",
+        "hele"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ciabatta": "ciabatta",
+        "hele": "hele"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1928,6 +2833,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 3.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006264_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/juuretisesai-fazer-500g/p/4006264",
     "ean": null,
@@ -1947,8 +2853,75 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "juuretisesai",
+      "descriptorOrder": [
+        "juuretisesai"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juuretisesai": "juuretisesai"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Ciabatta tume Eesti Pagar 300g",
+    "price": 1.29,
+    "regularPrice": 1.29,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Eesti Pagar",
+    "storeUnitPrice": 4.3,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4000091_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/ciabatta-tume-eesti-pagar-300g/p/4000091",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ciabatta",
+      "unit": "300g",
+      "variety": "pagar tume",
+      "nameLower": "ciabatta tume eesti pagar 300g",
+      "brand": "eesti pagar",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "tume",
+      "fatPercent": null,
+      "descriptors": "ciabatta tume",
+      "descriptorOrder": [
+        "ciabatta",
+        "tume"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ciabatta": "ciabatta",
+        "tume": "tume"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1960,6 +2933,7 @@
     "cardName": null,
     "brand": "Europagar",
     "storeUnitPrice": 14.26,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_276830_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/karamellistritsel-europagar-350g/p/276830",
     "ean": null,
@@ -1979,8 +2953,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "karamellistritsel",
+      "descriptorOrder": [
+        "karamellistritsel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karamellistritsel": "karamellistritsel"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1992,6 +2982,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 3.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_992822_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kaerasepik-d-vitamiiniga-fazer-350g/p/992822",
     "ean": null,
@@ -2011,72 +3002,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "d kaerasepik vitamiiniga",
+      "descriptorOrder": [
+        "kaerasepik",
+        "d",
+        "vitamiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerasepik": "kaerasepik"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Prantsuse poolpikk sai Pärnamäed 200g",
-    "price": 1.15,
-    "regularPrice": 1.15,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Pärnamäed",
-    "storeUnitPrice": 5.75,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/prantsuse-poolpikk-sai-parnamaed-200g/p/983785",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "prantsuse",
-      "unit": "200g",
-      "variety": "pärnamäed",
-      "nameLower": "prantsuse poolpikk sai pärnamäed 200g",
-      "brand": "pärnamäed",
-      "size": "200g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "poolpikk prantsuse sai",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Röstsepik täisterahelvest. 5-vilja Fazer 480g",
-    "price": 1.55,
-    "regularPrice": 1.55,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 3.23,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsepik-taisterahelvest-5-vilja-fazer-480g/p/4012066",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "röstsepik",
-      "unit": "480g",
-      "variety": "fazer",
-      "nameLower": "röstsepik täisterahelvest. 5-vilja fazer 480g",
-      "brand": "fazer",
-      "size": "480g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "röstsepik täisterahelvest vilja",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2088,6 +3033,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 4.4,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4012527_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/juusturost-tosta-eesti-pagar-430g/p/4012527",
     "ean": null,
@@ -2107,8 +3053,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "juusturöst tosta",
+      "descriptorOrder": [
+        "juusturöst",
+        "tosta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juusturöst": "juusturöst",
+        "tosta": "tosta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2120,6 +3084,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_274018_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-tosta-eesti-pagar-500g/p/274018",
     "ean": null,
@@ -2139,8 +3104,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "röst tosta",
+      "descriptorOrder": [
+        "röst",
+        "tosta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "tosta": "tosta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2152,6 +3135,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 4.02,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_290851_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rost-mitmevilja-leibur-470g/p/290851",
     "ean": null,
@@ -2171,8 +3155,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "mitmevilja röst",
+      "descriptorOrder": [
+        "röst",
+        "mitmevilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röst",
+        "mitmevilja": "mitmevilja"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2184,6 +3186,7 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 1.5,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_903478_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-mitmevilja-rimi-smart-500g/p/903478",
     "ean": null,
@@ -2203,8 +3206,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "mitmevilja röst",
+      "descriptorOrder": [
+        "röst",
+        "mitmevilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "mitmevilja": "mitmevilja"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2216,6 +3237,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.05,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_286883_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rukkirost-tosta-eesti-pagar-390g/p/286883",
     "ean": null,
@@ -2235,8 +3257,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rukkiröst tosta",
+      "descriptorOrder": [
+        "rukkiröst",
+        "tosta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkiröst": "rukkiröst",
+        "tosta": "tosta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2248,6 +3288,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 2.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_274019_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-mitmevilja-tosta-eesti-pagar-500g/p/274019",
     "ean": null,
@@ -2267,8 +3308,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "mitmevilja röst tosta",
+      "descriptorOrder": [
+        "röst",
+        "mitmevilja",
+        "tosta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "mitmevilja": "mitmevilja",
+        "tosta": "tosta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2280,6 +3341,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 2.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_222054_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-klassik-leibur-500g/p/222054",
     "ean": null,
@@ -2299,8 +3361,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "klassikalises kuldne röst",
+      "descriptorOrder": [
+        "röst",
+        "kuldne",
+        "klassikalises"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "kuldne": "kuldne",
+        "klassikalises": "klassik"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2312,6 +3394,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 4.42,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4000174_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/juuretise-rost-fazer-450g/p/4000174",
     "ean": null,
@@ -2331,40 +3414,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "juuretise röst",
+      "descriptorOrder": [
+        "juuretise",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juuretise": "juuretise",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Seemneröst Fazer 450g",
-    "price": 2.39,
-    "regularPrice": 2.39,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 5.31,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/seemnerost-fazer-450g/p/947519",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "seemneröst",
-      "unit": "450g",
-      "variety": "fazer",
-      "nameLower": "seemneröst fazer 450g",
-      "brand": "fazer",
-      "size": "450g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "seemneröst",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2376,6 +3445,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.7,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_992844_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/haputaina-rost-eesti-pagar-430g/p/992844",
     "ean": null,
@@ -2395,8 +3465,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "haputaina röst",
+      "descriptorOrder": [
+        "haputaina",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "haputaina": "haputaina",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2408,6 +3496,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.7,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_971770_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/pagari-kaerarost-eesti-pagar-430g/p/971770",
     "ean": null,
@@ -2427,8 +3516,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kaeraröst pagari",
+      "descriptorOrder": [
+        "pagari",
+        "kaeraröst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pagari": "pagari",
+        "kaeraröst": "kaeraröst"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2440,6 +3547,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 4.57,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_278361_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/saib-leibur-370g/p/278361",
     "ean": null,
@@ -2459,8 +3567,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "saib",
+      "descriptorOrder": [
+        "saib"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "saib": "saib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2472,6 +3596,7 @@
     "cardName": null,
     "brand": "Eesti Pagar",
     "storeUnitPrice": 3.7,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_917973_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/pagarirost-taistera-eesti-pagar-430g/p/917973",
     "ean": null,
@@ -2491,8 +3616,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pagariröst täistera",
+      "descriptorOrder": [
+        "pagariröst",
+        "täistera"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pagariröst": "pagariröst",
+        "täistera": "täistera"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2504,6 +3647,7 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 3.55,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4004934_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rost-100-rukkijahu-leiburi-550g/p/4004934",
     "ean": null,
@@ -2523,8 +3667,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rukkijahu röst",
+      "descriptorOrder": [
+        "röst",
+        "rukkijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röst",
+        "rukkijahu": "rukkijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2536,6 +3698,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 5.16,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_946129_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-klassik-leibur-250g/p/946129",
     "ean": null,
@@ -2555,8 +3718,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "klassikalises kuldne röst",
+      "descriptorOrder": [
+        "röst",
+        "kuldne",
+        "klassikalises"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "kuldne": "kuldne",
+        "klassikalises": "klassik"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2568,6 +3751,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 6.76,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_962563_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/mitmevilja-rost-leibur-250g/p/962563",
     "ean": null,
@@ -2587,8 +3771,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "mitmevilja röst",
+      "descriptorOrder": [
+        "mitmevilja",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mitmevilja": "mitmevilja",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2600,6 +3802,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 3.2,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_298702_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kodusai-rost-fazer-500g/p/298702",
     "ean": null,
@@ -2619,40 +3822,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kodusai röst",
+      "descriptorOrder": [
+        "kodusai",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodusai": "kodusai",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Keefiriröst kaltsiumiga Fazer 450g",
-    "price": 1.96,
-    "regularPrice": 1.96,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Fazer",
-    "storeUnitPrice": 4.36,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/keefirirost-kaltsiumiga-fazer-450g/p/940344",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "keefiriröst",
-      "unit": "450g",
-      "variety": "fazer",
-      "nameLower": "keefiriröst kaltsiumiga fazer 450g",
-      "brand": "fazer",
-      "size": "450g",
-      "variant": null,
-      "qualifiers": "kaltsiumiga",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "kaltsiumiga keefiriröst",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2664,6 +3853,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 2.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4009614_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-5-vilja-leibur-525g/p/4009614",
     "ean": null,
@@ -2683,8 +3873,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kuldne röst vilja",
+      "descriptorOrder": [
+        "röst",
+        "kuldne",
+        "vilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "kuldne": "kuldne"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2696,6 +3905,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 5.79,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_902923_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kodusai-mini-rost-fazer-240g/p/902923",
     "ean": null,
@@ -2715,8 +3925,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kodusai mini röst",
+      "descriptorOrder": [
+        "kodusai",
+        "mini",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodusai": "kodusai",
+        "mini": "mini",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2728,6 +3958,7 @@
     "cardName": null,
     "brand": "Leibur",
     "storeUnitPrice": 3.1,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4009589_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-graham-leibur-500g/p/4009589",
     "ean": null,
@@ -2747,8 +3978,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "graham kuldne röst",
+      "descriptorOrder": [
+        "röst",
+        "kuldne",
+        "graham"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röst": "röstsai",
+        "kuldne": "kuldne",
+        "graham": "graham"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2760,6 +4011,7 @@
     "cardName": null,
     "brand": "Fazer",
     "storeUnitPrice": 4.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010713_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kamarost-fazer-400g/p/4010713",
     "ean": null,
@@ -2779,8 +4031,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kamaröst",
+      "descriptorOrder": [
+        "kamaröst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kamaröst": "kamaröst"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   }
 ]

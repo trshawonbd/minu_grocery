@@ -8,9 +8,47 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 42.22,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_150324_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/vahukoore-tardaine-dr-oetker-9g/p/150324",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vahukoore",
+      "unit": "9g",
+      "variety": "dr oetker",
+      "nameLower": "vahukoore tardaine dr.oetker 9g",
+      "brand": "dr.oetker",
+      "size": "9g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tardaine vahukoore",
+      "descriptorOrder": [
+        "vahukoore",
+        "tardaine"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahukoore": "vahukoore",
+        "tardaine": "tardaine"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -21,9 +59,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 19.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103114_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretisepulber-metsmaasika-mikaado-80g/p/103114",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretisepulber",
+      "unit": "80g",
+      "variety": "mikaado",
+      "nameLower": "tarretisepulber metsmaasika mikaado 80g",
+      "brand": "mikaado",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsmaasika tarretisepulber",
+      "descriptorOrder": [
+        "tarretisepulber",
+        "metsmaasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretisepulber": "tarretisepulber",
+        "metsmaasika": "metsmaasika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -34,9 +110,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 10.88,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_122837_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/kissellipulber-vaarikamaitseline-mikaado-170g/p/122837",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kissellipulber",
+      "unit": "170g",
+      "variety": "mikaado",
+      "nameLower": "kissellipulber vaarikamaitseline mikaado 170g",
+      "brand": "mikaado",
+      "size": "170g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kissellipulber vaarika",
+      "descriptorOrder": [
+        "kissellipulber",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kissellipulber": "kissellipulber",
+        "vaarikamaitseline": "vaarikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -47,9 +161,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 19.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103112_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretisepulber-mesimuraka-mikaado-80g/p/103112",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretisepulber",
+      "unit": "80g",
+      "variety": "mikaado",
+      "nameLower": "tarretisepulber mesimuraka mikaado 80g",
+      "brand": "mikaado",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mesimuraka tarretisepulber",
+      "descriptorOrder": [
+        "tarretisepulber",
+        "mesimuraka"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretisepulber": "tarretisepulber",
+        "mesimuraka": "mesimuraka"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -60,9 +212,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 19.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103113_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretisepulber-kirsimaitseline-mikaado-80g/p/103113",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretisepulber",
+      "unit": "80g",
+      "variety": "mikaado",
+      "nameLower": "tarretisepulber kirsimaitseline mikaado 80g",
+      "brand": "mikaado",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsi tarretisepulber",
+      "descriptorOrder": [
+        "tarretisepulber",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretisepulber": "tarretisepulber",
+        "kirsimaitseline": "kirsimaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -73,9 +263,47 @@
     "cardName": null,
     "brand": "Tartu Mill",
     "storeUnitPrice": 8.17,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_160355_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/leivasupp-puuviljadega-tartu-mill-300g/p/160355",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "leivasupp",
+      "unit": "300g",
+      "variety": "tartu mill",
+      "nameLower": "leivasupp puuviljadega tartu mill 300g",
+      "brand": "tartu mill",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "puuviljadega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "leivasupp puuviljadega",
+      "descriptorOrder": [
+        "leivasupp",
+        "puuviljadega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "leivasupp": "leivasupp",
+        "puuviljadega": "puuviljadega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -86,9 +314,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 19.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103116_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretisepulber-vaarikamaitseline-mikaado-80g/p/103116",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretisepulber",
+      "unit": "80g",
+      "variety": "mikaado",
+      "nameLower": "tarretisepulber vaarikamaitseline mikaado 80g",
+      "brand": "mikaado",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tarretisepulber vaarika",
+      "descriptorOrder": [
+        "tarretisepulber",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretisepulber": "tarretisepulber",
+        "vaarikamaitseline": "vaarikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -99,9 +365,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 10.88,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_139765_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/kissellipulber-mustikamaitseline-mikaado-170g/p/139765",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kissellipulber",
+      "unit": "170g",
+      "variety": "mikaado",
+      "nameLower": "kissellipulber mustikamaitseline mikaado 170g",
+      "brand": "mikaado",
+      "size": "170g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kissellipulber mustika",
+      "descriptorOrder": [
+        "kissellipulber",
+        "mustika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kissellipulber": "kissellipulber",
+        "mustikamaitseline": "mustikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -112,9 +416,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 19.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103111_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretisepulber-sidrunimaitseline-mikaado-80g/p/103111",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretisepulber",
+      "unit": "80g",
+      "variety": "mikaado",
+      "nameLower": "tarretisepulber sidrunimaitseline mikaado 80g",
+      "brand": "mikaado",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "sidruni tarretisepulber",
+      "descriptorOrder": [
+        "tarretisepulber",
+        "sidruni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretisepulber": "tarretisepulber",
+        "sidrunimaitseline": "sidrunimaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -125,9 +467,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 19.38,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_104049_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretisepulber-maasikamaitseline-mikaado-80g/p/104049",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretisepulber",
+      "unit": "80g",
+      "variety": "mikaado",
+      "nameLower": "tarretisepulber maasikamaitseline mikaado 80g",
+      "brand": "mikaado",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika tarretisepulber",
+      "descriptorOrder": [
+        "tarretisepulber",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretisepulber": "tarretisepulber",
+        "maasikamaitseline": "maasikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -138,9 +518,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 10.88,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_122835_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/kissellipulber-johvika-mikaado-170g/p/122835",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kissellipulber",
+      "unit": "170g",
+      "variety": "mikaado",
+      "nameLower": "kissellipulber jõhvika mikaado 170g",
+      "brand": "mikaado",
+      "size": "170g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika kissellipulber",
+      "descriptorOrder": [
+        "kissellipulber",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kissellipulber": "kissellipulber",
+        "jõhvika": "jõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -151,9 +569,49 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 9.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_141034_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/mannavahupulber-maasika-mikaado-mannike-200g/p/141034",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mannavahupulber",
+      "unit": "200g",
+      "variety": "mikaado mannike",
+      "nameLower": "mannavahupulber maasika mikaado mannike 200g",
+      "brand": "mikaado",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika mannavahupulber mannike",
+      "descriptorOrder": [
+        "mannavahupulber",
+        "maasika",
+        "mannike"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mannavahupulber": "mannavahupulber",
+        "maasika": "maasika",
+        "mannike": "mannike"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -164,9 +622,47 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 12.33,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_178167_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/kissellipulber-tikri-maasika-mikaado-155g/p/178167",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kissellipulber",
+      "unit": "155g",
+      "variety": "mikaado",
+      "nameLower": "kissellipulber tikri-maasika mikaado 155g",
+      "brand": "mikaado",
+      "size": "155g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kissellipulber maasika tikri",
+      "descriptorOrder": [
+        "kissellipulber",
+        "tikri",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kissellipulber": "kissellipulber"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -177,9 +673,49 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 9.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_141035_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/mannavahupulber-johvika-mikaado-mannike-200g/p/141035",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mannavahupulber",
+      "unit": "200g",
+      "variety": "mikaado mannike",
+      "nameLower": "mannavahupulber jõhvika mikaado mannike 200g",
+      "brand": "mikaado",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika mannavahupulber mannike",
+      "descriptorOrder": [
+        "mannavahupulber",
+        "jõhvika",
+        "mannike"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mannavahupulber": "mannavahupulber",
+        "jõhvika": "jõhvika",
+        "mannike": "mannike"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -190,9 +726,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 16.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1016204_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretis-vaarikamaitseline-dr-oetker-72g/p/1016204",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretis",
+      "unit": "72g",
+      "variety": "dr oetker",
+      "nameLower": "tarretis vaarikamaitseline dr oetker 72g",
+      "brand": "dr.oetker",
+      "size": "72g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tarretis vaarika",
+      "descriptorOrder": [
+        "tarretis",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretis": "tarretis",
+        "vaarikamaitseline": "vaarikamaitseline",
+        "dr": "dr",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -203,9 +779,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 16.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1016177_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretis-kiivimaitseline-dr-oetker-72g/p/1016177",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretis",
+      "unit": "72g",
+      "variety": "dr oetker",
+      "nameLower": "tarretis kiivimaitseline dr oetker 72g",
+      "brand": "dr.oetker",
+      "size": "72g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiivi tarretis",
+      "descriptorOrder": [
+        "tarretis",
+        "kiivi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretis": "tarretis",
+        "kiivimaitseline": "kiivimaitseline",
+        "dr": "dr",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -216,9 +832,50 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 16.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1016201_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretis-metsmaasika-maitseline-dr-oetker-72g/p/1016201",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretis",
+      "unit": "72g",
+      "variety": "dr oetker",
+      "nameLower": "tarretis metsmaasika maitseline dr oetker 72g",
+      "brand": "dr.oetker",
+      "size": "72g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsmaasika tarretis",
+      "descriptorOrder": [
+        "tarretis",
+        "metsmaasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretis": "tarretis",
+        "metsmaasika": "metsmaasika",
+        "maitseline": "maitseline",
+        "dr": "dr",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -229,9 +886,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 16.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1016196_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretis-kirsimaitseline-dr-oetker-72g/p/1016196",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretis",
+      "unit": "72g",
+      "variety": "dr oetker",
+      "nameLower": "tarretis kirsimaitseline dr oetker 72g",
+      "brand": "dr.oetker",
+      "size": "72g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsi tarretis",
+      "descriptorOrder": [
+        "tarretis",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretis": "tarretis",
+        "kirsimaitseline": "kirsimaitseline",
+        "dr": "dr",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -242,9 +939,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 16.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1016203_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretis-virsikumaitseline-dr-oetker-72g/p/1016203",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretis",
+      "unit": "72g",
+      "variety": "dr oetker",
+      "nameLower": "tarretis virsikumaitseline dr oetker 72g",
+      "brand": "dr.oetker",
+      "size": "72g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tarretis virsiku",
+      "descriptorOrder": [
+        "tarretis",
+        "virsiku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretis": "tarretis",
+        "virsikumaitseline": "virsikumaitseline",
+        "dr": "dr",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -255,9 +992,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 16.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1016195_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/tarretis-maasikamaitseline-dr-oetker-72g/p/1016195",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tarretis",
+      "unit": "72g",
+      "variety": "dr oetker",
+      "nameLower": "tarretis maasikamaitseline dr oetker 72g",
+      "brand": "dr.oetker",
+      "size": "72g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika tarretis",
+      "descriptorOrder": [
+        "tarretis",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tarretis": "tarretis",
+        "maasikamaitseline": "maasikamaitseline",
+        "dr": "dr",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -268,9 +1045,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 26.83,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_188471_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/magustoidupulber-tiramisu-kreem-dr-oetker-63g/p/188471",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "magustoidupulber",
+      "unit": "63g",
+      "variety": "tiramisu dr oetker",
+      "nameLower": "magustoidupulber tiramisu kreem dr.oetker 63g",
+      "brand": "dr.oetker",
+      "size": "63g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kreem magustoidupulber tiramisu",
+      "descriptorOrder": [
+        "magustoidupulber",
+        "tiramisu",
+        "kreem"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "magustoidupulber": "magustoidupulber",
+        "tiramisu": "tiramisu",
+        "kreem": "kreem"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -281,9 +1098,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 33.8,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_188478_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/desserdid/magustoidupulber-panna-cotta-dr-oetker-50g/p/188478",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "magustoidupulber",
+      "unit": "50g",
+      "variety": "panna cotta dr oetker",
+      "nameLower": "magustoidupulber panna cotta dr.oetker 50g",
+      "brand": "dr.oetker",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cotta magustoidupulber panna",
+      "descriptorOrder": [
+        "magustoidupulber",
+        "panna",
+        "cotta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "magustoidupulber": "magustoidupulber",
+        "panna": "panna",
+        "cotta": "cotta"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -294,9 +1151,45 @@
     "cardName": null,
     "brand": "Mikaado",
     "storeUnitPrice": 66.33,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_120739_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/zelatiin-paksendajad/moosipaksendaja-mikaado-30g/p/120739",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "moosipaksendaja",
+      "unit": "30g",
+      "variety": "mikaado",
+      "nameLower": "moosipaksendaja mikaado 30g",
+      "brand": "mikaado",
+      "size": "30g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "moosipaksendaja",
+      "descriptorOrder": [
+        "moosipaksendaja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "moosipaksendaja": "moosipaksendaja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -307,9 +1200,46 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 199,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_171766_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/zelatiin-paksendajad/zelatiinilehed-dr-oetker-10-g/p/171766",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "želatiinilehed",
+      "unit": "10g",
+      "variety": "dr oetker",
+      "nameLower": "želatiinilehed dr.oetker 10 g",
+      "brand": "dr.oetker",
+      "size": "10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "želatiinilehed",
+      "descriptorOrder": [
+        "želatiinilehed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "želatiinilehed": "želatiinilehed",
+        "g": "g"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "10",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -320,9 +1250,45 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 44.5,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_147445_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/zelatiin-paksendajad/zelatiin-dr-oetker-20g/p/147445",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "želatiin",
+      "unit": "20g",
+      "variety": "dr oetker",
+      "nameLower": "želatiin dr.oetker 20g",
+      "brand": "dr.oetker",
+      "size": "20g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "želatiin",
+      "descriptorOrder": [
+        "želatiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "želatiin": "želatiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -333,9 +1299,45 @@
     "cardName": null,
     "brand": "Santa Maria",
     "storeUnitPrice": 59.6,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_119544_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/zelatiin-paksendajad/toiduzelatiin-santa-maria-25g/p/119544",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "toiduželatiin",
+      "unit": "25g",
+      "variety": "santa maria",
+      "nameLower": "toiduželatiin santa maria 25g",
+      "brand": "santa maria",
+      "size": "25g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "toiduželatiin",
+      "descriptorOrder": [
+        "toiduželatiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "toiduželatiin": "toiduželatiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -346,9 +1348,45 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 41.5,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812163_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/zelatiin-paksendajad/toiduzelatiin-rimi-smart-20g/p/812163",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "toiduželatiin",
+      "unit": "20g",
+      "variety": "rimi smart",
+      "nameLower": "toiduželatiin rimi smart 20g",
+      "brand": "rimi smart",
+      "size": "20g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "toiduželatiin",
+      "descriptorOrder": [
+        "toiduželatiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "toiduželatiin": "toiduželatiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -359,9 +1397,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 42.5,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814483_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/zelatiin-paksendajad/toiduzelatiin-rimi-20g/p/814483",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "toiduželatiin",
+      "unit": "20g",
+      "variety": "rimi",
+      "nameLower": "toiduželatiin rimi 20g",
+      "brand": "rimi",
+      "size": "20g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "toiduželatiin",
+      "descriptorOrder": [
+        "toiduželatiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "toiduželatiin": "toiduželatiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -372,9 +1446,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 27.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_805827_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/mandlilaastud-rimi-100g/p/805827",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mandlilaastud",
+      "unit": "100g",
+      "variety": "rimi",
+      "nameLower": "mandlilaastud rimi 100g",
+      "brand": "rimi",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mandlilaastud",
+      "descriptorOrder": [
+        "mandlilaastud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mandlilaastud": "mandlilaastud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -385,22 +1495,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 15.27,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_805845_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kookoshelbed-rimi-150g/p/805845",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kaneel jahvatatud Santa Maria 210g",
-    "price": 7.79,
-    "regularPrice": 7.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Santa Maria",
-    "storeUnitPrice": 38.95,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kaneel-jahvatatud-santa-maria-210g/p/127253",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kookoshelbed",
+      "unit": "150g",
+      "variety": "rimi",
+      "nameLower": "kookoshelbed rimi 150g",
+      "brand": "rimi",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookoshelbed",
+      "descriptorOrder": [
+        "kookoshelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookoshelbed": "kookoshelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -411,9 +1544,98 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 38.64,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814501_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kaneel-jahvatatud-rimi-22g/p/814501",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kaneel",
+      "unit": "22g",
+      "variety": "rimi",
+      "nameLower": "kaneel jahvatatud rimi 22g",
+      "brand": "rimi",
+      "size": "22g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kaneel",
+      "descriptorOrder": [
+        "kaneel",
+        "jahvatatud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneel": "kaneel",
+        "jahvatatud": "jahvatatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kaneel jahvatatud Santa Maria 210g",
+    "price": 7.79,
+    "regularPrice": 7.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Santa Maria",
+    "storeUnitPrice": 38.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_127253_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kaneel-jahvatatud-santa-maria-210g/p/127253",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneel",
+      "unit": "210g",
+      "variety": "santa maria",
+      "nameLower": "kaneel jahvatatud santa maria 210g",
+      "brand": "santa maria",
+      "size": "210g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kaneel",
+      "descriptorOrder": [
+        "kaneel",
+        "jahvatatud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneel": "kaneel",
+        "jahvatatud": "jahvatatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -424,9 +1646,47 @@
     "cardName": null,
     "brand": "Santa Maria",
     "storeUnitPrice": 58.64,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_100376_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/jahvatatud-kaneel-santa-maria-22g/p/100376",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "22g",
+      "variety": "santa maria",
+      "nameLower": "jahvatatud kaneel santa maria 22g",
+      "brand": "santa maria",
+      "size": "22g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kaneel",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kaneel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kaneel": "kaneel"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -437,9 +1697,47 @@
     "cardName": null,
     "brand": "Santa Maria",
     "storeUnitPrice": 57.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_100575_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kaneel-jahvatatud-santa-maria-40g/p/100575",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneel",
+      "unit": "40g",
+      "variety": "santa maria",
+      "nameLower": "kaneel jahvatatud santa maria 40g",
+      "brand": "santa maria",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kaneel",
+      "descriptorOrder": [
+        "kaneel",
+        "jahvatatud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneel": "kaneel",
+        "jahvatatud": "jahvatatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -450,9 +1748,49 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 39.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811018_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/tumeda-sokolaadi-noobid-rimi-100g/p/811018",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "tumeda",
+      "unit": "100g",
+      "variety": "rimi",
+      "nameLower": "tumeda šokolaadi nööbid rimi 100g",
+      "brand": "rimi",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nööbid tumeda šokolaadi",
+      "descriptorOrder": [
+        "tumeda",
+        "šokolaadi",
+        "nööbid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tumeda": "tumeda",
+        "šokolaadi": "šokolaadi",
+        "nööbid": "nööbid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -463,9 +1801,45 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 12.67,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812162_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/sidrunhape-rimi-smart-30g/p/812162",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "sidrunhape",
+      "unit": "30g",
+      "variety": "rimi smart",
+      "nameLower": "sidrunhape rimi smart 30g",
+      "brand": "rimi smart",
+      "size": "30g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "sidrunhape",
+      "descriptorOrder": [
+        "sidrunhape"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sidrunhape": "sidrunhape"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -476,9 +1850,45 @@
     "cardName": null,
     "brand": "Kotanyi",
     "storeUnitPrice": 140.83,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_132790_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kaneelipulgad-kotanyi-12g/p/132790",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneelipulgad",
+      "unit": "12g",
+      "variety": "kotanyi",
+      "nameLower": "kaneelipulgad kotanyi 12g",
+      "brand": "kotanyi",
+      "size": "12g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneelipulgad",
+      "descriptorOrder": [
+        "kaneelipulgad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneelipulgad": "kaneelipulgad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -489,9 +1899,98 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 24.33,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811019_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/rostitud-maapahklid-rimi-tukeldatud-90g/p/811019",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "röstitud",
+      "unit": "90g",
+      "variety": "rimi",
+      "nameLower": "röstitud maapähklid rimi tükeldatud 90g",
+      "brand": "rimi",
+      "size": "90g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maapähklid röstitud tükeldatud",
+      "descriptorOrder": [
+        "röstitud",
+        "maapähklid",
+        "tükeldatud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "maapähklid": "maapähklid",
+        "tükeldatud": "tükeldatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kaneelikoor Santa Maria 22g",
+    "price": 2.69,
+    "regularPrice": 2.69,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Santa Maria",
+    "storeUnitPrice": 122.27,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_181459_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kaneelikoor-santa-maria-22g/p/181459",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneelikoor",
+      "unit": "22g",
+      "variety": "santa maria",
+      "nameLower": "kaneelikoor santa maria 22g",
+      "brand": "santa maria",
+      "size": "22g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneelikoor",
+      "descriptorOrder": [
+        "kaneelikoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneelikoor": "kaneelikoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -502,9 +2001,49 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 39.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811017_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/valge-sokolaadi-noobid-rimi-100g/p/811017",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "valge",
+      "unit": "100g",
+      "variety": "rimi valge",
+      "nameLower": "valge šokolaadi nööbid rimi 100g",
+      "brand": "rimi",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "nööbid valge šokolaadi",
+      "descriptorOrder": [
+        "valge",
+        "šokolaadi",
+        "nööbid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "valge": "valge",
+        "šokolaadi": "šokolaadi",
+        "nööbid": "nööbid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -515,9 +2054,47 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_158767_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/safran-kotany-0-12g/p/158767",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "safran",
+      "unit": "0.12g",
+      "variety": "kotany",
+      "nameLower": "safran kotany 0,12g",
+      "brand": "safran",
+      "size": "0.12g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kotany safran",
+      "descriptorOrder": [
+        "safran",
+        "kotany"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "safran": "safran",
+        "kotany": "kotany"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -528,9 +2105,47 @@
     "cardName": null,
     "brand": "I Love Eco",
     "storeUnitPrice": 15.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_807897_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/purustatud-kookospahkel-i-love-eco-200g/p/807897",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "purustatud",
+      "unit": "200g",
+      "variety": "i love eco",
+      "nameLower": "purustatud kookospähkel i love eco 200g",
+      "brand": "i love eco",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookospähkel purustatud",
+      "descriptorOrder": [
+        "purustatud",
+        "kookospähkel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "purustatud": "purustatud",
+        "kookospähkel": "kookospähkel"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -541,9 +2156,45 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 39,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815812_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kaneel-rimi-smart-10g/p/815812",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kaneel",
+      "unit": "10g",
+      "variety": "rimi smart",
+      "nameLower": "kaneel rimi smart 10g",
+      "brand": "rimi smart",
+      "size": "10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneel",
+      "descriptorOrder": [
+        "kaneel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneel": "kaneel"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -554,9 +2205,46 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 639,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_166210_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/vaniljekaun-13-15cm-10g/p/166210",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vaniljekaun",
+      "unit": "10g",
+      "variety": null,
+      "nameLower": "vaniljekaun 13/15cm 10g",
+      "brand": "vaniljekaun",
+      "size": "10g",
+      "variant": "13",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cm vaniljekaun",
+      "descriptorOrder": [
+        "vaniljekaun",
+        "cm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaniljekaun": "vaniljekaun"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "13",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -567,9 +2255,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 23,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814498_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/kupsetuspulber-rimi-30g/p/814498",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "küpsetuspulber",
+      "unit": "30g",
+      "variety": "rimi",
+      "nameLower": "küpsetuspulber rimi 30g",
+      "brand": "rimi",
+      "size": "30g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küpsetuspulber",
+      "descriptorOrder": [
+        "küpsetuspulber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetuspulber": "küpsetuspulber"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -580,9 +2304,52 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 173.75,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_188601_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/vanilli-lohna--ja-maitseaine-dr-oetker-8-ml/p/188601",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vanilli",
+      "unit": "8ml",
+      "variety": "dr oetker",
+      "nameLower": "vanilli lõhna- ja maitseaine dr. oetker 8 ml",
+      "brand": "dr.oetker",
+      "size": "8ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja lõhna maitseaine vanilli",
+      "descriptorOrder": [
+        "vanilli",
+        "lõhna",
+        "ja",
+        "maitseaine"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vanilli": "vanilli",
+        "ja": "ja",
+        "maitseaine": "maitseaine",
+        "oetker": "oetker",
+        "ml": "ml"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "8",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -593,9 +2360,49 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 134.21,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1006125_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/bourbon-vanillipasta-seemnetega-dr-oetker-19g/p/1006125",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "bourbon",
+      "unit": "19g",
+      "variety": "dr oetker",
+      "nameLower": "bourbon vanillipasta seemnetega dr.oetker 19g",
+      "brand": "dr.oetker",
+      "size": "19g",
+      "variant": null,
+      "qualifiers": "seemnetega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bourbon seemnetega vanillipasta",
+      "descriptorOrder": [
+        "bourbon",
+        "vanillipasta",
+        "seemnetega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bourbon": "bourbon",
+        "vanillipasta": "vanillipasta",
+        "seemnetega": "seemnetega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -606,9 +2413,47 @@
     "cardName": null,
     "brand": "Zelta Rieksts",
     "storeUnitPrice": 15.27,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1014408_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/seesamiseemned-mustad-zelta-rieksts-150g/p/1014408",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seesamiseemned",
+      "unit": "150g",
+      "variety": "zelta rieksts",
+      "nameLower": "seesamiseemned mustad zelta rieksts 150g",
+      "brand": "zelta rieksts",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustad seesamiseemned",
+      "descriptorOrder": [
+        "seesamiseemned",
+        "mustad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seesamiseemned": "seesamiseemned",
+        "mustad": "mustad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -619,9 +2464,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 24.33,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814503_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/sidrunhape-rimi-30g/p/814503",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "sidrunhape",
+      "unit": "30g",
+      "variety": "rimi",
+      "nameLower": "sidrunhape rimi 30g",
+      "brand": "rimi",
+      "size": "30g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "sidrunhape",
+      "descriptorOrder": [
+        "sidrunhape"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sidrunhape": "sidrunhape"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -632,9 +2513,45 @@
     "cardName": null,
     "brand": "Santa Maria",
     "storeUnitPrice": 24.69,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1018297_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/sidrunhape-santa-maria-32g/p/1018297",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sidrunhape",
+      "unit": "32g",
+      "variety": "santa maria",
+      "nameLower": "sidrunhape santa maria 32g",
+      "brand": "santa maria",
+      "size": "32g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "sidrunhape",
+      "descriptorOrder": [
+        "sidrunhape"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sidrunhape": "sidrunhape"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -645,9 +2562,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 33,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814480_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/kondiitri-vurtsid/mooniseemned-rimi-30g/p/814480",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mooniseemned",
+      "unit": "30g",
+      "variety": "rimi",
+      "nameLower": "mooniseemned rimi 30g",
+      "brand": "rimi",
+      "size": "30g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mooniseemned",
+      "descriptorOrder": [
+        "mooniseemned"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mooniseemned": "mooniseemned"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -658,9 +2611,47 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 25.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811035_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/varviline-suhkrudekoor-rimi-100g/p/811035",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "värviline",
+      "unit": "100g",
+      "variety": "rimi",
+      "nameLower": "värviline suhkrudekoor rimi 100g",
+      "brand": "rimi",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "suhkrudekoor värviline",
+      "descriptorOrder": [
+        "värviline",
+        "suhkrudekoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "värviline": "värviline",
+        "suhkrudekoor": "suhkrudekoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -671,9 +2662,45 @@
     "cardName": null,
     "brand": "Salling",
     "storeUnitPrice": 13.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816864_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/martsipan-salling-200g/p/816864",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "martsipan",
+      "unit": "200g",
+      "variety": "salling",
+      "nameLower": "martsipan salling 200g",
+      "brand": "salling",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "martsipan",
+      "descriptorOrder": [
+        "martsipan"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "martsipan": "martsipan"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -684,9 +2711,47 @@
     "cardName": null,
     "brand": "ICA",
     "storeUnitPrice": 20.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_803763_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/kupsetussokolaad-tume-ica-200g/p/803763",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "küpsetusšokolaad",
+      "unit": "200g",
+      "variety": "ica tume",
+      "nameLower": "küpsetusšokolaad tume ica 200g",
+      "brand": "ica",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "tume",
+      "fatPercent": null,
+      "descriptors": "küpsetusšokolaad tume",
+      "descriptorOrder": [
+        "küpsetusšokolaad",
+        "tume"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetusšokolaad": "küpsetusšokolaad",
+        "tume": "tume"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -697,9 +2762,47 @@
     "cardName": null,
     "brand": "ICA",
     "storeUnitPrice": 26.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_804863_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/piimasokolaad-kupsetamiseks-ica-200g/p/804863",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimašokolaad",
+      "unit": "200g",
+      "variety": "ica",
+      "nameLower": "piimašokolaad küpsetamiseks ica 200g",
+      "brand": "ica",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küpsetamiseks piimašokolaad",
+      "descriptorOrder": [
+        "piimašokolaad",
+        "küpsetamiseks"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimašokolaad": "piimašokolaad",
+        "küpsetamiseks": "küpsetamiseks"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -710,9 +2813,45 @@
     "cardName": null,
     "brand": "ICA",
     "storeUnitPrice": 14.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_807925_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/martsipan-ica-400g/p/807925",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "martsipan",
+      "unit": "400g",
+      "variety": "ica",
+      "nameLower": "martsipan ica 400g",
+      "brand": "ica",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "martsipan",
+      "descriptorOrder": [
+        "martsipan"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "martsipan": "martsipan"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -723,9 +2862,45 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 30.63,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_147420_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/suhkrukaunistused-dr-oetker-80g/p/147420",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suhkrukaunistused",
+      "unit": "80g",
+      "variety": "dr oetker",
+      "nameLower": "suhkrukaunistused dr.oetker 80g",
+      "brand": "dr.oetker",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "suhkrukaunistused",
+      "descriptorOrder": [
+        "suhkrukaunistused"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkrukaunistused": "suhkrukaunistused"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -736,22 +2911,47 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 115,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_177271_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/suhkrust-sudamekesed-dr-oetker-10g/p/177271",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Tordikaunistused šokolaadi Dr.Oetker 80g",
-    "price": 2.29,
-    "regularPrice": 2.29,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Dr.Oetker",
-    "storeUnitPrice": 28.63,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/tordikaunistused-sokolaadi-dr-oetker-80g/p/163317",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suhkrust",
+      "unit": "10g",
+      "variety": "dr oetker",
+      "nameLower": "suhkrust südamekesed dr.oetker 10g",
+      "brand": "dr.oetker",
+      "size": "10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "suhkrust südamekesed",
+      "descriptorOrder": [
+        "suhkrust",
+        "südamekesed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkrust": "suhkrust",
+        "südamekesed": "südamekesed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -762,22 +2962,98 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 205,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_170964_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/sinine-toiduvarv-dr-oetker-10g/p/170964",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sinine",
+      "unit": "10g",
+      "variety": "dr oetker sinine",
+      "nameLower": "sinine toiduvärv dr.oetker 10g",
+      "brand": "dr.oetker",
+      "size": "10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "sinine",
+      "fatPercent": null,
+      "descriptors": "sinine toiduvärv",
+      "descriptorOrder": [
+        "sinine",
+        "toiduvärv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sinine": "sinine",
+        "toiduvärv": "toiduvärv"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
-    "name": "Punane toiduvärv Dr.Oetker 10g",
-    "price": 2.05,
-    "regularPrice": 2.05,
+    "name": "Tordikaunistused šokolaadi Dr.Oetker 80g",
+    "price": 2.29,
+    "regularPrice": 2.29,
     "cardPrice": null,
     "cardName": null,
     "brand": "Dr.Oetker",
-    "storeUnitPrice": 205,
+    "storeUnitPrice": 28.63,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_163317_PCE_EE",
     "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/punane-toiduvarv-dr-oetker-10g/p/170976",
-    "ean": null
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/tordikaunistused-sokolaadi-dr-oetker-80g/p/163317",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tordikaunistused",
+      "unit": "80g",
+      "variety": "dr oetker",
+      "nameLower": "tordikaunistused šokolaadi dr.oetker 80g",
+      "brand": "dr.oetker",
+      "size": "80g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tordikaunistused šokolaadi",
+      "descriptorOrder": [
+        "tordikaunistused",
+        "šokolaadi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tordikaunistused": "tordikaunistused",
+        "šokolaadi": "šokolaadi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -788,9 +3064,98 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 205,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_170983_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/roheline-toiduvarv-dr-oetker-10g/p/170983",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "roheline",
+      "unit": "10g",
+      "variety": "dr oetker roheline",
+      "nameLower": "roheline toiduvärv dr.oetker 10g",
+      "brand": "dr.oetker",
+      "size": "10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "roheline",
+      "fatPercent": null,
+      "descriptors": "roheline toiduvärv",
+      "descriptorOrder": [
+        "roheline",
+        "toiduvärv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "roheline": "roheline",
+        "toiduvärv": "toiduvärv"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Punane toiduvärv Dr.Oetker 10g",
+    "price": 2.05,
+    "regularPrice": 2.05,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Dr.Oetker",
+    "storeUnitPrice": 205,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_170976_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/punane-toiduvarv-dr-oetker-10g/p/170976",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punane",
+      "unit": "10g",
+      "variety": "dr oetker punane",
+      "nameLower": "punane toiduvärv dr.oetker 10g",
+      "brand": "dr.oetker",
+      "size": "10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "punane",
+      "fatPercent": null,
+      "descriptors": "punane toiduvärv",
+      "descriptorOrder": [
+        "punane",
+        "toiduvärv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punane": "punane",
+        "toiduvärv": "toiduvärv"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -801,9 +3166,45 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 45.92,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_153659_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/glasuuripliiatsid-dr-oetker-78g/p/153659",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "glasuuripliiatsid",
+      "unit": "78g",
+      "variety": "dr oetker",
+      "nameLower": "glasuuripliiatsid dr.oetker 78g",
+      "brand": "dr.oetker",
+      "size": "78g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "glasuuripliiatsid",
+      "descriptorOrder": [
+        "glasuuripliiatsid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "glasuuripliiatsid": "glasuuripliiatsid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -814,9 +3215,48 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 22.76,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019729_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/vanillimaitseline-tordikreem-dr-oetker-105g/p/1019729",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vanillimaitseline",
+      "unit": "105g",
+      "variety": "dr oetker",
+      "nameLower": "vanillimaitseline tordikreem dr. oetker 105g",
+      "brand": "dr.oetker",
+      "size": "105g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tordikreem vanilli",
+      "descriptorOrder": [
+        "vanilli",
+        "tordikreem"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vanillimaitseline": "vanillimaitseline",
+        "tordikreem": "tordikreem",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -825,11 +3265,47 @@
     "regularPrice": 0.4,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "NORDIC",
     "storeUnitPrice": 8,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_267403_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/pressparm-nordic-50g/p/267403",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "presspärm",
+      "unit": "50g",
+      "variety": "nordic",
+      "nameLower": "presspärm nordic 50g",
+      "brand": "nordic",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "presspärm",
+      "descriptorOrder": [
+        "presspärm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "presspärm": "presspärm"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -840,9 +3316,45 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 20.83,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814058_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/kuivparm-rimi-smart-12g/p/814058",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kuivpärm",
+      "unit": "12g",
+      "variety": "rimi smart",
+      "nameLower": "kuivpärm rimi smart 12g",
+      "brand": "rimi smart",
+      "size": "12g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuivpärm",
+      "descriptorOrder": [
+        "kuivpärm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kuivpärm": "kuivpärm"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -853,9 +3365,45 @@
     "cardName": null,
     "brand": "Meira",
     "storeUnitPrice": 17.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_143913_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/kupsetuspulber-meira-100g/p/143913",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "küpsetuspulber",
+      "unit": "100g",
+      "variety": "meira",
+      "nameLower": "küpsetuspulber meira 100g",
+      "brand": "meira",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küpsetuspulber",
+      "descriptorOrder": [
+        "küpsetuspulber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetuspulber": "küpsetuspulber"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -866,9 +3414,45 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 2.37,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_817377_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/soogisooda-rimi-smart-400g/p/817377",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "söögisooda",
+      "unit": "400g",
+      "variety": "rimi smart",
+      "nameLower": "söögisooda rimi smart, 400g",
+      "brand": "rimi smart",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "söögisooda",
+      "descriptorOrder": [
+        "söögisooda"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "söögisooda": "söögisooda"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -879,9 +3463,45 @@
     "cardName": null,
     "brand": "Santa Maria",
     "storeUnitPrice": 21.11,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_105050_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/kupsetuspulber-santa-maria-45g/p/105050",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "küpsetuspulber",
+      "unit": "45g",
+      "variety": "santa maria",
+      "nameLower": "küpsetuspulber santa maria 45g",
+      "brand": "santa maria",
+      "size": "45g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küpsetuspulber",
+      "descriptorOrder": [
+        "küpsetuspulber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetuspulber": "küpsetuspulber"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -892,9 +3512,45 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 18.33,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_149477_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/kupsetuspulber-dr-oetker-30g/p/149477",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "küpsetuspulber",
+      "unit": "30g",
+      "variety": "dr oetker",
+      "nameLower": "küpsetuspulber dr.oetker 30g",
+      "brand": "dr.oetker",
+      "size": "30g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küpsetuspulber",
+      "descriptorOrder": [
+        "küpsetuspulber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetuspulber": "küpsetuspulber"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -905,22 +3561,45 @@
     "cardName": null,
     "brand": "Salling Eko",
     "storeUnitPrice": 14.21,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_818514_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/mahe-kupsetuspulber-salling-eko-140g/p/818514",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kuivpärm Rimi 12g",
-    "price": 0.79,
-    "regularPrice": 0.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Rimi",
-    "storeUnitPrice": 65.83,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/kuivparm-rimi-12g/p/814507",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "küpsetuspulber",
+      "unit": "140g",
+      "variety": "salling eko",
+      "nameLower": " küpsetuspulber salling eko 140g",
+      "brand": "salling eko",
+      "size": "140g",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küpsetuspulber",
+      "descriptorOrder": [
+        "küpsetuspulber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetuspulber": "küpsetuspulber"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -931,9 +3610,96 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 78.57,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_147406_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/lahustuv-parm-dr-oetker-7g/p/147406",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "7g",
+      "variety": "dr oetker",
+      "nameLower": "lahustuv pärm dr.oetker 7g",
+      "brand": "dr.oetker",
+      "size": "7g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lahustuv pärm",
+      "descriptorOrder": [
+        "lahustuv",
+        "pärm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "pärm": "pärm"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kuivpärm Rimi 12g",
+    "price": 0.79,
+    "regularPrice": 0.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Rimi",
+    "storeUnitPrice": 65.83,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814507_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/kuivparm-rimi-12g/p/814507",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kuivpärm",
+      "unit": "12g",
+      "variety": "rimi",
+      "nameLower": "kuivpärm rimi 12g",
+      "brand": "rimi",
+      "size": "12g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuivpärm",
+      "descriptorOrder": [
+        "kuivpärm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kuivpärm": "kuivpärm"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -942,11 +3708,47 @@
     "regularPrice": 1.49,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "LOMBARDI",
     "storeUnitPrice": 2.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1008884_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/soogisooda-lombardi-500g/p/1008884",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "söögisooda",
+      "unit": "500g",
+      "variety": "lombardi",
+      "nameLower": "söögisooda lombardi 500g",
+      "brand": "lombardi",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "söögisooda",
+      "descriptorOrder": [
+        "söögisooda"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "söögisooda": "söögisooda"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -957,9 +3759,46 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 18.69,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1022249_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/kupsetuspulber-dr-oetker-160g/p/1022249",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "küpsetuspulber",
+      "unit": "160g",
+      "variety": "dr oetker",
+      "nameLower": "küpsetuspulber dr. oetker 160g",
+      "brand": "dr.oetker",
+      "size": "160g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küpsetuspulber",
+      "descriptorOrder": [
+        "küpsetuspulber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetuspulber": "küpsetuspulber",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -970,8 +3809,45 @@
     "cardName": null,
     "brand": "Dr.Oetker",
     "storeUnitPrice": 9.29,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023870_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/soogisooda-dr-oetker-70g/p/1023870",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "söögisooda",
+      "unit": "70g",
+      "variety": "dr oetker",
+      "nameLower": "söögisooda dr. oetker 70g",
+      "brand": "dr.oetker",
+      "size": "70g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "söögisooda",
+      "descriptorOrder": [
+        "söögisooda"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "söögisooda": "söögisooda",
+        "oetker": "oetker"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

@@ -11,7 +11,52 @@
     "ean": "4740019005080",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740019005080.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SAKU ON ICE",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019005080",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "saku on ice hola",
+      "nameLower": "alk.vaba õlu saku on ice hola 0.33l prk",
+      "brand": "saku on ice",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba hola purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "hola",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "hola": "hola",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,7 +70,55 @@
     "ean": "4740019005219",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740019005219.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Garage",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019005219",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "275ml",
+      "variety": "garage hard euphoriq",
+      "nameLower": "alk.vaba jook garage hard euphoriq 0.275l pdl",
+      "brand": "garage",
+      "size": "275ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba euphoriq hard jook pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "hard",
+        "euphoriq",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "hard": "hard",
+        "euphoriq": "euphoriq",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -39,7 +132,51 @@
     "ean": "4744109012118",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4744109012118.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TANKER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4744109012118",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "õunasiider tanker",
+      "nameLower": "alk.vaba õunasiider tanker 0.5l prk",
+      "brand": "tanker",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba purk õunasiider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õunasiider",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õunasiider": "õunasiider",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -53,7 +190,57 @@
     "ean": "3263280116671",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/3263280116671.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "3263280116671",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pv",
+      "unit": "750ml",
+      "variety": "bon voyage cabernet sauvignon",
+      "nameLower": "pv bon voyage cabernet sauvignon 0.75l alk.vaba",
+      "brand": "pv",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba bon cabernet pv sauvignon voyage",
+      "descriptorOrder": [
+        "pv",
+        "bon",
+        "voyage",
+        "cabernet",
+        "sauvignon",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pv": "pv",
+        "bon": "bon",
+        "voyage": "voyage",
+        "cabernet": "cabernet",
+        "sauvignon": "sauvignon"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -67,7 +254,58 @@
     "ean": "3263280116657",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/3263280116657.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "3263280116657",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vv",
+      "unit": "750ml",
+      "variety": "bon voyage sauvignon blanc",
+      "nameLower": "vv bon voyage sauvignon blanc 0.75l alkoholivaba",
+      "brand": "vv",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba blanc bon sauvignon voyage vv",
+      "descriptorOrder": [
+        "vv",
+        "bon",
+        "voyage",
+        "sauvignon",
+        "blanc",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vv": "vv",
+        "bon": "bon",
+        "voyage": "voyage",
+        "sauvignon": "sauvignon",
+        "blanc": "blanc",
+        "alkoholivaba": "alkoholivaba"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -81,7 +319,53 @@
     "ean": "4008005042014",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4008005042014.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4008005042014",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vv",
+      "unit": "750ml",
+      "variety": "dr zenzen riesling",
+      "nameLower": "vv dr.zenzen riesling alk.vaba 0.75l",
+      "brand": "vv",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba dr riesling vv zenzen",
+      "descriptorOrder": [
+        "vv",
+        "dr",
+        "zenzen",
+        "riesling",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vv": "vv",
+        "riesling": "riesling"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -95,7 +379,53 @@
     "ean": "4740019002997",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740019002997.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SAKU ON ICE",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019002997",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "alk saku on ice münt",
+      "nameLower": "alk.vaba õllejook saku on ice laim-münt 0.5l prk",
+      "brand": "saku on ice",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba laim münt purk õllejook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õllejook",
+        "laim",
+        "münt",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllejook": "õllejook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -109,7 +439,53 @@
     "ean": "4740098002819",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4740098002819.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CORONA",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098002819",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "corona cero hele",
+      "nameLower": "alk.vaba hele õlu corona cero 0.33l pdl",
+      "brand": "corona",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "hele",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba cero pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "cero",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hele": "hele",
+        "õlu": "õlu",
+        "cero": "cero",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -123,7 +499,57 @@
     "ean": "4740019004878",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4740019002553.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Garage",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019004878",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "muu",
+      "unit": "275ml",
+      "variety": "garage hard lemon",
+      "nameLower": "muu alk.vaba jook garage hard lemon 0.275l pdl",
+      "brand": "garage",
+      "size": "275ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba hard jook lemon muu pudel",
+      "descriptorOrder": [
+        "muu",
+        "alkoholivaba",
+        "jook",
+        "hard",
+        "lemon",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "muu": "muu",
+        "jook": "jook",
+        "hard": "hard",
+        "lemon": "lemon",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -137,7 +563,53 @@
     "ean": "4744109011784",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4744109011784.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TANKER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4744109011784",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "tanker select hele",
+      "nameLower": "alk.vaba hele õlu tanker select 0% 0.5l prk",
+      "brand": "tanker",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "hele",
+      "fatPercent": "0",
+      "descriptors": "alkoholivaba purk select",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "select",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hele": "hele",
+        "õlu": "õlu",
+        "select": "select",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -151,7 +623,50 @@
     "ean": "4770477232575",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4770477232575.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HEINEKEN",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4770477232575",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "heineken",
+      "nameLower": "alk.vaba õlu heineken 0.0% 0.5l prk",
+      "brand": "heineken",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -165,7 +680,49 @@
     "ean": "4742024130429",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4742024130429.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TANQUERAY",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4742024130429",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "700ml",
+      "variety": "tanqueray",
+      "nameLower": "alk.vaba jook tanqueray 0.0% 0.7l",
+      "brand": "tanqueray",
+      "size": "700ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba jook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -179,7 +736,51 @@
     "ean": "4740158011201",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740158011201.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "WÕLU",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740158011201",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "wõlu maasikas",
+      "nameLower": "alk.vaba vahuvein wõlu maasikas 0.5% 0.75l",
+      "brand": "wõlu",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.5",
+      "descriptors": "alkoholivaba maasikas vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "maasikas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "maasikas": "maasikas"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -193,7 +794,55 @@
     "ean": "4740098002529",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740098002529.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098002529",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "hoggys pear",
+      "nameLower": "alk.vaba siider hoggys pear 0.5l prk",
+      "brand": "alk",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba hoggys pear purk siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "hoggys",
+        "pear",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider",
+        "hoggys": "hoggys",
+        "pear": "pear",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -207,7 +856,53 @@
     "ean": "5998818566700",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/5998818566700.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "5998818566700",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "paw",
+      "unit": "750ml",
+      "variety": "patrol",
+      "nameLower": "paw patrol alk.vaba puuviljajook 0.75l",
+      "brand": "paw",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba patrol paw puuviljajook",
+      "descriptorOrder": [
+        "paw",
+        "patrol",
+        "alkoholivaba",
+        "puuviljajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "paw": "paw",
+        "patrol": "patrol",
+        "puuviljajook": "puuviljajook"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -221,7 +916,53 @@
     "ean": "4750049004069",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4750049004069.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SOMERSBY",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4750049004069",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "somersby mandarine",
+      "nameLower": "alk.vaba siider somersby mandarine 0.5l prk",
+      "brand": "somersby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba mandarine purk siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "mandarine",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider",
+        "mandarine": "mandarine",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -235,7 +976,53 @@
     "ean": "4740098002321",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4740098002321.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fassbrause",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098002321",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "fassbrause cherry",
+      "nameLower": "alk.vaba õllejook fassbrause cherry 0.0% 0.5l prk",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba cherry purk õllejook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õllejook",
+        "cherry",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllejook": "õllejook",
+        "cherry": "cherry",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -249,7 +1036,53 @@
     "ean": "4742024130559",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4742024130559.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4742024130559",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "700ml",
+      "variety": "captain morgan",
+      "nameLower": "alk.vaba jook captain morgan 0.0% 0.7l",
+      "brand": "alk",
+      "size": "700ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba captain jook morgan",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "captain",
+        "morgan"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "captain": "captain",
+        "morgan": "morgan"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -263,7 +1096,55 @@
     "ean": "4740019003857",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740019003857.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "KOFF",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019003857",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "koff pink grapefr",
+      "nameLower": "alk.vaba karb-tud j. koff pink grapefr.0.33l prk",
+      "brand": "koff",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba grapefr j karb pink purk tud",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "karb",
+        "tud",
+        "j",
+        "pink",
+        "grapefr",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pink": "pink",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -277,7 +1158,53 @@
     "ean": "4740019004076",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740019004076.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SOMERSBY",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019004076",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "somersby strawberry lime",
+      "nameLower": "alk.vaba siider somersby strawberry&lime 0.5l prk",
+      "brand": "somersby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba lime purk siider strawberry",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "strawberry",
+        "lime",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -291,7 +1218,53 @@
     "ean": "4740098098195",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740098098195.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fassbrause",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098098195",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "fassbrause mojito",
+      "nameLower": "alk.vaba õllejook fassbrause mojito 0.0% 0.5l prk",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba mojito purk õllejook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õllejook",
+        "mojito",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllejook": "õllejook",
+        "mojito": "mojito",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -305,7 +1278,55 @@
     "ean": "4740019003628",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740019003628.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SAKU",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019003628",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "rock zero saku hele",
+      "nameLower": "alk.vaba hele õlu rock zero saku 0.5% 0.5l prk",
+      "brand": "saku",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "hele",
+      "fatPercent": "0.5",
+      "descriptors": "alkoholivaba purk rock zero",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "rock",
+        "zero",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hele": "hele",
+        "õlu": "õlu",
+        "rock": "rock",
+        "zero": "zero",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -319,7 +1340,51 @@
     "ean": "4740098097259",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740098097259.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MULIN",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098097259",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "mulin rabarber",
+      "nameLower": "alk.vaba puuviljavahuvein mulin rabarber 0.75l",
+      "brand": "mulin",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba puuviljavahuvein rabarber",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "puuviljavahuvein",
+        "rabarber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "puuviljavahuvein": "puuviljavahuvein",
+        "rabarber": "rabarber"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -333,7 +1398,53 @@
     "ean": "4744317013020",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/4744317013020.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4744317013020",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "rabarber kuusk öun",
+      "nameLower": "alk.vaba vahujook rabarber-kuusk öun 0.75l ",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba karastusjook kuusk rabarber öun",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "karastusjook",
+        "rabarber",
+        "kuusk",
+        "öun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karastusjook": "vahujook",
+        "öun": "öun"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -347,7 +1458,53 @@
     "ean": "4744317013037",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/4744317013037.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4744317013037",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "kirss vaher öun",
+      "nameLower": "alk.vaba vahujook kirss-vaher öun 0.75l ",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba karastusjook kirss vaher öun",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "karastusjook",
+        "kirss",
+        "vaher",
+        "öun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karastusjook": "vahujook",
+        "öun": "öun"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -361,7 +1518,51 @@
     "ean": "4744317013013",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/4744317013013.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4744317013013",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "öun",
+      "unit": "750ml",
+      "variety": "kadakas",
+      "nameLower": "öun-kadakas alk.vaba vahujook 0.75l ",
+      "brand": "öun",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba kadakas karastusjook öun",
+      "descriptorOrder": [
+        "öun",
+        "kadakas",
+        "alkoholivaba",
+        "karastusjook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karastusjook": "vahujook"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -375,7 +1576,51 @@
     "ean": "8006220003533",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/8006220003533.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Mionetto",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "8006220003533",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "mionetto prestige",
+      "nameLower": "alk.vaba vahuvein mionetto prestige 0.75l",
+      "brand": "mionetto",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba prestige vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "prestige"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "prestige": "prestige"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -389,7 +1634,55 @@
     "ean": "6413600207689",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/6413600207689.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HARTWALL",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "6413600207689",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "hartwall original ld",
+      "nameLower": "alk.vaba jook hartwall original ld 0.33l prk",
+      "brand": "hartwall",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jook ld originaal purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "originaal",
+        "ld",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "originaal": "original",
+        "ld": "ld",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -403,7 +1696,56 @@
     "ean": "4740098095033",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740098095033.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098095033",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "a le coq virgin margarita",
+      "nameLower": "alk.vaba kokteilj.a.le coq virgin margarita 0.33l",
+      "brand": "alk",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "a alkoholivaba coq kokteilj le margarita virgin",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "kokteilj",
+        "a",
+        "le",
+        "coq",
+        "virgin",
+        "margarita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coq": "coq",
+        "virgin": "virgin",
+        "margarita": "margarita"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -417,7 +1759,51 @@
     "ean": "4740019782318",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740019770100.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SAKU ON ICE",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019782318",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "saku",
+      "unit": "500ml",
+      "variety": "saku on ice",
+      "nameLower": "saku on ice mango alk.vaba õllejook 0.5l",
+      "brand": "saku on ice",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba mango õllejook",
+      "descriptorOrder": [
+        "mango",
+        "alkoholivaba",
+        "õllejook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mango": "mango",
+        "õllejook": "õllejook"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -431,7 +1817,51 @@
     "ean": "4740158008836",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740158008836.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "WÕLU",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740158008836",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "wõlu rabarber",
+      "nameLower": "alk.vaba vahuvein wõlu rabarber 0.5% 0.75l",
+      "brand": "wõlu",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.5",
+      "descriptors": "alkoholivaba rabarber vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "rabarber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "rabarber": "rabarber"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -445,7 +1875,59 @@
     "ean": "4740136006175",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740136006175.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740136006175",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "mull rose maasika rabarberi",
+      "nameLower": "alk.vaba jook mull rose maasika ja rabarberi 0.75l",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba ja jook maasika mull rabarberi rose",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "mull",
+        "rose",
+        "maasika",
+        "ja",
+        "rabarberi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "mull": "mull",
+        "rose": "rose",
+        "maasika": "maasika",
+        "ja": "ja",
+        "rabarberi": "rabarberi"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -459,7 +1941,53 @@
     "ean": "4742022090039",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4742022090039.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4742022090039",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "mull barbara",
+      "nameLower": "alk.vaba jook mull barbara 0.75l",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba barbara jook mull",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "mull",
+        "barbara"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "mull": "mull",
+        "barbara": "barbara"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -473,7 +2001,53 @@
     "ean": "4740019003734",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740019016970.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SOMERSBY",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019003734",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "somersby pear",
+      "nameLower": "alk.vaba siider somersby pear 0.5l prk",
+      "brand": "somersby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba pear purk siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "pear",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider",
+        "pear": "pear",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -487,7 +2061,53 @@
     "ean": "4744476010380",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744476010380.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4744476010380",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "rabarbra null",
+      "nameLower": "alk.vaba vahuvein rabarbra null 0.5% 0.75l",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.5",
+      "descriptors": "alkoholivaba null rabarbra vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "rabarbra",
+        "null"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "rabarbra": "rabarbra",
+        "null": "null"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -501,7 +2121,51 @@
     "ean": "4022025539033",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4022025533031.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BLUE NUN",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4022025539033",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vv",
+      "unit": "750ml",
+      "variety": "blue nun white",
+      "nameLower": "vv blue nun white alk.vaba 0.75l",
+      "brand": "blue nun",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba vv white",
+      "descriptorOrder": [
+        "vv",
+        "white",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vv": "vv",
+        "white": "white"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -515,7 +2179,51 @@
     "ean": "5999559220364",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5997210707414.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "5999559220364",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "tom jerry",
+      "nameLower": "alk.vaba vahujook tom&jerry 0.75l",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jerry karastusjook tom",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "karastusjook",
+        "tom",
+        "jerry"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karastusjook": "vahujook"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -529,7 +2237,52 @@
     "ean": "4053400206806",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4053400206806-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CLAUSTHALER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4053400206806",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "clausthaler grapefruit",
+      "nameLower": "alk.vaba õlu clausthaler grapefruit 0.33l pdl",
+      "brand": "clausthaler",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba grapefruit pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "grapefruit",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "grapefruit": "grapefruit",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -543,7 +2296,49 @@
     "ean": "4740019782301",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740019768565.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SAKU ON ICE",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740019782301",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "saku",
+      "unit": "500ml",
+      "variety": "on ice greip",
+      "nameLower": "saku on ice greip alk.vaba 0.5l",
+      "brand": "saku on ice",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba greip",
+      "descriptorOrder": [
+        "greip",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "greip": "greip"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -557,7 +2352,53 @@
     "ean": "4740098090502",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098090502.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fassbrause",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098090502",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "fassbrause peach",
+      "nameLower": "alk.vaba õllejook fassbrause peach 0.0% 0.5l prk",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba peach purk õllejook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õllejook",
+        "peach",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllejook": "õllejook",
+        "peach": "peach",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -571,7 +2412,50 @@
     "ean": "4053400204918",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4053400204918-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CLAUSTHALER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4053400204918",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "clausthaler",
+      "unit": "500ml",
+      "variety": "lemon",
+      "nameLower": "clausthaler lemon alk.vaba õlu 0.5l",
+      "brand": "clausthaler",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba lemon",
+      "descriptorOrder": [
+        "lemon",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lemon": "lemon",
+        "õlu": "õlu"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -585,7 +2469,52 @@
     "ean": "4053400001579",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4053400001579-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CLAUSTHALER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4053400001579",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "clausthaler original",
+      "nameLower": "alk.vaba õlu clausthaler original 0.5l prk",
+      "brand": "clausthaler",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba originaal purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "originaal",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "originaal": "original",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -599,7 +2528,54 @@
     "ean": "4053400288833",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4053400288833-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CLAUSTHALER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4053400288833",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "clausthaler dry hopped",
+      "nameLower": "alk.vaba õlu clausthaler dry hopped 0.33l pdl",
+      "brand": "clausthaler",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba dry hopped pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "dry",
+        "hopped",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "dry": "dry",
+        "hopped": "hopped",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -613,7 +2589,54 @@
     "ean": "4740098082545",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098082545.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098082545",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "a",
+      "unit": "330ml",
+      "variety": "le coq premium",
+      "nameLower": "a.le coq premium alk.vaba õlu 0.33l",
+      "brand": "a",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "a alkoholivaba coq le premium",
+      "descriptorOrder": [
+        "a",
+        "le",
+        "coq",
+        "premium",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coq": "coq",
+        "premium": "premium",
+        "õlu": "õlu"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -627,7 +2650,50 @@
     "ean": "8712000053819",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8712000053819.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HEINEKEN",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "8712000053819",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "heineken",
+      "nameLower": "alk.vaba õlu heineken 0% 0.33l pdl",
+      "brand": "heineken",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0",
+      "descriptors": "alkoholivaba pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -641,7 +2707,52 @@
     "ean": "4053400203591",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4053400203591-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CLAUSTHALER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4053400203591",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "clausthaler lemon",
+      "nameLower": "alk.vaba õlu clausthaler lemon 0.33l pdl",
+      "brand": "clausthaler",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba lemon pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "lemon",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "lemon": "lemon",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -655,7 +2766,52 @@
     "ean": "4053400279589",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4053400279589-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CLAUSTHALER",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4053400279589",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "clausthaler original",
+      "nameLower": "alk.vaba õlu clausthaler original 0.33l pdl",
+      "brand": "clausthaler",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba originaal pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "originaal",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "originaal": "original",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -669,7 +2825,53 @@
     "ean": "4740098090496",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098090496.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fassbrause",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098090496",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "fassbrause lemon",
+      "nameLower": "alk.vaba õllejook fassbrause lemon 0.0% 0.5l prk",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba lemon purk õllejook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õllejook",
+        "lemon",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllejook": "õllejook",
+        "lemon": "lemon",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -683,7 +2885,55 @@
     "ean": "4740098090267",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098090267.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098090267",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "hoggys apple",
+      "nameLower": "alk.vaba siider hoggys apple 0.5l prk",
+      "brand": "alk",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba apple hoggys purk siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "hoggys",
+        "apple",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider",
+        "hoggys": "hoggys",
+        "apple": "apple",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -697,7 +2947,59 @@
     "ean": "4740098092384",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098092384.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "G:N",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098092384",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "g n ld grapefruit a le coq",
+      "nameLower": "alk.vaba jook g:n ld grapefruit a.le coq 0.5l prk",
+      "brand": "g:n",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "a alkoholivaba coq grapefruit jook ld le purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "ld",
+        "grapefruit",
+        "a",
+        "le",
+        "coq",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "ld": "ld",
+        "grapefruit": "grapefruit",
+        "coq": "coq",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -711,7 +3013,57 @@
     "ean": "4740098080763",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098080763.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "4740098080763",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "a le coq premium hele",
+      "nameLower": "alk.vaba hele õlu a.le coq premium 0.5l prk",
+      "brand": "alk",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "hele",
+      "fatPercent": null,
+      "descriptors": "a alkoholivaba coq le premium purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "a",
+        "le",
+        "coq",
+        "premium",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hele": "hele",
+        "õlu": "õlu",
+        "coq": "coq",
+        "premium": "premium",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -725,6 +3077,50 @@
     "ean": "5998815750904",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5998815750904.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TÖRLEY",
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": "5998815750904",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "törley",
+      "nameLower": "alk.vaba vahuvein törley 0.75l pant",
+      "brand": "törley",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba pant vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "pant"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "pant": "pant"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

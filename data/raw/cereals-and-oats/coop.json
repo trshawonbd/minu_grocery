@@ -11,7 +11,49 @@
     "ean": "7613037014952",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/7613037014952.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fitness",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613037014952",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "müsli",
+      "unit": "300g",
+      "variety": "nestle fitness granola",
+      "nameLower": "müsli nestle fitness granola 300g kinoa-shok-pähkl",
+      "brand": "fitness",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola kinoa müsli nestle pähkl shok",
+      "descriptorOrder": [
+        "müsli",
+        "nestle",
+        "granola",
+        "kinoa",
+        "shok",
+        "pähkl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "müsli": "müsli",
+        "nestle": "nestle",
+        "granola": "granola"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,7 +67,44 @@
     "ean": "4820237693761",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/4820237693761.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "START",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237693761",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikuhelbed",
+      "unit": "500g",
+      "variety": "start",
+      "nameLower": "hommikuhelbed start 500g mustika-vanilje",
+      "brand": "start",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikuhelbed mustika vanilje",
+      "descriptorOrder": [
+        "hommikuhelbed",
+        "mustika",
+        "vanilje"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikuhelbed": "hommikuhelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -39,7 +118,44 @@
     "ean": "4820237690913",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/4820237690913.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "START",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237690913",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöögirõngad",
+      "unit": "500g",
+      "variety": "start",
+      "nameLower": "hommikusöögirõngad start 500g ban.-maasikamaits.",
+      "brand": "start",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ban hommikusöögirõngad maasika",
+      "descriptorOrder": [
+        "hommikusöögirõngad",
+        "ban",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöögirõngad": "hommikusöögirõngad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -53,7 +169,50 @@
     "ean": "4820237693150",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820237693150.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237693150",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "300g",
+      "variety": "axa granola",
+      "nameLower": "röstitud müsli axa granola 300g banaani, kookose",
+      "brand": "axa",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "banaani granola kookose müsli röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "granola",
+        "banaani",
+        "kookose"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "granola": "granola",
+        "banaani": "banaani",
+        "kookose": "kookose"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -67,7 +226,50 @@
     "ean": "4820237693136",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820237693136.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237693136",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "300g",
+      "variety": "axa granola",
+      "nameLower": "röstitud müsli axa granola 300g maasika, mustika",
+      "brand": "axa",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola maasika mustika müsli röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "granola",
+        "maasika",
+        "mustika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "granola": "granola",
+        "maasika": "maasika",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -81,7 +283,49 @@
     "ean": "4820132582375",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820132582375.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820132582375",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "40g",
+      "variety": "dr benner",
+      "nameLower": "röstitud müsli dr. benner 40g shokolaadi-mandli",
+      "brand": "röstitud",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "benner dr mandli müsli röstitud shokolaadi",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "dr",
+        "benner",
+        "shokolaadi",
+        "mandli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "benner": "benner"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -95,7 +339,49 @@
     "ean": "4820132582368",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820132582368.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820132582368",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "40g",
+      "variety": "dr benner",
+      "nameLower": "röstitud müsli dr. benner 40g maasikatega",
+      "brand": "röstitud",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "maasikatega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "benner dr maasikatega müsli röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "dr",
+        "benner",
+        "maasikatega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "benner": "benner",
+        "maasikatega": "maasikatega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -109,7 +395,49 @@
     "ean": "4820132580937",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820132580937.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820132580937",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "300g",
+      "variety": "dr benner",
+      "nameLower": "röstitud müsli dr. benner 300g maasikatega",
+      "brand": "röstitud",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "maasikatega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "benner dr maasikatega müsli röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "dr",
+        "benner",
+        "maasikatega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "benner": "benner",
+        "maasikatega": "maasikatega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -123,7 +451,49 @@
     "ean": "4820132580920",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820132580920.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820132580920",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "300g",
+      "variety": "dr benner",
+      "nameLower": "röstitud müsli dr. benner 300g shokolaadi-mandli",
+      "brand": "röstitud",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "benner dr mandli müsli röstitud shokolaadi",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "dr",
+        "benner",
+        "shokolaadi",
+        "mandli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "benner": "benner"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -137,7 +507,46 @@
     "ean": "4750020001421",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4750020001421.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HERKULESS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020001421",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "350g",
+      "variety": "herkuless",
+      "nameLower": "röstitud müsli herkuless 350g maasika",
+      "brand": "herkuless",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika müsli röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -151,7 +560,46 @@
     "ean": "4750020001414",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4750020001414.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HERKULESS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020001414",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "350g",
+      "variety": "herkuless",
+      "nameLower": "röstitud müsli herkuless 350g puuvilja",
+      "brand": "herkuless",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "müsli puuvilja röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "puuvilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "puuvilja": "puuvilja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -165,7 +613,46 @@
     "ean": "4750020001407",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4750020001407.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HERKULESS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020001407",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "350g",
+      "variety": "herkuless",
+      "nameLower": "röstitud müsli herkuless 350g 3 shokolaadi",
+      "brand": "herkuless",
+      "size": "350g",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "müsli röstitud shokolaadi",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "shokolaadi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "shokolaadi": "shokolaadi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -179,7 +666,46 @@
     "ean": "4750020001131",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4750020001131.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HERKULESS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020001131",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "350g",
+      "variety": "herkuless",
+      "nameLower": "röstitud müsli herkuless 350g pähkli-mee",
+      "brand": "herkuless",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mee müsli pähkli röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "pähkli",
+        "mee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -193,7 +719,46 @@
     "ean": "5900020049346",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/5900020049346.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Nesquik",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020049346",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöögihelv",
+      "unit": "23.5g",
+      "variety": "nestle nesquik",
+      "nameLower": "hommikusöögihelv.bat nestle nesquik 23.5g maasika",
+      "brand": "nesquik",
+      "size": "23.5g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bat hommikusöögihelv maasika nestle",
+      "descriptorOrder": [
+        "hommikusöögihelv",
+        "bat",
+        "nestle",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nestle": "nestle",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -207,7 +772,46 @@
     "ean": "5900020049308",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/5900020049308.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Nesquik",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020049308",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljapallid",
+      "unit": "330g",
+      "variety": "nestle nesquik",
+      "nameLower": "teraviljapallid nestle nesquik 330g maasika",
+      "brand": "nesquik",
+      "size": "330g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika nestle teraviljapallid",
+      "descriptorOrder": [
+        "teraviljapallid",
+        "nestle",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljapallid": "teraviljapallid",
+        "nestle": "nestle",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -221,7 +825,46 @@
     "ean": "4770149218418",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4770149218418.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149218418",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöök",
+      "unit": "150g",
+      "variety": "oho strawberry rice",
+      "nameLower": "hommikusöök oho strawberry rice 150g",
+      "brand": "oho",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöök rice strawberry",
+      "descriptorOrder": [
+        "hommikusöök",
+        "strawberry",
+        "rice"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöök": "hommikusöök",
+        "strawberry": "strawberry",
+        "rice": "rice"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -235,7 +878,48 @@
     "ean": "7613035758834",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/7613035758834.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fitness",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613035758834",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "müsli",
+      "unit": "300g",
+      "variety": "nestle fitness granola",
+      "nameLower": "müsli nestle fitness granola 300g jõhvika-kõrvitsa",
+      "brand": "fitness",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola jõhvika kõrvitsa müsli nestle",
+      "descriptorOrder": [
+        "müsli",
+        "nestle",
+        "granola",
+        "jõhvika",
+        "kõrvitsa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "müsli": "müsli",
+        "nestle": "nestle",
+        "granola": "granola"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -249,7 +933,48 @@
     "ean": "5900617037213",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/5900617037213.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617037213",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "300g",
+      "variety": "sante fit granola",
+      "nameLower": "röst.müsli sante fit granola 300g maasika-kirsi",
+      "brand": "sante",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fit granola kirsi maasika müsli röst",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "fit",
+        "granola",
+        "maasika",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fit": "fit",
+        "granola": "granola"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -263,7 +988,48 @@
     "ean": "5900617037190",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/5900617037190.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617037190",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "300g",
+      "variety": "sante fit granola",
+      "nameLower": "röst.müsli sante fit granola 300g pähkli-kakao",
+      "brand": "sante",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fit granola kakao müsli pähkli röst",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "fit",
+        "granola",
+        "pähkli",
+        "kakao"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fit": "fit",
+        "granola": "granola"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -277,7 +1043,50 @@
     "ean": "4820237692603",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820237692603.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237692603",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "müsli",
+      "unit": "330g",
+      "variety": "axa premium",
+      "nameLower": "müsli axa premium 330g shokolaadi ja karamelliga",
+      "brand": "axa",
+      "size": "330g",
+      "variant": null,
+      "qualifiers": "karamelliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja karamelliga müsli premium shokolaadi",
+      "descriptorOrder": [
+        "müsli",
+        "premium",
+        "shokolaadi",
+        "ja",
+        "karamelliga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "müsli": "müsli",
+        "premium": "premium",
+        "shokolaadi": "shokolaadi",
+        "ja": "ja",
+        "karamelliga": "karamelliga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -291,7 +1100,50 @@
     "ean": "4820237692528",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4820237692528.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237692528",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "330g",
+      "variety": "axa premium",
+      "nameLower": "röstitud müsli axa premium 330g troopilise vilja",
+      "brand": "axa",
+      "size": "330g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "müsli premium röstitud troopilise vilja",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "premium",
+        "troopilise",
+        "vilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "premium": "premium",
+        "troopilise": "troopilise",
+        "vilja": "vilja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -305,7 +1157,46 @@
     "ean": "4820237692566",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/08/4820237692566.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237692566",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "müsli",
+      "unit": "330g",
+      "variety": "axa premium",
+      "nameLower": "müsli axa premium 330g marjadega",
+      "brand": "axa",
+      "size": "330g",
+      "variant": null,
+      "qualifiers": "marjadega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "marjadega müsli premium",
+      "descriptorOrder": [
+        "müsli",
+        "premium",
+        "marjadega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "müsli": "müsli",
+        "premium": "premium",
+        "marjadega": "marjadega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -319,7 +1210,50 @@
     "ean": "4820008125361",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/4820008125361.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820008125361",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "müsli",
+      "unit": "330g",
+      "variety": "axa premium",
+      "nameLower": "müsli axa premium 330g shokolaadi ja banaaniga",
+      "brand": "axa",
+      "size": "330g",
+      "variant": null,
+      "qualifiers": "banaaniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "banaaniga ja müsli premium shokolaadi",
+      "descriptorOrder": [
+        "müsli",
+        "premium",
+        "shokolaadi",
+        "ja",
+        "banaaniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "müsli": "müsli",
+        "premium": "premium",
+        "shokolaadi": "shokolaadi",
+        "ja": "ja",
+        "banaaniga": "banaaniga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -333,7 +1267,46 @@
     "ean": "4770149203391",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4770149203391.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149203391",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "oho",
+      "unit": "150g",
+      "variety": "hommikusöök kolm",
+      "nameLower": "oho hommikusöök kolm sõpra 150g",
+      "brand": "oho",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöök kolm sõpra",
+      "descriptorOrder": [
+        "hommikusöök",
+        "kolm",
+        "sõpra"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöök": "hommikusöök",
+        "kolm": "kolm",
+        "sõpra": "sõpra"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -347,7 +1320,44 @@
     "ean": "4820008125446",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4820008125446.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "START",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820008125446",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "padjakesed",
+      "unit": "500g",
+      "variety": "start",
+      "nameLower": "padjakesed start 500g kakaomaits.täidisega",
+      "brand": "start",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "täidisega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kakao padjakesed täidisega",
+      "descriptorOrder": [
+        "padjakesed",
+        "kakao",
+        "täidisega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "padjakesed": "padjakesed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -361,7 +1371,48 @@
     "ean": "5900020043481",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/5900020043481.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fitness",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020043481",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "310g",
+      "variety": "nestle fitness protein",
+      "nameLower": "täistera padj.nestle fitness protein 310g kakaoga",
+      "brand": "fitness",
+      "size": "310g",
+      "variant": null,
+      "qualifiers": "kakaoga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kakaoga nestle padj protein täistera",
+      "descriptorOrder": [
+        "täistera",
+        "padj",
+        "nestle",
+        "protein",
+        "kakaoga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "protein": "protein",
+        "kakaoga": "kakaoga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -375,7 +1426,44 @@
     "ean": "5900020043191",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/5900020043191.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020043191",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöögihelbed",
+      "unit": "330g",
+      "variety": "nestle kitkat",
+      "nameLower": "hommikusöögihelbed nestle kitkat 330g",
+      "brand": "nestle",
+      "size": "330g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöögihelbed kitkat",
+      "descriptorOrder": [
+        "hommikusöögihelbed",
+        "kitkat"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöögihelbed": "hommikusöögihelbed",
+        "kitkat": "kitkat"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -389,7 +1477,46 @@
     "ean": "5900020019530",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5900020019530.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020019530",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljahelbed",
+      "unit": "400g",
+      "variety": "nestle lion",
+      "nameLower": "teraviljahelbed nestle lion 400g shok.-karamelli",
+      "brand": "nestle",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "karamelli lion shok teraviljahelbed",
+      "descriptorOrder": [
+        "teraviljahelbed",
+        "lion",
+        "shok",
+        "karamelli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljahelbed": "teraviljahelbed",
+        "lion": "lion"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -403,7 +1530,43 @@
     "ean": "5900020022769",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5900020022769.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Cini Minis",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020022769",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nestle",
+      "unit": "375g",
+      "variety": "cini minis",
+      "nameLower": "nestle cini minis 375g kaneelimaits.",
+      "brand": "cini minis",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneeli nestle",
+      "descriptorOrder": [
+        "nestle",
+        "kaneeli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nestle": "nestle"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -417,7 +1580,47 @@
     "ean": "5900020011886",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/5900020011886.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020011886",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljahelbed",
+      "unit": "375g",
+      "variety": "nestle cookie crisp",
+      "nameLower": "teraviljahelbed nestle cookie crisp 375g shok.mait",
+      "brand": "nestle",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cookie crisp shok teraviljahelbed",
+      "descriptorOrder": [
+        "teraviljahelbed",
+        "cookie",
+        "crisp",
+        "shok"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljahelbed": "teraviljahelbed",
+        "cookie": "cookie",
+        "crisp": "crisp"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -431,7 +1634,48 @@
     "ean": "7613035619456",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/7613035619456.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fitness",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613035619456",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "müsli",
+      "unit": "300g",
+      "variety": "nestle fitness granola",
+      "nameLower": "müsli nestle fitness granola 300g meega",
+      "brand": "fitness",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "meega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola meega müsli nestle",
+      "descriptorOrder": [
+        "müsli",
+        "nestle",
+        "granola",
+        "meega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "müsli": "müsli",
+        "nestle": "nestle",
+        "granola": "granola",
+        "meega": "meega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -445,7 +1689,48 @@
     "ean": "7613035619425",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/7613035619425.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fitness",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613035619425",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "müsli",
+      "unit": "300g",
+      "variety": "nestle fitness granola",
+      "nameLower": "müsli nestle fitness granola 300g shokolaadi",
+      "brand": "fitness",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola müsli nestle shokolaadi",
+      "descriptorOrder": [
+        "müsli",
+        "nestle",
+        "granola",
+        "shokolaadi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "müsli": "müsli",
+        "nestle": "nestle",
+        "granola": "granola",
+        "shokolaadi": "shokolaadi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -459,7 +1744,48 @@
     "ean": "5900617039262",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900617039262.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617039262",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "300g",
+      "variety": "sante goon protein",
+      "nameLower": "röst.müsli sante goon protein 300g pähkli-shok.",
+      "brand": "sante",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "goon müsli protein pähkli röst shok",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "goon",
+        "protein",
+        "pähkli",
+        "shok"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "goon": "goon",
+        "protein": "protein"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -473,7 +1799,48 @@
     "ean": "5900617043481",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900617043481.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617043481",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "300g",
+      "variety": "sante goon protein",
+      "nameLower": "röst.müsli sante goon protein 300g brownie-kirsi",
+      "brand": "sante",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brownie goon kirsi müsli protein röst",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "goon",
+        "protein",
+        "brownie",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "goon": "goon",
+        "protein": "protein"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -487,7 +1854,47 @@
     "ean": "5900617043160",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900617043160.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617043160",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "350g",
+      "variety": "sante granola",
+      "nameLower": "röst.müsli sante granola 350g v.shok.-maasika",
+      "brand": "sante",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola maasika müsli röst shok v",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "granola",
+        "v",
+        "shok",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "granola": "granola"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -501,7 +1908,44 @@
     "ean": "4820008120854",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4820008120854.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "START",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820008120854",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "padjakesed",
+      "unit": "500g",
+      "variety": "start",
+      "nameLower": "padjakesed start 500g piimamaits.täidisega",
+      "brand": "start",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "täidisega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "padjakesed piima täidisega",
+      "descriptorOrder": [
+        "padjakesed",
+        "piima",
+        "täidisega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "padjakesed": "padjakesed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -515,7 +1959,45 @@
     "ean": "5900020013668",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900020013668.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Nesquik",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020013668",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljapallid",
+      "unit": "375g",
+      "variety": "nestle nesquik",
+      "nameLower": "teraviljapallid nestle nesquik 375g kakaomaits.",
+      "brand": "nesquik",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kakao nestle teraviljapallid",
+      "descriptorOrder": [
+        "teraviljapallid",
+        "nestle",
+        "kakao"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljapallid": "teraviljapallid",
+        "nestle": "nestle"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -529,7 +2011,48 @@
     "ean": "5900020022745",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5900020022745.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020022745",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljarõngad",
+      "unit": "375g",
+      "variety": "nestle honey cheerios",
+      "nameLower": "teraviljarõngad nestle honey cheerios 375g meega",
+      "brand": "nestle",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "meega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cheerios honey meega teraviljarõngad",
+      "descriptorOrder": [
+        "teraviljarõngad",
+        "honey",
+        "cheerios",
+        "meega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljarõngad": "teraviljarõngad",
+        "honey": "honey",
+        "cheerios": "cheerios",
+        "meega": "meega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -543,7 +2066,46 @@
     "ean": "4820237690708",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4820237690708.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237690708",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "375g",
+      "variety": "axa",
+      "nameLower": "röstitud müsli axa 375g maasika-banaani",
+      "brand": "axa",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "banaani maasika müsli röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "maasika",
+        "banaani"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -557,7 +2119,42 @@
     "ean": "8595564513087",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/8595564513087.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BONAVITA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8595564513087",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatrahelbed",
+      "unit": "375g",
+      "variety": "bonavita",
+      "nameLower": "tatrahelbed bonavita 375g",
+      "brand": "bonavita",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatrahelbed",
+      "descriptorOrder": [
+        "tatrahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatrahelbed": "tatrahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -571,7 +2168,45 @@
     "ean": "4771395191739",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4771395191739.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LOTTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4771395191739",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljarõngad",
+      "unit": "225g",
+      "variety": "rõõmsud lotte",
+      "nameLower": "teraviljarõngad rõõmsud lotte 225g puuv.maitsel.",
+      "brand": "lotte",
+      "size": "225g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "puuv rõõmsud teraviljarõngad",
+      "descriptorOrder": [
+        "teraviljarõngad",
+        "rõõmsud",
+        "puuv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljarõngad": "teraviljarõngad",
+        "rõõmsud": "rõõmsud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -585,7 +2220,48 @@
     "ean": "5900020038555",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/5900020038555.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020038555",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisihelbed",
+      "unit": "375g",
+      "variety": "nestle corn flakes",
+      "nameLower": "maisihelbed nestle corn flakes 375g gl.v.",
+      "brand": "nestle",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "corn flakes gl maisihelbed v",
+      "descriptorOrder": [
+        "maisihelbed",
+        "corn",
+        "flakes",
+        "gl",
+        "v"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisihelbed": "maisihelbed",
+        "corn": "corn",
+        "flakes": "flakes"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -599,7 +2275,44 @@
     "ean": "4740660015865",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740660015865.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660015865",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hüva",
+      "unit": "500g",
+      "variety": "maisihelbed",
+      "nameLower": "hüva maisihelbed 500g",
+      "brand": "hüva",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hüva maisihelbed",
+      "descriptorOrder": [
+        "hüva",
+        "maisihelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hüva": "hüva",
+        "maisihelbed": "maisihelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -613,7 +2326,45 @@
     "ean": "4770149213444",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4770149213444.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149213444",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "oho",
+      "unit": "150g",
+      "variety": "hommikusöögihelbed fruity",
+      "nameLower": "oho hommikusöögihelbed fruity froops150g",
+      "brand": "oho",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "froops fruity hommikusöögihelbed",
+      "descriptorOrder": [
+        "hommikusöögihelbed",
+        "fruity",
+        "froops"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöögihelbed": "hommikusöögihelbed",
+        "fruity": "fruity"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -627,7 +2378,46 @@
     "ean": "4770149213826",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4770149213826.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149213826",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöögihelbed",
+      "unit": "150g",
+      "variety": "oho cookie",
+      "nameLower": "hommikusöögihelbed oho cookie rings 150g",
+      "brand": "oho",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cookie hommikusöögihelbed rings",
+      "descriptorOrder": [
+        "hommikusöögihelbed",
+        "cookie",
+        "rings"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöögihelbed": "hommikusöögihelbed",
+        "cookie": "cookie",
+        "rings": "rings"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -641,7 +2431,46 @@
     "ean": "4770149214595",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4770149214595.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149214595",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöögihelbed",
+      "unit": "175g",
+      "variety": "oho cookie pillows",
+      "nameLower": "hommikusöögihelbed oho cookie pillows 175g",
+      "brand": "oho",
+      "size": "175g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cookie hommikusöögihelbed pillows",
+      "descriptorOrder": [
+        "hommikusöögihelbed",
+        "cookie",
+        "pillows"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöögihelbed": "hommikusöögihelbed",
+        "cookie": "cookie",
+        "pillows": "pillows"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -655,7 +2484,46 @@
     "ean": "5900020038616",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/5900020038616.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020038616",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "krõb",
+      "unit": "350g",
+      "variety": "nestlecornfl",
+      "nameLower": "krõb.maisihelb.nestlecornfl.350g mee-pähkli gl.vab",
+      "brand": "krõb",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gl krõb maisihelb mee nestlecornfl pähkli vab",
+      "descriptorOrder": [
+        "krõb",
+        "maisihelb",
+        "nestlecornfl",
+        "mee",
+        "pähkli",
+        "gl",
+        "vab"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -669,7 +2537,48 @@
     "ean": "5900617002976",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/5900617002976.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617002976",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "350g",
+      "variety": "granola premium sante",
+      "nameLower": "röst.müsli granola premium sante 350g maapähkli",
+      "brand": "sante",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola maapähkli müsli premium röst",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "granola",
+        "premium",
+        "maapähkli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "granola": "granola",
+        "premium": "premium",
+        "maapähkli": "maapähkli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -683,7 +2592,46 @@
     "ean": "5900020018403",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/5900020018403.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Nesquik",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020018403",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljapallid",
+      "unit": "625g",
+      "variety": "nestle nesquik",
+      "nameLower": "teraviljapallid nestle nesquik 625g kakaoga",
+      "brand": "nesquik",
+      "size": "625g",
+      "variant": null,
+      "qualifiers": "kakaoga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kakaoga nestle teraviljapallid",
+      "descriptorOrder": [
+        "teraviljapallid",
+        "nestle",
+        "kakaoga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljapallid": "teraviljapallid",
+        "nestle": "nestle",
+        "kakaoga": "kakaoga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -697,7 +2645,46 @@
     "ean": "3387390339499",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/3387390339499.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Fitness",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "3387390339499",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "375g",
+      "variety": "fitness nestle",
+      "nameLower": "täistera nisuhelbed fitness nestle 375g",
+      "brand": "fitness",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nestle nisuhelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "nisuhelbed",
+        "nestle"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "nisuhelbed": "nisuhelbed",
+        "nestle": "nestle"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -711,7 +2698,46 @@
     "ean": "4770149202639",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4770149202639.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149202639",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöök",
+      "unit": "150g",
+      "variety": "kakaoga oho",
+      "nameLower": "hommikusöök kakaoga teraviljahelbed oho 150g+30g",
+      "brand": "oho",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "kakaoga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöök kakaoga teraviljahelbed",
+      "descriptorOrder": [
+        "hommikusöök",
+        "kakaoga",
+        "teraviljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöök": "hommikusöök",
+        "kakaoga": "kakaoga",
+        "teraviljahelbed": "teraviljahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -725,7 +2751,46 @@
     "ean": "4770149202677",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4770149202677.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149202677",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöök",
+      "unit": "150g",
+      "variety": "shokolaadiga oho",
+      "nameLower": "hommikusöök shokolaadiga riis oho 150g",
+      "brand": "oho",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "shokolaadiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöök riis shokolaadiga",
+      "descriptorOrder": [
+        "hommikusöök",
+        "shokolaadiga",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöök": "hommikusöök",
+        "shokolaadiga": "shokolaadiga",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -739,7 +2804,46 @@
     "ean": "5900020025579",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/5900020025579.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020025579",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nestle",
+      "unit": "600g",
+      "variety": "lion",
+      "nameLower": "nestle lion terav.helb.600g shok.-kar.",
+      "brand": "nestle",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "helb kar lion shok terav",
+      "descriptorOrder": [
+        "lion",
+        "terav",
+        "helb",
+        "shok",
+        "kar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lion": "lion"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -753,7 +2857,46 @@
     "ean": "5900617002228",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5900617002228.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617002228",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "350g",
+      "variety": "sante",
+      "nameLower": "röstitud müsli sante 350g naturaalne",
+      "brand": "sante",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "müsli naturaalne röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "naturaalne"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "naturaalne": "naturaalne"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -767,7 +2910,44 @@
     "ean": "5900617002211",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5900617002211.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617002211",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "350g",
+      "variety": "sante",
+      "nameLower": "röst.müsli sante 350g puuviljadega",
+      "brand": "sante",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "puuviljadega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "müsli puuviljadega röst",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "puuviljadega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "puuviljadega": "puuviljadega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -781,7 +2961,48 @@
     "ean": "7613036673334",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/7613036673334.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613036673334",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "padjakesed",
+      "unit": "360g",
+      "variety": "nestle lion wildcrush",
+      "nameLower": "padjakesed nestle lion wildcrush 360g karam.-shok.",
+      "brand": "nestle",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "karam lion padjakesed shok wildcrush",
+      "descriptorOrder": [
+        "padjakesed",
+        "lion",
+        "wildcrush",
+        "karam",
+        "shok"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "padjakesed": "padjakesed",
+        "lion": "lion",
+        "wildcrush": "wildcrush"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -795,7 +3016,48 @@
     "ean": "5900617002617",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900617002617.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617002617",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röst",
+      "unit": "350g",
+      "variety": "sante",
+      "nameLower": "röst.müsli sante 350g banaani ja shokolaadiga",
+      "brand": "sante",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "shokolaadiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "banaani ja müsli röst shokolaadiga",
+      "descriptorOrder": [
+        "röst",
+        "müsli",
+        "banaani",
+        "ja",
+        "shokolaadiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "banaani": "banaani",
+        "ja": "ja",
+        "shokolaadiga": "shokolaadiga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -809,7 +3071,51 @@
     "ean": "5900617002983",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900617002983.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617002983",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "krõbe",
+      "unit": "350g",
+      "variety": "sante granola",
+      "nameLower": "krõbe röstitud müsli sante granola 350g t/shok-ga",
+      "brand": "sante",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ga granola krõbe müsli röstitud shok t",
+      "descriptorOrder": [
+        "krõbe",
+        "röstitud",
+        "müsli",
+        "granola",
+        "t",
+        "shok",
+        "ga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "krõbe": "krõbe",
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "granola": "granola"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -823,7 +3129,50 @@
     "ean": "4820008120809",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4820008120809-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820008120809",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "375g",
+      "variety": "axa",
+      "nameLower": "röstitud müsli axa 375g shokolaadi ja meega",
+      "brand": "axa",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "meega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja meega müsli röstitud shokolaadi",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "shokolaadi",
+        "ja",
+        "meega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "shokolaadi": "shokolaadi",
+        "ja": "ja",
+        "meega": "meega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -837,7 +3186,50 @@
     "ean": "4820008120793",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4820008120793-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820008120793",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "röstitud",
+      "unit": "375g",
+      "variety": "axa",
+      "nameLower": "röstitud müsli axa 375g puuviljade ja meega",
+      "brand": "axa",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "meega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja meega müsli puuviljade röstitud",
+      "descriptorOrder": [
+        "röstitud",
+        "müsli",
+        "puuviljade",
+        "ja",
+        "meega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "röstitud": "röstitud",
+        "müsli": "müsli",
+        "puuviljade": "puuviljade",
+        "ja": "ja",
+        "meega": "meega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -851,7 +3243,46 @@
     "ean": "5900020018342",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900020018342.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTLE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020018342",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "teraviljahelbed",
+      "unit": "625g",
+      "variety": "nestle cookie crisp",
+      "nameLower": "teraviljahelbed nestle cookie crisp 625g",
+      "brand": "nestle",
+      "size": "625g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cookie crisp teraviljahelbed",
+      "descriptorOrder": [
+        "teraviljahelbed",
+        "cookie",
+        "crisp"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "teraviljahelbed": "teraviljahelbed",
+        "cookie": "cookie",
+        "crisp": "crisp"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -865,7 +3296,45 @@
     "ean": "5900020027061",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900020027061.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Cini Minis",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900020027061",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nisuruudud",
+      "unit": "645g",
+      "variety": "nestle cini minis",
+      "nameLower": "nisuruudud nestle cini minis 645g kaneelimaits.",
+      "brand": "cini minis",
+      "size": "645g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneeli nestle nisuruudud",
+      "descriptorOrder": [
+        "nisuruudud",
+        "nestle",
+        "kaneeli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisuruudud": "nisuruudud",
+        "nestle": "nestle"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -879,7 +3348,46 @@
     "ean": "4770149204152",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4770149204152.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149204152",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöök",
+      "unit": "500g",
+      "variety": "kolm oho",
+      "nameLower": "hommikusöök kolm sõpra oho 500g",
+      "brand": "oho",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöök kolm sõpra",
+      "descriptorOrder": [
+        "hommikusöök",
+        "kolm",
+        "sõpra"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöök": "hommikusöök",
+        "kolm": "kolm",
+        "sõpra": "sõpra"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -893,7 +3401,45 @@
     "ean": "4740320003560",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320003560.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Väike Väänik",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740320003560",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "terav",
+      "unit": "250g",
+      "variety": "väike väänik",
+      "nameLower": "terav.padjakesed väike väänik250g vaniljetäidisega",
+      "brand": "väike väänik",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "vaniljetäidisega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "padjakesed terav vaniljetäidisega",
+      "descriptorOrder": [
+        "terav",
+        "padjakesed",
+        "vaniljetäidisega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "väike": "väike",
+        "vaniljetäidisega": "vaniljetäidisega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -907,7 +3453,44 @@
     "ean": "4740320001542",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320001542.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Väike Väänik",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740320001542",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "terav",
+      "unit": "250g",
+      "variety": "väike väänik",
+      "nameLower": "terav.padjakesed väike väänik 250g kakaotäidisega",
+      "brand": "väike väänik",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "kakaotäidisega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kakaotäidisega padjakesed terav",
+      "descriptorOrder": [
+        "terav",
+        "padjakesed",
+        "kakaotäidisega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kakaotäidisega": "kakaotäidisega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -921,7 +3504,46 @@
     "ean": "4770149204053",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770149204053.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149204053",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöök",
+      "unit": "500g",
+      "variety": "oho",
+      "nameLower": "hommikusöök shokolaadiga riis oho 500g",
+      "brand": "oho",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "shokolaadiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöök riis shokolaadiga",
+      "descriptorOrder": [
+        "hommikusöök",
+        "shokolaadiga",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöök": "hommikusöök",
+        "shokolaadiga": "shokolaadiga",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -935,7 +3557,46 @@
     "ean": "4740660001103",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/0270010001933.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660001103",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "säästu",
+      "unit": "200g",
+      "variety": null,
+      "nameLower": "säästu nisuterad 200g meega",
+      "brand": "säästu",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "meega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "meega nisuterad säästu",
+      "descriptorOrder": [
+        "säästu",
+        "nisuterad",
+        "meega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "säästu": "säästu",
+        "nisuterad": "nisuterad",
+        "meega": "meega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -949,7 +3610,48 @@
     "ean": "4740660001097",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/0270010001926.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660001097",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "säästu",
+      "unit": "200g",
+      "variety": null,
+      "nameLower": "säästu magusad terav.kausik.200g kakaoga",
+      "brand": "säästu",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "kakaoga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kakaoga kausik magusad säästu terav",
+      "descriptorOrder": [
+        "säästu",
+        "magusad",
+        "terav",
+        "kausik",
+        "kakaoga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "säästu": "säästu",
+        "magusad": "magusad",
+        "kakaoga": "kakaoga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -963,7 +3665,44 @@
     "ean": "4743144001576",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743144001576.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4743144001576",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisihelbed",
+      "unit": "1000g",
+      "variety": "chippy",
+      "nameLower": "maisihelbed chippy 1kg",
+      "brand": "maisihelbed",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "chippy maisihelbed",
+      "descriptorOrder": [
+        "maisihelbed",
+        "chippy"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisihelbed": "maisihelbed",
+        "chippy": "chippy"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -977,7 +3716,46 @@
     "ean": "4740660000649",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660000649.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660000649",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "säästu",
+      "unit": "200g",
+      "variety": "magusad",
+      "nameLower": "säästu magusad teraviljarõngad 200g",
+      "brand": "säästu",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "magusad säästu teraviljarõngad",
+      "descriptorOrder": [
+        "säästu",
+        "magusad",
+        "teraviljarõngad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "säästu": "säästu",
+        "magusad": "magusad",
+        "teraviljarõngad": "teraviljarõngad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -991,7 +3769,50 @@
     "ean": "5900617002969",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900617002969.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SANTE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900617002969",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "krõbe",
+      "unit": "350g",
+      "variety": "granola sante",
+      "nameLower": "krõbe müsli granola sante 350g punaste marjadega",
+      "brand": "sante",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "marjadega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granola krõbe marjadega müsli punaste",
+      "descriptorOrder": [
+        "krõbe",
+        "müsli",
+        "granola",
+        "punaste",
+        "marjadega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "krõbe": "krõbe",
+        "müsli": "müsli",
+        "granola": "granola",
+        "punaste": "punaste",
+        "marjadega": "marjadega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1005,7 +3826,46 @@
     "ean": "4770149203735",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770149203735.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oho",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770149203735",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hommikusöök",
+      "unit": "500g",
+      "variety": "kakaoga oho",
+      "nameLower": "hommikusöök kakaoga teraviljahelbed oho 500g+100g",
+      "brand": "oho",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "kakaoga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hommikusöök kakaoga teraviljahelbed",
+      "descriptorOrder": [
+        "hommikusöök",
+        "kakaoga",
+        "teraviljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hommikusöök": "hommikusöök",
+        "kakaoga": "kakaoga",
+        "teraviljahelbed": "teraviljahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1019,7 +3879,46 @@
     "ean": "4820237693969",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/05/4820237693969.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820237693969",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "axa",
+      "unit": "40g",
+      "variety": "protein",
+      "nameLower": "axa protein kiirkaerah.puder 40g ban-kar",
+      "brand": "axa",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ban kar kiirkaerah protein puder",
+      "descriptorOrder": [
+        "protein",
+        "kiirkaerah",
+        "puder",
+        "ban",
+        "kar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "protein": "protein"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1033,7 +3932,46 @@
     "ean": "8002885003420",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/8002885003420.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8002885003420",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fiorentini",
+      "unit": "350g",
+      "variety": "jämedad",
+      "nameLower": "fiorentini jämedad kaerahelbed 350g",
+      "brand": "fiorentini",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fiorentini jämedad kaerahelbed",
+      "descriptorOrder": [
+        "fiorentini",
+        "jämedad",
+        "kaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fiorentini": "fiorentini",
+        "jämedad": "jämedad",
+        "kaerahelbed": "kaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1047,7 +3985,46 @@
     "ean": "4740281456504",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740281456504.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281456504",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "45g",
+      "variety": "täistera veski mati",
+      "nameLower": "täistera kaerahelbekiirpuder veski mati 45g banaan",
+      "brand": "veski mati",
+      "size": "45g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "banaan kaerahelbekiirpuder täistera",
+      "descriptorOrder": [
+        "täistera",
+        "kaerahelbekiirpuder",
+        "banaan"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "kaerahelbekiirpuder": "kaerahelbekiirpuder",
+        "banaan": "banaan"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1061,7 +4038,44 @@
     "ean": "4740660022443",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740660022443.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660022443",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "coop",
+      "unit": "500g",
+      "variety": "riisihelbed",
+      "nameLower": "coop riisihelbed 500g",
+      "brand": "coop",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coop riisihelbed",
+      "descriptorOrder": [
+        "coop",
+        "riisihelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coop": "coop",
+        "riisihelbed": "riisihelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1075,7 +4089,44 @@
     "ean": "4740281006440",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4740281006440.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006440",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "45g",
+      "variety": "veski mati",
+      "nameLower": "täistera kaerahelbekiirpuder veski mati 45g",
+      "brand": "veski mati",
+      "size": "45g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerahelbekiirpuder täistera",
+      "descriptorOrder": [
+        "täistera",
+        "kaerahelbekiirpuder"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "kaerahelbekiirpuder": "kaerahelbekiirpuder"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1089,7 +4140,46 @@
     "ean": "4743303100089",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4743303100089.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4743303100089",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaerahelbe",
+      "unit": "35g",
+      "variety": "tartu mill",
+      "nameLower": "kaerahelbe kiirpuder tartu mill 35g õuna-kaneeli",
+      "brand": "tartu mill",
+      "size": "35g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerahelbe kaneeli kiirpuder õuna",
+      "descriptorOrder": [
+        "kaerahelbe",
+        "kiirpuder",
+        "õuna",
+        "kaneeli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerahelbe": "kaerahelbe",
+        "kiirpuder": "kiirpuder"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1103,7 +4193,46 @@
     "ean": "4743303100027",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4743303100027.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4743303100027",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaerahelbe",
+      "unit": "35g",
+      "variety": "tartu mill",
+      "nameLower": "kaerahelbe kiirpuder tartu mill 35g vaarika",
+      "brand": "tartu mill",
+      "size": "35g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerahelbe kiirpuder vaarika",
+      "descriptorOrder": [
+        "kaerahelbe",
+        "kiirpuder",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerahelbe": "kaerahelbe",
+        "kiirpuder": "kiirpuder",
+        "vaarika": "vaarika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1117,7 +4246,44 @@
     "ean": "4740660020678",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740660020678.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660020678",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "säästu",
+      "unit": "500g",
+      "variety": null,
+      "nameLower": "säästu neljaviljahelbed 500g",
+      "brand": "säästu",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "neljaviljahelbed säästu",
+      "descriptorOrder": [
+        "säästu",
+        "neljaviljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "säästu": "säästu",
+        "neljaviljahelbed": "neljaviljahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1131,7 +4297,47 @@
     "ean": "4740281003111",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/4740281003111.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281003111",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaera",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "kaera- ja riisihelbe segu veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kaera riisihelbe segu",
+      "descriptorOrder": [
+        "kaera",
+        "ja",
+        "riisihelbe",
+        "segu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ja": "ja",
+        "riisihelbe": "riisihelbe",
+        "segu": "segu"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1145,7 +4351,46 @@
     "ean": "6411200112983",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/6411200112983.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ELOVENA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411200112983",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "elovena",
+      "nameLower": "täistera kiirkaerahelbed elovena 500g gluteenivaba",
+      "brand": "elovena",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gluteenivaba kiirkaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "kiirkaerahelbed",
+        "gluteenivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "kiirkaerahelbed": "kiirkaerahelbed",
+        "gluteenivaba": "gluteenivaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1159,7 +4404,44 @@
     "ean": "4820008123251",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4820008123251.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820008123251",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirkaerahelbepuder",
+      "unit": "40g",
+      "variety": "axa",
+      "nameLower": "kiirkaerahelbepuder axa 40g mustikaga",
+      "brand": "axa",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "mustikaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkaerahelbepuder mustikaga",
+      "descriptorOrder": [
+        "kiirkaerahelbepuder",
+        "mustikaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirkaerahelbepuder": "kiirkaerahelbepuder",
+        "mustikaga": "mustikaga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1173,7 +4455,47 @@
     "ean": "4820008126313",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4820008126313.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AXA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820008126313",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirkaerahelbepuder",
+      "unit": "40g",
+      "variety": "axa",
+      "nameLower": "kiirkaerahelbepuder axa 40g koore,vaarika,põldm.",
+      "brand": "axa",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkaerahelbepuder koore põldm vaarika",
+      "descriptorOrder": [
+        "kiirkaerahelbepuder",
+        "koore",
+        "vaarika",
+        "põldm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirkaerahelbepuder": "kiirkaerahelbepuder",
+        "koore": "koore",
+        "vaarika": "vaarika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1187,7 +4509,43 @@
     "ean": "4740281003180",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740281003180.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281003180",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "viljahelbed",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "8-viljahelbed veski mati 500g kliidega",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "kliidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kliidega viljahelbed",
+      "descriptorOrder": [
+        "viljahelbed",
+        "kliidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kliidega": "kliidega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1201,7 +4559,43 @@
     "ean": "4740281003333",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740281003333.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281003333",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "veski",
+      "unit": "500g",
+      "variety": "mati täistera",
+      "nameLower": "veski mati täistera 5-viljahelbed 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "täistera viljahelbed",
+      "descriptorOrder": [
+        "täistera",
+        "viljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1215,7 +4609,42 @@
     "ean": "4740493031049",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740493031049.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493031049",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisihelbed",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": "riisihelbed tartu mill 500g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisihelbed",
+      "descriptorOrder": [
+        "riisihelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisihelbed": "riisihelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1229,7 +4658,44 @@
     "ean": "4740281002992",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740281002992.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281002992",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "täistera odrahelbed veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "odrahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "odrahelbed": "odrahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1243,7 +4709,46 @@
     "ean": "4740493004036",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740493004036.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493004036",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": "täistera jämedad kaerahelbed tartu mill 500g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jämedad kaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "jämedad",
+        "kaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "jämedad": "jämedad",
+        "kaerahelbed": "kaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1257,7 +4762,44 @@
     "ean": "4740493003022",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740493003022.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493003022",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "täistera neljaviljahelbed tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "neljaviljahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "neljaviljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "neljaviljahelbed": "neljaviljahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1271,7 +4813,44 @@
     "ean": "4740660011454",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740660011454.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660011454",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "coop",
+      "unit": "500g",
+      "variety": null,
+      "nameLower": "coop neljaviljahelbed 500g",
+      "brand": "coop",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coop neljaviljahelbed",
+      "descriptorOrder": [
+        "coop",
+        "neljaviljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coop": "coop",
+        "neljaviljahelbed": "neljaviljahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1285,7 +4864,48 @@
     "ean": "6411200111351",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411200111351.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ELOVENA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411200111351",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "elovena",
+      "nameLower": "täistera suured kaerahelbed elovena 500g glut.vaba",
+      "brand": "elovena",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "glut kaerahelbed suured täistera vaba",
+      "descriptorOrder": [
+        "täistera",
+        "suured",
+        "kaerahelbed",
+        "glut",
+        "vaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "suured": "suured",
+        "kaerahelbed": "kaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1299,7 +4919,42 @@
     "ean": "4740120000073",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000073.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HELEN",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740120000073",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täisterakaerahelbed",
+      "unit": "500g",
+      "variety": "helen",
+      "nameLower": "täisterakaerahelbed helen 500g",
+      "brand": "helen",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "täisterakaerahelbed",
+      "descriptorOrder": [
+        "täisterakaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisterakaerahelbed": "täisterakaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1313,7 +4968,42 @@
     "ean": "4740120000103",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000103.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HELEN",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740120000103",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatrahelbed",
+      "unit": "500g",
+      "variety": "helen",
+      "nameLower": "tatrahelbed helen 500g",
+      "brand": "helen",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatrahelbed",
+      "descriptorOrder": [
+        "tatrahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatrahelbed": "tatrahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1327,7 +5017,42 @@
     "ean": "4740120000097",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000097.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HELEN",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740120000097",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisihelbed",
+      "unit": "500g",
+      "variety": "helen",
+      "nameLower": "riisihelbed helen 500g",
+      "brand": "helen",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisihelbed",
+      "descriptorOrder": [
+        "riisihelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisihelbed": "riisihelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1341,7 +5066,42 @@
     "ean": "4740120000059",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000059.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HELEN",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740120000059",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "neljaviljahelbed",
+      "unit": "500g",
+      "variety": "helen",
+      "nameLower": "neljaviljahelbed helen 500g",
+      "brand": "helen",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "neljaviljahelbed",
+      "descriptorOrder": [
+        "neljaviljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "neljaviljahelbed": "neljaviljahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1355,7 +5115,42 @@
     "ean": "4740120000066",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740120000066.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HELEN",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740120000066",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirkaerahelbed",
+      "unit": "500g",
+      "variety": "helen",
+      "nameLower": "kiirkaerahelbed helen 500g",
+      "brand": "helen",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkaerahelbed",
+      "descriptorOrder": [
+        "kiirkaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirkaerahelbed": "kiirkaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1369,7 +5164,44 @@
     "ean": "4740493006078",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493006078.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493006078",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": " täistera kiirkaerahelbed tartu mill 500g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "kiirkaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "kiirkaerahelbed": "kiirkaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1383,7 +5215,44 @@
     "ean": "4740493031032",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493031032.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493031032",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": "täistera neljaviljahelbed tartu mill 500g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "neljaviljahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "neljaviljahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "neljaviljahelbed": "neljaviljahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1397,7 +5266,44 @@
     "ean": "4740493003015",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493003015.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493003015",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "täistera kiirkaerahelbed tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "kiirkaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "kiirkaerahelbed": "kiirkaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1411,7 +5317,48 @@
     "ean": "4740281003104",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281003104.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281003104",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seemnete",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "seemnete ja kliidega helbed veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "kliidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "helbed ja kliidega seemnete",
+      "descriptorOrder": [
+        "seemnete",
+        "ja",
+        "kliidega",
+        "helbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seemnete": "seemnete",
+        "ja": "ja",
+        "kliidega": "kliidega",
+        "helbed": "helbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1425,7 +5372,44 @@
     "ean": "4740281005665",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281005665.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281005665",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "täistera kiirkaerahelbed veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "kiirkaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "kiirkaerahelbed": "kiirkaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1439,7 +5423,44 @@
     "ean": "4740660011447",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660011447.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660011447",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "coop",
+      "unit": "500g",
+      "variety": "kiirkaerahelbed",
+      "nameLower": "coop kiirkaerahelbed 500g",
+      "brand": "coop",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coop kiirkaerahelbed",
+      "descriptorOrder": [
+        "coop",
+        "kiirkaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coop": "coop",
+        "kiirkaerahelbed": "kiirkaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1453,7 +5474,42 @@
     "ean": "4742298000695",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742298000695.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BALTIX",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742298000695",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hirsihelbed",
+      "unit": "500g",
+      "variety": "baltix",
+      "nameLower": "hirsihelbed baltix 500g",
+      "brand": "baltix",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hirsihelbed",
+      "descriptorOrder": [
+        "hirsihelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hirsihelbed": "hirsihelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1467,7 +5523,46 @@
     "ean": "4740281006396",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006396.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006396",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaerahelbe",
+      "unit": "45g",
+      "variety": "veski mati",
+      "nameLower": "kaerahelbe kiirpuder veski mati 45g metsamarja",
+      "brand": "veski mati",
+      "size": "45g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerahelbe kiirpuder metsamarja",
+      "descriptorOrder": [
+        "kaerahelbe",
+        "kiirpuder",
+        "metsamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerahelbe": "kaerahelbe",
+        "kiirpuder": "kiirpuder",
+        "metsamarja": "metsamarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1481,7 +5576,44 @@
     "ean": "4750020030872",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020030872.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750020030872",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "säästu",
+      "unit": "500g",
+      "variety": null,
+      "nameLower": "säästu kaerahelbed 500g",
+      "brand": "säästu",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerahelbed säästu",
+      "descriptorOrder": [
+        "säästu",
+        "kaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "säästu": "säästu",
+        "kaerahelbed": "kaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1495,7 +5627,42 @@
     "ean": "4740281003128",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281003128.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281003128",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täisterakaerahelbed",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "täisterakaerahelbed veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "täisterakaerahelbed",
+      "descriptorOrder": [
+        "täisterakaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisterakaerahelbed": "täisterakaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1509,7 +5676,42 @@
     "ean": "4743303155430",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743303155430.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4743303155430",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaerahelbed",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": "kaerahelbed tartu mill 500g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerahelbed",
+      "descriptorOrder": [
+        "kaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerahelbed": "kaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1523,7 +5725,46 @@
     "ean": "4740493003008",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493003008.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493003008",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "täistera jämedad kaerahelbed tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jämedad kaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "jämedad",
+        "kaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "jämedad": "jämedad",
+        "kaerahelbed": "kaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1537,7 +5778,44 @@
     "ean": "4740493030035",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493030035.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493030035",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": "täistera kiirkaerahelbed tartu mill 500g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "kiirkaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "kiirkaerahelbed": "kiirkaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1551,7 +5829,46 @@
     "ean": "4740493003053",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740493003053.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TARTU MILL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740493003053",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "500g",
+      "variety": "tartu mill",
+      "nameLower": "täistera röstitud kiirtatrahelbed tartu mill 500g",
+      "brand": "tartu mill",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirtatrahelbed röstitud täistera",
+      "descriptorOrder": [
+        "täistera",
+        "röstitud",
+        "kiirtatrahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "röstitud": "röstitud",
+        "kiirtatrahelbed": "kiirtatrahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1565,7 +5882,46 @@
     "ean": "4740281006723",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006723.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006723",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "1000g",
+      "variety": "veski mati",
+      "nameLower": "täistera jämedad kaerahelbed veski mati 1kg",
+      "brand": "veski mati",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jämedad kaerahelbed täistera",
+      "descriptorOrder": [
+        "täistera",
+        "jämedad",
+        "kaerahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "jämedad": "jämedad",
+        "kaerahelbed": "kaerahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1579,6 +5935,45 @@
     "ean": "4740281006358",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281006358.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VESKI MATI",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740281006358",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaerahelbe",
+      "unit": "45g",
+      "variety": "veski mati",
+      "nameLower": "kaerahelbe kiirpuder veski mati 45g mustika",
+      "brand": "veski mati",
+      "size": "45g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaerahelbe kiirpuder mustika",
+      "descriptorOrder": [
+        "kaerahelbe",
+        "kiirpuder",
+        "mustika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerahelbe": "kaerahelbe",
+        "kiirpuder": "kiirpuder",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

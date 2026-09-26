@@ -11,7 +11,43 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811931_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanalihamaits-rimi-smart-60g/p/811931",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "rimi smart",
+      "nameLower": "kiirnuudlid kanalihamaits. rimi smart  60g",
+      "brand": "rimi smart",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanaliha kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kanaliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -25,7 +61,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_165629_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-juustu-urdi-knorr-61g/p/165629",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "61g",
+      "variety": "knorr",
+      "nameLower": "kiirnuudlid juustu-ürdi knorr 61g",
+      "brand": "knorr",
+      "size": "61g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustu kiirnuudlid ürdi",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "juustu",
+        "ürdi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -39,7 +112,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811930_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-peekonimaitselised-rimi-smart-60g/p/811930",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "rimi smart",
+      "nameLower": "kiirnuudlid peekonimaitselised rimi smart 60g",
+      "brand": "rimi smart",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid peekoni",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "peekoni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "peekonimaitselised": "peekonimaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -53,7 +163,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_165628_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanamaitselised-knorr-57g/p/165628",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "57g",
+      "variety": "knorr",
+      "nameLower": "kiirnuudlid kanamaitselised knorr 57g",
+      "brand": "knorr",
+      "size": "57g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanamaitselised": "kanamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -67,7 +214,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1012269_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanamaitselised-reeva-60g/p/1012269",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid kanamaitselised reeva 60g",
+      "brand": "reeva",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanamaitselised": "kanamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -81,7 +265,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_101343_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kanasupp-nuudlitega-podravka-62g/p/101343",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kanasupp",
+      "unit": "62g",
+      "variety": "podravka",
+      "nameLower": "kanasupp nuudlitega podravka 62g",
+      "brand": "podravka",
+      "size": "62g",
+      "variant": null,
+      "qualifiers": "nuudlitega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanasupp nuudlitega",
+      "descriptorOrder": [
+        "kanasupp",
+        "nuudlitega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kanasupp": "kanasupp",
+        "nuudlitega": "nuudlitega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -95,7 +316,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_109082_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-tom-yum-thai-choice-85g/p/109082",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "85g",
+      "variety": "tom yum thai choice",
+      "nameLower": "kiirnuudlid tom yum thai choice 85g",
+      "brand": "thai choice",
+      "size": "85g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid tom yum",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "tom",
+        "yum"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "tom": "tom",
+        "yum": "yum"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -109,7 +369,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_802319_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuder-piimaga-rimi-200g/p/802319",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kartulipuder",
+      "unit": "200g",
+      "variety": "rimi",
+      "nameLower": "kartulipuder piimaga rimi 200g",
+      "brand": "rimi",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "piimaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulipuder piimaga",
+      "descriptorOrder": [
+        "kartulipuder",
+        "piimaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipuder": "kartulipuder",
+        "piimaga": "piimaga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -123,35 +420,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_165627_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-tomatimaitselise-knorr-61g/p/165627",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid köögiviljamaits. Rimi Smart 60g",
-    "price": 0.39,
-    "regularPrice": 0.39,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Rimi Smart",
-    "storeUnitPrice": 6.5,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811936_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-koogiviljamaits-rimi-smart-60g/p/811936",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kanapüreesupp Knorr 16g",
-    "price": 0.75,
-    "regularPrice": 0.75,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Knorr",
-    "storeUnitPrice": 46.87,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_162639_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kanapureesupp-knorr-16g/p/162639",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "61g",
+      "variety": "knorr",
+      "nameLower": "kiirnuudlid tomatimaitselise knorr 61g",
+      "brand": "knorr",
+      "size": "61g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid tomatimaitselise",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "tomatimaitselise"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "tomatimaitselise": "tomatimaitselise"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -165,7 +471,143 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1000057_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanalihamaitselised-maggi-59-2g/p/1000057",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "59.2g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid kanalihamaitselised maggi 59,2g",
+      "brand": "maggi",
+      "size": "59.2g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanaliha kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kanaliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanalihamaitselised": "kanalihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kanapüreesupp Knorr 16g",
+    "price": 0.75,
+    "regularPrice": 0.75,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Knorr",
+    "storeUnitPrice": 46.87,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_162639_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kanapureesupp-knorr-16g/p/162639",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kanapüreesupp",
+      "unit": "16g",
+      "variety": "knorr",
+      "nameLower": "kanapüreesupp knorr 16g",
+      "brand": "knorr",
+      "size": "16g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanapüreesupp",
+      "descriptorOrder": [
+        "kanapüreesupp"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kanapüreesupp": "kanapüreesupp"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid köögiviljamaits. Rimi Smart 60g",
+    "price": 0.39,
+    "regularPrice": 0.39,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Rimi Smart",
+    "storeUnitPrice": 6.5,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811936_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-koogiviljamaits-rimi-smart-60g/p/811936",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "rimi smart",
+      "nameLower": "kiirnuudlid köögiviljamaits. rimi smart 60g",
+      "brand": "rimi smart",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid köögivilja",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "köögivilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -179,7 +621,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_802318_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuder-rimi-200g/p/802318",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kartulipuder",
+      "unit": "200g",
+      "variety": "rimi",
+      "nameLower": "kartulipuder rimi 200g",
+      "brand": "rimi",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulipuder",
+      "descriptorOrder": [
+        "kartulipuder"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipuder": "kartulipuder"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -193,7 +670,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_162632_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/juustusupp-knorr-22g/p/162632",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "juustusupp",
+      "unit": "22g",
+      "variety": "knorr",
+      "nameLower": "juustusupp knorr 22g",
+      "brand": "knorr",
+      "size": "22g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustusupp",
+      "descriptorOrder": [
+        "juustusupp"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juustusupp": "juustusupp"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -207,7 +719,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194505_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuree-peekoni-ja-sibulaga-knorr-51g/p/194505",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipüree",
+      "unit": "51g",
+      "variety": "knorr",
+      "nameLower": "kartulipüree peekoni ja sibulaga knorr 51g",
+      "brand": "knorr",
+      "size": "51g",
+      "variant": null,
+      "qualifiers": "sibulaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kartulipüree peekoni sibulaga",
+      "descriptorOrder": [
+        "kartulipüree",
+        "peekoni",
+        "ja",
+        "sibulaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipüree": "kartulipüree",
+        "peekoni": "peekoni",
+        "ja": "ja",
+        "sibulaga": "sibulaga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -221,21 +774,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_162638_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/pureesupp-puraviku-knorr-15g/p/162638",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Pasta Carbonara topsis Knorr 55g",
-    "price": 2.15,
-    "regularPrice": 2.15,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Knorr",
-    "storeUnitPrice": 39.09,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194503_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/pasta-carbonara-topsis-knorr-55g/p/194503",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "püreesupp",
+      "unit": "15g",
+      "variety": "knorr",
+      "nameLower": "püreesupp puraviku knorr 15g",
+      "brand": "knorr",
+      "size": "15g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "puraviku püreesupp",
+      "descriptorOrder": [
+        "püreesupp",
+        "puraviku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "püreesupp": "püreesupp",
+        "puraviku": "puraviku"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -249,7 +825,100 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_181452_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudliroog-kana--ja-teriyaki-93g/p/181452",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudliroog",
+      "unit": "93g",
+      "variety": null,
+      "nameLower": "kiirnuudliroog kana- ja teriyaki 93g",
+      "brand": "kiirnuudliroog",
+      "size": "93g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kana kiirnuudliroog teriyaki",
+      "descriptorOrder": [
+        "kiirnuudliroog",
+        "kana",
+        "ja",
+        "teriyaki"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudliroog": "kiirnuudliroog",
+        "ja": "ja",
+        "teriyaki": "teriyaki"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Pasta Carbonara topsis Knorr 55g",
+    "price": 2.15,
+    "regularPrice": 2.15,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Knorr",
+    "storeUnitPrice": 39.09,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194503_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/pasta-carbonara-topsis-knorr-55g/p/194503",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pasta",
+      "unit": "55g",
+      "variety": "carbonara knorr",
+      "nameLower": "pasta carbonara topsis knorr 55g",
+      "brand": "knorr",
+      "size": "55g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carbonara pasta topsis",
+      "descriptorOrder": [
+        "pasta",
+        "carbonara",
+        "topsis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pasta": "pasta",
+        "carbonara": "carbonara",
+        "topsis": "topsis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -263,7 +932,49 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_138796_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuder-voi-ja-tilliga-5-min-maggi-35g/p/138796",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipuder",
+      "unit": "35g",
+      "variety": "maggi",
+      "nameLower": "kartulipuder või ja tilliga 5 min. maggi 35g",
+      "brand": "maggi",
+      "size": "35g",
+      "variant": "5",
+      "qualifiers": "tilliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kartulipuder min tilliga või",
+      "descriptorOrder": [
+        "kartulipuder",
+        "või",
+        "ja",
+        "tilliga",
+        "min"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipuder": "kartulipuder",
+        "või": "või",
+        "ja": "ja",
+        "tilliga": "tilliga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "5",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -277,7 +988,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1012294_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-juustu--ja-peekonimait-reeva-60g/p/1012294",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid juustu- ja peekonimait. reeva 60g",
+      "brand": "reeva",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja juustu kiirnuudlid peekoni",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "juustu",
+        "ja",
+        "peekoni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "ja": "ja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -286,12 +1036,49 @@
     "regularPrice": 3.39,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "BLÅ BAND",
     "storeUnitPrice": 18.03,
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_111279_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/pajaroad/pajaroog-mehhiko-bla-band-190g/p/111279",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pajaroog",
+      "unit": "190g",
+      "variety": "mehhiko blå band",
+      "nameLower": "pajaroog mehhiko blå band 190g",
+      "brand": "blå band",
+      "size": "190g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mehhiko pajaroog",
+      "descriptorOrder": [
+        "pajaroog",
+        "mehhiko"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pajaroog": "pajaroog",
+        "mehhiko": "mehhiko"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -305,7 +1092,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_111274_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/pajaroad/pajaroog-hawaii-bla-band-195g/p/111274",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pajaroog",
+      "unit": "195g",
+      "variety": "hawaii bla band",
+      "nameLower": "pajaroog hawaii bla band 195g",
+      "brand": "bla band",
+      "size": "195g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hawaii pajaroog",
+      "descriptorOrder": [
+        "pajaroog",
+        "hawaii"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pajaroog": "pajaroog",
+        "hawaii": "hawaii"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -319,7 +1143,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_162636_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/pureesupp-sampinjoni-knorr-15g/p/162636",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "püreesupp",
+      "unit": "15g",
+      "variety": "knorr",
+      "nameLower": "püreesupp šampinjoni knorr 15g",
+      "brand": "knorr",
+      "size": "15g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "püreesupp šampinjoni",
+      "descriptorOrder": [
+        "püreesupp",
+        "šampinjoni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "püreesupp": "püreesupp",
+        "šampinjoni": "šampinjoni"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -333,7 +1194,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_195098_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuder-saiakuubikute-sibulaga-maggi-59g/p/195098",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipuder",
+      "unit": "59g",
+      "variety": "maggi",
+      "nameLower": "kartulipuder saiakuubikute&sibulaga maggi 59g",
+      "brand": "maggi",
+      "size": "59g",
+      "variant": null,
+      "qualifiers": "sibulaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulipuder saiakuubikute sibulaga",
+      "descriptorOrder": [
+        "kartulipuder",
+        "saiakuubikute",
+        "sibulaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipuder": "kartulipuder"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -347,7 +1245,45 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194882_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kartulipuder-peekoni-kr-5min-maggi-53g/p/194882",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipuder",
+      "unit": "53g",
+      "variety": "maggi",
+      "nameLower": "kartulipuder peekoni&kr. 5min. maggi 53g",
+      "brand": "maggi",
+      "size": "53g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulipuder kr min peekoni",
+      "descriptorOrder": [
+        "kartulipuder",
+        "peekoni",
+        "kr",
+        "min"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipuder": "kartulipuder"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -361,7 +1297,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_111278_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/pajaroad/pajaroog-itaalia-bla-band-150g/p/111278",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pajaroog",
+      "unit": "150g",
+      "variety": "itaalia bla band",
+      "nameLower": "pajaroog itaalia bla band 150g",
+      "brand": "bla band",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "itaalia pajaroog",
+      "descriptorOrder": [
+        "pajaroog",
+        "itaalia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pajaroog": "pajaroog",
+        "itaalia": "itaalia"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -375,7 +1348,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_198505_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirsupp-nuudli-kimchi-ramyun-120g/p/198505",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "120g",
+      "variety": "ramyun",
+      "nameLower": "kiirsupp nuudli-kimchi ramyun 120g",
+      "brand": "kiirsupp",
+      "size": "120g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirsupp kimchi nuudli ramyun",
+      "descriptorOrder": [
+        "kiirsupp",
+        "nuudli",
+        "kimchi",
+        "ramyun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "ramyun": "ramyun"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -389,21 +1401,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1000056_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaitselised-maggi-59-2g/p/1000056",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Topsiroog spagetid peekoni&juustuga Knorr 71g",
-    "price": 1.99,
-    "regularPrice": 1.99,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Knorr",
-    "storeUnitPrice": 28.03,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_189682_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/topsiroog-spagetid-peekoni-juustuga-knorr-71g/p/189682",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "59.2g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid veiselihamaitselised maggi 59,2g",
+      "brand": "maggi",
+      "size": "59.2g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid veiseliha",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "veiselihamaitselised": "veiselihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -417,7 +1452,98 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_193468_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirkanasupp-nuudlitega-5min-maggi-12g/p/193468",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirkanasupp",
+      "unit": "12g",
+      "variety": "maggi",
+      "nameLower": "kiirkanasupp nuudlitega 5min maggi 12g",
+      "brand": "maggi",
+      "size": "12g",
+      "variant": null,
+      "qualifiers": "nuudlitega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirkanasupp min nuudlitega",
+      "descriptorOrder": [
+        "kiirkanasupp",
+        "nuudlitega",
+        "min"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirkanasupp": "kiirkanasupp",
+        "nuudlitega": "nuudlitega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Topsiroog spagetid peekoni&juustuga Knorr 71g",
+    "price": 1.99,
+    "regularPrice": 1.99,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Knorr",
+    "storeUnitPrice": 28.03,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_189682_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/topsiroog-spagetid-peekoni-juustuga-knorr-71g/p/189682",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "topsiroog",
+      "unit": "71g",
+      "variety": "knorr",
+      "nameLower": "topsiroog spagetid peekoni&juustuga knorr 71g",
+      "brand": "knorr",
+      "size": "71g",
+      "variant": null,
+      "qualifiers": "juustuga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustuga peekoni spagetid topsiroog",
+      "descriptorOrder": [
+        "topsiroog",
+        "spagetid",
+        "peekoni",
+        "juustuga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "topsiroog": "topsiroog",
+        "spagetid": "spagetid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -431,7 +1557,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_182450_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudliroog-vurtsika-kastmega-oyakata-93g/p/182450",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudliroog",
+      "unit": "93g",
+      "variety": "oyakata",
+      "nameLower": "kiirnuudliroog vürtsika kastmega oyakata 93g",
+      "brand": "oyakata",
+      "size": "93g",
+      "variant": null,
+      "qualifiers": "kastmega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kastmega kiirnuudliroog vürtsika",
+      "descriptorOrder": [
+        "kiirnuudliroog",
+        "vürtsika",
+        "kastmega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudliroog": "kiirnuudliroog",
+        "vürtsika": "vürtsika",
+        "kastmega": "kastmega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -445,7 +1610,45 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_138797_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuder-roosakoorega-5-min-maggi-35g/p/138797",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipuder",
+      "unit": "35g",
+      "variety": "maggi",
+      "nameLower": "kartulipuder rõõsakoorega 5 min. maggi 35g",
+      "brand": "maggi",
+      "size": "35g",
+      "variant": "5",
+      "qualifiers": "rõõsakoorega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulipuder min rõõsakoorega",
+      "descriptorOrder": [
+        "kartulipuder",
+        "rõõsakoorega",
+        "min"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipuder": "kartulipuder",
+        "rõõsakoorega": "rõõsakoorega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "5",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -459,7 +1662,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194600_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/pasta-bolognese-kastmega-tops-knorr-60g/p/194600",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pasta",
+      "unit": "60g",
+      "variety": "bolognese knorr",
+      "nameLower": "pasta bolognese kastmega tops knorr 60g",
+      "brand": "knorr",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "kastmega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bolognese kastmega pasta tops",
+      "descriptorOrder": [
+        "pasta",
+        "bolognese",
+        "kastmega",
+        "tops"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pasta": "pasta",
+        "bolognese": "bolognese",
+        "kastmega": "kastmega",
+        "tops": "tops"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -473,7 +1717,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1001377_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanaga-yakisoba-93g/p/1001377",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "93g",
+      "variety": "yakisoba",
+      "nameLower": "kiirnuudlid kanaga yakisoba 93g",
+      "brand": "kiirnuudlid",
+      "size": "93g",
+      "variant": null,
+      "qualifiers": "kanaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanaga kiirnuudlid yakisoba",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kanaga",
+        "yakisoba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanaga": "kanaga",
+        "yakisoba": "yakisoba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -487,7 +1770,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1000058_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-vurtsika-kana-maggi-59-2g/p/1000058",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "59.2g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid vürtsika kana maggi 59,2g",
+      "brand": "maggi",
+      "size": "59.2g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid vürtsika",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "vürtsika",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "vürtsika": "vürtsika",
+        "kana": "kana"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -501,7 +1823,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_190094_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirsupp-koogivilja-nuudli-ramyun-112g/p/190094",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "112g",
+      "variety": "ramyun",
+      "nameLower": "kiirsupp köögivilja-nuudli ramyun 112g",
+      "brand": "kiirsupp",
+      "size": "112g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirsupp köögivilja nuudli ramyun",
+      "descriptorOrder": [
+        "kiirsupp",
+        "köögivilja",
+        "nuudli",
+        "ramyun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "ramyun": "ramyun"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -515,35 +1876,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_198497_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirsupp-nuudli-ramyun-120g/p/198497",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirsupp kanapüree saiakuubikutega Maggi 16g",
-    "price": 0.79,
-    "regularPrice": 0.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Maggi",
-    "storeUnitPrice": 49.37,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_140055_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirsupp-kanapuree-saiakuubikutega-maggi-16g/p/140055",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid vürts. kana maitselised Reeva 60g",
-    "price": 0.69,
-    "regularPrice": 0.69,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Reeva",
-    "storeUnitPrice": 11.5,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1012293_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-vurts-kana-maitselised-reeva-60g/p/1012293",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "120g",
+      "variety": "ramyun",
+      "nameLower": "kiirsupp nuudli ramyun 120g",
+      "brand": "kiirsupp",
+      "size": "120g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirsupp nuudli ramyun",
+      "descriptorOrder": [
+        "kiirsupp",
+        "nuudli",
+        "ramyun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "nuudli": "nuudli",
+        "ramyun": "ramyun"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -557,7 +1929,152 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194589_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuder-tilliga-5-minutit-maggi-50g/p/194589",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipuder",
+      "unit": "50g",
+      "variety": "maggi",
+      "nameLower": "kartulipuder tilliga 5 minutit maggi 50g",
+      "brand": "maggi",
+      "size": "50g",
+      "variant": "5",
+      "qualifiers": "tilliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulipuder minutit tilliga",
+      "descriptorOrder": [
+        "kartulipuder",
+        "tilliga",
+        "minutit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipuder": "kartulipuder",
+        "tilliga": "tilliga",
+        "minutit": "minutit"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "5",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirsupp kanapüree saiakuubikutega Maggi 16g",
+    "price": 0.79,
+    "regularPrice": 0.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Maggi",
+    "storeUnitPrice": 49.37,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_140055_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirsupp-kanapuree-saiakuubikutega-maggi-16g/p/140055",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "16g",
+      "variety": "maggi",
+      "nameLower": "kiirsupp kanapüree saiakuubikutega maggi 16g",
+      "brand": "maggi",
+      "size": "16g",
+      "variant": null,
+      "qualifiers": "saiakuubikutega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanapüree kiirsupp saiakuubikutega",
+      "descriptorOrder": [
+        "kiirsupp",
+        "kanapüree",
+        "saiakuubikutega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "kanapüree": "kanapüree",
+        "saiakuubikutega": "saiakuubikutega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid vürts. kana maitselised Reeva 60g",
+    "price": 0.69,
+    "regularPrice": 0.69,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Reeva",
+    "storeUnitPrice": 11.5,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1012293_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-vurts-kana-maitselised-reeva-60g/p/1012293",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid vürts. kana maitselised reeva 60g",
+      "brand": "reeva",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid vürts",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "vürts",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kana": "kana",
+        "maitselised": "maitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -571,7 +2088,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_152614_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/juustusupp-saiakuubikutega-maggi-19g/p/152614",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "juustusupp",
+      "unit": "19g",
+      "variety": "maggi",
+      "nameLower": "juustusupp saiakuubikutega maggi 19g",
+      "brand": "maggi",
+      "size": "19g",
+      "variant": null,
+      "qualifiers": "saiakuubikutega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustusupp saiakuubikutega",
+      "descriptorOrder": [
+        "juustusupp",
+        "saiakuubikutega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juustusupp": "juustusupp",
+        "saiakuubikutega": "saiakuubikutega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -585,7 +2139,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_165575_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirseenesupp-maggi-22g/p/165575",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirseenesupp",
+      "unit": "22g",
+      "variety": "maggi",
+      "nameLower": "kiirseenesupp maggi 22g",
+      "brand": "maggi",
+      "size": "22g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirseenesupp",
+      "descriptorOrder": [
+        "kiirseenesupp"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirseenesupp": "kiirseenesupp"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -599,7 +2188,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1000197_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kana--ja-seesamimaits-maggi-75g/p/1000197",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "75g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid kana- ja seesamimaits. maggi 75g",
+      "brand": "maggi",
+      "size": "75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kana kiirnuudlid seesami",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana",
+        "ja",
+        "seesami"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "ja": "ja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -613,7 +2241,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1000198_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-teriyakimaitselised-maggi-75g/p/1000198",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "75g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid teriyakimaitselised maggi 75g",
+      "brand": "maggi",
+      "size": "75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid teriyaki",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "teriyaki"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "teriyakimaitselised": "teriyakimaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -627,7 +2292,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194504_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/pasta-seenekestmega-tops-knorr-59g/p/194504",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pasta",
+      "unit": "59g",
+      "variety": "knorr",
+      "nameLower": "pasta seenekestmega tops knorr 59g",
+      "brand": "knorr",
+      "size": "59g",
+      "variant": null,
+      "qualifiers": "seenekestmega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pasta seenekestmega tops",
+      "descriptorOrder": [
+        "pasta",
+        "seenekestmega",
+        "tops"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pasta": "pasta",
+        "seenekestmega": "seenekestmega",
+        "tops": "tops"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -636,12 +2340,49 @@
     "regularPrice": 3.39,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "BLÅ BAND",
     "storeUnitPrice": 19.71,
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_176416_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/pajaroad/pajaroog-kanarisotto-bla-band-172g/p/176416",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pajaroog",
+      "unit": "172g",
+      "variety": "blå band",
+      "nameLower": "pajaroog kanarisotto blå band 172g",
+      "brand": "blå band",
+      "size": "172g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanarisotto pajaroog",
+      "descriptorOrder": [
+        "pajaroog",
+        "kanarisotto"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pajaroog": "pajaroog",
+        "kanarisotto": "kanarisotto"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -655,7 +2396,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_190093_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirsupp-mereandide-nuudli-terav-ramyun-120g/p/190093",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "120g",
+      "variety": "ramyun",
+      "nameLower": "kiirsupp mereandide-nuudli terav ramyun 120g",
+      "brand": "kiirsupp",
+      "size": "120g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirsupp mereandide nuudli ramyun terav",
+      "descriptorOrder": [
+        "kiirsupp",
+        "mereandide",
+        "nuudli",
+        "terav",
+        "ramyun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "terav": "terav",
+        "ramyun": "ramyun"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -669,7 +2451,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1000204_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-maguse-tsilli-maits-maggi-75g/p/1000204",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "75g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid maguse tšilli maits. maggi 75g",
+      "brand": "maggi",
+      "size": "75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid maguse tšilli",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "maguse",
+        "tšilli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "maguse": "maguse",
+        "tšilli": "tšilli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -683,7 +2504,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1013303_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanamaitselised-reeva-75g/p/1013303",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "75g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid kanamaitselised reeva 75g",
+      "brand": "reeva",
+      "size": "75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanamaitselised": "kanamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -697,7 +2555,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194335_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirsupp-herne-ja-krutoonidega-maggi-22g/p/194335",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "22g",
+      "variety": "maggi",
+      "nameLower": "kiirsupp herne ja krutoonidega maggi 22g",
+      "brand": "maggi",
+      "size": "22g",
+      "variant": null,
+      "qualifiers": "krutoonidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "herne ja kiirsupp krutoonidega",
+      "descriptorOrder": [
+        "kiirsupp",
+        "herne",
+        "ja",
+        "krutoonidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "herne": "herne",
+        "ja": "ja",
+        "krutoonidega": "krutoonidega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -711,7 +2610,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_140089_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirsupp-sampinjoni-saiakuubikutega-maggi-15g/p/140089",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "15g",
+      "variety": "maggi",
+      "nameLower": "kiirsupp šampinjoni saiakuubikutega maggi 15g",
+      "brand": "maggi",
+      "size": "15g",
+      "variant": null,
+      "qualifiers": "saiakuubikutega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirsupp saiakuubikutega šampinjoni",
+      "descriptorOrder": [
+        "kiirsupp",
+        "šampinjoni",
+        "saiakuubikutega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "šampinjoni": "šampinjoni",
+        "saiakuubikutega": "saiakuubikutega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -725,7 +2663,45 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_140057_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirsupid/kiirsupp-punapeedi-saiakuub-maggi-16g/p/140057",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirsupp",
+      "unit": "16g",
+      "variety": "maggi",
+      "nameLower": "kiirsupp punapeedi saiakuub. maggi 16g",
+      "brand": "maggi",
+      "size": "16g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirsupp punapeedi saiakuub",
+      "descriptorOrder": [
+        "kiirsupp",
+        "punapeedi",
+        "saiakuub"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirsupp": "kiirsupp",
+        "punapeedi": "punapeedi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -739,7 +2715,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194881_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-tomatiga-5-minutit-maggi-62g/p/194881",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "62g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid tomatiga 5 minutit maggi 62g",
+      "brand": "maggi",
+      "size": "62g",
+      "variant": "5",
+      "qualifiers": "tomatiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid minutit tomatiga",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "tomatiga",
+        "minutit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "tomatiga": "tomatiga",
+        "minutit": "minutit"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "5",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -753,7 +2768,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816867_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuree-peekoni-ja-sibulaga-salling-51g/p/816867",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipüree",
+      "unit": "51g",
+      "variety": "salling",
+      "nameLower": "kartulipüree peekoni ja sibulaga salling 51g",
+      "brand": "salling",
+      "size": "51g",
+      "variant": null,
+      "qualifiers": "sibulaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kartulipüree peekoni sibulaga",
+      "descriptorOrder": [
+        "kartulipüree",
+        "peekoni",
+        "ja",
+        "sibulaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipüree": "kartulipüree",
+        "peekoni": "peekoni",
+        "ja": "ja",
+        "sibulaga": "sibulaga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -767,7 +2823,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023436_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaitselised-reeva-60g/p/1023436",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid veiselihamaitselised reeva 60g",
+      "brand": "reeva",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid veiseliha",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "veiselihamaitselised": "veiselihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -781,7 +2874,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1013832_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-ramenroyal-kanamaitselised-50g/p/1013832",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "50g",
+      "variety": "ramenroyal",
+      "nameLower": "kiirnuudlid ramenroyal kanamaitselised 50g",
+      "brand": "ramenroyal",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanamaitselised": "kanamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -795,7 +2925,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1011683_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanalihamaitselised-sun-yan-60g/p/1011683",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "sun yan",
+      "nameLower": "kiirnuudlid kanalihamaitselised sun yan 60g",
+      "brand": "sun yan",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanaliha kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kanaliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanalihamaitselised": "kanalihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -809,7 +2976,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1013833_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-ramenroyal-kanamait-vurt-50g/p/1013833",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "50g",
+      "variety": "ramenroyal",
+      "nameLower": "kiirnuudlid ramenroyal kanamait. vürt. 50g",
+      "brand": "ramenroyal",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid vürt",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana",
+        "vürt"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -823,7 +3027,47 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816869_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/pasta-carb-k-kas-j-peek-salling-70g/p/816869",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pasta",
+      "unit": "70g",
+      "variety": "salling",
+      "nameLower": "pasta carb. k.kas. j.&peek. salling 70g",
+      "brand": "salling",
+      "size": "70g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carb j k kas pasta peek",
+      "descriptorOrder": [
+        "pasta",
+        "carb",
+        "k",
+        "kas",
+        "j",
+        "peek"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pasta": "pasta"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -837,7 +3081,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1013313_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaitselised-reeva-75g/p/1013313",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "75g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid veiselihamaitselised reeva 75g",
+      "brand": "reeva",
+      "size": "75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid veiseliha",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "veiselihamaitselised": "veiselihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -851,7 +3132,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023549_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-maggi-soy-garlic-185g/p/1023549",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "185g",
+      "variety": "maggi soy garlic",
+      "nameLower": "kiirnuudlid maggi soy garlic 185g",
+      "brand": "maggi",
+      "size": "185g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "garlic kiirnuudlid soy",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "soy",
+        "garlic"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "soy": "soy",
+        "garlic": "garlic"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -865,7 +3185,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019434_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-knorr-magus-hapumaitselised-65g/p/1019434",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "65g",
+      "variety": "knorr",
+      "nameLower": "kiirnuudlid knorr magus-hapumaitselised 65g",
+      "brand": "knorr",
+      "size": "65g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hapu kiirnuudlid magus",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "magus",
+        "hapu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -879,7 +3236,50 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816870_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/bolognese-pasta-tomati-ja-v-lih-salling-68g/p/816870",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "bolognese",
+      "unit": "68g",
+      "variety": "salling",
+      "nameLower": "bolognese pasta tomati ja v.lih. salling 68g",
+      "brand": "salling",
+      "size": "68g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bolognese ja lih pasta tomati v",
+      "descriptorOrder": [
+        "bolognese",
+        "pasta",
+        "tomati",
+        "ja",
+        "v",
+        "lih"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bolognese": "bolognese",
+        "pasta": "pasta",
+        "tomati": "tomati",
+        "ja": "ja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -893,7 +3293,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_190578_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/makaronid-juustu-urdi-kastmega-knorr-59g/p/190578",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "makaronid",
+      "unit": "59g",
+      "variety": "knorr",
+      "nameLower": "makaronid juustu-ürdi kastmega knorr 59g",
+      "brand": "knorr",
+      "size": "59g",
+      "variant": null,
+      "qualifiers": "kastmega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustu kastmega makaronid ürdi",
+      "descriptorOrder": [
+        "makaronid",
+        "juustu",
+        "ürdi",
+        "kastmega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "makaronid": "makaronid",
+        "kastmega": "kastmega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -907,7 +3346,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1011691_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaitselised-sun-yan-60g/p/1011691",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "sun yan",
+      "nameLower": "kiirnuudlid veiselihamaitselised sun yan 60g",
+      "brand": "sun yan",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid veiseliha",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "veiselihamaitselised": "veiselihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -921,7 +3397,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019348_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-reeva-asia-kana-maitsega-60g/p/1019348",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "reeva asia",
+      "nameLower": "kiirnuudlid reeva asia kana maitsega 60g",
+      "brand": "reeva",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "maitsega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "asia kana kiirnuudlid maitsega",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "asia",
+        "kana",
+        "maitsega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "asia": "asia",
+        "kana": "kana",
+        "maitsega": "maitsega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -935,7 +3452,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023529_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-maggi-sweet-chilli-185g/p/1023529",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "185g",
+      "variety": "maggi sweet chilli",
+      "nameLower": "kiirnuudlid maggi sweet chilli 185g",
+      "brand": "maggi",
+      "size": "185g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "chilli kiirnuudlid sweet",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "sweet",
+        "chilli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "sweet": "sweet",
+        "chilli": "chilli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -949,7 +3505,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004751_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/nuudlid-vurtsikad-sun-yan-65g/p/1004751",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nuudlid",
+      "unit": "65g",
+      "variety": "sun yan",
+      "nameLower": "nuudlid vürtsikad sun yan 65g",
+      "brand": "sun yan",
+      "size": "65g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nuudlid vürtsikad",
+      "descriptorOrder": [
+        "nuudlid",
+        "vürtsikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nuudlid": "nuudlid",
+        "vürtsikad": "vürtsikad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -963,7 +3556,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019435_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-koogiviljadega-maggi-59-2g/p/1019435",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "59.2g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid köögiviljadega maggi 59,2g",
+      "brand": "maggi",
+      "size": "59.2g",
+      "variant": null,
+      "qualifiers": "köögiviljadega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid köögiviljadega",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "köögiviljadega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "köögiviljadega": "köögiviljadega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -977,7 +3607,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023560_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-maggi-bami-goreng-185g/p/1023560",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "185g",
+      "variety": "maggi bami goreng",
+      "nameLower": "kiirnuudlid maggi bami goreng 185g",
+      "brand": "maggi",
+      "size": "185g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bami goreng kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "bami",
+        "goreng"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "bami": "bami",
+        "goreng": "goreng"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -991,7 +3660,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023273_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlisupp-sojakastme-oyakata-ramen-83g/p/1023273",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlisupp",
+      "unit": "83g",
+      "variety": "oyakata ramen",
+      "nameLower": "kiirnuudlisupp sojakastme oyakata ramen 83g",
+      "brand": "oyakata",
+      "size": "83g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlisupp ramen sojakastme",
+      "descriptorOrder": [
+        "kiirnuudlisupp",
+        "sojakastme",
+        "ramen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlisupp": "kiirnuudlisupp",
+        "sojakastme": "sojakastme",
+        "ramen": "ramen"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1005,7 +3713,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816841_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/tomatisupp-makaronidega-salling-49g/p/816841",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tomatisupp",
+      "unit": "49g",
+      "variety": "salling",
+      "nameLower": "tomatisupp makaronidega salling 49g",
+      "brand": "salling",
+      "size": "49g",
+      "variant": null,
+      "qualifiers": "makaronidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "makaronidega tomatisupp",
+      "descriptorOrder": [
+        "tomatisupp",
+        "makaronidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tomatisupp": "tomatisupp",
+        "makaronidega": "makaronidega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1019,7 +3764,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1022641_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanamaitselised-reeva-85g/p/1022641",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "85g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid kanamaitselised reeva 85g",
+      "brand": "reeva",
+      "size": "85g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanamaitselised": "kanamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1033,7 +3815,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1017305_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-carbonara-topsis-reeva-70g/p/1017305",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "70g",
+      "variety": "carbonara reeva",
+      "nameLower": "kiirnuudlid carbonara topsis reeva 70g",
+      "brand": "reeva",
+      "size": "70g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carbonara kiirnuudlid topsis",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "carbonara",
+        "topsis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "carbonara": "carbonara",
+        "topsis": "topsis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1047,7 +3868,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019422_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/pasta-knorr-4-juustuga-66g/p/1019422",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pasta",
+      "unit": "66g",
+      "variety": "knorr",
+      "nameLower": "pasta knorr 4 juustuga 66g",
+      "brand": "knorr",
+      "size": "66g",
+      "variant": "4",
+      "qualifiers": "juustuga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustuga pasta",
+      "descriptorOrder": [
+        "pasta",
+        "juustuga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pasta": "pasta",
+        "juustuga": "juustuga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1061,7 +3919,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1017904_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-vurtsika-kana-maits-sun-yan-60g/p/1017904",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "sun yan",
+      "nameLower": "kiirnuudlid vürtsika kana maits. sun yan 60g",
+      "brand": "sun yan",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid vürtsika",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "vürtsika",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "vürtsika": "vürtsika",
+        "kana": "kana"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1075,91 +3972,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019446_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirpudrud/kartulipuree-knorr-sibula-ja-krutoonidega-48g/p/1019446",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid Aasia vürts. Teriyaki Maggi 128g",
-    "price": 2.25,
-    "regularPrice": 2.25,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Maggi",
-    "storeUnitPrice": 17.58,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023073_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-aasia-vurts-teriyaki-maggi-128g/p/1023073",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid veiselihamaitselised Reeva 85g",
-    "price": 1.15,
-    "regularPrice": 1.15,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Reeva",
-    "storeUnitPrice": 13.53,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1022633_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaitselised-reeva-85g/p/1022633",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid Pasta Carbonara Maggi 50g",
-    "price": 1.79,
-    "regularPrice": 1.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Maggi",
-    "storeUnitPrice": 35.8,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194604_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-pasta-carbonara-maggi-50g/p/194604",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid kanalihamaitselised Sun Yan 65g",
-    "price": 1.09,
-    "regularPrice": 1.09,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Sun Yan",
-    "storeUnitPrice": 16.77,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004740_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanalihamaitselised-sun-yan-65g/p/1004740",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid Bolognese topsis Reeva 70g",
-    "price": 1.79,
-    "regularPrice": 1.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Reeva",
-    "storeUnitPrice": 25.57,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1017321_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-bolognese-topsis-reeva-70g/p/1017321",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid Oyakata Korea barbecue maits. 93g",
-    "price": 1.95,
-    "regularPrice": 1.95,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Oyakata",
-    "storeUnitPrice": 20.97,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004090_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-oyakata-korea-barbecue-maits-93g/p/1004090",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartulipüree",
+      "unit": "48g",
+      "variety": "knorr",
+      "nameLower": "kartulipüree knorr sibula ja krutoonidega 48g",
+      "brand": "knorr",
+      "size": "48g",
+      "variant": null,
+      "qualifiers": "krutoonidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kartulipüree krutoonidega sibula",
+      "descriptorOrder": [
+        "kartulipüree",
+        "sibula",
+        "ja",
+        "krutoonidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipüree": "kartulipüree",
+        "sibula": "sibula",
+        "ja": "ja",
+        "krutoonidega": "krutoonidega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1173,7 +4027,359 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1021480_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-juustumaitselised-maggi-59-2g/p/1021480",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "59.2g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid juustumaitselised maggi 59,2g",
+      "brand": "maggi",
+      "size": "59.2g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustu kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "juustu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "juustumaitselised": "juustumaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid Aasia vürts. Teriyaki Maggi 128g",
+    "price": 2.25,
+    "regularPrice": 2.25,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Maggi",
+    "storeUnitPrice": 17.58,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023073_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-aasia-vurts-teriyaki-maggi-128g/p/1023073",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "128g",
+      "variety": "aasia teriyaki maggi",
+      "nameLower": "kiirnuudlid aasia vürts. teriyaki maggi 128g",
+      "brand": "maggi",
+      "size": "128g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aasia kiirnuudlid teriyaki vürts",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "aasia",
+        "vürts",
+        "teriyaki"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "aasia": "aasia",
+        "teriyaki": "teriyaki"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid veiselihamaitselised Reeva 85g",
+    "price": 1.15,
+    "regularPrice": 1.15,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Reeva",
+    "storeUnitPrice": 13.53,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1022633_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaitselised-reeva-85g/p/1022633",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "85g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid veiselihamaitselised reeva 85g",
+      "brand": "reeva",
+      "size": "85g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid veiseliha",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "veiselihamaitselised": "veiselihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid Pasta Carbonara Maggi 50g",
+    "price": 1.79,
+    "regularPrice": 1.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Maggi",
+    "storeUnitPrice": 35.8,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_194604_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-pasta-carbonara-maggi-50g/p/194604",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "50g",
+      "variety": "pasta carbonara maggi",
+      "nameLower": "kiirnuudlid pasta carbonara maggi 50g",
+      "brand": "maggi",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carbonara kiirnuudlid pasta",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "pasta",
+        "carbonara"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "pasta": "pasta",
+        "carbonara": "carbonara"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid kanalihamaitselised Sun Yan 65g",
+    "price": 1.09,
+    "regularPrice": 1.09,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Sun Yan",
+    "storeUnitPrice": 16.77,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004740_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanalihamaitselised-sun-yan-65g/p/1004740",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "65g",
+      "variety": "sun yan",
+      "nameLower": "kiirnuudlid kanalihamaitselised sun yan 65g",
+      "brand": "sun yan",
+      "size": "65g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanaliha kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kanaliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanalihamaitselised": "kanalihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid Bolognese topsis Reeva 70g",
+    "price": 1.79,
+    "regularPrice": 1.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Reeva",
+    "storeUnitPrice": 25.57,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1017321_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-bolognese-topsis-reeva-70g/p/1017321",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "70g",
+      "variety": "bolognese reeva",
+      "nameLower": "kiirnuudlid bolognese topsis reeva 70g",
+      "brand": "reeva",
+      "size": "70g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bolognese kiirnuudlid topsis",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "bolognese",
+        "topsis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "bolognese": "bolognese",
+        "topsis": "topsis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid Oyakata Korea barbecue maits. 93g",
+    "price": 1.95,
+    "regularPrice": 1.95,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Oyakata",
+    "storeUnitPrice": 20.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004090_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-oyakata-korea-barbecue-maits-93g/p/1004090",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "93g",
+      "variety": "oyakata korea",
+      "nameLower": "kiirnuudlid oyakata korea barbecue maits. 93g",
+      "brand": "oyakata",
+      "size": "93g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barbecue kiirnuudlid korea",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "korea",
+        "barbecue"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "korea": "korea",
+        "barbecue": "barbecue"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1182,12 +4388,53 @@
     "regularPrice": 1.39,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "NISSIN",
     "storeUnitPrice": 13.9,
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004878_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuud-supp-seesami-nissin-demae-ramen-100g/p/1004878",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuud",
+      "unit": "100g",
+      "variety": "nissin demae ramen",
+      "nameLower": "kiirnuud.supp seesami nissin demae ramen 100g",
+      "brand": "nissin",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "demae kiirnuud ramen seesami supp",
+      "descriptorOrder": [
+        "kiirnuud",
+        "supp",
+        "seesami",
+        "demae",
+        "ramen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seesami": "seesami",
+        "demae": "demae",
+        "ramen": "ramen"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1201,7 +4448,47 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023444_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/riisinuudlid-tom-yum-maitselised-glads-65g/p/1023444",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisinuudlid",
+      "unit": "65g",
+      "variety": "tom yum glads",
+      "nameLower": "riisinuudlid tom yum maitselised glads 65g",
+      "brand": "glads",
+      "size": "65g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisinuudlid tom yum",
+      "descriptorOrder": [
+        "riisinuudlid",
+        "tom",
+        "yum"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisinuudlid": "riisinuudlid",
+        "tom": "tom",
+        "yum": "yum",
+        "maitselised": "maitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1215,7 +4502,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023445_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-ramen-chicken-glads-105g/p/1023445",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "105g",
+      "variety": "ramen chicken glads",
+      "nameLower": "kiirnuudlid ramen chicken glads 105g",
+      "brand": "glads",
+      "size": "105g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "chicken kiirnuudlid ramen",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "ramen",
+        "chicken"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "ramen": "ramen",
+        "chicken": "chicken"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1229,7 +4555,47 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023726_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-korea-stiilis-juustum-maggi-130g/p/1023726",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "130g",
+      "variety": "korea maggi",
+      "nameLower": "kiirnuudlid korea stiilis juustum. maggi 130g",
+      "brand": "maggi",
+      "size": "130g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustum kiirnuudlid korea stiilis",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "korea",
+        "stiilis",
+        "juustum"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "korea": "korea",
+        "stiilis": "stiilis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1243,7 +4609,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019345_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-reeva-seenemaitselised-70g/p/1019345",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "70g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid reeva seenemaitselised 70g",
+      "brand": "reeva",
+      "size": "70g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid seene",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "seene"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "seenemaitselised": "seenemaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1257,7 +4660,43 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816599_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanalihamaits-rimi-smart-60g/p/816599",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "rimi smart",
+      "nameLower": "kiirnuudlid kanalihamaits. rimi smart 60g",
+      "brand": "rimi smart",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanaliha kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kanaliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1271,7 +4710,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1017893_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-juustu--ja-urdimaits-sun-yan-60g/p/1017893",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "sun yan",
+      "nameLower": "kiirnuudlid juustu- ja ürdimaits. sun yan 60g",
+      "brand": "sun yan",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja juustu kiirnuudlid ürdi",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "juustu",
+        "ja",
+        "ürdi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "ja": "ja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1285,7 +4763,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023083_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-aasia-vurtsidega-maggi-75g/p/1023083",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "75g",
+      "variety": "aasia maggi",
+      "nameLower": "kiirnuudlid aasia vürtsidega maggi 75g",
+      "brand": "maggi",
+      "size": "75g",
+      "variant": null,
+      "qualifiers": "vürtsidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aasia kiirnuudlid vürtsidega",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "aasia",
+        "vürtsidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "aasia": "aasia",
+        "vürtsidega": "vürtsidega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1299,7 +4816,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023422_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaitselised-maggi-90g/p/1023422",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "90g",
+      "variety": "maggi",
+      "nameLower": "kiirnuudlid veiselihamaitselised maggi 90g",
+      "brand": "maggi",
+      "size": "90g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid veiseliha",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "veiselihamaitselised": "veiselihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1313,7 +4867,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1011489_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/pasta-carbonara-peekoniga-knorr-153g/p/1011489",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pasta",
+      "unit": "153g",
+      "variety": "carbonara knorr",
+      "nameLower": "pasta carbonara peekoniga knorr 153g",
+      "brand": "knorr",
+      "size": "153g",
+      "variant": null,
+      "qualifiers": "peekoniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carbonara pasta peekoniga",
+      "descriptorOrder": [
+        "pasta",
+        "carbonara",
+        "peekoniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pasta": "pasta",
+        "carbonara": "carbonara",
+        "peekoniga": "peekoniga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1327,7 +4920,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1014119_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanamaitselised-rondo-50g/p/1014119",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "50g",
+      "variety": "rondo",
+      "nameLower": "kiirnuudlid kanamaitselised rondo 50g",
+      "brand": "rondo",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanamaitselised": "kanamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1341,21 +4971,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019398_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-reeva-kana-maitsega-70g/p/1019398",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid Sun Yan Yakisoba kana maits. 85g",
-    "price": 2.25,
-    "regularPrice": 2.25,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Sun Yan",
-    "storeUnitPrice": 26.47,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019346_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-sun-yan-yakisoba-kana-maits-85g/p/1019346",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "70g",
+      "variety": "reeva",
+      "nameLower": "kiirnuudlid reeva kana maitsega 70g",
+      "brand": "reeva",
+      "size": "70g",
+      "variant": null,
+      "qualifiers": "maitsega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid maitsega",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana",
+        "maitsega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kana": "kana",
+        "maitsega": "maitsega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1369,7 +5024,96 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816593_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-veiselihamaits-rimi-smart-60g/p/816593",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "rimi smart",
+      "nameLower": "kiirnuudlid veiselihamaits. rimi smart 60g",
+      "brand": "rimi smart",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid veiseliha",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid Sun Yan Yakisoba kana maits. 85g",
+    "price": 2.25,
+    "regularPrice": 2.25,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Sun Yan",
+    "storeUnitPrice": 26.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019346_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-sun-yan-yakisoba-kana-maits-85g/p/1019346",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "85g",
+      "variety": "sun yan yakisoba",
+      "nameLower": "kiirnuudlid sun yan yakisoba kana maits. 85g",
+      "brand": "sun yan",
+      "size": "85g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid yakisoba",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "yakisoba",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "yakisoba": "yakisoba",
+        "kana": "kana"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1378,12 +5122,52 @@
     "regularPrice": 1.39,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "NISSIN",
     "storeUnitPrice": 13.9,
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004858_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlisupp-veise-nissin-demae-ramen-100g/p/1004858",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlisupp",
+      "unit": "100g",
+      "variety": "nissin demae ramen",
+      "nameLower": "kiirnuudlisupp veise. nissin demae ramen 100g",
+      "brand": "nissin",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "demae kiirnuudlisupp ramen veise",
+      "descriptorOrder": [
+        "kiirnuudlisupp",
+        "veise",
+        "demae",
+        "ramen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlisupp": "kiirnuudlisupp",
+        "demae": "demae",
+        "ramen": "ramen"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1397,7 +5181,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023443_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-ramen-kimchi-glads-mag-ain-105g/p/1023443",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "105g",
+      "variety": "ramen kimchi glads",
+      "nameLower": "kiirnuudlid ramen kimchi glads mag.ain. 105g",
+      "brand": "glads",
+      "size": "105g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ain kiirnuudlid kimchi mag ramen",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "ramen",
+        "kimchi",
+        "mag",
+        "ain"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "ramen": "ramen",
+        "kimchi": "kimchi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1411,7 +5236,47 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1011684_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-tom-yum-maitselised-sun-yan-60g/p/1011684",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "60g",
+      "variety": "tom yum sun yan",
+      "nameLower": "kiirnuudlid tom yum maitselised sun yan 60g",
+      "brand": "sun yan",
+      "size": "60g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kiirnuudlid tom yum",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "tom",
+        "yum"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "tom": "tom",
+        "yum": "yum",
+        "maitselised": "maitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1425,7 +5290,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1014136_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-vurtsika-kana-mait-rondo-50g/p/1014136",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "50g",
+      "variety": "rondo",
+      "nameLower": "kiirnuudlid vürtsika kana mait. rondo 50g",
+      "brand": "rondo",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid vürtsika",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "vürtsika",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "vürtsika": "vürtsika",
+        "kana": "kana"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1439,21 +5343,50 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1019409_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-wok-chicken-teriyaki-kastmega-95g/p/1019409",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kiirnuudlid Yatekomo Kana-soja 79g",
-    "price": 1.99,
-    "regularPrice": 1.99,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Yatekomo",
-    "storeUnitPrice": 25.19,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_166921_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-yatekomo-kana-soja-79g/p/166921",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "95g",
+      "variety": "wok chicken teriyaki",
+      "nameLower": "kiirnuudlid wok chicken teriyaki kastmega 95g",
+      "brand": "kiirnuudlid",
+      "size": "95g",
+      "variant": null,
+      "qualifiers": "kastmega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "chicken kastmega kiirnuudlid teriyaki wok",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "wok",
+        "chicken",
+        "teriyaki",
+        "kastmega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "wok": "wok",
+        "chicken": "chicken",
+        "teriyaki": "teriyaki",
+        "kastmega": "kastmega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1467,7 +5400,95 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_190957_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-nongshim-chapagetti-140g/p/190957",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "140g",
+      "variety": "nongshim chapagetti",
+      "nameLower": "kiirnuudlid nongshim chapagetti 140g",
+      "brand": "nongshim",
+      "size": "140g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "chapagetti kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "chapagetti"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "chapagetti": "chapagetti"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kiirnuudlid Yatekomo Kana-soja 79g",
+    "price": 1.99,
+    "regularPrice": 1.99,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Yatekomo",
+    "storeUnitPrice": 25.19,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_166921_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-yatekomo-kana-soja-79g/p/166921",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "79g",
+      "variety": "yatekomo kana",
+      "nameLower": "kiirnuudlid yatekomo kana-soja 79g",
+      "brand": "yatekomo",
+      "size": "79g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana kiirnuudlid soja",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kana",
+        "soja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1481,7 +5502,49 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023067_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-aasia-vurts-pad-thai-maggi-128g/p/1023067",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "128g",
+      "variety": "aasia pad thai maggi",
+      "nameLower": "kiirnuudlid aasia vürts. pad thai maggi 128g",
+      "brand": "maggi",
+      "size": "128g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aasia kiirnuudlid pad thai vürts",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "aasia",
+        "vürts",
+        "pad",
+        "thai"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "aasia": "aasia",
+        "pad": "pad",
+        "thai": "thai"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1495,7 +5558,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004194_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-kanalihamaitselised-sun-yan-65g/p/1004194",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "65g",
+      "variety": "sun yan",
+      "nameLower": "kiirnuudlid kanalihamaitselised sun yan 65g",
+      "brand": "sun yan",
+      "size": "65g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanaliha kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "kanaliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "kanalihamaitselised": "kanalihamaitselised"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1509,6 +5609,43 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_166920_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/kiirnuudlid-ja--pastad/kiirnuudlid-yatekomo-barbeque-79g/p/166920",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kiirnuudlid",
+      "unit": "79g",
+      "variety": "yatekomo barbeque",
+      "nameLower": "kiirnuudlid yatekomo barbeque 79g",
+      "brand": "yatekomo",
+      "size": "79g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barbeque kiirnuudlid",
+      "descriptorOrder": [
+        "kiirnuudlid",
+        "barbeque"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kiirnuudlid": "kiirnuudlid",
+        "barbeque": "barbeque"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

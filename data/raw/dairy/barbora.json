@@ -12,7 +12,12 @@
     "unit": "l",
     "storeUnitPrice": 0.92,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/3886f751-498d-4199-9502-3f0eeb68ff63_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -28,8 +33,26 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -45,7 +68,12 @@
     "unit": "l",
     "storeUnitPrice": 0.89,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/29dff94c-3626-4a4d-9f4b-28d20f50a19a_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -61,8 +89,28 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "kiles piim",
+      "descriptorOrder": [
+        "piim",
+        "kiles"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "kiles": "kiles"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -78,7 +126,12 @@
     "unit": "l",
     "storeUnitPrice": 1.25,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/15ff5fda-727e-4d19-ad2b-2a88bbd40ba7_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -94,8 +147,26 @@
       "colors": "",
       "fatPercent": "0.05",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -111,7 +182,12 @@
     "unit": "l",
     "storeUnitPrice": 1.6,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/0aaa7897-39a1-4dc6-87a2-de630b9cd80a_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -127,8 +203,26 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -144,7 +238,12 @@
     "unit": "l",
     "storeUnitPrice": 2.19,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/0d49af5a-d33a-484d-bc42-2f044a788d5f_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -158,10 +257,28 @@
       "variant": null,
       "qualifiers": "",
       "colors": "",
-      "fatPercent": "5",
+      "fatPercent": "3.5",
       "descriptors": "capuccino joogipiim kõrgkuum",
+      "descriptorOrder": [
+        "kõrgkuum",
+        "joogipiim",
+        "capuccino"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -177,7 +294,12 @@
     "unit": "l",
     "storeUnitPrice": 1.99,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/117cd1b3-505a-4de5-a4ff-29a057ddef79_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -193,8 +315,28 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "joogipiim kõrgkuum latte",
+      "descriptorOrder": [
+        "kõrgkuum",
+        "joogipiim",
+        "latte"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "latte": "latte"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -210,7 +352,12 @@
     "unit": "l",
     "storeUnitPrice": 0.89,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/ab7c4774-39da-48b1-8038-80aef8f35dd6_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -226,8 +373,28 @@
       "colors": "",
       "fatPercent": "2",
       "descriptors": "piim uht",
+      "descriptorOrder": [
+        "piim",
+        "uht"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "uht": "uht"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -243,7 +410,12 @@
     "unit": "l",
     "storeUnitPrice": 0.95,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/24abc00a-83ab-41c1-bd95-9c87b9c75a9d_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -259,8 +431,28 @@
       "colors": "",
       "fatPercent": "3.2",
       "descriptors": "piim uht",
+      "descriptorOrder": [
+        "piim",
+        "uht"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "uht": "uht"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -276,7 +468,12 @@
     "unit": "l",
     "storeUnitPrice": 0.85,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/617885f5-e8d2-4f36-922b-03d2875758ea_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -292,8 +489,28 @@
       "colors": "",
       "fatPercent": "0.5",
       "descriptors": "piim uht",
+      "descriptorOrder": [
+        "piim",
+        "uht"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "uht": "uht"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -309,7 +526,12 @@
     "unit": "l",
     "storeUnitPrice": 0.99,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/7749b5e3-4d6e-406a-b677-b02c9a078c2f_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -325,8 +547,26 @@
       "colors": "",
       "fatPercent": "2",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -342,7 +582,12 @@
     "unit": "l",
     "storeUnitPrice": 0.55,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/7dab0c23-c486-4a0e-afce-dde5fda63df6_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -358,8 +603,30 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "eesti kile piim",
+      "descriptorOrder": [
+        "eesti",
+        "piim",
+        "kile"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "eesti": "eesti",
+        "piim": "piim",
+        "kile": "kile"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -375,7 +642,12 @@
     "unit": "l",
     "storeUnitPrice": 1.55,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/f53b3b95-b71e-40aa-8dd0-f7182b571fbd_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -391,8 +663,26 @@
       "colors": "",
       "fatPercent": "3.6-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -408,7 +698,12 @@
     "unit": "l",
     "storeUnitPrice": 1.29,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/97791bc3-228c-4d2c-a71f-bfeafbed4708_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -424,8 +719,26 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -441,7 +754,12 @@
     "unit": "l",
     "storeUnitPrice": 1.08,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/76c8818d-b5e4-4cfe-8992-ae4852395b97_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -457,8 +775,26 @@
       "colors": "",
       "fatPercent": "3.6-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -474,7 +810,12 @@
     "unit": "l",
     "storeUnitPrice": 1.61,
     "brand": "NOPRI",
+    "image": "https://cdn.barbora.ee/products/a2c56d01-5d6a-4d44-a399-2cdc2109f5af_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -490,8 +831,26 @@
       "colors": "",
       "fatPercent": "3.8-4.4",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -507,7 +866,12 @@
     "unit": "l",
     "storeUnitPrice": 1,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/a9a93f8d-6ded-410d-832a-15d68863453e_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -523,8 +887,26 @@
       "colors": "",
       "fatPercent": "3.6-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -540,7 +922,12 @@
     "unit": "l",
     "storeUnitPrice": 1.05,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/09fab767-c00e-493c-bf15-c945c4b6602d_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -556,8 +943,26 @@
       "colors": "",
       "fatPercent": "3.2",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -573,7 +978,12 @@
     "unit": "l",
     "storeUnitPrice": 1.98,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/1b3c58b2-efe7-4672-bfb0-10a2d2964520_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -589,8 +999,26 @@
       "colors": "",
       "fatPercent": "3.8-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -606,24 +1034,47 @@
     "unit": "l",
     "storeUnitPrice": 1.69,
     "brand": "MO SAAREMAA",
+    "image": "https://cdn.barbora.ee/products/a90846d4-5040-4561-9c17-0c02834e2547_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
       "type": "mahetäispiim",
       "unit": "1000ml",
-      "variety": "mo saaremaa öko",
-      "nameLower": "mahetäispiim mo saaremaa öko 3,8-4,4%,1l",
+      "variety": "mo saaremaa",
+      "nameLower": "mahetäispiim mo saaremaa  3,8-4,4%,1l",
       "brand": "mo saaremaa",
       "size": "1000ml",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "mahe",
       "colors": "",
       "fatPercent": "3.8-4.4",
       "descriptors": "mahetäispiim",
+      "descriptorOrder": [
+        "mahetäispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahetäispiim": "mahetäispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -639,7 +1090,12 @@
     "unit": "l",
     "storeUnitPrice": 0.79,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/5ba64508-3f7d-4e6f-b2f6-f938f60573dd_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -655,8 +1111,28 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim uht",
+      "descriptorOrder": [
+        "piim",
+        "uht"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "uht": "uht"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -672,7 +1148,12 @@
     "unit": "l",
     "storeUnitPrice": 1.69,
     "brand": "NOPRI",
+    "image": "https://cdn.barbora.ee/products/1f16537e-4179-4a3e-9cd8-ac425b267230_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -688,41 +1169,28 @@
       "colors": "",
       "fatPercent": "3.8-4.4",
       "descriptors": "pastör ta toorpiim",
+      "descriptorOrder": [
+        "toorpiim",
+        "pastör",
+        "ta"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "toorpiim": "toorpiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Piim WELL DONE 2,5%, 1L",
-    "price": 1.15,
-    "regularPrice": 1.15,
-    "cardPrice": 0.95,
-    "cardName": "Aitäh",
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/piim-well-done-2-5-proc-1-l",
-    "ean": null,
-    "unit": "l",
-    "storeUnitPrice": 0.95,
-    "brand": "WELL DONE",
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "piim",
-      "unit": "1000ml",
-      "variety": "well done",
-      "nameLower": "piim well done 2,5%, 1l",
-      "brand": "well done",
-      "size": "1000ml",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": "2.5",
-      "descriptors": "piim",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -738,7 +1206,12 @@
     "unit": "l",
     "storeUnitPrice": 1.19,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/c008c658-948b-4ce4-952c-182fb54746ce_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -754,8 +1227,84 @@
       "colors": "",
       "fatPercent": "1.8",
       "descriptors": "d piim vitamiiniga",
+      "descriptorOrder": [
+        "piim",
+        "d",
+        "vitamiiniga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Piim WELL DONE 2,5%, 1L",
+    "price": 1.15,
+    "regularPrice": 1.15,
+    "cardPrice": 0.95,
+    "cardName": "Aitäh",
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/piim-well-done-2-5-proc-1-l",
+    "ean": null,
+    "unit": "l",
+    "storeUnitPrice": 0.95,
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/cd4329f8-50fc-424a-a3b2-81ea9c578a36_m.png",
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "piim",
+      "unit": "1000ml",
+      "variety": "well done",
+      "nameLower": "piim well done 2,5%, 1l",
+      "brand": "well done",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "2.5",
+      "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -771,7 +1320,12 @@
     "unit": "kg",
     "storeUnitPrice": 14.6,
     "brand": "ESTOVER",
+    "image": "https://cdn.barbora.ee/products/76548859-44bc-4e01-a98e-bd431b0b5589_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -787,8 +1341,28 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "eesti taluvõi",
+      "descriptorOrder": [
+        "taluvõi",
+        "eesti"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "taluvõi": "taluvõi",
+        "eesti": "eesti"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -804,7 +1378,12 @@
     "unit": "kg",
     "storeUnitPrice": 12.95,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/70c08857-bbc4-4d3a-b244-99f991fef2b5_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -820,8 +1399,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -837,7 +1434,12 @@
     "unit": "kg",
     "storeUnitPrice": 9.98,
     "brand": "VALIO",
+    "image": "https://cdn.barbora.ee/products/f54d2bc8-9e95-4632-bb25-46483d3e93d1_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -853,8 +1455,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "soolata või",
+      "descriptorOrder": [
+        "või",
+        "soolata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "meiereivõi",
+        "soolata": "soolata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -870,7 +1492,12 @@
     "unit": "kg",
     "storeUnitPrice": 9.96,
     "brand": "E-PIIM",
+    "image": "https://cdn.barbora.ee/products/1cb4f5cc-792e-461a-9923-0c00711a404f_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -886,8 +1513,28 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "eesti või",
+      "descriptorOrder": [
+        "või",
+        "eesti"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "eesti": "eesti"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -903,7 +1550,12 @@
     "unit": "kg",
     "storeUnitPrice": 8.75,
     "brand": "MO SAAREMAA",
+    "image": "https://cdn.barbora.ee/products/80b3e022-87f2-4b6c-9dd2-0d8efbfda208_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -919,8 +1571,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -936,7 +1606,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.5,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/a3b90c3f-7e8f-4752-8748-b9ee3db06989_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -952,8 +1627,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -969,7 +1662,12 @@
     "unit": "kg",
     "storeUnitPrice": 27.92,
     "brand": "GOAT FARM",
+    "image": "https://cdn.barbora.ee/products/f0cdb00c-79d6-4637-88af-d5027e7fc87d_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -985,8 +1683,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kitsepiimavõi",
+      "descriptorOrder": [
+        "kitsepiimavõi"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kitsepiimavõi": "kitsepiimavõi"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1002,7 +1718,12 @@
     "unit": "kg",
     "storeUnitPrice": 13.98,
     "brand": "SAULUTE",
+    "image": "https://cdn.barbora.ee/products/426ed608-55ec-4c0b-bd43-78e92453d185_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1018,8 +1739,29 @@
       "colors": "",
       "fatPercent": "99.9",
       "descriptors": "goldenghee selitat või",
+      "descriptorOrder": [
+        "või",
+        "goldenghee",
+        "selitat"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "goldenghee": "goldenghee"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1035,7 +1777,12 @@
     "unit": "kg",
     "storeUnitPrice": 11.67,
     "brand": "MO SAAREMAA",
+    "image": "https://cdn.barbora.ee/products/cbebffde-f932-4abf-8a9c-4547d632a537_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1051,8 +1798,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "küüsl soolakrist või",
+      "descriptorOrder": [
+        "või",
+        "küüsl",
+        "soolakrist"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1068,7 +1835,12 @@
     "unit": "kg",
     "storeUnitPrice": 10.75,
     "brand": "DZIUGAS",
+    "image": "https://cdn.barbora.ee/products/0bdcb103-04c0-4816-808f-d7035ea173b4_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1084,8 +1856,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "rõõsakoorevõi",
+      "descriptorOrder": [
+        "rõõsakoorevõi"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "rõõsakoorevõi": "rõõsakoorevõi"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1101,7 +1891,12 @@
     "unit": "kg",
     "storeUnitPrice": 12.45,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/3fcce7e2-e6df-47d0-bc8c-7ce25ec4fb71_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1117,8 +1912,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1134,7 +1947,12 @@
     "unit": "kg",
     "storeUnitPrice": 7.59,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/c1fedf32-2005-4453-91a1-dfb4aea187a0_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1150,24 +1968,47 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Barbora",
     "name": "Või ürtidega WELL DONE PREMIUM 62%, 125g",
-    "price": 1.49,
-    "regularPrice": 1.49,
+    "price": 1.59,
+    "regularPrice": 1.59,
     "cardPrice": null,
     "cardName": null,
     "currency": "EUR",
     "url": "https://barbora.ee/toode/voi-urtidega-well-done-premium-62-proc-125-g",
     "ean": null,
     "unit": "kg",
-    "storeUnitPrice": 11.92,
+    "storeUnitPrice": 12.72,
     "brand": "WELL DONE PREMIUM",
+    "image": "https://cdn.barbora.ee/products/8fb1160e-7f51-421d-8e41-89ccdd49788c_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1179,12 +2020,32 @@
       "brand": "well done premium",
       "size": "125g",
       "variant": null,
-      "qualifiers": "rtidega",
+      "qualifiers": "ürtidega",
       "colors": "",
       "fatPercent": "62",
       "descriptors": "või ürtidega",
+      "descriptorOrder": [
+        "või",
+        "ürtidega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "ürtidega": "ürtidega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1200,7 +2061,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.62,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/f28e3d59-8af8-46b3-ab7c-044f487e3868_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1216,57 +2082,47 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Või 82% 200g",
-    "price": 2.29,
-    "regularPrice": 2.29,
-    "cardPrice": 1.29,
-    "cardName": "Aitäh",
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/voi-82-proc-200-g-15949",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 6.45,
-    "brand": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "või",
-      "unit": "200g",
-      "variety": null,
-      "nameLower": "või 82% 200g",
-      "brand": "või",
-      "size": "200g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": "82",
-      "descriptors": "või",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Barbora",
     "name": "Või soolaga WELL DONE PREMIUM 80%, 125g",
-    "price": 1.49,
-    "regularPrice": 1.49,
+    "price": 1.59,
+    "regularPrice": 1.59,
     "cardPrice": null,
     "cardName": null,
     "currency": "EUR",
     "url": "https://barbora.ee/toode/voi-soolaga-well-done-premium-80-proc-125-g",
     "ean": null,
     "unit": "kg",
-    "storeUnitPrice": 11.92,
+    "storeUnitPrice": 12.72,
     "brand": "WELL DONE PREMIUM",
+    "image": "https://cdn.barbora.ee/products/60002d0d-415c-4dc2-bb09-97dbd779e96c_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1282,8 +2138,28 @@
       "colors": "",
       "fatPercent": "80",
       "descriptors": "soolaga või",
+      "descriptorOrder": [
+        "või",
+        "soolaga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "soolaga": "soolaga"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1299,7 +2175,12 @@
     "unit": "kg",
     "storeUnitPrice": 15.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/808169a0-e227-4102-b252-ca637d8a320a_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1315,8 +2196,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ghee või",
+      "descriptorOrder": [
+        "või",
+        "ghee"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "ghee": "ghee"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1332,7 +2233,12 @@
     "unit": "tk",
     "storeUnitPrice": 0.4,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/e3636e54-00c1-406d-a779-5f2e00af5a1f_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1342,14 +2248,32 @@
       "variety": "well done",
       "nameLower": "ökomunad well done, 10tk",
       "brand": "well done",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "ökomunad",
+      "descriptorOrder": [
+        "ökomunad"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "ökomunad": "ökomunad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1365,7 +2289,12 @@
     "unit": "tk",
     "storeUnitPrice": 0.3,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/00920f9c-3393-4b56-acc7-898dd6a8d38c_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1375,14 +2304,35 @@
       "variety": "vab m well done",
       "nameLower": "vab.peet.kanade munad m well done 10tk",
       "brand": "well done",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "kanade m munad peet vab",
+      "descriptors": "m munad vabapidamiskanade",
+      "descriptorOrder": [
+        "vabapidamiskanade",
+        "munad",
+        "m"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "munad": "munad",
+        "m": "m"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1398,7 +2348,12 @@
     "unit": "tk",
     "storeUnitPrice": 0.27,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/36da1a38-291f-4304-a1ad-d634d389ab87_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1408,14 +2363,36 @@
       "variety": "m l well done",
       "nameLower": "õrrekanade munad m/l well done, 10tk",
       "brand": "well done",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "l m munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "m",
+        "l"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1431,7 +2408,12 @@
     "unit": "tk",
     "storeUnitPrice": 0.2,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/59d52e09-d7f6-444f-bb80-377dbc55f088_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1441,14 +2423,40 @@
       "variety": "m extra line",
       "nameLower": "õrrekanade munad m extra line 10tk",
       "brand": "õrrekanade",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "extra line m munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "m",
+        "extra",
+        "line"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad",
+        "m": "m",
+        "extra": "extra",
+        "line": "line"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1464,7 +2472,12 @@
     "unit": "tk",
     "storeUnitPrice": 0.28,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/f1ae9c8b-8f21-4637-a04c-3db6a38b78a7_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1474,14 +2487,36 @@
       "variety": "l well done",
       "nameLower": "õrrekanade munad l well done, 10tk",
       "brand": "well done",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "l munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "l"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad",
+        "l": "l"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1496,25 +2531,52 @@
     "ean": null,
     "unit": "tk",
     "storeUnitPrice": 0.28,
-    "brand": null,
+    "brand": "Dava",
+    "image": "https://cdn.barbora.ee/products/76cf4248-7505-4d28-aec6-23272ed5ac33_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
-      "hasBrand": false,
+      "hasBrand": true,
       "type": "õrrekanade",
       "unit": "tk",
       "variety": "m dava",
       "nameLower": "õrrekanade munad m dava 10tk",
-      "brand": "õrrekanade",
-      "size": null,
+      "brand": "dava",
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "dava m munad õrrekanade",
+      "descriptors": "m munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "m"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad",
+        "m": "m"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1529,25 +2591,52 @@
     "ean": null,
     "unit": "tk",
     "storeUnitPrice": 0.3,
-    "brand": null,
+    "brand": "Dava",
+    "image": "https://cdn.barbora.ee/products/f74e6265-df2f-43ab-abda-03e66bed7519_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
-      "hasBrand": false,
+      "hasBrand": true,
       "type": "õrrekanade",
       "unit": "tk",
       "variety": "l dava",
       "nameLower": "õrrekanade munad l dava 10tk",
-      "brand": "õrrekanade",
-      "size": null,
+      "brand": "dava",
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "dava l munad õrrekanade",
+      "descriptors": "l munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "l"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad",
+        "l": "l"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1563,7 +2652,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.66,
     "brand": "VALIO GEFILUS",
+    "image": "https://cdn.barbora.ee/products/2c7acd31-397b-43ea-b528-f2378437bdc0_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1579,8 +2673,29 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "jogurt maitsestamata",
+      "descriptorOrder": [
+        "jogurt",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "gefilus": "gefilus",
+        "maitsestamata": "maitsestamata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1596,7 +2711,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.03,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/d1414f10-f3dd-4f75-b9e9-463614d22609_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1612,8 +2732,28 @@
       "colors": "",
       "fatPercent": "10",
       "descriptors": "jogurt kreeka",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1629,7 +2769,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.23,
     "brand": "SAARE",
+    "image": "https://cdn.barbora.ee/products/4529799e-68e2-4629-8199-5fc546054515_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1645,8 +2790,28 @@
       "colors": "",
       "fatPercent": "5",
       "descriptors": "jogurt maitsestamata",
+      "descriptorOrder": [
+        "jogurt",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "maitsestamata": "maitsestamata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1662,7 +2827,12 @@
     "unit": "kg",
     "storeUnitPrice": 2.28,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/670ba527-a3cc-4225-8c65-1bbdc1758fb5_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1678,8 +2848,28 @@
       "colors": "",
       "fatPercent": "3",
       "descriptors": "jogurt naturaalne",
+      "descriptorOrder": [
+        "jogurt",
+        "naturaalne"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "naturaalne": "naturaalne"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1695,7 +2885,12 @@
     "unit": "kg",
     "storeUnitPrice": 2.63,
     "brand": "FARM MILK",
+    "image": "https://cdn.barbora.ee/products/517e4bac-dcac-425b-bba9-4550093ca4ae_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1711,8 +2906,29 @@
       "colors": "",
       "fatPercent": "10",
       "descriptors": "jogurt kreeka natur",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "natur"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1728,7 +2944,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.22,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/be720be4-7f24-4d47-ad2b-04e202a0adeb_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1744,8 +2965,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kreeka maitsestamata",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt",
+        "maitsestamata": "maitsestamata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1761,7 +3004,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.46,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/9a2c4161-769d-4193-8563-33b2649a62c5_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1777,8 +3025,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kreeka maitsestamata",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt",
+        "maitsestamata": "maitsestamata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1794,7 +3064,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.39,
     "brand": "SAARE",
+    "image": "https://cdn.barbora.ee/products/4b59e057-5866-490f-ba3b-1d0b766bc87a_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1810,8 +3085,28 @@
       "colors": "",
       "fatPercent": "10",
       "descriptors": "jogurt kreeka",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1827,7 +3122,12 @@
     "unit": "kg",
     "storeUnitPrice": 1.89,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/9de4942d-3323-42fa-a7c4-1886c0443a67_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1843,8 +3143,29 @@
       "colors": "",
       "fatPercent": "5",
       "descriptors": "jogurt koorene maitsestamata",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1860,7 +3181,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.73,
     "brand": "SKYR",
+    "image": "https://cdn.barbora.ee/products/86f157b8-49ac-4300-b75d-252a13b02f55_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1876,8 +3202,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "farmi naturaalne",
+      "descriptorOrder": [
+        "farmi",
+        "naturaalne"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "farmi": "farmi",
+        "naturaalne": "naturaalne"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1893,7 +3239,12 @@
     "unit": "kg",
     "storeUnitPrice": 2.05,
     "brand": "HELLUS",
+    "image": "https://cdn.barbora.ee/products/767dd754-48f5-4902-8e5f-e40708c4a517_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1909,8 +3260,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt maitsestamata",
+      "descriptorOrder": [
+        "jogurt",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "maitsestamata": "maitsestamata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1926,7 +3297,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.45,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/c440e111-712c-40fb-80ff-ae4489fd54fb_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1942,8 +3318,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt maitsestamata natural",
+      "descriptorOrder": [
+        "jogurt",
+        "natural",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "natural": "natural",
+        "maitsestamata": "maitsestamata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1959,7 +3357,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.98,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/256b65b4-4fe2-4a31-9bf4-1848947908a4_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1967,16 +3370,39 @@
       "type": "prot",
       "unit": "400g",
       "variety": "tere fit",
-      "nameLower": "prot.kohupiim maits-tatere fit l.v.400g",
+      "nameLower": "prot.kohupiim maits-ta tere fit l.v.400g",
       "brand": "tere",
       "size": "400g",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "fit kohupiim l maits prot tatere v",
+      "descriptors": "fit kohupiim l prot ta v",
+      "descriptorOrder": [
+        "prot",
+        "kohupiim",
+        "ta",
+        "fit",
+        "l",
+        "v"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "fit": "fit"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1992,7 +3418,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.76,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/6a48a253-36d9-4ab7-8205-38c04a674d58_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2008,8 +3439,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kreeka maitsestamata proteiinijogurt",
+      "descriptorOrder": [
+        "proteiinijogurt",
+        "kreeka",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "proteiinijogurt": "proteiinijogurt",
+        "kreeka": "kreeka"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2025,7 +3477,12 @@
     "unit": "kg",
     "storeUnitPrice": 6.06,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/311201a7-c600-462b-91e1-11fd6c254792_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2041,8 +3498,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kreeka ma proteiinijogurt ta",
+      "descriptorOrder": [
+        "proteiinijogurt",
+        "kreeka",
+        "ma",
+        "ta"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "proteiinijogurt": "proteiinijogurt",
+        "kreeka": "kreeka"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2058,7 +3537,12 @@
     "unit": "kg",
     "storeUnitPrice": 2.99,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/c3005b87-9945-46da-87c2-5821134977f2_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2074,8 +3558,30 @@
       "colors": "",
       "fatPercent": "10",
       "descriptors": "jogurt kreeka lakt vaba",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "lakt",
+        "vaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2091,7 +3597,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.64,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/389c4b50-7c06-4a04-a978-a59b65cfd1fd_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2103,12 +3614,32 @@
       "brand": "well done",
       "size": "140g",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "mahe",
       "colors": "",
       "fatPercent": "2",
       "descriptors": "mahejogurt naturaaalne",
+      "descriptorOrder": [
+        "naturaaalne",
+        "mahejogurt"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "naturaaalne": "naturaaalne",
+        "mahejogurt": "mahejogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2124,7 +3655,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "ACTIVIA",
+    "image": "https://cdn.barbora.ee/products/8aeb9656-d88c-48d1-930b-3cbc6738714d_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2140,8 +3676,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt maasikatega",
+      "descriptorOrder": [
+        "jogurt",
+        "maasikatega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "maasikatega": "maasikatega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2157,7 +3713,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "ACTIVIA",
+    "image": "https://cdn.barbora.ee/products/e4b8296c-754e-48aa-b589-f94101d894a4_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2173,8 +3734,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kirssidega",
+      "descriptorOrder": [
+        "jogurt",
+        "kirssidega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "kirssidega": "kirssidega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2190,7 +3771,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.48,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/7cabfa06-29a6-425e-af4c-7742ad6e09a9_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2206,8 +3792,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt koorene mustikatega",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "mustikatega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt",
+        "mustikatega": "mustikatega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2223,7 +3831,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.48,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/2fdeb41c-f4e6-4d7a-b9c8-88e4f3d69c84_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2239,8 +3852,30 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "jogurt kirss koorene must",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "must",
+        "kirss"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2256,7 +3891,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.48,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/2ca5af20-338e-40c3-9978-45924ff739a9_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2272,8 +3912,30 @@
       "colors": "",
       "fatPercent": "3.4",
       "descriptors": "ga jogurt koorene maasik",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "maasik",
+        "ga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2289,7 +3951,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "ACTIVIA",
+    "image": "https://cdn.barbora.ee/products/6e10ae2b-84b3-4ef6-b66a-dd70228892bd_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2305,8 +3972,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt mustikatega",
+      "descriptorOrder": [
+        "jogurt",
+        "mustikatega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "mustikatega": "mustikatega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2322,7 +4009,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "ACTIVIA",
+    "image": "https://cdn.barbora.ee/products/be518aa7-048f-478c-9ed8-21cf4556aafc_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2338,8 +4030,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt müsliga virsiku",
+      "descriptorOrder": [
+        "jogurt",
+        "virsiku",
+        "müsliga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2355,7 +4067,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.08,
     "brand": "VALIO GEFILUS",
+    "image": "https://cdn.barbora.ee/products/17fd233d-d3b8-465f-9d71-b3968298e7ed_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2371,8 +4088,29 @@
       "colors": "",
       "fatPercent": "2",
       "descriptors": "jogurt mustika",
+      "descriptorOrder": [
+        "jogurt",
+        "mustika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "gefilus": "gefilus",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2388,7 +4126,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.48,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/de735004-ed9b-45e3-b2f1-efd2248ad206_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2404,8 +4147,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt koorene virsikutega",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "virsikutega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt",
+        "virsikutega": "virsikutega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2421,7 +4186,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.08,
     "brand": "VALIO GEFILUS",
+    "image": "https://cdn.barbora.ee/products/aff2557d-80bd-4efe-831b-332dd7e618cd_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2437,8 +4207,31 @@
       "colors": "",
       "fatPercent": "2",
       "descriptors": "jogurt lakt papaya vab virs",
+      "descriptorOrder": [
+        "jogurt",
+        "virs",
+        "papaya",
+        "lakt",
+        "vab"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "gefilus": "gefilus"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2454,7 +4247,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.13,
     "brand": "SAARE",
+    "image": "https://cdn.barbora.ee/products/c8168b1e-246a-4a01-a73d-2522748e0374_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2470,8 +4268,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurtikreem mango",
+      "descriptorOrder": [
+        "jogurtikreem",
+        "mango"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurtikreem": "jogurtikreem",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2487,7 +4305,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.66,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/081b7b3e-f0f1-4c14-af2c-5ee04917bd83_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2503,8 +4326,31 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kaneel koorejogurt leiv muah r",
+      "descriptorOrder": [
+        "koorejogurt",
+        "muah",
+        "r",
+        "leiv",
+        "kaneel"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2520,7 +4366,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.13,
     "brand": "SAARE",
+    "image": "https://cdn.barbora.ee/products/e0943f9b-bee0-407e-bb3f-5b032ea155ae_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2536,8 +4387,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ahjuõuna jogurtikreem",
+      "descriptorOrder": [
+        "jogurtikreem",
+        "ahjuõuna"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurtikreem": "jogurtikreem",
+        "ahjuõuna": "ahjuõuna"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2553,7 +4424,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.66,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/9e6f482d-159e-4dc2-8b43-69d234b0ec49_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2569,8 +4445,32 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "brulee creme koorejogurt muah",
+      "descriptorOrder": [
+        "koorejogurt",
+        "muah",
+        "creme",
+        "brulee"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah",
+        "creme": "creme",
+        "brulee": "brulee"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2586,7 +4486,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.66,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/367797c7-2dc0-4137-b0f0-2b09f9c91f9f_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2602,8 +4507,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "koorejogurt muah stracciatella",
+      "descriptorOrder": [
+        "koorejogurt",
+        "muah",
+        "stracciatella"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah",
+        "stracciatella": "stracciatella"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2619,7 +4546,12 @@
     "unit": "kg",
     "storeUnitPrice": 14.14,
     "brand": "DANONKI",
+    "image": "https://cdn.barbora.ee/products/3282ea17-d0c6-4e59-8f83-e8e256f292f9_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2635,8 +4567,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "danonino jogurt maasika",
+      "descriptorOrder": [
+        "jogurt",
+        "danonino",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "danonino": "danonino",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2652,7 +4606,12 @@
     "unit": "kg",
     "storeUnitPrice": 14.14,
     "brand": "DANONKI",
+    "image": "https://cdn.barbora.ee/products/da4233a4-775c-4ecb-ab89-abc5bd98dd86_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2668,8 +4627,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "danonino jogurt vanilje",
+      "descriptorOrder": [
+        "jogurt",
+        "danonino",
+        "vanilje"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "danonino": "danonino",
+        "vanilje": "vanilje"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2685,7 +4666,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.66,
     "brand": "SKYR",
+    "image": "https://cdn.barbora.ee/products/ecbf03fc-8b22-4e65-a564-6e6a04253531_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2701,8 +4687,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "farmi mustikatega",
+      "descriptorOrder": [
+        "farmi",
+        "mustikatega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "farmi": "farmi",
+        "mustikatega": "mustikatega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2718,7 +4724,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.66,
     "brand": "SKYR",
+    "image": "https://cdn.barbora.ee/products/45547afa-67b3-42af-a023-ab933f750792_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2734,8 +4745,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "farmi virsikutega",
+      "descriptorOrder": [
+        "farmi",
+        "virsikutega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "farmi": "farmi",
+        "virsikutega": "virsikutega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2751,7 +4782,12 @@
     "unit": "kg",
     "storeUnitPrice": 6.45,
     "brand": "VALIO PROFEEL",
+    "image": "https://cdn.barbora.ee/products/8dcffa67-7cdb-4371-a466-fef46200989a_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2767,8 +4803,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ahjuõuna jogurt prot",
+      "descriptorOrder": [
+        "prot",
+        "jogurt",
+        "ahjuõuna"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "ahjuõuna": "ahjuõuna"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2784,7 +4840,12 @@
     "unit": "kg",
     "storeUnitPrice": 6.45,
     "brand": "VALIO PROFEEL",
+    "image": "https://cdn.barbora.ee/products/bb4f62c9-4ee3-45bd-8bb9-4f6eae82c998_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2800,8 +4861,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt maasika prot",
+      "descriptorOrder": [
+        "prot",
+        "jogurt",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2817,7 +4898,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.45,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/2d73de39-9c4f-4561-8992-e8801abcdfd0_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2833,8 +4919,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt metsamarja rukkikamaga",
+      "descriptorOrder": [
+        "jogurt",
+        "metsamarja",
+        "rukkikamaga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "metsamarja": "metsamarja",
+        "rukkikamaga": "rukkikamaga"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2850,7 +4958,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.66,
     "brand": "SKYR",
+    "image": "https://cdn.barbora.ee/products/ba024aa0-298d-4b80-b8d4-01fa1afc4d7f_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2866,8 +4979,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "farmi kirssidega",
+      "descriptorOrder": [
+        "farmi",
+        "kirssidega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "farmi": "farmi",
+        "kirssidega": "kirssidega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2883,7 +5016,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.08,
     "brand": "VALIO GEFILUS",
+    "image": "https://cdn.barbora.ee/products/497cc7c7-eb42-4d8f-abad-733dc3c59530_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2899,8 +5037,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "banaani chia jogurt mango",
+      "descriptorOrder": [
+        "jogurt",
+        "mango",
+        "banaani",
+        "chia"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "gefilus": "gefilus"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2916,7 +5076,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.56,
     "brand": "LIISU",
+    "image": "https://cdn.barbora.ee/products/44bf2c82-68bf-40bb-a376-1f92d041c368_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2932,8 +5097,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kreeka mustika",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "mustika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2949,7 +5136,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.56,
     "brand": "LIISU",
+    "image": "https://cdn.barbora.ee/products/b97b8e4e-e4a2-40c2-bd33-5ad0eada38d4_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2965,8 +5157,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kreeka virsiku",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "virsiku"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt",
+        "virsiku": "virsiku"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2982,7 +5196,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.93,
     "brand": "MIO&RIO",
+    "image": "https://cdn.barbora.ee/products/dc4bbeef-1995-47d1-9369-612f07bac091_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2997,9 +5216,28 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "jogurt maasikamaits",
+      "descriptors": "jogurt maasika",
+      "descriptorOrder": [
+        "jogurt",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3015,7 +5253,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.67,
     "brand": "MIO&RIO",
+    "image": "https://cdn.barbora.ee/products/5739ef17-3ccb-46ed-b329-7751ae3054a2_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3030,9 +5273,28 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "jogurt virsikumaits",
+      "descriptors": "jogurt virsiku",
+      "descriptorOrder": [
+        "jogurt",
+        "virsiku"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3048,7 +5310,12 @@
     "unit": "kg",
     "storeUnitPrice": 2.73,
     "brand": "MIO&RIO",
+    "image": "https://cdn.barbora.ee/products/ca14ccd6-a07e-43de-be57-f5c9b4872ddc_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3064,8 +5331,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt maasika",
+      "descriptorOrder": [
+        "jogurt",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "maasika": "maasika",
+        "mio": "mio",
+        "rio": "rio"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3081,7 +5370,12 @@
     "unit": "kg",
     "storeUnitPrice": 2.63,
     "brand": "MIO&RIO",
+    "image": "https://cdn.barbora.ee/products/d4e513eb-fb9b-4563-9781-7763d3040014_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3097,8 +5391,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt virsiku",
+      "descriptorOrder": [
+        "jogurt",
+        "virsiku"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "virsiku": "virsiku",
+        "mio": "mio",
+        "rio": "rio"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3114,7 +5430,12 @@
     "unit": "kg",
     "storeUnitPrice": 14.14,
     "brand": "DANONKI",
+    "image": "https://cdn.barbora.ee/products/a876ad18-6054-4ba0-929d-9a4d14f5408a_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3130,8 +5451,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "banaani danonino jogurt maasika",
+      "descriptorOrder": [
+        "jogurt",
+        "danonino",
+        "banaani",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "danonino": "danonino"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3147,7 +5490,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.48,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/df6c2566-1d41-4de1-a511-b10e6df3c662_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3162,9 +5510,31 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "jogurt koorene orange šok",
+      "descriptors": "jogurt koorene orange šokolaadi",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "orange",
+        "šokolaadi"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3180,7 +5550,12 @@
     "unit": "kg",
     "storeUnitPrice": 6.45,
     "brand": "VALIO PROFEEL",
+    "image": "https://cdn.barbora.ee/products/f4c7c3ea-36f5-441b-b5c4-0481debeab0e_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3196,8 +5571,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt mustasõs prot",
+      "descriptorOrder": [
+        "prot",
+        "jogurt",
+        "mustasõs"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3213,7 +5606,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "ACTIVIA",
+    "image": "https://cdn.barbora.ee/products/0498e876-3f4b-4cbc-b411-4d0bb707e722_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3229,8 +5627,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt metsamarja",
+      "descriptorOrder": [
+        "jogurt",
+        "metsamarja"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "metsamarja": "metsamarja"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3246,7 +5664,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.66,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/28d51598-f755-48e8-9ce4-11518a0e41d2_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3262,8 +5685,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "metsmaasikatega skyr",
+      "descriptorOrder": [
+        "skyr",
+        "metsmaasikatega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "skyr": "skyr",
+        "metsmaasikatega": "metsmaasikatega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3279,7 +5722,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.66,
     "brand": "SKYR",
+    "image": "https://cdn.barbora.ee/products/136e2147-dd41-4034-82d0-fcf49dc26d34_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3295,8 +5743,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "apelsini farmi stracciatella",
+      "descriptorOrder": [
+        "farmi",
+        "apelsini",
+        "stracciatella"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "farmi": "farmi"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3312,7 +5780,12 @@
     "unit": "kg",
     "storeUnitPrice": 9.67,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/a8676091-3992-4f39-8e43-19a5b8d810ba_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3328,8 +5801,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kreeka maasika mustika",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "maasika",
+        "mustika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3345,7 +5840,12 @@
     "unit": "kg",
     "storeUnitPrice": 9.67,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/2a5292f0-94fa-4502-b926-2d3bcf0dd011_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3361,8 +5861,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kreeka mango",
+      "descriptorOrder": [
+        "kreeka",
+        "jogurt",
+        "mango"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "kreeka": "kreeka",
+        "jogurt": "jogurt",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3378,7 +5900,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.95,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/4cf3f9b7-c6d8-4c8b-ae22-dbe584a8fd5d_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3394,8 +5921,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt maasika",
+      "descriptorOrder": [
+        "jogurt",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3411,7 +5958,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.95,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/964d8e17-128c-40f0-b239-de466cffc1d9_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3427,8 +5979,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "banaan jogurt",
+      "descriptorOrder": [
+        "jogurt",
+        "banaan"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "banaan": "banaan"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3444,7 +6016,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/76fcbbc0-0173-4f14-91c7-e6460c35460b_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3460,8 +6037,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "banaan jogurt",
+      "descriptorOrder": [
+        "jogurt",
+        "banaan"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "banaan": "banaan"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3477,7 +6074,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.95,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/60966746-5f9f-46df-881d-a33787441d90_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3493,8 +6095,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt virsik",
+      "descriptorOrder": [
+        "jogurt",
+        "virsik"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "virsik": "virsik"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3510,7 +6132,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/fcd76385-c2aa-43eb-a100-c3fae69016c7_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3526,8 +6153,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt virsik",
+      "descriptorOrder": [
+        "jogurt",
+        "virsik"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "virsik": "virsik"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3543,7 +6190,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.14,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/d0392fd8-e5ae-423f-8cc1-f2b58960b68d_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3559,8 +6211,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt maasika",
+      "descriptorOrder": [
+        "jogurt",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3576,7 +6248,12 @@
     "unit": "kg",
     "storeUnitPrice": 6.75,
     "brand": "VALIO",
+    "image": "https://cdn.barbora.ee/products/fbef51c8-d905-4e50-b020-1fa5675de84b_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3592,8 +6269,31 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ban koh kr maas profeel prot",
+      "descriptorOrder": [
+        "prot",
+        "koh",
+        "kr",
+        "profeel",
+        "maas",
+        "ban"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "profeel": "profeel"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3609,7 +6309,12 @@
     "unit": "kg",
     "storeUnitPrice": 6.75,
     "brand": "VALIO",
+    "image": "https://cdn.barbora.ee/products/dc749ecd-dee6-4b0f-8446-d14a1e1ad013_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3625,8 +6330,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "koh kreem profeel prot vanil",
+      "descriptorOrder": [
+        "prot",
+        "koh",
+        "kreem",
+        "profeel",
+        "vanil"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "profeel": "profeel"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3642,7 +6369,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.13,
     "brand": "SAARE",
+    "image": "https://cdn.barbora.ee/products/7f6f78c6-3917-4f0e-9578-f04e3edf7e33_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3658,8 +6390,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurtikreem passioni vaarika",
+      "descriptorOrder": [
+        "jogurtikreem",
+        "vaarika",
+        "passioni"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurtikreem": "jogurtikreem"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3675,7 +6427,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.66,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/24d1aed8-bc50-4d0b-b0d2-008bd2a1ca7d_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3691,8 +6448,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "juustukook koorejog muah sidr",
+      "descriptorOrder": [
+        "koorejog",
+        "muah",
+        "sidr",
+        "juustukook"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3708,7 +6486,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.64,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/afc64ff4-775b-41a4-b63e-e8bb9ac8c1c9_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3720,12 +6503,32 @@
       "brand": "well done",
       "size": "140g",
       "variant": null,
-      "qualifiers": "kirsiga",
+      "qualifiers": "kirsiga mahe",
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "kirsiga mahejogurt",
+      "descriptorOrder": [
+        "mahejogurt",
+        "kirsiga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahejogurt": "mahejogurt",
+        "kirsiga": "kirsiga"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3741,7 +6544,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.64,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/3e6652a4-3719-48e7-aded-7231d45e9995_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3753,45 +6561,32 @@
       "brand": "well done",
       "size": "140g",
       "variant": null,
-      "qualifiers": "mustikaga",
+      "qualifiers": "mahe mustikaga",
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "mahejogurt mustikaga",
+      "descriptorOrder": [
+        "mahejogurt",
+        "mustikaga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahejogurt": "mahejogurt",
+        "mustikaga": "mustikaga"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Koorejogurt Muah troopiline ALMA 180g",
-    "price": 1.29,
-    "regularPrice": 1.29,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/koorejogurt-muah-troopiline-alma-180-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 7.17,
-    "brand": "ALMA",
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "koorejogurt",
-      "unit": "180g",
-      "variety": "muah alma",
-      "nameLower": "koorejogurt muah troopiline alma 180g",
-      "brand": "alma",
-      "size": "180g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "koorejogurt muah troopiline",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3807,7 +6602,12 @@
     "unit": "kg",
     "storeUnitPrice": 7.5,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/57dbd48d-6be5-4f84-8f65-7f7e4def89ad_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3823,8 +6623,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "barbarissi koorejogurt muah",
+      "descriptorOrder": [
+        "koorejogurt",
+        "muah",
+        "barbarissi"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah",
+        "barbarissi": "barbarissi"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3840,7 +6662,12 @@
     "unit": "kg",
     "storeUnitPrice": 7.17,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/81054dc4-be1a-4192-92b9-c1c8e09fb630_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3855,9 +6682,31 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "koorejogurt marja muah plombiirimaitseline",
+      "descriptors": "koorejogurt marja muah plombiiri",
+      "descriptorOrder": [
+        "koorejogurt",
+        "muah",
+        "marja",
+        "plombiiri"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3873,7 +6722,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.64,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/91f8088c-cad9-4c45-b874-02f1f805a469_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3889,8 +6743,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "maasika skyr",
+      "descriptorOrder": [
+        "skyr",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "skyr": "skyr",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3906,7 +6780,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.64,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/929b047a-a3bd-4e26-8490-01c337197e9e_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3922,8 +6801,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "skyr virsiku",
+      "descriptorOrder": [
+        "skyr",
+        "virsiku"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "skyr": "skyr",
+        "virsiku": "virsiku"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3939,7 +6838,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.95,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/fb2bf4ad-7c37-41e8-8776-8a2f7e04367e_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3955,8 +6859,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt koorene martsipani ploomi",
+      "descriptorOrder": [
+        "koorene",
+        "ploomi",
+        "martsipani",
+        "jogurt"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3972,7 +6897,12 @@
     "unit": "kg",
     "storeUnitPrice": 5.95,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/bb59378b-dd38-476a-8844-efc8b89bc289_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -3987,9 +6917,31 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "jogurt koorene mustasõstra",
+      "descriptors": "jogurt koorene mustsõstra",
+      "descriptorOrder": [
+        "koorene",
+        "mustsõstra",
+        "jogurt"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "mustsõstra": "mustasõstra",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4005,7 +6957,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.13,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/2cfe9229-72d6-41d8-a146-684c4c058d94_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4013,16 +6970,38 @@
       "type": "keefirijogurt",
       "unit": "380g",
       "variety": "hellus tere",
-      "nameLower": "keefirijogurt hellus kirs.ploomitere380g",
+      "nameLower": "keefirijogurt hellus kirs.ploomi tere380g",
       "brand": "tere",
       "size": "380g",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "hellus keefirijogurt kirs ploomitere",
+      "descriptors": "hellus keefirijogurt kirs ploomi",
+      "descriptorOrder": [
+        "keefirijogurt",
+        "hellus",
+        "kirs",
+        "ploomi"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "keefirijogurt": "keefirijogurt",
+        "hellus": "hellus"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4038,7 +7017,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.13,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/e3535d1a-cb5f-409d-8e36-322e60240ba1_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4054,8 +7038,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "hellus keefirijogurt sidruni",
+      "descriptorOrder": [
+        "keefirijogurt",
+        "hellus",
+        "sidruni"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "keefirijogurt": "keefirijogurt",
+        "hellus": "hellus",
+        "sidruni": "sidruni"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4071,7 +7077,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.13,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/670256e2-3e4a-4667-90bd-43b76d21ec85_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4087,8 +7098,30 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "hellus keefirijogurt maas must",
+      "descriptorOrder": [
+        "keefirijogurt",
+        "hellus",
+        "maas",
+        "must"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "keefirijogurt": "keefirijogurt",
+        "hellus": "hellus"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4104,7 +7137,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.13,
     "brand": "TERE",
+    "image": "https://cdn.barbora.ee/products/17cc4d2e-9896-411b-8b71-7f9651560182_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4120,8 +7158,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "apel hellus keefirijogurt mango",
+      "descriptorOrder": [
+        "keefirijogurt",
+        "hellus",
+        "mango",
+        "apel"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "keefirijogurt": "keefirijogurt",
+        "hellus": "hellus"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4137,7 +7197,12 @@
     "unit": "kg",
     "storeUnitPrice": 8.33,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/a452074b-0664-40f2-a482-b8cba89f4b7c_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4153,8 +7218,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt mustika prot",
+      "descriptorOrder": [
+        "prot",
+        "jogurt",
+        "mustika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4170,7 +7256,12 @@
     "unit": "kg",
     "storeUnitPrice": 8.33,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/149cb6e9-0b71-472c-b4b6-095abbb42912_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4186,8 +7277,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt karamelli prot",
+      "descriptorOrder": [
+        "prot",
+        "jogurt",
+        "karamelli"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "karamelli": "karamelli"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4203,7 +7315,12 @@
     "unit": "kg",
     "storeUnitPrice": 3.66,
     "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/31b6fafb-0ea8-40b3-9717-0bae28e04a00_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4219,8 +7336,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "koorejogurt muah vanilli",
+      "descriptorOrder": [
+        "koorejogurt",
+        "muah",
+        "vanilli"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah",
+        "vanilli": "vanilli"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4236,7 +7375,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.48,
     "brand": "FARMI",
+    "image": "https://cdn.barbora.ee/products/d8bb74b9-f4f4-430f-9139-b25a3fca2478_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4252,8 +7396,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt kiivi koorene tikri",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "kiivi",
+        "tikri"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4269,7 +7435,12 @@
     "unit": "kg",
     "storeUnitPrice": 4.64,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/cb5b9a61-05db-41ea-9f70-4ce2a26672e2_m.png",
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -4281,12 +7452,92 @@
       "brand": "well done",
       "size": "140g",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "mahe",
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "aedmaasika mahejogurt",
+      "descriptorOrder": [
+        "mahejogurt",
+        "aedmaasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahejogurt": "mahejogurt",
+        "aedmaasika": "aedmaasika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Koorejogurt Muah troopiline ALMA 180g",
+    "price": 1.29,
+    "regularPrice": 1.29,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/koorejogurt-muah-troopiline-alma-180-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 7.17,
+    "brand": "ALMA",
+    "image": "https://cdn.barbora.ee/products/3ef4b615-05cc-4c61-9963-d5d9bf4ad2bc_m.png",
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "koorejogurt",
+      "unit": "180g",
+      "variety": "muah alma",
+      "nameLower": "koorejogurt muah troopiline alma 180g",
+      "brand": "alma",
+      "size": "180g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "koorejogurt muah troopiline",
+      "descriptorOrder": [
+        "koorejogurt",
+        "muah",
+        "troopiline"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah",
+        "troopiline": "troopiline"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   }
 ]

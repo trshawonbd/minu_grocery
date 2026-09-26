@@ -11,7 +11,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_160875_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/kannujook-johvika-poltsamaa-1l/p/160875",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannujook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "kannujook jõhvika põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika kannujook",
+      "descriptorOrder": [
+        "kannujook",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook",
+        "jõhvika": "jõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -25,7 +62,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_818397_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/vaarikamaitseline-siirup-rimi-smart-1l/p/818397",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "vaarikamaitseline",
+      "unit": "1000ml",
+      "variety": "rimi smart",
+      "nameLower": "vaarikamaitseline siirup rimi smart 1l",
+      "brand": "rimi smart",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "siirup vaarika",
+      "descriptorOrder": [
+        "vaarika",
+        "siirup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaarikamaitseline": "vaarikamaitseline",
+        "siirup": "siirup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -39,7 +113,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_117246_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-vaarikamaitseline-1-5l/p/117246",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "1500ml",
+      "variety": null,
+      "nameLower": "siirup vaarikamaitseline 1,5l",
+      "brand": "siirup",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "siirup vaarika",
+      "descriptorOrder": [
+        "siirup",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "vaarikamaitseline": "vaarikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -53,7 +164,47 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1012620_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-aura-laimi-ja-mundim-mojito-0-75l/p/1012620",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "aura mojito",
+      "nameLower": "siirup aura laimi-ja mündim. mojito 0,75l",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja laimi mojito mündim siirup",
+      "descriptorOrder": [
+        "siirup",
+        "laimi",
+        "ja",
+        "mündim",
+        "mojito"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "mojito": "mojito"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -67,7 +218,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370666_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-vaarikamaitseline-aura-0-75l-pet/p/1370666",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "aura pet",
+      "nameLower": "siirup vaarikamaitseline aura 0,75l pet",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pet siirup vaarika",
+      "descriptorOrder": [
+        "siirup",
+        "vaarika",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "vaarikamaitseline": "vaarikamaitseline",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -81,7 +271,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_810095_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-vaarikamaitseline-rimi-320ml/p/810095",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "siirup",
+      "unit": "320ml",
+      "variety": "rimi",
+      "nameLower": "siirup vaarikamaitseline rimi 320ml",
+      "brand": "rimi",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "siirup vaarika",
+      "descriptorOrder": [
+        "siirup",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "vaarikamaitseline": "vaarikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -95,21 +322,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_134652_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-caramel-monin-0-25l/p/134652",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Siirup pirnimaitseline Aura 0,75l PET",
-    "price": 2.05,
-    "regularPrice": 2.05,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Aura",
-    "storeUnitPrice": 2.73,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370664_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-pirnimaitseline-aura-0-75l-pet/p/1370664",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "250ml",
+      "variety": "caramel monin",
+      "nameLower": "siirup caramel monin 0,25l",
+      "brand": "monin",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "caramel siirup",
+      "descriptorOrder": [
+        "siirup",
+        "caramel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "caramel": "caramel"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -123,7 +373,97 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1354995_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/konts-mahlajook-mustsostra-kullus-0-33l/p/1354995",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "konts",
+      "unit": "330ml",
+      "variety": "küllus",
+      "nameLower": "konts.mahlajook mustsõstra küllus 0,33l",
+      "brand": "küllus",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "konts mahlajook mustsõstra",
+      "descriptorOrder": [
+        "konts",
+        "mahlajook",
+        "mustsõstra"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustsõstra": "mustsõstra"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Siirup pirnimaitseline Aura 0,75l PET",
+    "price": 2.05,
+    "regularPrice": 2.05,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Aura",
+    "storeUnitPrice": 2.73,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370664_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-pirnimaitseline-aura-0-75l-pet/p/1370664",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "aura pet",
+      "nameLower": "siirup pirnimaitseline aura 0,75l pet",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pet pirni siirup",
+      "descriptorOrder": [
+        "siirup",
+        "pirni",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "pirnimaitseline": "pirnimaitseline",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -137,7 +477,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_810096_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-kirsimaitseline-rimi-320ml/p/810096",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "siirup",
+      "unit": "320ml",
+      "variety": "rimi",
+      "nameLower": "siirup kirsimaitseline rimi 320ml",
+      "brand": "rimi",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsi siirup",
+      "descriptorOrder": [
+        "siirup",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "kirsimaitseline": "kirsimaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -151,7 +528,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_810091_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-metsmaasikamaitseline-rimi-320ml/p/810091",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "siirup",
+      "unit": "320ml",
+      "variety": "rimi",
+      "nameLower": "siirup metsmaasikamaitseline rimi 320ml",
+      "brand": "rimi",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsmaasika siirup",
+      "descriptorOrder": [
+        "siirup",
+        "metsmaasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "metsmaasikamaitseline": "metsmaasikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -165,7 +579,43 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_818416_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/mustsostramaits-siirup-rimi-smart-1l/p/818416",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mustsõstramaits",
+      "unit": "1000ml",
+      "variety": "rimi smart",
+      "nameLower": "mustsõstramaits. siirup rimi smart 1l",
+      "brand": "rimi smart",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustsõstra siirup",
+      "descriptorOrder": [
+        "mustsõstra",
+        "siirup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -179,7 +629,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370665_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-limonaadi-0-75l-pet/p/1370665",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "limonaadi pet",
+      "nameLower": "siirup limonaadi 0,75l pet",
+      "brand": "siirup",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "limonaadi pet siirup",
+      "descriptorOrder": [
+        "siirup",
+        "limonaadi",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "limonaadi": "limonaadi",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -193,7 +682,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_134625_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-grenadiin-monin-0-25l/p/134625",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "250ml",
+      "variety": "grenadiin monin",
+      "nameLower": "siirup grenadiin monin 0,25l",
+      "brand": "monin",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grenadiin siirup",
+      "descriptorOrder": [
+        "siirup",
+        "grenadiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "grenadiin": "grenadiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -207,7 +733,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1354994_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/konts-mahlajook-metsjohvika-kullus-0-33l/p/1354994",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "konts",
+      "unit": "330ml",
+      "variety": "küllus",
+      "nameLower": "konts.mahlajook metsjõhvika küllus 0,33l",
+      "brand": "küllus",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "konts mahlajook metsjõhvika",
+      "descriptorOrder": [
+        "konts",
+        "mahlajook",
+        "metsjõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsjõhvika": "metsjõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -221,7 +784,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1354621_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-mojito-mint-monin-0-25l/p/1354621",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "250ml",
+      "variety": "mojito monin",
+      "nameLower": "siirup mojito mint monin 0,25l",
+      "brand": "monin",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mint mojito siirup",
+      "descriptorOrder": [
+        "siirup",
+        "mojito",
+        "mint"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "mojito": "mojito",
+        "mint": "mint"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -235,7 +837,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814761_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-metsmaas-suh--mag-ain-rimi-smart-1l/p/814761",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "siirup",
+      "unit": "1000ml",
+      "variety": "rimi smart",
+      "nameLower": "siirup metsmaas. suh.-mag.ain. rimi smart  1l",
+      "brand": "rimi smart",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ain mag metsmaas siirup suh",
+      "descriptorOrder": [
+        "siirup",
+        "metsmaas",
+        "suh",
+        "mag",
+        "ain"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -249,7 +890,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1008346_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/mahlaj-konts-kirsi-johv-aura-morsikas-1l/p/1008346",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlaj",
+      "unit": "1000ml",
+      "variety": "aura morsikas",
+      "nameLower": "mahlaj.konts.kirsi-jõhv.aura morsikas 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhv kirsi konts mahlaj morsikas",
+      "descriptorOrder": [
+        "mahlaj",
+        "konts",
+        "kirsi",
+        "jõhv",
+        "morsikas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "morsikas": "morsikas"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -263,21 +943,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1008347_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/mahlaj-konts-apel-mango-aura-morsikas-1l/p/1008347",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Siirup kirsi suh.-mag.ain. Rimi Smart  1l",
-    "price": 1.55,
-    "regularPrice": 1.55,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Rimi Smart",
-    "storeUnitPrice": 1.55,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814759_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-kirsi-suh--mag-ain-rimi-smart-1l/p/814759",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlaj",
+      "unit": "1000ml",
+      "variety": "mahlaj aura morsikas",
+      "nameLower": "mahlaj.konts.apel.mango aura morsikas 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apel konts mahlaj mango morsikas",
+      "descriptorOrder": [
+        "mahlaj",
+        "konts",
+        "apel",
+        "mango",
+        "morsikas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "morsikas": "morsikas"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -291,7 +996,99 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1015733_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-mustsostra-vaar-heliis-magusain-1-5l/p/1015733",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "1500ml",
+      "variety": "heliis",
+      "nameLower": "siirup mustsõstra-vaar. heliis magusain. 1,5l",
+      "brand": "heliis",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "magusain mustsõstra siirup vaar",
+      "descriptorOrder": [
+        "siirup",
+        "mustsõstra",
+        "vaar",
+        "magusain"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Siirup kirsi suh.-mag.ain. Rimi Smart  1l",
+    "price": 1.55,
+    "regularPrice": 1.55,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Rimi Smart",
+    "storeUnitPrice": 1.55,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814759_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-kirsi-suh--mag-ain-rimi-smart-1l/p/814759",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "siirup",
+      "unit": "1000ml",
+      "variety": "rimi smart",
+      "nameLower": "siirup kirsi suh.-mag.ain. rimi smart  1l",
+      "brand": "rimi smart",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ain kirsi mag siirup suh",
+      "descriptorOrder": [
+        "siirup",
+        "kirsi",
+        "suh",
+        "mag",
+        "ain"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "kirsi": "kirsi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -305,7 +1102,43 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1012078_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/mahlajoogikonts-pun-sostra-rabarberi-aura-1l/p/1012078",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajoogikonts",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "mahlajoogikonts. pun.sõstra-rabarberi aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajoogikonts pun rabarberi sõstra",
+      "descriptorOrder": [
+        "mahlajoogikonts",
+        "pun",
+        "sõstra",
+        "rabarberi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -319,7 +1152,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1018618_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-pina-colada-teisseire-suhkruvaba-0-6l/p/1018618",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "600ml",
+      "variety": "pina colada teisseire",
+      "nameLower": "siirup pina colada teisseire suhkruvaba 0,6l",
+      "brand": "teisseire",
+      "size": "600ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "colada pina siirup suhkruvaba",
+      "descriptorOrder": [
+        "siirup",
+        "pina",
+        "colada",
+        "suhkruvaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "pina": "pina",
+        "colada": "colada",
+        "suhkruvaba": "suhkruvaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -333,7 +1207,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_134662_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-iiri-monin-0-25l/p/134662",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "250ml",
+      "variety": "iiri monin",
+      "nameLower": "siirup iiri monin 0,25l",
+      "brand": "monin",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "iiri siirup",
+      "descriptorOrder": [
+        "siirup",
+        "iiri"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "iiri": "iiri"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -347,7 +1258,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1018556_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/siirup-mojito-teisseire-magusainetega-0-6l/p/1018556",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "600ml",
+      "variety": "mojito teisseire",
+      "nameLower": "siirup mojito teisseire magusainetega 0,6l",
+      "brand": "teisseire",
+      "size": "600ml",
+      "variant": null,
+      "qualifiers": "magusainetega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "magusainetega mojito siirup",
+      "descriptorOrder": [
+        "siirup",
+        "mojito",
+        "magusainetega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "mojito": "mojito",
+        "magusainetega": "magusainetega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -361,7 +1311,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_115127_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---tsitrus/punase-apelsini-jook-pfanner-2l/p/115127",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punase",
+      "unit": "2000ml",
+      "variety": "pfanner",
+      "nameLower": "punase apelsini jook pfanner 2l",
+      "brand": "pfanner",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsini jook punase",
+      "descriptorOrder": [
+        "punase",
+        "apelsini",
+        "jook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punase": "punase",
+        "apelsini": "apelsini",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -375,7 +1364,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1373411_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---tsitrus/mahlajook-punase-greibi-granini-45-1l/p/1373411",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "granini",
+      "nameLower": "mahlajook punase greibi granini 45% 1l",
+      "brand": "granini",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "45",
+      "descriptors": "greibi mahlajook punase",
+      "descriptorOrder": [
+        "mahlajook",
+        "punase",
+        "greibi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "punase": "punase",
+        "greibi": "greibi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -389,7 +1417,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_154926_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/mahlajook-aura-fresh-pirni-ouna-2l/p/154926",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook aura fresh pirni-õuna 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook pirni õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "fresh",
+        "pirni",
+        "õuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -403,7 +1470,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812630_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/ounamahlajook-rimi-200ml/p/812630",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "õunamahlajook",
+      "unit": "200ml",
+      "variety": "rimi",
+      "nameLower": "õunamahlajook rimi 200ml",
+      "brand": "rimi",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "õunamahlajook",
+      "descriptorOrder": [
+        "õunamahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õunamahlajook": "õunamahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -417,7 +1519,47 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_166714_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/mahlajook-ouna-kirsi-aroonia-fresh-2l/p/166714",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "fresh",
+      "nameLower": "mahlajook õuna-kirsi-aroonia fresh 2l",
+      "brand": "mahlajook",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aroonia fresh kirsi mahlajook õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "õuna",
+        "kirsi",
+        "aroonia",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -431,7 +1573,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_160676_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/kirsijook-aura-1l/p/160676",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kirsijook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "kirsijook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsijook",
+      "descriptorOrder": [
+        "kirsijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kirsijook": "kirsijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -445,7 +1622,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1003898_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/mahlajook-ploomi-ouna-aura-fresh-2l/p/1003898",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook ploomi-õuna aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook ploomi õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "ploomi",
+        "õuna",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -459,7 +1675,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_101280_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/jook-ouna-poltsamaa-200ml/p/101280",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "jook õuna põltsamaa 200ml",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook õuna",
+      "descriptorOrder": [
+        "jook",
+        "õuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "õuna": "õuna"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -473,7 +1726,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1366924_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/mahlajook-dr-acitve-ouna-arbuusi-0-5l/p/1366924",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "500ml",
+      "variety": "dr acitve",
+      "nameLower": "mahlajook dr.acitve õuna-arbuusi 0,5l",
+      "brand": "mahlajook",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "acitve arbuusi dr mahlajook õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "dr",
+        "acitve",
+        "õuna",
+        "arbuusi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -487,7 +1779,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_165545_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---ouna-pirni-ploomi/jook-ouna-virsiku-tymbark-frozen-0-2l/p/165545",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "200ml",
+      "variety": "tymbark frozen",
+      "nameLower": "jook õuna-virsiku tymbark frozen 0,2l",
+      "brand": "tymbark",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "frozen jook virsiku õuna",
+      "descriptorOrder": [
+        "jook",
+        "õuna",
+        "virsiku",
+        "frozen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "frozen": "frozen"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -501,7 +1832,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1021374_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/mahlajook-metsamarja-aura-fresh-2l/p/1021374",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook metsamarja aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook metsamarja",
+      "descriptorOrder": [
+        "mahlajook",
+        "metsamarja",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "metsamarja": "metsamarja",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -515,7 +1885,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_803334_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/mahlajook-segumarja-rimi-1l/p/803334",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "rimi",
+      "nameLower": "mahlajook segumarja rimi 1l",
+      "brand": "rimi",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook segumarja",
+      "descriptorOrder": [
+        "mahlajook",
+        "segumarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "segumarja": "segumarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -529,7 +1936,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_104042_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/jook-johvika-poltsamaa-1l/p/104042",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jook jõhvika põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook jõhvika",
+      "descriptorOrder": [
+        "jook",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "jõhvika": "jõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -543,7 +1987,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_196749_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/maasikajook-limpa-0-25l/p/196749",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikajook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "maasikajook limpa 0,25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikajook",
+      "descriptorOrder": [
+        "maasikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikajook": "maasikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -557,7 +2036,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_181344_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/johvika-mahlajook-poltsamaa-2l/p/181344",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvika",
+      "unit": "2000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jõhvika mahlajook põltsamaa 2l",
+      "brand": "põltsamaa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika mahlajook",
+      "descriptorOrder": [
+        "jõhvika",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvika": "jõhvika",
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -571,7 +2087,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_104406_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/jook-johvika-aura-1l/p/104406",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "jook jõhvika aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook jõhvika",
+      "descriptorOrder": [
+        "jook",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "jõhvika": "jõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -585,7 +2138,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_119412_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/jook-mustika-ouna-poltsamaa-1l/p/119412",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jook mustika-õuna põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook mustika õuna",
+      "descriptorOrder": [
+        "jook",
+        "mustika",
+        "õuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -599,7 +2189,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_154928_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/mahlajook-viinamarja-aura-fresh-2l/p/154928",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook viinamarja aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook viinamarja",
+      "descriptorOrder": [
+        "mahlajook",
+        "viinamarja",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "viinamarja": "viinamarja",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -613,7 +2242,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1003478_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/mustikajook-aura-1l/p/1003478",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustikajook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "mustikajook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustikajook",
+      "descriptorOrder": [
+        "mustikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustikajook": "mustikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -627,7 +2291,45 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816626_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/mahlajook-pun-marja-vitam-rimi-smart-2l/p/816626",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "rimi smart",
+      "nameLower": "mahlajook pun.marja, vitam. rimi smart 2l",
+      "brand": "rimi smart",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook marja pun vitam",
+      "descriptorOrder": [
+        "mahlajook",
+        "pun",
+        "marja",
+        "vitam"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -641,7 +2343,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_161735_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/mahlajook-johvika-aura-fresh-2l/p/161735",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook jõhvika aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh jõhvika mahlajook",
+      "descriptorOrder": [
+        "mahlajook",
+        "jõhvika",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "jõhvika": "jõhvika",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -655,7 +2396,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_167211_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---marja/jook-marja-poltsamaa-1l/p/167211",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jook marja põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook marja",
+      "descriptorOrder": [
+        "jook",
+        "marja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "marja": "marja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -669,7 +2447,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812378_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-rimi-multipuuvilja-200ml/p/812378",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mahlajook",
+      "unit": "200ml",
+      "variety": "rimi",
+      "nameLower": "mahlajook rimi multipuuvilja 200ml",
+      "brand": "rimi",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook multipuuvilja",
+      "descriptorOrder": [
+        "mahlajook",
+        "multipuuvilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "multipuuvilja": "multipuuvilja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -683,7 +2498,46 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_154924_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-multipuuvilja-aura-fresh-2l/p/154924",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook multipuuvilja aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook multipuuvilja",
+      "descriptorOrder": [
+        "mahlajook",
+        "multipuuvilja",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "multipuuvilja": "multipuuvilja",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -697,7 +2551,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1361915_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/segumahlajook-rimi-ace-1-5l/p/1361915",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "segumahlajook",
+      "unit": "1500ml",
+      "variety": "rimi ace",
+      "nameLower": "segumahlajook rimi ace 1,5l",
+      "brand": "rimi",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ace segumahlajook",
+      "descriptorOrder": [
+        "segumahlajook",
+        "ace"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "segumahlajook": "segumahlajook",
+        "ace": "ace"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -711,21 +2602,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814747_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-multipuuvilja-rimi-smart-2l/p/814747",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Multimahlajook Põltsamaa 2l",
-    "price": 2.19,
-    "regularPrice": 2.69,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Põltsamaa",
-    "storeUnitPrice": 1.1,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_181319_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/multimahlajook-poltsamaa-2l/p/181319",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "rimi smart",
+      "nameLower": "mahlajook multipuuvilja rimi smart 2l",
+      "brand": "rimi smart",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook multipuuvilja",
+      "descriptorOrder": [
+        "mahlajook",
+        "multipuuvilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "multipuuvilja": "multipuuvilja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -739,7 +2653,91 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_196738_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/multijook-limpa-0-25l/p/196738",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multijook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "multijook limpa 0,25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multijook",
+      "descriptorOrder": [
+        "multijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multijook": "multijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Multimahlajook Põltsamaa 2l",
+    "price": 2.19,
+    "regularPrice": 2.69,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Põltsamaa",
+    "storeUnitPrice": 1.1,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_181319_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/multimahlajook-poltsamaa-2l/p/181319",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "2000ml",
+      "variety": "põltsamaa",
+      "nameLower": "multimahlajook põltsamaa 2l",
+      "brand": "põltsamaa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -753,7 +2751,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_119550_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-multi-poltsamaa-200ml/p/119550",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "mahlajook multi põltsamaa 200ml",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook multi",
+      "descriptorOrder": [
+        "mahlajook",
+        "multi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "multi": "multi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -767,7 +2802,45 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_136947_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/jook-maasika-ouna-virsiku-0-2l-tymbark/p/136947",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "200ml",
+      "variety": "tymbark",
+      "nameLower": "jook maasika-õuna-virsiku 0,2l tymbark",
+      "brand": "tymbark",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook maasika virsiku õuna",
+      "descriptorOrder": [
+        "jook",
+        "maasika",
+        "õuna",
+        "virsiku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -781,7 +2854,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023642_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-vaarika-limpa-0-25l/p/1023642",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "mahlajook vaarika limpa 0,25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook vaarika",
+      "descriptorOrder": [
+        "mahlajook",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "vaarika": "vaarika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -795,7 +2905,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_119549_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-multi-poltsamaa-1l/p/119549",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "mahlajook multi põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook multi",
+      "descriptorOrder": [
+        "mahlajook",
+        "multi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "multi": "multi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -809,7 +2956,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023617_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-mustika-limpa-0-25l/p/1023617",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "mahlajook mustika limpa 0,25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook mustika",
+      "descriptorOrder": [
+        "mahlajook",
+        "mustika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -823,7 +3007,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023632_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-pirni-ouna-limpa-0-25l/p/1023632",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "mahlajook pirni-õuna limpa 0,25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook pirni õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "pirni",
+        "õuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -837,7 +3058,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1020158_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/apelsinijook-pfanner-2l/p/1020158",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "apelsinijook",
+      "unit": "2000ml",
+      "variety": "pfanner",
+      "nameLower": "apelsinijook pfanner 2l",
+      "brand": "pfanner",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsinijook",
+      "descriptorOrder": [
+        "apelsinijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "apelsinijook": "apelsinijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -851,7 +3107,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814749_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/multipuuvilja-mahlajook-rimi-smart-1l/p/814749",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "multipuuvilja",
+      "unit": "1000ml",
+      "variety": "rimi smart",
+      "nameLower": "multipuuvilja mahlajook rimi smart  1l",
+      "brand": "rimi smart",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook multipuuvilja",
+      "descriptorOrder": [
+        "multipuuvilja",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multipuuvilja": "multipuuvilja",
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -865,7 +3158,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_136945_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/multimahlajook-tymbark-magusainega-0-2l/p/136945",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "200ml",
+      "variety": "tymbark",
+      "nameLower": "multimahlajook tymbark magusainega 0,2l",
+      "brand": "tymbark",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "magusainega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "magusainega multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook",
+        "magusainega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook",
+        "magusainega": "magusainega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -879,21 +3209,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812371_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/mahlajook-rimi-virsiku-ja-viinamarja-0-2l/p/812371",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Aloe Vera jook Aleo Premium 1,5l",
-    "price": 3.99,
-    "regularPrice": 3.99,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Aleo",
-    "storeUnitPrice": 2.66,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1355182_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/aloe-vera-jook-aleo-premium-1-5l/p/1355182",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mahlajook",
+      "unit": "200ml",
+      "variety": "rimi",
+      "nameLower": "mahlajook rimi virsiku ja viinamarja 0,2l",
+      "brand": "rimi",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja mahlajook viinamarja virsiku",
+      "descriptorOrder": [
+        "mahlajook",
+        "virsiku",
+        "ja",
+        "viinamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "virsiku": "virsiku",
+        "ja": "ja",
+        "viinamarja": "viinamarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -907,7 +3264,103 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812372_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/mahlajook-rimi-apelsini-banaani-virsiku-200ml/p/812372",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mahlajook",
+      "unit": "200ml",
+      "variety": "rimi",
+      "nameLower": "mahlajook rimi apelsini,banaani,virsiku 200ml",
+      "brand": "rimi",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsini banaani mahlajook virsiku",
+      "descriptorOrder": [
+        "mahlajook",
+        "apelsini",
+        "banaani",
+        "virsiku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "apelsini": "apelsini",
+        "banaani": "banaani",
+        "virsiku": "virsiku"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Aloe Vera jook Aleo Premium 1,5l",
+    "price": 3.99,
+    "regularPrice": 3.99,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Aleo",
+    "storeUnitPrice": 2.66,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1355182_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/aloe-vera-jook-aleo-premium-1-5l/p/1355182",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "1500ml",
+      "variety": "vera aleo premium",
+      "nameLower": "aloe vera jook aleo premium 1,5l",
+      "brand": "aleo",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe jook premium vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "premium"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook",
+        "premium": "premium"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -921,7 +3374,45 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1363482_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/mahlajook-dr-active-apels-ananass-porg-1-5l/p/1363482",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "mahlajook dr active",
+      "nameLower": "mahlajook dr.active apels-ananass-porg. 1,5l",
+      "brand": "dr. active",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ananass apels mahlajook porg",
+      "descriptorOrder": [
+        "mahlajook",
+        "apels",
+        "ananass",
+        "porg"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -935,7 +3426,42 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_142458_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/granaatounajook-aura-1l/p/142458",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "granaatõunajook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "granaatõunajook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granaatõunajook",
+      "descriptorOrder": [
+        "granaatõunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "granaatõunajook": "granaatõunajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -949,7 +3475,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1355181_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/aloe-vera-jook-aleo-premium-0-5l/p/1355181",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "500ml",
+      "variety": "vera aleo premium",
+      "nameLower": "aloe vera jook aleo premium 0,5l",
+      "brand": "aleo",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe jook premium vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "premium"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook",
+        "premium": "premium"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -963,7 +3530,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_188850_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/passionvilja-mahlajook-pfanner-1l/p/188850",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "passionvilja",
+      "unit": "1000ml",
+      "variety": "pfanner",
+      "nameLower": "passionvilja mahlajook pfanner 1l",
+      "brand": "pfanner",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook passionvilja",
+      "descriptorOrder": [
+        "passionvilja",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "passionvilja": "passionvilja",
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -977,7 +3581,48 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815162_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/mahlajook-rimi-banaan-ja-maasikas-200ml/p/815162",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "mahlajook",
+      "unit": "200ml",
+      "variety": "mahlajook rimi",
+      "nameLower": "mahlajook rimi banaan ja maasikas 200ml",
+      "brand": "rimi",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "banaan ja maasikas mahlajook",
+      "descriptorOrder": [
+        "mahlajook",
+        "banaan",
+        "ja",
+        "maasikas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "banaan": "banaan",
+        "ja": "ja",
+        "maasikas": "maasikas"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -991,7 +3636,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_188851_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/ananassi-kookose-jook-pfanner-1l/p/188851",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ananassi",
+      "unit": "1000ml",
+      "variety": "pfanner",
+      "nameLower": "ananassi-kookose jook pfanner 1l",
+      "brand": "pfanner",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ananassi jook kookose",
+      "descriptorOrder": [
+        "ananassi",
+        "kookose",
+        "jook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1005,7 +3687,44 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_162640_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/jook-johvika-granaatouna-poltsamaa-1l/p/162640",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jook jõhvika-granaatõuna põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granaatõuna jook jõhvika",
+      "descriptorOrder": [
+        "jook",
+        "jõhvika",
+        "granaatõuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1019,7 +3738,45 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1363768_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/mahlajook-dr-active-apels-ananass-porg-0-5l/p/1363768",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "500ml",
+      "variety": "mahlajook dr active",
+      "nameLower": "mahlajook dr.active apels-ananass-porg. 0,5l",
+      "brand": "dr. active",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ananass apels mahlajook porg",
+      "descriptorOrder": [
+        "mahlajook",
+        "apels",
+        "ananass",
+        "porg"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1028,12 +3785,51 @@
     "regularPrice": 5.59,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "CAPRI SUN",
     "storeUnitPrice": 2.8,
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1020573_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/mahlajook-monster-alarm-capri-sun-10x200ml/p/1020573",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "10x200ml",
+      "variety": "monster alarm capri sun",
+      "nameLower": "mahlajook monster alarm capri sun 10x200ml",
+      "brand": "capri sun",
+      "size": "10x200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alarm mahlajook monster",
+      "descriptorOrder": [
+        "mahlajook",
+        "monster",
+        "alarm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "monster": "monster",
+        "alarm": "alarm"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -1047,6 +3843,43 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374757_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---eksootilised/mahlajook-mango-apelsini-dr-active-0-5l/p/1374757",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "500ml",
+      "variety": "mahlajook dr active",
+      "nameLower": "mahlajook mango-apelsini dr. active 0,5l",
+      "brand": "dr. active",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsini mahlajook mango",
+      "descriptorOrder": [
+        "mahlajook",
+        "mango",
+        "apelsini"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

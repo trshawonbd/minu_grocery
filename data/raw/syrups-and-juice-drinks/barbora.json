@@ -12,7 +12,44 @@
     "unit": "l",
     "storeUnitPrice": 24.76,
     "brand": "MONIN",
-    "image": "https://cdn.barbora.ee/products/95e976e9-79df-410a-bfa9-feeaf190e042_m.png"
+    "image": "https://cdn.barbora.ee/products/95e976e9-79df-410a-bfa9-feeaf190e042_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "250ml",
+      "variety": "monin",
+      "nameLower": "siirup monin karamelli 250ml",
+      "brand": "monin",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "karamelli siirup",
+      "descriptorOrder": [
+        "siirup",
+        "karamelli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "karamelli": "karamelli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -27,7 +64,44 @@
     "unit": "l",
     "storeUnitPrice": 18.36,
     "brand": "MONIN",
-    "image": "https://cdn.barbora.ee/products/a8ff555e-ae7a-4d5c-a45a-b8226394b702_m.png"
+    "image": "https://cdn.barbora.ee/products/a8ff555e-ae7a-4d5c-a45a-b8226394b702_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "250ml",
+      "variety": "monin",
+      "nameLower": "siirup monin grenadiini 250ml",
+      "brand": "monin",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grenadiini siirup",
+      "descriptorOrder": [
+        "siirup",
+        "grenadiini"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "grenadiini": "grenadiini"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -42,7 +116,46 @@
     "unit": "l",
     "storeUnitPrice": 23.16,
     "brand": "MONIN",
-    "image": "https://cdn.barbora.ee/products/0c535851-5f44-4cc5-a99c-726053a0ab97_m.png"
+    "image": "https://cdn.barbora.ee/products/0c535851-5f44-4cc5-a99c-726053a0ab97_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "250ml",
+      "variety": "monin",
+      "nameLower": "siirup monin mojito piparmündi 250ml",
+      "brand": "monin",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mojito piparmündi siirup",
+      "descriptorOrder": [
+        "siirup",
+        "mojito",
+        "piparmündi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "mojito": "mojito",
+        "piparmündi": "piparmündi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -57,7 +170,44 @@
     "unit": "l",
     "storeUnitPrice": 39.96,
     "brand": "MONIN",
-    "image": "https://cdn.barbora.ee/products/53418c86-c426-47a2-a6ab-6688a12ab9d7_m.png"
+    "image": "https://cdn.barbora.ee/products/53418c86-c426-47a2-a6ab-6688a12ab9d7_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kokteilisiirupite",
+      "unit": "5x50ml",
+      "variety": "monin",
+      "nameLower": "kokteilisiirupite komplekt monin 5×50ml",
+      "brand": "monin",
+      "size": "5x50ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kokteilisiirupite komplekt",
+      "descriptorOrder": [
+        "kokteilisiirupite",
+        "komplekt"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kokteilisiirupite": "kokteilisiirupite",
+        "komplekt": "komplekt"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "5",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -72,7 +222,44 @@
     "unit": "l",
     "storeUnitPrice": 2.73,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/d204cec5-7aec-481e-aef4-ae07abb1e8d8_m.png"
+    "image": "https://cdn.barbora.ee/products/d204cec5-7aec-481e-aef4-ae07abb1e8d8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "aura",
+      "nameLower": "siirup aura vaarikamaitseline 750ml",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "siirup vaarika",
+      "descriptorOrder": [
+        "siirup",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "vaarikamaitseline": "vaarikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -87,7 +274,44 @@
     "unit": "l",
     "storeUnitPrice": 2.73,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/c84de248-6a24-4744-b270-43e7813bbb8a_m.png"
+    "image": "https://cdn.barbora.ee/products/c84de248-6a24-4744-b270-43e7813bbb8a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "aura",
+      "nameLower": "siirup aura rabarberimaitseline 750ml",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "rabarberi siirup",
+      "descriptorOrder": [
+        "siirup",
+        "rabarberi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "rabarberimaitseline": "rabarberimaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -102,7 +326,46 @@
     "unit": "l",
     "storeUnitPrice": 2.73,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/31ebb200-e2cc-4c96-a475-e9e7b55613eb_m.png"
+    "image": "https://cdn.barbora.ee/products/31ebb200-e2cc-4c96-a475-e9e7b55613eb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "aura valge",
+      "nameLower": "siirup aura valge klaari maits. 750ml",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "klaari siirup valge",
+      "descriptorOrder": [
+        "siirup",
+        "valge",
+        "klaari"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "valge": "valge",
+        "klaari": "klaari"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -117,7 +380,44 @@
     "unit": "l",
     "storeUnitPrice": 1.58,
     "brand": "MIO&RIO",
-    "image": "https://cdn.barbora.ee/products/ee5c69e1-a679-4da5-b2a5-29dfb025e57a_m.png"
+    "image": "https://cdn.barbora.ee/products/ee5c69e1-a679-4da5-b2a5-29dfb025e57a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "500ml",
+      "variety": "mio rio",
+      "nameLower": "siirup mio&rio metsmaasika 500ml",
+      "brand": "mio&rio",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsmaasika siirup",
+      "descriptorOrder": [
+        "siirup",
+        "metsmaasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "metsmaasika": "metsmaasika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -132,7 +432,44 @@
     "unit": "l",
     "storeUnitPrice": 1.58,
     "brand": "MIO&RIO",
-    "image": "https://cdn.barbora.ee/products/c4dafdec-c797-419c-b1de-a3519fb2c914_m.png"
+    "image": "https://cdn.barbora.ee/products/c4dafdec-c797-419c-b1de-a3519fb2c914_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "500ml",
+      "variety": "mio rio",
+      "nameLower": "siirup mio&rio kirsi 500ml",
+      "brand": "mio&rio",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsi siirup",
+      "descriptorOrder": [
+        "siirup",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "kirsi": "kirsi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -147,7 +484,45 @@
     "unit": "l",
     "storeUnitPrice": 3.45,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/22676c0d-9510-42e9-85dd-a0f0943bf08f_m.png"
+    "image": "https://cdn.barbora.ee/products/22676c0d-9510-42e9-85dd-a0f0943bf08f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannujook",
+      "unit": "1000ml",
+      "variety": "kannujook põltsamaa mustasõs",
+      "nameLower": "kannujook põltsamaa mustasõs.õun.vaar.1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kannujook mustasõs vaar õun",
+      "descriptorOrder": [
+        "kannujook",
+        "mustasõs",
+        "õun",
+        "vaar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -162,7 +537,43 @@
     "unit": "l",
     "storeUnitPrice": 2.09,
     "brand": "TYMBARK",
-    "image": "https://cdn.barbora.ee/products/698a0db2-3ab1-4bb7-9cbf-948e242acba9_m.png"
+    "image": "https://cdn.barbora.ee/products/698a0db2-3ab1-4bb7-9cbf-948e242acba9_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaktuse",
+      "unit": "1000ml",
+      "variety": "tymbark",
+      "nameLower": "kaktuse maits.multimahlajook tymbark 1l",
+      "brand": "tymbark",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaktuse multimahlajook",
+      "descriptorOrder": [
+        "kaktuse",
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaktuse": "kaktuse"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -177,7 +588,42 @@
     "unit": "l",
     "storeUnitPrice": 1.75,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/3a33f5c8-1d31-43f8-9103-d62f82b442b2_m.png"
+    "image": "https://cdn.barbora.ee/products/3a33f5c8-1d31-43f8-9103-d62f82b442b2_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvikajook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "jõhvikajook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvikajook",
+      "descriptorOrder": [
+        "jõhvikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvikajook": "jõhvikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -192,7 +638,42 @@
     "unit": "l",
     "storeUnitPrice": 1.95,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/2d057e0b-9e67-462b-a33e-57defbf65b87_m.png"
+    "image": "https://cdn.barbora.ee/products/2d057e0b-9e67-462b-a33e-57defbf65b87_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "multimahlajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -207,7 +688,42 @@
     "unit": "l",
     "storeUnitPrice": 1.75,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/292467c2-f78c-43c7-8664-639c269226b2_m.png"
+    "image": "https://cdn.barbora.ee/products/292467c2-f78c-43c7-8664-639c269226b2_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvikajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jõhvikajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvikajook",
+      "descriptorOrder": [
+        "jõhvikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvikajook": "jõhvikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -222,7 +738,41 @@
     "unit": "l",
     "storeUnitPrice": 1.69,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/a2c4e27b-e112-4478-bece-9bd5745726f8_m.png"
+    "image": "https://cdn.barbora.ee/products/a2c4e27b-e112-4478-bece-9bd5745726f8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustika",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "mustika-õunajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustika õunajook",
+      "descriptorOrder": [
+        "mustika",
+        "õunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -237,7 +787,42 @@
     "unit": "l",
     "storeUnitPrice": 5.63,
     "brand": "SURPRISE",
-    "image": "https://cdn.barbora.ee/products/cf6a735d-5f55-4610-a2e3-8e09f7eb6dfd_m.png"
+    "image": "https://cdn.barbora.ee/products/cf6a735d-5f55-4610-a2e3-8e09f7eb6dfd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "300ml",
+      "variety": "surprise",
+      "nameLower": "multimahlajook surprise,300ml",
+      "brand": "surprise",
+      "size": "300ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -252,7 +837,42 @@
     "unit": "l",
     "storeUnitPrice": 1.75,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/a8ff4cfc-37c5-4bd5-a4fb-e62b0d1c8243_m.png"
+    "image": "https://cdn.barbora.ee/products/a8ff4cfc-37c5-4bd5-a4fb-e62b0d1c8243_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "granaatõunajook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "granaatõunajook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granaatõunajook",
+      "descriptorOrder": [
+        "granaatõunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "granaatõunajook": "granaatõunajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -267,7 +887,46 @@
     "unit": "l",
     "storeUnitPrice": 1.15,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/3fb7f355-3984-4655-b8a1-73f2a59b46d1_m.png"
+    "image": "https://cdn.barbora.ee/products/3fb7f355-3984-4655-b8a1-73f2a59b46d1_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multipuuvilja",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "multipuuvilja mahlajook aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook multipuuvilja",
+      "descriptorOrder": [
+        "multipuuvilja",
+        "mahlajook",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multipuuvilja": "multipuuvilja",
+        "mahlajook": "mahlajook",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -282,7 +941,44 @@
     "unit": "l",
     "storeUnitPrice": 1.18,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/bb3d213e-86b7-488f-8459-777b59bc276e_m.png"
+    "image": "https://cdn.barbora.ee/products/bb3d213e-86b7-488f-8459-777b59bc276e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvikamahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "jõhvikamahlajook aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh jõhvikamahlajook",
+      "descriptorOrder": [
+        "jõhvikamahlajook",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvikamahlajook": "jõhvikamahlajook",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -297,7 +993,44 @@
     "unit": "l",
     "storeUnitPrice": 1.18,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/1e0884cf-532f-4e1c-972f-c0d4515c1bf6_m.png"
+    "image": "https://cdn.barbora.ee/products/1e0884cf-532f-4e1c-972f-c0d4515c1bf6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pirni",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "pirni-õunamahlajook aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh pirni õunamahlajook",
+      "descriptorOrder": [
+        "pirni",
+        "õunamahlajook",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -312,7 +1045,46 @@
     "unit": "l",
     "storeUnitPrice": 1.18,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/6f706739-7247-4946-aac7-6757e3c90b14_m.png"
+    "image": "https://cdn.barbora.ee/products/6f706739-7247-4946-aac7-6757e3c90b14_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punase",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "punase viinamarjamahlajook aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh punase viinamarjamahlajook",
+      "descriptorOrder": [
+        "punase",
+        "viinamarjamahlajook",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punase": "punase",
+        "viinamarjamahlajook": "viinamarjamahlajook",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -327,7 +1099,43 @@
     "unit": "l",
     "storeUnitPrice": 2.09,
     "brand": "TYMBARK",
-    "image": "https://cdn.barbora.ee/products/fe86feb8-2e03-44e0-a93c-fecc8d4df1b6_m.png"
+    "image": "https://cdn.barbora.ee/products/fe86feb8-2e03-44e0-a93c-fecc8d4df1b6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mango",
+      "unit": "1000ml",
+      "variety": "tymbark",
+      "nameLower": "mango maits.multimahlajook tymbark 1l",
+      "brand": "tymbark",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mango multimahlajook",
+      "descriptorOrder": [
+        "mango",
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mango": "mango"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -342,7 +1150,42 @@
     "unit": "l",
     "storeUnitPrice": 1.79,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/f95f5359-d65e-462f-8834-f90b6e1514ee_m.png"
+    "image": "https://cdn.barbora.ee/products/f95f5359-d65e-462f-8834-f90b6e1514ee_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kirsijook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "kirsijook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsijook",
+      "descriptorOrder": [
+        "kirsijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kirsijook": "kirsijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -357,7 +1200,46 @@
     "unit": "l",
     "storeUnitPrice": 1.37,
     "brand": "CIDO",
-    "image": "https://cdn.barbora.ee/products/d130bc8a-2e65-40d3-82b2-30eac9ec2adf_m.png"
+    "image": "https://cdn.barbora.ee/products/d130bc8a-2e65-40d3-82b2-30eac9ec2adf_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "frutto cido",
+      "nameLower": "mahlajook mit.puuv. 10% frutto cido,1.5l",
+      "brand": "cido",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "frutto mahlajook mit puuv",
+      "descriptorOrder": [
+        "mahlajook",
+        "mit",
+        "puuv",
+        "frutto"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "frutto": "frutto"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -372,7 +1254,42 @@
     "unit": "l",
     "storeUnitPrice": 3.1,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/685c1c2b-9b3b-4532-a2a3-94f0a5b90f59_m.png"
+    "image": "https://cdn.barbora.ee/products/685c1c2b-9b3b-4532-a2a3-94f0a5b90f59_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õunajook",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "õunajook põltsamaa 200ml",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "õunajook",
+      "descriptorOrder": [
+        "õunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õunajook": "õunajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -387,7 +1304,41 @@
     "unit": "l",
     "storeUnitPrice": 3.75,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/4b0ccf6f-f805-4e89-af6d-f0bd247fa445_m.png"
+    "image": "https://cdn.barbora.ee/products/4b0ccf6f-f805-4e89-af6d-f0bd247fa445_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "apelsini",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "apelsini-õunajook põltsamaa 200ml",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsini õunajook",
+      "descriptorOrder": [
+        "apelsini",
+        "õunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -402,7 +1353,42 @@
     "unit": "l",
     "storeUnitPrice": 3.1,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/563cb1e6-ce6a-414a-8733-31764d4f94c9_m.png"
+    "image": "https://cdn.barbora.ee/products/563cb1e6-ce6a-414a-8733-31764d4f94c9_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "multimahlajook põltsamaa 200ml",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -417,7 +1403,44 @@
     "unit": "l",
     "storeUnitPrice": 1.99,
     "brand": "CIDO",
-    "image": "https://cdn.barbora.ee/products/f9cf4756-1dc7-46f5-aac5-b14d7d28b6b7_m.png"
+    "image": "https://cdn.barbora.ee/products/f9cf4756-1dc7-46f5-aac5-b14d7d28b6b7_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "mahlajook cido",
+      "nameLower": "mahlajook sidrun.laimi 15% cido,1l",
+      "brand": "cido",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "15",
+      "descriptors": "laimi mahlajook sidrun",
+      "descriptorOrder": [
+        "mahlajook",
+        "sidrun",
+        "laimi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -432,7 +1455,42 @@
     "unit": "l",
     "storeUnitPrice": 2.09,
     "brand": "TYMBARK",
-    "image": "https://cdn.barbora.ee/products/c14878b1-3668-4988-9a91-3998861ad257_m.png"
+    "image": "https://cdn.barbora.ee/products/c14878b1-3668-4988-9a91-3998861ad257_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "litši",
+      "unit": "1000ml",
+      "variety": "tymbark",
+      "nameLower": "litši-marja maits.mahlajook tymbark 1l",
+      "brand": "tymbark",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "litši mahlajook marja",
+      "descriptorOrder": [
+        "litši",
+        "marja",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -447,7 +1505,44 @@
     "unit": "l",
     "storeUnitPrice": 1.8,
     "brand": "DINO",
-    "image": "https://cdn.barbora.ee/products/42b53f77-4877-420c-b3ae-f7dbc2addee4_m.png"
+    "image": "https://cdn.barbora.ee/products/42b53f77-4877-420c-b3ae-f7dbc2addee4_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õunajook",
+      "unit": "200ml",
+      "variety": "mio rio",
+      "nameLower": "õunajook mio&rio 200ml",
+      "brand": "dino",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mio rio õunajook",
+      "descriptorOrder": [
+        "õunajook",
+        "mio",
+        "rio"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õunajook": "õunajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -462,7 +1557,46 @@
     "unit": "l",
     "storeUnitPrice": 2.3,
     "brand": "DINO",
-    "image": "https://cdn.barbora.ee/products/a87f367b-3f50-4270-8c32-35bbb1c260ac_m.png"
+    "image": "https://cdn.barbora.ee/products/a87f367b-3f50-4270-8c32-35bbb1c260ac_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "virsiku",
+      "unit": "200ml",
+      "variety": "mio rio",
+      "nameLower": "virsiku viinamarjajook mio&rio 200ml",
+      "brand": "dino",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mio rio viinamarjajook virsiku",
+      "descriptorOrder": [
+        "virsiku",
+        "viinamarjajook",
+        "mio",
+        "rio"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "virsiku": "virsiku",
+        "viinamarjajook": "viinamarjajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -477,7 +1611,44 @@
     "unit": "l",
     "storeUnitPrice": 1.8,
     "brand": "DINO",
-    "image": "https://cdn.barbora.ee/products/bb4e030e-2867-4237-9c22-c758ccf4edb6_m.png"
+    "image": "https://cdn.barbora.ee/products/bb4e030e-2867-4237-9c22-c758ccf4edb6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mitmepuuviljajook",
+      "unit": "200ml",
+      "variety": "mio rio",
+      "nameLower": "mitmepuuviljajook mio&rio 200ml",
+      "brand": "dino",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mio mitmepuuviljajook rio",
+      "descriptorOrder": [
+        "mitmepuuviljajook",
+        "mio",
+        "rio"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mitmepuuviljajook": "mitmepuuviljajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -492,22 +1663,42 @@
     "unit": "l",
     "storeUnitPrice": 1.79,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/baa57ecf-232d-4ca9-847b-402f2c666f44_m.png"
-  },
-  {
-    "store": "Barbora",
-    "name": "Multipuuvilja jook MIO&RIO 1L",
-    "price": 1.05,
-    "regularPrice": 1.05,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/multipuuvilja-jook-mio-rio-1-l",
-    "ean": null,
-    "unit": "l",
-    "storeUnitPrice": 1.05,
-    "brand": "GUSTA FIT",
-    "image": "https://cdn.barbora.ee/products/7f76c966-c33c-4c7e-aaef-c92f9a38d4ea_m.png"
+    "image": "https://cdn.barbora.ee/products/baa57ecf-232d-4ca9-847b-402f2c666f44_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "marjajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "marjajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "marjajook",
+      "descriptorOrder": [
+        "marjajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "marjajook": "marjajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -522,7 +1713,46 @@
     "unit": "l",
     "storeUnitPrice": 0.75,
     "brand": "GUSTA FIT",
-    "image": "https://cdn.barbora.ee/products/1975a29a-3e89-4505-baf4-35db399f4d44_m.png"
+    "image": "https://cdn.barbora.ee/products/1975a29a-3e89-4505-baf4-35db399f4d44_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multipuuvilja",
+      "unit": "2000ml",
+      "variety": "mio rio",
+      "nameLower": "multipuuvilja jook mio&rio 2l",
+      "brand": "gusta fit",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook mio multipuuvilja rio",
+      "descriptorOrder": [
+        "multipuuvilja",
+        "jook",
+        "mio",
+        "rio"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multipuuvilja": "multipuuvilja",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -537,7 +1767,48 @@
     "unit": "l",
     "storeUnitPrice": 2.73,
     "brand": "ALEO",
-    "image": "https://cdn.barbora.ee/products/0f171afa-2947-4597-a1f5-be6b0a583e12_m.png"
+    "image": "https://cdn.barbora.ee/products/0f171afa-2947-4597-a1f5-be6b0a583e12_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "1500ml",
+      "variety": "aleo premium",
+      "nameLower": "aloe vera jook aleo premium 1.5l",
+      "brand": "aleo",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe jook premium vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "premium"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook",
+        "premium": "premium"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -552,7 +1823,44 @@
     "unit": "l",
     "storeUnitPrice": 1.33,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/0eff8094-c1ac-451e-a4f8-6e96c6ca95ba_m.png"
+    "image": "https://cdn.barbora.ee/products/0eff8094-c1ac-451e-a4f8-6e96c6ca95ba_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvika",
+      "unit": "2000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jõhvika mahlajook põltsamaa 2l",
+      "brand": "põltsamaa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika mahlajook",
+      "descriptorOrder": [
+        "jõhvika",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvika": "jõhvika",
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -567,7 +1875,46 @@
     "unit": "l",
     "storeUnitPrice": 1.37,
     "brand": "CIDO",
-    "image": "https://cdn.barbora.ee/products/73c1961c-5ff6-47a1-b82d-62fcabf11400_m.png"
+    "image": "https://cdn.barbora.ee/products/73c1961c-5ff6-47a1-b82d-62fcabf11400_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "frutto cido",
+      "nameLower": "mahlajook arbuusi-meloni frutto cido,1.5l",
+      "brand": "cido",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arbuusi frutto mahlajook meloni",
+      "descriptorOrder": [
+        "mahlajook",
+        "arbuusi",
+        "meloni",
+        "frutto"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "frutto": "frutto"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -582,7 +1929,45 @@
     "unit": "l",
     "storeUnitPrice": 2.18,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/a51c8cac-416e-4501-8112-69613540b545_m.png"
+    "image": "https://cdn.barbora.ee/products/a51c8cac-416e-4501-8112-69613540b545_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "500ml",
+      "variety": "dr active apel anan porg",
+      "nameLower": "mahlajook dr.active apel.anan.porg.500ml",
+      "brand": "dr. active",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "anan apel mahlajook porg",
+      "descriptorOrder": [
+        "mahlajook",
+        "apel",
+        "anan",
+        "porg"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -597,7 +1982,45 @@
     "unit": "l",
     "storeUnitPrice": 1.23,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/ce05e487-f083-4625-92c1-80031a15b52a_m.png"
+    "image": "https://cdn.barbora.ee/products/ce05e487-f083-4625-92c1-80031a15b52a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "dr active apels anan porg",
+      "nameLower": "mahlajook dr.active apels.anan.porg.1.5l",
+      "brand": "dr. active",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "anan apels mahlajook porg",
+      "descriptorOrder": [
+        "mahlajook",
+        "apels",
+        "anan",
+        "porg"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -612,7 +2035,42 @@
     "unit": "l",
     "storeUnitPrice": 2.2,
     "brand": "LIMPA",
-    "image": "https://cdn.barbora.ee/products/d1fba4c5-5b29-40b2-af30-2e649d34ca9a_m.png"
+    "image": "https://cdn.barbora.ee/products/d1fba4c5-5b29-40b2-af30-2e649d34ca9a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multijook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "multijook limpa 250ml",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multijook",
+      "descriptorOrder": [
+        "multijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multijook": "multijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -627,7 +2085,41 @@
     "unit": "l",
     "storeUnitPrice": 2.2,
     "brand": "LIMPA",
-    "image": "https://cdn.barbora.ee/products/2ad4316e-9d84-4beb-8431-9d82a7a5f6b3_m.png"
+    "image": "https://cdn.barbora.ee/products/2ad4316e-9d84-4beb-8431-9d82a7a5f6b3_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õuna",
+      "unit": "250ml",
+      "variety": "kirsijook limpa",
+      "nameLower": "õuna-kirsijook limpa 250ml",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsijook õuna",
+      "descriptorOrder": [
+        "õuna",
+        "kirsijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -642,7 +2134,42 @@
     "unit": "l",
     "storeUnitPrice": 2.2,
     "brand": "LIMPA",
-    "image": "https://cdn.barbora.ee/products/223bec4c-cbd4-4373-be07-980d643ac0a6_m.png"
+    "image": "https://cdn.barbora.ee/products/223bec4c-cbd4-4373-be07-980d643ac0a6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikajook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "maasikajook limpa 250ml",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikajook",
+      "descriptorOrder": [
+        "maasikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikajook": "maasikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -657,7 +2184,42 @@
     "unit": "l",
     "storeUnitPrice": 2.16,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/ecbb11be-01d5-4809-89d2-cfdbb18a2743_m.png"
+    "image": "https://cdn.barbora.ee/products/ecbb11be-01d5-4809-89d2-cfdbb18a2743_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlaj",
+      "unit": "500ml",
+      "variety": "dr active õuna",
+      "nameLower": "mahlaj. dr. active õuna-arbuusi 0.5l",
+      "brand": "dr. active",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arbuusi mahlaj õuna",
+      "descriptorOrder": [
+        "mahlaj",
+        "õuna",
+        "arbuusi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -672,7 +2234,44 @@
     "unit": "l",
     "storeUnitPrice": 1.23,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/ebe4545f-dbf4-4c7c-85b3-6f9d8b613ccf_m.png"
+    "image": "https://cdn.barbora.ee/products/ebe4545f-dbf4-4c7c-85b3-6f9d8b613ccf_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "dr active õuna",
+      "nameLower": "mahlajook dr.active õuna-arbuusi 1.5l",
+      "brand": "dr. active",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arbuusi mahlajook õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "õuna",
+        "arbuusi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -687,7 +2286,42 @@
     "unit": "l",
     "storeUnitPrice": 1.59,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/51c87a1c-e1ca-4965-b0e9-8a919ab71507_m.png"
+    "image": "https://cdn.barbora.ee/products/51c87a1c-e1ca-4965-b0e9-8a919ab71507_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustikamahlajook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "mustikamahlajook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustikamahlajook",
+      "descriptorOrder": [
+        "mustikamahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustikamahlajook": "mustikamahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -702,7 +2336,45 @@
     "unit": "l",
     "storeUnitPrice": 2.18,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/88a5badf-0b47-4736-99fd-606dff187f4f_m.png"
+    "image": "https://cdn.barbora.ee/products/88a5badf-0b47-4736-99fd-606dff187f4f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "500ml",
+      "variety": "dr active",
+      "nameLower": "mahlajook dr.active roh.õuna-mündi 500ml",
+      "brand": "dr. active",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook mündi roh õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "roh",
+        "õuna",
+        "mündi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -717,7 +2389,45 @@
     "unit": "l",
     "storeUnitPrice": 1.23,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/8c726f5f-a3b4-465f-91a9-0eb033202801_m.png"
+    "image": "https://cdn.barbora.ee/products/8c726f5f-a3b4-465f-91a9-0eb033202801_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "dr active",
+      "nameLower": "mahlajook dr.active roh. õuna-mündi 1.5l",
+      "brand": "dr. active",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook mündi roh õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "roh",
+        "õuna",
+        "mündi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -732,7 +2442,50 @@
     "unit": "l",
     "storeUnitPrice": 2.09,
     "brand": "TYMBARK",
-    "image": "https://cdn.barbora.ee/products/d90aa5fb-9d7e-46ed-a2c2-77396244e557_m.png"
+    "image": "https://cdn.barbora.ee/products/d90aa5fb-9d7e-46ed-a2c2-77396244e557_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mitmev",
+      "unit": "1000ml",
+      "variety": "mitmev tymbark",
+      "nameLower": "mitmev.jook õun,sidr,laim,münt tymbark1l",
+      "brand": "tymbark",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook laim mitmev münt sidr õun",
+      "descriptorOrder": [
+        "mitmev",
+        "jook",
+        "õun",
+        "sidr",
+        "laim",
+        "münt"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õun": "õun",
+        "sidr": "sidr",
+        "laim": "laim",
+        "münt": "münt"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -747,7 +2500,44 @@
     "unit": "l",
     "storeUnitPrice": 2,
     "brand": "CAPRI SUN",
-    "image": "https://cdn.barbora.ee/products/be380e65-8761-4183-bd91-e2152cdac09f_m.png"
+    "image": "https://cdn.barbora.ee/products/be380e65-8761-4183-bd91-e2152cdac09f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "10x200ml",
+      "variety": "capri sun multivitamiin",
+      "nameLower": "jook capri-sun multivitamiin 10x200ml",
+      "brand": "capri sun",
+      "size": "10x200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook multivitamiin",
+      "descriptorOrder": [
+        "jook",
+        "multivitamiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "multivitamiin": "multivitamiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -762,7 +2552,46 @@
     "unit": "l",
     "storeUnitPrice": 2,
     "brand": "CAPRI SUN",
-    "image": "https://cdn.barbora.ee/products/e1dc4d88-444b-46fe-940b-0089baa4fabc_m.png"
+    "image": "https://cdn.barbora.ee/products/e1dc4d88-444b-46fe-940b-0089baa4fabc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "10x200ml",
+      "variety": "capri sun mystic dragon",
+      "nameLower": "jook capri-sun mystic dragon 10x200ml",
+      "brand": "capri sun",
+      "size": "10x200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "dragon jook mystic",
+      "descriptorOrder": [
+        "jook",
+        "mystic",
+        "dragon"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "mystic": "mystic",
+        "dragon": "dragon"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -777,7 +2606,46 @@
     "unit": "l",
     "storeUnitPrice": 1.28,
     "brand": "LIMPA",
-    "image": "https://cdn.barbora.ee/products/f71b5050-25bc-4470-b3d9-19a1501f1352_m.png"
+    "image": "https://cdn.barbora.ee/products/f71b5050-25bc-4470-b3d9-19a1501f1352_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "peojook",
+      "unit": "2000ml",
+      "variety": "limpa",
+      "nameLower": "peojook õuna-maasika limpa 2l tetra",
+      "brand": "limpa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika peojook tetra õuna",
+      "descriptorOrder": [
+        "peojook",
+        "õuna",
+        "maasika",
+        "tetra"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peojook": "peojook",
+        "tetra": "tetra"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -792,7 +2660,48 @@
     "unit": "l",
     "storeUnitPrice": 1.17,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/5cbf1bba-8af9-4aef-8e43-0152cc67af17_m.png"
+    "image": "https://cdn.barbora.ee/products/5cbf1bba-8af9-4aef-8e43-0152cc67af17_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "m",
+      "unit": "1500ml",
+      "variety": "dok or active",
+      "nameLower": "m.jook vit. dok+or active man.apel.1.5l",
+      "brand": "dr. active",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apel dok jook m man or vit",
+      "descriptorOrder": [
+        "m",
+        "jook",
+        "vit",
+        "dok",
+        "or",
+        "man",
+        "apel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "active": "active"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -807,7 +2716,48 @@
     "unit": "l",
     "storeUnitPrice": 2.18,
     "brand": "DR. ACTIVE",
-    "image": "https://cdn.barbora.ee/products/35c15581-c296-40b7-9f7a-ff6cb13c8983_m.png"
+    "image": "https://cdn.barbora.ee/products/35c15581-c296-40b7-9f7a-ff6cb13c8983_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "m",
+      "unit": "500ml",
+      "variety": "dok or active",
+      "nameLower": "m.jook vit. dok+or active man.apel.500ml",
+      "brand": "dr. active",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apel dok jook m man or vit",
+      "descriptorOrder": [
+        "m",
+        "jook",
+        "vit",
+        "dok",
+        "or",
+        "man",
+        "apel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "active": "active"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -822,7 +2772,44 @@
     "unit": "l",
     "storeUnitPrice": 1.99,
     "brand": "PÕLTSAMAA",
-    "image": "https://cdn.barbora.ee/products/95bacd6f-ff93-4740-b032-6dbfc26623d3_m.png"
+    "image": "https://cdn.barbora.ee/products/95bacd6f-ff93-4740-b032-6dbfc26623d3_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa õuna",
+      "nameLower": "mahlajook põltsamaa õuna-küdoonia 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küdoonia mahlajook õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "õuna",
+        "küdoonia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -837,7 +2824,46 @@
     "unit": "l",
     "storeUnitPrice": 1.15,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/272b2b64-85d4-4475-912e-407d28c963aa_m.png"
+    "image": "https://cdn.barbora.ee/products/272b2b64-85d4-4475-912e-407d28c963aa_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsamarja",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "metsamarja mahlajook aura fresh 2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook metsamarja",
+      "descriptorOrder": [
+        "metsamarja",
+        "mahlajook",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsamarja": "metsamarja",
+        "mahlajook": "mahlajook",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -852,7 +2878,45 @@
     "unit": "l",
     "storeUnitPrice": 1.15,
     "brand": "AURA",
-    "image": "https://cdn.barbora.ee/products/3312ec7e-2fb1-4e14-9dd2-ec9223f02263_m.png"
+    "image": "https://cdn.barbora.ee/products/3312ec7e-2fb1-4e14-9dd2-ec9223f02263_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "viinamarja",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "viinamarja mahlajook aura fresh2l",
+      "brand": "aura",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fresh mahlajook viinamarja",
+      "descriptorOrder": [
+        "viinamarja",
+        "mahlajook",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "viinamarja": "viinamarja",
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -867,7 +2931,46 @@
     "unit": "l",
     "storeUnitPrice": 2.49,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/96055d78-ca59-4246-91d2-a45e756bd67a_m.png"
+    "image": "https://cdn.barbora.ee/products/96055d78-ca59-4246-91d2-a45e756bd67a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "lowcaly",
+      "nameLower": "mahlajook maasikamaits.suh/v.lowcaly 1l",
+      "brand": "mahlajook",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lowcaly maasika mahlajook suh v",
+      "descriptorOrder": [
+        "mahlajook",
+        "maasika",
+        "suh",
+        "v",
+        "lowcaly"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -882,7 +2985,46 @@
     "unit": "l",
     "storeUnitPrice": 2.49,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/049d5ba5-89e9-405c-bd79-57a781d4aaf6_m.png"
+    "image": "https://cdn.barbora.ee/products/049d5ba5-89e9-405c-bd79-57a781d4aaf6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "lowcaly",
+      "nameLower": "mahlajook mangomaits.suh/v.lowcaly 1l",
+      "brand": "mahlajook",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lowcaly mahlajook mango suh v",
+      "descriptorOrder": [
+        "mahlajook",
+        "mango",
+        "suh",
+        "v",
+        "lowcaly"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -897,7 +3039,46 @@
     "unit": "l",
     "storeUnitPrice": 2.49,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/57bdb479-d2c0-488b-b2c0-2cc07b93e3a6_m.png"
+    "image": "https://cdn.barbora.ee/products/57bdb479-d2c0-488b-b2c0-2cc07b93e3a6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "lowcaly",
+      "nameLower": "mahlajook pirnimaits.suh/v.lowcaly 1l",
+      "brand": "mahlajook",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lowcaly mahlajook pirni suh v",
+      "descriptorOrder": [
+        "mahlajook",
+        "pirni",
+        "suh",
+        "v",
+        "lowcaly"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -912,7 +3093,47 @@
     "unit": "l",
     "storeUnitPrice": 2.49,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/5f6bb045-e512-4ca1-8d25-6afffecb2c64_m.png"
+    "image": "https://cdn.barbora.ee/products/5f6bb045-e512-4ca1-8d25-6afffecb2c64_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "lowcaly",
+      "nameLower": "mahlajook vaarikamaits.s/v lowcaly 1l",
+      "brand": "mahlajook",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lowcaly mahlajook s v vaarika",
+      "descriptorOrder": [
+        "mahlajook",
+        "vaarika",
+        "s",
+        "v",
+        "lowcaly"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "lowcaly": "lowcaly"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -927,7 +3148,47 @@
     "unit": "l",
     "storeUnitPrice": 2.49,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/00d3bbd2-078a-4de6-9a98-68700f716ea0_m.png"
+    "image": "https://cdn.barbora.ee/products/00d3bbd2-078a-4de6-9a98-68700f716ea0_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "lowcaly",
+      "nameLower": "mahlajook virsikumaits.s/v lowcaly 1l",
+      "brand": "mahlajook",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lowcaly mahlajook s v virsiku",
+      "descriptorOrder": [
+        "mahlajook",
+        "virsiku",
+        "s",
+        "v",
+        "lowcaly"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "lowcaly": "lowcaly"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -942,7 +3203,48 @@
     "unit": "l",
     "storeUnitPrice": 2.18,
     "brand": "OKF",
-    "image": "https://cdn.barbora.ee/products/7f8b9e5c-b08f-4f2b-90e6-67b922ca4292_m.png"
+    "image": "https://cdn.barbora.ee/products/7f8b9e5c-b08f-4f2b-90e6-67b922ca4292_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "500ml",
+      "variety": "vera okf farmer",
+      "nameLower": "aloe vera jook okf farmer's 500ml",
+      "brand": "okf",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe farmer jook s vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "farmer",
+        "s"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -957,7 +3259,50 @@
     "unit": "l",
     "storeUnitPrice": 2.18,
     "brand": "OKF",
-    "image": "https://cdn.barbora.ee/products/5a946ca9-a01e-40c4-8d63-b6ebdb0d32dd_m.png"
+    "image": "https://cdn.barbora.ee/products/5a946ca9-a01e-40c4-8d63-b6ebdb0d32dd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "500ml",
+      "variety": "aloe vera okf farmer",
+      "nameLower": "aloe vera jook okf farmer's mango 500ml",
+      "brand": "okf",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe farmer jook mango s vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "farmer",
+        "s",
+        "mango"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -972,7 +3317,42 @@
     "unit": "l",
     "storeUnitPrice": 3.9,
     "brand": "JUMI JUMI",
-    "image": "https://cdn.barbora.ee/products/24a0179e-ca4a-4bbc-88e9-838ecc7edd4a_m.png"
+    "image": "https://cdn.barbora.ee/products/24a0179e-ca4a-4bbc-88e9-838ecc7edd4a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikajook",
+      "unit": "320ml",
+      "variety": "jumi",
+      "nameLower": "maasikajook jumi jumi 320ml",
+      "brand": "jumi jumi",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikajook",
+      "descriptorOrder": [
+        "maasikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikajook": "maasikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -987,7 +3367,44 @@
     "unit": "l",
     "storeUnitPrice": 3.9,
     "brand": "JUMI JUMI",
-    "image": "https://cdn.barbora.ee/products/890d6c61-44b3-4c42-ade6-1c67354b5e1a_m.png"
+    "image": "https://cdn.barbora.ee/products/890d6c61-44b3-4c42-ade6-1c67354b5e1a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "320ml",
+      "variety": "mahlajook jumi",
+      "nameLower": "mahlajook jumi jumi mango 320ml",
+      "brand": "jumi jumi",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook mango",
+      "descriptorOrder": [
+        "mahlajook",
+        "mango"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1002,7 +3419,44 @@
     "unit": "l",
     "storeUnitPrice": 3.9,
     "brand": "JUMI JUMI",
-    "image": "https://cdn.barbora.ee/products/63ebd832-1db2-4327-828e-6467a2013fdc_m.png"
+    "image": "https://cdn.barbora.ee/products/63ebd832-1db2-4327-828e-6467a2013fdc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "320ml",
+      "variety": "jumi",
+      "nameLower": "mahlajook jumi jumi litši 320ml",
+      "brand": "jumi jumi",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "litši mahlajook",
+      "descriptorOrder": [
+        "mahlajook",
+        "litši"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "litši": "litši"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1017,7 +3471,41 @@
     "unit": "l",
     "storeUnitPrice": 2.2,
     "brand": "LIMPA",
-    "image": "https://cdn.barbora.ee/products/fe3baee0-acc9-4ebb-9c0d-e532d0aaf939_m.png"
+    "image": "https://cdn.barbora.ee/products/fe3baee0-acc9-4ebb-9c0d-e532d0aaf939_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pirni",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "pirni-õunajook limpa 250ml",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pirni õunajook",
+      "descriptorOrder": [
+        "pirni",
+        "õunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1032,7 +3520,42 @@
     "unit": "l",
     "storeUnitPrice": 5.99,
     "brand": "IJEVAN",
-    "image": "https://cdn.barbora.ee/products/ce4ddc01-167e-4bef-bfc8-46ce570e0272_m.png"
+    "image": "https://cdn.barbora.ee/products/ce4ddc01-167e-4bef-bfc8-46ce570e0272_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "virsikukompott",
+      "unit": "1000ml",
+      "variety": null,
+      "nameLower": "virsikukompott 1l",
+      "brand": "ijevan",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "virsikukompott",
+      "descriptorOrder": [
+        "virsikukompott"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "virsikukompott": "virsikukompott"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1047,7 +3570,42 @@
     "unit": "l",
     "storeUnitPrice": 5.99,
     "brand": "IJEVAN",
-    "image": "https://cdn.barbora.ee/products/8e4c1907-9a7a-4732-9cdb-3004b6e93ae8_m.png"
+    "image": "https://cdn.barbora.ee/products/8e4c1907-9a7a-4732-9cdb-3004b6e93ae8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "astelpajukompott",
+      "unit": "1000ml",
+      "variety": null,
+      "nameLower": "astelpajukompott 1l",
+      "brand": "ijevan",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "astelpajukompott",
+      "descriptorOrder": [
+        "astelpajukompott"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "astelpajukompott": "astelpajukompott"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1062,7 +3620,42 @@
     "unit": "l",
     "storeUnitPrice": 5.99,
     "brand": "IJEVAN",
-    "image": "https://cdn.barbora.ee/products/50809ae0-8c32-4819-8dba-fa3ff57a860c_m.png"
+    "image": "https://cdn.barbora.ee/products/50809ae0-8c32-4819-8dba-fa3ff57a860c_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vaarikakompott",
+      "unit": "1000ml",
+      "variety": null,
+      "nameLower": "vaarikakompott 1l",
+      "brand": "ijevan",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "vaarikakompott",
+      "descriptorOrder": [
+        "vaarikakompott"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaarikakompott": "vaarikakompott"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1077,7 +3670,42 @@
     "unit": "l",
     "storeUnitPrice": 5.99,
     "brand": "IJEVAN",
-    "image": "https://cdn.barbora.ee/products/7fd80f85-8d3b-4b5e-9bc5-32637316d5bd_m.png"
+    "image": "https://cdn.barbora.ee/products/7fd80f85-8d3b-4b5e-9bc5-32637316d5bd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikakompott",
+      "unit": "1000ml",
+      "variety": null,
+      "nameLower": "maasikakompott 1l",
+      "brand": "ijevan",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikakompott",
+      "descriptorOrder": [
+        "maasikakompott"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikakompott": "maasikakompott"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1092,7 +3720,45 @@
     "unit": "l",
     "storeUnitPrice": 4.21,
     "brand": "DON SIMON",
-    "image": "https://cdn.barbora.ee/products/cbe53ae5-0134-49ec-bc1d-e489041b7c9e_m.png"
+    "image": "https://cdn.barbora.ee/products/cbe53ae5-0134-49ec-bc1d-e489041b7c9e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlaj",
+      "unit": "330ml",
+      "variety": "don simon",
+      "nameLower": "mahlaj.don simon punase viinamarja 330ml",
+      "brand": "don simon",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlaj punase viinamarja",
+      "descriptorOrder": [
+        "mahlaj",
+        "punase",
+        "viinamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punase": "punase",
+        "viinamarja": "viinamarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1107,7 +3773,45 @@
     "unit": "l",
     "storeUnitPrice": 4.21,
     "brand": "DON SIMON",
-    "image": "https://cdn.barbora.ee/products/159590e7-5a72-4c57-a1bd-78e9016018e8_m.png"
+    "image": "https://cdn.barbora.ee/products/159590e7-5a72-4c57-a1bd-78e9016018e8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlaj",
+      "unit": "330ml",
+      "variety": "don simon",
+      "nameLower": "mahlaj.don simon ananassi kookose 330ml",
+      "brand": "don simon",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ananassi kookose mahlaj",
+      "descriptorOrder": [
+        "mahlaj",
+        "ananassi",
+        "kookose"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ananassi": "ananassi",
+        "kookose": "kookose"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1122,7 +3826,100 @@
     "unit": "l",
     "storeUnitPrice": 2,
     "brand": "CAPRI SUN",
-    "image": "https://cdn.barbora.ee/products/2fa458f3-1f99-47af-9ef2-767fb6411307_m.png"
+    "image": "https://cdn.barbora.ee/products/2fa458f3-1f99-47af-9ef2-767fb6411307_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jook",
+      "unit": "10x200ml",
+      "variety": "capri sun safari",
+      "nameLower": "jook capri-sun safari fruits 10x200ml",
+      "brand": "capri sun",
+      "size": "10x200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fruits jook safari",
+      "descriptorOrder": [
+        "jook",
+        "safari",
+        "fruits"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "safari": "safari",
+        "fruits": "fruits"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Multipuuvilja jook MIO&RIO 1L",
+    "price": 1.05,
+    "regularPrice": 1.05,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/multipuuvilja-jook-mio-rio-1-l",
+    "ean": null,
+    "unit": "l",
+    "storeUnitPrice": 1.05,
+    "brand": "GUSTA FIT",
+    "image": "https://cdn.barbora.ee/products/7f76c966-c33c-4c7e-aaef-c92f9a38d4ea_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multipuuvilja",
+      "unit": "1000ml",
+      "variety": "mio rio",
+      "nameLower": "multipuuvilja jook mio&rio 1l",
+      "brand": "gusta fit",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook mio multipuuvilja rio",
+      "descriptorOrder": [
+        "multipuuvilja",
+        "jook",
+        "mio",
+        "rio"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multipuuvilja": "multipuuvilja",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1137,7 +3934,44 @@
     "unit": "l",
     "storeUnitPrice": 4.05,
     "brand": "GRANINI",
-    "image": "https://cdn.barbora.ee/products/2702e9d9-eaad-4074-8c19-98b9bdfceda4_m.png"
+    "image": "https://cdn.barbora.ee/products/2702e9d9-eaad-4074-8c19-98b9bdfceda4_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "mahlajook granini",
+      "nameLower": "mahlajook granini apelsini-mango 1l",
+      "brand": "granini",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsini mahlajook mango",
+      "descriptorOrder": [
+        "mahlajook",
+        "apelsini",
+        "mango"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1152,7 +3986,44 @@
     "unit": "l",
     "storeUnitPrice": 3.05,
     "brand": "GRANINI",
-    "image": "https://cdn.barbora.ee/products/291897ce-aa4f-44f4-a803-ab486d86276f_m.png"
+    "image": "https://cdn.barbora.ee/products/291897ce-aa4f-44f4-a803-ab486d86276f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "granini greip",
+      "nameLower": "mahlajook granini greip 1l",
+      "brand": "granini",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "greip mahlajook",
+      "descriptorOrder": [
+        "mahlajook",
+        "greip"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "greip": "greip"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1167,7 +4038,42 @@
     "unit": "l",
     "storeUnitPrice": 5.99,
     "brand": "IJEVAN",
-    "image": "https://cdn.barbora.ee/products/35993f05-3c08-4273-896b-e01d4322c981_m.png"
+    "image": "https://cdn.barbora.ee/products/35993f05-3c08-4273-896b-e01d4322c981_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukirsikompott",
+      "unit": "1000ml",
+      "variety": null,
+      "nameLower": "hapukirsikompott 1l",
+      "brand": "ijevan",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hapukirsikompott",
+      "descriptorOrder": [
+        "hapukirsikompott"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukirsikompott": "hapukirsikompott"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1182,6 +4088,43 @@
     "unit": "l",
     "storeUnitPrice": 5.99,
     "brand": "IJEVAN",
-    "image": "https://cdn.barbora.ee/products/c742a577-8101-43ef-9664-2beaa4ee8ebe_m.png"
+    "image": "https://cdn.barbora.ee/products/c742a577-8101-43ef-9664-2beaa4ee8ebe_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kodune",
+      "unit": "1000ml",
+      "variety": null,
+      "nameLower": "kodune assortii-kompott 1l",
+      "brand": "ijevan",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "assortii kodune kompott",
+      "descriptorOrder": [
+        "kodune",
+        "assortii",
+        "kompott"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

@@ -11,7 +11,48 @@
     "ean": "90486999",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/90486999.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90486999",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull summer ed lime",
+      "nameLower": "energiajook red bull summer ed.lime 0.25l prk",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ed energiajook lime purk summer",
+      "descriptorOrder": [
+        "energiajook",
+        "summer",
+        "ed",
+        "lime",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "summer": "summer",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,7 +66,48 @@
     "ean": "4740019005103",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740019005103.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BATTERY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740019005103",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "330ml",
+      "variety": "battery juiced euphoria",
+      "nameLower": "energiajook battery juiced euphoria 0.33l prk",
+      "brand": "battery",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook euphoria juiced purk",
+      "descriptorOrder": [
+        "energiajook",
+        "juiced",
+        "euphoria",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "juiced": "juiced",
+        "euphoria": "euphoria",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -39,7 +121,46 @@
     "ean": "7340131607222",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/7340131607222.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131607222",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco passionite",
+      "nameLower": "karb-tud fun.jook nocco passionite 0.33l",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fun jook karb passionite tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "fun",
+        "jook",
+        "passionite"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "passionite": "passionite"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -53,7 +174,47 @@
     "ean": "4744433010361",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4744433010361.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433010361",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief dragonfr",
+      "nameLower": "karb-tud jook belief dragonfr. 0.53l kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "dragonfr jook karb kofeiiniga tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "dragonfr",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "kofeiiniga": "kofeiiniga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -67,7 +228,48 @@
     "ean": "4744433010354",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4744433010354.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433010354",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief tropic",
+      "nameLower": "karb-tud jook belief tropic 0.53l kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook karb kofeiiniga tropic tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "tropic",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "tropic": "tropic",
+        "kofeiiniga": "kofeiiniga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -81,7 +283,49 @@
     "ean": "4740051002566",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740051002566.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "FOR ME",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051002566",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "for me zero",
+      "nameLower": "karb-tud j.for me zero 0.5l maasika-leedri,kofeiin",
+      "brand": "for me",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "j karb kofeiin leedri maasika tud zero",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "j",
+        "zero",
+        "maasika",
+        "leedri",
+        "kofeiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "zero": "zero",
+        "kofeiin": "kofeiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -95,7 +339,49 @@
     "ean": "4740051002559",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740051002559.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "FOR ME",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051002559",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "for me zero",
+      "nameLower": "karb-tud j.for me zero 0.5l granad-veriap,kofeiin",
+      "brand": "for me",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granad j karb kofeiin tud veriap zero",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "j",
+        "zero",
+        "granad",
+        "veriap",
+        "kofeiin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "zero": "zero",
+        "kofeiin": "kofeiin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -109,7 +395,48 @@
     "ean": "90493188",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/90493188.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90493188",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull white peach",
+      "nameLower": "energiajook red bull white peach 0.25l prk",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook peach purk white",
+      "descriptorOrder": [
+        "energiajook",
+        "white",
+        "peach",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "white": "white",
+        "peach": "peach",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -123,7 +450,47 @@
     "ean": "5905868422634",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/5905868422634.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oshee",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5905868422634",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "spordijoogipulb",
+      "unit": "550g",
+      "variety": "oshee guarana extract",
+      "nameLower": "spordijoogipulb.oshee guarana extract 550g greibi",
+      "brand": "oshee",
+      "size": "550g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "extract greibi guarana spordijoogipulb",
+      "descriptorOrder": [
+        "spordijoogipulb",
+        "guarana",
+        "extract",
+        "greibi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "guarana": "guarana",
+        "extract": "extract",
+        "greibi": "greibi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -137,7 +504,46 @@
     "ean": "5905868422597",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/5905868422597.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Oshee",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5905868422597",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "spordijoogipulber",
+      "unit": "550g",
+      "variety": "oshee universal",
+      "nameLower": "spordijoogipulber oshee universal 550g puuvilja",
+      "brand": "oshee",
+      "size": "550g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "puuvilja spordijoogipulber universal",
+      "descriptorOrder": [
+        "spordijoogipulber",
+        "universal",
+        "puuvilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "spordijoogipulber": "spordijoogipulber",
+        "universal": "universal",
+        "puuvilja": "puuvilja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -151,7 +557,48 @@
     "ean": "4740051002061",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740051002061.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "FOR ME",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051002061",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "for me",
+      "nameLower": "karb-tud jook for me 0.5l yuzu-vaarika, kofeiiniga",
+      "brand": "for me",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook karb kofeiiniga tud vaarika yuzu",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "yuzu",
+        "vaarika",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "kofeiiniga": "kofeiiniga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -165,7 +612,46 @@
     "ean": "5056784902394",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/5056784902394.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5056784902394",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "monster",
+      "unit": "500ml",
+      "variety": "rio punch",
+      "nameLower": "monster rio punch en.jook 0.5l",
+      "brand": "monster",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "en jook punch rio",
+      "descriptorOrder": [
+        "rio",
+        "punch",
+        "en",
+        "jook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rio": "rio",
+        "punch": "punch"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -179,7 +665,46 @@
     "ean": "5056784901410",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/5056784901410.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5056784901410",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "monster",
+      "unit": "500ml",
+      "variety": "ultra strawberry",
+      "nameLower": "monster ultra strawberry en.jook 0.5l",
+      "brand": "monster",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "en jook strawberry ultra",
+      "descriptorOrder": [
+        "ultra",
+        "strawberry",
+        "en",
+        "jook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ultra": "ultra",
+        "strawberry": "strawberry"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -193,7 +718,48 @@
     "ean": "7340131605921",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/7340131605921.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131605921",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco stellar blend",
+      "nameLower": "karb-tud funkts.jook nocco stellar blend 0.33l",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "blend funkts jook karb stellar tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "funkts",
+        "jook",
+        "stellar",
+        "blend"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "stellar": "stellar",
+        "blend": "blend"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -207,7 +773,46 @@
     "ean": "4740098004004",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740098004004.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "DYNAMIT",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098004004",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "500ml",
+      "variety": "dynamit pwr",
+      "nameLower": "energiajook dynamit pwr 7 0.5l pet",
+      "brand": "dynamit",
+      "size": "500ml",
+      "variant": "7",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook pet pwr",
+      "descriptorOrder": [
+        "energiajook",
+        "pwr",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "pwr": "pwr",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "7",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -221,7 +826,47 @@
     "ean": "4740660023600",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740660023600.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660023600",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "coop",
+      "unit": "568ml",
+      "variety": null,
+      "nameLower": "coop jook 0.568l maas.-rabarb.kofeiiniga",
+      "brand": "coop",
+      "size": "568ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coop jook kofeiiniga maas rabarb",
+      "descriptorOrder": [
+        "coop",
+        "jook",
+        "maas",
+        "rabarb",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coop": "coop",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -235,7 +880,49 @@
     "ean": "4740660023594",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740660023594.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660023594",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "568ml",
+      "variety": "coop",
+      "nameLower": "karb-tud jook coop 0.568l gr.õunamaits.kofeiiniga",
+      "brand": "karb",
+      "size": "568ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coop gr jook karb kofeiiniga tud õuna",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "coop",
+        "gr",
+        "õuna",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "coop": "coop"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -249,7 +936,46 @@
     "ean": "4740660023587",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740660023587.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660023587",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "coop",
+      "unit": "568ml",
+      "variety": null,
+      "nameLower": "coop jook 0.568l sidrunimaits.kofeiiniga",
+      "brand": "coop",
+      "size": "568ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coop jook kofeiiniga sidruni",
+      "descriptorOrder": [
+        "coop",
+        "jook",
+        "sidruni",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coop": "coop",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -263,7 +989,46 @@
     "ean": "4740098004028",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740098004028.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "DYNAMIT",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098004028",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "500ml",
+      "variety": "dynamit pwr",
+      "nameLower": "energiajook dynamit pwr 3 0.5l prk",
+      "brand": "dynamit",
+      "size": "500ml",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk pwr",
+      "descriptorOrder": [
+        "energiajook",
+        "pwr",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "pwr": "pwr",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -277,7 +1042,46 @@
     "ean": "4740098003991",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4740098003991.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "DYNAMIT",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098003991",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "500ml",
+      "variety": "dynamit pwr",
+      "nameLower": "energiajook dynamit pwr 5 0.5l pet",
+      "brand": "dynamit",
+      "size": "500ml",
+      "variant": "5",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook pet pwr",
+      "descriptorOrder": [
+        "energiajook",
+        "pwr",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "pwr": "pwr",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "5",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -291,7 +1095,48 @@
     "ean": "4740019005042",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4740019002935.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BATTERY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740019005042",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "330ml",
+      "variety": "battery juiced bright",
+      "nameLower": "energiajook battery juiced bright 0.33l prk",
+      "brand": "battery",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bright energiajook juiced purk",
+      "descriptorOrder": [
+        "energiajook",
+        "juiced",
+        "bright",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "juiced": "juiced",
+        "bright": "bright",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -305,7 +1150,46 @@
     "ean": "4744433010163",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4744433010163.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433010163",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief",
+      "nameLower": "karb-tud jook belief 0.53l virsikumaits.kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook karb kofeiiniga tud virsiku",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "virsiku",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -319,7 +1203,46 @@
     "ean": "7340131607208",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/7340131608014.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131607208",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco cola",
+      "nameLower": "karb-tud funts.jook nocco cola 0.33l",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cola funts jook karb tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "funts",
+        "jook",
+        "cola"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "cola": "cola"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -333,7 +1256,48 @@
     "ean": "7340131605488",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/7340131605488.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131605488",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco san citro",
+      "nameLower": "karb-tud funts.jook nocco san citro 0.33l",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "citro funts jook karb san tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "funts",
+        "jook",
+        "san",
+        "citro"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "san": "san",
+        "citro": "citro"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -347,7 +1311,51 @@
     "ean": "90457326",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/90457326.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90457326",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull ice ed gummy bear",
+      "nameLower": "energiajook red bull ice ed. gummy bear 0.25l prk",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bear ed energiajook gummy ice purk",
+      "descriptorOrder": [
+        "energiajook",
+        "ice",
+        "ed",
+        "gummy",
+        "bear",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "ice": "ice",
+        "gummy": "gummy",
+        "bear": "bear",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -361,7 +1369,50 @@
     "ean": "4770477232667",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4770477232667.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770477232667",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "cult",
+      "unit": "500ml",
+      "variety": "dragon power",
+      "nameLower": "cult dragon power en.jook 0.5l prk",
+      "brand": "cult",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cult dragon en jook power purk",
+      "descriptorOrder": [
+        "cult",
+        "dragon",
+        "power",
+        "en",
+        "jook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "cult": "cult",
+        "dragon": "dragon",
+        "power": "power",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -375,7 +1426,48 @@
     "ean": "5061013941457",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/5061013941457.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5061013941457",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "monster",
+      "unit": "500ml",
+      "variety": "aussie lemonade",
+      "nameLower": "monster aussie lemonade en.jook 0.5l prk",
+      "brand": "monster",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aussie en jook lemonade purk",
+      "descriptorOrder": [
+        "aussie",
+        "lemonade",
+        "en",
+        "jook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aussie": "aussie",
+        "lemonade": "lemonade",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -389,7 +1481,46 @@
     "ean": "7340131605471",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/7340131603804.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131605471",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco berruba",
+      "nameLower": "karb-tud fun.jook nocco berruba 0.33l",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "berruba fun jook karb tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "fun",
+        "jook",
+        "berruba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "berruba": "berruba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -403,7 +1534,48 @@
     "ean": "5061013940160",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/5061013940160.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5061013940160",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "monster",
+      "unit": "500ml",
+      "variety": "green zero",
+      "nameLower": "monster green zero en.jook 0.5l prk",
+      "brand": "monster",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "en green jook purk zero",
+      "descriptorOrder": [
+        "green",
+        "zero",
+        "en",
+        "jook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "green": "green",
+        "zero": "zero",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -417,7 +1589,50 @@
     "ean": "7340131603828",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/7340131603682.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131603828",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco grand sour",
+      "nameLower": "karb-tud fun.j.nocco grand sour 0.33l prk",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fun grand j karb purk sour tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "fun",
+        "j",
+        "grand",
+        "sour",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "grand": "grand",
+        "sour": "sour",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -431,7 +1646,46 @@
     "ean": "5060896621906",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/5060896621906.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5060896621906",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "monster",
+      "unit": "553ml",
+      "variety": "ultra mega",
+      "nameLower": "monster ultra mega en.jook 0.553l",
+      "brand": "monster",
+      "size": "553ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "en jook mega ultra",
+      "descriptorOrder": [
+        "ultra",
+        "mega",
+        "en",
+        "jook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ultra": "ultra",
+        "mega": "mega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -445,7 +1699,47 @@
     "ean": "4740051000562",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740051000562.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "FOR ME",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051000562",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "for",
+      "unit": "500ml",
+      "variety": "for me",
+      "nameLower": "for me jook 0.5l gr.õun-ženženn,kofeiini",
+      "brand": "for me",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gr jook kofeiini õun ženženn",
+      "descriptorOrder": [
+        "jook",
+        "gr",
+        "õun",
+        "ženženn",
+        "kofeiini"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "kofeiini": "kofeiini"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -459,7 +1753,48 @@
     "ean": "4740051000548",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740051000548.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "FOR ME",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051000548",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "for me",
+      "nameLower": "karb-tud j.for me 0.5l piparm.-roh.tee,kofeiiniga",
+      "brand": "for me",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "j karb kofeiiniga piparm roh tee tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "j",
+        "piparm",
+        "roh",
+        "tee",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kofeiiniga": "kofeiiniga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -473,7 +1808,50 @@
     "ean": "4770477232650",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4770477232650.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4770477232650",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "cult",
+      "unit": "500ml",
+      "variety": "blueberry cake",
+      "nameLower": "cult blueberry cake en.jook 0.5l prk",
+      "brand": "cult",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "blueberry cake cult en jook purk",
+      "descriptorOrder": [
+        "cult",
+        "blueberry",
+        "cake",
+        "en",
+        "jook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "cult": "cult",
+        "blueberry": "blueberry",
+        "cake": "cake",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -487,7 +1865,46 @@
     "ean": "4744433010125",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4744433010125.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433010125",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief",
+      "nameLower": "karb-tud jook belief 0.53l arbuusimaits.kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arbuusi jook karb kofeiiniga tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "arbuusi",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -501,7 +1918,48 @@
     "ean": "4740019005059",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4740019002379.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BATTERY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740019005059",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "330ml",
+      "variety": "battery juiced breeze",
+      "nameLower": "energiajook battery juiced breeze 0.33l prk",
+      "brand": "battery",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "breeze energiajook juiced purk",
+      "descriptorOrder": [
+        "energiajook",
+        "juiced",
+        "breeze",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "juiced": "juiced",
+        "breeze": "breeze",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -515,7 +1973,46 @@
     "ean": "4744433010064",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/4744433010064.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433010064",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief",
+      "nameLower": "karb-tud jook belief 0.53l passionim.kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook karb kofeiiniga passionim tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "passionim",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -529,7 +2026,44 @@
     "ean": "9002490267414",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/90433115.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "9002490267414",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "473ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 0.473l suhkruvaba",
+      "brand": "red bull",
+      "size": "473ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook suhkruvaba",
+      "descriptorOrder": [
+        "energiajook",
+        "suhkruvaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "suhkruvaba": "suhkruvaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -543,7 +2077,45 @@
     "ean": "4744433019852",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/4744433019852.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433019852",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "belief",
+      "unit": "530ml",
+      "variety": null,
+      "nameLower": "belief jook 0.53l maas-rabarb.kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook kofeiiniga maas rabarb",
+      "descriptorOrder": [
+        "jook",
+        "maas",
+        "rabarb",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -557,7 +2129,46 @@
     "ean": "4744433019869",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/4744433019869.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433019869",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief",
+      "nameLower": "karb-tud jook belief 0.53l greibimaits.kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "greibi jook karb kofeiiniga tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "greibi",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -571,7 +2182,48 @@
     "ean": "90454530",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/90454530.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90454530",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull sea blue edition",
+      "nameLower": "energiajook red bull sea blue edition 0.25l",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "blue edition energiajook sea",
+      "descriptorOrder": [
+        "energiajook",
+        "sea",
+        "blue",
+        "edition"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "sea": "sea",
+        "blue": "blue",
+        "edition": "edition"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -585,7 +2237,44 @@
     "ean": "5711018034745",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/5711018034745.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HUSTLER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5711018034745",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "500ml",
+      "variety": "hustler",
+      "nameLower": "energiajook hustler 0.5l prk",
+      "brand": "hustler",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk",
+      "descriptorOrder": [
+        "energiajook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -599,7 +2288,46 @@
     "ean": "5060896621807",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/5060896621807.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5060896621807",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "monster",
+      "unit": "553ml",
+      "variety": null,
+      "nameLower": "monster mega karb-tud energiajook 0.553l",
+      "brand": "monster",
+      "size": "553ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook karb mega tud",
+      "descriptorOrder": [
+        "mega",
+        "karb",
+        "tud",
+        "energiajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mega": "mega",
+        "energiajook": "energiajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -613,7 +2341,50 @@
     "ean": "5060896622002",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/5060896622002.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5060896622002",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "karb monster loco",
+      "nameLower": "karb-tud energiajook monster mango loco 0.5l prk",
+      "brand": "monster",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook karb loco mango purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "energiajook",
+        "mango",
+        "loco",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "mango": "mango",
+        "loco": "loco",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -627,7 +2398,48 @@
     "ean": "7340131601602",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/7340131601602.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131601602",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco caribbean",
+      "nameLower": "karb-tud fun.j. nocco caribbean kofeiinivaba 0.33l",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "caribbean fun j karb kofeiinivaba tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "fun",
+        "j",
+        "caribbean",
+        "kofeiinivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "caribbean": "caribbean",
+        "kofeiinivaba": "kofeiinivaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -641,7 +2453,48 @@
     "ean": "7340131603484",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/7340131602890.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131603484",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco ramonade",
+      "nameLower": "karb-tud funts.jook nocco ramonade 0.33l prk",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "funts jook karb purk ramonade tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "funts",
+        "jook",
+        "ramonade",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ramonade": "ramonade",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -655,7 +2508,48 @@
     "ean": "5060896622910",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/5060896622910.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5060896622910",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "monster monarch",
+      "nameLower": "karb-tud energiajook monster monarch 0.5l prk",
+      "brand": "monster",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook karb monarch purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "energiajook",
+        "monarch",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "monarch": "monarch",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -669,7 +2563,46 @@
     "ean": "4740019782264",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740019003529.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BATTERY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740019782264",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "500ml",
+      "variety": "battery peach raspberry",
+      "nameLower": "energiajook battery peach&raspberry 0.5l prk",
+      "brand": "battery",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook peach purk raspberry",
+      "descriptorOrder": [
+        "energiajook",
+        "peach",
+        "raspberry",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -683,7 +2616,46 @@
     "ean": "90448836",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/90448836.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90448836",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull apricot strawberry",
+      "nameLower": "energiajook red bull apricot-strawberry 0.25l prk",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apricot energiajook purk strawberry",
+      "descriptorOrder": [
+        "energiajook",
+        "apricot",
+        "strawberry",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -697,7 +2669,48 @@
     "ean": "90435461",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/90435461.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90435461",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull white edition",
+      "nameLower": "energiajook red bull white edition 0.25l prk",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "edition energiajook purk white",
+      "descriptorOrder": [
+        "energiajook",
+        "white",
+        "edition",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "white": "white",
+        "edition": "edition",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -711,7 +2724,44 @@
     "ean": "9002490200381",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/9002490200381.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "9002490200381",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "4x250ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 4*0.25l suhkruvaba",
+      "brand": "red bull",
+      "size": "4x250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook suhkruvaba",
+      "descriptorOrder": [
+        "energiajook",
+        "suhkruvaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "suhkruvaba": "suhkruvaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -725,7 +2775,46 @@
     "ean": "90448881",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/90448881.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90448881",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull zero",
+      "nameLower": "energiajook red bull zero 0.25l prk",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk zero",
+      "descriptorOrder": [
+        "energiajook",
+        "zero",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "zero": "zero",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -739,7 +2828,44 @@
     "ean": "4740098090564",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4740098090564.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ARCTIC SPORT",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098090564",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "spordijook",
+      "unit": "750ml",
+      "variety": "arctic sport",
+      "nameLower": "spordijook arctic sport 0.75l greibimaitseline",
+      "brand": "arctic sport",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "greibi spordijook",
+      "descriptorOrder": [
+        "spordijook",
+        "greibi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "spordijook": "spordijook",
+        "greibimaitseline": "greibimaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -753,7 +2879,44 @@
     "ean": "4740019003772",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4770075447807.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BATTERY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740019003772",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "500ml",
+      "variety": "battery",
+      "nameLower": "energiajook battery 0.5l prk",
+      "brand": "battery",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk",
+      "descriptorOrder": [
+        "energiajook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -767,7 +2930,44 @@
     "ean": "9002490230296",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/9002490220358.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "9002490230296",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "473ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 0.473l prk",
+      "brand": "red bull",
+      "size": "473ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk",
+      "descriptorOrder": [
+        "energiajook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -781,7 +2981,48 @@
     "ean": "7340131602647",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/7340131602647-3.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NOCCO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7340131602647",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "nocco blood orange",
+      "nameLower": "karb-tud fun.j.nocco blood orange 0.33l",
+      "brand": "nocco",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "blood fun j karb orange tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "fun",
+        "j",
+        "blood",
+        "orange"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "blood": "blood",
+        "orange": "orange"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -795,7 +3036,48 @@
     "ean": "90448065",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/90448065.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90448065",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull green edition",
+      "nameLower": "energiajook red bull green edition 0.25l prk",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "edition energiajook green purk",
+      "descriptorOrder": [
+        "energiajook",
+        "green",
+        "edition",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "green": "green",
+        "edition": "edition",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -809,7 +3091,46 @@
     "ean": "90446184",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/90446184.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90446184",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "355ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 0.355l suhkruvaba prk",
+      "brand": "red bull",
+      "size": "355ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk suhkruvaba",
+      "descriptorOrder": [
+        "energiajook",
+        "suhkruvaba",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "suhkruvaba": "suhkruvaba",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -823,7 +3144,46 @@
     "ean": "4744433016554",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4744433016554.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433016554",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief",
+      "nameLower": "karb-tud jook belief 0.53l ananassim.kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ananassim jook karb kofeiiniga tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "ananassim",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -837,7 +3197,50 @@
     "ean": "5060896621968",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/5060337502085.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MONSTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5060896621968",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "monster ultra zero",
+      "nameLower": "karb-tud energiajook monster ultra zero 0.5l prk",
+      "brand": "monster",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook karb purk tud ultra zero",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "energiajook",
+        "ultra",
+        "zero",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "ultra": "ultra",
+        "zero": "zero",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -851,7 +3254,46 @@
     "ean": "4744433013652",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4744433013652.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433013652",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief",
+      "nameLower": "karb-tud jook belief 0.53l pirnimaits.kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook karb kofeiiniga pirni tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "pirni",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -865,7 +3307,48 @@
     "ean": "4744433017599",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4744433017599.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BELIEF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744433017599",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "530ml",
+      "variety": "belief",
+      "nameLower": "karb-tud jook belief 0.53l sidr.-laimi, kofeiiniga",
+      "brand": "belief",
+      "size": "530ml",
+      "variant": null,
+      "qualifiers": "kofeiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jook karb kofeiiniga laimi sidr tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "jook",
+        "sidr",
+        "laimi",
+        "kofeiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "kofeiiniga": "kofeiiniga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -879,7 +3362,42 @@
     "ean": "9002490100490",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9002490100490.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "9002490100490",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "4x250ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 4*0.25l",
+      "brand": "red bull",
+      "size": "4x250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook",
+      "descriptorOrder": [
+        "energiajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -893,7 +3411,44 @@
     "ean": "4740098078845",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098016205.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ARCTIC SPORT",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098078845",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "spordijook",
+      "unit": "1500ml",
+      "variety": "arctic sport",
+      "nameLower": "spordijook arctic sport 1.5l greibimaitseline",
+      "brand": "arctic sport",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "greibi spordijook",
+      "descriptorOrder": [
+        "spordijook",
+        "greibi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "spordijook": "spordijook",
+        "greibimaitseline": "greibimaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -907,7 +3462,44 @@
     "ean": "90424144",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/90424144.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "90424144",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 0.25l suhkruvaba",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook suhkruvaba",
+      "descriptorOrder": [
+        "energiajook",
+        "suhkruvaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "suhkruvaba": "suhkruvaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -921,7 +3513,44 @@
     "ean": "9002490210939",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9002490210939.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "9002490210939",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "355ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 0.355l prk",
+      "brand": "red bull",
+      "size": "355ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk",
+      "descriptorOrder": [
+        "energiajook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -935,7 +3564,44 @@
     "ean": "4740019003789",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770075447791.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BATTERY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740019003789",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "330ml",
+      "variety": "battery",
+      "nameLower": "energiajook battery 0.33l prk",
+      "brand": "battery",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook purk",
+      "descriptorOrder": [
+        "energiajook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -949,7 +3615,42 @@
     "ean": "4740050005063",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740050005063.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "STARTER",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740050005063",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "500ml",
+      "variety": "starter",
+      "nameLower": "energiajook starter 0.5l",
+      "brand": "starter",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook",
+      "descriptorOrder": [
+        "energiajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -963,7 +3664,44 @@
     "ean": "6415600512831",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6415600512831.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BATTERY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6415600512831",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "400ml",
+      "variety": "battery original",
+      "nameLower": "energiajook battery original 0.4l",
+      "brand": "battery",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook originaal",
+      "descriptorOrder": [
+        "energiajook",
+        "originaal"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "originaal": "original"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -977,7 +3715,46 @@
     "ean": "5060896621913",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5060166696160.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Monster Energy",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5060896621913",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "500ml",
+      "variety": "monster energy",
+      "nameLower": "karb-tud energiajook monster energy 0.5l prk",
+      "brand": "monster energy",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook karb purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "energiajook",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -991,7 +3768,42 @@
     "ean": "9002490100070",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9002490100070.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RED BULL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "9002490100070",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "energiajook",
+      "unit": "250ml",
+      "variety": "red bull",
+      "nameLower": "energiajook red bull 0.25l",
+      "brand": "red bull",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "energiajook",
+      "descriptorOrder": [
+        "energiajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "energiajook": "energiajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1005,7 +3817,48 @@
     "ean": "5998821510868",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/5998821510868.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTEA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5998821510868",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nestea",
+      "unit": "1500ml",
+      "variety": "peach zero",
+      "nameLower": "nestea peach zero jäätee 1.5l virsiku",
+      "brand": "nestea",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jäätee peach virsiku zero",
+      "descriptorOrder": [
+        "peach",
+        "zero",
+        "jäätee",
+        "virsiku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peach": "peach",
+        "zero": "zero",
+        "jäätee": "jäätee",
+        "virsiku": "virsiku"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1019,7 +3872,45 @@
     "ean": "8595646203578",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/5900334003423.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTEA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8595646203578",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nestea",
+      "unit": "1500ml",
+      "variety": "peach",
+      "nameLower": "nestea peach jäätee 1.5l virsikumaits.",
+      "brand": "nestea",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jäätee peach virsiku",
+      "descriptorOrder": [
+        "peach",
+        "jäätee",
+        "virsiku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peach": "peach",
+        "jäätee": "jäätee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1033,7 +3924,45 @@
     "ean": "8595646203554",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5900334003430.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTEA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8595646203554",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nestea",
+      "unit": "500ml",
+      "variety": "peach",
+      "nameLower": "nestea peach jäätee 0.5l virsikumaits.",
+      "brand": "nestea",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jäätee peach virsiku",
+      "descriptorOrder": [
+        "peach",
+        "jäätee",
+        "virsiku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peach": "peach",
+        "jäätee": "jäätee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1047,7 +3976,45 @@
     "ean": "5900334003454",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5900334003454.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTEA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900334003454",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nestea",
+      "unit": "500ml",
+      "variety": "lemon",
+      "nameLower": "nestea lemon jäätee 0.5l sidrunimaits.",
+      "brand": "nestea",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jäätee lemon sidruni",
+      "descriptorOrder": [
+        "lemon",
+        "jäätee",
+        "sidruni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lemon": "lemon",
+        "jäätee": "jäätee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1061,6 +4028,44 @@
     "ean": "8595646203530",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5900334003447.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESTEA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8595646203530",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nestea",
+      "unit": "1500ml",
+      "variety": "lemon",
+      "nameLower": "nestea lemon jäätee 1.5l sidrunimaits.",
+      "brand": "nestea",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jäätee lemon sidruni",
+      "descriptorOrder": [
+        "lemon",
+        "jäätee",
+        "sidruni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lemon": "lemon",
+        "jäätee": "jäätee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

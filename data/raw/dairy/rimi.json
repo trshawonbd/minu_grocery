@@ -8,10 +8,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 0.93,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200280_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-alma-2-5-1-5l/p/200280",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -27,8 +32,26 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -40,10 +63,15 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 0.55,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814150_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-rimi-smart-2-5-1l/p/814150",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -59,8 +87,26 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -72,10 +118,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 1,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_964869_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/taispiim-alma-3-6-4-2-2l/p/964869",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -91,8 +142,26 @@
       "colors": "",
       "fatPercent": "3.6-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -104,10 +173,15 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 1.75,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_952490_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-laktoosivaba-tere-2-5-1l/p/952490",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -123,8 +197,28 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "laktoosivaba piim",
+      "descriptorOrder": [
+        "piim",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -136,10 +230,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 1,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_925074_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/taispiim-farmi-3-8-4-2-2l/p/925074",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -155,8 +254,26 @@
       "colors": "",
       "fatPercent": "3.8-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -168,10 +285,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 1.29,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200104_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-alma-2-5-1l/p/200104",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -187,8 +309,26 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -200,10 +340,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 1.65,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_911088_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/taispiim-3-6--4-2-farmi-1l/p/911088",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -219,8 +364,26 @@
       "colors": "",
       "fatPercent": "3.6",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -232,10 +395,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 1.64,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_202762_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-alma-2-5-500ml/p/202762",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -251,8 +419,26 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim",
+      "descriptorOrder": [
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -264,10 +450,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 0.89,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200289_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-alma-kile-2-5-1l/p/200289",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -283,8 +474,28 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "kile piim",
+      "descriptorOrder": [
+        "piim",
+        "kile"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "kile": "kile"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -296,10 +507,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 1.49,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_938850_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/taispiim-alma-3-6-4-2-1l/p/938850",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -315,8 +531,26 @@
       "colors": "",
       "fatPercent": "3.6-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -328,27 +562,50 @@
     "cardName": null,
     "brand": "MO Saaremaa",
     "storeUnitPrice": 1.69,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_962042_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/oko-mahetaispiim-mo-saaremaa-3-8--4-4-1l/p/962042",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
-      "type": "öko",
+      "type": "mahetäispiim",
       "unit": "1000ml",
       "variety": "mo saaremaa",
-      "nameLower": "öko mahetäispiim mo saaremaa 3,8%-4,4% 1l",
+      "nameLower": " mahetäispiim mo saaremaa 3,8%-4,4% 1l",
       "brand": "mo saaremaa",
       "size": "1000ml",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "mahe",
       "colors": "",
       "fatPercent": "3.8",
       "descriptors": "mahetäispiim",
+      "descriptorOrder": [
+        "mahetäispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahetäispiim": "mahetäispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -360,10 +617,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 1.06,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4008876_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-farmi-2-5-1-5l-pure/p/4008876",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -379,8 +641,28 @@
       "colors": "",
       "fatPercent": "2.5",
       "descriptors": "piim pure",
+      "descriptorOrder": [
+        "piim",
+        "pure"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "pure": "pure"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -392,10 +674,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 1.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_952676_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/taispiim-alma-3-6-4-2-0-5l/p/952676",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -411,8 +698,26 @@
       "colors": "",
       "fatPercent": "3.6-4.2",
       "descriptors": "täispiim",
+      "descriptorOrder": [
+        "täispiim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "täispiim": "täispiim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -424,10 +729,15 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 1.15,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_817694_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/pastoriseeritud-piim-rimi-2-1l/p/817694",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -443,8 +753,28 @@
       "colors": "",
       "fatPercent": "2",
       "descriptors": "pastöriseeritud piim",
+      "descriptorOrder": [
+        "pastöriseeritud",
+        "piim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "pastöriseeritud": "pastöriseeritud",
+        "piim": "piim"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -456,10 +786,15 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 1.29,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4012374_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/piim/piim-pure-tere-1-8-1l/p/4012374",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -475,8 +810,28 @@
       "colors": "",
       "fatPercent": "1.8",
       "descriptors": "piim pure",
+      "descriptorOrder": [
+        "piim",
+        "pure"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "piim": "piim",
+        "pure": "pure"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -488,10 +843,15 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 10.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_817284_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-rimi-82-200g/p/817284",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -507,8 +867,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -520,10 +898,15 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 10.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_266294_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-tere-82-200g/p/266294",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -539,8 +922,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -552,10 +953,15 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 14.6,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_272182_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/taluvoi-eesti-82-150g/p/272182",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -571,40 +977,28 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "eesti taluvõi",
+      "descriptorOrder": [
+        "taluvõi",
+        "eesti"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "taluvõi": "taluvõi",
+        "eesti": "eesti"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Või MO Saaremaa 82% 200g",
-    "price": 2.49,
-    "regularPrice": 2.49,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "MO Saaremaa",
-    "storeUnitPrice": 12.45,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-mo-saaremaa-82-200g/p/291032",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "või",
-      "unit": "200g",
-      "variety": "mo saaremaa",
-      "nameLower": "või mo saaremaa 82% 200g",
-      "brand": "mo saaremaa",
-      "size": "200g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": "82",
-      "descriptors": "või",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -616,10 +1010,15 @@
     "cardName": null,
     "brand": "Valio",
     "storeUnitPrice": 7.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_996923_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-voru-valio-82-200g/p/996923",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -635,40 +1034,83 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või võru",
+      "descriptorOrder": [
+        "või",
+        "võru"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "võru": "võru"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Rimi",
-    "name": "Taluvõi laktoosivaba Eesti Estover 150g",
-    "price": 1.99,
-    "regularPrice": 1.99,
+    "name": "Või MO Saaremaa 82% 200g",
+    "price": 2.49,
+    "regularPrice": 2.49,
     "cardPrice": null,
     "cardName": null,
-    "brand": "Estover",
-    "storeUnitPrice": 13.27,
+    "brand": "MO Saaremaa",
+    "storeUnitPrice": 12.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_291032_PCE_EE",
     "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/taluvoi-laktoosivaba-eesti-estover-150g/p/4012006",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-mo-saaremaa-82-200g/p/291032",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
-      "type": "taluvõi",
-      "unit": "150g",
-      "variety": "estover",
-      "nameLower": "taluvõi laktoosivaba eesti estover 150g",
-      "brand": "estover",
-      "size": "150g",
-      "variant": "lactose-free",
+      "type": "või",
+      "unit": "200g",
+      "variety": "mo saaremaa",
+      "nameLower": "või mo saaremaa 82% 200g",
+      "brand": "mo saaremaa",
+      "size": "200g",
+      "variant": null,
       "qualifiers": "",
       "colors": "",
-      "fatPercent": null,
-      "descriptors": "eesti laktoosivaba taluvõi",
+      "fatPercent": "82",
+      "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -680,10 +1122,15 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 13.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_942694_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-laktoosivaba-tere-82-200g/p/942694",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -699,8 +1146,87 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "laktoosivaba või",
+      "descriptorOrder": [
+        "või",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Taluvõi laktoosivaba Eesti Estover 150g",
+    "price": 1.99,
+    "regularPrice": 1.99,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Estover",
+    "storeUnitPrice": 13.27,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4012006_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/taluvoi-laktoosivaba-eesti-estover-150g/p/4012006",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "taluvõi",
+      "unit": "150g",
+      "variety": "estover",
+      "nameLower": "taluvõi laktoosivaba eesti estover 150g",
+      "brand": "estover",
+      "size": "150g",
+      "variant": "lactose-free",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "eesti laktoosivaba taluvõi",
+      "descriptorOrder": [
+        "taluvõi",
+        "laktoosivaba",
+        "eesti"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "taluvõi": "taluvõi",
+        "laktoosivaba": "laktoosivaba",
+        "eesti": "eesti"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -712,10 +1238,15 @@
     "cardName": null,
     "brand": "MO Saaremaa",
     "storeUnitPrice": 13.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_291697_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-mo-saaremaa-soolakristallidega-200g/p/291697",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -731,8 +1262,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "soolakristallidega või",
+      "descriptorOrder": [
+        "või",
+        "soolakristallidega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "soolakristallidega": "soolakristallidega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -744,10 +1295,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 12.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_996241_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-laktoosivaba-alma-82-200g/p/996241",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -763,8 +1319,28 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "laktoosivaba või",
+      "descriptorOrder": [
+        "või",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -776,10 +1352,15 @@
     "cardName": null,
     "brand": "Rimi Planet",
     "storeUnitPrice": 19.18,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811635_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-selitatud-rimi-planet-500g/p/811635",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -795,8 +1376,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "selitatud või",
+      "descriptorOrder": [
+        "või",
+        "selitatud"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "selitatud": "selitatud"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -808,10 +1409,15 @@
     "cardName": null,
     "brand": "MO Saaremaa",
     "storeUnitPrice": 14.6,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_961157_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-mo-saaremaa-kuusl--soolakrist-150g/p/961157",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -827,40 +1433,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "küüsl soolakrist või",
+      "descriptorOrder": [
+        "või",
+        "küüsl",
+        "soolakrist"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Või koduaia ürtidega Saaremaa 150g",
-    "price": 2.19,
-    "regularPrice": 2.19,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Saaremaa",
-    "storeUnitPrice": 14.6,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-koduaia-urtidega-saaremaa-150g/p/923076",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "või",
-      "unit": "150g",
-      "variety": "saaremaa",
-      "nameLower": "või koduaia ürtidega saaremaa 150g",
-      "brand": "saaremaa",
-      "size": "150g",
-      "variant": null,
-      "qualifiers": "rtidega",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "koduaia või ürtidega",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -872,10 +1466,15 @@
     "cardName": null,
     "brand": "Valio",
     "storeUnitPrice": 11.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200287_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-soolata-valio-500g/p/200287",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -891,40 +1490,87 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "soolata või",
+      "descriptorOrder": [
+        "või",
+        "soolata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "soolata": "soolata"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Rimi",
-    "name": "Või kitsepiimast 125g",
-    "price": 3.49,
-    "regularPrice": 3.49,
+    "name": "Või koduaia ürtidega Saaremaa 150g",
+    "price": 2.19,
+    "regularPrice": 2.19,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
-    "storeUnitPrice": 27.92,
+    "brand": "Saaremaa",
+    "storeUnitPrice": 14.6,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_923076_PCE_EE",
     "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-kitsepiimast-125g/p/915049",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-koduaia-urtidega-saaremaa-150g/p/923076",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
       "type": "või",
-      "unit": "125g",
-      "variety": null,
-      "nameLower": "või kitsepiimast 125g",
-      "brand": "või",
-      "size": "125g",
+      "unit": "150g",
+      "variety": "saaremaa",
+      "nameLower": "või koduaia ürtidega saaremaa 150g",
+      "brand": "saaremaa",
+      "size": "150g",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "ürtidega",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "kitsepiimast või",
+      "descriptors": "koduaia või ürtidega",
+      "descriptorOrder": [
+        "või",
+        "koduaia",
+        "ürtidega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "koduaia": "koduaia",
+        "ürtidega": "ürtidega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -936,10 +1582,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 12.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_993950_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-alma-82-200g/p/993950",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -955,8 +1606,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -968,10 +1637,15 @@
     "cardName": null,
     "brand": "Mlekovita",
     "storeUnitPrice": 22.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_920131_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-mlekovita-200g/p/920131",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -987,8 +1661,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1000,10 +1692,15 @@
     "cardName": null,
     "brand": "MO Saaremaa",
     "storeUnitPrice": 12.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4012192_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-laktoosivaba-mo-saaremaa-200g/p/4012192",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1019,8 +1716,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "laktoosivaba või",
+      "descriptorOrder": [
+        "või",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1032,10 +1749,15 @@
     "cardName": null,
     "brand": "Dublin Dairy",
     "storeUnitPrice": 13.75,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_915665_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/void-ja-margariinid/voi/voi-82-dublin-dairy-200g/p/915665",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1051,8 +1773,26 @@
       "colors": "",
       "fatPercent": "82",
       "descriptors": "või",
+      "descriptorOrder": [
+        "või"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "või": "või"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1064,10 +1804,15 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812416_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/kanamunad-rimi-smart-m-10tk/p/812416",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1077,14 +1822,34 @@
       "variety": "rimi smart m",
       "nameLower": "kanamunad rimi smart m 10tk",
       "brand": "rimi smart",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "kanamunad m",
+      "descriptors": "m munad",
+      "descriptorOrder": [
+        "munad",
+        "m"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "munad": "kanamunad",
+        "m": "m"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1096,10 +1861,15 @@
     "cardName": null,
     "brand": "Kodutalu",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_978403_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/vabapidamisel-kanade-munad-kodutalu-10tk/p/978403",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1109,14 +1879,34 @@
       "variety": "kodutalu",
       "nameLower": "vabapidamisel kanade munad kodutalu 10tk",
       "brand": "kodutalu",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "kanade munad vabapidamisel",
+      "descriptors": "munad vabapidamis",
+      "descriptorOrder": [
+        "vabapidamis",
+        "munad"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "vabapidamis": "vabapidamisel",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1128,10 +1918,15 @@
     "cardName": null,
     "brand": "Kodutalu",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_970975_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-kodutalu-m10/p/970975",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1141,14 +1936,35 @@
       "variety": "kodutalu m",
       "nameLower": "õrrekanade munad kodutalu m10",
       "brand": "kodutalu",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "m munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "m"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1160,10 +1976,15 @@
     "cardName": null,
     "brand": "Kodutalu",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_970982_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-kodutalu-l10/p/970982",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1173,14 +1994,35 @@
       "variety": "kodutalu l",
       "nameLower": "õrrekanade munad kodutalu l10",
       "brand": "kodutalu",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "l munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "l"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1192,10 +2034,15 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_817920_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/vabapidamisel-kanade-munad-rimi-m-l-10tk/p/817920",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1205,14 +2052,36 @@
       "variety": "rimi m l",
       "nameLower": "vabapidamisel kanade munad rimi m/l 10tk",
       "brand": "rimi",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "kanade l m munad vabapidamisel",
+      "descriptors": "l m munad vabapidamis",
+      "descriptorOrder": [
+        "vabapidamis",
+        "munad",
+        "m",
+        "l"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "vabapidamis": "vabapidamisel",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1224,10 +2093,15 @@
     "cardName": null,
     "brand": "Rimi Eco",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_813372_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/kanamunad-rimi-eco-lm-10tk/p/813372",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1237,14 +2111,34 @@
       "variety": "rimi eco lm",
       "nameLower": "kanamunad rimi eco lm 10tk",
       "brand": "rimi eco",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "kanamunad lm",
+      "descriptors": "lm munad",
+      "descriptorOrder": [
+        "munad",
+        "lm"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "munad": "kanamunad",
+        "lm": "lm"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1256,10 +2150,15 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815899_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-rimi-a-m-no-2-15tk-/p/815899",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1269,14 +2168,37 @@
       "variety": "rimi a m no",
       "nameLower": "õrrekanade munad rimi a/m, no.2 15tk.",
       "brand": "rimi",
-      "size": null,
+      "size": "15tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "a m munad no õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "a",
+        "m",
+        "no"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "15",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1288,10 +2210,15 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816707_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-a-m-nr-2-rimi-smart-10tk/p/816707",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1301,46 +2228,37 @@
       "variety": "a m nr rimi smart",
       "nameLower": "õrrekanade munad a/m nr.2 rimi smart 10tk",
       "brand": "rimi smart",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "a m munad nr õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "a",
+        "m",
+        "nr"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Õrrekanade munad Kodutalu L6",
-    "price": 1.95,
-    "regularPrice": 1.95,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Kodutalu",
-    "storeUnitPrice": null,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-kodutalu-l6/p/986877",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "õrrekanade",
-      "unit": null,
-      "variety": "kodutalu l",
-      "nameLower": "õrrekanade munad kodutalu l6",
-      "brand": "kodutalu",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "l munad õrrekanade",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1352,10 +2270,15 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816708_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-a-l-nr-2-rimi-10tk/p/816708",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1365,14 +2288,95 @@
       "variety": "a l nr rimi",
       "nameLower": "õrrekanade munad a/l nr.2 rimi 10tk",
       "brand": "rimi",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "a l munad nr õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "a",
+        "l",
+        "nr"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Õrrekanade munad Kodutalu L6",
+    "price": 1.95,
+    "regularPrice": 1.95,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Kodutalu",
+    "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_986877_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-kodutalu-l6/p/986877",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õrrekanade",
+      "unit": null,
+      "variety": "kodutalu l",
+      "nameLower": "õrrekanade munad kodutalu l6",
+      "brand": "kodutalu",
+      "size": "6tk",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "l munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "l"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1384,10 +2388,15 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812142_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-rimi-a-lm-nr-2-10tk/p/812142",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1397,14 +2406,37 @@
       "variety": "rimi a lm nr",
       "nameLower": "õrrekanade munad rimi a/lm nr.2 10tk",
       "brand": "rimi",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "a lm munad nr õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "a",
+        "lm",
+        "nr"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1416,27 +2448,53 @@
     "cardName": null,
     "brand": "Dava",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4007668_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-dava-l10/p/4007668",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
-      "hasBrand": false,
+      "hasBrand": true,
       "type": "õrrekanade",
       "unit": null,
       "variety": "dava l",
       "nameLower": "õrrekanade munad dava l10",
       "brand": "dava",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "l munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "l"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1448,27 +2506,53 @@
     "cardName": null,
     "brand": "Dava",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4007653_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/munad/munad/orrekanade-munad-dava-m10/p/4007653",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
-      "hasBrand": false,
+      "hasBrand": true,
       "type": "õrrekanade",
       "unit": null,
       "variety": "dava m",
       "nameLower": "õrrekanade munad dava m10",
       "brand": "dava",
-      "size": null,
+      "size": "10tk",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
       "descriptors": "m munad õrrekanade",
+      "descriptorOrder": [
+        "õrrekanade",
+        "munad",
+        "m"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "õrrekanade": "õrrekanade",
+        "munad": "munad"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1480,10 +2564,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 5.11,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010425_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/proteiinijogurt-kreeka-m--mata-alma-370g/p/4010425",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1499,8 +2588,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kreeka maitsestamata proteiinijogurt",
+      "descriptorOrder": [
+        "proteiinijogurt",
+        "kreeka",
+        "maitsestamata"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "proteiinijogurt": "proteiinijogurt",
+        "kreeka": "kreeka"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1512,10 +2622,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 2.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_272890_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-must-kirss-farmi-400g/p/272890",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1531,8 +2646,32 @@
       "colors": "must",
       "fatPercent": null,
       "descriptors": "jogurt kirss koorene must",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "must",
+        "kirss"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt",
+        "must": "must",
+        "kirss": "kirss"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1544,10 +2683,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 2.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_272914_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-maasikatega-farmi-400g/p/272914",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1563,8 +2707,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt koorene maasikatega",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "maasikatega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt",
+        "maasikatega": "maasikatega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1576,10 +2742,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 4.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_272898_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-mustika-farmi-400g/p/272898",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1595,8 +2766,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt koorene mustika",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "mustika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1608,10 +2801,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 2.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_207467_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-leiva-pahkli-farmi-400g/p/207467",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1627,8 +2825,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt leiva pähkli",
+      "descriptorOrder": [
+        "jogurt",
+        "leiva",
+        "pähkli"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1640,10 +2858,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 5.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006641_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/skyr-maasika-farmi-300g/p/4006641",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1659,8 +2882,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "maasika skyr",
+      "descriptorOrder": [
+        "skyr",
+        "maasika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "skyr": "skyr",
+        "maasika": "maasika"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1672,10 +2915,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 1.99,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4011601_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-koduaia-marjadega-lakt-vaba-farmi-1kg/p/4011601",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1691,40 +2939,33 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt koduaia lakt marjadega vaba",
+      "descriptorOrder": [
+        "jogurt",
+        "koduaia",
+        "marjadega",
+        "lakt",
+        "vaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "koduaia": "koduaia",
+        "marjadega": "marjadega",
+        "vaba": "vaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Skyr virsiku Farmi 300g",
-    "price": 1.79,
-    "regularPrice": 1.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Farmi",
-    "storeUnitPrice": 5.97,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/skyr-virsiku-farmi-300g/p/4006664",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "skyr",
-      "unit": "300g",
-      "variety": "farmi",
-      "nameLower": "skyr virsiku farmi 300g",
-      "brand": "farmi",
-      "size": "300g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "skyr virsiku",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1736,10 +2977,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 1.99,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200259_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-metsmaasikaga-alma-1kg/p/200259",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1755,8 +3001,85 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt metsmaasikaga",
+      "descriptorOrder": [
+        "jogurt",
+        "metsmaasikaga"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "metsmaasikaga": "metsmaasikaga"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Skyr virsiku Farmi 300g",
+    "price": 1.79,
+    "regularPrice": 1.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Farmi",
+    "storeUnitPrice": 5.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006664_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/skyr-virsiku-farmi-300g/p/4006664",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "skyr",
+      "unit": "300g",
+      "variety": "farmi",
+      "nameLower": "skyr virsiku farmi 300g",
+      "brand": "farmi",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "skyr virsiku",
+      "descriptorOrder": [
+        "skyr",
+        "virsiku"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "skyr": "skyr",
+        "virsiku": "virsiku"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1768,10 +3091,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 4.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_963437_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-apel--sokol-farmi-400g/p/963437",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1786,73 +3114,31 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "apel jogurt koorene šokol",
+      "descriptors": "apel jogurt koorene šokolaadi",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "apel",
+        "šokolaadi"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Koorene jogurt kiivi-tikri Farmi 400g",
-    "price": 1.79,
-    "regularPrice": 1.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Farmi",
-    "storeUnitPrice": 4.47,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-kiivi-tikri-farmi-400g/p/4007985",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "koorene",
-      "unit": "400g",
-      "variety": "koorene farmi",
-      "nameLower": "koorene jogurt kiivi-tikri farmi 400g",
-      "brand": "farmi",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jogurt kiivi koorene tikri",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Mahejogurt mustikatega Aasa 370g",
-    "price": 1.89,
-    "regularPrice": 1.89,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Aasa",
-    "storeUnitPrice": 5.11,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/mahejogurt-mustikatega-aasa-370g/p/928562",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "mahejogurt",
-      "unit": "370g",
-      "variety": "aasa",
-      "nameLower": "mahejogurt mustikatega aasa 370g",
-      "brand": "aasa",
-      "size": "370g",
-      "variant": null,
-      "qualifiers": "mustikatega",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "mahejogurt mustikatega",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1864,10 +3150,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 3.66,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_909876_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorejogurt-stracciatella-muah-alma-380g/p/909876",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1883,8 +3174,89 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "koorejogurt muah stracciatella",
+      "descriptorOrder": [
+        "koorejogurt",
+        "stracciatella",
+        "muah"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "stracciatella": "stracciatella",
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Koorene jogurt kiivi-tikri Farmi 400g",
+    "price": 1.79,
+    "regularPrice": 1.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Farmi",
+    "storeUnitPrice": 4.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4007985_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorene-jogurt-kiivi-tikri-farmi-400g/p/4007985",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "koorene",
+      "unit": "400g",
+      "variety": "koorene farmi",
+      "nameLower": "koorene jogurt kiivi-tikri farmi 400g",
+      "brand": "farmi",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurt kiivi koorene tikri",
+      "descriptorOrder": [
+        "koorene",
+        "jogurt",
+        "kiivi",
+        "tikri"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorene": "koorene",
+        "jogurt": "jogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1896,10 +3268,15 @@
     "cardName": null,
     "brand": "Aasa",
     "storeUnitPrice": 5.11,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_928563_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/mahejogurt-kirssidega-aasa-370g/p/928563",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -1911,76 +3288,32 @@
       "brand": "aasa",
       "size": "370g",
       "variant": null,
-      "qualifiers": "kirssidega",
+      "qualifiers": "kirssidega mahe",
       "colors": "",
       "fatPercent": null,
       "descriptors": "kirssidega mahejogurt",
+      "descriptorOrder": [
+        "mahejogurt",
+        "kirssidega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahejogurt": "mahejogurt",
+        "kirssidega": "kirssidega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Koorejogurt creme brulee Muah Alma 6,5% 380g",
-    "price": 1.39,
-    "regularPrice": 1.59,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Alma",
-    "storeUnitPrice": 3.66,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorejogurt-creme-brulee-muah-alma-6-5-380g/p/903891",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "koorejogurt",
-      "unit": "380g",
-      "variety": "muah alma",
-      "nameLower": "koorejogurt creme brulee muah alma 6,5% 380g",
-      "brand": "alma",
-      "size": "380g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": "6.5",
-      "descriptors": "brulee creme koorejogurt muah",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Keefirijogurt ME-3 kirsi-ploomi Hellus 380g",
-    "price": 1.69,
-    "regularPrice": 1.69,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": null,
-    "storeUnitPrice": 4.45,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/keefirijogurt-me-3-kirsi-ploomi-hellus-380g/p/4010127",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "keefirijogurt",
-      "unit": "380g",
-      "variety": "me hellus",
-      "nameLower": "keefirijogurt me-3 kirsi-ploomi hellus 380g",
-      "brand": "keefirijogurt",
-      "size": "380g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "hellus keefirijogurt kirsi me ploomi",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1992,10 +3325,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 1.99,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4008832_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-mango-alma-1kg/p/4008832",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2011,8 +3349,147 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt mango",
+      "descriptorOrder": [
+        "jogurt",
+        "mango"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Koorejogurt creme brulee Muah Alma 6,5% 380g",
+    "price": 1.39,
+    "regularPrice": 1.59,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Alma",
+    "storeUnitPrice": 3.66,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_903891_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorejogurt-creme-brulee-muah-alma-6-5-380g/p/903891",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "koorejogurt",
+      "unit": "380g",
+      "variety": "muah alma",
+      "nameLower": "koorejogurt creme brulee muah alma 6,5% 380g",
+      "brand": "alma",
+      "size": "380g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "6.5",
+      "descriptors": "brulee creme koorejogurt muah",
+      "descriptorOrder": [
+        "koorejogurt",
+        "creme",
+        "brulee",
+        "muah"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "creme": "creme",
+        "brulee": "brulee",
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Keefirijogurt ME-3 kirsi-ploomi Hellus 380g",
+    "price": 1.69,
+    "regularPrice": 1.69,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "HELLUS",
+    "storeUnitPrice": 4.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010127_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/keefirijogurt-me-3-kirsi-ploomi-hellus-380g/p/4010127",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "keefirijogurt",
+      "unit": "380g",
+      "variety": "me hellus",
+      "nameLower": "keefirijogurt me-3 kirsi-ploomi hellus 380g",
+      "brand": "hellus",
+      "size": "380g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "keefirijogurt kirsi me ploomi",
+      "descriptorOrder": [
+        "keefirijogurt",
+        "me",
+        "kirsi",
+        "ploomi"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "keefirijogurt": "keefirijogurt"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2024,10 +3501,15 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 1.99,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4011602_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-maasika-banaani-laktoosivaba-farmi-1kg/p/4011602",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2043,8 +3525,86 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "banaani jogurt laktoosivaba maasika",
+      "descriptorOrder": [
+        "jogurt",
+        "maasika",
+        "banaani",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Keefirijog. ME-3 maasika-mustika Hellus 380g",
+    "price": 1.69,
+    "regularPrice": 1.69,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "HELLUS",
+    "storeUnitPrice": 4.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010128_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/keefirijog-me-3-maasika-mustika-hellus-380g/p/4010128",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "keefirijog",
+      "unit": "380g",
+      "variety": "me hellus",
+      "nameLower": "keefirijog. me-3 maasika-mustika hellus 380g",
+      "brand": "hellus",
+      "size": "380g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "keefirijog maasika me mustika",
+      "descriptorOrder": [
+        "keefirijog",
+        "me",
+        "maasika",
+        "mustika"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2056,10 +3616,15 @@
     "cardName": null,
     "brand": "Baltais",
     "storeUnitPrice": 2.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_996086_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-maasikamait-c-vit-baltais-300g/p/996086",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2074,9 +3639,31 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "c jogurt maasikamait vit",
+      "descriptors": "c jogurt maasika vit",
+      "descriptorOrder": [
+        "jogurt",
+        "maasika",
+        "c",
+        "vit"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "c": "c"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2088,10 +3675,15 @@
     "cardName": null,
     "brand": "Baltais",
     "storeUnitPrice": 2.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_996091_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-mangomaits-c-vit-baltais-300g/p/996091",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2106,41 +3698,31 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "c jogurt mangomaits vit",
+      "descriptors": "c jogurt mango vit",
+      "descriptorOrder": [
+        "jogurt",
+        "mango",
+        "c",
+        "vit"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "c": "c"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Keefirijog. ME-3 maasika-mustika Hellus 380g",
-    "price": 1.69,
-    "regularPrice": 1.69,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": null,
-    "storeUnitPrice": 4.45,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/keefirijog-me-3-maasika-mustika-hellus-380g/p/4010128",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "keefirijog",
-      "unit": "380g",
-      "variety": "me hellus",
-      "nameLower": "keefirijog. me-3 maasika-mustika hellus 380g",
-      "brand": "keefirijog",
-      "size": "380g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "hellus keefirijog maasika me mustika",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2152,10 +3734,15 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 3.39,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4011556_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-maitsestamata-laktoosivaba-tere-380g/p/4011556",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2171,8 +3758,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "jogurt laktoosivaba maitsestamata",
+      "descriptorOrder": [
+        "jogurt",
+        "maitsestamata",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "maitsestamata": "maitsestamata",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2184,10 +3793,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 3.66,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_299592_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorejogurt-rukkileiva-kaneeli-muah-alma-380g/p/299592",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2203,8 +3817,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kaneeli koorejogurt muah rukkileiva",
+      "descriptorOrder": [
+        "koorejogurt",
+        "rukkileiva",
+        "kaneeli",
+        "muah"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2214,12 +3850,17 @@
     "regularPrice": 1.69,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "HELLUS",
     "storeUnitPrice": 4.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010142_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/keefirijog-sidruni-vanilli-hellus-380g/p/4010142",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2228,15 +3869,33 @@
       "unit": "380g",
       "variety": "hellus",
       "nameLower": "keefirijog. sidruni-vanilli hellus 380g",
-      "brand": "keefirijog",
+      "brand": "hellus",
       "size": "380g",
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "hellus keefirijog sidruni vanilli",
+      "descriptors": "keefirijog sidruni vanilli",
+      "descriptorOrder": [
+        "keefirijog",
+        "sidruni",
+        "vanilli"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2246,12 +3905,17 @@
     "regularPrice": 1.49,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "Saaremaa",
     "storeUnitPrice": 8.28,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4001921_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/mahejogurt-saaremaa-mustsostardega-180g/p/4001921",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2260,15 +3924,35 @@
       "unit": "180g",
       "variety": "saaremaa",
       "nameLower": "mahejogurt saaremaa mustsõstardega 180g",
-      "brand": "mahejogurt",
+      "brand": "saaremaa",
       "size": "180g",
       "variant": null,
-      "qualifiers": "mustsõstardega",
+      "qualifiers": "mahe mustsõstardega",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "mahejogurt mustsõstardega saaremaa",
+      "descriptors": "mahejogurt mustsõstardega",
+      "descriptorOrder": [
+        "mahejogurt",
+        "mustsõstardega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahejogurt": "mahejogurt",
+        "mustsõstardega": "mustsõstardega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2278,12 +3962,17 @@
     "regularPrice": 1.49,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "Saaremaa",
     "storeUnitPrice": 8.28,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4001920_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/mahejogurt-saaremaa-vaarikatega-180g/p/4001920",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2292,47 +3981,35 @@
       "unit": "180g",
       "variety": "saaremaa",
       "nameLower": "mahejogurt saaremaa vaarikatega 180g",
-      "brand": "mahejogurt",
+      "brand": "saaremaa",
       "size": "180g",
       "variant": null,
-      "qualifiers": "vaarikatega",
+      "qualifiers": "mahe vaarikatega",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "mahejogurt saaremaa vaarikatega",
+      "descriptors": "mahejogurt vaarikatega",
+      "descriptorOrder": [
+        "mahejogurt",
+        "vaarikatega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "mahejogurt": "mahejogurt",
+        "vaarikatega": "vaarikatega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Jogurtikreem sidruni laktoosivaba Saare 400g",
-    "price": 1.79,
-    "regularPrice": 1.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Saare",
-    "storeUnitPrice": 4.47,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurtikreem-sidruni-laktoosivaba-saare-400g/p/998188",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "jogurtikreem",
-      "unit": "400g",
-      "variety": "saare",
-      "nameLower": "jogurtikreem sidruni laktoosivaba saare 400g",
-      "brand": "saare",
-      "size": "400g",
-      "variant": "lactose-free",
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jogurtikreem laktoosivaba sidruni",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2344,10 +4021,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 3.66,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4002712_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/k-jog-alma-muah-sidruni-j-koogim-380g/p/4002712",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2363,55 +4045,51 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "j jog k koogim muah sidruni",
+      "descriptorOrder": [
+        "k",
+        "jog",
+        "muah",
+        "sidruni",
+        "j",
+        "koogim"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
     "store": "Rimi",
-    "name": "Jogurt šokolaadi tükkidega Ehrmann 500g",
-    "price": 2.45,
-    "regularPrice": 3.29,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Ehrmann",
-    "storeUnitPrice": 4.9,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-sokolaadi-tukkidega-ehrmann-500g/p/998897",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "jogurt",
-      "unit": "500g",
-      "variety": "ehrmann",
-      "nameLower": "jogurt šokolaadi tükkidega ehrmann 500g",
-      "brand": "ehrmann",
-      "size": "500g",
-      "variant": null,
-      "qualifiers": "tükkidega",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jogurt tükkidega šokolaadi",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Jogurtikreem Saare vaarika-passioni 400g",
+    "name": "Jogurtikreem sidruni laktoosivaba Saare 400g",
     "price": 1.79,
     "regularPrice": 1.79,
     "cardPrice": null,
     "cardName": null,
     "brand": "Saare",
     "storeUnitPrice": 4.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_998188_PCE_EE",
     "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurtikreem-saare-vaarika-passioni-400g/p/4002175",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurtikreem-sidruni-laktoosivaba-saare-400g/p/998188",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2419,48 +4097,38 @@
       "type": "jogurtikreem",
       "unit": "400g",
       "variety": "saare",
-      "nameLower": "jogurtikreem saare vaarika-passioni 400g",
+      "nameLower": "jogurtikreem sidruni laktoosivaba saare 400g",
       "brand": "saare",
       "size": "400g",
-      "variant": null,
+      "variant": "lactose-free",
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "jogurtikreem passioni vaarika",
+      "descriptors": "jogurtikreem laktoosivaba sidruni",
+      "descriptorOrder": [
+        "jogurtikreem",
+        "sidruni",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurtikreem": "jogurtikreem",
+        "sidruni": "sidruni",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Jogurt marja Zott Zottis 400g",
-    "price": 1.39,
-    "regularPrice": 1.39,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Zott",
-    "storeUnitPrice": 3.47,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-marja-zott-zottis-400g/p/922601",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "jogurt",
-      "unit": "400g",
-      "variety": "zott zottis",
-      "nameLower": "jogurt marja zott zottis 400g",
-      "brand": "zott",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jogurt marja zottis",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2472,10 +4140,15 @@
     "cardName": null,
     "brand": "Ehrmann",
     "storeUnitPrice": 4.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_998904_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-mooniseemne-ja-martsipani-ehrmann-500g/p/998904",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2491,8 +4164,148 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ja jogurt martsipani mooniseemne",
+      "descriptorOrder": [
+        "jogurt",
+        "mooniseemne",
+        "ja",
+        "martsipani"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "mooniseemne": "mooniseemne",
+        "ja": "ja",
+        "martsipani": "martsipani"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Jogurt šokolaadi tükkidega Ehrmann 500g",
+    "price": 2.45,
+    "regularPrice": 3.29,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Ehrmann",
+    "storeUnitPrice": 4.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_998897_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-sokolaadi-tukkidega-ehrmann-500g/p/998897",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurt",
+      "unit": "500g",
+      "variety": "ehrmann",
+      "nameLower": "jogurt šokolaadi tükkidega ehrmann 500g",
+      "brand": "ehrmann",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "tükkidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurt tükkidega šokolaadi",
+      "descriptorOrder": [
+        "jogurt",
+        "šokolaadi",
+        "tükkidega"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "šokolaadi": "šokolaadi",
+        "tükkidega": "tükkidega"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Jogurtikreem Saare vaarika-passioni 400g",
+    "price": 1.79,
+    "regularPrice": 1.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Saare",
+    "storeUnitPrice": 4.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4002175_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurtikreem-saare-vaarika-passioni-400g/p/4002175",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtikreem",
+      "unit": "400g",
+      "variety": "saare",
+      "nameLower": "jogurtikreem saare vaarika-passioni 400g",
+      "brand": "saare",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtikreem passioni vaarika",
+      "descriptorOrder": [
+        "jogurtikreem",
+        "vaarika",
+        "passioni"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurtikreem": "jogurtikreem"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2504,10 +4317,15 @@
     "cardName": null,
     "brand": "Ehrmann",
     "storeUnitPrice": 8.04,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4011731_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/val-p-high-prot-so-maits-m-a-ehrmann-230g/p/4011731",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2522,9 +4340,92 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "a high m maits p prot val šo",
+      "descriptors": "a high m p prot val šo",
+      "descriptorOrder": [
+        "val",
+        "p",
+        "high",
+        "prot",
+        "šo",
+        "m",
+        "a"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "high": "high"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Jogurt marja Zott Zottis 400g",
+    "price": 1.39,
+    "regularPrice": 1.39,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Zott",
+    "storeUnitPrice": 3.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_922601_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/jogurt-marja-zott-zottis-400g/p/922601",
+    "ean": null,
+    "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurt",
+      "unit": "400g",
+      "variety": "zott zottis",
+      "nameLower": "jogurt marja zott zottis 400g",
+      "brand": "zott",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurt marja zottis",
+      "descriptorOrder": [
+        "jogurt",
+        "marja",
+        "zottis"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "jogurt": "jogurt",
+        "marja": "marja",
+        "zottis": "zottis"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2536,10 +4437,15 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 3.66,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4010428_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/jogurtid/koorejogurt-vanilli-alma-muah-380g/p/4010428",
     "ean": null,
     "strictPackaging": true,
+    "pieceCountSizes": true,
+    "impliedDescriptors": [
+      "tk"
+    ],
     "signature": {
       "ean": null,
       "isProduce": false,
@@ -2555,8 +4461,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "koorejogurt muah vanilli",
+      "descriptorOrder": [
+        "koorejogurt",
+        "vanilli",
+        "muah"
+      ],
+      "pieceCountSizes": true,
+      "descriptorShown": {
+        "koorejogurt": "koorejogurt",
+        "vanilli": "vanilli",
+        "muah": "muah"
+      },
+      "impliedDescriptors": [
+        "tk"
+      ],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   }
 ]

@@ -8,22 +8,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 2.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_811231_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-rimi-20-500g/p/811231",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Köögikoor Farmi 15% 400ml",
-    "price": 1.49,
-    "regularPrice": 1.49,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Farmi",
-    "storeUnitPrice": 3.72,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/koogikoor-farmi-15-400ml/p/962520",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "hapukoor",
+      "unit": "500g",
+      "variety": "rimi",
+      "nameLower": "hapukoor rimi 20% 500g",
+      "brand": "rimi",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -34,9 +57,94 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 2.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200279_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-alma-20-500g/p/200279",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "500g",
+      "variety": "alma",
+      "nameLower": "hapukoor alma 20% 500g",
+      "brand": "alma",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Köögikoor Farmi 15% 400ml",
+    "price": 1.49,
+    "regularPrice": 1.49,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Farmi",
+    "storeUnitPrice": 3.72,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_962520_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/koogikoor-farmi-15-400ml/p/962520",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögikoor",
+      "unit": "400ml",
+      "variety": "farmi",
+      "nameLower": "köögikoor farmi 15% 400ml",
+      "brand": "farmi",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "15",
+      "descriptors": "köögikoor",
+      "descriptorOrder": [
+        "köögikoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögikoor": "köögikoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -47,9 +155,45 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 2.61,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_918094_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/kohvikoor-alma-10-380ml/p/918094",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikoor",
+      "unit": "380ml",
+      "variety": "alma",
+      "nameLower": "kohvikoor alma 10% 380ml",
+      "brand": "alma",
+      "size": "380ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "kohvikoor",
+      "descriptorOrder": [
+        "kohvikoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikoor": "kohvikoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -60,9 +204,45 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 6.22,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_205760_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/vahukoor-alma-35-400ml/p/205760",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vahukoor",
+      "unit": "400ml",
+      "variety": "alma",
+      "nameLower": "vahukoor alma 35% 400ml",
+      "brand": "alma",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "35",
+      "descriptors": "vahukoor",
+      "descriptorOrder": [
+        "vahukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahukoor": "vahukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -73,35 +253,45 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 1.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812875_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/kohvikoor-rimi-smart-10-200ml/p/812875",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Hapukoor Rimi 10% 500g",
-    "price": 1.59,
-    "regularPrice": 1.59,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Rimi",
-    "storeUnitPrice": 3.18,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-rimi-10-500g/p/810232",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Hapukoor laktoosivaba 20% 300g",
-    "price": 1.49,
-    "regularPrice": 1.49,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": null,
-    "storeUnitPrice": 4.97,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-laktoosivaba-20-300g/p/904061",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kohvikoor",
+      "unit": "200ml",
+      "variety": "rimi smart",
+      "nameLower": "kohvikoor rimi smart 10% 200ml",
+      "brand": "rimi smart",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "kohvikoor",
+      "descriptorOrder": [
+        "kohvikoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikoor": "kohvikoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -112,9 +302,145 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 5.95,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_810230_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/vahukoor-rimi-35-200ml/p/810230",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "vahukoor",
+      "unit": "200ml",
+      "variety": "rimi",
+      "nameLower": "vahukoor rimi 35% 200ml",
+      "brand": "rimi",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "35",
+      "descriptors": "vahukoor",
+      "descriptorOrder": [
+        "vahukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahukoor": "vahukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Hapukoor laktoosivaba 20% 300g",
+    "price": 1.49,
+    "regularPrice": 1.49,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": null,
+    "storeUnitPrice": 4.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_904061_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-laktoosivaba-20-300g/p/904061",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "300g",
+      "variety": null,
+      "nameLower": "hapukoor laktoosivaba 20% 300g",
+      "brand": "hapukoor",
+      "size": "300g",
+      "variant": "lactose-free",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor laktoosivaba",
+      "descriptorOrder": [
+        "hapukoor",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Hapukoor Rimi 10% 500g",
+    "price": 1.59,
+    "regularPrice": 1.59,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Rimi",
+    "storeUnitPrice": 3.18,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_810232_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-rimi-10-500g/p/810232",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "hapukoor",
+      "unit": "500g",
+      "variety": "rimi",
+      "nameLower": "hapukoor rimi 10% 500g",
+      "brand": "rimi",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -125,9 +451,45 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 4.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_913701_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/toidukoor-alma-20-400ml/p/913701",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "toidukoor",
+      "unit": "400ml",
+      "variety": "alma",
+      "nameLower": "toidukoor alma 20% 400ml",
+      "brand": "alma",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "toidukoor",
+      "descriptorOrder": [
+        "toidukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "toidukoor": "toidukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -138,9 +500,45 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 4.76,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200262_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-alma-20-250g/p/200262",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "250g",
+      "variety": "alma",
+      "nameLower": "hapukoor alma 20% 250g",
+      "brand": "alma",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -151,9 +549,45 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 2.35,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_902042_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-20-rimi-smart-400g/p/902042",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "hapukoor",
+      "unit": "400g",
+      "variety": "rimi smart",
+      "nameLower": "hapukoor 20% rimi smart 400g",
+      "brand": "rimi smart",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -164,9 +598,47 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 6.76,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_992930_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-tuubis-20-tere-250g/p/992930",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "250g",
+      "variety": "tere",
+      "nameLower": "hapukoor tuubis 20% tere 250g",
+      "brand": "tere",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor tuubis",
+      "descriptorOrder": [
+        "hapukoor",
+        "tuubis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor",
+        "tuubis": "tuubis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -177,9 +649,47 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 7.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200092_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/vahukoor-laktoosivaba-35-tere-200ml/p/200092",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vahukoor",
+      "unit": "200ml",
+      "variety": "tere",
+      "nameLower": "vahukoor laktoosivaba 35% tere 200ml",
+      "brand": "tere",
+      "size": "200ml",
+      "variant": "lactose-free",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "35",
+      "descriptors": "laktoosivaba vahukoor",
+      "descriptorOrder": [
+        "vahukoor",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahukoor": "vahukoor",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -190,9 +700,45 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 6.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_813367_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/kohvikoor-rimi-10-10x10g/p/813367",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "kohvikoor",
+      "unit": "10x10g",
+      "variety": "rimi",
+      "nameLower": "kohvikoor rimi 10% 10x10g",
+      "brand": "rimi",
+      "size": "10x10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "kohvikoor",
+      "descriptorOrder": [
+        "kohvikoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikoor": "kohvikoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -203,9 +749,45 @@
     "cardName": null,
     "brand": "Farmi",
     "storeUnitPrice": 5.75,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200085_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-20-farmi-200g/p/200085",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "200g",
+      "variety": "farmi",
+      "nameLower": "hapukoor 20% farmi 200g",
+      "brand": "farmi",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -216,9 +798,47 @@
     "cardName": null,
     "brand": "Saare",
     "storeUnitPrice": 5.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4001528_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-laktoosivaba-saare-20-oko-300g/p/4001528",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "300g",
+      "variety": "saare",
+      "nameLower": "hapukoor laktoosivaba saare 20%  300g",
+      "brand": "saare",
+      "size": "300g",
+      "variant": "lactose-free",
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "hapukoor laktoosivaba",
+      "descriptorOrder": [
+        "hapukoor",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -229,9 +849,45 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 4.2,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_905365_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-alma-10-250g/p/905365",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "250g",
+      "variety": "alma",
+      "nameLower": "hapukoor alma 10% 250g",
+      "brand": "alma",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -242,9 +898,45 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 3.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_263265_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/kohvikoor-tere-10-200ml/p/263265",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikoor",
+      "unit": "200ml",
+      "variety": "tere",
+      "nameLower": "kohvikoor tere 10% 200ml",
+      "brand": "tere",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "kohvikoor",
+      "descriptorOrder": [
+        "kohvikoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikoor": "kohvikoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -255,9 +947,47 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 9.93,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_299167_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-smetana-30-150g/p/299167",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "150g",
+      "variety": "smetana",
+      "nameLower": "hapukoor smetana 30% 150g",
+      "brand": "hapukoor",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "30",
+      "descriptors": "hapukoor smetana",
+      "descriptorOrder": [
+        "hapukoor",
+        "smetana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor",
+        "smetana": "smetana"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -268,9 +998,45 @@
     "cardName": null,
     "brand": "Alma",
     "storeUnitPrice": 3.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_200267_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/kohvikoor-alma-10-200ml/p/200267",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikoor",
+      "unit": "200ml",
+      "variety": "alma",
+      "nameLower": "kohvikoor alma 10% 200ml",
+      "brand": "alma",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "kohvikoor",
+      "descriptorOrder": [
+        "kohvikoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikoor": "kohvikoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -281,9 +1047,45 @@
     "cardName": null,
     "brand": "Tere",
     "storeUnitPrice": 7.3,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4003982_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-tere-30-300g/p/4003982",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "300g",
+      "variety": "tere",
+      "nameLower": "hapukoor tere 30% 300g",
+      "brand": "tere",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "30",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -294,9 +1096,47 @@
     "cardName": null,
     "brand": "President",
     "storeUnitPrice": 14.76,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_248506_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/vahukoor-sifoon-president-250g/p/248506",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vahukoor",
+      "unit": "250g",
+      "variety": "president",
+      "nameLower": "vahukoor sifoon president 250g",
+      "brand": "president",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "sifoon vahukoor",
+      "descriptorOrder": [
+        "vahukoor",
+        "sifoon"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahukoor": "vahukoor",
+        "sifoon": "sifoon"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -307,9 +1147,45 @@
     "cardName": null,
     "brand": "Paradiso",
     "storeUnitPrice": 11.8,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816760_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/vahukoor-paradiso-250g/p/816760",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vahukoor",
+      "unit": "250g",
+      "variety": "paradiso",
+      "nameLower": "vahukoor paradiso 250g",
+      "brand": "paradiso",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "vahukoor",
+      "descriptorOrder": [
+        "vahukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahukoor": "vahukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -320,9 +1196,49 @@
     "cardName": null,
     "brand": "Meadow Star",
     "storeUnitPrice": 4.3,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_4006614_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/vahukoor-kohvikoor/roosk-koor-meadow-star-uht-12-500ml/p/4006614",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rõõsk",
+      "unit": "500ml",
+      "variety": "meadow star uht",
+      "nameLower": "rõõsk koor meadow star uht 12% 500ml",
+      "brand": "meadow star",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "12",
+      "descriptors": "koor rõõsk uht",
+      "descriptorOrder": [
+        "rõõsk",
+        "koor",
+        "uht"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rõõsk": "rõõsk",
+        "koor": "koor",
+        "uht": "uht"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -333,9 +1249,45 @@
     "cardName": null,
     "brand": "Baltais",
     "storeUnitPrice": 3.37,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_296727_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-baltais-12-400g/p/296727",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hapukoor",
+      "unit": "400g",
+      "variety": "baltais",
+      "nameLower": "hapukoor baltais 12% 400g",
+      "brand": "baltais",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "12",
+      "descriptors": "hapukoor",
+      "descriptorOrder": [
+        "hapukoor"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hapukoor": "hapukoor"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -346,8 +1298,46 @@
     "cardName": null,
     "brand": "Baltais",
     "storeUnitPrice": 7.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_976983_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/creme-fraiche-baltais-500g/p/976983",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "creme",
+      "unit": "500g",
+      "variety": "baltais",
+      "nameLower": "creme fraiche baltais 500g",
+      "brand": "baltais",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "creme fraiche",
+      "descriptorOrder": [
+        "creme",
+        "fraiche"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "creme": "creme",
+        "fraiche": "fraiche"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

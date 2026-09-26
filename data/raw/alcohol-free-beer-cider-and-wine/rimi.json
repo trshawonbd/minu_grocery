@@ -11,7 +11,55 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374075_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-tanker-select-lager-0-5l-prk/p/1374075",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "tanker select lager",
+      "nameLower": "alkoholivaba õlu tanker select lager 0,5l prk",
+      "brand": "tanker",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba lager purk select",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "select",
+        "lager",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "select": "select",
+        "lager": "lager",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -25,21 +73,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374742_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-corona-cero-0-0-0-33l-pudel/p/1374742",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Alkoholivaba õlu Beerville 0,5l",
-    "price": 0.79,
-    "regularPrice": 0.79,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Beerville",
-    "storeUnitPrice": 1.58,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1371565_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-beerville-0-5l/p/1371565",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "330ml",
+      "variety": "corona cero",
+      "nameLower": "alkoholivaba õlu corona cero 0,0% 0,33l pudel",
+      "brand": "corona",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba cero pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "cero",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "cero": "cero",
+        "pudel": "pudel"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -53,7 +133,109 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1359865_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-olu-a-le-coq-premium-0-5l-prk/p/1359865",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "a le coq premium",
+      "nameLower": "alk.vaba õlu a.le coq premium 0,5l prk",
+      "brand": "a. le coq",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba premium purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "premium",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "coq": "coq",
+        "premium": "premium",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Alkoholivaba õlu Beerville 0,5l",
+    "price": 0.79,
+    "regularPrice": 0.79,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Beerville",
+    "storeUnitPrice": 1.58,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1371565_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-beerville-0-5l/p/1371565",
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "beerville",
+      "nameLower": "alkoholivaba õlu beerville 0,5l",
+      "brand": "beerville",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba",
+      "descriptorOrder": [
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -67,7 +249,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1365479_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-olu-alc-fassbrause-sidrun-0-5l/p/1365479",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "alk alc fassbrause",
+      "nameLower": "alk.vaba õlu alc fassbrause sidrun 0,5l",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alc alkoholivaba sidrun",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "alc",
+        "sidrun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "alc": "alc",
+        "sidrun": "sidrun"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -81,7 +308,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1372705_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-v-olu-kronenbourg-1664-blanc-0-33l-pdl/p/1372705",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "kronenbourg blanc",
+      "nameLower": "alk.v. õlu kronenbourg 1664 blanc 0,33l pdl",
+      "brand": "kronenbourg",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba blanc pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "blanc",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "blanc": "blanc",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -95,7 +367,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376521_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-saku-on-ice-hola-0-33l-purk/p/1376521",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "330ml",
+      "variety": "saku on ice hola",
+      "nameLower": "alkoholivaba õlu saku on ice hola 0,33l purk",
+      "brand": "saku on ice",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba hola purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "hola",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "hola": "hola",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -109,7 +427,55 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370583_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-saku-rock-zero-0-5l-purk/p/1370583",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "saku rock zero",
+      "nameLower": "alkoholivaba õlu saku rock zero 0,5l purk",
+      "brand": "rock",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba purk saku zero",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "saku",
+        "zero",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "saku": "saku",
+        "zero": "zero",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -123,7 +489,50 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1367429_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-olu-clausthaler-grapefruit-0-33l/p/1367429",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "clausthaler grapefruit",
+      "nameLower": "alk.vaba õlu clausthaler grapefruit 0,33l",
+      "brand": "clausthaler",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba grapefruit",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "grapefruit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "grapefruit": "grapefruit"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -137,7 +546,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1365489_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-olu-alc-fassbrause-virsik-0-5l/p/1365489",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "alk alc fassbrause",
+      "nameLower": "alk.vaba õlu alc fassbrause virsik 0,5l",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alc alkoholivaba virsik",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "alc",
+        "virsik"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "alc": "alc",
+        "virsik": "virsik"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -151,7 +605,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1360915_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-clausthaler-lemon-0-33l/p/1360915",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "330ml",
+      "variety": "clausthaler lemon",
+      "nameLower": "alkoholivaba õlu clausthaler lemon 0,33l",
+      "brand": "clausthaler",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba lemon",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "lemon"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "lemon": "lemon"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -165,7 +663,49 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1013158_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-heineken-alk-0-0-vol-0-5l/p/1013158",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "heineken",
+      "nameLower": "alkoholivaba õlu heineken alk.0,0%vol 0,5l",
+      "brand": "heineken",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba",
+      "descriptorOrder": [
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -179,7 +719,109 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1352712_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-clausthaler-original-0-5l/p/1352712",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "clausthaler original",
+      "nameLower": "alkoholivaba õlu clausthaler original 0,5l",
+      "brand": "clausthaler",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba originaal",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "originaal"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "originaal": "original"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Alkoholivaba õlu Warsteiner 0,33l pdl",
+    "price": 1.15,
+    "regularPrice": 1.15,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "WARSTEINER",
+    "storeUnitPrice": 3.48,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1356512_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-warsteiner-0-33l-pdl/p/1356512",
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "330ml",
+      "variety": "warsteiner",
+      "nameLower": "alkoholivaba õlu warsteiner 0,33l pdl",
+      "brand": "warsteiner",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -193,21 +835,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1368255_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-jook-saku-on-ice-mango-0-5l-purk/p/1368255",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Alkoholivaba õlu Warsteiner 0,33l pdl",
-    "price": 1.15,
-    "regularPrice": 1.15,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": null,
-    "storeUnitPrice": 3.48,
-    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1356512_PCE_EE",
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-warsteiner-0-33l-pdl/p/1356512",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "alk saku ice",
+      "nameLower": "alk.vaba jook saku on ice mango 0,5l purk",
+      "brand": "saku on ice",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jook mango purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "mango",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "mango": "mango",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -221,7 +895,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376637_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-v-olu-treen-laager-vaarika-pohjala-0-44l/p/1376637",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "440ml",
+      "variety": "treen vaarika põhjala",
+      "nameLower": "alk.v. õlu treen.laager vaarika põhjala 0,44l",
+      "brand": "põhjala",
+      "size": "440ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba laager treen vaarika",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "treen",
+        "laager",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "vaarika": "vaarika"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -235,7 +954,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1361940_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-heineken-0-33l-pudel/p/1361940",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "330ml",
+      "variety": "heineken",
+      "nameLower": "alkoholivaba õlu heineken 0,33l pudel",
+      "brand": "heineken",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "pudel": "pudel"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -249,7 +1012,50 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374838_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-v-olu-pohjala-treeninglaager-0-5-0-44l/p/1374838",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "440ml",
+      "variety": "põhjala treeninglaager",
+      "nameLower": "alk.v. õlu põhjala treeninglaager 0,5% 0,44l",
+      "brand": "põhjala",
+      "size": "440ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.5",
+      "descriptors": "alkoholivaba treeninglaager",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "treeninglaager"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "treeninglaager": "treeninglaager"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -263,7 +1069,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1375326_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-jook-saku-on-ice-laim-munt-0-5l/p/1375326",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "alkoholivaba saku on ice",
+      "nameLower": "alkoholivaba jook saku on ice laim-münt 0,5l",
+      "brand": "saku on ice",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jook laim münt",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "laim",
+        "münt"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -277,7 +1128,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376343_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-alexander-bohemian-0-0-0-5l/p/1376343",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "alexander bohemian",
+      "nameLower": "alkoholivaba õlu alexander bohemian 0,0% 0,5l",
+      "brand": "alexander",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba bohemian",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "bohemian"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "bohemian": "bohemian"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -291,7 +1186,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1372726_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-jook-carlsberg-organic-0-33l-pudel/p/1372726",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "carlsberg",
+      "nameLower": "alk.vaba jook carlsberg   0,33l pudel",
+      "brand": "carlsberg",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jook pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "pudel": "pudel"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -305,7 +1244,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374202_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-pohjala-laager-0-0-44l-prk/p/1374202",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "440ml",
+      "variety": "põhjala laager",
+      "nameLower": "alkoholivaba õlu põhjala laager 0 0,44l prk",
+      "brand": "põhjala",
+      "size": "440ml",
+      "variant": "0",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba laager purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "laager",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "laager": "laager",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "0",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -319,7 +1304,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1369248_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-olu-pohjala-prenzlauer-0-0-33l-purk/p/1369248",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "põhjala prenzlauer",
+      "nameLower": "alk.vaba õlu põhjala prenzlauer 0 0,33l purk",
+      "brand": "põhjala",
+      "size": "330ml",
+      "variant": "0",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba prenzlauer purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "prenzlauer",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlu": "õlu",
+        "prenzlauer": "prenzlauer",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "0",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -333,7 +1363,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374191_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alk-vaba-ollejook-fassbrause-cherry-0-5l-prk/p/1374191",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "fassbrause cherry",
+      "nameLower": "alk.vaba õllejook fassbrause cherry 0,5l prk",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba cherry purk õllejook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õllejook",
+        "cherry",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllejook": "õllejook",
+        "cherry": "cherry",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -347,7 +1423,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1367645_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-staropramen-0-33l-pdl/p/1367645",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "330ml",
+      "variety": "staropramen",
+      "nameLower": "alkoholivaba õlu staropramen 0,33l pdl",
+      "brand": "staropramen",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba pudel",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "pudel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "pudel": "pdl"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -361,7 +1481,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374185_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-a-le-coq-0-33l-prk/p/1374185",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "330ml",
+      "variety": "a le coq",
+      "nameLower": "alkoholivaba õlu a. le coq 0,33l prk",
+      "brand": "a. le coq",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -370,12 +1534,58 @@
     "regularPrice": 2.15,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "ESTRELLA",
     "storeUnitPrice": 4.3,
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1371805_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-estrella-galicia-0-5l-purk/p/1371805",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "estrella galicia",
+      "nameLower": "alkoholivaba õlu estrella galicia 0,5l purk",
+      "brand": "estrella",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba galicia purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "galicia",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "galicia": "galicia",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -389,7 +1599,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1375530_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-olu/alkoholivaba-olu-saku-originaal-0-5l-purk/p/1375530",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "saku originaal",
+      "nameLower": "alkoholivaba õlu saku originaal 0,5l purk",
+      "brand": "saku",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba originaal purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "originaal",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õlu": "õlu",
+        "originaal": "originaal",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -403,7 +1659,57 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1368721_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-vaba-kokteil-le-coq-virgin-mojito-0-33l/p/1368721",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "le coq virgin mojito",
+      "nameLower": "alk.vaba kokteil le coq virgin mojito 0,33l",
+      "brand": "alk",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba coq kokteil le mojito virgin",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "kokteil",
+        "le",
+        "coq",
+        "virgin",
+        "mojito"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kokteil": "kokteil",
+        "le": "le",
+        "coq": "coq",
+        "virgin": "virgin",
+        "mojito": "mojito"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -417,7 +1723,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1368328_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-vaba-jook-hartwall-original-ld-0-33l/p/1368328",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "hartwall original ld",
+      "nameLower": "alk.vaba jook hartwall original ld 0,33l",
+      "brand": "hartwall",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jook ld originaal",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "originaal",
+        "ld"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "originaal": "original",
+        "ld": "ld"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -431,7 +1783,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1367086_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-vaba-siider-somersby-pear-0-5l-purk/p/1367086",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "somersby pear",
+      "nameLower": "alk.vaba siider somersby pear 0,5l purk",
+      "brand": "somersby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba pear purk siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "pear",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider",
+        "pear": "pear",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -440,12 +1838,57 @@
     "regularPrice": 1.15,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "G:N",
     "storeUnitPrice": 2.3,
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1367090_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alkoholivaba-g-n-grapefruit-0-5l-purk/p/1367090",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "g n grapefruit",
+      "nameLower": "alkoholivaba g:n grapefruit 0,5l purk",
+      "brand": "g:n",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba grapefruit purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "grapefruit",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "grapefruit": "grapefruit",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -459,7 +1902,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1365130_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alkovaba-siider-hoggy-s-apple-0-5l/p/1365130",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkovaba",
+      "unit": "500ml",
+      "variety": "hoggy apple",
+      "nameLower": "alkovaba siider hoggy's apple 0,5l",
+      "brand": "hoggy's",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba apple siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "apple"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkovaba": "alkovaba",
+        "siider": "siider",
+        "apple": "apple"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -473,7 +1961,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376789_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-v-j-hartwall-original-ld-pineapple-0-33l/p/1376789",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "hartwall original ld pineapple",
+      "nameLower": "alk.v.j. hartwall original ld pineapple 0,33l",
+      "brand": "hartwall",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivabaj ld originaal pineapple",
+      "descriptorOrder": [
+        "alkoholivabaj",
+        "originaal",
+        "ld",
+        "pineapple"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "originaal": "original",
+        "ld": "ld",
+        "pineapple": "pineapple"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -487,7 +2021,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376583_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alkoholivaba-jook-euphoriq-garage-0-0-0-275l/p/1376583",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "275ml",
+      "variety": "euphoriq garage",
+      "nameLower": "alkoholivaba jook euphoriq garage 0,0% 0,275l",
+      "brand": "garage",
+      "size": "275ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alkoholivaba euphoriq jook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "euphoriq"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "jook": "jook",
+        "euphoriq": "euphoriq"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -501,7 +2080,54 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1373938_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alkoholivaba-siider-hoggy-s-pear-0-5l-prk/p/1373938",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "hoggy pear",
+      "nameLower": "alkoholivaba siider hoggy's pear 0,5l prk",
+      "brand": "hoggy's",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba pear purk siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "pear",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "siider": "siider",
+        "pear": "pear",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -515,7 +2141,54 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374023_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alkoholivaba-jook-garage-hard-lemon-0-275l/p/1374023",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "275ml",
+      "variety": "garage hard lemon",
+      "nameLower": "alkoholivaba jook garage hard lemon 0,275l",
+      "brand": "garage",
+      "size": "275ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba hard jook lemon",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "hard",
+        "lemon"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "jook": "jook",
+        "hard": "hard",
+        "lemon": "lemon"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -529,7 +2202,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374096_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-vaba-siider-somersby-mandarine-0-5l-prk/p/1374096",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "somersby mandarine",
+      "nameLower": "alk.vaba siider somersby mandarine 0,5l prk",
+      "brand": "somersby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba mandarine purk siider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "mandarine",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider",
+        "mandarine": "mandarine",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -543,7 +2262,50 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376570_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alkoholivaba-ounasiider-tanker-0-5l/p/1376570",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "tanker",
+      "nameLower": "alkoholivaba õunasiider tanker 0,5l",
+      "brand": "tanker",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba õunasiider",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "õunasiider"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "õunasiider": "õunasiider"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -557,7 +2319,54 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370796_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alkoholivaba-jook-fassbrause-mojito-0-5l-purk/p/1370796",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "500ml",
+      "variety": "fassbrause mojito",
+      "nameLower": "alkoholivaba jook fassbrause mojito 0,5l purk",
+      "brand": "fassbrause",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jook mojito purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "mojito",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "jook": "jook",
+        "mojito": "mojito",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -571,7 +2380,55 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370678_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-vaba-jook-koff-pink-grapefruit-0-33l-purk/p/1370678",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "koff pink grapefruit",
+      "nameLower": "alk.vaba jook koff pink grapefruit 0,33l purk",
+      "brand": "koff",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba grapefruit jook pink purk",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "pink",
+        "grapefruit",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook",
+        "pink": "pink",
+        "grapefruit": "grapefruit",
+        "purk": "purk"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -585,7 +2442,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1370698_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-vaba-siider-somersby-strawberry-lime-0-5l/p/1370698",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "500ml",
+      "variety": "somersby strawberry lime",
+      "nameLower": "alk.vaba siider somersby strawberry&lime 0,5l",
+      "brand": "somersby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba lime siider strawberry",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "siider",
+        "strawberry",
+        "lime"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siider": "siider"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -599,7 +2500,56 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376670_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-vaba-kokteil-virg-appletini-le-coq-0-33l/p/1376670",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "330ml",
+      "variety": "virg appletini le coq",
+      "nameLower": "alk.vaba kokteil virg. appletini le coq 0,33l",
+      "brand": "alk",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba appletini coq kokteil le virg",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "kokteil",
+        "virg",
+        "appletini",
+        "le",
+        "coq"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kokteil": "kokteil",
+        "appletini": "appletini",
+        "le": "le",
+        "coq": "coq"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -613,7 +2563,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376747_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-siider-ja-kokteilid/alk-v-kokteil-tanqueray-toonik-m-ain-0-25l/p/1376747",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "250ml",
+      "variety": "tanqueray",
+      "nameLower": "alk.v. kokteil tanqueray toonik. m.ain. 0,25l",
+      "brand": "tanqueray",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ain alkoholivaba kokteil m toonik",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "kokteil",
+        "toonik",
+        "m",
+        "ain"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kokteil": "kokteil"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -627,7 +2622,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1374082_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoh-vaba-v-v-wolu-vahutav-rabarber-0-75l/p/1374082",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoh",
+      "unit": "750ml",
+      "variety": "wõlu vahutav rabarber",
+      "nameLower": "alkoh. vaba v.v. wõlu vahutav rabarber 0,75l",
+      "brand": "wõlu",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba rabarber v vahutav",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "v",
+        "vahutav",
+        "rabarber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaba": "vaba",
+        "vahutav": "vahutav",
+        "rabarber": "rabarber"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -641,7 +2682,54 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376630_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-va-vahutav-kollane-ploom-wolu-0-75l/p/1376630",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "alk vahutav wõlu kollane",
+      "nameLower": "alk.vaba va. vahutav kollane ploom wõlu 0,75l",
+      "brand": "wõlu",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "kollane",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba kollane ploom va vahutav",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "va",
+        "vahutav",
+        "kollane",
+        "ploom"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahutav": "vahutav",
+        "kollane": "kollane",
+        "ploom": "ploom"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -655,7 +2743,53 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1375524_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoholivaba-v-v-wolu-vahutav-maasikas-0-75l/p/1375524",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "750ml",
+      "variety": "wõlu vahutav maasikas",
+      "nameLower": "alkoholivaba v.v. wõlu vahutav maasikas 0,75l",
+      "brand": "wõlu",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba maasikas v vahutav",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "v",
+        "vahutav",
+        "maasikas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "vahutav": "vahutav",
+        "maasikas": "maasikas"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -669,7 +2803,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1365836_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-v-vein-mull-null-barbara-0-75l/p/1365836",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "mull null barbara",
+      "nameLower": "alk. vaba v.vein mull null barbara 0,75l",
+      "brand": "mull null",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba barbara v vein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "v",
+        "vein",
+        "barbara"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaba": "vaba",
+        "barbara": "barbara"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -683,7 +2862,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1365073_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-vahuvein-mull-null-rose-0-75l/p/1365073",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "mull null rose",
+      "nameLower": "alk.vaba vahuvein mull null rose 0,75l",
+      "brand": "mull null",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba rose vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "rose"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "rose": "rose"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -697,7 +2920,50 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1352278_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/vahuvein-alkoholivaba-torley-0-75l/p/1352278",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vahuvein",
+      "unit": "750ml",
+      "variety": "törley",
+      "nameLower": "vahuvein alkoholivaba törley 0,75l",
+      "brand": "törley",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba vahuvein",
+      "descriptorOrder": [
+        "vahuvein",
+        "alkoholivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "alkoholivaba": "alkoholivaba"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -711,7 +2977,54 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1367282_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoholivaba-vahuvein-rabarbra-null-0-75l/p/1367282",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "750ml",
+      "variety": "rabarbra null",
+      "nameLower": "alkoholivaba vahuvein rabarbra null 0,75l",
+      "brand": "alkoholivaba",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba null rabarbra vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "rabarbra",
+        "null"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "vahuvein": "vahuvein",
+        "rabarbra": "rabarbra",
+        "null": "null"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -725,7 +3038,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1354130_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-vahuvein-roosa-torley-0-75l/p/1354130",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "törley",
+      "nameLower": "alk.vaba vahuvein roosa törley 0,75l",
+      "brand": "törley",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba roosa vahuvein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "roosa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vahuvein": "vahuvein",
+        "roosa": "roosa"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -739,7 +3096,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376488_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoholivaba-jook-passioni-mull-null-0-75l/p/1376488",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "750ml",
+      "variety": "passioni mull null",
+      "nameLower": "alkoholivaba jook passioni mull null 0,75l",
+      "brand": "mull null",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba jook passioni",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "passioni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "jook": "jook",
+        "passioni": "passioni"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -753,7 +3155,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376494_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoholivaba-jook-granaatouna-mull-null-0-75l/p/1376494",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "750ml",
+      "variety": "granaatõuna mull null",
+      "nameLower": "alkoholivaba jook granaatõuna mull null 0,75l",
+      "brand": "mull null",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba granaatõuna jook",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "granaatõuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "jook": "jook",
+        "granaatõuna": "granaatõuna"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -767,7 +3214,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376503_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/al-vaba-jook-ananassi-vaarika-mull-null-0-75l/p/1376503",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "al",
+      "unit": "750ml",
+      "variety": "ananassi vaarika mull null",
+      "nameLower": "al.vaba jook ananassi-vaarika mull null 0,75l",
+      "brand": "mull null",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba ananassi jook vaarika",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "jook",
+        "ananassi",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jook": "jook"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -781,7 +3272,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7042957_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoholivaba-vahuvein-freixenet-valge-0-75l/p/7042957",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "750ml",
+      "variety": "freixenet valge",
+      "nameLower": "alkoholivaba vahuvein freixenet valge 0,75l",
+      "brand": "freixenet",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba vahuvein valge",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "valge"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "vahuvein": "vahuvein",
+        "valge": "valge"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -795,7 +3331,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376689_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-vein-caber-sauv-gran-castillo-0-75l/p/1376689",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "caber sauv gran castillo",
+      "nameLower": "alk.vaba vein caber.sauv. gran castillo 0,75l",
+      "brand": "gran castillo",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba caber sauv vein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vein",
+        "caber",
+        "sauv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vein": "vein"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -809,7 +3389,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1368827_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alko-vaba-vein-prestige-mionetto-0-0-0-75l/p/1368827",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alko",
+      "unit": "750ml",
+      "variety": "prestige mionetto",
+      "nameLower": "alko.vaba vein prestige mionetto 0.0% 0,75l",
+      "brand": "mionetto",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "0.0",
+      "descriptors": "alko prestige vaba vein",
+      "descriptorOrder": [
+        "alko",
+        "vaba",
+        "vein",
+        "prestige"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vein": "vein",
+        "prestige": "prestige"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -823,7 +3448,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1366682_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-v-vein-riesling-ruppertsberger-zero-0-75l/p/1366682",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "riesling ruppertsberger zero",
+      "nameLower": "alk.v.vein riesling ruppertsberger zero 0,75l",
+      "brand": "ruppertsberger",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivabavein riesling zero",
+      "descriptorOrder": [
+        "alkoholivabavein",
+        "riesling",
+        "zero"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riesling": "riesling",
+        "zero": "zero"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -837,7 +3506,51 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376702_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoholivaba-vein-chard-gran-castillo-0-75l/p/1376702",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "750ml",
+      "variety": "chard gran castillo",
+      "nameLower": "alkoholivaba vein chard. gran castillo 0,75l",
+      "brand": "gran castillo",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba chard vein",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vein",
+        "chard"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "vein": "vein"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -851,7 +3564,54 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1373652_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alkoholivaba-vahuvein-zonin-cuve-zero-0-75l/p/1373652",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alkoholivaba",
+      "unit": "750ml",
+      "variety": "zonin cuve zero",
+      "nameLower": "alkoholivaba vahuvein zonin cuve zero 0,75l",
+      "brand": "zonin",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba cuve vahuvein zero",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vahuvein",
+        "cuve",
+        "zero"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "alkoholivaba": "alkoholivaba",
+        "vahuvein": "vahuvein",
+        "cuve": "cuve",
+        "zero": "zero"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -865,7 +3625,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1376605_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-vv-pierre-chavin-zero-bdb-0-75l/p/1376605",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "pierre chavin zero bdb",
+      "nameLower": "alk.vaba vv. pierre chavin zero bdb 0,75l",
+      "brand": "pierre chavin",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba bdb vv zero",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "vv",
+        "zero",
+        "bdb"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "zero": "zero",
+        "bdb": "bdb"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -879,7 +3684,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1366752_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-vahujook-oun-oun-kadakas-0-75l/p/1366752",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "öun kadakas",
+      "nameLower": "alk.vaba vahujook öun öun-kadakas 0,75l",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba kadakas karastusjook öun",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "karastusjook",
+        "öun",
+        "kadakas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karastusjook": "vahujook",
+        "öun": "öun"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -893,6 +3743,52 @@
     "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1366746_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/joogid/alkoholivabad-joogid/alkoholivaba-vein-ja-vahuvein/alk-vaba-vahujook-oun-rab--kuusk-0-75l/p/1366746",
-    "ean": null
+    "ean": null,
+    "strictPackaging": true,
+    "alcoholMatching": true,
+    "impliedDescriptors": [
+      "õlu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "alk",
+      "unit": "750ml",
+      "variety": "öun rab kuusk",
+      "nameLower": "alk.vaba vahujook öun rab.-kuusk 0,75l",
+      "brand": "alk",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alkoholivaba karastusjook kuusk rab öun",
+      "descriptorOrder": [
+        "alkoholivaba",
+        "karastusjook",
+        "öun",
+        "rab",
+        "kuusk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karastusjook": "vahujook",
+        "öun": "öun"
+      },
+      "impliedDescriptors": [
+        "õlu"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": true,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

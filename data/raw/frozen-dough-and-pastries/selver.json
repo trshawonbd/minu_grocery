@@ -1,342 +1,6 @@
 [
   {
     "store": "Selver",
-    "name": "Võiroos, EESTI PAGAR, 400 g",
-    "price": 3.65,
-    "regularPrice": 3.65,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/voiroos-eesti-pagar-400-g",
-    "ean": "4740086023031",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086023031.jpg",
-    "storeUnitPrice": 9.13,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Pitsapõhjad, VICI, 320 g",
-    "price": 1.89,
-    "regularPrice": 1.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/pitsapohjad-vici-320-g",
-    "ean": "4740056011280",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056011280.jpg",
-    "storeUnitPrice": 5.91,
-    "brand": "VICI"
-  },
-  {
-    "store": "Selver",
-    "name": "Pikksai küüslaugu võidega, EESTI PAGAR, 175 g",
-    "price": 0.99,
-    "regularPrice": 0.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/pikksai-kuuslaugu-voidega-eesti-pagar-175-g",
-    "ean": "4740086005556",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005556.jpg",
-    "storeUnitPrice": 5.66,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Pikksai maitserohelisega, EESTI PAGAR, 175 g",
-    "price": 1.22,
-    "regularPrice": 1.22,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/pikksai-maitserohelisega-eesti-pagar-175-g",
-    "ean": "4740086005563",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005563.jpg",
-    "storeUnitPrice": 6.97,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Peekoni-munapirukas, EESTI PAGAR, 390 g",
-    "price": 4.06,
-    "regularPrice": 4.06,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/peekoni-munapirukas-eesti-pagar-390-g",
-    "ean": "4740086008250",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008250.jpg",
-    "storeUnitPrice": 10.41,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Viineripirukas sinepi-kurgitäidisega, EESTI PAGAR, 390 g",
-    "price": 4.06,
-    "regularPrice": 4.06,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/viineripirukas-sinepi-kurgitaidisega-eesti-pagar-390-g",
-    "ean": "4740086008700",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008700.jpg",
-    "storeUnitPrice": 10.41,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Vaniljesaiake, EESTI PAGAR, 400 g",
-    "price": 2.94,
-    "regularPrice": 2.94,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/vaniljesaiake-eesti-pagar-400-g",
-    "ean": "4740086009684",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086009684.jpg",
-    "storeUnitPrice": 7.35,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Pitsarull, EESTI PAGAR, 400 g",
-    "price": 3.75,
-    "regularPrice": 3.75,
-    "cardPrice": 2.79,
-    "cardName": "Partner",
-    "currency": "EUR",
-    "url": "https://www.selver.ee/pitsarull-eesti-pagar-400-g",
-    "ean": "4740086017412",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086017412.jpg",
-    "storeUnitPrice": 9.38,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Pitsataigen, EESTI PAGAR, 600 g",
-    "price": 1.79,
-    "regularPrice": 1.79,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/pitsataigen-eesti-pagar-600-g",
-    "ean": "4740086019164",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086019164.jpg",
-    "storeUnitPrice": 2.98,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Mooni-martsipanirull, EESTI PAGAR, 320 g",
-    "price": 3.09,
-    "regularPrice": 3.09,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/mooni-martsipanirull-eesti-pagar-320-g",
-    "ean": "4740086020030",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020030.jpg",
-    "storeUnitPrice": 9.66,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Ciabatta hele, EESTI PAGAR, 300 g",
-    "price": 1.37,
-    "regularPrice": 1.37,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/ciabatta-hele-eesti-pagar-300-g",
-    "ean": "4740086020795",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020795.jpg",
-    "storeUnitPrice": 4.57,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Ciabatta tume, EESTI PAGAR, 300 g",
-    "price": 1.37,
-    "regularPrice": 1.37,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/ciabatta-tume-eesti-pagar-300-g",
-    "ean": "4740086020818",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020818.jpg",
-    "storeUnitPrice": 4.57,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Kaneelirull kardemoniga 15 x 80g, EESTI PAGAR, 1,2 kg",
-    "price": 7.29,
-    "regularPrice": 7.29,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kaneelirull-kardemoniga-15-x-80g-eesti-pagar-1-2-kg",
-    "ean": "4740086021372",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086021372.jpg",
-    "storeUnitPrice": 6.08,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Šokolaadisaiake võiga, EESTI PAGAR, 240 g",
-    "price": 2.63,
-    "regularPrice": 2.63,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/sokolaadisaiake-voiga-eesti-pagar-240-g",
-    "ean": "4740086022379",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086022379.jpg",
-    "storeUnitPrice": 10.96,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Daim mandlikook šokolaadiga, ALMONDY, 400 g",
-    "price": 10.49,
-    "regularPrice": 10.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/daim-mandlikook-sokolaadiga-almondy-400-g",
-    "ean": "7312930000382",
-    "image": "https://www.selver.ee/img/800/800/resize/7/3/7312930000382.jpg",
-    "storeUnitPrice": 26.23,
-    "brand": "ALMONDY"
-  },
-  {
-    "store": "Selver",
-    "name": "Võiga pärmi-lehttaigen, EESTI PAGAR, 400 g",
-    "price": 2.59,
-    "regularPrice": 2.59,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/voiga-parmi-lehttaigen-eesti-pagar-400-g",
-    "ean": "4740086005976",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005976.jpg",
-    "storeUnitPrice": 6.48,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Magus muretainas, EESTI PAGAR, 500 g",
-    "price": 2.53,
-    "regularPrice": 2.53,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/magus-muretainas-eesti-pagar-500-g",
-    "ean": "4740086010321",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086010321.jpg",
-    "storeUnitPrice": 5.06,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Kaneelisaiake, EESTI PAGAR, 320 g",
-    "price": 2.89,
-    "regularPrice": 2.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kaneelisaiake-eesti-pagar-320-g",
-    "ean": "4740086008533",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008533.jpg",
-    "storeUnitPrice": 9.03,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Taigen Gyoza, 38 tk, HAPPY BELLY, 300 g",
-    "price": 2.84,
-    "regularPrice": 2.84,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/taigen-gyoza-38-tk-happy-belly-300-g",
-    "ean": "8888003071218",
-    "image": "https://www.selver.ee/img/800/800/resize/8/8/8888003071218.jpg",
-    "storeUnitPrice": 9.47,
-    "brand": "HAPPY BELLY"
-  },
-  {
-    "store": "Selver",
-    "name": "Viineripirukas, EESTI PAGAR, 1,2 kg",
-    "price": 8.83,
-    "regularPrice": 8.83,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/viineripirukas-eesti-pagar-1-2-kg",
-    "ean": "4740086013568",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086013568.jpg",
-    "storeUnitPrice": 7.36,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Kardemonisaiakesed, FINDUS, 420 g",
-    "price": 5.17,
-    "regularPrice": 5.17,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kardemonisaiakesed-findus-420-g",
-    "ean": "7310500176864",
-    "image": "https://www.selver.ee/img/800/800/resize/7/3/7310500176864.jpg",
-    "storeUnitPrice": 12.31,
-    "brand": "FINDUS"
-  },
-  {
-    "store": "Selver",
-    "name": "Kaneelisaiakesed, FINDUS, 700 g",
-    "price": 8.02,
-    "regularPrice": 8.02,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kaneelisaiakesed-findus-700-g",
-    "ean": "7310500176833",
-    "image": "https://www.selver.ee/img/800/800/resize/7/3/7310500176833.jpg",
-    "storeUnitPrice": 11.46,
-    "brand": "FINDUS"
-  },
-  {
-    "store": "Selver",
-    "name": "Spinati-juustupirukas, EESTI PAGAR, 360 g",
-    "price": 3.34,
-    "regularPrice": 3.34,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/spinati-juustupirukas-eesti-pagar-360-g",
-    "ean": "4740086024656",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086024656.jpg",
-    "storeUnitPrice": 9.28,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Mini šokolaadisaiake võiga 30 x 30g, EESTI PAGAR, 900 g",
-    "price": 8.79,
-    "regularPrice": 8.79,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/mini-sokolaadisaiake-voiga-30-x-30g-eesti-pagar-900-g",
-    "ean": "4740086022393",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086022393.jpg",
-    "storeUnitPrice": 9.77,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
     "name": "Croissant võiga, EESTI PAGAR, 360 g",
     "price": 3.79,
     "regularPrice": 3.79,
@@ -347,7 +11,52 @@
     "ean": "4740086011823",
     "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086011823.jpg",
     "storeUnitPrice": 10.53,
-    "brand": "EESTI PAGAR"
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086011823",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "croissant",
+      "unit": "360g",
+      "variety": "pagar",
+      "nameLower": "croissant võiga, eesti pagar, 360 g",
+      "brand": "eesti pagar",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "võiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "croissant võiga",
+      "descriptorOrder": [
+        "croissant",
+        "võiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "croissant": "croissant",
+        "võiga": "võiga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -361,7 +70,50 @@
     "ean": "4740086011427",
     "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086011427.jpg",
     "storeUnitPrice": 4.04,
-    "brand": "SELVER"
+    "brand": "SELVER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086011427",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lehttainas",
+      "unit": "500g",
+      "variety": "selver",
+      "nameLower": "lehttainas, selver, 500 g",
+      "brand": "selver",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lehttainas",
+      "descriptorOrder": [
+        "lehttainas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lehttainas": "lehttainas",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -375,7 +127,50 @@
     "ean": "4740086011526",
     "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086011526.jpg",
     "storeUnitPrice": 4.3,
-    "brand": "SELVER"
+    "brand": "SELVER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086011526",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pärmi",
+      "unit": "500g",
+      "variety": "selver",
+      "nameLower": "pärmi-lehttaigen, selver, 500 g",
+      "brand": "selver",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lehttaigen pärmi",
+      "descriptorOrder": [
+        "pärmi",
+        "lehttaigen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -389,7 +184,50 @@
     "ean": "4740086013384",
     "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086013384.jpg",
     "storeUnitPrice": 10.53,
-    "brand": "EESTI PAGAR"
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086013384",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "viineripirukas",
+      "unit": "360g",
+      "variety": "pagar",
+      "nameLower": "viineripirukas, eesti pagar, 360 g",
+      "brand": "eesti pagar",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "viineripirukas",
+      "descriptorOrder": [
+        "viineripirukas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "viineripirukas": "viineripirukas",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -403,7 +241,50 @@
     "ean": "4740086013377",
     "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086013377.jpg",
     "storeUnitPrice": 11.36,
-    "brand": "EESTI PAGAR"
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086013377",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "singi",
+      "unit": "360g",
+      "variety": "pagar",
+      "nameLower": "singi-juustupirukas, eesti pagar, 360 g",
+      "brand": "eesti pagar",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustupirukas singi",
+      "descriptorOrder": [
+        "singi",
+        "juustupirukas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -417,133 +298,50 @@
     "ean": "4740086014756",
     "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086014756.jpg",
     "storeUnitPrice": 7.49,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Juusturull, EESTI PAGAR, 400 g",
-    "price": 3.85,
-    "regularPrice": 3.85,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/juusturull-eesti-pagar-400-g",
-    "ean": "4740086014978",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086014978.jpg",
-    "storeUnitPrice": 9.63,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Suitsukanapirukas murulauguga, EESTI PAGAR, 360 g",
-    "price": 4.09,
-    "regularPrice": 4.09,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/suitsukanapirukas-murulauguga-eesti-pagar-360-g",
-    "ean": "4740086009707",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086009707.jpg",
-    "storeUnitPrice": 11.36,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Pärmi-lehttaigen (rullis), HÄRMAVILI, 500 g",
-    "price": 3.29,
-    "regularPrice": 3.29,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/parmi-lehttaigen-rullis-harmavili-500-g",
-    "ean": "4742296000048",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742296000048.jpg",
-    "storeUnitPrice": 6.58,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Lihapirukas, EESTI PAGAR, 400 g",
-    "price": 3.09,
-    "regularPrice": 3.09,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/lihapirukas-eesti-pagar-400-g",
-    "ean": "4740086006751",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086006751.jpg",
-    "storeUnitPrice": 7.73,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Kodune pärmitaigen 2x300g, HÄRMAVILI, 600 g",
-    "price": 3.75,
-    "regularPrice": 3.75,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kodune-parmitaigen-2x300g-harmavili-600-g",
-    "ean": "4740188012865",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012865.jpg",
-    "storeUnitPrice": 6.25,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Maasika-toorjuustusaiake, EESTI PAGAR, 425 g",
-    "price": 4.36,
-    "regularPrice": 4.36,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/maasika-toorjuustusaiake-eesti-pagar-425-g",
-    "ean": "4740086028302",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086028302.jpg",
-    "storeUnitPrice": 10.26,
-    "brand": "EESTI PAGAR"
-  },
-  {
-    "store": "Selver",
-    "name": "Kuklid 10 tk, FIRST PRICE, 600 g",
-    "price": 2.89,
-    "regularPrice": 2.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kuklid-10-tk-first-price-600-g",
-    "ean": "7311041086315",
-    "image": "https://www.selver.ee/img/800/800/resize/7/3/7311041086315.jpg",
-    "storeUnitPrice": 4.82,
-    "brand": "FIRST PRICE"
-  },
-  {
-    "store": "Selver",
-    "name": "Mini-croissant võiga XL, SELVER, 600 g",
-    "price": 4.77,
-    "regularPrice": 4.77,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/mini-croissant-voiga-xl-selver-600-g",
-    "ean": "4740086025233",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086025233.jpg",
-    "storeUnitPrice": 7.95,
-    "brand": "SELVER"
-  },
-  {
-    "store": "Selver",
-    "name": "Kodune pärmi-lehttaigen võiga, HÄRMAVILI, 400g",
-    "price": 3.69,
-    "regularPrice": 3.69,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kodune-parmi-lehttaigen-voiga-harmavili-400g",
-    "ean": "4740188012872",
-    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012872.jpg",
-    "storeUnitPrice": 9.23,
-    "brand": "HÄRMAVILI"
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086014756",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneelisaiake",
+      "unit": "800g",
+      "variety": "pagar",
+      "nameLower": "kaneelisaiake, eesti pagar, 800 g",
+      "brand": "eesti pagar",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneelisaiake",
+      "descriptorOrder": [
+        "kaneelisaiake"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneelisaiake": "kaneelisaiake",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -557,49 +355,924 @@
     "ean": "5201063058211",
     "image": "https://www.selver.ee/img/800/800/resize/5/2/5201063058204.jpg",
     "storeUnitPrice": 17.04,
-    "brand": "KANAKI"
+    "brand": "KANAKI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "5201063058211",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "filotaigen",
+      "unit": "250g",
+      "variety": "kanaki",
+      "nameLower": "filotaigen, kanaki, 250 g",
+      "brand": "kanaki",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "filotaigen",
+      "descriptorOrder": [
+        "filotaigen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "filotaigen": "filotaigen",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
-    "name": "Churro (silmusekujuline), FARM FRITES, 500 g",
-    "price": 3.49,
-    "regularPrice": 3.49,
-    "cardPrice": 2.69,
+    "name": "Juusturull, EESTI PAGAR, 400 g",
+    "price": 3.85,
+    "regularPrice": 3.85,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/juusturull-eesti-pagar-400-g",
+    "ean": "4740086014978",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086014978.jpg",
+    "storeUnitPrice": 9.63,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086014978",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "juusturull",
+      "unit": "400g",
+      "variety": "pagar",
+      "nameLower": "juusturull, eesti pagar, 400 g",
+      "brand": "eesti pagar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juusturull",
+      "descriptorOrder": [
+        "juusturull"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juusturull": "juusturull",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Suitsukanapirukas murulauguga, EESTI PAGAR, 360 g",
+    "price": 4.09,
+    "regularPrice": 4.09,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/suitsukanapirukas-murulauguga-eesti-pagar-360-g",
+    "ean": "4740086009707",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086009707.jpg",
+    "storeUnitPrice": 11.36,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086009707",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsukanapirukas",
+      "unit": "360g",
+      "variety": "pagar",
+      "nameLower": "suitsukanapirukas murulauguga, eesti pagar, 360 g",
+      "brand": "eesti pagar",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "murulauguga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "murulauguga suitsukanapirukas",
+      "descriptorOrder": [
+        "suitsukanapirukas",
+        "murulauguga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsukanapirukas": "suitsukanapirukas",
+        "murulauguga": "murulauguga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsapõhjad, VICI, 320 g",
+    "price": 1.89,
+    "regularPrice": 1.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/pitsapohjad-vici-320-g",
+    "ean": "4740056011280",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056011280.jpg",
+    "storeUnitPrice": 5.91,
+    "brand": "VICI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740056011280",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pitsapõhjad",
+      "unit": "320g",
+      "variety": "vici",
+      "nameLower": "pitsapõhjad, vici, 320 g",
+      "brand": "vici",
+      "size": "320g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsapõhjad",
+      "descriptorOrder": [
+        "pitsapõhjad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsapõhjad": "pitsapõhjad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Pikksai küüslaugu võidega, EESTI PAGAR, 175 g",
+    "price": 0.99,
+    "regularPrice": 0.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/pikksai-kuuslaugu-voidega-eesti-pagar-175-g",
+    "ean": "4740086005556",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005556.jpg",
+    "storeUnitPrice": 5.66,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086005556",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikksai",
+      "unit": "175g",
+      "variety": "pagar",
+      "nameLower": "pikksai küüslaugu võidega, eesti pagar, 175 g",
+      "brand": "eesti pagar",
+      "size": "175g",
+      "variant": null,
+      "qualifiers": "võidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küüslaugu pikksai võidega",
+      "descriptorOrder": [
+        "pikksai",
+        "küüslaugu",
+        "võidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikksai": "pikksai",
+        "küüslaugu": "küüslaugu",
+        "võidega": "võidega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Pikksai maitserohelisega, EESTI PAGAR, 175 g",
+    "price": 1.22,
+    "regularPrice": 1.22,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/pikksai-maitserohelisega-eesti-pagar-175-g",
+    "ean": "4740086005563",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005563.jpg",
+    "storeUnitPrice": 6.97,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086005563",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikksai",
+      "unit": "175g",
+      "variety": "pagar",
+      "nameLower": "pikksai maitserohelisega, eesti pagar, 175 g",
+      "brand": "eesti pagar",
+      "size": "175g",
+      "variant": null,
+      "qualifiers": "maitserohelisega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maitserohelisega pikksai",
+      "descriptorOrder": [
+        "pikksai",
+        "maitserohelisega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikksai": "pikksai",
+        "maitserohelisega": "maitserohelisega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Peekoni-munapirukas, EESTI PAGAR, 390 g",
+    "price": 4.06,
+    "regularPrice": 4.06,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/peekoni-munapirukas-eesti-pagar-390-g",
+    "ean": "4740086008250",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008250.jpg",
+    "storeUnitPrice": 10.41,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086008250",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "peekoni",
+      "unit": "390g",
+      "variety": "pagar",
+      "nameLower": "peekoni-munapirukas, eesti pagar, 390 g",
+      "brand": "eesti pagar",
+      "size": "390g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "munapirukas peekoni",
+      "descriptorOrder": [
+        "peekoni",
+        "munapirukas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Viineripirukas sinepi-kurgitäidisega, EESTI PAGAR, 390 g",
+    "price": 4.06,
+    "regularPrice": 4.06,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/viineripirukas-sinepi-kurgitaidisega-eesti-pagar-390-g",
+    "ean": "4740086008700",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008700.jpg",
+    "storeUnitPrice": 10.41,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086008700",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "viineripirukas",
+      "unit": "390g",
+      "variety": "pagar",
+      "nameLower": "viineripirukas sinepi-kurgitäidisega, eesti pagar, 390 g",
+      "brand": "eesti pagar",
+      "size": "390g",
+      "variant": null,
+      "qualifiers": "kurgitäidisega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kurgitäidisega sinepi viineripirukas",
+      "descriptorOrder": [
+        "viineripirukas",
+        "sinepi",
+        "kurgitäidisega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "viineripirukas": "viineripirukas",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Vaniljesaiake, EESTI PAGAR, 400 g",
+    "price": 2.94,
+    "regularPrice": 2.94,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/vaniljesaiake-eesti-pagar-400-g",
+    "ean": "4740086009684",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086009684.jpg",
+    "storeUnitPrice": 7.35,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086009684",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vaniljesaiake",
+      "unit": "400g",
+      "variety": "pagar",
+      "nameLower": "vaniljesaiake, eesti pagar, 400 g",
+      "brand": "eesti pagar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "vaniljesaiake",
+      "descriptorOrder": [
+        "vaniljesaiake"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaniljesaiake": "vaniljesaiake",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Pitsarull, EESTI PAGAR, 400 g",
+    "price": 3.75,
+    "regularPrice": 3.75,
+    "cardPrice": 2.79,
     "cardName": "Partner",
     "currency": "EUR",
-    "url": "https://www.selver.ee/churro-silmusekujuline-farm-frites-500-g",
-    "ean": "8710679030193",
-    "image": "https://www.selver.ee/img/800/800/resize/8/7/8710679030193.jpg",
-    "storeUnitPrice": 6.98,
-    "brand": "FARM FRITES"
+    "url": "https://www.selver.ee/pitsarull-eesti-pagar-400-g",
+    "ean": "4740086017412",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086017412.jpg",
+    "storeUnitPrice": 9.38,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086017412",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pitsarull",
+      "unit": "400g",
+      "variety": "pagar",
+      "nameLower": "pitsarull, eesti pagar, 400 g",
+      "brand": "eesti pagar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsarull",
+      "descriptorOrder": [
+        "pitsarull"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsarull": "pitsarull",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
-    "name": "HULGI Pikksai küüslauguvõidega 5tk, EESTI PAGAR, 5x175g",
-    "price": 6.2,
-    "regularPrice": 6.2,
+    "name": "Pitsataigen, EESTI PAGAR, 600 g",
+    "price": 1.79,
+    "regularPrice": 1.79,
     "cardPrice": null,
     "cardName": null,
     "currency": "EUR",
-    "url": "https://www.selver.ee/hulgi-pikksai-kuuslauguvoidega-5tk-eesti-pagar-5x175g",
-    "ean": "0212000002483",
-    "image": "https://www.selver.ee/img/800/800/resize/0/2/0212000002483.jpg",
-    "storeUnitPrice": 5.14,
-    "brand": "EESTI PAGAR"
+    "url": "https://www.selver.ee/pitsataigen-eesti-pagar-600-g",
+    "ean": "4740086019164",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086019164.jpg",
+    "storeUnitPrice": 2.98,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086019164",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pitsataigen",
+      "unit": "600g",
+      "variety": "pagar",
+      "nameLower": "pitsataigen, eesti pagar, 600 g",
+      "brand": "eesti pagar",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsataigen",
+      "descriptorOrder": [
+        "pitsataigen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsataigen": "pitsataigen",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
-    "name": "HULGI Dallase saiake 3tk, EESTI PAGAR, 3 x 480g",
-    "price": 13.47,
-    "regularPrice": 13.47,
+    "name": "Mooni-martsipanirull, EESTI PAGAR, 320 g",
+    "price": 3.09,
+    "regularPrice": 3.09,
     "cardPrice": null,
     "cardName": null,
     "currency": "EUR",
-    "url": "https://www.selver.ee/hulgi-dallase-saiake-3tk-eesti-pagar-3-x-480g",
-    "ean": "0212000002490",
-    "image": "https://www.selver.ee/img/800/800/resize/0/2/0212000002490.jpg",
+    "url": "https://www.selver.ee/mooni-martsipanirull-eesti-pagar-320-g",
+    "ean": "4740086020030",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020030.jpg",
+    "storeUnitPrice": 9.66,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086020030",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mooni",
+      "unit": "320g",
+      "variety": "pagar",
+      "nameLower": "mooni-martsipanirull, eesti pagar, 320 g",
+      "brand": "eesti pagar",
+      "size": "320g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "martsipanirull mooni",
+      "descriptorOrder": [
+        "mooni",
+        "martsipanirull"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Ciabatta hele, EESTI PAGAR, 300 g",
+    "price": 1.37,
+    "regularPrice": 1.37,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/ciabatta-hele-eesti-pagar-300-g",
+    "ean": "4740086020795",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020795.jpg",
+    "storeUnitPrice": 4.57,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086020795",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ciabatta",
+      "unit": "300g",
+      "variety": "pagar hele",
+      "nameLower": "ciabatta hele, eesti pagar, 300 g",
+      "brand": "eesti pagar",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "hele",
+      "fatPercent": null,
+      "descriptors": "ciabatta hele",
+      "descriptorOrder": [
+        "ciabatta",
+        "hele"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ciabatta": "ciabatta",
+        "hele": "hele",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Ciabatta tume, EESTI PAGAR, 300 g",
+    "price": 1.37,
+    "regularPrice": 1.37,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/ciabatta-tume-eesti-pagar-300-g",
+    "ean": "4740086020818",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020818.jpg",
+    "storeUnitPrice": 4.57,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086020818",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ciabatta",
+      "unit": "300g",
+      "variety": "pagar tume",
+      "nameLower": "ciabatta tume, eesti pagar, 300 g",
+      "brand": "eesti pagar",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "tume",
+      "fatPercent": null,
+      "descriptors": "ciabatta tume",
+      "descriptorOrder": [
+        "ciabatta",
+        "tume"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ciabatta": "ciabatta",
+        "tume": "tume",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kodune pärmi-lehttaigen võiga, HÄRMAVILI, 400g",
+    "price": 3.69,
+    "regularPrice": 3.69,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kodune-parmi-lehttaigen-voiga-harmavili-400g",
+    "ean": "4740188012872",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012872.jpg",
+    "storeUnitPrice": 9.23,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740188012872",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kodune",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "kodune pärmi-lehttaigen võiga, härmavili, 400g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "võiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kodune lehttaigen pärmi võiga",
+      "descriptorOrder": [
+        "kodune",
+        "pärmi",
+        "lehttaigen",
+        "võiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "võiga": "võiga"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kodune pärmitaigen 2x300g, HÄRMAVILI, 600 g",
+    "price": 3.75,
+    "regularPrice": 3.75,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kodune-parmitaigen-2x300g-harmavili-600-g",
+    "ean": "4740188012865",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012865.jpg",
     "storeUnitPrice": 6.25,
-    "brand": "EESTI PAGAR"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740188012865",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kodune",
+      "unit": "2x300g",
+      "variety": "härmavili",
+      "nameLower": "kodune pärmitaigen 2x300g, härmavili, 600 g",
+      "brand": "härmavili",
+      "size": "2x300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kodune pärmitaigen",
+      "descriptorOrder": [
+        "kodune",
+        "pärmitaigen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "pärmitaigen": "pärmitaigen",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -613,7 +1286,111 @@
     "ean": "4771033002113",
     "image": "https://www.selver.ee/img/800/800/resize/4/7/4771033002113.jpg",
     "storeUnitPrice": 5.88,
-    "brand": "MANTINGA"
+    "brand": "MANTINGA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4771033002113",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "prantsuse",
+      "unit": "240g",
+      "variety": "mantinga",
+      "nameLower": "prantsuse hot-dogi saiake 4tk, mantinga, 240 g",
+      "brand": "mantinga",
+      "size": "240g",
+      "variant": null,
+      "qualifiers": "mantinga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "dogi hot prantsuse saiake",
+      "descriptorOrder": [
+        "prantsuse",
+        "hot",
+        "dogi",
+        "saiake"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "prantsuse": "prantsuse",
+        "saiake": "saiake",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "4",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Maasika-toorjuustusaiake, EESTI PAGAR, 425 g",
+    "price": 4.36,
+    "regularPrice": 4.36,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/maasika-toorjuustusaiake-eesti-pagar-425-g",
+    "ean": "4740086028302",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086028302.jpg",
+    "storeUnitPrice": 10.26,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086028302",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasika",
+      "unit": "425g",
+      "variety": "pagar",
+      "nameLower": "maasika-toorjuustusaiake, eesti pagar, 425 g",
+      "brand": "eesti pagar",
+      "size": "425g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika toorjuustusaiake",
+      "descriptorOrder": [
+        "maasika",
+        "toorjuustusaiake"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -627,6 +1404,1222 @@
     "ean": "5701410408053",
     "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410408053.jpg",
     "storeUnitPrice": 3.85,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "5701410408053",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "minibaguetid",
+      "unit": "750g",
+      "variety": "first price",
+      "nameLower": "minibaguetid 12 tk, first price, 750 g",
+      "brand": "first price",
+      "size": "750g",
+      "variant": "12",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "minibaguetid",
+      "descriptorOrder": [
+        "minibaguetid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "minibaguetid": "minibaguetid",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "12",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kuklid 10 tk, FIRST PRICE, 600 g",
+    "price": 2.89,
+    "regularPrice": 2.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kuklid-10-tk-first-price-600-g",
+    "ean": "7311041086315",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7311041086315.jpg",
+    "storeUnitPrice": 4.82,
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "7311041086315",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kuklid",
+      "unit": "600g",
+      "variety": "first price",
+      "nameLower": "kuklid 10 tk, first price, 600 g",
+      "brand": "first price",
+      "size": "600g",
+      "variant": "10",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuklid",
+      "descriptorOrder": [
+        "kuklid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kuklid": "kuklid",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "10",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kaneelirull kardemoniga 15 x 80g, EESTI PAGAR, 1,2 kg",
+    "price": 7.29,
+    "regularPrice": 7.29,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kaneelirull-kardemoniga-15-x-80g-eesti-pagar-1-2-kg",
+    "ean": "4740086021372",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086021372.jpg",
+    "storeUnitPrice": 6.08,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086021372",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneelirull",
+      "unit": "15x80g",
+      "variety": "pagar",
+      "nameLower": "kaneelirull kardemoniga 15 x 80g, eesti pagar, 1,2 kg",
+      "brand": "eesti pagar",
+      "size": "15x80g",
+      "variant": null,
+      "qualifiers": "kardemoniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneelirull kardemoniga",
+      "descriptorOrder": [
+        "kaneelirull",
+        "kardemoniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneelirull": "kaneelirull",
+        "kardemoniga": "kardemoniga",
+        "x": "x"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "15",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Šokolaadisaiake võiga, EESTI PAGAR, 240 g",
+    "price": 2.63,
+    "regularPrice": 2.63,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/sokolaadisaiake-voiga-eesti-pagar-240-g",
+    "ean": "4740086022379",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086022379.jpg",
+    "storeUnitPrice": 10.96,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086022379",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "šokolaadisaiake",
+      "unit": "240g",
+      "variety": "pagar",
+      "nameLower": "šokolaadisaiake võiga, eesti pagar, 240 g",
+      "brand": "eesti pagar",
+      "size": "240g",
+      "variant": null,
+      "qualifiers": "võiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "võiga šokolaadisaiake",
+      "descriptorOrder": [
+        "šokolaadisaiake",
+        "võiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "šokolaadisaiake": "šokolaadisaiake",
+        "võiga": "võiga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Võiroos, EESTI PAGAR, 400 g",
+    "price": 3.65,
+    "regularPrice": 3.65,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/voiroos-eesti-pagar-400-g",
+    "ean": "4740086023031",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086023031.jpg",
+    "storeUnitPrice": 9.13,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086023031",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "võiroos",
+      "unit": "400g",
+      "variety": "pagar",
+      "nameLower": "võiroos, eesti pagar, 400 g",
+      "brand": "eesti pagar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "võiroos",
+      "descriptorOrder": [
+        "võiroos"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "võiroos": "võiroos",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Viineripirukas, EESTI PAGAR, 1,2 kg",
+    "price": 8.83,
+    "regularPrice": 8.83,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/viineripirukas-eesti-pagar-1-2-kg",
+    "ean": "4740086013568",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086013568.jpg",
+    "storeUnitPrice": 7.36,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086013568",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "viineripirukas",
+      "unit": "1200g",
+      "variety": "pagar",
+      "nameLower": "viineripirukas, eesti pagar, 1,2 kg",
+      "brand": "eesti pagar",
+      "size": "1200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "viineripirukas",
+      "descriptorOrder": [
+        "viineripirukas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "viineripirukas": "viineripirukas"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kardemonisaiakesed, FINDUS, 420 g",
+    "price": 5.17,
+    "regularPrice": 5.17,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kardemonisaiakesed-findus-420-g",
+    "ean": "7310500176864",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7310500176864.jpg",
+    "storeUnitPrice": 12.31,
+    "brand": "FINDUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "7310500176864",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kardemonisaiakesed",
+      "unit": "420g",
+      "variety": "findus",
+      "nameLower": "kardemonisaiakesed, findus, 420 g",
+      "brand": "findus",
+      "size": "420g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kardemonisaiakesed",
+      "descriptorOrder": [
+        "kardemonisaiakesed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kardemonisaiakesed": "kardemonisaiakesed",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kaneelisaiakesed, FINDUS, 700 g",
+    "price": 8.02,
+    "regularPrice": 8.02,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kaneelisaiakesed-findus-700-g",
+    "ean": "7310500176833",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7310500176833.jpg",
+    "storeUnitPrice": 11.46,
+    "brand": "FINDUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "7310500176833",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneelisaiakesed",
+      "unit": "700g",
+      "variety": "findus",
+      "nameLower": "kaneelisaiakesed, findus, 700 g",
+      "brand": "findus",
+      "size": "700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneelisaiakesed",
+      "descriptorOrder": [
+        "kaneelisaiakesed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneelisaiakesed": "kaneelisaiakesed",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Spinati-juustupirukas, EESTI PAGAR, 360 g",
+    "price": 3.34,
+    "regularPrice": 3.34,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/spinati-juustupirukas-eesti-pagar-360-g",
+    "ean": "4740086024656",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086024656.jpg",
+    "storeUnitPrice": 9.28,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086024656",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "spinati",
+      "unit": "360g",
+      "variety": "pagar",
+      "nameLower": "spinati-juustupirukas, eesti pagar, 360 g",
+      "brand": "eesti pagar",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustupirukas spinati",
+      "descriptorOrder": [
+        "spinati",
+        "juustupirukas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Mini-croissant võiga XL, SELVER, 600 g",
+    "price": 4.77,
+    "regularPrice": 4.77,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/mini-croissant-voiga-xl-selver-600-g",
+    "ean": "4740086025233",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086025233.jpg",
+    "storeUnitPrice": 7.95,
+    "brand": "SELVER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086025233",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mini",
+      "unit": "600g",
+      "variety": "xl selver",
+      "nameLower": "mini-croissant võiga xl, selver, 600 g",
+      "brand": "selver",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "võiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "croissant mini võiga xl",
+      "descriptorOrder": [
+        "mini",
+        "croissant",
+        "võiga",
+        "xl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "võiga": "võiga",
+        "xl": "xl",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Mini šokolaadisaiake võiga 30 x 30g, EESTI PAGAR, 900 g",
+    "price": 8.79,
+    "regularPrice": 8.79,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/mini-sokolaadisaiake-voiga-30-x-30g-eesti-pagar-900-g",
+    "ean": "4740086022393",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086022393.jpg",
+    "storeUnitPrice": 9.77,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086022393",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mini",
+      "unit": "30x30g",
+      "variety": "pagar",
+      "nameLower": "mini šokolaadisaiake võiga 30 x 30g, eesti pagar, 900 g",
+      "brand": "eesti pagar",
+      "size": "30x30g",
+      "variant": null,
+      "qualifiers": "võiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mini võiga šokolaadisaiake",
+      "descriptorOrder": [
+        "mini",
+        "šokolaadisaiake",
+        "võiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mini": "mini",
+        "šokolaadisaiake": "šokolaadisaiake",
+        "võiga": "võiga",
+        "x": "x",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "30",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Daim mandlikook šokolaadiga, ALMONDY, 400 g",
+    "price": 10.49,
+    "regularPrice": 10.49,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/daim-mandlikook-sokolaadiga-almondy-400-g",
+    "ean": "7312930000382",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7312930000382.jpg",
+    "storeUnitPrice": 26.23,
+    "brand": "ALMONDY",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "7312930000382",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "daim",
+      "unit": "400g",
+      "variety": "almondy",
+      "nameLower": "daim mandlikook šokolaadiga, almondy, 400 g",
+      "brand": "almondy",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "šokolaadiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "daim mandlikook šokolaadiga",
+      "descriptorOrder": [
+        "daim",
+        "mandlikook",
+        "šokolaadiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "daim": "daim",
+        "mandlikook": "mandlikook",
+        "šokolaadiga": "šokolaadiga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Võiga pärmi-lehttaigen, EESTI PAGAR, 400 g",
+    "price": 2.59,
+    "regularPrice": 2.59,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/voiga-parmi-lehttaigen-eesti-pagar-400-g",
+    "ean": "4740086005976",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005976.jpg",
+    "storeUnitPrice": 6.48,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086005976",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "võiga",
+      "unit": "400g",
+      "variety": "pagar",
+      "nameLower": "võiga pärmi-lehttaigen, eesti pagar, 400 g",
+      "brand": "eesti pagar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "võiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lehttaigen pärmi võiga",
+      "descriptorOrder": [
+        "võiga",
+        "pärmi",
+        "lehttaigen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "võiga": "võiga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Magus muretainas, EESTI PAGAR, 500 g",
+    "price": 2.53,
+    "regularPrice": 2.53,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/magus-muretainas-eesti-pagar-500-g",
+    "ean": "4740086010321",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086010321.jpg",
+    "storeUnitPrice": 5.06,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086010321",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "magus",
+      "unit": "500g",
+      "variety": "pagar",
+      "nameLower": "magus muretainas, eesti pagar, 500 g",
+      "brand": "eesti pagar",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "magus muretainas",
+      "descriptorOrder": [
+        "magus",
+        "muretainas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "magus": "magus",
+        "muretainas": "muretainas",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kaneelisaiake, EESTI PAGAR, 320 g",
+    "price": 2.89,
+    "regularPrice": 2.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kaneelisaiake-eesti-pagar-320-g",
+    "ean": "4740086008533",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008533.jpg",
+    "storeUnitPrice": 9.03,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086008533",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kaneelisaiake",
+      "unit": "320g",
+      "variety": "pagar",
+      "nameLower": "kaneelisaiake, eesti pagar, 320 g",
+      "brand": "eesti pagar",
+      "size": "320g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneelisaiake",
+      "descriptorOrder": [
+        "kaneelisaiake"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaneelisaiake": "kaneelisaiake",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Pärmi-lehttaigen (rullis), HÄRMAVILI, 500 g",
+    "price": 3.29,
+    "regularPrice": 3.29,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/parmi-lehttaigen-rullis-harmavili-500-g",
+    "ean": "4742296000048",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742296000048.jpg",
+    "storeUnitPrice": 6.58,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4742296000048",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pärmi",
+      "unit": "500g",
+      "variety": "härmavili",
+      "nameLower": "pärmi-lehttaigen (rullis), härmavili, 500 g",
+      "brand": "härmavili",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lehttaigen pärmi rullis",
+      "descriptorOrder": [
+        "pärmi",
+        "lehttaigen",
+        "rullis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rullis": "rullis",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Lihapirukas, EESTI PAGAR, 400 g",
+    "price": 3.09,
+    "regularPrice": 3.09,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/lihapirukas-eesti-pagar-400-g",
+    "ean": "4740086006751",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086006751.jpg",
+    "storeUnitPrice": 7.73,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "4740086006751",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lihapirukas",
+      "unit": "400g",
+      "variety": "pagar",
+      "nameLower": "lihapirukas, eesti pagar, 400 g",
+      "brand": "eesti pagar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lihapirukas",
+      "descriptorOrder": [
+        "lihapirukas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lihapirukas": "lihapirukas",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "HULGI Pikksai küüslauguvõidega 5tk, EESTI PAGAR, 5x175g",
+    "price": 6.2,
+    "regularPrice": 6.2,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/hulgi-pikksai-kuuslauguvoidega-5tk-eesti-pagar-5x175g",
+    "ean": "0212000002483",
+    "image": "https://www.selver.ee/img/800/800/resize/0/2/0212000002483.jpg",
+    "storeUnitPrice": 5.14,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "0212000002483",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hulgi",
+      "unit": "5x175g",
+      "variety": "pikksai pagar",
+      "nameLower": "hulgi pikksai küüslauguvõidega 5tk, eesti pagar, 5x175g",
+      "brand": "eesti pagar",
+      "size": "5x175g",
+      "variant": null,
+      "qualifiers": "küüslauguvõidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hulgi küüslauguvõidega pikksai",
+      "descriptorOrder": [
+        "hulgi",
+        "pikksai",
+        "küüslauguvõidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hulgi": "hulgi",
+        "pikksai": "pikksai",
+        "küüslauguvõidega": "küüslauguvõidega"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "5",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "HULGI Dallase saiake 3tk, EESTI PAGAR, 3 x 480g",
+    "price": 13.47,
+    "regularPrice": 13.47,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/hulgi-dallase-saiake-3tk-eesti-pagar-3-x-480g",
+    "ean": "0212000002490",
+    "image": "https://www.selver.ee/img/800/800/resize/0/2/0212000002490.jpg",
+    "storeUnitPrice": 6.25,
+    "brand": "EESTI PAGAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "0212000002490",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hulgi",
+      "unit": "3x480g",
+      "variety": "dallase pagar",
+      "nameLower": "hulgi dallase saiake 3tk, eesti pagar, 3 x 480g",
+      "brand": "eesti pagar",
+      "size": "3x480g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "dallase hulgi saiake",
+      "descriptorOrder": [
+        "hulgi",
+        "dallase",
+        "saiake"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hulgi": "hulgi",
+        "dallase": "dallase",
+        "saiake": "saiake",
+        "x": "x"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": "3",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Churro (silmusekujuline), FARM FRITES, 500 g",
+    "price": 3.49,
+    "regularPrice": 3.49,
+    "cardPrice": 2.69,
+    "cardName": "Partner",
+    "currency": "EUR",
+    "url": "https://www.selver.ee/churro-silmusekujuline-farm-frites-500-g",
+    "ean": "8710679030193",
+    "image": "https://www.selver.ee/img/800/800/resize/8/7/8710679030193.jpg",
+    "storeUnitPrice": 6.98,
+    "brand": "FARM FRITES",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "8710679030193",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "churro",
+      "unit": "500g",
+      "variety": "farm frites",
+      "nameLower": "churro (silmusekujuline), farm frites, 500 g",
+      "brand": "farm frites",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "churro silmusekujuline",
+      "descriptorOrder": [
+        "churro",
+        "silmusekujuline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "churro": "churro",
+        "silmusekujuline": "silmusekujuline",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Taigen Gyoza, 38 tk, HAPPY BELLY, 300 g",
+    "price": 2.84,
+    "regularPrice": 2.84,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/taigen-gyoza-38-tk-happy-belly-300-g",
+    "ean": "8888003071218",
+    "image": "https://www.selver.ee/img/800/800/resize/8/8/8888003071218.jpg",
+    "storeUnitPrice": 9.47,
+    "brand": "HAPPY BELLY",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud",
+      "külm"
+    ],
+    "signature": {
+      "ean": "8888003071218",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "taigen",
+      "unit": "300g",
+      "variety": "gyoza happy belly",
+      "nameLower": "taigen gyoza, 38 tk, happy belly, 300 g",
+      "brand": "happy belly",
+      "size": "300g",
+      "variant": "38",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gyoza taigen",
+      "descriptorOrder": [
+        "taigen",
+        "gyoza"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "taigen": "taigen",
+        "gyoza": "gyoza",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud",
+        "külm"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "38",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

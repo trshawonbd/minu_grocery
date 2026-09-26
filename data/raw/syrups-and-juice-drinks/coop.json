@@ -11,7 +11,46 @@
     "ean": "4740051002399",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740051002399.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051002399",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "aura sidrunello",
+      "nameLower": "siirup aura sidrunello 0.75l pet",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pet sidrunello siirup",
+      "descriptorOrder": [
+        "siirup",
+        "sidrunello",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "sidrunello": "sidrunello",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,7 +64,44 @@
     "ean": "4740051000029",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740051000029.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051000029",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aura",
+      "unit": "1000ml",
+      "variety": "mahlaj",
+      "nameLower": "aura mahlaj.kontsentr.p.sõstra-rabarb.1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kontsentr mahlaj p rabarb sõstra",
+      "descriptorOrder": [
+        "mahlaj",
+        "kontsentr",
+        "p",
+        "sõstra",
+        "rabarb"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -39,7 +115,44 @@
     "ean": "4740029058229",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740029058229.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029058229",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannujook",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "kannujook kirsi-aroonia põltsamaa 0.2l",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aroonia kannujook kirsi",
+      "descriptorOrder": [
+        "kannujook",
+        "kirsi",
+        "aroonia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -53,7 +166,45 @@
     "ean": "4740029058212",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740029058212.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029058212",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannujook",
+      "unit": "200ml",
+      "variety": null,
+      "nameLower": "kannujook mustasõstra-õuna-vaarika 0.2l",
+      "brand": "kannujook",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kannujook mustsõstra vaarika õuna",
+      "descriptorOrder": [
+        "kannujook",
+        "mustsõstra",
+        "õuna",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -67,7 +218,44 @@
     "ean": "8020542111110",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/8020542111110.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8020542111110",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sidrunimahl",
+      "unit": "200ml",
+      "variety": "limmi",
+      "nameLower": "sidrunimahl limmi 0.2l",
+      "brand": "sidrunimahl",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "limmi sidrunimahl",
+      "descriptorOrder": [
+        "sidrunimahl",
+        "limmi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sidrunimahl": "sidrunimahl",
+        "limmi": "limmi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -81,7 +269,44 @@
     "ean": "8020542112018",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/8020542112018.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8020542112018",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "laimimahl",
+      "unit": "200ml",
+      "variety": "limmi",
+      "nameLower": "laimimahl limmi 0.2l",
+      "brand": "laimimahl",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "laimimahl limmi",
+      "descriptorOrder": [
+        "laimimahl",
+        "limmi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "laimimahl": "laimimahl",
+        "limmi": "limmi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -95,7 +320,46 @@
     "ean": "4740051999880",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/4740051999880.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051999880",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlasiirup",
+      "unit": "750ml",
+      "variety": "mojito aura",
+      "nameLower": "mahlasiirup mojito aura 0.75l pet",
+      "brand": "aura",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlasiirup mojito pet",
+      "descriptorOrder": [
+        "mahlasiirup",
+        "mojito",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlasiirup": "mahlasiirup",
+        "mojito": "mojito",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -109,7 +373,46 @@
     "ean": "5705010081548",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/5705010081548.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5705010081548",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ingveri",
+      "unit": "500ml",
+      "variety": "rynkeby",
+      "nameLower": "ingveri-jõhvika shot rynkeby 0.5l",
+      "brand": "ingveri",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ingveri jõhvika rynkeby shot",
+      "descriptorOrder": [
+        "ingveri",
+        "jõhvika",
+        "shot",
+        "rynkeby"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "shot": "shot",
+        "rynkeby": "rynkeby"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -123,7 +426,44 @@
     "ean": "4740077003738",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4740077003738.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Heliis",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740077003738",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "heliis",
+      "unit": "500ml",
+      "variety": "siirup",
+      "nameLower": "heliis siirup jõhvikamaitseline 0.5l",
+      "brand": "heliis",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika siirup",
+      "descriptorOrder": [
+        "siirup",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "jõhvikamaitseline": "jõhvikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -137,7 +477,50 @@
     "ean": "4740098098812",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/4740098098812.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098098812",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "750ml",
+      "variety": "klaar a le coq valge",
+      "nameLower": "siirup valge klaar a.le coq 0.75l",
+      "brand": "siirup",
+      "size": "750ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "a coq klaar le siirup valge",
+      "descriptorOrder": [
+        "siirup",
+        "valge",
+        "klaar",
+        "a",
+        "le",
+        "coq"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "valge": "valge",
+        "klaar": "klaar",
+        "coq": "coq"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -151,7 +534,44 @@
     "ean": "4740098098423",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740098098423.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098098423",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajoogikontsentraat",
+      "unit": "1000ml",
+      "variety": "mahlajoogikontsentraat aura",
+      "nameLower": "mahlajoogikontsentraat aura apelsin-mango 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajoogikontsentraat mango orange",
+      "descriptorOrder": [
+        "mahlajoogikontsentraat",
+        "orange",
+        "mango"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajoogikontsentraat": "mahlajoogikontsentraat"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -165,7 +585,44 @@
     "ean": "4740098098416",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740098098416.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098098416",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajoogikontsentraat",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "mahlajoogikontsentraat aura kirsi-jõhvika 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika kirsi mahlajoogikontsentraat",
+      "descriptorOrder": [
+        "mahlajoogikontsentraat",
+        "kirsi",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajoogikontsentraat": "mahlajoogikontsentraat"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -179,7 +636,46 @@
     "ean": "5705001432113",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/5705001432113.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5705001432113",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rynkeby",
+      "unit": "500ml",
+      "variety": null,
+      "nameLower": "rynkeby ingveri-kurkum shot 0.5l",
+      "brand": "rynkeby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ingveri kurkum rynkeby shot",
+      "descriptorOrder": [
+        "rynkeby",
+        "ingveri",
+        "kurkum",
+        "shot"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rynkeby": "rynkeby",
+        "shot": "shot"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -193,7 +689,46 @@
     "ean": "4740660016701",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/4740660016701.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660016701",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "säästu",
+      "unit": "1000ml",
+      "variety": "siirup",
+      "nameLower": "säästu siirup 1l kirsimaitseline",
+      "brand": "säästu",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsi siirup säästu",
+      "descriptorOrder": [
+        "säästu",
+        "siirup",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "säästu": "säästu",
+        "siirup": "siirup",
+        "kirsimaitseline": "kirsimaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -207,7 +742,46 @@
     "ean": "8016438001030",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/8016438001030.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8016438001030",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kontsentraat",
+      "unit": "100ml",
+      "variety": "limochef",
+      "nameLower": "kontsentraat sidrunimahla limochef 0.1l",
+      "brand": "kontsentraat",
+      "size": "100ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kontsentraat limochef sidrunimahla",
+      "descriptorOrder": [
+        "kontsentraat",
+        "sidrunimahla",
+        "limochef"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kontsentraat": "kontsentraat",
+        "sidrunimahla": "sidrunimahla",
+        "limochef": "limochef"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -221,7 +795,46 @@
     "ean": "4740660015889",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740660015889.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660015889",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "1000ml",
+      "variety": "hüva",
+      "nameLower": "siirup hüva 1l jõhvika",
+      "brand": "siirup",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hüva jõhvika siirup",
+      "descriptorOrder": [
+        "siirup",
+        "hüva",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "hüva": "hüva",
+        "jõhvika": "jõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -235,7 +848,46 @@
     "ean": "4740660015810",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740660015810.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660015810",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hüva",
+      "unit": "1000ml",
+      "variety": "siirup",
+      "nameLower": "hüva siirup 1l mustasõstra",
+      "brand": "hüva",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hüva mustsõstra siirup",
+      "descriptorOrder": [
+        "hüva",
+        "siirup",
+        "mustsõstra"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hüva": "hüva",
+        "siirup": "siirup",
+        "mustsõstra": "mustasõstra"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -249,7 +901,44 @@
     "ean": "4740077002663",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740077002663-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Heliis",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740077002663",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "heliis",
+      "unit": "1500ml",
+      "variety": "siirup",
+      "nameLower": "heliis siirup jõhvikamaitseline 1.5l",
+      "brand": "heliis",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika siirup",
+      "descriptorOrder": [
+        "siirup",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "jõhvikamaitseline": "jõhvikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -263,7 +952,46 @@
     "ean": "4740660015049",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740660015049.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660015049",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hüva",
+      "unit": "1000ml",
+      "variety": "siirup",
+      "nameLower": "hüva siirup 1l mustasõstra-vaarika",
+      "brand": "hüva",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hüva mustsõstra siirup vaarika",
+      "descriptorOrder": [
+        "hüva",
+        "siirup",
+        "mustsõstra",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hüva": "hüva",
+        "siirup": "siirup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -277,7 +1005,44 @@
     "ean": "4740029052289",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740029052289.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029052289",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "põltsamaa",
+      "unit": "1000ml",
+      "variety": null,
+      "nameLower": "põltsamaa kannujook mustika-õuna 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kannujook mustika õuna",
+      "descriptorOrder": [
+        "kannujook",
+        "mustika",
+        "õuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -291,7 +1056,44 @@
     "ean": "8016438001061",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8016438001061.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8016438001061",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "laimimahl",
+      "unit": "100ml",
+      "variety": "limochef",
+      "nameLower": "laimimahl limochef 0.1l",
+      "brand": "laimimahl",
+      "size": "100ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "laimimahl limochef",
+      "descriptorOrder": [
+        "laimimahl",
+        "limochef"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "laimimahl": "laimimahl",
+        "limochef": "limochef"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -305,7 +1107,44 @@
     "ean": "4740077007729",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740077007729-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Heliis",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740077007729",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "heliis",
+      "unit": "1500ml",
+      "variety": null,
+      "nameLower": "heliis siirup troop.puuv.maits.1.5l",
+      "brand": "heliis",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "puuv siirup troop",
+      "descriptorOrder": [
+        "siirup",
+        "troop",
+        "puuv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -319,7 +1158,44 @@
     "ean": "4740077002625",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740077002625-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Heliis",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740077002625",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "1500ml",
+      "variety": "heliis",
+      "nameLower": "siirup metsvaarikamaitseline heliis 1.5l",
+      "brand": "heliis",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsvaarika siirup",
+      "descriptorOrder": [
+        "siirup",
+        "metsvaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "metsvaarikamaitseline": "metsvaarikamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -333,7 +1209,44 @@
     "ean": "4740077002632",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740077002632-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Heliis",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740077002632",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "1500ml",
+      "variety": "heliis",
+      "nameLower": "siirup punasesõstra-maasikamaitseline heliis 1.5l",
+      "brand": "heliis",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika punasesõstra siirup",
+      "descriptorOrder": [
+        "siirup",
+        "punasesõstra",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -347,7 +1260,44 @@
     "ean": "4740029052210",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029052210-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029052210",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannujook",
+      "unit": "1000ml",
+      "variety": "jõhvika põltsamaa",
+      "nameLower": "kannujook jõhvika põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika kannujook",
+      "descriptorOrder": [
+        "kannujook",
+        "jõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook",
+        "jõhvika": "jõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -361,7 +1311,43 @@
     "ean": "4741129011961",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741129011961.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Küllus",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4741129011961",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kontsent",
+      "unit": "330ml",
+      "variety": "küllus",
+      "nameLower": "kontsent-tud mahlaj.metsjõhvika küllus 0.33l",
+      "brand": "küllus",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kontsent mahlaj metsjõhvika tud",
+      "descriptorOrder": [
+        "kontsent",
+        "tud",
+        "mahlaj",
+        "metsjõhvika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -375,7 +1361,44 @@
     "ean": "4741129012005",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741129012005.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Küllus",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4741129012005",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kontsent",
+      "unit": "330ml",
+      "variety": "küllus",
+      "nameLower": "kontsent-tud mahlaj.vaar.-metsmustika küllus 0.33l",
+      "brand": "küllus",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kontsent mahlaj metsmustika tud vaar",
+      "descriptorOrder": [
+        "kontsent",
+        "tud",
+        "mahlaj",
+        "vaar",
+        "metsmustika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -389,7 +1412,44 @@
     "ean": "4740029052258",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029052258-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029052258",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "põltsamaa",
+      "unit": "1000ml",
+      "variety": "kannujook",
+      "nameLower": "põltsamaa kannujook multimahla 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kannujook multimahla",
+      "descriptorOrder": [
+        "kannujook",
+        "multimahla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook",
+        "multimahla": "multimahla"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -403,7 +1463,46 @@
     "ean": "5705001432052",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5705001432052.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5705001432052",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rynkeby",
+      "unit": "500ml",
+      "variety": "shot",
+      "nameLower": "rynkeby shot 0.5l ingveri",
+      "brand": "rynkeby",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ingveri rynkeby shot",
+      "descriptorOrder": [
+        "rynkeby",
+        "shot",
+        "ingveri"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rynkeby": "rynkeby",
+        "shot": "shot",
+        "ingveri": "ingveri"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -417,7 +1516,45 @@
     "ean": "4745092640326",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029052128.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745092640326",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannujook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "kannujook mustasõstra-õuna-vaarika põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kannujook mustsõstra vaarika õuna",
+      "descriptorOrder": [
+        "kannujook",
+        "mustsõstra",
+        "õuna",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannujook": "kannujook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -431,7 +1568,46 @@
     "ean": "4740506474207",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740506474207.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740506474207",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "siirup",
+      "unit": "500ml",
+      "variety": "maadlex",
+      "nameLower": "siirup vaarika-mustasõstramaitseline maadlex 0.5l",
+      "brand": "siirup",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maadlex mustsõstra siirup vaarika",
+      "descriptorOrder": [
+        "siirup",
+        "vaarika",
+        "mustsõstra",
+        "maadlex"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "siirup": "siirup",
+        "maadlex": "maadlex"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -445,7 +1621,48 @@
     "ean": "8809713912264",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/8809713912264.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "OKF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8809713912264",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "1500ml",
+      "variety": "vera okf farmers",
+      "nameLower": "aloe vera jook okf farmers 1.5l",
+      "brand": "okf",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe farmers jook vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "farmers"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook",
+        "farmers": "farmers"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -459,7 +1676,48 @@
     "ean": "8809713912301",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/8809713912301.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "OKF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8809713912301",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "500ml",
+      "variety": "vera okf farmers",
+      "nameLower": "aloe vera jook okf farmers 0.5l",
+      "brand": "okf",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe farmers jook vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "farmers"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook",
+        "farmers": "farmers"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -473,7 +1731,50 @@
     "ean": "8809713919829",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/8809713912325.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "OKF",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8809713919829",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aloe",
+      "unit": "500ml",
+      "variety": "aloe vera okf farmers",
+      "nameLower": "aloe vera jook okf farmers 0.5l mango",
+      "brand": "okf",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe farmers jook mango vera",
+      "descriptorOrder": [
+        "aloe",
+        "vera",
+        "jook",
+        "farmers",
+        "mango"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aloe": "aloe",
+        "vera": "vera",
+        "jook": "jook",
+        "farmers": "farmers",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -487,7 +1788,44 @@
     "ean": "4740051002429",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4740051002429.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LIMPA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051002429",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "250ml",
+      "variety": "limpa pirni õuna",
+      "nameLower": "mahlajook limpa pirni-õuna 0.25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook pirni õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "pirni",
+        "õuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -501,7 +1839,44 @@
     "ean": "4740051001385",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4740051001385.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA FRESH",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051001385",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook aura fresh viinamarja 5% 2l",
+      "brand": "aura fresh",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "5",
+      "descriptors": "mahlajook viinamarja",
+      "descriptorOrder": [
+        "mahlajook",
+        "viinamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "viinamarja": "viinamarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -515,7 +1890,44 @@
     "ean": "8410261611167",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/8410261611167.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "DON SIMON",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8410261611167",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "don",
+      "unit": "200ml",
+      "variety": "simon",
+      "nameLower": "don simon kõrrejook anan-viinamarja 0.2l",
+      "brand": "don simon",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "anan kõrrejook viinamarja",
+      "descriptorOrder": [
+        "kõrrejook",
+        "anan",
+        "viinamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kõrrejook": "kõrrejook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -529,7 +1941,44 @@
     "ean": "8410261608303",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/8410261608303.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "DON SIMON",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8410261608303",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "don",
+      "unit": "200ml",
+      "variety": "simon",
+      "nameLower": "don simon kõrrejook apelsini 100% 0.2l",
+      "brand": "don simon",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsini kõrrejook",
+      "descriptorOrder": [
+        "kõrrejook",
+        "apelsini"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kõrrejook": "kõrrejook",
+        "apelsini": "apelsini"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -543,7 +1992,50 @@
     "ean": "5905133528702",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/5905133528702.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5905133528702",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vita",
+      "unit": "500ml",
+      "variety": "aloe original",
+      "nameLower": "vita aloe original jook 0.5l pet",
+      "brand": "vita",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe jook originaal pet vita",
+      "descriptorOrder": [
+        "vita",
+        "aloe",
+        "originaal",
+        "jook",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vita": "vita",
+        "aloe": "aloe",
+        "originaal": "original",
+        "jook": "jook",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -557,7 +2049,48 @@
     "ean": "4744891013249",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4744891013249.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "GREPPO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744891013249",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "320ml",
+      "variety": "greppo",
+      "nameLower": "karb-tud mahlajook greppo guajaavi 0.32l prk",
+      "brand": "greppo",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "guajaavi karb mahlajook purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "mahlajook",
+        "guajaavi",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "guajaavi": "guajaavi",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -571,7 +2104,48 @@
     "ean": "4744891011788",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4744891011788.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "GREPPO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744891011788",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "320ml",
+      "variety": "greppo",
+      "nameLower": "karb-tud mahlajook greppo draakonvili 0.32l prk",
+      "brand": "greppo",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "draakonvili karb mahlajook purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "mahlajook",
+        "draakonvili",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "draakonvili": "draakonvili",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -585,7 +2159,48 @@
     "ean": "4744891011771",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4744891011771.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "GREPPO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744891011771",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "320ml",
+      "variety": "karb greppo",
+      "nameLower": "karb-tud mahlajook greppo arbuus 0.32l prk",
+      "brand": "greppo",
+      "size": "320ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arbuus karb mahlajook purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "mahlajook",
+        "arbuus",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "arbuus": "arbuus",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -599,7 +2214,49 @@
     "ean": "4740029051602",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740029051602.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029051602",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "c",
+      "nameLower": "mahlajook õuna-küdoonia-mündi ja c-vitamiiniga 1l",
+      "brand": "mahlajook",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "vitamiiniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "c ja küdoonia mahlajook mündi vitamiiniga õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "õuna",
+        "küdoonia",
+        "mündi",
+        "ja",
+        "c",
+        "vitamiiniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "ja": "ja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -613,7 +2270,48 @@
     "ean": "4740042702741",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740042702741.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740042702741",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "mahlajook värska vurtsvasser",
+      "nameLower": "mahlajook värska vurtsvasser pirn 1l",
+      "brand": "mahlajook",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook pirn vurtsvasser värska",
+      "descriptorOrder": [
+        "mahlajook",
+        "värska",
+        "vurtsvasser",
+        "pirn"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "värska": "värska",
+        "vurtsvasser": "vurtsvasser",
+        "pirn": "pirn"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -627,7 +2325,46 @@
     "ean": "4740051000449",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740051000449.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051000449",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mango",
+      "unit": "1500ml",
+      "variety": "dr active",
+      "nameLower": "mango-apelsini mahlajook dr.active 1.5l",
+      "brand": "mango",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "active apelsini dr mahlajook mango",
+      "descriptorOrder": [
+        "mango",
+        "apelsini",
+        "mahlajook",
+        "dr",
+        "active"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -641,7 +2378,46 @@
     "ean": "4740051000135",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740051000135.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LIMPA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051000135",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "limpa peojook",
+      "nameLower": "mahlajook limpa peojook 2l õuna-maasika",
+      "brand": "limpa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika mahlajook peojook õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "peojook",
+        "õuna",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "peojook": "peojook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -655,7 +2431,44 @@
     "ean": "4750042000136",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4750042000136.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CIDO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750042000136",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "cido",
+      "unit": "1500ml",
+      "variety": "mahlajook arbuusi meloni",
+      "nameLower": "cido mahlajook arbuusi-meloni 15% 1.5l",
+      "brand": "cido",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "15",
+      "descriptors": "arbuusi mahlajook meloni",
+      "descriptorOrder": [
+        "mahlajook",
+        "arbuusi",
+        "meloni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -669,7 +2482,50 @@
     "ean": "4779052060169",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/4779052060169.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4779052060169",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "karb bonsu",
+      "nameLower": "karb-tud mahlajook mango bonsu 0.33l prk",
+      "brand": "karb",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bonsu karb mahlajook mango purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "mahlajook",
+        "mango",
+        "bonsu",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "mango": "mango",
+        "bonsu": "bonsu",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -683,7 +2539,50 @@
     "ean": "4779052060190",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/4779052060190.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4779052060190",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "bonsu",
+      "nameLower": "karb-tud mahlajook arbuusi bonsu 0.33l prk",
+      "brand": "karb",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arbuusi bonsu karb mahlajook purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "mahlajook",
+        "arbuusi",
+        "bonsu",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "arbuusi": "arbuusi",
+        "bonsu": "bonsu",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -697,7 +2596,50 @@
     "ean": "4779052060145",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/4779052060145.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4779052060145",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "330ml",
+      "variety": "bonsu",
+      "nameLower": "karb-tud mahlajook meloni bonsu 0.33l prk",
+      "brand": "karb",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bonsu karb mahlajook meloni purk tud",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "mahlajook",
+        "meloni",
+        "bonsu",
+        "purk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "meloni": "meloni",
+        "bonsu": "bonsu",
+        "purk": "prk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -711,7 +2653,46 @@
     "ean": "4748001018575",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4748001018575.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4748001018575",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "granaatõuna",
+      "unit": "1000ml",
+      "variety": "natural",
+      "nameLower": "granaatõuna mahlajook natural 1l",
+      "brand": "granaatõuna",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granaatõuna mahlajook natural",
+      "descriptorOrder": [
+        "granaatõuna",
+        "mahlajook",
+        "natural"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "granaatõuna": "granaatõuna",
+        "mahlajook": "mahlajook",
+        "natural": "natural"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -725,7 +2706,46 @@
     "ean": "4748001018582",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4748001018582.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4748001018582",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustasõstra",
+      "unit": "1000ml",
+      "variety": "natural",
+      "nameLower": "mustasõstra mahlajook natural 1l",
+      "brand": "mustasõstra",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook mustsõstra natural",
+      "descriptorOrder": [
+        "mustsõstra",
+        "mahlajook",
+        "natural"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustsõstra": "mustasõstra",
+        "mahlajook": "mahlajook",
+        "natural": "natural"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -739,7 +2759,50 @@
     "ean": "4779040221503",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4712098458408.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALEO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4779040221503",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "aloe aleo premium",
+      "nameLower": "mahlajook aloe vera aleo premium 1.5l pet",
+      "brand": "aleo",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe mahlajook pet premium vera",
+      "descriptorOrder": [
+        "mahlajook",
+        "aloe",
+        "vera",
+        "premium",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "aloe": "aloe",
+        "vera": "vera",
+        "premium": "premium",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -753,7 +2816,51 @@
     "ean": "4779040221589",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4779040221589.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALEO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4779040221589",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "mahlajook aloe vera aleo",
+      "nameLower": "mahlajook aloe vera aleo mango maitseline 1.5l pet",
+      "brand": "aleo",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aloe mahlajook mango pet vera",
+      "descriptorOrder": [
+        "mahlajook",
+        "aloe",
+        "vera",
+        "mango",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "aloe": "aloe",
+        "vera": "vera",
+        "mango": "mango",
+        "maitseline": "maitseline",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -767,7 +2874,50 @@
     "ean": "4740098097471",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4740098097471.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098097471",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rohelise",
+      "unit": "500ml",
+      "variety": "dr active",
+      "nameLower": "rohelise õuna-mündi mahlajook dr.active 0.5l pet",
+      "brand": "rohelise",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "active dr mahlajook mündi pet rohelise õuna",
+      "descriptorOrder": [
+        "rohelise",
+        "õuna",
+        "mündi",
+        "mahlajook",
+        "dr",
+        "active",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rohelise": "rohelise",
+        "mahlajook": "mahlajook",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -781,7 +2931,50 @@
     "ean": "4740098097488",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4740098097488.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098097488",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rohelise",
+      "unit": "1500ml",
+      "variety": "dr active",
+      "nameLower": "rohelise õuna-mündi mahlajook dr.active 1.5l pet",
+      "brand": "rohelise",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "active dr mahlajook mündi pet rohelise õuna",
+      "descriptorOrder": [
+        "rohelise",
+        "õuna",
+        "mündi",
+        "mahlajook",
+        "dr",
+        "active",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rohelise": "rohelise",
+        "mahlajook": "mahlajook",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -795,7 +2988,48 @@
     "ean": "4000177019252",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4000177019252.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4000177019252",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "10x200ml",
+      "variety": "monster alarm capri sun",
+      "nameLower": "mahlajook monster alarm capri-sun 10*0.2l",
+      "brand": "mahlajook",
+      "size": "10x200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alarm capri mahlajook monster sun",
+      "descriptorOrder": [
+        "mahlajook",
+        "monster",
+        "alarm",
+        "capri",
+        "sun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "monster": "monster",
+        "alarm": "alarm"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "10",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -809,7 +3043,48 @@
     "ean": "4000177408124",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4000177408124.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4000177408124",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "10x200ml",
+      "variety": "mystic dragon capri sun",
+      "nameLower": "mahlajook mystic dragon capri-sun 10*0.2l",
+      "brand": "mahlajook",
+      "size": "10x200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "capri dragon mahlajook mystic sun",
+      "descriptorOrder": [
+        "mahlajook",
+        "mystic",
+        "dragon",
+        "capri",
+        "sun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "mystic": "mystic",
+        "dragon": "dragon"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "10",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -823,7 +3098,46 @@
     "ean": "4000177407523",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4000177407523.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4000177407523",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "10x200ml",
+      "variety": "multivitamin capri sun",
+      "nameLower": "mahlajook multivitamin capri-sun 10*0.2l",
+      "brand": "mahlajook",
+      "size": "10x200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "capri mahlajook multivitamin sun",
+      "descriptorOrder": [
+        "mahlajook",
+        "multivitamin",
+        "capri",
+        "sun"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "multivitamin": "multivitamin"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "10",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -837,7 +3151,46 @@
     "ean": "6415130118374",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/64005720.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6415130118374",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "trip",
+      "unit": "200ml",
+      "variety": null,
+      "nameLower": "trip kõrrejook vaarika  0.2l",
+      "brand": "trip",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kõrrejook trip vaarika",
+      "descriptorOrder": [
+        "trip",
+        "kõrrejook",
+        "vaarika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "trip": "trip",
+        "kõrrejook": "kõrrejook",
+        "vaarika": "vaarika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -851,7 +3204,46 @@
     "ean": "6415130118367",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/6415131402335.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6415130118367",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "trip",
+      "unit": "200ml",
+      "variety": null,
+      "nameLower": "trip kõrrejook metsmaasika 0.2l",
+      "brand": "trip",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kõrrejook metsmaasika trip",
+      "descriptorOrder": [
+        "trip",
+        "kõrrejook",
+        "metsmaasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "trip": "trip",
+        "kõrrejook": "kõrrejook",
+        "metsmaasika": "metsmaasika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -865,7 +3257,42 @@
     "ean": "5900334013521",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/5900334013521.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TYMBARK",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900334013521",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tymbark",
+      "unit": "200ml",
+      "variety": "multivitamiinijook",
+      "nameLower": "tymbark multivitamiinijook 0.2l",
+      "brand": "tymbark",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multivitamiinijook",
+      "descriptorOrder": [
+        "multivitamiinijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multivitamiinijook": "multivitamiinijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -879,7 +3306,42 @@
     "ean": "5900334007353",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/5900334007353.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TYMBARK",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900334007353",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tymbark",
+      "unit": "200ml",
+      "variety": "maasika",
+      "nameLower": "tymbark maasika-õuna-virsikujook 0.2l",
+      "brand": "tymbark",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika virsikujook õuna",
+      "descriptorOrder": [
+        "maasika",
+        "õuna",
+        "virsikujook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -893,7 +3355,43 @@
     "ean": "4741129019370",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4741129019370.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Küllus",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4741129019370",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "küllus",
+      "unit": "330ml",
+      "variety": "metsjõhvika",
+      "nameLower": "küllus metsjõhvika mahlajook20% 0.33l",
+      "brand": "küllus",
+      "size": "330ml",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "mahlajook metsjõhvika",
+      "descriptorOrder": [
+        "metsjõhvika",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsjõhvika": "metsjõhvika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -907,7 +3405,41 @@
     "ean": "4740029050063",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740029050063.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029050063",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "põltsamaa",
+      "unit": "200ml",
+      "variety": null,
+      "nameLower": "põltsamaa apelsini-õunajook 0.2l",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "apelsini õunajook",
+      "descriptorOrder": [
+        "apelsini",
+        "õunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -921,7 +3453,41 @@
     "ean": "4740098094906",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740098094906.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA FRESH",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098094906",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ploomi",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "ploomi-õunamahlajook aura fresh 2l",
+      "brand": "aura fresh",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ploomi õunamahlajook",
+      "descriptorOrder": [
+        "ploomi",
+        "õunamahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -935,7 +3501,44 @@
     "ean": "4740098094814",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740098094814.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098094814",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustika",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "mustika mahlajook aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook mustika",
+      "descriptorOrder": [
+        "mustika",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustika": "mustika",
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -949,7 +3552,42 @@
     "ean": "4740098072508",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740098072508.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA FRESH",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098072508",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvikamahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "jõhvikamahlajook 5% aura fresh 2l",
+      "brand": "aura fresh",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "5",
+      "descriptors": "jõhvikamahlajook",
+      "descriptorOrder": [
+        "jõhvikamahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvikamahlajook": "jõhvikamahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -963,7 +3601,44 @@
     "ean": "8594023921043",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8594023921043.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8594023921043",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "300ml",
+      "variety": null,
+      "nameLower": "multimahlajook 0.3l + üllatusmuna",
+      "brand": "multimahlajook",
+      "size": "300ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook üllatusmuna",
+      "descriptorOrder": [
+        "multimahlajook",
+        "üllatusmuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook",
+        "üllatusmuna": "üllatusmuna"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -977,7 +3652,42 @@
     "ean": "4745092640180",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740029050025.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745092640180",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õunajook",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "õunajook põltsamaa 0.2l",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "õunajook",
+      "descriptorOrder": [
+        "õunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õunajook": "õunajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -991,7 +3701,41 @@
     "ean": "5900334002112",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/5900334002112.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TYMBARK",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900334002112",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õuna",
+      "unit": "200ml",
+      "variety": "tymbark",
+      "nameLower": "õuna-virsikujook tymbark 0.2l",
+      "brand": "tymbark",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "virsikujook õuna",
+      "descriptorOrder": [
+        "õuna",
+        "virsikujook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1005,7 +3749,42 @@
     "ean": "4740029051213",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051213.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029051213",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "multimahlajook põltsamaa 0.2l",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1019,7 +3798,41 @@
     "ean": "4740029052319",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029052319.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029052319",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasika",
+      "unit": "200ml",
+      "variety": "põltsamaa",
+      "nameLower": "maasika-punasesõstrajook põltsamaa 0.2l",
+      "brand": "põltsamaa",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika punasesõstrajook",
+      "descriptorOrder": [
+        "maasika",
+        "punasesõstrajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1033,7 +3846,41 @@
     "ean": "4740098091264",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098091264.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LIMPA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098091264",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õuna",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "õuna-kirsijook limpa 0.25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsijook õuna",
+      "descriptorOrder": [
+        "õuna",
+        "kirsijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1047,7 +3894,52 @@
     "ean": "4740042701317",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740042701317-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740042701317",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karb",
+      "unit": "1000ml",
+      "variety": "karb värska vurtsvasser",
+      "nameLower": "karb-tud mahlajook värska vurtsvasser õun 1l pet",
+      "brand": "karb",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "karb mahlajook pet tud vurtsvasser värska õun",
+      "descriptorOrder": [
+        "karb",
+        "tud",
+        "mahlajook",
+        "värska",
+        "vurtsvasser",
+        "õun",
+        "pet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "värska": "värska",
+        "vurtsvasser": "vurtsvasser",
+        "õun": "õun",
+        "pet": "pet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1061,7 +3953,41 @@
     "ean": "4740029050087",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029050087-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029050087",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustika",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "mustika-õunajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustika õunajook",
+      "descriptorOrder": [
+        "mustika",
+        "õunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1075,7 +4001,47 @@
     "ean": "4740098088219",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098088219.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098088219",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "apelsini",
+      "unit": "1500ml",
+      "variety": "dr active",
+      "nameLower": "apelsini-ananassi-porgandi mahlajook dr.active1.5l",
+      "brand": "apelsini",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "active ananassi apelsini dr mahlajook porgandi",
+      "descriptorOrder": [
+        "apelsini",
+        "ananassi",
+        "porgandi",
+        "mahlajook",
+        "dr",
+        "active"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1089,7 +4055,44 @@
     "ean": "4740029051510",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051510-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029051510",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "troopika põltsamaa",
+      "nameLower": "mahlajook troopika-mix põltsamaa 2l",
+      "brand": "põltsamaa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook mix troopika",
+      "descriptorOrder": [
+        "mahlajook",
+        "troopika",
+        "mix"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1103,7 +4106,45 @@
     "ean": "4740098082736",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098082736.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA FRESH",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098082736",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "mahlajook aura fresh 6% 2l õuna-kirsi-aroonia",
+      "brand": "aura fresh",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "6",
+      "descriptors": "aroonia kirsi mahlajook õuna",
+      "descriptorOrder": [
+        "mahlajook",
+        "õuna",
+        "kirsi",
+        "aroonia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1117,7 +4158,41 @@
     "ean": "4740098072515",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072515.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA FRESH",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098072515",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pirni",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "pirni-õunamahlajook 10% aura fresh 2l",
+      "brand": "aura fresh",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "pirni õunamahlajook",
+      "descriptorOrder": [
+        "pirni",
+        "õunamahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1131,7 +4206,44 @@
     "ean": "8594023923214",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8594023923214.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8594023923214",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikamahlajook",
+      "unit": "300ml",
+      "variety": null,
+      "nameLower": "maasikamahlajook 0.3l+ üllatusmuna",
+      "brand": "maasikamahlajook",
+      "size": "300ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikamahlajook üllatusmuna",
+      "descriptorOrder": [
+        "maasikamahlajook",
+        "üllatusmuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikamahlajook": "maasikamahlajook",
+        "üllatusmuna": "üllatusmuna"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1145,7 +4257,43 @@
     "ean": "8594023921050",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8594023921050.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8594023921050",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õunamahlajook",
+      "unit": "300ml",
+      "variety": null,
+      "nameLower": "õunamahlajook 0.3l+üllatusmuna",
+      "brand": "õunamahlajook",
+      "size": "300ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "õunamahlajook üllatusmuna",
+      "descriptorOrder": [
+        "õunamahlajook",
+        "üllatusmuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õunamahlajook": "õunamahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1159,7 +4307,44 @@
     "ean": "4740098072492",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072492.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA FRESH",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098072492",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "multifruit aura fresh",
+      "nameLower": "mahlajook multifruit 25% aura fresh 2l",
+      "brand": "aura fresh",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "25",
+      "descriptors": "mahlajook multifruit",
+      "descriptorOrder": [
+        "mahlajook",
+        "multifruit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "multifruit": "multifruit"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1173,7 +4358,42 @@
     "ean": "4745092640203",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051497-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745092640203",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "2000ml",
+      "variety": "põltsamaa",
+      "nameLower": "multimahlajook põltsamaa 2l",
+      "brand": "põltsamaa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1187,7 +4407,47 @@
     "ean": "5000112651744",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5449000121783.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CAPPY",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5000112651744",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1500ml",
+      "variety": "cappy ice fruit",
+      "nameLower": "mahlajook multipuuvilj.cappy ice fruit 1.5l",
+      "brand": "cappy",
+      "size": "1500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fruit ice mahlajook multipuuvilj",
+      "descriptorOrder": [
+        "mahlajook",
+        "multipuuvilj",
+        "ice",
+        "fruit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "ice": "ice",
+        "fruit": "fruit"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1201,7 +4461,41 @@
     "ean": "4745092640128",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051367.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745092640128",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvika",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jõhvika-granaatõunajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granaatõunajook jõhvika",
+      "descriptorOrder": [
+        "jõhvika",
+        "granaatõunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1215,7 +4509,42 @@
     "ean": "4745092640142",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051404.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745092640142",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "marjajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "marjajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "marjajook",
+      "descriptorOrder": [
+        "marjajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "marjajook": "marjajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1229,7 +4558,42 @@
     "ean": "4745092640234",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051084-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4745092640234",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvikajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "jõhvikajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvikajook",
+      "descriptorOrder": [
+        "jõhvikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvikajook": "jõhvikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1243,7 +4607,44 @@
     "ean": "4750042804284",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750042804284.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CIDO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750042804284",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "1000ml",
+      "variety": "viinamarja cido",
+      "nameLower": "mahlajook viinamarja cido 1l",
+      "brand": "cido",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mahlajook viinamarja",
+      "descriptorOrder": [
+        "mahlajook",
+        "viinamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook",
+        "viinamarja": "viinamarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1257,7 +4658,42 @@
     "ean": "4740098076698",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098076698.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098076698",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kirsijook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "kirsijook 20% aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "kirsijook",
+      "descriptorOrder": [
+        "kirsijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kirsijook": "kirsijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1271,7 +4707,46 @@
     "ean": "4750042303619",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750042303619.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "CIDO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4750042303619",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punase",
+      "unit": "1000ml",
+      "variety": "cido",
+      "nameLower": "punase apelsini jook cido 40% 1l",
+      "brand": "cido",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "40",
+      "descriptors": "apelsini jook punase",
+      "descriptorOrder": [
+        "punase",
+        "apelsini",
+        "jook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punase": "punase",
+        "apelsini": "apelsini",
+        "jook": "jook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1285,7 +4760,42 @@
     "ean": "4740098091271",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098091271.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LIMPA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098091271",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikajook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "maasikajook limpa 0.25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikajook",
+      "descriptorOrder": [
+        "maasikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikajook": "maasikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1299,7 +4809,42 @@
     "ean": "4740098091257",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098091257.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LIMPA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098091257",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "250ml",
+      "variety": "limpa",
+      "nameLower": "multimahlajook limpa 0.25l",
+      "brand": "limpa",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1313,7 +4858,47 @@
     "ean": "4740098088202",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098088202.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098088202",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "apelsini",
+      "unit": "500ml",
+      "variety": "dr active",
+      "nameLower": "apelsini-ananassi-porgandi mahlajook dr.active0.5l",
+      "brand": "apelsini",
+      "size": "500ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "active ananassi apelsini dr mahlajook porgandi",
+      "descriptorOrder": [
+        "apelsini",
+        "ananassi",
+        "porgandi",
+        "mahlajook",
+        "dr",
+        "active"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1327,7 +4912,44 @@
     "ean": "4740029051473",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051473.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029051473",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mahlajook",
+      "unit": "2000ml",
+      "variety": "jõhvika mix põltsamaa",
+      "nameLower": "mahlajook jõhvika-mix põltsamaa 2l",
+      "brand": "põltsamaa",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvika mahlajook mix",
+      "descriptorOrder": [
+        "mahlajook",
+        "jõhvika",
+        "mix"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1341,7 +4963,44 @@
     "ean": "4740098072539",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072539.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA FRESH",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098072539",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pun",
+      "unit": "2000ml",
+      "variety": "aura fresh",
+      "nameLower": "pun.viinamarja mahlajook 25% aura fresh 2l",
+      "brand": "aura fresh",
+      "size": "2000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "25",
+      "descriptors": "mahlajook pun viinamarja",
+      "descriptorOrder": [
+        "pun",
+        "viinamarja",
+        "mahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mahlajook": "mahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1355,7 +5014,42 @@
     "ean": "4740029050070",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029050070.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PÕLTSAMAA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740029050070",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "multimahlajook",
+      "unit": "1000ml",
+      "variety": "põltsamaa",
+      "nameLower": "multimahlajook põltsamaa 1l",
+      "brand": "põltsamaa",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "multimahlajook",
+      "descriptorOrder": [
+        "multimahlajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "multimahlajook": "multimahlajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1369,7 +5063,42 @@
     "ean": "4740098072188",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072188.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740098072188",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "granaatõunajook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "granaatõunajook 20% aura 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "20",
+      "descriptors": "granaatõunajook",
+      "descriptorOrder": [
+        "granaatõunajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "granaatõunajook": "granaatõunajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1383,6 +5112,41 @@
     "ean": "4740051004379",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740051004379.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "AURA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740051004379",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jõhvikajook",
+      "unit": "1000ml",
+      "variety": "aura",
+      "nameLower": "jõhvikajook aura 10% 1l",
+      "brand": "aura",
+      "size": "1000ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "10",
+      "descriptors": "jõhvikajook",
+      "descriptorOrder": [
+        "jõhvikajook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvikajook": "jõhvikajook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

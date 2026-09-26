@@ -12,7 +12,42 @@
     "unit": "kg",
     "storeUnitPrice": 24.95,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/705a81be-b734-4e7f-b191-88b920912af1_m.png"
+    "image": "https://cdn.barbora.ee/products/705a81be-b734-4e7f-b191-88b920912af1_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "oanuudlid",
+      "unit": "200g",
+      "variety": "thai choice",
+      "nameLower": "oanuudlid thai-choice 200g",
+      "brand": "thai choice",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "oanuudlid",
+      "descriptorOrder": [
+        "oanuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "oanuudlid": "oanuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -27,7 +62,44 @@
     "unit": "kg",
     "storeUnitPrice": 9.58,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/93b72243-a2a5-4103-b18f-c22a84340c95_m.png"
+    "image": "https://cdn.barbora.ee/products/93b72243-a2a5-4103-b18f-c22a84340c95_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tai",
+      "unit": "454g",
+      "variety": "thai choice",
+      "nameLower": "tai riisinuudlid thai choice 454g",
+      "brand": "thai choice",
+      "size": "454g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisinuudlid tai",
+      "descriptorOrder": [
+        "tai",
+        "riisinuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tai": "tai",
+        "riisinuudlid": "riisinuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -42,7 +114,42 @@
     "unit": "kg",
     "storeUnitPrice": 9.96,
     "brand": "EXOTIC FOOD",
-    "image": "https://cdn.barbora.ee/products/c544141e-3fb2-4a72-bffd-c6d68554610d_m.png"
+    "image": "https://cdn.barbora.ee/products/c544141e-3fb2-4a72-bffd-c6d68554610d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisinuudlid",
+      "unit": "250g",
+      "variety": "exotic food",
+      "nameLower": "riisinuudlid exotic food 250g",
+      "brand": "exotic food",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisinuudlid",
+      "descriptorOrder": [
+        "riisinuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisinuudlid": "riisinuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -57,7 +164,44 @@
     "unit": "kg",
     "storeUnitPrice": 9.96,
     "brand": "EXOTIC FOOD",
-    "image": "https://cdn.barbora.ee/products/ad2f0b15-abf1-4305-a8ad-2630e14077a6_m.png"
+    "image": "https://cdn.barbora.ee/products/ad2f0b15-abf1-4305-a8ad-2630e14077a6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisi",
+      "unit": "250g",
+      "variety": "exotic food",
+      "nameLower": "riisi niitnuudlid exotic food 250g",
+      "brand": "exotic food",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "niitnuudlid riisi",
+      "descriptorOrder": [
+        "riisi",
+        "niitnuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisi": "riisi",
+        "niitnuudlid": "niitnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -72,7 +216,45 @@
     "unit": "kg",
     "storeUnitPrice": 10.95,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/bd270f81-208a-49dc-9687-0bfdcec957be_m.png"
+    "image": "https://cdn.barbora.ee/products/bd270f81-208a-49dc-9687-0bfdcec957be_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruuni",
+      "unit": "200g",
+      "variety": "thai choice",
+      "nameLower": "pruuni riisi niitnuudl. thai-choice 200g",
+      "brand": "thai choice",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "niitnuudl pruuni riisi",
+      "descriptorOrder": [
+        "pruuni",
+        "riisi",
+        "niitnuudl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruuni": "pruuni",
+        "riisi": "riisi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -87,7 +269,42 @@
     "unit": "kg",
     "storeUnitPrice": 16.94,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/92c9e8da-cd3f-4c4e-b06e-5289ca9f68ea_m.png"
+    "image": "https://cdn.barbora.ee/products/92c9e8da-cd3f-4c4e-b06e-5289ca9f68ea_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisinuudlid",
+      "unit": "180g",
+      "variety": "santa maria",
+      "nameLower": "riisinuudlid santa maria 180g",
+      "brand": "santa maria",
+      "size": "180g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisinuudlid",
+      "descriptorOrder": [
+        "riisinuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisinuudlid": "riisinuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -102,7 +319,42 @@
     "unit": "kg",
     "storeUnitPrice": 33.5,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/eeb9ae35-645a-4f35-a5f2-e8ce05dec032_m.png"
+    "image": "https://cdn.barbora.ee/products/eeb9ae35-645a-4f35-a5f2-e8ce05dec032_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "klaasnuudlid",
+      "unit": "100g",
+      "variety": "santa maria",
+      "nameLower": "klaasnuudlid santa maria 100g",
+      "brand": "santa maria",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "klaasnuudlid",
+      "descriptorOrder": [
+        "klaasnuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "klaasnuudlid": "klaasnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -117,7 +369,44 @@
     "unit": "kg",
     "storeUnitPrice": 17.45,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/165e8768-b28c-43af-9ff1-5a1148b12ba7_m.png"
+    "image": "https://cdn.barbora.ee/products/165e8768-b28c-43af-9ff1-5a1148b12ba7_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ramen",
+      "unit": "200g",
+      "variety": "santa maria",
+      "nameLower": "ramen nuudlid santa maria 200g",
+      "brand": "santa maria",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nuudlid ramen",
+      "descriptorOrder": [
+        "ramen",
+        "nuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ramen": "ramen",
+        "nuudlid": "nuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -132,7 +421,44 @@
     "unit": "kg",
     "storeUnitPrice": 11.25,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/e9445efe-7716-47cc-87da-ed6f3a0f85a8_m.png"
+    "image": "https://cdn.barbora.ee/products/e9445efe-7716-47cc-87da-ed6f3a0f85a8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisi",
+      "unit": "200g",
+      "variety": "thai choice",
+      "nameLower": "riisi niitnuudlid thai choice 200g",
+      "brand": "thai choice",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "niitnuudlid riisi",
+      "descriptorOrder": [
+        "riisi",
+        "niitnuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisi": "riisi",
+        "niitnuudlid": "niitnuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -147,7 +473,44 @@
     "unit": "kg",
     "storeUnitPrice": 6.76,
     "brand": "FUDO",
-    "image": "https://cdn.barbora.ee/products/21063a4b-c418-4a7d-b04a-9a9e9a99d7ef_m.png"
+    "image": "https://cdn.barbora.ee/products/21063a4b-c418-4a7d-b04a-9a9e9a99d7ef_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nuudlid",
+      "unit": "250g",
+      "variety": "udon fudo",
+      "nameLower": "nuudlid udon fudo 250g",
+      "brand": "fudo",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nuudlid udon",
+      "descriptorOrder": [
+        "nuudlid",
+        "udon"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nuudlid": "nuudlid",
+        "udon": "udon"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -162,7 +525,42 @@
     "unit": "kg",
     "storeUnitPrice": 6.76,
     "brand": "FUDO",
-    "image": "https://cdn.barbora.ee/products/a18d9e2c-395d-4587-8e96-3bedf7c4a33b_m.png"
+    "image": "https://cdn.barbora.ee/products/a18d9e2c-395d-4587-8e96-3bedf7c4a33b_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatranuudlid",
+      "unit": "250g",
+      "variety": "fudo",
+      "nameLower": "tatranuudlid fudo 250g",
+      "brand": "fudo",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatranuudlid",
+      "descriptorOrder": [
+        "tatranuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatranuudlid": "tatranuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -177,7 +575,42 @@
     "unit": "kg",
     "storeUnitPrice": 10.25,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/8791166a-6886-4987-b9df-6422b672fdcc_m.png"
+    "image": "https://cdn.barbora.ee/products/8791166a-6886-4987-b9df-6422b672fdcc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "munanuudlid",
+      "unit": "200g",
+      "variety": "thai choice",
+      "nameLower": "munanuudlid thai choice 200g",
+      "brand": "thai choice",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "munanuudlid",
+      "descriptorOrder": [
+        "munanuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "munanuudlid": "munanuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -192,7 +625,44 @@
     "unit": "kg",
     "storeUnitPrice": 7.96,
     "brand": "FUDO",
-    "image": "https://cdn.barbora.ee/products/85ab9341-471b-415e-bd42-c28a6b53ecce_m.png"
+    "image": "https://cdn.barbora.ee/products/85ab9341-471b-415e-bd42-c28a6b53ecce_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ramen",
+      "unit": "250g",
+      "variety": "fudo",
+      "nameLower": "ramen nuudlid fudo 250g",
+      "brand": "fudo",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nuudlid ramen",
+      "descriptorOrder": [
+        "ramen",
+        "nuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ramen": "ramen",
+        "nuudlid": "nuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -207,7 +677,48 @@
     "unit": "kg",
     "storeUnitPrice": 11.45,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/b3caed34-4b7f-41f9-b1a2-91c8b74709f1_m.png"
+    "image": "https://cdn.barbora.ee/products/b3caed34-4b7f-41f9-b1a2-91c8b74709f1_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nuudlid",
+      "unit": "200g",
+      "variety": "shirataki konjac tym",
+      "nameLower": "nuudlid shirataki konjac tym 200g",
+      "brand": "nuudlid",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "konjac nuudlid shirataki tym",
+      "descriptorOrder": [
+        "nuudlid",
+        "shirataki",
+        "konjac",
+        "tym"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nuudlid": "nuudlid",
+        "shirataki": "shirataki",
+        "konjac": "konjac",
+        "tym": "tym"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -222,7 +733,42 @@
     "unit": "kg",
     "storeUnitPrice": 5.96,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/698dd374-edb5-4c17-ac13-cb7acf9a7312_m.png"
+    "image": "https://cdn.barbora.ee/products/698dd374-edb5-4c17-ac13-cb7acf9a7312_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "munanuudlid",
+      "unit": "250g",
+      "variety": "santa maria",
+      "nameLower": "munanuudlid santa maria 250g",
+      "brand": "santa maria",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "munanuudlid",
+      "descriptorOrder": [
+        "munanuudlid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "munanuudlid": "munanuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -237,7 +783,45 @@
     "unit": "kg",
     "storeUnitPrice": 9.48,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/d937ccfb-c751-4b31-9cdb-5709ca800681_m.png"
+    "image": "https://cdn.barbora.ee/products/d937ccfb-c751-4b31-9cdb-5709ca800681_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tai",
+      "unit": "400g",
+      "variety": "thai choice",
+      "nameLower": "tai riisinuudlid lõig.thai choice 400g",
+      "brand": "thai choice",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lõig riisinuudlid tai",
+      "descriptorOrder": [
+        "tai",
+        "riisinuudlid",
+        "lõig"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tai": "tai",
+        "riisinuudlid": "riisinuudlid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -252,7 +836,48 @@
     "unit": "kg",
     "storeUnitPrice": 5.5,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/8cb6e0d6-1408-421c-8bdf-dba15b89fb7a_m.png"
+    "image": "https://cdn.barbora.ee/products/8cb6e0d6-1408-421c-8bdf-dba15b89fb7a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nuudlid",
+      "unit": "180g",
+      "variety": "ramen golden lion",
+      "nameLower": "nuudlid ramen golden lion 180g",
+      "brand": "nuudlid",
+      "size": "180g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "golden lion nuudlid ramen",
+      "descriptorOrder": [
+        "nuudlid",
+        "ramen",
+        "golden",
+        "lion"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nuudlid": "nuudlid",
+        "ramen": "ramen",
+        "golden": "golden",
+        "lion": "lion"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -267,7 +892,46 @@
     "unit": "kg",
     "storeUnitPrice": 4.95,
     "brand": null,
-    "image": "https://cdn.barbora.ee/products/cd1e7bb0-8f11-4eb6-8ac6-fed897b17be3_m.png"
+    "image": "https://cdn.barbora.ee/products/cd1e7bb0-8f11-4eb6-8ac6-fed897b17be3_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "udon",
+      "unit": "200g",
+      "variety": "golden lion",
+      "nameLower": "udon-nuudlid golden lion 200g",
+      "brand": "udon",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "golden lion nuudlid udon",
+      "descriptorOrder": [
+        "udon",
+        "nuudlid",
+        "golden",
+        "lion"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "golden": "golden",
+        "lion": "lion"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -282,7 +946,42 @@
     "unit": "l",
     "storeUnitPrice": 7.48,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/a4b6abc1-eba3-4060-8631-9467f87145cd_m.png"
+    "image": "https://cdn.barbora.ee/products/a4b6abc1-eba3-4060-8631-9467f87145cd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookoskreem",
+      "unit": "400ml",
+      "variety": "thai choice",
+      "nameLower": "kookoskreem thai-choice 400ml",
+      "brand": "thai choice",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookoskreem",
+      "descriptorOrder": [
+        "kookoskreem"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookoskreem": "kookoskreem"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -297,7 +996,44 @@
     "unit": "l",
     "storeUnitPrice": 6.38,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/af0c3450-cf39-401c-8cc2-5a4bf5f6d47b_m.png"
+    "image": "https://cdn.barbora.ee/products/af0c3450-cf39-401c-8cc2-5a4bf5f6d47b_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookoskreem",
+      "unit": "400ml",
+      "variety": "thai choice",
+      "nameLower": "kookoskreem väherasvane thai-choice 400ml",
+      "brand": "thai choice",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookoskreem väherasvane",
+      "descriptorOrder": [
+        "kookoskreem",
+        "väherasvane"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookoskreem": "kookoskreem",
+        "väherasvane": "väherasvane"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -312,7 +1048,42 @@
     "unit": "l",
     "storeUnitPrice": 7.73,
     "brand": "FUDO",
-    "image": "https://cdn.barbora.ee/products/23303f56-3918-4e81-ad50-7065f39bf161_m.png"
+    "image": "https://cdn.barbora.ee/products/23303f56-3918-4e81-ad50-7065f39bf161_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookosjook",
+      "unit": "400ml",
+      "variety": "fudo",
+      "nameLower": "kookosjook fudo 400ml",
+      "brand": "fudo",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookosjook",
+      "descriptorOrder": [
+        "kookosjook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookosjook": "kookosjook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -327,7 +1098,44 @@
     "unit": "l",
     "storeUnitPrice": 6.23,
     "brand": "BIONATURALIS",
-    "image": "https://cdn.barbora.ee/products/a2be0840-31f8-4b64-a6b1-c6c98adeaeeb_m.png"
+    "image": "https://cdn.barbora.ee/products/a2be0840-31f8-4b64-a6b1-c6c98adeaeeb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "orgaanile",
+      "unit": "400ml",
+      "variety": "bionaturalis",
+      "nameLower": "orgaanile kookosjook bionaturalis 400ml",
+      "brand": "bionaturalis",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookosjook orgaanile",
+      "descriptorOrder": [
+        "orgaanile",
+        "kookosjook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "orgaanile": "orgaanile",
+        "kookosjook": "kookosjook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -342,7 +1150,42 @@
     "unit": "l",
     "storeUnitPrice": 14.36,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/5720e06e-d47a-42d8-af00-4aed3b2eb87b_m.png"
+    "image": "https://cdn.barbora.ee/products/5720e06e-d47a-42d8-af00-4aed3b2eb87b_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookoskreem",
+      "unit": "250ml",
+      "variety": "santa maria",
+      "nameLower": "kookoskreem santa maria 250ml",
+      "brand": "santa maria",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookoskreem",
+      "descriptorOrder": [
+        "kookoskreem"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookoskreem": "kookoskreem"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -357,7 +1200,42 @@
     "unit": "l",
     "storeUnitPrice": 7.56,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/2dfc2e43-c950-4251-a643-da4320a59ffc_m.png"
+    "image": "https://cdn.barbora.ee/products/2dfc2e43-c950-4251-a643-da4320a59ffc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookosjook",
+      "unit": "250ml",
+      "variety": "santa maria",
+      "nameLower": "kookosjook santa maria 250ml",
+      "brand": "santa maria",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookosjook",
+      "descriptorOrder": [
+        "kookosjook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookosjook": "kookosjook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -372,7 +1250,42 @@
     "unit": "l",
     "storeUnitPrice": 7.16,
     "brand": "AROY-D",
-    "image": "https://cdn.barbora.ee/products/12d0457b-5d5d-4732-90e0-bce2bcf80a33_m.png"
+    "image": "https://cdn.barbora.ee/products/12d0457b-5d5d-4732-90e0-bce2bcf80a33_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookosjook",
+      "unit": "250ml",
+      "variety": "aroy d",
+      "nameLower": "kookosjook aroy-d 250ml",
+      "brand": "aroy-d",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookosjook",
+      "descriptorOrder": [
+        "kookosjook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookosjook": "kookosjook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -387,7 +1300,43 @@
     "unit": "l",
     "storeUnitPrice": 10.76,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/c1f2f6e4-e208-484d-9065-ce99bed0254e_m.png"
+    "image": "https://cdn.barbora.ee/products/c1f2f6e4-e208-484d-9065-ce99bed0254e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookosjook",
+      "unit": "250ml",
+      "variety": "santa maria",
+      "nameLower": "kookosjook väherasv.santa maria 250ml",
+      "brand": "santa maria",
+      "size": "250ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookosjook väherasv",
+      "descriptorOrder": [
+        "kookosjook",
+        "väherasv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookosjook": "kookosjook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -402,7 +1351,42 @@
     "unit": "l",
     "storeUnitPrice": 8.95,
     "brand": "KARA",
-    "image": "https://cdn.barbora.ee/products/2ad48c71-5cdf-4253-9a51-bdc059f7e11f_m.png"
+    "image": "https://cdn.barbora.ee/products/2ad48c71-5cdf-4253-9a51-bdc059f7e11f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookosjook",
+      "unit": "200ml",
+      "variety": "kara",
+      "nameLower": "kookosjook kara 200ml",
+      "brand": "kara",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kookosjook",
+      "descriptorOrder": [
+        "kookosjook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookosjook": "kookosjook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -417,7 +1401,45 @@
     "unit": "l",
     "storeUnitPrice": 6.23,
     "brand": "BIONATURALIS",
-    "image": "https://cdn.barbora.ee/products/d17622d7-f0bb-48cd-b90d-f95381ee59b5_m.png"
+    "image": "https://cdn.barbora.ee/products/d17622d7-f0bb-48cd-b90d-f95381ee59b5_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kookosjook",
+      "unit": "400ml",
+      "variety": "bionatur",
+      "nameLower": ".kookosjook bionatur k.karri 400ml",
+      "brand": "bionaturalis",
+      "size": "400ml",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bionatur k karri kookosjook",
+      "descriptorOrder": [
+        "kookosjook",
+        "bionatur",
+        "k",
+        "karri"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bionatur": "bionatur"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -432,7 +1454,46 @@
     "unit": "kg",
     "storeUnitPrice": 31.48,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/8c49112e-fbf1-437a-baeb-a79ff61714de_m.png"
+    "image": "https://cdn.barbora.ee/products/8c49112e-fbf1-437a-baeb-a79ff61714de_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisitaskud",
+      "unit": "135g",
+      "variety": "taco shells santa maria",
+      "nameLower": "maisitaskud taco shells santa maria 135g",
+      "brand": "santa maria",
+      "size": "135g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maisitaskud shells taco",
+      "descriptorOrder": [
+        "maisitaskud",
+        "taco",
+        "shells"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisitaskud": "maisitaskud",
+        "taco": "taco",
+        "shells": "shells"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -447,7 +1508,42 @@
     "unit": "kg",
     "storeUnitPrice": 10.09,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/c9f47f0c-4a5b-4260-96bd-1dd21275f5fb_m.png"
+    "image": "https://cdn.barbora.ee/products/c9f47f0c-4a5b-4260-96bd-1dd21275f5fb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisitortilla",
+      "unit": "336g",
+      "variety": "santa maria",
+      "nameLower": "maisitortilla santa maria 336g",
+      "brand": "santa maria",
+      "size": "336g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maisitortilla",
+      "descriptorOrder": [
+        "maisitortilla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisitortilla": "maisitortilla"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -462,7 +1558,42 @@
     "unit": "kg",
     "storeUnitPrice": 6.53,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/29a7e4e6-1d88-49b4-b798-7fb12c2c8d43_m.png"
+    "image": "https://cdn.barbora.ee/products/29a7e4e6-1d88-49b4-b798-7fb12c2c8d43_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tortilla",
+      "unit": "320g",
+      "variety": "santa maria",
+      "nameLower": "tortilla santa maria 320g",
+      "brand": "santa maria",
+      "size": "320g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tortilla",
+      "descriptorOrder": [
+        "tortilla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tortilla": "tortilla"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -477,7 +1608,43 @@
     "unit": "kg",
     "storeUnitPrice": 6.53,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/581ef711-e071-40a7-a24a-d687d3f94ef0_m.png"
+    "image": "https://cdn.barbora.ee/products/581ef711-e071-40a7-a24a-d687d3f94ef0_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täisteratortilla",
+      "unit": "320g",
+      "variety": "santa maria",
+      "nameLower": "täisteratortilla santa maria320g",
+      "brand": "santa maria",
+      "size": "320g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "täisteratortilla",
+      "descriptorOrder": [
+        "täisteratortilla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisteratortilla": "täisteratortilla",
+        "santa": "santa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -492,7 +1659,46 @@
     "unit": "kg",
     "storeUnitPrice": 10.75,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/73c34ec4-fc36-46e3-96da-5e6bf1d95d84_m.png"
+    "image": "https://cdn.barbora.ee/products/73c34ec4-fc36-46e3-96da-5e6bf1d95d84_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tortilla",
+      "unit": "371g",
+      "variety": "wrap original santa maria",
+      "nameLower": "tortilla wrap original santa maria 371g",
+      "brand": "santa maria",
+      "size": "371g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "originaal tortilla wrap",
+      "descriptorOrder": [
+        "tortilla",
+        "wrap",
+        "originaal"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tortilla": "tortilla",
+        "wrap": "wrap",
+        "originaal": "original"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -507,7 +1713,42 @@
     "unit": "kg",
     "storeUnitPrice": 10.98,
     "brand": "POCO LOCO",
-    "image": "https://cdn.barbora.ee/products/53d1a069-e672-46be-9816-d01a741aff2e_m.png"
+    "image": "https://cdn.barbora.ee/products/53d1a069-e672-46be-9816-d01a741aff2e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "wrap",
+      "unit": "245g",
+      "variety": "poco loco",
+      "nameLower": "wrap poco loco 4tk, 245g",
+      "brand": "poco loco",
+      "size": "245g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "wrap",
+      "descriptorOrder": [
+        "wrap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "wrap": "wrap"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "4",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -522,7 +1763,43 @@
     "unit": "kg",
     "storeUnitPrice": 14.97,
     "brand": "OLD EL PASO",
-    "image": "https://cdn.barbora.ee/products/a6560778-f9a3-4b6b-804c-2f48e439f60a_m.png"
+    "image": "https://cdn.barbora.ee/products/a6560778-f9a3-4b6b-804c-2f48e439f60a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tortillad",
+      "unit": "193g",
+      "variety": "old el paso",
+      "nameLower": "tortillad paadikujul.old el paso 193g",
+      "brand": "old el paso",
+      "size": "193g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "paadikujul tortillad",
+      "descriptorOrder": [
+        "tortillad",
+        "paadikujul"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tortillad": "tortillad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -537,7 +1814,42 @@
     "unit": "kg",
     "storeUnitPrice": 7.45,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/4c0270ad-e520-4b1a-85dc-8ab8862ea83d_m.png"
+    "image": "https://cdn.barbora.ee/products/4c0270ad-e520-4b1a-85dc-8ab8862ea83d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "minitortilla",
+      "unit": "200g",
+      "variety": "santa maria",
+      "nameLower": "minitortilla santa maria 200g",
+      "brand": "santa maria",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "minitortilla",
+      "descriptorOrder": [
+        "minitortilla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "minitortilla": "minitortilla"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -552,7 +1864,44 @@
     "unit": "kg",
     "storeUnitPrice": 7.75,
     "brand": "EESTI PAGAR",
-    "image": "https://cdn.barbora.ee/products/aae914e0-0770-4451-9a1e-9da9a46add68_m.png"
+    "image": "https://cdn.barbora.ee/products/aae914e0-0770-4451-9a1e-9da9a46add68_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "klassikaline",
+      "unit": "360g",
+      "variety": "pagar",
+      "nameLower": "klassikaline tortilla eesti pagar 360g",
+      "brand": "eesti pagar",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "klassikaline tortilla",
+      "descriptorOrder": [
+        "klassikaline",
+        "tortilla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "klassikaline": "klassikaline",
+        "tortilla": "tortilla"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -567,7 +1916,44 @@
     "unit": "kg",
     "storeUnitPrice": 7.75,
     "brand": "EESTI PAGAR",
-    "image": "https://cdn.barbora.ee/products/b7a16c9d-3932-4d7e-acfa-039bc2b8ba81_m.png"
+    "image": "https://cdn.barbora.ee/products/b7a16c9d-3932-4d7e-acfa-039bc2b8ba81_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "360g",
+      "variety": "pagar",
+      "nameLower": "täistera tortilla eesti pagar 360g",
+      "brand": "eesti pagar",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tortilla täistera",
+      "descriptorOrder": [
+        "täistera",
+        "tortilla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "tortilla": "tortilla"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -582,7 +1968,44 @@
     "unit": "kg",
     "storeUnitPrice": 10.98,
     "brand": "POCO LOCO",
-    "image": "https://cdn.barbora.ee/products/d8dc9121-816c-42fa-90b0-64c81860c8b6_m.png"
+    "image": "https://cdn.barbora.ee/products/d8dc9121-816c-42fa-90b0-64c81860c8b6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "täistera",
+      "unit": "245g",
+      "variety": "poco loco",
+      "nameLower": "täistera wrap poco loco 245g",
+      "brand": "poco loco",
+      "size": "245g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "täistera wrap",
+      "descriptorOrder": [
+        "täistera",
+        "wrap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täistera": "täistera",
+        "wrap": "wrap"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -597,7 +2020,44 @@
     "unit": "kg",
     "storeUnitPrice": 10.98,
     "brand": "POCO LOCO",
-    "image": "https://cdn.barbora.ee/products/b4fbcaf5-62b8-4bef-860e-c0125e8432fb_m.png"
+    "image": "https://cdn.barbora.ee/products/b4fbcaf5-62b8-4bef-860e-c0125e8432fb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mitmevilja",
+      "unit": "245g",
+      "variety": "poco loco",
+      "nameLower": "mitmevilja wrap poco loco 245g",
+      "brand": "poco loco",
+      "size": "245g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mitmevilja wrap",
+      "descriptorOrder": [
+        "mitmevilja",
+        "wrap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mitmevilja": "mitmevilja",
+        "wrap": "wrap"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -612,7 +2072,42 @@
     "unit": "kg",
     "storeUnitPrice": 6.46,
     "brand": "WELL DONE",
-    "image": "https://cdn.barbora.ee/products/4120e16b-35ea-4333-a95a-442f7f072f28_m.png"
+    "image": "https://cdn.barbora.ee/products/4120e16b-35ea-4333-a95a-442f7f072f28_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "tortiljad",
+      "unit": "370g",
+      "variety": "well done",
+      "nameLower": "tortiljad well done 6tk,370g",
+      "brand": "well done",
+      "size": "370g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tortiljad",
+      "descriptorOrder": [
+        "tortiljad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tortiljad": "tortiljad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "6",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -627,7 +2122,43 @@
     "unit": "kg",
     "storeUnitPrice": 6.73,
     "brand": "WELL DONE",
-    "image": "https://cdn.barbora.ee/products/298717e3-b673-4dcb-a4fd-97d8f30409ec_m.png"
+    "image": "https://cdn.barbora.ee/products/298717e3-b673-4dcb-a4fd-97d8f30409ec_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "tortiljad",
+      "unit": "370g",
+      "variety": "well done",
+      "nameLower": "tortiljad täistera.well done 6tk,370g",
+      "brand": "well done",
+      "size": "370g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tortiljad täistera",
+      "descriptorOrder": [
+        "tortiljad",
+        "täistera"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tortiljad": "tortiljad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "6",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -642,7 +2173,42 @@
     "unit": "kg",
     "storeUnitPrice": 7.19,
     "brand": "FAZER",
-    "image": "https://cdn.barbora.ee/products/c0187943-77f4-4eb5-925b-2b78d7297ee8_m.png"
+    "image": "https://cdn.barbora.ee/products/c0187943-77f4-4eb5-925b-2b78d7297ee8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisitortilla",
+      "unit": "360g",
+      "variety": "fazer",
+      "nameLower": "maisitortilla fazer 360g",
+      "brand": "fazer",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maisitortilla",
+      "descriptorOrder": [
+        "maisitortilla"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisitortilla": "maisitortilla"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -657,7 +2223,46 @@
     "unit": "kg",
     "storeUnitPrice": 8.29,
     "brand": "FAZER",
-    "image": "https://cdn.barbora.ee/products/d022bfab-8eec-4059-9a7f-ad071e08be04_m.png"
+    "image": "https://cdn.barbora.ee/products/d022bfab-8eec-4059-9a7f-ad071e08be04_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "minitortilla",
+      "unit": "240g",
+      "variety": "soft taco fazer",
+      "nameLower": "minitortilla soft taco fazer 240g",
+      "brand": "fazer",
+      "size": "240g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "minitortilla soft taco",
+      "descriptorOrder": [
+        "minitortilla",
+        "soft",
+        "taco"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "minitortilla": "minitortilla",
+        "soft": "soft",
+        "taco": "taco"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -672,7 +2277,45 @@
     "unit": "kg",
     "storeUnitPrice": 14.54,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/2f5deccd-5731-420b-8f7b-9b51a313e8d5_m.png"
+    "image": "https://cdn.barbora.ee/products/2f5deccd-5731-420b-8f7b-9b51a313e8d5_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tortilla",
+      "unit": "240g",
+      "variety": "santa maria",
+      "nameLower": "tortilla õhuke täister.santa maria 240g",
+      "brand": "santa maria",
+      "size": "240g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tortilla täister õhuke",
+      "descriptorOrder": [
+        "tortilla",
+        "õhuke",
+        "täister"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tortilla": "tortilla",
+        "õhuke": "õhuke"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -687,7 +2330,44 @@
     "unit": "kg",
     "storeUnitPrice": 14.3,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/ab5b3232-9f94-402d-a065-a302ff14e4a8_m.png"
+    "image": "https://cdn.barbora.ee/products/ab5b3232-9f94-402d-a065-a302ff14e4a8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tortilla",
+      "unit": "244g",
+      "variety": "santa maria",
+      "nameLower": "tortilla õhuke santa maria 244g",
+      "brand": "santa maria",
+      "size": "244g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tortilla õhuke",
+      "descriptorOrder": [
+        "tortilla",
+        "õhuke"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tortilla": "tortilla",
+        "õhuke": "õhuke"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -702,7 +2382,42 @@
     "unit": "kg",
     "storeUnitPrice": 27.5,
     "brand": "EXOTIC FOOD",
-    "image": "https://cdn.barbora.ee/products/ad2441bc-5384-43a5-8954-f301633da5b8_m.png"
+    "image": "https://cdn.barbora.ee/products/ad2441bc-5384-43a5-8954-f301633da5b8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisilehed",
+      "unit": "100g",
+      "variety": "exotic food",
+      "nameLower": "riisilehed exotic food 100g",
+      "brand": "exotic food",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisilehed",
+      "descriptorOrder": [
+        "riisilehed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisilehed": "riisilehed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -717,7 +2432,44 @@
     "unit": "kg",
     "storeUnitPrice": 9.95,
     "brand": "FUDO",
-    "image": "https://cdn.barbora.ee/products/14e7f86f-354b-4de5-9921-cb40dddfd9f4_m.png"
+    "image": "https://cdn.barbora.ee/products/14e7f86f-354b-4de5-9921-cb40dddfd9f4_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ingver",
+      "unit": "190g",
+      "variety": "fudo",
+      "nameLower": "ingver sushi fudo 190g",
+      "brand": "fudo",
+      "size": "190g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ingver sushi",
+      "descriptorOrder": [
+        "ingver",
+        "sushi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ingver": "ingver",
+        "sushi": "sushi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -732,7 +2484,44 @@
     "unit": "kg",
     "storeUnitPrice": 142.5,
     "brand": "FUDO",
-    "image": "https://cdn.barbora.ee/products/fe95c836-d5b1-443c-adb0-6f6a0ce26b63_m.png"
+    "image": "https://cdn.barbora.ee/products/fe95c836-d5b1-443c-adb0-6f6a0ce26b63_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nori",
+      "unit": "28g",
+      "variety": "fudo",
+      "nameLower": "nori lehed fudo 28g",
+      "brand": "fudo",
+      "size": "28g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lehed nori",
+      "descriptorOrder": [
+        "nori",
+        "lehed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nori": "nori",
+        "lehed": "lehed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -747,7 +2536,42 @@
     "unit": "kg",
     "storeUnitPrice": 25.9,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/dc9d7f25-0698-45b2-8a5c-3725f52a47e2_m.png"
+    "image": "https://cdn.barbora.ee/products/dc9d7f25-0698-45b2-8a5c-3725f52a47e2_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisipaber",
+      "unit": "100g",
+      "variety": "thai choice",
+      "nameLower": "riisipaber thai choice 100g",
+      "brand": "thai choice",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisipaber",
+      "descriptorOrder": [
+        "riisipaber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisipaber": "riisipaber"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -762,7 +2586,48 @@
     "unit": "kg",
     "storeUnitPrice": 206.43,
     "brand": "JAPANESE-CHOICE",
-    "image": "https://cdn.barbora.ee/products/46bfc308-2e2e-428f-95c2-aba389541a31_m.png"
+    "image": "https://cdn.barbora.ee/products/46bfc308-2e2e-428f-95c2-aba389541a31_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sushi",
+      "unit": "14g",
+      "variety": "nori japanese choice",
+      "nameLower": "sushi nori lehed japanese choice 5tk 14g",
+      "brand": "japanese-choice",
+      "size": "14g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lehed nori sushi",
+      "descriptorOrder": [
+        "sushi",
+        "nori",
+        "lehed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sushi": "sushi",
+        "nori": "nori",
+        "lehed": "lehed",
+        "japanese": "japanese",
+        "choice": "choice"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": "5",
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -777,7 +2642,44 @@
     "unit": "kg",
     "storeUnitPrice": 99.75,
     "brand": "SEN SOY",
-    "image": "https://cdn.barbora.ee/products/a32d3664-64ab-4c26-95bc-66dc23774170_m.png"
+    "image": "https://cdn.barbora.ee/products/a32d3664-64ab-4c26-95bc-66dc23774170_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "merevet",
+      "unit": "40g",
+      "variety": "kimchi sen soy",
+      "nameLower": "merevet.helbed kimchi sen soy 40g",
+      "brand": "sen soy",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "helbed kimchi merevet",
+      "descriptorOrder": [
+        "merevet",
+        "helbed",
+        "kimchi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kimchi": "kimchi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -792,7 +2694,44 @@
     "unit": "kg",
     "storeUnitPrice": 99.75,
     "brand": "SEN SOY",
-    "image": "https://cdn.barbora.ee/products/8c727c57-1f30-48c6-8891-a4b7b2e67186_m.png"
+    "image": "https://cdn.barbora.ee/products/8c727c57-1f30-48c6-8891-a4b7b2e67186_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "merevet",
+      "unit": "40g",
+      "variety": "wasabi sen soy",
+      "nameLower": "merevet.helbed wasabi sen soy 40g",
+      "brand": "sen soy",
+      "size": "40g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "helbed merevet wasabi",
+      "descriptorOrder": [
+        "merevet",
+        "helbed",
+        "wasabi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "wasabi": "wasabi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -807,7 +2746,44 @@
     "unit": "kg",
     "storeUnitPrice": 57.91,
     "brand": "FUDO",
-    "image": "https://cdn.barbora.ee/products/b5b28831-a505-4d99-b26d-f8b4ddca2943_m.png"
+    "image": "https://cdn.barbora.ee/products/b5b28831-a505-4d99-b26d-f8b4ddca2943_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "wasabi",
+      "unit": "43g",
+      "variety": "fudo",
+      "nameLower": "wasabi pasta fudo 43g",
+      "brand": "fudo",
+      "size": "43g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pasta wasabi",
+      "descriptorOrder": [
+        "wasabi",
+        "pasta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "wasabi": "wasabi",
+        "pasta": "pasta"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -822,7 +2798,44 @@
     "unit": "kg",
     "storeUnitPrice": 38.64,
     "brand": "SANTA MARIA",
-    "image": "https://cdn.barbora.ee/products/54aaba7f-9cb7-45df-8f68-9d32ba5ca468_m.png"
+    "image": "https://cdn.barbora.ee/products/54aaba7f-9cb7-45df-8f68-9d32ba5ca468_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punane",
+      "unit": "110g",
+      "variety": "santa maria punane",
+      "nameLower": "punane karripasta santa maria 110g",
+      "brand": "santa maria",
+      "size": "110g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "punane",
+      "fatPercent": null,
+      "descriptors": "karripasta punane",
+      "descriptorOrder": [
+        "punane",
+        "karripasta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punane": "punane",
+        "karripasta": "karripasta"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -837,7 +2850,44 @@
     "unit": "kg",
     "storeUnitPrice": 27.73,
     "brand": "THAI CHOICE",
-    "image": "https://cdn.barbora.ee/products/eca84e12-00fe-474a-86cc-edb0e53adb7c_m.png"
+    "image": "https://cdn.barbora.ee/products/eca84e12-00fe-474a-86cc-edb0e53adb7c_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punane",
+      "unit": "110g",
+      "variety": "thai choice punane",
+      "nameLower": "punane karripasta thai-choice 110g",
+      "brand": "thai choice",
+      "size": "110g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "punane",
+      "fatPercent": null,
+      "descriptors": "karripasta punane",
+      "descriptorOrder": [
+        "punane",
+        "karripasta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punane": "punane",
+        "karripasta": "karripasta"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -852,7 +2902,44 @@
     "unit": "kg",
     "storeUnitPrice": 29.8,
     "brand": "AROY-D",
-    "image": "https://cdn.barbora.ee/products/a89c869f-5cb7-46c8-adc4-64ee6d1e36b9_m.png"
+    "image": "https://cdn.barbora.ee/products/a89c869f-5cb7-46c8-adc4-64ee6d1e36b9_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karripasta",
+      "unit": "50g",
+      "variety": "aroy d punane",
+      "nameLower": "karripasta punane aroy-d 50g",
+      "brand": "aroy-d",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "punane",
+      "fatPercent": null,
+      "descriptors": "karripasta punane",
+      "descriptorOrder": [
+        "karripasta",
+        "punane"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karripasta": "karripasta",
+        "punane": "punane"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -867,6 +2954,43 @@
     "unit": "kg",
     "storeUnitPrice": 29.8,
     "brand": "AROY-D",
-    "image": "https://cdn.barbora.ee/products/26b21927-d821-443b-a72d-881f64703b9e_m.png"
+    "image": "https://cdn.barbora.ee/products/26b21927-d821-443b-a72d-881f64703b9e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "karripasta",
+      "unit": "50g",
+      "variety": "aroy d roheline",
+      "nameLower": "karripasta roheline aroy-d 50g",
+      "brand": "aroy-d",
+      "size": "50g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "roheline",
+      "fatPercent": null,
+      "descriptors": "karripasta roheline",
+      "descriptorOrder": [
+        "karripasta",
+        "roheline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "karripasta": "karripasta",
+        "roheline": "roheline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

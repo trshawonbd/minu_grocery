@@ -8,9 +8,53 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_704118_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-2-alates-6k-800g/p/704118",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "800g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil 2 alates 6k 800g",
+      "brand": "aptamil",
+      "size": "800g",
+      "variant": "2",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alates piimasegu",
+      "descriptorOrder": [
+        "piimasegu",
+        "alates"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "alates": "alates"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -21,9 +65,53 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7090380_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimapulber-aptamil-3-al-12-kuust-800g/p/7090380",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimapulber",
+      "unit": "800g",
+      "variety": "aptamil",
+      "nameLower": "piimapulber aptamil 3 al. 12. kuust 800g",
+      "brand": "aptamil",
+      "size": "800g",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuust piimapulber",
+      "descriptorOrder": [
+        "piimapulber",
+        "kuust"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimapulber": "piimapulber",
+        "kuust": "kuust"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -34,9 +122,52 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_704117_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-1-al-sun-800g/p/704117",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "800g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil 1 al. sün. 800g",
+      "brand": "aptamil",
+      "size": "800g",
+      "variant": "1",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "piimasegu sün",
+      "descriptorOrder": [
+        "piimasegu",
+        "sün"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -47,9 +178,55 @@
     "cardName": null,
     "brand": "Hipp",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7120140_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/vaikelastepiim-hipp-3-jr-comb-12-500g/p/7120140",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "väikelastepiim",
+      "unit": "500g",
+      "variety": "hipp jr comb",
+      "nameLower": "väikelastepiim hipp 3 jr comb 12+ 500g",
+      "brand": "hipp",
+      "size": "500g",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "comb jr väikelastepiim",
+      "descriptorOrder": [
+        "väikelastepiim",
+        "jr",
+        "comb"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "väikelastepiim": "väikelastepiim",
+        "jr": "jr",
+        "comb": "comb"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -60,9 +237,53 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7090382_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimapulber-aptamil-4-al-24-kuust-800g/p/7090382",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimapulber",
+      "unit": "800g",
+      "variety": "aptamil",
+      "nameLower": "piimapulber aptamil 4 al. 24. kuust 800g",
+      "brand": "aptamil",
+      "size": "800g",
+      "variant": "4",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuust piimapulber",
+      "descriptorOrder": [
+        "piimapulber",
+        "kuust"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimapulber": "piimapulber",
+        "kuust": "kuust"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -73,9 +294,50 @@
     "cardName": null,
     "brand": "Hipp",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7317258_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkup-segu-hipp-2-comb-al-6k-oko-800g/p/7317258",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jätkup",
+      "unit": "800g",
+      "variety": "hipp comb",
+      "nameLower": "jätkup.segu hipp 2 comb. al. 6k  800g",
+      "brand": "hipp",
+      "size": "800g",
+      "variant": "2",
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "comb jätkupiimasegu",
+      "descriptorOrder": [
+        "jätkupiimasegu",
+        "comb"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -86,9 +348,55 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_160746_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-comfort-sunnist-400g/p/160746",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "400g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil comfort sünnist 400g",
+      "brand": "aptamil",
+      "size": "400g",
+      "variant": "comfort",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "comfort piimasegu sünnist",
+      "descriptorOrder": [
+        "piimasegu",
+        "comfort",
+        "sünnist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "comfort": "comfort",
+        "sünnist": "sünnist"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -99,9 +407,53 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7043483_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-2-alates-6k-1-2kg/p/7043483",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "1200g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil 2 alates 6k 1,2kg",
+      "brand": "aptamil",
+      "size": "1200g",
+      "variant": "2",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alates piimasegu",
+      "descriptorOrder": [
+        "piimasegu",
+        "alates"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "alates": "alates"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -112,9 +464,51 @@
     "cardName": null,
     "brand": "Tutteli",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7281332_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-tutteli-2-al-6k-650g/p/7281332",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "650g",
+      "variety": "tutteli",
+      "nameLower": "piimasegu tutteli 2 al. 6k. 650g",
+      "brand": "tutteli",
+      "size": "650g",
+      "variant": "2",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "piimasegu",
+      "descriptorOrder": [
+        "piimasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -125,9 +519,53 @@
     "cardName": null,
     "brand": "Hipp",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7317281_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/p-segu-imikule-hipp-1-comb-al-sun-oko-800g/p/7317281",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "p",
+      "unit": "800g",
+      "variety": "hipp comb",
+      "nameLower": "p.segu imikule hipp 1 comb. al. sün.  800g",
+      "brand": "hipp",
+      "size": "800g",
+      "variant": "1",
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "comb imikule sün",
+      "descriptorOrder": [
+        "imikule",
+        "comb",
+        "sün"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "imikule": "imikule"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -138,9 +576,53 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_160747_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-comfort-2-al-6k-400g/p/160747",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "400g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil comfort 2 al. 6k 400g",
+      "brand": "aptamil",
+      "size": "400g",
+      "variant": "comfort2",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "comfort piimasegu",
+      "descriptorOrder": [
+        "piimasegu",
+        "comfort"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "comfort": "comfort"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -151,9 +633,53 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7281315_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkupiimasegu-tuttteli-3-al-1a-650g/p/7281315",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jätkupiimasegu",
+      "unit": "650g",
+      "variety": "tuttteli",
+      "nameLower": "jätkupiimasegu tuttteli 3 al. 1a. 650g",
+      "brand": "tuttteli",
+      "size": "650g",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jätkupiimasegu tuttteli",
+      "descriptorOrder": [
+        "jätkupiimasegu",
+        "tuttteli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jätkupiimasegu": "jätkupiimasegu",
+        "tuttteli": "tuttteli"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -164,9 +690,55 @@
     "cardName": null,
     "brand": "Nan",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7227056_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/eripiimasegu-imikutele-nan-lv-400g/p/7227056",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "eripiimasegu",
+      "unit": "400g",
+      "variety": "nan",
+      "nameLower": "eripiimasegu imikutele nan lv 400g",
+      "brand": "nan",
+      "size": "400g",
+      "variant": "lactose-free",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "eripiimasegu imikutele lv",
+      "descriptorOrder": [
+        "eripiimasegu",
+        "imikutele",
+        "lv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "eripiimasegu": "eripiimasegu",
+        "imikutele": "imikutele",
+        "lv": "lv"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -177,9 +749,57 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_160745_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-ar-alates-sunnist-400g/p/160745",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "400g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil ar alates sünnist 400g",
+      "brand": "aptamil",
+      "size": "400g",
+      "variant": "ar",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alates ar piimasegu sünnist",
+      "descriptorOrder": [
+        "piimasegu",
+        "ar",
+        "alates",
+        "sünnist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "ar": "ar",
+        "alates": "alates",
+        "sünnist": "sünnist"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -190,9 +810,52 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7156910_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-1-al-sun-400g/p/7156910",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "400g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil 1 al. sün. 400g",
+      "brand": "aptamil",
+      "size": "400g",
+      "variant": "1",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "piimasegu sün",
+      "descriptorOrder": [
+        "piimasegu",
+        "sün"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -203,9 +866,110 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7281316_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-tuttelis-1-al-sunnist-650g/p/7281316",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "650g",
+      "variety": "tuttelis",
+      "nameLower": "piimasegu tuttelis 1 al. sünnist 650g",
+      "brand": "tuttelis",
+      "size": "650g",
+      "variant": "1",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "piimasegu sünnist tuttelis",
+      "descriptorOrder": [
+        "piimasegu",
+        "tuttelis",
+        "sünnist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "tuttelis": "tuttelis",
+        "sünnist": "sünnist"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Kitsepiimasegu Kabrita1 0-6kuud 800g",
+    "price": 38.49,
+    "regularPrice": 38.49,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "KABRITA",
+    "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7260737_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/kitsepiimasegu-kabrita1-0-6kuud-800g/p/7260737",
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kitsepiimasegu",
+      "unit": "800g",
+      "variety": "kabrita",
+      "nameLower": "kitsepiimasegu kabrita1 0-6kuud 800g",
+      "brand": "kabrita",
+      "size": "800g",
+      "variant": "1",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kitsepiimasegu",
+      "descriptorOrder": [
+        "kitsepiimasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kitsepiimasegu": "kitsepiimasegu"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -216,22 +980,55 @@
     "cardName": null,
     "brand": "Hipp",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7309298_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/mahe-kun-kit-p-s-im-hipp-pre-0-400g/p/7309298",
-    "ean": null
-  },
-  {
-    "store": "Rimi",
-    "name": "Kitsepiimasegu Kabrita1 0-6kuud 800g",
-    "price": 38.49,
-    "regularPrice": 38.49,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": null,
-    "storeUnitPrice": null,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/kitsepiimasegu-kabrita1-0-6kuud-800g/p/7260737",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kun",
+      "unit": "400g",
+      "variety": "hipp pre",
+      "nameLower": " kun. kit.p.s. im. hipp pre 0+ 400g",
+      "brand": "hipp",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "im kit kun pre s",
+      "descriptorOrder": [
+        "kun",
+        "kit",
+        "s",
+        "im",
+        "pre"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pre": "pre"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -240,11 +1037,53 @@
     "regularPrice": 40.99,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "KABRITA",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7260738_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/kitsepiimasegu-kabrita3-12kuud-800g/p/7260738",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kitsepiimasegu",
+      "unit": "800g",
+      "variety": "kabrita",
+      "nameLower": "kitsepiimasegu kabrita3 12kuud 800g",
+      "brand": "kabrita",
+      "size": "800g",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kitsepiimasegu",
+      "descriptorOrder": [
+        "kitsepiimasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kitsepiimasegu": "kitsepiimasegu"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -255,9 +1094,53 @@
     "cardName": null,
     "brand": "Nan",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7320577_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/erip-segu-comfort-nan-al-sunnist-400g/p/7320577",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "erip",
+      "unit": "400g",
+      "variety": "nan",
+      "nameLower": "erip.segu comfort nan al.sünnist 400g",
+      "brand": "nan",
+      "size": "400g",
+      "variant": "comfort",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "comfort erip sünnist",
+      "descriptorOrder": [
+        "erip",
+        "comfort",
+        "sünnist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "comfort": "comfort"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -266,11 +1149,53 @@
     "regularPrice": 40.99,
     "cardPrice": null,
     "cardName": null,
-    "brand": null,
+    "brand": "KABRITA",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7260744_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/kitsepiimasegu-kabrita2-6-12kuud-800g/p/7260744",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kitsepiimasegu",
+      "unit": "800g",
+      "variety": "kabrita",
+      "nameLower": "kitsepiimasegu kabrita2 6-12kuud 800g",
+      "brand": "kabrita",
+      "size": "800g",
+      "variant": "2",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kitsepiimasegu",
+      "descriptorOrder": [
+        "kitsepiimasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kitsepiimasegu": "kitsepiimasegu"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -281,9 +1206,53 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7225242_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-aptamil-3-al-12-kuust-1-2kg/p/7225242",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "1200g",
+      "variety": "aptamil",
+      "nameLower": "piimasegu aptamil 3 al. 12. kuust 1,2kg",
+      "brand": "aptamil",
+      "size": "1200g",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuust piimasegu",
+      "descriptorOrder": [
+        "piimasegu",
+        "kuust"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "kuust": "kuust"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -294,9 +1263,55 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7281323_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkupiimasegu-tuttteli-4-junior-24k-300g/p/7281323",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jätkupiimasegu",
+      "unit": "300g",
+      "variety": "tuttteli junior",
+      "nameLower": "jätkupiimasegu tuttteli 4 junior 24k 300g",
+      "brand": "tuttteli",
+      "size": "300g",
+      "variant": "4",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "junior jätkupiimasegu tuttteli",
+      "descriptorOrder": [
+        "jätkupiimasegu",
+        "tuttteli",
+        "junior"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jätkupiimasegu": "jätkupiimasegu",
+        "tuttteli": "tuttteli",
+        "junior": "junior"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -307,9 +1322,52 @@
     "cardName": null,
     "brand": "Hipp",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7309299_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/mahe-kun-kit-p-s-im-hipp-2-6-400g/p/7309299",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kun",
+      "unit": "400g",
+      "variety": "hipp",
+      "nameLower": " kun. kit.p.s. im. hipp 2 6+ 400g",
+      "brand": "hipp",
+      "size": "400g",
+      "variant": "2",
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "im kit kun s",
+      "descriptorOrder": [
+        "kun",
+        "kit",
+        "s",
+        "im"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -320,9 +1378,54 @@
     "cardName": null,
     "brand": "Nan",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7320586_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimasegu-nan-optipro-plus4-al-2a-800g/p/7320586",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "800g",
+      "variety": "nan optipro plus",
+      "nameLower": "piimasegu  nan optipro plus4 al.2a 800g",
+      "brand": "nan",
+      "size": "800g",
+      "variant": "4",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "optipro piimasegu plus",
+      "descriptorOrder": [
+        "piimasegu",
+        "optipro",
+        "plus"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "optipro": "optipro"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -333,9 +1436,54 @@
     "cardName": null,
     "brand": "Nan",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7242700_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/ja-p-segu-optipro-nan-plus-2-al-6k-800g/p/7242700",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jä",
+      "unit": "800g",
+      "variety": "optipro nan plus",
+      "nameLower": "jä.p.segu optipro nan plus 2 al.6k 800g",
+      "brand": "nan",
+      "size": "800g",
+      "variant": "2",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jä optipro plus",
+      "descriptorOrder": [
+        "jä",
+        "optipro",
+        "plus"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "optipro": "optipro",
+        "plus": "plus"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -346,9 +1494,55 @@
     "cardName": null,
     "brand": "Nan",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7242702_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/jatkup-s-optipro-nan-plus-3-al-1a-800g/p/7242702",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jätkup",
+      "unit": "800g",
+      "variety": "optipro nan plus",
+      "nameLower": "jätkup.s. optipro nan plus 3 al 1a 800g",
+      "brand": "nan",
+      "size": "800g",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jätkupiimasegu optipro plus s",
+      "descriptorOrder": [
+        "jätkupiimasegu",
+        "s",
+        "optipro",
+        "plus"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "optipro": "optipro",
+        "plus": "plus"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -359,9 +1553,54 @@
     "cardName": null,
     "brand": "Nan",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7320578_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/piimas-optipro-nan-ha1-al-sunnist-400g/p/7320578",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimas",
+      "unit": "400g",
+      "variety": "optipro nan ha",
+      "nameLower": "piimas. optipro nan ha1 al.sünnist 400g",
+      "brand": "nan",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ha optipro piimas sünnist",
+      "descriptorOrder": [
+        "piimas",
+        "optipro",
+        "ha",
+        "sünnist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "optipro": "optipro"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -372,9 +1611,53 @@
     "cardName": null,
     "brand": "Nan",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7242689_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/breast-milk-substitutes/p-segu-optipro-nan-plus1-al-sunnist-800g/p/7242689",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "p",
+      "unit": "800g",
+      "variety": "optipro nan plus",
+      "nameLower": "p.segu optipro nan plus1 al.sünnist 800g",
+      "brand": "nan",
+      "size": "800g",
+      "variant": "1",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "optipro plus sünnist",
+      "descriptorOrder": [
+        "optipro",
+        "plus",
+        "sünnist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "optipro": "optipro"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -385,9 +1668,53 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7225209_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/liquid-breast-milk-substitutes/piimajook-aptamil-3-al-12-kuust-200ml/p/7225209",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimajook",
+      "unit": "200ml",
+      "variety": "aptamil",
+      "nameLower": "piimajook aptamil 3 al. 12 kuust 200ml",
+      "brand": "aptamil",
+      "size": "200ml",
+      "variant": "3",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuust piimajook",
+      "descriptorOrder": [
+        "piimajook",
+        "kuust"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimajook": "piimajook",
+        "kuust": "kuust"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "3",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Rimi",
@@ -398,8 +1725,54 @@
     "cardName": null,
     "brand": "Aptamil",
     "storeUnitPrice": null,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_7099203_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/liquid-breast-milk-substitutes/piimasegu-jook-aptamil-2-alates-6k-2x200ml/p/7099203",
-    "ean": null
+    "ean": null,
+    "impliedDescriptors": [
+      "p",
+      "segu"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimasegu",
+      "unit": "2x200ml",
+      "variety": "aptamil",
+      "nameLower": "piimasegu jook aptamil 2 alates 6k 2x200ml",
+      "brand": "aptamil",
+      "size": "2x200ml",
+      "variant": "2",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "alates jook piimasegu",
+      "descriptorOrder": [
+        "piimasegu",
+        "jook",
+        "alates"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimasegu": "piimasegu",
+        "jook": "jook",
+        "alates": "alates"
+      },
+      "impliedDescriptors": [
+        "p",
+        "segu"
+      ],
+      "strictPackaging": false,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "2",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

@@ -8,6 +8,7 @@
     "cardName": null,
     "brand": "Kalew",
     "storeUnitPrice": 1.09,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_100341_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/jahu-t-550-punane-kalew-1kg/p/100341",
     "ean": null,
@@ -27,8 +28,27 @@
       "colors": "punane",
       "fatPercent": null,
       "descriptors": "jahu punane t",
+      "descriptorOrder": [
+        "jahu",
+        "t",
+        "punane"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahu": "jahu",
+        "punane": "punane"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -40,6 +60,7 @@
     "cardName": null,
     "brand": "Kalew",
     "storeUnitPrice": 1.18,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_192954_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-korgeima-sordi-t-405-kalew-2kg/p/192954",
     "ean": null,
@@ -59,8 +80,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kõrgeima nisujahu sordi t",
+      "descriptorOrder": [
+        "nisujahu",
+        "kõrgeima",
+        "sordi",
+        "t"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu",
+        "kõrgeima": "kõrgeima",
+        "sordi": "sordi"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -72,6 +114,7 @@
     "cardName": null,
     "brand": "Veski Mati",
     "storeUnitPrice": 1.13,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_100356_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-eriti-hea-veski-mati-2kg/p/100356",
     "ean": null,
@@ -91,8 +134,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "eriti hea nisujahu",
+      "descriptorOrder": [
+        "nisujahu",
+        "eriti",
+        "hea"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu",
+        "eriti": "eriti",
+        "hea": "hea"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -104,6 +167,7 @@
     "cardName": null,
     "brand": "Kalew",
     "storeUnitPrice": 1.03,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_106604_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-t-550-kalew-2kg/p/106604",
     "ean": null,
@@ -123,8 +187,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "nisujahu t",
+      "descriptorOrder": [
+        "nisujahu",
+        "t"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -136,6 +217,7 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 0.32,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816162_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-rimi-smart-tuup-812-2kg/p/816162",
     "ean": null,
@@ -155,8 +237,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "nisujahu tüüp",
+      "descriptorOrder": [
+        "nisujahu",
+        "tüüp"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu",
+        "tüüp": "tüüp"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -168,6 +268,7 @@
     "cardName": null,
     "brand": "Kalew",
     "storeUnitPrice": 1.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103334_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-t-405-kalew-1kg/p/103334",
     "ean": null,
@@ -187,8 +288,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "nisujahu t",
+      "descriptorOrder": [
+        "nisujahu",
+        "t"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -200,6 +318,7 @@
     "cardName": null,
     "brand": "Tartu Mill",
     "storeUnitPrice": 4.37,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_155118_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/kamajahu-tartu-mill-400g/p/155118",
     "ean": null,
@@ -219,8 +338,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kamajahu",
+      "descriptorOrder": [
+        "kamajahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kamajahu": "kamajahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -232,6 +367,7 @@
     "cardName": null,
     "brand": "Tartu Mill",
     "storeUnitPrice": 3.97,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_155212_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/jahusegud/pitsajahu-tartu-mill-400g/p/155212",
     "ean": null,
@@ -251,8 +387,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pitsajahu",
+      "descriptorOrder": [
+        "pitsajahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsajahu": "pitsajahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -264,6 +416,7 @@
     "cardName": null,
     "brand": "Salling",
     "storeUnitPrice": 19.27,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816816_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/mandlijahu-salling-150g/p/816816",
     "ean": null,
@@ -283,8 +436,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "mandlijahu",
+      "descriptorOrder": [
+        "mandlijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mandlijahu": "mandlijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -296,6 +465,7 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 15.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_149466_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/maisitarklis-gustin-200g/p/149466",
     "ean": null,
@@ -315,8 +485,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "gustin maisitärklis",
+      "descriptorOrder": [
+        "maisitärklis",
+        "gustin"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisitärklis": "maisitärklis",
+        "gustin": "gustin"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -328,6 +516,7 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 3.22,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_817151_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/kartulitarklis-rimi-smart-400g/p/817151",
     "ean": null,
@@ -347,8 +536,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kartulitärklis",
+      "descriptorOrder": [
+        "kartulitärklis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulitärklis": "kartulitärklis"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -360,6 +565,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 0.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_801505_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-405d-rimi-2kg/p/801505",
     "ean": null,
@@ -379,8 +585,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "d nisujahu",
+      "descriptorOrder": [
+        "nisujahu",
+        "d"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -392,6 +615,7 @@
     "cardName": null,
     "brand": "Veski Mati",
     "storeUnitPrice": 2.75,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1004032_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/kaerajahu-taistera-veski-mati-1kg/p/1004032",
     "ean": null,
@@ -411,8 +635,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kaerajahu täistera",
+      "descriptorOrder": [
+        "kaerajahu",
+        "täistera"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerajahu": "kaerajahu",
+        "täistera": "täistera"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -424,6 +666,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 0.99,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_801506_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-405d-rimi-1kg/p/801506",
     "ean": null,
@@ -443,8 +686,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "d nisujahu",
+      "descriptorOrder": [
+        "nisujahu",
+        "d"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -456,6 +716,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 3.72,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_808468_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/jahusegud/pannkoogijahu-rimi-400g/p/808468",
     "ean": null,
@@ -475,40 +736,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pannkoogijahu",
+      "descriptorOrder": [
+        "pannkoogijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pannkoogijahu": "pannkoogijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Nisujahu Eriti Hea Veski Mati 1kg",
-    "price": 1.45,
-    "regularPrice": 1.45,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Veski Mati",
-    "storeUnitPrice": 1.45,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-eriti-hea-veski-mati-1kg/p/100232",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "nisujahu",
-      "unit": "1000g",
-      "variety": "eriti hea veski mati",
-      "nameLower": "nisujahu eriti hea veski mati 1kg",
-      "brand": "veski mati",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "eriti hea nisujahu",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -520,6 +765,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 0.73,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815163_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-t-550-rimi-2kg/p/815163",
     "ean": null,
@@ -539,8 +785,78 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "nisujahu t",
+      "descriptorOrder": [
+        "nisujahu",
+        "t"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Nisujahu Eriti Hea Veski Mati 1kg",
+    "price": 1.45,
+    "regularPrice": 1.45,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Veski Mati",
+    "storeUnitPrice": 1.45,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_100232_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-eriti-hea-veski-mati-1kg/p/100232",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nisujahu",
+      "unit": "1000g",
+      "variety": "eriti hea veski mati",
+      "nameLower": "nisujahu eriti hea veski mati 1kg",
+      "brand": "veski mati",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "eriti hea nisujahu",
+      "descriptorOrder": [
+        "nisujahu",
+        "eriti",
+        "hea"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu",
+        "eriti": "eriti",
+        "hea": "hea"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -552,6 +868,7 @@
     "cardName": null,
     "brand": "Rimi GreatLife",
     "storeUnitPrice": 18.3,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812822_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/mandlijahu-rimi-greatlife-300g/p/812822",
     "ean": null,
@@ -571,8 +888,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "mandlijahu",
+      "descriptorOrder": [
+        "mandlijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mandlijahu": "mandlijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -584,6 +917,7 @@
     "cardName": null,
     "brand": "Tartu Mill",
     "storeUnitPrice": 1.33,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_155205_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/rukkijahu/rukkitaisterajahu-tartu-mill-1-5kg/p/155205",
     "ean": null,
@@ -603,8 +937,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rukkitäisterajahu",
+      "descriptorOrder": [
+        "rukkitäisterajahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkitäisterajahu": "rukkitäisterajahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -616,6 +966,7 @@
     "cardName": null,
     "brand": "Tartu Mill",
     "storeUnitPrice": 4.22,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_171923_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/rukkikama-tartu-mill-400g/p/171923",
     "ean": null,
@@ -635,8 +986,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rukkikama",
+      "descriptorOrder": [
+        "rukkikama"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkikama": "rukkikama"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -648,6 +1015,7 @@
     "cardName": null,
     "brand": "Veski Mati",
     "storeUnitPrice": 2.69,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_185396_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/taisteraspeltajahu-veski-mati-1kg/p/185396",
     "ean": null,
@@ -667,8 +1035,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "täisteraspeltajahu",
+      "descriptorOrder": [
+        "täisteraspeltajahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "täisteraspeltajahu": "täisteraspeltajahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -680,6 +1064,7 @@
     "cardName": null,
     "brand": "Veski Mati",
     "storeUnitPrice": 2.39,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_104572_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/riisijahu-veski-mati-1kg/p/104572",
     "ean": null,
@@ -699,8 +1084,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "riisijahu",
+      "descriptorOrder": [
+        "riisijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisijahu": "riisijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -712,6 +1113,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 2.15,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815466_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/kaerajahu-taistera-rimi-1kg/p/815466",
     "ean": null,
@@ -731,8 +1133,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kaerajahu täistera",
+      "descriptorOrder": [
+        "kaerajahu",
+        "täistera"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kaerajahu": "kaerajahu",
+        "täistera": "täistera"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -744,6 +1164,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 3.72,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_808450_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/jahusegud/ulepannikoogijahu-rimi-400g/p/808450",
     "ean": null,
@@ -763,8 +1184,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ülepannikoogijahu",
+      "descriptorOrder": [
+        "ülepannikoogijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ülepannikoogijahu": "ülepannikoogijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -776,6 +1213,7 @@
     "cardName": null,
     "brand": "Kalew",
     "storeUnitPrice": 5.62,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1022160_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/jahusegud/pannkoogijahu-kalew-400g/p/1022160",
     "ean": null,
@@ -795,8 +1233,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pannkoogijahu",
+      "descriptorOrder": [
+        "pannkoogijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pannkoogijahu": "pannkoogijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -808,6 +1262,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 0.94,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816577_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-rimi-tuup-550c-900g/p/816577",
     "ean": null,
@@ -827,8 +1282,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "c nisujahu tüüp",
+      "descriptorOrder": [
+        "nisujahu",
+        "tüüp",
+        "c"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu",
+        "tüüp": "tüüp"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -840,6 +1314,7 @@
     "cardName": null,
     "brand": "La Molisana",
     "storeUnitPrice": 2.25,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023794_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/nisujahu/nisujahu-lamolisana-00-1kg/p/1023794",
     "ean": null,
@@ -859,8 +1334,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "lamolisana nisujahu",
+      "descriptorOrder": [
+        "nisujahu",
+        "lamolisana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "nisujahu": "nisujahu",
+        "lamolisana": "lamolisana"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "00",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -872,6 +1365,7 @@
     "cardName": null,
     "brand": "Salling Eko",
     "storeUnitPrice": 6.22,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816817_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/tatrajahu-salling-eko-oko-400g/p/816817",
     "ean": null,
@@ -883,16 +1377,32 @@
       "type": "tatrajahu",
       "unit": "400g",
       "variety": "salling eko",
-      "nameLower": "tatrajahu salling eko öko 400g",
+      "nameLower": "tatrajahu salling eko  400g",
       "brand": "salling eko",
       "size": "400g",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "mahe",
       "colors": "",
       "fatPercent": null,
       "descriptors": "tatrajahu",
+      "descriptorOrder": [
+        "tatrajahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatrajahu": "tatrajahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -904,6 +1414,7 @@
     "cardName": null,
     "brand": "Veski Mati",
     "storeUnitPrice": 1.89,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_104571_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/muud-jahud-ja-tarklis/maisijahu-veski-mati-1kg/p/104571",
     "ean": null,
@@ -923,8 +1434,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "maisijahu",
+      "descriptorOrder": [
+        "maisijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisijahu": "maisijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -936,6 +1463,7 @@
     "cardName": null,
     "brand": "Kalew",
     "storeUnitPrice": 5.62,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1022143_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/jahusegud/ulepannikoogijahu-kalew-400g/p/1022143",
     "ean": null,
@@ -955,8 +1483,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ülepannikoogijahu",
+      "descriptorOrder": [
+        "ülepannikoogijahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ülepannikoogijahu": "ülepannikoogijahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -968,6 +1512,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 1.06,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_816024_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/rukkijahu/rukkijahu-taistera-rimi-1-75kg/p/816024",
     "ean": null,
@@ -987,40 +1532,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rukkijahu täistera",
+      "descriptorOrder": [
+        "rukkijahu",
+        "täistera"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkijahu": "rukkijahu",
+        "täistera": "täistera"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
-    }
-  },
-  {
-    "store": "Rimi",
-    "name": "Rukkijahu täistera Rimi 1kg",
-    "price": 1.35,
-    "regularPrice": 1.35,
-    "cardPrice": null,
-    "cardName": null,
-    "brand": "Rimi",
-    "storeUnitPrice": 1.35,
-    "currency": "EUR",
-    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/rukkijahu/rukkijahu-taistera-rimi-1kg/p/815149",
-    "ean": null,
-    "strictPackaging": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "rukkijahu",
-      "unit": "1000g",
-      "variety": "rimi",
-      "nameLower": "rukkijahu täistera rimi 1kg",
-      "brand": "rimi",
-      "size": "1000g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "rukkijahu täistera",
-      "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1032,6 +1563,7 @@
     "cardName": null,
     "brand": "Rimi Free From",
     "storeUnitPrice": 9.17,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815628_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/eritoitumine/gluteenivabad-jahud-ja-jahusegud/kookosjahu-rimi-free-from-300g/p/815628",
     "ean": null,
@@ -1051,8 +1583,75 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kookosjahu",
+      "descriptorOrder": [
+        "kookosjahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookosjahu": "kookosjahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Rimi",
+    "name": "Rukkijahu täistera Rimi 1kg",
+    "price": 1.35,
+    "regularPrice": 1.35,
+    "cardPrice": null,
+    "cardName": null,
+    "brand": "Rimi",
+    "storeUnitPrice": 1.35,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815149_PCE_EE",
+    "currency": "EUR",
+    "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/rukkijahu/rukkijahu-taistera-rimi-1kg/p/815149",
+    "ean": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "rukkijahu",
+      "unit": "1000g",
+      "variety": "rimi",
+      "nameLower": "rukkijahu täistera rimi 1kg",
+      "brand": "rimi",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "rukkijahu täistera",
+      "descriptorOrder": [
+        "rukkijahu",
+        "täistera"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rukkijahu": "rukkijahu",
+        "täistera": "täistera"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1064,6 +1663,7 @@
     "cardName": null,
     "brand": "City Taste",
     "storeUnitPrice": 5.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1015508_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/jahu-ja-jahusegud/jahusegud/jahus-city-taste-ameerika-stiil-pannk-400g/p/1015508",
     "ean": null,
@@ -1083,8 +1683,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ameerika jahus pannk stiil",
+      "descriptorOrder": [
+        "jahus",
+        "ameerika",
+        "stiil",
+        "pannk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ameerika": "ameerika"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1096,6 +1715,7 @@
     "cardName": null,
     "brand": "Rimi Free From",
     "storeUnitPrice": 8.83,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_815619_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/eritoitumine/gluteenivabad-jahud-ja-jahusegud/korvitsaseemnejahu-rimi-free-from-300g/p/815619",
     "ean": null,
@@ -1115,8 +1735,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kõrvitsaseemnejahu",
+      "descriptorOrder": [
+        "kõrvitsaseemnejahu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kõrvitsaseemnejahu": "kõrvitsaseemnejahu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1128,6 +1764,7 @@
     "cardName": null,
     "brand": "Rimi Smart",
     "storeUnitPrice": 0.67,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_812369_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/suhkur-rimi-smart-1kg/p/812369",
     "ean": null,
@@ -1147,8 +1784,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "suhkur",
+      "descriptorOrder": [
+        "suhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkur": "suhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1160,6 +1813,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 2.99,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_813219_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/pruun-suhkur-rimi-1kg/p/813219",
     "ean": null,
@@ -1179,8 +1833,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pruun suhkur",
+      "descriptorOrder": [
+        "pruun",
+        "suhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "suhkur": "suhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1192,6 +1864,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 3.18,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_813208_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/pruun-suhkur-rimi-500g/p/813208",
     "ean": null,
@@ -1211,8 +1884,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pruun suhkur",
+      "descriptorOrder": [
+        "pruun",
+        "suhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "suhkur": "suhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1224,6 +1915,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 0.99,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_801045_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/suhkur-rimi-1kg/p/801045",
     "ean": null,
@@ -1243,8 +1935,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "suhkur",
+      "descriptorOrder": [
+        "suhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkur": "suhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1256,6 +1964,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 0.89,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_165367_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/suhkur-dan-sukker-1kg/p/165367",
     "ean": null,
@@ -1275,8 +1984,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "suhkur",
+      "descriptorOrder": [
+        "suhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkur": "suhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1288,6 +2013,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 3.59,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_159776_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/roosuhkur-rafineerimata-dansukker-750g/p/159776",
     "ean": null,
@@ -1307,8 +2033,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "dansukker rafineerimata roosuhkur",
+      "descriptorOrder": [
+        "roosuhkur",
+        "rafineerimata",
+        "dansukker"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "roosuhkur": "roosuhkur",
+        "rafineerimata": "rafineerimata",
+        "dansukker": "dansukker"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1320,6 +2066,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 2.89,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103680_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/suhkur-moosisuhkur-dan-sukker-1kg/p/103680",
     "ean": null,
@@ -1339,8 +2086,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "moosisuhkur suhkur",
+      "descriptorOrder": [
+        "suhkur",
+        "moosisuhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkur": "suhkur",
+        "moosisuhkur": "moosisuhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1352,6 +2117,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 3.9,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103248_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/fariinsuhkur-dansukker-500g/p/103248",
     "ean": null,
@@ -1371,8 +2137,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "dansukker fariinsuhkur",
+      "descriptorOrder": [
+        "fariinsuhkur",
+        "dansukker"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fariinsuhkur": "fariinsuhkur",
+        "dansukker": "dansukker"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1384,6 +2168,7 @@
     "cardName": null,
     "brand": null,
     "storeUnitPrice": 3.78,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_179763_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/pruun-suhkur-demerara-500g/p/179763",
     "ean": null,
@@ -1403,8 +2188,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "demerara pruun suhkur",
+      "descriptorOrder": [
+        "pruun",
+        "suhkur",
+        "demerara"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "suhkur": "suhkur",
+        "demerara": "demerara"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1416,6 +2221,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 3.98,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_103242_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/tukksuhkur-mini-dansukker-500g/p/103242",
     "ean": null,
@@ -1435,8 +2241,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "dansukker mini tükksuhkur",
+      "descriptorOrder": [
+        "tükksuhkur",
+        "mini",
+        "dansukker"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tükksuhkur": "tükksuhkur",
+        "mini": "mini",
+        "dansukker": "dansukker"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1448,6 +2274,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 4.39,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_140112_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/marmelaadisuhkur-dansukker-330g/p/140112",
     "ean": null,
@@ -1467,8 +2294,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "dansukker marmelaadisuhkur",
+      "descriptorOrder": [
+        "marmelaadisuhkur",
+        "dansukker"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "marmelaadisuhkur": "marmelaadisuhkur",
+        "dansukker": "dansukker"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1480,6 +2325,7 @@
     "cardName": null,
     "brand": "I Love Eco",
     "storeUnitPrice": 14.72,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_814060_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/okoloogiline-kookossuhkur-i-love-eco-400g/p/814060",
     "ean": null,
@@ -1488,19 +2334,35 @@
       "ean": null,
       "isProduce": false,
       "hasBrand": false,
-      "type": "ökoloogiline",
+      "type": "kookossuhkur",
       "unit": "400g",
       "variety": "i love eco",
-      "nameLower": "ökoloogiline kookossuhkur i love eco 400g",
+      "nameLower": " kookossuhkur i love eco 400g",
       "brand": "i love eco",
       "size": "400g",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "mahe",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "kookossuhkur ökoloogiline",
+      "descriptors": "kookossuhkur",
+      "descriptorOrder": [
+        "kookossuhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kookossuhkur": "kookossuhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1512,6 +2374,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 19.93,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_803687_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/pruun-suhkur-rimi-50x3g/p/803687",
     "ean": null,
@@ -1531,8 +2394,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "pruun suhkur",
+      "descriptorOrder": [
+        "pruun",
+        "suhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "suhkur": "suhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1544,6 +2425,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 6.47,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_170847_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/muscovado-suhkur-tume-dansukker-400g/p/170847",
     "ean": null,
@@ -1563,8 +2445,30 @@
       "colors": "tume",
       "fatPercent": null,
       "descriptors": "dansukker muscovado suhkur tume",
+      "descriptorOrder": [
+        "muscovado",
+        "suhkur",
+        "tume",
+        "dansukker"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "muscovado": "muscovado",
+        "suhkur": "suhkur",
+        "tume": "tume",
+        "dansukker": "dansukker"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1576,6 +2480,7 @@
     "cardName": null,
     "brand": "Rimi",
     "storeUnitPrice": 19.93,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_803686_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/suhkur-rimi-50x3g/p/803686",
     "ean": null,
@@ -1595,8 +2500,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "suhkur",
+      "descriptorOrder": [
+        "suhkur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkur": "suhkur"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1608,6 +2529,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 3.29,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_137399_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/suhkur-valge-dansukker-okoloogiline-1kg/p/137399",
     "ean": null,
@@ -1619,16 +2541,36 @@
       "type": "suhkur",
       "unit": "1000g",
       "variety": "dansukker valge",
-      "nameLower": "suhkur valge dansukker ökoloogiline 1kg",
+      "nameLower": "suhkur valge dansukker  1kg",
       "brand": "dan sukker",
       "size": "1000g",
       "variant": null,
-      "qualifiers": "",
+      "qualifiers": "mahe",
       "colors": "valge",
       "fatPercent": null,
-      "descriptors": "dansukker suhkur valge ökoloogiline",
+      "descriptors": "dansukker suhkur valge",
+      "descriptorOrder": [
+        "suhkur",
+        "valge",
+        "dansukker"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suhkur": "suhkur",
+        "valge": "valge",
+        "dansukker": "dansukker"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1640,6 +2582,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 5.18,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_105495_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/tukksuhkur-tume-dansukker-fairtrade-500g/p/105495",
     "ean": null,
@@ -1659,8 +2602,30 @@
       "colors": "tume",
       "fatPercent": null,
       "descriptors": "dansukker fairtrade tume tükksuhkur",
+      "descriptorOrder": [
+        "tükksuhkur",
+        "tume",
+        "dansukker",
+        "fairtrade"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tükksuhkur": "tükksuhkur",
+        "tume": "tume",
+        "dansukker": "dansukker",
+        "fairtrade": "fairtrade"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1672,6 +2637,7 @@
     "cardName": null,
     "brand": "Dan Sukker",
     "storeUnitPrice": 3.93,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1006562_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/peedisuhkur-okoloogilne-dansukker-750g/p/1006562",
     "ean": null,
@@ -1691,8 +2657,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "dansukker peedisuhkur ökoloogilne",
+      "descriptorOrder": [
+        "peedisuhkur",
+        "ökoloogilne",
+        "dansukker"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peedisuhkur": "peedisuhkur",
+        "ökoloogilne": "ökoloogilne",
+        "dansukker": "dansukker"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1704,6 +2690,7 @@
     "cardName": null,
     "brand": "Alvo",
     "storeUnitPrice": 8.18,
+    "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_171908_PCE_EE",
     "currency": "EUR",
     "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/suhkur/fruktoos-alvo-500g/p/171908",
     "ean": null,
@@ -1723,8 +2710,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "fruktoos",
+      "descriptorOrder": [
+        "fruktoos"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fruktoos": "fruktoos"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": false
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   }
 ]

@@ -11,7 +11,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/0be831c3-6ea4-4736-b6fa-900adaccd3f8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "500g",
+      "variety": "risotto mediterraneo bosto",
+      "nameLower": "riis risotto mediterraneo bosto 500g",
+      "brand": "bosto",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mediterraneo riis risotto",
+      "descriptorOrder": [
+        "riis",
+        "risotto",
+        "mediterraneo"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "risotto": "risotto",
+        "mediterraneo": "mediterraneo"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -25,7 +65,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/622735e9-c4db-4a1a-9e13-056ab64486b5_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateral",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pikateral. hautatud riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hautatud pikateral riis",
+      "descriptorOrder": [
+        "pikateral",
+        "hautatud",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hautatud": "hautatud",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -39,7 +118,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.18,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/aa077be8-a0d9-4884-8625-4ab87de7c352_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pikateraline riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -53,7 +170,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.5,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/519c9afe-58ec-4e59-afe8-0f23efe5a807_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pikateraline pruun riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline pruun riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -67,7 +224,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/dc5c4b41-a22a-44b3-9177-869dc20b9fc6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "basmati riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -81,7 +276,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/f0015d9c-519c-4b71-bfdd-296d17b4dfce_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiini",
+      "unit": "4x125g",
+      "variety": "thai royal bosto",
+      "nameLower": "jasmiini riis thai royal bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis royal thai",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis",
+        "thai",
+        "royal"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis",
+        "thai": "thai",
+        "royal": "royal"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -95,7 +332,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.73,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/1f1b4279-4be2-4ec6-b5b1-3a96c0879c4b_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "basmati galinta",
+      "nameLower": "riis basmati galinta 4x100g",
+      "brand": "galinta",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "riis",
+        "basmati"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "basmati": "basmati"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -109,7 +384,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.73,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/5499ae36-a79d-47ae-a754-d2443fe0a13d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsik",
+      "unit": "400g",
+      "variety": "galinta",
+      "nameLower": "metsik  riis galinta 400g",
+      "brand": "galinta",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsik riis",
+      "descriptorOrder": [
+        "metsik",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsik": "metsik",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -123,7 +436,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.3,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/0337948d-201a-4489-8f26-1e020c4375dd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "500g",
+      "variety": "risotto arborio riso scotti",
+      "nameLower": "riis risotto arborio riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arborio riis risotto",
+      "descriptorOrder": [
+        "riis",
+        "risotto",
+        "arborio"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "risotto": "risotto",
+        "arborio": "arborio"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -137,7 +490,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.35,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/607c7dea-3e06-4d00-95d9-fb82a6eba317_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "pikateraline riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -151,7 +542,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.39,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/fbc68846-132e-4536-a44e-36ebf2e57332_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": " riis baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -165,7 +592,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.12,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/1cb863db-b607-451f-b5ce-1f603483ea49_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "pikateraline riis baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -179,7 +644,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/ad73ae9d-69bf-4772-8add-7adf92c0af4d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": " riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -193,7 +694,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.78,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/02308f9e-d299-4b41-9677-30149808a3fb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risoto",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "risoto riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis risoto",
+      "descriptorOrder": [
+        "risoto",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risoto": "risoto",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -207,7 +746,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.78,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/637b1845-d06d-468d-9f2b-6d2ddf233847_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "basmati riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -221,7 +798,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.98,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/25b874a3-c944-4cf0-8418-9bf96a6770e2_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiini",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "jasmiini riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -235,7 +850,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.73,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/47f8658e-0170-409d-8097-b1e57525eb99_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ümarateraline",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "ümarateraline riis baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis ümarateraline",
+      "descriptorOrder": [
+        "ümarateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ümarateraline": "ümarateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -249,7 +902,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.53,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/95e518f2-3994-412e-a50b-cdccd19ef32a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "pikateraline riis tartu mill1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis",
+        "tartu": "tartu"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -263,7 +955,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.92,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/a65f1ca9-d9bb-4d81-a45a-18397147020e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": " riis tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -277,7 +1005,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 19,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/bbc260d0-3d37-4d56-9657-303d31de5cda_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "210g",
+      "variety": "riso scotti",
+      "nameLower": "risotoriis seentega riso scotti 210g",
+      "brand": "riso scotti",
+      "size": "210g",
+      "variant": null,
+      "qualifiers": "seentega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "risotoriis seentega",
+      "descriptorOrder": [
+        "risotoriis",
+        "seentega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risotoriis": "risotoriis",
+        "seentega": "seentega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -291,7 +1057,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.78,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/c92eea0e-9171-4d66-93fe-8398478dbc72_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "riso scotti",
+      "nameLower": "pikateraline riis riso scotti 4x125g",
+      "brand": "riso scotti",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -305,7 +1109,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.58,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/31570750-7bbe-4e05-97c5-632dfd37a0bd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "eksoot",
+      "unit": "4x125g",
+      "variety": "basmati riso scotti",
+      "nameLower": "eksoot. basmati riis riso scotti 4x125g",
+      "brand": "riso scotti",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati eksoot riis",
+      "descriptorOrder": [
+        "eksoot",
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -319,7 +1162,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.78,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/892ebd82-0b1b-4129-a720-e68788cdf468_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x125g",
+      "variety": "tartu mill",
+      "nameLower": " riis tartu mill 4x125g",
+      "brand": "tartu mill",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -333,7 +1212,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.38,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/a00cd537-8ece-4882-a208-b045c82fde68_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "tartu mill",
+      "nameLower": "pikateraline riis tartu mill 4x 125g",
+      "brand": "tartu mill",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -347,7 +1264,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.78,
-    "brand": "JAPANESE-CHOICE"
+    "brand": "JAPANESE-CHOICE",
+    "image": "https://cdn.barbora.ee/products/abe3954b-0fac-4cf9-80f5-6771e4cfecdc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sushi",
+      "unit": "500g",
+      "variety": "japanese choice",
+      "nameLower": "sushi riis japanese choice 500g",
+      "brand": "japanese-choice",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis sushi",
+      "descriptorOrder": [
+        "sushi",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sushi": "sushi",
+        "riis": "riis",
+        "japanese": "japanese",
+        "choice": "choice"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -361,7 +1318,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.38,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/1947619c-c3d2-49b6-bdf2-96289602974a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "500g",
+      "variety": "riso scotti",
+      "nameLower": "basmati riis riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -375,7 +1370,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.99,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/8881f4b4-17cd-4f85-8ce2-ea9e5e1725a1_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pudruriis",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "pudruriis tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pudruriis",
+      "descriptorOrder": [
+        "pudruriis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pudruriis": "pudruriis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -389,7 +1420,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.63,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/8bc8f357-9418-47fa-953b-deae03522c7a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "basmati riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -403,7 +1472,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/1e4a2a21-f4c0-4593-80a9-27b7a64ad948_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "pruun riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pruun riis",
+      "descriptorOrder": [
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -417,7 +1524,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.99,
-    "brand": "HIMALAYAN CROWN"
+    "brand": "HIMALAYAN CROWN",
+    "image": "https://cdn.barbora.ee/products/5b040649-9d75-4aaf-9ec1-81dd0da213ab_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "800g",
+      "variety": "crown of himalaya",
+      "nameLower": "basmati riis crown of himalaya 800g",
+      "brand": "himalayan crown",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati himalaya of riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis",
+        "of",
+        "himalaya"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis",
+        "crown": "crown",
+        "of": "of",
+        "himalaya": "himalaya"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -431,7 +1581,42 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.98,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/1f55b1b9-ed81-4354-b78a-225a0909be8f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sushi",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "sushi-riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis sushi",
+      "descriptorOrder": [
+        "sushi",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -445,7 +1630,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.1,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/41e8d753-87c1-4eae-b806-9d5d4e1ee173_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisi",
+      "unit": "4x125g",
+      "variety": "wild bosto",
+      "nameLower": "riisi segu wild bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisi segu wild",
+      "descriptorOrder": [
+        "riisi",
+        "segu",
+        "wild"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisi": "riisi",
+        "segu": "segu",
+        "wild": "wild"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -459,7 +1684,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.17,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/5c2979bf-7e95-4d7d-bdb4-efad266d629a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "pruun riis&kinoa& teravili bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kinoa pruun riis teravili",
+      "descriptorOrder": [
+        "pruun",
+        "riis",
+        "kinoa",
+        "teravili"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "teravili": "teravili"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -473,7 +1738,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 10.3,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/cdb1b870-e51a-4cf1-874a-0437487bac27_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "pruun riis,spelta ja quinoa bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja pruun quinoa riis spelta",
+      "descriptorOrder": [
+        "pruun",
+        "riis",
+        "spelta",
+        "ja",
+        "quinoa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis",
+        "spelta": "spelta",
+        "ja": "ja",
+        "quinoa": "quinoa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -487,7 +1796,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.58,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/967ab4a5-5ca8-4cd7-a68a-56eccbd15e2e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "must",
+      "unit": "500g",
+      "variety": "venere riso scotti must",
+      "nameLower": "must riis venere riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "must",
+      "fatPercent": null,
+      "descriptors": "must riis venere",
+      "descriptorOrder": [
+        "must",
+        "riis",
+        "venere"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "riis": "riis",
+        "venere": "venere"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -501,7 +1850,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.99,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/54115132-6167-4046-8193-7477591de3bf_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "800g",
+      "variety": "extra line",
+      "nameLower": " riis extra line 800g",
+      "brand": "extra line",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -515,7 +1900,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.38,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/9addd1f6-769b-4bbe-b3a8-c89ff91a4ea2_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x100g",
+      "variety": "extra line",
+      "nameLower": "pikateraline riis extra line 4x100g",
+      "brand": "extra line",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -529,7 +1952,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/e8cb043b-1404-4b23-899e-c08d363f0841_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pudruriis",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "pudruriis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pudruriis",
+      "descriptorOrder": [
+        "pudruriis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pudruriis": "pudruriis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -543,7 +2002,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.99,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/cca5d954-46f7-42bf-a0be-53b5523a6c54_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "8x100g",
+      "variety": "well done",
+      "nameLower": "riis pikateraline well done 8x100g",
+      "brand": "well done",
+      "size": "8x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "riis",
+        "pikateraline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "pikateraline": "pikateraline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -557,7 +2054,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.19,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/ccee2800-7604-44ad-af1a-329acec6ceef_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "800g",
+      "variety": "well done",
+      "nameLower": "riis pikateraline well done 800g",
+      "brand": "well done",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "riis",
+        "pikateraline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "pikateraline": "pikateraline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -571,7 +2106,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.61,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/2545d19d-9947-434d-b37e-add3b275b613_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "ümarateraline",
+      "unit": "800g",
+      "variety": "well done",
+      "nameLower": "ümarateraline riis well done 800g",
+      "brand": "well done",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis ümarateraline",
+      "descriptorOrder": [
+        "ümarateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ümarateraline": "ümarateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -585,7 +2158,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.19,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/96df8013-652f-4b9c-a4d5-feb343b5798c_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "800g",
+      "variety": "well done",
+      "nameLower": "riis  well done 800g",
+      "brand": "well done",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -599,7 +2208,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/7abfbd83-df46-4a60-85cb-b7c449aaec6f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "pruun",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "pruun riis well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pruun riis",
+      "descriptorOrder": [
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -613,7 +2260,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.98,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/ba1cf3c5-f110-4826-a198-d586bace070f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "basmati well done",
+      "nameLower": "riis basmati well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "riis",
+        "basmati"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "basmati": "basmati"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -627,7 +2312,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.23,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/1c753896-b08a-43d6-a366-8ce4d81c49c9_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "riis pikateraline well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "riis",
+        "pikateraline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "pikateraline": "pikateraline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -641,7 +2364,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.38,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/250c0539-2538-4d25-9dac-29322d526f33_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "riis  well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -655,7 +2414,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.98,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/2d4094e1-f458-47ae-9c41-3158f321d18a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "sushi",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "sushi riis well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis sushi",
+      "descriptorOrder": [
+        "sushi",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sushi": "sushi",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -669,7 +2466,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.73,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/dd572392-99bd-4f08-85d2-98e4c1f01f02_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "jasmiini",
+      "unit": "400g",
+      "variety": "well done",
+      "nameLower": "jasmiini riis well done 400g",
+      "brand": "well done",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -683,7 +2518,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.18,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/e91a05ba-b510-492a-8b91-7e6b2d6d5549_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "pruun",
+      "unit": "500g",
+      "variety": "well done",
+      "nameLower": "pruun riis well done 500g",
+      "brand": "well done",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pruun riis",
+      "descriptorOrder": [
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -697,7 +2570,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.3,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/22eeb8b5-10e6-4890-bd24-69b7bf3b0fe8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "500g",
+      "variety": "poke bosto",
+      "nameLower": "riis poke bowl bosto 500g",
+      "brand": "bosto",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bowl poke riis",
+      "descriptorOrder": [
+        "riis",
+        "poke",
+        "bowl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "poke": "poke",
+        "bowl": "bowl"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -711,7 +2624,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.99,
-    "brand": "MUGHAL"
+    "brand": "MUGHAL",
+    "image": "https://cdn.barbora.ee/products/86562d82-1b4e-4bad-a4a5-63f7d9da5ebe_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikater",
+      "unit": "1000g",
+      "variety": "royal diamond mughal",
+      "nameLower": "pikater. riis royal diamond mughal 1kg",
+      "brand": "mughal",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "diamond pikater riis royal",
+      "descriptorOrder": [
+        "pikater",
+        "riis",
+        "royal",
+        "diamond"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "royal": "royal",
+        "diamond": "diamond"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -725,7 +2679,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.99,
-    "brand": "MUGHAL"
+    "brand": "MUGHAL",
+    "image": "https://cdn.barbora.ee/products/d07d3d79-07bd-4733-b741-a3d98920ca5a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikater",
+      "unit": "1000g",
+      "variety": "royal gold mughal",
+      "nameLower": "pikater. riis royal gold mughal 1kg",
+      "brand": "mughal",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gold pikater riis royal",
+      "descriptorOrder": [
+        "pikater",
+        "riis",
+        "royal",
+        "gold"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "royal": "royal",
+        "gold": "gold"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -739,7 +2734,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 19,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/2b47ebad-73e0-4d7f-8247-2285f9b05e84_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "210g",
+      "variety": "riso scotti",
+      "nameLower": "risotoriis trühvliga riso scotti 210g",
+      "brand": "riso scotti",
+      "size": "210g",
+      "variant": null,
+      "qualifiers": "trühvliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "risotoriis trühvliga",
+      "descriptorOrder": [
+        "risotoriis",
+        "trühvliga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risotoriis": "risotoriis",
+        "trühvliga": "trühvliga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -753,7 +2786,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/bc6f0927-4991-4a03-90e8-4c51d40476e4_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiini",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "jasmiini riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -767,7 +2838,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.78,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/d92e57a4-c453-4243-a1d6-bebb81d19af7_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "500g",
+      "variety": "carnaroli riso scotti",
+      "nameLower": "risotoriis carnaroli riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carnaroli risotoriis",
+      "descriptorOrder": [
+        "risotoriis",
+        "carnaroli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risotoriis": "risotoriis",
+        "carnaroli": "carnaroli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -781,7 +2890,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/0be831c3-6ea4-4736-b6fa-900adaccd3f8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "500g",
+      "variety": "risotto mediterraneo bosto",
+      "nameLower": "riis risotto mediterraneo bosto 500g",
+      "brand": "bosto",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mediterraneo riis risotto",
+      "descriptorOrder": [
+        "riis",
+        "risotto",
+        "mediterraneo"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "risotto": "risotto",
+        "mediterraneo": "mediterraneo"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -795,7 +2944,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/622735e9-c4db-4a1a-9e13-056ab64486b5_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateral",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pikateral. hautatud riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hautatud pikateral riis",
+      "descriptorOrder": [
+        "pikateral",
+        "hautatud",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hautatud": "hautatud",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -809,7 +2997,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.18,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/aa077be8-a0d9-4884-8625-4ab87de7c352_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pikateraline riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -823,7 +3049,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.5,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/519c9afe-58ec-4e59-afe8-0f23efe5a807_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "pikateraline pruun riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline pruun riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -837,7 +3103,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/dc5c4b41-a22a-44b3-9177-869dc20b9fc6_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "4x125g",
+      "variety": "bosto",
+      "nameLower": "basmati riis bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -851,7 +3155,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.58,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/f0015d9c-519c-4b71-bfdd-296d17b4dfce_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiini",
+      "unit": "4x125g",
+      "variety": "thai royal bosto",
+      "nameLower": "jasmiini riis thai royal bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis royal thai",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis",
+        "thai",
+        "royal"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis",
+        "thai": "thai",
+        "royal": "royal"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -865,7 +3211,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.73,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/1f1b4279-4be2-4ec6-b5b1-3a96c0879c4b_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "basmati galinta",
+      "nameLower": "riis basmati galinta 4x100g",
+      "brand": "galinta",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "riis",
+        "basmati"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "basmati": "basmati"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -879,7 +3263,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.73,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/5499ae36-a79d-47ae-a754-d2443fe0a13d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsik",
+      "unit": "400g",
+      "variety": "galinta",
+      "nameLower": "metsik  riis galinta 400g",
+      "brand": "galinta",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsik riis",
+      "descriptorOrder": [
+        "metsik",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsik": "metsik",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -893,7 +3315,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.8,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/3c1f4fb0-fe5c-49f2-8661-0f5b0ebc79cb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "4x100g",
+      "variety": "galinta",
+      "nameLower": "tatar galinta 4x100g",
+      "brand": "galinta",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -907,7 +3365,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.86,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/df3681dd-1cad-46b7-be39-6ca664763e2e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "800g",
+      "variety": "galinta",
+      "nameLower": "tatar galinta 800g",
+      "brand": "galinta",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -921,7 +3415,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.18,
-    "brand": "SKANEJA"
+    "brand": "SKANEJA",
+    "image": "https://cdn.barbora.ee/products/58ecef1c-e904-49f5-9ef7-f8b7ad9cc27b_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maisitangud",
+      "unit": "500g",
+      "variety": "skaneja",
+      "nameLower": "maisitangud skaneja 500g",
+      "brand": "skaneja",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maisitangud",
+      "descriptorOrder": [
+        "maisitangud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maisitangud": "maisitangud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -935,7 +3465,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.3,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/0337948d-201a-4489-8f26-1e020c4375dd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "500g",
+      "variety": "risotto arborio riso scotti",
+      "nameLower": "riis risotto arborio riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arborio riis risotto",
+      "descriptorOrder": [
+        "riis",
+        "risotto",
+        "arborio"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "risotto": "risotto",
+        "arborio": "arborio"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -949,7 +3519,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.35,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/607c7dea-3e06-4d00-95d9-fb82a6eba317_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "pikateraline riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -963,7 +3571,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.39,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/fbc68846-132e-4536-a44e-36ebf2e57332_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": " riis baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -977,7 +3621,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.12,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/1cb863db-b607-451f-b5ce-1f603483ea49_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "pikateraline riis baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -991,7 +3673,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.39,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/300775d3-1a51-45ff-bad4-ee4b1e303fda_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "odrakruup baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "descriptorOrder": [
+        "odrakruup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "odrakruup": "odrakruup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1005,7 +3723,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.45,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/35160644-3a58-4c1b-a2dd-dfb8ed45f8f1_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hirss",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "hirss baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hirss",
+      "descriptorOrder": [
+        "hirss"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hirss": "hirss"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1019,7 +3773,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.64,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/3d2452b5-164d-4560-b992-05437bcc885e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "tatar baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1033,7 +3823,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/ad73ae9d-69bf-4772-8add-7adf92c0af4d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": " riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1047,7 +3873,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.23,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/1defd605-2138-4772-b0c0-783494137aa1_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "tatar baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1061,7 +3923,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.78,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/02308f9e-d299-4b41-9677-30149808a3fb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risoto",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "risoto riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis risoto",
+      "descriptorOrder": [
+        "risoto",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risoto": "risoto",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1075,7 +3975,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.78,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/637b1845-d06d-468d-9f2b-6d2ddf233847_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "basmati riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1089,7 +4027,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.98,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/25b874a3-c944-4cf0-8418-9bf96a6770e2_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiini",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "jasmiini riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1103,7 +4079,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.73,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/47f8658e-0170-409d-8097-b1e57525eb99_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ümarateraline",
+      "unit": "1000g",
+      "variety": "baltix",
+      "nameLower": "ümarateraline riis baltix 1kg",
+      "brand": "baltix",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis ümarateraline",
+      "descriptorOrder": [
+        "ümarateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ümarateraline": "ümarateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1117,7 +4131,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.24,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/9133e8fe-08c7-480a-8c81-19e5e8afea70_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "tatar tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1131,7 +4181,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.53,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/95e518f2-3994-412e-a50b-cdccd19ef32a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "pikateraline riis tartu mill1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis",
+        "tartu": "tartu"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1145,7 +4234,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.92,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/a65f1ca9-d9bb-4d81-a45a-18397147020e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": " riis tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1159,7 +4284,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 19,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/bbc260d0-3d37-4d56-9657-303d31de5cda_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "210g",
+      "variety": "riso scotti",
+      "nameLower": "risotoriis seentega riso scotti 210g",
+      "brand": "riso scotti",
+      "size": "210g",
+      "variant": null,
+      "qualifiers": "seentega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "risotoriis seentega",
+      "descriptorOrder": [
+        "risotoriis",
+        "seentega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risotoriis": "risotoriis",
+        "seentega": "seentega"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1173,7 +4336,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.78,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/c92eea0e-9171-4d66-93fe-8398478dbc72_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "riso scotti",
+      "nameLower": "pikateraline riis riso scotti 4x125g",
+      "brand": "riso scotti",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1187,7 +4388,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.58,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/31570750-7bbe-4e05-97c5-632dfd37a0bd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "eksoot",
+      "unit": "4x125g",
+      "variety": "basmati riso scotti",
+      "nameLower": "eksoot. basmati riis riso scotti 4x125g",
+      "brand": "riso scotti",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati eksoot riis",
+      "descriptorOrder": [
+        "eksoot",
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1201,7 +4441,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.78,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/892ebd82-0b1b-4129-a720-e68788cdf468_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "4x125g",
+      "variety": "tartu mill",
+      "nameLower": " riis tartu mill 4x125g",
+      "brand": "tartu mill",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1215,7 +4491,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.38,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/a00cd537-8ece-4882-a208-b045c82fde68_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x125g",
+      "variety": "tartu mill",
+      "nameLower": "pikateraline riis tartu mill 4x 125g",
+      "brand": "tartu mill",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1229,7 +4543,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.78,
-    "brand": "JAPANESE-CHOICE"
+    "brand": "JAPANESE-CHOICE",
+    "image": "https://cdn.barbora.ee/products/abe3954b-0fac-4cf9-80f5-6771e4cfecdc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sushi",
+      "unit": "500g",
+      "variety": "japanese choice",
+      "nameLower": "sushi riis japanese choice 500g",
+      "brand": "japanese-choice",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis sushi",
+      "descriptorOrder": [
+        "sushi",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sushi": "sushi",
+        "riis": "riis",
+        "japanese": "japanese",
+        "choice": "choice"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1243,7 +4597,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.23,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/b09573c4-fb63-4277-8e35-57e0cde03da4_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "odrakruup baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "descriptorOrder": [
+        "odrakruup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "odrakruup": "odrakruup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1257,7 +4647,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.78,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/52757544-21b4-4536-b4d5-bf679e1837be_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hirss",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "hirss baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hirss",
+      "descriptorOrder": [
+        "hirss"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hirss": "hirss"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1271,7 +4697,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.38,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/1947619c-c3d2-49b6-bdf2-96289602974a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "500g",
+      "variety": "riso scotti",
+      "nameLower": "basmati riis riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1285,7 +4749,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.99,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/8881f4b4-17cd-4f85-8ce2-ea9e5e1725a1_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pudruriis",
+      "unit": "1000g",
+      "variety": "tartu mill",
+      "nameLower": "pudruriis tartu mill 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pudruriis",
+      "descriptorOrder": [
+        "pudruriis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pudruriis": "pudruriis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1299,7 +4799,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.74,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/3feb0036-3be0-4e84-ac76-8ef8bf5f86fc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "800g",
+      "variety": "galinta",
+      "nameLower": "tatar röstimata galinta 800g",
+      "brand": "galinta",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "röstimata tatar",
+      "descriptorOrder": [
+        "tatar",
+        "röstimata"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar",
+        "röstimata": "röstimata"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1313,7 +4851,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.63,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/8bc8f357-9418-47fa-953b-deae03522c7a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "basmati riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1327,7 +4903,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/1e4a2a21-f4c0-4593-80a9-27b7a64ad948_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "pruun riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pruun riis",
+      "descriptorOrder": [
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1341,7 +4955,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.1,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/7ac45198-136c-41e2-a9d8-a5c15de04230_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "toortatar",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "toortatar baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "toortatar",
+      "descriptorOrder": [
+        "toortatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "toortatar": "toortatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1355,7 +5005,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.23,
-    "brand": "SKANEJA"
+    "brand": "SKANEJA",
+    "image": "https://cdn.barbora.ee/products/f54c0fcb-ccca-4d41-bb09-8d5c79a4b4fe_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "speltanisuterad",
+      "unit": "4x100g",
+      "variety": "skaneja",
+      "nameLower": "speltanisuterad skaneja 4x100g",
+      "brand": "skaneja",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "speltanisuterad",
+      "descriptorOrder": [
+        "speltanisuterad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "speltanisuterad": "speltanisuterad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1369,7 +5055,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.99,
-    "brand": "HIMALAYAN CROWN"
+    "brand": "HIMALAYAN CROWN",
+    "image": "https://cdn.barbora.ee/products/5b040649-9d75-4aaf-9ec1-81dd0da213ab_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basmati",
+      "unit": "800g",
+      "variety": "crown of himalaya",
+      "nameLower": "basmati riis crown of himalaya 800g",
+      "brand": "himalayan crown",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati himalaya of riis",
+      "descriptorOrder": [
+        "basmati",
+        "riis",
+        "of",
+        "himalaya"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basmati": "basmati",
+        "riis": "riis",
+        "crown": "crown",
+        "of": "of",
+        "himalaya": "himalaya"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1383,7 +5112,42 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.98,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/1f55b1b9-ed81-4354-b78a-225a0909be8f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sushi",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "sushi-riis veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis sushi",
+      "descriptorOrder": [
+        "sushi",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1397,7 +5161,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.1,
-    "brand": "JUST NATURE"
+    "brand": "JUST NATURE",
+    "image": "https://cdn.barbora.ee/products/6e6430c1-2744-4bf5-9db5-211bad898a6c_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "punane",
+      "unit": "500g",
+      "variety": "just nature punane",
+      "nameLower": "punane kinoa just nature, 500g",
+      "brand": "just nature",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "punane",
+      "fatPercent": null,
+      "descriptors": "kinoa punane",
+      "descriptorOrder": [
+        "punane",
+        "kinoa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "punane": "punane",
+        "kinoa": "kinoa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1411,7 +5213,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.98,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/03b52f50-c6ff-426d-83bf-2f8484f4a52e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "manna",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "manna veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "manna",
+      "descriptorOrder": [
+        "manna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "manna": "manna"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1425,7 +5263,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.7,
-    "brand": "JUST NATURE"
+    "brand": "JUST NATURE",
+    "image": "https://cdn.barbora.ee/products/f715bfb9-3951-4a3b-8942-1a83856a2b01_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "valge",
+      "unit": "500g",
+      "variety": "just nature valge",
+      "nameLower": "valge kinoa just nature 500g",
+      "brand": "just nature",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "kinoa valge",
+      "descriptorOrder": [
+        "valge",
+        "kinoa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "valge": "valge",
+        "kinoa": "kinoa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1439,7 +5315,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.7,
-    "brand": "JUST NATURE"
+    "brand": "JUST NATURE",
+    "image": "https://cdn.barbora.ee/products/5a728c1a-6623-4db3-83a2-2e7ae08848d0_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "must",
+      "unit": "500g",
+      "variety": "just nature must",
+      "nameLower": "must kinoa just nature 500g",
+      "brand": "just nature",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "must",
+      "fatPercent": null,
+      "descriptors": "kinoa must",
+      "descriptorOrder": [
+        "must",
+        "kinoa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "kinoa": "kinoa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1453,7 +5367,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.98,
-    "brand": "ALVO"
+    "brand": "ALVO",
+    "image": "https://cdn.barbora.ee/products/ea48ef99-b83d-407e-a6e5-442a0ab33ebc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kinoa",
+      "unit": "400g",
+      "variety": "alvo",
+      "nameLower": "kinoa seemned alvo 400g",
+      "brand": "alvo",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kinoa seemned",
+      "descriptorOrder": [
+        "kinoa",
+        "seemned"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kinoa": "kinoa",
+        "seemned": "seemned"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1467,7 +5419,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.78,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/8e25b444-1563-4eb8-b67a-f433dc2ecd4d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hernehelbed",
+      "unit": "500g",
+      "variety": "baltix",
+      "nameLower": "hernehelbed baltix 500g",
+      "brand": "baltix",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hernehelbed",
+      "descriptorOrder": [
+        "hernehelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hernehelbed": "hernehelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1481,7 +5469,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.1,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/41e8d753-87c1-4eae-b806-9d5d4e1ee173_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisi",
+      "unit": "4x125g",
+      "variety": "wild bosto",
+      "nameLower": "riisi segu wild bosto 4x125g",
+      "brand": "bosto",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riisi segu wild",
+      "descriptorOrder": [
+        "riisi",
+        "segu",
+        "wild"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisi": "riisi",
+        "segu": "segu",
+        "wild": "wild"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1495,7 +5523,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.17,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/5c2979bf-7e95-4d7d-bdb4-efad266d629a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "pruun riis&kinoa& teravili bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kinoa pruun riis teravili",
+      "descriptorOrder": [
+        "pruun",
+        "riis",
+        "kinoa",
+        "teravili"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "teravili": "teravili"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1509,7 +5577,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 10.3,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/cdb1b870-e51a-4cf1-874a-0437487bac27_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pruun",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "pruun riis,spelta ja quinoa bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja pruun quinoa riis spelta",
+      "descriptorOrder": [
+        "pruun",
+        "riis",
+        "spelta",
+        "ja",
+        "quinoa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis",
+        "spelta": "spelta",
+        "ja": "ja",
+        "quinoa": "quinoa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1523,7 +5635,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 12.63,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/c19a5fac-000f-4054-b256-b193aaf5e2bb_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kinoa",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "kinoa kolmevärviline bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kinoa kolmevärviline",
+      "descriptorOrder": [
+        "kinoa",
+        "kolmevärviline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kinoa": "kinoa",
+        "kolmevärviline": "kolmevärviline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1537,7 +5687,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.7,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/ac90a221-1fa0-4552-b319-a604aecdad48_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kinoa",
+      "unit": "4x75g",
+      "variety": "bosto valge",
+      "nameLower": "kinoa valge bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "kinoa valge",
+      "descriptorOrder": [
+        "kinoa",
+        "valge"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kinoa": "kinoa",
+        "valge": "valge"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1551,7 +5739,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.1,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/9b485c84-620b-4447-b4cc-f3a18834855c_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "bulgur",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "bulgur bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bulgur",
+      "descriptorOrder": [
+        "bulgur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bulgur": "bulgur"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1565,7 +5789,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.5,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/2c241e11-d61e-4802-8fc7-c74e691e27bd_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pärlkuskuss",
+      "unit": "4x75g",
+      "variety": "bosto",
+      "nameLower": "pärlkuskuss bosto 4x75g",
+      "brand": "bosto",
+      "size": "4x75g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pärlkuskuss",
+      "descriptorOrder": [
+        "pärlkuskuss"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pärlkuskuss": "pärlkuskuss"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1579,7 +5839,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.58,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/967ab4a5-5ca8-4cd7-a68a-56eccbd15e2e_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "must",
+      "unit": "500g",
+      "variety": "venere riso scotti must",
+      "nameLower": "must riis venere riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "must",
+      "fatPercent": null,
+      "descriptors": "must riis venere",
+      "descriptorOrder": [
+        "must",
+        "riis",
+        "venere"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "must": "must",
+        "riis": "riis",
+        "venere": "venere"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1593,7 +5893,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 0.94,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/e315f038-4ddc-413c-8475-caa44b9670ca_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "manna",
+      "unit": "800g",
+      "variety": "extra line",
+      "nameLower": "manna extra line 800g",
+      "brand": "extra line",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "manna",
+      "descriptorOrder": [
+        "manna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "manna": "manna"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1607,7 +5943,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.99,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/54115132-6167-4046-8193-7477591de3bf_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "800g",
+      "variety": "extra line",
+      "nameLower": " riis extra line 800g",
+      "brand": "extra line",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1621,7 +5993,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.85,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/91d4f312-ca02-4cd5-88f8-30e8f7b506cc_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "4x100g",
+      "variety": "extra line",
+      "nameLower": "tatar extra line 4x100g",
+      "brand": "extra line",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1635,7 +6043,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.38,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/9addd1f6-769b-4bbe-b3a8-c89ff91a4ea2_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikateraline",
+      "unit": "4x100g",
+      "variety": "extra line",
+      "nameLower": "pikateraline riis extra line 4x100g",
+      "brand": "extra line",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "pikateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pikateraline": "pikateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1649,7 +6095,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/e8cb043b-1404-4b23-899e-c08d363f0841_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pudruriis",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "pudruriis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pudruriis",
+      "descriptorOrder": [
+        "pudruriis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pudruriis": "pudruriis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1663,7 +6145,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.13,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/0cdf7379-d8bc-4a35-8abe-f632a4450b24_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "bulgur",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "bulgur baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bulgur",
+      "descriptorOrder": [
+        "bulgur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bulgur": "bulgur"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1677,7 +6195,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.99,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/cca5d954-46f7-42bf-a0be-53b5523a6c54_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "8x100g",
+      "variety": "well done",
+      "nameLower": "riis pikateraline well done 8x100g",
+      "brand": "well done",
+      "size": "8x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "riis",
+        "pikateraline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "pikateraline": "pikateraline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1691,7 +6247,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.49,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/1b175455-bdd3-4f92-b8f2-357d94b48d1f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "tatar",
+      "unit": "8x100g",
+      "variety": "well done",
+      "nameLower": "tatar well done 8x100g",
+      "brand": "well done",
+      "size": "8x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1705,7 +6297,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/46396de3-05e2-4af8-8222-ee29e3bd24ef_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrahelbed",
+      "unit": "400g",
+      "variety": "extra line",
+      "nameLower": "odrahelbed extra line 400g",
+      "brand": "extra line",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrahelbed",
+      "descriptorOrder": [
+        "odrahelbed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "odrahelbed": "odrahelbed"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1719,7 +6347,44 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.61,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/c7763666-824e-49a5-b827-f0c033de9781_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "tatar",
+      "unit": "800g",
+      "variety": "well done",
+      "nameLower": "tatar, well done, 800 g",
+      "brand": "well done",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar",
+        "g": "g"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1733,7 +6398,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.19,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/ccee2800-7604-44ad-af1a-329acec6ceef_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "800g",
+      "variety": "well done",
+      "nameLower": "riis pikateraline well done 800g",
+      "brand": "well done",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "riis",
+        "pikateraline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "pikateraline": "pikateraline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1747,7 +6450,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.61,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/2545d19d-9947-434d-b37e-add3b275b613_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "ümarateraline",
+      "unit": "800g",
+      "variety": "well done",
+      "nameLower": "ümarateraline riis well done 800g",
+      "brand": "well done",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis ümarateraline",
+      "descriptorOrder": [
+        "ümarateraline",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ümarateraline": "ümarateraline",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1761,7 +6502,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.19,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/96df8013-652f-4b9c-a4d5-feb343b5798c_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "800g",
+      "variety": "well done",
+      "nameLower": "riis  well done 800g",
+      "brand": "well done",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1775,7 +6552,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/7abfbd83-df46-4a60-85cb-b7c449aaec6f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "pruun",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "pruun riis well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pruun riis",
+      "descriptorOrder": [
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1789,7 +6604,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.98,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/ba1cf3c5-f110-4826-a198-d586bace070f_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "basmati well done",
+      "nameLower": "riis basmati well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basmati riis",
+      "descriptorOrder": [
+        "riis",
+        "basmati"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "basmati": "basmati"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1803,7 +6656,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.48,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/3b2f4dd0-95a3-4a17-8657-32fd73be025b_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "tatar",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "tatar well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar",
+      "descriptorOrder": [
+        "tatar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1817,7 +6706,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.23,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/1c753896-b08a-43d6-a366-8ce4d81c49c9_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "riis pikateraline well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikateraline riis",
+      "descriptorOrder": [
+        "riis",
+        "pikateraline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "pikateraline": "pikateraline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1831,7 +6758,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.38,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/250c0539-2538-4d25-9dac-29322d526f33_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "riis",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "riis  well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis",
+      "descriptorOrder": [
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1845,7 +6808,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.98,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/2d4094e1-f458-47ae-9c41-3158f321d18a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "sushi",
+      "unit": "4x100g",
+      "variety": "well done",
+      "nameLower": "sushi riis well done 4x100g",
+      "brand": "well done",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "riis sushi",
+      "descriptorOrder": [
+        "sushi",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sushi": "sushi",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1859,7 +6860,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.73,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/dd572392-99bd-4f08-85d2-98e4c1f01f02_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "jasmiini",
+      "unit": "400g",
+      "variety": "well done",
+      "nameLower": "jasmiini riis well done 400g",
+      "brand": "well done",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1873,21 +6912,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.18,
-    "brand": "WELL DONE"
-  },
-  {
-    "store": "Barbora",
-    "name": "Odrakruup EXTRA LINE 800g",
-    "price": 1.09,
-    "regularPrice": 1.09,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/odrakruup-extra-line-800-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 1.36,
-    "brand": "EXTRA LINE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/e91a05ba-b510-492a-8b91-7e6b2d6d5549_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "pruun",
+      "unit": "500g",
+      "variety": "well done",
+      "nameLower": "pruun riis well done 500g",
+      "brand": "well done",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pruun riis",
+      "descriptorOrder": [
+        "pruun",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pruun": "pruun",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1901,7 +6964,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.23,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/cdba0597-ad22-4b0f-808e-5daacd524a21_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "4x100g",
+      "variety": "galinta",
+      "nameLower": "odrakruup galinta 4x100g",
+      "brand": "galinta",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "descriptorOrder": [
+        "odrakruup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "odrakruup": "odrakruup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1915,7 +7014,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.98,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/e0a80696-007a-4f74-a325-8a2b50fe49e3_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "bulgur",
+      "unit": "4x100g",
+      "variety": "galinta",
+      "nameLower": "bulgur galinta 4x100g",
+      "brand": "galinta",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bulgur",
+      "descriptorOrder": [
+        "bulgur"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bulgur": "bulgur"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1929,7 +7064,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.23,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/47ba0a60-c24a-4db3-9321-28a91dd2587d_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pärloder",
+      "unit": "4x100g",
+      "variety": "galinta",
+      "nameLower": "pärloder galinta 4x100g",
+      "brand": "galinta",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pärloder",
+      "descriptorOrder": [
+        "pärloder"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pärloder": "pärloder"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1943,7 +7114,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.98,
-    "brand": "GALINTA"
+    "brand": "GALINTA",
+    "image": "https://cdn.barbora.ee/products/c3d226fb-f77e-4b11-88f3-ef8176c65aab_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "peene",
+      "unit": "4x100g",
+      "variety": "galinta",
+      "nameLower": "peene pärloder galinta 4x100g",
+      "brand": "galinta",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "peene pärloder",
+      "descriptorOrder": [
+        "peene",
+        "pärloder"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "peene": "peene",
+        "pärloder": "pärloder"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1957,7 +7166,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.3,
-    "brand": "BOSTO"
+    "brand": "BOSTO",
+    "image": "https://cdn.barbora.ee/products/22eeb8b5-10e6-4890-bd24-69b7bf3b0fe8_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riis",
+      "unit": "500g",
+      "variety": "poke bosto",
+      "nameLower": "riis poke bowl bosto 500g",
+      "brand": "bosto",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bowl poke riis",
+      "descriptorOrder": [
+        "riis",
+        "poke",
+        "bowl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "poke": "poke",
+        "bowl": "bowl"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1971,7 +7220,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.98,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/8129a867-e81b-40c9-80b5-6f4ab2401809_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tatar",
+      "unit": "4x125g",
+      "variety": "tatru mill",
+      "nameLower": "tatar tatru mill 4x125g",
+      "brand": "tartu mill",
+      "size": "4x125g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "tatar tatru",
+      "descriptorOrder": [
+        "tatar",
+        "tatru"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tatar": "tatar",
+        "tatru": "tatru",
+        "mill": "mill"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1985,7 +7273,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.99,
-    "brand": "MUGHAL"
+    "brand": "MUGHAL",
+    "image": "https://cdn.barbora.ee/products/86562d82-1b4e-4bad-a4a5-63f7d9da5ebe_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikater",
+      "unit": "1000g",
+      "variety": "royal diamond mughal",
+      "nameLower": "pikater. riis royal diamond mughal 1kg",
+      "brand": "mughal",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "diamond pikater riis royal",
+      "descriptorOrder": [
+        "pikater",
+        "riis",
+        "royal",
+        "diamond"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "royal": "royal",
+        "diamond": "diamond"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1999,7 +7328,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.99,
-    "brand": "MUGHAL"
+    "brand": "MUGHAL",
+    "image": "https://cdn.barbora.ee/products/d07d3d79-07bd-4733-b741-a3d98920ca5a_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pikater",
+      "unit": "1000g",
+      "variety": "royal gold mughal",
+      "nameLower": "pikater. riis royal gold mughal 1kg",
+      "brand": "mughal",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gold pikater riis royal",
+      "descriptorOrder": [
+        "pikater",
+        "riis",
+        "royal",
+        "gold"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riis": "riis",
+        "royal": "royal",
+        "gold": "gold"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2013,7 +7383,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 19,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/2b47ebad-73e0-4d7f-8247-2285f9b05e84_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "210g",
+      "variety": "riso scotti",
+      "nameLower": "risotoriis trühvliga riso scotti 210g",
+      "brand": "riso scotti",
+      "size": "210g",
+      "variant": null,
+      "qualifiers": "trühvliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "risotoriis trühvliga",
+      "descriptorOrder": [
+        "risotoriis",
+        "trühvliga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risotoriis": "risotoriis",
+        "trühvliga": "trühvliga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2027,7 +7435,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.48,
-    "brand": "BALTIX"
+    "brand": "BALTIX",
+    "image": "https://cdn.barbora.ee/products/bc6f0927-4991-4a03-90e8-4c51d40476e4_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jasmiini",
+      "unit": "4x100g",
+      "variety": "baltix",
+      "nameLower": "jasmiini riis baltix 4x100g",
+      "brand": "baltix",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jasmiini riis",
+      "descriptorOrder": [
+        "jasmiini",
+        "riis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jasmiini": "jasmiini",
+        "riis": "riis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2041,7 +7487,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.78,
-    "brand": "RISO SCOTTI"
+    "brand": "RISO SCOTTI",
+    "image": "https://cdn.barbora.ee/products/d92e57a4-c453-4243-a1d6-bebb81d19af7_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "risotoriis",
+      "unit": "500g",
+      "variety": "carnaroli riso scotti",
+      "nameLower": "risotoriis carnaroli riso scotti 500g",
+      "brand": "riso scotti",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carnaroli risotoriis",
+      "descriptorOrder": [
+        "risotoriis",
+        "carnaroli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "risotoriis": "risotoriis",
+        "carnaroli": "carnaroli"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2055,7 +7539,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 2.5,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/f351720f-d145-47ea-841b-1bd9dae3d909_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hirss",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "hirss veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hirss",
+      "descriptorOrder": [
+        "hirss"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hirss": "hirss"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2069,7 +7589,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.98,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/e519e775-0a5d-4c6d-a038-87c2660849e0_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odra",
+      "unit": "4x100g",
+      "variety": "tartu mill",
+      "nameLower": "odra pärlkruup tartu mill 4x100g",
+      "brand": "tartu mill",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odra pärlkruup",
+      "descriptorOrder": [
+        "odra",
+        "pärlkruup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "odra": "odra",
+        "pärlkruup": "pärlkruup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2083,7 +7641,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.98,
-    "brand": "VESKI MATI"
+    "brand": "VESKI MATI",
+    "image": "https://cdn.barbora.ee/products/2aa88a33-200a-460f-b126-2bc9bb3575b3_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "500g",
+      "variety": "veski mati",
+      "nameLower": "odrakruup veski mati 500g",
+      "brand": "veski mati",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "descriptorOrder": [
+        "odrakruup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "odrakruup": "odrakruup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2097,7 +7691,45 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.51,
-    "brand": "TARTU MILL"
+    "brand": "TARTU MILL",
+    "image": "https://cdn.barbora.ee/products/21594e8d-ab60-4d7e-b1d0-a0ad2acce143_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "manna",
+      "unit": "1000g",
+      "variety": "kalew",
+      "nameLower": "manna kalew 1kg",
+      "brand": "tartu mill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kalew manna",
+      "descriptorOrder": [
+        "manna",
+        "kalew"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "manna": "manna",
+        "kalew": "kalew"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2111,7 +7743,43 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.48,
-    "brand": "SKANEJA"
+    "brand": "SKANEJA",
+    "image": "https://cdn.barbora.ee/products/c4c8f752-b74a-4d0d-94af-dcb1d6e9e695_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kuskuss",
+      "unit": "400g",
+      "variety": "skaneja",
+      "nameLower": "kuskuss skaneja 400g",
+      "brand": "skaneja",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuskuss",
+      "descriptorOrder": [
+        "kuskuss"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kuskuss": "kuskuss"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -2125,6 +7793,92 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.96,
-    "brand": "BUON GUSTO"
+    "brand": "BUON GUSTO",
+    "image": "https://cdn.barbora.ee/products/32942751-a099-475f-9e8b-a4b5fa92b532_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pärlkuskuss",
+      "unit": "250g",
+      "variety": "buon gusto",
+      "nameLower": "pärlkuskuss buon gusto 250g",
+      "brand": "buon gusto",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pärlkuskuss",
+      "descriptorOrder": [
+        "pärlkuskuss"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pärlkuskuss": "pärlkuskuss"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Odrakruup EXTRA LINE 800g",
+    "price": 1.09,
+    "regularPrice": 1.09,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/odrakruup-extra-line-800-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 1.36,
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/3678b809-3c2a-4f42-a73b-9bb5a795ace0_m.png",
+    "strictPackaging": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "odrakruup",
+      "unit": "800g",
+      "variety": "extra line",
+      "nameLower": "odrakruup extra line 800g",
+      "brand": "extra line",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "odrakruup",
+      "descriptorOrder": [
+        "odrakruup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "odrakruup": "odrakruup"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

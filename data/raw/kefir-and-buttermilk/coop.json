@@ -11,7 +11,44 @@
     "ean": "4740036018148",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740036018148.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HELLUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740036018148",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "keefirimaius",
+      "unit": "200g",
+      "variety": "hellus",
+      "nameLower": "keefirimaius metsamarja hellus 200g",
+      "brand": "hellus",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "keefirimaius metsamarja",
+      "descriptorOrder": [
+        "keefirimaius",
+        "metsamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "keefirimaius": "keefirimaius",
+        "metsamarja": "metsamarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,6 +62,43 @@
     "ean": "4740036018131",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740036018131.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "HELLUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740036018131",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "keefirimaius",
+      "unit": "200g",
+      "variety": "keefirimaius hellus",
+      "nameLower": "keefirimaius mango hellus 200g",
+      "brand": "hellus",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "keefirimaius mango",
+      "descriptorOrder": [
+        "keefirimaius",
+        "mango"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "keefirimaius": "keefirimaius",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

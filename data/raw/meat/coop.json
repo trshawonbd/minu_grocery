@@ -11,7 +11,47 @@
     "ean": "4740456009160",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740456009160.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740456009160",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rohumaaveise",
+      "unit": "300g",
+      "variety": "liivimaa",
+      "nameLower": " rohumaaveise hakkliha liivimaa 300g jahutatud",
+      "brand": "liivimaa",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "mahe",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hakkliha liivimaa rohumaaveise",
+      "descriptorOrder": [
+        "rohumaaveise",
+        "hakkliha",
+        "liivimaa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rohumaaveise": "rohumaaveise",
+        "hakkliha": "hakkliha",
+        "liivimaa": "liivimaa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,7 +65,43 @@
     "ean": "4740003015095",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/4740003015095-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740003015095",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seahakkliha",
+      "unit": "400g",
+      "variety": "rakvere",
+      "nameLower": "seahakkliha rakvere 400g jahutatud",
+      "brand": "rakvere",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "seahakkliha",
+      "descriptorOrder": [
+        "seahakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seahakkliha": "seahakkliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -39,7 +115,43 @@
     "ean": "4740003014920",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740003014920-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740003014920",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "perehakklihasegu",
+      "unit": "300g",
+      "variety": "rakvere",
+      "nameLower": "perehakklihasegu rakvere 300g",
+      "brand": "rakvere",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "perehakklihasegu",
+      "descriptorOrder": [
+        "perehakklihasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "perehakklihasegu": "perehakklihasegu"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -53,7 +165,45 @@
     "ean": "4740003003771",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003003771-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740003003771",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kodune",
+      "unit": "400g",
+      "variety": "rakvere",
+      "nameLower": "kodune hakkliha rakvere 400g jahutatud",
+      "brand": "rakvere",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hakkliha kodune",
+      "descriptorOrder": [
+        "kodune",
+        "hakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "hakkliha": "hakkliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -67,7 +217,47 @@
     "ean": "4740046004384",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046004384-2.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046004384",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fit",
+      "unit": "300g",
+      "variety": "broileririnnafilee tallegg",
+      "nameLower": "fit broileririnnafilee hakkliha tallegg 300g",
+      "brand": "tallegg",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileririnnafilee fit hakkliha",
+      "descriptorOrder": [
+        "fit",
+        "broileririnnafilee",
+        "hakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fit": "fit",
+        "broileririnnafilee": "broileririnnafilee",
+        "hakkliha": "hakkliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -81,7 +271,45 @@
     "ean": "4740046009556",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046009556-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046009556",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "delikatess",
+      "unit": "300g",
+      "variety": "tallegg",
+      "nameLower": "delikatess broilerihakklihasegu tallegg 300g",
+      "brand": "tallegg",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerihakklihasegu delikatess",
+      "descriptorOrder": [
+        "delikatess",
+        "broilerihakklihasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "delikatess": "delikatess",
+        "broilerihakklihasegu": "broilerihakklihasegu"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -95,7 +323,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/23135564.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sea",
+      "unit": "1000g",
+      "variety": "rakvere",
+      "nameLower": "sea esikoot rakvere ~1kg jahutatud",
+      "brand": "rakvere",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "esikoot sea",
+      "descriptorOrder": [
+        "sea",
+        "esikoot"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "esikoot": "esikoot"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -109,7 +375,49 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/603363.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "baby",
+      "unit": "700g",
+      "variety": "rakvere",
+      "nameLower": "baby back searibi rakvere ~700g jahutatud v/p",
+      "brand": "rakvere",
+      "size": "700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "baby back p searibi v",
+      "descriptorOrder": [
+        "baby",
+        "back",
+        "searibi",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "baby": "baby",
+        "back": "back",
+        "searibi": "searibi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -123,7 +431,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/23135548.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seavälisfilee",
+      "unit": "1300g",
+      "variety": "rakvere",
+      "nameLower": "seavälisfilee maitsestatud rakvere ~1.3kg",
+      "brand": "rakvere",
+      "size": "1300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maitsestatud seavälisfilee",
+      "descriptorOrder": [
+        "seavälisfilee",
+        "maitsestatud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seavälisfilee": "seavälisfilee",
+        "maitsestatud": "maitsestatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -137,7 +483,43 @@
     "ean": "4740003015873",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740003015873-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740003015873",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seastrooganov",
+      "unit": "380g",
+      "variety": "rakvere",
+      "nameLower": "seastrooganov rakvere 380g",
+      "brand": "rakvere",
+      "size": "380g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "seastrooganov",
+      "descriptorOrder": [
+        "seastrooganov"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seastrooganov": "seastrooganov"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -151,7 +533,43 @@
     "ean": "4740003015880",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740003015880.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740003015880",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seaguljash",
+      "unit": "380g",
+      "variety": "rakvere",
+      "nameLower": "seaguljash rakvere 380g",
+      "brand": "rakvere",
+      "size": "380g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "seaguljash",
+      "descriptorOrder": [
+        "seaguljash"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seaguljash": "seaguljash"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -165,7 +583,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/23603743.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seakaelakarbonaad",
+      "unit": "1800g",
+      "variety": "rakvere",
+      "nameLower": "seakaelakarbonaad maitsestatud rakvere ~1.8kg",
+      "brand": "rakvere",
+      "size": "1800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maitsestatud seakaelakarbonaad",
+      "descriptorOrder": [
+        "seakaelakarbonaad",
+        "maitsestatud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seakaelakarbonaad": "seakaelakarbonaad",
+        "maitsestatud": "maitsestatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -179,21 +635,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/23574645.png",
     "storeUnitPrice": null,
-    "brand": null
-  },
-  {
-    "store": "Coop",
-    "name": "M&M seakaelakarbonaad ~2.5kg",
-    "price": 6.49,
-    "regularPrice": 6.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://coophaapsalu.ee/toode/seakaelakarbonaad-kg-2/",
-    "ean": null,
-    "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/23171212.png",
-    "storeUnitPrice": null,
-    "brand": null
+    "brand": "NÕO",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maitsestatud",
+      "unit": "1200g",
+      "variety": "nõo",
+      "nameLower": "maitsestatud seavälisfilee nõo ~1.2kg",
+      "brand": "nõo",
+      "size": "1200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maitsestatud seavälisfilee",
+      "descriptorOrder": [
+        "maitsestatud",
+        "seavälisfilee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maitsestatud": "maitsestatud",
+        "seavälisfilee": "seavälisfilee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -207,7 +687,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/603313.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seakaelakarbonaad",
+      "unit": "1000g",
+      "variety": "rakvere",
+      "nameLower": "seakaelakarbonaad rakvere ~1kg jahutatud v/p",
+      "brand": "rakvere",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "p seakaelakarbonaad v",
+      "descriptorOrder": [
+        "seakaelakarbonaad",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seakaelakarbonaad": "seakaelakarbonaad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -221,7 +739,47 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/603814.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seapraad",
+      "unit": "1400g",
+      "variety": "rakvere",
+      "nameLower": "seapraad klassikaline rakvere ~1.4kg jahutatud v/p",
+      "brand": "rakvere",
+      "size": "1400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "klassikaline p seapraad v",
+      "descriptorOrder": [
+        "seapraad",
+        "klassikaline",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seapraad": "seapraad",
+        "klassikaline": "klassikaline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -235,7 +793,47 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/579501.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "KARNI",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sea",
+      "unit": "700g",
+      "variety": "karni",
+      "nameLower": "sea ribiliha karni ~0.5-0.7kg v/p",
+      "brand": "karni",
+      "size": "700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "p ribiliha sea v",
+      "descriptorOrder": [
+        "sea",
+        "ribiliha",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "ribiliha": "ribiliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -249,7 +847,48 @@
     "ean": "4740046013744",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740046013744-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046013744",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fit",
+      "unit": "300g",
+      "variety": "bbq tallegg",
+      "nameLower": "fit bbq-maitseline rebitud kanafilee tallegg 300g",
+      "brand": "tallegg",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bbq fit kanafilee rebitud",
+      "descriptorOrder": [
+        "fit",
+        "bbq",
+        "rebitud",
+        "kanafilee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fit": "fit",
+        "rebitud": "rebitud",
+        "kanafilee": "kanafilee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -263,7 +902,47 @@
     "ean": "4740046013737",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740046013737.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046013737",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kauaküpsetatud",
+      "unit": "500g",
+      "variety": "teriyaki tallegg",
+      "nameLower": "kauaküpsetatud teriyaki kanapoolkoivad tallegg500g",
+      "brand": "tallegg",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanapoolkoivad kauaküpsetatud teriyaki",
+      "descriptorOrder": [
+        "kauaküpsetatud",
+        "teriyaki",
+        "kanapoolkoivad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kauaküpsetatud": "kauaküpsetatud",
+        "teriyaki": "teriyaki",
+        "kanapoolkoivad": "kanapoolkoivad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -277,21 +956,46 @@
     "ean": "4740171188829",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740171188829.png",
     "storeUnitPrice": null,
-    "brand": null
-  },
-  {
-    "store": "Coop",
-    "name": "Broileritiib eestimaine Tallegg ~500g jahutatud",
-    "price": 4.99,
-    "regularPrice": 4.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://coophaapsalu.ee/toode/tallegg-broileritiib-eestimaine-500g/",
-    "ean": null,
-    "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/640007.png",
-    "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740171188829",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "m",
+      "unit": "300g",
+      "variety": "suitsutatud",
+      "nameLower": "m&m suitsutatud marin.br.kintsuliha 300g",
+      "brand": "m",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri kintsuliha m suitsutatud",
+      "descriptorOrder": [
+        "m",
+        "suitsutatud",
+        "broileri",
+        "kintsuliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -305,7 +1009,45 @@
     "ean": "4742462001312",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4742462001312.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAMÕISA",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462001312",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aasiapärane",
+      "unit": "400g",
+      "variety": "rannamõisa",
+      "nameLower": "aasiapärane broilerikintsuliha rannamõisa 400g",
+      "brand": "rannamõisa",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aasiapärane broilerikintsuliha",
+      "descriptorOrder": [
+        "aasiapärane",
+        "broilerikintsuliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aasiapärane": "aasiapärane",
+        "broilerikintsuliha": "broilerikintsuliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -319,7 +1061,46 @@
     "ean": "4740046013201",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740046013201.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046013201",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fitness",
+      "unit": "500g",
+      "variety": "tallegg",
+      "nameLower": "fitness br.rinnafilee caesari-marin.tallegg 500g",
+      "brand": "tallegg",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri caesari fitness rinnafilee",
+      "descriptorOrder": [
+        "fitness",
+        "broileri",
+        "rinnafilee",
+        "caesari"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fitness": "fitness"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -333,7 +1114,47 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/23231092.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ARMEENIA GRILL",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broileri",
+      "unit": "1000g",
+      "variety": "armeenia grill",
+      "nameLower": "broileri kintsuliha shaslõkk armeenia grill ~1kg",
+      "brand": "armeenia grill",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri kintsuliha shaslõkk",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "shaslõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileri": "broileri",
+        "kintsuliha": "kintsuliha",
+        "shaslõkk": "shaslõkk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -347,7 +1168,46 @@
     "ean": "4742462001138",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4742462001138.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462001138",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "300g",
+      "variety": "rm",
+      "nameLower": " suitsutatud broilerikintsuliha rm300g",
+      "brand": "rm300g",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerikintsuliha rm suitsutatud",
+      "descriptorOrder": [
+        "suitsutatud",
+        "broilerikintsuliha",
+        "rm"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "broilerikintsuliha": "broilerikintsuliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -361,7 +1221,46 @@
     "ean": "4742462001121",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4742462001121.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462001121",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rm",
+      "unit": "300g",
+      "variety": "marin",
+      "nameLower": "rm marin.suitsutatud br.pooltiivad 300g",
+      "brand": "rm",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri pooltiivad rm suitsutatud",
+      "descriptorOrder": [
+        "rm",
+        "suitsutatud",
+        "broileri",
+        "pooltiivad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rm": "rm"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -375,7 +1274,45 @@
     "ean": "4742462001176",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4742462001176.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAMÕISA",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462001176",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustika",
+      "unit": "400g",
+      "variety": "rannamõisa",
+      "nameLower": "mustika broileripooltiivad rannamõisa 400g",
+      "brand": "rannamõisa",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileripooltiivad mustika",
+      "descriptorOrder": [
+        "mustika",
+        "broileripooltiivad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustika": "mustika",
+        "broileripooltiivad": "broileripooltiivad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -389,7 +1326,46 @@
     "ean": "4740046013041",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740046013041-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046013041",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fit",
+      "unit": "800g",
+      "variety": "tallegg",
+      "nameLower": "fit br.rinnafileeshaslõkk jog.marin.tallegg 800g",
+      "brand": "tallegg",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri fit jog rinnafileeshaslõkk",
+      "descriptorOrder": [
+        "fit",
+        "broileri",
+        "rinnafileeshaslõkk",
+        "jog"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fit": "fit"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -403,7 +1379,45 @@
     "ean": "4740046012525",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740046012525-2.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046012525",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "eestimaine",
+      "unit": "550g",
+      "variety": "tallegg",
+      "nameLower": "eestimaine broilerikints tallegg 550g",
+      "brand": "tallegg",
+      "size": "550g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerikints eestimaine",
+      "descriptorOrder": [
+        "eestimaine",
+        "broilerikints"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "eestimaine": "eestimaine",
+        "broilerikints": "broilerikints"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -417,7 +1431,47 @@
     "ean": "4742462000858",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742462000858.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462000858",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rm",
+      "unit": "500g",
+      "variety": "broileri",
+      "nameLower": "rm broileri rinnafilee 500g jahutatud",
+      "brand": "rm",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri rinnafilee rm",
+      "descriptorOrder": [
+        "rm",
+        "broileri",
+        "rinnafilee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rm": "rm",
+        "broileri": "broileri",
+        "rinnafilee": "rinnafilee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -431,7 +1485,45 @@
     "ean": "4742462000896",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742462000896.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAMÕISA",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462000896",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broilerikintsud",
+      "unit": "500g",
+      "variety": "rannamõisa",
+      "nameLower": "broilerikintsud seljata rannamõisa 500g jahutatud",
+      "brand": "rannamõisa",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerikintsud seljata",
+      "descriptorOrder": [
+        "broilerikintsud",
+        "seljata"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broilerikintsud": "broilerikintsud",
+        "seljata": "seljata"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -445,7 +1537,47 @@
     "ean": "4742462000865",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742462000865.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462000865",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rm",
+      "unit": "500g",
+      "variety": "broileri",
+      "nameLower": "rm broileri kintsuliha 500g jahutatud",
+      "brand": "rm",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri kintsuliha rm",
+      "descriptorOrder": [
+        "rm",
+        "broileri",
+        "kintsuliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rm": "rm",
+        "broileri": "broileri",
+        "kintsuliha": "kintsuliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -459,7 +1591,43 @@
     "ean": "4742462000926",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742462000926.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAMÕISA",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462000926",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broileripoolkoivad",
+      "unit": "500g",
+      "variety": "rannamõisa",
+      "nameLower": "broileripoolkoivad rannamõisa 500g jahutatud",
+      "brand": "rannamõisa",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileripoolkoivad",
+      "descriptorOrder": [
+        "broileripoolkoivad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileripoolkoivad": "broileripoolkoivad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -473,7 +1641,43 @@
     "ean": "4742462000933",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742462000933.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAMÕISA",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462000933",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broileritiivad",
+      "unit": "500g",
+      "variety": "rannamõisa",
+      "nameLower": "broileritiivad rannamõisa 500g jahutatud",
+      "brand": "rannamõisa",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileritiivad",
+      "descriptorOrder": [
+        "broileritiivad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileritiivad": "broileritiivad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -487,7 +1691,47 @@
     "ean": "4742462000940",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742462000940.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4742462000940",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rm",
+      "unit": "500g",
+      "variety": "broileritiiva",
+      "nameLower": "rm broileritiiva õlaosa 500g jahutatud",
+      "brand": "rm",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileritiiva rm õlaosa",
+      "descriptorOrder": [
+        "rm",
+        "broileritiiva",
+        "õlaosa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rm": "rm",
+        "broileritiiva": "broileritiiva",
+        "õlaosa": "õlaosa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -501,7 +1745,49 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/640087.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "900g",
+      "variety": "tallegg",
+      "nameLower": "suitsutatud pool broilerit tallegg ~900g v/p",
+      "brand": "tallegg",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerit p pool suitsutatud v",
+      "descriptorOrder": [
+        "suitsutatud",
+        "pool",
+        "broilerit",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "pool": "pool",
+        "broilerit": "broilerit"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -515,7 +1801,47 @@
     "ean": "4740660016329",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740660016329.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740660016329",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "br",
+      "unit": "1000g",
+      "variety": "coop",
+      "nameLower": "br.kintsuliha klassikalises marinaadis coop 1kg",
+      "brand": "br",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri coop kintsuliha klassikalises",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "klassikalises",
+        "coop"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "klassikalises": "klassikalises",
+        "coop": "coop"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -529,7 +1855,47 @@
     "ean": "4740660016343",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740660016343.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740660016343",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broileri",
+      "unit": "560g",
+      "variety": "coop",
+      "nameLower": "broileri poolkoivad marinaadis coop 560g",
+      "brand": "broileri",
+      "size": "560g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri coop poolkoivad",
+      "descriptorOrder": [
+        "broileri",
+        "poolkoivad",
+        "coop"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileri": "broileri",
+        "poolkoivad": "poolkoivad",
+        "coop": "coop"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -543,21 +1909,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/23222128.png",
     "storeUnitPrice": null,
-    "brand": null
-  },
-  {
-    "store": "Coop",
-    "name": "Broileripoolkoib Eestimaine Tallegg ~500g jahut.",
-    "price": 3.49,
-    "regularPrice": 3.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://coophaapsalu.ee/toode/tallegg-broileripoolkoib-eestimaine500g/",
-    "ean": null,
-    "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/640492-1.png",
-    "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAMÕISA",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fitlap",
+      "unit": "500g",
+      "variety": "broilerikints rannamõisa",
+      "nameLower": "fitlap broilerikints rannamõisa ~500g jahutatud",
+      "brand": "rannamõisa",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerikints fitlap",
+      "descriptorOrder": [
+        "fitlap",
+        "broilerikints"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fitlap": "fitlap",
+        "broilerikints": "broilerikints"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -571,7 +1961,47 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/640273.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "400g",
+      "variety": "tallegg",
+      "nameLower": "suitsutatud broilerikintsud tallegg kg ~400g v/p",
+      "brand": "tallegg",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerikintsud p suitsutatud v",
+      "descriptorOrder": [
+        "suitsutatud",
+        "broilerikintsud",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "broilerikintsud": "broilerikintsud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -585,7 +2015,46 @@
     "ean": "4740046006104",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046006104-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046006104",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "juustuga",
+      "unit": "350g",
+      "variety": "tallegg",
+      "nameLower": "juustuga minutipihv broileririnnafil.tallegg 350g",
+      "brand": "tallegg",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "juustuga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileririnnafil juustuga minutipihv",
+      "descriptorOrder": [
+        "juustuga",
+        "minutipihv",
+        "broileririnnafil"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juustuga": "juustuga",
+        "minutipihv": "minutipihv"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -599,7 +2068,47 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/640295-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "350g",
+      "variety": "tallegg",
+      "nameLower": "suitsutatud kanakintsuliha tallegg ~350g v/p",
+      "brand": "tallegg",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanakintsuliha p suitsutatud v",
+      "descriptorOrder": [
+        "suitsutatud",
+        "kanakintsuliha",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "kanakintsuliha": "kanakintsuliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -613,7 +2122,45 @@
     "ean": "4740046011306",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046011306-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046011306",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "600g",
+      "variety": "tallegg",
+      "nameLower": "suitsutatud broileripooltiivad tallegg 600g",
+      "brand": "tallegg",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileripooltiivad suitsutatud",
+      "descriptorOrder": [
+        "suitsutatud",
+        "broileripooltiivad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "broileripooltiivad": "broileripooltiivad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -627,7 +2174,47 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/640761-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "350g",
+      "variety": "tallegg",
+      "nameLower": "suitsutatud broileririnnafilee tallegg ~350g v/p",
+      "brand": "tallegg",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileririnnafilee p suitsutatud v",
+      "descriptorOrder": [
+        "suitsutatud",
+        "broileririnnafilee",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "broileririnnafilee": "broileririnnafilee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -641,7 +2228,47 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/640042-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "300g",
+      "variety": "tallegg",
+      "nameLower": "suitsutatud broilerikoib tallegg kg ~0.3kg v/p",
+      "brand": "tallegg",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerikoib p suitsutatud v",
+      "descriptorOrder": [
+        "suitsutatud",
+        "broilerikoib",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "broilerikoib": "broilerikoib"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -655,7 +2282,47 @@
     "ean": "4740046004605",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046004605-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046004605",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suitsutatud",
+      "unit": "600g",
+      "variety": "tallegg",
+      "nameLower": "suitsutatud broileri poolkoivad tallegg 600g",
+      "brand": "tallegg",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri poolkoivad suitsutatud",
+      "descriptorOrder": [
+        "suitsutatud",
+        "broileri",
+        "poolkoivad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suitsutatud": "suitsutatud",
+        "broileri": "broileri",
+        "poolkoivad": "poolkoivad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -669,21 +2336,46 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/640417-1.png",
     "storeUnitPrice": null,
-    "brand": null
-  },
-  {
-    "store": "Coop",
-    "name": "Broiler Eestimaine Tallegg ~1.6kg jahut.A-klass",
-    "price": 4.95,
-    "regularPrice": 4.95,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://coophaapsalu.ee/toode/broiler-jahutatud-v-p/",
-    "ean": null,
-    "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/640001-1.png",
-    "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broilerikintsuliha",
+      "unit": "500g",
+      "variety": "eestimaine tallegg",
+      "nameLower": "broilerikintsuliha eestimaine tallegg~500g jahut.",
+      "brand": "tallegg",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerikintsuliha eestimaine jahut",
+      "descriptorOrder": [
+        "broilerikintsuliha",
+        "eestimaine",
+        "jahut"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broilerikintsuliha": "broilerikintsuliha",
+        "eestimaine": "eestimaine"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -697,7 +2389,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/640189-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "klassikal",
+      "unit": "1700g",
+      "variety": "tallegg",
+      "nameLower": "klassikal.ahjubroiler tallegg ~1.7kg küpsetuskotis",
+      "brand": "tallegg",
+      "size": "1700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ahjubroiler klassikal küpsetuskotis",
+      "descriptorOrder": [
+        "klassikal",
+        "ahjubroiler",
+        "küpsetuskotis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küpsetuskotis": "küpsetuskotis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -711,7 +2441,45 @@
     "ean": "4740046004810",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046004810-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740046004810",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broileripooltiib",
+      "unit": "400g",
+      "variety": "eestimaine tallegg",
+      "nameLower": "broileripooltiib eestimaine tallegg 400g jahutatud",
+      "brand": "tallegg",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileripooltiib eestimaine",
+      "descriptorOrder": [
+        "broileripooltiib",
+        "eestimaine"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileripooltiib": "broileripooltiib",
+        "eestimaine": "eestimaine"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -725,7 +2493,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/640017-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TALLEGG",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broileririnnafi",
+      "unit": "500g",
+      "variety": "eestimaine tallegg",
+      "nameLower": "broileririnnafi eestimaine tallegg ~500g jahutatud",
+      "brand": "tallegg",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileririnnafi eestimaine",
+      "descriptorOrder": [
+        "broileririnnafi",
+        "eestimaine"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileririnnafi": "broileririnnafi",
+        "eestimaine": "eestimaine"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -739,7 +2545,47 @@
     "ean": "4740574065451",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/06/4740574065451.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Steff",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740574065451",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "armeenia",
+      "unit": "600g",
+      "variety": "steff",
+      "nameLower": "armeenia shaslõkk seakaelakarbonaadist steff 600g",
+      "brand": "steff",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "armeenia seakaelakarbonaadist shaslõkk",
+      "descriptorOrder": [
+        "armeenia",
+        "shaslõkk",
+        "seakaelakarbonaadist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "armeenia": "armeenia",
+        "shaslõkk": "shaslõkk",
+        "seakaelakarbonaadist": "seakaelakarbonaadist"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -753,7 +2599,43 @@
     "ean": "4740569013108",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740569013108.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "OSKAR",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740569013108",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "grillpadrunid",
+      "unit": "400g",
+      "variety": "oskar",
+      "nameLower": "grillpadrunid oskar 400g",
+      "brand": "oskar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grillpadrunid",
+      "descriptorOrder": [
+        "grillpadrunid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "grillpadrunid": "grillpadrunid"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -767,7 +2649,45 @@
     "ean": "4740296003915",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740296003915.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAROOTSI",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740296003915",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "krõbe",
+      "unit": "400g",
+      "variety": "rannarootsi",
+      "nameLower": "krõbe seakülg rannarootsi 400g",
+      "brand": "rannarootsi",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "krõbe seakülg",
+      "descriptorOrder": [
+        "krõbe",
+        "seakülg"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "krõbe": "krõbe",
+        "seakülg": "seakülg"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -781,7 +2701,47 @@
     "ean": "4740618007843",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740618007843.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740618007843",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "juustune",
+      "unit": "380g",
+      "variety": "linnamäe",
+      "nameLower": "juustune grill-frankfurter linnamäe 380g",
+      "brand": "juustune",
+      "size": "380g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "frankfurter grill juustune linnamäe",
+      "descriptorOrder": [
+        "juustune",
+        "grill",
+        "frankfurter",
+        "linnamäe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "juustune": "juustune",
+        "linnamäe": "linnamäe"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -795,7 +2755,45 @@
     "ean": "4740579506942",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740579506942-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "KARNI",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740579506942",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sõprade",
+      "unit": "600g",
+      "variety": "karni",
+      "nameLower": "sõprade shaslõkk karni 600g",
+      "brand": "karni",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "shaslõkk sõprade",
+      "descriptorOrder": [
+        "sõprade",
+        "shaslõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sõprade": "sõprade",
+        "shaslõkk": "shaslõkk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -809,7 +2807,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/23296560.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAROOTSI",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "miniribi",
+      "unit": "1200g",
+      "variety": "rannarootsi",
+      "nameLower": "miniribi rannarootsi ~1.2kg v/p",
+      "brand": "rannarootsi",
+      "size": "1200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "miniribi p v",
+      "descriptorOrder": [
+        "miniribi",
+        "v",
+        "p"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "miniribi": "miniribi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -823,7 +2859,51 @@
     "ean": "4740296012566",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740296012566.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAROOTSI",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740296012566",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ehe",
+      "unit": "250g",
+      "variety": "rannarootsi",
+      "nameLower": "ehe triibuliha soola ja pipraga rannarootsi 250g",
+      "brand": "rannarootsi",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "pipraga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ehe ja pipraga soola triibuliha",
+      "descriptorOrder": [
+        "ehe",
+        "triibuliha",
+        "soola",
+        "ja",
+        "pipraga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ehe": "ehe",
+        "triibuliha": "triibuliha",
+        "soola": "soola",
+        "ja": "ja",
+        "pipraga": "pipraga"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -837,7 +2917,47 @@
     "ean": "4740296003236",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740296003236.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740296003236",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õllepunnid",
+      "unit": "500g",
+      "variety": "isukas",
+      "nameLower": "õllepunnid juustuga isukas 500g",
+      "brand": "õllepunnid",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "juustuga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "isukas juustuga õllepunnid",
+      "descriptorOrder": [
+        "õllepunnid",
+        "juustuga",
+        "isukas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllepunnid": "õllepunnid",
+        "juustuga": "juustuga",
+        "isukas": "isukas"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -851,7 +2971,45 @@
     "ean": null,
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/23603645.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustika",
+      "unit": "1200g",
+      "variety": "rakvere",
+      "nameLower": "mustika grill-ribi rakvere ~1.2kg",
+      "brand": "rakvere",
+      "size": "1200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grill mustika ribi",
+      "descriptorOrder": [
+        "mustika",
+        "grill",
+        "ribi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -865,7 +3023,46 @@
     "ean": "4740171081625",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740171081625.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740171081625",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "shaslõkk",
+      "unit": "600g",
+      "variety": "m",
+      "nameLower": "shaslõkk klassikalises marinaadis m&m 600g",
+      "brand": "shaslõkk",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "klassikalises m shaslõkk",
+      "descriptorOrder": [
+        "shaslõkk",
+        "klassikalises",
+        "m"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "shaslõkk": "shaslõkk",
+        "klassikalises": "klassikalises"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -879,7 +3076,47 @@
     "ean": "4740296010593",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740296010593.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAROOTSI",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740296010593",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ehe",
+      "unit": "600g",
+      "variety": "rannarootsi",
+      "nameLower": "ehe shaslõkk seakaelakarbonaadist rannarootsi 600g",
+      "brand": "rannarootsi",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ehe seakaelakarbonaadist shaslõkk",
+      "descriptorOrder": [
+        "ehe",
+        "shaslõkk",
+        "seakaelakarbonaadist"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ehe": "ehe",
+        "shaslõkk": "shaslõkk",
+        "seakaelakarbonaadist": "seakaelakarbonaadist"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -893,7 +3130,49 @@
     "ean": "4740660012628",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660012628.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740660012628",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "coop",
+      "unit": "600g",
+      "variety": "armeenia",
+      "nameLower": "coop armeenia shaslõkk sealihast 600g",
+      "brand": "coop",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "armeenia coop sealihast shaslõkk",
+      "descriptorOrder": [
+        "coop",
+        "armeenia",
+        "shaslõkk",
+        "sealihast"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coop": "coop",
+        "armeenia": "armeenia",
+        "shaslõkk": "shaslõkk",
+        "sealihast": "sealihast"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -907,7 +3186,45 @@
     "ean": "4740296005506",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296005506.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RANNAROOTSI",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740296005506",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "gruusia",
+      "unit": "1000g",
+      "variety": "rannarootsi",
+      "nameLower": "gruusia shaslõkk rannarootsi 1kg",
+      "brand": "rannarootsi",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gruusia shaslõkk",
+      "descriptorOrder": [
+        "gruusia",
+        "shaslõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "gruusia": "gruusia",
+        "shaslõkk": "shaslõkk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -921,7 +3238,47 @@
     "ean": "4740003006741",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003006741-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "RAKVERE",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740003006741",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustika",
+      "unit": "500g",
+      "variety": "rakvere",
+      "nameLower": "mustika grill-liha seakaelakarbonaad rakvere 500g",
+      "brand": "rakvere",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grill liha mustika seakaelakarbonaad",
+      "descriptorOrder": [
+        "mustika",
+        "grill",
+        "liha",
+        "seakaelakarbonaad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustika": "mustika",
+        "seakaelakarbonaad": "seakaelakarbonaad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -935,7 +3292,49 @@
     "ean": "4740660012871",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660012871.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740660012871",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "klassikaline",
+      "unit": "600g",
+      "variety": "coop",
+      "nameLower": "klassikaline shashlõkk sealihast coop 600g",
+      "brand": "klassikaline",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coop klassikaline sealihast shashlõkk",
+      "descriptorOrder": [
+        "klassikaline",
+        "shashlõkk",
+        "sealihast",
+        "coop"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "klassikaline": "klassikaline",
+        "shashlõkk": "shashlõkk",
+        "sealihast": "sealihast",
+        "coop": "coop"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -949,6 +3348,46 @@
     "ean": "4740562061496",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740562061496.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": "4740562061496",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "õllemops",
+      "unit": "500g",
+      "variety": "wõro",
+      "nameLower": "õllemops juustuga wõro 500g",
+      "brand": "õllemops",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "juustuga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustuga wõro õllemops",
+      "descriptorOrder": [
+        "õllemops",
+        "juustuga",
+        "wõro"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õllemops": "õllemops",
+        "juustuga": "juustuga",
+        "wõro": "wõro"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

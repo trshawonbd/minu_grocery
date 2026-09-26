@@ -11,7 +11,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.4,
-    "brand": "PEALINNA"
+    "brand": "PEALINNA",
+    "image": "https://cdn.barbora.ee/products/f7cc6cc6-de80-43d3-a6f7-93eeef3a166d_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "pealinna",
+      "nameLower": "külm.pelmeenid pealinna, 350g",
+      "brand": "pealinna",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -25,7 +64,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.58,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/1fb1d5da-8849-4a04-b3e9-007db2648c21_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "uvic hiina",
+      "nameLower": "külm.pelmeenid uvic hiina, 400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hiina pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "hiina"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hiina": "hiina"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -39,7 +120,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.58,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/86a5aaef-7810-47af-b114-07cad30563e4_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "bravissimo itaal uvic",
+      "nameLower": "külm.pelmeen.bravissimo itaal.uvic, 400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bravissimo itaal pelmeen",
+      "descriptorOrder": [
+        "pelmeen",
+        "bravissimo",
+        "itaal"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -53,7 +175,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.78,
-    "brand": null
+    "brand": null,
+    "image": "https://cdn.barbora.ee/products/549bde55-f720-49d9-9b1d-05326ae23466_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "maitsvad",
+      "nameLower": "külm. pelmeenid maitsvad, 400g",
+      "brand": "külm",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maitsvad pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "maitsvad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid",
+        "maitsvad": "maitsvad"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -67,7 +232,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.36,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/c19a3444-d9b0-48bc-9990-ceb32e3ff77b_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "uvic ivan poltavskie",
+      "nameLower": "külm.pelmeenid uvic ivan poltavskie,500g",
+      "brand": "uvic",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ivan pelmeenid poltavskie",
+      "descriptorOrder": [
+        "pelmeenid",
+        "ivan",
+        "poltavskie"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ivan": "ivan",
+        "poltavskie": "poltavskie"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -81,7 +290,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.36,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/1a85d385-d511-4a05-ae1c-bfa1aaebf991_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "uvic ivan kazanskie",
+      "nameLower": "külm.pelmeenid uvic ivan kazanskie, 500g",
+      "brand": "uvic",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ivan kazanskie pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "ivan",
+        "kazanskie"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ivan": "ivan",
+        "kazanskie": "kazanskie"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -95,7 +348,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.36,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/6265d32f-8d5a-411e-a928-644807c15c09_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "uvic hiina",
+      "nameLower": "külm. pelmeenid uvic hiina, 1kg",
+      "brand": "uvic",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hiina pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "hiina"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid",
+        "hiina": "hiina"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -109,7 +405,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.98,
-    "brand": "RH FOODS"
+    "brand": "RH FOODS",
+    "image": "https://cdn.barbora.ee/products/0beab51e-fede-49cd-85a4-36d67ee0f165_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "nostalgia",
+      "nameLower": "külm. pelmeenid nostalgia, 1kg",
+      "brand": "rh foods",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "nostalgia pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "nostalgia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid",
+        "nostalgia": "nostalgia"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -123,7 +462,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.98,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/44a092e3-8ccf-424e-b98e-88aa956589d5_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "uvic",
+      "nameLower": "külm. vareenikud uvic kartuli-seene,500g",
+      "brand": "uvic",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartuli seene vareenikud",
+      "descriptorOrder": [
+        "vareenikud",
+        "kartuli",
+        "seene"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vareenikud": "vareenikud"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -137,7 +519,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.18,
-    "brand": "SAAREMAA LIHATÖÖSTUS"
+    "brand": "SAAREMAA LIHATÖÖSTUS",
+    "image": "https://cdn.barbora.ee/products/25e170f0-a691-410c-a479-5ec349ac8f49_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "600g",
+      "variety": "saaremaa",
+      "nameLower": "külm.pelmeenid saaremaa, 600g",
+      "brand": "saaremaa lihatööstus",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "saaremaa": "saaremaa"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -151,7 +574,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.1,
-    "brand": "RH FOODS"
+    "brand": "RH FOODS",
+    "image": "https://cdn.barbora.ee/products/db4b75d8-fe7d-41ec-8aa6-5c625756695c_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "400g",
+      "variety": "vano",
+      "nameLower": "külmutatud hinkaalid vano, 400g",
+      "brand": "rh foods",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hinkaalid vano",
+      "descriptorOrder": [
+        "hinkaalid",
+        "vano"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "hinkaalid": "hinkaalid",
+        "vano": "vano"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -165,7 +632,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.23,
-    "brand": "PREMIA"
+    "brand": "PREMIA",
+    "image": "https://cdn.barbora.ee/products/33c7e2a2-0ad3-4f94-829f-e5ed92c5bc9f_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "pealinna",
+      "nameLower": "külm.minipelmeenid pealinna, 350g",
+      "brand": "premia",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "minipelmeenid pealinna",
+      "descriptorOrder": [
+        "minipelmeenid",
+        "pealinna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pealinna": "pealinna"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -179,7 +688,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.23,
-    "brand": "PEALINNA"
+    "brand": "PEALINNA",
+    "image": "https://cdn.barbora.ee/products/2f62b371-4144-439d-b0bf-8d04e6eb7872_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "pealinna",
+      "nameLower": "külm.laste pelmeenid pealinna 350g",
+      "brand": "pealinna",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "laste pelmeenid",
+      "descriptorOrder": [
+        "laste",
+        "pelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -193,7 +744,53 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 1.35,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/4574e61d-9eb0-41dd-bd72-8da0e9e9386c_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "optima linja",
+      "nameLower": "külm.pelmeenid lihaga optima linja, 1kg",
+      "brand": "extra line",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "lihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lihaga linja optima pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "lihaga",
+        "optima",
+        "linja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lihaga": "lihaga",
+        "optima": "optima",
+        "linja": "linja"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -207,7 +804,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.5,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/ae085f04-324d-4111-a851-3bcd3b231bf1_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vici",
+      "nameLower": "külm.pelmeenid kanalihaga vici 400g",
+      "brand": "vici",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "kanalihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanalihaga pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "kanalihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kanalihaga": "kanalihaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -221,7 +860,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.7,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/c6855bce-ac37-473b-ae56-d2163baed6a3_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vici",
+      "nameLower": "külm. pelmeenid veiselihaga vici 400g",
+      "brand": "vici",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "veiselihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid veiselihaga",
+      "descriptorOrder": [
+        "pelmeenid",
+        "veiselihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid",
+        "veiselihaga": "veiselihaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -235,7 +917,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.98,
-    "brand": "DELUXE"
+    "brand": "DELUXE",
+    "image": "https://cdn.barbora.ee/products/82df10a0-1e33-4be2-957e-3a435879a2b1_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "deluxe",
+      "nameLower": "külm.laste pelm.deluxe sea-veiselih,400g",
+      "brand": "deluxe",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "laste pelm sea veiselih",
+      "descriptorOrder": [
+        "laste",
+        "pelm",
+        "sea",
+        "veiselih"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -249,7 +973,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.58,
-    "brand": null
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/05035df1-df97-4b2c-94da-f689c09772f2_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "gyoza vici",
+      "nameLower": "külm. pelmeenid lihaga gyoza vici 400g",
+      "brand": "vici",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "lihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gyoza lihaga pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "lihaga",
+        "gyoza"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid",
+        "lihaga": "lihaga",
+        "gyoza": "gyoza"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -263,7 +1032,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.58,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/a74b2c56-1c4f-4703-ad91-2385c5e76fce_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "gyoza",
+      "nameLower": "külm.pelmeenid seentega gyoza, 400g",
+      "brand": "vici",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "seentega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gyoza pelmeenid seentega",
+      "descriptorOrder": [
+        "pelmeenid",
+        "seentega",
+        "gyoza"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seentega": "seentega",
+        "gyoza": "gyoza"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -277,7 +1090,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.36,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/c790c6d2-4f4e-47a0-8ff5-e8f611b37ac5_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "uvic ivan",
+      "nameLower": "külm. supipelmeenid uvic ivan, 500g",
+      "brand": "uvic",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ivan supipelmeenid",
+      "descriptorOrder": [
+        "supipelmeenid",
+        "ivan"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "supipelmeenid": "supipelmeenid",
+        "ivan": "ivan"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -291,7 +1147,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.43,
-    "brand": "RAKVERE"
+    "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/24a780e3-6b52-457e-832f-a10faccacf94_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "900g",
+      "variety": "rakvere",
+      "nameLower": "külm.pelmeenid rakvere, 900g",
+      "brand": "rakvere",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -305,7 +1200,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.36,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/98d2e30e-93ec-4d7a-96ef-31215d017c04_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "390g",
+      "variety": "vanaema",
+      "nameLower": "külm.hinkaalid lambalihaga vanaema,390g",
+      "brand": "uvic",
+      "size": "390g",
+      "variant": null,
+      "qualifiers": "lambalihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hinkaalid lambalihaga vanaema",
+      "descriptorOrder": [
+        "hinkaalid",
+        "lambalihaga",
+        "vanaema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lambalihaga": "lambalihaga",
+        "vanaema": "vanaema"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -319,7 +1258,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.1,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/a1d6cb68-ee18-4a3e-9d40-f6a6f3defeec_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vanaema",
+      "nameLower": "külm. pelmeenid sealihaga vanaema, 400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "sealihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid sealihaga vanaema",
+      "descriptorOrder": [
+        "pelmeenid",
+        "sealihaga",
+        "vanaema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid",
+        "sealihaga": "sealihaga",
+        "vanaema": "vanaema"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -333,7 +1317,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.7,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/88f5da22-8068-4e8e-869b-f10ba5adc360_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vanaema",
+      "nameLower": "külm.pelmeenid linnulihaga vanaema, 400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "linnulihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "linnulihaga pelmeenid vanaema",
+      "descriptorOrder": [
+        "pelmeenid",
+        "linnulihaga",
+        "vanaema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "linnulihaga": "linnulihaga",
+        "vanaema": "vanaema"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -347,7 +1375,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.3,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/6841860c-b89b-4089-92a0-f5d93bf958e1_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vanaema",
+      "nameLower": "külm.vareen.seente-röstsib.vanaema,400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "röstsib seente vanaema vareen",
+      "descriptorOrder": [
+        "vareen",
+        "seente",
+        "röstsib",
+        "vanaema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -361,7 +1431,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.98,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/6be282ce-ba45-48e4-a5da-7ea20158e977_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vanaema",
+      "nameLower": "külm.vareen.kartuli-röstsib vanaema,400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartuli röstsib vanaema vareen",
+      "descriptorOrder": [
+        "vareen",
+        "kartuli",
+        "röstsib",
+        "vanaema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vanaema": "vanaema"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -375,7 +1489,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.48,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/1dfa3c1c-73ed-4dd2-8adc-14c907e1629d_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vici",
+      "nameLower": "külm. hinkaalid vici, 400g",
+      "brand": "vici",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hinkaalid",
+      "descriptorOrder": [
+        "hinkaalid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hinkaalid": "hinkaalid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -389,7 +1544,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.11,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/a702710a-799f-4956-858a-b24d85041b47_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "uralskije vici",
+      "nameLower": "külm.pelmeenid uralskije vici lihaga,1kg",
+      "brand": "vici",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "lihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lihaga pelmeenid uralskije",
+      "descriptorOrder": [
+        "pelmeenid",
+        "uralskije",
+        "lihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "uralskije": "uralskije",
+        "lihaga": "lihaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -403,7 +1602,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.44,
-    "brand": "GERMES"
+    "brand": "GERMES",
+    "image": "https://cdn.barbora.ee/products/211403a9-4fde-4b23-b16c-93becb80e32b_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "450g",
+      "variety": "germes",
+      "nameLower": "külm.vareenikud kohupiimaga germes, 450g",
+      "brand": "germes",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "kohupiimaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohupiimaga vareenikud",
+      "descriptorOrder": [
+        "vareenikud",
+        "kohupiimaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohupiimaga": "kohupiimaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -417,7 +1658,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.33,
-    "brand": "GERMES"
+    "brand": "GERMES",
+    "image": "https://cdn.barbora.ee/products/bf6d197b-8a86-4aea-b16b-6b5979656922_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "450g",
+      "variety": "germes",
+      "nameLower": "külm.pelmeenid kalkunilih. germes 450g",
+      "brand": "germes",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kalkunilih pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "kalkunilih"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -431,7 +1712,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.18,
-    "brand": "GERMES"
+    "brand": "GERMES",
+    "image": "https://cdn.barbora.ee/products/6a657cd5-22f9-44db-87fa-d680ca626c12_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "germes",
+      "nameLower": "külm.pelmeenid smile factory germes,500g",
+      "brand": "germes",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "factory pelmeenid smile",
+      "descriptorOrder": [
+        "pelmeenid",
+        "smile",
+        "factory"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "smile": "smile",
+        "factory": "factory"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -445,7 +1770,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.3,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/d8d2b39c-dd13-4a4a-956c-069a635eccf3_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vici",
+      "nameLower": "külm.pelmeenid õunte&kaneeliga vici,400g",
+      "brand": "vici",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "kaneeliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kaneeliga pelmeenid õunte",
+      "descriptorOrder": [
+        "pelmeenid",
+        "õunte",
+        "kaneeliga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -459,7 +1825,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.68,
-    "brand": "RANNAROOTSI"
+    "brand": "RANNAROOTSI",
+    "image": "https://cdn.barbora.ee/products/5abc201d-4d6a-40d4-b5b8-a6dd05d49e8a_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "350g",
+      "variety": "ehe",
+      "nameLower": "külmutatud pelmeenid ehe , 350g",
+      "brand": "rannarootsi",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ehe pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "ehe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "pelmeenid": "pelmeenid",
+        "ehe": "ehe"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -473,7 +1883,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.86,
-    "brand": "PREMIA"
+    "brand": "PREMIA",
+    "image": "https://cdn.barbora.ee/products/18050865-d626-4597-b785-c4d1713b4dca_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "700g",
+      "variety": "pealinna",
+      "nameLower": "külm. minipelmeenid pealinna 700g",
+      "brand": "premia",
+      "size": "700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "minipelmeenid pealinna",
+      "descriptorOrder": [
+        "minipelmeenid",
+        "pealinna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "minipelmeenid": "minipelmeenid",
+        "pealinna": "pealinna"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -487,7 +1940,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.37,
-    "brand": "RANNAROOTSI"
+    "brand": "RANNAROOTSI",
+    "image": "https://cdn.barbora.ee/products/4183d7d9-7961-4f4f-b09d-57d53023454d_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "350g",
+      "variety": "ehe",
+      "nameLower": "külmutatud mini-pelmeenid ehe, 350g",
+      "brand": "rannarootsi",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ehe mini pelmeenid",
+      "descriptorOrder": [
+        "mini",
+        "pelmeenid",
+        "ehe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "ehe": "ehe"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -501,7 +1998,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.38,
-    "brand": "BIMAR"
+    "brand": "BIMAR",
+    "image": "https://cdn.barbora.ee/products/6af14486-7189-4838-89ec-4c4a1ae0c828_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "bimar",
+      "nameLower": "külm.vareenikud kirssidega bimar,400g",
+      "brand": "bimar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "kirssidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirssidega vareenikud",
+      "descriptorOrder": [
+        "vareenikud",
+        "kirssidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kirssidega": "kirssidega"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -515,7 +2054,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.38,
-    "brand": "RAKVERE"
+    "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/0f4def50-e74d-4f62-b936-dd3ea6f1bc76_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "rakvere",
+      "nameLower": "külm.pelmeenid broilerilihaga rakvere,400g",
+      "brand": "rakvere",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "broilerilihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerilihaga pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "broilerilihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broilerilihaga": "broilerilihaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -529,7 +2110,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.68,
-    "brand": "GERMES"
+    "brand": "GERMES",
+    "image": "https://cdn.barbora.ee/products/d4c1e727-2da7-41bd-83f3-132d2c2d2715_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "xxl germes",
+      "nameLower": "külm.pelmeenid lihatäidisega xxl germes,1kg",
+      "brand": "germes",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "lihatäidisega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lihatäidisega pelmeenid xxl",
+      "descriptorOrder": [
+        "pelmeenid",
+        "lihatäidisega",
+        "xxl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lihatäidisega": "lihatäidisega",
+        "xxl": "xxl"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -543,7 +2168,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.1,
-    "brand": "BIMAR"
+    "brand": "BIMAR",
+    "image": "https://cdn.barbora.ee/products/1731c7a6-8286-4f04-828a-bf994dde7cc2_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "bimar",
+      "nameLower": "külm.pelmeenid sea&veiseliha bimar,500g",
+      "brand": "bimar",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid sea veiseliha",
+      "descriptorOrder": [
+        "pelmeenid",
+        "sea",
+        "veiseliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -557,7 +2223,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.3,
-    "brand": "RAKVERE"
+    "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/d82fa195-3a54-446f-80a2-2617fc6006b5_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "rakvere",
+      "nameLower": "külm.pelmeenid praesibulaga rakvere,400g",
+      "brand": "rakvere",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "praesibulaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid praesibulaga",
+      "descriptorOrder": [
+        "pelmeenid",
+        "praesibulaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "praesibulaga": "praesibulaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -571,7 +2279,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.9,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/6e5356b7-a656-41bb-a8a2-572b4830b20d_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "fitlap",
+      "nameLower": "külm.pelmeenid fitlap kanaga, 400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "kanaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fitlap kanaga pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "fitlap",
+        "kanaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fitlap": "fitlap",
+        "kanaga": "kanaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -585,7 +2337,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.3,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/de732310-4627-4536-a8a6-ec30d184a3d8_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "uvic",
+      "nameLower": "külm.pelmeenid veise,sea&kana uvic, 400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kana pelmeenid sea veise",
+      "descriptorOrder": [
+        "pelmeenid",
+        "veise",
+        "sea",
+        "kana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veise": "veise"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -599,7 +2395,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.57,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/2feb77e9-116a-463a-80ad-8f7b6378b5aa_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "sib col",
+      "nameLower": "külm.pelmeenid sib.col.sea&veise,350g",
+      "brand": "uvic",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "col pelmeenid sea sib veise",
+      "descriptorOrder": [
+        "pelmeenid",
+        "sib",
+        "col",
+        "sea",
+        "veise"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -613,7 +2452,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.57,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/48d8feb0-915f-479f-a3c4-32991e440bce_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "sib col",
+      "nameLower": "külm.pelmeenid sib.col.veiselihaga,350g",
+      "brand": "uvic",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "veiselihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "col pelmeenid sib veiselihaga",
+      "descriptorOrder": [
+        "pelmeenid",
+        "sib",
+        "col",
+        "veiselihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -627,7 +2508,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.07,
-    "brand": "ISUKAS"
+    "brand": "ISUKAS",
+    "image": "https://cdn.barbora.ee/products/9a532d4f-df80-4a83-a717-a5218b656f03_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "700g",
+      "variety": "isukas",
+      "nameLower": "külm.pelmeenid isukas, 700g",
+      "brand": "isukas",
+      "size": "700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -641,7 +2561,46 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.26,
-    "brand": "RANNAROOTSI"
+    "brand": "RANNAROOTSI",
+    "image": "https://cdn.barbora.ee/products/8c7f0efc-bb81-4cdb-b0ed-b865cbd50c82_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "420g",
+      "variety": "rannarootsi",
+      "nameLower": "külm.hinkaalid rannarootsi, 420g",
+      "brand": "rannarootsi",
+      "size": "420g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hinkaalid",
+      "descriptorOrder": [
+        "hinkaalid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -655,7 +2614,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.3,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/05548a3c-b9d9-4dc4-8235-939356863ce8_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "uvic vanaema",
+      "nameLower": "külm.vareen. uvic vanaema kohupiim.,400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohupiim vanaema vareen",
+      "descriptorOrder": [
+        "vareen",
+        "vanaema",
+        "kohupiim"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vanaema": "vanaema"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -669,7 +2671,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.71,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/f6e46bad-7b5a-4630-ae4f-d4e5d5530bbc_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "vici",
+      "nameLower": "külm.hinkaalid lambalihaga vici, 350g",
+      "brand": "vici",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "lambalihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hinkaalid lambalihaga",
+      "descriptorOrder": [
+        "hinkaalid",
+        "lambalihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lambalihaga": "lambalihaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -683,7 +2727,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.37,
-    "brand": "RAKVERE"
+    "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/efe53d09-a6cd-420d-820b-75ab6e4b6d8f_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "rakvere",
+      "nameLower": "külm.minipelmeenid sealih.rakvere, 350g",
+      "brand": "rakvere",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "minipelmeenid sealih",
+      "descriptorOrder": [
+        "minipelmeenid",
+        "sealih"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -697,7 +2781,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.91,
-    "brand": "PEALINNA"
+    "brand": "PEALINNA",
+    "image": "https://cdn.barbora.ee/products/04bcfbbb-ae2e-402a-a891-9a265b770a31_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "pealinna",
+      "nameLower": "külm.täister.pelm.kanalih.pealinna, 350g",
+      "brand": "pealinna",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanalih pelm täister",
+      "descriptorOrder": [
+        "täister",
+        "pelm",
+        "kanalih"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -711,7 +2836,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.68,
-    "brand": "PEALINNA"
+    "brand": "PEALINNA",
+    "image": "https://cdn.barbora.ee/products/84d2dc0a-46ff-4a47-a012-7e7776bf645a_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "pealinna",
+      "nameLower": "külm.minipelm.kanalihaga pealinna, 350g",
+      "brand": "pealinna",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "kanalihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kanalihaga minipelm",
+      "descriptorOrder": [
+        "minipelm",
+        "kanalihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -725,7 +2890,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.23,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/b3777f87-5510-4844-b94a-bdb2390a6726_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "300g",
+      "variety": "bbq vici",
+      "nameLower": "külm.pelmeenid bbq lihaga vici,300g",
+      "brand": "vici",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "lihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bbq lihaga pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "bbq",
+        "lihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bbq": "bbq",
+        "lihaga": "lihaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -739,7 +2948,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.3,
-    "brand": "UVIC"
+    "brand": "UVIC",
+    "image": "https://cdn.barbora.ee/products/285d0a83-3ac3-40e8-8dc5-1eea2f259946_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "uvic vanaema",
+      "nameLower": "külm.vareen. uvic vanaema, kirss,400g",
+      "brand": "uvic",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirss vanaema vareen",
+      "descriptorOrder": [
+        "vareen",
+        "vanaema",
+        "kirss"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vanaema": "vanaema",
+        "kirss": "kirss"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -753,7 +3006,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.3,
-    "brand": "MAKS & MOORITS"
+    "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/a3cb707e-6040-4f76-9a41-cf14e28c823d_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "klassika",
+      "unit": "400g",
+      "variety": "maks moorits",
+      "nameLower": "klassika. pelmeenid maks&moorits 400g",
+      "brand": "maks & moorits",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "klassika pelmeenid",
+      "descriptorOrder": [
+        "klassika",
+        "pelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -767,7 +3062,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.45,
-    "brand": "MAKS & MOORITS"
+    "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/55514d3e-4247-484f-9d1e-2851613778bc_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kodupelmeenid",
+      "unit": "700g",
+      "variety": "maks moorits",
+      "nameLower": "kodupelmeenid maks&moorits 700g",
+      "brand": "maks & moorits",
+      "size": "700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kodupelmeenid",
+      "descriptorOrder": [
+        "kodupelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodupelmeenid": "kodupelmeenid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -781,7 +3117,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.3,
-    "brand": "BIMAR"
+    "brand": "BIMAR",
+    "image": "https://cdn.barbora.ee/products/74923339-e7dc-405b-ba11-545c5bf66204_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "bimar",
+      "nameLower": "külm.vareen kartuli-sibulaga bimar 400g",
+      "brand": "bimar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "sibulaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartuli sibulaga vareen",
+      "descriptorOrder": [
+        "vareen",
+        "kartuli",
+        "sibulaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -795,7 +3172,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 12.64,
-    "brand": "LIDO"
+    "brand": "LIDO",
+    "image": "https://cdn.barbora.ee/products/4a20d841-9397-4a23-bdba-7d6dcb8fff68_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pelmeenid",
+      "unit": "360g",
+      "variety": "lido",
+      "nameLower": "pelmeenid lambalihaga lido 360g",
+      "brand": "lido",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "lambalihaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lambalihaga pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "lambalihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid",
+        "lambalihaga": "lambalihaga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -809,7 +3229,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 10.19,
-    "brand": "LIDO"
+    "brand": "LIDO",
+    "image": "https://cdn.barbora.ee/products/a7b889e3-3df0-4e46-8ce6-1261361e020e_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "360g",
+      "variety": "lido",
+      "nameLower": "külm.vareen. kartuli ja seen. lido 360g",
+      "brand": "lido",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja kartuli seen vareen",
+      "descriptorOrder": [
+        "vareen",
+        "kartuli",
+        "ja",
+        "seen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartuli": "kartuli",
+        "ja": "ja"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -823,7 +3288,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.98,
-    "brand": "BIMAR"
+    "brand": "BIMAR",
+    "image": "https://cdn.barbora.ee/products/6fc8dc2b-2f08-4c48-b103-6952e8cbcd33_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "400g",
+      "variety": "bimar",
+      "nameLower": "külmutatud hinkaalid bimar, 400g",
+      "brand": "bimar",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hinkaalid",
+      "descriptorOrder": [
+        "hinkaalid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "hinkaalid": "hinkaalid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -837,7 +3344,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.91,
-    "brand": "TALLEGG"
+    "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/128ada70-9da5-4f57-833a-b5ac22ba7505_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "tallegg",
+      "nameLower": "külm.minipelm.broilerilih.tallegg, 350g",
+      "brand": "tallegg",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broilerilih minipelm",
+      "descriptorOrder": [
+        "minipelm",
+        "broilerilih"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -851,7 +3398,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.23,
-    "brand": "PEALINNA"
+    "brand": "PEALINNA",
+    "image": "https://cdn.barbora.ee/products/c83bcfc4-09fa-4c25-afd6-b5b37d699ef1_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "külm pealinna",
+      "nameLower": "külm.pelmeenid küüslauk pealinna 350g",
+      "brand": "pealinna",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "küüslauk pelmeenid",
+      "descriptorOrder": [
+        "pelmeenid",
+        "küüslauk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "küüslauk": "küüslauk"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -865,7 +3454,47 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.23,
-    "brand": "PEALINNA"
+    "brand": "PEALINNA",
+    "image": "https://cdn.barbora.ee/products/c182a8c4-74e2-4ee5-9083-7dbbc0ee2209_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "pealinna",
+      "nameLower": "külm.pelmeenid praesibul.pealinna 350g",
+      "brand": "pealinna",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid praesibul",
+      "descriptorOrder": [
+        "pelmeenid",
+        "praesibul"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -879,7 +3508,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.37,
-    "brand": "RANNAROOTSI"
+    "brand": "RANNAROOTSI",
+    "image": "https://cdn.barbora.ee/products/34db2cee-be44-4d1e-b2b8-b90560ff2d72_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": null,
+      "nameLower": "külm.põdraliha pelmeenid,350g",
+      "brand": "rannarootsi",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pelmeenid põdraliha",
+      "descriptorOrder": [
+        "põdraliha",
+        "pelmeenid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pelmeenid": "pelmeenid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -893,7 +3564,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.88,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/2fad777f-6f09-4e1a-b4b7-d8a96deed321_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "400g",
+      "variety": "vici",
+      "nameLower": "külm.tortelliinid kartuliga vici,400g",
+      "brand": "vici",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "kartuliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartuliga tortelliinid",
+      "descriptorOrder": [
+        "tortelliinid",
+        "kartuliga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartuliga": "kartuliga"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -907,7 +3620,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 10.69,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/20cf1642-02e6-491c-ba2e-c2501ad68236_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "360g",
+      "variety": "feliciana",
+      "nameLower": "külm.pitsa prosciutto&pes.feliciana 360g",
+      "brand": "dr.oetker",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "feliciana pes pitsa prosciutto",
+      "descriptorOrder": [
+        "pitsa",
+        "prosciutto",
+        "pes",
+        "feliciana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -921,7 +3676,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 12.28,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/eab00163-2b4a-4050-a27a-144f71c4af52_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "325g",
+      "variety": "feliciana",
+      "nameLower": "külm. pitsa feliciana nelja juustu,325g",
+      "brand": "dr.oetker",
+      "size": "325g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "feliciana juustu nelja pitsa",
+      "descriptorOrder": [
+        "pitsa",
+        "feliciana",
+        "nelja",
+        "juustu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "feliciana": "feliciana",
+        "nelja": "nelja",
+        "juustu": "juustu"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -935,7 +3737,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 12.78,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/740a3379-a83c-4c7d-aa68-64247cc0c7f1_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "320g",
+      "variety": "feliciana",
+      "nameLower": "külm.pitsa salaami&choriz.feliciana 320g",
+      "brand": "dr.oetker",
+      "size": "320g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "choriz feliciana pitsa salaami",
+      "descriptorOrder": [
+        "pitsa",
+        "salaami",
+        "choriz",
+        "feliciana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -949,7 +3793,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.57,
-    "brand": "PREMIA"
+    "brand": "PREMIA",
+    "image": "https://cdn.barbora.ee/products/d7709f37-c2c8-4593-9380-586967f33976_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "375g",
+      "variety": "premia",
+      "nameLower": "külm. hakkliha-juustu pitsa premia,375g",
+      "brand": "premia",
+      "size": "375g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hakkliha juustu pitsa",
+      "descriptorOrder": [
+        "hakkliha",
+        "juustu",
+        "pitsa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -963,7 +3850,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 10.56,
-    "brand": "PREMIA"
+    "brand": "PREMIA",
+    "image": "https://cdn.barbora.ee/products/c084cd15-5ba0-488a-ad75-1324ad52e717_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "340g",
+      "variety": "pealinna",
+      "nameLower": "külm. nelja-juustuga pitsa pealinna 340g",
+      "brand": "premia",
+      "size": "340g",
+      "variant": null,
+      "qualifiers": "juustuga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustuga nelja pealinna pitsa",
+      "descriptorOrder": [
+        "nelja",
+        "juustuga",
+        "pitsa",
+        "pealinna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "pealinna": "pealinna"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -977,7 +3909,48 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.17,
-    "brand": "VICI"
+    "brand": "VICI",
+    "image": "https://cdn.barbora.ee/products/9a86bb29-32c3-416b-95c1-aae6699453be_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "300g",
+      "variety": "vici",
+      "nameLower": "külm.pitsa vici suits.pepperoniga,300g",
+      "brand": "vici",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "pepperoniga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pepperoniga pitsa suits",
+      "descriptorOrder": [
+        "pitsa",
+        "suits",
+        "pepperoniga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -991,7 +3964,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 17,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/7fbae9d8-0f2f-40b7-aa22-1a943bd6522d_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "370g",
+      "variety": "ristorante mozzarella",
+      "nameLower": "külm.pitsaristorante mozzarella g.v.370g",
+      "brand": "dr.oetker",
+      "size": "370g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g mozzarella pitsaristorante v",
+      "descriptorOrder": [
+        "pitsaristorante",
+        "mozzarella",
+        "g",
+        "v"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mozzarella": "mozzarella"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1005,7 +4022,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 15.91,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/16c3efdc-ac0a-4f7d-9df4-99131e2cab85_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "345g",
+      "variety": "ristorante prosciutto",
+      "nameLower": "külm.pitsaristorante prosciutto g.v.345g",
+      "brand": "dr.oetker",
+      "size": "345g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "g pitsaristorante prosciutto v",
+      "descriptorOrder": [
+        "pitsaristorante",
+        "prosciutto",
+        "g",
+        "v"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "prosciutto": "prosciutto"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1019,7 +4080,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 12.26,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/4ac11c29-41ed-48bc-900c-9c6819f21c25_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "diavola ristorante",
+      "nameLower": "külm. pitsa diavola ristorante 350g",
+      "brand": "dr.oetker",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "diavola pitsa ristorante",
+      "descriptorOrder": [
+        "pitsa",
+        "diavola",
+        "ristorante"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "diavola": "diavola",
+        "ristorante": "ristorante"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1033,7 +4139,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.41,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/dfa339c7-bec6-4047-bd82-68ea915fc915_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "355g",
+      "variety": "mozzarella ristorante",
+      "nameLower": "külm.pitsa mozzarella ristorante, 355g",
+      "brand": "dr.oetker",
+      "size": "355g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mozzarella pitsa ristorante",
+      "descriptorOrder": [
+        "pitsa",
+        "mozzarella",
+        "ristorante"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mozzarella": "mozzarella",
+        "ristorante": "ristorante"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1047,7 +4197,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.91,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/ffa45176-6323-48cd-9ec4-18c62460f8a8_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "340g",
+      "variety": "prosciutto ristorante",
+      "nameLower": "külm.pitsa prosciutto ristorante, 340g",
+      "brand": "dr.oetker",
+      "size": "340g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa prosciutto ristorante",
+      "descriptorOrder": [
+        "pitsa",
+        "prosciutto",
+        "ristorante"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "prosciutto": "prosciutto",
+        "ristorante": "ristorante"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1061,7 +4255,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.57,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/cd0d8a53-6562-46dc-bc4a-bf17b34a8f29_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "345g",
+      "variety": "ristorante speciale",
+      "nameLower": "külm.pitsa ristorante speciale, 345g",
+      "brand": "dr.oetker",
+      "size": "345g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa ristorante speciale",
+      "descriptorOrder": [
+        "pitsa",
+        "ristorante",
+        "speciale"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ristorante": "ristorante",
+        "speciale": "speciale"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1075,7 +4313,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 15.76,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/b9922945-43a3-423b-b69c-21e1b635eeca_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "380g",
+      "variety": "lamiagrande",
+      "nameLower": "külm.pitsa salaami lamiagrande, 380g",
+      "brand": "dr.oetker",
+      "size": "380g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lamiagrande pitsa salaami",
+      "descriptorOrder": [
+        "pitsa",
+        "salaami",
+        "lamiagrande"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "salaami": "salaami",
+        "lamiagrande": "lamiagrande"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1089,7 +4371,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 14.03,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/aa065be0-6d48-4451-bbf2-ba43d000b8d3_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "360g",
+      "variety": "margherita lamiagrande",
+      "nameLower": "külm.pitsa margherita lamiagrande, 360g",
+      "brand": "dr.oetker",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lamiagrande margherita pitsa",
+      "descriptorOrder": [
+        "pitsa",
+        "margherita",
+        "lamiagrande"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "margherita": "margherita",
+        "lamiagrande": "lamiagrande"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1103,7 +4429,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.3,
-    "brand": "PEALINNA"
+    "brand": "PEALINNA",
+    "image": "https://cdn.barbora.ee/products/f919f213-ca40-435c-bca1-41ee19747194_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "300g",
+      "variety": "margherita pealinna",
+      "nameLower": "külm.margherita pitsa pealinna 300g",
+      "brand": "pealinna",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "margherita pitsa",
+      "descriptorOrder": [
+        "margherita",
+        "pitsa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1117,7 +4485,53 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 20.31,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/0f111d3c-5153-455d-9ed5-4bffc60d8024_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "295g",
+      "variety": "ristorante",
+      "nameLower": "külm.pitsa ristorante vegan salaami 295g",
+      "brand": "dr.oetker",
+      "size": "295g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa ristorante salaami vegan",
+      "descriptorOrder": [
+        "pitsa",
+        "ristorante",
+        "vegan",
+        "salaami"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ristorante": "ristorante",
+        "vegan": "vegan",
+        "salaami": "salaami"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1131,7 +4545,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.12,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/1ab624ea-b579-4867-9027-8b83f9060158_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "570g",
+      "variety": "nelja juustuga wd",
+      "nameLower": "külm. pitsa nelja juustuga wd 570g",
+      "brand": "well done",
+      "size": "570g",
+      "variant": null,
+      "qualifiers": "juustuga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "juustuga nelja pitsa wd",
+      "descriptorOrder": [
+        "pitsa",
+        "nelja",
+        "juustuga",
+        "wd"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "nelja": "nelja",
+        "juustuga": "juustuga",
+        "wd": "wd"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1145,7 +4606,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 6.12,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/68b310d1-0ff5-49b9-a429-e844c23cdb9e_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "570g",
+      "variety": "singi seentega wd",
+      "nameLower": "külm. pitsa singi & seentega wd 570g",
+      "brand": "well done",
+      "size": "570g",
+      "variant": null,
+      "qualifiers": "seentega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa seentega singi wd",
+      "descriptorOrder": [
+        "pitsa",
+        "singi",
+        "seentega",
+        "wd"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "singi": "singi",
+        "seentega": "seentega",
+        "wd": "wd"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1159,7 +4667,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.35,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/82eb955d-6c84-4fe8-a036-2547d80121cd_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "325g",
+      "variety": "speciale wd",
+      "nameLower": "külm. pitsa speciale wd 325g",
+      "brand": "well done",
+      "size": "325g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa speciale wd",
+      "descriptorOrder": [
+        "pitsa",
+        "speciale",
+        "wd"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "speciale": "speciale",
+        "wd": "wd"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1173,7 +4726,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.65,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/301889dd-876c-4f06-9454-06e6d40abff0_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "külm",
+      "unit": "310g",
+      "variety": "well done tradizionale",
+      "nameLower": "külm. pitsa well done tradizionale 310g",
+      "brand": "well done",
+      "size": "310g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa tradizionale",
+      "descriptorOrder": [
+        "pitsa",
+        "tradizionale"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "tradizionale": "tradizionale"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1187,7 +4783,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 5.4,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/eaf7acb4-396f-4275-afb0-1b225133dafa_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "külm",
+      "unit": "350g",
+      "variety": "well done margherita",
+      "nameLower": "külm. pitsa well done margherita 350g",
+      "brand": "well done",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "margherita pitsa",
+      "descriptorOrder": [
+        "pitsa",
+        "margherita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "margherita": "margherita"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1201,7 +4840,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.97,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/d1547e88-6c35-41f1-9f7a-3920528a35b8_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "külm",
+      "unit": "370g",
+      "variety": "salami well done",
+      "nameLower": "külm. pitsa salami well done 370g",
+      "brand": "well done",
+      "size": "370g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa salami",
+      "descriptorOrder": [
+        "pitsa",
+        "salami"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "salami": "salami"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1215,7 +4897,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.96,
-    "brand": "EXTRA LINE"
+    "brand": "EXTRA LINE",
+    "image": "https://cdn.barbora.ee/products/4c1d2917-82c2-43c7-8fb2-56e23d678061_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "270g",
+      "variety": "extra line",
+      "nameLower": "külm. pitsa singi-seene extra line 270g",
+      "brand": "extra line",
+      "size": "270g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pitsa seene singi",
+      "descriptorOrder": [
+        "pitsa",
+        "singi",
+        "seene"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1229,7 +4954,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.31,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/2fb79420-fd88-47ed-bfab-ad5429e56381_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "külm",
+      "unit": "420g",
+      "variety": "americana well done",
+      "nameLower": "külm. pitsa americana well done, 420g",
+      "brand": "well done",
+      "size": "420g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "americana pitsa",
+      "descriptorOrder": [
+        "pitsa",
+        "americana"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "americana": "americana"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1243,7 +5011,50 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 8.21,
-    "brand": "WELL DONE"
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/4dae3661-c9c8-4e15-9734-dc951c92d666_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "külm",
+      "unit": "425g",
+      "variety": "gourmet well done",
+      "nameLower": "külm. pitsa gourmet well done, 425g",
+      "brand": "well done",
+      "size": "425g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gourmet pitsa",
+      "descriptorOrder": [
+        "pitsa",
+        "gourmet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "gourmet": "gourmet"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1257,7 +5068,51 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 9.48,
-    "brand": "MANTINGA"
+    "brand": "MANTINGA",
+    "image": "https://cdn.barbora.ee/products/2d0ffa77-73b0-4ef2-9f4a-ba679ff481c8_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "210g",
+      "variety": "frytastic",
+      "nameLower": "külm.pitsa frytastic kana-juustu, 210g",
+      "brand": "mantinga",
+      "size": "210g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "frytastic juustu kana pitsa",
+      "descriptorOrder": [
+        "pitsa",
+        "frytastic",
+        "kana",
+        "juustu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "frytastic": "frytastic"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1271,7 +5126,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 13.31,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/f74ab8e7-1dd6-4fd8-896f-080c4664d0ab_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pitsa",
+      "unit": "525g",
+      "variety": "suprema funghi ricotta",
+      "nameLower": "pitsa suprema funghi ricotta 525g",
+      "brand": "dr.oetker",
+      "size": "525g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "funghi pitsa ricotta suprema",
+      "descriptorOrder": [
+        "pitsa",
+        "suprema",
+        "funghi",
+        "ricotta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "suprema": "suprema",
+        "funghi": "funghi",
+        "ricotta": "ricotta"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1285,7 +5187,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 17.28,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/2cecf7d6-2a47-4246-bdf2-11d702cc987c_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "335g",
+      "variety": "feliciana speciale",
+      "nameLower": "külm. pitsa feliciana speciale, 335g",
+      "brand": "dr.oetker",
+      "size": "335g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "feliciana pitsa speciale",
+      "descriptorOrder": [
+        "pitsa",
+        "feliciana",
+        "speciale"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "feliciana": "feliciana",
+        "speciale": "speciale"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1299,7 +5246,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 10.81,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/dc45aa44-2b64-4e2e-bc0d-96f4715dbda9_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "480g",
+      "variety": "la mia familia",
+      "nameLower": "külm.pitsa tom-papr.la mia familia,480g",
+      "brand": "dr.oetker",
+      "size": "480g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "familia la mia papr pitsa tom",
+      "descriptorOrder": [
+        "pitsa",
+        "tom",
+        "papr",
+        "la",
+        "mia",
+        "familia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mia": "mia",
+        "familia": "familia"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1313,7 +5307,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 10.81,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/a89b5df3-9195-4681-b477-6e95da08e25a_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "480g",
+      "variety": "la mia familia",
+      "nameLower": "külm.pitsa 4-juustu la mia familia,480g",
+      "brand": "dr.oetker",
+      "size": "480g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "familia juustu la mia pitsa",
+      "descriptorOrder": [
+        "pitsa",
+        "juustu",
+        "la",
+        "mia",
+        "familia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "la": "la",
+        "mia": "mia",
+        "familia": "familia"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1327,7 +5368,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 15.32,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/0776ea7c-eeb4-461c-945e-9ee9272f7f3b_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pitsa",
+      "unit": "280g",
+      "variety": "ristorante piadina diavola",
+      "nameLower": "pitsa ristorante piadina diavola 280g",
+      "brand": "dr.oetker",
+      "size": "280g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "diavola piadina pitsa ristorante",
+      "descriptorOrder": [
+        "pitsa",
+        "ristorante",
+        "piadina",
+        "diavola"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "ristorante": "ristorante",
+        "piadina": "piadina",
+        "diavola": "diavola"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1341,7 +5429,54 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 15.32,
-    "brand": "DR.OETKER"
+    "brand": "DR.OETKER",
+    "image": "https://cdn.barbora.ee/products/157fe797-d697-4b37-877f-5fe9b43121bb_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pitsa",
+      "unit": "280g",
+      "variety": "ristorante piadina prosciutto",
+      "nameLower": "pitsa ristorante piadina prosciutto 280g",
+      "brand": "dr.oetker",
+      "size": "280g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "piadina pitsa prosciutto ristorante",
+      "descriptorOrder": [
+        "pitsa",
+        "ristorante",
+        "piadina",
+        "prosciutto"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pitsa": "pitsa",
+        "ristorante": "ristorante",
+        "piadina": "piadina",
+        "prosciutto": "prosciutto"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1355,7 +5490,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.65,
-    "brand": "AVIKO"
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/aeb326bf-eefc-427a-82d4-893fd9e23c53_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "750g",
+      "variety": "zig zag aviko",
+      "nameLower": "külm.friikart.sakil. zig zag aviko, 750g",
+      "brand": "aviko",
+      "size": "750g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikart sakil zag zig",
+      "descriptorOrder": [
+        "friikart",
+        "sakil",
+        "zig",
+        "zag"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "zig": "zig",
+        "zag": "zag"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1369,7 +5549,52 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.76,
-    "brand": "AVIKO"
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/34ea29ca-611c-4e41-9838-258c5ed68fa6_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "450g",
+      "variety": "zig zag aviko",
+      "nameLower": "külm.friikart.sakil. zig zag aviko, 450g",
+      "brand": "aviko",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikart sakil zag zig",
+      "descriptorOrder": [
+        "friikart",
+        "sakil",
+        "zig",
+        "zag"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "zig": "zig",
+        "zag": "zag"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1383,231 +5608,49 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.6,
-    "brand": "FARM FRITES"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm. friikartul sakiline AVIKO, 1,5kg",
-    "price": 6.29,
-    "regularPrice": 6.29,
-    "cardPrice": 4.99,
-    "cardName": "Aitäh",
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-friikartul-sakiline-aviko-1-5-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 3.32,
-    "brand": "AVIKO"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.friikartul MAAHÄRRA sakiline, 750g",
-    "price": 2.99,
-    "regularPrice": 2.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-friikartul-maaharra-sakiline-750-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 3.99,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm. kartulipallid Noisettes AVIKO,600g",
-    "price": 2.39,
-    "regularPrice": 2.39,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-kartulipallid-noisettes-aviko-600-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 3.98,
-    "brand": "AVIKO"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.kartulisek.maits.Tex-Mex AVIKO 600g",
-    "price": 2.75,
-    "regularPrice": 2.75,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-kartulisek-maits-tex-mex-aviko-600-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.58,
-    "brand": "AVIKO"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.friikartul SMART CHOICE, 1kg",
-    "price": 2.25,
-    "regularPrice": 2.25,
-    "cardPrice": 1.59,
-    "cardName": "Aitäh",
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-friikartul-smart-choice-1-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 1.59,
-    "brand": "SMART CHOICE"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.friikart.FARM FRITESpikk&krõbe,600g",
-    "price": 2.69,
-    "regularPrice": 2.69,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-friikart-farm-fritespikk-krobe-600-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.48,
-    "brand": "FARM FRITES"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.friikartulid EXTRA LINE 1kg",
-    "price": 1.99,
-    "regularPrice": 1.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-friikartulid-extra-line-1-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 1.99,
-    "brand": "TOP MANIA"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.kartulisektor küüsl.AVIKO,600g",
-    "price": 2.49,
-    "regularPrice": 2.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-kartulisektor-kuusl-aviko-600-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.15,
-    "brand": "AVIKO"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.friikartul. sakiline EXTRA LINE,1kg",
-    "price": 2.35,
-    "regularPrice": 2.35,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-friikartul-sakiline-extra-line-1-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 2.35,
-    "brand": "TOP MANIA"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm. praekartul MAAHÄRRA, 500g",
-    "price": 2.05,
-    "regularPrice": 2.05,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-praekartul-maaharra-500-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.1,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm. bataadifrii AVIKO, 450g",
-    "price": 4.99,
-    "regularPrice": 4.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-bataadifrii-aviko-450-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 11.09,
-    "brand": "AVIKO"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm. bataadi MAAHÄRRA friikad, 500g",
-    "price": 4.45,
-    "regularPrice": 4.45,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-bataadi-maaharra-friikad-500-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 8.9,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.friikart.kuld.krõbe MAAHÄRRA, 1.5kg",
-    "price": 5.29,
-    "regularPrice": 5.29,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-friikart-kuld-krobe-maaharra-1-5-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 3.53,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külmutatud friikartulid AVIKO, 900g",
-    "price": 3.35,
-    "regularPrice": 3.35,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulmutatud-friikartulid-aviko-900-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 3.72,
-    "brand": "AVIKO"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.kartulisektorid MAAHÄRRA 500g",
-    "price": 2.09,
-    "regularPrice": 2.09,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-kartulisektorid-maaharra-500-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.18,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Barbora",
-    "name": "Külm.kartulisekt.krõbe.FARM FRITES 600g",
-    "price": 2.49,
-    "regularPrice": 2.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulm-kartulisekt-krobe-farm-frites-600-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.15,
-    "brand": "FARM FRITES"
+    "brand": "FARM FRITES",
+    "image": "https://cdn.barbora.ee/products/23483181-7518-4568-984d-7133d8c04dac_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "750g",
+      "variety": "farm frites",
+      "nameLower": "külm. friikart.farm frites sakiline,750g",
+      "brand": "farm frites",
+      "size": "750g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikart sakiline",
+      "descriptorOrder": [
+        "friikart",
+        "sakiline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sakiline": "sakiline"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1621,21 +5664,833 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 3.99,
-    "brand": "BALBIINO"
+    "brand": "BALBIINO",
+    "image": "https://cdn.barbora.ee/products/a1d237b0-6c8e-4146-8198-d48b831f7b86_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "750g",
+      "variety": "kullakesed",
+      "nameLower": "külm.friikart.sakiline kullakesed,750g",
+      "brand": "balbiino",
+      "size": "750g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikart kullakesed sakiline",
+      "descriptorOrder": [
+        "friikart",
+        "sakiline",
+        "kullakesed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kullakesed": "kullakesed"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
-    "name": "Külmutatud pom' kroketid AVIKO, 750g",
-    "price": 3.79,
-    "regularPrice": 3.79,
+    "name": "Külm. friikartul sakiline AVIKO, 1,5kg",
+    "price": 6.29,
+    "regularPrice": 6.29,
+    "cardPrice": 4.99,
+    "cardName": "Aitäh",
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-friikartul-sakiline-aviko-1-5-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 3.32,
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/7a5ad659-2ecd-41e9-86e5-93a4b1033653_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1500g",
+      "variety": "aviko",
+      "nameLower": "külm. friikartul sakiline aviko, 1,5kg",
+      "brand": "aviko",
+      "size": "1500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikartul sakiline",
+      "descriptorOrder": [
+        "friikartul",
+        "sakiline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "friikartul": "friikartul",
+        "sakiline": "sakiline"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartul MAAHÄRRA sakiline, 750g",
+    "price": 2.99,
+    "regularPrice": 2.99,
     "cardPrice": null,
     "cardName": null,
     "currency": "EUR",
-    "url": "https://barbora.ee/toode/kulmutatud-pom-kroketid-aviko-750-g",
+    "url": "https://barbora.ee/toode/kulm-friikartul-maaharra-sakiline-750-g",
     "ean": null,
     "unit": "kg",
-    "storeUnitPrice": 5.05,
-    "brand": "AVIKO"
+    "storeUnitPrice": 3.99,
+    "brand": "MAAHÄRRA",
+    "image": "https://cdn.barbora.ee/products/00fc63cb-fc1c-46ce-a669-ab69a14ba3a8_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "750g",
+      "variety": "maahärra",
+      "nameLower": "külm.friikartul maahärra sakiline, 750g",
+      "brand": "maahärra",
+      "size": "750g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikartul sakiline",
+      "descriptorOrder": [
+        "friikartul",
+        "sakiline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sakiline": "sakiline"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. kartulipallid Noisettes AVIKO,600g",
+    "price": 2.39,
+    "regularPrice": 2.39,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-kartulipallid-noisettes-aviko-600-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 3.98,
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/69a99b3d-1e51-41f6-9ef8-a68ff6de9324_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "600g",
+      "variety": "noisettes aviko",
+      "nameLower": "külm. kartulipallid noisettes aviko,600g",
+      "brand": "aviko",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulipallid noisettes",
+      "descriptorOrder": [
+        "kartulipallid",
+        "noisettes"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartulipallid": "kartulipallid",
+        "noisettes": "noisettes"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisek.maits.Tex-Mex AVIKO 600g",
+    "price": 2.75,
+    "regularPrice": 2.75,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-kartulisek-maits-tex-mex-aviko-600-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 4.58,
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/d8948fea-9288-4926-997b-10d72bc6dd68_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "600g",
+      "variety": "tex mex aviko",
+      "nameLower": "külm.kartulisek.maits.tex-mex aviko 600g",
+      "brand": "aviko",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulisek mex tex",
+      "descriptorOrder": [
+        "kartulisek",
+        "tex",
+        "mex"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartul SMART CHOICE, 1kg",
+    "price": 2.25,
+    "regularPrice": 2.25,
+    "cardPrice": 1.59,
+    "cardName": "Aitäh",
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-friikartul-smart-choice-1-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 1.59,
+    "brand": "SMART CHOICE",
+    "image": "https://cdn.barbora.ee/products/7fcf0f7b-1a8a-46a5-8eaa-ee05846e2443_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "smart choice",
+      "nameLower": "külm.friikartul smart choice, 1kg",
+      "brand": "smart choice",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikartul",
+      "descriptorOrder": [
+        "friikartul"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikart.FARM FRITESpikk&krõbe,600g",
+    "price": 2.69,
+    "regularPrice": 2.69,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-friikart-farm-fritespikk-krobe-600-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 4.48,
+    "brand": "FARM FRITES",
+    "image": "https://cdn.barbora.ee/products/5581fc9b-896e-48b8-8e63-4000cc332992_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "600g",
+      "variety": "farm fritespikk",
+      "nameLower": "külm.friikart.farm fritespikk&krõbe,600g",
+      "brand": "farm frites",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikart fritespikk krõbe",
+      "descriptorOrder": [
+        "friikart",
+        "fritespikk",
+        "krõbe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartulid EXTRA LINE 1kg",
+    "price": 1.99,
+    "regularPrice": 1.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-friikartulid-extra-line-1-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 1.99,
+    "brand": "TOP MANIA",
+    "image": "https://cdn.barbora.ee/products/09a80abf-4c12-496c-ad25-f857f0abf97c_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "extra line",
+      "nameLower": "külm.friikartulid extra line 1kg",
+      "brand": "top mania",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "extra friikartulid line",
+      "descriptorOrder": [
+        "friikartulid",
+        "extra",
+        "line"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "extra": "extra",
+        "line": "line"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisektor küüsl.AVIKO,600g",
+    "price": 2.49,
+    "regularPrice": 2.49,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-kartulisektor-kuusl-aviko-600-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 4.15,
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/d2aae211-3d51-4563-9969-e9fc0332a837_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "600g",
+      "variety": "aviko",
+      "nameLower": "külm.kartulisektor küüsl.aviko,600g",
+      "brand": "aviko",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulisektor küüsl",
+      "descriptorOrder": [
+        "kartulisektor",
+        "küüsl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikartul. sakiline EXTRA LINE,1kg",
+    "price": 2.35,
+    "regularPrice": 2.35,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-friikartul-sakiline-extra-line-1-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 2.35,
+    "brand": "TOP MANIA",
+    "image": "https://cdn.barbora.ee/products/b4718f5f-21f5-4733-94e7-b488887d9bae_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1000g",
+      "variety": "extra line",
+      "nameLower": "külm.friikartul. sakiline extra line,1kg",
+      "brand": "top mania",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "extra friikartul line sakiline",
+      "descriptorOrder": [
+        "friikartul",
+        "sakiline",
+        "extra",
+        "line"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sakiline": "sakiline",
+        "extra": "extra",
+        "line": "line"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. praekartul MAAHÄRRA, 500g",
+    "price": 2.05,
+    "regularPrice": 2.05,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-praekartul-maaharra-500-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 4.1,
+    "brand": "MAAHÄRRA",
+    "image": "https://cdn.barbora.ee/products/11de092b-6437-49c2-8111-44f581c32a6c_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "maahärra",
+      "nameLower": "külm. praekartul maahärra, 500g",
+      "brand": "maahärra",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "praekartul",
+      "descriptorOrder": [
+        "praekartul"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "praekartul": "praekartul"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. bataadifrii AVIKO, 450g",
+    "price": 4.99,
+    "regularPrice": 4.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-bataadifrii-aviko-450-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 11.09,
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/d491c20e-8965-4219-bbb5-26f3dc7e7b88_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "450g",
+      "variety": "aviko",
+      "nameLower": "külm. bataadifrii aviko, 450g",
+      "brand": "aviko",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bataadifrii",
+      "descriptorOrder": [
+        "bataadifrii"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bataadifrii": "bataadifrii"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm. bataadi MAAHÄRRA friikad, 500g",
+    "price": 4.45,
+    "regularPrice": 4.45,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-bataadi-maaharra-friikad-500-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 8.9,
+    "brand": "MAAHÄRRA",
+    "image": "https://cdn.barbora.ee/products/92afc8b4-3aa8-4761-9dae-434976cbfd06_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "maahärra",
+      "nameLower": "külm. bataadi maahärra friikad, 500g",
+      "brand": "maahärra",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bataadi friikad",
+      "descriptorOrder": [
+        "bataadi",
+        "friikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "bataadi": "bataadi",
+        "friikad": "friikad"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.friikart.kuld.krõbe MAAHÄRRA, 1.5kg",
+    "price": 5.29,
+    "regularPrice": 5.29,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-friikart-kuld-krobe-maaharra-1-5-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 3.53,
+    "brand": "MAAHÄRRA",
+    "image": "https://cdn.barbora.ee/products/a1fb85c4-f601-47af-b6d9-b594b9e5bec5_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "1500g",
+      "variety": "maahärra",
+      "nameLower": "külm.friikart.kuld.krõbe maahärra, 1.5kg",
+      "brand": "maahärra",
+      "size": "1500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikart krõbe kuld",
+      "descriptorOrder": [
+        "friikart",
+        "kuld",
+        "krõbe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külmutatud friikartulid AVIKO, 900g",
+    "price": 3.35,
+    "regularPrice": 3.35,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulmutatud-friikartulid-aviko-900-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 3.72,
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/452d0e04-b28e-4cfb-95cf-28a1c0ff2f4f_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "900g",
+      "variety": "aviko",
+      "nameLower": "külmutatud friikartulid aviko, 900g",
+      "brand": "aviko",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikartulid",
+      "descriptorOrder": [
+        "friikartulid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "friikartulid": "friikartulid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Barbora",
@@ -1649,6 +6504,214 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 4.32,
-    "brand": null
+    "brand": null,
+    "image": "https://cdn.barbora.ee/products/fa983b66-fab5-420c-8361-46a846715081_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "600g",
+      "variety": "kullakesed",
+      "nameLower": "külm.friikartul sirge kullakesed, 600g",
+      "brand": "külm",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "friikartul kullakesed sirge",
+      "descriptorOrder": [
+        "friikartul",
+        "sirge",
+        "kullakesed"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sirge": "sirge",
+        "kullakesed": "kullakesed"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisektorid MAAHÄRRA 500g",
+    "price": 2.09,
+    "regularPrice": 2.09,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-kartulisektorid-maaharra-500-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 4.18,
+    "brand": "MAAHÄRRA",
+    "image": "https://cdn.barbora.ee/products/be35ac6c-a570-462d-a21d-146e4b3d1ceb_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "500g",
+      "variety": "maahärra",
+      "nameLower": "külm.kartulisektorid maahärra 500g",
+      "brand": "maahärra",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulisektorid",
+      "descriptorOrder": [
+        "kartulisektorid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külm.kartulisekt.krõbe.FARM FRITES 600g",
+    "price": 2.49,
+    "regularPrice": 2.49,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulm-kartulisekt-krobe-farm-frites-600-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 4.15,
+    "brand": "FARM FRITES",
+    "image": "https://cdn.barbora.ee/products/b45b7995-4197-4a64-a6db-77c7427ffa50_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "600g",
+      "variety": "farm frites",
+      "nameLower": "külm.kartulisekt.krõbe.farm frites 600g",
+      "brand": "farm frites",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartulisekt krõbe",
+      "descriptorOrder": [
+        "kartulisekt",
+        "krõbe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Külmutatud pom' kroketid AVIKO, 750g",
+    "price": 3.79,
+    "regularPrice": 3.79,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/kulmutatud-pom-kroketid-aviko-750-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 5.05,
+    "brand": "AVIKO",
+    "image": "https://cdn.barbora.ee/products/73aa2252-b4ec-4aba-927a-5a041749e933_m.png",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "750g",
+      "variety": "aviko",
+      "nameLower": "külmutatud pom' kroketid aviko, 750g",
+      "brand": "aviko",
+      "size": "750g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kroketid pom",
+      "descriptorOrder": [
+        "pom",
+        "kroketid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "kroketid": "kroketid"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

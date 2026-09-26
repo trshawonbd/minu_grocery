@@ -11,7 +11,48 @@
     "ean": "7310050003443",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/7310050003443.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050003443",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "100g",
+      "variety": "löfbergs fair fresh",
+      "nameLower": "lahustuv kohv löfbergs fair fresh 100g",
+      "brand": "löfbergs",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fair fresh kohv lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "fair",
+        "fresh"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "fair": "fair",
+        "fresh": "fresh"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,7 +66,49 @@
     "ean": "4820270011560",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4820270011560.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4820270011560",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rio",
+      "unit": "13g",
+      "variety": "negro originaal",
+      "nameLower": "rio negro originaal 3in1 lah.kohvij.13g",
+      "brand": "rio",
+      "size": "13g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "in kohvij lah negro originaal rio",
+      "descriptorOrder": [
+        "rio",
+        "negro",
+        "originaal",
+        "in",
+        "lah",
+        "kohvij"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rio": "rio",
+        "negro": "negro",
+        "originaal": "originaal"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -39,7 +122,48 @@
     "ean": "8000070027442",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8000070027442.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070027442",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "500g",
+      "variety": "lavazza decaf classico",
+      "nameLower": "kohviuba lavazza decaf classico 500g kofeiinivaba",
+      "brand": "lavazza",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classico decaf kofeiinivaba kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "decaf",
+        "classico",
+        "kofeiinivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "decaf": "decaf",
+        "classico": "classico",
+        "kofeiinivaba": "kofeiinivaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -53,7 +177,46 @@
     "ean": "8711000515297",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000515297.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000515297",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "200g",
+      "variety": "jacobs velvet",
+      "nameLower": "lahustuv kohv jacobs velvet 200g",
+      "brand": "jacobs",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohv lahustuv velvet",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "velvet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "velvet": "velvet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -67,7 +230,46 @@
     "ean": "8711000591154",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000591154.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000591154",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "jacobs origins uganda kenya",
+      "nameLower": "kohviuba jacobs origins uganda&kenya 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kenya kohviuba origins uganda",
+      "descriptorOrder": [
+        "kohviuba",
+        "origins",
+        "uganda",
+        "kenya"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "origins": "origins"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -81,7 +283,48 @@
     "ean": "8711000594711",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000594711.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000594711",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "450g",
+      "variety": "jacobs origins uganda kenya",
+      "nameLower": "jahvatatud kohv jacobs origins uganda&kenya 450g",
+      "brand": "jacobs",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kenya kohv origins uganda",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "origins",
+        "uganda",
+        "kenya"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "origins": "origins"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -95,7 +338,48 @@
     "ean": "8711000594681",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8711000594681.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000594681",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "450g",
+      "variety": "jacobs origins brazil colomba",
+      "nameLower": "jahvatatud kohv jacobs origins brazil&colomba 450g",
+      "brand": "jacobs",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brazil colomba jahvatatud kohv origins",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "origins",
+        "brazil",
+        "colomba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "origins": "origins"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -109,7 +393,50 @@
     "ean": "8000070086005",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8000070086005.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070086005",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "16x7.5g",
+      "variety": "lavazza a modo mio passionale",
+      "nameLower": "kohvikapsel lavazza a modo mio passionale 16*7.5g",
+      "brand": "lavazza",
+      "size": "16x7.5g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "a kohvikapsel mio modo passionale",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "a",
+        "modo",
+        "mio",
+        "passionale"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "a": "a",
+        "modo": "modo",
+        "mio": "mio",
+        "passionale": "passionale"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -123,7 +450,50 @@
     "ean": "8000070086036",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/8000070186033.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070086036",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "16x7.5g",
+      "variety": "lavazza a modo mio decaf cremo",
+      "nameLower": "kohvikapsel lavazza a modo mio decaf.cremo.16*7.5g",
+      "brand": "lavazza",
+      "size": "16x7.5g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "a cremo decaf kohvikapsel mio modo",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "a",
+        "modo",
+        "mio",
+        "decaf",
+        "cremo"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "a": "a",
+        "modo": "modo",
+        "mio": "mio"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -137,7 +507,44 @@
     "ean": "7310050012551",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/7310050012551.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050012551",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "löfbergs crema",
+      "nameLower": "kohviuba löfbergs crema 1kg",
+      "brand": "löfbergs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "crema kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "crema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "crema": "crema"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -151,7 +558,44 @@
     "ean": "7310760041094",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/7310760041094.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ARVID NORDQUIST",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310760041094",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "arvid",
+      "unit": "500g",
+      "variety": "nordquist mellan",
+      "nameLower": "arvid nordquist kohviuba mellan 500g",
+      "brand": "arvid nordquist",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba mellan",
+      "descriptorOrder": [
+        "kohviuba",
+        "mellan"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "mellan": "mellan"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -165,7 +609,50 @@
     "ean": "8000070063310",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/8000070063310.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070063310",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "16x7.5g",
+      "variety": "lavazza a modo mio oro",
+      "nameLower": "kohvikapsel lavazza a modo mio oro 16*7.5g",
+      "brand": "lavazza",
+      "size": "16x7.5g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "a kohvikapsel mio modo oro",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "a",
+        "modo",
+        "mio",
+        "oro"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "a": "a",
+        "modo": "modo",
+        "mio": "mio",
+        "oro": "oro"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -179,7 +666,52 @@
     "ean": "8000070086494",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/8000070086494.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070086494",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "16x8g",
+      "variety": "lavazza a modo mio lungo dolce",
+      "nameLower": "kohvikapsel lavazza a modo mio lungo dolce 16*8g",
+      "brand": "lavazza",
+      "size": "16x8g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "a dolce kohvikapsel lungo mio modo",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "a",
+        "modo",
+        "mio",
+        "lungo",
+        "dolce"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "a": "a",
+        "modo": "modo",
+        "mio": "mio",
+        "lungo": "lungo",
+        "dolce": "dolce"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -193,7 +725,48 @@
     "ean": "7613034584236",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/7613034584236.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613034584236",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "100g",
+      "variety": "nescafe classic crema",
+      "nameLower": "lahustuv kohv nescafe classic crema 100g",
+      "brand": "nescafe",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic crema kohv lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "classic",
+        "crema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "classic": "classic",
+        "crema": "crema"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -207,7 +780,46 @@
     "ean": "7613034483164",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/7613034483164.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613034483164",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nescafe",
+      "unit": "200g",
+      "variety": "classic crema",
+      "nameLower": "nescafe classic crema lah.kohv 200g",
+      "brand": "nescafe",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic crema kohv lah",
+      "descriptorOrder": [
+        "classic",
+        "crema",
+        "lah",
+        "kohv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "classic": "classic",
+        "crema": "crema"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -221,7 +833,46 @@
     "ean": "8711000576885",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/8711000576885.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000576885",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "jacobs origins brazil colombia",
+      "nameLower": "kohviuba jacobs origins brazil&colombia 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brazil colombia kohviuba origins",
+      "descriptorOrder": [
+        "kohviuba",
+        "origins",
+        "brazil",
+        "colombia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "origins": "origins"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -235,7 +886,42 @@
     "ean": "8445290446244",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8445290446244.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE DOLCE GUSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8445290446244",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nescafe",
+      "unit": "16x8.5g",
+      "variety": "dolce gusto grande",
+      "nameLower": "nescafe dolce gusto grande 16*8.5g",
+      "brand": "nescafe dolce gusto",
+      "size": "16x8.5g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grande",
+      "descriptorOrder": [
+        "grande"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "grande": "grande"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -249,7 +935,48 @@
     "ean": "8000070030022",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8000070030022.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070030022",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lavazza",
+      "unit": "1000g",
+      "variety": "qualita oro dark roast",
+      "nameLower": "lavazza qualita oro dark roast 1kg",
+      "brand": "lavazza",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "dark oro qualita roast",
+      "descriptorOrder": [
+        "qualita",
+        "oro",
+        "dark",
+        "roast"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "qualita": "qualita",
+        "oro": "oro",
+        "dark": "dark",
+        "roast": "roast"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -263,7 +990,48 @@
     "ean": "6411300182213",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/6411300182213.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300182213",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "500g",
+      "variety": "paulig classic aromatico",
+      "nameLower": "jahvatatud kohv paulig classic aromatico 500g",
+      "brand": "paulig",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aromatico classic jahvatatud kohv",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "classic",
+        "aromatico"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "classic": "classic",
+        "aromatico": "aromatico"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -277,7 +1045,46 @@
     "ean": "6411300182220",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/6411300182220.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300182220",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "paulig classic aromatico",
+      "nameLower": "kohviuba paulig classic aromatico 1kg",
+      "brand": "paulig",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aromatico classic kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "classic",
+        "aromatico"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "classic": "classic",
+        "aromatico": "aromatico"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -291,7 +1098,46 @@
     "ean": "6411300180721",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/6411300180721.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300180721",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "475g",
+      "variety": "paulig mokka",
+      "nameLower": "jahvatatud kohv paulig mokka 475g",
+      "brand": "paulig",
+      "size": "475g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kohv mokka",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "mokka"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "mokka": "mokka"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -305,7 +1151,41 @@
     "ean": "8445290448668",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/8445290448668.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE DOLCE GUSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8445290448668",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "nescafe",
+      "unit": "16x8.3g",
+      "variety": "dolce gusto gr intenso",
+      "nameLower": "nescafe dolce gusto gr.intenso 16*8.3g",
+      "brand": "nescafe dolce gusto",
+      "size": "16x8.3g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gr intenso",
+      "descriptorOrder": [
+        "gr",
+        "intenso"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -319,7 +1199,46 @@
     "ean": "6420101885537",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/6420101885537.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SEGAFREDO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6420101885537",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "900g",
+      "variety": "segafredo crema perfetto",
+      "nameLower": "kohviuba segafredo crema perfetto 900g",
+      "brand": "segafredo",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "crema kohviuba perfetto",
+      "descriptorOrder": [
+        "kohviuba",
+        "crema",
+        "perfetto"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "crema": "crema",
+        "perfetto": "perfetto"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -333,7 +1252,46 @@
     "ean": "7613036306270",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/7613036306270.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613036306270",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "16x11.65g",
+      "variety": "nescafe d gusto cappuccino",
+      "nameLower": "kohvikapsel nescafe d.gusto cappuccino 16*11.65g",
+      "brand": "nescafe",
+      "size": "16x11.65g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cappuccino d gusto kohvikapsel",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "d",
+        "gusto",
+        "cappuccino"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "cappuccino": "cappuccino"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -347,7 +1305,46 @@
     "ean": "4751031800263",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4751031800263.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Indian Instant",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4751031800263",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "indian",
+      "unit": "90g",
+      "variety": "instant coffee",
+      "nameLower": "indian instant coffee lahustuv kohv 90g",
+      "brand": "indian instant",
+      "size": "90g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coffee kohv lahustuv",
+      "descriptorOrder": [
+        "coffee",
+        "lahustuv",
+        "kohv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coffee": "coffee",
+        "lahustuv": "lahustuv",
+        "kohv": "kohv"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -361,7 +1358,48 @@
     "ean": "8000070011052",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/8000070011052.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070011052",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "250g",
+      "variety": "lavazza caffe decaffeinato",
+      "nameLower": "jahvatatud kohv lavazza caffe decaffeinato 250g",
+      "brand": "lavazza",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "caffe decaffeinato jahvatatud kohv",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "caffe",
+        "decaffeinato"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "caffe": "caffe",
+        "decaffeinato": "decaffeinato"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -375,7 +1413,46 @@
     "ean": "8000070068681",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/8000070068681.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MERRILD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070068681",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "merrild",
+      "unit": "1000g",
+      "variety": "barista cremoso",
+      "nameLower": "merrild barista cremoso kohviuba 1kg",
+      "brand": "merrild",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barista cremoso kohviuba",
+      "descriptorOrder": [
+        "barista",
+        "cremoso",
+        "kohviuba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "barista": "barista",
+        "cremoso": "cremoso",
+        "kohviuba": "kohviuba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -389,7 +1466,46 @@
     "ean": "8000070068667",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/8000070068667.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MERRILD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070068667",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "merrild",
+      "unit": "1000g",
+      "variety": "barista espresso",
+      "nameLower": "merrild barista espresso kohviuba 1kg",
+      "brand": "merrild",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barista espresso kohviuba",
+      "descriptorOrder": [
+        "barista",
+        "espresso",
+        "kohviuba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "barista": "barista",
+        "espresso": "espresso",
+        "kohviuba": "kohviuba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -403,7 +1519,48 @@
     "ean": "8000070027411",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/8000070027411.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070027411",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "lavazza caffe crema classico",
+      "nameLower": "kohviuba lavazza caffe crema classico 1kg",
+      "brand": "lavazza",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "caffe classico crema kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "caffe",
+        "crema",
+        "classico"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "caffe": "caffe",
+        "crema": "crema",
+        "classico": "classico"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -417,7 +1574,46 @@
     "ean": "8000070053571",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8000070053571.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070053571",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "10x5.6g",
+      "variety": "lavazza espresso lungo",
+      "nameLower": "kohvikapsel lavazza espresso lungo 10*5.6g",
+      "brand": "lavazza",
+      "size": "10x5.6g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "espresso kohvikapsel lungo",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "espresso",
+        "lungo"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "espresso": "espresso",
+        "lungo": "lungo"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "10",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -431,7 +1627,46 @@
     "ean": "8000070053465",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8000070053465.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070053465",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "10x5.5g",
+      "variety": "lavazza qualita oro",
+      "nameLower": "kohvikapsel lavazza qualita oro 10*5.5g",
+      "brand": "lavazza",
+      "size": "10x5.5g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohvikapsel oro qualita",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "qualita",
+        "oro"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "qualita": "qualita",
+        "oro": "oro"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "10",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -445,7 +1680,46 @@
     "ean": "8000070053625",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8000070053625.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070053625",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "10x5.7g",
+      "variety": "lavazza espresso classico",
+      "nameLower": "kohvikapsel lavazza espresso classico 10*5.7g",
+      "brand": "lavazza",
+      "size": "10x5.7g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classico espresso kohvikapsel",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "espresso",
+        "classico"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "espresso": "espresso",
+        "classico": "classico"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "10",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -459,7 +1733,46 @@
     "ean": "8000070015456",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/8000070015456.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070015456",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "250g",
+      "variety": "lavazza club",
+      "nameLower": "jahvatatud kohv lavazza club 250g",
+      "brand": "lavazza",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "club jahvatatud kohv",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "club"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "club": "club"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -473,7 +1786,46 @@
     "ean": "8000070018808",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/8000070018808.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070018808",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lavazza",
+      "unit": "250g",
+      "variety": "espresso italiano classico",
+      "nameLower": "lavazza espresso italiano classico 250g",
+      "brand": "lavazza",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classico espresso italiano",
+      "descriptorOrder": [
+        "espresso",
+        "italiano",
+        "classico"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "espresso": "espresso",
+        "italiano": "italiano",
+        "classico": "classico"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -487,7 +1839,49 @@
     "ean": "5900038002746",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/5900038002746.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900038002746",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tee",
+      "unit": "200g",
+      "variety": "creolka",
+      "nameLower": "tee- ja kohvivalgendaja creolka 200g pakk",
+      "brand": "tee",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "creolka ja kohvivalgendaja pakk tee",
+      "descriptorOrder": [
+        "tee",
+        "ja",
+        "kohvivalgendaja",
+        "creolka",
+        "pakk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ja": "ja",
+        "kohvivalgendaja": "kohvivalgendaja",
+        "creolka": "creolka",
+        "pakk": "pakk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -501,7 +1895,44 @@
     "ean": "6411300180417",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/6411300180417.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300180417",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "paulig mokka",
+      "nameLower": "kohviuba paulig mokka 1kg",
+      "brand": "paulig",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba mokka",
+      "descriptorOrder": [
+        "kohviuba",
+        "mokka"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "mokka": "mokka"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -515,7 +1946,46 @@
     "ean": "7310050010847",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/7310050010847.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050010847",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "450g",
+      "variety": "löfbergs inferno",
+      "nameLower": "jahvatatud kohv löfbergs inferno 450g",
+      "brand": "löfbergs",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "inferno jahvatatud kohv",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "inferno"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "inferno": "inferno"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -529,7 +1999,48 @@
     "ean": "7310050012544",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/7310050012506.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050012544",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "löfbergs brazil",
+      "nameLower": "kohviuba löfbergs brazil 1kg keskmine röst",
+      "brand": "löfbergs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brazil keskmine kohviuba röst",
+      "descriptorOrder": [
+        "kohviuba",
+        "brazil",
+        "keskmine",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "brazil": "brazil",
+        "keskmine": "keskmine",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -543,7 +2054,46 @@
     "ean": "8000070020566",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/8000070020566.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070020566",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "lavazza qualita oro",
+      "nameLower": "kohviuba lavazza qualita oro 1kg",
+      "brand": "lavazza",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba oro qualita",
+      "descriptorOrder": [
+        "kohviuba",
+        "qualita",
+        "oro"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "qualita": "qualita",
+        "oro": "oro"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -557,7 +2107,46 @@
     "ean": "6411300177851",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/6411300177851.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300177851",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "paulig arabica selected",
+      "nameLower": "kohviuba paulig arabica selected 1kg",
+      "brand": "paulig",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arabica kohviuba selected",
+      "descriptorOrder": [
+        "kohviuba",
+        "arabica",
+        "selected"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "arabica": "arabica",
+        "selected": "selected"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -571,7 +2160,50 @@
     "ean": "7613031918881",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/7613031918881.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613031918881",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "200g",
+      "variety": "nescafe classic",
+      "nameLower": "lahustuv kohv nescafe classic 200g klaas purgis",
+      "brand": "nescafe",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic klaas kohv lahustuv purgis",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "classic",
+        "klaas",
+        "purgis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "classic": "classic",
+        "klaas": "klaas",
+        "purgis": "purgis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -585,7 +2217,48 @@
     "ean": "7310050003535",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/7310050003535.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050003535",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "450g",
+      "variety": "löfbergs brazil ngcl",
+      "nameLower": "jahvatatud kohv löfbergs brazil ngcl 450g",
+      "brand": "löfbergs",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brazil jahvatatud kohv ngcl",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "brazil",
+        "ngcl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "brazil": "brazil",
+        "ngcl": "ngcl"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -599,7 +2272,46 @@
     "ean": "7613033174704",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/7613033174704.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE DOLCE GUSTO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613033174704",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "16x10g",
+      "variety": "nescafe dolce gusto au lait",
+      "nameLower": "kohvikapsel nescafe dolce gusto au lait 16*10g",
+      "brand": "nescafe dolce gusto",
+      "size": "16x10g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "au kohvikapsel lait",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "au",
+        "lait"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "au": "au",
+        "lait": "lait"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -613,7 +2325,48 @@
     "ean": "7613037491159",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/7613037491159.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613037491159",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvikapsel",
+      "unit": "16x11.45g",
+      "variety": "nescafe dg latte macchiato",
+      "nameLower": "kohvikapsel nescafe dg latte macchiato 16*11.45g",
+      "brand": "nescafe",
+      "size": "16x11.45g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "dg kohvikapsel latte macchiato",
+      "descriptorOrder": [
+        "kohvikapsel",
+        "dg",
+        "latte",
+        "macchiato"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvikapsel": "kohvikapsel",
+        "dg": "dg",
+        "latte": "latte",
+        "macchiato": "macchiato"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "16",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -627,7 +2380,48 @@
     "ean": "8711000856000",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/8711000856000-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000856000",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "jacobs barista crema italiano",
+      "nameLower": "kohviuba jacobs barista crema italiano 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barista crema italiano kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "barista",
+        "crema",
+        "italiano"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "barista": "barista",
+        "crema": "crema",
+        "italiano": "italiano"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -641,7 +2435,48 @@
     "ean": "7891000256831",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/7891000256831.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7891000256831",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "250g",
+      "variety": "nescafe classic strong",
+      "nameLower": "lahustuv kohv nescafe classic strong 250g",
+      "brand": "nescafe",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic kohv lahustuv strong",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "classic",
+        "strong"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "classic": "classic",
+        "strong": "strong"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -655,7 +2490,44 @@
     "ean": "4742650001025",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4742650001025.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TASUJA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742650001025",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "tasuja jaanus",
+      "nameLower": "kohviuba tasuja jaanus 1kg",
+      "brand": "tasuja",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jaanus kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "jaanus"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "jaanus": "jaanus"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -669,7 +2541,46 @@
     "ean": "7613036299497",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/7613036299497.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613036299497",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "100g",
+      "variety": "nescafe gold",
+      "nameLower": "lahustuv kohv nescafe gold 100g",
+      "brand": "nescafe",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gold kohv lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "gold"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "gold": "gold"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -683,7 +2594,46 @@
     "ean": "4742650000011",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4742650000011.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "BEST BEANS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742650000011",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "900g",
+      "variety": "best beans espresso supreme",
+      "nameLower": "kohviuba best beans espresso supreme 900g",
+      "brand": "best beans",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "espresso kohviuba supreme",
+      "descriptorOrder": [
+        "kohviuba",
+        "espresso",
+        "supreme"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "espresso": "espresso",
+        "supreme": "supreme"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -697,7 +2647,46 @@
     "ean": "8000070060937",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8000070201071.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MERRILD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070060937",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "100g",
+      "variety": "merrild gold",
+      "nameLower": "lahustuv kohv merrild gold 100g",
+      "brand": "merrild",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "gold kohv lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "gold"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "gold": "gold"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -711,7 +2700,46 @@
     "ean": "4740275000409",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740275000409.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "COFFEESTAR",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740275000409",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "200g",
+      "variety": "coffeestar vanilla hazelnut",
+      "nameLower": "kohviuba coffeestar vanilla hazelnut 200g",
+      "brand": "coffeestar",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hazelnut kohviuba vanilla",
+      "descriptorOrder": [
+        "kohviuba",
+        "vanilla",
+        "hazelnut"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "vanilla": "vanilla",
+        "hazelnut": "hazelnut"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -725,7 +2753,48 @@
     "ean": "6411300176229",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/6411300176229.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300176229",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "500g",
+      "variety": "paulig classic cremoso",
+      "nameLower": "jahvatatud kohv paulig classic cremoso 500g",
+      "brand": "paulig",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic cremoso jahvatatud kohv",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "classic",
+        "cremoso"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "classic": "classic",
+        "cremoso": "cremoso"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -739,7 +2808,44 @@
     "ean": "7310050012513",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7310050012292.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050012513",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "löfbergs medium",
+      "nameLower": "kohviuba löfbergs medium 1kg",
+      "brand": "löfbergs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba medium",
+      "descriptorOrder": [
+        "kohviuba",
+        "medium"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "medium": "medium"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -753,7 +2859,44 @@
     "ean": "7310050012537",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7310050012391.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050012537",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "löfbergs kharisma",
+      "nameLower": "kohviuba löfbergs kharisma 1kg",
+      "brand": "löfbergs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kharisma kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "kharisma"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "kharisma": "kharisma"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -767,7 +2910,44 @@
     "ean": "7310050012520",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/7310050012346.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050012520",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "löfbergs espresso",
+      "nameLower": "kohviuba löfbergs espresso 1kg",
+      "brand": "löfbergs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "espresso kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "espresso"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "espresso": "espresso"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -781,7 +2961,46 @@
     "ean": "8000070024816",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/8000070024816.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070024816",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lavazza",
+      "unit": "1000g",
+      "variety": "espresso barista perfetto",
+      "nameLower": "lavazza espresso barista perfetto 1kg",
+      "brand": "lavazza",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barista espresso perfetto",
+      "descriptorOrder": [
+        "espresso",
+        "barista",
+        "perfetto"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "espresso": "espresso",
+        "barista": "barista",
+        "perfetto": "perfetto"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -795,7 +3014,48 @@
     "ean": "8711000517918",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/7622400001086.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000517918",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "200g",
+      "variety": "jacobs cronat gold",
+      "nameLower": "lahustuv kohv jacobs cronat gold 200g",
+      "brand": "jacobs",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cronat gold kohv lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "cronat",
+        "gold"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "cronat": "cronat",
+        "gold": "gold"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -809,7 +3069,44 @@
     "ean": "8711000539187",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8711000539187.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000539187",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "jacobs espresso",
+      "nameLower": "kohviuba jacobs espresso 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "espresso kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "espresso"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "espresso": "espresso"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -823,7 +3120,46 @@
     "ean": "8711000891568",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8711000891568-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000891568",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "500g",
+      "variety": "jacobs selection",
+      "nameLower": "jahvatatud kohv jacobs selection 500g",
+      "brand": "jacobs",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kohv selection",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "selection"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "selection": "selection"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -837,7 +3173,44 @@
     "ean": "4742650001049",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4742650001049.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TASUJA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4742650001049",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "tasuja tambet",
+      "nameLower": "kohviuba tasuja tambet 1kg",
+      "brand": "tasuja",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba tambet",
+      "descriptorOrder": [
+        "kohviuba",
+        "tambet"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "tambet": "tambet"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -851,7 +3224,50 @@
     "ean": "8000070020580",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8000070020580.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070020580",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "250g",
+      "variety": "lavazza qualita oro",
+      "nameLower": "jahvatatud kohv lavazza qualita oro 250g purgis",
+      "brand": "lavazza",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kohv oro purgis qualita",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "qualita",
+        "oro",
+        "purgis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "qualita": "qualita",
+        "oro": "oro",
+        "purgis": "purgis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -865,7 +3281,44 @@
     "ean": "8000070022904",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8000070022904.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MERRILD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070022904",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "merrild crema",
+      "nameLower": "kohviuba merrild crema 1kg",
+      "brand": "merrild",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "crema kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "crema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "crema": "crema"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -879,7 +3332,46 @@
     "ean": "6420101882550",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6420101882550.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SEGAFREDO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6420101882550",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jahvatatud",
+      "unit": "450g",
+      "variety": "segafredo pausa",
+      "nameLower": "jahvatatud kohv segafredo pausa 450g",
+      "brand": "segafredo",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jahvatatud kohv pausa",
+      "descriptorOrder": [
+        "jahvatatud",
+        "kohv",
+        "pausa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jahvatatud": "jahvatatud",
+        "kohv": "kohv",
+        "pausa": "pausa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -893,7 +3385,45 @@
     "ean": "4744364010812",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4744364010812.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4744364010812",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "oa no",
+      "nameLower": "kohviuba oa no2 1kg",
+      "brand": "kohviuba",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba no oa",
+      "descriptorOrder": [
+        "kohviuba",
+        "oa",
+        "no"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "oa": "oa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -907,7 +3437,46 @@
     "ean": "8711000895849",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8711000895849-2.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000895849",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jacobs",
+      "unit": "1000g",
+      "variety": "barista crema",
+      "nameLower": "jacobs kohviuba barista crema 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barista crema kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "barista",
+        "crema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "barista": "barista",
+        "crema": "crema"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -921,7 +3490,46 @@
     "ean": "8711000895788",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8711000895788.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000895788",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "jacobs barista espresso",
+      "nameLower": "kohviuba jacobs barista espresso 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "barista espresso kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "barista",
+        "espresso"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "barista": "barista",
+        "espresso": "espresso"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -935,7 +3543,46 @@
     "ean": "5900910000433",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900910000433.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900910000433",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "coffeeta",
+      "unit": "200g",
+      "variety": null,
+      "nameLower": "coffeeta kohvivalgendaja 200g fooliums",
+      "brand": "coffeeta",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "coffeeta fooliums kohvivalgendaja",
+      "descriptorOrder": [
+        "coffeeta",
+        "kohvivalgendaja",
+        "fooliums"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "coffeeta": "coffeeta",
+        "kohvivalgendaja": "kohvivalgendaja",
+        "fooliums": "fooliums"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -949,7 +3596,46 @@
     "ean": "8711000517949",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622201043933.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000517949",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "200g",
+      "variety": "jacobs krönung",
+      "nameLower": "lahustuv kohv jacobs krönung 200g",
+      "brand": "jacobs",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohv krönung lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "krönung"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "krönung": "krönung"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -963,7 +3649,48 @@
     "ean": "8711000517857",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622400001079.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000517857",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "100g",
+      "variety": "jacobs cronat gold",
+      "nameLower": "lahustuv kohv jacobs cronat gold 100g",
+      "brand": "jacobs",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cronat gold kohv lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "cronat",
+        "gold"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "cronat": "cronat",
+        "gold": "gold"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -977,7 +3704,46 @@
     "ean": "8711000517888",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622400005589.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000517888",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "100g",
+      "variety": "jacobs krönung",
+      "nameLower": "lahustuv kohv jacobs krönung 100g",
+      "brand": "jacobs",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohv krönung lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "krönung"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "krönung": "krönung"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -991,7 +3757,44 @@
     "ean": "8711000393765",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000393765.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "SENSEO",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000393765",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "senseo",
+      "unit": "36x6.9g",
+      "variety": "strong",
+      "nameLower": "senseo strong kohvipadjad 36*6.9g",
+      "brand": "senseo",
+      "size": "36x6.9g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohvipadjad strong",
+      "descriptorOrder": [
+        "strong",
+        "kohvipadjad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "strong": "strong",
+        "kohvipadjad": "kohvipadjad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "36",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1005,7 +3808,48 @@
     "ean": "8000070062528",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070026940.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070062528",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvipadjad",
+      "unit": "18x6.94g",
+      "variety": "lavazza crema aroma",
+      "nameLower": "kohvipadjad lavazza crema e aroma 18*6.94g",
+      "brand": "lavazza",
+      "size": "18x6.94g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aroma crema e kohvipadjad",
+      "descriptorOrder": [
+        "kohvipadjad",
+        "crema",
+        "e",
+        "aroma"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvipadjad": "kohvipadjad",
+        "crema": "crema",
+        "e": "e",
+        "aroma": "aroma"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "18",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1019,7 +3863,46 @@
     "ean": "4740275000416",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740275000416.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "COFFEESTAR",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740275000416",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "200g",
+      "variety": "coffeestar creme brulee",
+      "nameLower": "kohviuba coffeestar creme brulee 200g",
+      "brand": "coffeestar",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brulee creme kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "creme",
+        "brulee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "creme": "creme",
+        "brulee": "brulee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1033,7 +3916,46 @@
     "ean": "8711000517451",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000517451.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000517451",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kofeiinivaba",
+      "unit": "250g",
+      "variety": "jacobs krönung",
+      "nameLower": "kofeiinivaba kohv jacobs krönung 250g",
+      "brand": "jacobs",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kofeiinivaba kohv krönung",
+      "descriptorOrder": [
+        "kofeiinivaba",
+        "kohv",
+        "krönung"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kofeiinivaba": "kofeiinivaba",
+        "kohv": "kohv",
+        "krönung": "krönung"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1047,7 +3969,46 @@
     "ean": "6420101883946",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6420101883946.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Kulta Katriina",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6420101883946",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "presskannu",
+      "unit": "450g",
+      "variety": "kulta katriina utz",
+      "nameLower": "presskannu kohv kulta katriina utz 450g",
+      "brand": "kulta katriina",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohv presskannu utz",
+      "descriptorOrder": [
+        "presskannu",
+        "kohv",
+        "utz"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "presskannu": "presskannu",
+        "kohv": "kohv",
+        "utz": "utz"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1061,7 +4022,44 @@
     "ean": "7310050001586",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310050001494.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050001586",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "presskannukohv",
+      "unit": "500g",
+      "variety": "löfbergs prezzo",
+      "nameLower": "presskannukohv löfbergs prezzo 500g",
+      "brand": "löfbergs",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "presskannukohv prezzo",
+      "descriptorOrder": [
+        "presskannukohv",
+        "prezzo"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "presskannukohv": "presskannukohv",
+        "prezzo": "prezzo"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1075,7 +4073,44 @@
     "ean": "8000070060326",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070002395.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MERRILD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070060326",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tassikohv",
+      "unit": "400g",
+      "variety": "merrild in cup",
+      "nameLower": "tassikohv merrild in-cup 400g",
+      "brand": "merrild",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cup in tassikohv",
+      "descriptorOrder": [
+        "tassikohv",
+        "in",
+        "cup"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tassikohv": "tassikohv"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1089,7 +4124,48 @@
     "ean": "7310050001869",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310050001869.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LÖFBERGS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7310050001869",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "tassikohv",
+      "unit": "500g",
+      "variety": "löfbergs in cup",
+      "nameLower": "tassikohv löfbergs in-cup 500g keskmine röst",
+      "brand": "löfbergs",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "cup in keskmine röst tassikohv",
+      "descriptorOrder": [
+        "tassikohv",
+        "in",
+        "cup",
+        "keskmine",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tassikohv": "tassikohv",
+        "keskmine": "keskmine",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1103,7 +4179,46 @@
     "ean": "6411300172467",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300172467.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300172467",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "paulig classic crema",
+      "nameLower": "kohviuba paulig classic crema 1kg",
+      "brand": "paulig",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic crema kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "classic",
+        "crema"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "classic": "classic",
+        "crema": "crema"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1117,7 +4232,46 @@
     "ean": "8000070200241",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070200241.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MERRILD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070200241",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvipadjad",
+      "unit": "36x6.9g",
+      "variety": "merrild",
+      "nameLower": "kohvipadjad merrild 36*6.9g keskmine röst",
+      "brand": "merrild",
+      "size": "36x6.9g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "keskmine kohvipadjad röst",
+      "descriptorOrder": [
+        "kohvipadjad",
+        "keskmine",
+        "röst"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvipadjad": "kohvipadjad",
+        "keskmine": "keskmine",
+        "röst": "röst"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "36",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1131,7 +4285,46 @@
     "ean": "6411300171057",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300171057.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300171057",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "paulig arabica espresso",
+      "nameLower": "kohviuba paulig arabica espresso 1kg",
+      "brand": "paulig",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arabica espresso kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "arabica",
+        "espresso"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "arabica": "arabica",
+        "espresso": "espresso"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1145,7 +4338,46 @@
     "ean": "8000070035904",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070035898.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070035904",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "lavazza qualita rossa",
+      "nameLower": "kohviuba lavazza qualita rossa 1kg",
+      "brand": "lavazza",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba qualita rossa",
+      "descriptorOrder": [
+        "kohviuba",
+        "qualita",
+        "rossa"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "qualita": "qualita",
+        "rossa": "rossa"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1159,7 +4391,44 @@
     "ean": "8000070201347",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070201347.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MERRILD",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070201347",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "merrild arabica",
+      "nameLower": "kohviuba merrild arabica 1kg",
+      "brand": "merrild",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arabica kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "arabica"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "arabica": "arabica"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1173,7 +4442,46 @@
     "ean": "7613031918867",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613036235617.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "NESCAFE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "7613031918867",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lahustuv",
+      "unit": "100g",
+      "variety": "nescafe classic",
+      "nameLower": "lahustuv kohv nescafe classic 100g",
+      "brand": "nescafe",
+      "size": "100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic kohv lahustuv",
+      "descriptorOrder": [
+        "lahustuv",
+        "kohv",
+        "classic"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lahustuv": "lahustuv",
+        "kohv": "kohv",
+        "classic": "classic"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1187,7 +4495,44 @@
     "ean": "5902891280644",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5902891280644.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "MOKATE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5902891280644",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohvivalgendaja",
+      "unit": "200g",
+      "variety": "carmen mokate",
+      "nameLower": "kohvivalgendaja carmen mokate 200g",
+      "brand": "mokate",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "carmen kohvivalgendaja",
+      "descriptorOrder": [
+        "kohvivalgendaja",
+        "carmen"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohvivalgendaja": "kohvivalgendaja",
+        "carmen": "carmen"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1201,7 +4546,44 @@
     "ean": "6411300147137",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300147137.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Luxus",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300147137",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannukohv",
+      "unit": "500g",
+      "variety": "luxus bodum",
+      "nameLower": "kannukohv luxus bodum 500g",
+      "brand": "luxus",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "bodum kannukohv",
+      "descriptorOrder": [
+        "kannukohv",
+        "bodum"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannukohv": "kannukohv",
+        "bodum": "bodum"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1215,7 +4597,48 @@
     "ean": "8000070024441",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000070025400.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "LAVAZZA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8000070024441",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "lavazza crema aroma",
+      "nameLower": "kohviuba lavazza crema e aroma 1kg",
+      "brand": "lavazza",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aroma crema e kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "crema",
+        "e",
+        "aroma"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "crema": "crema",
+        "e": "e",
+        "aroma": "aroma"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1229,7 +4652,46 @@
     "ean": "8711000539217",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000539217.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000539217",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "jacobs crema gold",
+      "nameLower": "kohviuba jacobs crema gold 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "crema gold kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "crema",
+        "gold"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "crema": "crema",
+        "gold": "gold"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1243,7 +4705,44 @@
     "ean": "6411300158096",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300158096.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300158096",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kannukohv",
+      "unit": "500g",
+      "variety": "paulig classic",
+      "nameLower": "kannukohv paulig classic 500g",
+      "brand": "paulig",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic kannukohv",
+      "descriptorOrder": [
+        "kannukohv",
+        "classic"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kannukohv": "kannukohv",
+        "classic": "classic"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1257,7 +4756,44 @@
     "ean": "8711000539330",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711000539330.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JACOBS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "8711000539330",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "jacobs krönung",
+      "nameLower": "kohviuba jacobs krönung 1kg",
+      "brand": "jacobs",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kohviuba krönung",
+      "descriptorOrder": [
+        "kohviuba",
+        "krönung"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "krönung": "krönung"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1271,7 +4807,44 @@
     "ean": "6418474039008",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411301162825.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6418474039008",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "paulig arabica",
+      "nameLower": "kohviuba paulig arabica 1kg",
+      "brand": "paulig",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "arabica kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "arabica"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "arabica": "arabica"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -1285,6 +4858,43 @@
     "ean": "6411300164783",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411300164783.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "PAULIG",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6411300164783",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kohviuba",
+      "unit": "1000g",
+      "variety": "paulig classic",
+      "nameLower": "kohviuba paulig classic 1kg",
+      "brand": "paulig",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "classic kohviuba",
+      "descriptorOrder": [
+        "kohviuba",
+        "classic"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kohviuba": "kohviuba",
+        "classic": "classic"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

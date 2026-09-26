@@ -11,7 +11,48 @@
     "ean": "4740113097899",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/06/4740113097899.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740113097899",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "1000g",
+      "variety": "farmi",
+      "nameLower": "joogijogurt maasikatega farmi 1kg kile",
+      "brand": "joogijogurt",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "maasikatega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "farmi joogijogurt kile maasikatega",
+      "descriptorOrder": [
+        "joogijogurt",
+        "maasikatega",
+        "farmi",
+        "kile"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt",
+        "maasikatega": "maasikatega",
+        "farmi": "farmi",
+        "kile": "kile"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -25,7 +66,44 @@
     "ean": "5903767007471",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/5903767007471.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JOVI DUET",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5903767007471",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "350g",
+      "variety": "jovi duet",
+      "nameLower": "jogurtijook õuna-pirni jovi duet 350g",
+      "brand": "jovi duet",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook pirni õuna",
+      "descriptorOrder": [
+        "jogurtijook",
+        "õuna",
+        "pirni"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -39,7 +117,44 @@
     "ean": "4740036018100",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740036018100.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "Lotte",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740036018100",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "marja",
+      "unit": "6x100g",
+      "variety": "lotte",
+      "nameLower": "marja jogurtijook lotte 6*100g",
+      "brand": "lotte",
+      "size": "6x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook marja",
+      "descriptorOrder": [
+        "marja",
+        "jogurtijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "marja": "marja",
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "6",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -53,7 +168,44 @@
     "ean": "5990031646993",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/5900643051245.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIMEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5990031646993",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "4x100g",
+      "variety": "actimel",
+      "nameLower": "jogurtijook virsiku-passionivilja actimel 4*100g",
+      "brand": "actimel",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook passionivilja virsiku",
+      "descriptorOrder": [
+        "jogurtijook",
+        "virsiku",
+        "passionivilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -67,7 +219,46 @@
     "ean": "4740125523133",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4740125523133.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "GEFILUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125523133",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "1000g",
+      "variety": "gefilus",
+      "nameLower": "joogijogurt vaarika-passioni gefilus 1kg laktoosiv",
+      "brand": "gefilus",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "joogijogurt laktoosiv passioni vaarika",
+      "descriptorOrder": [
+        "joogijogurt",
+        "vaarika",
+        "passioni",
+        "laktoosiv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt",
+        "laktoosiv": "laktoosiv"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -81,7 +272,44 @@
     "ean": "5903767000687",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/5903767000687.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JOVI DUET",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5903767000687",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "350g",
+      "variety": "jogurtijook jovi duet",
+      "nameLower": "jogurtijook maasika-kiivi jovi duet 350g",
+      "brand": "jovi duet",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook kiivi maasika",
+      "descriptorOrder": [
+        "jogurtijook",
+        "maasika",
+        "kiivi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -95,7 +323,44 @@
     "ean": "5903767000694",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/5903767000694.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "JOVI DUET",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5903767000694",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "350g",
+      "variety": "jovi duet",
+      "nameLower": "jogurtijook mustika-kirsi jovi duet 350g",
+      "brand": "jovi duet",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook kirsi mustika",
+      "descriptorOrder": [
+        "jogurtijook",
+        "mustika",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -109,7 +374,48 @@
     "ean": "4740125582079",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740125582079.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125582079",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "275g",
+      "variety": "alma",
+      "nameLower": "jogurtijook kreeka stiilis mustika-kirsi alma 275g",
+      "brand": "alma",
+      "size": "275g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook kirsi kreeka mustika stiilis",
+      "descriptorOrder": [
+        "jogurtijook",
+        "kreeka",
+        "stiilis",
+        "mustika",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook",
+        "kreeka": "kreeka",
+        "stiilis": "stiilis"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -123,7 +429,46 @@
     "ean": "4740125582062",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740125582062.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125582062",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "275g",
+      "variety": "alma",
+      "nameLower": "jogurtijook kreeka vaarika-virsiku alma 275g",
+      "brand": "alma",
+      "size": "275g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook kreeka vaarika virsiku",
+      "descriptorOrder": [
+        "jogurtijook",
+        "kreeka",
+        "vaarika",
+        "virsiku"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook",
+        "kreeka": "kreeka"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -137,7 +482,44 @@
     "ean": "4740125582154",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740125582154.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VALIO PROFEEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125582154",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "proteiinijogurtijook",
+      "unit": "275g",
+      "variety": "valio profeel",
+      "nameLower": "proteiinijogurtijook kirsi valio profeel 275g",
+      "brand": "valio profeel",
+      "size": "275g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsi proteiinijogurtijook",
+      "descriptorOrder": [
+        "proteiinijogurtijook",
+        "kirsi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "proteiinijogurtijook": "proteiinijogurtijook",
+        "kirsi": "kirsi"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -151,7 +533,44 @@
     "ean": "4740125525144",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740125525144.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125525144",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "900g",
+      "variety": "alma",
+      "nameLower": "joogijogurt maasika-nektariini alma 900g",
+      "brand": "alma",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "joogijogurt maasika nektariini",
+      "descriptorOrder": [
+        "joogijogurt",
+        "maasika",
+        "nektariini"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -165,7 +584,46 @@
     "ean": "4740125523096",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740125523096.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "GEFILUS",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125523096",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "1000g",
+      "variety": "gefilus harmoonia",
+      "nameLower": "joogijogurt maasika-pohla gefilus harmoonia 1kg",
+      "brand": "gefilus",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "harmoonia joogijogurt maasika pohla",
+      "descriptorOrder": [
+        "joogijogurt",
+        "maasika",
+        "pohla",
+        "harmoonia"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt",
+        "harmoonia": "harmoonia"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -179,7 +637,47 @@
     "ean": "4740125581218",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740125581218.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125581218",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "4x100g",
+      "variety": "vita alma",
+      "nameLower": "jogurtijook vita+vaar-mustika alma4*100g lakt.vaba",
+      "brand": "alma",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook lakt mustika vaar vaba vita",
+      "descriptorOrder": [
+        "jogurtijook",
+        "vita",
+        "vaar",
+        "mustika",
+        "lakt",
+        "vaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -193,7 +691,46 @@
     "ean": "4740125581201",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740125581201.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125581201",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "4x100g",
+      "variety": "vita alma",
+      "nameLower": "jogurtijook vita+metsmaasika alma 4*100g lakt.vaba",
+      "brand": "alma",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook lakt metsmaasika vaba vita",
+      "descriptorOrder": [
+        "jogurtijook",
+        "vita",
+        "metsmaasika",
+        "lakt",
+        "vaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -207,7 +744,44 @@
     "ean": "47500891",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/47500891.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIMEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "47500891",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "4x100g",
+      "variety": "actimel",
+      "nameLower": "jogurtijook puuvilja actimel 4*100g",
+      "brand": "actimel",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook puuvilja",
+      "descriptorOrder": [
+        "jogurtijook",
+        "puuvilja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook",
+        "puuvilja": "puuvilja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -221,7 +795,44 @@
     "ean": "4740125582130",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740125582130.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VALIO PROFEEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125582130",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "proteiinijogurtijook",
+      "unit": "275g",
+      "variety": "valio profeel",
+      "nameLower": "proteiinijogurtijook metsamarja valio profeel 275g",
+      "brand": "valio profeel",
+      "size": "275g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsamarja proteiinijogurtijook",
+      "descriptorOrder": [
+        "proteiinijogurtijook",
+        "metsamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "proteiinijogurtijook": "proteiinijogurtijook",
+        "metsamarja": "metsamarja"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -235,7 +846,44 @@
     "ean": "4740125582147",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740125582147.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VALIO PROFEEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125582147",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "proteiinijogurtijook",
+      "unit": "275g",
+      "variety": "valio profeel",
+      "nameLower": "proteiinijogurtijook troopiline valio profeel 275g",
+      "brand": "valio profeel",
+      "size": "275g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "proteiinijogurtijook troopiline",
+      "descriptorOrder": [
+        "proteiinijogurtijook",
+        "troopiline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "proteiinijogurtijook": "proteiinijogurtijook",
+        "troopiline": "troopiline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -249,7 +897,44 @@
     "ean": "4740036014218",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740036014218-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "TERE",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740036014218",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "900g",
+      "variety": "tere",
+      "nameLower": "joogijogurt metsmaasika tere 900g",
+      "brand": "tere",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "joogijogurt metsmaasika",
+      "descriptorOrder": [
+        "joogijogurt",
+        "metsmaasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt",
+        "metsmaasika": "metsmaasika"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -263,7 +948,46 @@
     "ean": "4740125582000",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740125582000.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125582000",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "jogurtijook",
+      "unit": "275g",
+      "variety": "jogurtijook alma",
+      "nameLower": "jogurtijook kreeka mango-maasika alma 275g",
+      "brand": "alma",
+      "size": "275g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook kreeka maasika mango",
+      "descriptorOrder": [
+        "jogurtijook",
+        "kreeka",
+        "mango",
+        "maasika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtijook": "jogurtijook",
+        "kreeka": "kreeka"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -277,7 +1001,44 @@
     "ean": "47500914",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/47500914.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIMEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "47500914",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsamarja",
+      "unit": "4x100g",
+      "variety": "actimel",
+      "nameLower": "metsamarja jogurtijook actimel 4*100g",
+      "brand": "actimel",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook metsamarja",
+      "descriptorOrder": [
+        "metsamarja",
+        "jogurtijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsamarja": "metsamarja",
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -291,7 +1052,44 @@
     "ean": "47500884",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/47500884.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIMEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "47500884",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasika",
+      "unit": "4x100g",
+      "variety": "actimel",
+      "nameLower": "maasika jogurtijook actimel 4*100g",
+      "brand": "actimel",
+      "size": "4x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook maasika",
+      "descriptorOrder": [
+        "maasika",
+        "jogurtijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasika": "maasika",
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "4",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -305,7 +1103,46 @@
     "ean": "4740660006702",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660006702.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660006702",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "virsiku",
+      "unit": "1000g",
+      "variety": "hüva",
+      "nameLower": "virsiku joogijogurt hüva 1kg",
+      "brand": "virsiku",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hüva joogijogurt virsiku",
+      "descriptorOrder": [
+        "virsiku",
+        "joogijogurt",
+        "hüva"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "virsiku": "virsiku",
+        "joogijogurt": "joogijogurt",
+        "hüva": "hüva"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -319,7 +1156,46 @@
     "ean": "4740660006375",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660006375.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660006375",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsamarjamaitseline",
+      "unit": "1000g",
+      "variety": "hüva",
+      "nameLower": "metsamarjamaitseline joogijogurt hüva 1kg",
+      "brand": "metsamarjamaitseline",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hüva joogijogurt metsamarja",
+      "descriptorOrder": [
+        "metsamarja",
+        "joogijogurt",
+        "hüva"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsamarjamaitseline": "metsamarjamaitseline",
+        "joogijogurt": "joogijogurt",
+        "hüva": "hüva"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -333,7 +1209,44 @@
     "ean": "5900643032688",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900643021613.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIVIA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900643032688",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "300g",
+      "variety": "joogijogurt activia",
+      "nameLower": "joogijogurt maasika-kiivi activia 300g",
+      "brand": "activia",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "joogijogurt kiivi maasika",
+      "descriptorOrder": [
+        "joogijogurt",
+        "maasika",
+        "kiivi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -347,7 +1260,44 @@
     "ean": "5900643029831",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900643029831.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIVIA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5900643029831",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "300g",
+      "variety": "activia",
+      "nameLower": "joogijogurt vaarika-granaatõuna activia 300g",
+      "brand": "activia",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "granaatõuna joogijogurt vaarika",
+      "descriptorOrder": [
+        "joogijogurt",
+        "vaarika",
+        "granaatõuna"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -361,7 +1311,44 @@
     "ean": "4740125510072",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125510072.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125510072",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "banaani",
+      "unit": "1000g",
+      "variety": "alma",
+      "nameLower": "banaani-maasikajoogijogurt alma 1kg kile",
+      "brand": "alma",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "banaani kile maasikajoogijogurt",
+      "descriptorOrder": [
+        "banaani",
+        "maasikajoogijogurt",
+        "kile"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kile": "kile"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -375,7 +1362,44 @@
     "ean": "4740125525236",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125525236.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125525236",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "900g",
+      "variety": "alma",
+      "nameLower": "joogijogurt metsamarjamaitseline alma 900g",
+      "brand": "alma",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "joogijogurt metsamarja",
+      "descriptorOrder": [
+        "joogijogurt",
+        "metsamarja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt",
+        "metsamarjamaitseline": "metsamarjamaitseline"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -389,7 +1413,44 @@
     "ean": "5410146964954",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4751008971026.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIMEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410146964954",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasika",
+      "unit": "8x100g",
+      "variety": "actimel",
+      "nameLower": "maasika jogurtijook actimel 8*100g",
+      "brand": "actimel",
+      "size": "8x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook maasika",
+      "descriptorOrder": [
+        "maasika",
+        "jogurtijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasika": "maasika",
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "8",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -403,7 +1464,46 @@
     "ean": "4740660006719",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660006719.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": null,
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740660006719",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasika",
+      "unit": "1000g",
+      "variety": "hüva",
+      "nameLower": "maasika joogijogurt hüva 1kg",
+      "brand": "maasika",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hüva joogijogurt maasika",
+      "descriptorOrder": [
+        "maasika",
+        "joogijogurt",
+        "hüva"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasika": "maasika",
+        "joogijogurt": "joogijogurt",
+        "hüva": "hüva"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -417,7 +1517,44 @@
     "ean": "5410146410581",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410146410581.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ACTIMEL",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "5410146410581",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsamarja",
+      "unit": "8x100g",
+      "variety": "actimel",
+      "nameLower": "metsamarja jogurtijook actimel 8*100g",
+      "brand": "actimel",
+      "size": "8x100g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jogurtijook metsamarja",
+      "descriptorOrder": [
+        "metsamarja",
+        "jogurtijook"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsamarja": "metsamarja",
+        "jogurtijook": "jogurtijook"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "8",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -431,7 +1568,44 @@
     "ean": "4740125525243",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125525243.jpg",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "ALMA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740125525243",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "joogijogurt",
+      "unit": "900g",
+      "variety": "joogijogurt alma",
+      "nameLower": "joogijogurt mango alma 900g",
+      "brand": "alma",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "joogijogurt mango",
+      "descriptorOrder": [
+        "joogijogurt",
+        "mango"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "joogijogurt": "joogijogurt",
+        "mango": "mango"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -445,7 +1619,43 @@
     "ean": "4740093007154",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740093007154.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VÄIKE TOM",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740093007154",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kõrgkuum",
+      "unit": "200ml",
+      "variety": "väike tom",
+      "nameLower": "kõrgkuum.piimjook karamelli-vitam.väike tom200ml",
+      "brand": "väike tom",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "karamelli kõrgkuum piimjook vitam",
+      "descriptorOrder": [
+        "kõrgkuum",
+        "piimjook",
+        "karamelli",
+        "vitam"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -459,7 +1669,43 @@
     "ean": "4740093333314",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740093333314-1.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VÄIKE TOM",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "4740093333314",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kõrgkuum",
+      "unit": "200ml",
+      "variety": "väike tom",
+      "nameLower": "kõrgkuum.piimjook maasikalis-vitam.väike tom200ml",
+      "brand": "väike tom",
+      "size": "200ml",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kõrgkuum maasikalis piimjook vitam",
+      "descriptorOrder": [
+        "kõrgkuum",
+        "piimjook",
+        "maasikalis",
+        "vitam"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Coop",
@@ -473,6 +1719,43 @@
     "ean": "6408430011681",
     "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6408432086540.png",
     "storeUnitPrice": null,
-    "brand": null
+    "brand": "VALIO EILA",
+    "strictPackaging": true,
+    "signature": {
+      "ean": "6408430011681",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "piimajook",
+      "unit": "1000ml",
+      "variety": "valio eila",
+      "nameLower": "piimajook 1.5% valio eila 1l laktoosivaba",
+      "brand": "valio eila",
+      "size": "1000ml",
+      "variant": "lactose-free",
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": "1.5",
+      "descriptors": "laktoosivaba piimajook",
+      "descriptorOrder": [
+        "piimajook",
+        "laktoosivaba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "piimajook": "piimajook",
+        "laktoosivaba": "laktoosivaba"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

@@ -1,40 +1,6 @@
 [
   {
     "store": "Barbora",
-    "name": "Seaabaliha kamarata, kondita, kg",
-    "price": 2.99,
-    "regularPrice": 5.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/seaabaliha-kamarata-kondita-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 2.99,
-    "brand": null,
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "seaabaliha",
-      "unit": "kg",
-      "variety": null,
-      "nameLower": "seaabaliha kamarata, kondita, kg",
-      "brand": "seaabaliha",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "kamarata kondita seaabaliha",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
     "name": "Sea välisfilee kamaraga ,kg",
     "price": 11.79,
     "regularPrice": 11.79,
@@ -46,6 +12,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.79,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/bb24d633-3f8b-45e5-995c-ff9c50940d65_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -63,8 +30,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kamaraga sea välisfilee",
+      "descriptorOrder": [
+        "sea",
+        "välisfilee",
+        "kamaraga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "välisfilee": "välisfilee",
+        "kamaraga": "kamaraga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -80,6 +67,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.69,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/70e2f41b-1e3b-4212-8780-2a5f54e958a1_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -97,8 +85,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kõhuäär sea",
+      "descriptorOrder": [
+        "sea",
+        "kõhuäär"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "kõhuäär": "kõhuäär"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -114,6 +120,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.99,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/56b42fb1-c535-48e6-a02b-1df17cccf9dc_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -131,8 +138,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondita seapraad",
+      "descriptorOrder": [
+        "seapraad",
+        "kondita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seapraad": "seapraad",
+        "kondita": "kondita"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -148,6 +173,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.69,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/656e6111-696c-4b9f-8580-da1041995784_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -165,8 +191,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "seaguljašš",
+      "descriptorOrder": [
+        "seaguljašš"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seaguljašš": "seaguljašš"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -182,6 +224,7 @@
     "unit": "kg",
     "storeUnitPrice": 10.99,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/2b454a1b-f3e8-44c1-ab39-cda3f6117727_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -199,8 +242,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondiga seaseljatükk",
+      "descriptorOrder": [
+        "seaseljatükk",
+        "kondiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seaseljatükk": "seaseljatükk",
+        "kondiga": "kondiga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -216,6 +277,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.79,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/fdf2d7da-b3e8-4a00-8c4c-e0a69659b648_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -233,8 +295,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondiga seapraad",
+      "descriptorOrder": [
+        "seapraad",
+        "kondiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seapraad": "seapraad",
+        "kondiga": "kondiga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -250,6 +330,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.49,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/9eccd9b3-cee3-42b0-8d77-2d1a2262ee0d_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -267,8 +348,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "klassikalis šašlõkk",
+      "descriptorOrder": [
+        "šašlõkk",
+        "klassikalis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -284,6 +382,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.58,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/023f17c8-c154-4bc6-ace9-2913ef39186e_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -301,8 +400,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "armeenia grill liha",
+      "descriptorOrder": [
+        "armeenia",
+        "grill",
+        "liha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "armeenia": "armeenia"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -318,6 +435,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.29,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/3b13d23c-2a6f-4644-90f0-ac4b367e1226_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -335,8 +453,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abaliha kondiga sea",
+      "descriptorOrder": [
+        "sea",
+        "abaliha",
+        "kondiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "abaliha": "abaliha",
+        "kondiga": "kondiga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -352,6 +490,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.39,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/e1833e0b-f5ae-41d2-a397-d5efff45f2d2_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -369,8 +508,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "seakoot",
+      "descriptorOrder": [
+        "seakoot"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seakoot": "seakoot"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -386,6 +541,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.79,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/15f5fff4-1824-4f20-b9c1-006f05fe117b_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -403,8 +559,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "sea välisfilee",
+      "descriptorOrder": [
+        "sea",
+        "välisfilee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "välisfilee": "välisfilee"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -420,6 +594,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.99,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/b75b3cbd-7c75-420c-9c44-70f4e99083bc_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -437,8 +612,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "sea sisefilee",
+      "descriptorOrder": [
+        "sea",
+        "sisefilee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "sisefilee": "sisefilee"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -454,6 +647,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.99,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/ecfeb99a-d6b2-418a-a54f-e29eee688b4a_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -471,8 +665,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondiga küljetükk sea",
+      "descriptorOrder": [
+        "sea",
+        "küljetükk",
+        "kondiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "küljetükk": "küljetükk",
+        "kondiga": "kondiga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -488,6 +702,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.29,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/93318551-041b-450b-b2e4-771e568708a2_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -505,8 +720,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abaliha sea",
+      "descriptorOrder": [
+        "sea",
+        "abaliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "abaliha": "abaliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -522,6 +755,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.99,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/0229571a-a763-4169-8160-a61b24bfda55_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -539,8 +773,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "seakaelakarbonaad",
+      "descriptorOrder": [
+        "seakaelakarbonaad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seakaelakarbonaad": "seakaelakarbonaad"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -556,6 +806,7 @@
     "unit": "kg",
     "storeUnitPrice": 13.9,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/2a70a70e-a7d7-4082-a428-ca063d993399_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -573,8 +824,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "grill liha pun veini",
+      "descriptorOrder": [
+        "grill",
+        "liha",
+        "pun",
+        "veini"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -590,6 +858,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.19,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/402a1805-d600-4269-adaf-87e68b00e588_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -607,8 +876,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "grill mustika ribi",
+      "descriptorOrder": [
+        "mustika",
+        "grill",
+        "ribi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -624,6 +911,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.79,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/4649d0d8-799e-46f1-adbd-cb552e582530_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -641,8 +929,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondita seapraad",
+      "descriptorOrder": [
+        "seapraad",
+        "kondita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seapraad": "seapraad",
+        "kondita": "kondita"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -658,6 +964,7 @@
     "unit": "kg",
     "storeUnitPrice": 13.78,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/20180765-4704-4e3b-aea3-910d2835a268_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -675,8 +982,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "grill liha mustika",
+      "descriptorOrder": [
+        "grill",
+        "liha",
+        "mustika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -692,6 +1015,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.99,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/3a0989d6-7179-415b-9523-ecaf835349c0_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -709,8 +1033,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "keefirimarinaadis seašašlõkk",
+      "descriptorOrder": [
+        "seašašlõkk",
+        "keefirimarinaadis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seašašlõkk": "seašašlõkk",
+        "keefirimarinaadis": "keefirimarinaadis"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -726,6 +1068,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.88,
     "brand": "RANNAROOTSI",
+    "image": "https://cdn.barbora.ee/products/d63cf18f-3b63-489e-b518-fa25a39caa0d_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -743,42 +1086,31 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "rr seavälisfileest viini šnitsel",
+      "descriptorOrder": [
+        "viini",
+        "šnitsel",
+        "seavälisfileest",
+        "rr"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "viini": "viini",
+        "šnitsel": "šnitsel",
+        "seavälisfileest": "seavälisfileest",
+        "rr": "rr",
+        "g": "g"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Kodune ahjupraad RAKVERE, kg",
-    "price": 4.99,
-    "regularPrice": 7.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/kodune-ahjupraad-rakvere-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.99,
-    "brand": "RAKVERE",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "kodune",
-      "unit": "kg",
-      "variety": "rakvere",
-      "nameLower": "kodune ahjupraad rakvere, kg",
-      "brand": "rakvere",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "ahjupraad kodune",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -794,6 +1126,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.64,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/85c410b4-d881-4b54-ae18-2e912f3c2ee7_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -810,9 +1143,27 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "grill kirsi liha rum seavälisfileest",
+      "descriptors": "grill kirsi liha rumm seavälisfileest",
+      "descriptorOrder": [
+        "kirsi",
+        "rumm",
+        "grill",
+        "liha",
+        "seavälisfileest"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -828,6 +1179,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.99,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/1ab2be37-feeb-42b9-bf29-099364e965f1_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -845,8 +1197,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "grillribi kauak mustikamar",
+      "descriptorOrder": [
+        "kauak",
+        "grillribi",
+        "mustikamar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -862,6 +1230,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.99,
     "brand": "ARMEENIA GRILL",
+    "image": "https://cdn.barbora.ee/products/2d5fe61f-3949-4e95-8d93-328576199e0f_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -879,8 +1248,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "šašlõkk",
+      "descriptorOrder": [
+        "šašlõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "armeenia": "armeenia",
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -896,6 +1282,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.99,
     "brand": "ARMEENIA GRILL",
+    "image": "https://cdn.barbora.ee/products/01b4344e-3c42-42be-89a4-6859c559c6f3_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -913,8 +1300,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "sea šašlõkk",
+      "descriptorOrder": [
+        "sea",
+        "šašlõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -930,6 +1335,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.79,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/8705ebfd-0fec-4328-89d7-fc34741dc2ef_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -946,9 +1352,29 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "baby back jah searibi",
+      "descriptors": "baby back searibi",
+      "descriptorOrder": [
+        "baby",
+        "back",
+        "searibi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "baby": "baby",
+        "back": "back",
+        "searibi": "searibi"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -964,6 +1390,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.09,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/2c90269e-afb7-4b0a-8bc6-6a3461d05b8b_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -981,8 +1408,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "punases ribitükid",
+      "descriptorOrder": [
+        "ribitükid",
+        "punases"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ribitükid": "ribitükid",
+        "punases": "punases"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -998,6 +1443,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.99,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/cbd72b50-395c-4369-900c-a1d2970dee3d_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1015,8 +1461,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "searibid",
+      "descriptorOrder": [
+        "searibid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "searibid": "searibid"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1032,6 +1494,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.48,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/9a9fc465-ea0e-41a2-86f8-117b03f231b2_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1049,8 +1512,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "f kondita lõigud sea väl",
+      "descriptorOrder": [
+        "sea",
+        "väl",
+        "f",
+        "lõigud",
+        "kondita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "kondita": "kondita"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1066,6 +1550,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.38,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/389fc9fe-734a-4fe8-8cc5-e2fba038e62a_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1083,76 +1568,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "minutipihv seavälisfileest",
+      "descriptorOrder": [
+        "minutipihv",
+        "seavälisfileest"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "minutipihv": "minutipihv",
+        "seavälisfileest": "seavälisfileest"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Grillribid Texase NÕO,kg",
-    "price": 4.99,
-    "regularPrice": 7.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/grillribid-texase-noo-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 4.99,
-    "brand": "NÕO",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "grillribid",
-      "unit": "kg",
-      "variety": "texase nõo",
-      "nameLower": "grillribid texase nõo,kg",
-      "brand": "nõo",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "grillribid texase",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Seaguljašš WELL DONE,400g",
-    "price": 2.55,
-    "regularPrice": 2.55,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/seaguljass-well-done-400-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 6.38,
-    "brand": "WELL DONE",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "seaguljašš",
-      "unit": "400g",
-      "variety": "well done",
-      "nameLower": "seaguljašš well done,400g",
-      "brand": "well done",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "seaguljašš",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1168,6 +1603,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.56,
     "brand": "RANNAROOTSI",
+    "image": "https://cdn.barbora.ee/products/57b87a5b-70d9-42bc-aa3e-781fc8d97e26_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1185,8 +1621,32 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ehe ja pipraga soola triibuliha",
+      "descriptorOrder": [
+        "triibuliha",
+        "soola",
+        "ja",
+        "pipraga",
+        "ehe"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "triibuliha": "triibuliha",
+        "soola": "soola",
+        "ja": "ja",
+        "pipraga": "pipraga",
+        "ehe": "ehe"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1202,6 +1662,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.69,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/aeade74e-00ab-420d-80c3-c9c6409d2dc4_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1219,8 +1680,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "majoneesi seakaelakarbonaad soja",
+      "descriptorOrder": [
+        "seakaelakarbonaad",
+        "majoneesi",
+        "soja"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seakaelakarbonaad": "seakaelakarbonaad"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1236,6 +1715,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.48,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/128e71e2-0888-40c6-8853-06a001f11b12_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1252,9 +1732,25 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "bbq kauaküp mait searibid",
+      "descriptors": "bbq kauaküp searibid",
+      "descriptorOrder": [
+        "kauaküp",
+        "searibid",
+        "bbq"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1270,6 +1766,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.19,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/b1f46be3-1f8f-4418-b0b6-7f16412a7040_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1287,8 +1784,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "grillribi punases",
+      "descriptorOrder": [
+        "grillribi",
+        "punases"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "grillribi": "grillribi",
+        "punases": "punases"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1304,6 +1819,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.31,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/c8ad8df8-d226-4a07-8fcf-65fd54b3034b_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1321,8 +1837,80 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondita lõig seakaelakarb",
+      "descriptorOrder": [
+        "seakaelakarb",
+        "lõig",
+        "kondita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Sea sisefilee ürdi-võimaitsel.mar.MK,kg",
+    "price": 9.99,
+    "regularPrice": 12.49,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/sea-sisefilee-urdi-voimaitsel-mar-mk-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 9.99,
+    "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/3b133d77-4ebd-4fe7-8f84-589314011a88_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sea",
+      "unit": "kg",
+      "variety": "mk",
+      "nameLower": "sea sisefilee ürdi-võimaitsel.mar.mk,kg",
+      "brand": "meistrite kvaliteet",
+      "size": null,
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mk sea sisefilee või ürdi",
+      "descriptorOrder": [
+        "sea",
+        "sisefilee",
+        "ürdi",
+        "või",
+        "mk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "sisefilee": "sisefilee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1338,6 +1926,7 @@
     "unit": "kg",
     "storeUnitPrice": 22.76,
     "brand": "NÕO",
+    "image": "https://cdn.barbora.ee/products/be77f4d7-698a-4f18-a239-8f873b03721b_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1355,8 +1944,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "panniliha toorsuitsu viil",
+      "descriptorOrder": [
+        "toorsuitsu",
+        "panniliha",
+        "viil"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "toorsuitsu": "toorsuitsu",
+        "panniliha": "panniliha",
+        "viil": "viil"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1371,7 +1980,8 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 11.49,
-    "brand": null,
+    "brand": "ARMEENIA GRILL",
+    "image": "https://cdn.barbora.ee/products/6a9a6ed4-80b6-4290-846b-fa11557eee9a_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1382,15 +1992,33 @@
       "unit": "kg",
       "variety": "armeenia",
       "nameLower": "sea šašlõk.punases mar.armeenia grill,kg",
-      "brand": "sea",
+      "brand": "armeenia grill",
       "size": null,
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "armeenia grill mar punases sea šašlõk",
+      "descriptors": "punases sea šašlõk",
+      "descriptorOrder": [
+        "sea",
+        "šašlõk",
+        "punases"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1406,6 +2034,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.24,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/97da65f4-39ea-47e6-8483-75e60c08be55_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1422,383 +2051,27 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "mar mustika seašašlõkk",
+      "descriptors": "mustika seašašlõkk",
+      "descriptorOrder": [
+        "seašašlõkk",
+        "mustika"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seašašlõkk": "seašašlõkk",
+        "mustika": "mustika"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Jah. sea sisefilee WELL DONE, kg",
-    "price": 9.99,
-    "regularPrice": 9.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/jah-sea-sisefilee-well-done-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 9.99,
-    "brand": "WELL DONE",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "jah",
-      "unit": "kg",
-      "variety": "well done",
-      "nameLower": "jah. sea sisefilee well done, kg",
-      "brand": "well done",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "jah sea sisefilee",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Ahjukarbonaad mee-sinepi marinaadis,kg",
-    "price": 9.99,
-    "regularPrice": 9.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/ahjukarbonaad-mee-sinepi-marinaadis-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 9.99,
-    "brand": "MEISTRITE KVALITEET",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "ahjukarbonaad",
-      "unit": "kg",
-      "variety": null,
-      "nameLower": "ahjukarbonaad mee-sinepi marinaadis,kg",
-      "brand": "meistrite kvaliteet",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "ahjukarbonaad mee sinepi",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Seaguljašš ABta WELL DONE,400g",
-    "price": 2.19,
-    "regularPrice": 3.19,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/seaguljass-abta-well-done-400-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 5.48,
-    "brand": "WELL DONE",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "seaguljašš",
-      "unit": "400g",
-      "variety": "abta well done",
-      "nameLower": "seaguljašš abta well done,400g",
-      "brand": "well done",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "abta seaguljašš",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Broileri kintsuliha karri-keefiri,kg",
-    "price": 11.99,
-    "regularPrice": 11.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/broileri-kintsuliha-karri-keefiri-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 11.99,
-    "brand": "MEISTRITE KVALITEET",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "broileri",
-      "unit": "kg",
-      "variety": null,
-      "nameLower": "broileri kintsuliha karri-keefiri,kg",
-      "brand": "meistrite kvaliteet",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "broileri karri keefiri kintsuliha",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Sea välisfil.lõigud ABta,WELL DONE,360g",
-    "price": 3.89,
-    "regularPrice": 3.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/sea-valisfil-loigud-abta-well-done-360-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 10.81,
-    "brand": "WELL DONE",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "sea",
-      "unit": "360g",
-      "variety": "abta well done",
-      "nameLower": "sea välisfil.lõigud abta,well done,360g",
-      "brand": "well done",
-      "size": "360g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "abta lõigud sea välisfil",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Grill-liha Meistrite NÕO,450g",
-    "price": 6.49,
-    "regularPrice": 6.49,
-    "cardPrice": 4.59,
-    "cardName": "Aitäh",
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/grill-liha-meistrite-noo-450-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 10.2,
-    "brand": "NÕO",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "grill",
-      "unit": "450g",
-      "variety": "meistrite nõo",
-      "nameLower": "grill-liha meistrite nõo,450g",
-      "brand": "nõo",
-      "size": "450g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "grill liha meistrite",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Armeenia šašlõkk seakaelakarb.Steff,600g",
-    "price": 5.49,
-    "regularPrice": 7.39,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/armeenia-saslokk-seakaelakarb-steff-600-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 9.15,
-    "brand": null,
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "armeenia",
-      "unit": "600g",
-      "variety": "steff",
-      "nameLower": "armeenia šašlõkk seakaelakarb.steff,600g",
-      "brand": "armeenia",
-      "size": "600g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "armeenia seakaelakarb steff šašlõkk",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Searaguu jahutatud WELL DONE,kg",
-    "price": 1.59,
-    "regularPrice": 1.59,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/searaguu-jahutatud-well-done-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 1.59,
-    "brand": "WELL DONE",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": true,
-      "type": "searaguu",
-      "unit": "kg",
-      "variety": "well done",
-      "nameLower": "searaguu jahutatud well done,kg",
-      "brand": "well done",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "searaguu",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Seatiivad õrnsoolatud RAKVERE,kg",
-    "price": 13.99,
-    "regularPrice": 13.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/seatiivad-ornsoolatud-rakvere-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 13.99,
-    "brand": "RAKVERE",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "seatiivad",
-      "unit": "kg",
-      "variety": "rakvere",
-      "nameLower": "seatiivad õrnsoolatud rakvere,kg",
-      "brand": "rakvere",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "seatiivad õrnsoolatud",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Basturma seafilee Armeenia grill,kg-lett",
-    "price": 53.99,
-    "regularPrice": 53.99,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/basturma-seafilee-armeenia-grill-kg-lett",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 53.99,
-    "brand": null,
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "basturma",
-      "unit": "kg",
-      "variety": "armeenia",
-      "nameLower": "basturma seafilee armeenia grill,kg-lett",
-      "brand": "basturma",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "armeenia basturma grill lett seafilee",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Sea sisefilee ürdi-võimaitsel.mar.MK,kg",
-    "price": 9.99,
-    "regularPrice": 12.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/sea-sisefilee-urdi-voimaitsel-mar-mk-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 9.99,
-    "brand": "MEISTRITE KVALITEET",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "sea",
-      "unit": "kg",
-      "variety": "mk",
-      "nameLower": "sea sisefilee ürdi-võimaitsel.mar.mk,kg",
-      "brand": "meistrite kvaliteet",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "mar mk sea sisefilee võimaitsel ürdi",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1814,6 +2087,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.95,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/962d1fc5-4617-4a93-ba5a-4162534d182b_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1831,8 +2105,505 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondita seakaelakarbonaad",
+      "descriptorOrder": [
+        "seakaelakarbonaad",
+        "kondita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seakaelakarbonaad": "seakaelakarbonaad",
+        "kondita": "kondita"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Ahjukarbonaad mee-sinepi marinaadis,kg",
+    "price": 9.99,
+    "regularPrice": 9.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/ahjukarbonaad-mee-sinepi-marinaadis-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 9.99,
+    "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/23bc95df-13cc-4f0c-8a71-0d46696cac63_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ahjukarbonaad",
+      "unit": "kg",
+      "variety": null,
+      "nameLower": "ahjukarbonaad mee-sinepi marinaadis,kg",
+      "brand": "meistrite kvaliteet",
+      "size": null,
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ahjukarbonaad mee sinepi",
+      "descriptorOrder": [
+        "ahjukarbonaad",
+        "mee",
+        "sinepi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ahjukarbonaad": "ahjukarbonaad"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Seaguljašš ABta WELL DONE,400g",
+    "price": 2.19,
+    "regularPrice": 3.19,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/seaguljass-abta-well-done-400-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 5.48,
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/a649e68f-f130-48bb-b704-2b1055af2a96_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "seaguljašš",
+      "unit": "400g",
+      "variety": "abta well done",
+      "nameLower": "seaguljašš abta well done,400g",
+      "brand": "well done",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "abta seaguljašš",
+      "descriptorOrder": [
+        "seaguljašš",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seaguljašš": "seaguljašš",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Broileri kintsuliha karri-keefiri,kg",
+    "price": 11.99,
+    "regularPrice": 11.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/broileri-kintsuliha-karri-keefiri-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 11.99,
+    "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/eb8e80b8-5551-4ad6-a6ea-4e58377c694b_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "broileri",
+      "unit": "kg",
+      "variety": null,
+      "nameLower": "broileri kintsuliha karri-keefiri,kg",
+      "brand": "meistrite kvaliteet",
+      "size": null,
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri karri keefiri kintsuliha",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "karri",
+        "keefiri"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileri": "broileri",
+        "kintsuliha": "kintsuliha"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Grill-liha Meistrite NÕO,450g",
+    "price": 6.49,
+    "regularPrice": 6.49,
+    "cardPrice": 4.59,
+    "cardName": "Aitäh",
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/grill-liha-meistrite-noo-450-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 10.2,
+    "brand": "NÕO",
+    "image": "https://cdn.barbora.ee/products/34922d58-5f8c-49cf-8ac5-88ccead0212d_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "grill",
+      "unit": "450g",
+      "variety": "meistrite nõo",
+      "nameLower": "grill-liha meistrite nõo,450g",
+      "brand": "nõo",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grill liha meistrite",
+      "descriptorOrder": [
+        "grill",
+        "liha",
+        "meistrite"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "meistrite": "meistrite"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Armeenia šašlõkk seakaelakarb.Steff,600g",
+    "price": 5.49,
+    "regularPrice": 7.39,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/armeenia-saslokk-seakaelakarb-steff-600-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 9.15,
+    "brand": "Steff",
+    "image": "https://cdn.barbora.ee/products/02d7217b-1f49-4b2f-a70e-b1c319fe70ac_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "armeenia",
+      "unit": "600g",
+      "variety": "steff",
+      "nameLower": "armeenia šašlõkk seakaelakarb.steff,600g",
+      "brand": "steff",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "armeenia seakaelakarb šašlõkk",
+      "descriptorOrder": [
+        "armeenia",
+        "šašlõkk",
+        "seakaelakarb"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "armeenia": "armeenia",
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Seatiivad õrnsoolatud RAKVERE,kg",
+    "price": 13.99,
+    "regularPrice": 13.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/seatiivad-ornsoolatud-rakvere-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 13.99,
+    "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/27077edb-be31-4694-81ac-4fe98c716702_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seatiivad",
+      "unit": "kg",
+      "variety": "rakvere",
+      "nameLower": "seatiivad õrnsoolatud rakvere,kg",
+      "brand": "rakvere",
+      "size": null,
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "seatiivad õrnsoolatud",
+      "descriptorOrder": [
+        "seatiivad",
+        "õrnsoolatud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seatiivad": "seatiivad",
+        "õrnsoolatud": "õrnsoolatud"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Seaguljašš WELL DONE,400g",
+    "price": 2.55,
+    "regularPrice": 2.55,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/seaguljass-well-done-400-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 6.38,
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/5c7e4751-ae57-47cc-bbed-074a8333dec4_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "seaguljašš",
+      "unit": "400g",
+      "variety": "well done",
+      "nameLower": "seaguljašš well done,400g",
+      "brand": "well done",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "seaguljašš",
+      "descriptorOrder": [
+        "seaguljašš"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seaguljašš": "seaguljašš"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Basturma seafilee Armeenia grill,kg-lett",
+    "price": 53.99,
+    "regularPrice": 53.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/basturma-seafilee-armeenia-grill-kg-lett",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 53.99,
+    "brand": "ARMEENIA GRILL",
+    "image": "https://cdn.barbora.ee/products/f54eefcb-0304-4349-990b-98b3bdabe9c3_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "basturma",
+      "unit": "kg",
+      "variety": "armeenia",
+      "nameLower": "basturma seafilee armeenia grill,kg-lett",
+      "brand": "armeenia grill",
+      "size": null,
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "basturma lett seafilee",
+      "descriptorOrder": [
+        "basturma",
+        "seafilee",
+        "lett"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "basturma": "basturma",
+        "seafilee": "seafilee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Jah. sea sisefilee WELL DONE, kg",
+    "price": 9.99,
+    "regularPrice": 9.99,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/jah-sea-sisefilee-well-done-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 9.99,
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/73e8eb54-8d38-4452-9fe4-782ac4d03069_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "jah",
+      "unit": "kg",
+      "variety": "well done",
+      "nameLower": "jah. sea sisefilee well done, kg",
+      "brand": "well done",
+      "size": null,
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "sea sisefilee",
+      "descriptorOrder": [
+        "sea",
+        "sisefilee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "sisefilee": "sisefilee"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1848,6 +2619,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.97,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/05530741-1b39-4ac4-85f3-9519124d8a16_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1865,8 +2637,83 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta lõigud seaprae",
+      "descriptorOrder": [
+        "seaprae",
+        "lõigud",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seaprae": "seaprae",
+        "lõigud": "lõigud",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Sea välisfil.lõigud ABta,WELL DONE,360g",
+    "price": 3.89,
+    "regularPrice": 3.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/sea-valisfil-loigud-abta-well-done-360-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 10.81,
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/11f3a8de-4d46-4c77-9151-e8e2ca0cf0e6_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "sea",
+      "unit": "360g",
+      "variety": "abta well done",
+      "nameLower": "sea välisfil.lõigud abta,well done,360g",
+      "brand": "well done",
+      "size": "360g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "abta lõigud sea välisfil",
+      "descriptorOrder": [
+        "sea",
+        "välisfil",
+        "lõigud",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sea": "sea",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1882,6 +2729,7 @@
     "unit": "kg",
     "storeUnitPrice": 10.81,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/c0d3f725-8b17-4f71-a6a8-f89cc1bcc860_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1899,8 +2747,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta lõigud seakaelakarb",
+      "descriptorOrder": [
+        "seakaelakarb",
+        "lõigud",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1916,6 +2782,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.99,
     "brand": "NÕO",
+    "image": "https://cdn.barbora.ee/products/fa02c122-8a7a-4e10-aa64-988bc69a70b2_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1933,8 +2800,77 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "grillribid meistrite",
+      "descriptorOrder": [
+        "grillribid",
+        "meistrite"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "grillribid": "grillribid",
+        "meistrite": "meistrite"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Searaguu jahutatud WELL DONE,kg",
+    "price": 1.59,
+    "regularPrice": 1.59,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/searaguu-jahutatud-well-done-kg",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 1.59,
+    "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/7b2aaf66-be3f-4f78-a0a7-323da5330a18_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "searaguu",
+      "unit": "kg",
+      "variety": "well done",
+      "nameLower": "searaguu jahutatud well done,kg",
+      "brand": "well done",
+      "size": null,
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "searaguu",
+      "descriptorOrder": [
+        "searaguu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "searaguu": "searaguu"
+      },
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -1950,6 +2886,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.99,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/e2a0819c-da03-4415-832b-c987c74e5641_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -1967,42 +2904,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ahjubroiler klassikaline",
+      "descriptorOrder": [
+        "ahjubroiler",
+        "klassikaline"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ahjubroiler": "ahjubroiler",
+        "klassikaline": "klassikaline"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Eestimaine broilerikoib TALLEGG, kg",
-    "price": 3.59,
-    "regularPrice": 4.79,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/eestimaine-broilerikoib-tallegg-kg",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 3.59,
-    "brand": "TALLEGG",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "eestimaine",
-      "unit": "kg",
-      "variety": "tallegg",
-      "nameLower": "eestimaine broilerikoib tallegg, kg",
-      "brand": "tallegg",
-      "size": null,
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "broilerikoib eestimaine",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2018,6 +2939,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.29,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/6cd8ed67-4314-4a58-a4a8-4468f1660c3c_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2035,8 +2957,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri eestimaine kints seljaosaga",
+      "descriptorOrder": [
+        "eestimaine",
+        "broileri",
+        "kints",
+        "seljaosaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "eestimaine": "eestimaine",
+        "seljaosaga": "seljaosaga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2052,6 +2994,7 @@
     "unit": "kg",
     "storeUnitPrice": 3.99,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/199257af-5bb8-441a-bf70-14ac11bd978c_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2069,8 +3012,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broiler eestimaine",
+      "descriptorOrder": [
+        "eestimaine",
+        "broiler",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "eestimaine": "eestimaine",
+        "broiler": "broiler",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2086,6 +3049,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.69,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/feb8f472-6628-4dc1-92be-9c0a12319f06_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2103,8 +3067,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri klassikalises poolkoivad",
+      "descriptorOrder": [
+        "broileri",
+        "poolkoivad",
+        "klassikalises"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2120,6 +3100,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.35,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/94ca7fb6-6a8c-48a2-aa63-7cec79543b00_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2137,8 +3118,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri eestimaine rinnafilee tallegg",
+      "descriptorOrder": [
+        "eestimaine",
+        "broileri",
+        "rinnafilee",
+        "tallegg",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "eestimaine": "eestimaine",
+        "tallegg": "tallegg",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2154,6 +3157,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.69,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/cd563c36-6ffb-425c-9880-2d109e1f6488_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2171,8 +3175,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri jogurti poolkoivad tilli",
+      "descriptorOrder": [
+        "broileri",
+        "poolkoivad",
+        "jogurti",
+        "tilli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2188,6 +3209,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.99,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/2ccd3942-16a4-4f9b-90b8-6eb58770aed4_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2205,8 +3227,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri jogurtimarinaadis kintsuliha",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "jogurtimarinaadis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jogurtimarinaadis": "jogurtimarinaadis"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2222,6 +3262,7 @@
     "unit": "kg",
     "storeUnitPrice": 17.11,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/346e4e88-7e8f-4e76-9425-6aa77988c793_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2239,8 +3280,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri filee mee min pihv tšil",
+      "descriptorOrder": [
+        "broileri",
+        "filee",
+        "min",
+        "pihv",
+        "mee",
+        "tšil"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2256,6 +3316,7 @@
     "unit": "kg",
     "storeUnitPrice": 17.11,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/b7fa4e64-0aa0-44c6-8dc9-311c1cdf22bd_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2273,8 +3334,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri filee min pihv suitsuj",
+      "descriptorOrder": [
+        "broileri",
+        "filee",
+        "min",
+        "pihv",
+        "suitsuj"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2290,6 +3369,7 @@
     "unit": "kg",
     "storeUnitPrice": 3.79,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/f95fe9b2-d3f1-49ef-9efc-1380cbe2edf2_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2307,8 +3387,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broileritiib klass",
+      "descriptorOrder": [
+        "broileritiib",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileritiib": "broileritiib"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2324,6 +3422,7 @@
     "unit": "kg",
     "storeUnitPrice": 3.69,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/d41edb97-2e4e-4390-af99-2cfe7cb78a07_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2340,9 +3439,26 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "a broil jah klass poolkoib",
+      "descriptors": "a broil klass poolkoib",
+      "descriptorOrder": [
+        "broil",
+        "poolkoib",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2358,6 +3474,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.49,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/9910f70b-b421-4fdb-8800-7ab313a04a9a_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2375,8 +3492,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broileri klass koib seljaosaga",
+      "descriptorOrder": [
+        "broileri",
+        "koib",
+        "seljaosaga",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seljaosaga": "seljaosaga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2392,6 +3529,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/85df5b4b-cadb-4d99-b53a-f0443d0c945d_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2409,8 +3547,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broileri klass rinnafilee",
+      "descriptorOrder": [
+        "broileri",
+        "rinnafilee",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2426,6 +3581,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.84,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/a0f8b7ec-6473-4c3b-911e-2901f36d39f0_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2443,8 +3599,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri lihašašlõkk tomatimar",
+      "descriptorOrder": [
+        "broileri",
+        "lihašašlõkk",
+        "tomatimar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "g": "g"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2460,6 +3634,7 @@
     "unit": "kg",
     "storeUnitPrice": 13.38,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/474d746b-b3a0-4810-b85e-0d9af67a4250_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2477,8 +3652,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri eesti rinfil sisetk",
+      "descriptorOrder": [
+        "eesti",
+        "broileri",
+        "rinfil",
+        "sisetk",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2494,6 +3689,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.99,
     "brand": "ARMEENIA GRILL",
+    "image": "https://cdn.barbora.ee/products/38891e73-8ab4-44e0-bec6-e61478992e57_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2511,8 +3707,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri kintsuliha šašlõkk",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "šašlõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2528,6 +3742,7 @@
     "unit": "kg",
     "storeUnitPrice": 14.99,
     "brand": "REINUVADERI PIDUSÖÖK",
+    "image": "https://cdn.barbora.ee/products/246bfece-2827-45d9-9379-5911d807a3d4_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2545,8 +3760,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a klass pardikoivad",
+      "descriptorOrder": [
+        "pardikoivad",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pardikoivad": "pardikoivad",
+        "a": "a",
+        "klass": "klass"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2562,6 +3797,7 @@
     "unit": "kg",
     "storeUnitPrice": 1.99,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/81d77f50-63c0-4944-b441-764ba32f3504_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2579,8 +3815,30 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broileri klass seljad wd",
+      "descriptorOrder": [
+        "broileri",
+        "seljad",
+        "a",
+        "klass",
+        "wd"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileri": "broileri",
+        "seljad": "seljad",
+        "wd": "wd"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2595,7 +3853,8 @@
     "ean": null,
     "unit": "kg",
     "storeUnitPrice": 7.59,
-    "brand": null,
+    "brand": "ARMEENIA GRILL",
+    "image": "https://cdn.barbora.ee/products/8993374a-3fad-44fc-9920-ac171be5d977_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2606,15 +3865,33 @@
       "unit": "kg",
       "variety": "armeenia",
       "nameLower": "br.pooltiiva šašlõkk armeenia grill, kg",
-      "brand": "br",
+      "brand": "armeenia grill",
       "size": null,
       "variant": null,
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "armeenia broileri grill pooltiiva šašlõkk",
+      "descriptors": "broileri pooltiiva šašlõkk",
+      "descriptorOrder": [
+        "broileri",
+        "pooltiiva",
+        "šašlõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2630,6 +3907,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.48,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/f7f97f0d-5971-48bf-9309-c89ebc40d77d_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2647,8 +3925,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broilerikintsuliha juustuga kolme",
+      "descriptorOrder": [
+        "broilerikintsuliha",
+        "kolme",
+        "juustuga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broilerikintsuliha": "broilerikintsuliha",
+        "kolme": "kolme",
+        "juustuga": "juustuga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2664,6 +3962,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.99,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/5a5e8f44-5876-4db4-a7c2-0fb23c3905e2_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2681,8 +3980,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri eestimaine kintsuliha",
+      "descriptorOrder": [
+        "eestimaine",
+        "broileri",
+        "kintsuliha",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "eestimaine": "eestimaine",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2698,6 +4017,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/8001ecb9-3ce3-4517-9daf-fbac15403598_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2715,8 +4035,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broileri kintsul klass nahata",
+      "descriptorOrder": [
+        "broileri",
+        "kintsul",
+        "nahata",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2732,6 +4070,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.99,
     "brand": "ARMEENIA GRILL",
+    "image": "https://cdn.barbora.ee/products/c3508860-f261-4730-af7d-2f0bdcdaa1fe_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2749,8 +4088,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kalkuni šašlõkk",
+      "descriptorOrder": [
+        "kalkuni",
+        "šašlõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kalkuni": "kalkuni",
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2766,6 +4123,7 @@
     "unit": "kg",
     "storeUnitPrice": 16.73,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/125c19e4-c122-45c7-b334-bf7822fb67ca_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2782,9 +4140,25 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "jah kalkuni lõig rinnafil",
+      "descriptors": "kalkuni lõig rinnafil",
+      "descriptorOrder": [
+        "kalkuni",
+        "rinnafil",
+        "lõig"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2800,6 +4174,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.65,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/fb18c009-e054-4ee6-9dd8-b3c473071d9d_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2816,9 +4191,27 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "broileri klassikalises mar poolkoivad",
+      "descriptors": "broileri klassikalises poolkoivad",
+      "descriptorOrder": [
+        "broileri",
+        "poolkoivad",
+        "klassikalises"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "klassikalises": "klassikalises"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2834,6 +4227,7 @@
     "unit": "kg",
     "storeUnitPrice": 2.87,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/99580ec1-b57c-42c0-baba-02ab25cd7f63_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2851,8 +4245,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broilerikael klass wd",
+      "descriptorOrder": [
+        "broilerikael",
+        "a",
+        "klass",
+        "wd"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broilerikael": "broilerikael",
+        "wd": "wd"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2868,6 +4282,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.82,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/a8f7a176-e71e-4a94-b92b-4f211fc60d49_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2885,8 +4300,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri pooltiivad punases",
+      "descriptorOrder": [
+        "broileri",
+        "pooltiivad",
+        "punases"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileri": "broileri",
+        "pooltiivad": "pooltiivad",
+        "punases": "punases"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2902,6 +4337,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.23,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/14af483a-dee5-4ebb-8736-5522010d7a47_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2919,8 +4355,80 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "guljašš kalkuni",
+      "descriptorOrder": [
+        "kalkuni",
+        "guljašš"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kalkuni": "kalkuni",
+        "guljašš": "guljašš"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Barbora",
+    "name": "Br.rin.fil.šašl.jog.mar.Fit.TALLEGG,800g",
+    "price": 7.49,
+    "regularPrice": 7.49,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://barbora.ee/toode/br-rin-fil-sasl-jog-mar-fit-tallegg-800-g",
+    "ean": null,
+    "unit": "kg",
+    "storeUnitPrice": 9.36,
+    "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/38d94c90-237b-4e42-b3c9-f17c12267e14_m.png",
+    "strictPackaging": true,
+    "matchAcrossWeights": true,
+    "signature": {
+      "ean": null,
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "br",
+      "unit": "800g",
+      "variety": "fit tallegg",
+      "nameLower": "br.rin.fil.šašl.jog.mar.fit.tallegg,800g",
+      "brand": "tallegg",
+      "size": "800g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "broileri fil fit jog rin šašl",
+      "descriptorOrder": [
+        "broileri",
+        "rin",
+        "fil",
+        "šašl",
+        "jog",
+        "fit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
+      "strictPackaging": true,
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2936,6 +4444,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.99,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/0d72bb0d-d775-4c1d-9ef2-39527959cef1_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2953,8 +4462,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri kintsuliha kookose mango",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "mango",
+        "kookose"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -2970,6 +4496,7 @@
     "unit": "kg",
     "storeUnitPrice": 3.58,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/158339f9-28ee-4002-8e1a-4d7395c77c6b_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -2987,8 +4514,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broileri klass tiiva õlaosa",
+      "descriptorOrder": [
+        "broileri",
+        "tiiva",
+        "õlaosa",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlaosa": "õlaosa"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3004,6 +4551,7 @@
     "unit": "kg",
     "storeUnitPrice": 13.58,
     "brand": "ARVI KALAKUTAI",
+    "image": "https://cdn.barbora.ee/products/c2571187-085b-4b02-8612-36b6773ee06e_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3021,8 +4569,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kalkuni kintsuliha",
+      "descriptorOrder": [
+        "kalkuni",
+        "kintsuliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kalkuni": "kalkuni",
+        "kintsuliha": "kintsuliha",
+        "arvi": "arvi"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3038,6 +4605,7 @@
     "unit": "kg",
     "storeUnitPrice": 10.44,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/754129a5-693e-4e45-9b28-9f5bdfdecc23_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3055,8 +4623,23 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kanafileešnitsel paneer",
+      "descriptorOrder": [
+        "paneer",
+        "kanafileešnitsel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3072,6 +4655,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/7951c9a2-ee81-45cf-8387-7c676873cd58_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3089,8 +4673,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri poolkoiva tükid",
+      "descriptorOrder": [
+        "broileri",
+        "poolkoiva",
+        "tükid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tükid": "tükid"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3106,6 +4708,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.99,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/de38d419-1235-4668-ab2e-f03027217f2c_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3123,8 +4726,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "bbq broileri pooltiivad",
+      "descriptorOrder": [
+        "broileri",
+        "pooltiivad",
+        "bbq"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileri": "broileri",
+        "pooltiivad": "pooltiivad",
+        "bbq": "bbq"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3140,6 +4763,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.13,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/4f1c0a59-eb52-4cd1-86d1-3bbbff56e7d6_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3157,8 +4781,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "armeenia broileri šašlõkk",
+      "descriptorOrder": [
+        "armeenia",
+        "broileri",
+        "šašlõkk"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "armeenia": "armeenia",
+        "broileri": "broileri",
+        "šašlõkk": "šašlõkk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3174,6 +4818,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.73,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/4d8e43c8-9703-4304-b9a4-47d580526ea3_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3191,8 +4836,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri rinnaf sisetükk",
+      "descriptorOrder": [
+        "broileri",
+        "rinnaf",
+        "sisetükk",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sisetükk": "sisetükk",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3208,6 +4873,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/36bf1dc8-3969-4939-a397-e6673a028479_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3225,8 +4891,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri kintsul nahata",
+      "descriptorOrder": [
+        "broileri",
+        "kintsul",
+        "nahata",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3242,6 +4927,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/95becf87-2b2e-420f-8fb1-e903ed14f7fd_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3259,8 +4945,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri rinnafilee",
+      "descriptorOrder": [
+        "broileri",
+        "rinnafilee",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3276,6 +4980,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/824e1753-f8fc-4911-aadf-b31b42fb5f55_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3293,8 +4998,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri poolkoiva tükid",
+      "descriptorOrder": [
+        "broileri",
+        "poolkoiva",
+        "tükid",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tükid": "tükid",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3310,6 +5035,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.38,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/209d1f8a-fa1b-4152-827e-8a9b6d7407c1_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3327,8 +5053,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri poolkoivad",
+      "descriptorOrder": [
+        "broileri",
+        "poolkoivad",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3344,6 +5088,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.58,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/19126048-cd95-479c-89c2-b532efae589e_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3361,8 +5106,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri keskosa tiiva",
+      "descriptorOrder": [
+        "broileri",
+        "tiiva",
+        "keskosa",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "keskosa": "keskosa",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3378,6 +5143,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/498c3465-0855-4df9-a9a3-db36586860ed_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3395,8 +5161,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broilerikints",
+      "descriptorOrder": [
+        "broilerikints",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broilerikints": "broilerikints",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3412,6 +5196,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/3fa86564-fd28-4003-b4f5-8d7e5ea4a05d_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3429,8 +5214,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta broileri tiiva õlaosa",
+      "descriptorOrder": [
+        "broileri",
+        "tiiva",
+        "õlaosa",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlaosa": "õlaosa",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3446,6 +5251,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.99,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/ca4055a9-62ef-4d6b-b32b-6b54ee4dbea3_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3462,9 +5268,29 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "broileri kintsuliha mar mustika teriyaki",
+      "descriptors": "broileri kintsuliha mustika teriyaki",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "mustika",
+        "teriyaki"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustika": "mustika",
+        "teriyaki": "teriyaki"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3480,6 +5306,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.38,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/464ae062-a345-4e4f-b21f-fc08a8aaa804_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3497,8 +5324,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri tiiva tud õlaosa",
+      "descriptorOrder": [
+        "broileri",
+        "tiiva",
+        "õlaosa",
+        "tud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlaosa": "õlaosa"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3514,6 +5360,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.58,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/75231631-1a41-4d5f-bc7a-dcf1cbf20de5_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3531,8 +5378,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri filee fit mustikamar rin",
+      "descriptorOrder": [
+        "broileri",
+        "rin",
+        "filee",
+        "mustikamar",
+        "fit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3548,6 +5413,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/adb1d798-4279-4a47-bfb0-f45133bb4f8c_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3565,8 +5431,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broileri kl rinnafilee sisetk",
+      "descriptorOrder": [
+        "broileri",
+        "rinnafilee",
+        "sisetk",
+        "a",
+        "kl"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sisetk": "sisetk"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3582,6 +5468,7 @@
     "unit": "kg",
     "storeUnitPrice": 3.49,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/f6ad7f8c-58bf-48c0-850f-174f18fd3834_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3599,8 +5486,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "a broiler klass",
+      "descriptorOrder": [
+        "broiler",
+        "a",
+        "klass"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broiler": "broiler"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3616,6 +5521,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.58,
     "brand": "RANNAMÕISA",
+    "image": "https://cdn.barbora.ee/products/64e8fcbc-6b66-4eb4-b965-87c9d2607f9e_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3633,8 +5539,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri buffalo pooltiivad",
+      "descriptorOrder": [
+        "broileri",
+        "pooltiivad",
+        "buffalo"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "buffalo": "buffalo"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3650,6 +5574,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/a8043c68-e08c-4f8e-ad20-5c6c750df355_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3666,9 +5591,28 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "broileri jõhv mar tiiva õlaosa",
+      "descriptors": "broileri jõhv tiiva õlaosa",
+      "descriptorOrder": [
+        "broileri",
+        "tiiva",
+        "õlaosa",
+        "jõhv"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "õlaosa": "õlaosa"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3684,6 +5628,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.99,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/3f4a1c7b-983d-4789-80b6-d0e11ee61d42_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3700,43 +5645,27 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "broiler mar rosm sidrunipip",
+      "descriptors": "broiler rosm sidrunipip",
+      "descriptorOrder": [
+        "broiler",
+        "rosm",
+        "sidrunipip"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broiler": "broiler"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Eestimaine br.r.filee tükid TALLEGG,400g",
-    "price": 3.89,
-    "regularPrice": 5.19,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/eestimaine-br-r-filee-tukid-tallegg-400-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 9.73,
-    "brand": "TALLEGG",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "eestimaine",
-      "unit": "400g",
-      "variety": "tallegg",
-      "nameLower": "eestimaine br.r.filee tükid tallegg,400g",
-      "brand": "tallegg",
-      "size": "400g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "broileri eestimaine filee r tükid",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3752,6 +5681,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.65,
     "brand": "NÕO",
+    "image": "https://cdn.barbora.ee/products/c918c1c1-37be-40ad-a315-bf8be8d59882_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3769,8 +5699,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileripooltiivad meistrite",
+      "descriptorOrder": [
+        "broileripooltiivad",
+        "meistrite"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "broileripooltiivad": "broileripooltiivad",
+        "meistrite": "meistrite"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3786,6 +5734,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.48,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/5f2eef27-a24d-43a5-b8b5-aad76dbdc8ac_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3803,76 +5752,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri kintsuliha koduses",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "koduses"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "koduses": "koduses"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Br.rin.fil.šašl.jog.mar.Fit.TALLEGG,800g",
-    "price": 7.49,
-    "regularPrice": 7.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/br-rin-fil-sasl-jog-mar-fit-tallegg-800-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 9.36,
-    "brand": "TALLEGG",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "br",
-      "unit": "800g",
-      "variety": "fit tallegg",
-      "nameLower": "br.rin.fil.šašl.jog.mar.fit.tallegg,800g",
-      "brand": "tallegg",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "broileri fil fit jog mar rin šašl",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
-    }
-  },
-  {
-    "store": "Barbora",
-    "name": "Br.kintsuliha tzatziki kastmes M&M,800g",
-    "price": 5.95,
-    "regularPrice": 7.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://barbora.ee/toode/br-kintsuliha-tzatziki-kastmes-m-m-800-g",
-    "ean": null,
-    "unit": "kg",
-    "storeUnitPrice": 7.44,
-    "brand": "MAKS & MOORITS",
-    "strictPackaging": true,
-    "matchAcrossWeights": true,
-    "signature": {
-      "ean": null,
-      "isProduce": false,
-      "hasBrand": false,
-      "type": "br",
-      "unit": "800g",
-      "variety": "m",
-      "nameLower": "br.kintsuliha tzatziki kastmes m&m,800g",
-      "brand": "maks & moorits",
-      "size": "800g",
-      "variant": null,
-      "qualifiers": "",
-      "colors": "",
-      "fatPercent": null,
-      "descriptors": "broileri kastmes kintsuliha tzatziki",
-      "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3888,6 +5787,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/9be84f83-829b-4762-92e5-9654c6937a57_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3905,8 +5805,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri kintsuliha küüsl ürdim",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "küüsl",
+        "ürdim"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3922,6 +5839,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.98,
     "brand": "NÕO",
+    "image": "https://cdn.barbora.ee/products/ed5e0e60-16d4-4a9a-9828-7d31c44f32b7_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3939,8 +5857,25 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri hapukoore kintsuliha sibula",
+      "descriptorOrder": [
+        "broileri",
+        "kintsuliha",
+        "sibula",
+        "hapukoore"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3956,6 +5891,7 @@
     "unit": "kg",
     "storeUnitPrice": 14.99,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/a27ddd7a-659c-43ca-9ae5-816dbb937a2b_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -3973,8 +5909,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "veiseböfstrooganov",
+      "descriptorOrder": [
+        "veiseböfstrooganov"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veiseböfstrooganov": "veiseböfstrooganov"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -3990,6 +5942,7 @@
     "unit": "kg",
     "storeUnitPrice": 18.49,
     "brand": null,
+    "image": "https://cdn.barbora.ee/products/bf57e00c-edb9-4be8-9785-fcff68741a68_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4007,8 +5960,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "veise välisfilee",
+      "descriptorOrder": [
+        "veise",
+        "välisfilee"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veise": "veise",
+        "välisfilee": "välisfilee"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4024,6 +5995,7 @@
     "unit": "kg",
     "storeUnitPrice": 13.48,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/58980182-3ef1-440c-b3e3-a51f0991e9e5_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4041,8 +6013,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "veiseguljašš",
+      "descriptorOrder": [
+        "veiseguljašš"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veiseguljašš": "veiseguljašš"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4058,6 +6046,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.99,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/8f44a786-0d13-453c-9bed-80e30b3e2534_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4075,8 +6064,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondig koot veise",
+      "descriptorOrder": [
+        "veise",
+        "koot",
+        "kondig"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veise": "veise",
+        "koot": "koot"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4092,6 +6100,7 @@
     "unit": "kg",
     "storeUnitPrice": 36.32,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/6138e5d9-41d6-4587-9f23-ab61870438ea_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4109,8 +6118,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kondita steik veiseliha",
+      "descriptorOrder": [
+        "veiseliha",
+        "steik",
+        "kondita"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veiseliha": "veiseliha",
+        "steik": "steik",
+        "kondita": "kondita"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4126,6 +6155,7 @@
     "unit": "kg",
     "storeUnitPrice": 37.46,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/4c2ca80d-f181-48f6-aed7-965d689c0aaf_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4143,8 +6173,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "steik veise välisfilee",
+      "descriptorOrder": [
+        "veise",
+        "välisfilee",
+        "steik"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veise": "veise",
+        "välisfilee": "välisfilee",
+        "steik": "steik"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4160,6 +6210,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.7,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/dbae8b10-8056-460a-81db-1d2c9aea1b56_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4177,8 +6228,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "hakkliha kodune",
+      "descriptorOrder": [
+        "kodune",
+        "hakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "hakkliha": "hakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4194,6 +6263,7 @@
     "unit": "kg",
     "storeUnitPrice": 10.59,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/ec33a40b-9909-4b2e-8d5c-1f4bdcfc4599_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4211,8 +6281,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "delikatess seahakkliha",
+      "descriptorOrder": [
+        "delikatess",
+        "seahakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "delikatess": "delikatess",
+        "seahakkliha": "seahakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4228,6 +6316,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.99,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/47df0d06-3e0c-4bea-bc79-8f46e9a44823_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4245,8 +6334,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "delikatess veisehakkliha",
+      "descriptorOrder": [
+        "delikatess",
+        "veisehakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "delikatess": "delikatess",
+        "veisehakkliha": "veisehakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4262,6 +6369,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.49,
     "brand": "MEISTRITE KVALITEET",
+    "image": "https://cdn.barbora.ee/products/b7745577-4419-41cd-b10f-83afa7d30b9e_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4279,8 +6387,29 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "delikatess ja sea veisehakkliha",
+      "descriptorOrder": [
+        "delikatess",
+        "sea",
+        "ja",
+        "veisehakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "delikatess": "delikatess",
+        "ja": "ja",
+        "veisehakkliha": "veisehakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4296,6 +6425,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.17,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/1539baca-7fe7-4ddc-8d88-1851c9b843fe_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4313,8 +6443,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broileri delikatess hakklihasegu",
+      "descriptorOrder": [
+        "broileri",
+        "hakklihasegu",
+        "delikatess"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "delikatess": "delikatess"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4330,6 +6478,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.1,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/385f4dd1-0565-4322-a27b-50c26ecf8272_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4347,8 +6496,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "seahakkliha",
+      "descriptorOrder": [
+        "seahakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seahakkliha": "seahakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4364,6 +6529,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.97,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/2d0f207e-fe9f-4aad-952b-3c2f8201fa14_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4381,8 +6547,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broil fileehakkliha fitness",
+      "descriptorOrder": [
+        "fitness",
+        "broil",
+        "fileehakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fitness": "fitness"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4398,6 +6582,7 @@
     "unit": "kg",
     "storeUnitPrice": 18.48,
     "brand": "OSKAR",
+    "image": "https://cdn.barbora.ee/products/b53473ff-27c5-48bb-b9ff-5351f33366cd_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4415,8 +6600,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kebab lambalihaga",
+      "descriptorOrder": [
+        "kebab",
+        "lambalihaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kebab": "kebab",
+        "lambalihaga": "lambalihaga"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4432,6 +6635,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.78,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/eb2c8d14-67aa-45b9-adeb-26240e53bd01_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4449,8 +6653,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "ja sea veisehakkliha",
+      "descriptorOrder": [
+        "sea",
+        "ja",
+        "veisehakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ja": "ja",
+        "veisehakkliha": "veisehakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4466,6 +6689,7 @@
     "unit": "kg",
     "storeUnitPrice": 7.5,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/f4aef672-86d9-4ec8-8f04-d33544a2baa8_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4483,8 +6707,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "kodune kotletisegu",
+      "descriptorOrder": [
+        "kodune",
+        "kotletisegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "kotletisegu": "kotletisegu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4500,6 +6742,7 @@
     "unit": "kg",
     "storeUnitPrice": 12.48,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/b9a19eaa-49c9-4752-8801-5584e30d96d6_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4517,8 +6760,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "veisehakkliha",
+      "descriptorOrder": [
+        "veisehakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "veisehakkliha": "veisehakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4534,6 +6793,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.98,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/ff7e0a6d-061b-4e4a-9fd7-5267f2e16917_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4551,8 +6811,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "seahakkliha",
+      "descriptorOrder": [
+        "seahakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seahakkliha": "seahakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4568,6 +6844,7 @@
     "unit": "kg",
     "storeUnitPrice": 4.73,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/f06fcebf-9131-40c1-9842-c0eaa0f0fb48_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4585,8 +6862,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "seahakkliha",
+      "descriptorOrder": [
+        "seahakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seahakkliha": "seahakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4602,6 +6895,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/ad569a98-975a-4436-91a9-8672d7740e77_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4619,8 +6913,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "hakklihasegu kalk lihast",
+      "descriptorOrder": [
+        "hakklihasegu",
+        "kalk",
+        "lihast"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hakklihasegu": "hakklihasegu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4636,6 +6948,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.97,
     "brand": "MAKS & MOORITS",
+    "image": "https://cdn.barbora.ee/products/a541a533-6b83-466f-a2a8-e7244f3ba7cb_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4653,8 +6966,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "delikatess seahakkliha",
+      "descriptorOrder": [
+        "delikatess",
+        "seahakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "delikatess": "delikatess",
+        "seahakkliha": "seahakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4670,6 +7001,7 @@
     "unit": "kg",
     "storeUnitPrice": 11.65,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/1003f76f-159a-4c2a-aa5d-722f3ce37a99_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4687,8 +7019,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "hakkliha kodune",
+      "descriptorOrder": [
+        "kodune",
+        "hakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "hakkliha": "hakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4704,6 +7054,7 @@
     "unit": "kg",
     "storeUnitPrice": 9.83,
     "brand": "MATSIMOKA",
+    "image": "https://cdn.barbora.ee/products/5a37f674-e92d-49b5-851c-7fc24aa032d7_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4721,8 +7072,24 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "delikatesshakkliha",
+      "descriptorOrder": [
+        "delikatesshakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "delikatesshakkliha": "delikatesshakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4738,6 +7105,7 @@
     "unit": "kg",
     "storeUnitPrice": 19.3,
     "brand": "LIIVIMAA LIHAVEIS",
+    "image": "https://cdn.barbora.ee/products/4d1b9da2-9654-40c9-bc88-be2f9b1b08d3_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4755,8 +7123,27 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "hakkliha rohumaaveise",
+      "descriptorOrder": [
+        "rohumaaveise",
+        "hakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rohumaaveise": "rohumaaveise",
+        "hakkliha": "hakkliha",
+        "liivimaa": "liivimaa"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4772,6 +7159,7 @@
     "unit": "kg",
     "storeUnitPrice": 14.96,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/d99c65ae-4d75-47cb-8378-4bd31480b645_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4789,8 +7177,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "burgeripihvid st veisel",
+      "descriptorOrder": [
+        "burgeripihvid",
+        "veisel",
+        "st"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "burgeripihvid": "burgeripihvid"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4806,6 +7212,7 @@
     "unit": "kg",
     "storeUnitPrice": 6.98,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/24a0ddc3-4512-4816-bc3b-44b77fea0909_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4823,8 +7230,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "hakkliha kodune",
+      "descriptorOrder": [
+        "kodune",
+        "hakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kodune": "kodune",
+        "hakkliha": "hakkliha"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4840,6 +7265,7 @@
     "unit": "kg",
     "storeUnitPrice": 5.48,
     "brand": "WELL DONE",
+    "image": "https://cdn.barbora.ee/products/fb9c1f9c-91b1-48b7-b1fc-eb149dd151c3_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4857,8 +7283,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "abta seahakkliha",
+      "descriptorOrder": [
+        "seahakkliha",
+        "abta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seahakkliha": "seahakkliha",
+        "abta": "abta"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4874,6 +7318,7 @@
     "unit": "kg",
     "storeUnitPrice": 8.85,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/a154813c-5b5c-48cf-a195-587a8e077c3f_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4890,9 +7335,26 @@
       "qualifiers": "",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "külm pihvid",
+      "descriptors": "külmutatud pihvid",
+      "descriptorOrder": [
+        "külmutatud",
+        "pihvid"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pihvid": "pihvid"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4908,6 +7370,7 @@
     "unit": "kg",
     "storeUnitPrice": 1.3,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/fea0d784-63b9-4f9a-811f-09d7a16927a3_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4925,8 +7388,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "külmutatud searaguu",
+      "descriptorOrder": [
+        "külmutatud",
+        "searaguu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "searaguu": "searaguu"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4942,6 +7423,7 @@
     "unit": "kg",
     "storeUnitPrice": 3.63,
     "brand": "RAKVERE",
+    "image": "https://cdn.barbora.ee/products/713da84c-a16e-4357-9d73-51316608d2e0_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4959,8 +7441,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "esikoot külmutatud sea",
+      "descriptorOrder": [
+        "külmutatud",
+        "sea",
+        "esikoot"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "sea": "sea",
+        "esikoot": "esikoot"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -4976,6 +7478,7 @@
     "unit": "kg",
     "storeUnitPrice": 1.59,
     "brand": "NÕO",
+    "image": "https://cdn.barbora.ee/products/e3a0d005-509b-4a2a-b306-9c809a753b20_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -4993,8 +7496,28 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "külmutatud sea tagajalad",
+      "descriptorOrder": [
+        "külmutatud",
+        "sea",
+        "tagajalad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "sea": "sea",
+        "tagajalad": "tagajalad"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -5010,6 +7533,7 @@
     "unit": "kg",
     "storeUnitPrice": 2.98,
     "brand": "TALLEGG",
+    "image": "https://cdn.barbora.ee/products/62618792-8cd2-4b1f-9b85-133f9fdc619e_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -5027,8 +7551,26 @@
       "colors": "",
       "fatPercent": null,
       "descriptors": "broilerikael külmutatud",
+      "descriptorOrder": [
+        "külmutatud",
+        "broilerikael"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "broilerikael": "broilerikael"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   },
   {
@@ -5044,6 +7586,7 @@
     "unit": "kg",
     "storeUnitPrice": 22.38,
     "brand": "LIIVIMAA LIHAVEIS",
+    "image": "https://cdn.barbora.ee/products/3873fafe-b915-44ef-bfce-9032d9502ccc_m.png",
     "strictPackaging": true,
     "matchAcrossWeights": true,
     "signature": {
@@ -5060,9 +7603,28 @@
       "qualifiers": "mahe",
       "colors": "",
       "fatPercent": null,
-      "descriptors": "hakkliha külm rohum",
+      "descriptors": "hakkliha külmutatud rohum",
+      "descriptorOrder": [
+        "külmutatud",
+        "rohum",
+        "hakkliha"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hakkliha": "hakkliha",
+        "liivimaa": "liivimaa"
+      },
+      "impliedDescriptors": [],
       "strictPackaging": true,
-      "matchAcrossWeights": true
+      "matchAcrossWeights": true,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
     }
   }
 ]

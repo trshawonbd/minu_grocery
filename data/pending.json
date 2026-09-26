@@ -20,20 +20,96 @@
   },
   {
     "category": "Fruits & vegetables",
-    "canonicalName": "Ploomtomat 500g",
+    "canonicalName": "Porgand kg",
     "reason": "automatic",
     "items": [
       {
         "store": "Barbora",
-        "name": "Ploomtomat karbis, 500g",
-        "price": 2.99,
-        "url": "https://barbora.ee/toode/ploomtomat-karbis-500-g"
+        "name": "Porgand lahtine,kg",
+        "price": 0.45,
+        "url": "https://barbora.ee/toode/porgand-lahtine-kg"
+      },
+      {
+        "store": "Coop",
+        "name": "Porgand kg",
+        "price": 0.49,
+        "url": "https://coophaapsalu.ee/toode/porgand-kg/"
+      }
+    ]
+  },
+  {
+    "category": "Fruits & vegetables",
+    "canonicalName": "Õun kg",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Õun pakitud 1kl., kg",
+        "price": 1.79,
+        "url": "https://barbora.ee/toode/oun-pakitud-1-kl-kg"
+      },
+      {
+        "store": "Selver",
+        "name": "Õun Eesti (erinevad sordid), kg",
+        "price": 5.19,
+        "url": "https://www.selver.ee/oun-eesti-erinevad-sordid-kg-t000075160"
+      }
+    ]
+  },
+  {
+    "category": "Fruits & vegetables",
+    "canonicalName": "Lillkapsas romanesco kg",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Rimi",
+        "name": "Lillkapsas Romanesco, kg Eesti",
+        "price": 5.69,
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/lillkapsas-romanesco-kg-eesti/p/929319"
+      },
+      {
+        "store": "Selver",
+        "name": "Lillkapsas Romanesco, kg",
+        "price": 5.99,
+        "url": "https://www.selver.ee/lillkapsas-romanesco-kg"
+      }
+    ]
+  },
+  {
+    "category": "Bread",
+    "canonicalName": "Fazer Must põrandaleib 800g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Must põrandaleib FAZER,800g",
+        "price": 2.05,
+        "url": "https://barbora.ee/toode/must-porandaleib-fazer-800-g-00276"
+      },
+      {
+        "store": "Coop",
+        "name": "Must Põrandaleib 800g Fazer",
+        "price": 2.19,
+        "url": "https://coophaapsalu.ee/toode/must-porandaleib-800g-fazer/"
+      }
+    ]
+  },
+  {
+    "category": "Drinks",
+    "canonicalName": "Valge klaar Karastusjook 750ml",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Vahujook Valge Klaar 750ml",
+        "price": 3.39,
+        "url": "https://barbora.ee/toode/vahujook-valge-klaar-750-ml"
       },
       {
         "store": "Rimi",
-        "name": "Ploomtomat mini 1kl, 500g",
-        "price": 3.99,
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/ploomtomat-mini-1kl-500g/p/903260"
+        "name": "Karastusjook Valge Klaar Vahujook 0,75l",
+        "price": 3.69,
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/laste-peojoogid/karastusjook-valge-klaar-vahujook-0-75l/p/1364872"
       }
     ]
   },
@@ -58,39 +134,286 @@
   },
   {
     "category": "Drinks",
-    "canonicalName": "A. le coq Karastusjook kuldne orange 1500ml",
-    "reason": "automatic",
+    "canonicalName": "Heavenly Karb virsiku jook kar purk tud 330ml",
+    "reason": "ean",
     "items": [
       {
-        "store": "Rimi",
-        "name": "Karastusjook Kuldne Apelsin A.Le Coq 1.5l",
-        "price": 1.59,
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/limonaad-karastusjook/karastusjook-kuldne-apelsin-a-le-coq-1-5l/p/1376337"
+        "store": "Coop",
+        "name": "Karb-tud kar.jook Heavenly Virsiku 0.33L prk",
+        "price": 1.49,
+        "url": "https://coophaapsalu.ee/toode/heavenly-jook-virsiku-0-33l-prk/"
       },
       {
         "store": "Selver",
-        "name": "Karastusjook Kuldne Apelsin, A.LE COQ, 1,5 l",
-        "price": 1.59,
-        "url": "https://www.selver.ee/karastusjook-kuldne-apelsin-a-le-coq-1-5-l"
+        "name": "Karastusjook virsikumaitseline, HEAVENLY, 330 ml",
+        "price": 1.51,
+        "url": "https://www.selver.ee/karastusjook-virsikumaitseline-heavenly-330-ml"
       }
     ]
   },
   {
-    "category": "Drinks",
-    "canonicalName": "A. le coq Kali tume 1000ml",
+    "category": "Flour & sugar",
+    "canonicalName": "Tarretisesuhkur dansukker 350g",
+    "reason": "ean",
+    "items": [
+      {
+        "store": "Coop",
+        "name": "Tarretisesuhkur Dansukker 350g",
+        "price": 2.05,
+        "url": "https://coophaapsalu.ee/toode/tarretisesuhkur-350g/"
+      },
+      {
+        "store": "Selver",
+        "name": "Tarretisesuhkur, DAN SUKKER, 350 g",
+        "price": 1.82,
+        "url": "https://www.selver.ee/tarretisesuhkur-dan-sukker-350-g"
+      }
+    ]
+  },
+  {
+    "category": "Coffee",
+    "canonicalName": "Jacobs Kohvioad espresso 1000g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Kohvioad Espresso JACOBS 1 kg",
+        "price": 29.49,
+        "url": "https://barbora.ee/toode/kohvioad-espresso-jacobs-1-kg"
+      },
+      {
+        "store": "Rimi",
+        "name": "Kohvioad Jacobs Espresso 1kg",
+        "price": 26.99,
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/kohvioad/kohvioad-jacobs-espresso-1kg/p/182524"
+      }
+    ]
+  },
+  {
+    "category": "Coffee",
+    "canonicalName": "Jacobs Lahustuv kohv crema 200g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Lahustuv kohv JACOBS Crema 200g",
+        "price": 11.79,
+        "url": "https://barbora.ee/toode/lahustuv-kohv-jacobs-crema-200-g"
+      },
+      {
+        "store": "Rimi",
+        "name": "Kohv lahustuv Jacobs Crema 200g",
+        "price": 11.79,
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/lahustuv-kohv/kohv-lahustuv-jacobs-crema-200g/p/1025023"
+      }
+    ]
+  },
+  {
+    "category": "Sausages",
+    "canonicalName": "Rakvere Keeduvorst laste 300g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Keeduvorst Laste RAKVERE, 300g",
+        "price": 1.55,
+        "url": "https://barbora.ee/toode/keeduvorst-laste-rakvere-300-g"
+      },
+      {
+        "store": "Selver",
+        "name": "Keeduvorst Laste, RAKVERE, kg",
+        "price": 6.99,
+        "url": "https://www.selver.ee/keeduvorst-laste-rakvere-kg"
+      }
+    ]
+  },
+  {
+    "category": "Sausages",
+    "canonicalName": "Nõo Keedusalaami vasalli viil 105g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Keedusalaami Vasalli NÕO, 105 viil",
+        "price": 1.99,
+        "url": "https://barbora.ee/toode/keedusalaami-vasalli-noo-105-viil"
+      },
+      {
+        "store": "Coop",
+        "name": "Keedusalaami Vasalli Nõo 105g viil",
+        "price": 1.99,
+        "url": "https://coophaapsalu.ee/toode/keedusalaami-vasalli105g/"
+      }
+    ]
+  },
+  {
+    "category": "Ham & cold cuts",
+    "canonicalName": "Tallegg Delikatessrulaad viil 130g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Delikatessrulaad TALLEGG, 130g viil",
+        "price": 2.14,
+        "url": "https://barbora.ee/toode/delikatessrulaad-tallegg-130-g-viil"
+      },
+      {
+        "store": "Coop",
+        "name": "Delikatessrulaad Tallegg 130g viil",
+        "price": 2.49,
+        "url": "https://coophaapsalu.ee/toode/tallegg-delikatessrulaad-130g-viil/"
+      }
+    ]
+  },
+  {
+    "category": "Ham & cold cuts",
+    "canonicalName": "Linnamäe Maasuitsu fileesink viil 135g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Coop",
+        "name": "Maasuitsu fileesink Linnamäe 135g viil",
+        "price": 2.29,
+        "url": "https://coophaapsalu.ee/toode/maasuitsu-fileesink-135g/"
+      },
+      {
+        "store": "Rimi",
+        "name": "Maasuitsu fileesink viil Linnamäe 135g",
+        "price": 2.75,
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/maasuitsu-fileesink-viil-linnamae-135g/p/4012549"
+      }
+    ]
+  },
+  {
+    "category": "Fish & seafood",
+    "canonicalName": "Kaluri Vürtsisilgu filee 100g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Coop",
+        "name": "Vürtsisilgu filee Kaluri 100g",
+        "price": 2.15,
+        "url": "https://coophaapsalu.ee/toode/kaluri-vurtsisilgu-filee-100g/"
+      },
+      {
+        "store": "Rimi",
+        "name": "Vürtsisilgu filee Kaluri 100g",
+        "price": 2.29,
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/muu-marineeritud-soolatud-kala/vurtsisilgu-filee-kaluri-100g/p/4000336"
+      }
+    ]
+  },
+  {
+    "category": "Personal care",
+    "canonicalName": "Elseve Juuksekreem dream length 200ml",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Juuksekreem ELSEVE Dream Length 200ml",
+        "price": 8.19,
+        "url": "https://barbora.ee/toode/juuksekreem-elseve-dream-length-200-ml"
+      },
+      {
+        "store": "Rimi",
+        "name": "Juuksekreem Elseve Dream Length 200ml",
+        "price": 8.19,
+        "url": "https://www.rimi.ee/epood/en/products/self-care-products/hair-care/hair-care-products/juuksekreem-elseve-dream-length-200ml/p/7304473"
+      }
+    ]
+  },
+  {
+    "category": "Pet food",
+    "canonicalName": "Pedigree Koeraeine loom porgand 4x100g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Koeraeine PEDIGREE loom/porgand 4x100g",
+        "price": 1.79,
+        "url": "https://barbora.ee/toode/koeraeine-pedigree-loom-porgand-4-x-100-g"
+      },
+      {
+        "store": "Rimi",
+        "name": "Koeraeine Pedigree loom&porgand 4x100g",
+        "price": 2.49,
+        "url": "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/canned-food-for-dogs/koeraeine-pedigree-loom-porgand-4x100g/p/7137434"
+      }
+    ]
+  },
+  {
+    "category": "Cakes & pastries",
+    "canonicalName": "Eesti pagar Kirju kohupiimatort 830g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Kirju kohupiimatort 830g",
+        "price": 13.69,
+        "url": "https://barbora.ee/toode/kirju-kohupiimatort-830-g"
+      },
+      {
+        "store": "Rimi",
+        "name": "Kirju kohupiimatort Eesti Pagar 830g",
+        "price": 13.69,
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/kondiitritooted/tort-kook-ja-rullbiskviit/kirju-kohupiimatort-eesti-pagar-830g/p/997005"
+      }
+    ]
+  },
+  {
+    "category": "Beer & cider",
+    "canonicalName": "Birra moretti prk 4.6% 500ml",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Coop",
+        "name": "Hele õlu Birra Moretti 4.6% 0.5L prk",
+        "price": 2.09,
+        "url": "https://coophaapsalu.ee/toode/birra-moretti-hele-olu-4-6-0-5l-prk/"
+      },
+      {
+        "store": "Rimi",
+        "name": "Õlu Birra Moretti 4,6%vol 0,5L prk",
+        "price": 2.19,
+        "url": "https://www.rimi.ee/epood/ee/tooted/alkohol/olu/import-olu/olu-birra-moretti-4-6-vol-0-5l-prk/p/1374386"
+      }
+    ]
+  },
+  {
+    "category": "Curd snacks & desserts",
+    "canonicalName": "Magija Kohuke küpsise 40g",
+    "reason": "automatic",
+    "items": [
+      {
+        "store": "Barbora",
+        "name": "Kohuke MAGIJA küpsise 40g",
+        "price": 0.55,
+        "url": "https://barbora.ee/toode/kohuke-magija-kupsise-40-g"
+      },
+      {
+        "store": "Rimi",
+        "name": "Kohuke küpsisemaitseline Magija 40g",
+        "price": 0.55,
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/kohukesed/kohuke-kupsisemaitseline-magija-40g/p/4000456"
+      }
+    ]
+  },
+  {
+    "category": "Curd snacks & desserts",
+    "canonicalName": "Saare Kohuke laktoosivaba vanilli 40g",
     "reason": "automatic",
     "items": [
       {
         "store": "Rimi",
-        "name": "Kali tume A.Le Coq 1l",
-        "price": 1.49,
-        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/kali/kali-tume-a-le-coq-1l/p/1356551"
+        "name": "Kohuke laktoosivaba vanilli Saare 40g",
+        "price": 0.57,
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/kohukesed/kohuke-laktoosivaba-vanilli-saare-40g/p/934294"
       },
       {
         "store": "Selver",
-        "name": "Kali Tume, A.LE COQ, 1 L",
-        "price": 1.09,
-        "url": "https://www.selver.ee/kali-tume-a-le-coq-1-l"
+        "name": "Kohuke vanilli laktoosivaba, SAARE, 40 g",
+        "price": 0.59,
+        "url": "https://www.selver.ee/kohuke-vanilli-laktoosivaba-saare-40-g"
       }
     ]
   }

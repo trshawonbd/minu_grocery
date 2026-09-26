@@ -9,8 +9,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/marja-ja-puuviljasegu-iglotex-450-g",
     "ean": "5902162393110",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5902162393110.jpg",
     "storeUnitPrice": 7.2,
-    "brand": "IGLOTEX"
+    "brand": "IGLOTEX",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5902162393110",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "marja",
+      "unit": "450g",
+      "variety": "iglotex",
+      "nameLower": "marja-ja puuviljasegu, iglotex, 450 g",
+      "brand": "iglotex",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ja marja puuviljasegu",
+      "descriptorOrder": [
+        "marja",
+        "ja",
+        "puuviljasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "puuviljasegu": "puuviljasegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -22,8 +66,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/vaarikad-mustikad-harmavili-300-g",
     "ean": "4740188018584",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188018584.jpg",
     "storeUnitPrice": 19.63,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188018584",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vaarikad",
+      "unit": "300g",
+      "variety": "vaarikad härmavili",
+      "nameLower": "vaarikad, mustikad, härmavili, 300 g",
+      "brand": "härmavili",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustikad vaarikad",
+      "descriptorOrder": [
+        "vaarikad",
+        "mustikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaarikad": "vaarikad",
+        "mustikad": "mustikad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -35,73 +123,54 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/maaharra-lillkapsas-ja-brokoli-maaharra-400-g",
     "ean": "4740093640139",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093640139.jpg",
     "storeUnitPrice": 4.55,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Selver",
-    "name": "Külmutatud pikk uba, DUJARDIN, 450 g",
-    "price": 1.49,
-    "regularPrice": 1.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kulmutatud-pikk-uba-dujardin-450-g",
-    "ean": "5411916252851",
-    "storeUnitPrice": 3.31,
-    "brand": "DUJARDIN"
-  },
-  {
-    "store": "Selver",
-    "name": "Brüsselikapsas, DUJARDIN, 450 g",
-    "price": 1.49,
-    "regularPrice": 1.49,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/brusselikapsas-dujardin-450-g",
-    "ean": "5411916372856",
-    "storeUnitPrice": 3.31,
-    "brand": "DUJARDIN"
-  },
-  {
-    "store": "Selver",
-    "name": "Roheline hernes, HÄRMAVILI, 400 g",
-    "price": 2.25,
-    "regularPrice": 2.25,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/roheline-hernes-harmavili-400-g",
-    "ean": "4740188900926",
-    "storeUnitPrice": 5.63,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Lillkapsas, HÄRMAVILI, 400 g",
-    "price": 1.92,
-    "regularPrice": 1.92,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/lillkapsas-harmavili-400-g",
-    "ean": "4740188900919",
-    "storeUnitPrice": 4.8,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Praadimissegu kartuliga, HÄRMAVILI, 400 g",
-    "price": 2.12,
-    "regularPrice": 2.12,
-    "cardPrice": 1.59,
-    "cardName": "Partner",
-    "currency": "EUR",
-    "url": "https://www.selver.ee/praadimissegu-kartuliga-harmavili-400-g",
-    "ean": "4740188900957",
-    "storeUnitPrice": 5.3,
-    "brand": "HÄRMAVILI"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093640139",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maahärra",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "maahärra lillkapsas ja brokoli, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brokoli ja lillkapsas",
+      "descriptorOrder": [
+        "lillkapsas",
+        "ja",
+        "brokoli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lillkapsas": "lillkapsas",
+        "ja": "ja",
+        "brokoli": "brokoli",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -113,8 +182,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/puhapaevapada-maaharra-400-g",
     "ean": "4740093002050",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093002050.jpg",
     "storeUnitPrice": 4.3,
-    "brand": "MAAHÄRRA"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093002050",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pühapäevapada",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "pühapäevapada, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pühapäevapada",
+      "descriptorOrder": [
+        "pühapäevapada"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pühapäevapada": "pühapäevapada",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -126,8 +237,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/mehhiko-segu-maaharra-400-g",
     "ean": "4740093003705",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093003705.jpg",
     "storeUnitPrice": 5.48,
-    "brand": "MAAHÄRRA"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093003705",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mehhiko",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "mehhiko segu, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mehhiko segu",
+      "descriptorOrder": [
+        "mehhiko",
+        "segu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mehhiko": "mehhiko",
+        "segu": "segu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -139,8 +294,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/koogiviljad-praadimiseks-maaharra-400-g",
     "ean": "4740093005273",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093005273.jpg",
     "storeUnitPrice": 5.48,
-    "brand": "MAAHÄRRA"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093005273",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljad",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "köögiviljad praadimiseks, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "köögiviljad praadimiseks",
+      "descriptorOrder": [
+        "köögiviljad",
+        "praadimiseks"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljad": "köögiviljad",
+        "praadimiseks": "praadimiseks",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -152,151 +351,56 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/koogiviljad-praadimiseks-aasia-maitseainetega-maaharra-400-g",
     "ean": "4740093022393",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093022393.jpg",
     "storeUnitPrice": 5.48,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Selver",
-    "name": "Kultuurmustikad, HÄRMAVILI, 300 g",
-    "price": 3.4,
-    "regularPrice": 3.4,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kultuurmustikad-harmavili-300-g",
-    "ean": "4740188019772",
-    "storeUnitPrice": 11.33,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Vaarikad, MAAHÄRRA, 300 g",
-    "price": 5.39,
-    "regularPrice": 5.39,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/vaarikad-maaharra-300-g",
-    "ean": "4740093026483",
-    "storeUnitPrice": 17.97,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Selver",
-    "name": "Marjasegu, MAAHÄRRA, 300 g",
-    "price": 2.59,
-    "regularPrice": 2.59,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/marjasegu-maaharra-300-g",
-    "ean": "4740093026476",
-    "storeUnitPrice": 8.63,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Selver",
-    "name": "Lillkapsariis, ARDO, 450 g",
-    "price": 2.63,
-    "regularPrice": 2.63,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/lillkapsariis-ardo-450-g",
-    "ean": "5411361091043",
-    "storeUnitPrice": 5.84,
-    "brand": "ARDO"
-  },
-  {
-    "store": "Selver",
-    "name": "FIT tervisepada, MAAHÄRRA, 400 g",
-    "price": 1.89,
-    "regularPrice": 1.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/fit-tervisepada-maaharra-400-g",
-    "ean": "4740093044005",
-    "storeUnitPrice": 4.73,
-    "brand": "MAAHÄRRA"
-  },
-  {
-    "store": "Selver",
-    "name": "Külmutatud roheline hernes, DUJARDIN, 450 g",
-    "price": 1.89,
-    "regularPrice": 1.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kulmutatud-roheline-hernes-dujardin-450-g",
-    "ean": "5411916303850",
-    "storeUnitPrice": 4.2,
-    "brand": "DUJARDIN"
-  },
-  {
-    "store": "Selver",
-    "name": "Köögiviljasegu Italian Dish, BAUER, 400 g",
-    "price": 1.56,
-    "regularPrice": 1.56,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/koogiviljasegu-italian-dish-bauer-400-g",
-    "ean": "5903154543087",
-    "storeUnitPrice": 3.9,
-    "brand": "BAUER"
-  },
-  {
-    "store": "Selver",
-    "name": "Köögiviljasegu „Wokmix Thai“, BAUER, 400 g",
-    "price": 1.98,
-    "regularPrice": 1.98,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/koogiviljasegu-wokmix-thai-bauer-400-g",
-    "ean": "5903154545036",
-    "storeUnitPrice": 4.95,
-    "brand": "BAUER"
-  },
-  {
-    "store": "Selver",
-    "name": "Grillitud köögiviljad, BAUER, 400 g",
-    "price": 2.3,
-    "regularPrice": 2.3,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/grillitud-koogiviljad-bauer-400-g",
-    "ean": "5903154547191",
-    "storeUnitPrice": 5.75,
-    "brand": "BAUER"
-  },
-  {
-    "store": "Selver",
-    "name": "Pohlad külmutatud, EESTI AND, 350 g",
-    "price": 4.89,
-    "regularPrice": 4.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/pohlad-kulmutatud-eesti-and-350-g",
-    "ean": "4742798008764",
-    "storeUnitPrice": 13.97,
-    "brand": "EESTI AND"
-  },
-  {
-    "store": "Selver",
-    "name": "Marjasegu vaarikatega, HORTEX, 300 g",
-    "price": 3.29,
-    "regularPrice": 3.29,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/marjasegu-vaarikatega-hortex-300-g",
-    "ean": "5900477003939",
-    "storeUnitPrice": 10.97,
-    "brand": "HORTEX"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093022393",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljad",
+      "unit": "400g",
+      "variety": "aasia maahärra",
+      "nameLower": "köögiviljad praadimiseks aasia maitseainetega, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "maitseainetega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aasia köögiviljad maitseainetega praadimiseks",
+      "descriptorOrder": [
+        "köögiviljad",
+        "praadimiseks",
+        "aasia",
+        "maitseainetega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljad": "köögiviljad",
+        "praadimiseks": "praadimiseks",
+        "aasia": "aasia",
+        "maitseainetega": "maitseainetega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -308,8 +412,48 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/kartuli-sibulasegu-maaharra-1-kg",
     "ean": "4740093340732",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093340732.jpg",
     "storeUnitPrice": 2.94,
-    "brand": "MAAHÄRRA"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093340732",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartuli",
+      "unit": "1000g",
+      "variety": "maahärra",
+      "nameLower": "kartuli-sibulasegu, maahärra, 1 kg",
+      "brand": "maahärra",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartuli sibulasegu",
+      "descriptorOrder": [
+        "kartuli",
+        "sibulasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -321,8 +465,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/julienne-metsaseened-hortex-400-g",
     "ean": "5900477003366",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5900477003366.jpg",
     "storeUnitPrice": 9.13,
-    "brand": "HORTEX"
+    "brand": "HORTEX",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5900477003366",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "julienne",
+      "unit": "400g",
+      "variety": "hortex",
+      "nameLower": "julienne metsaseened, hortex, 400 g",
+      "brand": "hortex",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "julienne metsaseened",
+      "descriptorOrder": [
+        "julienne",
+        "metsaseened"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "julienne": "julienne",
+        "metsaseened": "metsaseened",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -334,8 +522,56 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/hakitud-spinati-portsjonid-fitlap-harmavili-300-g",
     "ean": "4740188018829",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188018829.jpg",
     "storeUnitPrice": 4.23,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188018829",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hakitud",
+      "unit": "300g",
+      "variety": "fitlap härmavili",
+      "nameLower": "hakitud spinati portsjonid fitlap, härmavili, 300 g",
+      "brand": "härmavili",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fitlap hakitud portsjonid spinati",
+      "descriptorOrder": [
+        "hakitud",
+        "spinati",
+        "portsjonid",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hakitud": "hakitud",
+        "spinati": "spinati",
+        "portsjonid": "portsjonid",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -347,8 +583,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/seenesegu-maaharra-400-g",
     "ean": "4740093610279",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093610279.jpg",
     "storeUnitPrice": 7.6,
-    "brand": "MAAHÄRRA"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093610279",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "seenesegu",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "seenesegu, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "seenesegu",
+      "descriptorOrder": [
+        "seenesegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "seenesegu": "seenesegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -360,8 +638,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/fit-koogiviljasegu-maaharra-400-g",
     "ean": "4740093026445",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093026445.jpg",
     "storeUnitPrice": 3.73,
-    "brand": "MAAHÄRRA"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093026445",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fit",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "fit köögiviljasegu, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fit köögiviljasegu",
+      "descriptorOrder": [
+        "fit",
+        "köögiviljasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fit": "fit",
+        "köögiviljasegu": "köögiviljasegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -373,8 +695,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/murel-bimar-300-g",
     "ean": "5907433418004",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5906190000729.jpg",
     "storeUnitPrice": 8.43,
-    "brand": "BIMAR"
+    "brand": "BIMAR",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5907433418004",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "murel",
+      "unit": "300g",
+      "variety": "bimar",
+      "nameLower": "murel, bimar, 300 g",
+      "brand": "bimar",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "murel",
+      "descriptorOrder": [
+        "murel"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "murel": "murel",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -386,8 +750,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/mexico-segu-hortex-400-g",
     "ean": "5900477000280",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5900477000280.jpg",
     "storeUnitPrice": 2.98,
-    "brand": "HORTEX"
+    "brand": "HORTEX",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5900477000280",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mexico",
+      "unit": "400g",
+      "variety": "hortex",
+      "nameLower": "mexico segu, hortex, 400 g",
+      "brand": "hortex",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mexico segu",
+      "descriptorOrder": [
+        "mexico",
+        "segu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mexico": "mexico",
+        "segu": "segu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -399,8 +807,54 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/paprikaloigud-kolm-varvi-maaharra-400-g",
     "ean": "4740093026469",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093026469.jpg",
     "storeUnitPrice": 4.95,
-    "brand": "MAAHÄRRA"
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093026469",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "paprikalõigud",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "paprikalõigud (kolm värvi), maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kolm paprikalõigud värvi",
+      "descriptorOrder": [
+        "paprikalõigud",
+        "kolm",
+        "värvi"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "paprikalõigud": "paprikalõigud",
+        "kolm": "kolm",
+        "värvi": "värvi",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -412,8 +866,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/maasikatoormoos-mustikatega-marjamaa-talu-300-g",
     "ean": "4742331001795",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742331001795.jpg",
     "storeUnitPrice": 11.97,
-    "brand": "MARJAMAA TALU"
+    "brand": "MARJAMAA TALU",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4742331001795",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikatoormoos",
+      "unit": "300g",
+      "variety": "marjamaa talu",
+      "nameLower": "maasikatoormoos mustikatega, marjamaa talu, 300 g",
+      "brand": "marjamaa talu",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "mustikatega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikatoormoos mustikatega",
+      "descriptorOrder": [
+        "maasikatoormoos",
+        "mustikatega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikatoormoos": "maasikatoormoos",
+        "mustikatega": "mustikatega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -425,8 +923,54 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/rikkalik-koogiviljasegu-laatsedega-harmavili-400-g",
     "ean": "4740188019451",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188019451.jpg",
     "storeUnitPrice": 5.3,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188019451",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "rikkalik",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "rikkalik köögiviljasegu läätsedega, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "läätsedega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "köögiviljasegu läätsedega rikkalik",
+      "descriptorOrder": [
+        "rikkalik",
+        "köögiviljasegu",
+        "läätsedega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "rikkalik": "rikkalik",
+        "köögiviljasegu": "köögiviljasegu",
+        "läätsedega": "läätsedega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -438,99 +982,53 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/koogiviljasegu-tervist-fitlap-harmavili-400-g",
     "ean": "4740188019468",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188019468.jpg",
     "storeUnitPrice": 4.8,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Köögiviljasegu „GO Green“, BAUER, 400g",
-    "price": 2.12,
-    "regularPrice": 2.12,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/koogiviljasegu-go-green-bauer-400g",
-    "ean": "5903154547641",
-    "storeUnitPrice": 5.3,
-    "brand": "BAUER"
-  },
-  {
-    "store": "Selver",
-    "name": "Köögiviljad kikerhernestega Fitlap, HÄRMAVILI, 400 g",
-    "price": 2.26,
-    "regularPrice": 2.26,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/koogiviljad-kikerhernestega-fitlap-harmavili-400-g",
-    "ean": "4740188012421",
-    "storeUnitPrice": 5.65,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Köögiviljad seemnetega Fitlap, HÄRMAVILI, 400 g",
-    "price": 2.29,
-    "regularPrice": 2.29,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/koogiviljad-seemnetega-fitlap-harmavili-400-g",
-    "ean": "4740188012551",
-    "storeUnitPrice": 5.73,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Külmutatud mango kuubikud, FIGURAATA, 1 kg",
-    "price": 7.41,
-    "regularPrice": 7.41,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kulmutatud-mango-kuubikud-figuraata-1-kg",
-    "ean": "4744559010825",
-    "storeUnitPrice": 7.41,
-    "brand": "FIGURAATA"
-  },
-  {
-    "store": "Selver",
-    "name": "Külmutatud vaarikad, FIGURAATA, 1 kg",
-    "price": 14.89,
-    "regularPrice": 14.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kulmutatud-vaarikad-figuraata-1-kg",
-    "ean": "4744559010481",
-    "storeUnitPrice": 14.89,
-    "brand": "FIGURAATA"
-  },
-  {
-    "store": "Selver",
-    "name": "Köögiviljad šampinjonidega, HÄRMAVILI, 400 g",
-    "price": 2.26,
-    "regularPrice": 2.26,
-    "cardPrice": 1.75,
-    "cardName": "Partner",
-    "currency": "EUR",
-    "url": "https://www.selver.ee/koogiviljad-sampinjonidega-harmavili-400-g",
-    "ean": "4740188012322",
-    "storeUnitPrice": 5.65,
-    "brand": "HÄRMAVILI"
-  },
-  {
-    "store": "Selver",
-    "name": "Suvine marjasegu, HÄRMAVILI, 300 g",
-    "price": 4.69,
-    "regularPrice": 4.69,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/suvine-marjasegu-harmavili-300-g",
-    "ean": "4740188012735",
-    "storeUnitPrice": 15.63,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188019468",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljasegu",
+      "unit": "400g",
+      "variety": "tervist fitlap härmavili",
+      "nameLower": "köögiviljasegu tervist! fitlap, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fitlap köögiviljasegu tervist",
+      "descriptorOrder": [
+        "köögiviljasegu",
+        "tervist",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljasegu": "köögiviljasegu",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -542,8 +1040,48 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/maasikas-rabarber-harmavili-300g",
     "ean": "4740188020167",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188020167.jpg",
     "storeUnitPrice": 8.97,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188020167",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikas",
+      "unit": "300g",
+      "variety": "härmavili",
+      "nameLower": "maasikas-rabarber, härmavili, 300g",
+      "brand": "härmavili",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikas rabarber",
+      "descriptorOrder": [
+        "maasikas",
+        "rabarber"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {},
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -555,8 +1093,54 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/magusad-herned-porgandiga-first-price-750-g",
     "ean": "7311041084649",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7311041084649.jpg",
     "storeUnitPrice": 2.65,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "7311041084649",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "magusad",
+      "unit": "750g",
+      "variety": "first price",
+      "nameLower": "magusad herned porgandiga, first price, 750 g",
+      "brand": "first price",
+      "size": "750g",
+      "variant": null,
+      "qualifiers": "porgandiga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "herned magusad porgandiga",
+      "descriptorOrder": [
+        "magusad",
+        "herned",
+        "porgandiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "magusad": "magusad",
+        "herned": "herned",
+        "porgandiga": "porgandiga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -568,8 +1152,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/ameerika-koogiviljasegu-first-price-600-g",
     "ean": "7311041084687",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7311041084687.jpg",
     "storeUnitPrice": 3.98,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "7311041084687",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ameerika",
+      "unit": "600g",
+      "variety": "first price",
+      "nameLower": "ameerika köögiviljasegu, first price, 600 g",
+      "brand": "first price",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ameerika köögiviljasegu",
+      "descriptorOrder": [
+        "ameerika",
+        "köögiviljasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ameerika": "ameerika",
+        "köögiviljasegu": "köögiviljasegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -581,8 +1209,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/herned-first-price-575-g",
     "ean": "7311041080269",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7311041080269.jpg",
     "storeUnitPrice": 3.98,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "7311041080269",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "herned",
+      "unit": "575g",
+      "variety": "first price",
+      "nameLower": "herned, first price, 575 g",
+      "brand": "first price",
+      "size": "575g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "herned",
+      "descriptorOrder": [
+        "herned"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "herned": "herned",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -594,8 +1264,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/riisisegu-koogiviljadega-first-price-600-g",
     "ean": "7311041084632",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7311041084632.jpg",
     "storeUnitPrice": 3.65,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "7311041084632",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "riisisegu",
+      "unit": "600g",
+      "variety": "first price",
+      "nameLower": "riisisegu köögiviljadega, first price, 600 g",
+      "brand": "first price",
+      "size": "600g",
+      "variant": null,
+      "qualifiers": "köögiviljadega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "köögiviljadega riisisegu",
+      "descriptorOrder": [
+        "riisisegu",
+        "köögiviljadega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "riisisegu": "riisisegu",
+        "köögiviljadega": "köögiviljadega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -607,8 +1321,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/hakitud-spinat-first-price-900-g",
     "ean": "7311041085967",
+    "image": "https://www.selver.ee/img/800/800/resize/7/3/7311041085967.jpg",
     "storeUnitPrice": 2.77,
-    "brand": "FIRST PRICE"
+    "brand": "FIRST PRICE",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "7311041085967",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hakitud",
+      "unit": "900g",
+      "variety": "hakitud first price",
+      "nameLower": "hakitud spinat, first price, 900 g",
+      "brand": "first price",
+      "size": "900g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "hakitud spinat",
+      "descriptorOrder": [
+        "hakitud",
+        "spinat"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hakitud": "hakitud",
+        "spinat": "spinat",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -620,8 +1378,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/ahjukoogiviljad-harmavili-700-g",
     "ean": "4740188012971",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012971.jpg",
     "storeUnitPrice": 4.56,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188012971",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ahjuköögiviljad",
+      "unit": "700g",
+      "variety": "härmavili",
+      "nameLower": "ahjuköögiviljad, härmavili, 700 g",
+      "brand": "härmavili",
+      "size": "700g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ahjuköögiviljad",
+      "descriptorOrder": [
+        "ahjuköögiviljad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ahjuköögiviljad": "ahjuköögiviljad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -633,8 +1433,1353 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/porgandikuubikud-harmavili-300-g",
     "ean": "4740188020174",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188020174.jpg",
     "storeUnitPrice": 5.3,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188020174",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "porgandikuubikud",
+      "unit": "300g",
+      "variety": "härmavili",
+      "nameLower": "porgandikuubikud, härmavili, 300 g",
+      "brand": "härmavili",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "porgandikuubikud",
+      "descriptorOrder": [
+        "porgandikuubikud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "porgandikuubikud": "porgandikuubikud",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Kultuurmustikad, HÄRMAVILI, 300 g",
+    "price": 3.4,
+    "regularPrice": 3.4,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kultuurmustikad-harmavili-300-g",
+    "ean": "4740188019772",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188019772.jpg",
+    "storeUnitPrice": 11.33,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188019772",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kultuurmustikad",
+      "unit": "300g",
+      "variety": "härmavili",
+      "nameLower": "kultuurmustikad, härmavili, 300 g",
+      "brand": "härmavili",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kultuurmustikad",
+      "descriptorOrder": [
+        "kultuurmustikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kultuurmustikad": "kultuurmustikad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Vaarikad, MAAHÄRRA, 300 g",
+    "price": 5.39,
+    "regularPrice": 5.39,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/vaarikad-maaharra-300-g",
+    "ean": "4740093026483",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093026483.jpg",
+    "storeUnitPrice": 17.97,
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093026483",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vaarikad",
+      "unit": "300g",
+      "variety": "maahärra",
+      "nameLower": "vaarikad, maahärra, 300 g",
+      "brand": "maahärra",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "vaarikad",
+      "descriptorOrder": [
+        "vaarikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaarikad": "vaarikad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Marjasegu, MAAHÄRRA, 300 g",
+    "price": 2.59,
+    "regularPrice": 2.59,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/marjasegu-maaharra-300-g",
+    "ean": "4740093026476",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093026476.jpg",
+    "storeUnitPrice": 8.63,
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093026476",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "marjasegu",
+      "unit": "300g",
+      "variety": "maahärra",
+      "nameLower": "marjasegu, maahärra, 300 g",
+      "brand": "maahärra",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "marjasegu",
+      "descriptorOrder": [
+        "marjasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "marjasegu": "marjasegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Lillkapsariis, ARDO, 450 g",
+    "price": 2.63,
+    "regularPrice": 2.63,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/lillkapsariis-ardo-450-g",
+    "ean": "5411361091043",
+    "image": "https://www.selver.ee/img/800/800/resize/5/4/5411361091043.jpg",
+    "storeUnitPrice": 5.84,
+    "brand": "ARDO",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5411361091043",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lillkapsariis",
+      "unit": "450g",
+      "variety": "ardo",
+      "nameLower": "lillkapsariis, ardo, 450 g",
+      "brand": "ardo",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lillkapsariis",
+      "descriptorOrder": [
+        "lillkapsariis"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lillkapsariis": "lillkapsariis",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "FIT tervisepada, MAAHÄRRA, 400 g",
+    "price": 1.89,
+    "regularPrice": 1.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/fit-tervisepada-maaharra-400-g",
+    "ean": "4740093044005",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740093044005.jpg",
+    "storeUnitPrice": 4.73,
+    "brand": "MAAHÄRRA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740093044005",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "fit",
+      "unit": "400g",
+      "variety": "maahärra",
+      "nameLower": "fit tervisepada, maahärra, 400 g",
+      "brand": "maahärra",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fit tervisepada",
+      "descriptorOrder": [
+        "fit",
+        "tervisepada"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "fit": "fit",
+        "tervisepada": "tervisepada",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Külmutatud roheline hernes, DUJARDIN, 450 g",
+    "price": 1.89,
+    "regularPrice": 1.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kulmutatud-roheline-hernes-dujardin-450-g",
+    "ean": "5411916303850",
+    "image": "https://www.selver.ee/img/800/800/resize/5/4/5411916303850.jpg",
+    "storeUnitPrice": 4.2,
+    "brand": "DUJARDIN",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5411916303850",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "450g",
+      "variety": "dujardin roheline",
+      "nameLower": "külmutatud roheline hernes, dujardin, 450 g",
+      "brand": "dujardin",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "roheline",
+      "fatPercent": null,
+      "descriptors": "hernes roheline",
+      "descriptorOrder": [
+        "roheline",
+        "hernes"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "roheline": "roheline",
+        "hernes": "hernes",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Köögiviljasegu Italian Dish, BAUER, 400 g",
+    "price": 1.56,
+    "regularPrice": 1.56,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/koogiviljasegu-italian-dish-bauer-400-g",
+    "ean": "5903154543087",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5903154543087.jpg",
+    "storeUnitPrice": 3.9,
+    "brand": "BAUER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5903154543087",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljasegu",
+      "unit": "400g",
+      "variety": "italian dish bauer",
+      "nameLower": "köögiviljasegu italian dish, bauer, 400 g",
+      "brand": "bauer",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "dish italian köögiviljasegu",
+      "descriptorOrder": [
+        "köögiviljasegu",
+        "italian",
+        "dish"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljasegu": "köögiviljasegu",
+        "italian": "italian",
+        "dish": "dish",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Köögiviljasegu „Wokmix Thai“, BAUER, 400 g",
+    "price": 1.98,
+    "regularPrice": 1.98,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/koogiviljasegu-wokmix-thai-bauer-400-g",
+    "ean": "5903154545036",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5903154545036.jpg",
+    "storeUnitPrice": 4.95,
+    "brand": "BAUER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5903154545036",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljasegu",
+      "unit": "400g",
+      "variety": "wokmix thai bauer",
+      "nameLower": "köögiviljasegu „wokmix thai“, bauer, 400 g",
+      "brand": "bauer",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "köögiviljasegu thai wokmix",
+      "descriptorOrder": [
+        "köögiviljasegu",
+        "wokmix",
+        "thai"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljasegu": "köögiviljasegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Grillitud köögiviljad, BAUER, 400 g",
+    "price": 2.3,
+    "regularPrice": 2.3,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/grillitud-koogiviljad-bauer-400-g",
+    "ean": "5903154547191",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5903154547191.jpg",
+    "storeUnitPrice": 5.75,
+    "brand": "BAUER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5903154547191",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "grillitud",
+      "unit": "400g",
+      "variety": "bauer",
+      "nameLower": "grillitud köögiviljad, bauer, 400 g",
+      "brand": "bauer",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "grillitud köögiviljad",
+      "descriptorOrder": [
+        "grillitud",
+        "köögiviljad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "grillitud": "grillitud",
+        "köögiviljad": "köögiviljad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Pohlad külmutatud, EESTI AND, 350 g",
+    "price": 4.89,
+    "regularPrice": 4.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/pohlad-kulmutatud-eesti-and-350-g",
+    "ean": "4742798008764",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742798008764.jpg",
+    "storeUnitPrice": 13.97,
+    "brand": "EESTI AND",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4742798008764",
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "pohlad",
+      "unit": "350g",
+      "variety": null,
+      "nameLower": "pohlad külmutatud, eesti and, 350 g",
+      "brand": "eesti and",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pohlad",
+      "descriptorOrder": [
+        "pohlad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pohlad": "pohlad",
+        "külmutatud": "külmutatud",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Marjasegu vaarikatega, HORTEX, 300 g",
+    "price": 3.29,
+    "regularPrice": 3.29,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/marjasegu-vaarikatega-hortex-300-g",
+    "ean": "5900477003939",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5900477003939.jpg",
+    "storeUnitPrice": 10.97,
+    "brand": "HORTEX",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5900477003939",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "marjasegu",
+      "unit": "300g",
+      "variety": "hortex",
+      "nameLower": "marjasegu vaarikatega, hortex, 300 g",
+      "brand": "hortex",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "vaarikatega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "marjasegu vaarikatega",
+      "descriptorOrder": [
+        "marjasegu",
+        "vaarikatega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "marjasegu": "marjasegu",
+        "vaarikatega": "vaarikatega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Köögiviljasegu „GO Green“, BAUER, 400g",
+    "price": 2.12,
+    "regularPrice": 2.12,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/koogiviljasegu-go-green-bauer-400g",
+    "ean": "5903154547641",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5903154547641.jpg",
+    "storeUnitPrice": 5.3,
+    "brand": "BAUER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5903154547641",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljasegu",
+      "unit": "400g",
+      "variety": "go green bauer",
+      "nameLower": "köögiviljasegu „go green“, bauer, 400g",
+      "brand": "bauer",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "go green köögiviljasegu",
+      "descriptorOrder": [
+        "köögiviljasegu",
+        "go",
+        "green"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljasegu": "köögiviljasegu"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Köögiviljad kikerhernestega Fitlap, HÄRMAVILI, 400 g",
+    "price": 2.26,
+    "regularPrice": 2.26,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/koogiviljad-kikerhernestega-fitlap-harmavili-400-g",
+    "ean": "4740188012421",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012421.jpg",
+    "storeUnitPrice": 5.65,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188012421",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljad",
+      "unit": "400g",
+      "variety": "fitlap härmavili",
+      "nameLower": "köögiviljad kikerhernestega fitlap, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "kikerhernestega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fitlap kikerhernestega köögiviljad",
+      "descriptorOrder": [
+        "köögiviljad",
+        "kikerhernestega",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljad": "köögiviljad",
+        "kikerhernestega": "kikerhernestega",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Köögiviljad seemnetega Fitlap, HÄRMAVILI, 400 g",
+    "price": 2.29,
+    "regularPrice": 2.29,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/koogiviljad-seemnetega-fitlap-harmavili-400-g",
+    "ean": "4740188012551",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012551.jpg",
+    "storeUnitPrice": 5.73,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188012551",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljad",
+      "unit": "400g",
+      "variety": "fitlap härmavili",
+      "nameLower": "köögiviljad seemnetega fitlap, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "seemnetega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fitlap köögiviljad seemnetega",
+      "descriptorOrder": [
+        "köögiviljad",
+        "seemnetega",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljad": "köögiviljad",
+        "seemnetega": "seemnetega",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Külmutatud mango kuubikud, FIGURAATA, 1 kg",
+    "price": 7.41,
+    "regularPrice": 7.41,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kulmutatud-mango-kuubikud-figuraata-1-kg",
+    "ean": "4744559010825",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4744559010825.jpg",
+    "storeUnitPrice": 7.41,
+    "brand": "FIGURAATA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4744559010825",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "1000g",
+      "variety": "külmutatud figuraata",
+      "nameLower": "külmutatud mango kuubikud, figuraata, 1 kg",
+      "brand": "figuraata",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuubikud mango",
+      "descriptorOrder": [
+        "mango",
+        "kuubikud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "mango": "mango",
+        "kuubikud": "kuubikud"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Külmutatud vaarikad, FIGURAATA, 1 kg",
+    "price": 14.89,
+    "regularPrice": 14.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kulmutatud-vaarikad-figuraata-1-kg",
+    "ean": "4744559010481",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4744559010481.jpg",
+    "storeUnitPrice": 14.89,
+    "brand": "FIGURAATA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4744559010481",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "1000g",
+      "variety": "figuraata",
+      "nameLower": "külmutatud vaarikad, figuraata, 1 kg",
+      "brand": "figuraata",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "vaarikad",
+      "descriptorOrder": [
+        "vaarikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "vaarikad": "vaarikad"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Köögiviljad šampinjonidega, HÄRMAVILI, 400 g",
+    "price": 2.26,
+    "regularPrice": 2.26,
+    "cardPrice": 1.75,
+    "cardName": "Partner",
+    "currency": "EUR",
+    "url": "https://www.selver.ee/koogiviljad-sampinjonidega-harmavili-400-g",
+    "ean": "4740188012322",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012322.jpg",
+    "storeUnitPrice": 5.65,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188012322",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "köögiviljad",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "köögiviljad šampinjonidega, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "šampinjonidega",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "köögiviljad šampinjonidega",
+      "descriptorOrder": [
+        "köögiviljad",
+        "šampinjonidega"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "köögiviljad": "köögiviljad",
+        "šampinjonidega": "šampinjonidega",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Suvine marjasegu, HÄRMAVILI, 300 g",
+    "price": 4.69,
+    "regularPrice": 4.69,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/suvine-marjasegu-harmavili-300-g",
+    "ean": "4740188012735",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188012735.jpg",
+    "storeUnitPrice": 15.63,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188012735",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "suvine",
+      "unit": "300g",
+      "variety": "härmavili",
+      "nameLower": "suvine marjasegu, härmavili, 300 g",
+      "brand": "härmavili",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "marjasegu suvine",
+      "descriptorOrder": [
+        "suvine",
+        "marjasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "suvine": "suvine",
+        "marjasegu": "marjasegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Külmutatud pikk uba, DUJARDIN, 450 g",
+    "price": 1.49,
+    "regularPrice": 1.49,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kulmutatud-pikk-uba-dujardin-450-g",
+    "ean": "5411916252851",
+    "image": "https://www.selver.ee/img/800/800/resize/5/4/5411916252851.jpg",
+    "storeUnitPrice": 3.31,
+    "brand": "DUJARDIN",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5411916252851",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "450g",
+      "variety": "dujardin",
+      "nameLower": "külmutatud pikk uba, dujardin, 450 g",
+      "brand": "dujardin",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pikk uba",
+      "descriptorOrder": [
+        "pikk",
+        "uba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "pikk": "pikk",
+        "uba": "uba",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Brüsselikapsas, DUJARDIN, 450 g",
+    "price": 1.49,
+    "regularPrice": 1.49,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/brusselikapsas-dujardin-450-g",
+    "ean": "5411916372856",
+    "image": "https://www.selver.ee/img/800/800/resize/5/4/5411916372856.jpg",
+    "storeUnitPrice": 3.31,
+    "brand": "DUJARDIN",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5411916372856",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "brüsselikapsas",
+      "unit": "450g",
+      "variety": "dujardin",
+      "nameLower": "brüsselikapsas, dujardin, 450 g",
+      "brand": "dujardin",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brüsselikapsas",
+      "descriptorOrder": [
+        "brüsselikapsas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "brüsselikapsas": "brüsselikapsas",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Roheline hernes, HÄRMAVILI, 400 g",
+    "price": 2.25,
+    "regularPrice": 2.25,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/roheline-hernes-harmavili-400-g",
+    "ean": "4740188900926",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900926.jpg",
+    "storeUnitPrice": 5.63,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900926",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "roheline",
+      "unit": "400g",
+      "variety": "härmavili roheline",
+      "nameLower": "roheline hernes, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "roheline",
+      "fatPercent": null,
+      "descriptors": "hernes roheline",
+      "descriptorOrder": [
+        "roheline",
+        "hernes"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "roheline": "roheline",
+        "hernes": "hernes",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Lillkapsas, HÄRMAVILI, 400 g",
+    "price": 1.92,
+    "regularPrice": 1.92,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/lillkapsas-harmavili-400-g",
+    "ean": "4740188900919",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900919.jpg",
+    "storeUnitPrice": 4.8,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900919",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "lillkapsas",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "lillkapsas, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "lillkapsas",
+      "descriptorOrder": [
+        "lillkapsas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "lillkapsas": "lillkapsas",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Praadimissegu kartuliga, HÄRMAVILI, 400 g",
+    "price": 2.12,
+    "regularPrice": 2.12,
+    "cardPrice": 1.59,
+    "cardName": "Partner",
+    "currency": "EUR",
+    "url": "https://www.selver.ee/praadimissegu-kartuliga-harmavili-400-g",
+    "ean": "4740188900957",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900957.jpg",
+    "storeUnitPrice": 5.3,
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900957",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "praadimissegu",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "praadimissegu kartuliga, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "kartuliga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartuliga praadimissegu",
+      "descriptorOrder": [
+        "praadimissegu",
+        "kartuliga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "praadimissegu": "praadimissegu",
+        "kartuliga": "kartuliga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -646,8 +2791,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/uhepajatoit-harmavili-400-g",
     "ean": "4740188900193",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900193.jpg",
     "storeUnitPrice": 4.45,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900193",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ühepajatoit",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "ühepajatoit, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ühepajatoit",
+      "descriptorOrder": [
+        "ühepajatoit"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ühepajatoit": "ühepajatoit",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -659,8 +2846,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/pajaroog-harmavili-400-g",
     "ean": "4740188900704",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900704.jpg",
     "storeUnitPrice": 4.45,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900704",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "pajaroog",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "pajaroog, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "pajaroog",
+      "descriptorOrder": [
+        "pajaroog"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "pajaroog": "pajaroog",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -672,8 +2901,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/wokisegu-fitlap-harmavili-400-g",
     "ean": "4740188900711",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900711.jpg",
     "storeUnitPrice": 5.48,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900711",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "wokisegu",
+      "unit": "400g",
+      "variety": "fitlap härmavili",
+      "nameLower": "wokisegu fitlap, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fitlap wokisegu",
+      "descriptorOrder": [
+        "wokisegu",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "wokisegu": "wokisegu",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -685,8 +2958,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/panniroog-harmavili-400-g",
     "ean": "4740188900728",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900728.jpg",
     "storeUnitPrice": 5.58,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900728",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "panniroog",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "panniroog, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "panniroog",
+      "descriptorOrder": [
+        "panniroog"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "panniroog": "panniroog",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -698,8 +3013,56 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/porgand-lillkapsas-brokoli-fitlap-harmavili-400-g",
     "ean": "4740188900735",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900735.jpg",
     "storeUnitPrice": 4.45,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900735",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "porgand",
+      "unit": "400g",
+      "variety": "fitlap härmavili",
+      "nameLower": "porgand, lillkapsas, brokoli fitlap, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brokoli fitlap lillkapsas porgand",
+      "descriptorOrder": [
+        "porgand",
+        "lillkapsas",
+        "brokoli",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "porgand": "porgand",
+        "lillkapsas": "lillkapsas",
+        "brokoli": "brokoli",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -711,8 +3074,56 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/hernes-mais-porgand-fitlap-harmavili-400-g",
     "ean": "4740188900742",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900742.jpg",
     "storeUnitPrice": 4.8,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900742",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hernes",
+      "unit": "400g",
+      "variety": "hernes fitlap härmavili",
+      "nameLower": "hernes, mais, porgand fitlap, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "fitlap hernes mais porgand",
+      "descriptorOrder": [
+        "hernes",
+        "mais",
+        "porgand",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "hernes": "hernes",
+        "mais": "mais",
+        "porgand": "porgand",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -724,8 +3135,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/aeduba-harmavili-400-g",
     "ean": "4740188900759",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900759.jpg",
     "storeUnitPrice": 4.45,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900759",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aeduba",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "aeduba, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aeduba",
+      "descriptorOrder": [
+        "aeduba"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aeduba": "aeduba",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -737,8 +3190,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/brokoli-harmavili-400-g",
     "ean": "4740188900841",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900841.jpg",
     "storeUnitPrice": 5.98,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900841",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "brokoli",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "brokoli, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "brokoli",
+      "descriptorOrder": [
+        "brokoli"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "brokoli": "brokoli",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -750,8 +3245,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/aedviljasegu-fitlap-harmavili-400-g",
     "ean": "4740188900858",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188900858.jpg",
     "storeUnitPrice": 5.2,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188900858",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "aedviljasegu",
+      "unit": "400g",
+      "variety": "fitlap härmavili",
+      "nameLower": "aedviljasegu fitlap, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "aedviljasegu fitlap",
+      "descriptorOrder": [
+        "aedviljasegu",
+        "fitlap"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "aedviljasegu": "aedviljasegu",
+        "fitlap": "fitlap",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -763,8 +3302,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/maasikad-harmavili-400-g",
     "ean": "4740188910963",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188910963.jpg",
     "storeUnitPrice": 11.73,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188910963",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikad",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "maasikad, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikad",
+      "descriptorOrder": [
+        "maasikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikad": "maasikad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -776,8 +3357,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/kirsid-kivideta-harmavili-400-g",
     "ean": "4740188910970",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4740188910970.jpg",
     "storeUnitPrice": 9.48,
-    "brand": "HÄRMAVILI"
+    "brand": "HÄRMAVILI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4740188910970",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kirsid",
+      "unit": "400g",
+      "variety": "härmavili",
+      "nameLower": "kirsid kivideta, härmavili, 400 g",
+      "brand": "härmavili",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kirsid kivideta",
+      "descriptorOrder": [
+        "kirsid",
+        "kivideta"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kirsid": "kirsid",
+        "kivideta": "kivideta",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -789,8 +3414,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/vaarikad-marjamaa-talu-300-g",
     "ean": "4742331000255",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742331000255.jpg",
     "storeUnitPrice": 19.97,
-    "brand": "MARJAMAA TALU"
+    "brand": "MARJAMAA TALU",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4742331000255",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vaarikad",
+      "unit": "300g",
+      "variety": "marjamaa talu",
+      "nameLower": "vaarikad, marjamaa talu, 300 g",
+      "brand": "marjamaa talu",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "vaarikad",
+      "descriptorOrder": [
+        "vaarikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaarikad": "vaarikad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -802,8 +3469,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/astelpajumarjad-marjamaa-talu-400-g",
     "ean": "4742331000262",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742331000262.jpg",
     "storeUnitPrice": 12.73,
-    "brand": "MARJAMAA TALU"
+    "brand": "MARJAMAA TALU",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4742331000262",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "astelpajumarjad",
+      "unit": "400g",
+      "variety": "marjamaa talu",
+      "nameLower": "astelpajumarjad, marjamaa talu, 400 g",
+      "brand": "marjamaa talu",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "astelpajumarjad",
+      "descriptorOrder": [
+        "astelpajumarjad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "astelpajumarjad": "astelpajumarjad",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -815,8 +3524,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/marjasegu-marjamaa-talu-350-g",
     "ean": "4742331000347",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742331000347.jpg",
     "storeUnitPrice": 17.69,
-    "brand": "MARJAMAA TALU"
+    "brand": "MARJAMAA TALU",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4742331000347",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "marjasegu",
+      "unit": "350g",
+      "variety": "marjamaa talu",
+      "nameLower": "marjasegu, marjamaa talu, 350 g",
+      "brand": "marjamaa talu",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "marjasegu",
+      "descriptorOrder": [
+        "marjasegu"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "marjasegu": "marjasegu",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -828,21 +3579,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/maasika-toormoos-marjamaa-talu-300-g",
     "ean": "4742331000798",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742331000798.jpg",
     "storeUnitPrice": 11.83,
-    "brand": "MARJAMAA TALU"
-  },
-  {
-    "store": "Selver",
-    "name": "Jõhvikad külmutatud, EESTI AND, 350 g",
-    "price": 6.89,
-    "regularPrice": 6.89,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/johvikad-kulmutatud-eesti-and-350-g",
-    "ean": "4742798008740",
-    "storeUnitPrice": 19.69,
-    "brand": "EESTI AND"
+    "brand": "MARJAMAA TALU",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4742331000798",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasika",
+      "unit": "300g",
+      "variety": "marjamaa talu",
+      "nameLower": "maasika toormoos, marjamaa talu, 300 g",
+      "brand": "marjamaa talu",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika toormoos",
+      "descriptorOrder": [
+        "maasika",
+        "toormoos"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasika": "maasika",
+        "toormoos": "toormoos",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -854,8 +3636,51 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/sibularongad-taignas-gestus-500g",
     "ean": "5701410376963",
+    "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410376963.jpg",
     "storeUnitPrice": 6.98,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5701410376963",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "sibularõngad",
+      "unit": "500g",
+      "variety": "gestus",
+      "nameLower": "sibularõngad taignas, gestus, 500g",
+      "brand": "gestus",
+      "size": "500g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "sibularõngad taignas",
+      "descriptorOrder": [
+        "sibularõngad",
+        "taignas"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "sibularõngad": "sibularõngad",
+        "taignas": "taignas"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -867,8 +3692,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/ananassi-kuubikud-kulmutatud-gestus-250g",
     "ean": "5701410411572",
+    "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410411572.jpg",
     "storeUnitPrice": 9.16,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5701410411572",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "ananassi",
+      "unit": "250g",
+      "variety": "gestus",
+      "nameLower": "ananassi kuubikud, külmutatud, gestus, 250g",
+      "brand": "gestus",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "ananassi kuubikud",
+      "descriptorOrder": [
+        "ananassi",
+        "kuubikud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "ananassi": "ananassi",
+        "kuubikud": "kuubikud",
+        "külmutatud": "külmutatud"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -880,8 +3749,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/maasikad-kulmutatud-gestus-400g",
     "ean": "5701410405427",
+    "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410405427.jpg",
     "storeUnitPrice": 9.73,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5701410405427",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "maasikad",
+      "unit": "400g",
+      "variety": "gestus",
+      "nameLower": "maasikad, külmutatud, gestus, 400g",
+      "brand": "gestus",
+      "size": "400g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasikad",
+      "descriptorOrder": [
+        "maasikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "maasikad": "maasikad",
+        "külmutatud": "külmutatud"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -893,8 +3804,52 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/kulmutatud-maasika-viilud-figuraata-1-kg",
     "ean": "4744559011044",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4744559011044.jpg",
     "storeUnitPrice": 7.67,
-    "brand": "FIGURAATA"
+    "brand": "FIGURAATA",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4744559011044",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külmutatud",
+      "unit": "1000g",
+      "variety": "figuraata",
+      "nameLower": "külmutatud maasika viilud, figuraata, 1 kg",
+      "brand": "figuraata",
+      "size": "1000g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "maasika viilud",
+      "descriptorOrder": [
+        "maasika",
+        "viilud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "külmutatud": "külmutatud",
+        "maasika": "maasika",
+        "viilud": "viilud"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": "1",
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -906,8 +3861,51 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/vaarikad-kulmutatud-gestus-200-g",
     "ean": "5701410334864",
+    "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410334864.jpg",
     "storeUnitPrice": 15.95,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5701410334864",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "vaarikad",
+      "unit": "200g",
+      "variety": "gestus",
+      "nameLower": "vaarikad, külmutatud, gestus, 200 g",
+      "brand": "gestus",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "vaarikad",
+      "descriptorOrder": [
+        "vaarikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaarikad": "vaarikad",
+        "külmutatud": "külmutatud",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -919,8 +3917,51 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/metsamarjad-kulmutatud-gestus-200-g",
     "ean": "5701410334840",
+    "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410334840.jpg",
     "storeUnitPrice": 9.16,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5701410334840",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "metsamarjad",
+      "unit": "200g",
+      "variety": "gestus",
+      "nameLower": "metsamarjad, külmutatud, gestus, 200 g",
+      "brand": "gestus",
+      "size": "200g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "metsamarjad",
+      "descriptorOrder": [
+        "metsamarjad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "metsamarjad": "metsamarjad",
+        "külmutatud": "külmutatud",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -932,8 +3973,51 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/mustikad-kulmutatud-gestus-250-g",
     "ean": "5701410334857",
+    "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410334857.jpg",
     "storeUnitPrice": 9.96,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5701410334857",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustikad",
+      "unit": "250g",
+      "variety": "gestus",
+      "nameLower": "mustikad, külmutatud, gestus, 250 g",
+      "brand": "gestus",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustikad",
+      "descriptorOrder": [
+        "mustikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustikad": "mustikad",
+        "külmutatud": "külmutatud",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -945,8 +4029,53 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/mango-kuubikud-kulmutatud-gestus-250-g",
     "ean": "5701410386900",
+    "image": "https://www.selver.ee/img/800/800/resize/5/7/5701410386900.jpg",
     "storeUnitPrice": 7.96,
-    "brand": "GESTUS"
+    "brand": "GESTUS",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5701410386900",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mango",
+      "unit": "250g",
+      "variety": "gestus",
+      "nameLower": "mango kuubikud, külmutatud, gestus, 250 g",
+      "brand": "gestus",
+      "size": "250g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kuubikud mango",
+      "descriptorOrder": [
+        "mango",
+        "kuubikud"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mango": "mango",
+        "kuubikud": "kuubikud",
+        "külmutatud": "külmutatud",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -958,8 +4087,50 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/mustsostar-bauer-300-g",
     "ean": "5903154544350",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5903154544350.jpg",
     "storeUnitPrice": 7.43,
-    "brand": "BAUER"
+    "brand": "BAUER",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5903154544350",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "mustsõstar",
+      "unit": "300g",
+      "variety": "bauer",
+      "nameLower": "mustsõstar, bauer, 300 g",
+      "brand": "bauer",
+      "size": "300g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "mustsõstar",
+      "descriptorOrder": [
+        "mustsõstar"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "mustsõstar": "mustsõstar",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -971,8 +4142,106 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/hortex-poldoad-kulmutatud-hortex-450g",
     "ean": "5900477000631",
+    "image": "https://www.selver.ee/img/800/800/resize/5/9/5900477000631.jpg",
     "storeUnitPrice": 8.64,
-    "brand": "HORTEX"
+    "brand": "HORTEX",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "5900477000631",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "hortex",
+      "unit": "450g",
+      "variety": null,
+      "nameLower": "hortex põldoad külmutatud, hortex, 450g",
+      "brand": "hortex",
+      "size": "450g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "põldoad",
+      "descriptorOrder": [
+        "põldoad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "põldoad": "põldoad",
+        "külmutatud": "külmutatud"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Jõhvikad külmutatud, EESTI AND, 350 g",
+    "price": 6.89,
+    "regularPrice": 6.89,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/johvikad-kulmutatud-eesti-and-350-g",
+    "ean": "4742798008740",
+    "image": "https://www.selver.ee/img/800/800/resize/4/7/4742798008740.jpg",
+    "storeUnitPrice": 19.69,
+    "brand": "EESTI AND",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "4742798008740",
+      "isProduce": false,
+      "hasBrand": true,
+      "type": "jõhvikad",
+      "unit": "350g",
+      "variety": null,
+      "nameLower": "jõhvikad külmutatud, eesti and, 350 g",
+      "brand": "eesti and",
+      "size": "350g",
+      "variant": null,
+      "qualifiers": "",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "jõhvikad",
+      "descriptorOrder": [
+        "jõhvikad"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "jõhvikad": "jõhvikad",
+        "külmutatud": "külmutatud",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -984,21 +4253,54 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/kartuli-pannkoogid-sibulaga-farm-frites-540-g",
     "ean": "8710679020071",
+    "image": "https://www.selver.ee/img/800/800/resize/8/7/8710679020071.jpg",
     "storeUnitPrice": 5.02,
-    "brand": "FARM FRITES"
-  },
-  {
-    "store": "Selver",
-    "name": "Külm.Vaarikad tumeda ja valge šokolaadiga, FRANUI, 150 g",
-    "price": 7.1,
-    "regularPrice": 7.1,
-    "cardPrice": null,
-    "cardName": null,
-    "currency": "EUR",
-    "url": "https://www.selver.ee/kulm-vaarikad-tumeda-ja-valge-sokolaadiga-franui-150-g",
-    "ean": "8437020396028",
-    "storeUnitPrice": 47.33,
-    "brand": "FRANUI"
+    "brand": "FARM FRITES",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "8710679020071",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "kartuli",
+      "unit": "540g",
+      "variety": "farm frites",
+      "nameLower": "kartuli pannkoogid sibulaga, farm frites, 540 g",
+      "brand": "farm frites",
+      "size": "540g",
+      "variant": null,
+      "qualifiers": "sibulaga",
+      "colors": "",
+      "fatPercent": null,
+      "descriptors": "kartuli pannkoogid sibulaga",
+      "descriptorOrder": [
+        "kartuli",
+        "pannkoogid",
+        "sibulaga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "kartuli": "kartuli",
+        "pannkoogid": "pannkoogid",
+        "sibulaga": "sibulaga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   },
   {
     "store": "Selver",
@@ -1010,7 +4312,119 @@
     "currency": "EUR",
     "url": "https://www.selver.ee/kulm-vaarikad-piima-ja-valge-sokolaadiga-franui-150-g",
     "ean": "8437020396011",
+    "image": "https://www.selver.ee/img/800/800/resize/8/4/8437020396011.jpg",
     "storeUnitPrice": 47.33,
-    "brand": "FRANUI"
+    "brand": "FRANUI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "8437020396011",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "150g",
+      "variety": "vaarikad franui valge",
+      "nameLower": "külm. vaarikad piima ja valge šokolaadiga, franui, 150 g",
+      "brand": "franui",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "šokolaadiga",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "ja piima vaarikad valge šokolaadiga",
+      "descriptorOrder": [
+        "vaarikad",
+        "piima",
+        "ja",
+        "valge",
+        "šokolaadiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "vaarikad": "vaarikad",
+        "piima": "piima",
+        "ja": "ja",
+        "valge": "valge",
+        "šokolaadiga": "šokolaadiga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
+  },
+  {
+    "store": "Selver",
+    "name": "Külm.Vaarikad tumeda ja valge šokolaadiga, FRANUI, 150 g",
+    "price": 7.1,
+    "regularPrice": 7.1,
+    "cardPrice": null,
+    "cardName": null,
+    "currency": "EUR",
+    "url": "https://www.selver.ee/kulm-vaarikad-tumeda-ja-valge-sokolaadiga-franui-150-g",
+    "ean": "8437020396028",
+    "image": "https://www.selver.ee/img/800/800/resize/8/4/8437020396028.jpg",
+    "storeUnitPrice": 47.33,
+    "brand": "FRANUI",
+    "strictPackaging": true,
+    "impliedDescriptors": [
+      "külmutatud"
+    ],
+    "signature": {
+      "ean": "8437020396028",
+      "isProduce": false,
+      "hasBrand": false,
+      "type": "külm",
+      "unit": "150g",
+      "variety": "vaarikad franui valge",
+      "nameLower": "külm.vaarikad tumeda ja valge šokolaadiga, franui, 150 g",
+      "brand": "franui",
+      "size": "150g",
+      "variant": null,
+      "qualifiers": "šokolaadiga",
+      "colors": "valge",
+      "fatPercent": null,
+      "descriptors": "ja tumeda vaarikad valge šokolaadiga",
+      "descriptorOrder": [
+        "vaarikad",
+        "tumeda",
+        "ja",
+        "valge",
+        "šokolaadiga"
+      ],
+      "pieceCountSizes": false,
+      "descriptorShown": {
+        "tumeda": "tumeda",
+        "ja": "ja",
+        "valge": "valge",
+        "šokolaadiga": "šokolaadiga",
+        "g": "g"
+      },
+      "impliedDescriptors": [
+        "külmutatud"
+      ],
+      "strictPackaging": true,
+      "matchAcrossWeights": false,
+      "fixedWeightMustMatch": false,
+      "alcoholMatching": false,
+      "vintage": null,
+      "diaperMatching": false,
+      "diaperSize": null,
+      "diaperPieceCount": null,
+      "diaperMultipack": false,
+      "isDiaperWipe": false
+    }
   }
 ]

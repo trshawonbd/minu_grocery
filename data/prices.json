@@ -800,17 +800,25 @@
         "price": 1.59,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/kaalikas-kg",
-        "storeUnitPrice": 1.59
+        "storeUnitPrice": 1.59,
+        "storeName": "Kaalikas, kg"
+      },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaalikas-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009575.jpg",
+        "storeName": "Kaalikas pestud kg"
       },
       "rimi": {
         "price": 1.89,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/muud-juurviljad/kaalikas-kg-/p/945941",
-        "storeUnitPrice": 1.89
+        "storeUnitPrice": 1.89,
+        "storeName": "Kaalikas, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Kartul villeri 2000g",
@@ -821,18 +829,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/kartul-pestud-villeri-pakitud-2-kg",
         "size": "2000g",
-        "storeUnitPrice": 1.48
+        "storeUnitPrice": 1.48,
+        "storeName": "Kartul pestud Villeri pakitud, 2kg"
       },
       "rimi": {
         "price": 2.95,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/kartul-pestud-villeri-2kg/p/269618",
         "size": "2000g",
-        "storeUnitPrice": 1.48
+        "storeUnitPrice": 1.48,
+        "storeName": "Kartul pestud Villeri 2kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Avokaado kg",
@@ -842,23 +851,33 @@
         "price": 5.99,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/avokaado-kg",
-        "storeUnitPrice": 5.99
+        "storeUnitPrice": 5.99,
+        "storeName": "Avokaado, kg"
+      },
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/avokaado-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008532.jpg",
+        "storeName": "Avokaado kg"
       },
       "rimi": {
         "price": 5.99,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/avokaado/avokaado-kg/p/200798",
-        "storeUnitPrice": 5.99
+        "storeUnitPrice": 5.99,
+        "storeName": "Avokaado kg"
       },
       "selver": {
         "price": 6.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/avokaado-kg",
-        "storeUnitPrice": 6.99
+        "ean": "2700014000000",
+        "storeUnitPrice": 6.99,
+        "storeName": "Avokaado, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Bataat kg",
@@ -868,23 +887,33 @@
         "price": 2.79,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/bataat-kg",
-        "storeUnitPrice": 2.79
+        "storeUnitPrice": 2.79,
+        "storeName": "Bataat, kg"
+      },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bataat-oranz-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23016060.jpg",
+        "storeName": "Bataat oranz kg"
       },
       "rimi": {
         "price": 2.79,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/bataat-kg/p/286441",
-        "storeUnitPrice": 2.79
+        "storeUnitPrice": 2.79,
+        "storeName": "Bataat kg"
       },
       "selver": {
         "price": 3.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/bataat-kg",
-        "storeUnitPrice": 3.99
+        "ean": "2702973000008",
+        "storeUnitPrice": 3.99,
+        "storeName": "Bataat, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Viinamari red globe punane kg",
@@ -894,17 +923,19 @@
         "price": 3.99,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/viinamari-punane-red-globe-1-kl-kg",
-        "storeUnitPrice": 3.99
+        "storeUnitPrice": 3.99,
+        "storeName": "Viinamari punane Red Globe 1kl., kg"
       },
       "selver": {
         "price": 3.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/punane-viinamari-red-globe-kg",
-        "storeUnitPrice": 3.29
+        "ean": "2705505000002",
+        "storeUnitPrice": 3.29,
+        "storeName": "Punane viinamari Red Globe, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Juurseller kg",
@@ -914,17 +945,74 @@
         "price": 1.29,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/juurseller-kg",
-        "storeUnitPrice": 1.29
+        "storeUnitPrice": 1.29,
+        "storeName": "Juurseller, kg"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juurseller-kg-poola/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/23016042.jpg",
+        "storeName": "Juurseller kg"
       },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/muud-juurviljad/juurseller-kg/p/217120",
-        "storeUnitPrice": 1.39
+        "storeUnitPrice": 1.39,
+        "storeName": "Juurseller kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kapsas punane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/punane-kapsas-kg",
+        "storeUnitPrice": 1.09,
+        "storeName": "Punane kapsas, kg"
+      },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punane-kapsas-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008512.jpg",
+        "storeName": "Punane kapsas kg"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/kapsas-punane-kg/p/904650",
+        "storeUnitPrice": 1.19,
+        "storeName": "Kapsas punane, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kapsas hiina kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hiina-kapsas-kg",
+        "storeUnitPrice": 1.99,
+        "storeName": "Hiina kapsas, kg"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiina-kapsas-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23016020.jpg",
+        "storeName": "Hiina kapsas kg"
+      }
+    },
+    "matchedVia": "automatic"
   },
   {
     "name": "Peakapsas kg",
@@ -934,23 +1022,33 @@
         "price": 0.49,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/peakapsas-kg",
-        "storeUnitPrice": 0.49
+        "storeUnitPrice": 0.49,
+        "storeName": "Peakapsas, kg"
+      },
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/peakapsas-varajane-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008535.jpg",
+        "storeName": "Peakapsas varajane kg"
       },
       "rimi": {
         "price": 0.59,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/peakapsas-kg-eesti/p/200903",
-        "storeUnitPrice": 0.59
+        "storeUnitPrice": 0.59,
+        "storeName": "Peakapsas, kg Eesti"
       },
       "selver": {
         "price": 0.35,
         "currency": "EUR",
         "url": "https://www.selver.ee/peakapsas-kg",
-        "storeUnitPrice": 0.35
+        "ean": "2700026000005",
+        "storeUnitPrice": 0.35,
+        "storeName": "Peakapsas, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Sibul kg",
@@ -960,17 +1058,18 @@
         "price": 0.37,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/sibul-kg",
-        "storeUnitPrice": 0.37
+        "storeUnitPrice": 0.37,
+        "storeName": "Sibul,kg"
       },
       "rimi": {
         "price": 0.37,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/sibulkoogiviljad/sibul-50-70-mm-kg/p/278770",
-        "storeUnitPrice": 0.37
+        "storeUnitPrice": 0.37,
+        "storeName": "Sibul, 50/70 mm, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Küüslauk kg",
@@ -980,23 +1079,33 @@
         "price": 4.99,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/kuuslauk-kg",
-        "storeUnitPrice": 4.99
+        "storeUnitPrice": 4.99,
+        "storeName": "Küüslauk, kg"
+      },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuuslauk-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009558.jpg",
+        "storeName": "Küüslauk kg"
       },
       "rimi": {
         "price": 4.99,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kuuslauk/kuuslauk-kg/p/210853",
-        "storeUnitPrice": 4.99
+        "storeUnitPrice": 4.99,
+        "storeName": "Küüslauk kg"
       },
       "selver": {
         "price": 5.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/kuuslauk-kg",
-        "storeUnitPrice": 5.99
+        "ean": "2703010000005",
+        "storeUnitPrice": 5.99,
+        "storeName": "Küüslauk, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Salatisibul kg",
@@ -1006,23 +1115,3158 @@
         "price": 1.89,
         "currency": "EUR",
         "url": "https://barbora.ee/toode/salatisibul-kg",
-        "storeUnitPrice": 1.89
+        "storeUnitPrice": 1.89,
+        "storeName": "Salatisibul,kg"
       },
       "rimi": {
         "price": 1.89,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/sibulkoogiviljad/salatisibul-kg/p/211267",
-        "storeUnitPrice": 1.89
+        "storeUnitPrice": 1.89,
+        "storeName": "Salatisibul kg"
       },
       "selver": {
         "price": 1.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/salatisibul-kg",
-        "storeUnitPrice": 1.89
+        "ean": "2705393000009",
+        "storeUnitPrice": 1.89,
+        "storeName": "Salatisibul, kg"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kõrvits kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/korvits-kg",
+        "storeUnitPrice": 1.19,
+        "storeName": "Kõrvits, kg"
+      },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/korvits-kg-eesti/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/23016026.jpg",
+        "storeName": "Kõrvits kg"
+      },
+      "rimi": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/korvits-suvikorvits/korvits-kg/p/282652",
+        "storeUnitPrice": 0.79,
+        "regularPrice": 1.19,
+        "storeName": "Kõrvits kg"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/korvits-kg",
+        "ean": "2705851000008",
+        "storeUnitPrice": 0.89,
+        "storeName": "Kõrvits, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Baklažaan kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/baklazaan-kg",
+        "storeUnitPrice": 2.19,
+        "storeName": "Baklažaan,kg"
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/baklazaan/baklazaan-kg/p/269170",
+        "storeUnitPrice": 2.79,
+        "storeName": "Baklažaan kg"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/baklazaan-kg",
+        "ean": "2700032000006",
+        "storeUnitPrice": 3.19,
+        "storeName": "Baklažaan, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kurk luunja kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kurk-luunja-kg",
+        "storeUnitPrice": 2.69,
+        "regularPrice": 4.29,
+        "storeName": "Kurk Luunja, kg"
+      },
+      "rimi": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kurk/kurk-luunja-kg/p/275290",
+        "storeUnitPrice": 4.29,
+        "storeName": "Kurk Luunja kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Paprika punane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/punane-paprika-1-kl-kg",
+        "storeUnitPrice": 2.29,
+        "storeName": "Punane paprika 1.kl.,kg"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punane-paprika-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009574.jpg",
+        "storeName": "Punane paprika kg"
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/paprika-punane-1kl-kg/p/269167",
+        "storeUnitPrice": 2.29,
+        "storeName": "Paprika punane 1kl, kg"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paprika-punane-kg",
+        "ean": "2700017000007",
+        "storeUnitPrice": 2.29,
+        "storeName": "Paprika punane, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Paprika valge kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/valge-paprika-1-kl-kg",
+        "storeUnitPrice": 1.89,
+        "regularPrice": 2.79,
+        "storeName": "Valge paprika 1.kl.,kg"
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/paprika-valge-1kl-kg/p/221465",
+        "storeUnitPrice": 2.79,
+        "storeName": "Paprika valge 1kl, kg"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valge-paprika-kg",
+        "ean": "2704992000007",
+        "storeUnitPrice": 2.79,
+        "storeName": "Valge paprika, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Tomat kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/tomat-lahtine-1-kl-kg",
+        "storeUnitPrice": 1.79,
+        "storeName": "Tomat lahtine 1 kl., kg"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomat-kg-ii-klass-ukraina/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/23016033.jpg",
+        "storeName": "Tomat kg"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/tomat-1kl-kg/p/266894",
+        "storeUnitPrice": 1.99,
+        "storeName": "Tomat 1kl, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Paprika kollane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/paprika-kollane-1-kl-kg",
+        "storeUnitPrice": 3.99,
+        "storeName": "Paprika kollane 1.kl.,kg"
+      },
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kollane-paprika-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008509.jpg",
+        "storeName": "Kollane paprika kg"
+      },
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/paprika-kollane-1kl-kg/p/209926",
+        "storeUnitPrice": 3.99,
+        "storeName": "Paprika kollane 1kl, kg"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paprika-kollane-kg",
+        "ean": "2700019000005",
+        "storeUnitPrice": 3.29,
+        "storeName": "Paprika kollane, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Lillkapsas kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/lillkapsas-kg",
+        "storeUnitPrice": 3.59,
+        "storeName": "Lillkapsas, kg"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lillkapsas-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009572.jpg",
+        "storeName": "Lillkapsas kg"
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/lillkapsas-kg/p/200833",
+        "storeUnitPrice": 2.19,
+        "regularPrice": 3.39,
+        "storeName": "Lillkapsas kg"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lillkapsas-kg",
+        "ean": "2700030000008",
+        "storeUnitPrice": 4.29,
+        "storeName": "Lillkapsas, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pirn conference kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pirn-conference-kg",
+        "storeUnitPrice": 1.99,
+        "regularPrice": 2.59,
+        "storeName": "Pirn Conference, kg"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirn-conference-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23015041.jpg",
+        "storeName": "Pirn Conference kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Õun granny smith kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/oun-granny-smith-1-kl-kg",
+        "storeUnitPrice": 2.39,
+        "regularPrice": 2.99,
+        "storeName": "Õun Granny Smith 1kl., kg"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oun-granny-smith-kg",
+        "ean": "2700009000008",
+        "storeUnitPrice": 2.29,
+        "storeName": "Õun Granny Smith, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pirn guyot kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pirn-guyot-1-kl-kg",
+        "storeUnitPrice": 2.59,
+        "storeName": "Pirn GUYOT 1kl., kg"
+      },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirn-guyot-kg-i-klass-prantsusmaa/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/23015034.jpg",
+        "storeName": "Pirn Guyot kg"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/oun-ja-pirn/pirn-guyot-1kl-kg/p/214958",
+        "storeUnitPrice": 2.99,
+        "storeName": "Pirn Guyot 1kl, kg"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pirn-guyot-kg",
+        "ean": "2701451000004",
+        "storeUnitPrice": 2.99,
+        "storeName": "Pirn Guyot, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Õun golden delicious kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/oun-golden-delicious-suur-1-kl-kg",
+        "storeUnitPrice": 2.89,
+        "storeName": "Õun Golden Delicious suur 1kl., kg"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oun-golden-delicious-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008322.jpg",
+        "storeName": "Õun Golden Delicious kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Õun kanzi kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/oun-kanzi-1-kl-kg",
+        "cardPrice": 3.19,
+        "cardName": "Aitäh",
+        "storeUnitPrice": 3.19,
+        "storeName": "Õun Kanzi 1kl., kg"
+      },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oun-kanzi-kg-i-klass-saksamaa/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/23009652.jpg",
+        "storeName": "Õun Kanzi kg"
+      },
+      "rimi": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/oun-ja-pirn/oun-kanzi-1kl-kg/p/281840",
+        "storeUnitPrice": 3.79,
+        "storeName": "Õun Kanzi 1kl, kg"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oun-kanzi-kg",
+        "ean": "2702341000005",
+        "storeUnitPrice": 3.99,
+        "storeName": "Õun Kanzi, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Õun royal gala kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/oun-royal-gala-1-kl-kg",
+        "storeUnitPrice": 2.69,
+        "storeName": "Õun Royal Gala 1kl., kg"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oun-royal-gala-kg-i-klass-hispaania/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/23009122.jpg",
+        "storeName": "Õun Royal Gala kg"
+      },
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/oun-ja-pirn/oun-royal-gala-1kl-kg/p/269153",
+        "storeUnitPrice": 1.49,
+        "regularPrice": 2.59,
+        "storeName": "Õun Royal Gala, 1kl kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Õun paulared kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 0.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/oun-paulared-1-kl-kg",
+        "storeUnitPrice": 0.45,
+        "storeName": "Õun Paulared 1kl., kg"
+      },
+      "selver": {
+        "price": 0.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oun-paulared-kg",
+        "ean": "2701371000009",
+        "storeUnitPrice": 0.39,
+        "storeName": "Õun Paulared, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Ploom tume kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ploom-tume-kg",
+        "storeUnitPrice": 1.99,
+        "regularPrice": 3.99,
+        "storeName": "Ploom tume, kg"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/luuviljad/ploom-tume-1kl-kg/p/967800",
+        "storeUnitPrice": 0.99,
+        "regularPrice": 1.99,
+        "storeName": "Ploom tume 1kl, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sidrun kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sidrun-kg",
+        "storeUnitPrice": 2.39,
+        "storeName": "Sidrun, kg"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sidrun-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009553.jpg",
+        "storeName": "Sidrun kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Pomel kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pomel-1-kl-kg",
+        "storeUnitPrice": 2.99,
+        "storeName": "Pomel 1kl, kg"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/pomel-1kl-kg/p/211258",
+        "storeUnitPrice": 2.99,
+        "storeName": "Pomel 1kl, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Banaan kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/banaan-kg",
+        "storeUnitPrice": 1.29,
+        "storeName": "Banaan, kg"
+      },
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/banaan-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009550.jpg",
+        "storeName": "Banaan kg"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/banaan-kg",
+        "ean": "2700001000006",
+        "storeUnitPrice": 1.29,
+        "storeName": "Banaan, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kiivi kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiivi-1-kl-kg",
+        "storeUnitPrice": 4.99,
+        "storeName": "Kiivi 1kl., kg"
+      },
+      "coop": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiivi-lahtine-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008311.jpg",
+        "storeName": "Kiivi kg lahtine"
+      },
+      "rimi": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/kiivi-1kl-kg/p/213197",
+        "storeUnitPrice": 3.29,
+        "regularPrice": 4.99,
+        "storeName": "Kiivi 1kl, kg"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiivi-kg",
+        "ean": "2700007000000",
+        "storeUnitPrice": 4.99,
+        "storeName": "Kiivi, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Granaatõun kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/granaatoun-kg",
+        "storeUnitPrice": 3.49,
+        "regularPrice": 5.99,
+        "storeName": "Granaatõun, kg"
+      },
+      "coop": {
+        "price": 6.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/granaatoun-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008331.jpg",
+        "storeName": "Granaatõun kg"
+      },
+      "rimi": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/granaatoun-kg/p/210718",
+        "storeUnitPrice": 5.99,
+        "storeName": "Granaatõun kg"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/granaatoun-kg",
+        "ean": "2700039000009",
+        "storeUnitPrice": 5.99,
+        "storeName": "Granaatõun, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kadarbiku Porgand 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/porgand-pestud-pakitud-kadarbiku-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.78,
+        "storeName": "Porgand pestud pakitud KADARBIKU 500g"
+      },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/porgand-kadarbiku-500g-pakitud-eesti/",
+        "size": "500g",
+        "ean": "4740175000011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4740175000011.jpg",
+        "storeName": "Porgand Kadarbiku 500g pakitud"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/porgand-pakitud-kadarbiku-koogivili-500-g",
+        "size": "500g",
+        "ean": "4740175000011",
+        "storeUnitPrice": 2.58,
+        "storeName": "Porgand pakitud, KADARBIKU KÖÖGIVILI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kirss 250g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kirss-ploomtomat-250-g",
+        "size": "250g",
+        "storeUnitPrice": 8.76,
+        "storeName": "Kirss-ploomtomat, 250g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirss-ploomtomat-250g/",
+        "size": "250g",
+        "ean": "4740608060438",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8427647550040.jpg",
+        "storeName": "Kirss-ploomtomat 250g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirssploomtomat-250-g",
+        "size": "250g",
+        "ean": "4740608060438",
+        "storeUnitPrice": 11.96,
+        "storeName": "Kirssploomtomat, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kadarbiku Beebiporgand 250g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/beebiporgand-kadarbiku-250-g",
+        "size": "250g",
+        "storeUnitPrice": 7.16,
+        "storeName": "Beebiporgand KADARBIKU 250g"
+      },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/porgand/beebiporgand-kadarbiku-250g/p/263755",
+        "size": "250g",
+        "storeUnitPrice": 7.16,
+        "storeName": "Beebiporgand Kadarbiku 250g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mango kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mango-kg",
+        "storeUnitPrice": 4.49,
+        "storeName": "Mango, kg"
+      },
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mango-ready-to-eat-kg-hispaania/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/23036925.jpg",
+        "storeName": "Mango söömisvalmis kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Ploomtomat 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ploomtomat-karbis-500-g",
+        "size": "500g",
+        "storeUnitPrice": 5.98,
+        "storeName": "Ploomtomat karbis, 500g"
+      },
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kollane-ploomtomat-500g/",
+        "size": "500g",
+        "ean": "4740660009505",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740660009505.jpg",
+        "storeName": "Ploomtomat kollane 500g"
+      },
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/ploomtomat-mini-1kl-500g/p/903260",
+        "size": "500g",
+        "storeUnitPrice": 7.98,
+        "storeName": "Ploomtomat mini 1kl, 500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Laheotsa Kartul 2000g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kartul-pestud-pakitud-laheotsa-2-kg",
+        "size": "2000g",
+        "storeUnitPrice": 1.4,
+        "storeName": "Kartul pestud pakitud LAHEOTSA, 2kg"
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/kartul-pestud-laheotsa-2kg/p/200892",
+        "size": "2000g",
+        "storeUnitPrice": 1.4,
+        "storeName": "Kartul pestud Laheotsa 2kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mungoa mahe 150g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-mungoa-idu-150g/",
+        "size": "150g",
+        "ean": "6416332001501",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6416332001501.png",
+        "storeName": "Mahe Mungoa idu 150g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-mungoaidu-lounaidu-150-g",
+        "size": "150g",
+        "ean": "6416332001501",
+        "storeUnitPrice": 12.6,
+        "storeName": "Mahe Mungoaidu, LÕUNAIDU, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Idusalat mahe 150g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/idusalat-mahe-150-g",
+        "size": "150g",
+        "storeUnitPrice": 13.27,
+        "storeName": "Idusalat mahe150g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-idusalat-150g/",
+        "size": "150g",
+        "ean": "6416332001518",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6416332001518.png",
+        "storeName": "Mahe Idusalat 150g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-idusalat-lounaidu-150-g",
+        "size": "150g",
+        "ean": "6416332001518",
+        "storeUnitPrice": 13.27,
+        "storeName": "Mahe idusalat, LÕUNAIDU, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Spinat grüne fee tk",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/spinat-grune-fee",
+        "storeUnitPrice": 2.35,
+        "storeName": "Spinat GRÜNE FEE"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/spinat-potis/",
+        "ean": "4741116000138",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4741116000138.jpg",
+        "storeName": "Spinat potis Grüne Fee"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spinat-potis-grune-fee-1-tk",
+        "ean": "4741116000138",
+        "storeUnitPrice": 1.99,
+        "storeName": "Spinat potis, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kartul talukartul kollane 2500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kartul-pestud-kollane-talukartul-2-5-kg",
+        "size": "2500g",
+        "storeUnitPrice": 1.34,
+        "storeName": "Kartul pestud kollane Talukartul, 2.5kg"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartul-kol-pestud-talukartul-2-5kg-eesti/",
+        "size": "2500g",
+        "ean": "4742050000109",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4742050000109.jpg",
+        "storeName": "Kartul kollane pestud Talukartul 2.5kg"
+      },
+      "rimi": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/kartul-pestud-kollane-talukartul-2-5kg/p/299038",
+        "size": "2500g",
+        "storeUnitPrice": 1.44,
+        "storeName": "Kartul pestud kollane Talukartul 2,5kg"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartul-kollane-talukartul-2-5-kg",
+        "size": "2500g",
+        "ean": "4742050000109",
+        "storeUnitPrice": 1.6,
+        "storeName": "Kartul kollane, TALUKARTUL, 2,5 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kadarbiku Punapeet 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/aurutatud-punapeet-kadarbiku-500-g",
+        "size": "500g",
+        "storeUnitPrice": 3.98,
+        "storeName": "Aurutatud punapeet KADARBIKU,500g"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punapeet-500g/",
+        "size": "500g",
+        "ean": "4740175000578",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740175000578.jpg",
+        "storeName": "Aurutatud punapeet Kadarbiku 500g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aurutatud-peet-kadarbiku-koogivili-500-g",
+        "size": "500g",
+        "ean": "4740175000578",
+        "storeUnitPrice": 3.98,
+        "storeName": "Aurutatud peet, KADARBIKU KÖÖGIVILI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti And Soolakurk küüslauguga 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/soolakurk-kuuslauguga-500-g",
+        "size": "500g",
+        "storeUnitPrice": 6.58,
+        "storeName": "Soolakurk küüslauguga, 500g"
+      },
+      "rimi": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/soolakurk-kuuslauguga-eesti-and-500g-300g/p/900273",
+        "size": "500g",
+        "storeUnitPrice": 6.58,
+        "storeName": "Soolakurk küüslauguga Eesti And 500g/300g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Kartul talukartul punane 2500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kartul-pestud-punane-talukartul-2-5-kg",
+        "size": "2500g",
+        "storeUnitPrice": 1.44,
+        "storeName": "Kartul pestud punane Talukartul, 2.5kg"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartul-pun-pestud-talukartul-2-5kg-eesti-2/",
+        "size": "2500g",
+        "ean": "4742050000130",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4742050000130.jpg",
+        "storeName": "Kartul punane pestud Talukartul 2.5kg"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartul-punane-talukartul-2-5-kg",
+        "size": "2500g",
+        "ean": "4742050000130",
+        "storeUnitPrice": 1.44,
+        "storeName": "Kartul punane, TALUKARTUL, 2,5 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kartul punane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/eesti-punane-kartul-pestud-kg",
+        "storeUnitPrice": 0.99,
+        "storeName": "Eesti punane kartul pestud, kg"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/kartul-punane-pestud-kg-eesti/p/276041",
+        "storeUnitPrice": 0.99,
+        "storeName": "Kartul punane pestud, kg Eesti"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartul-punane-pestud-kg",
+        "ean": "2700043000002",
+        "storeUnitPrice": 0.99,
+        "storeName": "Kartul punane pestud, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Nuikapsas kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/nuikapsas-kg",
+        "storeUnitPrice": 1.99,
+        "storeName": "Nuikapsas, kg"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nuikapsas-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23016059.jpg",
+        "storeName": "Nuikapsas kg"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/nuikapsas-kg/p/4004519",
+        "storeUnitPrice": 1.99,
+        "storeName": "Nuikapsas kg"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nuikapsas-kg",
+        "ean": "2700052000000",
+        "storeUnitPrice": 1.99,
+        "storeName": "Nuikapsas, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Peipsi Hapukurk 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hapukurk-ambris-peipsi-500-g",
+        "size": "500g",
+        "storeUnitPrice": 8.38,
+        "storeName": "Hapukurk ämbris PEIPSI, 500g"
+      },
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukurk-500g-ambris/",
+        "size": "500g",
+        "ean": "4744664010024",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4744664010024.jpg",
+        "storeName": "Hapukurk Peipsi Kurk 500g ämbris"
+      },
+      "selver": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukurk-peipsi-germani-talu-500-g",
+        "size": "500g",
+        "ean": "4744664010024",
+        "storeUnitPrice": 8.38,
+        "storeName": "Hapukurk Peipsi, GERMANI TALU, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dattel 200g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/dattel-200-g",
+        "size": "200g",
+        "storeUnitPrice": 4.95,
+        "regularPrice": 1.39,
+        "storeName": "Dattel 200g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dattel-200g/",
+        "size": "200g",
+        "ean": "4740669004402",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740199000271.jpg",
+        "storeName": "Dattel kuivatatud 200g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dattel-200-g",
+        "size": "200g",
+        "ean": "4740199000271",
+        "storeUnitPrice": 6.45,
+        "storeName": "Dattel, 200 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Vaarikatomat kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vaarikatomat-1-kl-kg",
+        "storeUnitPrice": 2.99,
+        "storeName": "Vaarikatomat 1kl.,kg"
+      },
+      "rimi": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/vaarikatomat-1kl-kg/p/266908",
+        "storeUnitPrice": 2.59,
+        "regularPrice": 3.99,
+        "storeName": "Vaarikatomat 1kl, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Porgand 200g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/porgand-200-g-valmis-soomiseks",
+        "size": "200g",
+        "storeUnitPrice": 6.45,
+        "regularPrice": 1.59,
+        "storeName": "Porgand 200g valmis söömiseks!"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/porgand-200g/",
+        "size": "200g",
+        "ean": "4751006960169",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4751006960169.png",
+        "storeName": "Porgand pakitud 200g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/varske-pakitud-porgand-valmis-soomiseks-200-g",
+        "size": "200g",
+        "ean": "4751006960169",
+        "storeUnitPrice": 12.45,
+        "storeName": "Värske pakitud porgand, valmis söömiseks, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kiivi kollane 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kiivi-kollane-karbis-500-g",
+        "size": "500g",
+        "storeUnitPrice": 9.98,
+        "storeName": "Kiivi kollane karbis, 500g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiivi-kollane-karbis-500-g",
+        "size": "500g",
+        "ean": "4740608050149",
+        "storeUnitPrice": 11.98,
+        "storeName": "Kiivi kollane karbis, 500 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Peet 350g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/aurutatud-riiv-peet-vaakumis-350-g",
+        "size": "350g",
+        "storeUnitPrice": 2.14,
+        "storeName": "Aurutatud riiv.peet vaakumis 350g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marineeritud-peet-riivitud-350g-dimdini/",
+        "size": "350g",
+        "ean": "4751001624066",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4751001624066.png",
+        "storeName": "Marineeritud peet riivitud 350g"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/keedetud-riivitud-peet-350g/p/944265",
+        "size": "350g",
+        "storeUnitPrice": 2.83,
+        "storeName": "Keedetud riivitud peet 350g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Ananass kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ananass-kg",
+        "storeUnitPrice": 2.79,
+        "storeName": "Ananass, kg"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ananass-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008312.jpg",
+        "storeName": "Ananass kg"
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/ananass-kg/p/269165",
+        "storeUnitPrice": 2.79,
+        "storeName": "Ananass kg"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ananass-kg",
+        "ean": "2701876000009",
+        "storeUnitPrice": 2.29,
+        "storeName": "Ananass, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Tomat kollane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/tomat-kollane-1-kl-kg-12185",
+        "storeUnitPrice": 3.99,
+        "storeName": "Tomat kollane 1 kl. , kg"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomat-kollane-kg",
+        "ean": "2715493000007",
+        "storeUnitPrice": 3.99,
+        "storeName": "Tomat kollane, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sibul punane 400g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/marineeritud-punane-sibul-400-g",
+        "cardPrice": 1.89,
+        "cardName": "Aitäh",
+        "size": "400g",
+        "storeUnitPrice": 4.73,
+        "storeName": "Marineeritud punane sibul, 400g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marineeritud-punane-sibul-400g-dimdini/",
+        "size": "400g",
+        "ean": "4751001623700",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4751001623700.png",
+        "storeName": "Marineeritud punane sibul 400g"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/marineeritud-punane-sibul-400-200g/p/4011970",
+        "size": "400g",
+        "storeUnitPrice": 11.95,
+        "storeName": "Marineeritud punane sibul 400/200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti and Soolakurk tšilliga 300g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/soolakurk-punase-tsilliga-300-g",
+        "size": "300g",
+        "storeUnitPrice": 11.63,
+        "storeName": "Soolakurk punase tšilliga 300g"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolakurgid-punase-tsilliga-300g",
+        "size": "300g",
+        "ean": "4742798000331",
+        "storeUnitPrice": 11.63,
+        "storeName": "Soolakurgid punase tšilliga, 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Peipsi Hapukurk 400g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hapukurk-peipsi-400-g",
+        "size": "400g",
+        "storeUnitPrice": 4.98,
+        "regularPrice": 2.79,
+        "storeName": "Hapukurk PEIPSI, 400g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukurk-400g/",
+        "size": "400g",
+        "ean": "4744664010017",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744664010017.jpg",
+        "storeName": "Hapukurk Peipsi Kurk 400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Spargel 250g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/spargel-250-g",
+        "size": "250g",
+        "storeUnitPrice": 23.96,
+        "storeName": "Spargel, 250g"
+      },
+      "selver": {
+        "price": 6.58,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spargel-ehk-asparaagus-250-g",
+        "size": "250g",
+        "ean": "4740660019467",
+        "storeUnitPrice": 26.32,
+        "storeName": "Spargel ehk asparaagus, 250 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kõrvits hokkaido kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hokkaido-korvits-kg",
+        "storeUnitPrice": 1.69,
+        "storeName": "Hokkaido kõrvits, kg"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/korvits-suvikorvits/hokkaido-korvits-kg/p/4005453",
+        "storeUnitPrice": 1.59,
+        "storeName": "Hokkaido kõrvits kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kirss 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kirss-ploomtomatid-ambris-500-g-91447",
+        "size": "500g",
+        "storeUnitPrice": 5.98,
+        "regularPrice": 3.75,
+        "storeName": "Kirss-ploomtomatid ämbris, 500g"
+      },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirss-ploomtomat-punane-500g-i-kl-maroko/",
+        "size": "500g",
+        "ean": "4740660011010",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740660011010.jpg",
+        "storeName": "Kirss-ploomtomat 500g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirss-ploomtomat",
+        "ean": "4740660011010",
+        "storeUnitPrice": 9.98,
+        "storeName": "Kirss-ploomtomat"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Särtsakas peedisalat koriandriga 450g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sartsakas-peedisalat-koriandriga-450-g",
+        "size": "450g",
+        "storeUnitPrice": 5.76,
+        "storeName": "Särtsakas peedisalat koriandriga, 450g"
+      },
+      "rimi": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/peedisalat-koriandriga-eesti-and-450g/p/2000453",
+        "size": "450g",
+        "storeUnitPrice": 5.76,
+        "storeName": "Peedisalat koriandriga Eesti And 450g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Kadarbiku Hapukapsas 900g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hapukapsas-pakitud-kadarbiku-900-g",
+        "size": "900g",
+        "storeUnitPrice": 2.72,
+        "storeName": "Hapukapsas pakitud KADARBIKU, 900g"
+      },
+      "rimi": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukapsas-kadarbiku-900g/p/4004631",
+        "size": "900g",
+        "storeUnitPrice": 2.72,
+        "storeName": "Hapukapsas Kadarbiku 900g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Maitseroheline 100g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/maitseroheline-taldrikul-100-g",
+        "size": "100g",
+        "storeUnitPrice": 25.9,
+        "storeName": "Maitseroheline taldrikul, 100g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maitseroheline-100g/",
+        "size": "100g",
+        "ean": "4740669000169",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740669000169.png",
+        "storeName": "Maitseroheline 100g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Murulauk grüne fee tk",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/murulauk-grune-fee",
+        "storeUnitPrice": 2.35,
+        "storeName": "Murulauk GRÜNE FEE"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/murulauk-potis/",
+        "ean": "4741116000060",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4741116000060.jpg",
+        "storeName": "Murulauk potis Grüne Fee"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/murulauk-potis-grune-fee-1-tk",
+        "ean": "4741116000060",
+        "storeUnitPrice": 2.49,
+        "storeName": "Murulauk potis, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Piparmünt grüne fee tk",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piparmunt-grune-fee",
+        "storeUnitPrice": 2.35,
+        "storeName": "Piparmünt GRÜNE FEE"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piparmunt-potis-eesti/",
+        "ean": "4741116000176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4741116000176.jpg",
+        "storeName": "Piparmünt potis Grüne Fee"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/maitsetaimed/maitsetaimed/piparmunt-potis-grune-fee-tk/p/200295",
+        "storeUnitPrice": 59.75,
+        "storeName": "Piparmünt potis Grüne Fee tk"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piparmunt-potis-grune-fee-1-tk",
+        "ean": "4741116000176",
+        "storeUnitPrice": 2.39,
+        "storeName": "Piparmünt potis, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Papaia formosa kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "barbora": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/papaia-formosa-kg",
+        "storeUnitPrice": 8.29,
+        "storeName": "Papaia FORMOSA, kg"
+      },
+      "rimi": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/papaia-formosa-kg/p/902709",
+        "storeUnitPrice": 6.99,
+        "storeName": "Papaia Formosa kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sidrun eureka kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/sidrun-eureka-1kl-kg/p/969226",
+        "storeUnitPrice": 2.29,
+        "storeName": "Sidrun Eureka 1kl kg"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sidrun-eureka-kg",
+        "ean": "2700004000003",
+        "storeUnitPrice": 1.99,
+        "storeName": "Sidrun Eureka, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Virsik kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/virsik-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009556.jpg",
+        "storeName": "Virsik kg"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/luuviljad/virsik-1kl-kg/p/268335",
+        "storeUnitPrice": 2.99,
+        "storeName": "Virsik 1kl, kg"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/virsik-kg",
+        "ean": "2700042000003",
+        "storeUnitPrice": 3.99,
+        "storeName": "Virsik, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Apelsin valencia kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/apelsin-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009551.jpg",
+        "storeName": "Apelsin Valencia kg"
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/apelsin-valencia-1kl-kg/p/211196",
+        "storeUnitPrice": 2.19,
+        "storeName": "Apelsin Valencia 1kl, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Laim kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/laim-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008347.jpg",
+        "storeName": "Laim kg"
+      },
+      "rimi": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/laim-1kl-kg/p/267980",
+        "storeUnitPrice": 4.99,
+        "storeName": "Laim 1kl, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sibul punane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punane-sibul-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008533.jpg",
+        "storeName": "Punane sibul kg"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/sibulkoogiviljad/sibul-punane-kg-eesti/p/201204",
+        "storeUnitPrice": 1.59,
+        "storeName": "Sibul punane, kg Eesti"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/punane-sibul-kg",
+        "ean": "2700024000007",
+        "storeUnitPrice": 0.99,
+        "storeName": "Punane sibul, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Tšillipipar punane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "rimi": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/tsillipipar-punane-1kl-kg/p/210112",
+        "storeUnitPrice": 7.99,
+        "storeName": "Tšillipipar punane 1kl, kg"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tsillipipar-punane-lahtine-kg",
+        "ean": "2711042000009",
+        "storeUnitPrice": 7.99,
+        "storeName": "Tšillipipar punane lahtine, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Peet punane kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/punane-peet-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23009566.jpg",
+        "storeName": "Punane peet kg"
+      },
+      "rimi": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/punane-peet/punane-peet-kg/p/980110",
+        "storeUnitPrice": 0.79,
+        "storeName": "Punane peet kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Lehtkapsas 200g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lehtkapsas-saaremaa-200g-eesti/",
+        "size": "200g",
+        "ean": "4744888010145",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/4744888010145.png",
+        "storeName": "Lehtkapsas Saaremaa 200g"
+      },
+      "rimi": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/rohelised-salatid/lehtkapsas-saaremaa-1kl-200g/p/951075",
+        "size": "200g",
+        "storeUnitPrice": 13.96,
+        "storeName": "Lehtkapsas Saaremaa 1kl, 200g"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saaremaa-lehtkapsas-ehk-kale-rautsi-talu-200-g",
+        "size": "200g",
+        "ean": "4744888010145",
+        "storeUnitPrice": 14.95,
+        "storeName": "Saaremaa lehtkapsas ehk Kale, RAUTSI TALU, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Redis 125g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/redis-125g/",
+        "size": "125g",
+        "ean": "4740660007945",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740199000110.jpg",
+        "storeName": "Redis 125g pakitud tuutus"
+      },
+      "rimi": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/redis/redis-tuutu-125g/p/200640",
+        "size": "125g",
+        "storeUnitPrice": 6.8,
+        "storeName": "Redis tuutu 125g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/redis-pakitud-125-g",
+        "size": "125g",
+        "ean": "4740608089026",
+        "storeUnitPrice": 7.92,
+        "storeName": "Redis pakitud, 125 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Mungoa mahe 140g idud",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oko-mungoa-idud-125g-eesti/",
+        "size": "140g",
+        "ean": "4744602010086",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4744602010086.png",
+        "storeName": "Mahe Mungoa idud 140g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-mungoa-idud-ruuts-140-g",
+        "size": "140g",
+        "ean": "4744602010086",
+        "storeUnitPrice": 12.79,
+        "storeName": "Mahe Mungoa idud, RÜÜTS, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Idusalat mahe 140g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oko-idusalat-125g-eesti/",
+        "size": "140g",
+        "ean": "4744602010116",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4744602010116.jpg",
+        "storeName": "Mahe Idusalat 140g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-idusalat-lutserni-mungoa-ja-laatse-idud-ruuts-140-g",
+        "size": "140g",
+        "ean": "4744602010116",
+        "storeUnitPrice": 12.79,
+        "storeName": "Mahe Idusalat (Lutserni, Mungoa- ja Läätse idud), RÜÜTS, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mungoa mahe 140g redise",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-mungoa-redise-idusalat-140g-eesti/",
+        "size": "140g",
+        "ean": "4744602010154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4744602010154.png",
+        "storeName": "Mahe Mungoa-redise idusalat 140g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-mungoa-redise-idusalat-ruuts-140-g",
+        "size": "140g",
+        "ean": "4744602010154",
+        "storeUnitPrice": 12.79,
+        "storeName": "Mahe Mungoa-Redise idusalat, RÜÜTS, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Intsu Kirsstomat 250g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirsstomat-pun-intsutalu-250g-i-kl-eesti/",
+        "size": "250g",
+        "ean": "4740407000109",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4740407000109.jpg",
+        "storeName": "Kirsstomat punane Intsu Talu 250g"
+      },
+      "rimi": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/kirsstomat-punane-intsu-talu-1kl-250g/p/911268",
+        "size": "250g",
+        "storeUnitPrice": 13.96,
+        "storeName": "Kirsstomat punane Intsu Talu 1kl, 250g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kapsas brüsseli 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/brusseli-kapsas-500g/p/271991",
+        "size": "500g",
+        "storeUnitPrice": 5.58,
+        "storeName": "Brüsseli kapsas 500g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/brusseli-kapsas-500-g",
+        "size": "500g",
+        "ean": "4740669013220",
+        "storeUnitPrice": 3.98,
+        "storeName": "Brüsseli kapsas, 500 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Salatisegu 120g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salatisegu-active-fiteasy-120g-leedu/",
+        "size": "120g",
+        "ean": "4779027040905",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4779027040905.png",
+        "storeName": "Salatisegu Active Fit&Easy 120g"
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/rohelised-salatid/salatisegu-fit-easy-active-120g/p/918677",
+        "size": "120g",
+        "storeUnitPrice": 15.75,
+        "storeName": "Salatisegu Fit & Easy ,,Active“ 120g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hapukurk viibergi 400g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukurk-400g-2/",
+        "size": "400g",
+        "ean": "4742063000097",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742063000097.png",
+        "storeName": "Hapukurk Viibergi 400g v/p"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukurk-viibergi-400g/p/970591",
+        "size": "400g",
+        "storeUnitPrice": 8.79,
+        "storeName": "Hapukurk Viibergi 400g"
+      },
+      "selver": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukurk-viibergi-400-g",
+        "size": "400g",
+        "ean": "4742063000097",
+        "storeUnitPrice": 6.48,
+        "storeName": "Hapukurk, VIIBERGI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Porgand saaremaa 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/porgand-saaremaa-500g-pakitud-eesti/",
+        "size": "500g",
+        "ean": "4744888010022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4742983015003.png",
+        "storeName": "Porgand Saaremaa 500g pakitud"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/porgand/porgand-pestud-saaremaa-500g/p/995529",
+        "size": "500g",
+        "storeUnitPrice": 2.58,
+        "storeName": "Porgand pestud Saaremaa 500g"
+      },
+      "selver": {
+        "price": 1.57,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/porgand-rautsi-talu-500-g",
+        "size": "500g",
+        "ean": "4744888010022",
+        "storeUnitPrice": 3.14,
+        "storeName": "Porgand, RAUTSI TALU, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Shimeji 150g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shimeji-seen-valge-150g-hiina/",
+        "size": "150g",
+        "ean": "6930299220084",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/6930299220084.png",
+        "storeName": "Shimeji seen valge 150g"
+      },
+      "rimi": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/seened/shimeji-valged-seened-150g/p/975624",
+        "size": "150g",
+        "storeUnitPrice": 13.93,
+        "storeName": "Shimeji valged seened 150g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Küüslaugu 200g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuuslaugu-kuuned-200g-eesti/",
+        "size": "200g",
+        "ean": "0768563266300",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/0768563266300.jpg",
+        "storeName": "Küüslaugu küüned 200g"
+      },
+      "rimi": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kuuslauk/kuuslaugu-kuuned-kolleste-garlic-200g/p/996564",
+        "size": "200g",
+        "storeUnitPrice": 18.45,
+        "storeName": "Küüslaugu küüned Kõlleste Garlic 200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hapukapsas viibergi 650g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukapsas-porgandiga-kodune-viibergi-650g/p/906131",
+        "size": "650g",
+        "storeUnitPrice": 4.6,
+        "storeName": "Hapukapsas porgandiga kodune Viibergi 650g"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodune-hapukapsas-porgandiga-viibergi-650g",
+        "size": "650g",
+        "ean": "4742063004743",
+        "storeUnitPrice": 6.14,
+        "storeName": "Kodune hapukapsas porgandiga, VIIBERGI, 650g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti and Sibulad peedipulbriga 450g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/mar-sibulad-peedipulbriga-eesti-and-450g/p/4011292",
+        "size": "450g",
+        "storeUnitPrice": 6.64,
+        "storeName": "Mar. sibulad peedipulbriga Eesti And 450g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marineeritud-sibulad-peedipulbriga-eesti-and-450-g",
+        "size": "450g",
+        "ean": "4742798000430",
+        "storeUnitPrice": 6.64,
+        "storeName": "Marineeritud sibulad peedipulbriga, EESTI AND, 450 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Küüslauk must 75g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-kuuslauk-75g/",
+        "size": "75g",
+        "ean": "4744117011011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4744117011011.jpg",
+        "storeName": "Must küüslauk 75g"
+      },
+      "rimi": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kuuslauk/must-kuuslauk-75g/p/910030",
+        "size": "75g",
+        "storeUnitPrice": 93.2,
+        "storeName": "Must küüslauk 75g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti and Šampinjonid 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "rimi": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/marineeritud-sampinjonid-eesti-and-500g-300g/p/900275",
+        "size": "500g",
+        "storeUnitPrice": 19.3,
+        "storeName": "Marineeritud šampinjonid Eesti And 500g/300g"
+      },
+      "selver": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marineeritud-sampinjonid-eesti-and-500-g",
+        "size": "500g",
+        "storeUnitPrice": 11.18,
+        "storeName": "Marineeritud šampinjonid, EESTI AND, 500 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Viinamari hele thompson 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hele-viinamari-500g/",
+        "size": "500g",
+        "ean": "4740660014752",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740660014752.jpg",
+        "storeName": "Hele viinamari Thompson 500g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/viinamari-hele-seemneteta-selver-500-g",
+        "size": "500g",
+        "ean": "4740660014752",
+        "storeUnitPrice": 5.98,
+        "storeName": "Viinamari hele seemneteta, SELVER, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Virsik paraguayo kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/virsik-lapik-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/23032629.png",
+        "storeName": "Virsik lapik Paraguayo kg"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/virsik-paraguayo-kg",
+        "ean": "2704991000008",
+        "storeUnitPrice": 3.29,
+        "storeName": "Virsik Paraguayo, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Sidrunhein 50g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sidrunhein-50g/",
+        "size": "50g",
+        "ean": "8854878000905",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/8854878000905.jpg",
+        "storeName": "Sidrunhein 50g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sidrunhein-pakis-eat-me-50-g",
+        "size": "50g",
+        "ean": "8854878000905",
+        "storeUnitPrice": 39.8,
+        "storeName": "Sidrunhein pakis, EAT ME, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kirsstomat punane 250g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirsstomat-punane-250g/",
+        "size": "250g",
+        "ean": "4740660006696",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8717202270002.jpg",
+        "storeName": "Kirsstomat punane 250g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirsstomat-punane-250-g",
+        "size": "250g",
+        "ean": "4740669030012",
+        "storeUnitPrice": 7.96,
+        "storeName": "Kirsstomat punane, 250 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Redis punane 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/redis-pakitud-500g/",
+        "size": "500g",
+        "ean": "4740669026558",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740660007952.jpg",
+        "storeName": "Redis 500g pakitud"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/redis-punane-500-g",
+        "size": "500g",
+        "ean": "4740669026558",
+        "storeUnitPrice": 3.98,
+        "storeName": "Redis punane, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Salat korea 380g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/korea-salat-380g-dimdini/",
+        "size": "380g",
+        "ean": "4751001623694",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4751001623694.png",
+        "storeName": "Korea salat 380g"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/korea-salat-dimdini-380-g",
+        "size": "380g",
+        "ean": "4751001623694",
+        "storeUnitPrice": 7.08,
+        "storeName": "Korea salat, DIMDINI, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Viibergi Hapukurgiviilud küüslauguga 400g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukurgiviilud-kuuslauguga-400g-eesti/",
+        "size": "400g",
+        "ean": "4742063001001",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4742063001001.png",
+        "storeName": "Hapukurgiviilud küüslauguga 400g Viibergi"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukurgiviilud-kuuslauguga-viibergi-400-g",
+        "size": "400g",
+        "ean": "4742063001001",
+        "storeUnitPrice": 8.73,
+        "storeName": "Hapukurgiviilud küüslauguga, VIIBERGI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Redis valge kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/valge-redis-kg-lati/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/23016011.jpg",
+        "storeName": "Valge redis kg"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valge-redis-pakitud-kg",
+        "ean": "2700046000009",
+        "storeUnitPrice": 2.99,
+        "storeName": "Valge redis pakitud, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Paprika roheline kg",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/roheline-paprika-kg/",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/23008525.jpg",
+        "storeName": "Roheline paprika kg"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paprika-roheline-kg",
+        "ean": "2702261000000",
+        "storeUnitPrice": 2.99,
+        "storeName": "Paprika roheline, kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Porgand ahjusegu 700g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ahjusegu-700g/",
+        "size": "700g",
+        "ean": "4742368001539",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742368001539.jpg",
+        "storeName": "Ahjusegu-porgand,nuikapsas,porrulauk,kaalikas 700g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ahjusegu-porgand-kaalikas-sibul-nuikapsas-tsukiini-kadarbiku-koogivili-700-g",
+        "size": "700g",
+        "ean": "4742368001539",
+        "storeUnitPrice": 4.27,
+        "storeName": "Ahjusegu porgand, kaalikas, sibul, nuikapsas, tsukiini, KADARBIKU KÖÖGIVILI, 700 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Peipsi Kurk 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/varske-soolakurk-500g/",
+        "size": "500g",
+        "ean": "4744664010031",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4744664010031.jpg",
+        "storeName": "Värske soolakurk Peipsi Kurk 500g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/varske-soolakurk-ambris-germani-talu-500-g",
+        "size": "500g",
+        "ean": "4744664010031",
+        "storeUnitPrice": 11.98,
+        "storeName": "Värske soolakurk ämbris, GERMANI TALU, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Peakapsa 300g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/peakapsa-kimchi-300g-eesti/",
+        "size": "300g",
+        "ean": "4742368002048",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4742368002048.jpg",
+        "storeName": "Peakapsa Kimchi 300g"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peakapsa-kimchi-kadarbiku-koogivili-300g",
+        "size": "300g",
+        "ean": "4742368002048",
+        "storeUnitPrice": 11.97,
+        "storeName": "Peakapsa Kimchi, KADARBIKU KÖÖGIVILI, 300g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hapukapsas kadarbiku köögivili 900g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukapsas-porgandiga-900g-eesti/",
+        "size": "900g",
+        "ean": "4742368000969",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4742368000969.png",
+        "storeName": "Hapukapsas porgandiga 900g"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukapsas-porgandiga-kadarbiku-koogivili-900-g",
+        "size": "900g",
+        "ean": "4742368000969",
+        "storeUnitPrice": 2.72,
+        "storeName": "Hapukapsas porgandiga, KADARBIKU KÖÖGIVILI, 900 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hapukapsas kadarbiku kõõgivili 300g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukapsas-porgandiga-300g-topsis-eesti/",
+        "size": "300g",
+        "ean": "4742368002031",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4742368002031.png",
+        "storeName": "Hapukapsas porgandiga 300g topsis"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukapsas-porgandiga-topsis-kadarbiku-koogivili-300g",
+        "size": "300g",
+        "ean": "4742368002031",
+        "storeUnitPrice": 5.3,
+        "storeName": "Hapukapsas porgandiga topsis, KADARBIKU KÕÕGIVILI, 300g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hapukapsas kadarbiku köögivili 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukapsas-500g/",
+        "size": "500g",
+        "ean": "4740175000233",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740175000233.jpg",
+        "storeName": "Hapukapsas porgandiga 500g pakitud"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukapsas-porgandiga-kadarbiku-koogivili-500-g",
+        "size": "500g",
+        "ean": "4740175000233",
+        "storeUnitPrice": 3.58,
+        "storeName": "Hapukapsas porgandiga, KADARBIKU KÖÖGIVILI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti and Soolakurk küüslauguga 300g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soolakurk-kuuslaugu-300g/",
+        "size": "300g",
+        "ean": "4742798000201",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742798000201.jpg",
+        "storeName": "Soolakurk küüslauguga Eesti And 300g"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolakurk-kuuslauguga-eesti-and-300-g",
+        "size": "300g",
+        "ean": "4742798000201",
+        "storeUnitPrice": 11.63,
+        "storeName": "Soolakurk küüslauguga, EESTI AND, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kartul punane 2000g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartul-laura-2kg/",
+        "size": "2000g",
+        "ean": "4743116000019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4743116000019.jpg",
+        "storeName": "Kartul punane pestud 2kg pakitud"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartul-punane-villeri-2kg",
+        "size": "2000g",
+        "ean": "4743116000019",
+        "storeUnitPrice": 1.2,
+        "storeName": "Kartul punane, VILLERI, 2kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Porgand laheotsa 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/porgand-500g/",
+        "size": "500g",
+        "ean": "4743116000149",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743116000149.jpg",
+        "storeName": "Porgand 500g pakitud"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/porgand-laheotsa-500-g",
+        "size": "500g",
+        "ean": "4743116000149",
+        "storeUnitPrice": 2.98,
+        "storeName": "Porgand, LAHEOTSA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Peet mõisaproua 500g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aurutatud-peet-500g-moisaproua/",
+        "size": "500g",
+        "ean": "4748001005254",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4748001005254.png",
+        "storeName": "Aurutatud peet Mõisaproua 500g"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aurutatud-peet-moisaproua-500-g",
+        "size": "500g",
+        "ean": "4748001005254",
+        "storeUnitPrice": 2.9,
+        "storeName": "Aurutatud peet, MÕISAPROUA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Shampinjonid 230g valged",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shampinjonid-230g/",
+        "size": "230g",
+        "ean": "4742960010021",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4742960010021.jpg",
+        "storeName": "Shampinjonid 230g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sampinjonid-valged-230-g",
+        "size": "230g",
+        "ean": "4742960010021",
+        "storeUnitPrice": 9.52,
+        "storeName": "Šampinjonid valged, 230 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Baby 230g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/baby-shampinjonid-230g-poola-2/",
+        "size": "230g",
+        "ean": "4742960010076",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4742960010076.png",
+        "storeName": "Baby shampinjonid 230g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/beebisampinjonid-230-g",
+        "size": "230g",
+        "ean": "4742960010076",
+        "storeUnitPrice": 8.65,
+        "storeName": "Beebišampinjonid, 230 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Shampinjonid 200g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shampinjonid-viilutatud-200g-eesti/",
+        "size": "200g",
+        "ean": "4742960010069",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742960010069.png",
+        "storeName": "Shampinjonid viilutatud 200g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sampinjon-viilutatud-200-g",
+        "size": "200g",
+        "ean": "4742960010069",
+        "storeUnitPrice": 12.95,
+        "storeName": "Šampinjon viilutatud, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Shampinjonid 230g pruunid",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shampinjonid-pruunid-230g-eesti/",
+        "size": "230g",
+        "ean": "4742960010236",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4742960010236.png",
+        "storeName": "Shampinjonid pruunid 230g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sampinjonid-pruunid-230-g",
+        "size": "230g",
+        "ean": "4742960010236",
+        "storeUnitPrice": 11.26,
+        "storeName": "Šampinjonid pruunid, 230 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Austerservikud 300g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/austerservikud-300g-eesti/",
+        "size": "300g",
+        "ean": "4742960019833",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4742960019833.png",
+        "storeName": "Austerservikud 300g"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seen-austerservik-300-g",
+        "size": "300g",
+        "ean": "4742960019833",
+        "storeUnitPrice": 13.3,
+        "storeName": "Seen Austerservik, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Seen 300g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seen-portobello-300g-eesti/",
+        "size": "300g",
+        "ean": "4742960010892",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4742960010892.png",
+        "storeName": "Seen Portobello 300g"
+      },
+      "selver": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seen-portabello-300-g",
+        "size": "300g",
+        "ean": "4742960010892",
+        "storeUnitPrice": 11.3,
+        "storeName": "Seen Portabello, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Grüne fee Meliss 1",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meliss-potis/",
+        "ean": "4741116000084",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4741116000084.jpg",
+        "storeName": "Meliss potis Grüne Fee"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/meliss-potis-grune-fee-1-tk",
+        "ean": "4741116000084",
+        "storeUnitPrice": 2.39,
+        "storeName": "Meliss potis, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Koriander 50g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koriander-50g-itaalia/",
+        "size": "50g",
+        "ean": "8028495000376",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/8028495000611.png",
+        "storeName": "Koriander 50g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koriander-50-g",
+        "size": "50g",
+        "ean": "8028495000376",
+        "storeUnitPrice": 49.8,
+        "storeName": "Koriander, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rosmariin 50g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rosmariin-50g-itaalia/",
+        "size": "50g",
+        "ean": "8028495000598",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/8028495000598.jpg",
+        "storeName": "Rosmariin 50g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rosmariin-50-g",
+        "size": "50g",
+        "ean": "8028495000598",
+        "storeUnitPrice": 49.8,
+        "storeName": "Rosmariin, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Brokoli mahe 40g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/brokkoli-vorsed-40g-eesti/",
+        "size": "40g",
+        "ean": "4742023130512",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4742023130512.png",
+        "storeName": "Brokoli võrsed 40g"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/brokoli-vorsed-vaike-mahetalu-40-g",
+        "size": "40g",
+        "ean": "4742023130512",
+        "storeUnitPrice": 89.75,
+        "storeName": "Brokoli võrsed, VÄIKE MAHETALU, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lutserni mahe 100g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-lutserni-idud-100g-eesti/",
+        "size": "100g",
+        "ean": "4744602010147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4744602010147.png",
+        "storeName": "Mahe Lutserni idud 100g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-lutserni-idud-ruuts-100-g",
+        "size": "100g",
+        "ean": "4744602010147",
+        "storeUnitPrice": 17.9,
+        "storeName": "Mahe Lutserni idud, RÜÜTS, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Läätsede mahe 140g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oko-laatsede-idusalat-125g-eesti/",
+        "size": "140g",
+        "ean": "4744602010093",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4744602010093.jpg",
+        "storeName": "Mahe Läätsede idusalat 140g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-laatse-idusalat-beluga-ja-rohelise-laatse-idud-ruuts-140-g",
+        "size": "140g",
+        "ean": "4744602010093",
+        "storeUnitPrice": 12.79,
+        "storeName": "Mahe Läätse idusalat (Beluga-ja Rohelise läätse idud), RÜÜTS, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Grüne fee Lehtsalat 1",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lehtsalat-potis/",
+        "ean": "4741116000015",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741116000015.jpg",
+        "storeName": "Lehtsalat potis Grüne Fee"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lehtsalat-potis-grune-fee-1-tk",
+        "ean": "4741116000015",
+        "storeUnitPrice": 1.99,
+        "storeName": "Lehtsalat potis, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Till grüne fee tk",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/till-potis-eesti/",
+        "ean": "4741116000046",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4741116000046.png",
+        "storeName": "Till potis Grüne Fee"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/till-potis-grune-fee-tk",
+        "ean": "4741116000046",
+        "storeUnitPrice": 2.29,
+        "storeName": "Till potis, GRÜNE FEE, tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Petersell grüne fee tk",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/petersell-potis-eesti/",
+        "ean": "4741116000053",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4741116000053.jpg",
+        "storeName": "Petersell potis Grüne Fee"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/petersell-potis-grune-fee-1-tk",
+        "ean": "4741116000053",
+        "storeUnitPrice": 2.39,
+        "storeName": "Petersell potis, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Basiilik grüne fee tk",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/basiilik-potis-eesti/",
+        "ean": "4741116000077",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/4741116000077.jpg",
+        "storeName": "Basiilik potis Grüne Fee"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/basiilik-grune-fee-1-tk",
+        "ean": "4741116000077",
+        "storeUnitPrice": 1.89,
+        "storeName": "Basiilik, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Grüne fee Oregano 1",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oregano-potis/",
+        "ean": "4741116000091",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4741116000091.jpg",
+        "storeName": "Oregano potis Grüne Fee"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oregano-potis-grune-fee-1-tk",
+        "ean": "4741116000091",
+        "storeUnitPrice": 2.49,
+        "storeName": "Oregano potis, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Grüne fee Frillis 1",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/frillis-loigatud-kiles-eesti/",
+        "ean": "4741116000213",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4741116000213.jpg",
+        "storeName": "Frillis lõigatud kiles Grüne Fee"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/frillis-loigatud-grune-fee-1-tk",
+        "ean": "4741116000213",
+        "storeUnitPrice": 1.39,
+        "storeName": "Frillis lõigatud, GRÜNE FEE, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vaarikad 125g",
+    "category": "Fruits & vegetables",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaarikad-125g-hispaania/",
+        "size": "125g",
+        "ean": "4740608051450",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/753217681646.png",
+        "storeName": "Vaarikad 125g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarikas-karbis-125-g",
+        "size": "125g",
+        "ean": "4740608051450",
+        "storeUnitPrice": 39.92,
+        "storeName": "Vaarikas karbis, 125 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Sibul võrgus kg",
@@ -1039,934 +4283,6 @@
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/sibulkoogiviljad/sibul-vorgus-eesti-kg/p/906914",
         "storeUnitPrice": 2.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kõrvits kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/korvits-kg",
-        "storeUnitPrice": 1.19
-      },
-      "rimi": {
-        "price": 0.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/korvits-suvikorvits/korvits-kg/p/282652",
-        "storeUnitPrice": 0.79
-      },
-      "selver": {
-        "price": 1.69,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/korvits-kg",
-        "storeUnitPrice": 0.89
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Baklažaan kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/baklazaan-kg",
-        "storeUnitPrice": 2.19
-      },
-      "rimi": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/baklazaan/baklazaan-kg/p/269170",
-        "storeUnitPrice": 2.79
-      },
-      "selver": {
-        "price": 3.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/baklazaan-kg",
-        "storeUnitPrice": 3.19
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kurk luunja kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.69,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kurk-luunja-kg",
-        "storeUnitPrice": 2.69
-      },
-      "rimi": {
-        "price": 4.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kurk/kurk-luunja-kg/p/275290",
-        "storeUnitPrice": 4.29
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Paprika punane kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/punane-paprika-1-kl-kg",
-        "storeUnitPrice": 2.29
-      },
-      "rimi": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/paprika-punane-1kl-kg/p/269167",
-        "storeUnitPrice": 2.29
-      },
-      "selver": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/paprika-punane-kg",
-        "storeUnitPrice": 2.29
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Paprika valge kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.89,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/valge-paprika-1-kl-kg",
-        "storeUnitPrice": 1.89
-      },
-      "rimi": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/paprika-valge-1kl-kg/p/221465",
-        "storeUnitPrice": 2.79
-      },
-      "selver": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/valge-paprika-kg",
-        "storeUnitPrice": 2.79
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Tomat kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/tomat-lahtine-1-kl-kg",
-        "storeUnitPrice": 1.79
-      },
-      "rimi": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/tomat-1kl-kg/p/266894",
-        "storeUnitPrice": 1.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Paprika kollane kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/paprika-kollane-1-kl-kg",
-        "storeUnitPrice": 3.99
-      },
-      "rimi": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/paprika-kollane-1kl-kg/p/209926",
-        "storeUnitPrice": 3.99
-      },
-      "selver": {
-        "price": 3.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/paprika-kollane-kg",
-        "storeUnitPrice": 3.29
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Lillkapsas kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.59,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/lillkapsas-kg",
-        "storeUnitPrice": 3.59
-      },
-      "rimi": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/lillkapsas-kg/p/200833",
-        "storeUnitPrice": 2.19
-      },
-      "selver": {
-        "price": 4.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/lillkapsas-kg",
-        "storeUnitPrice": 4.29
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Õun granny smith kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/oun-granny-smith-1-kl-kg",
-        "storeUnitPrice": 2.39
-      },
-      "selver": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/oun-granny-smith-kg",
-        "storeUnitPrice": 2.29
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Õun kanzi kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/oun-kanzi-1-kl-kg",
-        "cardPrice": 3.19,
-        "cardName": "Aitäh",
-        "storeUnitPrice": 3.19
-      },
-      "rimi": {
-        "price": 3.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/oun-ja-pirn/oun-kanzi-1kl-kg/p/281840",
-        "storeUnitPrice": 3.79
-      },
-      "selver": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/oun-kanzi-kg",
-        "storeUnitPrice": 3.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Õun royal gala kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.69,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/oun-royal-gala-1-kl-kg",
-        "storeUnitPrice": 2.69
-      },
-      "rimi": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/oun-ja-pirn/oun-royal-gala-1kl-kg/p/269153",
-        "storeUnitPrice": 1.49
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Õun paulared kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 0.45,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/oun-paulared-1-kl-kg",
-        "storeUnitPrice": 0.45
-      },
-      "selver": {
-        "price": 0.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/oun-paulared-kg",
-        "storeUnitPrice": 0.39
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Ploom tume kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/ploom-tume-kg",
-        "storeUnitPrice": 1.99
-      },
-      "rimi": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/luuviljad/ploom-tume-1kl-kg/p/967800",
-        "storeUnitPrice": 0.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Pomel kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/pomel-1-kl-kg",
-        "storeUnitPrice": 2.99
-      },
-      "rimi": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/pomel-1kl-kg/p/211258",
-        "storeUnitPrice": 2.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Banaan kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/banaan-kg",
-        "storeUnitPrice": 1.29
-      },
-      "selver": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/banaan-kg",
-        "storeUnitPrice": 1.29
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kiivi kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kiivi-1-kl-kg",
-        "storeUnitPrice": 4.99
-      },
-      "rimi": {
-        "price": 3.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/kiivi-1kl-kg/p/213197",
-        "storeUnitPrice": 3.29
-      },
-      "selver": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kiivi-kg",
-        "storeUnitPrice": 4.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Granaatõun kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.49,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/granaatoun-kg",
-        "storeUnitPrice": 3.49
-      },
-      "rimi": {
-        "price": 5.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/granaatoun-kg/p/210718",
-        "storeUnitPrice": 5.99
-      },
-      "selver": {
-        "price": 5.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/granaatoun-kg",
-        "storeUnitPrice": 5.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kadarbiku Beebiporgand 250g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/beebiporgand-kadarbiku-250-g",
-        "size": "250g",
-        "storeUnitPrice": 7.16
-      },
-      "rimi": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/porgand/beebiporgand-kadarbiku-250g/p/263755",
-        "size": "250g",
-        "storeUnitPrice": 7.16
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Laheotsa Kartul 2000g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kartul-pestud-pakitud-laheotsa-2-kg",
-        "size": "2000g",
-        "storeUnitPrice": 1.4
-      },
-      "rimi": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/kartul-pestud-laheotsa-2kg/p/200892",
-        "size": "2000g",
-        "storeUnitPrice": 1.4
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Spinat grüne fee tk",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.35,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/spinat-grune-fee",
-        "storeUnitPrice": 2.35
-      },
-      "selver": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/spinat-potis-grune-fee-1-tk",
-        "storeUnitPrice": 1.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Piparmünt grüne fee tk",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.35,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/piparmunt-grune-fee",
-        "storeUnitPrice": 2.35
-      },
-      "rimi": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/maitsetaimed/maitsetaimed/piparmunt-potis-grune-fee-tk/p/200295",
-        "storeUnitPrice": 59.75
-      },
-      "selver": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/piparmunt-potis-grune-fee-1-tk",
-        "storeUnitPrice": 2.39
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti And Soolakurk küüslauguga 500g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/soolakurk-kuuslauguga-500-g",
-        "size": "500g",
-        "storeUnitPrice": 6.58
-      },
-      "rimi": {
-        "price": 3.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/soolakurk-kuuslauguga-eesti-and-500g-300g/p/900273",
-        "size": "500g",
-        "storeUnitPrice": 6.58
-      }
-    },
-    "matchedVia": "override",
-    "hidden": false
-  },
-  {
-    "name": "Kartul talukartul punane 2500g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.59,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kartul-pestud-punane-talukartul-2-5-kg",
-        "size": "2500g",
-        "storeUnitPrice": 1.44
-      },
-      "selver": {
-        "price": 3.59,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kartul-punane-talukartul-2-5-kg",
-        "size": "2500g",
-        "storeUnitPrice": 1.44
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kartul punane kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/eesti-punane-kartul-pestud-kg",
-        "storeUnitPrice": 0.99
-      },
-      "rimi": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/kartul-punane-pestud-kg-eesti/p/276041",
-        "storeUnitPrice": 0.99
-      },
-      "selver": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kartul-punane-pestud-kg",
-        "storeUnitPrice": 0.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Nuikapsas kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/nuikapsas-kg",
-        "storeUnitPrice": 1.99
-      },
-      "rimi": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/nuikapsas-kg/p/4004519",
-        "storeUnitPrice": 1.99
-      },
-      "selver": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/nuikapsas-kg",
-        "storeUnitPrice": 1.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Dattel 200g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/dattel-200-g",
-        "size": "200g",
-        "storeUnitPrice": 4.95
-      },
-      "selver": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/dattel-200-g",
-        "size": "200g",
-        "storeUnitPrice": 6.45
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Vaarikatomat kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/vaarikatomat-1-kl-kg",
-        "storeUnitPrice": 2.99
-      },
-      "rimi": {
-        "price": 2.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/vaarikatomat-1kl-kg/p/266908",
-        "storeUnitPrice": 2.59
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kiivi kollane 500g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kiivi-kollane-karbis-500-g",
-        "size": "500g",
-        "storeUnitPrice": 9.98
-      },
-      "selver": {
-        "price": 5.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kiivi-kollane-karbis-500-g",
-        "size": "500g",
-        "storeUnitPrice": 11.98
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Peet 350g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 0.75,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/aurutatud-riiv-peet-vaakumis-350-g",
-        "size": "350g",
-        "storeUnitPrice": 2.14
-      },
-      "rimi": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/keedetud-riivitud-peet-350g/p/944265",
-        "size": "350g",
-        "storeUnitPrice": 2.83
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Ananass kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/ananass-kg",
-        "storeUnitPrice": 2.79
-      },
-      "rimi": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/ananass-kg/p/269165",
-        "storeUnitPrice": 2.79
-      },
-      "selver": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/ananass-kg",
-        "storeUnitPrice": 2.29
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Tomat kollane kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/tomat-kollane-1-kl-kg-12185",
-        "storeUnitPrice": 3.99
-      },
-      "selver": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/tomat-kollane-kg",
-        "storeUnitPrice": 3.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Sibul punane 400g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.55,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/marineeritud-punane-sibul-400-g",
-        "cardPrice": 1.89,
-        "cardName": "Aitäh",
-        "size": "400g",
-        "storeUnitPrice": 4.73
-      },
-      "rimi": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/marineeritud-punane-sibul-400-200g/p/4011970",
-        "size": "400g",
-        "storeUnitPrice": 11.95
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti and Soolakurk tšilliga 300g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 3.49,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/soolakurk-punase-tsilliga-300-g",
-        "size": "300g",
-        "storeUnitPrice": 11.63
-      },
-      "selver": {
-        "price": 3.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/soolakurgid-punase-tsilliga-300g",
-        "size": "300g",
-        "storeUnitPrice": 11.63
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Spargel 250g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 5.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/spargel-250-g",
-        "size": "250g",
-        "storeUnitPrice": 23.96
-      },
-      "selver": {
-        "price": 6.58,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/spargel-ehk-asparaagus-250-g",
-        "size": "250g",
-        "storeUnitPrice": 26.32
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kõrvits hokkaido kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.69,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/hokkaido-korvits-kg",
-        "storeUnitPrice": 1.69
-      },
-      "rimi": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/korvits-suvikorvits/hokkaido-korvits-kg/p/4005453",
-        "storeUnitPrice": 1.59
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Särtsakas peedisalat koriandriga 450g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.59,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/sartsakas-peedisalat-koriandriga-450-g",
-        "size": "450g",
-        "storeUnitPrice": 5.76
-      },
-      "rimi": {
-        "price": 2.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/peedisalat-koriandriga-eesti-and-450g/p/2000453",
-        "size": "450g",
-        "storeUnitPrice": 5.76
-      }
-    },
-    "matchedVia": "override",
-    "hidden": false
-  },
-  {
-    "name": "Kadarbiku Hapukapsas 900g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.45,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/hapukapsas-pakitud-kadarbiku-900-g",
-        "size": "900g",
-        "storeUnitPrice": 2.72
-      },
-      "rimi": {
-        "price": 2.45,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukapsas-kadarbiku-900g/p/4004631",
-        "size": "900g",
-        "storeUnitPrice": 2.72
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kapsas punane kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/punane-kapsas-kg",
-        "storeUnitPrice": 1.09
-      },
-      "rimi": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/kapsas-punane-kg/p/904650",
-        "storeUnitPrice": 1.19
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Laim kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/laim-1-kl-kg",
-        "cardPrice": 3.99,
-        "cardName": "Aitäh",
-        "unavailable": true
-      },
-      "rimi": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/laim-1kl-kg/p/267980",
-        "storeUnitPrice": 4.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": true
-  },
-  {
-    "name": "Murulauk grüne fee tk",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 2.35,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/murulauk-grune-fee",
-        "storeUnitPrice": 2.35
-      },
-      "selver": {
-        "price": 2.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/murulauk-potis-grune-fee-1-tk",
-        "storeUnitPrice": 2.49
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Papaia formosa kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "barbora": {
-        "price": 8.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/papaia-formosa-kg",
-        "storeUnitPrice": 8.29
-      },
-      "rimi": {
-        "price": 6.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/troopilised-puuviljad/papaia-formosa-kg/p/902709",
-        "storeUnitPrice": 6.99
       }
     },
     "matchedVia": "automatic",
@@ -2009,282 +4325,6 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/porgand-pestud-kg",
         "storeUnitPrice": 0.45
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Sidrun eureka kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 2.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/tsitrusviljad/sidrun-eureka-1kl-kg/p/969226",
-        "storeUnitPrice": 2.29
-      },
-      "selver": {
-        "price": 2.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/sidrun-eureka-kg",
-        "storeUnitPrice": 1.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Virsik kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/luuviljad/virsik-1kl-kg/p/268335",
-        "storeUnitPrice": 2.99
-      },
-      "selver": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/virsik-kg",
-        "storeUnitPrice": 3.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Pirn guyot kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/puuviljad/oun-ja-pirn/pirn-guyot-1kl-kg/p/214958",
-        "storeUnitPrice": 2.99
-      },
-      "selver": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/pirn-guyot-kg",
-        "storeUnitPrice": 2.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Sibul punane kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/sibulkoogiviljad/sibul-punane-kg-eesti/p/201204",
-        "storeUnitPrice": 1.59
-      },
-      "selver": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/punane-sibul-kg",
-        "storeUnitPrice": 0.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kartul talukartul kollane 2500g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 3.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kartul/kartul-pestud-kollane-talukartul-2-5kg/p/299038",
-        "size": "2500g",
-        "storeUnitPrice": 1.44
-      },
-      "selver": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kartul-kollane-talukartul-2-5-kg",
-        "size": "2500g",
-        "storeUnitPrice": 1.6
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Tšillipipar punane kg",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 7.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/paprika-ja-piprad/tsillipipar-punane-1kl-kg/p/210112",
-        "storeUnitPrice": 7.99
-      },
-      "selver": {
-        "price": 7.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/tsillipipar-punane-lahtine-kg",
-        "storeUnitPrice": 7.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Redis 125g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 0.85,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/redis/redis-tuutu-125g/p/200640",
-        "size": "125g",
-        "storeUnitPrice": 6.8
-      },
-      "selver": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/redis-pakitud-125-g",
-        "size": "125g",
-        "storeUnitPrice": 7.92
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Kapsas brüsseli 500g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 2.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/kapsas/brusseli-kapsas-500g/p/271991",
-        "size": "500g",
-        "storeUnitPrice": 5.58
-      },
-      "selver": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/brusseli-kapsas-500-g",
-        "size": "500g",
-        "storeUnitPrice": 3.98
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Intsu Kirsstomat 250g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 3.49,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/juurviljad-ja-koogiviljad/tomat/kirsstomat-punane-intsu-talu-1kl-250g/p/911268",
-        "size": "250g",
-        "storeUnitPrice": 13.96
-      },
-      "selver": {
-        "price": 4.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kirsstomat-punane-intsu-250-g",
-        "size": "250g",
-        "unavailable": true
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": true
-  },
-  {
-    "name": "Hapukurk viibergi 400g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukurk-viibergi-400g/p/970591",
-        "size": "400g",
-        "storeUnitPrice": 8.79
-      },
-      "selver": {
-        "price": 3.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/hapukurk-viibergi-400-g",
-        "size": "400g",
-        "storeUnitPrice": 6.48
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Hapukapsas viibergi 650g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/hapukapsas-porgandiga-kodune-viibergi-650g/p/906131",
-        "size": "650g",
-        "storeUnitPrice": 4.6
-      },
-      "selver": {
-        "price": 3.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kodune-hapukapsas-porgandiga-viibergi-650g",
-        "size": "650g",
-        "storeUnitPrice": 6.14
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti and Sibulad peedipulbriga 450g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/mar-sibulad-peedipulbriga-eesti-and-450g/p/4011292",
-        "size": "450g",
-        "storeUnitPrice": 6.64
-      },
-      "selver": {
-        "price": 2.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/marineeritud-sibulad-peedipulbriga-eesti-and-450-g",
-        "size": "450g",
-        "storeUnitPrice": 6.64
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti and Šampinjonid 500g",
-    "category": "Fruits & vegetables",
-    "prices": {
-      "rimi": {
-        "price": 5.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/puuviljad-koogiviljad-lilled/toodeldud-puu--ja-koogiviljad/marineeritud-sampinjonid-eesti-and-500g-300g/p/900275",
-        "size": "500g",
-        "storeUnitPrice": 19.3
-      },
-      "selver": {
-        "price": 5.59,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/marineeritud-sampinjonid-eesti-and-500-g",
-        "size": "500g",
-        "storeUnitPrice": 11.18
       }
     },
     "matchedVia": "automatic",

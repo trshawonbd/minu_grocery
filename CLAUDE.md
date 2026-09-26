@@ -218,6 +218,11 @@ the owner.
   the other not blocks the match (see IDENTITY_QUALIFIER_PATTERNS in
   `scraper/match-products.js`). The four spellings are one qualifier,
   so "Öko" on one side and "BIO" on the other still match each other.
+- **Batch 9 follow-ups (owner, 2026-09-27):** Podravka-style dry
+  packet soups (cooked in a pot) STAY in Instant food alongside cup
+  soups; the 7 ambiguous Spirits groups (same-store duplicate
+  listings, Saaremaa 40%/80% vs a strength-less Selver listing) stay
+  unmatched — don't ask again.
 - **Batch 9 scope (owner, 2026-09-26):** *Cakes & pastries* =
   packaged cakes, cake rolls, keeks, pastries; never in-store bakery,
   dough, biscuits/wafers/gingerbread. *Instant food* = instant
@@ -325,7 +330,17 @@ about anything ambiguous.
 - **Display names**: every name is synthesized (`synthesizeCanonicalName`
   in `scraper/match-products.js`) in Estonian — brand, type,
   descriptors, organic/grade qualifiers, the stated fat/cocoa %, then
-  size. Diapers & baby wipes have their own shape (brand, product
+  size. **Descriptor words keep the order and spelling the store
+  wrote** (the owner's call, 2026-09-27: "Pinot grigio", "Black
+  Label", never the matcher's sorted/translated form) — the store
+  with the fewest abbreviations supplies the wording; an abbreviation
+  is still shown expanded ("Külm." → külmutatud) and a "-maitseline"
+  suffix still stripped. Matching itself compares the sorted form and
+  is untouched by display. `scraper/rename-products.js` recomputes
+  ONLY names over `data/prices.json` from `data/raw/` (no re-matching,
+  no price change — safe for the daily-updated categories too); use it
+  whenever a naming rule changes, and check before/after that nothing
+  but `name` differs. Diapers & baby wipes have their own shape (brand, product
   line, püksmähkmed/mähkmed, S-size, piece count, Boy/Girl — never a
   weight; their stored `size` is the piece count, so the screen prices
   per piece). No two products in a category may share a name —

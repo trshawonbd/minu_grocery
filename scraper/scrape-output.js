@@ -64,6 +64,20 @@ async function fetchAllUrls(fetchFn, urlOrUrls, pageParam) {
 // category opts out of strictPackaging explicitly (default true) and
 // opts into matchAcrossWeights explicitly (default false) — see
 // scraper/categories.js.
+// A raw item read back from data/raw/ carries the settings recorded in
+// meta.json AT SCRAPE TIME. A rebuild or rename exists because a rule
+// changed since, so the CURRENT settings in scraper/categories.js win:
+// every flag is cleared and set again exactly as prepareItem sets it
+// today, signature included.
+const CATEGORY_FLAGS = ["strictPackaging", "matchAcrossWeights", "diaperMatching", "fixedWeightMustMatch", "alcoholMatching", "impliedDescriptors", "signature"];
+
+function withCurrentSettings(items, category) {
+  return items.map((item) => {
+    for (const flag of CATEGORY_FLAGS) delete item[flag];
+    return prepareItem(item, category);
+  });
+}
+
 function prepareItem(item, category) {
   if (category.strictPackaging !== false) item.strictPackaging = true;
   if (category.matchAcrossWeights === true) item.matchAcrossWeights = true;
@@ -201,6 +215,7 @@ module.exports = {
   fetchAllPages,
   fetchAllUrls,
   prepareItem,
+  withCurrentSettings,
   isUnclassified,
   toLeftoverEntry,
   toStoreEntry,

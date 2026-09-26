@@ -1297,6 +1297,22 @@ const tests = [
     },
   },
   {
+    name: "Display names (owner, 2026-09-27): descriptor words keep the order and spelling the store wrote — 'pinot grigio', 'black label', 'white label' — an abbreviation is still expanded (Külm. -> külmutatud), a '-maitseline' suffix still strips, the store with the fewest abbreviations supplies the wording, and matching itself is unchanged",
+    run: () => {
+      const wine = (store, name, brand) => buildItem("Wine", store, name, { brand });
+      const spirits = (store, name, brand) => buildItem("Spirits", store, name, { brand });
+      assert.equal(matchItems(wine("Barbora", "KPN vein DOPPIO PASSO Pinot Grigio 750ml", "doppio passo"), wine("Rimi", "Kpn.vein Doppio Passo Pinot Grigio 0,75l", "doppio passo")).canonicalName, "Doppio passo pinot grigio 750ml");
+      assert.equal(matchItems(spirits("Rimi", "Whisky Johnnie Walker Black Label 40% 0,7l", "johnnie walker"), spirits("Selver", "Viski JOHNNIE WALKER Black Label, 70 cl", "johnnie walker")).canonicalName, "Johnnie walker Viski black label 40% 700ml", "'black' as the store wrote it, not the matcher's 'must'");
+      assert.equal(matchItems(spirits("Barbora", "Whisky JIM BEAM White Label 40% 500ml", "jim beam"), spirits("Rimi", "Whisky Jim Beam White Label 40% 0,5l", "jim beam")).canonicalName, "Jim beam Viski white label 40% 500ml");
+      const frozen = (store, name, brand) => buildItem("Meat", store, name, { brand });
+      assert.equal(matchItems(frozen("Barbora", "Külm. kanafilee TALLEGG 600g", "tallegg"), frozen("Rimi", "Külmutatud kanafilee Tallegg 600g", "tallegg")).canonicalName, "Tallegg Külmutatud kanafilee 600g", "Rimi's whole word supplies the spelling; Barbora's abbreviation is never shown");
+      const biscuit = (store, name, brand) => buildItem("Biscuits", store, name, { brand });
+      assert.equal(matchItems(biscuit("Barbora", "Küpsis kookosemaits. SELGA 180g", "selga"), biscuit("Rimi", "Küpsis kookosemaitseline Selga 180g", "selga")).canonicalName, "Selga Küpsis kookose 180g", "a suffix strip is not undone");
+      // Matching reads the sorted form: order never decides a match.
+      assert.equal(sameProduct(wine("Barbora", "KPN vein X Grigio Pinot 750ml", "x"), wine("Rimi", "Kpn.vein X Pinot Grigio 0,75l", "x")), true);
+    },
+  },
+  {
     name: "Beer: 'Hele õlu' as the type phrase folds to 'õlu' (Barbora/Selver's lager prefix vs Rimi's plain 'Õlu'), but a product's own 'Hele' (Saku Hele) stays its name — it matches itself across stores and never Saku Kuld",
     run: () => {
       const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });

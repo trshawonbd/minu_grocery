@@ -895,6 +895,19 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   ["wine", "vein"],
 ];
 
+// The whole-word list above as regexes. Unicode-aware word boundary —
+// a plain \b treats a leading/trailing diacritic (ö, õ, ä, ü, š) as
+// "not a word character", so it fails to bound a word like "öko" at
+// all; this checks for an adjacent letter directly instead, the same
+// way `u`+`\p{L}` is used elsewhere in this file. Also used alone by
+// displayWordMap: a store's word that only differs from the descriptor
+// by one of these spellings/translations is shown as the store wrote
+// it; a suffix strip ("-maitseline") is not undone.
+const WORD_NORMALIZATION_REGEXES = DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
+  regex: new RegExp(`(?<![\\p{L}])${pattern}(?![\\p{L}])`, "giu"),
+  replacement,
+}));
+
 const DESCRIPTOR_NORMALIZATION_PATTERNS = [
   // "-flavoured" as a SUFFIX fused onto the flavour word, in every
   // spelling a store abbreviates it to — "juustumaitseline",
@@ -931,15 +944,7 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
   // implied word instead erased the name: first scrape showed "Saku
   // pudel 5.2% 500ml".)
   { regex: /(?<![\p{L}])hele\s+õlu(?![\p{L}])/giu, replacement: "õlu" },
-].concat(DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
-  // Unicode-aware word boundary — a plain \b treats a leading/trailing
-  // diacritic (ö, õ, ä, ü, š) as "not a word character", so it fails
-  // to bound a word like "öko" at all; this checks for an adjacent
-  // letter directly instead, the same way `u`+`\p{L}` is used
-  // elsewhere in this file.
-  regex: new RegExp(`(?<![\\p{L}])${pattern}(?![\\p{L}])`, "giu"),
-  replacement,
-}))).concat([
+].concat(WORD_NORMALIZATION_REGEXES).concat([
   // "marin" also needs to strip as a SUFFIX on a flavour word
   // compounded directly onto it with no separator, Barbora's own
   // style ("Grill-liha mustikamarin. RAKVERE,500g" -> flavour word
@@ -964,6 +969,14 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
 // that opted in — the same word stays a real descriptor everywhere
 // else (frozen vs fresh in Meat/Fish).
 function extractDescriptors(name, brand, impliedWords = []) {
+  const words = descriptorWordList(name, brand, impliedWords);
+  return words.length > 0 ? [...words].sort().join(" ") : null;
+}
+
+// The same words in the ORDER the store wrote them (unique, normalized)
+// — kept on the signature as `descriptorOrder` for the display name
+// only; matching compares the sorted form above.
+function descriptorWordList(name, brand, impliedWords = []) {
   let text = stripQualityGrade(name);
 
   if (brand) {
@@ -1020,10 +1033,32 @@ function extractDescriptors(name, brand, impliedWords = []) {
   }
 
   const implied = new Set(impliedWords.map((w) => w.toLowerCase()));
-  const words = [...new Set([...text.matchAll(/\p{L}+/gu)].map((m) => m[0].toLowerCase()))]
-    .filter((w) => !implied.has(w))
-    .sort();
-  return words.length > 0 ? words.join(" ") : null;
+  return [...new Set([...text.matchAll(/\p{L}+/gu)].map((m) => m[0].toLowerCase()))].filter((w) => !implied.has(w));
+}
+
+// For the display name (the owner's call, 2026-09-27): a descriptor is
+// shown as the store itself wrote it — "Black Label", not "must
+// label"; "Pinot Grigio", not "grigio pinot" — whenever the store's own
+// token is a clean whole word (letters only, no abbreviation period)
+// that normalizes to exactly that descriptor. An abbreviation
+// ("juustumaits.", "Külm.") has no clean token, so the expanded
+// normalized word is shown as before. Maps normalized word -> the
+// store's own lowercase word.
+function displayWordMap(name, brand) {
+  let text = stripQualityGrade(name);
+  if (brand) {
+    const brandPattern = new RegExp(`\\b${escapeRegExp(brand).replace(/\s+/g, "\\s+")}\\b`, "gi");
+    text = text.replace(brandPattern, " ");
+  }
+  const shown = {};
+  for (const token of text.split(/[\s,;()]+/)) {
+    if (!/^\p{L}+$/u.test(token)) continue;
+    let normalized = token.toLowerCase();
+    for (const { regex, replacement } of WORD_NORMALIZATION_REGEXES) normalized = normalized.replace(regex, replacement);
+    const words = normalized.match(/\p{L}+/gu) || [];
+    if (words.length === 1 && !(words[0] in shown)) shown[words[0]] = token.toLowerCase();
+  }
+  return shown;
 }
 
 // Produce's "unit" is extracted the same way size is — plus a bare
@@ -1159,6 +1194,9 @@ function computeSignature(item) {
     colors: extractColors(name),
     fatPercent: extractFatPercent(name),
     descriptors: extractDescriptors(name, item.brand, item.impliedDescriptors || []),
+    // Display only — see synthesizeCanonicalName.
+    descriptorOrder: descriptorWordList(name, item.brand, item.impliedDescriptors || []),
+    descriptorShown: displayWordMap(name, item.brand),
     // Kept on the signature only for synthesizeCanonicalName, so the
     // display name's type word gets the same treatment descriptors do.
     impliedDescriptors: item.impliedDescriptors || [],
@@ -1717,9 +1755,20 @@ function synthesizeCanonicalName(a, b, rest = []) {
   // to avoid repeating "Koorejogurt koorejogurt 380g".
   const useDescriptors = sigA.strictPackaging && sigB.strictPackaging;
   const descriptors = useDescriptors ? sigA.descriptors ?? sigB.descriptors : null;
-  const descriptorWords = descriptors
+  const descriptorSet = descriptors
     ? descriptors.split(" ").filter((w) => w !== typeKey && w !== brand.toLowerCase())
     : [];
+  // Word order and spelling as the store wrote them (the owner's call,
+  // 2026-09-27): the store whose name has the fewest abbreviation
+  // periods supplies the order and the shown words; a word that store
+  // doesn't have (never, under strict matching) is appended sorted.
+  const sigs = [sigA, sigB, ...rest.map(signatureOf)];
+  const source = sigs
+    .filter((s) => s.descriptors !== null && Array.isArray(s.descriptorOrder))
+    .sort((x, y) => (x.nameLower.match(/\./g) || []).length - (y.nameLower.match(/\./g) || []).length)[0] || sigA;
+  const ordered = (source.descriptorOrder || []).filter((w) => descriptorSet.includes(w));
+  const descriptorWords = [...ordered, ...descriptorSet.filter((w) => !ordered.includes(w)).sort()];
+  const shownWord = (w) => (source.descriptorShown && source.descriptorShown[w]) || w;
   const descriptorName = descriptorWords.length > 0 ? descriptorWords.join(" ") : null;
   // A stated fat/cocoa % and the identity qualifiers (organic, a
   // flour grade, a "with X") are part of what makes the product
@@ -1745,7 +1794,7 @@ function synthesizeCanonicalName(a, b, rest = []) {
     .join(" ");
   // The flour grade's own stray "t" (from "T-550", "T 550") is a
   // leftover descriptor letter the grade qualifier already covers.
-  const shownDescriptors = gradeQualifier ? descriptorWords.filter((w) => w !== "t") : descriptorWords;
+  const shownDescriptors = (gradeQualifier ? descriptorWords.filter((w) => w !== "t") : descriptorWords).map(shownWord);
   const shownDescriptorName = shownDescriptors.length > 0 ? shownDescriptors.join(" ") : null;
   // Named variants are internal tokens; shown in the display language
   // (Estonian) and never repeated when the word is already there.
@@ -1939,6 +1988,7 @@ function matchPool(items, overrides = [], knownDifferent = []) {
 }
 
 module.exports = {
+  synthesizeCanonicalName,
   extractBrand,
   extractSize,
   extractVariant,

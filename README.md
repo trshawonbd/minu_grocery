@@ -283,6 +283,8 @@ minu-project/
 │   ├── daily-update.js           unattended, scheduled price refresh — see "Daily automatic updates" below (+ daily-update-logic.js, its pure rules, and daily-update-logic.test.js)
 │   ├── scrape-output.js          shared by fetch-price.js and daily-update.js: pagination, and the item -> data/prices.json entry shape
 │   ├── build-review.js           regenerates data/review.md from already-scraped data; never scrapes
+│   ├── rebuild-prices.js         re-runs matching over data/raw/ for named categories, no network (never for the daily-updated ones)
+│   ├── rename-products.js        recomputes ONLY display names in data/prices.json from data/raw/ — no re-matching, no price change, no network
 │   ├── match-products.js         the matching rules (sameProduct, matchPool)
 │   ├── raw.js                    reads/writes data/raw/ (+ raw.test.js, that a category's settings round-trip through meta.json)
 │   ├── no-scrape.test.js         enforces that only fetch-price.js/daily-update.js contact a store

@@ -18,24 +18,11 @@ const path = require("path");
 const { loadRawPool } = require("./raw");
 const { CATEGORIES } = require("./categories");
 const { matchPool } = require("./match-products");
-const { prepareItem, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
-
-// The raw pool carries the category settings recorded in meta.json AT
-// SCRAPE TIME (strictPackaging, impliedDescriptors, ...). A rebuild
-// exists precisely because a rule changed since, so the CURRENT
-// settings in scraper/categories.js win: every flag is cleared and set
-// again exactly the way fetch-price.js would set it today, and the
-// signature recomputed. Found in batch 9: Beer & cider's raw meta still
-// implied "hele" after the category stopped implying it, and the
-// rebuild silently kept the old display names.
-const CATEGORY_FLAGS = ["strictPackaging", "matchAcrossWeights", "diaperMatching", "fixedWeightMustMatch", "alcoholMatching", "impliedDescriptors", "signature"];
-
-function withCurrentSettings(items, category) {
-  return items.map((item) => {
-    for (const flag of CATEGORY_FLAGS) delete item[flag];
-    return prepareItem(item, category);
-  });
-}
+// The raw pool carries the settings recorded at scrape time; the
+// current ones in scraper/categories.js win (withCurrentSettings in
+// scrape-output.js) — found in batch 9, when a stale implied word in
+// meta.json silently kept old display names.
+const { withCurrentSettings, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");

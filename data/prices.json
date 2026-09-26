@@ -27589,6 +27589,83 @@
     "matchedVia": "ean"
   },
   {
+    "name": "Alma Kodujuust murakamoosiga 200g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodujuust-alma-murakamoosiga-200-g",
+        "size": "200g",
+        "storeUnitPrice": 9.95,
+        "storeName": "Kodujuust ALMA murakamoosiga, 200g"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-murakam-200g/",
+        "size": "200g",
+        "ean": "4740125633023",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125633023.png",
+        "storeName": "Kodujuust murakamoosiga Alma 200g"
+      },
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kohupiim-kodujuust/kodujuustud/kodujuust-murakamoosiga-alma-5-200g/p/217206",
+        "size": "200g",
+        "storeUnitPrice": 7.45,
+        "regularPrice": 1.99,
+        "storeName": "Kodujuust murakamoosiga Alma 5% 200g"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodujuust-murakamoosiga-5-alma-200-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740125633023",
+        "storeUnitPrice": 10.1,
+        "storeName": "Kodujuust murakamoosiga 5%, ALMA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Kodujuust hapukoorega 330g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "barbora": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodujuust-farmi-hapukoorega-330-g",
+        "size": "330g",
+        "storeUnitPrice": 6.33,
+        "storeName": "Kodujuust FARMI hapukoorega, 330g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-hapuk-ga-330g-2/",
+        "size": "330g",
+        "ean": "4740113090401",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740113090401.png",
+        "storeName": "Kodujuust hapukoorega Farmi 330g"
+      },
+      "selver": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodujuust-hapukoorega-5-farmi-330-g",
+        "size": "330g",
+        "ean": "4740113090401",
+        "storeUnitPrice": 6.52,
+        "storeName": "Kodujuust hapukoorega 5%, FARMI, 330 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Alma Kodujuust soolakurgi tilliga 200g",
     "category": "Curd & cottage cheese",
     "prices": {
@@ -27625,6 +27702,15 @@
         "storeUnitPrice": 6.75,
         "storeName": "Kodujuust ALMA 5%,200g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kodujuust-5-tops-200g/",
+        "size": "200g",
+        "ean": "4740125633139",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740125633139.png",
+        "storeName": "Kodujuust 5% Alma 200g tops"
+      },
       "rimi": {
         "price": 0.99,
         "currency": "EUR",
@@ -27639,11 +27725,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodujuust-5-alma-200-g",
         "size": "200g",
+        "ean": "4740125633139",
         "storeUnitPrice": 6.7,
         "storeName": "Kodujuust 5%, ALMA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Kodujuust 5% 380g",
@@ -27656,6 +27743,15 @@
         "size": "380g",
         "storeUnitPrice": 5.76,
         "storeName": "Kodujuust ALMA 5%,380g"
+      },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-5-alma-380g/",
+        "size": "380g",
+        "ean": "4740125633146",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125633146.jpg",
+        "storeName": "Kodujuust 5% Alma 380g"
       },
       "rimi": {
         "price": 2.19,
@@ -27670,11 +27766,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodujuust-5-alma-380-g",
         "size": "380g",
+        "ean": "4740125633146",
         "storeUnitPrice": 5.92,
         "storeName": "Kodujuust 5%, ALMA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Piimameister otto Kodujuust hapukoorega 330g",
@@ -27690,6 +27787,15 @@
         "storeUnitPrice": 4.4,
         "storeName": "Kodujuust OTTO hapukoorega, 330g"
       },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-hapuk-ga-330g/",
+        "size": "330g",
+        "ean": "4740572004360",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572004360.png",
+        "storeName": "Kodujuust hapukoorega Piimameister Otto 330g"
+      },
       "selver": {
         "price": 1.88,
         "currency": "EUR",
@@ -27697,11 +27803,12 @@
         "cardPrice": 1.39,
         "cardName": "Partner",
         "size": "330g",
+        "ean": "4740572004360",
         "storeUnitPrice": 5.7,
         "storeName": "Kodujuust hapukoorega, PIIMAMEISTER OTTO, 330 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Piimameister otto Kodujuust klassikaline 440g",
@@ -27720,6 +27827,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodujuust-klassikaline-piimameister-otto-440-g",
         "size": "440g",
+        "ean": "4740572004353",
         "storeUnitPrice": 5.8,
         "storeName": "Kodujuust klassikaline, PIIMAMEISTER OTTO, 440 g"
       }
@@ -27740,6 +27848,15 @@
         "storeUnitPrice": 4.4,
         "storeName": "Kodujuust OTTO klassikaline, 330g"
       },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-klassikal-330g/",
+        "size": "330g",
+        "ean": "4740572005190",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572005190.png",
+        "storeName": "Kodujuust klassikaline Piimameister Otto 330g"
+      },
       "rimi": {
         "price": 1.85,
         "currency": "EUR",
@@ -27753,8 +27870,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodujuust-klassikaline-piimameister-otto-330-g",
         "size": "330g",
+        "ean": "4740572005190",
         "storeUnitPrice": 5.7,
         "storeName": "Kodujuust klassikaline, PIIMAMEISTER OTTO, 330 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kodujuust hapukoorega 380g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "barbora": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodujuust-alma-hapukoorega-380-g",
+        "size": "380g",
+        "storeUnitPrice": 5.76,
+        "storeName": "Kodujuust ALMA hapukoorega, 380g"
+      },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-hapuk-ga-380g/",
+        "size": "380g",
+        "ean": "4740125633160",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740125633160.png",
+        "storeName": "Kodujuust hapukoorega Alma 380g"
       }
     },
     "matchedVia": "automatic"
@@ -27770,6 +27912,15 @@
         "size": "500g",
         "storeUnitPrice": 4.58,
         "storeName": "Kodujuust ALMA 5%, 500g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-5-alma-500g/",
+        "size": "500g",
+        "ean": "4740125633511",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740125633511.png",
+        "storeName": "Kodujuust 5% Alma 500g"
       },
       "rimi": {
         "price": 2.39,
@@ -27823,6 +27974,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodujuust-riisikatega-tere-200-g",
         "size": "200g",
+        "ean": "4740036018568",
         "storeUnitPrice": 9.95,
         "storeName": "Kodujuust riisikatega, TERE, 200 g"
       }
@@ -27855,6 +28007,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodujuust-karulaugupestoga-tere-200-g",
         "size": "200g",
+        "ean": "4740036018575",
         "storeUnitPrice": 6.95,
         "storeName": "Kodujuust karulaugupestoga, TERE, 200 g"
       }
@@ -27873,6 +28026,15 @@
         "storeUnitPrice": 5.75,
         "storeName": "Kohupiim TERE 5%, 200g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-kohupiim-5-200g/",
+        "size": "200g",
+        "ean": "4740036007128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740036007128.png",
+        "storeName": "Kohupiim 5% Tere 200g"
+      },
       "rimi": {
         "price": 1.09,
         "currency": "EUR",
@@ -27888,11 +28050,12 @@
         "cardPrice": 0.89,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740036007128",
         "storeUnitPrice": 5.85,
         "storeName": "Kohupiim 5%, TERE, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tere Kohupiim rosinatega 200g",
@@ -27913,6 +28076,7 @@
         "cardPrice": 0.89,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740036007135",
         "storeUnitPrice": 5.85,
         "storeName": "Kohupiim rosinatega, TERE, 200 g"
       }
@@ -27946,6 +28110,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lahja-kohupiim-rosinatega-farmi-200-g",
         "size": "200g",
+        "ean": "4740113034962",
         "storeUnitPrice": 4.95,
         "storeName": "Lahja kohupiim rosinatega, FARMI, 200 g"
       }
@@ -27964,6 +28129,15 @@
         "storeUnitPrice": 3.95,
         "regularPrice": 1.29,
         "storeName": "Kohupiim FARMI 5%, 200g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-kohupiim-5-200g/",
+        "size": "200g",
+        "ean": "4740113091026",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740113091026-1.png",
+        "storeName": "Kohupiim 5% Farmi 200g"
       },
       "rimi": {
         "price": 0.89,
@@ -27989,6 +28163,15 @@
         "storeUnitPrice": 8.36,
         "storeName": "Kohupiim LIISU 9%, 250g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/liisu-kohupiim-9-250g/",
+        "size": "250g",
+        "ean": "4750072014189",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/4750072014189.png",
+        "storeName": "Kohupiim 9% Liisu 250g"
+      },
       "rimi": {
         "price": 2.09,
         "currency": "EUR",
@@ -28002,11 +28185,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohupiim-9-liisu-250-g",
         "size": "250g",
+        "ean": "4750072014189",
         "storeUnitPrice": 8.28,
         "storeName": "Kohupiim 9%, LIISU, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mo saaremaa Pehme kohupiim 5% 500g",
@@ -28019,6 +28203,15 @@
         "size": "500g",
         "storeUnitPrice": 4.98,
         "storeName": "Pehme kohupiim MO SAAREMAA 5%, 500g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-pehme-kohupiim-5-500g/",
+        "size": "500g",
+        "ean": "4740153101129",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740153101129-1.png",
+        "storeName": "Pehme kohupiim 5% MO Saaremaa 500g"
       },
       "rimi": {
         "price": 2.55,
@@ -28033,11 +28226,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pehme-kohupiim-5-mo-saaremaa-500-g",
         "size": "500g",
+        "ean": "4740153101129",
         "storeUnitPrice": 4.38,
         "storeName": "Pehme kohupiim 5%, MO SAAREMAA, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Kohupiim 4% 200g",
@@ -28057,6 +28251,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohupiim-4-alma-200-g",
         "size": "200g",
+        "ean": "4740125638523",
         "storeUnitPrice": 4.95,
         "storeName": "Kohupiim 4%, ALMA, 200 g"
       }
@@ -28089,6 +28284,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohupiim-lahja-alma-200-g",
         "size": "200g",
+        "ean": "4740125638509",
         "storeUnitPrice": 4.95,
         "storeName": "Kohupiim lahja, ALMA, 200 g"
       }
@@ -28130,6 +28326,15 @@
         "storeUnitPrice": 3.65,
         "storeName": "Kohupiim OTTO Ricotta, 200g"
       },
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piimameister-otto-ricotta-kohupiim-200g/",
+        "size": "200g",
+        "ean": "4740572006036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/4740572006036-1.png",
+        "storeName": "Ricotta kohupiim Piimameister Otto 200g"
+      },
       "rimi": {
         "price": 0.69,
         "currency": "EUR",
@@ -28137,14 +28342,34 @@
         "size": "200g",
         "storeUnitPrice": 3.45,
         "storeName": "Kohupiim ricotta Piimameister Otto 200g"
+      },
+      "selver": {
+        "price": 0.73,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ricotta-piimameister-otto-200g",
+        "cardPrice": 0.59,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740572006036",
+        "storeUnitPrice": 3.65,
+        "storeName": "Ricotta, PIIMAMEISTER OTTO, 200g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Farmi Lahja kohupiim vanilliiniga 200g",
+    "name": "Farmi Kohupiim lahja vanilliiniga 200g",
     "category": "Curd & cottage cheese",
     "prices": {
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohup-lahja-vanil-200g/",
+        "size": "200g",
+        "ean": "4740113034955",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740113034955.png",
+        "storeName": "Kohupiim lahja vanilliiniga Farmi 200g"
+      },
       "rimi": {
         "price": 0.89,
         "currency": "EUR",
@@ -28159,37 +28384,93 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lahja-kohupiim-vanilliiniga-farmi-200-g",
         "size": "200g",
+        "ean": "4740113034955",
         "storeUnitPrice": 4.95,
         "storeName": "Lahja kohupiim vanilliiniga, FARMI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Piimameister otto Kodujuust laktoosivaba 220g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-220g/",
+        "size": "220g",
+        "ean": "4740572004971",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740572004971.png",
+        "storeName": "Kodujuust Piimameister Otto 220g laktoosivaba"
+      },
+      "rimi": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kohupiim-kodujuust/kodujuustud/kodujuust-laktoosivaba-piimameister-otto-220g/p/920782",
+        "size": "220g",
+        "storeUnitPrice": 6.14,
+        "storeName": "Kodujuust laktoosivaba Piimameister Otto 220g"
       }
     },
     "matchedVia": "automatic"
   },
   {
-    "name": "Alma Kodujuust murakamoosiga 5% 200g",
+    "name": "Alma Kodujuust hapukoorega 500g",
     "category": "Curd & cottage cheese",
     "prices": {
-      "rimi": {
-        "price": 1.49,
+      "coop": {
+        "price": 2.99,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kohupiim-kodujuust/kodujuustud/kodujuust-murakamoosiga-alma-5-200g/p/217206",
-        "size": "200g",
-        "storeUnitPrice": 7.45,
-        "regularPrice": 1.99,
-        "storeName": "Kodujuust murakamoosiga Alma 5% 200g"
+        "url": "https://coophaapsalu.ee/toode/kodujuust-hapuk-ga-500g/",
+        "size": "500g",
+        "ean": "4740125633504",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740125633504.png",
+        "storeName": "Kodujuust hapukoorega Alma 500g"
       },
-      "selver": {
-        "price": 2.02,
+      "rimi": {
+        "price": 2.39,
         "currency": "EUR",
-        "url": "https://www.selver.ee/kodujuust-murakamoosiga-5-alma-200-g",
-        "cardPrice": 1.59,
-        "cardName": "Partner",
-        "size": "200g",
-        "storeUnitPrice": 10.1,
-        "storeName": "Kodujuust murakamoosiga 5%, ALMA, 200 g"
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kohupiim-kodujuust/kodujuustud/kodujuust-hapukoorega-alma-500g/p/958912",
+        "size": "500g",
+        "storeUnitPrice": 4.78,
+        "storeName": "Kodujuust hapukoorega Alma 500g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Tere Kodujuust klassikaline 300g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-klassikal-300g/",
+        "size": "300g",
+        "ean": "4740065003177",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740065003177.png",
+        "storeName": "Kodujuust klassikaline Tere 300g"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kohupiim-kodujuust/kodujuustud/kodujuust-klassikaline-tere-300g/p/201377",
+        "size": "300g",
+        "storeUnitPrice": 6.63,
+        "storeName": "Kodujuust klassikaline Tere 300g"
+      },
+      "selver": {
+        "price": 2.12,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodujuust-4-tere-300-g",
+        "size": "300g",
+        "ean": "4740065003177",
+        "storeUnitPrice": 7.07,
+        "storeName": "Kodujuust 4%, TERE, 300 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Kodujuust laktoosivaba 200g",
@@ -28209,6 +28490,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodujuust-laktoosivaba-alma-200-g",
         "size": "200g",
+        "ean": "4740125633207",
         "storeUnitPrice": 7.9,
         "storeName": "Kodujuust laktoosivaba, ALMA, 200 g"
       }
@@ -28232,11 +28514,147 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohupiim-metsmaasika-alma-200-g",
         "size": "200g",
+        "ean": "4740125638547",
         "storeUnitPrice": 6.25,
         "storeName": "Kohupiim metsmaasika, ALMA, 200 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Tere Vanillikohupiim vanilliga 200g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-vanillikohupiim-200g/",
+        "size": "200g",
+        "ean": "4740036007142",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740036007142.png",
+        "storeName": "Vanillikohupiim Tere 200g"
+      },
+      "selver": {
+        "price": 1.17,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/magus-kohupiim-vanilliga-tere-200-g",
+        "cardPrice": 0.89,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740036007142",
+        "storeUnitPrice": 5.85,
+        "storeName": "Magus kohupiim vanilliga, TERE, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mo saaremaa Pehme kohupiim rasvatu lakt vaba 500g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mo-saaremaa-pehme-kohupiim-rasvatu-500g/",
+        "size": "500g",
+        "ean": "4740153101112",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740153101112.png",
+        "storeName": "Pehme kohupiim rasvatu MO Saaremaa 500g lakt.vaba"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pehme-kohupiim-rasvatu-lakt-vaba-mo-saaremaa-500g",
+        "cardPrice": 2.09,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4740153101112",
+        "storeUnitPrice": 5.26,
+        "storeName": "Pehme kohupiim rasvatu lakt.vaba, MO SAAREMAA, 500g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kodujuust lakt shokolaaditükkidega vaba laktoosivaba 200g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kodujuust-shok-tukkidega200g-l-vaba/",
+        "size": "200g",
+        "ean": "4740125633238",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740125633238.png",
+        "storeName": "Kodujuust shokolaaditükkidega Alma 200g lakt.vaba"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodujuust-sokolaaditukkidega-laktoosivaba-alma-200-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740125633238",
+        "storeUnitPrice": 10.1,
+        "storeName": "Kodujuust šokolaaditükkidega, laktoosivaba, ALMA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kodujuust 0.1% 200g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-0-1-alma-200g/",
+        "size": "200g",
+        "ean": "4740125633047",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125633047.png",
+        "storeName": "Kodujuust 0.1% Alma 200g"
+      },
+      "selver": {
+        "price": 1.34,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodujuust-rasvata-alma-200-g",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740125633047",
+        "storeUnitPrice": 6.7,
+        "storeName": "Kodujuust rasvata, ALMA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Kodujuust soolakurgi tilli 200g",
+    "category": "Curd & cottage cheese",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodujuust-kurk-till-200g/",
+        "size": "200g",
+        "ean": "4740125633078",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125633078.png",
+        "storeName": "Kodujuust soolakurgi-tilli Alma 200g"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodujuust-soolakurgi-ja-tilli-alma-200-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740125633078",
+        "storeUnitPrice": 8.6,
+        "storeName": "Kodujuust soolakurgi ja tilli, ALMA, 200 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Tere Kohvikoor 10% 380ml",

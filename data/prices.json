@@ -28674,6 +28674,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvikoor-10-tere-380-ml",
         "size": "380ml",
+        "ean": "4740036005094",
         "storeUnitPrice": 2.61,
         "storeName": "Kohvikoor 10%, TERE, 380 ml"
       }
@@ -28716,6 +28717,15 @@
         "regularPrice": 1.99,
         "storeName": "Toidukoor Alma 20%, 400ml"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toidukoor-20-alma-400ml/",
+        "size": "400ml",
+        "ean": "4740125220094",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125220094.png",
+        "storeName": "Toidukoor 20% Alma 400ml"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -28729,11 +28739,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/toidukoor-20-alma-400-ml",
         "size": "400ml",
+        "ean": "4740125220094",
         "storeUnitPrice": 3.73,
         "storeName": "Toidukoor 20%, ALMA, 400 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tere Vahukoor laktoosivaba 35% 400ml",
@@ -28747,16 +28758,26 @@
         "storeUnitPrice": 5.98,
         "storeName": "Vahukoor TERE 35% laktoosivaba, 400ml"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahukoor-35-tere-400ml/",
+        "size": "400ml",
+        "ean": "4740036005292",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740036005292-2.png",
+        "storeName": "Vahukoor 35% Tere 400ml laktoosivaba"
+      },
       "selver": {
         "price": 2.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/vahukoor-35-laktoosivaba-tere-400-ml",
         "size": "400ml",
+        "ean": "4740036005292",
         "storeUnitPrice": 6.98,
         "storeName": "Vahukoor 35% laktoosivaba, TERE, 400 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Kohvikoor 10% 380ml",
@@ -28769,6 +28790,15 @@
         "size": "380ml",
         "storeUnitPrice": 3.29,
         "storeName": "Kohvikoor ALMA 10% 380ml"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohvikoor-10-alma-380ml/",
+        "size": "380ml",
+        "ean": "4740125220117",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125220117.jpg",
+        "storeName": "Kohvikoor 10% Alma 380ml"
       },
       "rimi": {
         "price": 0.99,
@@ -28783,11 +28813,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvikoor-10-alma-380-ml",
         "size": "380ml",
+        "ean": "4740125220117",
         "storeUnitPrice": 3.03,
         "storeName": "Kohvikoor 10%, ALMA, 380 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Hapukoor 20% 500g",
@@ -28849,16 +28880,26 @@
         "storeUnitPrice": 4.36,
         "storeName": "Hapukoor TERE 20%, 250g"
       },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-hapukoor-20-250g-doypakk/",
+        "size": "250g",
+        "ean": "4740036015581",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740036015581.png",
+        "storeName": "Hapukoor 20% Tere 250g doypakk"
+      },
       "selver": {
         "price": 1.72,
         "currency": "EUR",
         "url": "https://www.selver.ee/hapukoor-20-tere-250-g",
         "size": "250g",
+        "ean": "4740036015581",
         "storeUnitPrice": 6.88,
         "storeName": "Hapukoor 20%, TERE, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Alma Vahukoor 35% 400ml",
@@ -28877,6 +28918,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vahukoor-35-alma-400-ml",
         "size": "400ml",
+        "ean": "4740125220049",
         "storeUnitPrice": 5.98,
         "storeName": "Vahukoor 35%, ALMA, 400 ml"
       }
@@ -28887,6 +28929,15 @@
     "name": "Tere Vahukoor laktoosivaba 35% 200ml",
     "category": "Cream & sour cream",
     "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-vahukoor-35-200ml-laktoosivaba/",
+        "size": "200ml",
+        "ean": "4740036001010",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4740036001010-1.png",
+        "storeName": "Vahukoor 35% Tere 200ml laktoosivaba"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -28900,8 +28951,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vahukoor-35-laktoosivaba-tere-200-ml",
         "size": "200ml",
+        "ean": "4740036001010",
         "storeUnitPrice": 6.95,
         "storeName": "Vahukoor 35% laktoosivaba, TERE, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Hapukoor 20% 200g",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/farmi-hapukoor-20-200g/",
+        "size": "200g",
+        "ean": "4740123000766",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740123000766.png",
+        "storeName": "Hapukoor 20% Farmi 200g"
+      },
+      "rimi": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/koored/hapukoor/hapukoor-20-farmi-200g/p/200085",
+        "size": "200g",
+        "storeUnitPrice": 5.75,
+        "storeName": "Hapukoor 20% Farmi 200g"
       }
     },
     "matchedVia": "automatic"
@@ -28910,6 +28986,15 @@
     "name": "Alma Kohvikoor 10% 200ml",
     "category": "Cream & sour cream",
     "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/alma-kohvikoor-10-200ml/",
+        "size": "200ml",
+        "ean": "4740125220018",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/4740125220018.jpg",
+        "storeName": "Kohvikoor 10% Alma 200ml"
+      },
       "rimi": {
         "price": 0.65,
         "currency": "EUR",
@@ -28923,11 +29008,189 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kohvikoor-10-alma-200-ml",
         "size": "200ml",
+        "ean": "4740125220018",
         "storeUnitPrice": 1.95,
         "storeName": "Kohvikoor 10%, ALMA, 200 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Hapukoor kilepakk 10% 500g",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukoor-10-farmi-500g/",
+        "size": "500g",
+        "ean": "4740123000728",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123000728.png",
+        "storeName": "Hapukoor 10% Farmi 500g kilepakk"
+      },
+      "selver": {
+        "price": 1.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukoor-10-farmi-500-g",
+        "size": "500g",
+        "ean": "4740123000728",
+        "storeUnitPrice": 3.24,
+        "storeName": "Hapukoor 10%, FARMI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tere Hapukoor laktoosivaba 20% 300g",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukoor-20-tere-300g/",
+        "size": "300g",
+        "ean": "4740036011156",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740036011156-1.png",
+        "storeName": "Hapukoor 20% Tere 300g laktoosivaba"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukoor-20-laktoosivaba-tere-300-g",
+        "size": "300g",
+        "ean": "4740036011156",
+        "storeUnitPrice": 4.97,
+        "storeName": "Hapukoor 20% laktoosivaba, TERE, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Köögikoor laktoosivaba 15% 400ml",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koogikoor-15-400ml/",
+        "size": "400ml",
+        "ean": "4740113093556",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740113093556.png",
+        "storeName": "Köögikoor 15% Farmi 400ml laktoosivaba"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koogikoor-15-laktoosivaba-farmi-400-g",
+        "size": "400g",
+        "ean": "4740113093556",
+        "storeUnitPrice": 4.73,
+        "storeName": "Köögikoor 15% laktoosivaba, FARMI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Alma Hapukoor kilepakk 20% 500g",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukoor-20-alma-500g/",
+        "size": "500g",
+        "ean": "4740125410020",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740125410020.jpg",
+        "storeName": "Hapukoor 20% Alma 500g kilepakk"
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukoor-20-kiles-alma-500-g",
+        "size": "500g",
+        "ean": "4740125410020",
+        "storeUnitPrice": 2.3,
+        "storeName": "Hapukoor 20% kiles, ALMA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Saare hapukoor smetana 30% 150g",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukoor-30%150g-smetana/",
+        "size": "150g",
+        "ean": "4742231004018",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4742231004018.png",
+        "storeName": "Saare hapukoor 30% Smetana 150g"
+      },
+      "selver": {
+        "price": 1.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukoor-smetana-30-saare-150-g",
+        "size": "150g",
+        "ean": "4742231004018",
+        "storeUnitPrice": 9.4,
+        "storeName": "Hapukoor Smetana 30%, SAARE, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Farmi Hapukoor kilepakk 20% 500g",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hapukoor-20-farmi-500g/",
+        "size": "500g",
+        "ean": "4740123000759",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740123000759.png",
+        "storeName": "Hapukoor 20% Farmi 500g kilepakk"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapukoor-20-kile-farmi-500-g",
+        "size": "500g",
+        "ean": "4740123000759",
+        "storeUnitPrice": 3.38,
+        "storeName": "Hapukoor 20% kile, FARMI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Zott Kohvikoor 10% 10x10g",
+    "category": "Cream & sour cream",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kohvikoor-10-zott1010g/",
+        "size": "10x10g",
+        "ean": "40145037",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/40145037.jpg",
+        "storeName": "Kohvikoor 10% Zott 10*10g"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kohvikoor-plokis-10-10x10g-zott-100-g",
+        "cardPrice": 0.69,
+        "cardName": "Partner",
+        "size": "10x10g",
+        "ean": "40145037",
+        "storeUnitPrice": 9,
+        "storeName": "Kohvikoor plokis 10% 10x10g, ZOTT, 100 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Farmi Keefir täispiimast 3.8-4.2% 1000g",

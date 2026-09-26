@@ -38688,16 +38688,26 @@
         "storeUnitPrice": 10.95,
         "storeName": "Magus tšillikaste THAI-CHOICE 200ml"
       },
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tai-tshillikaste-200ml/",
+        "size": "200ml",
+        "ean": "8851978801036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8851978801036.png",
+        "storeName": "Magus tshillikaste Thai Choice 200ml"
+      },
       "selver": {
         "price": 2.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/magus-tsillikaste-thai-choice-200-ml",
         "size": "200ml",
+        "ean": "8851978801036",
         "storeUnitPrice": 10.45,
         "storeName": "Magus tšillikaste, THAI CHOICE, 200 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Thai choice Kalakaste 200ml",
@@ -38713,16 +38723,26 @@
         "storeUnitPrice": 8.75,
         "storeName": "Kalakaste THAI-CHOICE 200ml"
       },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalakaste-200ml/",
+        "size": "200ml",
+        "ean": "8851978801029",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8851978801029.png",
+        "storeName": "Kalakaste Thai Choice 200ml"
+      },
       "selver": {
         "price": 2.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/kalakaste-thai-choice-200-ml",
         "size": "200ml",
+        "ean": "8851978801029",
         "storeUnitPrice": 10.95,
         "storeName": "Kalakaste, THAI CHOICE, 200 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Adžika 260g",
@@ -38735,6 +38755,15 @@
         "size": "260g",
         "storeUnitPrice": 7.5,
         "storeName": "Adžika FELIX 260g"
+      },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-adzika-260g/",
+        "size": "260g",
+        "ean": "4750022501080",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4750022501080.png",
+        "storeName": "Adzika Felix 260g"
       },
       "rimi": {
         "price": 1.99,
@@ -38749,11 +38778,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/adzika-felix-260-g",
         "size": "260g",
+        "ean": "4750022501080",
         "storeUnitPrice": 7.5,
         "storeName": "Adžika, FELIX, 260 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Kurgikaste 275g",
@@ -38767,6 +38797,15 @@
         "storeUnitPrice": 7.31,
         "regularPrice": 2.69,
         "storeName": "Kurgikaste FELIX 275g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-kurgikaste-275g/",
+        "size": "275g",
+        "ean": "4740029072522",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740029072522.png",
+        "storeName": "Kurgikaste Felix 275g"
       },
       "rimi": {
         "price": 2.69,
@@ -38783,11 +38822,12 @@
         "cardPrice": 2.19,
         "cardName": "Partner",
         "size": "275g",
+        "ean": "4740029072522",
         "storeUnitPrice": 9.78,
         "storeName": "Kurgikaste, FELIX, 275 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Heinz Küüslaugukaste 420g",
@@ -38800,6 +38840,15 @@
         "size": "420g",
         "storeUnitPrice": 11.17,
         "storeName": "Küüslaugukaste HEINZ 420g"
+      },
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heinz-kuuslaugukaste-420g/",
+        "size": "420g",
+        "ean": "8715700110097",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/8715700110097.png",
+        "storeName": "Küüslaugukaste Heinz 420g"
       },
       "rimi": {
         "price": 4.69,
@@ -38848,6 +38897,15 @@
         "regularPrice": 2.95,
         "storeName": "Barbeque-meekaste FELIX 320g"
       },
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barbeque-meekaste-320g/",
+        "size": "320g",
+        "ean": "4740029072539",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740029072539.jpg",
+        "storeName": "Barbeque-meekaste Felix 320g"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -38861,8 +38919,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/barbeque-meekaste-felix-320-g",
         "size": "320g",
+        "ean": "4740029072539",
         "storeUnitPrice": 7.47,
         "storeName": "Barbeque-meekaste, FELIX, 320 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pure Mangokaste 260g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mangokaste-pure-260-g",
+        "size": "260g",
+        "storeUnitPrice": 9.58,
+        "storeName": "Mangokaste PURE 260g"
+      },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pure-mangokaste-260g/",
+        "size": "260g",
+        "ean": "4750145046581",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4750145046581.png",
+        "storeName": "Mangokaste Pure 260g"
       }
     },
     "matchedVia": "automatic"
@@ -38880,16 +38963,26 @@
         "regularPrice": 2.45,
         "storeName": "Terav tšillikaste FELIX 350g"
       },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-terav-tshillikaste-350g/",
+        "size": "350g",
+        "ean": "4740029072676",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4740029072676.png",
+        "storeName": "Felix Terav tshillikaste Street Food350g"
+      },
       "selver": {
         "price": 2.43,
         "currency": "EUR",
         "url": "https://www.selver.ee/terav-tsillikaste-felix-350-g",
         "size": "350g",
+        "ean": "4740029072676",
         "storeUnitPrice": 6.94,
         "storeName": "Terav tšillikaste, FELIX, 350 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Magus tšillikaste 355g",
@@ -38904,16 +38997,26 @@
         "regularPrice": 2.45,
         "storeName": "Magus tšillikaste FELIX 355g"
       },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-magus-tshillikaste-355g/",
+        "size": "355g",
+        "ean": "4740029072669",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4740029072669.png",
+        "storeName": "Magus tshillikaste Felix Street Food Asia 355g"
+      },
       "selver": {
         "price": 2.43,
         "currency": "EUR",
         "url": "https://www.selver.ee/magus-tsillikaste-felix-355-g",
         "size": "355g",
+        "ean": "4740029072669",
         "storeUnitPrice": 6.85,
         "storeName": "Magus tšillikaste, FELIX, 355 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Flying goose Sriracha tšillikaste 200ml",
@@ -38927,16 +39030,26 @@
         "storeUnitPrice": 23.95,
         "storeName": "Sriracha tšillikaste FLYING GOOSE 200ml"
       },
+      "coop": {
+        "price": 3.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sriracha-kaste-200g-2/",
+        "size": "200ml",
+        "ean": "8853662056005",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8853662056005.png",
+        "storeName": "Sriracha tshillikaste Flying Goose 200ml terav"
+      },
       "selver": {
         "price": 3.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/sriracha-tsillikaste-flying-goose-200-ml",
         "size": "200ml",
+        "ean": "8853662056005",
         "storeUnitPrice": 19.95,
         "storeName": "Sriracha Tšillikaste, FLYING GOOSE, 200 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Bbq kaste 390g",
@@ -38949,6 +39062,15 @@
         "size": "390g",
         "storeUnitPrice": 6.9,
         "storeName": "BBQ kaste SALVEST 390g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-barbeque-kaste-390g/",
+        "size": "390g",
+        "ean": "4740073078860",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4740073078860.png",
+        "storeName": "Barbeque kaste Salvest 390g"
       },
       "rimi": {
         "price": 2.69,
@@ -38963,11 +39085,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/bbq-kaste-salvest-390g",
         "size": "390g",
+        "ean": "4740073078860",
         "storeUnitPrice": 6.9,
         "storeName": "BBQ kaste, SALVEST, 390g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Bbq kaste universaalne 330g",
@@ -38981,16 +39104,34 @@
         "storeUnitPrice": 12.88,
         "storeName": "BBQ kaste universaalne SANTA MARIA 330g"
       },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-bbq-kaste-originaal-330g/",
+        "size": "330g",
+        "ean": "7311312009395",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/7311312009395.png",
+        "storeName": "BBQ kaste originaal Santa Maria 330g"
+      },
+      "rimi": {
+        "price": 4.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kastmed-ketsupid-sinep-ja-madaroigas/bbq-kastmed/kaste-bbq-original-santa-maria-330g/p/1023280",
+        "size": "330g",
+        "storeUnitPrice": 12.88,
+        "storeName": "Kaste BBQ Original Santa Maria 330g"
+      },
       "selver": {
         "price": 4.25,
         "currency": "EUR",
         "url": "https://www.selver.ee/bbq-kaste-universaalne-santa-maria-330g",
         "size": "330g",
+        "ean": "7311312009395",
         "storeUnitPrice": 12.88,
         "storeName": "BBQ kaste universaalne, SANTA MARIA, 330g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Mangokaste 500g",
@@ -39004,16 +39145,26 @@
         "storeUnitPrice": 5.18,
         "storeName": "Mangokaste FELIX 500g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiina-kaste-mangoga-500g/",
+        "size": "500g",
+        "ean": "4750022510297",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4750022510297-1.png",
+        "storeName": "Mangokaste Felix 500g"
+      },
       "selver": {
         "price": 2.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/mangokaste-felix-500-g",
         "size": "500g",
+        "ean": "4750022510297",
         "storeUnitPrice": 5.18,
         "storeName": "Mangokaste, FELIX, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Burgerikaste 220g",
@@ -39026,6 +39177,15 @@
         "size": "220g",
         "storeUnitPrice": 8.14,
         "storeName": "Burgerikaste FELIX, 220g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/burgerikaste-220g/",
+        "size": "220g",
+        "ean": "4740029048916",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029048916.png",
+        "storeName": "Burgerikaste Felix 220g"
       },
       "rimi": {
         "price": 1.45,
@@ -39041,11 +39201,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/burgerikaste-felix-220-g",
         "size": "220g",
+        "ean": "4740029048916",
         "storeUnitPrice": 8.14,
         "storeName": "Burgerikaste, FELIX, 220 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Hiinapärane kaste poolmagus 500g",
@@ -39059,6 +39220,15 @@
         "storeUnitPrice": 4.38,
         "storeName": "Hiinapärane kaste poolmagus FELIX 500g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hiina-kaste-poolmag-500g/",
+        "size": "500g",
+        "ean": "4750022519115",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022519115-1-scaled.png",
+        "storeName": "Hiinapärane kaste Felix 500g poolmagus"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -39067,9 +39237,18 @@
         "storeUnitPrice": 3.98,
         "regularPrice": 2.45,
         "storeName": "Kaste hiinapärane poolmagus Felix 500g"
+      },
+      "selver": {
+        "price": 2.53,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hiina-kaste-poolmagus-felix-500-g",
+        "size": "500g",
+        "ean": "4750022519115",
+        "storeUnitPrice": 5.06,
+        "storeName": "Hiina kaste (poolmagus), FELIX, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Barilla Pastakaste bolognese 400g",
@@ -39082,6 +39261,15 @@
         "size": "400g",
         "storeUnitPrice": 12.48,
         "storeName": "Pastakaste Bolognese BARILLA 400g"
+      },
+      "coop": {
+        "price": 5.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barilla-pastakaste-bolognese-400g/",
+        "size": "400g",
+        "ean": "8076809513661",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/8076809513661.png",
+        "storeName": "Pastakaste Bolognese Barilla 400g"
       },
       "rimi": {
         "price": 4.99,
@@ -39096,11 +39284,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-bolognese-barilla-400-g",
         "size": "400g",
+        "ean": "8076809513661",
         "storeUnitPrice": 12.48,
         "storeName": "Pastakaste Bolognese, BARILLA, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Pastakaste 500g",
@@ -39113,6 +39302,15 @@
         "size": "500g",
         "storeUnitPrice": 5.18,
         "storeName": "Pastakaste FELIX 500g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/makaronikaste-500g/",
+        "size": "500g",
+        "ean": "4750022505118",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022505118.png",
+        "storeName": "Pastakaste Felix 500g"
       },
       "rimi": {
         "price": 1.99,
@@ -39128,11 +39326,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-felix-500-g",
         "size": "500g",
+        "ean": "4750022505118",
         "storeUnitPrice": 5.18,
         "storeName": "Pastakaste, FELIX, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Barilla Pastakaste basilico 400g",
@@ -39148,6 +39347,15 @@
         "storeUnitPrice": 7.48,
         "storeName": "Pastakaste Basilico BARILLA 400g"
       },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaste-basilico-400g/",
+        "size": "400g",
+        "ean": "8076809513739",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/8076809513739.png",
+        "storeName": "Pastakaste Basilico Barilla 400g"
+      },
       "rimi": {
         "price": 3.79,
         "currency": "EUR",
@@ -39161,11 +39369,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-basilico-barilla-400-g",
         "size": "400g",
+        "ean": "8076809513739",
         "storeUnitPrice": 8.98,
         "storeName": "Pastakaste Basilico, BARILLA, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Barilla Pastakaste napoletana 400g",
@@ -39178,6 +39387,15 @@
         "size": "400g",
         "storeUnitPrice": 9.48,
         "storeName": "Pastakaste Napoletana BARILLA 400g"
+      },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaste-napoletana-400g/",
+        "size": "400g",
+        "ean": "8076809513692",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/8076809513692.png",
+        "storeName": "Pastakaste Barilla Napoletana 400g"
       },
       "rimi": {
         "price": 3.79,
@@ -39192,11 +39410,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-napoletana-barilla-400-g",
         "size": "400g",
+        "ean": "8076809513692",
         "storeUnitPrice": 7.48,
         "storeName": "Pastakaste Napoletana, BARILLA, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Pastakaste ürtidega 360g",
@@ -39233,6 +39452,15 @@
         "storeUnitPrice": 9.23,
         "storeName": "Pastakaste PANZANI Napoletana 400g"
       },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pastkaste-napoletana400g/",
+        "size": "400g",
+        "ean": "3038354250908",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/3038354250908.jpg",
+        "storeName": "Pastakaste Napoletana Panzani 400g"
+      },
       "rimi": {
         "price": 3.69,
         "currency": "EUR",
@@ -39246,11 +39474,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-napoletana-panzani-400-g",
         "size": "400g",
+        "ean": "3038354250908",
         "storeUnitPrice": 9.73,
         "storeName": "Pastakaste Napoletana, PANZANI, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani Pastakaste originale 400g",
@@ -39263,6 +39492,15 @@
         "size": "400g",
         "storeUnitPrice": 9.23,
         "storeName": "Pastakaste PANZANI Originale 400g"
+      },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pastakaste-origin-400g/",
+        "size": "400g",
+        "ean": "3038354256207",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/3038354256207.png",
+        "storeName": "Pastakaste Originale Panzani 400g"
       },
       "rimi": {
         "price": 3.69,
@@ -39277,11 +39515,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-originale-panzani-400-g",
         "size": "400g",
+        "ean": "3038354256207",
         "storeUnitPrice": 9.73,
         "storeName": "Pastakaste Originale, PANZANI, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Bolognese kaste 490g",
@@ -39294,6 +39533,15 @@
         "size": "490g",
         "storeUnitPrice": 5.41,
         "storeName": "Bolognese kaste FELIX 490g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bolognese-kaste-490g/",
+        "size": "490g",
+        "ean": "4750022503091",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022503091.png",
+        "storeName": "Bolognese kaste Felix 490g"
       },
       "rimi": {
         "price": 1.99,
@@ -39309,11 +39557,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/bolognese-kaste-felix-490-g",
         "size": "490g",
+        "ean": "4750022503091",
         "storeUnitPrice": 5.49,
         "storeName": "Bolognese kaste, FELIX, 490 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Pastakaste ürtidega 460g",
@@ -39326,6 +39575,15 @@
         "size": "460g",
         "storeUnitPrice": 6.93,
         "storeName": "Pastakaste ürtidega SALVEST 460g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-pastakaste-460g-urtidega/",
+        "size": "460g",
+        "ean": "4740073076989",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/4740073076989.png",
+        "storeName": "Pastakaste Salvest 460g ürtidega"
       },
       "rimi": {
         "price": 2.99,
@@ -39340,11 +39598,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-urtidega-salvest-460-g",
         "size": "460g",
+        "ean": "4740073076989",
         "storeUnitPrice": 6.93,
         "storeName": "Pastakaste ürtidega, SALVEST, 460 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Pastakaste köögiviljadega 460g",
@@ -39357,6 +39616,15 @@
         "size": "460g",
         "storeUnitPrice": 6.93,
         "storeName": "Pastakaste köögiviljadega SALVEST 460g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-pastakaste-460g-koogiviljadega/",
+        "size": "460g",
+        "ean": "4740073077009",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740073077009.png",
+        "storeName": "Pastakaste Salvest 460g köögiviljadega"
       },
       "rimi": {
         "price": 3.19,
@@ -39371,11 +39639,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-koogiviljadega-salvest-460g",
         "size": "460g",
+        "ean": "4740073077009",
         "storeUnitPrice": 6.93,
         "storeName": "Pastakaste köögiviljadega, SALVEST, 460g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Pastakaste arrabbiata 340g",
@@ -39424,6 +39693,30 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Mutti Pastakaste basiilikuga 400g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pastakaste-basiilikuga-mutti-400-g",
+        "size": "400g",
+        "storeUnitPrice": 8.88,
+        "storeName": "Pastakaste basiilikuga MUTTI 400g"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pastakaste-basiilikuga-mutti-400-g",
+        "size": "400g",
+        "ean": "8005110517006",
+        "storeUnitPrice": 8.88,
+        "storeName": "Pastakaste basiilikuga, MUTTI, 400 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Panzani Bolognese veggie pastakaste 390g",
     "category": "Sauces & condiments",
     "prices": {
@@ -39442,6 +39735,7 @@
         "cardPrice": 3.59,
         "cardName": "Partner",
         "size": "390g",
+        "ean": "3038359913587",
         "storeUnitPrice": 11.51,
         "storeName": "Bolognese Veggie pastakaste, PANZANI, 390 g"
       }
@@ -39460,6 +39754,15 @@
         "storeUnitPrice": 3.9,
         "storeName": "Grillkaste FELIX 510g"
       },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/grillkaste-felix-510g/",
+        "size": "510g",
+        "ean": "4750022512116",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4750022512116.png",
+        "storeName": "Grillkaste Felix 510g"
+      },
       "rimi": {
         "price": 2.05,
         "currency": "EUR",
@@ -39473,11 +39776,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/grillkaste-felix-510-g",
         "size": "510g",
+        "ean": "4750022512116",
         "storeUnitPrice": 3.9,
         "storeName": "Grillkaste, FELIX, 510 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pomi Tomatipasta 500g",
@@ -39491,19 +39795,29 @@
         "storeUnitPrice": 3.98,
         "storeName": "Tomatipasta POMI 500g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pomi-tomatipuree-500g/",
+        "size": "500g",
+        "ean": "8032793344346",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/8032793344346.png",
+        "storeName": "Tomatipüree Pomi 500g"
+      },
       "selver": {
         "price": 1.95,
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatipasta-pomi-pomi-500-g",
         "size": "500g",
+        "ean": "8032793344346",
         "storeUnitPrice": 3.9,
         "storeName": "Tomatipasta  Pomi, POMI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Pomi Tomatipasta 200g",
+    "name": "Pomi Tomatipasta 8% 200g",
     "category": "Sauces & condiments",
     "prices": {
       "barbora": {
@@ -39513,6 +39827,15 @@
         "size": "200g",
         "storeUnitPrice": 5.75,
         "storeName": "Tomatipasta POMI 200g"
+      },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatipasta-pomi-200g/",
+        "size": "200g",
+        "ean": "8032793344308",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8002580043103.jpg",
+        "storeName": "Tomatipasta 8% Pomi 200g"
       },
       "rimi": {
         "price": 1.15,
@@ -39527,11 +39850,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatipasta-pomi-200-g",
         "size": "200g",
+        "ean": "8032793344308",
         "storeUnitPrice": 5.75,
         "storeName": "Tomatipasta, POMI, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani Tomatipüree tomacouli 200g",
@@ -39550,6 +39874,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatipuree-tomacouli-panzani-200-g",
         "size": "200g",
+        "ean": "3038352875066",
         "storeUnitPrice": 6.25,
         "storeName": "Tomatipüree Tomacouli, PANZANI, 200 g"
       }
@@ -39568,16 +39893,26 @@
         "storeUnitPrice": 7.67,
         "storeName": "Pitsakaste Tomapizza PANZANI 390g"
       },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-tomatipasta-tomapizza-390g-pitsa/",
+        "size": "390g",
+        "ean": "3038352876506",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/3038352876506.png",
+        "storeName": "Tomatipasta TomaPizza Panzani 390g pitsale"
+      },
       "selver": {
         "price": 3.05,
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsakaste-tomapizza-panzani-390-g",
         "size": "390g",
+        "ean": "3038352876506",
         "storeUnitPrice": 7.82,
         "storeName": "Pitsakaste TOMAPizza, PANZANI, 390 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Tomatipasta ürtidega 300g",
@@ -39590,6 +39925,15 @@
         "size": "300g",
         "storeUnitPrice": 6.63,
         "storeName": "Tomatipasta ürtidega SALVEST 300 g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatipasta-urtidega300g/",
+        "size": "300g",
+        "ean": "4740073072691",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073072691.png",
+        "storeName": "Tomatipasta Salvest 300g ürtidega"
       },
       "rimi": {
         "price": 1.99,
@@ -39604,8 +39948,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatipasta-urtidega-salvest-300-g",
         "size": "300g",
+        "ean": "4740073072691",
         "storeUnitPrice": 6.63,
         "storeName": "Tomatipasta ürtidega, SALVEST, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Panzani Tomatipüree tomacouli 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/tomatipuree-tomacouli-panzani-500-g",
+        "size": "500g",
+        "storeUnitPrice": 5.38,
+        "storeName": "Tomatipüree Tomacouli PANZANI 500g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-tomacouli-tomatipuree-500g/",
+        "size": "500g",
+        "ean": "3038359006456",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/3038359006456.png",
+        "storeName": "Panzani Tomacouli Tomatipüree 500G"
       }
     },
     "matchedVia": "automatic"
@@ -39622,6 +39991,15 @@
         "storeUnitPrice": 6.98,
         "storeName": "Tomatipasta FELIX 265g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatipasta-265g/",
+        "size": "265g",
+        "ean": "4750022502087",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022502087.png",
+        "storeName": "Felix Tomatipasta 265g"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -39636,11 +40014,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatipasta-felix-265-g",
         "size": "265g",
+        "ean": "4750022502087",
         "storeUnitPrice": 6.98,
         "storeName": "Tomatipasta, FELIX, 265 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Barilla Pastakaste pesto genovese 190g",
@@ -39677,16 +40056,26 @@
         "storeUnitPrice": 11.76,
         "storeName": "Modena palsamiäädikas BORGES 250ml"
       },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/borges-modena-palsamiaadikas-250ml/",
+        "size": "250ml",
+        "ean": "8410179306148",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/8410179306148.png",
+        "storeName": "Palsamiäädikas Borges Modena 250ml"
+      },
       "selver": {
         "price": 2.94,
         "currency": "EUR",
         "url": "https://www.selver.ee/modena-palsamiaadikas-borges-250-ml",
         "size": "250ml",
+        "ean": "8410179306148",
         "storeUnitPrice": 11.76,
         "storeName": "Modena palsamiäädikas, BORGES, 250 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Gourmante Palsamikreem 250ml",
@@ -39705,6 +40094,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/palsamikreem-gourmante-250-ml",
         "size": "250ml",
+        "ean": "5200110730476",
         "storeUnitPrice": 19.48,
         "storeName": "Palsamikreem, GOURMANTE, 250 ml"
       }
@@ -39730,6 +40120,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/palsamiaadikakreem-ponti-250-g",
         "size": "250g",
+        "ean": "8001010076568",
         "storeUnitPrice": 18.24,
         "storeName": "Palsamiäädikakreem, PONTI, 250 g"
       }
@@ -39748,6 +40139,15 @@
         "storeUnitPrice": 11.8,
         "storeName": "Õunaäädikas ökoloogiline BORGES 250ml"
       },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ounaaadikas-250ml/",
+        "size": "250ml",
+        "ean": "8410179015750",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8410179015750.png",
+        "storeName": "Õunaäädikas Borges 250ml ökoloogiline"
+      },
       "rimi": {
         "price": 2.95,
         "currency": "EUR",
@@ -39761,11 +40161,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ounaaadikas-oko-borges-250-ml",
         "size": "250ml",
+        "ean": "8410179015750",
         "storeUnitPrice": 10.36,
         "storeName": "Õunaäädikas ÖKO, BORGES, 250 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Sfinx-e Äädikhape 30% 500ml",
@@ -39779,16 +40180,26 @@
         "storeUnitPrice": 2.38,
         "storeName": "Äädikhape 30% 500ml"
       },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aadikhape-30-0-5l/",
+        "size": "500ml",
+        "ean": "4742007000046",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742007000046.jpg",
+        "storeName": "Äädikhape Sfinx-E 30% 0.5L"
+      },
       "selver": {
         "price": 1.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/aadikhape-30-sfinx-e-500-ml",
         "size": "500ml",
+        "ean": "4742007000046",
         "storeUnitPrice": 2.38,
         "storeName": "Äädikhape 30%, SFINX-E, 500 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Heinz Ketšup 460g",
@@ -39825,6 +40236,15 @@
         "storeUnitPrice": 4.09,
         "storeName": "Tomatiketšup FELIX 1kg"
       },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatiketshup-felix-1kg/",
+        "size": "1000g",
+        "ean": "4740029600749",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029600749.png",
+        "storeName": "Tomatiketshup Felix 1kg"
+      },
       "rimi": {
         "price": 3.79,
         "currency": "EUR",
@@ -39838,11 +40258,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatiketsup-felix-1-kg",
         "size": "1000g",
+        "ean": "4740029600749",
         "storeUnitPrice": 3.79,
         "storeName": "Tomatiketšup, FELIX, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Tomatiketšup 1250g",
@@ -39857,6 +40278,15 @@
         "size": "1250g",
         "storeUnitPrice": 2.87,
         "storeName": "Tomatiketšup FELIX 1,25kg"
+      },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatiketshup-1250g/",
+        "size": "1250g",
+        "ean": "4740029601548",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029601548.png",
+        "storeName": "Felix Tomatiketshup 1250g"
       },
       "rimi": {
         "price": 4.89,
@@ -39873,11 +40303,12 @@
         "cardPrice": 3.29,
         "cardName": "Partner",
         "size": "1250g",
+        "ean": "4740029601548",
         "storeUnitPrice": 3.96,
         "storeName": "Tomatiketšup, FELIX, 1250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Tomatiketšup 500g",
@@ -39890,6 +40321,15 @@
         "size": "500g",
         "storeUnitPrice": 5.78,
         "storeName": "Tomatiketšup FELIX 500g"
+      },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatiketshup-felix-500g/",
+        "size": "500g",
+        "ean": "4740029606345",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029606345.png",
+        "storeName": "Tomatiketshup Felix 500g"
       },
       "rimi": {
         "price": 2.89,
@@ -39904,11 +40344,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatiketsup-felix-500-g",
         "size": "500g",
+        "ean": "4740029606345",
         "storeUnitPrice": 4.58,
         "storeName": "Tomatiketšup, FELIX, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Terav tomatiketšup 1000g",
@@ -39968,6 +40409,15 @@
         "storeUnitPrice": 7.96,
         "storeName": "Ketšup SALVEST 270g"
       },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ketshup-salvest-270g/",
+        "size": "270g",
+        "ean": "4740073071939",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740073071939.png",
+        "storeName": "Ketshup Salvest 270g"
+      },
       "rimi": {
         "price": 2.15,
         "currency": "EUR",
@@ -39981,11 +40431,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ketsup-salvest-270-g",
         "size": "270g",
+        "ean": "4740073071939",
         "storeUnitPrice": 7.96,
         "storeName": "Ketšup, SALVEST, 270 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Ketšup 530g",
@@ -39998,6 +40449,15 @@
         "size": "530g",
         "storeUnitPrice": 5.64,
         "storeName": "Ketšup SALVEST 530g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ketshup-salvest-530g/",
+        "size": "530g",
+        "ean": "4740073074299",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740073074299.png",
+        "storeName": "Ketshup Salvest 530g"
       },
       "rimi": {
         "price": 2.99,
@@ -40012,11 +40472,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ketsup-salvest-530-g",
         "size": "530g",
+        "ean": "4740073074299",
         "storeUnitPrice": 4.7,
         "storeName": "Ketšup, SALVEST, 530 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Adžika ketšup 360g",
@@ -40029,6 +40490,15 @@
         "size": "360g",
         "storeUnitPrice": 6.36,
         "storeName": "Adžika ketšup SALVEST 360g"
+      },
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-ketshup-adthika-360g/",
+        "size": "360g",
+        "ean": "4740073078006",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4740073078006.png",
+        "storeName": "Ketshup Adžika Salvest 360g"
       },
       "rimi": {
         "price": 2.45,
@@ -40043,11 +40513,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/adzika-ketsup-salvest-360-g",
         "size": "360g",
+        "ean": "4740073078006",
         "storeUnitPrice": 6.36,
         "storeName": "Adžika ketšup, SALVEST, 360 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Baltika Ketšup terav 500g",
@@ -40084,16 +40555,26 @@
         "storeUnitPrice": 5.16,
         "storeName": "Šašlõkiketšup CHUMAK 250g"
       },
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/chumak-shashlokiketshup-250g/",
+        "size": "250g",
+        "ean": "4823096005614",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4823096005614.png",
+        "storeName": "Shashlõkiketshup Chumak 250g"
+      },
       "selver": {
         "price": 1.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/saslokiketsup-chumak-250-g",
         "size": "250g",
+        "ean": "4823096005614",
         "storeUnitPrice": 5.16,
         "storeName": "Šašlõkiketšup, CHUMAK, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Chumak Tomatiketšup 250g",
@@ -40112,6 +40593,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatiketsup-chumak-250-g",
         "size": "250g",
+        "ean": "4823096005591",
         "storeUnitPrice": 5.16,
         "storeName": "Tomatiketšup, CHUMAK, 250 g"
       }
@@ -40141,6 +40623,39 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Felix Inglise sinep 200g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/inglise-sinep-felix-200-g",
+        "size": "200g",
+        "storeUnitPrice": 9.95,
+        "storeName": "Inglise sinep FELIX 200g"
+      },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/inglise-sinep-200g/",
+        "size": "200g",
+        "ean": "4750022475237",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022475237.png",
+        "storeName": "Inglise sinep Felix 200g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/special-inglise-sinep-felix-200-g",
+        "size": "200g",
+        "ean": "4750022475237",
+        "storeUnitPrice": 9.95,
+        "storeName": "Special Inglise sinep, FELIX, 200 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Mädarõigas kodune 200g",
@@ -40177,16 +40692,26 @@
         "storeUnitPrice": 5.98,
         "storeName": "Sinep traditsiooniline MEIRA 500g"
       },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sinep-meira-500g/",
+        "size": "500g",
+        "ean": "6414202500901",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6414202500901.png",
+        "storeName": "Sinep traditsiooniline Meira 500g"
+      },
       "selver": {
         "price": 3.04,
         "currency": "EUR",
         "url": "https://www.selver.ee/sinep-traditsiooniline-meira-500-g",
         "size": "500g",
+        "ean": "6414202500901",
         "storeUnitPrice": 6.08,
         "storeName": "Sinep Traditsiooniline, MEIRA, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Minu Mädarõigas ekstra kange 200g",
@@ -40205,6 +40730,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/madaroigas-ekstra-kange-minu-200-g",
         "size": "200g",
+        "ean": "4743144002856",
         "storeUnitPrice": 8.95,
         "storeName": "Mädarõigas ekstra kange, MINU, 200 g"
       }
@@ -40228,6 +40754,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/madaroigas-delikatess-170-g",
         "size": "170g",
+        "ean": "4743144000975",
         "storeUnitPrice": 7.71,
         "storeName": "Mädarõigas delikatess, 170 g"
       }
@@ -40251,6 +40778,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/dijoni-teravamaitseline-sinep-vilux-200-g",
         "size": "200g",
+        "ean": "3378240301155",
         "storeUnitPrice": 14,
         "storeName": "Dijoni teravamaitseline sinep, VILUX, 200 g"
       }
@@ -40269,16 +40797,107 @@
         "storeUnitPrice": 13.95,
         "storeName": "Sinep Dijoni teraline VILUX 200g"
       },
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sinep-dijoni-200g/",
+        "size": "200g",
+        "ean": "3378240304156",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/3378240304156.png",
+        "storeName": "Dijoni sinep teraline Vilux 200g"
+      },
       "selver": {
         "price": 2.8,
         "currency": "EUR",
         "url": "https://www.selver.ee/dijoni-teraline-sinep-vilux-200-g",
         "size": "200g",
+        "ean": "3378240304156",
         "storeUnitPrice": 14,
         "storeName": "Dijoni teraline sinep, VILUX, 200 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Heinz Sinep mahe 240g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mahe-sinep-heinz-240-g-220-ml",
+        "size": "240g",
+        "storeUnitPrice": 15.79,
+        "storeName": "Mahe sinep HEINZ 240g/220ml"
+      },
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heinz-sinep-240g-mahe/",
+        "size": "240g",
+        "ean": "50457403",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/50457403.png",
+        "storeName": "Sinep Heinz 240g mahe"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Reine de dijon Dijon sinep 200g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/dijon-sinep-reine-de-dijon-200-g",
+        "size": "200g",
+        "storeUnitPrice": 16.45,
+        "storeName": "Dijon sinep REINE DE DIJON 200g"
+      },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reine-de-dijon-dijon-sinep-200g/",
+        "size": "200g",
+        "ean": "3563490017516",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/3563490017516.png",
+        "storeName": "Dijon sinep Reine De Dijon 200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Reine de dijon Teraline sinep 350g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/teraline-sinep-reine-de-dijon-350-g",
+        "size": "350g",
+        "storeUnitPrice": 11,
+        "storeName": "Teraline sinep REINE DE DIJON 350g"
+      },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reine-de-dijon-teraline-sinep-350g/",
+        "size": "350g",
+        "ean": "3563490017233",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/3563490017233.png",
+        "storeName": "Teraline sinep Reine De Dijon 350g"
+      },
+      "selver": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teraline-sinep-reine-de-dijon-350-g",
+        "size": "350g",
+        "ean": "3563490017233",
+        "storeUnitPrice": 11,
+        "storeName": "Teraline sinep, REINE DE DIJON, 350 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Baltika Kodune sinep kange 120g",
@@ -40291,6 +40910,15 @@
         "size": "120g",
         "storeUnitPrice": 11.25,
         "storeName": "Kodune sinep kange BALTIKA 120g"
+      },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/baltika-kodune-sinep-kange-120g/",
+        "size": "120g",
+        "ean": "4745010372094",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4745010372094.png",
+        "storeName": "Kodune sinep kange Baltika 120g"
       },
       "rimi": {
         "price": 1.49,
@@ -40307,11 +40935,12 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "120g",
+        "ean": "4745010372094",
         "storeUnitPrice": 11.75,
         "storeName": "Kodune Sinep Kange, BALTIKA, 120 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Maheda maitsega sinep 170g",
@@ -40325,16 +40954,26 @@
         "storeUnitPrice": 15.59,
         "storeName": "Maheda maitsega sinep FELIX 170g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahedamaits-sinep-170g/",
+        "size": "170g",
+        "ean": "4750022005410",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022005410.png",
+        "storeName": "Maheda maitsega sinep Felix 170g"
+      },
       "selver": {
         "price": 2.65,
         "currency": "EUR",
         "url": "https://www.selver.ee/sinep-maheda-maitsega-felix-170-g",
         "size": "170g",
+        "ean": "4750022005410",
         "storeUnitPrice": 15.59,
         "storeName": "Sinep maheda maitsega, FELIX, 170 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Kuldse meega sinep 170g",
@@ -40348,16 +40987,26 @@
         "storeUnitPrice": 17.35,
         "storeName": "Kuldse meega sinep FELIX 170g"
       },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meesinep-170g/",
+        "size": "170g",
+        "ean": "4750022005434",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022005434.png",
+        "storeName": "Kuldse meega sinep Felix 170g"
+      },
       "selver": {
         "price": 2.95,
         "currency": "EUR",
         "url": "https://www.selver.ee/sinep-kuldse-meega-felix-170-g",
         "size": "170g",
+        "ean": "4750022005434",
         "storeUnitPrice": 17.35,
         "storeName": "Sinep kuldse meega, FELIX, 170 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Põltsamaa kange sinep 65g",
@@ -40371,16 +41020,26 @@
         "storeUnitPrice": 22.92,
         "storeName": "Põltsamaa Kange sinep FELIX 65g"
       },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-poltsamaa-kange-sinep-65g/",
+        "size": "65g",
+        "ean": "4750022005458",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/08/4750022005458.png",
+        "storeName": "Sinep Põltsamaa kange Felix 65g"
+      },
       "selver": {
         "price": 1.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/sinep-poltsamaa-kange-felix-65-g",
         "size": "65g",
+        "ean": "4750022005458",
         "storeUnitPrice": 22.92,
         "storeName": "Sinep Põltsamaa kange, FELIX, 65 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Kaste thousand island 375g",
@@ -40393,6 +41052,15 @@
         "size": "375g",
         "storeUnitPrice": 6.27,
         "storeName": "Kaste Thousand Island FELIX 375g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/thous-island-kaste-375g/",
+        "size": "375g",
+        "ean": "4740029049609",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029049609.png",
+        "storeName": "Salatikaste Thousand Island Felix 375g"
       },
       "rimi": {
         "price": 2.69,
@@ -40409,11 +41077,12 @@
         "cardPrice": 2.19,
         "cardName": "Partner",
         "size": "375g",
+        "ean": "4740029049609",
         "storeUnitPrice": 6.91,
         "storeName": "Thousand Island kaste, FELIX, 375 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Klassikaline salatikaste 375g",
@@ -40427,6 +41096,15 @@
         "storeUnitPrice": 5.36,
         "regularPrice": 2.69,
         "storeName": "Klassikaline Salatikaste FELIX 375g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/klassik-salatikaste-375g/",
+        "size": "375g",
+        "ean": "4740029049517",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029049517-1.png",
+        "storeName": "Salatikaste Klassikaline Felix 375g"
       },
       "rimi": {
         "price": 2.69,
@@ -40443,14 +41121,15 @@
         "cardPrice": 2.19,
         "cardName": "Partner",
         "size": "375g",
+        "ean": "4740029049517",
         "storeUnitPrice": 7.17,
         "storeName": "Klassikaline salatikaste, FELIX, 375 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Felix Mee ja sinepi salatikaste 375g",
+    "name": "Felix Mee ja sinepi salatikaste sinepiga 375g",
     "category": "Sauces & condiments",
     "prices": {
       "barbora": {
@@ -40462,16 +41141,26 @@
         "regularPrice": 2.59,
         "storeName": "Mee ja sinepi salatikaste FELIX 375g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mee-sinepikaste-375g/",
+        "size": "375g",
+        "ean": "4740029049630",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029049630-1.png",
+        "storeName": "Salatikaste Mee ja sinepiga Felix 375g"
+      },
       "selver": {
         "price": 2.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/mee-ja-sinepi-salatikaste-felix-375-g",
         "size": "375g",
+        "ean": "4740029049630",
         "storeUnitPrice": 6.91,
         "storeName": "Mee ja sinepi salatikaste, FELIX, 375 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Salatikaste caesar 375g",
@@ -40486,16 +41175,26 @@
         "regularPrice": 2.69,
         "storeName": "Salatikaste FELIX Caesar 375g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salatikaste-caesar-375g/",
+        "size": "375g",
+        "ean": "4740029049524",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6417808290610.png",
+        "storeName": "Salatikaste Caesar Felix 375g"
+      },
       "selver": {
         "price": 2.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/salatikaste-caesar-felix-375-g",
         "size": "375g",
+        "ean": "4740029049524",
         "storeUnitPrice": 6.91,
         "storeName": "Salatikaste Caesar, FELIX, 375 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Tomati tšilli salatikaste 375g",
@@ -40510,6 +41209,15 @@
         "regularPrice": 2.59,
         "storeName": "Tomati-tšilli salatikaste FELIX 375g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-salatikaste-tomati-tshilli-375g/",
+        "size": "375g",
+        "ean": "4740029049548",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740029049548.png",
+        "storeName": "Salatikaste Tomati-tshilli Felix 375g"
+      },
       "selver": {
         "price": 2.59,
         "currency": "EUR",
@@ -40517,11 +41225,12 @@
         "cardPrice": 2.19,
         "cardName": "Partner",
         "size": "375g",
+        "ean": "4740029049548",
         "storeUnitPrice": 6.91,
         "storeName": "Tomati-tšilli salatikaste, FELIX, 375 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Vahemere salatikaste 375g",
@@ -40536,16 +41245,34 @@
         "regularPrice": 2.69,
         "storeName": "Vahemere salatikaste FELIX 375g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-salatikaste-vahemere-stiilis-375g/",
+        "size": "375g",
+        "ean": "4740029072621",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740029072621.png",
+        "storeName": "Salatikaste Vahemere stiilis Felix 375g"
+      },
+      "rimi": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kastmed-ketsupid-sinep-ja-madaroigas/salatikastmed/salatikaste-vahemere-stiilis-felix-375g/p/1004082",
+        "size": "375g",
+        "storeUnitPrice": 7.71,
+        "storeName": "Salatikaste vahemere stiilis Felix 375g"
+      },
       "selver": {
         "price": 2.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/vahemere-salatikaste-felix-375-g",
         "size": "375g",
+        "ean": "4740029072621",
         "storeUnitPrice": 7.17,
         "storeName": "Vahemere salatikaste, FELIX, 375 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Ranch salatikaste 375g",
@@ -40559,6 +41286,15 @@
         "storeUnitPrice": 5.36,
         "regularPrice": 2.69,
         "storeName": "Ranch salatikaste FELIX 375g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-salatikaste-ranch-375g/",
+        "size": "375g",
+        "ean": "4740029072638",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740029072638.png",
+        "storeName": "Salatikaste Ranch Felix 375g"
       },
       "rimi": {
         "price": 2.89,
@@ -40575,11 +41311,12 @@
         "cardPrice": 2.19,
         "cardName": "Partner",
         "size": "375g",
+        "ean": "4740029072638",
         "storeUnitPrice": 7.17,
         "storeName": "Ranch salatikaste, FELIX, 375 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tarplan Majonees provansaal 50% 450g",
@@ -40594,16 +41331,26 @@
         "regularPrice": 2.19,
         "storeName": "Majonees TARPLAN Provansaal 50%, 450g"
       },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majonees-provansaal-450g/",
+        "size": "450g",
+        "ean": "4740159000204",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740159000204.png",
+        "storeName": "Majonees Provansaal Tarplan 450g"
+      },
       "selver": {
         "price": 2.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-provansaal-50-tarplan-450-g",
         "size": "450g",
+        "ean": "4740159000204",
         "storeUnitPrice": 4.87,
         "storeName": "Majonees Provansaal 50%, TARPLAN, 450 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Lemmik Majonees provansaal 405g",
@@ -40616,6 +41363,15 @@
         "size": "405g",
         "storeUnitPrice": 4.92,
         "storeName": "Majonees LEMMIK Provansaal, 405g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maj-provansaal-405g/",
+        "size": "405g",
+        "ean": "4740502002053",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740502002053-1.png",
+        "storeName": "Majonees Provansaal Lemmik 405g doy pakk"
       },
       "rimi": {
         "price": 2.05,
@@ -40630,11 +41386,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-provansaal-lemmik-lemmik-405-g",
         "size": "405g",
+        "ean": "4740502002053",
         "storeUnitPrice": 5.56,
         "storeName": "Majonees Provansaal Lemmik, LEMMIK, 405 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Lemmik Majonees provansaal 700g",
@@ -40647,6 +41404,15 @@
         "size": "700g",
         "storeUnitPrice": 4.27,
         "storeName": "Majonees LEMMIK Provansaal, 700g"
+      },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maj-provansaal-700g/",
+        "size": "700g",
+        "ean": "4740502002152",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740502002152.png",
+        "storeName": "Majonees Provansaal Lemmik originaal 700g"
       },
       "rimi": {
         "price": 2.99,
@@ -40661,11 +41427,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-provansaal-lemmik-700-g",
         "size": "700g",
+        "ean": "4740502002152",
         "storeUnitPrice": 4.84,
         "storeName": "Majonees Provansaal, LEMMIK, 700 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tarplan Majonees provansaal premium 210g",
@@ -40679,6 +41446,15 @@
         "storeUnitPrice": 5.34,
         "regularPrice": 1.49,
         "storeName": "Majonees Provansaal Premium TARPLAN 210g"
+      },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tarplan-majonees-provansaal-premium-210g/",
+        "size": "210g",
+        "ean": "4740159000730",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740159000730.png",
+        "storeName": "Majonees Provansaal Premium Tarplan 210g"
       },
       "rimi": {
         "price": 1.29,
@@ -40694,11 +41470,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-provansaal-premium-tarplan-210-g",
         "size": "210g",
+        "ean": "4740159000730",
         "storeUnitPrice": 7.1,
         "storeName": "Majonees Provansaal Premium, TARPLAN, 210 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Lemmik Majonees provansaal oliivi 210g",
@@ -40714,6 +41491,15 @@
         "storeUnitPrice": 3.76,
         "storeName": "Majonees LEMMIK Provansaal Oliivi, 210g"
       },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/provansaal-majonees-lemmik-oliivi-210g/",
+        "size": "210g",
+        "ean": "4740502002206",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740502002206-1.png",
+        "storeName": "Majonees Lemmik Oliivi Provansaal 210g"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -40727,11 +41513,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-oliivi-provansaal-lemmik-210-g",
         "size": "210g",
+        "ean": "4740502002206",
         "storeUnitPrice": 7.38,
         "storeName": "Majonees Oliivi Provansaal, LEMMIK, 210 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Majonees mädarõika 430g",
@@ -40744,6 +41531,15 @@
         "size": "430g",
         "storeUnitPrice": 5.47,
         "storeName": "Majonees SALVEST mädarõikamaits.,430g"
+      },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maj-madaroikamaits-430g/",
+        "size": "430g",
+        "ean": "4740073074756",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073074756.png",
+        "storeName": "Majonees mädarõikamaitseline Salvest 430g"
       },
       "rimi": {
         "price": 2.49,
@@ -40758,11 +41554,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/madaroikamaitseline-majonees-salvest-430g",
         "size": "430g",
+        "ean": "4740073074756",
         "storeUnitPrice": 5.88,
         "storeName": "Mädarõikamaitseline majonees, SALVEST, 430g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Majonees klassikaline 430g",
@@ -40775,6 +41572,15 @@
         "size": "430g",
         "storeUnitPrice": 5.47,
         "storeName": "Majonees SALVEST Klassikaline, 430g"
+      },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majon-klassikaline-430g/",
+        "size": "430g",
+        "ean": "4740073074763",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740073074763.png",
+        "storeName": "Majonees klassikaline Salvest 430g"
       },
       "rimi": {
         "price": 2.49,
@@ -40789,11 +41595,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikaline-majonees-salvest-430-g",
         "size": "430g",
+        "ean": "4740073074763",
         "storeUnitPrice": 4.63,
         "storeName": "Klassikaline majonees, SALVEST, 430 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Majonees kerge 430g",
@@ -40806,6 +41613,15 @@
         "size": "430g",
         "storeUnitPrice": 5.47,
         "storeName": "Majonees SALVEST Kerge, 430g"
+      },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kerge-majonees-430g/",
+        "size": "430g",
+        "ean": "4740073074770",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073074770.jpg",
+        "storeName": "Kerge majonees Salvest 430g"
       },
       "rimi": {
         "price": 2.49,
@@ -40820,11 +41636,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kerge-majonees-salvest-430g",
         "size": "430g",
+        "ean": "4740073074770",
         "storeUnitPrice": 5.56,
         "storeName": "Kerge majonees, SALVEST, 430g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hellmann's Majonees original 625ml",
@@ -40865,6 +41682,15 @@
         "storeUnitPrice": 5.9,
         "storeName": "Majonees HELLMANN'S Original, 405ml"
       },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hellmanns-majonees-originaal-384g/",
+        "size": "405ml",
+        "ean": "8720182087270",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/8720182087270.png",
+        "storeName": "Majonees Hellmanns originaal 405ml"
+      },
       "selver": {
         "price": 3.99,
         "currency": "EUR",
@@ -40872,11 +41698,12 @@
         "cardPrice": 2.29,
         "cardName": "Partner",
         "size": "405ml",
+        "ean": "8720182087270",
         "storeUnitPrice": 9.85,
         "storeName": "Original majonees, HELLMANN'S, 405ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hellmann's Majonees light 405ml",
@@ -40890,16 +41717,26 @@
         "storeUnitPrice": 9.85,
         "storeName": "Majonees HELLMANN'S Light, 405ml"
       },
+      "coop": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hellmanns-light-majonees-405ml/",
+        "size": "405ml",
+        "ean": "8720182108739",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/8720182108739.png",
+        "storeName": "Majonees Hellmanns Light 405ml"
+      },
       "selver": {
         "price": 4.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/light-majonees-hellmann-s-405ml",
         "size": "405ml",
+        "ean": "8720182108739",
         "storeUnitPrice": 12.07,
         "storeName": "Light majonees, HELLMANN'S, 405ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hellmann's Majonees originaal 855ml",
@@ -40920,6 +41757,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-original-hellmann-s-855-ml",
         "size": "855ml",
+        "ean": "8720182112644",
         "storeUnitPrice": 9.35,
         "storeName": "Majonees Original, HELLMANN'S, 855 ml"
       }
@@ -40938,6 +41776,15 @@
         "storeUnitPrice": 3.74,
         "storeName": "Majonees FELIX Kerge, 870g"
       },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-kerge-majonees-870g/",
+        "size": "870g",
+        "ean": "4740029049999",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740029049999-1.png",
+        "storeName": "Felix kerge majonees 870g"
+      },
       "rimi": {
         "price": 3.39,
         "currency": "EUR",
@@ -40951,11 +41798,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kerge-majonees-felix-870-g",
         "size": "870g",
+        "ean": "4740029049999",
         "storeUnitPrice": 4.67,
         "storeName": "Kerge majonees, FELIX, 870 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tarplan Majonees provansaal 380g",
@@ -40983,6 +41831,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-provansaal-tarplan-380-g",
         "size": "380g",
+        "ean": "4740159001836",
         "storeUnitPrice": 5.13,
         "storeName": "Majonees Provansaal, TARPLAN, 380 g"
       }
@@ -41007,6 +41856,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kuuslauguga-majonees-tarplan-210-g",
         "size": "210g",
+        "ean": "4740159001874",
         "storeUnitPrice": 7.1,
         "storeName": "Küüslauguga majonees, TARPLAN, 210 g"
       }
@@ -41025,6 +41875,15 @@
         "storeUnitPrice": 7.98,
         "storeName": "Premium majonees FELIX 445g"
       },
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-majonees-premium-445g/",
+        "size": "445g",
+        "ean": "4740029700036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740029700036.png",
+        "storeName": "Majonees Premium Felix 445g"
+      },
       "rimi": {
         "price": 3.79,
         "currency": "EUR",
@@ -41038,11 +41897,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/premium-majonees-felix-445-g",
         "size": "445g",
+        "ean": "4740029700036",
         "storeUnitPrice": 8.29,
         "storeName": "Premium Majonees, FELIX, 445 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Premium majonees 235g",
@@ -41056,16 +41916,26 @@
         "storeUnitPrice": 8.47,
         "storeName": "Premium majonees FELIX 235g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-majonees-premium-235g/",
+        "size": "235g",
+        "ean": "4740029700029",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740029700029.png",
+        "storeName": "Majonees Premium Felix 235g"
+      },
       "selver": {
         "price": 2.12,
         "currency": "EUR",
         "url": "https://www.selver.ee/premium-majonees-felix-235-g",
         "size": "235g",
+        "ean": "4740029700029",
         "storeUnitPrice": 9.02,
         "storeName": "Premium Majonees, FELIX, 235 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Lemmik Majonees juustu 200g",
@@ -41114,6 +41984,30 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Tarplan Majonees aioli 210g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 1.24,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/majoneestarplan-aioli-210-g",
+        "size": "210g",
+        "storeUnitPrice": 5.91,
+        "regularPrice": 1.65,
+        "storeName": "MajoneesTARPLAN aioli 210g"
+      },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kastmed-majonees/majoneesikastmed/majonees-aioli-tarplan-210g/p/4010179",
+        "size": "210g",
+        "storeUnitPrice": 8.52,
+        "storeName": "Majonees aioli Tarplan 210g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Tarplan Majonees tšilli 210g",
     "category": "Sauces & condiments",
     "prices": {
@@ -41154,6 +42048,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/dipikaste-dipp-tops-kuuslaugu-tere-200-g",
         "size": "200g",
+        "ean": "4740036004554",
         "storeUnitPrice": 8.75,
         "storeName": "Dipikaste Dipp-Tops küüslaugu, TERE, 200 g"
       }
@@ -41177,6 +42072,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/juustudipp-originaal-merevaik-200-g",
         "size": "200g",
+        "ean": "4740036014041",
         "storeUnitPrice": 9.45,
         "storeName": "Juustudipp Originaal, MEREVAIK, 200 g"
       }
@@ -41233,6 +42129,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/juustudipp-cheddari-merevaik-200-g",
         "size": "200g",
+        "ean": "4740036013877",
         "storeUnitPrice": 9.45,
         "storeName": "Juustudipp Cheddari, MEREVAIK, 200 g"
       }
@@ -41251,6 +42148,15 @@
         "storeUnitPrice": 25.27,
         "storeName": "Caesari kaste GOURMET CLUB150g"
       },
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/caesari-kaste-150g/",
+        "size": "150g",
+        "ean": "4740670000028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740670000028.png",
+        "storeName": "Caesari kaste Gourmet Club 150g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -41264,8 +42170,57 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/caesari-kaste-gourmet-club-150-g",
         "size": "150g",
+        "ean": "4740670000028",
         "storeUnitPrice": 19.93,
         "storeName": "Caesari kaste, GOURMET CLUB, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Kartulikaste 400g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kartulikaste-felix-400-g",
+        "size": "400g",
+        "storeUnitPrice": 7.23,
+        "storeName": "Kartulikaste FELIX, 400g"
+      },
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-kartulikaste-400g/",
+        "size": "400g",
+        "ean": "4740029048978",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4740029048978-1.png",
+        "storeName": "Kartulikaste Felix 400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Felix Wrapikaste 395g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/wrapikaste-felix-395-g",
+        "size": "395g",
+        "storeUnitPrice": 7.32,
+        "storeName": "Wrapikaste FELIX, 395g"
+      },
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-wrapikaste-395g/",
+        "size": "395g",
+        "ean": "4740029048992",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4740029048992-1.png",
+        "storeName": "Wrapikaste Felix 395g"
       }
     },
     "matchedVia": "automatic"
@@ -41282,6 +42237,15 @@
         "storeUnitPrice": 8.14,
         "storeName": "Kartulikaste FELIX, 220g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulikaste-220g/",
+        "size": "220g",
+        "ean": "4740029048923",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029048923.png",
+        "storeName": "Kartulikaste Felix 220g"
+      },
       "rimi": {
         "price": 1.45,
         "currency": "EUR",
@@ -41296,11 +42260,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kartulikaste-felix-220-g",
         "size": "220g",
+        "ean": "4740029048923",
         "storeUnitPrice": 8.14,
         "storeName": "Kartulikaste, FELIX, 220 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Wrapikaste 220g",
@@ -41313,6 +42278,15 @@
         "size": "220g",
         "storeUnitPrice": 7.04,
         "storeName": "Wrapikaste FELIX, 220g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/wrapikaste-220g/",
+        "size": "220g",
+        "ean": "4740029048909",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029048909.png",
+        "storeName": "Wrapikaste Felix 220g"
       },
       "rimi": {
         "price": 1.45,
@@ -41328,11 +42302,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/wrapikaste-felix-220-g",
         "size": "220g",
+        "ean": "4740029048909",
         "storeUnitPrice": 8.14,
         "storeName": "Wrapikaste, FELIX, 220 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Felix Tšillimajonees 220g",
@@ -41345,6 +42320,15 @@
         "size": "220g",
         "storeUnitPrice": 9.32,
         "storeName": "Tšillimajonees FELIX, 220g"
+      },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-tshillimajonees-220g/",
+        "size": "220g",
+        "ean": "4740029072577",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740029072577-1.png",
+        "storeName": "Tshillimajonees Felix 220g"
       },
       "rimi": {
         "price": 1.79,
@@ -41360,11 +42344,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tsillimajonees-felix-220-g",
         "size": "220g",
+        "ean": "4740029072577",
         "storeUnitPrice": 9.45,
         "storeName": "Tšillimajonees, FELIX, 220 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Heinz Majoneesi ketšupikaste 425g",
@@ -41400,6 +42385,15 @@
         "size": "220g",
         "storeUnitPrice": 9.05,
         "storeName": "Majonees FELIX laimi-aioli, 220g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-laimi-aioli-majonees-220g/",
+        "size": "220g",
+        "ean": "4740029072713",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740029072713-1.png",
+        "storeName": "Laimi-aioli majonees Felix 220g"
       },
       "rimi": {
         "price": 1.79,
@@ -41439,6 +42433,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/salatikaste-caesar-tarplan-210-g",
         "size": "210g",
+        "ean": "4740159001881",
         "storeUnitPrice": 8.52,
         "storeName": "Salatikaste Caesar, TARPLAN, 210 g"
       }
@@ -41458,6 +42453,15 @@
         "regularPrice": 2.69,
         "storeName": "Küüslaugukaste FELIX 275g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuuslaugukaste-275g/",
+        "size": "275g",
+        "ean": "4740029048930",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740029048930.png",
+        "storeName": "Küüslaugukaste Felix 275g"
+      },
       "rimi": {
         "price": 2.69,
         "currency": "EUR",
@@ -41473,11 +42477,12 @@
         "cardPrice": 2.19,
         "cardName": "Partner",
         "size": "275g",
+        "ean": "4740029048930",
         "storeUnitPrice": 9.78,
         "storeName": "Küüslaugukaste, FELIX, 275 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tarplan Majonees vegan 380g",
@@ -41497,6 +42502,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-vegan-tarplan-380-g",
         "size": "380g",
+        "ean": "4740159001850",
         "storeUnitPrice": 5.76,
         "storeName": "Majonees vegan, TARPLAN, 380 g"
       }
@@ -41507,6 +42513,15 @@
     "name": "Salvest Tomatipasta 300g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatipasta-salvest-300g/",
+        "size": "300g",
+        "ean": "4740073070062",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073070062.jpg",
+        "storeName": "Tomatipasta Salvest 300g"
+      },
       "rimi": {
         "price": 1.89,
         "currency": "EUR",
@@ -41520,16 +42535,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tomatipasta-salvest-300-g",
         "size": "300g",
+        "ean": "4740073070062",
         "storeUnitPrice": 5.63,
         "storeName": "Tomatipasta, SALVEST, 300 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Pastakaste bolognese hakklihaga 460g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salvest-pastakaste-bolognese-460g/",
+        "size": "460g",
+        "ean": "4740073077061",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/4740073077061.png",
+        "storeName": "Pastakaste Bolognese Salvest 460g hakklihaga"
+      },
       "rimi": {
         "price": 2.65,
         "currency": "EUR",
@@ -41543,16 +42568,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-bolognese-hakklihaga-salvest-460-g",
         "size": "460g",
+        "ean": "4740073077061",
         "storeUnitPrice": 5.33,
         "storeName": "Pastakaste Bolognese hakklihaga, SALVEST, 460 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Salvest Ketšup 1000g",
+    "name": "Salvest Ketshup 1000g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ketshup-salvest-1kg/",
+        "size": "1000g",
+        "ean": "4740073072080",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073072080.jpg",
+        "storeName": "Ketshup Salvest 1kg"
+      },
       "rimi": {
         "price": 4.09,
         "currency": "EUR",
@@ -41566,16 +42601,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ketsup-salvest-1-kg",
         "size": "1000g",
+        "ean": "4740073072080",
         "storeUnitPrice": 4.06,
         "storeName": "Ketšup, SALVEST, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Felix Tomatiketšup ilma lisatud suhkruta 970g",
+    "name": "Felix Tomatiketshup ilma lisatud suhkruta 970g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatiketshup-felix-970g/",
+        "size": "970g",
+        "ean": "4740029660057",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029660057.png",
+        "storeName": "Tomatiketshup Felix 970g ilma lisatud suhkruta"
+      },
       "rimi": {
         "price": 3.49,
         "currency": "EUR",
@@ -41591,11 +42636,12 @@
         "cardPrice": 3.79,
         "cardName": "Partner",
         "size": "970g",
+        "ean": "4740029660057",
         "storeUnitPrice": 4.79,
         "storeName": "Tomatiketšup ilma lisatud suhkruta, FELIX, 970 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Heinz Worcester kaste 150ml",
@@ -41614,6 +42660,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/worcester-kaste-heinz-150-ml",
         "size": "150ml",
+        "ean": "5000157073020",
         "storeUnitPrice": 17.53,
         "storeName": "Worcester kaste, HEINZ, 150 ml"
       }
@@ -41621,9 +42668,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Felix Kaste sweet and sour ananassiga 500g",
+    "name": "Felix Magushapu kaste sweet sour ananassiga 500g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magushapu-kaste-500g/",
+        "size": "500g",
+        "ean": "4750022504098",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750022504098.jpg",
+        "storeName": "Magushapu kaste Felix Sweet&Sour 500g ananassiga"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -41638,16 +42694,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kaste-sweet-and-sour-ananassiga-felix-500-g",
         "size": "500g",
+        "ean": "4750022504098",
         "storeUnitPrice": 4.38,
         "storeName": "Kaste Sweet and Sour ananassiga, FELIX, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Hellmann's Kaste chunky burger 250ml",
+    "name": "Hellmanns kaste chunky burger 250ml",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hellmanns-kaste-chunky-burger-250ml/",
+        "size": "250ml",
+        "ean": "8711200458110",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/8711200458110.png",
+        "storeName": "Hellmanns kaste Chunky Burger 250ml"
+      },
       "rimi": {
         "price": 3.19,
         "currency": "EUR",
@@ -41661,11 +42727,46 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/chunky-burger-kaste-hellmann-s-250-ml",
         "size": "250ml",
+        "ean": "8711200458110",
         "storeUnitPrice": 13.56,
         "storeName": "Chunky Burger kaste, HELLMANN'S, 250 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Terav hiinapärane kaste 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-hiina-kaste-500g-terav/",
+        "size": "500g",
+        "ean": "4750022503114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4750022503114.png",
+        "storeName": "Terav hiinapärane kaste Felix 500g"
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kastmed-ketsupid-sinep-ja-madaroigas/kastmed-kokkamiseks/kaste-hiinaparane-terav-felix-500g/p/105801",
+        "size": "500g",
+        "storeUnitPrice": 4.58,
+        "regularPrice": 2.75,
+        "storeName": "Kaste hiinapärane terav Felix 500g"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/terav-hiina-kaste-felix-500-g",
+        "size": "500g",
+        "ean": "4750022503114",
+        "storeUnitPrice": 5.5,
+        "storeName": "Terav Hiina kaste, FELIX, 500 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Heinz Ketšup originaal 700g",
@@ -41684,6 +42785,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/original-ketsup-heinz-700-g",
         "size": "700g",
+        "ean": "87157260",
         "storeUnitPrice": 7.24,
         "storeName": "Original Ketšup, HEINZ, 700 g"
       }
@@ -41694,6 +42796,15 @@
     "name": "Panzani Pastakaste extra bolognese 425g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 5.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pastakaste-bolegnese425g/",
+        "size": "425g",
+        "ean": "5948990121051",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/3038354210803.png",
+        "storeName": "Pastakaste Panzani Extra Bolognese 425g"
+      },
       "rimi": {
         "price": 5.29,
         "currency": "EUR",
@@ -41707,16 +42818,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pastakaste-extra-bolognese-panzani-425-g",
         "size": "425g",
+        "ean": "5948990121051",
         "storeUnitPrice": 12.45,
         "storeName": "Pastakaste Extra Bolognese, PANZANI, 425 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Heinz Bbq kaste klassikaline 480g",
+    "name": "Heinz Barbeque kaste 480g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heinz-barbeque-kaste-480g/",
+        "size": "480g",
+        "ean": "87157154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/87157154.png",
+        "storeName": "Barbeque kaste Heinz 480g"
+      },
       "rimi": {
         "price": 4.79,
         "currency": "EUR",
@@ -41730,11 +42851,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikaline-bbq-kaste-heinz-480-g",
         "size": "480g",
+        "ean": "87157154",
         "storeUnitPrice": 9.29,
         "storeName": "Klassikaline BBQ kaste, HEINZ, 480 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Heinz Burgerikaste ameerikapärane 400ml",
@@ -41753,6 +42875,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ameerikaparane-burgerikaste-heinz-400ml",
         "size": "400ml",
+        "ean": "8715700115832",
         "storeUnitPrice": 11.98,
         "storeName": "Ameerikapärane burgerikaste, HEINZ, 400ml"
       }
@@ -41778,6 +42901,7 @@
         "cardPrice": 1.49,
         "cardName": "Partner",
         "size": "200g",
+        "ean": "4740113090135",
         "storeUnitPrice": 8.45,
         "storeName": "Dipikaste aiaürtidega 19,4%, FARMI, 200 g"
       }
@@ -41788,6 +42912,15 @@
     "name": "Tarplan Majonees provansaal 900g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majonees-provansaal-900g/",
+        "size": "900g",
+        "ean": "4740159000082",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740159000082.png",
+        "storeName": "Majonees Provansaal Tarplan 900g"
+      },
       "rimi": {
         "price": 3.99,
         "currency": "EUR",
@@ -41803,16 +42936,26 @@
         "cardPrice": 3.29,
         "cardName": "Partner",
         "size": "900g",
+        "ean": "4740159000082",
         "storeUnitPrice": 4.39,
         "storeName": "Majonees Provansaal, TARPLAN, 900 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Felix Majonees klassikaline 830g",
+    "name": "Felix Klassikaline majonees 830g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majonees-klassikal-830g/",
+        "size": "830g",
+        "ean": "4740029048411",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029048411.png",
+        "storeName": "Klassikaline majonees Felix 830g"
+      },
       "rimi": {
         "price": 4.05,
         "currency": "EUR",
@@ -41826,16 +42969,93 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-klassikaline-felix-830-g",
         "size": "830g",
+        "ean": "4740029048411",
         "storeUnitPrice": 4.88,
         "storeName": "Majonees Klassikaline, FELIX, 830 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tarplan Majonees provansaal 430g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majonees-provansaal-430g/",
+        "size": "430g",
+        "ean": "4740159000112",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740159000112.png",
+        "storeName": "Majonees Provansaal Tarplan 430g"
+      },
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kastmed-majonees/majonees/majonees-provansaal-tarplan-430g/p/200645",
+        "size": "430g",
+        "storeUnitPrice": 3.47,
+        "regularPrice": 1.99,
+        "storeName": "Majonees Provansaal Tarplan 430g"
+      },
+      "selver": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/provansaal-majonees-50-tarplan-430-g",
+        "size": "430g",
+        "ean": "4740159000112",
+        "storeUnitPrice": 4.53,
+        "storeName": "Provansaal majonees 50%, TARPLAN, 430 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tarplan Majonees provansaal laktoosivaba 210g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majonees-provansaal-210g/",
+        "size": "210g",
+        "ean": "4740159001119",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740159001119.png",
+        "storeName": "Majonees Provansaal laktoosivaba Tarplan 210g"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/kastmed-majonees/majonees/majonees-provansaal-laktoosivaba-tarplan-210g/p/999411",
+        "size": "210g",
+        "storeUnitPrice": 5.67,
+        "storeName": "Majonees Provansaal laktoosivaba Tarplan 210g"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/majonees-provansaal-tarplan-210-g",
+        "size": "210g",
+        "ean": "4740159001119",
+        "storeUnitPrice": 5.19,
+        "storeName": "Majonees Provansaal, TARPLAN, 210 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Tere Majonees laktoosivaba 410g",
     "category": "Sauces & condiments",
     "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tere-majonees-410g-laktoosivaba/",
+        "size": "410g",
+        "ean": "4740036016885",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4740036016885.png",
+        "storeName": "Majonees Tere 410g laktoosivaba"
+      },
       "rimi": {
         "price": 2.75,
         "currency": "EUR",
@@ -41849,11 +43069,1536 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/majonees-laktoosivaba-tere-410-g",
         "size": "410g",
+        "ean": "4740036016885",
         "storeUnitPrice": 6.46,
         "storeName": "Majonees laktoosivaba, TERE, 410 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Õunaäädikas pastöriseerimata saaremaa 500ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ounaaadikas-saaremaa-0-5l-pastoris-mata/",
+        "size": "500ml",
+        "ean": "4744917010016",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/4744917010016.png",
+        "storeName": "Õunaäädikas Saaremaa 0.5L pastöriseerimata"
+      },
+      "selver": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ounaaadikas-ideafarm-500-ml",
+        "size": "500ml",
+        "ean": "4744917010016",
+        "storeUnitPrice": 11.38,
+        "storeName": "Õunaäädikas, IDEAFARM, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmante modena palsamiäädikas 250ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/palsamiaadikas-250ml/",
+        "size": "250ml",
+        "ean": "5200110731763",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/5200110731763.jpg",
+        "storeName": "Gourmante Modena palsamiäädikas 250ml"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/palsamiaadikas-gourmante-250-ml",
+        "size": "250ml",
+        "ean": "5200110731763",
+        "storeUnitPrice": 13.96,
+        "storeName": "Palsamiäädikas, GOURMANTE, 250 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Acetum Palsamiäädika glasuur klassikaline 150ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/acetum-palsamiaadika-gl-klassikal-150ml/",
+        "size": "150ml",
+        "ean": "8015352319351",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/8015352319351.png",
+        "storeName": "Palsamiäädika glasuur Acetum 150ml klassikaline"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/palsamiaadika-glasuur-klassikaline-acetum-150-ml",
+        "size": "150ml",
+        "ean": "8015352319351",
+        "storeUnitPrice": 19.93,
+        "storeName": "Palsamiäädika glasuur klassikaline, ACETUM, 150 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Acetum Palsamiäädika glasuur viigimarjaga 150ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/acetum-palsamiaadika-gl-viigimarja-150ml/",
+        "size": "150ml",
+        "ean": "8015352319375",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/8015352319375.png",
+        "storeName": "Palsamiäädika glasuur Acetum 150ml viigimarjaga"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/palsamiaadika-glasuur-viigimarjaga-acetum-150-ml",
+        "size": "150ml",
+        "ean": "8015352319375",
+        "storeUnitPrice": 17.93,
+        "storeName": "Palsamiäädika glasuur viigimarjaga, ACETUM, 150 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ideafarm Gurmeeäädikas vaarika 200ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 4.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ideafarmgurmeeaadikas-200ml-vaarikamait/",
+        "size": "200ml",
+        "ean": "4744917010092",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4742983018622.png",
+        "storeName": "Gurmeeäädikas Ideafarm 200ml vaarikamaitseline"
+      },
+      "selver": {
+        "price": 4.36,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarika-gurmeeaadikas-ideafarm-200-ml",
+        "size": "200ml",
+        "ean": "4744917010092",
+        "storeUnitPrice": 21.8,
+        "storeName": "Vaarika gurmeeäädikas, IDEAFARM, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sfinx Marinaadiäädikas 9% 1000ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sfinx-marinaadiaadikas-9-1l/",
+        "size": "1000ml",
+        "ean": "4742007006277",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4742007006277.png",
+        "storeName": "Marinaadiäädikas 9% Sfinx 1L"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marinaadiaadikas-9-ektoni-hulgikaubandus-1-l",
+        "size": "1000ml",
+        "ean": "4742007006277",
+        "storeUnitPrice": 1.35,
+        "storeName": "Marinaadiäädikas 9%, EKTONI HULGIKAUBANDUS, 1 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sfinx Äädikhape 30% 1000ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aadikhape-30-1l/",
+        "size": "1000ml",
+        "ean": "4742007000282",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742007000282.jpg",
+        "storeName": "Äädikhape 30% Sfinx 1L"
+      },
+      "selver": {
+        "price": 1.98,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aadikhape-30-sfinx-e-1-l",
+        "size": "1000ml",
+        "ean": "4742007000282",
+        "storeUnitPrice": 1.98,
+        "storeName": "Äädikhape 30% , SFINX-E, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lemmik Majonees provansaal klassikaline 210g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maj-provansaal-210g/",
+        "size": "210g",
+        "ean": "4740502021221",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740502021221-1.png",
+        "storeName": "Majonees Provansaal klassikaline Lemmik 210g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/klassikaline-provansaal-majonees-lemmik-210-g",
+        "size": "210g",
+        "ean": "4740502021221",
+        "storeUnitPrice": 6.14,
+        "storeName": "Klassikaline provansaal majonees, LEMMIK, 210 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tarplan Majonees tilliga 210g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tarplan-majonees-tilliga-210g/",
+        "size": "210g",
+        "ean": "4740159001621",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4740159001621.png",
+        "storeName": "Majonees tilliga Tarplan 210g"
+      },
+      "selver": {
+        "price": 1.58,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/majonees-tilliga-tarplan-210-g",
+        "size": "210g",
+        "ean": "4740159001621",
+        "storeUnitPrice": 7.52,
+        "storeName": "Majonees tilliga, TARPLAN, 210 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Herkkumaa kurgimajonees 320g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herkkumaa-kurgimajonees-320g/",
+        "size": "320g",
+        "ean": "6410840038417",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/6410840038417.png",
+        "storeName": "Herkkumaa kurgimajonees 320g"
+      },
+      "selver": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kurgimajonees-herkkumaa-320-g",
+        "size": "320g",
+        "ean": "6410840038417",
+        "storeUnitPrice": 12.03,
+        "storeName": "Kurgimajonees, HERKKUMAA, 320 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Herkkumaa Paprikamajonees 320g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herkkumaa-paprikamajonees-320g/",
+        "size": "320g",
+        "ean": "6410840038424",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/6410840038424.png",
+        "storeName": "Paprikamajonees Herkkumaa 320g"
+      },
+      "selver": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paprikamajonees-herkkumaa-320-g",
+        "size": "320g",
+        "ean": "6410840038424",
+        "storeUnitPrice": 12.03,
+        "storeName": "Paprikamajonees, HERKKUMAA, 320 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tarplan Majonees peakoka 380g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majonees-peakoka-tarplan-380g/",
+        "size": "380g",
+        "ean": "4740159001867",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/08/4740159001867.png",
+        "storeName": "Majonees Peakoka Tarplan 380g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peakoka-majonees-tarplan-380-g",
+        "size": "380g",
+        "ean": "4740159001867",
+        "storeUnitPrice": 6.55,
+        "storeName": "Peakoka majonees, TARPLAN, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet club Tshilli chipotle majonees 180g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-club-tshilli-chipotle-majon-180g/",
+        "size": "180g",
+        "ean": "4740670124960",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740670124960.png",
+        "storeName": "Tshilli chipotle majonees Gourmet Club 180g"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tsillimajonees-gourmet-club-180-g",
+        "size": "180g",
+        "ean": "4740670124960",
+        "storeUnitPrice": 16.89,
+        "storeName": "Tšillimajonees, GOURMET CLUB, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmet club Musta trühvli majonees 180g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmet-musta-truhvli-majonees-180g/",
+        "size": "180g",
+        "ean": "4740670124977",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740670124977.png",
+        "storeName": "Musta trühvli majonees Gourmet Club 180g"
+      },
+      "selver": {
+        "price": 3.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/musta-truhvli-majonees-gourmet-club-180-g",
+        "cardPrice": 2.39,
+        "cardName": "Partner",
+        "size": "180g",
+        "ean": "4740670124977",
+        "storeUnitPrice": 16.89,
+        "storeName": "Musta trühvli majonees, GOURMET CLUB, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kuldne Majonees provansaal 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuldne-majonees-provansaal-500g/",
+        "size": "500g",
+        "ean": "4745010372100",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4745010372100.png",
+        "storeName": "Majonees Provansaal Kuldne 500g"
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/majonees-kuldne-provansaal-kuldne-500-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4745010372100",
+        "storeUnitPrice": 5.88,
+        "storeName": "Majonees Kuldne Provansaal, KULDNE, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tarplan Majoneesi ketshupikaste 450g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majon-ketshupikaste-450g/",
+        "size": "450g",
+        "ean": "4740159000334",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740159000334.png",
+        "storeName": "Majoneesi-ketshupikaste Tarplan 450g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/majoneesi-ketsupikaste-tarplan-450-g",
+        "size": "450g",
+        "ean": "4740159000334",
+        "storeUnitPrice": 5.09,
+        "storeName": "Majoneesi-ketšupikaste, TARPLAN, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Heinz majonees prk 460g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heinz-majonees-460g-prk/",
+        "size": "460g",
+        "ean": "8715700117614",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/8715700117614.png",
+        "storeName": "Heinz majonees 460g prk"
+      },
+      "selver": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/majonees-heinz-460g",
+        "size": "460g",
+        "ean": "8715700117614",
+        "storeUnitPrice": 8.02,
+        "storeName": "Majonees, HEINZ, 460g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tarplan Majonees vegan 210g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/majonees-vegan-210g/",
+        "size": "210g",
+        "ean": "4740159001546",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740159001546.png",
+        "storeName": "Majonees Vegan Tarplan 210g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/majonees-vegan-tarplan-210-g",
+        "size": "210g",
+        "ean": "4740159001546",
+        "storeUnitPrice": 6.14,
+        "storeName": "Majonees Vegan, TARPLAN, 210 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primo gusto Tomatipüree melissa basiilikuga 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tom-pasta-basiiliku-500g/",
+        "size": "500g",
+        "ean": "5201193192359",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/5201193192359.png",
+        "storeName": "Tomatipüree Melissa Primo Gusto 500g basiilikuga"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatipasta-mediterranean-melissa-primo-gusto-500-g",
+        "size": "500g",
+        "ean": "5201193192359",
+        "storeUnitPrice": 3.18,
+        "storeName": "Tomatipasta Mediterranean, MELISSA PRIMO GUSTO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Primo gusto Tomatipüree melissa 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomatipasta-melissa-500g/",
+        "size": "500g",
+        "ean": "5201193798018",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5201193798018.png",
+        "storeName": "Tomatipüree Melissa Primo Gusto 500g"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatipasta-tomatera-melissa-primo-gusto-500-g",
+        "size": "500g",
+        "ean": "5201193798018",
+        "storeUnitPrice": 2.78,
+        "storeName": "Tomatipasta tomatera, MELISSA PRIMO GUSTO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Ketshup mahe 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/okoloogil-ketshup-500g/",
+        "size": "500g",
+        "ean": "7310240650297",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310240650297-1.png",
+        "storeName": "Ökoloogiline ketshup Felix 500g"
+      },
+      "selver": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatiketsup-mahe-felix-500-g",
+        "size": "500g",
+        "ean": "7310240650297",
+        "storeUnitPrice": 7.78,
+        "storeName": "Tomatiketšup mahe, FELIX, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pomi Pizza ja pasta kaste 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pomi-pizza-ja-pasta-kaste-500g/",
+        "size": "500g",
+        "ean": "8032793343400",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/8032793343400.png",
+        "storeName": "Pizza ja pasta kaste Pomi 500g"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pitsa-ja-pasta-kaste-pomi-500-g",
+        "size": "500g",
+        "ean": "8032793343400",
+        "storeUnitPrice": 5.78,
+        "storeName": "Pitsa ja pasta kaste, POMI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi texicana salsakaste 500ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 5.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salsakaste-texicana-0-5l/",
+        "size": "500ml",
+        "ean": "4005500333630",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4005500333630.png",
+        "storeName": "Maggi Texicana salsakaste 500ml"
+      },
+      "selver": {
+        "price": 5.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/texicana-salsa-maggi-500-ml",
+        "size": "500ml",
+        "ean": "4005500333630",
+        "storeUnitPrice": 10.38,
+        "storeName": "Texicana Salsa, MAGGI, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Tomatiketshup terav 1000g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-tomatiketshup-1kg-terav/",
+        "size": "1000g",
+        "ean": "4740029607748",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740029607748-1.png",
+        "storeName": "Tomatiketshup Felix 1kg terav"
+      },
+      "selver": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/terav-ketsup-felix-1-kg",
+        "size": "1000g",
+        "ean": "4740029607748",
+        "storeUnitPrice": 4.35,
+        "storeName": "Terav ketšup, FELIX, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Tomatiketshup terav 500g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ketshup-terav-500g/",
+        "size": "500g",
+        "ean": "4740029604648",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029604648.png",
+        "storeName": "Tomatiketshup Felix 500g terav"
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/terav-ketsup-felix-500-g",
+        "size": "500g",
+        "ean": "4740029604648",
+        "storeUnitPrice": 5.88,
+        "storeName": "Terav ketšup, FELIX, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Pastakaste arrabbiata terav tšilliga 340g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pastakaste-arrabbiata-340g/",
+        "size": "340g",
+        "ean": "4743303114017",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4743303114017.png",
+        "storeName": "Pastakaste Arrabbiata Tartu Mill 340g terav"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/arrabbiata-terav-pastakaste-tsilliga-vegan-tartu-mill-340-g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "340g",
+        "ean": "4743303114017",
+        "storeUnitPrice": 9.38,
+        "storeName": "Arrabbiata terav pastakaste tšilliga, vegan, TARTU MILL, 340 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Pastakaste tomati basiiliku 340g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pastakaste-340g-tom-basiiliku/",
+        "size": "340g",
+        "ean": "4743303114000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4743303114000.png",
+        "storeName": "Pastakaste Tartu Mill 340g tomati-basiiliku"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomat-ja-basiilik-klassikaline-pastakaste-vegan-tartu-mill-340-g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "340g",
+        "ean": "4743303114000",
+        "storeUnitPrice": 9.38,
+        "storeName": "Tomat ja basiilik klassikaline pastakaste, vegan, TARTU MILL, 340 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Pastakaste tomati itaalia juustu 340g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pastakaste-340g-tom-juustu/",
+        "size": "340g",
+        "ean": "4743303114024",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4743303114024.png",
+        "storeName": "Pastakaste Tartu Mill 340g tomati-Itaalia juustu"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pastakaste-tomat-ja-juust-tartu-mill-340-g",
+        "size": "340g",
+        "ean": "4743303114024",
+        "storeUnitPrice": 11.74,
+        "storeName": "Pastakaste Tomat ja Juust, TARTU MILL, 340 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Pastakaste bolognese hakklihaga 340g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pastakaste-bolognese-340g/",
+        "size": "340g",
+        "ean": "4743303114048",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4743303114048.png",
+        "storeName": "Pastakaste Bolognese Tartu Mill 340g hakklihaga"
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bolognese-pastakaste-hakklihaga-tartu-mill-340-g",
+        "size": "340g",
+        "ean": "4743303114048",
+        "storeUnitPrice": 10.74,
+        "storeName": "Bolognese pastakaste hakklihaga,TARTU MILL, 340 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Pastakaste napoletana porg sibula sibulaga 340g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pastakaste-napoletana-340g/",
+        "size": "340g",
+        "ean": "4743303114055",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4743303114055.png",
+        "storeName": "Pastakaste Napoletana Tartu Mill 340g porg-sibula"
+      },
+      "selver": {
+        "price": 3.13,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/napoletana-pastakaste-porgandi-ja-sibulaga-tartu-mill-340g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "340g",
+        "ean": "4743303114055",
+        "storeUnitPrice": 9.21,
+        "storeName": "Napoletana pastakaste porgandi ja sibulaga, TARTU MILL, 340g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Green Tomatipasta 28-30% 70g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/green-tomatipasta-28-30-70g/",
+        "size": "70g",
+        "ean": "4744148010878",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4744148010878.png",
+        "storeName": "Tomatipasta 28-30% Green 70g"
+      },
+      "selver": {
+        "price": 0.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatipasta-28-30-green-70-g",
+        "size": "70g",
+        "ean": "4744148010878",
+        "storeUnitPrice": 7.86,
+        "storeName": "Tomatipasta 28-30%, GREEN, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reggia tomatikaste 680g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/reggia-tomatikaste-680g/",
+        "size": "680g",
+        "ean": "8008857010014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8008857010014.png",
+        "storeName": "Reggia tomatikaste 680g"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatipuree-maitsestamata-reggia-680-g",
+        "size": "680g",
+        "ean": "8008857010014",
+        "storeUnitPrice": 3.57,
+        "storeName": "Tomatipüree maitsestamata, REGGIA, 680 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix sool suhk tomatiketshup vähen suhkruga 980g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-tomatiketshup-980g-vahen-soolsuhk/",
+        "size": "980g",
+        "ean": "7310240650099",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/7310240650099.png",
+        "storeName": "Felix tomatiketshup 980g vähen.sool,suhk"
+      },
+      "selver": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomatiketsup-vahendatud-soola-ja-suhkruga-felix-980-g",
+        "cardPrice": 3.79,
+        "cardName": "Partner",
+        "size": "980g",
+        "ean": "7310240650099",
+        "storeUnitPrice": 4.89,
+        "storeName": "Tomatiketšup vähendatud soola ja suhkruga, FELIX, 980 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Salatikaste mango tshilli special 285g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-spec-salatikaste-mango-tshilli285g/",
+        "size": "285g",
+        "ean": "4750022998033",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4750022998033.png",
+        "storeName": "Salatikaste Mango-tshilli Felix Special 285g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mango-tsilli-kaste-felix-285-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "285g",
+        "ean": "4750022998033",
+        "storeUnitPrice": 10.49,
+        "storeName": "Mango-tsilli kaste, FELIX, 285 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Bbq kaste suitsu 345g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-bbq-kaste-suitsumaits-345g/",
+        "size": "345g",
+        "ean": "7311312009425",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/7311312009425.png",
+        "storeName": "BBQ kaste suitsumaitseline Santa Maria 345g"
+      },
+      "selver": {
+        "price": 4.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bbq-kaste-suitsumaitseline-santa-maria-345g",
+        "size": "345g",
+        "ean": "7311312009425",
+        "storeUnitPrice": 11.97,
+        "storeName": "BBQ kaste suitsumaitseline, SANTA MARIA, 345g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Külluslik paprikakaste 270g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-kulluslik-paprikakaste-270g/",
+        "size": "270g",
+        "ean": "4740029700074",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740029700074.png",
+        "storeName": "Külluslik paprikakaste Felix 270g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paprikakaste-kulluslik-felix-270-g",
+        "cardPrice": 2.19,
+        "cardName": "Partner",
+        "size": "270g",
+        "ean": "4740029700074",
+        "storeUnitPrice": 9.59,
+        "storeName": "Paprikakaste Külluslik, FELIX, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Heinz Ketshup original 460g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 4.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ketshup-heinz-orig-460g/",
+        "size": "460g",
+        "ean": "87157246",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/87157246.png",
+        "storeName": "Ketshup Heinz Original 460g"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ketsup-original-heinz-460-g",
+        "size": "460g",
+        "ean": "87157246",
+        "storeUnitPrice": 7.8,
+        "storeName": "Ketšup original, HEINZ, 460 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Heinz Ketshup original 1000g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ketshup-origin-heinz-1kg/",
+        "size": "1000g",
+        "ean": "8715700016504",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8715700016504.png",
+        "storeName": "Ketshup Original Heinz 1kg"
+      },
+      "selver": {
+        "price": 6.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ketsup-original-heinz-1-kg",
+        "size": "1000g",
+        "ean": "8715700016504",
+        "storeUnitPrice": 6.09,
+        "storeName": "Ketšup original, HEINZ, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Pastakaste napoletana köögiviljadega 360g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-pastakaste-napoletana-360g/",
+        "size": "360g",
+        "ean": "9000295830123",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/9000295830123-1.png",
+        "storeName": "Pastakaste Napoletana Felix 360g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pastakaste-koogiviljadega-felix-360-g",
+        "size": "360g",
+        "ean": "9000295830123",
+        "storeUnitPrice": 6.36,
+        "storeName": "Pastakaste köögiviljadega, FELIX, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Felix Pastakaste basilico ürdiga 360g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/felix-pastakaste-basilico-360g/",
+        "size": "360g",
+        "ean": "9000295830130",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/9000295830130-1.png",
+        "storeName": "Pastakaste Felix Basilico 360g"
+      },
+      "selver": {
+        "price": 2.53,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pastakaste-urdiga-felix-360-g",
+        "size": "360g",
+        "ean": "9000295830130",
+        "storeUnitPrice": 7.03,
+        "storeName": "Pastakaste ürdiga, FELIX, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Filippo berio Pesto tomatite ja ricotta juust juustuga 190g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/filippo-berio-pesto-190g-tomatite-ricott/",
+        "size": "190g",
+        "ean": "8002210125209",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/8002210125209.png",
+        "storeName": "Pesto Filippo Berio 190g tomatite ja ricotta juust"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pesto-tomati-ja-ricotta-juustuga-filippo-berio-190-g",
+        "size": "190g",
+        "ean": "8002210125209",
+        "storeUnitPrice": 15.74,
+        "storeName": "Pesto tomati ja ricotta juustuga, FILIPPO BERIO, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Magus tshillikaste 500ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magus-tshillikaste-585g/",
+        "size": "500ml",
+        "ean": "7311310034405",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311310034405.jpg",
+        "storeName": "Magus tshillikaste Santa Maria 500ml"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/magus-tsillikaste-santa-maria-500-ml",
+        "size": "500ml",
+        "ean": "7311310034405",
+        "storeUnitPrice": 8.18,
+        "storeName": "Magus tšillikaste, SANTA MARIA, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Chunky salsa 230g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-chunky-salsa-230g/",
+        "size": "230g",
+        "ean": "7311312000873",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/7311312000880.png",
+        "storeName": "Chunky salsa Santa Maria 230g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/chunky-salsa-santa-maria-230-g",
+        "size": "230g",
+        "ean": "7311312000873",
+        "storeUnitPrice": 14.3,
+        "storeName": "Chunky Salsa, SANTA MARIA, 230 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Vokikaste pad thai 150g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vokikaste-pad-thai-150g/",
+        "size": "150g",
+        "ean": "7311312002518",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311312002518.png",
+        "storeName": "Vokikaste Santa Maria 150g Pad Thai"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vokikaste-pad-thai-santa-maria-150-g",
+        "size": "150g",
+        "ean": "7311312002518",
+        "storeUnitPrice": 18.6,
+        "storeName": "Vokikaste Pad Thai, SANTA MARIA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Vokikaste magus hapu 150g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vokikaste-magus-hapu150g/",
+        "size": "150g",
+        "ean": "7311312002501",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311312002501.png",
+        "storeName": "Vokikaste Santa Maria 150g magus-hapu"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vokikaste-magus-hapu-santa-maria-150-g",
+        "size": "150g",
+        "ean": "7311312002501",
+        "storeUnitPrice": 13.93,
+        "storeName": "Vokikaste magus-hapu, SANTA MARIA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Heinz Sojakaste 150ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sojakaste-heinz-150ml/",
+        "size": "150ml",
+        "ean": "5000157073006",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000157073006.jpg",
+        "storeName": "Sojakaste Heinz 150ml"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sojakaste-heinz-150-ml",
+        "size": "150ml",
+        "ean": "5000157073006",
+        "storeUnitPrice": 17.53,
+        "storeName": "Sojakaste, HEINZ, 150 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pearl river Hele sojakaste bridge 150ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sojakaste-hele-150ml/",
+        "size": "150ml",
+        "ean": "6921180820001",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/0722337819000.png",
+        "storeName": "Hele sojakaste Pearl River Bridge 150ml"
+      },
+      "selver": {
+        "price": 1.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sojakaste-hiina-pearl-river-150-ml",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "150ml",
+        "ean": "6921180820001",
+        "storeUnitPrice": 9.4,
+        "storeName": "Sojakaste Hiina, PEARL RIVER, 150 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pearl river Hele sojakaste bridge 500ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sojakaste-hele-500ml/",
+        "size": "500ml",
+        "ean": "6921180820025",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6921180820025.png",
+        "storeName": "Hele sojakaste Pearl River Bridge 500ml"
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sojakaste-superior-light-pearl-river-bridge-500-ml",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "500ml",
+        "ean": "6921180820025",
+        "storeUnitPrice": 5.88,
+        "storeName": "Sojakaste Superior Light, PEARL RIVER BRIDGE, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pearl river Hele sojakaste broileri lauapudel prem 150ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sojakaste-150ml/",
+        "size": "150ml",
+        "ean": "6921180820322",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/6921180820322.jpg",
+        "storeName": "Hele sojakaste Pearl River Br.Prem.150ml lauapudel"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/premium-light-laua-sojakaste-pearl-river-150-ml",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "150ml",
+        "ean": "6921180820322",
+        "storeUnitPrice": 12.47,
+        "storeName": "Premium light laua sojakaste, PEARL RIVER, 150 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Teriyaki kaste 300ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teriyaki-kaste-300ml/",
+        "size": "300ml",
+        "ean": "7311310035341",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311310035341.png",
+        "storeName": "Teriyaki kaste Santa Maria 300ml"
+      },
+      "selver": {
+        "price": 6.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teriyaki-kaste-santa-maria-300-ml",
+        "size": "300ml",
+        "ean": "7311310035341",
+        "storeUnitPrice": 22.63,
+        "storeName": "Teriyaki kaste, SANTA MARIA, 300 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Tako kaste terava 230g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taco-terav-kaste-230g/",
+        "size": "230g",
+        "ean": "7311312002143",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311310390570.png",
+        "storeName": "Tako kaste Santa Maria 230g teravamaitseline"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/terav-taco-kaste-santa-maria-230-g",
+        "size": "230g",
+        "ean": "7311312002143",
+        "storeUnitPrice": 14.3,
+        "storeName": "Terav taco kaste, SANTA MARIA, 230 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Tako kaste maheda mahe 230g",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taco-mahe-kaste-230g/",
+        "size": "230g",
+        "ean": "7311312002075",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311310039066.png",
+        "storeName": "Tako kaste Santa Maria 230g mahedamaitseline"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahedamaitseline-taco-kaste-santa-maria-230-g",
+        "size": "230g",
+        "ean": "7311312002075",
+        "storeUnitPrice": 14.3,
+        "storeName": "Mahedamaitseline taco kaste, SANTA MARIA, 230 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Seasir Hele sojakaste 152ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seasir-hele-sojakaste-152ml/",
+        "size": "152ml",
+        "ean": "6923291134558",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/6923291134558.png",
+        "storeName": "Hele sojakaste Seasir 152ml"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hele-sojakaste-seasir-152-ml",
+        "size": "152ml",
+        "ean": "6923291134558",
+        "storeUnitPrice": 13.09,
+        "storeName": "Hele sojakaste, SEASIR, 152 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Seasir Sojakaste premium 480ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seasir-sojakaste-premium-480ml/",
+        "size": "480ml",
+        "ean": "6923291134565",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/6923291134565.png",
+        "storeName": "Sojakaste Seasir Premium 480ml"
+      },
+      "selver": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/premium-sojakaste-seasir-480-ml",
+        "size": "480ml",
+        "ean": "6923291134565",
+        "storeUnitPrice": 6.44,
+        "storeName": "Premium sojakaste, SEASIR, 480 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Thai choice Teriyaki kaste 200ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teriyaki-kaste-200ml/",
+        "size": "200ml",
+        "ean": "8851978800237",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8851978800237.jpg",
+        "storeName": "Teriyaki kaste Thai Choice 200ml"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teriyaki-kaste-thai-choice-200-ml",
+        "size": "200ml",
+        "ean": "8851978800237",
+        "storeUnitPrice": 13.95,
+        "storeName": "Teriyaki kaste, THAI CHOICE, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Thai choice Austrikaste 200ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/thai-choice-austrikaste-200ml/",
+        "size": "200ml",
+        "ean": "8851978801883",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/8851978801883.png",
+        "storeName": "Austrikaste Thai Choice 200ml"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/austrikaste-thai-choice-200-ml",
+        "size": "200ml",
+        "ean": "8851978801883",
+        "storeUnitPrice": 12.95,
+        "storeName": "Austrikaste, THAI CHOICE, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Japanese choice Sushi sojakaste 200ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/japanese-choice-sojakaste-200ml/",
+        "size": "200ml",
+        "ean": "8851978918147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/8851978918147.png",
+        "storeName": "Sushi sojakaste Japanese Choice 200ml"
+      },
+      "selver": {
+        "price": 2.94,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sushi-sojakaste-japanese-choice-200-ml",
+        "size": "200ml",
+        "ean": "8851978918147",
+        "storeUnitPrice": 14.7,
+        "storeName": "Sushi sojakaste, JAPANESE CHOICE, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Thai choice Magus tshillikaste 700ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magus-tshillikaste-700ml/",
+        "size": "700ml",
+        "ean": "8851978801067",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8851978801067.png",
+        "storeName": "Magus tshillikaste Thai Choice 700ml"
+      },
+      "selver": {
+        "price": 4.77,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/magus-tsillikaste-thai-choice-700-ml",
+        "cardPrice": 3.79,
+        "cardName": "Partner",
+        "size": "700ml",
+        "ean": "8851978801067",
+        "storeUnitPrice": 6.81,
+        "storeName": "Magus tšillikaste, THAI CHOICE, 700 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Japanese choice Sojakaste gluteenivaba 200ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/japanese-choice-sojakaste200ml-glut-vaba/",
+        "size": "200ml",
+        "ean": "8851978918451",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/8851978918451.png",
+        "storeName": "Sojakaste Japanese Choice 200ml gluteenivaba"
+      },
+      "selver": {
+        "price": 3.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gluteenivaba-sojakaste-japanese-choice-200-ml",
+        "size": "200ml",
+        "ean": "8851978918451",
+        "storeUnitPrice": 16.2,
+        "storeName": "Gluteenivaba sojakaste, JAPANESE CHOICE, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Flying goose Sriracha majoneesikaste 200ml",
+    "category": "Sauces & condiments",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sriracha-kaste-200g/",
+        "size": "200ml",
+        "ean": "8853662056654",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8853662056654.png",
+        "storeName": "Sriracha majoneesikaste Flying Goose 200ml"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sriracha-tsilli-majoneesi-kaste-flying-goose-200-ml",
+        "size": "200ml",
+        "ean": "8853662056654",
+        "storeUnitPrice": 21.45,
+        "storeName": "Sriracha tšilli-majoneesi kaste, FLYING GOOSE, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kartulimaitseaine 30g",

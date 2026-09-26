@@ -227,6 +227,36 @@ const WORLD_FILTER = excludeWords(
   [/tortil/, /wrap/, /taco/, /nuudl/, /kookos(?:piim|kreem|jook|vesi)/, /karri\s*-?pasta|currypasta|curry\s*paste/, /riisipaber|riisileh/, /(?<![\p{L}])nori(?![\p{L}])/u, /wasabi/, /(?<![\p{L}])miso(?![\p{L}])/u, /kimchi/, /tofu/, /sushi/, /pad\s*thai/, /burrito/, /enchilada/, /fajita/],
 );
 
+
+// ---- Batch 10 filters (2026-09-27; copies in scraper/stores/selver.js) ----
+// Cat litter only — the owner's call: Pet food = food + litter, never
+// toys, bedding (hay, sawdust, wood pellets) or other supplies.
+const LITTER_ONLY = excludeWords(["mänguasi", "kaisu", "kott", "hein", "saepuru", "graanul", "vitamiin", "snäk"], ["liiv"]);
+// Kohukesed & desserts: no plant-based imitations.
+const DESSERT_FILTER = excludeWords(["taimne", "taimse", "vegan", "kaerapõhine", "sojapõhine"]);
+// Milk drinks & drinking yoghurt: drinkable yoghurt, flavoured and
+// condensed milk; never plant drinks, creams, kefir, coffee drinks or
+// barista milk.
+const MILK_DRINK_SELVER_YOGHURT = excludeWords(["taimne", "kaera", "soja", "mandli", "smuuti"], ["jook", "joogijogurt"]);
+const MILK_DRINK_SELVER_MILK = excludeWords(["koor", /\bpett\b/, "keefir", "hapendatud", "kohvijook", "frezza", "cappuccino", "latte", "taimne", "kaera", "soja", "mandli"], ["kondens", "kakao", "šokolaadi", "maasika", "vanilli", "banaani", "karamelli", "piimajook", "maitsestatud"]);
+const MILK_DRINK_FILTER = excludeWords(["taimne", "taimse", "kaera", "soja", "mandli", "kookos", "vegan"]);
+// Crispbreads, rice cakes, galettes — not croutons, rusks, snack
+// breads in cups.
+const CRISPBREAD_FILTER = excludeWords(["krutoon", "kuivik", "topsis", "leivake", "kaerakrõps"], ["näki", "galet", "vahvl", "crisp"]);
+// Syrups, concentrates and juice DRINKS — real juice/nectar stays in
+// Drinks (its filter takes mahl/nektar without "jook").
+const SYRUP_JUICE_FILTER = excludeWords([], ["jook", "siirup", "kontsentraat"]);
+// Frozen fish & seafood — never fish burgers/patties, meat, dumplings.
+const FROZEN_FISH_FILTER = excludeWords(
+  ["burger", "pihv", "kotlet", "frikadell", "pelmeen", "vareenik", "pitsa", "salat", "supp", "maks", "luud", "broiler", "kana", "sea", "veise"],
+  [/kala|krevet|mereann|lõhe|lohe|forell|tursk|kilu|räim|heering|kalmaar|rannakarp|tuun|saida|ahven|siig|austr|seepia|hiid|pangaasius|tilaapia|karp/],
+);
+// Frozen doughs, pastries, pies, bread, desserts — no dumplings/pizza
+// (Dumplings, pizza & fries) and no fries.
+const FROZEN_DOUGH_FILTER = excludeWords(["pelmeen", "vareenik", "friikartul", "jäätis", "külmutatud pitsa", /^pitsa\b/]);
+// Broths and stock — not soups.
+const BROTH_FILTER = excludeWords(["supp"]);
+
 // Pasta must not take the Asian noodles World cuisine now owns
 // (Thai-Choice egg noodles, rice/glass noodles, udon, ramen, soba) —
 // one product, one category.
@@ -1511,9 +1541,12 @@ const CATEGORIES = [
     // Selver prefixes the feed-law class on every item ("Täiendsööt."
     // = complementary feed, "Täistoit." = complete feed) — a
     // regulatory label, not a product fact the other stores state.
+    // Cat litter joined (the owner's call, 2026-09-27): litter only,
+    // never toys, bedding or other supplies — see LITTER_ONLY.
     impliedDescriptors: ["täiendsööt", "täistoit"],
     urls: {
       barbora: [
+        { url: "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/lemmiklooma-allapanu", nameFilter: LITTER_ONLY },
         "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/kassi-maiustused",
         "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/kasside-konservid-ja-eined",
         "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/lemmikloomakaubad/kasside-kuivsoot",
@@ -1525,6 +1558,7 @@ const CATEGORIES = [
       rimi: [
         "https://www.rimi.ee/epood/en/products/pet-goods/cat-food/c/SH-7-1",
         "https://www.rimi.ee/epood/en/products/pet-goods/dog-food/c/SH-7-2",
+        { url: "https://www.rimi.ee/epood/ee/tooted/lemmikloomakaubad/lemmikloomatarbed/kassiliiv/c/SH-7-3-7", nameFilter: LITTER_ONLY },
       ],
     },
   },
@@ -1701,6 +1735,137 @@ const CATEGORIES = [
         { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/tekiila/c/SH-1-9", nameFilter: NO_ALCOHOL_FREE },
         { url: "https://www.rimi.ee/epood/ee/tooted/alkohol/kange-alkohol/likoor/c/SH-1-5", nameFilter: NO_ALCOHOL_FREE },
       ],
+    },
+  },
+  // ---- Batch 10 (owner's request, 2026-09-27; scope decisions in CLAUDE.md) ----
+  {
+    // Glazed curd snacks (kohukesed), curd desserts, puddings, jellies,
+    // kissell. Strict packaging (the default): flavour, glaze,
+    // multipack, lactose-free all real differences.
+    name: "Curd snacks & desserts",
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/piimatooted-ja-munad/kohupiimatooted/kohukesed", nameFilter: DESSERT_FILTER },
+        { url: "https://barbora.ee/piimatooted-ja-munad/kohupiimatooted/kohupiimadesserdid", nameFilter: DESSERT_FILTER },
+        { url: "https://barbora.ee/piimatooted-ja-munad/jogurtid-ja-desserdid/desserdid", nameFilter: DESSERT_FILTER },
+        { url: "https://barbora.ee/piimatooted-ja-munad/jogurtid-ja-desserdid/piimataidisega-batoonid", nameFilter: DESSERT_FILTER },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/kohukesed/c/SH-11-2-7", nameFilter: DESSERT_FILTER },
+        { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/desserdid/c/SH-11-2-2", nameFilter: DESSERT_FILTER },
+      ],
+    },
+  },
+  {
+    // Drinking yoghurt, flavoured milk, condensed milk. Dairy keeps
+    // plain milk and spoonable yoghurt (its Selver filters already
+    // exclude "jook"/"joogijogurt"/"kondenspiim"). Fat % compared as
+    // always.
+    name: "Milk drinks & drinking yoghurt",
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/piimatooted-ja-munad/jogurtid-ja-desserdid/joogijogurtid", nameFilter: MILK_DRINK_FILTER },
+        { url: "https://barbora.ee/piimatooted-ja-munad/piimad/piimajoogid", nameFilter: MILK_DRINK_FILTER },
+        { url: "https://barbora.ee/piimatooted-ja-munad/piimad/kondenspiimad", nameFilter: MILK_DRINK_FILTER },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/joogijogurtid/c/SH-11-2-6", nameFilter: MILK_DRINK_FILTER },
+        { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/jogurtid-desserdid-kohukesed/funktsionaalsed-joogijogurtid/c/SH-11-2-4", nameFilter: MILK_DRINK_FILTER },
+        { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/kondenspiimad/c/SH-11-8-33", nameFilter: MILK_DRINK_FILTER },
+        { url: "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/piimad/maitsestatud-piim/c/SH-11-8-35", nameFilter: MILK_DRINK_FILTER },
+      ],
+    },
+  },
+  {
+    // Crispbreads, rice cakes, galettes — see CRISPBREAD_FILTER.
+    name: "Crispbreads",
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/leivad-saiad-kondiitritooted/leivad-ja-saiad/nakileivad", nameFilter: CRISPBREAD_FILTER },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/nakileivad-galetid/nakileivad-kuivikud-krutoonid/c/SH-6-4-10", nameFilter: CRISPBREAD_FILTER },
+        { url: "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/nakileivad-galetid/galetid/c/SH-13-1-2", nameFilter: CRISPBREAD_FILTER },
+      ],
+    },
+  },
+  {
+    // The owner's call: energy drinks, sports drinks and iced tea in one
+    // category; vitamin water and coffee drinks stay out. Selver has no
+    // iced tea leaf (none in its drinks tree). Traps: sugar-free, can vs
+    // bottle, multipack, volume.
+    name: "Energy, sports & iced-tea drinks",
+    urls: {
+      barbora: [
+        "https://barbora.ee/joogid/karastusjoogid/energiajoogid",
+        "https://barbora.ee/joogid/karastusjoogid/spordijoogid",
+        "https://barbora.ee/joogid/karastusjoogid/jaateed",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/joogid/energiajook/c/SH-3-4",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/spordijoogid/c/SH-3-10",
+        "https://www.rimi.ee/epood/ee/tooted/joogid/karastusjoogid/jaatee/c/SH-3-5",
+      ],
+    },
+  },
+  {
+    // The owner's call: syrups, concentrates and juice drinks in one
+    // category. Real juice and nectar stay in Drinks, whose filter
+    // takes mahl/nektar and drops anything named "jook".
+    name: "Syrups & juice drinks",
+    urls: {
+      barbora: [
+        "https://barbora.ee/joogid/mahlad-nektarid-ja-mahlajoogid/siirupid",
+        "https://barbora.ee/joogid/mahlad-nektarid-ja-mahlajoogid/mahlajoogid",
+      ],
+      rimi: [
+        "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/siirupid-ja-kontsentraadid/c/SH-3-8-4",
+        ...[1, 2, 3, 4, 5, 6, 7].map((n) => ({ url: `https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/x/c/SH-12-20-${n}`, nameFilter: SYRUP_JUICE_FILTER })),
+      ],
+    },
+  },
+  {
+    // Frozen fish, fish products (fish fingers, breaded fillets) and
+    // seafood — see FROZEN_FISH_FILTER. "külmutatud" is implied.
+    name: "Frozen fish & seafood",
+    impliedDescriptors: ["külmutatud", "külm"],
+    urls: {
+      barbora: [
+        { url: "https://barbora.ee/kulmutatud-tooted/kulmutatud-liha-ja-kalatooted/kulmutatud-kalatooted", nameFilter: FROZEN_FISH_FILTER },
+        { url: "https://barbora.ee/kulmutatud-tooted/kulmutatud-liha-ja-kalatooted/kulmutatud-mereannid", nameFilter: FROZEN_FISH_FILTER },
+      ],
+      rimi: [
+        { url: "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-kala-ja-mereannid/kulmutatud-kala/c/SH-4-2-10", nameFilter: FROZEN_FISH_FILTER },
+        { url: "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-kala-ja-mereannid/kulmutatud-kalatooted/c/SH-4-2-11", nameFilter: FROZEN_FISH_FILTER },
+        { url: "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-kala-ja-mereannid/kulmutatud-mereannid/c/SH-4-2-12", nameFilter: FROZEN_FISH_FILTER },
+      ],
+    },
+  },
+  {
+    // The owner's call: doughs, pastries & pies, frozen bread, frozen
+    // desserts — all four; frozen ready meals stay out. "külmutatud"
+    // is implied.
+    name: "Frozen dough & pastries",
+    impliedDescriptors: ["külmutatud", "külm"],
+    urls: {
+      barbora: [
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-kondiitritooted/kulmutatud-taignad",
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-kondiitritooted/kulmutatud-magusad-saiakesed",
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-kondiitritooted/kulmutatud-soolased-pirukad",
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-kondiitritooted/kulmutatud-leivad-ja-saiad",
+        "https://barbora.ee/kulmutatud-tooted/kulmutatud-kondiitritooted/kulmutatud-koogid",
+      ].map((url) => ({ url, nameFilter: FROZEN_DOUGH_FILTER })),
+      rimi: [21, 22, 23, 24].map((n) => ({ url: `https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-tainad-ja-kondiitritooted/x/c/SH-4-6-${n}`, nameFilter: FROZEN_DOUGH_FILTER })),
+    },
+  },
+  {
+    // Bouillon cubes, stock concentrates and liquid broths — kept out
+    // of Instant food by the owner's earlier decision, their own
+    // category now. Piece counts ("12x10g", "15 tk") are real.
+    name: "Broths & stock",
+    urls: {
+      barbora: [{ url: "https://barbora.ee/kauasailivad-toidukaubad/kiirtoidud/puljongid", nameFilter: BROTH_FILTER }],
+      rimi: [{ url: "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/kiirtoit/puljongid/c/SH-13-8-43", nameFilter: BROTH_FILTER }],
     },
   },
 ];

@@ -333,6 +333,46 @@ const results = [
     assert.equal(buildItem("Wine", "Rimi", "Vein 0,75l").alcoholMatching, true);
     assert.equal(buildItem("Dairy", "Rimi", "Piim 1l").alcoholMatching, undefined);
   }),
+  test("Batch 10: the eight new categories exist in both files; cat litter is litter only; frozen fish keeps fish and drops burgers/meat; crispbreads drop croutons and snack breads; syrups & juice drinks take only jook/siirup/kontsentraat", () => {
+    for (const name of ["Curd snacks & desserts", "Milk drinks & drinking yoghurt", "Crispbreads", "Energy, sports & iced-tea drinks", "Syrups & juice drinks", "Frozen fish & seafood", "Frozen dough & pastries", "Broths & stock"]) {
+      assert.ok(CATEGORIES.some((c) => c.name === name), `${name} in categories.js`);
+      assert.ok(SELVER_CATEGORIES[name], `${name} in selver.js`);
+    }
+    const litter = SELVER_CATEGORIES["Pet food"].sources.find((s) => s.id === 319).nameFilter;
+    assert.equal(litter("Silica Gel kassiliiv, KITTY`S, 3,8 l"), true);
+    assert.equal(litter("Kassiliiv klombistuv, HAPPY, 5 kg"), true);
+    assert.equal(litter("Koera mänguasi Siga, DOGMAN, 1 tk"), false);
+    assert.equal(litter("Saepuru lemmikloomadele, KOLMARK, 16L"), false);
+    assert.equal(litter("Puidugraanulid lemmikloomadele, DR.STERN, 7,5 L"), false);
+    assert.equal(category("Pet food").urls.barbora[0].nameFilter("Kassiliiv CAT'S BEST Öko Plus 10l"), true);
+    const fish = SELVER_CATEGORIES["Frozen fish & seafood"].sources[0].nameFilter;
+    assert.equal(fish("Kalapulgad, ESVA, 250 g"), true);
+    assert.equal(fish("Kooritud krevetid, VICI, 500 g"), true);
+    assert.equal(fish("Kala-juurviljaburger, ESVA, 375 g"), false);
+    assert.equal(fish("Rakvere pihvid, RAKVERE LK, 530 g"), false);
+    assert.equal(fish("Külmutatud broilerimaks, TALLEGG, 500 g"), false);
+    assert.equal(fish("Pelmeenid Pealinna, PREMIA, 350 g"), false);
+    const crisp = SELVER_CATEGORIES["Crispbreads"].sources[1].nameFilter;
+    assert.equal(crisp("Näkileivad Original, WASA, 275 g"), true);
+    assert.equal(crisp("Riisivahvlid meresoolaga, SONKO, 130 g"), true);
+    assert.equal(crisp("Finn Crisp Traditional, FINN CRISP, 200 g"), true);
+    assert.equal(crisp("Küüslauguleivad topsis, MARMITON, 150 g"), false);
+    assert.equal(crisp("Kaerakrõpsud hapukoore- ja sibulamaitselised, LINKOSUO, 120 g"), false);
+    const syrup = SELVER_CATEGORIES["Syrups & juice drinks"].sources[0].nameFilter;
+    assert.equal(syrup("Multimahlajook, PÕLTSAMAA, 1 L"), true);
+    assert.equal(syrup("Apelsinimahl, PÕLTSAMAA, 1 L"), false, "real juice stays in Drinks");
+    assert.equal(syrup("Vaarikasiirup, ÖSELBERRY, 500 ml"), true);
+    const drinks = SELVER_CATEGORIES["Drinks"].sources.find((s) => s.id === 51).nameFilter;
+    assert.equal(drinks("Multimahlajook, PÕLTSAMAA, 1 L"), false, "no product in two categories");
+    const milk = SELVER_CATEGORIES["Milk drinks & drinking yoghurt"].sources[1].nameFilter;
+    assert.equal(milk("Kakaopiim 2,5%, TERE, 1 L"), true);
+    assert.equal(milk("Piim 2,5%, ALMA, 1 L"), false);
+    assert.equal(milk("Kohvijook Frezza vanilla, FREZZA, 250 ml"), false);
+    const yog = SELVER_CATEGORIES["Milk drinks & drinking yoghurt"].sources[0].nameFilter;
+    assert.equal(yog("Joogijogurt mango, ALMA, 900 g"), true);
+    assert.equal(yog("Kreeka jogurt 10%, FARMI, 370 g"), false);
+    assert.equal(SELVER_CATEGORIES["Dairy"].sources.find((s) => s.id === 236).nameFilter("Joogijogurt mango, ALMA, 900 g"), false, "Dairy never takes a drinking yoghurt");
+  }),
   test("Household fetches Selver's laundry (114) and foil/baking paper (127) and Rimi's foil leaf — the gap the 2026-09-27 coverage audit found", () => {
     const ids = SELVER_CATEGORIES["Household"].sources.map((s) => s.id);
     assert.ok(ids.includes(114) && ids.includes(127), ids.join(","));

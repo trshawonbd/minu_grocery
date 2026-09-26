@@ -69,7 +69,16 @@ const results = [
     assert.equal(ids.indexOf("koogid"), ids.indexOf("leib-ja-sai") + 1);
     assert.equal(ids.indexOf("kiirtoit"), ids.indexOf("pasta") + 1);
     assert.equal(ids.indexOf("maailma-kook"), ids.indexOf("kastmed") + 1);
-    assert.deepEqual(ids.slice(ids.indexOf("mahlad-ja-joogid"), ids.indexOf("mahlad-ja-joogid") + 5), ["mahlad-ja-joogid", "alkoholivaba", "olu-ja-siider", "vein", "kange-alkohol"]);
+    assert.deepEqual(ids.slice(ids.indexOf("mahlad-ja-joogid"), ids.indexOf("mahlad-ja-joogid") + 7), ["mahlad-ja-joogid", "siirupid", "energiajoogid", "alkoholivaba", "olu-ja-siider", "vein", "kange-alkohol"]);
+    // Batch 10 tiles sit next to their neighbours in the aisle.
+    assert.equal(ids.indexOf("piimajoogid"), ids.indexOf("keefir") + 1);
+    assert.equal(ids.indexOf("kohukesed"), ids.indexOf("piimajoogid") + 1);
+    assert.equal(ids.indexOf("nakileivad"), ids.indexOf("koogid") + 1);
+    assert.equal(ids.indexOf("puljongid"), ids.indexOf("kiirtoit") + 1);
+    assert.equal(ids.indexOf("kulmutatud-kala"), ids.indexOf("pelmeenid-ja-pitsa") + 1);
+    assert.equal(ids.indexOf("kulmutatud-taignad"), ids.indexOf("kulmutatud-kala") + 1);
+    assert.equal(id("Kitty's Silica kassiliiv 3.8l", "Pet food"), "lemmikloomad");
+    assert.equal(id("Red bull Energiajook 250ml", "Energy, sports & iced-tea drinks"), "energiajoogid");
     assert.deepEqual(DISPLAY_CATEGORIES.filter((c) => c.alcohol).map((c) => c.id), ["olu-ja-siider", "vein", "kange-alkohol"]);
     assert.equal(id("Saku Kuld 500ml", "Beer & cider"), "olu-ja-siider");
     assert.equal(id("Andes Merlot 750ml", "Wine"), "vein");

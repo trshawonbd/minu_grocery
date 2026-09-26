@@ -147,6 +147,36 @@ const WORLD_FILTER = excludeWords(
 );
 const PASTA_NO_ASIAN = excludeWords(["thai", "riisinuudl", "klaasnuudl", "udon", "ramen", "soba", "aasia", "wok"]);
 
+// ---- Batch 10 filters (2026-09-27; copies in scraper/stores/selver.js) ----
+// Cat litter only — the owner's call: Pet food = food + litter, never
+// toys, bedding (hay, sawdust, wood pellets) or other supplies.
+const LITTER_ONLY = excludeWords(["mänguasi", "kaisu", "kott", "hein", "saepuru", "graanul", "vitamiin", "snäk"], ["liiv"]);
+// Kohukesed & desserts: no plant-based imitations.
+const DESSERT_FILTER = excludeWords(["taimne", "taimse", "vegan", "kaerapõhine", "sojapõhine"]);
+// Milk drinks & drinking yoghurt: drinkable yoghurt, flavoured and
+// condensed milk; never plant drinks, creams, kefir, coffee drinks or
+// barista milk.
+const MILK_DRINK_SELVER_YOGHURT = excludeWords(["taimne", "kaera", "soja", "mandli", "smuuti"], ["jook", "joogijogurt"]);
+const MILK_DRINK_SELVER_MILK = excludeWords(["koor", /\bpett\b/, "keefir", "hapendatud", "kohvijook", "frezza", "cappuccino", "latte", "taimne", "kaera", "soja", "mandli"], ["kondens", "kakao", "šokolaadi", "maasika", "vanilli", "banaani", "karamelli", "piimajook", "maitsestatud"]);
+const MILK_DRINK_FILTER = excludeWords(["taimne", "taimse", "kaera", "soja", "mandli", "kookos", "vegan"]);
+// Crispbreads, rice cakes, galettes — not croutons, rusks, snack
+// breads in cups.
+const CRISPBREAD_FILTER = excludeWords(["krutoon", "kuivik", "topsis", "leivake", "kaerakrõps"], ["näki", "galet", "vahvl", "crisp"]);
+// Syrups, concentrates and juice DRINKS — real juice/nectar stays in
+// Drinks (its filter takes mahl/nektar without "jook").
+const SYRUP_JUICE_FILTER = excludeWords([], ["jook", "siirup", "kontsentraat"]);
+// Frozen fish & seafood — never fish burgers/patties, meat, dumplings.
+const FROZEN_FISH_FILTER = excludeWords(
+  ["burger", "pihv", "kotlet", "frikadell", "pelmeen", "vareenik", "pitsa", "salat", "supp", "maks", "luud", "broiler", "kana", "sea", "veise"],
+  [/kala|krevet|mereann|lõhe|lohe|forell|tursk|kilu|räim|heering|kalmaar|rannakarp|tuun|saida|ahven|siig|austr|seepia|hiid|pangaasius|tilaapia|karp/],
+);
+// Frozen doughs, pastries, pies, bread, desserts — no dumplings/pizza
+// (Dumplings, pizza & fries) and no fries.
+const FROZEN_DOUGH_FILTER = excludeWords(["pelmeen", "vareenik", "friikartul", "jäätis", "külmutatud pitsa", /^pitsa\b/]);
+// Broths and stock — not soups.
+const BROTH_FILTER = excludeWords(["supp"]);
+
+
 // Each of our three shared categories maps to one or more Selver
 // category IDs (its Magento category tree, not the separate
 // `eshop_category` attribute — see the id-mismatch note below).
@@ -750,7 +780,50 @@ const CATEGORIES = {
   // 319 "Lemmikloomatarbed" (litter, toys, accessories) never fetched —
   // not food.
   "Pet food": {
-    sources: [{ id: 315 }, { id: 316 }, { id: 317 }, { id: 318 }],
+    // 319 "Lemmikloomatarbed": cat litter only (LITTER_ONLY), the
+    // owner's call of 2026-09-27; toys and bedding stay out.
+    sources: [{ id: 315 }, { id: 316 }, { id: 317 }, { id: 318 }, { id: 319, nameFilter: LITTER_ONLY }],
+  },
+  // ---- Batch 10 ----
+  // 237 "Kohukesed" (also curd desserts, skyr desserts), 238 "Muud
+  // magustoidud" (puddings, jellies, kissell).
+  "Curd snacks & desserts": {
+    sources: [{ id: 237, nameFilter: DESSERT_FILTER }, { id: 238, nameFilter: DESSERT_FILTER }],
+  },
+  // 236's drinkable yoghurts (Dairy excludes exactly these) and 234's
+  // flavoured/condensed milk (Dairy excludes kondenspiim; flavours
+  // are not "plain milk" and never matched anything there).
+  "Milk drinks & drinking yoghurt": {
+    sources: [{ id: 236, nameFilter: MILK_DRINK_SELVER_YOGHURT }, { id: 234, nameFilter: MILK_DRINK_SELVER_MILK }],
+  },
+  // 251 "Näkileivad" (bread dept) and 276 "Näkileivad" (snack dept) —
+  // the same kind of product listed twice; duplicates by URL are one
+  // item.
+  "Crispbreads": {
+    sources: [{ id: 251, nameFilter: CRISPBREAD_FILTER }, { id: 276, nameFilter: CRISPBREAD_FILTER }],
+  },
+  // 54 "Energiajoogid", 57 "Spordijoogid"; Selver's tree has no iced
+  // tea leaf (checked: none in 53 or 25).
+  "Energy, sports & iced-tea drinks": {
+    sources: [{ id: 54 }, { id: 57 }],
+  },
+  // 51 "Mahlad ja -kontsentraadid, siirupid": the "jook"/siirup/
+  // kontsentraat items Drinks' own filter drops.
+  "Syrups & juice drinks": {
+    sources: [{ id: 51, nameFilter: SYRUP_JUICE_FILTER }],
+  },
+  // 285 "Külmutatud liha- ja kalatooted": the fish/seafood part
+  // (Dumplings takes only pelmeen/vareenik from it, Meat nothing).
+  "Frozen fish & seafood": {
+    sources: [{ id: 285, nameFilter: FROZEN_FISH_FILTER }],
+  },
+  // 288 "Külmutatud tainad ja kondiitritooted".
+  "Frozen dough & pastries": {
+    sources: [{ id: 288, nameFilter: FROZEN_DOUGH_FILTER }],
+  },
+  // 265 "Puljongid".
+  "Broths & stock": {
+    sources: [{ id: 265, nameFilter: BROTH_FILTER }],
   },
   // ---- Batch 9 (the filters mirror scraper/categories.js's own
   // copies, entry by entry — see the comments there) ----

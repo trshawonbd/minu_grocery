@@ -7031,18 +7031,20 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/pealinna-peenleib-eesti-pagar-490-g",
         "size": "490g",
-        "storeUnitPrice": 2.59
+        "storeUnitPrice": 2.59,
+        "storeName": "Pealinna peenleib EESTI PAGAR 490g"
       },
       "rimi": {
         "price": 0.99,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-pealinna-eesti-pagar-490g/p/206532",
         "size": "490g",
-        "storeUnitPrice": 2.02
+        "storeUnitPrice": 2.02,
+        "regularPrice": 1.29,
+        "storeName": "Peenleib Pealinna Eesti Pagar 490g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Eesti pagar Seemneleib jassi 310g",
@@ -7053,18 +7055,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/seemneleib-jassi-eesti-pagar-310-g",
         "size": "310g",
-        "storeUnitPrice": 3.77
+        "storeUnitPrice": 3.77,
+        "storeName": "Seemneleib Jassi EESTI PAGAR 310g"
       },
       "rimi": {
         "price": 1.17,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/seemneleib-jassi-eesti-pagar-310g/p/205649",
         "size": "310g",
-        "storeUnitPrice": 3.77
+        "storeUnitPrice": 3.77,
+        "storeName": "Seemneleib Jassi Eesti Pagar 310g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Eesti pagar Must vormileib 600g",
@@ -7075,18 +7078,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/must-vormileib-eesti-pagar-600-g",
         "size": "600g",
-        "storeUnitPrice": 1.48
+        "storeUnitPrice": 1.48,
+        "storeName": "Must vormileib EESTI PAGAR 600g"
       },
       "rimi": {
         "price": 1.25,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-vormileib-eesti-pagar-600g/p/220819",
         "size": "600g",
-        "storeUnitPrice": 2.08
+        "storeUnitPrice": 2.08,
+        "storeName": "Must vormileib Eesti Pagar 600g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Fazer Must leib 300g",
@@ -7099,18 +7103,20 @@
         "cardPrice": 0.75,
         "cardName": "Aitäh",
         "size": "300g",
-        "storeUnitPrice": 2.5
+        "storeUnitPrice": 2.5,
+        "storeName": "Must leib FAZER 300g"
       },
       "selver": {
         "price": 1.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/must-leib-fazer-300-g",
         "size": "300g",
-        "storeUnitPrice": 3.97
+        "ean": "4740103020210",
+        "storeUnitPrice": 3.97,
+        "storeName": "Must leib, FAZER, 300 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Fazer Must leib 600g",
@@ -7121,18 +7127,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/must-leib-fazer-600-g",
         "size": "600g",
-        "storeUnitPrice": 2.58
+        "storeUnitPrice": 2.58,
+        "storeName": "Must leib FAZER 600g"
       },
       "rimi": {
         "price": 1.6,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-leib-fazer-600g/p/265341",
         "size": "600g",
-        "storeUnitPrice": 2.67
+        "storeUnitPrice": 2.67,
+        "storeName": "Must Leib Fazer 600g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Fazer Must seemneleib 280g",
@@ -7143,25 +7150,37 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/must-seemneleib-fazer-280-g",
         "size": "280g",
-        "storeUnitPrice": 4.61
+        "storeUnitPrice": 4.61,
+        "storeName": "Must seemneleib FAZER 280g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-seemneleib-280g/",
+        "size": "280g",
+        "ean": "4740103020609",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740103020609.png",
+        "storeName": "Must seemneleib 280g Fazer"
       },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-seemneleib-fazer-280g/p/274017",
         "size": "280g",
-        "storeUnitPrice": 4.96
+        "storeUnitPrice": 4.96,
+        "storeName": "Must seemneleib Fazer 280g"
       },
       "selver": {
         "price": 1.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/must-seemneleib-fazer-280-g",
         "size": "280g",
-        "storeUnitPrice": 4.25
+        "ean": "4740103020609",
+        "storeUnitPrice": 4.25,
+        "storeName": "Must seemneleib, FAZER, 280 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar Rehe rukkileib 390g",
@@ -7172,18 +7191,38 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/rehe-rukkileib-eesti-pagar-390-g",
         "size": "390g",
-        "storeUnitPrice": 2.28
+        "storeUnitPrice": 2.28,
+        "regularPrice": 1.14,
+        "storeName": "Rehe rukkileib EESTI PAGAR,390g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rehe-rukkileib-390g-eesti-pagar/",
+        "size": "390g",
+        "ean": "4740086008052",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740086008052.png",
+        "storeName": "Rehe rukkileib 390g Eesti Pagar"
       },
       "rimi": {
         "price": 1.09,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-rehe-eesti-pagar-390g/p/281670",
         "size": "390g",
-        "storeUnitPrice": 2.79
+        "storeUnitPrice": 2.79,
+        "storeName": "Rukkileib Rehe Eesti Pagar 390g"
+      },
+      "selver": {
+        "price": 1.14,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rehe-rukkileib-viilutatud-eesti-pagar-390-g",
+        "size": "390g",
+        "ean": "4740086008052",
+        "storeUnitPrice": 2.92,
+        "storeName": "Rehe rukkileib viilutatud, EESTI PAGAR, 390 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti Pagar Rehe rukkileib 600g",
@@ -7194,18 +7233,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/rehe-rukkileib-vorm-eesti-pagar-600-g",
         "size": "600g",
-        "storeUnitPrice": 1.08
+        "storeUnitPrice": 1.08,
+        "storeName": "Rehe rukkileib vorm.EESTI PAGAR,600g"
       },
       "rimi": {
         "price": 0.82,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-rehe-eesti-pagar-600g/p/281671",
         "size": "600g",
-        "storeUnitPrice": 1.37
+        "storeUnitPrice": 1.37,
+        "storeName": "Rukkileib Rehe Eesti Pagar 600g"
       }
     },
-    "matchedVia": "override",
-    "hidden": false
+    "matchedVia": "override"
   },
   {
     "name": "Fazer Must põrandaleib 390g",
@@ -7216,25 +7256,37 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/must-porandaleib-fazer-390-g",
         "size": "390g",
-        "storeUnitPrice": 3.72
+        "storeUnitPrice": 3.72,
+        "storeName": "Must põrandaleib FAZER, 390g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-porandaleib-390g/",
+        "size": "390g",
+        "ean": "4740103020760",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740103020760.png",
+        "storeName": "Must Põrandaleib 390g Fazer"
       },
       "rimi": {
         "price": 1.5,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-porandaleib-fazer-390g/p/295821",
         "size": "390g",
-        "storeUnitPrice": 3.85
+        "storeUnitPrice": 3.85,
+        "storeName": "Must põrandaleib Fazer 390g"
       },
       "selver": {
         "price": 1.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/must-porandaleib-fazer-390-g",
         "size": "390g",
-        "storeUnitPrice": 3.82
+        "ean": "4740103020760",
+        "storeUnitPrice": 3.82,
+        "storeName": "Must põrandaleib, FAZER, 390 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar Narva peenleib 310g",
@@ -7245,18 +7297,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/narva-peenleib-ep-310-g",
         "size": "310g",
-        "storeUnitPrice": 2.45
+        "storeUnitPrice": 2.45,
+        "storeName": "Narva Peenleib EP, 310g"
       },
       "rimi": {
         "price": 0.75,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/narva-peenleib-eesti-pagar-310g/p/905438",
         "size": "310g",
-        "storeUnitPrice": 2.42
+        "storeUnitPrice": 2.42,
+        "storeName": "Narva peenleib Eesti Pagar 310g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Eesti pagar Must rukkileib 390g",
@@ -7267,18 +7320,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/must-rukkileib-eesti-pagar-390-g",
         "size": "390g",
-        "storeUnitPrice": 2.95
+        "storeUnitPrice": 2.95,
+        "storeName": "Must rukkileib EESTI PAGAR 390g"
       },
       "rimi": {
         "price": 1.15,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-rukkileib-eesti-pagar-390g/p/912031",
         "size": "390g",
-        "storeUnitPrice": 2.95
+        "storeUnitPrice": 2.95,
+        "storeName": "Must Rukkileib Eesti Pagar 390g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Eesti pagar Kanepiseemne leib rukkiteradega 500g",
@@ -7289,7 +7343,17 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/kanepiseemne-leib-rukkiteradega-500-g",
         "size": "500g",
-        "storeUnitPrice": 3.1
+        "storeUnitPrice": 3.1,
+        "storeName": "Kanepiseemne leib rukkiteradega 500g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanepiseemne-leib-500g/",
+        "size": "500g",
+        "ean": "4740086013759",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086013759.jpg",
+        "storeName": "Kanepiseemne leib rukkiteradega 500g Eesti Pagar"
       },
       "selver": {
         "price": 1.58,
@@ -7298,11 +7362,46 @@
         "cardPrice": 1.29,
         "cardName": "Partner",
         "size": "500g",
-        "storeUnitPrice": 3.16
+        "ean": "4740086013759",
+        "storeUnitPrice": 3.16,
+        "storeName": "Kanepiseemne leib rukkiteradega, EESTI PAGAR, 500 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Pealinna teraleib 390g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pealinna-eesti-pagar-teraleib-390-g",
+        "size": "390g",
+        "storeUnitPrice": 2.28,
+        "regularPrice": 1.19,
+        "storeName": "Pealinna EESTI PAGAR teraleib, 390g"
+      },
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pealinna-teraleib-390g/",
+        "size": "390g",
+        "ean": "4740086020009",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740086020009.png",
+        "storeName": "Pealinna teraleib 390g Eesti Pagar"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pealinna-peenleib-seemnetega-ja-teradega-eesti-pagar-390-g",
+        "size": "390g",
+        "ean": "4740086020009",
+        "storeUnitPrice": 2.44,
+        "storeName": "Pealinna peenleib seemnetega ja teradega, EESTI PAGAR, 390 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Leibur Rukkipala idandatud teradega 240g",
@@ -7313,7 +7412,8 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/rukkipala-idandatud-teradega-240-g",
         "size": "240g",
-        "storeUnitPrice": 6.63
+        "storeUnitPrice": 6.63,
+        "storeName": "Rukkipala idandatud teradega 240g"
       },
       "selver": {
         "price": 1.95,
@@ -7322,11 +7422,12 @@
         "cardPrice": 1.39,
         "cardName": "Partner",
         "size": "240g",
-        "storeUnitPrice": 8.13
+        "ean": "4740072132518",
+        "storeUnitPrice": 8.13,
+        "storeName": "Rukkipala idandatud teradega, LEIBUR, 240 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Eesti pagar Leib peremehe 600g",
@@ -7337,18 +7438,29 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/leib-peremehe-eesti-pagar-600-g",
         "size": "600g",
-        "storeUnitPrice": 2.15
+        "storeUnitPrice": 2.15,
+        "storeName": "Leib Peremehe EESTI PAGAR 600g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/peremehe-leib-600g-eestipagar/",
+        "size": "600g",
+        "ean": "4740086021211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740086021211.png",
+        "storeName": "Peremehe leib 600g Eesti Pagar"
       },
       "selver": {
         "price": 1.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/peremehe-leib-eesti-pagar-600-g",
         "size": "600g",
-        "storeUnitPrice": 2.15
+        "ean": "4740086021211",
+        "storeUnitPrice": 2.15,
+        "storeName": "Peremehe leib, EESTI PAGAR, 600 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
   },
   {
     "name": "Leibur Rukkileib ruks 390g",
@@ -7361,18 +7473,29 @@
         "cardPrice": 0.79,
         "cardName": "Aitäh",
         "size": "390g",
-        "storeUnitPrice": 2.03
+        "storeUnitPrice": 2.03,
+        "storeName": "Rukkileib Ruks LEIBUR 390g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rukkileib-ruks-390g-leibur/",
+        "size": "390g",
+        "ean": "4740072116259",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740072116259-2.png",
+        "storeName": "Rukkileib Ruks 390g Leibur"
       },
       "selver": {
         "price": 0.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/rukkileib-ruks-leibur-390-g",
         "size": "390g",
-        "storeUnitPrice": 2.28
+        "ean": "4740072116259",
+        "storeUnitPrice": 2.28,
+        "storeName": "Rukkileib Ruks, LEIBUR, 390 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
   },
   {
     "name": "Leibur Tallinna peenleib 490g",
@@ -7383,18 +7506,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/tallinna-peenleib-leibur-490-g",
         "size": "490g",
-        "storeUnitPrice": 2.02
+        "storeUnitPrice": 2.02,
+        "storeName": "Tallinna peenleib LEIBUR 490g"
       },
       "rimi": {
         "price": 1.52,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-tallinna-leibur-490g/p/200247",
         "size": "490g",
-        "storeUnitPrice": 3.1
+        "storeUnitPrice": 3.1,
+        "storeName": "Peenleib Tallinna Leibur 490g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Leibur Isa peenleib 355g",
@@ -7405,25 +7529,37 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/isa-peenleib-leibur-355-g",
         "size": "355g",
-        "storeUnitPrice": 2.79
+        "storeUnitPrice": 2.79,
+        "storeName": "Isa peenleib LEIBUR 355g"
+      },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/isa-peenleib-pool-viil-355g-leibur/",
+        "size": "355g",
+        "ean": "4740072116457",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740072116457-1.png",
+        "storeName": "Isa peenleib pool viil 355g Leibur"
       },
       "rimi": {
         "price": 0.99,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-isa-leibur-355g/p/273278",
         "size": "355g",
-        "storeUnitPrice": 2.79
+        "storeUnitPrice": 2.79,
+        "storeName": "Peenleib Isa Leibur 355g"
       },
       "selver": {
         "price": 0.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/isa-peenleib-leibur-355-g",
         "size": "355g",
-        "storeUnitPrice": 2.79
+        "ean": "4740072116457",
+        "storeUnitPrice": 2.79,
+        "storeName": "Isa peenleib, LEIBUR, 355 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
   },
   {
     "name": "Leibur Ruks seemneleib seemneid 10% 390g",
@@ -7434,18 +7570,20 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/ruks-seemneleib-leibur-10-proc-seemneid-390-g",
         "size": "390g",
-        "storeUnitPrice": 3.31
+        "storeUnitPrice": 3.31,
+        "storeName": "Ruks seemneleib LEIBUR 10% seemneid 390g"
       },
       "selver": {
         "price": 1.31,
         "currency": "EUR",
         "url": "https://www.selver.ee/ruks-seemneleib-10-seemneid-leibur-390-g",
         "size": "390g",
-        "storeUnitPrice": 3.36
+        "ean": "4740072116556",
+        "storeUnitPrice": 3.36,
+        "storeName": "Ruks seemneleib 10% seemneid, LEIBUR, 390 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Eesti pagar Põrandaleib peremehe 450g",
@@ -7456,25 +7594,29 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/porandaleib-peremehe-eesti-pagar-450-g",
         "size": "450g",
-        "storeUnitPrice": 3.67
+        "storeUnitPrice": 3.67,
+        "storeName": "Põrandaleib Peremehe EESTI PAGAR,450g"
       },
-      "rimi": {
-        "price": 1.79,
+      "coop": {
+        "price": 1.59,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/porandaleib-peremehe-eesti-pagar-450g/p/996812",
+        "url": "https://coophaapsalu.ee/toode/peremehe-porandaleib-450g-eesti-pagar/",
         "size": "450g",
-        "unavailable": true
+        "ean": "4740086025141",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4740086025141.png",
+        "storeName": "Peremehe põrandaleib 450g Eesti Pagar"
       },
       "selver": {
         "price": 1.67,
         "currency": "EUR",
         "url": "https://www.selver.ee/peremehe-porandaleib-eesti-pagar-450-g",
         "size": "450g",
-        "storeUnitPrice": 3.71
+        "ean": "4740086025141",
+        "storeUnitPrice": 3.71,
+        "storeName": "Peremehe põrandaleib, EESTI PAGAR, 450 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "ean"
   },
   {
     "name": "Fazer Peenleib juuretise 500g",
@@ -7485,18 +7627,29 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/peenleib-juuretise-fazer-500-g",
         "size": "500g",
-        "storeUnitPrice": 2.5
+        "storeUnitPrice": 2.5,
+        "regularPrice": 1.59,
+        "storeName": "Peenleib juuretise FAZER 500g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juuretise-peenleib-500g-fazer/",
+        "size": "500g",
+        "ean": "4740103022665",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740103022665.png",
+        "storeName": "Juuretise peenleib 500g Fazer"
       },
       "rimi": {
         "price": 1.69,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-juuretise-fazer-500g/p/4006278",
         "size": "500g",
-        "storeUnitPrice": 3.38
+        "storeUnitPrice": 3.38,
+        "storeName": "Peenleib juuretise Fazer 500g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Fazer Must tume leib juuretisega 500g",
@@ -7507,18 +7660,19 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/must-tume-leib-juuretisega-fazer-500-g",
         "size": "500g",
-        "storeUnitPrice": 2.18
+        "storeUnitPrice": 2.18,
+        "storeName": "Must Tume leib juuretisega FAZER 500g"
       },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-tume-leib-juuretisega-fazer-500g/p/4008650",
         "size": "500g",
-        "storeUnitPrice": 2.78
+        "storeUnitPrice": 2.78,
+        "storeName": "Must Tume leib juuretisega Fazer 500g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Fazer Kodu pereleib 600g",
@@ -7529,18 +7683,52 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/kodu-pereleib-fazer-600-g",
         "size": "600g",
-        "storeUnitPrice": 2.32
+        "storeUnitPrice": 2.32,
+        "storeName": "Kodu pereleib FAZER,600g"
       },
       "selver": {
         "price": 0.65,
         "currency": "EUR",
         "url": "https://www.selver.ee/kodu-pereleib-fazer-600-g",
         "size": "600g",
-        "storeUnitPrice": 1.08
+        "ean": "4740103023648",
+        "storeUnitPrice": 1.08,
+        "storeName": "Kodu Pereleib, FAZER, 600 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Must pätsileib ruks 390g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-patsileib-ruks-leibur-390-g",
+        "size": "390g",
+        "storeUnitPrice": 2.95,
+        "storeName": "Must pätsileib Ruks LEIBUR,390g"
+      },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ruks-must-patsileib-390g-leibur/",
+        "size": "390g",
+        "ean": "4740072116754",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740072116754.png",
+        "storeName": "Ruks Must pätsileib 390g Leibur"
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ruks-must-patsileib-leibur",
+        "ean": "4740072116754",
+        "storeUnitPrice": 2.95,
+        "storeName": "Ruks Must pätsileib, LEIBUR,"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Leibur Peenleib isa seemnetega 390g",
@@ -7551,25 +7739,28 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/peenleib-isa-seemnetega-leibur-390-g",
         "size": "390g",
-        "storeUnitPrice": 2.69
+        "storeUnitPrice": 2.69,
+        "storeName": "Peenleib Isa seemnetega LEIBUR,390g"
       },
       "rimi": {
         "price": 1.05,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/peenleib-seemnetega-isa-leibur-390g/p/4009620",
         "size": "390g",
-        "storeUnitPrice": 2.69
+        "storeUnitPrice": 2.69,
+        "storeName": "Peenleib seemnetega Isa Leibur 390g"
       },
       "selver": {
         "price": 1.05,
         "currency": "EUR",
         "url": "https://www.selver.ee/isa-peenleib-seemnetega-leibur-390-g",
         "size": "390g",
-        "storeUnitPrice": 2.69
+        "ean": "4740072116853",
+        "storeUnitPrice": 2.69,
+        "storeName": "Isa peenleib seemnetega, LEIBUR, 390 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
   },
   {
     "name": "Leibur Sibulaleib 390g",
@@ -7580,25 +7771,2492 @@
         "currency": "EUR",
         "url": "https://barbora.ee/toode/sibulaleib-leibur-390-g",
         "size": "390g",
-        "storeUnitPrice": 5.36
+        "storeUnitPrice": 5.36,
+        "storeName": "Sibulaleib LEIBUR 390g"
       },
       "rimi": {
         "price": 1.75,
         "currency": "EUR",
         "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/sibulaleib-leibur-390g/p/4010715",
         "size": "390g",
-        "storeUnitPrice": 4.49
+        "storeUnitPrice": 4.49,
+        "storeName": "Sibulaleib Leibur 390g"
       },
       "selver": {
         "price": 1.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/sibulaleib-leibur-390-g",
         "size": "390g",
-        "storeUnitPrice": 4.08
+        "ean": "4740072116952",
+        "storeUnitPrice": 4.08,
+        "storeName": "Sibulaleib, LEIBUR, 390 g"
       }
     },
-    "matchedVia": "automatic",
-    "hidden": false
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Rukkitasku 340g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rukkitasku-eesti-pagar-340-g",
+        "cardPrice": 0.79,
+        "cardName": "Aitäh",
+        "size": "340g",
+        "storeUnitPrice": 2.32,
+        "storeName": "Rukkitasku EESTI PAGAR, 340g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rukkitasku-6tk-340g/",
+        "size": "340g",
+        "ean": "4740086009820",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086009820.png",
+        "storeName": "Rukkitasku 6tk 340g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkitasku-eesti-pagar-340-g",
+        "size": "340g",
+        "ean": "4740086009820",
+        "storeUnitPrice": 3.21,
+        "storeName": "Rukkitasku, EESTI PAGAR, 340 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Kaera pehmik 220g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kaera-pehmik-eesti-pagar-220-g",
+        "size": "220g",
+        "storeUnitPrice": 5.23,
+        "storeName": "Kaera Pehmik EESTI PAGAR 220g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaera-pehmik-220g/",
+        "size": "220g",
+        "ean": "4740086011595",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086011595.png",
+        "storeName": "Kaera Pehmik 220g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.17,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaera-pehmik-eesti-pagar-220-g",
+        "size": "220g",
+        "ean": "4740086011595",
+        "storeUnitPrice": 5.32,
+        "storeName": "Kaera Pehmik, EESTI PAGAR, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Mitmevilja pehmik 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mitmevilja-pehmik-eesti-pagar-240-g",
+        "size": "240g",
+        "storeUnitPrice": 3.71,
+        "storeName": "Mitmevilja Pehmik EESTI PAGAR 240g"
+      },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mitmevilja-pehmik-240g/",
+        "size": "240g",
+        "ean": "4740086011601",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086011601.jpg",
+        "storeName": "Mitmevilja Pehmik 240g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.17,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mitmevilja-pehmik-eesti-pagar-240-g",
+        "size": "240g",
+        "ean": "4740086011601",
+        "storeUnitPrice": 4.88,
+        "storeName": "Mitmevilja Pehmik, EESTI PAGAR, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Rehe koorikleib 200g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.8,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rehe-koorikleib-eesti-pagar-200-g",
+        "size": "200g",
+        "storeUnitPrice": 4,
+        "storeName": "Rehe Koorikleib EESTI PAGAR, 200g"
+      },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rehe-koorikleib-200g/",
+        "size": "200g",
+        "ean": "4740086014367",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086014367.png",
+        "storeName": "Rehe koorikleib 4tk 200g Eesti Pagar"
+      },
+      "selver": {
+        "price": 0.8,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rehe-koorikleib-eesti-pagar-200-g",
+        "size": "200g",
+        "ean": "4740086014367",
+        "storeUnitPrice": 4,
+        "storeName": "Rehe koorikleib, EESTI PAGAR, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Peedi porgandi pastinaagi pehmik 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/peedi-porgandi-pastinaagi-pehmik-ep-240-g",
+        "size": "240g",
+        "storeUnitPrice": 5.38,
+        "storeName": "Peedi-porgandi-pastinaagi pehmik EP 240g"
+      },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pehmik-peedi-porg-240g/",
+        "size": "240g",
+        "ean": "4740086015678",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086015678.jpg",
+        "storeName": "Peedi-porgandi-pastinaagi pehmik 240g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peedi-porgandi-pastinaagi-pehmik-eesti-pagar-240-g",
+        "size": "240g",
+        "ean": "4740086015678",
+        "storeUnitPrice": 5.63,
+        "storeName": "Peedi-porgandi-pastinaagi pehmik, EESTI PAGAR, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Teratasku 280g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/teratasku-eesti-pagar-4-tk-280-g",
+        "size": "280g",
+        "storeUnitPrice": 3.54,
+        "storeName": "Teratasku Eesti Pagar 4tk, 280g"
+      },
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teratasku-4tk-280g/",
+        "size": "280g",
+        "ean": "4740086015395",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086015395.jpg",
+        "storeName": "Teratasku 4tk 280g Eesti Pagar"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teratasku-eesti-pagar-280-g",
+        "size": "280g",
+        "ean": "4740086015395",
+        "storeUnitPrice": 3.54,
+        "storeName": "Teratasku, EESTI PAGAR, 280 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Ruks seemnepala 260g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ruks-seemnepala-leibur-260-g",
+        "size": "260g",
+        "storeUnitPrice": 5.65,
+        "storeName": "Ruks seemnepala Leibur, 260g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ruks-seemnepala-leibur-260-g",
+        "size": "260g",
+        "ean": "4740072132211",
+        "storeUnitPrice": 5.65,
+        "storeName": "Ruks Seemnepala, LEIBUR, 260 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Kodukandi koorikleib 300g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodukandi-eesti-pagar-koorikleib-300-g",
+        "size": "300g",
+        "storeUnitPrice": 2.63,
+        "regularPrice": 0.99,
+        "storeName": "Kodukandi EESTI PAGAR koorikleib, 300g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodukandi-koorikleib300g/",
+        "size": "300g",
+        "ean": "4740086019898",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740086019898.jpg",
+        "storeName": "Kodukandi koorikleib 4tk 300g Eesti Pagar"
+      },
+      "selver": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodukandi-koorikleib-eesti-pagar-4x75-g",
+        "size": "4x75g",
+        "ean": "4740086019898",
+        "storeUnitPrice": 2.83,
+        "storeName": "Kodukandi koorikleib, EESTI PAGAR, 4x75 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Haputaina pehmik 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.17,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/haputaina-pehmik-eesti-pagar-240-g",
+        "size": "240g",
+        "storeUnitPrice": 4.88,
+        "storeName": "Haputaina Pehmik EESTI PAGAR 240g"
+      },
+      "selver": {
+        "price": 1.17,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/haputaina-pehmik-eesti-pagar-240-g",
+        "size": "240g",
+        "ean": "4740086020719",
+        "storeUnitPrice": 4.88,
+        "storeName": "Haputaina Pehmik, EESTI PAGAR, 240 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Kartuli röstsibula pehmik 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kartuli-rostsibula-pehmik-ep-240-g",
+        "size": "240g",
+        "storeUnitPrice": 5.38,
+        "storeName": "Kartuli-röstsibula Pehmik EP 240g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kart-rostsibula-pehmik-460g-eesti-pagar/",
+        "size": "4x60g",
+        "ean": "4740086023550",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740086023550.png",
+        "storeName": "Kartuli-röstsibula Pehmik 4*60g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartuli-rostsibula-pehmik-eesti-pagar-240g",
+        "size": "240g",
+        "ean": "4740086023550",
+        "storeUnitPrice": 5.38,
+        "storeName": "Kartuli-röstsibula Pehmik, EESTI PAGAR, 240g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Võileiva tasku street food 400g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/voileiva-tasku-street-food-fazer-400-g",
+        "size": "400g",
+        "storeUnitPrice": 6.48,
+        "storeName": "Võileiva tasku Street Food FAZER,400g"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voileiva-tasku-street-food-fazer-400-g",
+        "cardPrice": 2.25,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "4770068201102",
+        "storeUnitPrice": 6.63,
+        "storeName": "Võileiva tasku Street Food, FAZER, 400 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Sepik õnne 300g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sepik-onne-eesti-pagar-300-g",
+        "size": "300g",
+        "storeUnitPrice": 3.63,
+        "storeName": "Sepik Õnne EESTI PAGAR 300g"
+      },
+      "rimi": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sepik-onne-eesti-pagar-300g/p/206617",
+        "size": "300g",
+        "storeUnitPrice": 3.63,
+        "storeName": "Sepik Õnne Eesti Pagar 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Kodusai suur 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodusai-suur-fazer-500-g",
+        "size": "500g",
+        "storeUnitPrice": 1.98,
+        "regularPrice": 1.29,
+        "storeName": "Kodusai Suur FAZER 500g"
+      },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suur-kodusai-500g/",
+        "size": "500g",
+        "ean": "4740103010020",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740103010020.jpg",
+        "storeName": "Suur Kodusai viil 500g Fazer"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suur-kodusai-fazer-500-g",
+        "size": "500g",
+        "ean": "4740103010020",
+        "storeUnitPrice": 2.98,
+        "storeName": "Suur Kodusai, FAZER, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Suur perenaise sai 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suur-perenaise-sai-eesti-pagar-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.42,
+        "storeName": "Suur Perenaise sai EESTI PAGAR, 500g"
+      },
+      "rimi": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-perenaise-suur-eesti-pagar-500g/p/290363",
+        "size": "500g",
+        "storeUnitPrice": 1.78,
+        "regularPrice": 1.25,
+        "storeName": "Sai Perenaise suur Eesti Pagar 500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Rukkisepik 300g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rukkisepik-eesti-pagar-300-g",
+        "size": "300g",
+        "storeUnitPrice": 3.97,
+        "storeName": "Rukkisepik EESTI PAGAR, 300g"
+      },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rukkisepik-300g/",
+        "size": "300g",
+        "ean": "4740086009981",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086009981.jpg",
+        "storeName": "Rukkisepik 300g Eesti Pagar"
+      },
+      "rimi": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rukkisepik-eesti-pagar-300g/p/298347",
+        "size": "300g",
+        "storeUnitPrice": 3.63,
+        "storeName": "Rukkisepik Eesti Pagar 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Keefirisai kaltsiumiga 350g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/keefirisai-kaltsiumiga-fazer-350-g",
+        "size": "350g",
+        "storeUnitPrice": 3.4,
+        "regularPrice": 1.59,
+        "storeName": "Keefirisai kaltsiumiga FAZER 350g"
+      },
+      "rimi": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/keefirisai-kaltsiumiga-fazer-350g/p/920924",
+        "size": "350g",
+        "storeUnitPrice": 3.57,
+        "regularPrice": 1.67,
+        "storeName": "Keefirisai kaltsiumiga Fazer 350g"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefirisai-kaltsiumiga-fazer-350-g",
+        "size": "350g",
+        "ean": "4740103011058",
+        "storeUnitPrice": 4.26,
+        "storeName": "Keefirisai kaltsiumiga, FAZER, 350 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Rosinasai 400g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rosinasai-eesti-pagar-400-g-11122",
+        "size": "400g",
+        "storeUnitPrice": 3.88,
+        "storeName": "Rosinasai EESTI PAGAR 400g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rosinasai-400g/",
+        "size": "400g",
+        "ean": "4740086000452",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086000452.png",
+        "storeName": "Rosinasai 400g Eesti Pagar"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Täisterasepik 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/taisterasepik-eesti-pagar-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.38,
+        "storeName": "Täisterasepik EESTI PAGAR, 500 g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taisterasepik-500g/",
+        "size": "500g",
+        "ean": "4740086016071",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086016071.jpg",
+        "storeName": "Täisterasepik 500g Eesti Pagar"
+      },
+      "rimi": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/taisterasepik-eesti-pagar-500g/p/930282",
+        "size": "500g",
+        "storeUnitPrice": 2.18,
+        "regularPrice": 1.29,
+        "storeName": "Täisterasepik Eesti Pagar 500g"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taisterasepik-eesti-pagar-500-g",
+        "size": "500g",
+        "ean": "4740086016071",
+        "storeUnitPrice": 3.1,
+        "storeName": "Täisterasepik, EESTI PAGAR, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Kirde sai 300g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kirde-sai-leibur-300-g",
+        "size": "300g",
+        "storeUnitPrice": 3.63,
+        "storeName": "Kirde sai LEIBUR, 300g"
+      },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirde-sai-300g/",
+        "size": "300g",
+        "ean": "4740072215556",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072215556-1-scaled.jpg",
+        "storeName": "Kirde sai 300g Leibur"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-kirde-leibur-300g/p/939466",
+        "size": "300g",
+        "storeUnitPrice": 3.3,
+        "storeName": "Sai Kirde Leibur 300g"
+      },
+      "selver": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirde-sai-leibur-300-g",
+        "size": "300g",
+        "ean": "4740072215556",
+        "storeUnitPrice": 2.97,
+        "storeName": "Kirde sai, LEIBUR, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Kaerasepik 360g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kaerasepik-leibur-360-g",
+        "size": "360g",
+        "storeUnitPrice": 3.86,
+        "storeName": "Kaerasepik LEIBUR, 360g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerasepik-360g/",
+        "size": "360g",
+        "ean": "4740072224152",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072224152.jpg",
+        "storeName": "Kaerasepik 360g Leibur"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Suur kirde sai 450g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.41,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suur-kirde-sai-leibur-450-g",
+        "size": "450g",
+        "storeUnitPrice": 3.13,
+        "storeName": "Suur Kirde sai LEIBUR, 450g"
+      },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suur-kirde-sai-450g/",
+        "size": "450g",
+        "ean": "4740072215754",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740072215754-scaled.jpg",
+        "storeName": "Suur Kirde sai viil 450g Leibur"
+      },
+      "selver": {
+        "price": 1.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suur-kirde-sai-leibur-450-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "450g",
+        "ean": "4740072215754",
+        "storeUnitPrice": 3.13,
+        "storeName": "Suur Kirde sai, LEIBUR, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Südamesepik täistera 300g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.21,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sudamesepik-taistera-fazer-300-g",
+        "size": "300g",
+        "storeUnitPrice": 4.03,
+        "storeName": "Südamesepik täistera FAZER, 300g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sudamesepik-taistera-fazer-300g",
+        "size": "300g",
+        "ean": "4740103012338",
+        "storeUnitPrice": 4.3,
+        "storeName": "Südamesepik täistera, FAZER, 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Kaerasepik 300g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kaerasepik-eesti-pagar-300-g",
+        "size": "300g",
+        "storeUnitPrice": 4.17,
+        "storeName": "Kaerasepik EESTI PAGAR 300g"
+      },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerasepik-300g-eesti-pagar/",
+        "size": "300g",
+        "ean": "4740086020894",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740086020894.png",
+        "storeName": "Kaerasepik 300g Eesti Pagar"
+      },
+      "rimi": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kaerasepik-eesti-pagar-300g/p/971850",
+        "size": "300g",
+        "storeUnitPrice": 4.17,
+        "storeName": "Kaerasepik Eesti Pagar 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Hele ciabatta 300g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hele-ciabatta-eesti-pagar-300-g",
+        "size": "300g",
+        "storeUnitPrice": 3.63,
+        "storeName": "Hele Ciabatta EESTI PAGAR 300g"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/ciabatta-hele-eesti-pagar-300g/p/4000100",
+        "size": "300g",
+        "storeUnitPrice": 3.97,
+        "storeName": "Ciabatta hele Eesti Pagar 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Fitlap täisterasepik 360g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/fitlap-taisterasepik-leibur-360-g",
+        "size": "360g",
+        "storeUnitPrice": 4.42,
+        "storeName": "FitLap täisterasepik LEIBUR,360g"
+      },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fitlap-taisterasepik-360g-leibur/",
+        "size": "360g",
+        "ean": "4740072224657",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4740072224657.png",
+        "storeName": "Fitlap täisterasepik 360g Leibur"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/taisterasepik-fitlap-leibur-360g/p/4002667",
+        "size": "360g",
+        "storeUnitPrice": 4.42,
+        "storeName": "Täisterasepik FitLap Leibur 360g"
+      },
+      "selver": {
+        "price": 1.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fitlap-taisterasepik-leibur-360-g",
+        "size": "360g",
+        "ean": "4740072224657",
+        "storeUnitPrice": 4.5,
+        "storeName": "Fitlap täisterasepik, LEIBUR, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Juuretisesai 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juuretisesai-fazer-500-g",
+        "size": "500g",
+        "storeUnitPrice": 3.58,
+        "storeName": "Juuretisesai FAZER 500g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juuretisesai-500g-fazer/",
+        "size": "500g",
+        "ean": "4740103010563",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740103010563.png",
+        "storeName": "Juuretisesai 500g Fazer"
+      },
+      "rimi": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/juuretisesai-fazer-500g/p/4006264",
+        "size": "500g",
+        "storeUnitPrice": 3.9,
+        "storeName": "Juuretisesai Fazer 500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Kodusai xxl 700g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodusai-xxl-fazer-700-g",
+        "size": "700g",
+        "storeUnitPrice": 1.84,
+        "storeName": "Kodusai XXL FAZER 700g"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kodusai-xxl-fazer-700g/p/4002974",
+        "size": "700g",
+        "storeUnitPrice": 1.84,
+        "storeName": "Kodusai XXL Fazer 700g"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodusai-xxl-fazer-700-g",
+        "size": "700g",
+        "ean": "4740103010068",
+        "storeUnitPrice": 1.99,
+        "storeName": "Kodusai XXL, FAZER, 700 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Sepik seemnetega 250g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sepik-seemnetega-fazer-250-g",
+        "size": "250g",
+        "storeUnitPrice": 3.16,
+        "storeName": "Sepik seemnetega FAZER 250g"
+      },
+      "coop": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seemnetega-sepik-250g-fazer/",
+        "size": "250g",
+        "ean": "4740103012406",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/4740103012406.png",
+        "storeName": "Seemnetega sepik 250g Fazer"
+      },
+      "rimi": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sepik-seemnetega-fazer-250g/p/4006279",
+        "size": "250g",
+        "storeUnitPrice": 3.4,
+        "storeName": "Sepik seemnetega Fazer 250g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Kodune sepik 250g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodune-sepik-leibur-250-g",
+        "size": "250g",
+        "storeUnitPrice": 2.6,
+        "storeName": "Kodune sepik LEIBUR,250g"
+      },
+      "rimi": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kodune-sepik-leibur-250g/p/4010724",
+        "size": "250g",
+        "storeUnitPrice": 2.76,
+        "storeName": "Kodune sepik Leibur 250g"
+      },
+      "selver": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodune-sepik-leibur-250-g",
+        "size": "250g",
+        "ean": "4740072233055",
+        "storeUnitPrice": 2.6,
+        "storeName": "Kodune sepik, LEIBUR, 250 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Kuldne klassikaline röstsai 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kuldne-klassikaline-rostsai-leibur-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.18,
+        "regularPrice": 1.59,
+        "storeName": "Kuldne klassikaline röstsai LEIBUR 500g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/klassikaline-rostsai-500/",
+        "size": "500g",
+        "ean": "4740072251554",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072251554.png",
+        "storeName": "Kuldne klassikaline röstsai 500g Leibur"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuldne-klassikaline-rostsai-leibur-500-g",
+        "size": "500g",
+        "ean": "4740072251554",
+        "storeUnitPrice": 1.9,
+        "storeName": "Kuldne klassikaline röstsai, LEIBUR, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Röstsai tosta 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rostsai-tosta-eesti-pagar-500-g",
+        "size": "500g",
+        "storeUnitPrice": 1.98,
+        "storeName": "Röstsai Tosta EESTI PAGAR 500g"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-tosta-eesti-pagar-500g/p/274018",
+        "size": "500g",
+        "storeUnitPrice": 2.38,
+        "storeName": "Röstsai Tosta Eesti Pagar 500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Mitmevilja röst tosta 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mitmevilja-rostsai-tosta-eesti-pagar-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.38,
+        "regularPrice": 1.55,
+        "storeName": "Mitmevilja-röstsai Tosta EESTI PAGAR500g"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-mitmevilja-tosta-eesti-pagar-500g/p/274019",
+        "size": "500g",
+        "storeUnitPrice": 2.38,
+        "regularPrice": 1.55,
+        "storeName": "Röstsai mitmevilja Tosta Eesti Pagar 500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Rukkiröst tosta 390g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rukkirost-tosta-eesti-pagar-390-g",
+        "size": "390g",
+        "storeUnitPrice": 2.8,
+        "regularPrice": 1.41,
+        "storeName": "Rukkiröst Tosta EESTI PAGAR, 390g"
+      },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tosta-rukkirost-390g/",
+        "size": "390g",
+        "ean": "4740086008311",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086008311.jpg",
+        "storeName": "Tosta Rukkiröst viil 390g Eesti Pagar"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rukkirost-tosta-eesti-pagar-390g/p/286883",
+        "size": "390g",
+        "storeUnitPrice": 3.05,
+        "regularPrice": 1.49,
+        "storeName": "Rukkiröst Tosta Eesti Pagar 390g"
+      },
+      "selver": {
+        "price": 1.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tosta-rukkirost-eesti-pagar-390-g",
+        "size": "390g",
+        "ean": "4740086008311",
+        "storeUnitPrice": 3.62,
+        "storeName": "Tosta Rukkiröst, EESTI PAGAR, 390 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur röst mitmevilja 470g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/leiburi-rost-mitmevilja-470-g",
+        "size": "470g",
+        "storeUnitPrice": 2.74,
+        "storeName": "Leiburi RÖST mitmevilja, 470g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mitmevilja-rost-470g/",
+        "size": "470g",
+        "ean": "4740072252858",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072252858.png",
+        "storeName": "Mitmevilja röst 470g Leibur"
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rost-mitmevilja-leibur-470g/p/290851",
+        "size": "470g",
+        "storeUnitPrice": 4.02,
+        "storeName": "Röst Mitmevilja Leibur 470g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostsai-mitmevilja-leibur-470-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "470g",
+        "ean": "4740072252858",
+        "storeUnitPrice": 4.23,
+        "storeName": "Röstsai mitmevilja, LEIBUR, 470 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Kodusai röst 500g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kodusai-rost-fazer-500-g",
+        "size": "500g",
+        "storeUnitPrice": 3.02,
+        "storeName": "Kodusai RÖST FAZER, 500g"
+      },
+      "rimi": {
+        "price": 1.6,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kodusai-rost-fazer-500g/p/298702",
+        "size": "500g",
+        "storeUnitPrice": 3.2,
+        "storeName": "Kodusai Röst Fazer 500g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodusai-rost-fazer-500-g",
+        "size": "500g",
+        "ean": "4740103010549",
+        "storeUnitPrice": 3.18,
+        "storeName": "Kodusai röst, FAZER, 500 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Kodusai mini röst 240g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rostsai-fazer-mini-240-g",
+        "size": "240g",
+        "storeUnitPrice": 5.38,
+        "storeName": "Röstsai FAZER mini, 240g"
+      },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fazer-mini-rost-240g/",
+        "size": "240g",
+        "ean": "4740103010204",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740103010204.jpg",
+        "storeName": "Mini Röst Fazer 240g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kodusai-mini-rost-fazer-240g/p/902923",
+        "size": "240g",
+        "storeUnitPrice": 5.79,
+        "storeName": "Kodusai mini röst Fazer 240g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mini-rost-fazer-240-g",
+        "cardPrice": 1.09,
+        "cardName": "Partner",
+        "size": "240g",
+        "ean": "4740103010204",
+        "storeUnitPrice": 5.38,
+        "storeName": "Mini röst, FAZER, 240 g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Fazer Keefiriröst kaltsiumiga 450g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/keefirirost-kaltsiumiga-fazer-450-g",
+        "size": "450g",
+        "storeUnitPrice": 4.2,
+        "storeName": "Keefiriröst kaltsiumiga FAZER 450g"
+      },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/keefiri-rostsai-450g/",
+        "size": "450g",
+        "ean": "4740103011164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740103011164.png",
+        "storeName": "Keefiriröst kaltsiumiga 450g Fazer"
+      },
+      "rimi": {
+        "price": 1.96,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/keefirirost-kaltsiumiga-fazer-450g/p/940344",
+        "size": "450g",
+        "storeUnitPrice": 4.36,
+        "storeName": "Keefiriröst kaltsiumiga Fazer 450g"
+      },
+      "selver": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefirirostsai-kaltsiumiga-fazer-450-g",
+        "size": "450g",
+        "ean": "4740103011164",
+        "storeUnitPrice": 4.33,
+        "storeName": "Keefiriröstsai kaltsiumiga, FAZER, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Kuldne klassikaline röstsai 250g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kuldne-klassikaline-rostsai-leibur-250-g",
+        "size": "250g",
+        "storeUnitPrice": 5,
+        "storeName": "Kuldne klassikaline röstsai LEIBUR, 250g"
+      },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/klassikaline-rostsai250g/",
+        "size": "250g",
+        "ean": "4740072254050",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072254050-scaled.jpg",
+        "storeName": "Kuldne klassikaline röstsai 250g Leibur"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuldne-klassikaline-rostsai-leibur-250-g",
+        "size": "250g",
+        "ean": "4740072254050",
+        "storeUnitPrice": 5.08,
+        "storeName": "Kuldne klassikaline röstsai, LEIBUR, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Seemneröst 450g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/seemnerost-fazer-450-g",
+        "size": "450g",
+        "storeUnitPrice": 3.98,
+        "regularPrice": 2.25,
+        "storeName": "Seemneröst FAZER,450g"
+      },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seemnerost-450g/",
+        "size": "450g",
+        "ean": "4740103011188",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740103011188.jpg",
+        "storeName": "Seemneröst 450g Fazer"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/seemnerost-fazer-450g/p/947519",
+        "size": "450g",
+        "storeUnitPrice": 5.31,
+        "storeName": "Seemneröst Fazer 450g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seemnerost-fazer-450-g",
+        "size": "450g",
+        "ean": "4740103011188",
+        "storeUnitPrice": 4.42,
+        "storeName": "Seemneröst, FAZER, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Pagari kaeraröst 430g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pagari-kaerarost-eesti-pagar-430-g",
+        "size": "430g",
+        "storeUnitPrice": 3.47,
+        "storeName": "Pagari kaeraröst EESTI PAGAR 430g"
+      },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pagari-kaerarost-430g-eesti-pagar/",
+        "size": "430g",
+        "ean": "4740086020900",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4740086020900.png",
+        "storeName": "Pagari kaeraröst 430g Eesti Pagar"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/pagari-kaerarost-eesti-pagar-430g/p/971770",
+        "size": "430g",
+        "storeUnitPrice": 3.7,
+        "storeName": "Pagari Kaeraröst Eesti Pagar 430g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Haputaina röst 430g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/haputaina-rost-eesti-pagar-430-g",
+        "size": "430g",
+        "storeUnitPrice": 3.7,
+        "storeName": "Haputaina röst EESTI PAGAR 430g"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/haputaina-rost-eesti-pagar-430g/p/992844",
+        "size": "430g",
+        "storeUnitPrice": 3.7,
+        "storeName": "Haputaina Röst Eesti Pagar 430g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Juuretise röst 450g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juuretise-rost-fazer-450-g",
+        "size": "450g",
+        "storeUnitPrice": 3.31,
+        "regularPrice": 1.89,
+        "storeName": "Juuretise Röst FAZER 450g"
+      },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fazer-juuretise-rost-450g/",
+        "size": "450g",
+        "ean": "4750212903427",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740103011256.png",
+        "storeName": "Juuretise Röst 450g Fazer"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/juuretise-rost-fazer-450g/p/4000174",
+        "size": "450g",
+        "storeUnitPrice": 4.42,
+        "storeName": "Juuretise röst Fazer 450g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juuretise-rost-fazer-450-g",
+        "size": "450g",
+        "ean": "4740103011256",
+        "storeUnitPrice": 4.2,
+        "storeName": "Juuretise Röst, FAZER, 450 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Röst rukkijahu 550g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rost-100-proc-rukkijahu-leibur-550-g",
+        "size": "550g",
+        "storeUnitPrice": 3.55,
+        "storeName": "Röst 100% rukkijahu LEIBUR 550g"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rost-100-rukkijahu-550g-leibur/",
+        "size": "550g",
+        "ean": "4740072154756",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740072154756.png",
+        "storeName": "Röst 100% rukkijahu 550g Leibur"
+      },
+      "selver": {
+        "price": 1.98,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rost-100-rukkijahust-leibur-550-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "550g",
+        "ean": "4740072154756",
+        "storeUnitPrice": 3.6,
+        "storeName": "Röst 100% rukkijahust, LEIBUR, 550 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Täistera kaeraröst röst 550g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/taistera-kaerarost-rost-leibur-550-g",
+        "size": "550g",
+        "storeUnitPrice": 3.98,
+        "storeName": "Täistera kaeraröst Röst LEIBUR, 550g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rost-taistera-kaerarost-leibur-550-g",
+        "size": "550g",
+        "ean": "4740072255057",
+        "storeUnitPrice": 3.98,
+        "storeName": "RÖST Täistera kaeraröst, LEIBUR, 550 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Vilja röstsai kuldne 525g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/5-vilja-rostsai-kuldne-leibur-525-g",
+        "size": "525g",
+        "storeUnitPrice": 2.95,
+        "storeName": "5-vilja röstsai Kuldne LEIBUR,525g"
+      },
+      "rimi": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-5-vilja-leibur-525g/p/4009614",
+        "size": "525g",
+        "storeUnitPrice": 2.95,
+        "storeName": "Röstsai Kuldne 5-vilja Leibur 525g"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuldne-5-vilja-rostsai-leibur-525-g",
+        "size": "525g",
+        "ean": "4740072255156",
+        "storeUnitPrice": 2.95,
+        "storeName": "Kuldne 5-vilja röstsai, LEIBUR, 525 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Kamaröst 400g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kamarost-fazer-400-g",
+        "size": "400g",
+        "storeUnitPrice": 4.98,
+        "storeName": "Kamaröst FAZER 400g"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kamarost-400g-fazer/",
+        "size": "400g",
+        "ean": "4740103011096",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740103011096.png",
+        "storeName": "Kamaröst 400g Fazer"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kamarost-fazer-400g/p/4010713",
+        "size": "400g",
+        "storeUnitPrice": 4.97,
+        "storeName": "Kamaröst Fazer 400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Vilja röstsepik täisterahelvest 480g",
+    "category": "Bread",
+    "prices": {
+      "barbora": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/5-vilja-rostsepik-taisterahel-fazer-480-g",
+        "size": "480g",
+        "storeUnitPrice": 4.06,
+        "storeName": "5-vilja röstsepik täisterahel.FAZER,480g"
+      },
+      "rimi": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsepik-taisterahelvest-5-vilja-fazer-480g/p/4012066",
+        "size": "480g",
+        "storeUnitPrice": 3.23,
+        "storeName": "Röstsepik täisterahelvest. 5-vilja Fazer 480g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Fazer Seemneleib 400g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/seemneleib-fazer-400g/p/940346",
+        "size": "400g",
+        "storeUnitPrice": 5.22,
+        "storeName": "Seemneleib Fazer 400g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seemneleib-fazer-400-g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "4740103021682",
+        "storeUnitPrice": 5.48,
+        "storeName": "Seemneleib, FAZER, 400 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Must jassi seemneleib 310g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-jassi-s-leib-310g/",
+        "size": "310g",
+        "ean": "4740086009578",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740086009578.png",
+        "storeName": "Must Jassi seemneleib 310g Eesti Pagar"
+      },
+      "rimi": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/must-seemneleib-jassi-eesti-pagar-310g/p/298345",
+        "size": "310g",
+        "storeUnitPrice": 4.03,
+        "storeName": "Must seemneleib Jassi Eesti Pagar 310g"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-jassi-seemneleib-1-2-viilutatud-eesti-pagar-310-g",
+        "size": "310g",
+        "ean": "4740086009578",
+        "storeUnitPrice": 4.1,
+        "storeName": "Must Jassi seemneleib 1/2 viilutatud, EESTI PAGAR, 310 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lõuna pagarid Rukkileib idandatud teradega 300g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-idan-teradega-louna-pagarid-300g/p/4010987",
+        "size": "300g",
+        "storeUnitPrice": 5.3,
+        "storeName": "Rukkileib idan. teradega Lõuna Pagarid 300g"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkileib-idandatud-teradega-louna-pagarid-300g",
+        "size": "300g",
+        "ean": "4740633001321",
+        "storeUnitPrice": 4.97,
+        "storeName": "Rukkileib idandatud teradega, LÕUNA PAGARID, 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Lõuna pagarid Rukkileib seemnetega 300g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-seemnetega-louna-pagarid-300g/p/4011003",
+        "size": "300g",
+        "storeUnitPrice": 5.63,
+        "storeName": "Rukkileib seemnetega Lõuna Pagarid 300g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkileib-seemnetega-louna-pagarid-300g",
+        "size": "300g",
+        "ean": "4740633001338",
+        "storeUnitPrice": 5.3,
+        "storeName": "Rukkileib seemnetega, LÕUNA PAGARID, 300g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Täistera röstsai kuldne 500g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taisterasepik-kuldne-500g-leibur/",
+        "size": "500g",
+        "ean": "4740072253855",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4740072253855.png",
+        "storeName": "Täistera röstsai Kuldne 500g Leibur"
+      },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsai-taistera-kuldne-leibur-500g/p/926710",
+        "size": "500g",
+        "storeUnitPrice": 3.58,
+        "storeName": "Röstsai täistera Kuldne Leibur 500g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuldne-taistera-rostsai-leibur-500-g",
+        "size": "500g",
+        "ean": "4740072253855",
+        "storeUnitPrice": 3.58,
+        "storeName": "Kuldne Täistera röstsai, LEIBUR, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Kaerasepik d vitamiiniga 350g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kaerasepik-d-vitamiiniga-fazer-350g/p/992822",
+        "size": "350g",
+        "storeUnitPrice": 3.97,
+        "storeName": "Kaerasepik D-vitamiiniga Fazer 350g"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaerasepik-d-vitamiiniga-fazer-350g",
+        "size": "350g",
+        "ean": "4740103012369",
+        "storeUnitPrice": 3.86,
+        "storeName": "Kaerasepik D-vitamiiniga, FAZER, 350g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Juusturöst tosta 430g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/juusturost-tosta-eesti-pagar-430g/p/4012527",
+        "size": "430g",
+        "storeUnitPrice": 4.4,
+        "storeName": "Juusturöst Tosta Eesti Pagar 430g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tosta-juusturost-eesti-pagar-430g",
+        "size": "430g",
+        "ean": "4740086036536",
+        "storeUnitPrice": 3.7,
+        "storeName": "Tosta Juusturöst, EESTI PAGAR, 430g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Leibur Saib 370g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/saib-100-rukkij-370g/",
+        "size": "370g",
+        "ean": "4740072123653",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072123653.jpg",
+        "storeName": "Saib 100% rukkijahust 370g Leibur"
+      },
+      "rimi": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/saib-leibur-370g/p/278361",
+        "size": "370g",
+        "storeUnitPrice": 4.57,
+        "storeName": "Saib Leibur 370g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saib-100-rukkijahust-leibur-370-g",
+        "size": "370g",
+        "ean": "4740072123653",
+        "storeUnitPrice": 4.54,
+        "storeName": "Saib 100% rukkijahust, LEIBUR, 370 g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Eesti Pagar Pagariröst täistera 430g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/pagarirost-taistera-eesti-pagar-430g/p/917973",
+        "size": "430g",
+        "storeUnitPrice": 3.7,
+        "storeName": "Pagariröst täistera Eesti Pagar 430g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostsai-taistera-eesti-pagar-430-g",
+        "size": "430g",
+        "ean": "4740086013742",
+        "storeUnitPrice": 3.7,
+        "storeName": "Röstsai täistera, EESTI PAGAR, 430 g"
+      }
+    },
+    "matchedVia": "override"
+  },
+  {
+    "name": "Leibur Mitmevilja röst 250g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mitmevilja-rost-250g/",
+        "size": "250g",
+        "ean": "4740072254357",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740072254357-1.png",
+        "storeName": "Mitmevilja röst 250g Leibur"
+      },
+      "rimi": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/mitmevilja-rost-leibur-250g/p/962563",
+        "size": "250g",
+        "storeUnitPrice": 6.76,
+        "storeName": "Mitmevilja röst Leibur 250g"
+      },
+      "selver": {
+        "price": 1.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mitmevilja-rost-leibur-250-g",
+        "size": "250g",
+        "ean": "4740072254357",
+        "storeUnitPrice": 6.48,
+        "storeName": "Mitmevilja röst, LEIBUR, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Röstsai kuldne graham 500g",
+    "category": "Bread",
+    "prices": {
+      "rimi": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-graham-leibur-500g/p/4009589",
+        "size": "500g",
+        "storeUnitPrice": 3.1,
+        "storeName": "Röstsai Kuldne Graham Leibur 500g"
+      },
+      "selver": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuldne-graham-rostsai-leibur-500-g",
+        "size": "500g",
+        "ean": "4740072254852",
+        "storeUnitPrice": 1.38,
+        "storeName": "Kuldne Graham röstsai, LEIBUR, 500 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Kanepiseemne leib rukkiteradega 240g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanepiseemne-leib-240g/",
+        "size": "240g",
+        "ean": "4740086013766",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086013766.png",
+        "storeName": "Kanepiseemne leib rukkiteradega 240g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.11,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanepiseemne-leib-rukkiteradega-eesti-pagar-240-g",
+        "size": "240g",
+        "ean": "4740086013766",
+        "storeUnitPrice": 4.63,
+        "storeName": "Kanepiseemne leib rukkiteradega, EESTI PAGAR, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Schär Leib surdegsbröt dr gluteenivaba juuretisega 240g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/leib-surdegsbrot-240g/",
+        "size": "240g",
+        "ean": "8008698010778",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8008698010778.jpg",
+        "storeName": "Leib Surdegsbröt Dr.Schär 240g gluteenivaba"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/surdegsbrot-juuretisega-leib-dr-schar-240-g",
+        "size": "240g",
+        "ean": "8008698010778",
+        "storeUnitPrice": 20.79,
+        "storeName": "Surdegsbröt juuretisega leib, DR.SCHÄR, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Täisterarukkileib ruks 800g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rukkileib-ruks-800g-leibur/",
+        "size": "800g",
+        "ean": "4740072114750",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4740072114750-2.png",
+        "storeName": "Täisterarukkileib Ruks 800g Leibur"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkileib-ruks-leibur-800-g",
+        "size": "800g",
+        "ean": "4740072114750",
+        "storeUnitPrice": 2.11,
+        "storeName": "Rukkileib Ruks, LEIBUR, 800 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Rukkipala 330g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 0.84,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rukkipala-330g/",
+        "size": "330g",
+        "ean": "4740072130514",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072130514.png",
+        "storeName": "Rukkipala 6tk 330g Leibur"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkipala-leibur-330-g",
+        "size": "330g",
+        "ean": "4740072130514",
+        "storeUnitPrice": 2.88,
+        "storeName": "Rukkipala, LEIBUR, 330 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Pealinna peenleib viil 1 490g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pealinna-peenleib-490g/",
+        "size": "490g",
+        "ean": "4740086001138",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086001138.jpg",
+        "storeName": "Pealinna peenleib viil 490g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pealinna-peenleib-1-2-viilutatud-eesti-pagar-490-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "490g",
+        "ean": "4740086001138",
+        "storeUnitPrice": 2.59,
+        "storeName": "Pealinna peenleib 1/2 viilutatud, EESTI PAGAR, 490 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Kodukandi rukkileib viil 1 390g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodukandi-rukkileib-390g/",
+        "size": "390g",
+        "ean": "4740086001497",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086001497.jpg",
+        "storeName": "Kodukandi rukkileib viil 390g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.11,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kodukandi-rukkileib-1-2-viilutatud-eesti-pagar-390-g",
+        "size": "390g",
+        "ean": "4740086001497",
+        "storeUnitPrice": 2.85,
+        "storeName": "Kodukandi rukkileib 1/2 viilutatud, EESTI PAGAR, 390 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Must vormileib viil 600g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-vormileib-600g-2/",
+        "size": "600g",
+        "ean": "4740086005068",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740086005068.png",
+        "storeName": "Must vormileib viil 600g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-leib-viilutatud-eesti-pagar-600-g",
+        "size": "600g",
+        "ean": "4740086005068",
+        "storeUnitPrice": 2.18,
+        "storeName": "Must leib viilutatud, EESTI PAGAR, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Must vormileib viil 1 280g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-vormileib-viil-280g-eesti-pagar/",
+        "size": "280g",
+        "ean": "4740086005075",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/4740086005075.png",
+        "storeName": "Must vormileib viil 280g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.07,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-leib-1-2-viilutatud-eesti-pagar-280-g",
+        "size": "280g",
+        "ean": "4740086005075",
+        "storeUnitPrice": 3.82,
+        "storeName": "Must leib 1/2 viilutatud, EESTI PAGAR, 280 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Rehe rukkileib vormileib 600g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rehe-rukkileib-600g/",
+        "size": "600g",
+        "ean": "4740086008069",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086008069.jpg",
+        "storeName": "Rehe rukkileib vormileib 600g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rehe-rukkileib-viilutatud-eesti-pagar-600-g",
+        "size": "600g",
+        "ean": "4740086008069",
+        "storeUnitPrice": 2.15,
+        "storeName": "Rehe rukkileib viilutatud, EESTI PAGAR, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Must vormileib viil 600g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-vormileib-600g/",
+        "size": "600g",
+        "ean": "4740103020203",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740103020203.jpg",
+        "storeName": "Must vormileib viil 600g Fazer"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-leib-viilutatud-fazer-600-g",
+        "size": "600g",
+        "ean": "4740103020203",
+        "storeUnitPrice": 2.65,
+        "storeName": "Must leib viilutatud, FAZER, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Tallinna peenleib pool viil 490g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallinna-peenleib-pool-viil-490g-leibur/",
+        "size": "490g",
+        "ean": "4740072116358",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740072116358-scaled.jpg",
+        "storeName": "Tallinna peenleib pool viil 490g Leibur"
+      },
+      "selver": {
+        "price": 1.51,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tallinna-peenleib-viilutatud-leibur-490-g",
+        "size": "490g",
+        "ean": "4740072116358",
+        "storeUnitPrice": 3.08,
+        "storeName": "Tallinna peenleib viilutatud, LEIBUR, 490 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Rukkipala hõrk ja õhuke 195g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rukkipala-195g/",
+        "size": "195g",
+        "ean": "4740072132310",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072132310-scaled.jpg",
+        "storeName": "Rukkipala hõrk ja õhuke 195g Leibur"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkipala-hork-ja-ohuke-leibur-195-g",
+        "size": "195g",
+        "ean": "4740072132310",
+        "storeUnitPrice": 8.67,
+        "storeName": "Rukkipala hõrk ja õhuke, LEIBUR, 195 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Lapi leib kaeraga street food 180g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lapi-leib-kaeraga-180g/",
+        "size": "180g",
+        "ean": "4740103098103",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740103098103.png",
+        "storeName": "Lapi leib kaeraga Street Food 180g Fazer"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lapi-leib-kaeraga-street-food-fazer-180-g",
+        "size": "180g",
+        "ean": "4740103098103",
+        "storeUnitPrice": 13.28,
+        "storeName": "Lapi leib kaeraga Street Food, FAZER, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Täistera vormileib ruks 300g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-vormileib-ruks-300g-leibur/",
+        "size": "300g",
+        "ean": "4740072126753",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/08/4740072126753.png",
+        "storeName": "Täistera vormileib Ruks 300g Leibur"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taistera-vormileib-ruks-leibur-300-g",
+        "size": "300g",
+        "ean": "4740072126753",
+        "storeUnitPrice": 3.3,
+        "storeName": "Täistera vormileib Ruks, LEIBUR, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Täistera rukkileib fitlap d vitamiiniga 390g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-rukkileib-fitlap-d-v390g-leibur/",
+        "size": "390g",
+        "ean": "4740072116655",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740072116655.png",
+        "storeName": "Täistera rukkileib Fitlap D-vitamiiniga390g Leibur"
+      },
+      "selver": {
+        "price": 1.37,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fitlap-taisterarukkileib-d-vitamiiniga-leibur-390-g",
+        "size": "390g",
+        "ean": "4740072116655",
+        "storeUnitPrice": 3.51,
+        "storeName": "Fitlap täisterarukkileib D-vitamiiniga, LEIBUR, 390 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Rukkipala päevalilleseemnetega 6 360g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rukkipala-paevalilleseemnete-360g-leibur/",
+        "size": "360g",
+        "ean": "4740072132815",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740072132815.png",
+        "storeName": "Rukkipala päevalilleseemnetega 360g Leibur"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rukkipala-paevalilleseemnetega-6-tk-leibur-360-g",
+        "size": "360g",
+        "ean": "4740072132815",
+        "storeUnitPrice": 5.06,
+        "storeName": "Rukkipala päevalilleseemnetega 6 tk, LEIBUR, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Jassi seemneleib viil 1 310g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jassi-seemneleib-310g/",
+        "size": "310g",
+        "ean": "4740086001114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086001114.jpg",
+        "storeName": "Jassi seemneleib viil 310g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.17,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jassi-seemneleib-1-2-viilutatud-eesti-pagar-310-g",
+        "size": "310g",
+        "ean": "4740086001114",
+        "storeUnitPrice": 3.77,
+        "storeName": "Jassi seemneleib 1/2 viilutatud, EESTI PAGAR, 310 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Perenaise sai viil 320g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/perenaise-sai-320g/",
+        "size": "320g",
+        "ean": "4740086000728",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086000728.jpg",
+        "storeName": "Perenaise sai viil 320g Eesti Pagar"
+      },
+      "selver": {
+        "price": 0.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/perenaise-sai-viilutatud-eesti-pagar-320-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "320g",
+        "ean": "4740086000728",
+        "storeUnitPrice": 3.03,
+        "storeName": "Perenaise sai viilutatud, EESTI PAGAR, 320 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Tosta röstsai viil 500g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tosta-rostsai-500g/",
+        "size": "500g",
+        "ean": "4740086007222",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086007222.png",
+        "storeName": "Tosta röstsai viil 500g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tosta-rostsai-viilutatud-eesti-pagar-500-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4740086007222",
+        "storeUnitPrice": 2.62,
+        "storeName": "Tosta röstsai viilutatud, EESTI PAGAR, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Tosta mitmevilja röstsai viil 500g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tosta-mitmev-rostsai-500/",
+        "size": "500g",
+        "ean": "4740086007239",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086007239.jpg",
+        "storeName": "Tosta mitmevilja röstsai viil 500g Eesti Pagar"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tosta-mitmevilja-rostsai-viilutatud-eesti-pagar-500-g",
+        "cardPrice": 1.25,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4740086007239",
+        "storeUnitPrice": 3.1,
+        "storeName": "Tosta mitmevilja-röstsai viilutatud, EESTI PAGAR, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Suur perenaise sai viil 500g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suur-perenaise-sai-500g/",
+        "size": "500g",
+        "ean": "4740086008526",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086008526.jpg",
+        "storeName": "Suur Perenaise sai viil 500g Eesti Pagar"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/perenaise-sai-viilutatud-eesti-pagar-500-g",
+        "size": "500g",
+        "ean": "4740086008526",
+        "storeUnitPrice": 1.98,
+        "storeName": "Perenaise sai viilutatud, EESTI PAGAR, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Schär Mitmeviljasai cereale dr glut vaba 300g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-schar-cereale-mitmeviljasai-300g-gl-v/",
+        "size": "300g",
+        "ean": "8008698007389",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/8008698007389.png",
+        "storeName": "Mitmeviljasai Cereale Dr.Schär 300g glut.vaba"
+      },
+      "selver": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gluteenivaba-viilutatud-mitmeviljasai-cereale-schar-300-g",
+        "size": "300g",
+        "ean": "8008698007389",
+        "storeUnitPrice": 13.97,
+        "storeName": "Gluteenivaba viilutatud mitmeviljasai Cereale, SCHÄR, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Brioche röstsai 260g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/brioche-rostsai-260g/",
+        "size": "260g",
+        "ean": "4740072254258",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740072254258.png",
+        "storeName": "Brioche röstsai 260g Leibur"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/brioche-rostsai-leibur-260g",
+        "size": "260g",
+        "ean": "4740072254258",
+        "storeUnitPrice": 6.62,
+        "storeName": "Brioche röstsai, LEIBUR, 260g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Palaleib flaffi 300g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/palaleib-flaffi-300g-leibur/",
+        "size": "300g",
+        "ean": "4740072241814",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4740072241814.png",
+        "storeName": "Palaleib Flaffi 300g Leibur"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/palaleib-flaffi-leibur-300-g",
+        "size": "300g",
+        "ean": "4740072241814",
+        "storeUnitPrice": 6.73,
+        "storeName": "Palaleib Flaffi, LEIBUR, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Kaerasüda 380g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerasuda-oatfit-380g-leibur/",
+        "size": "380g",
+        "ean": "4740072242019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740072242019.png",
+        "storeName": "Kaerasüda 380g Leibur"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaerasuda-leibur-380-g",
+        "size": "380g",
+        "ean": "4740072242019",
+        "storeUnitPrice": 4.97,
+        "storeName": "Kaerasüda, LEIBUR, 380 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Leibur Võiks 6 360g",
+    "category": "Bread",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/voiks-6tk-360g-leibur/",
+        "size": "360g",
+        "ean": "4740072242163",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740072242163.png",
+        "storeName": "Võiks 6tk 360g Leibur"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voiks-6-tk-leibur-360g",
+        "size": "360g",
+        "ean": "4740072242163",
+        "storeUnitPrice": 3.86,
+        "storeName": "Võiks (6 tk), LEIBUR, 360g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti Pagar Meeleib 500g",
@@ -7620,526 +10278,6 @@
       }
     },
     "matchedVia": "override",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Seemneleib 400g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/seemneleib-fazer-400-g",
-        "size": "400g",
-        "unavailable": true
-      },
-      "rimi": {
-        "price": 2.09,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/seemneleib-fazer-400g/p/940346",
-        "size": "400g",
-        "storeUnitPrice": 5.22
-      },
-      "selver": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/seemneleib-fazer-400-g",
-        "cardPrice": 1.89,
-        "cardName": "Partner",
-        "size": "400g",
-        "storeUnitPrice": 5.48
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Rukkitasku 340g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.05,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/rukkitasku-eesti-pagar-340-g",
-        "cardPrice": 0.79,
-        "cardName": "Aitäh",
-        "size": "340g",
-        "storeUnitPrice": 2.32
-      },
-      "selver": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rukkitasku-eesti-pagar-340-g",
-        "size": "340g",
-        "storeUnitPrice": 3.21
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Kaera pehmik 220g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.15,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kaera-pehmik-eesti-pagar-220-g",
-        "size": "220g",
-        "storeUnitPrice": 5.23
-      },
-      "selver": {
-        "price": 1.17,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kaera-pehmik-eesti-pagar-220-g",
-        "size": "220g",
-        "storeUnitPrice": 5.32
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Mitmevilja pehmik 240g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 0.89,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/mitmevilja-pehmik-eesti-pagar-240-g",
-        "size": "240g",
-        "storeUnitPrice": 3.71
-      },
-      "selver": {
-        "price": 1.17,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/mitmevilja-pehmik-eesti-pagar-240-g",
-        "size": "240g",
-        "storeUnitPrice": 4.88
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Rehe koorikleib 200g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 0.8,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/rehe-koorikleib-eesti-pagar-200-g",
-        "size": "200g",
-        "storeUnitPrice": 4
-      },
-      "selver": {
-        "price": 0.8,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rehe-koorikleib-eesti-pagar-200-g",
-        "size": "200g",
-        "storeUnitPrice": 4
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Peedi porgandi pastinaagi pehmik 240g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/peedi-porgandi-pastinaagi-pehmik-ep-240-g",
-        "size": "240g",
-        "storeUnitPrice": 5.38
-      },
-      "selver": {
-        "price": 1.35,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/peedi-porgandi-pastinaagi-pehmik-eesti-pagar-240-g",
-        "size": "240g",
-        "storeUnitPrice": 5.63
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Teratasku 280g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/teratasku-eesti-pagar-4-tk-280-g",
-        "size": "280g",
-        "storeUnitPrice": 3.54
-      },
-      "selver": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/teratasku-eesti-pagar-280-g",
-        "size": "280g",
-        "storeUnitPrice": 3.54
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Ruks seemnepala 260g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.47,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/ruks-seemnepala-leibur-260-g",
-        "size": "260g",
-        "storeUnitPrice": 5.65
-      },
-      "selver": {
-        "price": 1.47,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/ruks-seemnepala-leibur-260-g",
-        "size": "260g",
-        "storeUnitPrice": 5.65
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Haputaina pehmik 240g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.17,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/haputaina-pehmik-eesti-pagar-240-g",
-        "size": "240g",
-        "storeUnitPrice": 4.88
-      },
-      "selver": {
-        "price": 1.17,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/haputaina-pehmik-eesti-pagar-240-g",
-        "size": "240g",
-        "storeUnitPrice": 4.88
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Kartuli röstsibula pehmik 240g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kartuli-rostsibula-pehmik-ep-240-g",
-        "size": "240g",
-        "storeUnitPrice": 5.38
-      },
-      "selver": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kartuli-rostsibula-pehmik-eesti-pagar-240g",
-        "size": "240g",
-        "storeUnitPrice": 5.38
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Võileiva tasku street food 400g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 2.59,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/voileiva-tasku-street-food-fazer-400-g",
-        "size": "400g",
-        "storeUnitPrice": 6.48
-      },
-      "selver": {
-        "price": 2.65,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/voileiva-tasku-street-food-fazer-400-g",
-        "cardPrice": 2.25,
-        "cardName": "Partner",
-        "size": "400g",
-        "storeUnitPrice": 6.63
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Sepik õnne 300g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/sepik-onne-eesti-pagar-300-g",
-        "size": "300g",
-        "storeUnitPrice": 3.63
-      },
-      "rimi": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sepik-onne-eesti-pagar-300g/p/206617",
-        "size": "300g",
-        "storeUnitPrice": 3.63
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Kodusai suur 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kodusai-suur-fazer-500-g",
-        "size": "500g",
-        "storeUnitPrice": 1.98
-      },
-      "selver": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/suur-kodusai-fazer-500-g",
-        "size": "500g",
-        "storeUnitPrice": 2.98
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Suur perenaise sai 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.21,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/suur-perenaise-sai-eesti-pagar-500-g",
-        "size": "500g",
-        "storeUnitPrice": 2.42
-      },
-      "rimi": {
-        "price": 0.89,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-perenaise-suur-eesti-pagar-500g/p/290363",
-        "size": "500g",
-        "storeUnitPrice": 1.78
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Rukkisepik 300g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/rukkisepik-eesti-pagar-300-g",
-        "size": "300g",
-        "storeUnitPrice": 3.97
-      },
-      "rimi": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rukkisepik-eesti-pagar-300g/p/298347",
-        "size": "300g",
-        "storeUnitPrice": 3.63
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Keefirisai kaltsiumiga 350g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/keefirisai-kaltsiumiga-fazer-350-g",
-        "size": "350g",
-        "storeUnitPrice": 3.4
-      },
-      "rimi": {
-        "price": 1.25,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/keefirisai-kaltsiumiga-fazer-350g/p/920924",
-        "size": "350g",
-        "storeUnitPrice": 3.57
-      },
-      "selver": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/keefirisai-kaltsiumiga-fazer-350-g",
-        "size": "350g",
-        "storeUnitPrice": 4.26
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Täisterasepik 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/taisterasepik-eesti-pagar-500-g",
-        "size": "500g",
-        "storeUnitPrice": 2.38
-      },
-      "rimi": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/taisterasepik-eesti-pagar-500g/p/930282",
-        "size": "500g",
-        "storeUnitPrice": 2.18
-      },
-      "selver": {
-        "price": 1.55,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/taisterasepik-eesti-pagar-500-g",
-        "size": "500g",
-        "storeUnitPrice": 3.1
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Kirde sai 300g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kirde-sai-leibur-300-g",
-        "size": "300g",
-        "storeUnitPrice": 3.63
-      },
-      "rimi": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sai-kirde-leibur-300g/p/939466",
-        "size": "300g",
-        "storeUnitPrice": 3.3
-      },
-      "selver": {
-        "price": 0.89,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kirde-sai-leibur-300-g",
-        "size": "300g",
-        "storeUnitPrice": 2.97
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Suur kirde sai 450g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.41,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/suur-kirde-sai-leibur-450-g",
-        "size": "450g",
-        "storeUnitPrice": 3.13
-      },
-      "selver": {
-        "price": 1.41,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/suur-kirde-sai-leibur-450-g",
-        "cardPrice": 1.19,
-        "cardName": "Partner",
-        "size": "450g",
-        "storeUnitPrice": 3.13
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Südamesepik täistera 300g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.21,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/sudamesepik-taistera-fazer-300-g",
-        "size": "300g",
-        "storeUnitPrice": 4.03
-      },
-      "selver": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/sudamesepik-taistera-fazer-300g",
-        "size": "300g",
-        "storeUnitPrice": 4.3
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Kaerasepik 300g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.25,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kaerasepik-eesti-pagar-300-g",
-        "size": "300g",
-        "storeUnitPrice": 4.17
-      },
-      "rimi": {
-        "price": 1.25,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kaerasepik-eesti-pagar-300g/p/971850",
-        "size": "300g",
-        "storeUnitPrice": 4.17
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Hele ciabatta 300g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/hele-ciabatta-eesti-pagar-300-g",
-        "size": "300g",
-        "storeUnitPrice": 3.63
-      },
-      "rimi": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/ciabatta-hele-eesti-pagar-300g/p/4000100",
-        "size": "300g",
-        "storeUnitPrice": 3.97
-      }
-    },
-    "matchedVia": "automatic",
     "hidden": false
   },
   {
@@ -8187,435 +10325,6 @@
     "hidden": true
   },
   {
-    "name": "Fazer Juuretisesai 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/juuretisesai-fazer-500-g",
-        "size": "500g",
-        "storeUnitPrice": 3.58
-      },
-      "rimi": {
-        "price": 1.95,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/juuretisesai-fazer-500g/p/4006264",
-        "size": "500g",
-        "storeUnitPrice": 3.9
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Sepik seemnetega 250g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 0.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/sepik-seemnetega-fazer-250-g",
-        "size": "250g",
-        "storeUnitPrice": 3.16
-      },
-      "rimi": {
-        "price": 0.85,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/sepik-seemnetega-fazer-250g/p/4006279",
-        "size": "250g",
-        "storeUnitPrice": 3.4
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Kodune sepik 250g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 0.65,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kodune-sepik-leibur-250-g",
-        "size": "250g",
-        "storeUnitPrice": 2.6
-      },
-      "rimi": {
-        "price": 0.69,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kodune-sepik-leibur-250g/p/4010724",
-        "size": "250g",
-        "storeUnitPrice": 2.76
-      },
-      "selver": {
-        "price": 0.65,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kodune-sepik-leibur-250-g",
-        "size": "250g",
-        "storeUnitPrice": 2.6
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Kuldne klassikaline röstsai 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kuldne-klassikaline-rostsai-leibur-500-g",
-        "size": "500g",
-        "storeUnitPrice": 2.18
-      },
-      "selver": {
-        "price": 0.95,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kuldne-klassikaline-rostsai-leibur-500-g",
-        "size": "500g",
-        "storeUnitPrice": 1.9
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Röstsai tosta 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 0.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/rostsai-tosta-eesti-pagar-500-g",
-        "size": "500g",
-        "storeUnitPrice": 1.98
-      },
-      "rimi": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-tosta-eesti-pagar-500g/p/274018",
-        "size": "500g",
-        "storeUnitPrice": 2.38
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Mitmevilja röst tosta 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/mitmevilja-rostsai-tosta-eesti-pagar-500-g",
-        "size": "500g",
-        "storeUnitPrice": 2.38
-      },
-      "rimi": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-mitmevilja-tosta-eesti-pagar-500g/p/274019",
-        "size": "500g",
-        "storeUnitPrice": 2.38
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Rukkiröst tosta 390g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.09,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/rukkirost-tosta-eesti-pagar-390-g",
-        "size": "390g",
-        "storeUnitPrice": 2.8
-      },
-      "rimi": {
-        "price": 1.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rukkirost-tosta-eesti-pagar-390g/p/286883",
-        "size": "390g",
-        "storeUnitPrice": 3.05
-      },
-      "selver": {
-        "price": 1.41,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/tosta-rukkirost-eesti-pagar-390-g",
-        "size": "390g",
-        "storeUnitPrice": 3.62
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur röst mitmevilja 470g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/leiburi-rost-mitmevilja-470-g",
-        "size": "470g",
-        "storeUnitPrice": 2.74
-      },
-      "rimi": {
-        "price": 1.89,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rost-mitmevilja-leibur-470g/p/290851",
-        "size": "470g",
-        "storeUnitPrice": 4.02
-      },
-      "selver": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rostsai-mitmevilja-leibur-470-g",
-        "cardPrice": 1.29,
-        "cardName": "Partner",
-        "size": "470g",
-        "storeUnitPrice": 4.23
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Kodusai röst 500g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.51,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kodusai-rost-fazer-500-g",
-        "size": "500g",
-        "storeUnitPrice": 3.02
-      },
-      "rimi": {
-        "price": 1.6,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kodusai-rost-fazer-500g/p/298702",
-        "size": "500g",
-        "storeUnitPrice": 3.2
-      },
-      "selver": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kodusai-rost-fazer-500-g",
-        "size": "500g",
-        "storeUnitPrice": 3.18
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Kodusai mini röst 240g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/rostsai-fazer-mini-240-g",
-        "size": "240g",
-        "storeUnitPrice": 5.38
-      },
-      "rimi": {
-        "price": 1.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kodusai-mini-rost-fazer-240g/p/902923",
-        "size": "240g",
-        "storeUnitPrice": 5.79
-      },
-      "selver": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/mini-rost-fazer-240-g",
-        "cardPrice": 1.09,
-        "cardName": "Partner",
-        "size": "240g",
-        "storeUnitPrice": 5.38
-      }
-    },
-    "matchedVia": "override",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Keefiriröst kaltsiumiga 450g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.89,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/keefirirost-kaltsiumiga-fazer-450-g",
-        "size": "450g",
-        "storeUnitPrice": 4.2
-      },
-      "rimi": {
-        "price": 1.96,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/keefirirost-kaltsiumiga-fazer-450g/p/940344",
-        "size": "450g",
-        "storeUnitPrice": 4.36
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Kuldne klassikaline röstsai 250g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.25,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kuldne-klassikaline-rostsai-leibur-250-g",
-        "size": "250g",
-        "storeUnitPrice": 5
-      },
-      "selver": {
-        "price": 1.27,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kuldne-klassikaline-rostsai-leibur-250-g",
-        "size": "250g",
-        "storeUnitPrice": 5.08
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Seemneröst 450g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/seemnerost-fazer-450-g",
-        "size": "450g",
-        "storeUnitPrice": 3.98
-      },
-      "rimi": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/seemnerost-fazer-450g/p/947519",
-        "size": "450g",
-        "storeUnitPrice": 5.31
-      },
-      "selver": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/seemnerost-fazer-450-g",
-        "size": "450g",
-        "storeUnitPrice": 4.42
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Pagari kaeraröst 430g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/pagari-kaerarost-eesti-pagar-430-g",
-        "size": "430g",
-        "storeUnitPrice": 3.47
-      },
-      "rimi": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/pagari-kaerarost-eesti-pagar-430g/p/971770",
-        "size": "430g",
-        "storeUnitPrice": 3.7
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Haputaina röst 430g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/haputaina-rost-eesti-pagar-430-g",
-        "size": "430g",
-        "storeUnitPrice": 3.7
-      },
-      "rimi": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/haputaina-rost-eesti-pagar-430g/p/992844",
-        "size": "430g",
-        "storeUnitPrice": 3.7
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Juuretise röst 450g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/juuretise-rost-fazer-450-g",
-        "size": "450g",
-        "storeUnitPrice": 3.31
-      },
-      "rimi": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/juuretise-rost-fazer-450g/p/4000174",
-        "size": "450g",
-        "storeUnitPrice": 4.42
-      },
-      "selver": {
-        "price": 1.89,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/juuretise-rost-fazer-450-g",
-        "size": "450g",
-        "storeUnitPrice": 4.2
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Röst rukkijahu 550g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.95,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/rost-100-proc-rukkijahu-leibur-550-g",
-        "size": "550g",
-        "storeUnitPrice": 3.55
-      },
-      "selver": {
-        "price": 1.98,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rost-100-rukkijahust-leibur-550-g",
-        "cardPrice": 1.49,
-        "cardName": "Partner",
-        "size": "550g",
-        "storeUnitPrice": 3.6
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
     "name": "Fazer Röst seemnetega 500g",
     "category": "Bread",
     "prices": {
@@ -8638,101 +10347,6 @@
     "hidden": true
   },
   {
-    "name": "Leibur Täistera kaeraröst röst 550g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/taistera-kaerarost-rost-leibur-550-g",
-        "size": "550g",
-        "storeUnitPrice": 3.98
-      },
-      "selver": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rost-taistera-kaerarost-leibur-550-g",
-        "size": "550g",
-        "storeUnitPrice": 3.98
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Vilja röstsai kuldne 525g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.55,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/5-vilja-rostsai-kuldne-leibur-525-g",
-        "size": "525g",
-        "storeUnitPrice": 2.95
-      },
-      "rimi": {
-        "price": 1.55,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-5-vilja-leibur-525g/p/4009614",
-        "size": "525g",
-        "storeUnitPrice": 2.95
-      },
-      "selver": {
-        "price": 1.55,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kuldne-5-vilja-rostsai-leibur-525-g",
-        "size": "525g",
-        "storeUnitPrice": 2.95
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Kamaröst 400g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/kamarost-fazer-400-g",
-        "size": "400g",
-        "storeUnitPrice": 4.98
-      },
-      "rimi": {
-        "price": 1.99,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/kamarost-fazer-400g/p/4010713",
-        "size": "400g",
-        "storeUnitPrice": 4.97
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Vilja röstsepik täisterahelvest 480g",
-    "category": "Bread",
-    "prices": {
-      "barbora": {
-        "price": 1.95,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/5-vilja-rostsepik-taisterahel-fazer-480-g",
-        "size": "480g",
-        "storeUnitPrice": 4.06
-      },
-      "rimi": {
-        "price": 1.55,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsepik-taisterahelvest-5-vilja-fazer-480g/p/4012066",
-        "size": "480g",
-        "storeUnitPrice": 3.23
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
     "name": "Eesti Pagar täistera röstsepik 500g",
     "category": "Bread",
     "prices": {
@@ -8752,248 +10366,6 @@
       }
     },
     "matchedVia": "override",
-    "hidden": false
-  },
-  {
-    "name": "Lõuna pagarid Rukkileib idandatud teradega 300g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-idan-teradega-louna-pagarid-300g/p/4010987",
-        "size": "300g",
-        "storeUnitPrice": 5.3
-      },
-      "selver": {
-        "price": 1.49,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rukkileib-idandatud-teradega-louna-pagarid-300g",
-        "size": "300g",
-        "storeUnitPrice": 4.97
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Lõuna pagarid Rukkileib seemnetega 300g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.69,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/leib/rukkileib-seemnetega-louna-pagarid-300g/p/4011003",
-        "size": "300g",
-        "storeUnitPrice": 5.63
-      },
-      "selver": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rukkileib-seemnetega-louna-pagarid-300g",
-        "size": "300g",
-        "storeUnitPrice": 5.3
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Kodusai xxl 700g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.29,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kodusai-xxl-fazer-700g/p/4002974",
-        "size": "700g",
-        "storeUnitPrice": 1.84
-      },
-      "selver": {
-        "price": 1.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kodusai-xxl-fazer-700-g",
-        "size": "700g",
-        "storeUnitPrice": 1.99
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Röstsai täistera kuldne 500g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/rostsai-taistera-kuldne-leibur-500g/p/926710",
-        "size": "500g",
-        "storeUnitPrice": 3.58
-      },
-      "selver": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kuldne-taistera-rostsai-leibur-500-g",
-        "size": "500g",
-        "storeUnitPrice": 3.58
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Täisterasepik fitlap 360g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/taisterasepik-fitlap-leibur-360g/p/4002667",
-        "size": "360g",
-        "storeUnitPrice": 4.42
-      },
-      "selver": {
-        "price": 1.62,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/fitlap-taisterasepik-leibur-360-g",
-        "size": "360g",
-        "storeUnitPrice": 4.5
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Fazer Kaerasepik d vitamiiniga 350g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/sai/kaerasepik-d-vitamiiniga-fazer-350g/p/992822",
-        "size": "350g",
-        "storeUnitPrice": 3.97
-      },
-      "selver": {
-        "price": 1.35,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kaerasepik-d-vitamiiniga-fazer-350g",
-        "size": "350g",
-        "storeUnitPrice": 3.86
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti pagar Juusturöst tosta 430g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.89,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/juusturost-tosta-eesti-pagar-430g/p/4012527",
-        "size": "430g",
-        "storeUnitPrice": 4.4
-      },
-      "selver": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/tosta-juusturost-eesti-pagar-430g",
-        "size": "430g",
-        "storeUnitPrice": 3.7
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Eesti Pagar Pagariröst täistera 430g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/pagarirost-taistera-eesti-pagar-430g/p/917973",
-        "size": "430g",
-        "storeUnitPrice": 3.7
-      },
-      "selver": {
-        "price": 1.59,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/rostsai-taistera-eesti-pagar-430-g",
-        "size": "430g",
-        "storeUnitPrice": 3.7
-      }
-    },
-    "matchedVia": "override",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Saib 370g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.69,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/saib-leibur-370g/p/278361",
-        "size": "370g",
-        "storeUnitPrice": 4.57
-      },
-      "selver": {
-        "price": 1.68,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/saib-100-rukkijahust-leibur-370-g",
-        "size": "370g",
-        "storeUnitPrice": 4.54
-      }
-    },
-    "matchedVia": "override",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Mitmevilja röst 250g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.69,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/mitmevilja-rost-leibur-250g/p/962563",
-        "size": "250g",
-        "storeUnitPrice": 6.76
-      },
-      "selver": {
-        "price": 1.62,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/mitmevilja-rost-leibur-250-g",
-        "size": "250g",
-        "storeUnitPrice": 6.48
-      }
-    },
-    "matchedVia": "automatic",
-    "hidden": false
-  },
-  {
-    "name": "Leibur Röstsai kuldne graham 500g",
-    "category": "Bread",
-    "prices": {
-      "rimi": {
-        "price": 1.55,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/leivad-saiad-sepikud/rostsai/rostsai-kuldne-graham-leibur-500g/p/4009589",
-        "size": "500g",
-        "storeUnitPrice": 3.1
-      },
-      "selver": {
-        "price": 0.69,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kuldne-graham-rostsai-leibur-500-g",
-        "size": "500g",
-        "storeUnitPrice": 1.38
-      }
-    },
-    "matchedVia": "automatic",
     "hidden": false
   },
   {

@@ -55,7 +55,7 @@ function main() {
   // data/ean-conflicts.json merges by category exactly like
   // data/prices.json does — a category this run doesn't touch keeps
   // its existing conflict entries untouched. Real gap found
-  // 2026-09-28: this file used to be written only by fetch-price.js
+  // 2026-09-26: this file used to be written only by fetch-price.js
   // (a live scrape), so a rebuild silently left it stale — a
   // conflict this run actually resolved stayed listed as unresolved.
   const existingConflicts = fs.existsSync(EAN_CONFLICTS_PATH) ? loadJson(EAN_CONFLICTS_PATH) : [];
@@ -77,7 +77,7 @@ function main() {
     // because something else (a live scrape, the daily update)
     // refreshed that category's raw/ files in between — is carried
     // over exactly as it was, the same safety net fetch-price.js's
-    // --only-store mode already has. Real data loss found 2026-09-28:
+    // --only-store mode already has. Real data loss found 2026-09-26:
     // rebuilding straight after a daily-update run (which refreshes
     // EVERY category's raw/, not just the three it prices daily)
     // silently dropped 27 already-reviewed products whose raw listing

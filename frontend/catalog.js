@@ -155,7 +155,7 @@ const ICON_PATHS = {
   glass: ["M7 3h10l-1 9a4 4 0 0 1-8 0L7 3z", "M12 16v4", "M9 20h6", "M8 7h8"],
 };
 
-// The home screen's own grouping (2026-09-28, the owner's redesign) —
+// The home screen's own grouping (2026-09-26, the owner's redesign) —
 // about 15 tiles a shopper already knows, one round icon each, so the
 // whole category list no longer has to fit on the first screen. Every
 // DISPLAY_CATEGORIES id belongs to exactly one group (checked by

@@ -636,24 +636,65 @@ on it. Route `#/outlets`.
   the owner's explicit decision — same as groceries' "no new store
   without asking" rule.
 
+### Malls — correct URLs (verified 2026-09-26; use exactly these)
+
+| Mall | Site |
+|---|---|
+| Ülemiste | `https://www.ulemiste.ee/` |
+| Rocca al Mare | `https://www.roccaalmare.ee/` |
+| Kristiine keskus | `https://www.kristiinekeskus.ee/` — **not** `kristiine.ee` (an unrelated site, not the mall) |
+| Viru Keskus | `https://virukeskus.com/` |
+| Lõunakeskus | `https://www.astri.ee/lounakeskus/` (part of the Astri Grupp mall network) |
+
 ### Roadmap
 
 1. **Investigation (report only)** — no scrape, no file written; just
    answers the question of where each mall's shop list and each
    brand's sale page live, what format they're in, and roughly how
    hard each would be to build.
-2. **Mall directory** — 5 malls: Ülemiste, Rocca al Mare, Kristiine,
-   Viru, Lõunakeskus. Per mall: address, coordinates (In-ADS), and its
-   own shop list from its own website, with brand names made
-   consistent across malls (a chain may spell/list its name
-   differently at each mall's site). Refreshed weekly.
+2. **Mall directory** — 5 malls, their real sites (see "Malls" table
+   below — two of the owner's own domain guesses were wrong, checked
+   2026-09-26): Ülemiste, Rocca al Mare, **Kristiine
+   (`https://www.kristiinekeskus.ee/` — NOT `kristiine.ee`, an
+   unrelated site)**, Viru, Lõunakeskus. Per mall: name, address,
+   coordinates (In-ADS), opening hours if shown, and its own shop
+   list from its own website (shop name, category, floor if shown) —
+   brand names made consistent across malls (a chain may spell/list
+   its name differently at each mall's site, e.g. "DENIM DREAM" =
+   "Denim Dream"). Non-shops (cafés, restaurants, cinemas, gyms,
+   services) are skipped — shops only. Refreshed weekly, as part of
+   the outlets daily-update step.
 3. **Brand discounts** — first ONE brand built end-to-end to prove the
-   pattern, then fast mode at 3–4 brands per round. The 12 brands
-   (owner's list, 2026-09-26): Reserved, Mohito, New Yorker, Lindex,
-   Pepco, Denim Dream, Sportland, Rademar, Euronics, Klick, Apotheka,
-   Ideaal Kosmeetika. Per item: name, regular price, sale price,
-   discount %, link, image URL (hotlinked, `SHOW_STORE_IMAGES` rule),
-   and when it was scraped.
+   pattern (**Denim Dream**, the owner's pick, 2026-09-26 — plain
+   HTML, the most complete price data of anything checked in step 1),
+   then fast mode at 3–4 brands per round. Per item: name, regular
+   price, sale price, discount % — only a REAL sale (regular > sale,
+   never a listing with no discount) — link, image URL (hotlinked,
+   `SHOW_STORE_IMAGES` rule), and when it was scraped. A compact,
+   URL-keyed price-history log (`scraper/price-history.js`'s shape)
+   for a later "is this discount actually new" check.
+   **The 12-brand list and where each currently stands (owner's
+   decisions, 2026-09-26):**
+   - **Denim Dream** — building now (this round).
+   - **Klick, Apotheka, Euronics** — next in line (plain-HTML
+     shape found in step 1); **Apotheka is cosmetics and hygiene
+     discounts ONLY, never medicines** (a pharmacy's OTC medicine
+     carries the same legal angle groceries' Personal care already
+     excludes it for — never scrape a medicine price).
+   - **Reserved, Mohito, New Yorker, Pepco, Rademar, Sportland** —
+     later (JavaScript-rendered, no confirmed API from step 1's
+     static fetching; New Yorker's real site is
+     `https://www.newyorker.de/ee/` — ONLY the Estonian store pages,
+     never another country's — `newyorker.com` is an unrelated
+     magazine, not this brand).
+   - **Ideaal Kosmeetika — never scrape.** Its `robots.txt` disallows
+     `ClaudeBot` by name for the entire site; the owner's decision is
+     to respect that intent rather than work around it. A partnership
+     with the brand directly (not a scrape) is possible later.
+   - **Lindex — excluded.** Blocks every request outright (403,
+     including `robots.txt` itself). Getting past that would mean
+     evading their bot-detection on purpose — never do this, for
+     Lindex or any site.
 4. **App** — location + a radius picker (5/8/10 km), malls within
    range, each mall's shops with "kuni -X%, N toodet", and the
    discounted items themselves. Label on a brand shown because it has
@@ -667,10 +708,8 @@ on it. Route `#/outlets`.
    uses for groceries) for a later "is this discount actually new"
    check.
 
-**Status:** step 1 (investigation) done — 2026-09-26, see
-`outlets/investigation.md` for the full findings and the recommended
-build order (Denim Dream first). Two owner decisions flagged there:
-**Ideaal Kosmeetika's `robots.txt` disallows `ClaudeBot` by name for
-the whole site — recommend never scraping it**; **Lindex blocks
-automated requests outright (403 on everything) — recommend dropping
-it.** Steps 2–5 not started.
+**Status:** step 1 (investigation) done, decided on 2026-09-26 (see
+`outlets/investigation.md` for the full findings) — Ideaal Kosmeetika
+and Lindex excluded (above), Apotheka scoped to cosmetics/hygiene
+only, Denim Dream picked as the first brand, the rest deferred. Steps
+2 and 3 (mall directory, Denim Dream) in progress this round.

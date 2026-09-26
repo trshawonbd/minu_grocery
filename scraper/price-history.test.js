@@ -1,6 +1,6 @@
 // Regression tests for scraper/price-history.js — the compact
 // price-change log that replaced daily-update.js's full daily
-// snapshot (2026-09-28, the owner's storage-size decision).
+// snapshot (2026-09-26, the owner's storage-size decision).
 // Run with: node scraper/price-history.test.js
 // or:       npm test
 

@@ -126,7 +126,7 @@ const results = [
     assert.equal(categoryName({ name: { et: "Ainult eesti" } }, "ru"), "Ainult eesti");
     assert.equal(displayCategoryById("nope"), null);
   }),
-  test("Home-screen groups (2026-09-28 redesign): every DISPLAY_CATEGORIES id belongs to exactly one group, each group has a unique id, a distinct icon we drew ourselves, and a name in et/en/ru", () => {
+  test("Home-screen groups (2026-09-26 redesign): every DISPLAY_CATEGORIES id belongs to exactly one group, each group has a unique id, a distinct icon we drew ourselves, and a name in et/en/ru", () => {
     const seen = new Map();
     for (const g of GROUPS) {
       for (const catId of g.categories) {

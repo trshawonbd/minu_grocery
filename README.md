@@ -293,14 +293,14 @@ which are edited by hand):
 ## Storage design
 
 **`data/raw/` is not committed to git** (it's gitignored, since
-2026-09-28) — every category's own scraped-item files still exist
+2026-09-26) — every category's own scraped-item files still exist
 locally (needed by `rebuild-prices.js`, `npm run review`, and to
 re-interpret already-scraped items without a live scrape), they're
 just not part of the repository's history. Fully regenerable at any
 time via `npm run fetch-prices` (a live scrape).
 
 **`data/price-history.json` replaced the old `data/history/YYYY-MM-DD.json`**
-full daily snapshots (2026-09-28, the owner's decision) — a full copy
+full daily snapshots (2026-09-26, the owner's decision) — a full copy
 of `data/prices.json` every single day, forever, grew without bound
 even on a day nothing changed (measured: roughly 2.3 GB of local disk
 after a year at this project's size). The compact format instead
@@ -315,10 +315,10 @@ lowest price in effect at any point in that window, including a price
 that never changed within it. Both are covered by
 `scraper/price-history.test.js`. `scraper/convert-history.js` did the
 one-time conversion from the old daily-snapshot files (now deleted,
-2026-09-28) with no information lost — every real price change the
+2026-09-26) with no information lost — every real price change the
 old snapshots recorded became one compact entry.
 
-## Home screen (2026-09-28 redesign)
+## Home screen (2026-09-26 redesign)
 
 The home screen used to be a full-page grid of every display category
 (~56 tiles), pushing the "Suurimad hinnavahed täna" and "Tavalisest

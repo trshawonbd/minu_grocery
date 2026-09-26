@@ -1568,7 +1568,7 @@ const tests = [
     },
   },
   {
-    name: "EAN (2026-09-28, owner's rule): GS1's restricted-circulation prefixes ('02', '04', '20'-'29') are a store's own internal code — never a matching signal, even when structurally valid — so a coincidentally equal internal code between two stores' own loose-produce/deli listings decides nothing and name rules take over",
+    name: "EAN (2026-09-26, owner's rule): GS1's restricted-circulation prefixes ('02', '04', '20'-'29') are a store's own internal code — never a matching signal, even when structurally valid — so a coincidentally equal internal code between two stores' own loose-produce/deli listings decides nothing and name rules take over",
     run: () => {
       assert.equal(isValidEan("2700014000000"), true, "structurally a valid EAN (correct check digit)");
       assert.equal(isInternalEanPrefix("2700014000000"), true);
@@ -1584,14 +1584,14 @@ const tests = [
       const kiwi = fv("Selver", "Kiivi, kg", "2700014000000");
       assert.equal(computeSignature(avocado).ean, null, "an internal-prefix code is never kept as the item's ean");
       assert.equal(matchItems(avocado, kiwi).matched, false, "no EAN shortcut — and the names disagree, so no match either");
-      // The real find, 2026-09-28: 0 of the 3,451 EAN matches in
+      // The real find, 2026-09-26: 0 of the 3,451 EAN matches in
       // data/prices.json turned out to rely on an internal-prefix
       // code — checked by hand across the whole file — so nothing in
       // the shipped data changed; this only guards the future.
     },
   },
   {
-    name: "EAN conflicts (2026-09-28, owner's rule): a shared barcode whose names disagree in SIZE gets one more chance — matched when the total is the same written differently, still a conflict when the numbers really differ",
+    name: "EAN conflicts (2026-09-26, owner's rule): a shared barcode whose names disagree in SIZE gets one more chance — matched when the total is the same written differently, still a conflict when the numbers really differ",
     run: () => {
       // A multipack whose stated weight is already the TOTAL (Selver's
       // '4-pakk, ..., 340g' for a 4x85g cat-food tray) — extractSize's
@@ -1647,7 +1647,7 @@ const tests = [
       const plain = cheese("Coop", "Juust Old Saare 3 kuud MO Saaremaa 280g", "4740153321213", "Mo Saaremaa");
       assert.equal(matchItems(lactoseFree, plain).reason, "ean-conflict");
       // The real numbers, checked against every current EAN conflict
-      // by hand, 2026-09-28: of the 145 conflicts on file, 84 resolve
+      // by hand, 2026-09-26: of the 145 conflicts on file, 84 resolve
       // this way (all hand-reviewed against known real packaging —
       // 4x85g/4x100g cat/dog food trays, Corona's 355ml six-pack,
       // ice cream tubs, Zewa/Serla/Lambi/Grite paper, Smile/Saga foil

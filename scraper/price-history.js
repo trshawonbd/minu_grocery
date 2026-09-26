@@ -1,6 +1,6 @@
 // A compact, append-only record of every store-listing price CHANGE
 // (not a snapshot of everything, every day) — the storage-size fix
-// the owner asked for, 2026-09-28: the old data/history/YYYY-MM-DD.json
+// the owner asked for, 2026-09-26: the old data/history/YYYY-MM-DD.json
 // wrote a full copy of data/prices.json every single day forever,
 // growing without bound even on a day nothing changed. This instead
 // keys by a store listing's own URL (the one identifier that outlives

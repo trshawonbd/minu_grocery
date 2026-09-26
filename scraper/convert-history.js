@@ -1,4 +1,4 @@
-// One-time conversion (2026-09-28): rebuilds data/price-history.json
+// One-time conversion (2026-09-26): rebuilds data/price-history.json
 // from the OLD full-snapshot files (data/history/YYYY-MM-DD.json —
 // one per day, each a complete copy of that day's data/prices.json)
 // with no information lost, then the old files are removed by hand

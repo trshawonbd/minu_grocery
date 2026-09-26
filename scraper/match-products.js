@@ -2009,7 +2009,7 @@ function isValidEan(value) {
 // GS1's own "restricted circulation number" prefixes — "02", "04",
 // and "20"-"29" — are reserved for a store's INTERNAL use: its own
 // per-kg label for loose produce or weighed meat/deli, or (as found
-// reviewing Coop's own bakery goods, 2026-09-28) a small producer's
+// reviewing Coop's own bakery goods, 2026-09-26) a small producer's
 // self-assigned code for its own shelf. These are structurally valid
 // (correct check digit) but never globally unique the way a real
 // manufacturer EAN is — two different stores' scales can print the
@@ -2017,7 +2017,7 @@ function isValidEan(value) {
 // live in the data: Selver's own per-kg codes for every loose fruit/
 // veg and cut of meat (2700014000000 = its own "Avokaado kg"), and 26
 // of Coop's own "Haapsalu" bakery items (02700100xxxxx). None happened
-// to have decided a match yet (checked 2026-09-28: every current
+// to have decided a match yet (checked 2026-09-26: every current
 // matchedVia "ean" product's barcode is a real manufacturer prefix),
 // but the rule is never safe to skip — never a matching signal, name
 // rules decide instead (see eanVerdict/computeSignature below).
@@ -2087,7 +2087,7 @@ function sameAmount(sizeA, sizeB) {
 // barcode.
 //
 // Hand-reviewed against every real EAN conflict in the data,
-// 2026-09-28 — three genuine patterns this resolves, each with a
+// 2026-09-26 — three genuine patterns this resolves, each with a
 // regression test:
 // - A multipack whose "N-pakk" count and stated weight are BOTH the
 //   TOTAL, not per-unit — Selver's "4-pakk, PURINA ONE, 340g" for a

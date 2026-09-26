@@ -34,6 +34,7 @@ const fs = require("fs");
 const path = require("path");
 const { parseDenimDreamProducts } = require("./brands");
 const { recordPrices } = require("../../scraper/price-history.js");
+const { classifyDiscount } = require("./discounts");
 
 const API_URL = "https://api-v2.denimdream.com/api/v2/product/product";
 const SEX_IDS = [2, 1, 4, 5];
@@ -106,12 +107,18 @@ function writeOutput(items, catalogueCount, scrapedAt, deps = {}) {
   const history = readFile(HISTORY_PATH, {});
   const { history: nextHistory, changed } = recordPrices(history, dateStr, freshPricesByUrl);
   const firstSeen = firstSeenByLink(nextHistory);
-  const withDates = items.map((item) => ({ ...item, firstSeen: item.link ? firstSeen[item.link] || dateStr : dateStr }));
+  // Classified against the history BEFORE today's prices were
+  // recorded, so an item's own price today is never its own 30-day
+  // reference (see discounts.js).
+  const withDates = items.map((item) => {
+    const dated = { ...item, firstSeen: item.link ? firstSeen[item.link] || dateStr : dateStr };
+    return { ...dated, ...classifyDiscount(dated, history, dateStr) };
+  });
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   write(OUTPUT_PATH, JSON.stringify({ brand: "Denim Dream", scrapedAt, catalogueCount, items: withDates }, null, 2) + "\n");
   write(HISTORY_PATH, JSON.stringify(nextHistory, null, 2) + "\n");
-  return { written: withDates.length, changed };
+  return { written: withDates.length, changed, newCount: withDates.filter((i) => i.status === "new").length };
 }
 
 async function main(overrides = {}) {
@@ -130,8 +137,8 @@ async function main(overrides = {}) {
   }
   const allItems = [...byId.values()];
   const scrapedAt = deps.now().toISOString();
-  const { written, changed } = writeOutput(allItems, catalogueCount, scrapedAt, deps);
-  deps.log(`\nWrote ${written} sale items to outlets/data/denim-dream.json (${changed} price-history entries changed)`);
+  const { written, changed, newCount } = writeOutput(allItems, catalogueCount, scrapedAt, deps);
+  deps.log(`\nWrote ${written} sale items to outlets/data/denim-dream.json (${newCount} new discounts, ${written - newCount} permanent; ${changed} price-history entries changed)`);
   return { items: allItems, catalogueCount };
 }
 

@@ -570,9 +570,10 @@ function renderOutlets(root, state, actions) {
 }
 
 // One mall's own shop list — a shop with real discount data (its own
-// name matches a brand file, see frontend/outlets-logic.js) shows the
-// "kuni -X%, N toodet" badge and opens the discounted items; a shop
-// with none is shown but not clickable (nothing to open).
+// name matches a brand file, see frontend/outlets-logic.js) shows its
+// new-discount count (or, with none new, the count on sale in small
+// text) and opens the items; a shop with no data is shown but not
+// clickable (nothing to open).
 function outletShopRow(shop, state, actions, mallId) {
   const meta = [shop.category, shop.floor].filter(Boolean).join(" · ");
   if (!shop.discount) {
@@ -589,7 +590,14 @@ function outletShopRow(shop, state, actions, mallId) {
   if (meta) left.appendChild(el("div", "store-own-name", meta));
   row.appendChild(left);
   const right = el("div", "store-right");
-  right.appendChild(el("span", "badge badge-deal", tr(state, "outletDiscountBadge", { n: shop.discount.maxPercent, count: shop.discount.itemCount })));
+  // Only NEW discounts earn the badge ("12 uut allahindlust"); a brand
+  // whose sale prices are all permanent gets small grey text with the
+  // count on sale — never a big % (the owner's rule).
+  if (shop.discount.newCount > 0) {
+    right.appendChild(el("span", "badge badge-deal", tr(state, "outletNewCount", { n: shop.discount.newCount })));
+  } else {
+    right.appendChild(el("div", "store-sub", tr(state, "outletOnSaleCount", { n: shop.discount.itemCount })));
+  }
   row.appendChild(right);
   return row;
 }
@@ -615,8 +623,12 @@ function renderOutletMall(root, state, actions) {
 // never cropped), or the neutral icon — same SHOW_STORE_IMAGES gate
 // as grocery product photos (pricing.js): off means no image URL is
 // ever requested here either.
-function outletImageBox(item, discountPercent) {
+// badgeText: the big orange "-X%" for a NEW discount (X against the
+// 30-day lowest price), or null — a permanent sale price gets no
+// badge at all (the owner's rule, see outlets-logic.js).
+function outletImageBox(item, badgeText) {
   const box = el("div", "ocard-img");
+  const badge = () => { if (badgeText) box.appendChild(el("span", "ocard-badge", badgeText)); };
   if (SHOW_STORE_IMAGES && item.image) {
     const img = document.createElement("img");
     img.loading = "lazy";
@@ -626,22 +638,24 @@ function outletImageBox(item, discountPercent) {
     img.addEventListener("error", () => {
       box.textContent = "";
       box.appendChild(neutralIcon());
-      box.appendChild(el("span", "ocard-badge", `-${discountPercent}%`));
+      badge();
     });
     img.src = item.image;
     box.appendChild(img);
   } else {
     box.appendChild(neutralIcon());
   }
-  box.appendChild(el("span", "ocard-badge", `-${discountPercent}%`));
+  badge();
   return box;
 }
 
 // One real sale item as a fashion-shop card (2026-09-26 redesign):
-// large 3:4 photo with the discount badge on it, brand small, name
-// (two lines at most), sale price big, regular price struck through
-// — the WHOLE card is the link to the brand's own product page, in a
-// new tab; no separate button.
+// large 3:4 photo, brand small, name (two lines at most), sale price
+// big — the WHOLE card is the link to the brand's own product page,
+// in a new tab; no separate button. A NEW discount carries the big
+// "-X%" badge (X against the 30-day low, never against tavahind); a
+// permanent sale price carries a small grey "Püsiv soodushind" note
+// instead, and "tavahind X €" in small text either way.
 function outletItemCard(item, state) {
   const card = document.createElement("a");
   card.className = "ocard";
@@ -650,11 +664,13 @@ function outletItemCard(item, state) {
     card.target = "_blank";
     card.rel = "noopener noreferrer";
   }
-  card.appendChild(outletImageBox(item, item.discountPercent));
+  const fresh = isNewDiscount(item);
+  card.appendChild(outletImageBox(item, fresh ? `-${item.newPercent}%` : null));
   const body = el("div", "ocard-body");
   if (item.brand) body.appendChild(el("div", "ocard-brand", item.brand));
   body.appendChild(el("div", "ocard-name", item.name));
   body.appendChild(el("div", "ocard-price", money(item.salePrice)));
+  if (!fresh) body.appendChild(el("div", "ocard-permanent", tr(state, "outletPermanent")));
   const old = el("div", "ocard-old");
   old.appendChild(el("span", "ocard-old-label", `${tr(state, "outletRegular")} `));
   old.appendChild(el("s", "", money(item.regularPrice)));

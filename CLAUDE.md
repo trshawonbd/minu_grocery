@@ -618,7 +618,7 @@ irreversible. Pinned by a source-level test in
 **Frontend:** a fourth bottom-nav tab, "Outletid", between Search and
 Basket. Three screens in `frontend/render.js` (`renderOutlets` — the
 mall list; `renderOutletMall` — one mall's shops, a shop whose name
-matches a brand file shows "kuni -X%, N toodet" and is tappable, one
+matches a brand file shows its new-discount count and is tappable, one
 without is shown plainly; `renderOutletShop` — that brand's real sale
 items as a card grid, the note "E-poe allahindlus. See bränd on
 selles keskuses esindatud." under the title every time, each card one
@@ -649,6 +649,28 @@ data on any of these screens; images hotlinked under the same
 - No new mall, brand, or store beyond what's decided below without
   the owner's explicit decision — same as groceries' "no new store
   without asking" rule.
+- **A discount is "new" only against the 30-day lowest price — for
+  EVERY brand (owner, 2026-09-26).** Found on Denim Dream: 58% of its
+  whole catalogue (9,640 of 16,611 listings) is "on sale", and on
+  every sale item checked the sale price had already been the
+  lowest for 30+ days — a price that IS the price. So a brand's own
+  "tavahind" never decides a badge. `outlets/scraper/discounts.js`
+  (`classifyDiscount`, tested) marks each item `status: "new"` or
+  `"permanent"`: NEW = today's price below the site's own 30-day low
+  (`priceMin30`, the EU Omnibus figure, kept from the API) — and,
+  once our own price history for that link is 30 days old, ALSO
+  below `lowestPriceInWindow` of our history; both must agree. A
+  site with no such field: our history alone once mature, nothing
+  new before that. The `newPercent` is measured against that 30-day
+  low, never against tavahind. In the app (`isNewDiscount` in
+  `frontend/outlets-logic.js`): only a NEW discount gets the big
+  orange "-X%" badge and sorts first; a permanent sale price shows
+  the price, a small grey "Püsiv soodushind" note and "tavahind X €"
+  in small text — never a big %. A mall's shop row shows only the
+  count of new discounts ("12 uut allahindlust"); with none, small
+  text "N toodet soodushinnas". A sale price must also be > 0 (a
+  non-sale Denim Dream listing carries priceDiscount "0.00", which
+  read as 100% off once).
 
 ### Malls — correct URLs (verified 2026-09-26; use exactly these)
 

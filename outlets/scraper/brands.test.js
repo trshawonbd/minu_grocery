@@ -66,6 +66,8 @@ function fixturePage(products, count = products.length, size = 50) {
         regularPrice: 99.9,
         salePrice: 69.9,
         discountPercent: 30,
+        priceMin30: null,
+        campaignId: null,
         link: "https://www.denimdream.com/EE/et/toode/446500",
         image: "https://pic.denimdream.com/picture/n/2026/07/w370_q90/311092_446500_1_600_910.jpg",
         fresh: true,
@@ -74,6 +76,14 @@ function fixturePage(products, count = products.length, size = 50) {
     ]);
     assert.equal(count, 5575);
     assert.equal(size, 50);
+  });
+  await test("the site's own 30-day lowest price and campaign id are kept (priceMinOf30Days -> priceMin30, campaignId); a non-sale listing's priceDiscount \"0.00\" is NEVER a sale (it read as 100% off before the guard)", () => {
+    const withMin = fixtureProduct({ colors: [fixtureColor({ price: { price: "99.90", priceDiscount: "69.90", priceMinOf30Days: "69.90", campaignId: 16017 } })] });
+    const [item] = parseDenimDreamProducts({ products: [withMin] }).items;
+    assert.equal(item.priceMin30, 69.9);
+    assert.equal(item.campaignId, 16017);
+    const nonSale = fixtureProduct({ colors: [fixtureColor({ price: { price: "106.95", priceDiscount: "0.00", campaignId: 0 }, sale: false, outlet: false })] });
+    assert.deepEqual(parseDenimDreamProducts({ products: [nonSale] }).items, []);
   });
   await test("sections: sexId 1 -> Mehed, 2 -> Naised, and every kids' id (3 Lapsed, 4 Poisid, 5 Tüdrukud, 6 Unisex Kids) -> Lapsed", () => {
     const sections = [1, 2, 3, 4, 5, 6].map((sexId) => parseDenimDreamProducts({ products: [fixtureProduct({ sex: { sexId } })] }).items[0].section);
@@ -152,6 +162,7 @@ function fixturePage(products, count = products.length, size = 50) {
     assert.equal(catalogueCount, 3, "the API's own counts summed, before dedupe (what the store lists)");
     const out = Object.values(written).find((v) => v.brand === "Denim Dream");
     assert.deepEqual(out.items.map((i) => i.firstSeen), ["2026-09-20", "2026-09-26"]);
+    assert.deepEqual(out.items.map((i) => i.status), ["permanent", "permanent"], "no site 30-day field in this fixture and history under 30 days -> nothing is called new");
     const history = Object.values(written).find((v) => v["https://www.denimdream.com/EE/et/toode/7"]);
     assert.deepEqual(history["https://www.denimdream.com/EE/et/toode/7"], [["2026-09-26", 69.9]]);
     assert.deepEqual(history["https://www.denimdream.com/EE/et/toode/8"], [["2026-09-20", 69.9]], "an unchanged price adds no entry");

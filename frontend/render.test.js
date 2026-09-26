@@ -114,8 +114,8 @@ const OUTLET_BRANDS = [
     scrapedAt: "2026-09-26T10:00:00.000Z",
     catalogueCount: 5575,
     items: [
-      { id: "1", brand: "Calvin Klein", name: "Teksaseelik 90S MINI", section: "Naised", type: "Seelikud", regularPrice: 99.9, salePrice: 69.9, discountPercent: 30, link: "https://www.denimdream.com/EE/et/toode/1", image: "https://pic.denimdream.com/1.jpg", fresh: false, position: 2, firstSeen: "2026-09-20" },
-      { id: "2", brand: "Levi's", name: "Teksad 501", section: "Mehed", type: "Teksad", regularPrice: 90, salePrice: 45, discountPercent: 50, link: "https://www.denimdream.com/EE/et/toode/2", image: null, fresh: true, position: 1, firstSeen: "2026-09-26" },
+      { id: "1", brand: "Calvin Klein", name: "Teksaseelik 90S MINI", section: "Naised", type: "Seelikud", regularPrice: 99.9, salePrice: 69.9, discountPercent: 30, status: "new", refPrice: 79.9, newPercent: 13, link: "https://www.denimdream.com/EE/et/toode/1", image: "https://pic.denimdream.com/1.jpg", fresh: false, position: 2, firstSeen: "2026-09-20" },
+      { id: "2", brand: "Levi's", name: "Teksad 501", section: "Mehed", type: "Teksad", regularPrice: 90, salePrice: 45, discountPercent: 50, status: "permanent", refPrice: 45, newPercent: null, link: "https://www.denimdream.com/EE/et/toode/2", image: null, fresh: true, position: 1, firstSeen: "2026-09-26" },
     ],
   },
 ];
@@ -194,7 +194,8 @@ const results = [
     const state = makeState({ screen: "outletMall", outletMallId: "ulemiste", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS });
     const { root, text } = render(state, { ...actions, openOutletShop: (mallId, shopName) => calls.push([mallId, shopName]) });
     assert.ok(text.includes("Ülemiste") && text.includes("Suur-Sõjamäe tn 4, 11415 Tallinn"));
-    assert.ok(text.includes("Denim Dream") && text.includes("kuni -50%, 2 toodet"), "the higher of the two real discounts, and the real item count");
+    assert.ok(text.includes("Denim Dream") && text.includes("1 uut allahindlust"), "only the NEW discount is counted — never the permanent -50%");
+    assert.ok(!text.includes("-50%") && !text.includes("kuni"), "no big % on a mall row");
     assert.ok(text.includes("Apollo") && text.includes("Vaba aeg"));
     const denimRow = root.find((n) => n.tagName === "button" && n.className === "store-row" && n.textContent.includes("Denim Dream"))[0];
     denimRow.click();
@@ -202,9 +203,14 @@ const results = [
     const apolloRow = root.find((n) => n.className === "store-row" && n.textContent.includes("Apollo"))[0];
     assert.notEqual(apolloRow.tagName, "button", "a shop with no discount data is not a button — nothing to open");
   }),
-  test("Outletid mall screen: a mall where no shop has discount data yet says so", () => {
+  test("Outletid mall screen: a mall where no shop has discount data yet says so; a brand whose sale prices are ALL permanent shows small text with the count on sale, no badge", () => {
     const { text } = render(makeState({ screen: "outletMall", outletMallId: "viru", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
     assert.ok(text.includes("Ühelgi selle keskuse kauplusel pole praegu allahindlusandmeid"));
+    const allPermanent = [{ ...OUTLET_BRANDS[0], items: OUTLET_BRANDS[0].items.map((i) => ({ ...i, status: "permanent", newPercent: null })) }];
+    const { root, text: t2 } = render(makeState({ screen: "outletMall", outletMallId: "ulemiste", outletMalls: OUTLET_MALLS, outletBrands: allPermanent }));
+    assert.ok(t2.includes("2 toodet soodushinnas"));
+    assert.equal(root.find((n) => n.className === "badge badge-deal").length, 0, "no badge at all");
+    assert.equal(root.find((n) => n.tagName === "button" && n.className === "store-row").length, 1, "still tappable — the items are still there to see");
   }),
   test("Outletid shop screen (2026-09-26 redesign): a card grid — each card ONE link to the brand's page in a new tab, 3:4 photo with the discount badge on it (neutral icon when there's no photo), brand small, name, sale price, 'tavahind' struck through; the Estonian note, the item count and 'Uuendatud' line; biggest discount first by default", () => {
     const { root, text } = render(makeState({ screen: "outletShop", outletMallId: "ulemiste", outletShopName: "Denim Dream", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
@@ -213,16 +219,19 @@ const results = [
     assert.ok(text.includes("2 toodet") && text.includes("Uuendatud:"));
     const cards = root.find((n) => n.className === "ocard");
     assert.equal(cards.length, 2);
-    assert.deepEqual(cards.map((c) => c.href), ["https://www.denimdream.com/EE/et/toode/2", "https://www.denimdream.com/EE/et/toode/1"], "-50% before -30%");
+    assert.deepEqual(cards.map((c) => c.href), ["https://www.denimdream.com/EE/et/toode/1", "https://www.denimdream.com/EE/et/toode/2"], "the NEW discount first, the permanent -50% tavahind gap after it");
     assert.ok(cards.every((c) => c.tagName === "a" && c.target === "_blank" && c.rel === "noopener noreferrer"));
     assert.equal(root.find((n) => n.className === "store-link").length, 0, "no separate 'Vaata poes' button");
-    const [levis, ck] = cards;
-    assert.ok(ck.textContent.includes("Calvin Klein") && ck.textContent.includes("Teksaseelik 90S MINI") && ck.textContent.includes("69.90 €") && ck.textContent.includes("tavahind 99.90 €") && ck.textContent.includes("-30%"));
+    const [ck, levis] = cards;
+    assert.ok(ck.textContent.includes("Calvin Klein") && ck.textContent.includes("Teksaseelik 90S MINI") && ck.textContent.includes("69.90 €") && ck.textContent.includes("tavahind 99.90 €"));
+    assert.equal(ck.find((n) => n.className === "ocard-badge")[0].textContent, "-13%", "the badge is against the 30-day low (79.90), NOT the -30% tavahind gap");
+    assert.ok(!ck.textContent.includes("-30%") && !ck.textContent.includes("Püsiv soodushind"));
     assert.equal(ck.find((n) => n.tagName === "img").length, 1, "a photo when the brand has one");
     assert.equal(ck.find((n) => n.tagName === "img")[0].src, "https://pic.denimdream.com/1.jpg");
     assert.equal(levis.find((n) => n.tagName === "img").length, 0, "no <img> without a photo");
     assert.equal(levis.find((n) => n.attributes.class === "neutral-icon").length, 1, "the neutral icon instead");
-    assert.ok(levis.find((n) => n.className === "ocard-badge")[0].textContent === "-50%");
+    assert.equal(levis.find((n) => n.className === "ocard-badge").length, 0, "a permanent sale price gets NO % badge");
+    assert.ok(levis.textContent.includes("Püsiv soodushind") && levis.textContent.includes("45.00 €") && levis.textContent.includes("tavahind 90.00 €") && !levis.textContent.includes("-50%"));
     assert.ok(text.includes("Pilt: Denim Dream"));
   }),
   test("Outletid shop screen: section / type / sort chips — tapping one calls setOutletFilter; a chosen section narrows the type chips and the grid; 'Madalaim hind' and 'Uusim' reorder", () => {
@@ -241,7 +250,7 @@ const results = [
     assert.ok(mehed.text.includes("1 toodet"));
     assert.equal(mehed.root.find((n) => n.className === "tab-row outlet-types").length, 0, "one type only in Mehed -> no type row needed");
     const byPrice = render(makeState({ ...base, outletFilter: { section: null, type: null, sort: "price" } }));
-    assert.deepEqual(byPrice.root.find((n) => n.className === "ocard").map((c) => c.href), ["https://www.denimdream.com/EE/et/toode/2", "https://www.denimdream.com/EE/et/toode/1"]);
+    assert.deepEqual(byPrice.root.find((n) => n.className === "ocard").map((c) => c.href), ["https://www.denimdream.com/EE/et/toode/2", "https://www.denimdream.com/EE/et/toode/1"], "cheapest first regardless of new/permanent");
     const newest = render(makeState({ ...base, outletFilter: { section: null, type: null, sort: "newest" } }));
     assert.equal(newest.root.find((n) => n.className === "tab active")[0].textContent, "Kõik");
     assert.ok(newest.root.find((n) => n.className === "tab active").some((n) => n.textContent === "Uusim"));

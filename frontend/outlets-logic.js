@@ -37,17 +37,26 @@ function findMall(malls, mallId) {
   return (malls || []).find((mall) => mall.id === mallId) || null;
 }
 
+// A "new" discount is one the scraper judged against the 30-day
+// lowest price (outlets/scraper/discounts.js — `status: "new"`);
+// everything else is a permanent sale price and never gets a big %
+// badge (the owner's rule for every brand, 2026-09-26).
+function isNewDiscount(item) {
+  return item.status === "new" && typeof item.newPercent === "number";
+}
+
 // Every shop in a mall, each with a `discount` field: null when no
 // brand-data file matches that shop's own name, otherwise a real
 // summary read from that brand's actually-scraped items (never
-// estimated) — { brand, maxPercent, itemCount }.
+// estimated) — { brand, itemCount, newCount, maxNewPercent }.
 function shopsWithDiscounts(mall, brandsByName) {
   if (!mall) return [];
   return (mall.shops || []).map((shop) => {
     const brand = brandsByName.get(brandKey(shop.name));
     if (!brand || !Array.isArray(brand.items) || brand.items.length === 0) return { ...shop, discount: null };
-    const maxPercent = brand.items.reduce((max, item) => Math.max(max, item.discountPercent), 0);
-    return { ...shop, discount: { brand: brand.brand, maxPercent, itemCount: brand.items.length } };
+    const fresh = brand.items.filter(isNewDiscount);
+    const maxNewPercent = fresh.reduce((max, item) => Math.max(max, item.newPercent), 0);
+    return { ...shop, discount: { brand: brand.brand, itemCount: brand.items.length, newCount: fresh.length, maxNewPercent } };
   });
 }
 
@@ -105,7 +114,15 @@ function compareItems(sort) {
       (a.position ?? Infinity) - (b.position ?? Infinity) ||
       a.name.localeCompare(b.name, "et");
   }
-  return (a, b) => b.discountPercent - a.discountPercent || a.salePrice - b.salePrice || a.name.localeCompare(b.name, "et");
+  // "Suurim allahindlus": new discounts first (largest % against the
+  // 30-day low first), then permanent sale prices by their tavahind
+  // gap — a permanent price never outranks a new discount.
+  return (a, b) =>
+    isNewDiscount(b) - isNewDiscount(a) ||
+    (b.newPercent || 0) - (a.newPercent || 0) ||
+    b.discountPercent - a.discountPercent ||
+    a.salePrice - b.salePrice ||
+    a.name.localeCompare(b.name, "et");
 }
 
 // filter: { section, type, sort } (see DEFAULT_OUTLET_FILTER). A
@@ -120,7 +137,7 @@ function filterAndSortItems(items, filter) {
 
 if (typeof module !== "undefined") {
   module.exports = {
-    brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandForShopName, brandItemsForShopName,
+    brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandForShopName, brandItemsForShopName, isNewDiscount,
     SECTION_ORDER, SORTS, DEFAULT_OUTLET_FILTER, itemSections, itemTypes, filterAndSortItems,
   };
 }

@@ -46,8 +46,12 @@ function parseDenimDreamProducts(list) {
       if (!color.price) continue;
       const regularPrice = parseFloat(color.price.price);
       const salePrice = parseFloat(color.price.priceDiscount);
-      if (!(Number.isFinite(regularPrice) && Number.isFinite(salePrice) && salePrice < regularPrice)) continue;
+      // A non-sale listing carries priceDiscount "0.00" (found 2026-09-26:
+      // 0 < regular would have read as "100% off") — the sale price must
+      // be a real price, above zero and below the regular one.
+      if (!(Number.isFinite(regularPrice) && Number.isFinite(salePrice) && salePrice > 0 && salePrice < regularPrice)) continue;
       const discountPercent = Math.round((1 - salePrice / regularPrice) * 100);
+      const priceMin30 = parseFloat(color.price.priceMinOf30Days);
       const picture = color.pictures && color.pictures[0];
       items.push({
         id: String(color.productId),
@@ -58,6 +62,11 @@ function parseDenimDreamProducts(list) {
         regularPrice,
         salePrice,
         discountPercent,
+        // The site's own "30 päeva soodsaim hind" (EU rule) and which
+        // campaign the sale price belongs to — what "new vs permanent"
+        // is judged against (outlets/scraper/discounts.js).
+        priceMin30: Number.isFinite(priceMin30) && priceMin30 > 0 ? priceMin30 : null,
+        campaignId: typeof color.price.campaignId === "number" ? color.price.campaignId : null,
         link: color.shareUrl || null,
         image: picture ? picture.urlMedium : null,
         fresh: product.fresh === true,

@@ -1,8 +1,11 @@
 node_modules/
 
 # Per-machine Claude Code settings (permissions granted on this Mac) —
-# never shared through the repo.
-.claude/settings.local.json
+# never shared through the repo. The whole folder: Claude Code also
+# drops lock files there (scheduled_tasks.lock), and any untracked file
+# makes the daily automatic update skip itself as "not clean" — found
+# 2026-09-26, when the 06:00 run had skipped for exactly that reason.
+.claude/
 
 # Local marker that pauses the daily automatic update (see CLAUDE.md).
 data/.work-in-progress

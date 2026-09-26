@@ -228,7 +228,7 @@ const WORLD_FILTER = excludeWords(
 );
 
 
-// ---- Batch 10 filters (2026-09-27; copies in scraper/stores/selver.js) ----
+// ---- Batch 10 filters (2026-09-26; copies in scraper/stores/selver.js) ----
 // Cat litter only — the owner's call: Pet food = food + litter, never
 // toys, bedding (hay, sawdust, wood pellets) or other supplies.
 const LITTER_ONLY = excludeWords(["mänguasi", "kaisu", "kott", "hein", "saepuru", "graanul", "vitamiin", "snäk"], ["liiv"]);
@@ -1519,7 +1519,7 @@ const CATEGORIES = [
       rimi: [
         { url: "https://www.rimi.ee/epood/en/products/detergents-and-cleaning-supplies/c/SH-14", nameFilter: HOUSEHOLD_RIMI_EXCLUDE },
         // Foil, cling film, baking paper — Rimi shelves them under
-        // kitchenware (the owner's call, 2026-09-27); Barbora has no
+        // kitchenware (the owner's call, 2026-09-26); Barbora has no
         // such leaf.
         { url: "https://www.rimi.ee/epood/ee/tooted/kodu--ja-vabaajakaubad/koogitarvikud/foolium-kupsetuspaber/c/SH-10-6-23", nameFilter: HOUSEHOLD_RIMI_EXCLUDE },
       ],
@@ -1541,7 +1541,7 @@ const CATEGORIES = [
     // Selver prefixes the feed-law class on every item ("Täiendsööt."
     // = complementary feed, "Täistoit." = complete feed) — a
     // regulatory label, not a product fact the other stores state.
-    // Cat litter joined (the owner's call, 2026-09-27): litter only,
+    // Cat litter joined (the owner's call, 2026-09-26): litter only,
     // never toys, bedding or other supplies — see LITTER_ONLY.
     impliedDescriptors: ["täiendsööt", "täistoit"],
     urls: {
@@ -1737,7 +1737,7 @@ const CATEGORIES = [
       ],
     },
   },
-  // ---- Batch 10 (owner's request, 2026-09-27; scope decisions in CLAUDE.md) ----
+  // ---- Batch 10 (owner's request, 2026-09-26; scope decisions in CLAUDE.md) ----
   {
     // Glazed curd snacks (kohukesed), curd desserts, puddings, jellies,
     // kissell. Strict packaging (the default): flavour, glaze,

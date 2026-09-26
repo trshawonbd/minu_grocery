@@ -1,9 +1,10 @@
 # CLAUDE.md — working instructions for this project
 
 Minu is a grocery price-comparison tool: it scrapes the same real
-products from three Estonian grocery stores (Barbora, Rimi, Selver),
-matches equivalent listings across stores, and shows a side-by-side
-price comparison. Zero npm dependencies, plain Node.js.
+products from four Estonian grocery stores (Barbora, Rimi, Selver and
+Coop Haapsalu — the last with regional prices, see below), matches
+equivalent listings across stores, and shows a side-by-side price
+comparison. Zero npm dependencies, plain Node.js.
 
 ## Who the owner is
 
@@ -30,7 +31,9 @@ long prose.
   `data/prices.json` rather than guessing which side is right.
 - No secrets, tokens, or per-machine files in the repo. GitHub login
   is via `gh auth login` (browser), which keeps the token outside the
-  project; `.claude/settings.local.json` is gitignored on purpose.
+  project; the whole `.claude/` folder is gitignored on purpose (its
+  lock files are untracked otherwise, and any untracked file makes the
+  daily update skip itself — that is what stopped the 2026-09-26 run).
 
 ## Project rules (always, every session)
 
@@ -114,7 +117,7 @@ progress as each batch finishes.
    (2026-09-26: 402 products added, total 2078; one wrong match found
    and fixed in the review — a spirit's age statement now must agree).
 
-10. **Batch 10 — done 2026-09-27** (from the coverage audit, see
+10. **Batch 10 — done 2026-09-26** (from the coverage audit, see
     `data/coverage.md`; 118 products added, total 2259): Kohukesed & dairy
     desserts; drinking yoghurts & flavoured/condensed milk; Näkileivad
     (crispbreads); energy/sports/iced-tea drinks; syrups &
@@ -127,7 +130,7 @@ progress as each batch finishes.
     are already covered. Cat litter went into Pet food (the owner's
     call), the Household gaps were fixed the same day.
 
-11. **Coop (Haapsalu) as the fourth store — done 2026-09-27** (the
+11. **Coop (Haapsalu) as the fourth store — done 2026-09-26** (the
     owner's decision; see the Coop section below): 7,545 Coop items
     scraped over all 53 categories, 3,847 products carry a Coop price
     (3,460 joined by barcode, 387 by name), total 2259 → 4974. Review
@@ -159,7 +162,7 @@ with prices behind nothing more than a simple "I am 18+" click
 ID check, stop and tell the owner; never bypass it.
 
 **Coop (Haapsalu) is the fourth store (the owner's decision,
-2026-09-27) — regional pricing.** `scraper/stores/coop.js` reads
+2026-09-26) — regional pricing.** `scraper/stores/coop.js` reads
 coophaapsalu.ee's public WooCommerce Store API
 (`/wp-json/wc/store/v1/products`, 1 request/second, in-stock items
 only). Its prices are the Haapsalu consumer cooperative's e-shop
@@ -276,7 +279,7 @@ the owner.
   the other not blocks the match (see IDENTITY_QUALIFIER_PATTERNS in
   `scraper/match-products.js`). The four spellings are one qualifier,
   so "Öko" on one side and "BIO" on the other still match each other.
-- **Batch 9 follow-ups (owner, 2026-09-27):** Podravka-style dry
+- **Batch 9 follow-ups (owner, 2026-09-26):** Podravka-style dry
   packet soups (cooked in a pot) STAY in Instant food alongside cup
   soups; the 7 ambiguous Spirits groups (same-store duplicate
   listings, Saaremaa 40%/80% vs a strength-less Selver listing) stay
@@ -315,7 +318,7 @@ the owner.
   source and required on every alcohol-free source
   (`ALCOHOL_FREE_PATTERN`), so "0,0%" can never be pooled with its
   alcoholic twin.
-- **Batch 10 scope (owner, 2026-09-27):** *Curd snacks & desserts* =
+- **Batch 10 scope (owner, 2026-09-26):** *Curd snacks & desserts* =
   kohukesed, curd desserts, puddings, jellies, kissell (no plant
   imitations). *Milk drinks & drinking yoghurt* = joogijogurt,
   flavoured milk, condensed milk — Dairy keeps plain milk and
@@ -333,7 +336,7 @@ the owner.
   = cubes, concentrates, liquid broth — not soups. **Pet food = food +
   cat litter only** (LITTER_ONLY: "liiv"), never toys, bedding, hay,
   sawdust, wood pellets or other supplies.
-- **Store candidates checked 2026-09-27 (report only, nothing
+- **Store candidates checked 2026-09-26 (report only, nothing
   added):** Coop Haapsalu (coophaapsalu.ee) is WooCommerce with an
   open Store API (`/wp-json/wc/store/v1/products`, 100 per page,
   ~9,500 products, EAN as `sku` on branded goods, regular/sale price
@@ -344,7 +347,7 @@ the owner.
   grocery catalogue — only ~40 weekly leaflet offers, mostly own
   brands — not addable as a store. Neither may be added without the
   owner's explicit decision (and a lawyer's check, like the others).
-- **Piece-count sizes (2026-09-27)**: eggs and paper products have
+- **Piece-count sizes (2026-09-26)**: eggs and paper products have
   no weight/volume in their names, only a count — "10tk", Rimi's
   fused "M10", "8 rulli", "300 lehte" — so the strict path (size
   needed on both sides) never matched one, and the app's Munad and
@@ -358,7 +361,7 @@ the owner.
   wanted). Many paper products still don't match because the stores
   describe them differently ("Pure White" vs "White") — missing, not
   wrong.
-- **Brand spelling (2026-09-27)**: a store's brand field is compared
+- **Brand spelling (2026-09-26)**: a store's brand field is compared
   with hyphens, periods, spaces and apostrophes removed (`brandKey` in
   `scraper/match-products.js`): TORU-SIIL = TORUSIIL, MAKS & MOORITS
   = MAKS&MOORITS, A. Le Coq = A.LE COQ, Grant's = Grants. Found via
@@ -367,7 +370,7 @@ the owner.
   cuts, Personal care, Beer and Spirits, every one read by hand. The
   Torusiil product itself needed a `data/products.json` override too
   (Rimi adds the manufacturer "Mayeri" to the name).
-- **Single-store listings in search** (owner, 2026-09-27):
+- **Single-store listings in search** (owner, 2026-09-26):
   `data/singles.json` (`scraper/build-singles.js`, run by `npm run
   review`, `fetch-price.js` and `daily-update.js`) holds every scraped
   listing no comparison contains — the app shows them ONLY under
@@ -449,7 +452,7 @@ about anything ambiguous.
   in `scraper/match-products.js`) in Estonian — brand, type,
   descriptors, organic/grade qualifiers, the stated fat/cocoa %, then
   size. **Descriptor words keep the order and spelling the store
-  wrote** (the owner's call, 2026-09-27: "Pinot grigio", "Black
+  wrote** (the owner's call, 2026-09-26: "Pinot grigio", "Black
   Label", never the matcher's sorted/translated form) — the store
   with the fewest abbreviations supplies the wording; an abbreviation
   is still shown expanded ("Külm." → külmutatud) and a "-maitseline"
@@ -502,7 +505,7 @@ about anything ambiguous.
   three-language names, i18n fallback), `render.test.js` (runs the real screens on a
   tiny fake document), `pricing.test.js`. Own design, no store logos
   — store names are coloured text labels.
-- `data/coverage.md` — the 2026-09-27 audit of every store
+- `data/coverage.md` — the 2026-09-26 audit of every store
   subcategory (COVERED / EXCLUDED with reason / MISSING) and the batch
   10 proposal; refresh it by hand when a store's tree changes.
 - `data/review.md`, `data/ambiguous.json`, `data/unmatched.json`,

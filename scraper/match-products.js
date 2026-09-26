@@ -1139,7 +1139,7 @@ function descriptorWordList(name, brand, impliedWords = [], options = {}) {
   return [...new Set([...text.matchAll(/\p{L}+/gu)].map((m) => m[0].toLowerCase()))].filter((w) => !implied.has(w));
 }
 
-// For the display name (the owner's call, 2026-09-27): a descriptor is
+// For the display name (the owner's call, 2026-09-26): a descriptor is
 // shown as the store itself wrote it — "Black Label", not "must
 // label"; "Pinot Grigio", not "grigio pinot" — whenever the store's own
 // token is a clean whole word (letters only, no abbreviation period)
@@ -1383,7 +1383,7 @@ function isMultipack(size) {
 // Barbora's and Rimi's "TORU-SIIL", "A.Le Coq" is "A. Le Coq" — the
 // hyphens, periods and spaces a store's brand field happens to carry
 // are not part of the brand. Found because Torusiil 1 l, sold at all
-// three stores, never matched (2026-09-27).
+// three stores, never matched (2026-09-26).
 function brandKey(brand) {
   return String(brand).toLowerCase().replace(/[\s.\-–'’]/g, "");
 }
@@ -1898,7 +1898,7 @@ function synthesizeCanonicalName(a, b, rest = []) {
     ? descriptors.split(" ").filter((w) => w !== typeKey && w !== brand.toLowerCase())
     : [];
   // Word order and spelling as the store wrote them (the owner's call,
-  // 2026-09-27): the store whose name has the fewest abbreviation
+  // 2026-09-26): the store whose name has the fewest abbreviation
   // periods supplies the order and the shown words; a word that store
   // doesn't have (never, under strict matching) is appended sorted.
   const sigs = [sigA, sigB, ...rest.map(signatureOf)];
@@ -1974,7 +1974,7 @@ function matchItems(a, b, overrides = [], knownDifferent = []) {
     return { matched: true, canonicalName: synthesizeCanonicalName(a, b), reason: "ean" };
   }
   if (ean === "conflict") {
-    // The owner's rule (2026-09-27): the same barcode but names that
+    // The owner's rule (2026-09-26): the same barcode but names that
     // clearly disagree (size, fat %, stage) is never matched — it goes
     // to data/ean-conflicts.json for a person instead.
     return { matched: false, reason: "ean-conflict" };

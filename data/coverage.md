@@ -1,4 +1,4 @@
-# Coverage audit — Barbora, Rimi, Selver (2026-09-27)
+# Coverage audit — Barbora, Rimi, Selver (2026-09-26)
 
 Every food, drink, household, personal-care, baby and pet subcategory of
 the three stores, read from their own category trees (menu/category
@@ -34,7 +34,7 @@ listed once at the end as out of scope.
 | Piimatooted / Hapukoored ja koored | COVERED | Cream & sour cream (plant creams excluded) |
 | Piimatooted / Juustud (incl. toorjuustud, määrdejuustud, delikatess) | COVERED (filtered) | Cheese — spreadable and deli cheeses are in; cheese snacks/sticks, tofu, Violife out |
 | Piimatooted / Keefirid ja hapupiimad | COVERED (filtered) | Kefir & buttermilk |
-| Piimatooted / Munad | COVERED | Dairy (eggs — matching by count since 2026-09-27) |
+| Piimatooted / Munad | COVERED | Dairy (eggs — matching by count since 2026-09-26) |
 | Piimatooted / Majoneesid ja kastmed | COVERED | Sauces & condiments |
 | Piimatooted / Laktoosivabad tooted | — | duplicate listing of items in their own categories |
 | Leivad / Leivad ja saiad → leivad, palaleivad, saiad ja sepikud, röstsaiad | COVERED | Bread |

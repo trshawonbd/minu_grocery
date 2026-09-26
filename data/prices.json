@@ -17065,7 +17065,7 @@
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Rakvere Mustika grill ribi",
+    "name": "Rakvere Mustika grill ribi 1200g",
     "category": "Meat",
     "prices": {
       "barbora": {
@@ -17075,10 +17075,19 @@
         "storeUnitPrice": 11.19,
         "storeName": "Mustika grill-ribi RAKVERE,kg"
       },
+      "coop": {
+        "price": 9.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustika-grill-ribi-kg/",
+        "size": "1200g",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/23603645.png",
+        "storeName": "Mustika grill-ribi Rakvere ~1.2kg"
+      },
       "selver": {
         "price": 7.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/mustika-grill-ribi-rakvere-lk-kg",
+        "ean": "2360364500003",
         "storeUnitPrice": 7.49,
         "storeName": "Mustika grill-ribi, RAKVERE LK, kg"
       }
@@ -17098,16 +17107,26 @@
         "storeUnitPrice": 13.78,
         "storeName": "Grill-liha mustikamarin. RAKVERE,500g"
       },
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustika-grill-liha-500g/",
+        "size": "500g",
+        "ean": "4740003006741",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003006741-1.png",
+        "storeName": "Mustika grill-liha seakaelakarbonaad Rakvere 500g"
+      },
       "selver": {
         "price": 4.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/mustika-grill-liha-rakvere-lk-500-g",
         "size": "500g",
+        "ean": "4740003006741",
         "storeUnitPrice": 9.98,
         "storeName": "Mustika grill-liha, RAKVERE LK, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -17132,6 +17151,7 @@
         "price": 12.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/armeenia-saslokk-armeenia-grill-kg",
+        "ean": "2323100500002",
         "storeUnitPrice": 12.19,
         "storeName": "Armeenia šašlõkk, ARMEENIA GRILL, kg"
       }
@@ -17161,6 +17181,7 @@
         "price": 12.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/sea-saslokk-armeenia-grill-kg",
+        "ean": "2323100600009",
         "storeUnitPrice": 12.59,
         "storeName": "Sea šašlõkk, ARMEENIA GRILL, kg"
       }
@@ -17190,8 +17211,61 @@
         "price": 10.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/baby-back-searibi-rakvere-kg",
+        "ean": "2711872000002",
         "storeUnitPrice": 10.49,
         "storeName": "Baby back searibi, Rakvere, kg"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Triibuliha soola ja pipraga ehe 250g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/triibuliha-soola-ja-pipraga-ehe-250-g",
+        "cardPrice": 2.89,
+        "cardName": "Aitäh",
+        "size": "250g",
+        "storeUnitPrice": 11.56,
+        "storeName": "Triibuliha soola ja pipraga EHE,250g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-ehe-triibuliha-soola-ja-pipraga-250g/",
+        "size": "250g",
+        "ean": "4740296012566",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740296012566.png",
+        "storeName": "EHE triibuliha soola ja pipraga Rannarootsi 250g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Steff Armeenia šašlõkk seakaelakarb 600g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/armeenia-saslokk-seakaelakarb-steff-600-g",
+        "size": "600g",
+        "storeUnitPrice": 9.15,
+        "regularPrice": 7.39,
+        "storeName": "Armeenia šašlõkk seakaelakarb.Steff,600g"
+      },
+      "rimi": {
+        "price": 6.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sealiha/maitsestatud-sealiha/armeenia-saslokk-seakaelakarb-steff-600g/p/4011097",
+        "size": "600g",
+        "storeUnitPrice": 10.48,
+        "storeName": "Armeenia šašlõkk seakaelakarb. Steff 600g"
       }
     },
     "matchedVia": "automatic",
@@ -17212,6 +17286,7 @@
         "price": 4.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikaline-ahjubroiler-tallegg-kg",
+        "ean": "2364018900003",
         "storeUnitPrice": 4.99,
         "storeName": "Klassikaline ahjubroiler, TALLEGG, kg"
       }
@@ -17235,6 +17310,7 @@
         "price": 5.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/eestimaine-broilerikoib-tallegg-kg",
+        "ean": "2364001200004",
         "storeUnitPrice": 5.99,
         "storeName": "Eestimaine broilerikoib, TALLEGG, kg"
       }
@@ -17262,6 +17338,7 @@
         "cardPrice": 3.99,
         "cardName": "Partner",
         "size": "800g",
+        "ean": "4740046003790",
         "storeUnitPrice": 6.24,
         "storeName": "Broileri poolkoivad klassikalises marinaadis, TALLEGG, 800 g"
       }
@@ -17291,6 +17368,7 @@
         "price": 12.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/broileri-kintsuliha-saslokk-armeenia-grill-kg",
+        "ean": "2323109200002",
         "storeUnitPrice": 12.19,
         "storeName": "Broileri kintsuliha šašlõkk, ARMEENIA GRILL, kg"
       }
@@ -17315,6 +17393,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/broilerikintsuliha-kolme-juustuga-tallegg-400-g",
         "size": "400g",
+        "ean": "4740046011726",
         "storeUnitPrice": 13.48,
         "storeName": "Broilerikintsuliha kolme juustuga, TALLEGG, 400 g"
       }
@@ -17341,8 +17420,34 @@
         "cardPrice": 4.99,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4740569010664",
         "storeUnitPrice": 18.48,
         "storeName": "Kebab lambalihaga, OSKAR, 400 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Seahakkliha 400g",
+    "category": "Meat",
+    "prices": {
+      "barbora": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/seahakkliha-rakvere-400-g",
+        "size": "400g",
+        "storeUnitPrice": 6.98,
+        "storeName": "Seahakkliha RAKVERE, 400g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-seahakkliha-400g-jahutatud/",
+        "size": "400g",
+        "ean": "4740003015095",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/4740003015095-1.png",
+        "storeName": "Seahakkliha Rakvere 400g jahutatud"
       }
     },
     "matchedVia": "automatic",
@@ -17385,16 +17490,26 @@
         "storeUnitPrice": 19.3,
         "storeName": "Mahe rohumaaveise hakkliha LIIVIMAA,300g"
       },
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/liivimaa-mahe-rohumaaveise-hakkliha-300g/",
+        "size": "300g",
+        "ean": "4740456009160",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740456009160.png",
+        "storeName": "Mahe rohumaaveise hakkliha Liivimaa 300g jahutatud"
+      },
       "selver": {
         "price": 5.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/mahe-rohumaaveise-hakkliha-liivimaa-lihaveis-300-g",
         "size": "300g",
+        "ean": "4740456009160",
         "storeUnitPrice": 19.3,
         "storeName": "Mahe rohumaaveise hakkliha, LIIVIMAA LIHAVEIS, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -17437,6 +17552,7 @@
         "price": 11.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/sea-sisefilee-rakvere-lk-kg",
+        "ean": "2313554700004",
         "storeUnitPrice": 11.99,
         "storeName": "Sea sisefilee, RAKVERE LK, kg"
       }
@@ -17459,8 +17575,34 @@
         "price": 9.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/sea-valisfilee-rakvere-lk-kg",
+        "ean": "2360331100007",
         "storeUnitPrice": 9.99,
         "storeName": "Sea välisfilee, RAKVERE LK, kg"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannamõisa Mustika broileripooltiivad 400g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rm-mustika-broileripooltiivad-400g-2/",
+        "size": "400g",
+        "ean": "4742462001176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4742462001176.png",
+        "storeName": "Mustika broileripooltiivad Rannamõisa 400g"
+      },
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/linnuliha/maitsestatud-linnuliha/broileripooltiivad-mustika-rannamoisa-400g/p/4009777",
+        "size": "400g",
+        "storeUnitPrice": 9.97,
+        "storeName": "Broileripooltiivad mustika Rannamõisa 400g"
       }
     },
     "matchedVia": "automatic",
@@ -17470,6 +17612,15 @@
     "name": "Tallegg Delikatess broilerihakklihasegu 300g",
     "category": "Meat",
     "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanahakklihasegu-300g/",
+        "size": "300g",
+        "ean": "4740046009556",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046009556-1.png",
+        "storeName": "Delikatess broilerihakklihasegu Tallegg 300g"
+      },
       "rimi": {
         "price": 3.69,
         "currency": "EUR",
@@ -17483,11 +17634,277 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/delikatess-broilerihakklihasegu-tallegg-300-g",
         "size": "300g",
+        "ean": "4740046009556",
         "storeUnitPrice": 12.17,
         "storeName": "Delikatess broilerihakklihasegu, TALLEGG, 300 g"
       }
     },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Ehe shaslõkk seakaelakarbonaadist 600g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 6.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ehe-shaslokk-600g/",
+        "size": "600g",
+        "ean": "4740296010593",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740296010593.png",
+        "storeName": "EHE shaslõkk seakaelakarbonaadist Rannarootsi 600g"
+      },
+      "selver": {
+        "price": 7.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saslokk-seakaelakarbonaadist-ehe-rannarootsi-600-g",
+        "cardPrice": 5.59,
+        "cardName": "Partner",
+        "size": "600g",
+        "ean": "4740296010593",
+        "storeUnitPrice": 12.42,
+        "storeName": "Šašlõkk seakaelakarbonaadist Ehe, RANNAROOTSI, 600 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Steff Armeenia shaslõkk seakaelakarbonaadist 600g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-steff-armeenia-shaslokk-seakaela600g/",
+        "size": "600g",
+        "ean": "4740574065451",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/06/4740574065451.png",
+        "storeName": "Armeenia shaslõkk seakaelakarbonaadist Steff 600g"
+      },
+      "selver": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saslokk-seakaelakarbonaadist-armeenia-steff-600-g",
+        "cardPrice": 5.99,
+        "cardName": "Partner",
+        "size": "600g",
+        "ean": "4740574065451",
+        "storeUnitPrice": 13.32,
+        "storeName": "Šašlõkk seakaelakarbonaadist Armeenia, STEFF, 600 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Seastrooganov 380g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-seastrooganov-380g/",
+        "size": "380g",
+        "ean": "4740003015873",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740003015873-1.png",
+        "storeName": "Seastrooganov Rakvere 380g"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seastrooganov-rakvere-lk-380-g",
+        "size": "380g",
+        "ean": "4740003015873",
+        "storeUnitPrice": 7.61,
+        "storeName": "Seastrooganov, RAKVERE LK, 380 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Juustuga minutipihv broileririnnafil juustuga 350g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/br-filee-minutipihv-350g/",
+        "size": "350g",
+        "ean": "4740046006104",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046006104-1.png",
+        "storeName": "Juustuga minutipihv broileririnnafil.Tallegg 350g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustuga-minutipihv-broileririnnafileest-tallegg-350-g",
+        "size": "350g",
+        "ean": "4740046006104",
+        "storeUnitPrice": 17.11,
+        "storeName": "Juustuga minutipihv broileririnnafileest, TALLEGG, 350 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Broileripooltiib eestimaine 400g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/broileripooltiib-400g/",
+        "size": "400g",
+        "ean": "4740046004810",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046004810-1.png",
+        "storeName": "Broileripooltiib Eestimaine Tallegg 400g jahutatud"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eestimaine-broileripooltiib-tallegg-400-g",
+        "size": "400g",
+        "ean": "4740046004810",
+        "storeUnitPrice": 8.23,
+        "storeName": "Eestimaine broileripooltiib, TALLEGG, 400 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Eestimaine broilerikints 550g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-eestimaine-broilerikints-550g/",
+        "size": "550g",
+        "ean": "4740046012525",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740046012525-2.png",
+        "storeName": "Eestimaine broilerikints Tallegg 550g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eestimaine-broilerikints-tallegg-kg",
+        "ean": "2364049300001",
+        "storeUnitPrice": 4.29,
+        "storeName": "Eestimaine broilerikints, TALLEGG, kg"
+      }
+    },
     "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Fit broileri jog rinnafileeshaslõkk 800g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-fitness-br-fileeshaslokk-jog800g/",
+        "size": "800g",
+        "ean": "4740046013041",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740046013041-1.png",
+        "storeName": "FIT br.rinnafileeshaslõkk jog.marin.Tallegg 800g"
+      },
+      "selver": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fit-broilerifileesaslokk-jogurtimarinaadis-tallegg-800-g",
+        "size": "800g",
+        "ean": "4740046013041",
+        "storeUnitPrice": 11.86,
+        "storeName": "Fit Broilerifileešašlõkk jogurtimarinaadis, TALLEGG, 800 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Fitness caesari broileri rinnafilee 500g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-fitness-br-rinnafil-caesari-500g/",
+        "size": "500g",
+        "ean": "4740046013201",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740046013201.png",
+        "storeName": "Fitness br.rinnafilee caesari-marin.Tallegg 500g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fit-broileririnnafilee-caesari-marinaadis-tallegg-500-g",
+        "cardPrice": 4.99,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4740046013201",
+        "storeUnitPrice": 11.98,
+        "storeName": "FIT! Broileririnnafilee caesari-marinaadis, TALLEGG, 500 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rm broileritiiva õlaosa 500g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rm-kanatiiva-olaosa-500g-jahutatud/",
+        "size": "500g",
+        "ean": "4742462000940",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4742462000940.png",
+        "storeName": "RM Broileritiiva õlaosa 500g jahutatud"
+      },
+      "selver": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/broileritiiva-olaosa-rannamoisa-500-g",
+        "size": "500g",
+        "ean": "4742462000940",
+        "storeUnitPrice": 6.5,
+        "storeName": "Broileritiiva õlaosa, RANNAMÕISA, 500 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Fit broileririnnafilee hakkliha 300g",
+    "category": "Meat",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanafileehakkliha-300g/",
+        "size": "300g",
+        "ean": "4740046004384",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046004384-2.png",
+        "storeName": "FIT Broileririnnafilee hakkliha Tallegg 300g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fit-broileririnnafilee-hakkliha-tallegg-300-g",
+        "size": "300g",
+        "ean": "4740046004384",
+        "storeUnitPrice": 10.97,
+        "storeName": "Fit Broileririnnafilee hakkliha, TALLEGG, 300 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {

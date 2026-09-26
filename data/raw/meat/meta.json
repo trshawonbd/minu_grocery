@@ -3,5 +3,10 @@
   "order": 5,
   "strictPackaging": true,
   "matchAcrossWeights": true,
-  "fetchedAt": "2026-09-25T08:58:50.362Z"
+  "diaperMatching": false,
+  "fixedWeightMustMatch": false,
+  "alcoholMatching": false,
+  "pieceCountSizes": false,
+  "impliedDescriptors": [],
+  "fetchedAt": "2026-09-26T03:55:58.910Z"
 }

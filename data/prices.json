@@ -51578,6 +51578,15 @@
         "storeUnitPrice": 18.89,
         "storeName": "Küpsetuspulber SANTA MARIA 45g"
       },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsetuspulber-45g/",
+        "size": "45g",
+        "ean": "4740018133487",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740018133487.jpg",
+        "storeName": "Küpsetuspulber Santa Maria 45g"
+      },
       "rimi": {
         "price": 0.95,
         "currency": "EUR",
@@ -51593,11 +51602,12 @@
         "cardPrice": 0.65,
         "cardName": "Partner",
         "size": "45g",
+        "ean": "4740018133487",
         "storeUnitPrice": 18.89,
         "storeName": "Küpsetuspulber, SANTA MARIA, 45 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dr.oetker Küpsetuspulber 30g",
@@ -51662,6 +51672,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/zelatiin-santa-maria-25-g",
         "size": "25g",
+        "ean": "4740018154673",
         "storeUnitPrice": 50,
         "storeName": "Želatiin, SANTA MARIA, 25 g"
       }
@@ -51680,16 +51691,34 @@
         "storeUnitPrice": 7.8,
         "storeName": "Pärm Nordic 50g"
       },
+      "coop": {
+        "price": 0.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pressparm-50g-nordic/",
+        "size": "50g",
+        "ean": "73500384",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/73500384.jpg",
+        "storeName": "Presspärm Nordic 50g"
+      },
+      "rimi": {
+        "price": 0.4,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/pressparm-nordic-50g/p/267403",
+        "size": "50g",
+        "storeUnitPrice": 8,
+        "storeName": "Presspärm Nordic 50g"
+      },
       "selver": {
         "price": 0.36,
         "currency": "EUR",
         "url": "https://www.selver.ee/parm-nordic-50-g",
         "size": "50g",
+        "ean": "73500384",
         "storeUnitPrice": 7.2,
         "storeName": "Pärm, NORDIC, 50 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Veski mati Kuivpärm 11g",
@@ -51703,16 +51732,26 @@
         "storeUnitPrice": 42.73,
         "storeName": "Kuivpärm VESKI MATI 11g"
       },
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuivparm-veski-mati-11g/",
+        "size": "11g",
+        "ean": "4740281007508",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740281007508-scaled.jpg",
+        "storeName": "Kuivpärm Veski Mati 11g"
+      },
       "selver": {
         "price": 0.47,
         "currency": "EUR",
         "url": "https://www.selver.ee/kuivparm-veski-mati-11-g",
         "size": "11g",
+        "ean": "4740281007508",
         "storeUnitPrice": 42.73,
         "storeName": "Kuivpärm, VESKI MATI, 11 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dr.oetker Želatiinilehed 10g",
@@ -51761,6 +51800,29 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Lombardi Söögisooda 500g",
+    "category": "Baking supplies",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/soogisooda-lombardi-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.98,
+        "storeName": "Söögisooda Lombardi 500g"
+      },
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/parm-ja-muud-kergitusained/soogisooda-lombardi-500g/p/1008884",
+        "size": "500g",
+        "storeUnitPrice": 2.98,
+        "storeName": "Söögisooda Lombardi 500g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Santa maria Sidrunhape 32g",
     "category": "Baking supplies",
     "prices": {
@@ -51802,6 +51864,53 @@
         "size": "80g",
         "storeUnitPrice": 30.63,
         "storeName": "Suhkrukaunistused Dr.Oetker 80g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Dr.oetker Šokolaadi tordikaunistused 80g",
+    "category": "Baking supplies",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sokol-maits-tordikaunistuseddr-oetker-80",
+        "size": "80g",
+        "storeUnitPrice": 24.88,
+        "storeName": "Šokol.maits.tordikaunistusedDR.OETKER 80g"
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/koogi-dekoratsioonid/tordikaunistused-sokolaadi-dr-oetker-80g/p/163317",
+        "size": "80g",
+        "storeUnitPrice": 28.63,
+        "storeName": "Tordikaunistused šokolaadi Dr.Oetker 80g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Dr.oetker Valge glasuur šokolaadi 100g",
+    "category": "Baking supplies",
+    "prices": {
+      "barbora": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/valge-sokol-maits-glasuurdr-oetker-100",
+        "size": "100g",
+        "storeUnitPrice": 20.9,
+        "storeName": "Valge šokol.maits.glasuurDR.OETKER 100g"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/glasuur-valge-sokolaadi-maitseline-dr-oetker-100-g",
+        "size": "100g",
+        "ean": "5907707057984",
+        "storeUnitPrice": 20.9,
+        "storeName": "Glasuur - valge šokolaadi maitseline, DR.OETKER, 100 g"
       }
     },
     "matchedVia": "automatic"
@@ -51910,16 +52019,26 @@
         "storeUnitPrice": 31.33,
         "storeName": "Värviline nonparell MEIRA 60g"
       },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nonparell-varviline-60g/",
+        "size": "60g",
+        "ean": "6414203400651",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6414203400651.png",
+        "storeName": "Nonparell Meira 60g värviline"
+      },
       "selver": {
         "price": 1.88,
         "currency": "EUR",
         "url": "https://www.selver.ee/varviline-nonparell-meira-60-g",
         "size": "60g",
+        "ean": "6414203400651",
         "storeUnitPrice": 31.33,
         "storeName": "Värviline nonparell, MEIRA, 60 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mikaado Moosipaksendaja 30g",
@@ -51938,6 +52057,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/moosipaksendaja-mikaado-30-g",
         "size": "30g",
+        "ean": "4740140200255",
         "storeUnitPrice": 62.67,
         "storeName": "Moosipaksendaja, MIKAADO, 30 g"
       }
@@ -51948,6 +52068,15 @@
     "name": "Meira Küpsetuspulber 100g",
     "category": "Baking supplies",
     "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsetuspulber-meira100g/",
+        "size": "100g",
+        "ean": "6420101884783",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6414200210017.jpg",
+        "storeName": "Küpsetuspulber Meira 100g"
+      },
       "rimi": {
         "price": 1.79,
         "currency": "EUR",
@@ -51961,11 +52090,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kupsetuspulber-meira-100-g",
         "size": "100g",
+        "ean": "6420101884783",
         "storeUnitPrice": 16.2,
         "storeName": "Küpsetuspulber, MEIRA, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dr.oetker Küpsetuspulber 160g",
@@ -51984,11 +52114,162 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kupsetuspulber-dr-oetker-160-g-t000087752",
         "size": "160g",
+        "ean": "5997381375788",
         "storeUnitPrice": 18.75,
         "storeName": "Küpsetuspulber, DR.OETKER, 160 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Meira söögisooda 125g",
+    "category": "Baking supplies",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meira-soogisooda-125g/",
+        "size": "125g",
+        "ean": "6414200230022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/6414200230022.png",
+        "storeName": "Meira Söögisooda 125g"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soogisooda-meira-125-g",
+        "size": "125g",
+        "ean": "6414200230022",
+        "storeUnitPrice": 10.16,
+        "storeName": "Söögisooda, MEIRA, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meira Söögisooda 50g",
+    "category": "Baking supplies",
+    "prices": {
+      "coop": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meira-soogisooda-50g/",
+        "size": "50g",
+        "ean": "6414200230053",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/6414200230053.jpg",
+        "storeName": "Söögisooda Meira 50g"
+      },
+      "selver": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soogisooda-meira-50-g",
+        "size": "50g",
+        "ean": "6414200230053",
+        "storeUnitPrice": 12,
+        "storeName": "Söögisooda, MEIRA, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.oetker Dr geeltoiduvärv punane 10g",
+    "category": "Baking supplies",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-oetker-geeltoiduvarv-10g-punane/",
+        "size": "10g",
+        "ean": "5907707057113",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/5907707057113.png",
+        "storeName": "Dr.Oetker Geeltoiduvärv 10g punane"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/geeltoiduvarv-punane-dr-oetker-10-g",
+        "size": "10g",
+        "ean": "5907707057113",
+        "storeUnitPrice": 185,
+        "storeName": "Geeltoiduvärv punane, DR.OETKER, 10 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.oetker Geeltoiduvärv kollane 10g",
+    "category": "Baking supplies",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-oetker-geeltoiduvarv-10g-kollane/",
+        "size": "10g",
+        "ean": "5907707057120",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/5907707057120.png",
+        "storeName": "Geeltoiduvärv Dr.Oetker 10g kollane"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/geeltoiduvarv-kollane-dr-oetker-10-g",
+        "size": "10g",
+        "ean": "5907707057120",
+        "storeUnitPrice": 185,
+        "storeName": "Geeltoiduvärv kollane, DR.OETKER, 10 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.oetker Geeltoiduvärv sinine 10g",
+    "category": "Baking supplies",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-oetker-geeltoiduvarv-10g-sinine/",
+        "size": "10g",
+        "ean": "5907707057106",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/5907707057106.png",
+        "storeName": "Geeltoiduvärv Dr.Oetker 10g sinine"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/geeltoiduvarv-sinine-dr-oetker-10-g",
+        "size": "10g",
+        "ean": "5907707057106",
+        "storeUnitPrice": 185,
+        "storeName": "Geeltoiduvärv sinine, DR.OETKER, 10 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dr.oetker Koogiglasuur valge tumeda shok segu 100g",
+    "category": "Baking supplies",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-oetker-koogiglasuur-100g-val-t-shok/",
+        "size": "100g",
+        "ean": "5907707058042",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/5907707058042.png",
+        "storeName": "Koogiglasuur Dr.Oetker 100g valge-tumeda shok segu"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/glasuur-valge-ja-tumeda-sokolaadi-maitseline-dr-oetker-100-g",
+        "size": "100g",
+        "ean": "5907707058042",
+        "storeUnitPrice": 20.9,
+        "storeName": "Glasuur - valge ja tumeda šokolaadi maitseline, DR.OETKER, 100 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Kex Täidetud vahvel piimašokolaadis 60g",

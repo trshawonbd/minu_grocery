@@ -4,9 +4,12 @@
   "strictPackaging": false,
   "matchAcrossWeights": false,
   "diaperMatching": false,
-  "fetchedAt": "2026-09-25T20:20:25.126Z",
+  "fixedWeightMustMatch": false,
+  "alcoholMatching": false,
+  "pieceCountSizes": false,
   "impliedDescriptors": [
     "p",
     "segu"
-  ]
+  ],
+  "fetchedAt": "2026-09-26T03:55:55.971Z"
 }

@@ -52272,7 +52272,7 @@
     "matchedVia": "ean"
   },
   {
-    "name": "Kex Täidetud vahvel piimašokolaadis 60g",
+    "name": "Kex Täidetud vahvel piimašokolaadis vahvliga 60g",
     "category": "Chocolate",
     "prices": {
       "barbora": {
@@ -52283,16 +52283,26 @@
         "storeUnitPrice": 16.5,
         "storeName": "Täidetud vahvel piimašokolaadis KEX, 60g"
       },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-cloetta-kex-60g/",
+        "size": "60g",
+        "ean": "8714200217138",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/7310350118342.png",
+        "storeName": "Shok.batoon Cloetta Kex 60g vahvliga"
+      },
       "selver": {
         "price": 1.25,
         "currency": "EUR",
         "url": "https://www.selver.ee/taidetud-vahvel-piimasokolaadis-kex-60-g",
         "size": "60g",
+        "ean": "8714200217138",
         "storeUnitPrice": 20.83,
         "storeName": "Täidetud vahvel piimašokolaadis, KEX, 60 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Martsipanibatoon vana tallinn 40g",
@@ -52319,6 +52329,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vana-tallinn-martsipanibatoon-kalev-40-g-t000082099",
         "size": "40g",
+        "ean": "4740012600633",
         "storeUnitPrice": 24.25,
         "storeName": "Vana Tallinn martsipanibatoon, KALEV, 40 g"
       }
@@ -52337,16 +52348,35 @@
         "storeUnitPrice": 29.8,
         "storeName": "Šokolaadibatoon Crunchy GEISHA 50g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/geisha-crunchy-shok-batoon-50g/",
+        "size": "50g",
+        "ean": "6416453017504",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/6416453017504.png",
+        "storeName": "Shokolaadibatoon Geisha Crunchy Fazer 50g"
+      },
+      "rimi": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/sokolaad/sokolaadibatoonid/sokolaadibatoon-crunchy-geisha-50g/p/1004114",
+        "size": "50g",
+        "storeUnitPrice": 23.8,
+        "regularPrice": 1.69,
+        "storeName": "Šokolaadibatoon Crunchy Geisha 50g"
+      },
       "selver": {
         "price": 1.75,
         "currency": "EUR",
         "url": "https://www.selver.ee/crunchy-sokolaadibatoon-geisha-50-g",
         "size": "50g",
+        "ean": "6416453017504",
         "storeUnitPrice": 35,
         "storeName": "Crunchy šokolaadibatoon, GEISHA, 50 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Klassikaline martsipanibatoon 40g",
@@ -52373,6 +52403,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikaline-martsipanibatoon-kalev-40-g-t000082098",
         "size": "40g",
+        "ean": "4740012600626",
         "storeUnitPrice": 24.25,
         "storeName": "Klassikaline martsipanibatoon, KALEV, 40 g"
       }
@@ -52417,6 +52448,15 @@
         "storeUnitPrice": 18.9,
         "storeName": "Piimašokolaad Anneke, KALEV 100g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-anneke-100g/",
+        "size": "100g",
+        "ean": "4740012034728",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012034728.png",
+        "storeName": "Piimashok.Anneke Kalev 100g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -52432,11 +52472,12 @@
         "cardPrice": 1.99,
         "cardName": "Partner",
         "size": "100g",
+        "ean": "4740012034728",
         "storeUnitPrice": 26.9,
         "storeName": "Piimašokolaad Anneke, KALEV, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Milka Piimašokolaad oreo 300g",
@@ -52452,6 +52493,15 @@
         "storeUnitPrice": 14.97,
         "storeName": "Piimašokolaad Oreo MILKA 300g"
       },
+      "coop": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-milka-oreo-300g/",
+        "size": "300g",
+        "ean": "7622210240200",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622210240200.png",
+        "storeName": "Piimashokolaad Milka Oreo 300g"
+      },
       "rimi": {
         "price": 6.39,
         "currency": "EUR",
@@ -52465,11 +52515,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaad-oreo-milka-300g",
         "size": "300g",
+        "ean": "7622210240200",
         "storeUnitPrice": 16.63,
         "storeName": "Piimašokolaad Oreo, MILKA, 300g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Milka Piimašokolaad bubbly white 95g",
@@ -52556,16 +52607,26 @@
         "storeUnitPrice": 34.5,
         "storeName": "Piimašokolaad Nurr KALEV 20g"
       },
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashok-nurr-20g/",
+        "size": "20g",
+        "ean": "4740012037446",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740012037446-1.png",
+        "storeName": "Piimashok.Nurr Kalev 20g"
+      },
       "selver": {
         "price": 0.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaad-nurr-kalev-20g",
         "size": "20g",
+        "ean": "4740012037446",
         "storeUnitPrice": 49.5,
         "storeName": "Piimašokolaad Nurr, KALEV, 20g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Brownie batoon 50g",
@@ -52604,6 +52665,15 @@
         "storeUnitPrice": 26.26,
         "storeName": "Piimašokolaad KALEV 190g"
       },
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashokolaad-190g/",
+        "size": "190g",
+        "ean": "4740012600886",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740012600886.png",
+        "storeName": "Piimashokolaad Kalev 190g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -52617,11 +52687,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaad-kalev-190-g",
         "size": "190g",
+        "ean": "4740012600886",
         "storeUnitPrice": 26.16,
         "storeName": "Piimašokolaad, KALEV, 190 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Piimašokolaad anneke õhuline 65g",
@@ -52636,6 +52707,15 @@
         "size": "65g",
         "storeUnitPrice": 24.46,
         "storeName": "Piimašokolaad Anneke õhuline KALEV 65g"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-anneke-piimashok-ohuline-65g/",
+        "size": "65g",
+        "ean": "4740012601128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012601128.png",
+        "storeName": "Piimashok.Anneke õhuline Kalev 65g"
       },
       "rimi": {
         "price": 2.29,
@@ -52652,11 +52732,12 @@
         "cardPrice": 1.59,
         "cardName": "Partner",
         "size": "65g",
+        "ean": "4740012601128",
         "storeUnitPrice": 33.38,
         "storeName": "Anneke õhuline piimašokolaad, KALEV, 65 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Piimašokolaad anneke 270g",
@@ -52685,6 +52766,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/anneke-piimasokolaad-kalev-270-g",
         "size": "270g",
+        "ean": "4740012601029",
         "storeUnitPrice": 18.41,
         "storeName": "Anneke piimašokolaad, KALEV, 270 g"
       }
@@ -52726,6 +52808,15 @@
         "storeUnitPrice": 29.39,
         "storeName": "Piimašokolaad KARL FAZER 180g"
       },
+      "coop": {
+        "price": 5.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-piimashokolaad-180g/",
+        "size": "180g",
+        "ean": "6416453095014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/11/6416453095014.png",
+        "storeName": "Piimashokolaad Karl Fazer 180g"
+      },
       "rimi": {
         "price": 4.99,
         "currency": "EUR",
@@ -52741,11 +52832,12 @@
         "cardPrice": 2.99,
         "cardName": "Partner",
         "size": "180g",
+        "ean": "6416453095014",
         "storeUnitPrice": 29.39,
         "storeName": "Piimašokolaad, KARL FAZER, 180 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Karl fazer Piimašokolaad 95g",
@@ -52759,6 +52851,15 @@
         "storeUnitPrice": 31.47,
         "storeName": "Piimašokolaad KARL FAZER 95g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-piimashokolaad-95g/",
+        "size": "95g",
+        "ean": "6416453056176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/6416453056176.png",
+        "storeName": "Piimashokolaad Karl Fazer 95g"
+      },
       "selver": {
         "price": 2.99,
         "currency": "EUR",
@@ -52766,11 +52867,12 @@
         "cardPrice": 1.99,
         "cardName": "Partner",
         "size": "95g",
+        "ean": "6416453056176",
         "storeUnitPrice": 31.47,
         "storeName": "Piimašokolaad, KARL FAZER, 95g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Milka Piimašokolaad daim 90g",
@@ -52786,16 +52888,26 @@
         "storeUnitPrice": 16.55,
         "storeName": "Piimašokolaad Daim MILKA 90g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milka-daim-piimashok-90g/",
+        "size": "90g",
+        "ean": "7622202355172",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/7622202355172.png",
+        "storeName": "Piimashok.Milka Daim 90g"
+      },
       "selver": {
         "price": 2.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaad-daim-milka-90g",
         "size": "90g",
+        "ean": "7622202355172",
         "storeUnitPrice": 33.22,
         "storeName": "Piimašokolaad Daim, MILKA, 90g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Piimašokolaad anneke 190g",
@@ -52834,6 +52946,15 @@
         "storeUnitPrice": 26.9,
         "storeName": "Tume šokolaad Bitter 56% KALEV, 100g"
       },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-shok-bitter-100g-2/",
+        "size": "100g",
+        "ean": "4740012030898",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012030898-1.png",
+        "storeName": "Tume shok.Bitter 56% Kalev 100g"
+      },
       "rimi": {
         "price": 2.69,
         "currency": "EUR",
@@ -52847,11 +52968,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tume-sokolaad-bitter-56-kalev-100-g",
         "size": "100g",
+        "ean": "4740012030898",
         "storeUnitPrice": 26.7,
         "storeName": "Tume šokolaad Bitter 56%, KALEV, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Tume šokolaad bitter 70% 100g",
@@ -52864,6 +52986,15 @@
         "size": "100g",
         "storeUnitPrice": 26.9,
         "storeName": "Tume šokolaad Bitter 70% KALEV, 100g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-shok-bitter-100g/",
+        "size": "100g",
+        "ean": "4740012036173",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012036173.png",
+        "storeName": "Tume shok.Bitter 70% Kalev 100g"
       },
       "rimi": {
         "price": 2.69,
@@ -52878,11 +53009,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tume-sokolaad-bitter-70-kalev-100g",
         "size": "100g",
+        "ean": "4740012036173",
         "storeUnitPrice": 26.7,
         "storeName": "Tume šokolaad Bitter 70%, KALEV, 100g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Tume šokolaad bitter 87% 100g",
@@ -52919,16 +53051,26 @@
         "storeUnitPrice": 28.37,
         "storeName": "Šokolaad Vana Tallinn Cream KALEV 104g"
       },
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-shok-v-tallinn-cr-104g/",
+        "size": "104g",
+        "ean": "4740012037804",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012037804.png",
+        "storeName": "Tume shok.Vana Tallinn Cream Kalev 104g"
+      },
       "selver": {
         "price": 2.97,
         "currency": "EUR",
         "url": "https://www.selver.ee/sokolaad-vana-tallinn-cream-kalev-104-g",
         "size": "104g",
+        "ean": "4740012037804",
         "storeUnitPrice": 28.56,
         "storeName": "Šokolaad Vana Tallinn Cream, KALEV, 104 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Tume šokolaad kirsiga 190g",
@@ -52941,6 +53083,15 @@
         "size": "190g",
         "storeUnitPrice": 26.26,
         "storeName": "Tume šokolaad kirsiga KALEV 190g"
+      },
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-tume-shok-190g-kirsiga/",
+        "size": "190g",
+        "ean": "4740012600916",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600916.png",
+        "storeName": "Kalev tume shok.190g kirssidega"
       },
       "rimi": {
         "price": 2.99,
@@ -52955,11 +53106,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tume-sokolaad-kirsiga-kalev-190-g",
         "size": "190g",
+        "ean": "4740012600916",
         "storeUnitPrice": 26.16,
         "storeName": "Tume šokolaad kirsiga, KALEV, 190 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Tume šokolaad bitter 70% 190g",
@@ -52972,6 +53124,15 @@
         "size": "190g",
         "storeUnitPrice": 19.94,
         "storeName": "Tume šokolaad Bitter 70% KALEV 190g"
+      },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-bitter-tume-shok-70-190g/",
+        "size": "190g",
+        "ean": "4740012600879",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740012600879.png",
+        "storeName": "Tume shok.Bitter 70% Kalev 190g"
       },
       "rimi": {
         "price": 5.55,
@@ -52986,11 +53147,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/bitter-70-tume-sokolaad-kalev-190-g",
         "size": "190g",
+        "ean": "4740012600879",
         "storeUnitPrice": 26.16,
         "storeName": "Bitter 70% tume šokolaad, KALEV, 190 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Karl fazer Tume šokolaad 180g",
@@ -53011,6 +53173,7 @@
         "cardPrice": 2.99,
         "cardName": "Partner",
         "size": "180g",
+        "ean": "6416453095052",
         "storeUnitPrice": 29.39,
         "storeName": "Tume šokolaad, KARL FAZER, 180 g"
       }
@@ -53043,9 +53206,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Tupla Šokolaadibatoon maxi 50g",
+    "name": "Tupla Shok maxi batoon 50g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-tupla-maxi-50g/",
+        "size": "50g",
+        "ean": "6420256014295",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6420256014295.png",
+        "storeName": "Shok.batoon Tupla Maxi 50g"
+      },
       "rimi": {
         "price": 1.19,
         "currency": "EUR",
@@ -53059,16 +53231,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sokolaadibatoon-maxi-tupla-50-g",
         "size": "50g",
+        "ean": "6420256014295",
         "storeUnitPrice": 25.8,
         "storeName": "Šokolaadibatoon Maxi, TUPLA, 50 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Mesikäpp Piimašokolaad vahvliga 270g",
+    "name": "Mesikäpp Piimashok vahvliga kalev 270g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-mesikapp-piimashok-270g-vahvliga/",
+        "size": "270g",
+        "ean": "4740012601098",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740012601098.png",
+        "storeName": "Piimashok.Mesikäpp Kalev 270g vahvliga"
+      },
       "rimi": {
         "price": 6.99,
         "currency": "EUR",
@@ -53082,16 +53264,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaad-vahvliga-mesikapp-270-g",
         "size": "270g",
+        "ean": "4740012601098",
         "storeUnitPrice": 25.44,
         "storeName": "Piimašokolaad vahvliga, MESIKÄPP, 270 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Kamatahvel 100g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kamatahvel-kalev-100g/",
+        "size": "100g",
+        "ean": "4740012600381",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600381.png",
+        "storeName": "Kamatahvel Kalev 100g"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -53105,16 +53297,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kamatahvel-kalev-100-g",
         "size": "100g",
+        "ean": "4740012600381",
         "storeUnitPrice": 14.9,
         "storeName": "Kamatahvel, KALEV, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Karl fazer Piimašokolaad rosina pähkli 180g",
+    "name": "Karl fazer Piimashok ja pähklite rosinatega 180g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-fazer-shok-180g-pahklite-ja-rosinatega/",
+        "size": "180g",
+        "ean": "6416453095120",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/6416453095120.png",
+        "storeName": "Piimashok.Karl Fazer 180g pähklite ja rosinatega"
+      },
       "rimi": {
         "price": 5.29,
         "currency": "EUR",
@@ -53130,11 +53332,12 @@
         "cardPrice": 2.99,
         "cardName": "Partner",
         "size": "180g",
+        "ean": "6416453095120",
         "storeUnitPrice": 29.39,
         "storeName": "Piimašokolaad rosina-pähkli, KARL FAZER, 180g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Milka Piimašokolaad oreo 100g",
@@ -53153,6 +53356,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaad-oreo-milka-100g",
         "size": "100g",
+        "ean": "7622210182951",
         "storeUnitPrice": 29.9,
         "storeName": "Piimašokolaad Oreo, MILKA, 100g"
       }
@@ -53160,9 +53364,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Karl fazer Šokolaadibatoon crunchy 55g",
+    "name": "Karl fazer Shok crunchy batoon 55g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-shok-batoon-crunchy-55g/",
+        "size": "55g",
+        "ean": "6416453017405",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/6416453017405.png",
+        "storeName": "Shok.batoon Karl Fazer Crunchy 55g"
+      },
       "rimi": {
         "price": 1.75,
         "currency": "EUR",
@@ -53178,16 +53391,26 @@
         "cardPrice": 1.09,
         "cardName": "Partner",
         "size": "55g",
+        "ean": "6416453017405",
         "storeUnitPrice": 31.82,
         "storeName": "Šokolaadibatoon Crunchy, KARL FAZER, 55 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Milka Piimašokolaad tervete pähklitega 250g",
+    "name": "Milka Piimashok pähklitega 250g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-milka-pahkli-250g/",
+        "size": "250g",
+        "ean": "7622300465674",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/7622300465674.png",
+        "storeName": "Piimashok.Milka 250g pähklitega"
+      },
       "rimi": {
         "price": 6.39,
         "currency": "EUR",
@@ -53201,16 +53424,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaad-tervete-pahklitega-milka-250g",
         "size": "250g",
+        "ean": "7622300465674",
         "storeUnitPrice": 26.4,
         "storeName": "Piimašokolaad tervete pähklitega, MILKA, 250g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kitkat Tahvel soolakaramelli 99g",
+    "name": "Kitkat Piimashok nestle soolakaramelliga 99g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kitkat-piimashok-99g-soolakaramelliga/",
+        "size": "99g",
+        "ean": "3800020491560",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/3800020491560.png",
+        "storeName": "Piimashok.KitKat Nestle 99g soolakaramelliga"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -53227,16 +53460,26 @@
         "cardPrice": 1.89,
         "cardName": "Partner",
         "size": "99g",
+        "ean": "3800020491560",
         "storeUnitPrice": 26.16,
         "storeName": "Soolakaramelli tahvel, KIT KAT, 99 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Tume šokolaad tervete mandlitega 190g",
+    "name": "Kalev Tume tervete mandlitega shok 190g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-tume-shok-190g-tervete-mandlitega/",
+        "size": "190g",
+        "ean": "4740012600923",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600923.png",
+        "storeName": "Tume shok.Kalev 190g tervete mandlitega"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -53250,16 +53493,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tume-sokolaad-tervete-mandlitega-kalev-190-g",
         "size": "190g",
+        "ean": "4740012600923",
         "storeUnitPrice": 26.16,
         "storeName": "Tume šokolaad tervete mandlitega, KALEV, 190 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Tume šokolaad täidisega tuljak 105g",
+    "name": "Kalev Tume shokolaad tuljak täidisega 105g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-shok-tuljak-105g/",
+        "size": "105g",
+        "ean": "4740012037774",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012037774.png",
+        "storeName": "Tume shokolaad Tuljak Kalev 105g täidisega"
+      },
       "rimi": {
         "price": 3.29,
         "currency": "EUR",
@@ -53273,16 +53526,61 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tume-sokolaad-tuljak-taidisega-kalev-105-g-t000074055",
         "size": "105g",
+        "ean": "4740012037774",
         "storeUnitPrice": 28.29,
         "storeName": "Tume šokolaad Tuljak täidisega, KALEV, 105 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kitkat Tahvel sarapuupähkli 99g",
+    "name": "Kismet Vahvlibatoon dumle fazer 55g",
     "category": "Chocolate",
     "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kismet-dumle-vahvlibatoon-55g/",
+        "size": "55g",
+        "ean": "6416453014657",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/6416453014657.png",
+        "storeName": "Vahvlibatoon Kismet Dumle Fazer 55g"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/sokolaad/sokolaadibatoonid/vahvlibatoon-dumle-kismet-55g/p/1007404",
+        "size": "55g",
+        "storeUnitPrice": 23.45,
+        "storeName": "Vahvlibatoon Dumle Kismet 55g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dumle-vahvlibatoon-kismet-55-g",
+        "cardPrice": 0.89,
+        "cardName": "Partner",
+        "size": "55g",
+        "ean": "6416453014657",
+        "storeUnitPrice": 23.45,
+        "storeName": "Dumle vahvlibatoon, KISMET, 55 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kitkat Piimashok nestle sarapuupähklitega 99g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kitkat-piimashok-99g-maapahkliga/",
+        "size": "99g",
+        "ean": "3800020491546",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/3800020491546.png",
+        "storeName": "Piimashok.KitKat Nestle 99g sarapuupähklitega"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -53299,11 +53597,1621 @@
         "cardPrice": 1.89,
         "cardName": "Partner",
         "size": "99g",
+        "ean": "3800020491546",
         "storeUnitPrice": 26.16,
         "storeName": "Sarapuupähkli tahvel, KIT KAT, 99 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kitkat Shok chunky peanut butter nestle batoon 42g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kitkat-chunky-peanut-butter-shok-bat-42g/",
+        "size": "42g",
+        "ean": "3800020411162",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/3800020411162.jpg",
+        "storeName": "Shok.batoon KitKat Chunky Peanut Butter Nestle 42g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-kitkat-chunky-peanut-butter-nestle-42g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "42g",
+        "ean": "3800020411162",
+        "storeUnitPrice": 30.71,
+        "storeName": "Šokolaad KitKat Chunky Peanut Butter, NESTLE, 42g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kitkat Shok nestle batoon 41.5g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-kitkat-41-5g/",
+        "size": "41.5g",
+        "ean": "40052434",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/40052434.png",
+        "storeName": "Shok.batoon KitKat Nestle 41.5g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-kitkat-nestle-41-5-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "41.5g",
+        "ean": "40052434",
+        "storeUnitPrice": 31.08,
+        "storeName": "Šokolaad KitKat, NESTLE, 41,5 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kinder Piimashok bat t piimja täidisega 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-kinder-100g/",
+        "size": "100g",
+        "ean": "40084701",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/40084701.jpg",
+        "storeName": "Piimashok.bat Kinder T8 100g piimja täidisega"
+      },
+      "selver": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasok-piimataidisega-kinder-100-g",
+        "size": "100g",
+        "ean": "40084701",
+        "storeUnitPrice": 25.5,
+        "storeName": "Piimašok. piimatäidisega, KINDER, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Twix Piimashok bat 50g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-twix-50g/",
+        "size": "50g",
+        "ean": "5900951313592",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000159459228.png",
+        "storeName": "Piimashok.bat.Twix 50g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-twix-50-g",
+        "size": "50g",
+        "ean": "5900951313592",
+        "storeUnitPrice": 25.8,
+        "storeName": "Šokolaad, TWIX, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Snickers Shok batoon 50g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shoh-bat-snickers-50g/",
+        "size": "50g",
+        "ean": "5900951311505",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000159461122.jpg",
+        "storeName": "Shok.batoon Snickers 50g"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-snickers-50-g",
+        "size": "50g",
+        "ean": "5900951311505",
+        "storeUnitPrice": 27,
+        "storeName": "Šokolaad, SNICKERS, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Twix Piimashok xtra bat ja karamelli küpsisega 75g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-twix-xtra-75g/",
+        "size": "75g",
+        "ean": "5900951312250",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900951028502.jpg",
+        "storeName": "Piimashok.bat.Twix Xtra 75g karamelli ja küpsisega"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-twix-xtra-twix-75g",
+        "size": "75g",
+        "ean": "5900951312250",
+        "storeUnitPrice": 23.33,
+        "storeName": "Šokolaad Twix Xtra, TWIX, 75g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kismet Vahvlibatoon fazer 55g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahvlibatoon-kismet-55g/",
+        "size": "55g",
+        "ean": "6411401014826",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/6411401014826.png",
+        "storeName": "Vahvlibatoon Kismet Fazer 55g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-kismet-55g",
+        "cardPrice": 0.89,
+        "cardName": "Partner",
+        "size": "55g",
+        "ean": "6411401014826",
+        "storeUnitPrice": 23.45,
+        "storeName": "Šokolaad, KISMET, 55g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer Piimashok tervete metsapähklitega 200g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-k-fazer-m-pahkl200g/",
+        "size": "200g",
+        "ean": "6411401015151",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411401015151.png",
+        "storeName": "Piimashok.Karl Fazer 200g tervete metsapähklitega"
+      },
+      "selver": {
+        "price": 5.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-tervete-metspahklitega-karl-fazer-200g",
+        "cardPrice": 3.69,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "6411401015151",
+        "storeUnitPrice": 28.25,
+        "storeName": "Piimašokolaad tervete metspähklitega, KARL FAZER, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Geisha Piimashokolaad fazer 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-geisha-100g/",
+        "size": "100g",
+        "ean": "6411401015908",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411401015908.png",
+        "storeName": "Piimashokolaad Geisha Fazer 100g"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-geisha-100g",
+        "size": "100g",
+        "ean": "6411401015908",
+        "storeUnitPrice": 27.5,
+        "storeName": "Šokolaad, GEISHA, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Geisha Piimashokolaadibatoon fazer 37g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/geisha-piimashokolaadibatoon-37g/",
+        "size": "37g",
+        "ean": "6411401019029",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/6411401019029.png",
+        "storeName": "Piimashokolaadibatoon Geisha Fazer 37g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadibatoon-geisha-37g",
+        "size": "37g",
+        "ean": "6411401019029",
+        "storeUnitPrice": 32.16,
+        "storeName": "Šokolaadibatoon, GEISHA, 37g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Daim Shok batoon mini 28g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 0.83,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/daim-mini-shok-batoon-28g/",
+        "size": "28g",
+        "ean": "7622300335533",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/7310511803001.png",
+        "storeName": "Shok.batoon Daim mini 28g"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-daim-daim-28g",
+        "size": "28g",
+        "ean": "7622300335533",
+        "storeUnitPrice": 28.21,
+        "storeName": "Piimašokolaad Daim, DAIM, 28g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kinder Shok bueno batoon 43g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kinder-bueno-43g/",
+        "size": "43g",
+        "ean": "80052760",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/80052760.jpg",
+        "storeName": "Shok.batoon Kinder Bueno 43g"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadivahvel-kinder-bueno-kinder-43g",
+        "size": "43g",
+        "ean": "80052760",
+        "storeUnitPrice": 36.05,
+        "storeName": "Šokolaadivahvel Kinder Bueno, Kinder, 43g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kinder Piimashok country piima teravilja täidis 24g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-kinder-country-24g/",
+        "size": "24g",
+        "ean": "40084176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/40084176.png",
+        "storeName": "Piimashok.Kinder Country24g piima-teravilja täidis"
+      },
+      "selver": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-kinder-country-ferrero-24-g",
+        "size": "24g",
+        "ean": "40084176",
+        "storeUnitPrice": 29.36,
+        "storeName": "Šokolaad Kinder Country, FERRERO, 24 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bounty Piimashok bat kookospähkliga 57g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-bounty-57g/",
+        "size": "57g",
+        "ean": "5000159557771",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/40111216.jpg",
+        "storeName": "Piimashok.bat.Bounty 57g kookospähkliga"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-bounty-57-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "57g",
+        "ean": "5000159557771",
+        "storeUnitPrice": 30.7,
+        "storeName": "Šokolaad, BOUNTY, 57 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok anneke 20g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-anneke-20g/",
+        "size": "20g",
+        "ean": "4740012035688",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012035688-1.png",
+        "storeName": "Piimashok.Anneke Kalev 20g"
+      },
+      "selver": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-anneke-kalev-20-g",
+        "cardPrice": 0.65,
+        "cardName": "Partner",
+        "size": "20g",
+        "ean": "4740012035688",
+        "storeUnitPrice": 44.5,
+        "storeName": "Piimašokolaad Anneke, KALEV, 20 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka Piima ja valge shokolaadi segu bubbly 95g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-milka-bubbly-95g/",
+        "size": "95g",
+        "ean": "7622210369543",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7622210371706.png",
+        "storeName": "Piima ja valge shokolaadi segu Milka Bubbly 95g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piima-ja-valge-sokolaadi-segu-bubbly-milka-95g",
+        "size": "95g",
+        "ean": "7622210369543",
+        "storeUnitPrice": 31.47,
+        "storeName": "Piima- ja valge šokolaadi segu Bubbly, MILKA, 95g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nicks kookose batoon shok 40g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nicks-shok-batoon-40g-kookose/",
+        "size": "40g",
+        "ean": "7350104401078",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/7350104401078.png",
+        "storeName": "Nicks Shok.batoon 40g kookose"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kookose-sokolaad-nicks-40-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "40g",
+        "ean": "7350104401078",
+        "storeUnitPrice": 52.25,
+        "storeName": "Kookose šokolaad, NICKS, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nicks maapähkli batoon shok 40g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nicks-shok-batoon-40g-maapahkli/",
+        "size": "40g",
+        "ean": "7350104401085",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/7350104401085.png",
+        "storeName": "Nicks Shok.batoon 40g maapähkli"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maapahkli-fudge-nicks-40-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "40g",
+        "ean": "7350104401085",
+        "storeUnitPrice": 52.25,
+        "storeName": "Maapähkli fudge, NICKS, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Geisha Piimashok fazer karamelli meresoola 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/geisha-piimashok-100g-karam-meresoola/",
+        "size": "100g",
+        "ean": "6416453017207",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/6416453017207.png",
+        "storeName": "Piimashok.Geisha Fazer 100g karamelli-meresoola"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-caramel-sea-salt-geisha-100-g",
+        "size": "100g",
+        "ean": "6416453017207",
+        "storeUnitPrice": 27.5,
+        "storeName": "Piimašokolaad Caramel & Sea Salt, GEISHA, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lion Shok batoon nestle 2x60g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-lion-60g-2-pakk/",
+        "size": "2x60g",
+        "ean": "7613287756633",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7613035317390.jpg",
+        "storeName": "Shok.batoon Lion 2-pakk Nestle 60g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadibatoon-lion-standard-2-pakk-lion-60-g",
+        "size": "2x60g",
+        "ean": "7613287756633",
+        "storeUnitPrice": 16.5,
+        "storeName": "Šokolaadibatoon Lion Standard 2-pakk, LION, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Tume shokolaad kirssidega 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-shok-kalev-kirsi-100g/",
+        "size": "100g",
+        "ean": "4740012037644",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012037644.png",
+        "storeName": "Tume shokolaad Kalev 100g kirssidega"
+      },
+      "selver": {
+        "price": 2.67,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tume-sokolaad-kirssidega-kalev-100-g",
+        "size": "100g",
+        "ean": "4740012037644",
+        "storeUnitPrice": 26.7,
+        "storeName": "Tume šokolaad kirssidega, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Tume tervete metspähklitega shok 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-shok-metspahkli-100g/",
+        "size": "100g",
+        "ean": "4740012037651",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012037651.png",
+        "storeName": "Tume shok.Kalev 100g tervete metspähklitega"
+      },
+      "selver": {
+        "price": 2.67,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tume-sokolaad-tervete-metspahklitega-kalev-100-g-t000072982",
+        "size": "100g",
+        "ean": "4740012037651",
+        "storeUnitPrice": 26.7,
+        "storeName": "Tume šokolaad tervete metspähklitega, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Valge ja õhitud riisiga mustikate shok 95g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/v-shok-mustikaga-95g/",
+        "size": "95g",
+        "ean": "4740012037675",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012037675.png",
+        "storeName": "Valge shok.Kalev 95g mustikate ja õhitud riisiga"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valge-sokolaad-mustika-ja-ohitud-riisiga-kalev-95-g",
+        "size": "95g",
+        "ean": "4740012037675",
+        "storeUnitPrice": 29.37,
+        "storeName": "Valge šokolaad mustika ja õhitud riisiga, KALEV, 95 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Piimashok vahvliga kalev 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-mesikapp-vahvli100g/",
+        "size": "100g",
+        "ean": "4740012037705",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012030164.png",
+        "storeName": "Piimashok.Mesikäpp Kalev 100g vahvliga"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mesikapp-piimasokolaad-vahvliga-kalev-100-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4740012037705",
+        "storeUnitPrice": 26.9,
+        "storeName": "Mesikäpp piimašokolaad vahvliga, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Tume maiuspala täidisega shok 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-tume-shok-maiuspala-100g-taidisega/",
+        "size": "100g",
+        "ean": "4740012037767",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740012037767.png",
+        "storeName": "Tume shok.Maiuspala Kalev 100g täidisega"
+      },
+      "selver": {
+        "price": 2.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maiuspala-taidisega-tume-sokolaad-kalev-100-g",
+        "size": "100g",
+        "ean": "4740012037767",
+        "storeUnitPrice": 29.7,
+        "storeName": "Maiuspala täidisega tume šokolaad, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Tume vana tallinn liköörikr shok täidis 103g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-shok-vana-tallinn-103g/",
+        "size": "103g",
+        "ean": "4740012037798",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012037798.png",
+        "storeName": "Tume shok.Vana Tallinn Kalev 103g liköörikr.täidis"
+      },
+      "selver": {
+        "price": 2.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-vana-tallinn-kalev-103-g",
+        "size": "103g",
+        "ean": "4740012037798",
+        "storeUnitPrice": 28.83,
+        "storeName": "Šokolaad Vana Tallinn, KALEV, 103 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashokolaad eesti 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashokolaad-eesti-100g/",
+        "size": "100g",
+        "ean": "4740012037811",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740012037811-1.png",
+        "storeName": "Piimashokolaad Eesti Kalev 100g"
+      },
+      "selver": {
+        "price": 2.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-eesti-kalev-100-g-t000074056",
+        "size": "100g",
+        "ean": "4740012037811",
+        "storeUnitPrice": 29.7,
+        "storeName": "Piimašokolaad Eesti, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Knoppers Shok nutbar batoon 40g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/knoppers-nutbar-shok-batoon-40g/",
+        "size": "40g",
+        "ean": "40144450",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/40144450.png",
+        "storeName": "Shok.batoon Knoppers NutBar 40g"
+      },
+      "selver": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadibatoon-nutbar-knoppers-40-g",
+        "size": "40g",
+        "ean": "40144450",
+        "storeUnitPrice": 26.25,
+        "storeName": "Šokolaadibatoon Nutbar, KNOPPERS, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer dumle Piimashokolaad karl toffeetükkidega 180g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-dumle-piimashokolaad-180g/",
+        "size": "180g",
+        "ean": "6416453014381",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/6416453014381.png",
+        "storeName": "Piimashokolaad Karl Fazer Dumle 180g"
+      },
+      "selver": {
+        "price": 5.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-dumle-toffeetukkidega-karl-fazer-180-g",
+        "cardPrice": 2.99,
+        "cardName": "Partner",
+        "size": "180g",
+        "ean": "6416453014381",
+        "storeUnitPrice": 29.39,
+        "storeName": "Piimašokolaad Dumle toffeetükkidega, KARL FAZER, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok tervete metspähklitega 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashok-100g-tervete-metspahkl/",
+        "size": "100g",
+        "ean": "4740012037620",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740012037620.png",
+        "storeName": "Piimashok.Kalev 100g tervete metspähklitega"
+      },
+      "selver": {
+        "price": 2.67,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-tervete-metspahklitega-kalev-100-g",
+        "size": "100g",
+        "ean": "4740012037620",
+        "storeUnitPrice": 26.7,
+        "storeName": "Piimašokolaad tervete metspähklitega, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Shok maiuspala batoon pähklitega 40g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-bat-maiuspala-40g/",
+        "size": "40g",
+        "ean": "4740012028581",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012028581.png",
+        "storeName": "Shok.batoon Maiuspala Kalev 40g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maiuspala-batoon-india-pahklitega-kalev-40-g",
+        "size": "40g",
+        "ean": "4740012028581",
+        "storeUnitPrice": 24.75,
+        "storeName": "Maiuspala batoon india pähklitega​, KALEV, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Soolakaramellibatoon piimashokolaadiga 40g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-soolakaramelli-batoon-40g-shok/",
+        "size": "40g",
+        "ean": "4740012028499",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740012028499.png",
+        "storeName": "Soolakaramellibatoon Kalev 40g piimashokolaadiga"
+      },
+      "selver": {
+        "price": 0.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolakaramelli-batoon-piimasokolaadis-kalev-40-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "40g",
+        "ean": "4740012028499",
+        "storeUnitPrice": 24.25,
+        "storeName": "Soolakaramelli batoon piimašokolaadis, KALEV, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mars bat nougatikr piimashok 2x70g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-mars-2-pakk-70g/",
+        "size": "2x70g",
+        "ean": "5900951311215",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000159502955.png",
+        "storeName": "Mars piimashok.bat.2-pakk 70g nougatikr"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-2-pakk-mars-70-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "2x70g",
+        "ean": "5900951311215",
+        "storeUnitPrice": 24.14,
+        "storeName": "Šokolaad 2-pakk, MARS, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Snickers Shok creamy peanut batoon 36.5g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/snickers-creamy-peanut-shok-batoon-36-5g/",
+        "size": "36.5g",
+        "ean": "5900951310430",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/5900951302411.png",
+        "storeName": "Shok.batoon Snickers Creamy Peanut 36.5g"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadibatoon-creamy-peanut-butter-snickers-36-5-g",
+        "size": "36.5g",
+        "ean": "5900951310430",
+        "storeUnitPrice": 36.49,
+        "storeName": "Šokolaadibatoon Creamy Peanut Butter, SNICKERS, 36,5 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer Piimashok soolase karamelli ga tükkidega 180g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-piimash-180g-soolase-karam-tk/",
+        "size": "180g",
+        "ean": "6416453014442",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/6416453014442.png",
+        "storeName": "Piimashok.Karl Fazer 180g soolase karamelli tk-ga"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-soolase-karamelli-tukkidega-karl-fazer-180-g",
+        "size": "180g",
+        "ean": "6416453014442",
+        "storeUnitPrice": 19.39,
+        "storeName": "Piimašokolaad soolase karamelli tükkidega, KARL FAZER, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Twix Shok bat ga ja karam küpsis 5x250g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/twix-shok-bat-5-pakk-250g-karam-kupsis/",
+        "size": "5x250g",
+        "ean": "5000159559331",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/5000159451666.png",
+        "storeName": "Shok.bat.Twix 5-pakk 250g karam.ja küpsis shok-ga."
+      },
+      "selver": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadide-5-pakk-twix-250-g",
+        "size": "5x250g",
+        "ean": "5000159559331",
+        "storeUnitPrice": 20.36,
+        "storeName": "Šokolaadide 5-pakk, TWIX, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Snickers Shok batoon nougatikreemiga 5x250g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/snickers-shok-bat-5-pakk-250g-nougatikr/",
+        "size": "5x250g",
+        "ean": "5000159560498",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/5000159452540.png",
+        "storeName": "Shok.batoon Snickers 5-pakk 250g nougatikreemiga"
+      },
+      "selver": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadide-5-pakk-snickers-250-g",
+        "size": "5x250g",
+        "ean": "5000159560498",
+        "storeUnitPrice": 20.36,
+        "storeName": "Šokolaadide 5-pakk, SNICKERS, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Shok maapähkli batoon ja karamelliga 50g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-shok-batoon-50g-maapahklikaramell/",
+        "size": "50g",
+        "ean": "4740012600312",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740012600312.png",
+        "storeName": "Shok.batoon Kalev 50g maapähkli ja karamelliga"
+      },
+      "selver": {
+        "price": 0.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maapahkli-karamelli-batoon-kalev-50-g",
+        "size": "50g",
+        "ean": "4740012600312",
+        "storeUnitPrice": 19.4,
+        "storeName": "Maapähkli karamelli batoon, KALEV, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Shok brownie karamelli metspähkli batoon 50g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-shok-batoon-brownie-50g-karamelli/",
+        "size": "50g",
+        "ean": "4740012600329",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740012600329.png",
+        "storeName": "Shok.batoon Kalev brownie 50g karamelli,metspähkli"
+      },
+      "selver": {
+        "price": 0.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/brownie-karamelli-metspahkli-batoon-kalev-50-g",
+        "size": "50g",
+        "ean": "4740012600329",
+        "storeUnitPrice": 19.4,
+        "storeName": "Brownie karamelli metspähkli batoon, KALEV, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Snickers Shok super batoon 1 112.5g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/snickers-shok-bat-super1-112-5g/",
+        "size": "112.5g",
+        "ean": "5900951310843",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/5900951286186.jpg",
+        "storeName": "Shok.batoon Snickers Super+1 112.5g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaad-super-1-snickers-112-5-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "112.5g",
+        "ean": "5900951310843",
+        "storeUnitPrice": 22.04,
+        "storeName": "Šokolaad Super+1, SNICKERS, 112,5 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Täispiimashok nurr 190g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-taispiimashok-nurr-190g/",
+        "size": "190g",
+        "ean": "4740012600947",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600947.png",
+        "storeName": "Täispiimashok.Nurr Kalev 190g"
+      },
+      "selver": {
+        "price": 4.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nurr-kassikaline-piimasokolaad-kalev-190-g",
+        "size": "190g",
+        "ean": "4740012600947",
+        "storeUnitPrice": 26.16,
+        "storeName": "Nurr kassikaline piimašokolaad, KALEV, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok nurr mullidega õhuline 65g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashok-nurr-ohuline-65g-mulliga/",
+        "size": "65g",
+        "ean": "4740012601111",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012601111.png",
+        "storeName": "Piimashok.Nurr õhuline Kalev 65g mullidega"
+      },
+      "selver": {
+        "price": 1.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nurr-mullidega-ohuline-piimasokolaad-kalev-65-g",
+        "size": "65g",
+        "ean": "4740012601111",
+        "storeUnitPrice": 30.31,
+        "storeName": "Nurr mullidega õhuline piimašokolaad, KALEV, 65 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Täispiimashok nurr 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-taispiimashok-nurr-100g/",
+        "size": "100g",
+        "ean": "4740012601104",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012601104.png",
+        "storeName": "Täispiimashok.Nurr Kalev 100g"
+      },
+      "selver": {
+        "price": 1.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nurr-kassikaline-piimasokolaad-kalev-100-g",
+        "size": "100g",
+        "ean": "4740012601104",
+        "storeUnitPrice": 19.7,
+        "storeName": "Nurr kassikaline piimašokolaad, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok kalevipoeg mandlitega 270g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimash-kalevipoeg-270g-mandlitega/",
+        "size": "270g",
+        "ean": "4740012601005",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740012601005.png",
+        "storeName": "Piimashok.Kalevipoeg Kalev 270g mandlitega"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalevipoeg-piimasokolaad-purustatud-mandlitega-kalev-270-g",
+        "size": "270g",
+        "ean": "4740012601005",
+        "storeUnitPrice": 26.93,
+        "storeName": "Kalevipoeg piimašokolaad purustatud mandlitega, KALEV, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok linda metspähklitega 270g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashok-linda270g-metspahklitega/",
+        "size": "270g",
+        "ean": "4740012601012",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740012601012.png",
+        "storeName": "Piimashok.Linda Kalev 270g metspähklitega"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/linda-piimasokolaad-purustatud-metspahklitega-kalev-270-g",
+        "size": "270g",
+        "ean": "4740012601012",
+        "storeUnitPrice": 26.93,
+        "storeName": "Linda piimašokolaad purustatud metspähklitega, KALEV, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Tume suur tõll tervete metspähkli shok metspähklitega 270g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-tume-shok-suur-toll-270g-metspahkl/",
+        "size": "270g",
+        "ean": "4740012601036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740012601036.png",
+        "storeName": "Tume shok.Kalev Suur Tõll 270g tervete metspähkli"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suur-toll-tume-sokolaad-tervete-metspahklitega-kalev-270-g",
+        "size": "270g",
+        "ean": "4740012601036",
+        "storeUnitPrice": 26.93,
+        "storeName": "Suur Tõll tume šokolaad tervete metspähklitega, KALEV, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok piret tervete metspähklitega 270g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashok-piret270g-metspahklitega/",
+        "size": "270g",
+        "ean": "4740012601043",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740012601043.png",
+        "storeName": "Piimashok.Piret Kalev 270g tervete metspähklitega"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piret-piimasokolaad-tervete-metspahklitega-kalev-270-g",
+        "size": "270g",
+        "ean": "4740012601043",
+        "storeUnitPrice": 26.93,
+        "storeName": "Piret piimašokolaad tervete metspähklitega, KALEV, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Tume leiger tervete mandlitega shok 270g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-t-shok-leiger-270g-tervete-mandlit/",
+        "size": "270g",
+        "ean": "4740012601050",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740012601050.png",
+        "storeName": "Tume shok.Leiger Kalev 270g tervete mandlitega"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/leiger-tume-sokolaad-tervete-mandlitega-kalev-270-g",
+        "size": "270g",
+        "ean": "4740012601050",
+        "storeUnitPrice": 26.93,
+        "storeName": "Leiger tume šokolaad tervete mandlitega, KALEV, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok saarepiiga leiva ja jõhvikaga 270g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-shok-saarepiiga-270g-leivajohvika/",
+        "size": "270g",
+        "ean": "4740012601067",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740012601067.png",
+        "storeName": "Piimashok.Saarepiiga Kalev 270g leiva ja jõhvikaga"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/saarepiiga-piimasokolaad-leiva-ja-johvikatega-kalev-270-g",
+        "size": "270g",
+        "ean": "4740012601067",
+        "storeUnitPrice": 26.93,
+        "storeName": "Saarepiiga piimašokolaad leiva ja jõhvikatega, KALEV, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Tume metspähklitega shok 270g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 6.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-tume-shok-270g-metspahklitega/",
+        "size": "270g",
+        "ean": "4740012600992",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740012600992.png",
+        "storeName": "Tume shok.Kalev 270g metspähklitega"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tume-sokolaad-purustatud-metspahklitega-kalev-270-g",
+        "size": "270g",
+        "ean": "4740012600992",
+        "storeUnitPrice": 26.93,
+        "storeName": "Tume šokolaad purustatud metspähklitega, KALEV, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok purustatud metspähklitega 190g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashok-190g-metspahklitega/",
+        "size": "190g",
+        "ean": "4740012600893",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740012600893.png",
+        "storeName": "Piimashok.Kalev 190g purustatud metspähklitega"
+      },
+      "selver": {
+        "price": 4.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-purustatud-metspahklitega-kalev-190-g",
+        "size": "190g",
+        "ean": "4740012600893",
+        "storeUnitPrice": 26.16,
+        "storeName": "Piimašokolaad purustatud metspähklitega, KALEV, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimashok tervete metspähklitega 190g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-piimashok-190g-tervete-metspahkl/",
+        "size": "190g",
+        "ean": "4740012600909",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600909.png",
+        "storeName": "Piimashok.Kalev 190g tervete metspähklitega"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-tervete-metspahklitega-kalev-190-g",
+        "size": "190g",
+        "ean": "4740012600909",
+        "storeUnitPrice": 26.26,
+        "storeName": "Piimašokolaad tervete metspähklitega, KALEV, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Valge õhitud ja mustikate riisiga shok 190g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-v-shok-190g-ohitud-riisi-mustikaga/",
+        "size": "190g",
+        "ean": "4740012600930",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600930.png",
+        "storeName": "Valge shok.Kalev 190g mustikate ja õhitud riisiga"
+      },
+      "selver": {
+        "price": 4.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valge-sokolaad-ohitud-riisi-ja-mustikaga-kalev-190-g",
+        "size": "190g",
+        "ean": "4740012600930",
+        "storeUnitPrice": 26.16,
+        "storeName": "Valge šokolaad õhitud riisi ja mustikaga, KALEV, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer Piimashok marjadega punaste 180g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 5.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-fazer-shok-180g-punaste-marjadega/",
+        "size": "180g",
+        "ean": "6416453014794",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/08/6416453014794.png",
+        "storeName": "Piimashok.Karl Fazer 180g punaste marjadega"
+      },
+      "selver": {
+        "price": 5.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/red-berries-karl-fazer-180-g",
+        "cardPrice": 2.99,
+        "cardName": "Partner",
+        "size": "180g",
+        "ean": "6416453014794",
+        "storeUnitPrice": 28.83,
+        "storeName": "Red Berries, KARL FAZER, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Kamatahvel mustikate ja küpsistega 100g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kamatahvel-100g-mustikakupsistega/",
+        "size": "100g",
+        "ean": "4740012601159",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012601159.png",
+        "storeName": "Kamatahvel Kalev 100g mustikate ja küpsistega"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kamatahvel-mustikate-ja-kupsistega-kalev-100-g",
+        "size": "100g",
+        "ean": "4740012601159",
+        "storeUnitPrice": 14.9,
+        "storeName": "Kamatahvel mustikate ja küpsistega, KALEV, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milka piimashok 45g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milka-piimashok-45g/",
+        "size": "45g",
+        "ean": "7622202323461",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/7622202323461.png",
+        "storeName": "Milka piimashok.45g"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-milka-45-g",
+        "size": "45g",
+        "ean": "7622202323461",
+        "storeUnitPrice": 34.44,
+        "storeName": "Piimašokolaad, MILKA, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dumle Shok crispy twins batoon 40g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-batoon-crispy-twins-dumle-40g/",
+        "size": "40g",
+        "ean": "6416453076969",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/08/6416453076969.png",
+        "storeName": "Shok.batoon Crispy Twins Dumle 40g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadibatoon-crispy-twins-dumle-40g",
+        "size": "40g",
+        "ean": "6416453076969",
+        "storeUnitPrice": 32.25,
+        "storeName": "Šokolaadibatoon Crispy Twins, DUMLE, 40g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer Piimashok purustatud metsapähklitega 95g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-fazer-shok-95g-purustatud-m-pahklitega/",
+        "size": "95g",
+        "ean": "6416453056114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/6416453056114.png",
+        "storeName": "Piimashok.Karl Fazer95g purustatud metsapähklitega"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/purustatud-metsapahklitega-piimasokolaad-karl-fazer-95g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "95g",
+        "ean": "6416453056114",
+        "storeUnitPrice": 31.47,
+        "storeName": "Purustatud metsapähklitega piimašokolaad, KARL FAZER, 95g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer Piimashok piparmünditükikestega 95g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-fazer-shok-95g-piparmunditukikestega/",
+        "size": "95g",
+        "ean": "6416453056169",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/6416453056169.png",
+        "storeName": "Piimashok.Karl Fazer 95g piparmünditükikestega"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-piparmunditukikestega-karl-fazer-95g",
+        "size": "95g",
+        "ean": "6416453056169",
+        "storeUnitPrice": 20.95,
+        "storeName": "Piimašokolaad piparmünditükikestega, KARL FAZER, 95g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer Valge ja piimashokolaad 131g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-valge-ja-piimashokolaad-131g/",
+        "size": "131g",
+        "ean": "6416453015630",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/07/6416453015630.png",
+        "storeName": "Valge ja piimashokolaad Karl Fazer 131g"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valge-ja-piimasokolaad-karl-fazer-131g",
+        "size": "131g",
+        "ean": "6416453015630",
+        "storeUnitPrice": 26.64,
+        "storeName": "Valge - ja piimašokolaad, KARL FAZER, 131g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kitkat Piimashok nestle 99g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kitkat-piimashok-99g/",
+        "size": "99g",
+        "ean": "3800020403181",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/3800020403181.png",
+        "storeName": "Piimashok.KitKat Nestle 99g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaadtahvel-kit-kat-99g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "99g",
+        "ean": "3800020403181",
+        "storeUnitPrice": 26.16,
+        "storeName": "Piimašokolaadtahvel, KIT KAT, 99g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marabou mandliga piimashok soolase 170g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marabou-piimashok-170g-soolase-mandliga/",
+        "size": "170g",
+        "ean": "7622202271557",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/7622202271557.png",
+        "storeName": "Marabou piimashok. 170g soolase mandliga"
+      },
+      "selver": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaad-soolamandliga-marabou-170g",
+        "size": "170g",
+        "ean": "7622202271557",
+        "storeUnitPrice": 27.59,
+        "storeName": "Piimašokolaad  soolamandliga, MARABOU, 170g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kitkat Shok chunky batoon nestle 40g",
+    "category": "Chocolate",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kitkat-chunky-shok-batoon-40g/",
+        "size": "40g",
+        "ean": "3800020423578",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/3800020423578.jpg",
+        "storeName": "Shok.batoon KitKat Chunky Nestle 40g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/shokolaad-kitkat-chunky-kitkat-40-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "40g",
+        "ean": "3800020423578",
+        "storeUnitPrice": 32.25,
+        "storeName": "Shokolaad KitKat Chunky, KITKAT, 40 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Haribo Kummikommid pico balla 85g",

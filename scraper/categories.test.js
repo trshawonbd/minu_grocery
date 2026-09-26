@@ -333,6 +333,14 @@ const results = [
     assert.equal(buildItem("Wine", "Rimi", "Vein 0,75l").alcoholMatching, true);
     assert.equal(buildItem("Dairy", "Rimi", "Piim 1l").alcoholMatching, undefined);
   }),
+  test("pieceCountSizes is on for Dairy (eggs) and Household (paper) only, and buildItem carries it", () => {
+    const { pieceCountSizesFor, buildItem } = require("./categories");
+    assert.equal(pieceCountSizesFor("Dairy"), true);
+    assert.equal(pieceCountSizesFor("Household"), true);
+    for (const name of ["Baby formula", "Diapers & baby wipes", "Drinks", "Personal care", "Cakes & pastries"]) assert.equal(pieceCountSizesFor(name), false, name);
+    assert.equal(buildItem("Household", "Rimi", "Tualettpaber 8 rulli").pieceCountSizes, true);
+    assert.equal(buildItem("Drinks", "Rimi", "Vesi 1l").pieceCountSizes, undefined);
+  }),
   test("Alcohol-free filter: required on every alcohol-free source (every store abbreviation, 0,0%, Zero/Null names; sparkling juice drinks on the same shelf fail), excluded from every alcohol source — so a 0,0% beer is never in the alcohol pool", () => {
     const category = (name) => CATEGORIES.find((c) => c.name === name);
     const freeBarbora = category("Alcohol-free beer, cider & wine").urls.barbora[0].nameFilter;

@@ -1313,6 +1313,45 @@ const tests = [
     },
   },
   {
+    name: "Eggs (Dairy, pieceCountSizes): the piece count is the size — '10tk', Rimi's fused 'M10', Selver's '10 tk' all read 10tk — the size letter must agree (M ≠ L), 10 ≠ 15, Barbora's brand-less Dava is the known brand, free-range spellings meet, and the name shows the letter as 'M'",
+    run: () => {
+      const egg = (store, name, brand) => buildItem("Dairy", store, name, { brand });
+      const b = egg("Barbora", "Õrrekanade munad M DAVA 10tk");
+      const r = egg("Rimi", "Õrrekanade munad Dava M10", "Dava");
+      const s = egg("Selver", "Õrrekanade munad M10, DAVA, 10 tk", "DAVA");
+      assert.equal(extractSize("Õrrekanade munad Dava M10", { pieceCounts: true }), "10tk");
+      assert.equal(extractSize("Õrrekanade munad Dava M10"), null, "only a category that opted in reads counts");
+      assert.equal(sameProduct(b, r), true);
+      assert.equal(sameProduct(r, s), true);
+      assert.equal(sameProduct(b, s), true);
+      assert.equal(sameProduct(egg("Barbora", "Õrrekanade munad L DAVA 10tk"), s), false, "L is not M");
+      assert.equal(sameProduct(egg("Selver", "Õrrekanade munad M15, DAVA, 15 tk", "DAVA"), s), false, "15 is not 10");
+      assert.equal(sameProduct(egg("Rimi", "Vabapidamisel kanade munad Kodutalu 10tk", "Kodutalu"), egg("Selver", "Vabalt peetavate kanade munad, KODUTALU, 10 tk", "KODUTALU")), true, "free-range spellings, 'kanamunad'/'kanade' folded");
+      assert.equal(sameProduct(egg("Rimi", "Õrrekanade munad Kodutalu M10", "Kodutalu"), egg("Selver", "Vabalt peetavate kanade munad, KODUTALU, 10 tk", "KODUTALU")), false, "barn is not free-range");
+      const { matches } = matchPool([b, r, s]);
+      assert.equal(matches.length, 1);
+      assert.equal(matches[0].canonicalName, "Dava Õrrekanade munad M 10tk");
+    },
+  },
+  {
+    name: "Paper (Household, pieceCountSizes): rolls are the size ('8rl' = '8 rulli' = '8rul.' ≠ '24rl'), ply is a variant ('3kih' = '3-kihiline' = '3k.' ≠ 2-ply), '300l' on paper is 300 sheets not litres, tissues '10x9tk' are a multipack, a one-sided count never matches, and a formula's '6k' age marker is untouched",
+    run: () => {
+      const paper = (store, name, brand) => buildItem("Household", store, name, { brand });
+      assert.equal(extractSize("Tualettpaber Zewa Deluxe Pure White 3k. 8rul.", { pieceCounts: true }), "8rl");
+      assert.equal(extractSize("Majapidamispaber BLOOM Regular 2kih 300l", { pieceCounts: true }), "300lehte");
+      assert.equal(extractSize("Majapidamispaber BLOOM Regular 2kih 300l"), "300000ml", "without the flag the old litre reading stands (no category without paper uses it)");
+      assert.equal(extractSize("Taskurätikud ZEWA Softis 4kih, 10x9tk", { pieceCounts: true }), "10x9tk");
+      assert.equal(extractVariant("Tualettpaber Rimi 8 rulli, 3 kihiline", { pieceCounts: true }), "3kih");
+      assert.equal(extractVariant("Piimasegu Aptamil 2 al. 6k 400g"), "2", "Baby formula reads no ply");
+      assert.equal(sameProduct(paper("Barbora", "Tualettpaber ZEWA Deluxe 3kih 8rl", "ZEWA"), paper("Rimi", "Tualettpaber Zewa Deluxe 3 kihiline 8 rulli", "Zewa")), true);
+      assert.equal(sameProduct(paper("Barbora", "Tualettpaber ZEWA Deluxe 3kih 8rl", "ZEWA"), paper("Rimi", "Tualettpaber Zewa Deluxe 2 kihiline 8 rulli", "Zewa")), false, "2-ply is not 3-ply");
+      assert.equal(sameProduct(paper("Barbora", "WC-paber ZEWA Deluxe White 3kih 24rl", "ZEWA"), paper("Rimi", "Tualettpaber Zewa Deluxe Pure White 3k. 8rul.", "Zewa")), false, "24 rolls is not 8");
+      assert.equal(sameProduct(paper("Barbora", "Tualettpaber ZEWA Deluxe 3kih", "ZEWA"), paper("Rimi", "Tualettpaber Zewa Deluxe 3 kihiline 8 rulli", "Zewa")), false, "no count on one side — unsure");
+      assert.equal(sameProduct(paper("Barbora", "Majapidamispaber ZEWA Premium 2kih 2rl", "ZEWA"), paper("Selver", "Majapidamispaber Premium, 2-kihiline, ZEWA, 2 rl", "ZEWA")), true);
+      assert.equal(matchItems(paper("Barbora", "Tualettpaber ZEWA Deluxe 3kih 8rl", "ZEWA"), paper("Rimi", "Tualettpaber Zewa Deluxe 3 kihiline 8 rulli", "Zewa")).canonicalName, "Zewa Tualettpaber deluxe 3-kihiline 8rl");
+    },
+  },
+  {
     name: "Beer: 'Hele õlu' as the type phrase folds to 'õlu' (Barbora/Selver's lager prefix vs Rimi's plain 'Õlu'), but a product's own 'Hele' (Saku Hele) stays its name — it matches itself across stores and never Saku Kuld",
     run: () => {
       const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });

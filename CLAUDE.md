@@ -257,6 +257,20 @@ the owner.
   source and required on every alcohol-free source
   (`ALCOHOL_FREE_PATTERN`), so "0,0%" can never be pooled with its
   alcoholic twin.
+- **Piece-count sizes (2026-09-27)**: eggs and paper products have
+  no weight/volume in their names, only a count — "10tk", Rimi's
+  fused "M10", "8 rulli", "300 lehte" — so the strict path (size
+  needed on both sides) never matched one, and the app's Munad and
+  Paberitooted tiles stayed empty. `pieceCountSizes` in
+  `scraper/categories.js` (Dairy, Household only) reads the count as
+  the size (10tk ≠ 15tk, 8rl ≠ 24rl, "10x9tk" tissues a multipack),
+  the ply as a variant ("3-kihiline" ≠ 2-ply), a paper "300l" as
+  sheets not litres, and the egg size letter (M/L) stays a real word.
+  Other categories are untouched by it on purpose (a "4tk" in Cakes
+  or Candy would create new matches there — the owner's call if ever
+  wanted). Many paper products still don't match because the stores
+  describe them differently ("Pure White" vs "White") — missing, not
+  wrong.
 - **Per-category implied words**: a word true of every item in a
   category (`impliedDescriptors` in `scraper/categories.js` —
   "külmutatud" in the frozen categories, Pasta's generic

@@ -281,6 +281,11 @@ const CATEGORIES = [
     // same way, so the two stores' url lists aren't the same length —
     // expected, not a bug.
     name: "Dairy",
+    // Eggs are sold by count ("10tk", "M10") — see pieceCountSizes /
+    // matchSize in match-products.js; "tk" left over after the count
+    // is read is implied.
+    pieceCountSizes: true,
+    impliedDescriptors: ["tk"],
     urls: {
       barbora: [
         "https://barbora.ee/piimatooted-ja-munad/piimad/piimad",
@@ -1450,6 +1455,11 @@ const CATEGORIES = [
     // at the same brand and pack size matched as the same listing
     // without it.
     name: "Household",
+    // Paper products are sold by roll/sheet/piece count and ply — see
+    // pieceCountSizes / LAYER_PATTERN in match-products.js; the count
+    // and ply words left over once the numbers are read are implied.
+    pieceCountSizes: true,
+    impliedDescriptors: ["tk", "rl", "rul", "rull", "rulli", "rullid", "kih", "kihiline", "kihilist", "kihilised", "lehte", "leh"],
     urls: {
       barbora: [
         "https://barbora.ee/puhastustarbed-ja-lemmikloomatooted/majapidamis-ja-koristustarbed/majapidamispaberid",
@@ -1781,6 +1791,18 @@ function alcoholMatchingFor(categoryName) {
   return category.alcoholMatching === true;
 }
 
+// Whether a category reads piece/roll/sheet counts as the size and ply
+// as a variant (Dairy for eggs, Household for paper) — see matchSize in
+// match-products.js. Off unless a category opts in; throws on an
+// unknown name like the others.
+function pieceCountSizesFor(categoryName) {
+  const category = CATEGORIES.find((c) => c.name === categoryName);
+  if (!category) {
+    throw new Error(`Unknown category "${categoryName}". Known categories: ${CATEGORIES.map((c) => c.name).join(", ")}`);
+  }
+  return category.pieceCountSizes === true;
+}
+
 function buildItem(categoryName, store, name, extra = {}) {
   const item = { store, name, price: 0, currency: "EUR", url: "x", ean: null, ...extra };
   if (strictPackagingFor(categoryName)) item.strictPackaging = true;
@@ -1788,9 +1810,10 @@ function buildItem(categoryName, store, name, extra = {}) {
   if (diaperMatchingFor(categoryName)) item.diaperMatching = true;
   if (fixedWeightMustMatchFor(categoryName)) item.fixedWeightMustMatch = true;
   if (alcoholMatchingFor(categoryName)) item.alcoholMatching = true;
+  if (pieceCountSizesFor(categoryName)) item.pieceCountSizes = true;
   const implied = impliedDescriptorsFor(categoryName);
   if (implied.length > 0) item.impliedDescriptors = implied;
   return item;
 }
 
-module.exports = { CATEGORIES, ALCOHOL_CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, fixedWeightMustMatchFor, alcoholMatchingFor, impliedDescriptorsFor, buildItem };
+module.exports = { CATEGORIES, ALCOHOL_CATEGORIES, strictPackagingFor, matchAcrossWeightsFor, diaperMatchingFor, fixedWeightMustMatchFor, alcoholMatchingFor, pieceCountSizesFor, impliedDescriptorsFor, buildItem };

@@ -95,6 +95,7 @@ async function main() {
       diaperMatching: category.diaperMatching === true,
       fixedWeightMustMatch: category.fixedWeightMustMatch === true,
       alcoholMatching: category.alcoholMatching === true,
+      pieceCountSizes: category.pieceCountSizes === true,
       impliedDescriptors: category.impliedDescriptors || [],
       resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
     });

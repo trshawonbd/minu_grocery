@@ -62,14 +62,17 @@ const UNIT_PRICE_SIZE_PATTERN = /^(\d+(?:\.\d+)?)(?:x(\d+(?:\.\d+)?))?(g|ml)$/;
 // weight ("17000g"), and this function turned it into a nonsense
 // "€/kg" line. The scraper no longer writes that; this is the display
 // side of the same fix.
-const PIECE_COUNT_SIZE_PATTERN = /^(\d+)tk$/;
+// "10tk" (eggs, diapers), "10x9tk" (tissues), "8rl" (toilet paper)
+// — priced per piece / per roll. A sheet count ("300lehte") gets no
+// unit price.
+const PIECE_COUNT_SIZE_PATTERN = /^(?:(\d+)x)?(\d+)(tk|rl)$/;
 
 function unitPrice(entry) {
   if (!entry.size) return null;
   const pieces = entry.size.match(PIECE_COUNT_SIZE_PATTERN);
   if (pieces) {
-    const count = parseInt(pieces[1], 10);
-    return count > 0 ? { value: entry.price / count, unit: "tk" } : null;
+    const count = (pieces[1] ? parseInt(pieces[1], 10) : 1) * parseInt(pieces[2], 10);
+    return count > 0 ? { value: entry.price / count, unit: pieces[3] } : null;
   }
   const match = entry.size.match(UNIT_PRICE_SIZE_PATTERN);
   if (!match) return null;

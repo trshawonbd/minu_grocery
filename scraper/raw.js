@@ -37,13 +37,13 @@ function writeJson(filePath, value) {
 // resultsByStore: { Barbora: [...], Rimi: [...], Selver: [...] } —
 // the arrays exactly as the store modules returned them, so call this
 // before anything (signatures, strictPackaging) is added to the items.
-function writeRaw(category, { order, strictPackaging, matchAcrossWeights, diaperMatching, fixedWeightMustMatch = false, alcoholMatching = false, impliedDescriptors = [], resultsByStore }, { dir = RAW_DIR, fetchedAt = new Date().toISOString() } = {}) {
+function writeRaw(category, { order, strictPackaging, matchAcrossWeights, diaperMatching, fixedWeightMustMatch = false, alcoholMatching = false, pieceCountSizes = false, impliedDescriptors = [], resultsByStore }, { dir = RAW_DIR, fetchedAt = new Date().toISOString() } = {}) {
   const categoryDir = path.join(dir, slug(category));
   fs.mkdirSync(categoryDir, { recursive: true });
   for (const [store, items] of Object.entries(resultsByStore)) {
     writeJson(path.join(categoryDir, `${store.toLowerCase()}.json`), items);
   }
-  writeJson(path.join(categoryDir, "meta.json"), { category, order, strictPackaging, matchAcrossWeights, diaperMatching, fixedWeightMustMatch, alcoholMatching, impliedDescriptors, fetchedAt });
+  writeJson(path.join(categoryDir, "meta.json"), { category, order, strictPackaging, matchAcrossWeights, diaperMatching, fixedWeightMustMatch, alcoholMatching, pieceCountSizes, impliedDescriptors, fetchedAt });
 }
 
 // Every category in data/raw/, in the order fetch-price.js lists them:
@@ -88,6 +88,7 @@ function loadRawPool(category, options) {
     if (found.diaperMatching) item.diaperMatching = true;
     if (found.fixedWeightMustMatch) item.fixedWeightMustMatch = true;
     if (found.alcoholMatching) item.alcoholMatching = true;
+    if (found.pieceCountSizes) item.pieceCountSizes = true;
     if (Array.isArray(found.impliedDescriptors) && found.impliedDescriptors.length > 0) {
       item.impliedDescriptors = found.impliedDescriptors;
     }

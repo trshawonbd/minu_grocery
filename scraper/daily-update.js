@@ -156,6 +156,7 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
       diaperMatching: category.diaperMatching === true,
       fixedWeightMustMatch: category.fixedWeightMustMatch === true,
       alcoholMatching: category.alcoholMatching === true,
+      pieceCountSizes: category.pieceCountSizes === true,
       impliedDescriptors: category.impliedDescriptors || [],
       resultsByStore: rawToWrite,
     });

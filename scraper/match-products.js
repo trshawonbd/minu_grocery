@@ -442,6 +442,7 @@ const KNOWN_BRANDS = [
   "Intsu",
   "Võiste Aiand",
   "WELL DONE",
+  "DAVA", // eggs — Barbora prints no brand field on its Dava eggs
   "Laheotsa",
   "Bimi",
   "Tasty Home",
@@ -506,11 +507,44 @@ function isProduceItem(name, { strictPackaging = false } = {}) {
   return matchProduceType(name) !== null;
 }
 
-function matchSize(name) {
+// Piece-count sizes — for the categories that opt in (pieceCountSizes
+// in scraper/categories.js: Dairy for eggs, Household for paper). Eggs
+// and toilet paper have no weight or volume in their names at all, only
+// a count ("10tk", "M10", "8 rulli", "300 lehte"), so the strict path
+// (which needs a size on both sides) never matched a single egg or
+// roll of paper — found because the app's Munad and Paberitooted
+// tiles stayed empty. The count IS the size here: "10tk" ≠ "15tk",
+// "8rl" ≠ "12rl", "10x9tk" (tissues) is a multipack. A paper
+// product's "300l" is 300 sheets ("lehte"), never 300 litres — checked
+// before the litre pattern for paper names only.
+const PAPER_NAME_PATTERN = /paber|rätik|rätt|salvrät|taskur/i;
+const EGG_FUSED_COUNT_PATTERN = /(?<=(?:^|[\s,/])(?:XL|L|M|S))(\d{1,2})(?![\d\p{L}])/u;
+const COUNT_SIZE_PATTERNS = [
+  { pattern: /(\d+)\s*[x×*]\s*(\d+)\s*(?:tk|tük\p{L}*)\.?(?![\p{L}])/iu, value: (m) => `${m[1]}x${m[2]}tk` },
+  { pattern: /(\d+)\s*(?:tk|tük\p{L}*)\.?(?![\p{L}])/iu, value: (m) => `${m[1]}tk` },
+  { pattern: /(\d+)\s*(?:rl|rul\p{L}*)\.?(?![\p{L}])/iu, value: (m) => `${m[1]}rl` },
+];
+const SHEET_COUNT_PATTERN = /(\d+)\s*(?:lehte|leh\.?|l)(?![\p{L}])/iu;
+
+function countSize(name, allowSheets) {
+  const patterns = allowSheets ? [...COUNT_SIZE_PATTERNS, { pattern: SHEET_COUNT_PATTERN, value: (m) => `${m[1]}lehte` }] : COUNT_SIZE_PATTERNS;
+  for (const { pattern, value } of patterns) {
+    const match = name.match(pattern);
+    if (match) return { raw: match[0], value: value(match), index: match.index, count: true };
+  }
+  const egg = name.match(EGG_FUSED_COUNT_PATTERN);
+  return egg ? { raw: egg[0], value: `${egg[1]}tk`, index: egg.index, count: true } : null;
+}
+
+function matchSize(name, { pieceCounts = false } = {}) {
   // `raw`/`index` always describe the FULL matched span, for callers
   // that blank it out of the text (extractVariant, extractProduceVariant);
   // `value` is the normalized size those callers don't care about but
   // extractSize returns.
+  if (pieceCounts && PAPER_NAME_PATTERN.test(name)) {
+    const paper = countSize(name, true);
+    if (paper) return paper;
+  }
   const splitMatch = name.match(SPLIT_WEIGHT_PATTERN);
   if (splitMatch) {
     return { raw: splitMatch[0], value: `${splitMatch[1]}${splitMatch[2]}`, index: splitMatch.index };
@@ -522,7 +556,7 @@ function matchSize(name) {
       return { raw: match[0], value: match[0], index: match.index };
     }
   }
-  return null;
+  return pieceCounts ? countSize(name, false) : null;
 }
 
 function extractKnownBrand(name) {
@@ -597,9 +631,10 @@ function normalizeSizeValue(rawValue) {
   return mult === 1 ? `${each}${unit}` : `${mult}x${each}${unit}`;
 }
 
-function extractSize(name) {
-  const size = matchSize(name);
+function extractSize(name, options = {}) {
+  const size = matchSize(name, options);
   if (!size) return null;
+  if (size.count) return size.value;
   const normalized = normalizeSizeValue(size.value);
   // A separate "N-pakk" count turns a single size into that multipack
   // (see PACK_COUNT_PATTERN); a size that already is one keeps it.
@@ -623,7 +658,16 @@ function extractVintage(name) {
   return match ? match[1] : null;
 }
 
-function extractVariant(name) {
+// Paper's ply count ("3-kihiline", "2kih", "3k.") — a real difference
+// (2-ply is not 3-ply), only read in the piece-count categories so a
+// formula's age marker ("al. 6k") is never mistaken for it.
+const LAYER_PATTERN = /(?<![\d])(\d)\s*-?\s*(?:kih\p{L}*|k\.)(?![\p{L}])/iu;
+
+function extractVariant(name, { pieceCounts = false } = {}) {
+  if (pieceCounts) {
+    const layers = name.match(LAYER_PATTERN);
+    if (layers) return `${layers[1]}kih`;
+  }
   for (const { pattern, token } of NAMED_VARIANTS) {
     const match = name.match(pattern);
     if (match) {
@@ -634,7 +678,7 @@ function extractVariant(name) {
   // Blank out the size match first so its digits (e.g. the "800" in
   // "800g") can't be mistaken for a stage number.
   let text = name;
-  const size = matchSize(name);
+  const size = matchSize(name, { pieceCounts });
   if (size) {
     text = name.slice(0, size.index) + " ".repeat(size.raw.length) + name.slice(size.index + size.raw.length);
   }
@@ -865,6 +909,13 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   // fat % does); "alk." alone ("alk.0,0%vol") is the same leftover.
   ["vol", ""],
   ["alk", ""],
+  // Eggs: "kanamunad" (hen eggs) is "munad"; free-range in every
+  // spelling ("vabapidamisel", "vabapidamise", "vabalt peetavate",
+  // Barbora's "vab.peet.") is one word; "kanade" (of hens) adds nothing.
+  ["kanamunad", "munad"],
+  ["vabapidamisel", "vabapidamis"],
+  ["vabapidamise", "vabapidamis"],
+  ["kanade", ""],
   // The letters of an age statement ("12YO", "3 Year") — the age
   // itself is the variant (see NAMED_VARIANTS), shown as "12YO".
   ["yo", ""],
@@ -944,6 +995,7 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
   // implied word instead erased the name: first scrape showed "Saku
   // pudel 5.2% 500ml".)
   { regex: /(?<![\p{L}])hele\s+õlu(?![\p{L}])/giu, replacement: "õlu" },
+  { regex: /(?<![\p{L}])(?:vab\.\s*peet\.|vabalt\s+peetavate)/giu, replacement: "vabapidamis" },
 ].concat(WORD_NORMALIZATION_REGEXES).concat([
   // "marin" also needs to strip as a SUFFIX on a flavour word
   // compounded directly onto it with no separator, Barbora's own
@@ -968,15 +1020,15 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
 // Applied after normalization, whole-word, and only for the category
 // that opted in — the same word stays a real descriptor everywhere
 // else (frozen vs fresh in Meat/Fish).
-function extractDescriptors(name, brand, impliedWords = []) {
-  const words = descriptorWordList(name, brand, impliedWords);
+function extractDescriptors(name, brand, impliedWords = [], options = {}) {
+  const words = descriptorWordList(name, brand, impliedWords, options);
   return words.length > 0 ? [...words].sort().join(" ") : null;
 }
 
 // The same words in the ORDER the store wrote them (unique, normalized)
 // — kept on the signature as `descriptorOrder` for the display name
 // only; matching compares the sorted form above.
-function descriptorWordList(name, brand, impliedWords = []) {
+function descriptorWordList(name, brand, impliedWords = [], options = {}) {
   let text = stripQualityGrade(name);
 
   if (brand) {
@@ -1005,7 +1057,7 @@ function descriptorWordList(name, brand, impliedWords = []) {
     text = text.slice(0, fatMatch.index) + " " + text.slice(fatMatch.index + fatMatch[0].length);
   }
 
-  const size = matchSize(text);
+  const size = matchSize(text, options);
   if (size) {
     text = text.slice(0, size.index) + " " + text.slice(size.index + size.raw.length);
   }
@@ -1153,6 +1205,13 @@ function extractProduceVariant(name) {
 // after scraping, instead of leaving it to happen once per pair.
 function computeSignature(item) {
   const name = item.name;
+  const sizeOptions = { pieceCounts: item.pieceCountSizes === true };
+  // In the piece-count categories a brand found by the KNOWN_BRANDS
+  // list (Barbora prints no brand field on its Dava eggs) is stripped
+  // from the descriptors the way a store-stated brand is — otherwise
+  // "dava" stayed a descriptor on one side only. Kept to these
+  // categories so no other category's matches move.
+  const descriptorBrand = item.brand || (sizeOptions.pieceCounts ? extractKnownBrand(name) : null);
   const strictPackaging = item.strictPackaging === true;
   return {
     ean: item.ean || null,
@@ -1185,17 +1244,19 @@ function computeSignature(item) {
     // screen: data/prices.json carried size "17000g" and the page
     // showed a nonsense €/kg line. Written to prices.json by
     // toStoreEntry, priced per piece by frontend/pricing.js.
-    size: item.diaperMatching === true ? diaperPieceCountSize(name) : extractSize(name),
-    variant: extractVariant(name),
+    size: item.diaperMatching === true ? diaperPieceCountSize(name) : extractSize(name, sizeOptions),
+    variant: extractVariant(name, sizeOptions),
     // Checked against the raw name, not the stripped/produce-typed
     // text — applies the same way on the brand path and the produce
     // path. See IDENTITY_QUALIFIER_PATTERNS.
     qualifiers: extractQualifiers(name),
     colors: extractColors(name),
     fatPercent: extractFatPercent(name),
-    descriptors: extractDescriptors(name, item.brand, item.impliedDescriptors || []),
+    descriptors: extractDescriptors(name, descriptorBrand, item.impliedDescriptors || [], sizeOptions),
     // Display only — see synthesizeCanonicalName.
-    descriptorOrder: descriptorWordList(name, item.brand, item.impliedDescriptors || []),
+    descriptorOrder: descriptorWordList(name, descriptorBrand, item.impliedDescriptors || [], sizeOptions),
+    // Set by the caller per category (Dairy, Household) — see matchSize.
+    pieceCountSizes: item.pieceCountSizes === true,
     descriptorShown: displayWordMap(name, item.brand),
     // Kept on the signature only for synthesizeCanonicalName, so the
     // display name's type word gets the same treatment descriptors do.
@@ -1768,7 +1829,13 @@ function synthesizeCanonicalName(a, b, rest = []) {
     .sort((x, y) => (x.nameLower.match(/\./g) || []).length - (y.nameLower.match(/\./g) || []).length)[0] || sigA;
   const ordered = (source.descriptorOrder || []).filter((w) => descriptorSet.includes(w));
   const descriptorWords = [...ordered, ...descriptorSet.filter((w) => !ordered.includes(w)).sort()];
-  const shownWord = (w) => (source.descriptorShown && source.descriptorShown[w]) || w;
+  // An egg's or paper's size letter (M, L, XL) reads as a letter, not
+  // a lowercase word — piece-count categories only.
+  const SIZE_LETTERS = new Set(["s", "m", "l", "xl", "xxl"]);
+  const shownWord = (w) => {
+    const own = (source.descriptorShown && source.descriptorShown[w]) || w;
+    return source.pieceCountSizes && SIZE_LETTERS.has(own) ? own.toUpperCase() : own;
+  };
   const descriptorName = descriptorWords.length > 0 ? descriptorWords.join(" ") : null;
   // A stated fat/cocoa % and the identity qualifiers (organic, a
   // flour grade, a "with X") are part of what makes the product
@@ -1800,7 +1867,8 @@ function synthesizeCanonicalName(a, b, rest = []) {
   // (Estonian) and never repeated when the word is already there.
   const VARIANT_DISPLAY = { "lactose-free": "laktoosivaba", comfort: "Comfort", ar: "AR" };
   const ageMatch = typeof variant === "string" ? variant.match(/^(\d+)yo$/) : null;
-  const shownVariant = variant == null ? null : ageMatch ? `${ageMatch[1]}YO` : VARIANT_DISPLAY[variant] || variant;
+  const layerMatch = typeof variant === "string" ? variant.match(/^(\d)kih$/) : null;
+  const shownVariant = variant == null ? null : ageMatch ? `${ageMatch[1]}YO` : layerMatch ? `${layerMatch[1]}-kihiline` : VARIANT_DISPLAY[variant] || variant;
   const variantText = shownVariant && !descriptorWords.includes(shownVariant.toLowerCase()) ? shownVariant : null;
   return [capitalize(brand) || "Unknown", typeName, shownDescriptorName, qualifierText || null, fatPercent ? `${fatPercent}%` : null, variantText, size]
     .filter(Boolean)

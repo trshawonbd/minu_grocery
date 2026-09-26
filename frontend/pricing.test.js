@@ -120,6 +120,15 @@ const results = [
     const none = { prices: { barbora: { price: 1, currency: "EUR", url: "b" }, rimi: { price: 1, currency: "EUR", url: "r" } } };
     assert.equal(productImage(none, true), null, "no photo anywhere -> the icon");
   }),
+  test("Unit price: toilet paper ('8rl') is priced per roll, tissues '10x9tk' per piece over the whole multipack, a sheet count ('300lehte') gets no unit price", () => {
+    const rolls = unitPrice({ price: 4.0, size: "8rl" });
+    assert.equal(rolls.unit, "rl");
+    assert.ok(Math.abs(rolls.value - 0.5) < 1e-9);
+    const tissues = unitPrice({ price: 1.8, size: "10x9tk" });
+    assert.equal(tissues.unit, "tk");
+    assert.ok(Math.abs(tissues.value - 0.02) < 1e-9);
+    assert.equal(unitPrice({ price: 2.0, size: "300lehte" }), null);
+  }),
   test("Unit price: a diaper (piece-count size '96tk') is priced per piece, never per kg — the baby's weight range plays no part", () => {
     const diapers = unitPrice({ price: 24.33, size: "96tk" });
     assert.equal(diapers.unit, "tk");

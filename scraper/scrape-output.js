@@ -69,7 +69,7 @@ async function fetchAllUrls(fetchFn, urlOrUrls, pageParam) {
 // changed since, so the CURRENT settings in scraper/categories.js win:
 // every flag is cleared and set again exactly as prepareItem sets it
 // today, signature included.
-const CATEGORY_FLAGS = ["strictPackaging", "matchAcrossWeights", "diaperMatching", "fixedWeightMustMatch", "alcoholMatching", "impliedDescriptors", "signature"];
+const CATEGORY_FLAGS = ["strictPackaging", "matchAcrossWeights", "diaperMatching", "fixedWeightMustMatch", "alcoholMatching", "pieceCountSizes", "impliedDescriptors", "signature"];
 
 function withCurrentSettings(items, category) {
   return items.map((item) => {
@@ -84,6 +84,7 @@ function prepareItem(item, category) {
   if (category.diaperMatching === true) item.diaperMatching = true;
   if (category.fixedWeightMustMatch === true) item.fixedWeightMustMatch = true;
   if (category.alcoholMatching === true) item.alcoholMatching = true;
+  if (category.pieceCountSizes === true) item.pieceCountSizes = true;
   if (Array.isArray(category.impliedDescriptors) && category.impliedDescriptors.length > 0) {
     item.impliedDescriptors = category.impliedDescriptors;
   }

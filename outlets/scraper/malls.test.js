@@ -9,7 +9,7 @@
 // or:       npm run test:outlets
 
 const assert = require("node:assert/strict");
-const { parseUlemiste, parseRoccaAlMare, parseKristiine, parseViru, parseLounakeskus, isGymByName, buildCanonicalNames, applyCanonicalNames, titleCase } = require("./malls");
+const { parseUlemiste, parseRoccaAlMare, parseKristiine, parseViru, parseLounakeskus, isGymByName, isServiceByName, buildCanonicalNames, applyCanonicalNames, titleCase } = require("./malls");
 
 function test(name, run) {
   try {
@@ -84,13 +84,13 @@ const results = [
     const html = `
       <a href="https://www.astri.ee/lounakeskus/poed/pood/denim-dream/" title="Denim Dream" class="absolute inset-0 z-1"></a>
       <h3>Denim Dream</h3><div class="badge-primary">1. korrus</div>
-      <a href="https://www.astri.ee/lounakeskus/poed/pood/astri-arena/" title="Astri Arena" class="absolute inset-0 z-1"></a>
-      <h3>Astri Arena</h3>
+      <a href="https://www.astri.ee/lounakeskus/poed/pood/sokisahtel/" title="Sokisahtel" class="absolute inset-0 z-1"></a>
+      <h3>Sokisahtel</h3>
     `;
     const shops = parseLounakeskus(html);
     assert.deepEqual(shops, [
       { name: "Denim Dream", category: null, floor: "1", url: "https://www.astri.ee/lounakeskus/poed/pood/denim-dream/" },
-      { name: "Astri Arena", category: null, floor: null, url: "https://www.astri.ee/lounakeskus/poed/pood/astri-arena/" },
+      { name: "Sokisahtel", category: null, floor: null, url: "https://www.astri.ee/lounakeskus/poed/pood/sokisahtel/" },
     ]);
   }),
   test("isGymByName: catches every real gym name found in step 2 (MyFitness, Gym!) case-insensitively; never a genuine shop whose name merely contains a similar-looking word", () => {
@@ -127,6 +127,24 @@ const results = [
     `;
     const shops = parseUlemiste(html);
     assert.equal(shops[0].name, "H&M Home");
+  }),
+  test("isServiceByName (owner's rule, 2026-09-26): a bank, car wash, clinic, laundry, hairdresser, locksmith, parcel locker, fuel station, EV charger, telecom desk, phone repair, casino, hotel, adventure park are dropped by name — with Estonian letters as whole words; a pharmacy, an optician, a lock-free 'Kingitus' shop stay", () => {
+    for (const name of ["Coop Pank", "Autoilu Autopesula", "Tartu Ülikooli Kliinikum", "PetCity Loomakliinik", "Lõunakeskuse Jazz Pesula", "Tropical Beauty juuksur", "Kingsepp Roman Malõšev", "Palmett Lukud", "Omniva Pakiautomaat", "Neste automaattankla", "Elektrum Drive laadimispunkt", "Telia", "Elisa FIX", "Telo24", "Olympic Casino & OlyBet Sports bar", "Hotell Sophia", "Lõunakeskuse seikluspark", "Õmblustöökoda", "Tavid Kuld&Valuuta", "Apollo Kino"]) {
+      assert.equal(isServiceByName(name), true, `${name} is a service`);
+    }
+    for (const name of ["Apotheka", "Pro Optika", "Kingitus.ee", "Denim Dream", "Rimi Hyper", "Juustukuningad Lõunakeskus", "Muhu Pagarid", "Photopoint", "Handymann"]) {
+      assert.equal(isServiceByName(name), false, `${name} is a shop`);
+    }
+    assert.equal(isServiceByName("Kinokassa Pood"), false, "'kino' only as a whole word, never inside another");
+  }),
+  test("Lõunakeskus (no category on its site): a service is dropped by name where it can't be dropped by category; a real shop next to it stays", () => {
+    const html = `
+      <a href="https://www.astri.ee/lounakeskus/poed/pood/coop-pank/" title="Coop Pank" class="absolute inset-0 z-1"></a>
+      <h3>Coop Pank</h3><div class="badge-primary">1. korrus</div>
+      <a href="https://www.astri.ee/lounakeskus/poed/pood/denim-dream/" title="Denim Dream" class="absolute inset-0 z-1"></a>
+      <h3>Denim Dream</h3><div class="badge-primary">1. korrus</div>
+    `;
+    assert.deepEqual(parseLounakeskus(html).map((s) => s.name), ["Denim Dream"]);
   }),
 ];
 

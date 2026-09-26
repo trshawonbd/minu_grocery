@@ -51,6 +51,40 @@ function isGymByName(name) {
   return GYM_NAME_PATTERN.test(name);
 }
 
+// Services and other non-shops caught by NAME (the owner's rule,
+// 2026-09-26), for the one mall whose site gives no per-shop category
+// at all (Lõunakeskus) — a bank, a car wash, a clinic, a laundry, a
+// hairdresser, a locksmith, a fuel station, an EV charger, a parcel
+// locker, a telecom desk, a phone-repair counter, a casino, a hotel,
+// an adventure park. Applied at every mall (harmless where the mall's
+// own category already dropped the listing). Whole-word matches with
+// Estonian letters honoured (\b alone treats õäöü as non-letters).
+// A pharmacy (Apotheka) is a shop and stays; "apteek" alone is never
+// matched, only a pharmacy-service wording would be.
+const SERVICE_NAME_WORDS = [
+  "pank", "tankla", "automaattankla", "pesula", "pesusalong", "pesumaja", "autopesula",
+  "kino", "kinokapsel", "laadimisjaam", "laadimispunkt", "pakiautomaat", "postkontor",
+  "massaažisalong", "kliinik", "kliinikum", "loomakliinik", "nõuandla", "hambaravi",
+  "juuksur", "juuksurisalong", "ilusalong", "kosmeetik", "küünesalong", "solaarium",
+  "kingsepp", "fotostuudio", "õmblustöökoda", "remont", "kiirlaen", "laen", "notar",
+  "võtmed", "võtmeabi", "lukud", "apteek-teenus", "apteegiteenus", "valuuta", "reisibüroo",
+  "kindlustus", "advokaat", "seikluspark", "paintballiklubi", "casino", "kasiino", "hotell",
+  "arena", "mängudžungel", "uisumaailm", "golfx", "kiddy rides",
+];
+const SERVICE_BRANDS = ["ChargeNet", "Eleport", "Enefit Volt", "Circle K", "Telia", "Elisa", "Tele2", "Nutipesu", "Telo24", "Elektrum Drive"];
+const SERVICE_NAME_PATTERN = new RegExp(
+  `(^|[^\\p{L}])(${[...SERVICE_NAME_WORDS, ...SERVICE_BRANDS].map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})($|[^\\p{L}])`,
+  "iu"
+);
+
+function isServiceByName(name) {
+  return SERVICE_NAME_PATTERN.test(name);
+}
+
+function isNonShopByName(name) {
+  return isGymByName(name) || isServiceByName(name);
+}
+
 // "1. korrus" -> "1"; "1 korrus ja 2 korrus" (a store spanning two
 // floors, e.g. Kristiine's Reserved/H&M) -> "1 ja 2" — the "korrus"
 // word itself carries no information once every mall's floor field
@@ -78,7 +112,7 @@ function parseUlemiste(html) {
     const [, categorySlug, categoryName, floor, url, name] = m;
     if (SKIP_CATEGORIES.ulemiste.has(categorySlug)) continue;
     const cleanName = decodeEntities(name.trim());
-    if (isGymByName(cleanName)) continue;
+    if (isNonShopByName(cleanName)) continue;
     // Every floor seen is "N. korrus", but captured as raw text (not
     // forced into a bare digit) in case a future/other page shows a
     // multi-floor store the way Kristiine's does — see Kristiine's
@@ -104,7 +138,7 @@ function parseRoccaAlMare(html) {
     const [, websiteCat, salesGroup, url, name] = m;
     if (websiteCat !== "shops") continue;
     const cleanName = decodeEntities(name.trim());
-    if (isGymByName(cleanName)) continue;
+    if (isNonShopByName(cleanName)) continue;
     // Each data-sales-group is 4 space-separated slugs, one per site
     // language, always in the SAME order — en, no, et, fi (checked
     // against every category on the page, 2026-09-26) — so the
@@ -139,7 +173,7 @@ function parseKristiine(html) {
     const cleanCategory = decodeEntities(category.trim()).toLowerCase();
     if (SKIP_CATEGORIES.kristiine.has(cleanCategory)) continue;
     const cleanName = decodeEntities(name.trim());
-    if (isGymByName(cleanName)) continue;
+    if (isNonShopByName(cleanName)) continue;
     shops.push({ name: cleanName, category: decodeEntities(category.trim()), floor: cleanFloorText(floor), url: `https://www.kristiinekeskus.ee${path}` });
   }
   return shops;
@@ -173,7 +207,7 @@ function parseViru(html) {
       const cats = post.cats || [];
       if (cats.some((c) => SKIP_CATEGORIES.viru.has(c))) continue;
       const name = decodeEntities(post.title.trim());
-      if (isGymByName(name)) continue;
+      if (isNonShopByName(name)) continue;
       shops.push({ name, category: cats[0] || null, floor: null, url: post.url });
     }
   }
@@ -198,7 +232,7 @@ function parseLounakeskus(html) {
   for (let i = 0; i < starts.length; i++) {
     const [, url, title] = starts[i];
     const name = decodeEntities(title.trim());
-    if (isGymByName(name)) continue;
+    if (isNonShopByName(name)) continue;
     // A floor badge sits somewhere after this shop's own link and
     // before the NEXT shop's — not every shop has one (~30 of ~187
     // don't, checked by hand 2026-09-26), so this only looks within
@@ -294,6 +328,8 @@ module.exports = {
   parseViru,
   parseLounakeskus,
   isGymByName,
+  isServiceByName,
+  isNonShopByName,
   buildCanonicalNames,
   applyCanonicalNames,
   titleCase,

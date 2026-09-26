@@ -200,6 +200,26 @@ function decodeHtml(text) {
     .trim();
 }
 
+// Filter chips for Apotheka, from the product NAME (the owner's list,
+// 2026-09-26) — first matching rule wins, so every item is in at most
+// one chip; a name matching none is only under "Kõik" (type null).
+// Audience first (a men's or a baby product stays there even when it
+// is also a shampoo), then the specific kinds, then face, hair, body.
+const APOTHEKA_CHIP_RULES = [
+  ["Meestele", /meestele|for men|\bman\b|\bmen\b|\bmeeste|habeme|raseerimis|aftershave/i],
+  ["Beebitooted", /\bbaby\b|beebi|pediatric|lastele|\blaste\b|\bkids\b|junior|imiku|mähkme/i],
+  ["Päikesekaitse", /päikese|päikse|päevitus|\bspf|\bsun\b|after sun|isepruunistav|autobronzant/i],
+  ["Suuhügieen", /hamba|suuvesi|suuloputus|suuvärskendaja|igeme|proteesi|mouthwash|toothpaste/i],
+  ["Juuksehooldus", /šampoon|shampoo|juukse|juuste|\bjuus|peanaha|kõõm|\bhair\b|kuivõli/i],
+  ["Näohooldus", /\bnäo|silma|huule|meik|meigi|jumestus|ripsme|puuder|põsepuna|mitsellaar|toonik|seerum|serum|näomask|öömask|päevakreem|öökreem|kortsu|vananemis|akne|\bakn\b|vistrik|poori|peiteplii|peitekreem|termaalvesi|essents|pesemisvaht|puhastusvaht|pesuvaht|\bmask\b|aqua-gel/i],
+  ["Kehahooldus", /keha|ihu|\bbody\b|dushi|dušš|duši|shower|seep|soap|deodorant|antiperspirant|käte|\bhand\b|jala|jalg|\bfoot\b|intiim|hügieeniside|tampoon|molicare|\bpad\b|salvrätik|vanni|pesemis|pesugeel|puhastus|losjoon|lotion|kreem|cream|emulsioon|geel|õli|vaseliin|sprei|depil|epil|koorija|küün|\bnail|palsam|\bsalv\b|kontsentraat|hooldusvahend|hooldus/i],
+];
+
+function apothekaChip(name) {
+  for (const [chip, pattern] of APOTHEKA_CHIP_RULES) if (pattern.test(name || "")) return chip;
+  return null;
+}
+
 function apothekaKeeps(type, name) {
   if (!type || APOTHEKA_EXCLUDED_TYPE.test(type)) return false;
   if (!name || APOTHEKA_MEDICAL_NAME.test(name)) return false;
@@ -231,7 +251,8 @@ function parseApothekaPage(html) {
       brand: null,
       name,
       section: null,
-      type,
+      type: apothekaChip(name),
+      siteType: type,
       regularPrice,
       salePrice,
       discountPercent: Math.round((1 - salePrice / regularPrice) * 100),
@@ -310,6 +331,6 @@ function parseEuronicsCampaign(html) {
 module.exports = {
   extractNextData, parseDenimDreamProducts, parseDenimDreamPage, SECTION_BY_SEX_ID,
   buildKlickCategoryIndex, klickTypeFor, parseKlickProducts, KLICK_SALE_CATEGORY_ID,
-  parseApothekaPage, apothekaKeeps,
+  parseApothekaPage, apothekaKeeps, apothekaChip, APOTHEKA_CHIP_RULES,
   parseEuronicsCampaignLinks, parseEuronicsCampaign, euronicsTypeFromUrl, decodeHtml,
 };

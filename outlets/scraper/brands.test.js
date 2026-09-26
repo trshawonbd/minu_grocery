@@ -12,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 const {
   extractNextData, parseDenimDreamPage, parseDenimDreamProducts,
-  buildKlickCategoryIndex, parseKlickProducts, parseApothekaPage, apothekaKeeps,
+  buildKlickCategoryIndex, parseKlickProducts, parseApothekaPage, apothekaKeeps, apothekaChip, APOTHEKA_CHIP_RULES,
   parseEuronicsCampaignLinks, parseEuronicsCampaign, euronicsTypeFromUrl,
 } = require("./brands");
 const { fetchSection, writeOutput, listUrl, main } = require("./fetch-denim-dream");
@@ -231,7 +231,8 @@ function fixturePage(products, count = products.length, size = 50) {
     assert.equal(item.regularPrice, 24.26);
     assert.equal(item.salePrice, 12.15);
     assert.equal(item.discountPercent, 50);
-    assert.equal(item.type, "Tervisetoode");
+    assert.equal(item.type, "Juuksehooldus", "the chip comes from the name; the site's own type is kept aside");
+    assert.equal(item.siteType, "Tervisetoode");
     assert.equal(item.link, "https://www.apotheka.ee/formula-vitale-d-vit-paikeseparlid-4000iu-n120-pmm0164114ee");
     assert.ok(item.image.startsWith("https://www.apotheka.ee/media/catalog/product/"));
     assert.equal(item.name, "VICHY DERCOS ŠAMPOON 200ML");
@@ -241,6 +242,24 @@ function fixturePage(products, count = products.length, size = 50) {
     for (const n of ["VICHY DERCOS ŠAMPOON 200ML", "BIODERMA SENSIBIO H2O MITSELLAARVESI 500ML", "SENSODYNE HAMBAPASTA 75ML", "REXONA DEODORANT 150ML", "LA ROCHE-POSAY ANTHELIOS SPF50 50ML", "LIBRESSE HÜGIEENISIDE N10", "CERAVE NIISUTAV KREEM 340G"]) assert.equal(apothekaKeeps("Tervisetoode", n), true, `${n} in`);
     for (const n of ["OMRON M3 VERERÕHUMÕÕTJA", "TERMOMEETER DIGITAALNE", "PÕLVE TUGISIDE M", "HANSAPLAST PLAASTER N20", "COVID-19 ANTIGEENI TEST N1", "MEDISOFT SOOJENDUSPADI", "UNKNOWN THING 100ML"]) assert.equal(apothekaKeeps("Tervisetoode", n), false, `${n} out`);
     assert.equal(apothekaKeeps("Tervisetoode", "BEPANTHEN HAAVA KREEM 30G"), false, "a medical word wins over a cosmetics word");
+  });
+
+  await test("apothekaChip (the owner's chips, 2026-09-26): one chip per item, audience first — a men's shampoo is Meestele, a kids' sunscreen Beebitooted, then Päikesekaitse, Suuhügieen, Juuksehooldus, Näohooldus, Kehahooldus; an unmatched name has no chip", () => {
+    assert.deepEqual(APOTHEKA_CHIP_RULES.map((r) => r[0]), ["Meestele", "Beebitooted", "Päikesekaitse", "Suuhügieen", "Juuksehooldus", "Näohooldus", "Kehahooldus"]);
+    const cases = {
+      "LABO SPECIFIC SHAMPOON SEBORRÖA VASTU MEESTELE 200ML": "Meestele",
+      "ISDIN SUN PÄIKESEKAITSEGEEL-KREEM LASTELE SPF50 250ML": "Beebitooted",
+      "AVENE SUN MIST SPRAY PÄIKESEKAITSEÕLI SPF30 150ML": "Päikesekaitse",
+      "SENSODYNE HAMBAPASTA 75ML": "Suuhügieen",
+      "VICHY DERCOS ŠAMPOON 200ML": "Juuksehooldus",
+      "BIODERMA SENSIBIO H2O MITSELLAARVESI 500ML": "Näohooldus",
+      "ISDIN ACNIBEN REPAIR HUULEPALSAM TAASTAV 10ML": "Näohooldus",
+      "REXONA DEODORANT 150ML": "Kehahooldus",
+      "MOLICARE PAD LADY 3 TILKA N12": "Kehahooldus",
+      "KLORANE PALSAM LINAEKSTRAKTIGA 200ML": "Kehahooldus",
+      "SOMETHING 100ML": null,
+    };
+    for (const [name, chip] of Object.entries(cases)) assert.equal(apothekaChip(name), chip, name);
   });
 
   // --- Euronics (real campaign-page excerpt, fixtures/euronics-cards.html) ---

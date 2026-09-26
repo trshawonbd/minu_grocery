@@ -17920,6 +17920,15 @@
         "regularPrice": 2.19,
         "storeName": "Makaronid Penne Rigate BARILLA 500g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barilla-pasta-penne-rigate-500g/",
+        "size": "500g",
+        "ean": "8076802085738",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/8076802085738.png",
+        "storeName": "Pasta Penne Rigate Barilla 500g"
+      },
       "rimi": {
         "price": 2.35,
         "currency": "EUR",
@@ -17927,9 +17936,60 @@
         "size": "500g",
         "storeUnitPrice": 4.7,
         "storeName": "Makaronid Penne Rigate Barilla 500g"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/penne-rigate-torukesed-barilla-500-g",
+        "size": "500g",
+        "ean": "8076802085738",
+        "storeUnitPrice": 4.9,
+        "storeName": "Penne Rigate torukesed, BARILLA, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barilla Spagetid 500g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 1.64,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/spagetid-barilla-500-g",
+        "size": "500g",
+        "storeUnitPrice": 3.28,
+        "regularPrice": 2.19,
+        "storeName": "Spagetid BARILLA 500g"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barilla-pasta-spaghetti-500g/",
+        "size": "500g",
+        "ean": "8076800195057",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/8076800195057.png",
+        "storeName": "Pasta Spaghetti Barilla 500g"
+      },
+      "rimi": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-spaghetti-nr-5-barilla-500g/p/136916",
+        "size": "500g",
+        "storeUnitPrice": 4.7,
+        "storeName": "Makaronid Spaghetti nr.5 Barilla 500g"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spagetid-nr-5-barilla-500-g",
+        "size": "500g",
+        "ean": "8076800195057",
+        "storeUnitPrice": 2.9,
+        "storeName": "Spagetid (nr.5), BARILLA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Delverde fusilli 500g",
@@ -17949,6 +18009,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/fusilli-delverde-500-g",
         "size": "500g",
+        "ean": "8006680040291",
         "storeUnitPrice": 5.78,
         "storeName": "Fusilli, DELVERDE, 500 g"
       }
@@ -17973,6 +18034,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/laastmakaron-nouilles-fines-panzani-500-g",
         "size": "500g",
+        "ean": "3038350013200",
         "storeUnitPrice": 3.98,
         "storeName": "Laastmakaron Nouilles Fines, PANZANI, 500 g"
       }
@@ -17992,6 +18054,15 @@
         "regularPrice": 1.99,
         "storeName": "Makaronid Penne Rigate PANZANI 500g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-penne-rigate-500g-6/",
+        "size": "500g",
+        "ean": "3038351483804",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/3038351483804.png",
+        "storeName": "Pasta Penne Rigate Panzani 500g"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -18005,11 +18076,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/specialita-penne-rigate-panzani-500-g",
         "size": "500g",
+        "ean": "3038351483804",
         "storeUnitPrice": 3.98,
         "storeName": "Specialita Penne Rigate, PANZANI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani fusilli 500g",
@@ -18025,6 +18097,15 @@
         "storeUnitPrice": 3.18,
         "storeName": "Makaronid spiraalid Fusilli PANZANI 500g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-fusilli-500g-5/",
+        "size": "500g",
+        "ean": "3038351563605",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/3038351563605.png",
+        "storeName": "Pasta Fusilli Panzani 500g"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -18032,9 +18113,18 @@
         "size": "500g",
         "storeUnitPrice": 4.38,
         "storeName": "Makaronid Fusilli Panzani  500g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spiraal-fusilli-international-panzani-500-g",
+        "size": "500g",
+        "ean": "3038351563605",
+        "storeUnitPrice": 3.18,
+        "storeName": "Spiraal Fusilli international, PANZANI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani sarvekesed 500g",
@@ -18049,6 +18139,15 @@
         "regularPrice": 1.99,
         "storeName": "Makaronid sarvekesed PANZANI 500g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-chifferini-500g/",
+        "size": "500g",
+        "ean": "3038351484009",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/3038351163003.png",
+        "storeName": "Pasta Chifferini Panzani 500g"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -18062,11 +18161,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sarveke-chifferini-panzani-500-g",
         "size": "500g",
+        "ean": "3038351484009",
         "storeUnitPrice": 3.98,
         "storeName": "Sarveke Chifferini, PANZANI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani macaroni 500g",
@@ -18081,16 +18181,26 @@
         "regularPrice": 1.99,
         "storeName": "Makaronid Macaroni PANZANI 500g"
       },
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-macaroni-500g-2/",
+        "size": "500g",
+        "ean": "3038350013101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/3038350013101.png",
+        "storeName": "Pasta Macaroni Panzani 500g"
+      },
       "selver": {
         "price": 1.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/macaroni-panzani-500-g",
         "size": "500g",
+        "ean": "3038350013101",
         "storeUnitPrice": 3.98,
         "storeName": "Macaroni, PANZANI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Presto fusilli 400g",
@@ -18105,6 +18215,15 @@
         "regularPrice": 0.59,
         "storeName": "Makaronid fusilli PRESTO 400g"
       },
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/presto-pasta-fusilli-400g/",
+        "size": "400g",
+        "ean": "4750020050344",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4750020050344.png",
+        "storeName": "Pasta Fusilli Presto 400g"
+      },
       "rimi": {
         "price": 0.69,
         "currency": "EUR",
@@ -18118,11 +18237,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-fusilli-presto-400-g",
         "size": "400g",
+        "ean": "4750020050344",
         "storeUnitPrice": 1.98,
         "storeName": "Pasta Fusilli, PRESTO, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Presto cornetti 400g",
@@ -18150,6 +18270,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-cornetti-presto-400-g",
         "size": "400g",
+        "ean": "4750020050351",
         "storeUnitPrice": 1.98,
         "storeName": "Pasta Cornetti, PRESTO, 400 g"
       }
@@ -18182,6 +18303,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/specialita-farfalle-panzani-500-g",
         "size": "500g",
+        "ean": "3038351489806",
         "storeUnitPrice": 3.98,
         "storeName": "Specialita Farfalle, PANZANI, 500 g"
       }
@@ -18201,6 +18323,15 @@
         "regularPrice": 1.35,
         "storeName": "Makaronid Penne TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-penne-rigate-500g/",
+        "size": "500g",
+        "ean": "4750020050566",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020050566.png",
+        "storeName": "Pasta Penne Rigate Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.35,
         "currency": "EUR",
@@ -18214,11 +18345,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/durumnisujahupasta-penne-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4750020050566",
         "storeUnitPrice": 2.78,
         "storeName": "Durumnisujahupasta Penne, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill fusilli 500g",
@@ -18233,6 +18365,15 @@
         "regularPrice": 1.35,
         "storeName": "Makaronid Fusilli TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-fusilli-500g/",
+        "size": "500g",
+        "ean": "4750020050559",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020050559.png",
+        "storeName": "Pasta Fusilli Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.19,
         "currency": "EUR",
@@ -18246,11 +18387,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/durumnisujahupasta-fusilli-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4750020050559",
         "storeUnitPrice": 2.3,
         "storeName": "Durumnisujahupasta Fusilli, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill cornetti 500g",
@@ -18264,6 +18406,15 @@
         "storeUnitPrice": 2.02,
         "regularPrice": 1.35,
         "storeName": "Makaronid Cornetti TARTU MILL 500g"
+      },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-cornetti-500g/",
+        "size": "500g",
+        "ean": "4750020050573",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020050573.png",
+        "storeName": "Pasta Cornetti Rigati Tartu Mill 500g"
       },
       "rimi": {
         "price": 1.35,
@@ -18280,11 +18431,12 @@
         "cardPrice": 1.09,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4750020050573",
         "storeUnitPrice": 2.78,
         "storeName": "Durumnisujahupasta Cornetti, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill puntine 500g",
@@ -18323,6 +18475,15 @@
         "regularPrice": 1.35,
         "storeName": "Makaronid Filini Piccoli Tartu Mill 500g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pasta-filini-piccoli-500g/",
+        "size": "500g",
+        "ean": "4750020050580",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4750020050580.png",
+        "storeName": "Pasta Filini Piccoli Tartu Mill 500g"
+      },
       "selver": {
         "price": 1.39,
         "currency": "EUR",
@@ -18330,11 +18491,12 @@
         "cardPrice": 1.09,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4750020050580",
         "storeUnitPrice": 2.78,
         "storeName": "Durum pasta Filini piccoli, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani mini penne 500g",
@@ -18349,16 +18511,60 @@
         "regularPrice": 2.43,
         "storeName": "Makaronid Mini Penne PANZANI 500g"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-pasta-mini-penne-500g/",
+        "size": "500g",
+        "ean": "3038351293809",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/3038351293809.png",
+        "storeName": "Pasta Mini Penne Panzani 500g"
+      },
       "selver": {
         "price": 2.43,
         "currency": "EUR",
         "url": "https://www.selver.ee/mini-penne-torud-panzani-500-g",
         "size": "500g",
+        "ean": "3038351293809",
         "storeUnitPrice": 4.86,
         "storeName": "Mini Penne torud, PANZANI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Spagetid nr 7 500g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 1.01,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/spagetid-nr-7-tartu-mill-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.02,
+        "regularPrice": 1.35,
+        "storeName": "Spagetid nr7 TARTU MILL 500g"
+      },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/spaghetti-nr7-500g/",
+        "size": "500g",
+        "ean": "4750020050818",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020050818.png",
+        "storeName": "Pasta Spaghetti Nr7 Tartu Mill 500g"
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/durumnisujahust-spagetid-nr-7-tartu-mill-500-g",
+        "size": "500g",
+        "ean": "4750020050818",
+        "storeUnitPrice": 2.3,
+        "storeName": "Durumnisujahust spagetid nr.7, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill chiffari lisci 500g",
@@ -18373,6 +18579,15 @@
         "regularPrice": 1.35,
         "storeName": "Makaronid Chiffari Lisci TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-chiffari-lisci500g/",
+        "size": "500g",
+        "ean": "4750020051631",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020051631.png",
+        "storeName": "Pasta Chiffari Lisci Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
@@ -18386,11 +18601,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-durum-chiffari-lisci-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4750020051631",
         "storeUnitPrice": 2.78,
         "storeName": "Pasta durum Chiffari Lisci, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill Täistera fusilli 500g",
@@ -18405,6 +18621,15 @@
         "regularPrice": 1.45,
         "storeName": "Täistera makar.Fusilli TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taistera-fusilli-500g/",
+        "size": "500g",
+        "ean": "4750020051525",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4750020051525.png",
+        "storeName": "Pasta Täistera Fusilli Tartu Mill 500g"
+      },
       "selver": {
         "price": 1.47,
         "currency": "EUR",
@@ -18412,11 +18637,46 @@
         "cardPrice": 1.19,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4750020051525",
         "storeUnitPrice": 2.94,
         "storeName": "Täistera fusilli, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Täistera spagetid nr 7 500g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 1.1,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/taistera-spagetid-nr-7-tartu-mill-500-g",
+        "size": "500g",
+        "storeUnitPrice": 2.2,
+        "regularPrice": 1.45,
+        "storeName": "Täistera spagetid Nr7 TARTU MILL 500g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/spaghetti-nr-7-500g/",
+        "size": "500g",
+        "ean": "4750020053154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020053154.png",
+        "storeName": "Tartu Mill Täistera Spaghetti Nr7 500g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/durumjahust-taistera-spagetid-tartu-mill-500-g",
+        "size": "500g",
+        "ean": "4750020053154",
+        "storeUnitPrice": 2.94,
+        "storeName": "Durumjahust täistera Spagetid, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill ditali lisci 500g",
@@ -18430,6 +18690,15 @@
         "storeUnitPrice": 2.06,
         "regularPrice": 1.35,
         "storeName": "Makaronid Ditali Lisci TARTU MILL 500g"
+      },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-ditali-lisci-500g/",
+        "size": "500g",
+        "ean": "4743303115007",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743303115007.png",
+        "storeName": "Pasta Ditali Lisci Tartu Mill 500g"
       },
       "rimi": {
         "price": 1.39,
@@ -18446,8 +18715,59 @@
         "cardPrice": 1.09,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4743303115007",
         "storeUnitPrice": 2.78,
         "storeName": "Pasta durum Ditali Lisci, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill cornetti 1000g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/makaronid-cornetti-tartu-mill-1-kg",
+        "cardPrice": 1.89,
+        "cardName": "Aitäh",
+        "size": "1000g",
+        "storeUnitPrice": 1.89,
+        "storeName": "Makaronid Cornetti TARTU MILL 1kg"
+      },
+      "rimi": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/durumnisupasta-cornetti-tartu-mill-1kg/p/182973",
+        "size": "1000g",
+        "storeUnitPrice": 2.69,
+        "storeName": "Durumnisupasta Cornetti Tartu Mill 1kg"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Tartu mill fusilli 1000g",
+    "category": "Pasta",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/makaronid-fusilli-tartu-mill-1-kg",
+        "cardPrice": 1.89,
+        "cardName": "Aitäh",
+        "size": "1000g",
+        "storeUnitPrice": 1.89,
+        "storeName": "Makaronid Fusilli TARTU MILL 1kg"
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/durumnisupasta-fusilli-tartu-mill-1kg/p/182932",
+        "size": "1000g",
+        "storeUnitPrice": 2.79,
+        "storeName": "Durumnisupasta Fusilli Tartu Mill 1kg"
       }
     },
     "matchedVia": "automatic"
@@ -18513,16 +18833,34 @@
         "regularPrice": 1.35,
         "storeName": "Makaronid Linquine TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-linquine-500g/",
+        "size": "500g",
+        "ean": "4750020051914",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020051914.png",
+        "storeName": "Pasta Linguine Tartu Mill 500g"
+      },
+      "rimi": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-durum-linguine-tartu-mill-500g/p/176297",
+        "size": "500g",
+        "storeUnitPrice": 2.78,
+        "storeName": "Makaronid durum Linguine Tartu Mill 500g"
+      },
       "selver": {
         "price": 1.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-durum-linquine-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4750020051914",
         "storeUnitPrice": 2.78,
         "storeName": "Pasta durum Linquine, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill farfalle 500g",
@@ -18536,6 +18874,15 @@
         "storeUnitPrice": 2.08,
         "regularPrice": 1.35,
         "storeName": "Makaronid Farfalle TARTU MILL 500g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pasta-farfalle-500g/",
+        "size": "500g",
+        "ean": "4743303100119",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/4743303100119.png",
+        "storeName": "Pasta Farfalle Tartu Mill 500g"
       },
       "rimi": {
         "price": 1.39,
@@ -18561,6 +18908,15 @@
         "regularPrice": 1.85,
         "storeName": "Makar.Fusilli Tricolore TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pasta-fusilli-tricolore-500g/",
+        "size": "500g",
+        "ean": "4743303100102",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/4743303100102.png",
+        "storeName": "Pasta Fusilli Tricolore Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.85,
         "currency": "EUR",
@@ -18585,6 +18941,15 @@
         "regularPrice": 1.35,
         "storeName": "Makaronid Mini Lasagne TARTU MILL 400g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pasta-mini-lasagne-400g/",
+        "size": "400g",
+        "ean": "4743303111023",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/4743303111023.png",
+        "storeName": "Pasta Mini Lasagne Tartu Mill 400g"
+      },
       "selver": {
         "price": 1.39,
         "currency": "EUR",
@@ -18592,11 +18957,12 @@
         "cardPrice": 1.15,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4743303111023",
         "storeUnitPrice": 3.48,
         "storeName": "Durum pasta Mini Lasagne, TARTU MILL, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Tartu mill maccheroni lisci 500g",
@@ -18611,6 +18977,15 @@
         "regularPrice": 1.35,
         "storeName": "Makaron.Maccheroni Lisci TARTU MILL 500g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pasta-maccheroni-lisci-500g/",
+        "size": "500g",
+        "ean": "4743303115014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4743303115014-1.png",
+        "storeName": "Pasta Maccheroni Lisci Tartu Mill 500g"
+      },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
@@ -18624,11 +18999,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-durum-maccheroni-lisci-tartu-mill-500-g",
         "size": "500g",
+        "ean": "4743303115014",
         "storeUnitPrice": 2.78,
         "storeName": "Pasta durum Maccheroni Lisci, TARTU MILL, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani Lintspagett linguine 500g",
@@ -18648,6 +19024,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lintspagett-linguine-panzani-500-g",
         "size": "500g",
+        "ean": "3038351128606",
         "storeUnitPrice": 3.98,
         "storeName": "Lintspagett Linguine, PANZANI, 500 g"
       }
@@ -18671,6 +19048,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-penne-presto-400-g",
         "size": "400g",
+        "ean": "4750020050375",
         "storeUnitPrice": 1.98,
         "storeName": "Pasta Penne, PRESTO, 400 g"
       }
@@ -18681,6 +19059,15 @@
     "name": "Panzani fusilli 1000g",
     "category": "Pasta",
     "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-fusilli-1kg/",
+        "size": "1000g",
+        "ean": "3038359002137",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/3038359002137.png",
+        "storeName": "Pasta Fusilli Panzani 1kg"
+      },
       "rimi": {
         "price": 4.29,
         "currency": "EUR",
@@ -18694,16 +19081,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/fusilli-panzani-1-kg",
         "size": "1000g",
+        "ean": "3038359002137",
         "storeUnitPrice": 3.39,
         "storeName": "Fusilli, PANZANI, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani spaghetti 1000g",
     "category": "Pasta",
     "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-pasta-spaghetti-1kg/",
+        "size": "1000g",
+        "ean": "3038359002120",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/3038359002120.png",
+        "storeName": "Pasta Spaghetti Panzani 1kg"
+      },
       "rimi": {
         "price": 4.29,
         "currency": "EUR",
@@ -18717,16 +19114,62 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/spagett-spaghetti-panzani-1-kg",
         "size": "1000g",
+        "ean": "3038359002120",
         "storeUnitPrice": 3.39,
         "storeName": "Spagett Spaghetti, PANZANI, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reggia tofe 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-reggia-pasta-tofe500g-suur-teokarp/",
+        "size": "500g",
+        "ean": "8008857300627",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/8008857300627.png",
+        "storeName": "Pasta Tofe Pasta Reggia 500g"
+      },
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-tofe-pasta-reggia-500g/p/1002751",
+        "size": "500g",
+        "storeUnitPrice": 2.58,
+        "regularPrice": 1.45,
+        "storeName": "Makaronid tofe Pasta Reggia 500g"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tofe-suur-teokarp-reggia-500-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "8008857300627",
+        "storeUnitPrice": 3.74,
+        "storeName": "Tofe (suur teokarp), REGGIA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani penne rigate 1000g",
     "category": "Pasta",
     "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-penne-1kg/",
+        "size": "1000g",
+        "ean": "3038359002144",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/3038359002144.png",
+        "storeName": "Pasta Penne Rigate Panzani 1kg"
+      },
       "rimi": {
         "price": 4.29,
         "currency": "EUR",
@@ -18740,16 +19183,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/penne-rigate-panzani-1-kg",
         "size": "1000g",
+        "ean": "3038359002144",
         "storeUnitPrice": 3.39,
         "storeName": "Penne Rigate, PANZANI, 1 kg"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Reggia spaghetti 500g",
     "category": "Pasta",
     "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/spaghetti-500g/",
+        "size": "500g",
+        "ean": "8008857200194",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8008857200194.jpg",
+        "storeName": "Pasta Spaghetti Pasta Reggia 500g"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -18764,11 +19217,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-spaghetti-reggia-500-g",
         "size": "500g",
+        "ean": "8008857200194",
         "storeUnitPrice": 3.74,
         "storeName": "Pasta Spaghetti, REGGIA, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Barilla fusilli 500g",
@@ -18787,6 +19241,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-fusilli-spiraal-barilla-500-g",
         "size": "500g",
+        "ean": "8076802085981",
         "storeUnitPrice": 4.9,
         "storeName": "Pasta Fusilli (spiraal), BARILLA, 500 g"
       }
@@ -18810,31 +19265,9 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-chiffari-lisci-nr-183-presto-400-g",
         "size": "400g",
+        "ean": "4750020052423",
         "storeUnitPrice": 1.98,
         "storeName": "Pasta Chiffari Lisci Nr.183, PRESTO, 400 g"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Barilla spaghetti nr 500g",
-    "category": "Pasta",
-    "prices": {
-      "rimi": {
-        "price": 2.35,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/makaronid-pasta/makaronid-spaghetti-nr-5-barilla-500g/p/136916",
-        "size": "500g",
-        "storeUnitPrice": 4.7,
-        "storeName": "Makaronid Spaghetti nr.5 Barilla 500g"
-      },
-      "selver": {
-        "price": 1.45,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/spagetid-nr-5-barilla-500-g",
-        "size": "500g",
-        "storeUnitPrice": 2.9,
-        "storeName": "Spagetid (nr.5), BARILLA, 500 g"
       }
     },
     "matchedVia": "automatic"
@@ -18843,6 +19276,15 @@
     "name": "Reggia fusilli 500g",
     "category": "Pasta",
     "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-fusilli-500g-3/",
+        "size": "500g",
+        "ean": "8008857300481",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/8008857300481.png",
+        "storeName": "Pasta Reggia Pasta Fusilli 500g"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -18859,16 +19301,26 @@
         "cardPrice": 1.29,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "8008857300481",
         "storeUnitPrice": 3.74,
         "storeName": "Pasta Fusilli, REGGIA, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Panzani conchiglie rigate 500g",
     "category": "Pasta",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-pasta-conchiglie-rigate-500g/",
+        "size": "500g",
+        "ean": "3038351484108",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/3038351484108.jpg",
+        "storeName": "Pasta Conchiglie Rigate Panzani 500g"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -18882,16 +19334,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/conchiglie-rigate-teokarbid-panzani-500-g",
         "size": "500g",
+        "ean": "3038351484108",
         "storeUnitPrice": 3.98,
         "storeName": "Conchiglie Rigate teokarbid, PANZANI, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Reggia elbows 500g",
     "category": "Pasta",
     "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-reggia-pasta-elbows-500g/",
+        "size": "500g",
+        "ean": "8008857300580",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/8008857300580.png",
+        "storeName": "Pasta Reggia Pasta Elbows 500g"
+      },
       "rimi": {
         "price": 1.29,
         "currency": "EUR",
@@ -18906,11 +19368,496 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pasta-elbows-reggia-500-g",
         "size": "500g",
+        "ean": "8008857300580",
         "storeUnitPrice": 3.74,
         "storeName": "Pasta Elbows, REGGIA, 500 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Panzani spaghetti gluteenivaba 400g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-pasta-spaghetti-400g-glut-vaba/",
+        "size": "400g",
+        "ean": "3038359004506",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/3038359004506.png",
+        "storeName": "Pasta Spaghetti Panzani 400g gluteenivaba"
+      },
+      "rimi": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/gluteenivaba-pasta/pasta-spaghetti-panzani-gluteenivaba-400g/p/181571",
+        "size": "400g",
+        "storeUnitPrice": 8.97,
+        "storeName": "Pasta Spaghetti Panzani gluteenivaba 400g"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/makaronid-spaghetti-gluteenivabad-panzani-400-g",
+        "size": "400g",
+        "ean": "3038359004506",
+        "storeUnitPrice": 8.98,
+        "storeName": "Makaronid Spaghetti gluteenivabad, PANZANI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Panzani penne gluteenivaba 400g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-pasta-penne-400g-gluteenivaba/",
+        "size": "400g",
+        "ean": "3038359004513",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/3038359004513.png",
+        "storeName": "Pasta Penne Panzani 400g gluteenivaba"
+      },
+      "rimi": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/gluteenivaba-pasta/pasta-penne-panzani-gluteenivaba-400g/p/181586",
+        "size": "400g",
+        "storeUnitPrice": 8.97,
+        "storeName": "Pasta Penne Panzani gluteenivaba 400g"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/makaronid-penne-gluteenivabad-panzani-400-g",
+        "size": "400g",
+        "ean": "3038359004513",
+        "storeUnitPrice": 8.98,
+        "storeName": "Makaronid Penne gluteenivabad, PANZANI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Panzani coquillette gluteenivaba 400g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-pasta-coquillette-400g-glut-vaba/",
+        "size": "400g",
+        "ean": "3038359004520",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/3038359004520.png",
+        "storeName": "Pasta Coquillette Panzani 400g gluteenivaba"
+      },
+      "rimi": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/makaronid-ja-riis/gluteenivaba-pasta/pasta-coquillette-panzani-gluteenivaba-400g/p/181595",
+        "size": "400g",
+        "storeUnitPrice": 8.97,
+        "storeName": "Pasta Coquillette Panzani gluteenivaba 400g"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/makaronid-coquillette-gluteenivabad-panzani-400-g",
+        "size": "400g",
+        "ean": "3038359004520",
+        "storeUnitPrice": 8.98,
+        "storeName": "Makaronid Coquillette gluteenivabad, PANZANI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill täistera penne rigate 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-penne-rigate-500g-3/",
+        "size": "500g",
+        "ean": "4750020053147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4750020053147.png",
+        "storeName": "Pasta Täistera Penne Rigate Tartu Mill 500g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/durumjahust-taistera-penned-tartu-mill-500-g",
+        "size": "500g",
+        "ean": "4750020053147",
+        "storeUnitPrice": 2.94,
+        "storeName": "Durumjahust täistera penned, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sam mills Sam maisijahust fusilli gl v 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sam-mills-fusilli-500g-maisijahust-gl-v/",
+        "size": "500g",
+        "ean": "5948935000274",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/5948935000274.png",
+        "storeName": "Sam Mills Fusilli 500g maisijahust gl.v."
+      },
+      "selver": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gluteenivaba-maisijahust-fusilli-sam-mills-500-g",
+        "size": "500g",
+        "ean": "5948935000274",
+        "storeUnitPrice": 6.7,
+        "storeName": "Gluteenivaba maisijahust fusilli, SAM MILLS, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sam mills Sam penne rigate maisijahust 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sam-mills-penne-rigate-500g-maisijahust/",
+        "size": "500g",
+        "ean": "5948935000267",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/08/5948935000267.png",
+        "storeName": "Sam Mills Penne Rigate 500g maisijahust"
+      },
+      "selver": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/gluteenivaba-maisijahust-penne-rigate-sam-mills-500-g",
+        "size": "500g",
+        "ean": "5948935000267",
+        "storeUnitPrice": 6.7,
+        "storeName": "Gluteenivaba maisijahust penne rigate, SAM MILLS, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reggia ditalini 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-reggia-pasta-ditalini-500g/",
+        "size": "500g",
+        "ean": "8008857300559",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/8008857300559.jpg",
+        "storeName": "Pasta Reggia Pasta Ditalini 500g"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/makaron-ditalini-reggia-500-g",
+        "size": "500g",
+        "ean": "8008857300559",
+        "storeUnitPrice": 3.74,
+        "storeName": "Makaron Ditalini, REGGIA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reggia spaghetti tagliati 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-reggia-spaghetti-tagliati-500g/",
+        "size": "500g",
+        "ean": "8008857300771",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/8008857300771.png",
+        "storeName": "Pasta Reggia Spaghetti Tagliati 500g"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasta-spaghetti-taglaiti-reggia-500-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "8008857300771",
+        "storeUnitPrice": 3.74,
+        "storeName": "Pasta Spaghetti Taglaiti, REGGIA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reggia lasagne 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-lasagne-500g/",
+        "size": "500g",
+        "ean": "8008857601052",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8008857601052.jpg",
+        "storeName": "Pasta Lasagne Pasta Reggia 500g"
+      },
+      "selver": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lasanjeplaadid-reggia-500-g",
+        "size": "500g",
+        "ean": "8008857601052",
+        "storeUnitPrice": 6.3,
+        "storeName": "Lasanjeplaadid, REGGIA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barilla lasagne 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lasagne-500g-2/",
+        "size": "500g",
+        "ean": "8076809523738",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8076800376999.png",
+        "storeName": "Pasta Lasagne Barilla 500g"
+      },
+      "selver": {
+        "price": 4.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lasanje-plaadid-barilla-500-g",
+        "size": "500g",
+        "ean": "8076809523738",
+        "storeUnitPrice": 9.3,
+        "storeName": "Lasanje plaadid, BARILLA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Reggia bucatini 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-reggia-pasta-bucatini-500g/",
+        "size": "500g",
+        "ean": "8008857200156",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/8008857200156.png",
+        "storeName": "Pasta Reggia pasta Bucatini 500g"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bucatini-reggia-500-g",
+        "size": "500g",
+        "ean": "8008857200156",
+        "storeUnitPrice": 3.74,
+        "storeName": "Bucatini, REGGIA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Panzani Munapasta selezione dichef collerette munaga 400g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-munapasta-collerette-dichef-400g/",
+        "size": "400g",
+        "ean": "3038359010118",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/3038359010118.png",
+        "storeName": "Munapasta Selezione DiChef Collerette Panzani 400g"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/selezione-di-chef-collerette-pasta-varske-munaga-panzani-400-g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "3038359010118",
+        "storeUnitPrice": 8.63,
+        "storeName": "Selezione Di Chef Collerette pasta värske munaga, PANZANI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Panzani Munapasta selezione dichef tagliatelle munaga 400g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/panzani-munapasta-tagliatelle-dichef400g/",
+        "size": "400g",
+        "ean": "3038359010101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/3038359010101.png",
+        "storeName": "Munapasta Selezione DiChef Tagliatelle Panzani400g"
+      },
+      "selver": {
+        "price": 3.61,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/selezione-di-chef-tagliatelle-pasta-varske-munaga-panzani-400-g",
+        "cardPrice": 2.69,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "3038359010101",
+        "storeUnitPrice": 9.03,
+        "storeName": "Selezione Di Chef Tagliatelle pasta värske munaga, PANZANI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bosto Pärlkuskuss 4x75g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bosto-parlkuskuss-475g/",
+        "size": "4x75g",
+        "ean": "5410106070183",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/5410106070183.png",
+        "storeName": "Pärlkuskuss Bosto 4*75g"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/parlkuskuss-4-x-75g-bosto-300-g",
+        "size": "4x75g",
+        "ean": "5410106070183",
+        "storeUnitPrice": 11.5,
+        "storeName": "Pärlkuskuss 4 x 75g, BOSTO, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Panzani spaghetti 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pasta-spaghetti-500g-3/",
+        "size": "500g",
+        "ean": "3038351165007",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/3038351165007.png",
+        "storeName": "Pasta Spaghetti Panzani 500g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spagetid-spaghetti-panzani-500-g",
+        "size": "500g",
+        "ean": "3038351165007",
+        "storeUnitPrice": 3.98,
+        "storeName": "Spagetid Spaghetti, PANZANI, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill Täistera chiffari lisci 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/chiffari-lisci-500g/",
+        "size": "500g",
+        "ean": "4750020053383",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750020053383.png",
+        "storeName": "Täistera pasta Chiffari Lisci Tartu Mill 500g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasta-taistera-chiffari-lisci-tartu-mill-500-g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4750020053383",
+        "storeUnitPrice": 2.94,
+        "storeName": "Pasta täistera Chiffari Lisci, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Barilla tagliatelle 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/barilla-pasta-tagliatelle-500g/",
+        "size": "500g",
+        "ean": "8076809580731",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/8076809580731.png",
+        "storeName": "Pasta Tagliatelle Barilla 500g"
+      },
+      "selver": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasta-tagliatelle-barilla-500-g",
+        "size": "500g",
+        "ean": "8076809580731",
+        "storeUnitPrice": 9.18,
+        "storeName": "Pasta Tagliatelle, BARILLA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tartu mill puntine grandi 500g",
+    "category": "Pasta",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tartu-mill-pasta-puntine-grandi-500g/",
+        "size": "500g",
+        "ean": "4750020050597",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/4750020050597.png",
+        "storeName": "Pasta Puntine Grandi Tartu Mill 500g"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/durumnisujahupasta-puntine-grand-tartu-mill-500-g",
+        "cardPrice": 1.15,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4750020050597",
+        "storeUnitPrice": 2.78,
+        "storeName": "Durumnisujahupasta Puntine Grand, TARTU MILL, 500 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Baltix Odrakruup 1000g",

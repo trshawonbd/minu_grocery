@@ -55225,16 +55225,26 @@
         "storeUnitPrice": 15.88,
         "storeName": "Kummikommid Pico-Balla HARIBO 85g"
       },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-pico-balla-kummikomm-85g/",
+        "size": "85g",
+        "ean": "8426617002473",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/8426617002473.png",
+        "storeName": "Kummikomm Haribo Pico-Balla 85g"
+      },
       "selver": {
         "price": 1.35,
         "currency": "EUR",
         "url": "https://www.selver.ee/kummikommid-pico-balla-haribo-85-g",
         "size": "85g",
+        "ean": "8426617002473",
         "storeUnitPrice": 15.88,
         "storeName": "Kummikommid Pico- Balla, HARIBO, 85 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Trolli Kummikommid playmouse 200g",
@@ -55319,16 +55329,26 @@
         "storeUnitPrice": 13.9,
         "storeName": "Kummikommid ussid HARIBO 100g"
       },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-kummikomm-ussid-100g/",
+        "size": "100g",
+        "ean": "9002975377379",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/9002975377379.png",
+        "storeName": "Kummikomm Ussid Haribo 100g"
+      },
       "selver": {
         "price": 1.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/kummikommid-ussid-haribo-100g",
         "size": "100g",
+        "ean": "9002975377379",
         "storeUnitPrice": 13.9,
         "storeName": "Kummikommid Ussid, HARIBO, 100g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Trolli Kummikommid sour glowworms 200g",
@@ -55367,6 +55387,15 @@
         "storeUnitPrice": 12.86,
         "storeName": "Kummikommid Happy Cola HARIBO 175g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-kummikomm-happy-cola-175g/",
+        "size": "175g",
+        "ean": "4001686327517",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4001686327517.png",
+        "storeName": "Kummikomm Happy Cola Haribo 175g"
+      },
       "rimi": {
         "price": 2.25,
         "currency": "EUR",
@@ -55380,11 +55409,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/happy-cola-kummikommid-haribo-175-g",
         "size": "175g",
+        "ean": "4001686327517",
         "storeUnitPrice": 13.66,
         "storeName": "Happy-cola, kummikommid, HARIBO, 175 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Haribo Kummikommid fruity bussi 175g",
@@ -55398,6 +55428,15 @@
         "storeUnitPrice": 13.66,
         "storeName": "Kummikommid Fruity-Bussi HARIBO 175g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-fruity-bussi-kummikomm-175g/",
+        "size": "175g",
+        "ean": "4001686334591",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4001686334591.png",
+        "storeName": "Kummikomm Haribo Fruity Bussi 175g"
+      },
       "selver": {
         "price": 2.39,
         "currency": "EUR",
@@ -55405,11 +55444,12 @@
         "cardPrice": 1.89,
         "cardName": "Partner",
         "size": "175g",
+        "ean": "4001686334591",
         "storeUnitPrice": 13.66,
         "storeName": "Fruity Bussi kummikommid, HARIBO, 175 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Haribo Kummikommid phantasia 175g",
@@ -55469,6 +55509,15 @@
         "storeUnitPrice": 14.06,
         "storeName": "Kummikommid Pico-Balla HARIBO 160g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-pico-balla-kummikomm-160g/",
+        "size": "160g",
+        "ean": "8426617347468",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/8426617347468.png",
+        "storeName": "Kummikomm Haribo Pico-Balla 160g"
+      },
       "rimi": {
         "price": 2.25,
         "currency": "EUR",
@@ -55482,11 +55531,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kummikommid-pico-balla-haribo-160-g",
         "size": "160g",
+        "ean": "8426617347468",
         "storeUnitPrice": 9.94,
         "storeName": "Kummikommid Pico - Balla, HARIBO, 160 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Pehme iiris kiss 150g",
@@ -55500,16 +55550,92 @@
         "storeUnitPrice": 12.6,
         "storeName": "Pehme iiris Kiss-Kiss KALEV, 150g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/iiris-kiss-kiss-150g/",
+        "size": "150g",
+        "ean": "4740012600169",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600169.png",
+        "storeName": "Pehme iiris Kiss-Kiss Kalev 150g"
+      },
       "selver": {
         "price": 1.87,
         "currency": "EUR",
         "url": "https://www.selver.ee/kiss-kiss-pehme-iiris-kalev-150-g",
         "size": "150g",
+        "ean": "4740012600169",
         "storeUnitPrice": 12.47,
         "storeName": "Kiss-Kiss pehme iiris, KALEV, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Batoonike kaseke 150g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/batoonike-kaseke-kalev-150-g",
+        "size": "150g",
+        "storeUnitPrice": 15.93,
+        "storeName": "Batoonike Kaseke KALEV 150g"
+      },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/batoonike-kaseke-150g/",
+        "size": "150g",
+        "ean": "4740012021902",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012021902-1.jpg",
+        "storeName": "Batoonike Kaseke Kalev 150g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/batoon-kaseke-kalev-150-g",
+        "size": "150g",
+        "ean": "4740012021902",
+        "storeUnitPrice": 15.93,
+        "storeName": "Batoon Kaseke, KALEV, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Piimabatoonike pilveke 150g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimabatoonike-pilveke-kalev-150-g",
+        "size": "150g",
+        "storeUnitPrice": 16.33,
+        "storeName": "Piimabatoonike Pilveke KALEV 150g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/batoonike-pilveke-150g/",
+        "size": "150g",
+        "ean": "4740012021995",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012021995-1.jpg",
+        "storeName": "Piimabatoonike Pilveke Kalev 150g"
+      },
+      "selver": {
+        "price": 2.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvek-pilveke-kalev-150-g",
+        "size": "150g",
+        "ean": "4740012021995",
+        "storeUnitPrice": 16.47,
+        "storeName": "Kompvek Pilveke, KALEV, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Miisu Batoonike 150g",
@@ -55546,6 +55672,15 @@
         "storeUnitPrice": 9.08,
         "storeName": "Karamell,barbarissimaitseline KALEV 120g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-barbariss-120g/",
+        "size": "120g",
+        "ean": "4740012600121",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600121.png",
+        "storeName": "Karamell Kalev 120g barbarissimaitseline"
+      },
       "rimi": {
         "price": 1.09,
         "currency": "EUR",
@@ -55559,14 +55694,39 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/barbarissimaitseline-karamell-kalev-120-g",
         "size": "120g",
+        "ean": "4740012600121",
         "storeUnitPrice": 8.92,
         "storeName": "Barbarissimaitseline karamell, KALEV, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pralineekompvek india pähkliga 175g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pralineekompvek-india-pahkliga-kalev-175-g",
+        "size": "175g",
+        "storeUnitPrice": 18.57,
+        "storeName": "Pralineekompvek India pähkliga KALEV175g"
+      },
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-india-pahk-175g/",
+        "size": "175g",
+        "ean": "4740012024064",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012024064-1.png",
+        "storeName": "Pralineekompvek Kalev 175g india pähkliga"
       }
     },
     "matchedVia": "automatic"
   },
   {
-    "name": "Kalev Vahvlikompvek mesikäpp 150g",
+    "name": "Kalev Vahvlikompvek mesikäpp pralineekreemiga 150g",
     "category": "Candy",
     "prices": {
       "barbora": {
@@ -55577,6 +55737,15 @@
         "storeUnitPrice": 25.27,
         "storeName": "Vahvlikompvek Mesikäpp KALEV 150g"
       },
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahvlikompv-mesikapp150g/",
+        "size": "150g",
+        "ean": "4740012023708",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023708.png",
+        "storeName": "Vahvlikompv.Mesikäpp Kalev 150g pralineekreemiga"
+      },
       "selver": {
         "price": 3.77,
         "currency": "EUR",
@@ -55584,11 +55753,45 @@
         "cardPrice": 2.89,
         "cardName": "Partner",
         "size": "150g",
+        "ean": "4740012023708",
         "storeUnitPrice": 25.13,
         "storeName": "Vahvlikompvek Mesikäpp, KALEV, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Marmelaadikompv kirsi 175g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/marmelaadikompv-kirsimaits-kalev-175-g",
+        "size": "175g",
+        "storeUnitPrice": 16.29,
+        "storeName": "Marmelaadikompv.kirsimaits.KALEV 175g"
+      },
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marm-kompv-kirsi-175g/",
+        "size": "175g",
+        "ean": "4740012024613",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012024613-1.jpg",
+        "storeName": "Marmelaadikompv.Kalev 175g kirsimaitseline"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marmelaadikompvek-kirsimaitseline-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012024613",
+        "storeUnitPrice": 16.4,
+        "storeName": "Marmelaadikompvek kirsimaitseline, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Karamell piparmündi 120g",
@@ -55602,16 +55805,26 @@
         "storeUnitPrice": 9.08,
         "storeName": "Karamell,piparmündimaitseline KALEV 120g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-piparmundi-120g/",
+        "size": "120g",
+        "ean": "4740012600114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600114.png",
+        "storeName": "Karamell Kalev 120g piparmündmaitseline"
+      },
       "selver": {
         "price": 1.07,
         "currency": "EUR",
         "url": "https://www.selver.ee/piparmundimaitseline-karamell-kalev-120-g",
         "size": "120g",
+        "ean": "4740012600114",
         "storeUnitPrice": 8.92,
         "storeName": "Piparmündimaitseline karamell, KALEV, 120 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Karamell apelsini 120g",
@@ -55671,6 +55884,15 @@
         "storeUnitPrice": 17.95,
         "storeName": "Batoonike Kirju Koer KALEV 200g"
       },
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bat-kirju-koer-200g/",
+        "size": "200g",
+        "ean": "4740012026983",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012026983-1.jpg",
+        "storeName": "Batoonike Kirju koer Kalev 200g küpsise ja marmel."
+      },
       "rimi": {
         "price": 3.59,
         "currency": "EUR",
@@ -55684,11 +55906,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kirju-koer-batoonike-kalev-200-g",
         "size": "200g",
+        "ean": "4740012026983",
         "storeUnitPrice": 13.95,
         "storeName": "Kirju koer batoonike, KALEV, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Pralineekompvek maiuspala 175g",
@@ -55702,16 +55925,26 @@
         "storeUnitPrice": 15.37,
         "storeName": "Pralineekompvek Maiuspala KALEV 175g"
       },
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-maiuspala-175g/",
+        "size": "175g",
+        "ean": "4740012027478",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012027478-1.jpg",
+        "storeName": "Pralineekompv.Maiuspala Kalev 175g"
+      },
       "selver": {
         "price": 2.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/pralineekompvek-maiuspala-kalev-175-g",
         "size": "175g",
+        "ean": "4740012027478",
         "storeUnitPrice": 14.8,
         "storeName": "Pralineekompvek Maiuspala, KALEV, 175 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Kommisegu lemmikut 7 500g",
@@ -55727,6 +55960,15 @@
         "storeUnitPrice": 11.58,
         "storeName": "Kommisegu 7 lemmikut KALEV 500g"
       },
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/7-lemmikut-kalev-500g/",
+        "size": "500g",
+        "ean": "4740012028369",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012028369.png",
+        "storeName": "Shok.kommid 7lemmikut Kalev 500g segupakk"
+      },
       "selver": {
         "price": 7.97,
         "currency": "EUR",
@@ -55734,8 +55976,33 @@
         "cardPrice": 5.99,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4740012028369",
         "storeUnitPrice": 15.94,
         "storeName": "7 lemmikut kommisegu, KALEV, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Karamell maasika 120g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/karamell-maasikamaitseline-kalev-120-g",
+        "size": "120g",
+        "storeUnitPrice": 6.59,
+        "storeName": "Karamell maasikamaitseline KALEV 120g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-caramell-karamell-120g-maasikamait/",
+        "size": "120g",
+        "ean": "4740012600299",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/07/4740012600299.png",
+        "storeName": "Kalev Karamell 120g maasikamait"
       }
     },
     "matchedVia": "automatic"
@@ -55752,6 +56019,15 @@
         "storeUnitPrice": 15.93,
         "storeName": "Kama-jogurtibatoonike KALEV 150g"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-batoonike-150g-kama-jogurti/",
+        "size": "150g",
+        "ean": "4740012600015",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740012600015.png",
+        "storeName": "Batoonike Kalev 150g kama-jogurti"
+      },
       "rimi": {
         "price": 2.45,
         "currency": "EUR",
@@ -55765,11 +56041,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kama-jogurtibatoonike-kalev-150-g",
         "size": "150g",
+        "ean": "4740012600015",
         "storeUnitPrice": 15.93,
         "storeName": "Kama-jogurtibatoonike, KALEV, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Chupa chups Pulgakomm the best of 12g",
@@ -55783,6 +56060,15 @@
         "storeUnitPrice": 32.5,
         "storeName": "Pulgakomm The Best of CHUPA CHUPS 12g"
       },
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/chupa-chups-the-best-pulgakomm-12g/",
+        "size": "12g",
+        "ean": "49814521",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/49814521.png",
+        "storeName": "Pulgakomm Chupa Chups The Best of 12g"
+      },
       "rimi": {
         "price": 0.4,
         "currency": "EUR",
@@ -55790,6 +56076,30 @@
         "size": "12g",
         "storeUnitPrice": 33.33,
         "storeName": "Pulgakomm The Best Of Chupa Chups 12g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Chupa chups Pulgakomm xxl 29g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pulgakomm-xxl-chupa-chups-29-g",
+        "size": "29g",
+        "storeUnitPrice": 27.24,
+        "storeName": "Pulgakomm XXL CHUPA CHUPS 29g"
+      },
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/chupa-chups-xxl-pulgakomm-29g/",
+        "size": "29g",
+        "ean": "84460547",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/84460547.png",
+        "storeName": "Pulgakomm Chupa Chups XXL 29g"
       }
     },
     "matchedVia": "automatic"
@@ -55806,16 +56116,26 @@
         "storeUnitPrice": 30,
         "storeName": "Pulgakomm DUMLE 10g"
       },
+      "coop": {
+        "price": 0.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pulgakomm-dumle-10g/",
+        "size": "10g",
+        "ean": "6416453564022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/7310676446006.png",
+        "storeName": "Pulgakomm Dumle Fazer 10g"
+      },
       "selver": {
         "price": 0.3,
         "currency": "EUR",
         "url": "https://www.selver.ee/pulgakomm-dumle-10-g-t000072568",
         "size": "10g",
+        "ean": "6416453564022",
         "storeUnitPrice": 30,
         "storeName": "Pulgakomm, DUMLE, 10 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Mynthon Pastillid extra strong 34g",
@@ -55828,6 +56148,15 @@
         "size": "34g",
         "storeUnitPrice": 27.94,
         "storeName": "Pastillid Extra Strong MYNTHON 34g"
+      },
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mynthon-extra-strong-34g/",
+        "size": "34g",
+        "ean": "6410600050437",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6410600050437.jpg",
+        "storeName": "Kurgupastill Mynthon Extra Strong 34g värsk.toime"
       },
       "rimi": {
         "price": 0.95,
@@ -55844,11 +56173,12 @@
         "cardPrice": 0.75,
         "cardName": "Partner",
         "size": "34g",
+        "ean": "6410600050437",
         "storeUnitPrice": 27.94,
         "storeName": "Pastillid Extra Strong, MYNTHON, 34 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Halls Pastillid mee sidruni 33.5g",
@@ -55958,16 +56288,26 @@
         "storeUnitPrice": 33.27,
         "storeName": "Kommikarp Selection KARL FAZER150g"
       },
+      "coop": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-k-karp-selection-150g/",
+        "size": "150g",
+        "ean": "6416453072657",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/6416453072657.png",
+        "storeName": "K.karp Karl Fazer Selection 150g"
+      },
       "selver": {
         "price": 4.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/selection-kommikarp-karl-fazer-150-g",
         "size": "150g",
+        "ean": "6416453072657",
         "storeUnitPrice": 33.27,
         "storeName": "Selection kommikarp, KARL FAZER, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Pralineekommid maiuspala 200g",
@@ -55983,6 +56323,15 @@
         "storeUnitPrice": 29.95,
         "storeName": "Pralineekommid Maiuspala KALEV 200g"
       },
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-maiuspala-200g/",
+        "size": "200g",
+        "ean": "4740012028567",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012028567.png",
+        "storeName": "K.karp Maiuspala Kalev 200g pralineekompvek"
+      },
       "rimi": {
         "price": 7.99,
         "currency": "EUR",
@@ -55996,11 +56345,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maiuspala-pralineekommid-kalev-200-g",
         "size": "200g",
+        "ean": "4740012028567",
         "storeUnitPrice": 39.85,
         "storeName": "Maiuspala pralineekommid, KALEV, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Klassikalised trühvlid 160g",
@@ -56013,6 +56363,15 @@
         "size": "160g",
         "storeUnitPrice": 62.19,
         "storeName": "Klassikalised trühvlid KALEV 160g"
+      },
+      "coop": {
+        "price": 8.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-truhvel-klassikaline-k-karp-160g/",
+        "size": "160g",
+        "ean": "4740012028611",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740012028611.png",
+        "storeName": "K.karp Klassikalised trühvlid Kalev 160g"
       },
       "rimi": {
         "price": 9.99,
@@ -56027,11 +56386,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikalised-truhvlid-kalev-160-g",
         "size": "160g",
+        "ean": "4740012028611",
         "storeUnitPrice": 62.31,
         "storeName": "Klassikalised trühvlid, KALEV, 160 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Pralineekommid maiuspala 350g",
@@ -56044,6 +56404,15 @@
         "size": "350g",
         "storeUnitPrice": 22.54,
         "storeName": "Pralineekommid Maiuspala KALEV 350g"
+      },
+      "coop": {
+        "price": 7.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-maiuspala-350g/",
+        "size": "350g",
+        "ean": "4740012028628",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012028628.png",
+        "storeName": "K.karp Maiuspala Kalev 350g pralineekompv"
       },
       "rimi": {
         "price": 7.89,
@@ -56058,8 +56427,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maiuspala-pralineekommid-kalev-350g",
         "size": "350g",
+        "ean": "4740012028628",
         "storeUnitPrice": 22.77,
         "storeName": "Maiuspala pralineekommid, KALEV, 350g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Geisha Piimašokolaadikompvekid 185g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 9.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piimasokolaadikompvekid-geisha-185-g",
+        "size": "185g",
+        "storeUnitPrice": 50,
+        "storeName": "Piimašokolaadikompvekid GEISHA 185g"
+      },
+      "rimi": {
+        "price": 7.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kommid-ja-maiustused/kommikarbid/piimasokolaadikompvekid-geisha-185g/p/1013205",
+        "size": "185g",
+        "storeUnitPrice": 39.95,
+        "regularPrice": 9.25,
+        "storeName": "Piimašokolaadikompvekid Geisha 185g"
       }
     },
     "matchedVia": "automatic"
@@ -56076,13 +56470,49 @@
         "storeUnitPrice": 50.49,
         "storeName": "Kungla valik pralineekomme KALEV 390g"
       },
+      "coop": {
+        "price": 19.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kungla-390g-valik-pralineekompv/",
+        "size": "390g",
+        "ean": "4740012600589",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740012600589.png",
+        "storeName": "K.karp Kungla Kalev 390g valik pralineekompvekke"
+      },
       "selver": {
         "price": 19.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/kungla-valik-pralineekomme-kalev-390-g",
         "size": "390g",
+        "ean": "4740012600589",
         "storeUnitPrice": 50.49,
         "storeName": "Kungla valik pralineekomme, KALEV, 390 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Geisha Kommikarp 250g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kommikarp-geisha-250-g",
+        "cardPrice": 5.99,
+        "cardName": "Aitäh",
+        "size": "250g",
+        "storeUnitPrice": 23.96,
+        "storeName": "Kommikarp GEISHA 250g"
+      },
+      "rimi": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kommid-ja-maiustused/kommikarbid/kommikarp-geisha-250g/p/1020981",
+        "size": "250g",
+        "storeUnitPrice": 23.96,
+        "regularPrice": 7.99,
+        "storeName": "Kommikarp Geisha 250g"
       }
     },
     "matchedVia": "automatic"
@@ -56123,19 +56553,64 @@
         "storeUnitPrice": 13.93,
         "storeName": "Halvaa kakaoga MARMITON 150g"
       },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmiton-halvaa-150g-kakaoga/",
+        "size": "150g",
+        "ean": "4740062555044",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740062555044.png",
+        "storeName": "Halvaa Marmiton 150g kakaoga"
+      },
       "selver": {
         "price": 2.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/halvaa-kakaoga-marmiton-150-g",
         "size": "150g",
+        "ean": "4740062555044",
         "storeUnitPrice": 13.93,
         "storeName": "Halvaa kakaoga, MARMITON, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Marmiton Halvaa pistaatsia 150g",
+    "name": "Marmiton Halvaa india pähklitega 100g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/halvaa-india-pahklitega-marmiton-100-g",
+        "size": "100g",
+        "storeUnitPrice": 9.9,
+        "storeName": "Halvaa india pähklitega MARMITON 100g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/halvaa-india-pahkli-100g/",
+        "size": "100g",
+        "ean": "4740062550612",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062550612-1.png",
+        "storeName": "Halvaa Marmiton 100g india pähklitega"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/halvaa-ali-baba-india-pahklit-marmiton-100-g",
+        "cardPrice": 0.95,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4740062550612",
+        "storeUnitPrice": 11.9,
+        "storeName": "Halvaa Ali-Baba india pähklit., MARMITON, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Halvaa pistaatsia pähklitega 150g",
     "category": "Candy",
     "prices": {
       "barbora": {
@@ -56146,6 +56621,15 @@
         "storeUnitPrice": 13,
         "storeName": "Halvaa pistaatsia MARMITON 150g"
       },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmiton-halvaa-150g-pistaatsia-pahklite/",
+        "size": "150g",
+        "ean": "4740062555037",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740062555037.png",
+        "storeName": "Halvaa Marmiton 150g pistaatsia pähklitega"
+      },
       "selver": {
         "price": 1.98,
         "currency": "EUR",
@@ -56153,11 +56637,12 @@
         "cardPrice": 1.59,
         "cardName": "Partner",
         "size": "150g",
+        "ean": "4740062555037",
         "storeUnitPrice": 13.2,
         "storeName": "Halvaa pistaatsia, MARMITON, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalev Rosinad piimašokolaadis nurr 150g",
@@ -56196,16 +56681,61 @@
         "storeUnitPrice": 7.45,
         "storeName": "Sefiir vaniljemaitseline LAIMA 200g"
       },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sefiir-laima-valge-200g/",
+        "size": "200g",
+        "ean": "4750001002508",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750001002508.jpg",
+        "storeName": "Sefiir Laima 200g vaniljemaitseline"
+      },
       "selver": {
         "price": 2.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/sefiir-vaniljemaitseline-laima-200-g",
         "size": "200g",
+        "ean": "4750001002508",
         "storeUnitPrice": 10.95,
         "storeName": "Sefiir vaniljemaitseline, LAIMA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Marmelaad kuubikud 150g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/marmelaad-kuubikud-marmiton-150-g",
+        "size": "150g",
+        "storeUnitPrice": 13.93,
+        "storeName": "Marmelaad Kuubikud MARMITON 150g"
+      },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmelaad-kuubikud-150g/",
+        "size": "150g",
+        "ean": "4740062640115",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062640115-1.png",
+        "storeName": "Marmelaad Kuubikud Marmiton 150g"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marmelaadi-kuubikud-marmiton-150-g",
+        "cardPrice": 1.69,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740062640115",
+        "storeUnitPrice": 13.93,
+        "storeName": "Marmelaadi kuubikud, MARMITON, 150 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Van damme Mini vahukommid 100g",
@@ -56224,6 +56754,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mini-vahukommid-van-damme-100-g",
         "size": "100g",
+        "ean": "5411178815870",
         "storeUnitPrice": 13.9,
         "storeName": "Mini Vahukommid, VAN DAMME, 100 g"
       }
@@ -56247,6 +56778,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/marmelaad-loigud-marmiton-150-g",
         "size": "150g",
+        "ean": "4740062641969",
         "storeUnitPrice": 14.13,
         "storeName": "Marmelaad Lõigud, MARMITON, 150 g"
       }
@@ -56265,16 +56797,26 @@
         "storeUnitPrice": 13.27,
         "storeName": "Marmelaad hapu MARMITON 150g"
       },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmelaad-hapu-150g/",
+        "size": "150g",
+        "ean": "4740062640818",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062640818-1.png",
+        "storeName": "Marmiton marmelaad Hapu 150g"
+      },
       "selver": {
         "price": 2.15,
         "currency": "EUR",
         "url": "https://www.selver.ee/marmelaad-hapu-marmiton-150-g",
         "size": "150g",
+        "ean": "4740062640818",
         "storeUnitPrice": 14.33,
         "storeName": "Marmelaad hapu, MARMITON, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Marmiton Marmelaad mango 150g",
@@ -56295,6 +56837,30 @@
         "size": "150g",
         "storeUnitPrice": 16.6,
         "storeName": "Marmelaad mango Marmiton 150g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Marmiton Marmelaad foor 150g",
+    "category": "Candy",
+    "prices": {
+      "barbora": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/marmelaad-foor-marmiton-150-g",
+        "size": "150g",
+        "storeUnitPrice": 13.93,
+        "storeName": "Marmelaad Foor MARMITON 150g"
+      },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marmelaad-foor-150g/",
+        "size": "150g",
+        "ean": "4740062640214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062640214.png",
+        "storeName": "Marmelaad Foor Marmiton 150g"
       }
     },
     "matchedVia": "automatic"
@@ -56323,9 +56889,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Marmiton Halvaa vanilli ali baba 100g",
+    "name": "Marmiton Halvaa vanilli 100g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/halvaa-vanilli-mait-100g/",
+        "size": "100g",
+        "ean": "4740062550148",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062550148.png",
+        "storeName": "Halvaa Marmiton 100g vanillimaitseline"
+      },
       "rimi": {
         "price": 1.09,
         "currency": "EUR",
@@ -56339,8 +56914,35 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/halvaa-ali-baba-vanillimaitsel-marmiton-100-g",
         "size": "100g",
+        "ean": "4740062550148",
         "storeUnitPrice": 10.7,
         "storeName": "Halvaa Ali-Baba vanillimaitsel., MARMITON, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Maisipallid iirisega mõnus maius 25g",
+    "category": "Candy",
+    "prices": {
+      "rimi": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/kommid-ja-maiustused/ullatusmunad-ja-pulgakommid/maisipallid-iirisega-monus-maius-mesikapp-25g/p/163652",
+        "size": "25g",
+        "storeUnitPrice": 31.6,
+        "storeName": "Maisipallid iirisega Mõnus Maius Mesikäpp 25g"
+      },
+      "selver": {
+        "price": 0.8,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/monus-maius-maisipallid-iirisega-mesikapp-25-g",
+        "cardPrice": 0.65,
+        "cardName": "Partner",
+        "size": "25g",
+        "ean": "4740012601142",
+        "storeUnitPrice": 32,
+        "storeName": "Mõnus Maius maisipallid iirisega, MESIKÄPP, 25 g"
       }
     },
     "matchedVia": "automatic"
@@ -56349,6 +56951,15 @@
     "name": "Laima Sefiir mustika 200g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sefiir-mustikamaits-200g/",
+        "size": "200g",
+        "ean": "4750011848646",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750011848646.png",
+        "storeName": "Sefiir Laima 200g mustikamaitseline"
+      },
       "rimi": {
         "price": 2.09,
         "currency": "EUR",
@@ -56362,16 +56973,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mustikamaitseline-sefiir-laima-200-g",
         "size": "200g",
+        "ean": "4750011848646",
         "storeUnitPrice": 10.95,
         "storeName": "Mustikamaitseline sefiir, LAIMA, 200 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "True dates Datlid sour cola 100g",
+    "name": "True dates Dattel sour cola 100g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/true-dates-dattel-sour-cola-100g/",
+        "size": "100g",
+        "ean": "5745000657223",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/5745000657223.png",
+        "storeName": "Dattel Sour Cola True Dates 100g"
+      },
       "rimi": {
         "price": 2.75,
         "currency": "EUR",
@@ -56385,11 +57006,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/datlid-sour-cola-true-dates-100-g",
         "size": "100g",
+        "ean": "5745000657223",
         "storeUnitPrice": 27.9,
         "storeName": "Datlid Sour Cola, TRUE DATES, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "True dates Datlid sweet peach 100g",
@@ -56408,6 +57030,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/datlid-sweet-peach-true-dates-100-g",
         "size": "100g",
+        "ean": "5745000657230",
         "storeUnitPrice": 27.9,
         "storeName": "Datlid Sweet Peach, TRUE DATES, 100 g"
       }
@@ -56415,9 +57038,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "True dates Datlid cookie dough 100g",
+    "name": "True dates Dattel cookie dough 100g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/true-dates-dattel-cookie-dough-100g/",
+        "size": "100g",
+        "ean": "5713388063035",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/5745000657322.png",
+        "storeName": "Dattel Cookie Dough True Dates 100g"
+      },
       "rimi": {
         "price": 2.75,
         "currency": "EUR",
@@ -56431,16 +57063,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/datlid-cookie-dough-true-dates-100-g",
         "size": "100g",
+        "ean": "5713388063035",
         "storeUnitPrice": 27.9,
         "storeName": "Datlid Cookie Dough, TRUE DATES, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Rosin suhkrus merekivid 160g",
+    "name": "Kalev drazee merekivid rosin suhkrus 160g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-drazee-merekivid160g-rosin-suhkrus/",
+        "size": "160g",
+        "ean": "4740012052081",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740012052081.png",
+        "storeName": "Kalev drazee Merekivid160g rosin suhkrus"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -56454,16 +57096,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/merekivid-rosin-suhkrus-kalev-160-g",
         "size": "160g",
+        "ean": "4740012052081",
         "storeUnitPrice": 12.38,
         "storeName": "Merekivid rosin suhkrus, KALEV, 160 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Tiramisu mandel kakaos 140g",
+    "name": "Kalev Drazee tiramisu mandel kakaos 140g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tiramisu-mandel-140g/",
+        "size": "140g",
+        "ean": "4740012052043",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012052043.png",
+        "storeName": "Drazee Tiramisu mandel kakaos Kalev 140g"
+      },
       "rimi": {
         "price": 3.39,
         "currency": "EUR",
@@ -56478,16 +57130,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tiramisu-mandel-kakaos-kalev-140-g-t000076485",
         "size": "140g",
+        "ean": "4740012052043",
         "storeUnitPrice": 31.93,
         "storeName": "Tiramisu mandel kakaos, KALEV, 140 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Valik piimašokolaadikomme aitäh 226g",
+    "name": "Kalev K aitäh karp 226g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 7.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-k-karp-aitah-226g/",
+        "size": "226g",
+        "ean": "4740012028697",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/4740012028697-1.png",
+        "storeName": "K.karp Aitäh Kalev 226g"
+      },
       "rimi": {
         "price": 7.99,
         "currency": "EUR",
@@ -56501,16 +57163,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/valik-piimasokolaadikomme-aitah-kalev-226-g",
         "size": "226g",
+        "ean": "4740012028697",
         "storeUnitPrice": 35.27,
         "storeName": "Valik piimašokolaadikomme Aitäh, KALEV, 226 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Martsipanikommid klassikalised 175g",
+    "name": "Kalev Martsipanikompv 175g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-martsipanikompv-175g/",
+        "size": "175g",
+        "ean": "4740012028277",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740012028277.png",
+        "storeName": "Martsipanikompv.Kalev 175g"
+      },
       "rimi": {
         "price": 4.29,
         "currency": "EUR",
@@ -56524,16 +57196,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikalised-martsipanikommid-kalev-175-g",
         "size": "175g",
+        "ean": "4740012028277",
         "storeUnitPrice": 22.69,
         "storeName": "Klassikalised martsipanikommid, KALEV, 175 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Metspähkel piimašokolaadis 140g",
+    "name": "Kalev Drazee metspähkel piimashok 140g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/metspahkel-shok-140g/",
+        "size": "140g",
+        "ean": "4740012052012",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012052012.png",
+        "storeName": "Drazee Metspähkel piimashok.Kalev 140g"
+      },
       "rimi": {
         "price": 3.39,
         "currency": "EUR",
@@ -56548,16 +57230,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/metspahkel-piimasokolaadis-kalev-140-g-t000076482",
         "size": "140g",
+        "ean": "4740012052012",
         "storeUnitPrice": 31.93,
         "storeName": "Metspähkel piimašokolaadis, KALEV, 140 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Kalev Šokolaadikommid kannel 300g",
+    "name": "Kalev K kannel karp shokolaadikompvek 300g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 22.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-karp-kannel-300g/",
+        "size": "300g",
+        "ean": "4740012028604",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012028604.png",
+        "storeName": "K.karp Kannel Kalev 300g shokolaadikompvek"
+      },
       "rimi": {
         "price": 22.39,
         "currency": "EUR",
@@ -56571,16 +57263,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kannel-sokolaadikommid-kalev-300-g",
         "size": "300g",
+        "ean": "4740012028604",
         "storeUnitPrice": 77.6,
         "storeName": "Kannel šokolaadikommid, KALEV, 300 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Karl fazer Piimašokolaadikompvekid 250g",
+    "name": "Karl fazer K karp piimashokolaadikompvekid 250g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-piimashokolaadikompvekid-250g/",
+        "size": "250g",
+        "ean": "6416453053113",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/6416453053113.png",
+        "storeName": "K.karp Karl Fazer 250g piimashokolaadikompvekid"
+      },
       "rimi": {
         "price": 7.99,
         "currency": "EUR",
@@ -56594,11 +57296,46 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piimasokolaadikompvekid-karl-fazer-250-g",
         "size": "250g",
+        "ean": "6416453053113",
         "storeUnitPrice": 33.16,
         "storeName": "Piimašokolaadikompvekid, KARL FAZER, 250 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm winterfresh 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-winterfresh-14g/",
+        "size": "14g",
+        "ean": "50173976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/50173976.jpg",
+        "storeName": "Närimiskumm Orbit Winterfresh 14g"
+      },
+      "rimi": {
+        "price": 0.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/maiustused-ja-snakid/narimiskumm-ja-pastillid/narimiskumm/narimiskumm-winterfresh-orbit-14g/p/103154",
+        "size": "14g",
+        "storeUnitPrice": 42.14,
+        "regularPrice": 0.85,
+        "storeName": "Närimiskumm Winterfresh Orbit 14g"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-winterfresh-suhkruvaba-magusainetega-orbit-14-g",
+        "size": "14g",
+        "ean": "50173976",
+        "storeUnitPrice": 67.86,
+        "storeName": "Närimiskumm Winterfresh suhkruvaba magusainetega, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Orbit Närimiskumm spearmint 50g",
@@ -56617,6 +57354,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/narimiskumm-spearmint-orbit-50-g",
         "size": "50g",
+        "ean": "4009900552448",
         "storeUnitPrice": 54.6,
         "storeName": "Närimiskumm Spearmint, ORBIT, 50 g"
       }
@@ -56624,9 +57362,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Orbit Närimiskumm white freshmint 14g",
+    "name": "Orbit white Närimiskumm freshmint 14g",
     "category": "Candy",
     "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-wh-freshmint-14g/",
+        "size": "14g",
+        "ean": "42069942",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/42069942.jpg",
+        "storeName": "Närimiskumm Orbit White Freshmint 14g"
+      },
       "rimi": {
         "price": 0.59,
         "currency": "EUR",
@@ -56641,11 +57388,3592 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/narimiskumm-white-freshmint-orbit-14-g",
         "size": "14g",
+        "ean": "42069942",
         "storeUnitPrice": 64.29,
         "storeName": "Närimiskumm White Freshmint, ORBIT, 14 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Roshen Karamell crabs kakao ja maapähkli 126g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-crabs-126g/",
+        "size": "126g",
+        "ean": "4770115181241",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770115181241.png",
+        "storeName": "Karamell Crabs Roshen 126g kakao ja maapähkli"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karamell-vahid-roshen-126-g",
+        "size": "126g",
+        "ean": "4770115181241",
+        "storeUnitPrice": 7.86,
+        "storeName": "Karamell Vähid, ROSHEN, 126 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Trolli Kummikomm sour glowworms 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/trolli-kummikomm-sour-glowworms-200g/",
+        "size": "200g",
+        "ean": "4000512010869",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4000512010869.png",
+        "storeName": "Kummikomm Trolli Sour Glowworms 200g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-ussikesed-trolli-200-g",
+        "size": "200g",
+        "ean": "4000512010869",
+        "storeUnitPrice": 9.95,
+        "storeName": "Kummikommid \"Ussikesed\", TROLLI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bucuria karamell frutic assortii 190g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-frutic-190g/",
+        "size": "190g",
+        "ean": "4840095018506",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4840095018506.png",
+        "storeName": "Bucuria Karamell Frutic 190g assortii"
+      },
+      "selver": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karamell-frutic-assortii-bucuria-190-g",
+        "size": "190g",
+        "ean": "4840095018506",
+        "storeUnitPrice": 6.68,
+        "storeName": "Karamell Frutic Assortii, BUCURIA, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tutti frutti Kummikomm sour fazer 180g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-sour-180g/",
+        "size": "180g",
+        "ean": "6416453036413",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/6416453036413.png",
+        "storeName": "Kummikomm Tutti Frutti Sour Fazer 180g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-hapud-tutti-frutti-180-g",
+        "size": "180g",
+        "ean": "6416453036413",
+        "storeUnitPrice": 12.72,
+        "storeName": "Kummikommid (hapud), TUTTI FRUTTI, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marianne Komm fazer piparmündi 220g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kommid-marianne-220g/",
+        "size": "220g",
+        "ean": "6410803642019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6410803642019.jpg",
+        "storeName": "Komm Marianne Fazer 220g piparmündimaitseline"
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-marianne-220-g",
+        "size": "220g",
+        "ean": "6410803642019",
+        "storeUnitPrice": 20.41,
+        "storeName": "Kompvekid, MARIANNE, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tutti frutti Kummikomm original fazer 350g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-350g/",
+        "size": "350g",
+        "ean": "6416453038295",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6416453038295.png",
+        "storeName": "Kummikomm Tutti Frutti Original Fazer 350g"
+      },
+      "selver": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-original-tutti-frutti-350-g",
+        "size": "350g",
+        "ean": "6416453038295",
+        "storeUnitPrice": 13.4,
+        "storeName": "Kummikommid Original, TUTTI FRUTTI, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Skittles fruit drazee puuvilja 38g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/drazee-skittles-fruit38g/",
+        "size": "38g",
+        "ean": "5000159376655",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000159376655.jpg",
+        "storeName": "Skittles Fruit drazee 38g puuvilja"
+      },
+      "selver": {
+        "price": 1.11,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/drazeed-fruits-skittles-38-g",
+        "size": "38g",
+        "ean": "5000159376655",
+        "storeUnitPrice": 29.21,
+        "storeName": "Dražeed Fruits, SKITTLES, 38 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "V bbq damme grillvahukomm mallows 300g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahukomm-super-bbq-300g/",
+        "size": "300g",
+        "ean": "5901583330933",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5411178817317.png",
+        "storeName": "V.Damme Grillvahukomm BBQ Mallows 300g"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahukommid-grillimiseks-van-damme-300-g",
+        "size": "300g",
+        "ean": "5901583330933",
+        "storeUnitPrice": 11.5,
+        "storeName": "Vahukommid grillimiseks, VAN DAMME, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "M glasuuris piimashok s värvilises 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/drazee-mm-piimashok200g/",
+        "size": "200g",
+        "ean": "5900951141638",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/5900951141638.png",
+        "storeName": "M&M s piimashok.värvilises glasuuris 200g"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadipastillid-m-m-s-200-g",
+        "size": "200g",
+        "ean": "5900951141638",
+        "storeUnitPrice": 19.95,
+        "storeName": "Sokolaadipastillid, M&M'S, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Kommikott dumle original 120g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/komm-dumle-originaal120g/",
+        "size": "120g",
+        "ean": "6411404035187",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411404035187.jpg",
+        "storeName": "Kommikott Dumle Original Fazer 120g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-dumle-120-g",
+        "size": "120g",
+        "ean": "6411404035187",
+        "storeUnitPrice": 16.58,
+        "storeName": "Kompvekid, DUMLE, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer marianne Fazer kommikott 120g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-marianne-120g/",
+        "size": "120g",
+        "ean": "6416453435636",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6411404035934.png",
+        "storeName": "Fazer Marianne kommikott 120g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-marianne-120-g",
+        "size": "120g",
+        "ean": "6416453435636",
+        "storeUnitPrice": 24.92,
+        "storeName": "Kompvekid, MARIANNE, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Red band Kummikomm tutti frutti hearts 15g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-hearts-15g/",
+        "size": "15g",
+        "ean": "6420256001837",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6420256001837.png",
+        "storeName": "Kummikomm Tutti-Frutti Hearts Red Band 15g"
+      },
+      "selver": {
+        "price": 0.46,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-hearts-tutti-frutti-15-g",
+        "cardPrice": 0.35,
+        "cardName": "Partner",
+        "size": "15g",
+        "ean": "6420256001837",
+        "storeUnitPrice": 30.67,
+        "storeName": "Kummikommid Hearts, TUTTI FRUTTI, 15 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kinder Komm bueno mini pähklitäidisega 108g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kinder-bueno-mini-108g/",
+        "size": "108g",
+        "ean": "8000500180709",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/8000500180709.png",
+        "storeName": "Komm Kinder Bueno Mini 108g"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaadivahvel-piima-pahklitaidisega-kinder-108-g",
+        "size": "108g",
+        "ean": "8000500180709",
+        "storeUnitPrice": 35.09,
+        "storeName": "Piimašokolaadivahvel piima-pähklitäidisega, KINDER, 108 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tutti frutti Kummikomm original fazer 180g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-180g/",
+        "size": "180g",
+        "ean": "6416453038288",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6416453038288.png",
+        "storeName": "Kummikomm Tutti Frutti original Fazer 180g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-tutti-frutti-180-g",
+        "size": "180g",
+        "ean": "6416453038288",
+        "storeUnitPrice": 12.72,
+        "storeName": "Kummikommid, TUTTI FRUTTI, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tutti frutti Kummikomm passion fazer 180g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-passion180g/",
+        "size": "180g",
+        "ean": "6416453036383",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6416453036383.jpg",
+        "storeName": "Kummikomm Tutti Frutti Passion Fazer 180g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-passion-tutti-frutti-180-g",
+        "size": "180g",
+        "ean": "6416453036383",
+        "storeUnitPrice": 12.72,
+        "storeName": "Kummikommid Passion, TUTTI FRUTTI, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Werthers original sugar free magusainetega 42g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/werthers-original-42g/",
+        "size": "42g",
+        "ean": "4014400907902",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4014400907902.jpg",
+        "storeName": "Werthers Original Sugar Free 42g"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suhkruvabad-koorekompvekid-magusainetega-werther-s-original-42-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "42g",
+        "ean": "4014400907902",
+        "storeUnitPrice": 43.33,
+        "storeName": "Suhkruvabad koorekompvekid magusainetega, WERTHER'S ORIGINAL, 42 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Vahvlikompv tallinn rummi 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahvlikompv-tallinn-150g/",
+        "size": "150g",
+        "ean": "4740012020370",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012020370.png",
+        "storeName": "Vahvlikompv.Tallinn Kalev 150g rummimaits."
+      },
+      "selver": {
+        "price": 3.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahvlikompvekid-tallinn-kalev-150-g",
+        "size": "150g",
+        "ean": "4740012020370",
+        "storeUnitPrice": 25.8,
+        "storeName": "Vahvlikompvekid Tallinn, KALEV, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Vahvlikompv ananassi ananass 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahvlikompv-ananassi150g/",
+        "size": "150g",
+        "ean": "4740012021445",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012021445.png",
+        "storeName": "Vahvlikompv.Ananass Kalev 150g ananassimaitseline"
+      },
+      "selver": {
+        "price": 3.77,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-ananassi-kalev-150-g",
+        "size": "150g",
+        "ean": "4740012021445",
+        "storeUnitPrice": 25.13,
+        "storeName": "Kompvekid Ananassi, KALEV, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pralineekompv komeet 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-komeet-175g/",
+        "size": "175g",
+        "ean": "4740012023531",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023531.png",
+        "storeName": "Pralineekompv.Komeet Kalev 175g"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvek-komeet-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012023531",
+        "storeUnitPrice": 16.4,
+        "storeName": "Kompvek Komeet, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pralineekompv 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-kalev-175g/",
+        "size": "175g",
+        "ean": "4740012023678",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023678-1.jpg",
+        "storeName": "Pralineekompv.Kalev 175g"
+      },
+      "selver": {
+        "price": 2.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-kalev-kalev-175-g",
+        "cardPrice": 2.39,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "4740012023678",
+        "storeUnitPrice": 16.97,
+        "storeName": "Kompvekid Kalev, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pralineekompv karakum 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-karakum-175g/",
+        "size": "175g",
+        "ean": "4740012023692",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023692-1.jpg",
+        "storeName": "Pralineekompv.Karakum Kalev 175g"
+      },
+      "selver": {
+        "price": 3.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-karakum-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012023692",
+        "storeUnitPrice": 22.69,
+        "storeName": "Kompvekid Karakum, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Marmelaadikompv lily jõhvika 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marm-kompv-lily-175g/",
+        "size": "175g",
+        "ean": "4740012023715",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023715.jpg",
+        "storeName": "Marmelaadikompv.Lily Kalev 175g jõhvikamaits"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-lily-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012023715",
+        "storeUnitPrice": 16.4,
+        "storeName": "Kompvekid Lily, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Marmelaadikompv tiina rummi 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marm-kompv-tiina-175g/",
+        "size": "175g",
+        "ean": "4740012023722",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023722-1.jpg",
+        "storeName": "Marmelaadikompv.Tiina Kalev 175g rummimaitseline"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-tiina-kalev-175-g",
+        "cardPrice": 1.67,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "4740012023722",
+        "storeUnitPrice": 16.4,
+        "storeName": "Kompvekid Tiina, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pumatikompv tõmmu rummi 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pumatikompv-tommu-175g/",
+        "size": "175g",
+        "ean": "4740012023760",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023760-1.jpg",
+        "storeName": "Pumatikompv.Tõmmu Kalev 175g rummimaitseline"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-tommu-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012023760",
+        "storeUnitPrice": 16.4,
+        "storeName": "Kompvekid Tõmmu, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Marmelaadikompv mustsõstra 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marm-kompv-m-sostra-175g/",
+        "size": "175g",
+        "ean": "4740012024798",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012024798-1.png",
+        "storeName": "Marmelaadikompv.Kalev 175g mustasõstramaitseline"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustsostram-marmelaadikompvek-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012024798",
+        "storeUnitPrice": 16.4,
+        "storeName": "Mustsõstram. marmelaadikompvek, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pralineekompv pistaatsiapähkliga 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-pistaatsia-175g/",
+        "size": "175g",
+        "ean": "4740012025566",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012025566-1.png",
+        "storeName": "Pralineekompv.Kalev 175g pistaatsiapähkliga"
+      },
+      "selver": {
+        "price": 3.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pralinee-pistaatsiapahkliga-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012025566",
+        "storeUnitPrice": 18.69,
+        "storeName": "Pralinee pistaatsiapähkliga, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Batoonike kalev 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/batoonike-mesikapp-150g/",
+        "size": "150g",
+        "ean": "4740012025580",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012025580.png",
+        "storeName": "Batoonike Mesikäpp Kalev 150g"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kakaobatoonike-mesikapp-kalev-150-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740012025580",
+        "storeUnitPrice": 17.53,
+        "storeName": "Kakaobatoonike Mesikäpp, KALEV, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Vahukomm piimashokolaadis 115g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mesikapp-vahukommid115g-piimashokolaadis/",
+        "size": "115g",
+        "ean": "4740012051961",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/4740012051961.png",
+        "storeName": "Vahukomm Mesikäpp 115g piimashokolaadis"
+      },
+      "selver": {
+        "price": 1.92,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mesikapp-vahukommid-piimasokolaadis-kalev-115-g",
+        "cardPrice": 1.55,
+        "cardName": "Partner",
+        "size": "115g",
+        "ean": "4740012051961",
+        "storeUnitPrice": 16.7,
+        "storeName": "Mesikäpp vahukommid piimašokolaadis, KALEV, 115 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Malaco Lagrits laku sekoitus 250g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/malaco-lagrits-laku-sekoitus-250g/",
+        "size": "250g",
+        "ean": "6420256015742",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/6420256015742.png",
+        "storeName": "Lagrits Laku Sekoitus Malaco 250g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lagritsakompvekid-laku-sekoitus-malaco-250-g",
+        "cardPrice": 2.55,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "6420256015742",
+        "storeUnitPrice": 11.96,
+        "storeName": "Lagritsakompvekid Laku Sekoitus, MALACO, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Kommisegu sünnipäeva 500g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 6.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-kommisegu-sunnipaeva-500g/",
+        "size": "500g",
+        "ean": "4740012028352",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740012028352.png",
+        "storeName": "Kommisegu Sünnipäeva Kalev 500g"
+      },
+      "selver": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sunnipaeva-kommisegu-kalev-500-g",
+        "size": "500g",
+        "ean": "4740012028352",
+        "storeUnitPrice": 12.98,
+        "storeName": "Sünnipäeva kommisegu, KALEV, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev maiuspala drazee pallid shok 140g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maiuspala-sh-pallid-140g/",
+        "size": "140g",
+        "ean": "4740012051992",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012051992.png",
+        "storeName": "Kalev drazee Maiuspala shok.pallid 140g"
+      },
+      "selver": {
+        "price": 4.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maiuspala-sokolaadipallid-kalev-140-g-t000076107",
+        "size": "140g",
+        "ean": "4740012051992",
+        "storeUnitPrice": 31.93,
+        "storeName": "Maiuspala šokolaadipallid, KALEV, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Drazee metspähkel tumedas shok 140g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/metspahkel-t-shok-140g/",
+        "size": "140g",
+        "ean": "4740012052005",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012052005.png",
+        "storeName": "Drazee Metspähkel tumedas shok.Kalev 140g"
+      },
+      "selver": {
+        "price": 4.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/metspahkel-tumedas-sokolaadis-kalev-140-g-t000076481",
+        "size": "140g",
+        "ean": "4740012052005",
+        "storeUnitPrice": 31.93,
+        "storeName": "Metspähkel tumedas šokolaadis, KALEV, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Drazee mündi mandel piimashok 140g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mandel-shok-140g/",
+        "size": "140g",
+        "ean": "4740012052036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012052036.png",
+        "storeName": "Drazee Mandel mündimaits.piimashok.Kalev 140g"
+      },
+      "selver": {
+        "price": 4.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mundi-mandel-piimasokolaadis-kalev-140-g",
+        "size": "140g",
+        "ean": "4740012052036",
+        "storeUnitPrice": 31.93,
+        "storeName": "Mündi mandel piimašokolaadis, KALEV, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm kuldkarud 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-kummikomm-kuldkarud-100g/",
+        "size": "100g",
+        "ean": "4001686301555",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4001686301555.png",
+        "storeName": "Kummikomm Kuldkarud Haribo 100g"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-kuldkarud-haribo-100-g",
+        "size": "100g",
+        "ean": "4001686301555",
+        "storeUnitPrice": 13.5,
+        "storeName": "Kummikommid Kuldkarud, HARIBO, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm rulett 25g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kummikomm-rulett-25g/",
+        "size": "25g",
+        "ean": "4001686372234",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4001686372234.jpg",
+        "storeName": "Kummikomm Rulett Haribo 25g"
+      },
+      "selver": {
+        "price": 0.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rulett-kummikomm-haribo-25-g",
+        "size": "25g",
+        "ean": "4001686372234",
+        "storeUnitPrice": 16.4,
+        "storeName": "Rulett kummikomm, HARIBO, 25 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Kakaobatoonike glasuuriga kalev shok 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kakaobat-mesikapp-200g/",
+        "size": "200g",
+        "ean": "4740012027508",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012027508.jpg",
+        "storeName": "Kakaobatoonike Mesikäpp Kalev 200g shok.glasuuriga"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mesikapp-sokolaadiglasuuris-kakaobatoonike-kalev-200-g",
+        "cardPrice": 2.79,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4740012027508",
+        "storeUnitPrice": 17.75,
+        "storeName": "Mesikäpp šokolaadiglasuuris kakaobatoonike, KALEV, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Roshen Koorekomm creamy toffee milky splash täidisega 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milky-splash-toffee-150g/",
+        "size": "150g",
+        "ean": "4823077623714",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4823077623714-1.png",
+        "storeName": "Koorekomm Creamy Toffee Milky Splash Roshen 150g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorekomm-kondenspiima-taidisega-milky-splash-toffifee-roshen-150-g",
+        "size": "150g",
+        "ean": "4823077623714",
+        "storeUnitPrice": 11.2,
+        "storeName": "Koorekomm kondenspiima täidisega Milky Splash Toffifee, ROSHEN, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Roshen sweet drop kar kondenspiima piimatäidisega 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-sweet-drop-150g/",
+        "size": "150g",
+        "ean": "4823077623684",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4823077623684-1.png",
+        "storeName": "Roshen Sweet Drop kar.150g kondenspiima"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karamell-piimataidisega-sweet-drop-roshen-150-g",
+        "size": "150g",
+        "ean": "4823077623684",
+        "storeUnitPrice": 9.19,
+        "storeName": "Karamell piimatäidisega Sweet Drop, ROSHEN, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Koorekompv originaal werthers 135g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koorekompv-werthers-135g/",
+        "size": "135g",
+        "ean": "4014400910063",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4014400910063.jpg",
+        "storeName": "Koorekompv.Werthers Original 135g"
+      },
+      "selver": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorekompvekid-werther-s-135-g",
+        "cardPrice": 1.79,
+        "cardName": "Partner",
+        "size": "135g",
+        "ean": "4014400910063",
+        "storeUnitPrice": 15.93,
+        "storeName": "Koorekompvekid, WERTHER'S, 135 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Marmelaadikompv maasika rab 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marm-kompv-maasika-175g/",
+        "size": "175g",
+        "ean": "4740012028086",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740012028086-1.png",
+        "storeName": "Marmelaadikompv.Kalev 175g maasika-rab.maits."
+      },
+      "selver": {
+        "price": 1.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasika-rabarberimaitseline-marmelaadikompvek-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012028086",
+        "storeUnitPrice": 11.26,
+        "storeName": "Maasika-rabarberimaitseline marmelaadikompvek, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Karamell eukalüpti mentooli täidisega 120g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-euk-mentool120g/",
+        "size": "120g",
+        "ean": "4740012600145",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600145.png",
+        "storeName": "Karamell Kalev 120g eukalüpti-mentoolimaitseline"
+      },
+      "selver": {
+        "price": 1.07,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eukalupti-mentoolimaitseline-taidisega-karamell-kalev-120-g-t000078230",
+        "size": "120g",
+        "ean": "4740012600145",
+        "storeUnitPrice": 8.92,
+        "storeName": "Eukalüpti-mentoolimaitseline täidisega karamell, KALEV, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Närimiskompv drako maasika 110g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/komp-drako-maasika-110g/",
+        "size": "110g",
+        "ean": "4740012600176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600176.png",
+        "storeName": "Närimiskompv.Drako Kalev110g maasikamaits"
+      },
+      "selver": {
+        "price": 1.57,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/drako-maasikamaitselised-narimiskommid-kalev-110-g",
+        "size": "110g",
+        "ean": "4740012600176",
+        "storeUnitPrice": 14.27,
+        "storeName": "Drako maasikamaitselised närimiskommid, KALEV, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Närimiskompv drako õuna 110g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kompv-drako-ouna-110g/",
+        "size": "110g",
+        "ean": "4740012600183",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600183.png",
+        "storeName": "Närimiskompv.Drako Kalev 110g õunamaitseline"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/drako-ounamaitselised-narimiskommid-kalev-110-g",
+        "size": "110g",
+        "ean": "4740012600183",
+        "storeUnitPrice": 11.36,
+        "storeName": "Drako õunamaitselised närimiskommid, KALEV, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Drako Närimiskommide segupakk mix 420g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kompvek-draakon-mix-420g/",
+        "size": "420g",
+        "ean": "4740012600213",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600213.png",
+        "storeName": "Närimiskommide segupakk Drako Mix 420g"
+      },
+      "selver": {
+        "price": 5.4,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskommide-segu-drako-420-g",
+        "size": "420g",
+        "ean": "4740012600213",
+        "storeUnitPrice": 12.86,
+        "storeName": "Närimiskommide segu, DRAKO, 420 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Karamell apelsini täidisega 120g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karamell-apelsini-120g/",
+        "size": "120g",
+        "ean": "4740012600138",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600138.png",
+        "storeName": "Karamell Kalev 120g apelsinimaits.täidisega"
+      },
+      "selver": {
+        "price": 1.07,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsinimaitseline-taidisega-karamell-kalev-120-g",
+        "size": "120g",
+        "ean": "4740012600138",
+        "storeUnitPrice": 8.92,
+        "storeName": "Apelsinimaitseline täidisega karamell, KALEV, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Trolli Kummikomm dino rex eri 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/trolli-kummikomm-dino-rex-100g-erimaits/",
+        "size": "100g",
+        "ean": "4003084319507",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4003084319507.png",
+        "storeName": "Kummikomm Trolli Dino Rex 100g erimaitselised"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikomm-dino-rex-vegan-trolli-100-g",
+        "size": "100g",
+        "ean": "4003084319507",
+        "storeUnitPrice": 13.1,
+        "storeName": "Kummikomm Dino Rex vegan, TROLLI, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Trolli Kummikomm squiggle twist eri 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/trolli-kummikomm-squiggle-twist-175g/",
+        "size": "175g",
+        "ean": "4000512364962",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4000512364962.png",
+        "storeName": "Kummikomm Trolli Squiggle Twist175g erimaitselised"
+      },
+      "selver": {
+        "price": 1.92,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-squiggle-twist-trolli-175-g",
+        "size": "175g",
+        "ean": "4000512364962",
+        "storeUnitPrice": 10.97,
+        "storeName": "Kummikommid Squiggle Twist, TROLLI, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm starmix segu 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-starmix-segu-kummikomm-175g/",
+        "size": "175g",
+        "ean": "4001686322932",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4001686322932.png",
+        "storeName": "Kummikomm Haribo Starmix segu 175g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/starmix-kummikommide-segu-haribo-175-g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "4001686322932",
+        "storeUnitPrice": 13.66,
+        "storeName": "Starmix kummikommide segu, HARIBO, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm troppi frutti 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-troppi-frutti-kummikomm-175g/",
+        "size": "175g",
+        "ean": "4001686322963",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4001686322963.png",
+        "storeName": "Kummikomm Haribo Troppi-Frutti 175g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-tropifrutti-haribo-175-g",
+        "size": "175g",
+        "ean": "4001686322963",
+        "storeUnitPrice": 13.66,
+        "storeName": "Kummikommid TropiFrutti, HARIBO, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm sauerbrenner hapud 160g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-sauerbrenner-kummikomm-160g/",
+        "size": "160g",
+        "ean": "9002975002516",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4001686327753.png",
+        "storeName": "Kummikomm Haribo Sauerbrenner 160g hapud"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hapud-kummikommid-sauerbrenner-haribo-160-g",
+        "size": "160g",
+        "ean": "9002975002516",
+        "storeUnitPrice": 14.94,
+        "storeName": "Hapud kummikommid Sauerbrenner, HARIBO, 160 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Storck Nätsukomm mamba magic sticks 140g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/storck-natsukomm-mamba-magic-sticks-140g/",
+        "size": "140g",
+        "ean": "4014400933413",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/4014400933413.png",
+        "storeName": "Nätsukomm Storck Mamba Magic Sticks 140g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/natsukomm-magic-sticks-mamba-140-g",
+        "size": "140g",
+        "ean": "4014400933413",
+        "storeUnitPrice": 17.79,
+        "storeName": "Nätsukomm Magic Sticks, MAMBA, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "M crispy glasuuris piimashok s värvilises 77g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mms-crispy-piimashok-varvilises-gl-77g/",
+        "size": "77g",
+        "ean": "5000159562263",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/5000159500906.png",
+        "storeName": "M&M s Crispy piimashok.värvilises glasuuris 77g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadipallid-crispy-m-m-s-77-g",
+        "size": "77g",
+        "ean": "5000159562263",
+        "storeUnitPrice": 31.04,
+        "storeName": "Šokolaadipallid \"Crispy\", M&M'S, 77 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Iiris kiss 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/iiris-kiss-kiss-150g-2/",
+        "size": "150g",
+        "ean": "4740012600152",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012600152.png",
+        "storeName": "Iiris Kiss-Kiss Kalev 150g"
+      },
+      "selver": {
+        "price": 1.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kiss-kiss-iiris-kalev-150-g",
+        "size": "150g",
+        "ean": "4740012600152",
+        "storeUnitPrice": 12.53,
+        "storeName": "Kiss-Kiss iiris, KALEV, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm fantaasia 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-fantaasia-kummikomm-175g/",
+        "size": "175g",
+        "ean": "4001686322901",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4001686322901.png",
+        "storeName": "Kummikomm Haribo Fantaasia 175g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-fantaasia-haribo-175-g",
+        "size": "175g",
+        "ean": "4001686322901",
+        "storeUnitPrice": 13.66,
+        "storeName": "Kummikommid Fantaasia, HARIBO, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Kommikott dumle snacks 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dumle-kommikott-snacks-100g/",
+        "size": "100g",
+        "ean": "6416453037601",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/6416453037601.png",
+        "storeName": "Kommikott Dumle Snacks Fazer 100g"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/snacks-kommikott-dumle-100-g",
+        "size": "100g",
+        "ean": "6416453037601",
+        "storeUnitPrice": 28.9,
+        "storeName": "Snacks kommikott, DUMLE, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Piimabatoonike kalev vahvliga 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piimabat-mesikapp-150g/",
+        "size": "150g",
+        "ean": "4740012600695",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012026563.jpg",
+        "storeName": "Piimabatoonike Mesikäpp Kalev 150g vahvliga"
+      },
+      "selver": {
+        "price": 2.33,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mesikapp-piimabatoonike-vahvliga-kalev-150-g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740012600695",
+        "storeUnitPrice": 15.53,
+        "storeName": "Mesikäpp piimabatoonike vahvliga, KALEV, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mesikäpp Kommisegu päkk kalev 500g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kommisegu-mesikapp-500g/",
+        "size": "500g",
+        "ean": "4740012600701",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012027607.jpg",
+        "storeName": "Kommisegu Mesikäpp 4Päkk Kalev 500g"
+      },
+      "selver": {
+        "price": 4.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mesikapp-nelipakk-kommisegu-kalev-500-g",
+        "size": "500g",
+        "ean": "4740012600701",
+        "storeUnitPrice": 9.94,
+        "storeName": "Mesikäpp NeliPäkk kommisegu, KALEV, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pez Mänguasi täidet 2 17g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/manguasi-pez-2-taidet/",
+        "ean": "5997255700104",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/9044400919457.png",
+        "storeName": "Mänguasi Pez + 2 täidet"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/manguaasi-2-taidet-pez-17-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "17g",
+        "ean": "5997255700104",
+        "storeUnitPrice": 155.88,
+        "storeName": "Mänguaasi + 2 täidet, PEZ, 17 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm kuldkarud 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-kuldkarud-kummikomm-175g/",
+        "size": "175g",
+        "ean": "4001686322840",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/4001686322840.png",
+        "storeName": "Kummikomm Haribo Kuldkarud 175g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-kuldkarud-haribo-175g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "4001686322840",
+        "storeUnitPrice": 13.66,
+        "storeName": "Kummikommid kuldkarud, HARIBO, 175g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "M glasuuris piimashok s värvilises 70g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-s-piimashok-varvilises-glasuuris-70g/",
+        "size": "70g",
+        "ean": "5900951314698",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/5900951314698.png",
+        "storeName": "M&M s piimashok.värvilises glasuuris 70g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadipastillid-minis-m-m-s-70-g",
+        "size": "70g",
+        "ean": "5900951314698",
+        "storeUnitPrice": 34.14,
+        "storeName": "Šokolaadipastillid Minis, M&M'S, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Skittles Drazee fruits puuvilja 95g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/skittles-fruits-drazee-95g-puuvilja/",
+        "size": "95g",
+        "ean": "4009900510813",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4009900510813.png",
+        "storeName": "Drazee Skittles Fruits 95g puuvilja"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/drazeed-skittles-95-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "95g",
+        "ean": "4009900510813",
+        "storeUnitPrice": 24.11,
+        "storeName": "Drazeed, SKITTLES, 95 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Vahukomm maasika 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vahukomm-maasikam-100g/",
+        "size": "100g",
+        "ean": "4001686405154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4001686405154.jpg",
+        "storeName": "Vahukomm Haribo 100g maasikamaitseline"
+      },
+      "selver": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-maasikad-haribo-100g",
+        "size": "100g",
+        "ean": "4001686405154",
+        "storeUnitPrice": 13.5,
+        "storeName": "Kummikommid Maasikad, HARIBO, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nerds närimiskomm clusters fruit 45g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nerds-narimiskomm-clusters-fruit-45g/",
+        "size": "45g",
+        "ean": "1230000131056",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/12/1230000131056.png",
+        "storeName": "Nerds närimiskomm Clusters Fruit 45g"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskommid-gummy-clusters-fruits-nerds-45-g",
+        "size": "45g",
+        "ean": "1230000131056",
+        "storeUnitPrice": 44.89,
+        "storeName": "Närimiskommid Gummy Clusters Fruits, NERDS, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tupla Shok puffs crispy kommid 140g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tupla-crispy-puffs-shok-kommid-140g/",
+        "size": "140g",
+        "ean": "6420256913420",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/6420256913420.png",
+        "storeName": "Shok.kommid Tupla Crispy Puffs 140g"
+      },
+      "selver": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadibatoon-puffs-tupla-140-g",
+        "size": "140g",
+        "ean": "6420256913420",
+        "storeUnitPrice": 34.93,
+        "storeName": "Šokolaadibatoon Puffs, TUPLA, 140 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tutti frutti Kummikomm smoothie drops ch fazer 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-smoothie-dropschoco-200g/",
+        "size": "200g",
+        "ean": "6416453066588",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/11/6416453066588.png",
+        "storeName": "Kummikomm Smoothie Drops&Ch.Tutti Frutti Fazer200g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/smoothie-drops-choco-tutti-frutti-200-g",
+        "size": "200g",
+        "ean": "6416453066588",
+        "storeUnitPrice": 13.95,
+        "storeName": "Smoothie Drops & Choco, TUTTI FRUTTI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tutti frutti Kummikomm smoothie drops fazer 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-smoothie-drops-k-komm100g/",
+        "size": "100g",
+        "ean": "6416453066540",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/11/6416453066540.png",
+        "storeName": "Kummikomm Smoothie Drops Tutti Frutti Fazer 100g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/smoothie-drops-tutti-frutti-100-g",
+        "size": "100g",
+        "ean": "6416453066540",
+        "storeUnitPrice": 15.9,
+        "storeName": "Smoothie Drops, TUTTI FRUTTI, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo konnad kummikomm 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-konnad-kummikomm-175g/",
+        "size": "175g",
+        "ean": "4001686322536",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/4001686322536.png",
+        "storeName": "Haribo Konnad kummikomm 175g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-konnad-haribo-175-g",
+        "cardPrice": 1.89,
+        "cardName": "Partner",
+        "size": "175g",
+        "ean": "4001686322536",
+        "storeUnitPrice": 13.66,
+        "storeName": "Kummikommid Konnad, HARIBO, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mentos Nätsukomm discover 37.5g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mentos-discover-natsukomm-37-5g/",
+        "size": "37.5g",
+        "ean": "87368338",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/87368338.png",
+        "storeName": "Nätsukomm Mentos Discover 37.5g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/natsukomm-discovery-mentos-37-5-g",
+        "size": "37.5g",
+        "ean": "87368338",
+        "storeUnitPrice": 26.05,
+        "storeName": "Nätsukomm Discovery, MENTOS, 37,5 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo jelly beans zeleekomm 160g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-jelly-beans-zeleekomm-160g/",
+        "size": "160g",
+        "ean": "9002975002523",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/9002975376952.png",
+        "storeName": "Haribo Jelly Beans zeleekomm 160g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jelly-beans-drazeekommid-haribo-160-g",
+        "size": "160g",
+        "ean": "9002975002523",
+        "storeUnitPrice": 14.94,
+        "storeName": "Jelly Beans, drazeekommid, HARIBO, 160 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mentos Nätsukomm mint piparmündi 38g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mentos-mint-natsukomm-38g-piparmundim/",
+        "size": "38g",
+        "ean": "87108019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/87108019.png",
+        "storeName": "Nätsukomm Mentos Mint 38g piparmündimaitseline"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mint-natsukomm-mentos-38-g",
+        "size": "38g",
+        "ean": "87108019",
+        "storeUnitPrice": 26.05,
+        "storeName": "Mint nätsukomm, MENTOS, 38 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Red band Kummikomm truly party animals 110g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/red-band-trulypartyanimals-kummikomm110g/",
+        "size": "110g",
+        "ean": "8713800115622",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/8713800115646.png",
+        "storeName": "Kummikomm Truly Party Animals Red Band 110g"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahlakommid-peoloomad-red-band-110-g",
+        "size": "110g",
+        "ean": "8713800115622",
+        "storeUnitPrice": 13.55,
+        "storeName": "Mahlakommid peoloomad, RED BAND, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jelly bean Närimiskomm the factory tuub 36 90g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/the-jelly-bean-factory-narimiskomm-90g/",
+        "size": "90g",
+        "ean": "8713800139307",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/8713800139307.png",
+        "storeName": "Närimiskomm The Jelly Bean Factory 90g tuub"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommid-36-maitset-gurmee-tuubis-jelly-bean-90g",
+        "size": "90g",
+        "ean": "8713800139307",
+        "storeUnitPrice": 29.89,
+        "storeName": "Kommid 36 Maitset Gurmee tuubis, JELLY BEAN, 90g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm miami fizz 85g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-miami-fizz-kummikomm-85g/",
+        "size": "85g",
+        "ean": "8426617359850",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/08/8426617359850.png",
+        "storeName": "Kummikomm Haribo Miami Fizz 85g"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/miami-fizz-hapud-kummikommid-haribo-85g",
+        "size": "85g",
+        "ean": "8426617359850",
+        "storeUnitPrice": 16.35,
+        "storeName": "Miami Fizz hapud kummikommid, HARIBO, 85g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm röövikud hapud 160g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-roovikud-kummikomm-160g-hapud/",
+        "size": "160g",
+        "ean": "9002975334853",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/9002975334853.png",
+        "storeName": "Kummikomm Haribo Röövikud 160g hapud"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/roovikud-hapud-kummikommid-haribo-160-g",
+        "size": "160g",
+        "ean": "9002975334853",
+        "storeUnitPrice": 14.69,
+        "storeName": "Röövikud, hapud kummikommid, HARIBO, 160 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pralineekompv oravake 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-oravake-175g/",
+        "size": "175g",
+        "ean": "4740012023685",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023685-1.jpg",
+        "storeName": "Pralineekompv.Oravake Kalev 175g"
+      },
+      "selver": {
+        "price": 3.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-oravake-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012023685",
+        "storeUnitPrice": 22.69,
+        "storeName": "Kompvekid Oravake, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Pralineekompv teekonna 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pralinee-teekonna-175g/",
+        "size": "175g",
+        "ean": "4740012023555",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023555-1.jpg",
+        "storeName": "Pralineekompv.Teekonna Kalev 175g"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvek-teekonna-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012023555",
+        "storeUnitPrice": 16.4,
+        "storeName": "Kompvek Teekonna, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Marmelaadikompv mari marja 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marm-kompv-mari-175g/",
+        "size": "175g",
+        "ean": "4740012023753",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740012023753.jpg",
+        "storeName": "Marmelaadikompv.Mari Kalev 175g marjamaitseline"
+      },
+      "selver": {
+        "price": 2.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marmelaadikompvek-mari-kalev-175-g",
+        "size": "175g",
+        "ean": "4740012023753",
+        "storeUnitPrice": 16.4,
+        "storeName": "Marmelaadikompvek Mari, KALEV, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Haribo Kummikomm halloween minipakid 250g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/haribo-kummikomm-halloween-250g-minipakk/",
+        "size": "250g",
+        "ean": "4001686023310",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4001686306956.png",
+        "storeName": "Kummikomm Halloween Haribo 250g minipakid"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/halloween-minipakid-kummikommid-haribo-250-g",
+        "cardPrice": 2.89,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4001686023310",
+        "storeUnitPrice": 15.16,
+        "storeName": "Halloween minipakid, kummikommid, HARIBO, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Tutti frutti Kummikomm remix boo sour 90g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kummikomm-remix-boo-sour-tutti-frutti-90g/",
+        "size": "90g",
+        "ean": "6416453055414",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/09/6416453055414.png",
+        "storeName": "Kummikomm Remix BOO Sour Tutti Frutti 90g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummikommid-boo-sour-tutti-frutti-90g",
+        "cardPrice": 0.89,
+        "cardName": "Partner",
+        "size": "90g",
+        "ean": "6416453055414",
+        "storeUnitPrice": 14.33,
+        "storeName": "Kummikommid Boo Sour, TUTTI FRUTTI, 90g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lockets Kurgupastill sidruni mee 41g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lockets-sidruni-mee-41g/",
+        "size": "41g",
+        "ean": "5000159422895",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/50159086.png",
+        "storeName": "Kurgupastill Lockets 41g sidruni-mee"
+      },
+      "selver": {
+        "price": 1.04,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pastillid-mesi-sidrun-lockets-41-g",
+        "size": "41g",
+        "ean": "5000159422895",
+        "storeUnitPrice": 25.37,
+        "storeName": "Pastillid mesi/sidrun, LOCKETS, 41 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm sweet mint magusainetega 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-sweet-mint-14g/",
+        "size": "14g",
+        "ean": "50173808",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/42070009.jpg",
+        "storeName": "Närimiskumm Orbit Sweet Mint 14g"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-sweet-mint-suhkruvaba-magusainetega-orbit-14-g",
+        "size": "14g",
+        "ean": "50173808",
+        "storeUnitPrice": 67.86,
+        "storeName": "Närimiskumm Sweet Mint suhkruvaba magusainetega, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm spearmint magusainetega 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-spearmint-14g/",
+        "size": "14g",
+        "ean": "50173822",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/50173822.jpg",
+        "storeName": "Närimiskumm Orbit Spearmint 14g"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-spearmint-suhkruvaba-magusainetega-orbit-14-g",
+        "size": "14g",
+        "ean": "50173822",
+        "storeUnitPrice": 67.86,
+        "storeName": "Närimiskumm Spearmint suhkruvaba magusainetega, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Red band Kummikomm tutti frutti puuvilja 15g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tutti-frutti-15g/",
+        "size": "15g",
+        "ean": "6410107200410",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6410107200410.jpg",
+        "storeName": "Kummikomm Tutti-Frutti Red Band 15g puuviljamaits"
+      },
+      "selver": {
+        "price": 0.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pastillid-tutti-frutti-tutti-frutti-15-g",
+        "size": "15g",
+        "ean": "6410107200410",
+        "storeUnitPrice": 27.33,
+        "storeName": "Pastillid Tutti Frutti, TUTTI FRUTTI, 15 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Drazee tictac apelsini 18g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tic-tac-apelsini-18g/",
+        "size": "18g",
+        "ean": "80052333",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/80052333.jpg",
+        "storeName": "Drazee TicTac Apelsini 18g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsinimaitselised-drazeed-tic-tac-18-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "18g",
+        "ean": "80052333",
+        "storeUnitPrice": 55,
+        "storeName": "Apelsinimaitselised dražeed, TIC TAC, 18 g."
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Drazee tictac maasika mix 18g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tic-tac-maasika-mix-18g/",
+        "size": "18g",
+        "ean": "80800019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/80800019.jpg",
+        "storeName": "Drazee TicTac Maasika Mix 18g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasikamaitselised-drazeed-tic-tac-18-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "18g",
+        "ean": "80800019",
+        "storeUnitPrice": 55,
+        "storeName": "Maasikamaitselised dražeed, TIC TAC, 18 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm blueberry 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-blueberry-14g/",
+        "size": "14g",
+        "ean": "42123880",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/42123880.png",
+        "storeName": "Närimiskumm Orbit Blueberry 14g"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-blueberry-orbit-14-g",
+        "size": "14g",
+        "ean": "42123880",
+        "storeUnitPrice": 67.86,
+        "storeName": "Närimiskumm Blueberry, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit white Närimiskumm fruit magusainetega 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-white-fruit-14g/",
+        "size": "14g",
+        "ean": "42070429",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/42070429.png",
+        "storeName": "Närimiskumm Orbit White Fruit 14g"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-white-fruit-suhkruvaba-magusainetega-orbit-14-g",
+        "size": "14g",
+        "ean": "42070429",
+        "storeUnitPrice": 64.29,
+        "storeName": "Närimiskumm White Fruit suhkruvaba magusainetega, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit white Närimiskumm spearmint magusainetega 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-white-spearmint14g/",
+        "size": "14g",
+        "ean": "42113164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/42113164.jpg",
+        "storeName": "Närimiskumm Orbit White Spearmint 14g"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-white-spearmint-suhkruvaba-magusainetega-orbit-14-g",
+        "size": "14g",
+        "ean": "42113164",
+        "storeUnitPrice": 64.29,
+        "storeName": "Närimiskumm White Spearmint suhkruvaba magusainetega, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm watermelon magusainetega 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-watermelon-14g/",
+        "size": "14g",
+        "ean": "42113270",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/42113270.jpg",
+        "storeName": "Närimiskumm Orbit Watermelon 14g"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-watermelon-suhkruvaba-magusainetega-orbit-14-g",
+        "size": "14g",
+        "ean": "42113270",
+        "storeUnitPrice": 67.86,
+        "storeName": "Närimiskumm Watermelon suhkruvaba magusainetega, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Pastill mints spearmint magusainetega 28g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-mints-spearm-28g/",
+        "size": "28g",
+        "ean": "42211501",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/42211501.png",
+        "storeName": "Pastill Orbit Mints Spearmint 28g"
+      },
+      "selver": {
+        "price": 1.07,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pastillid-spearmint-mints-magusainetega-orbit-28-g",
+        "size": "28g",
+        "ean": "42211501",
+        "storeUnitPrice": 38.21,
+        "storeName": "Pastillid Spearmint Mints magusainetega, ORBIT, 28 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Chupa chups Mullinäts tutti babol big frutt 27.6g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mullinats-big-barol27-6g/",
+        "size": "27.6g",
+        "ean": "80759096",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/80759096.png",
+        "storeName": "Mullinäts Big Babol Chupa Chups 27.6g Tutti-Frutt"
+      },
+      "selver": {
+        "price": 0.76,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-tutti-frutti-chupa-chups-27-6-g",
+        "cardPrice": 0.49,
+        "cardName": "Partner",
+        "size": "27.6g",
+        "ean": "80759096",
+        "storeUnitPrice": 27.54,
+        "storeName": "Närimiskumm Tutti-Frutti, CHUPA CHUPS, 27,6 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm rasberry pomegranate magusainetega 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-rasberry-pomegranate-14g/",
+        "size": "14g",
+        "ean": "50173747",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/50173747.png",
+        "storeName": "Närimiskumm Orbit Rasberry Pomegranate 14g"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarika-ja-granaatounamaitseline-suhkruvaba-narimiskumm-magusainetega-orbit-14-g",
+        "size": "14g",
+        "ean": "50173747",
+        "storeUnitPrice": 64.29,
+        "storeName": "Vaarika- ja granaatõunamaitseline suhkruvaba närimiskumm magusainetega, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jenkki Närimiskumm spearmint kott 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jenkki-spearmint-narimiskumm-100g-kott/",
+        "size": "100g",
+        "ean": "6420256012680",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/05/6420256012680.png",
+        "storeName": "Närimiskumm Jenkki Spearmint 100g kott"
+      },
+      "selver": {
+        "price": 3.13,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-spearmint-jenkki-100-g",
+        "size": "100g",
+        "ean": "6420256012680",
+        "storeUnitPrice": 31.3,
+        "storeName": "Närimiskumm Spearmint, JENKKI, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Jenkki Närimiskumm peppermint kott 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jenkki-peppermint-narimiskumm-100g-kott/",
+        "size": "100g",
+        "ean": "6420256012673",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/6420256012673.png",
+        "storeName": "Närimiskumm Jenkki Peppermint 100g kott"
+      },
+      "selver": {
+        "price": 3.13,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-peppermint-jenkki-100-g",
+        "size": "100g",
+        "ean": "6420256012673",
+        "storeUnitPrice": 31.3,
+        "storeName": "Närimiskumm Peppermint, JENKKI, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Drazee tictac fresh orange apelsini 54g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tictac-fresh-orange-drazee-54g-apelsinim/",
+        "size": "54g",
+        "ean": "8000500164976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/8000500164976.png",
+        "storeName": "Drazee TicTac Fresh Orange 54g apelsinimaitseline"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsinimaitselised-drazeed-tic-tac-54-g",
+        "size": "54g",
+        "ean": "8000500164976",
+        "storeUnitPrice": 47.96,
+        "storeName": "Apelsinimaitselised drazeed, TIC TAC, 54 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm spearmint purk 64g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-spearmint-narimiskumm-64g-purk/",
+        "size": "64g",
+        "ean": "4009900537506",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4009900537506.png",
+        "storeName": "Närimiskumm Orbit Spearmint 64g purk"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-spearmint-orbit-64-g",
+        "size": "64g",
+        "ean": "4009900537506",
+        "storeUnitPrice": 56.09,
+        "storeName": "Närimiskumm Spearmint, ORBIT, 64 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm sweetmint purk 64g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-sweetmint-narimiskumm-64g-purk/",
+        "size": "64g",
+        "ean": "4009900549981",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4009900549981.png",
+        "storeName": "Närimiskumm Orbit Sweetmint 64g purk"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-sweetmint-orbit-64-g",
+        "size": "64g",
+        "ean": "4009900549981",
+        "storeUnitPrice": 56.09,
+        "storeName": "Närimiskumm Sweetmint, ORBIT, 64 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit white Närimiskumm freshmint purk 64g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-white-freshmint-narimiskumm64g-prk/",
+        "size": "64g",
+        "ean": "4009900538237",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4009900538237.png",
+        "storeName": "Närimiskumm Orbit White Freshmint 64g purk"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-freshmint-orbit-white-64-g",
+        "size": "64g",
+        "ean": "4009900538237",
+        "storeUnitPrice": 56.09,
+        "storeName": "Närimiskumm Freshmint, ORBIT WHITE, 64 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit watermelon närimiskumm purk 64g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-watermelon-narimiskumm-64g-purk/",
+        "size": "64g",
+        "ean": "4009900538206",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4009900538206.png",
+        "storeName": "Orbit Watermelon närimiskumm 64g purk"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-arbuusimaitseline-orbit-64-g",
+        "size": "64g",
+        "ean": "4009900538206",
+        "storeUnitPrice": 56.09,
+        "storeName": "Närimiskumm arbuusimaitseline, ORBIT, 64 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Orbit Närimiskumm peppermint 14g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.91,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/orbit-peppermint-narimiskumm-14g/",
+        "size": "14g",
+        "ean": "50173204",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/50173204.png",
+        "storeName": "Närimiskumm Orbit Peppermint 14g"
+      },
+      "selver": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-peppermint-suhkruvaba-orbit-14-g",
+        "size": "14g",
+        "ean": "50173204",
+        "storeUnitPrice": 63.57,
+        "storeName": "Närimiskumm Peppermint suhkruvaba, ORBIT, 14 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hubba bubba Närimiskumm strawberry 56g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hubba-bubba-strawberry-narimiskumm-56g/",
+        "size": "56g",
+        "ean": "4009900583046",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4009900583046.png",
+        "storeName": "Närimiskumm Hubba Bubba Strawberry 56g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-strawberry-hubba-bubba-56g",
+        "size": "56g",
+        "ean": "4009900583046",
+        "storeUnitPrice": 44.46,
+        "storeName": "Närimiskumm Strawberry, HUBBA BUBBA, 56g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hubba bubba Närimiskumm fancy fruit 56g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hubba-bubba-fancy-fruit-narimiskumm-56g/",
+        "size": "56g",
+        "ean": "4009900583114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4009900583114.png",
+        "storeName": "Närimiskumm Hubba Bubba Fancy Fruit 56g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/narimiskumm-fancy-fruit-hubba-bubba-56g",
+        "size": "56g",
+        "ean": "4009900583114",
+        "storeUnitPrice": 44.46,
+        "storeName": "Närimiskumm Fancy Fruit, HUBBA BUBBA, 56g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maris gilden Iiris kass arturi koore 180g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/iiris-kass-arturi-180g/",
+        "size": "180g",
+        "ean": "4740320003676",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320003676.png",
+        "storeName": "Iiris Kass Arturi Maris Gilden 180g koore"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koore-iiris-vaike-vaanik-180-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "180g",
+        "ean": "4740320003676",
+        "storeUnitPrice": 9.17,
+        "storeName": "Koore-iiris, VÄIKE VÄÄNIK, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Halvaa 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/halvaa-ali-baba-200g/",
+        "size": "200g",
+        "ean": "4740062550117",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062550117.png",
+        "storeName": "Halvaa Marmiton 200g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/halvaa-vanilli-marmiton-200-g",
+        "size": "200g",
+        "ean": "4740062550117",
+        "storeUnitPrice": 9.95,
+        "storeName": "Halvaa Vanilli, MARMITON, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Marmiton Halvaa rummi ja rosinatega 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/halvaa-rummi-rosina-200g/",
+        "size": "200g",
+        "ean": "4740062550254",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740062550254.png",
+        "storeName": "Halvaa Marmiton 200g rummi ja rosinatega"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/halvaa-rummi-ja-rosinatega-marmiton-200g",
+        "size": "200g",
+        "ean": "4740062550254",
+        "storeUnitPrice": 9.95,
+        "storeName": "Halvaa rummi ja rosinatega, MARMITON, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Laima Sefiir maigums shok vanilje 175g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/laima-sefiir-shok-maigums-175g-vanilje/",
+        "size": "175g",
+        "ean": "4750011000587",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4750011000587.png",
+        "storeName": "Sefiir shok.Maigums Laima 175g vaniljemaitseline"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vanillimaitseline-sefiir-sokolaadis-laima-175-g",
+        "size": "175g",
+        "ean": "4750011000587",
+        "storeUnitPrice": 13.09,
+        "storeName": "Vanillimaitseline sefiir šokolaadis, LAIMA, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "True dates Dattel creamy peanut butter 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/true-dates-dattel-cr-peanut-butter-100g/",
+        "size": "100g",
+        "ean": "5745000657339",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/5745000657339.png",
+        "storeName": "Dattel Creamy Peanut Butter True Dates 100g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/datlid-creamy-peanut-butter-true-dates-100-g",
+        "size": "100g",
+        "ean": "5745000657339",
+        "storeUnitPrice": 27.9,
+        "storeName": "Datlid Creamy Peanut Butter, TRUE DATES, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "True dates Dattel sour apple 100g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/true-dates-dattel-sour-apple-100g/",
+        "size": "100g",
+        "ean": "5713388063073",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/08/5745000657407.png",
+        "storeName": "Dattel Sour Apple True Dates 100g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/datlid-sour-apple-true-dates-100-g",
+        "size": "100g",
+        "ean": "5713388063073",
+        "storeUnitPrice": 27.9,
+        "storeName": "Datlid Sour Apple, TRUE DATES, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maris gilden Iirisepallid kass artur 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/iirisepallid-150g/",
+        "size": "150g",
+        "ean": "4740320200006",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740320200006.jpg",
+        "storeName": "Iirisepallid Kass Artur Maris Gilden 150g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kass-arturi-iirisepallid-vaike-vaanik-150-g",
+        "size": "150g",
+        "ean": "4740320200006",
+        "storeUnitPrice": 16.6,
+        "storeName": "Kass Arturi iirisepallid, VÄIKE VÄÄNIK, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Loodusvägi vaarikad tumedas shok mahe 50g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/loodusvagi-vaarikad-tumedas-shok-oko-50g/",
+        "size": "50g",
+        "ean": "4742824017289",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4742824017289.png",
+        "storeName": "Loodusvägi Vaarikad tumedas shok.Öko 50g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarikad-tumedas-sokolaadis-loodusvagi-50-g",
+        "cardPrice": 2.59,
+        "cardName": "Partner",
+        "size": "50g",
+        "ean": "4742824017289",
+        "storeUnitPrice": 63.8,
+        "storeName": "Vaarikad tumedas šokolaadis, LOODUSVÄGI, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fizzy Kihisevad kommid pez 30g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pez-fizzy-angry-birds-kihisev-kommid-30g/",
+        "size": "30g",
+        "ean": "9044400806092",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/9044400806092.jpg",
+        "storeName": "Kihisevad kommid Pez Fizzy 30g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kihisevad-kommid-fizzy-pez-30-g",
+        "cardPrice": 0.69,
+        "cardName": "Partner",
+        "size": "30g",
+        "ean": "9044400806092",
+        "storeUnitPrice": 33,
+        "storeName": "Kihisevad kommid Fizzy, PEZ, 30 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Chupa chups Pulgakomm melody pops maasika 15g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/melody-pops-maasika-15g/",
+        "size": "15g",
+        "ean": "84196842",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/84196842.png",
+        "storeName": "Pulgakomm Chupa Chups Melody Pops 15g maasika"
+      },
+      "selver": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pulgakomm-melody-pops-maasika-chupa-chups-15-g",
+        "cardPrice": 0.49,
+        "cardName": "Partner",
+        "size": "15g",
+        "ean": "84196842",
+        "storeUnitPrice": 52.67,
+        "storeName": "Pulgakomm Melody Pops maasika, CHUPA CHUPS, 15 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Chupa chups Pulgakomm fruit 12g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 0.4,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/chupa-chups-fruit-pulgakomm-12g/",
+        "size": "12g",
+        "ean": "84196675",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/84196675.png",
+        "storeName": "Pulgakomm Chupa Chups Fruit 12g"
+      },
+      "selver": {
+        "price": 0.4,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pulgakomm-fruit-chupa-chups-12-g",
+        "size": "12g",
+        "ean": "84196675",
+        "storeUnitPrice": 33.33,
+        "storeName": "Pulgakomm Fruit, CHUPA CHUPS, 12 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rocher K karp t 300g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kommikarp-rocher-300g/",
+        "size": "300g",
+        "ean": "8000500009673",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000500009673.jpg",
+        "storeName": "K.karp Rocher T24 300g"
+      },
+      "selver": {
+        "price": 15.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-rocher-ferrero-300-g",
+        "size": "300g",
+        "ean": "8000500009673",
+        "storeUnitPrice": 51.97,
+        "storeName": "Kommikarp Rocher, FERRERO, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rocher Komm 37.5g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rocher-komm-3tk-37-5g/",
+        "size": "37.5g",
+        "ean": "5905408027008",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/80050278.jpg",
+        "storeName": "Komm Rocher 3tk 37.5g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommid-rocher-3tk-37-5-g",
+        "size": "37.5g",
+        "ean": "5905408027008",
+        "storeUnitPrice": 50.4,
+        "storeName": "Kommid Rocher 3tk, 37,5 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rocher K karp t 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 9.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-karp-rocher-200g/",
+        "size": "200g",
+        "ean": "8000500003787",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000500003787.jpg",
+        "storeName": "K.karp Rocher T16 200g"
+      },
+      "selver": {
+        "price": 9.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kompvekid-rocher-ferrero-200g",
+        "size": "200g",
+        "ean": "8000500003787",
+        "storeUnitPrice": 45.95,
+        "storeName": "Kompvekid Rocher, FERRERO, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Raffaello K t karp kookose 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-raffaello-150g/",
+        "size": "150g",
+        "ean": "8000500023976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000500023976.jpg",
+        "storeName": "K.karp Raffaello T15 150g kookose maits."
+      },
+      "selver": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-raffaello-t15-ferrero-150g",
+        "size": "150g",
+        "ean": "8000500023976",
+        "storeUnitPrice": 35.93,
+        "storeName": "Kommikarp Raffaello T15, FERRERO, 150g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Raffaello K t karp kookose 230g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 7.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-raffaello-230g/",
+        "size": "230g",
+        "ean": "4008400183022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4008400183022.jpg",
+        "storeName": "K.karp Raffaello T23 230g kookose maits."
+      },
+      "selver": {
+        "price": 7.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-raffaello-t23-ferrero-230g",
+        "size": "230g",
+        "ean": "4008400183022",
+        "storeUnitPrice": 33,
+        "storeName": "Kommikarp Raffaello T23, FERRERO, 230g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Toffifee K storck karp 125g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-toffifee-125g/",
+        "size": "125g",
+        "ean": "4014400400007",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4014400400007.jpg",
+        "storeName": "K.karp Toffifee Storck 125g"
+      },
+      "selver": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-toffifee-storck-125-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "125g",
+        "ean": "4014400400007",
+        "storeUnitPrice": 24.4,
+        "storeName": "Kommikarp Toffifee, STORCK, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Merci K finest karp selection 400g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 13.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-merci-400g/",
+        "size": "400g",
+        "ean": "4014400900217",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4014400900217.png",
+        "storeName": "K.karp Merci Finest Selection 400g"
+      },
+      "selver": {
+        "price": 13.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/assortiisokolaad-merci-400-g",
+        "size": "400g",
+        "ean": "4014400900217",
+        "storeUnitPrice": 33.63,
+        "storeName": "Assortiišokolaad, MERCI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Toffifee K karp 400g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 8.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toffifee-400g/",
+        "size": "400g",
+        "ean": "4014400900576",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4014400900576.jpg",
+        "storeName": "K.karp Toffifee 400g"
+      },
+      "selver": {
+        "price": 8.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pahkel-karamellis-toffifee-toffifee-400-g",
+        "size": "400g",
+        "ean": "4014400900576",
+        "storeUnitPrice": 21.63,
+        "storeName": "Pähkel karamellis Toffifee, TOFFIFEE, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Storck K finest karp merci selection 250g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 7.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/storck-merci-finest-selection-k-karp-250/",
+        "size": "250g",
+        "ean": "4014400901191",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4014400901191.png",
+        "storeName": "K.karp Merci Finest Selection Storck 250g"
+      },
+      "selver": {
+        "price": 7.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-valik-sokolaade-merci-250-g",
+        "cardPrice": 6.79,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4014400901191",
+        "storeUnitPrice": 31,
+        "storeName": "Kommikarp Valik šokolaade, MERCI, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Geisha K fazer karamelli karp meresoola 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/geisha-k-karp-150g-karamelli-meresoola/",
+        "size": "150g",
+        "ean": "6416453072763",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/6416453072763.png",
+        "storeName": "K.karp Geisha Fazer 150g karamelli-meresoola"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-caramel-sea-salt-geisha-150-g",
+        "size": "150g",
+        "ean": "6416453072763",
+        "storeUnitPrice": 33.27,
+        "storeName": "Kommikarp Caramel & Sea Salt, GEISHA, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer K dark karp 70% 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-dark-70-k-karp-150g/",
+        "size": "150g",
+        "ean": "6416453072633",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/6416453072633.png",
+        "storeName": "K.karp Karl Fazer Dark 70% 150g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-dark-70-karl-fazer-150-g",
+        "size": "150g",
+        "ean": "6416453072633",
+        "storeUnitPrice": 33.27,
+        "storeName": "Kommikarp Dark 70%, KARL FAZER, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K linnupiim valik täidisega karp vahust 238g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 7.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-k-karp-linnupiim238g-vahust-taidis/",
+        "size": "238g",
+        "ean": "4740012028536",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740012028536.png",
+        "storeName": "K.karp Linnupiim Kalev 238g valik vahust.täidisega"
+      },
+      "selver": {
+        "price": 8.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/linnupiim-valik-vahustatud-taidisega-sokolaadikomme-kalev-238-g",
+        "size": "238g",
+        "ean": "4740012028536",
+        "storeUnitPrice": 34.75,
+        "storeName": "Linnupiim valik vahustatud täidisega šokolaadikomme, KALEV, 238 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K vana tallinn karp liköörikreemiga 122g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-vana-tallinn-122g-likoorikreemi/",
+        "size": "122g",
+        "ean": "4740012028642",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740012028642.png",
+        "storeName": "K.karp Vana Tallinn Kalev 122g liköörikreemiga"
+      },
+      "selver": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vana-tallinn-likoorikreemi-taidisega-sokolaadikommid-kalev-122-g",
+        "size": "122g",
+        "ean": "4740012028642",
+        "storeUnitPrice": 40.57,
+        "storeName": "Vana Tallinn liköörikreemi täidisega šokolaadikommid, KALEV, 122 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K vana tallinn karp kooreliköörikompvek täidisega 122g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-vana-tallinn-122g-likoorikompvek/",
+        "size": "122g",
+        "ean": "4740012028635",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/4740012028635.png",
+        "storeName": "K.karp Vana Tallinn Kalev 122g kooreliköörikompvek"
+      },
+      "selver": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vana-tallinn-cream-likoorikreemi-taidisega-sokolaadikommid-kalev-122-g",
+        "size": "122g",
+        "ean": "4740012028635",
+        "storeUnitPrice": 40.57,
+        "storeName": "Vana Tallinn Cream liköörikreemi täidisega šokolaadikommid, KALEV, 122 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K eesti india karp pralineekompv pähkli pähkliga 500g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 10.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-karp-eesti-kalev-500g/",
+        "size": "500g",
+        "ean": "4740012600572",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740012600572.png",
+        "storeName": "K.karp Eesti Kalev 500g pralineekompv.india pähkli"
+      },
+      "selver": {
+        "price": 11.37,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-pralineekompvek-india-pahkliga-kalev-500-g",
+        "size": "500g",
+        "ean": "4740012600572",
+        "storeUnitPrice": 22.74,
+        "storeName": "Eesti pralineekompvek india pähkliga, KALEV, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K pidulik valik karp 435g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-k-karp-pidulik-valik-435g/",
+        "size": "435g",
+        "ean": "4740012028666",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740012028666-1.png",
+        "storeName": "K.karp Pidulik valik Kalev 435g"
+      },
+      "selver": {
+        "price": 11.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pidulik-valik-sokolaadikomme-kalev-435-g",
+        "size": "435g",
+        "ean": "4740012028666",
+        "storeUnitPrice": 27.52,
+        "storeName": "Pidulik valik šokolaadikomme, KALEV, 435 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K linnupiim karp vahust vanillitäidis vanillitäidisega 136g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-k-karp-linnupiim-136g-vahust-vanil/",
+        "size": "136g",
+        "ean": "4740012028543",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740012028543.png",
+        "storeName": "K.karp Linnupiim Kalev 136g vahust.vanillitäidis"
+      },
+      "selver": {
+        "price": 5.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/linnupiim-vahustatud-vanillitaidisega-sokolaadikommid-kalev-136-g",
+        "size": "136g",
+        "ean": "4740012028543",
+        "storeUnitPrice": 41.76,
+        "storeName": "Linnupiim vahustatud vanillitäidisega šokolaadikommid, KALEV, 136 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pergale K tallinn assortii karp shok tumeda 348g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 8.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pergale-k-karp-tallinn-348g-tume-shok/",
+        "size": "348g",
+        "ean": "4770179998069",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/4770179998069.png",
+        "storeName": "K.karp Pergale Tallinn 348g tumeda shok.assortii"
+      },
+      "selver": {
+        "price": 8.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/assortiikompvekid-tallinn-pergale-348-g",
+        "size": "348g",
+        "ean": "4770179998069",
+        "storeUnitPrice": 23.42,
+        "storeName": "Assortiikompvekid Tallinn, PERGALE, 348 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K vana tallinna limoncello karp likööriga 300g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-k-karp-vanatallinna-limoncello300g/",
+        "size": "300g",
+        "ean": "4740012028505",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740012028505.png",
+        "storeName": "K.karp Vana Tallinna Limoncello Kalev 300g"
+      },
+      "selver": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vana-tallinna-likooriga-limoncello-ga-klassikaline-valik-martsipanikomme-kalev-300-g",
+        "size": "300g",
+        "ean": "4740012028505",
+        "storeUnitPrice": 27.3,
+        "storeName": "Vana Tallinna likööriga, Limoncello'ga, klassikaline valik martsipanikomme, KALEV, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev K klassikalised martsipanikommid karp 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalev-klassikalised-martsipanikommid150g/",
+        "size": "150g",
+        "ean": "4740012600596",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4740012600596.png",
+        "storeName": "K.karp Kalev klassikalised martsipanikommid 150g"
+      },
+      "selver": {
+        "price": 4.97,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalev-klassikalised-martsipanikommid-kalev-150g",
+        "size": "150g",
+        "ean": "4740012600596",
+        "storeUnitPrice": 33.13,
+        "storeName": "Kalev klassikalised martsipanikommid, KALEV, 150g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karl fazer K karp vaarikajogurtitäidis vaarikajogurtitäidisega 250g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karl-fazer-k-karp-250g-vaarikajogurti/",
+        "size": "250g",
+        "ean": "6416453053199",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/6416453053199.png",
+        "storeName": "K.karp Karl Fazer 250g vaarikajogurtitäidis."
+      },
+      "selver": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaadikompvekid-vaarikajogurtitaidisega-karl-fazer-250-g",
+        "size": "250g",
+        "ean": "6416453053199",
+        "storeUnitPrice": 33.16,
+        "storeName": "Piimašokolaadikompvekid vaarikajogurtitäidisega, KARL FAZER, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "K nostalgia karp kompvekid koorepumati 180g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-nostalgia-180g/",
+        "size": "180g",
+        "ean": "4740320500007",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740320500007.png",
+        "storeName": "K.karp Nostalgia 180g koorepumati kompvekid"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorepumatikompvekid-nostalgia-maris-gilden-180-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "180g",
+        "ean": "4740320500007",
+        "storeUnitPrice": 16.61,
+        "storeName": "Koorepumatikompvekid Nostalgia, MARIS GILDEN, 180 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Roshen K assortii karp kommide shok 145g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/roshen-k-karp-145g-shok-kommide-assortii/",
+        "size": "145g",
+        "ean": "4823077611933",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4823077611933.png",
+        "storeName": "K.karp Roshen 145g shok.kommide assortii"
+      },
+      "selver": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-elegant-roshen-145-g",
+        "size": "145g",
+        "ean": "4823077611933",
+        "storeUnitPrice": 32.34,
+        "storeName": "Kommikarp Elegant, ROSHEN, 145 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "After eight K karp maitsega nestle piparmündi 200g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-after-eight-200g/",
+        "size": "200g",
+        "ean": "7613034955098",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5000189363069.png",
+        "storeName": "K.karp After Eight Nestle 200g piparmündi maitsega"
+      },
+      "selver": {
+        "price": 5.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaaditahvlid-mint-after-eight-200g",
+        "size": "200g",
+        "ean": "7613034955098",
+        "storeUnitPrice": 28.95,
+        "storeName": "Šokolaaditahvlid Mint, AFTER EIGHT, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Casali K banana glasuuriga karp shok souffle 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-k-souffle-banana-150g/",
+        "size": "150g",
+        "ean": "9000331972442",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9000331972442.png",
+        "storeName": "K.karp Souffle Banana Casali 150g shok.glasuuriga"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadibanaanid-casali-150g",
+        "size": "150g",
+        "ean": "9000331972442",
+        "storeUnitPrice": 13.27,
+        "storeName": "Šokolaadibanaanid, CASALI, 150g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Shok rukkileiva likööriga kompv 160g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 14.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-kompv-rukkileivalikooriga-160g/",
+        "size": "160g",
+        "ean": "4740064580341",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740064580341.png",
+        "storeName": "Shok.kompv.Rukkileiva&likööriga 160g"
+      },
+      "selver": {
+        "price": 13.2,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadikompvekid-rukkileiva-ja-likooriga-eesti-leivatoostus-160-g",
+        "cardPrice": 10.99,
+        "cardName": "Partner",
+        "size": "160g",
+        "ean": "4740064580341",
+        "storeUnitPrice": 82.5,
+        "storeName": "Šokolaadikompvekid rukkileiva ja likööriga, EESTI LEIVATÖÖSTUS, 160 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Finlandia jellies marmelaadikuulid 260g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 5.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/finlandia-jellies-marmelaadikuulid-260g/",
+        "size": "260g",
+        "ean": "6411401042355",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/6411401042355.png",
+        "storeName": "Finlandia Jellies marmelaadikuulid 260g"
+      },
+      "selver": {
+        "price": 4.91,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marmelaadikompvekid-fazer-260-g",
+        "size": "260g",
+        "ean": "6411401042355",
+        "storeUnitPrice": 18.88,
+        "storeName": "Marmelaadikompvekid, FAZER, 260 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Geisha K fazer karp 150g",
+    "category": "Candy",
+    "prices": {
+      "coop": {
+        "price": 5.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/geisha-k-karp-150g/",
+        "size": "150g",
+        "ean": "6411401072703",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/6411401072703.png",
+        "storeName": "K.karp Geisha Fazer 150g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kommikarp-geisha-150g",
+        "size": "150g",
+        "ean": "6411401072703",
+        "storeUnitPrice": 33.27,
+        "storeName": "Kommikarp, GEISHA, 150g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Lorenz Soolakõrsik saltletts 75g",

@@ -44612,6 +44612,15 @@
         "storeUnitPrice": 31.67,
         "storeName": "Kartulimaitseaine SANTA MARIA 30g"
       },
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-kartulimaitseaine-30g/",
+        "size": "30g",
+        "ean": "6418474118277",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/6418474118277.png",
+        "storeName": "Kartulimaitseaine Santa Maria 30g"
+      },
       "rimi": {
         "price": 1.05,
         "currency": "EUR",
@@ -44625,11 +44634,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kartulimaitseaine-santa-maria-30-g",
         "size": "30g",
+        "ean": "6418474118277",
         "storeUnitPrice": 31.67,
         "storeName": "Kartulimaitseaine, SANTA MARIA, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Karri 25g",
@@ -44642,6 +44652,15 @@
         "size": "25g",
         "storeUnitPrice": 38,
         "storeName": "Karri SANTA MARIA, 25g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karri-25g/",
+        "size": "25g",
+        "ean": "6418474118321",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118321.jpg",
+        "storeName": "Karri Santa Maria 25g"
       },
       "rimi": {
         "price": 1.05,
@@ -44658,11 +44677,12 @@
         "cardPrice": 0.75,
         "cardName": "Partner",
         "size": "25g",
+        "ean": "6418474118321",
         "storeUnitPrice": 38,
         "storeName": "Karri, SANTA MARIA, 25 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Broilerimaitseaine 30g",
@@ -44675,6 +44695,15 @@
         "size": "30g",
         "storeUnitPrice": 33,
         "storeName": "Broilerimaitseaine SANTA MARIA 30g"
+      },
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-broilerimaitseaine-30g/",
+        "size": "30g",
+        "ean": "6418474118338",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/6418474118338.png",
+        "storeName": "Broilerimaitseaine Santa Maria 30g"
       },
       "rimi": {
         "price": 1.05,
@@ -44689,11 +44718,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/broilerimaitseaine-santa-maria-30-g",
         "size": "30g",
+        "ean": "6418474118338",
         "storeUnitPrice": 31.67,
         "storeName": "Broilerimaitseaine, SANTA MARIA, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kalamaitseaine sidruniga 23g",
@@ -44706,6 +44736,15 @@
         "size": "23g",
         "storeUnitPrice": 50,
         "storeName": "Kalamaitseaine sidruniga SANTA MARIA 23g"
+      },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalamaitseaine-23g/",
+        "size": "23g",
+        "ean": "6418474118369",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118369.jpg",
+        "storeName": "Kalamaitseaine sidruniga Santa Maria 23g"
       },
       "rimi": {
         "price": 0.79,
@@ -44721,11 +44760,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalamaitseaine-sidruniga-santa-maria-23-g",
         "size": "23g",
+        "ean": "6418474118369",
         "storeUnitPrice": 51.74,
         "storeName": "Kalamaitseaine sidruniga, SANTA MARIA, 23 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Šašlõkimaitseaine 45g",
@@ -44752,6 +44792,48 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Santa maria Pizzamaitseaine 5g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pizzamaitseaine-santa-maria-5-g",
+        "size": "5g",
+        "storeUnitPrice": 190,
+        "storeName": "Pizzamaitseaine SANTA MARIA 5g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pizzamaitseaine-5g/",
+        "size": "5g",
+        "ean": "6418474118109",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118109.jpg",
+        "storeName": "Pizzamaitseaine Santa Maria 5g"
+      },
+      "rimi": {
+        "price": 0.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/maitseainesegud/pitsamaitseaine-santa-maria-5g/p/100353",
+        "size": "5g",
+        "storeUnitPrice": 158,
+        "regularPrice": 1.05,
+        "storeName": "Pitsamaitseaine Santa Maria 5g"
+      },
+      "selver": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pitsamaitseaine-santa-maria-5-g",
+        "size": "5g",
+        "ean": "6418474118109",
+        "storeUnitPrice": 190,
+        "storeName": "Pitsamaitseaine, SANTA MARIA, 5 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Santa maria Piparkoogimaitseaine 30g",
     "category": "Spices",
     "prices": {
@@ -44763,16 +44845,26 @@
         "storeUnitPrice": 51.67,
         "storeName": "Piparkoogimaitseaine SANTA MARIA 30g"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-piparkoogimaitseaine-30g/",
+        "size": "30g",
+        "ean": "6418474118413",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/6418474118413.png",
+        "storeName": "Piparkoogimaitseaine Santa Maria 30g"
+      },
       "selver": {
         "price": 1.55,
         "currency": "EUR",
         "url": "https://www.selver.ee/piparkoogimaitseaine-santa-maria-30-g",
         "size": "30g",
+        "ean": "6418474118413",
         "storeUnitPrice": 51.67,
         "storeName": "Piparkoogimaitseaine, SANTA MARIA, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Liha üldmaitseaine 35g",
@@ -44785,6 +44877,15 @@
         "size": "35g",
         "storeUnitPrice": 30,
         "storeName": "Liha üldmaitseaine SANTA MARIA 35g"
+      },
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-liha-uldmaitseaine-35g/",
+        "size": "35g",
+        "ean": "6418474118291",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/6418474118291.png",
+        "storeName": "Liha üldmaitseaine Santa Maria 35g"
       },
       "rimi": {
         "price": 1.05,
@@ -44799,11 +44900,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/liha-uldmaitseaine-santa-maria-35-g",
         "size": "35g",
+        "ean": "6418474118291",
         "storeUnitPrice": 30,
         "storeName": "Liha üldmaitseaine, SANTA MARIA, 35 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Hakklihamaitseaine 30g",
@@ -44816,6 +44918,15 @@
         "size": "30g",
         "storeUnitPrice": 31.67,
         "storeName": "Hakklihamaitseaine SANTA MARIA 30g"
+      },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hakklihamaitseaine-30g/",
+        "size": "30g",
+        "ean": "6418474118352",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118352.jpg",
+        "storeName": "Hakklihamaitseaine Santa Maria 30g"
       },
       "rimi": {
         "price": 1.05,
@@ -44830,11 +44941,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hakklihamaitseaine-santa-maria-30-g",
         "size": "30g",
+        "ean": "6418474118352",
         "storeUnitPrice": 31.67,
         "storeName": "Hakklihamaitseaine, SANTA MARIA, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Tuline lihamaitseaine 20g",
@@ -44853,6 +44965,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tuline-lihamaitseaine-santa-maria-20-g",
         "size": "20g",
+        "ean": "6418474118420",
         "storeUnitPrice": 47.5,
         "storeName": "Tuline lihamaitseaine, SANTA MARIA, 20 g"
       }
@@ -44871,6 +44984,15 @@
         "storeUnitPrice": 23.75,
         "storeName": "Guljašimaitseaine SANTA MARIA 40g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/guljashimaitseaine-40g/",
+        "size": "40g",
+        "ean": "6418474125503",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474125503.jpg",
+        "storeName": "Guljashimaitseaine Santa Maria 40g"
+      },
       "rimi": {
         "price": 0.79,
         "currency": "EUR",
@@ -44885,11 +45007,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/guljasimaitseaine-santa-maria-40-g",
         "size": "40g",
+        "ean": "6418474125503",
         "storeUnitPrice": 23.75,
         "storeName": "Guljašimaitseaine, SANTA MARIA, 40 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kiluvürts 30g",
@@ -44903,13 +45026,47 @@
         "storeUnitPrice": 58.33,
         "storeName": "Kiluvürts SANTA MARIA, 30g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kiluvurts-30g/",
+        "size": "30g",
+        "ean": "6418474118406",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118406.jpg",
+        "storeName": "Kiluvürts Santa Maria 30g"
+      },
       "selver": {
         "price": 1.75,
         "currency": "EUR",
         "url": "https://www.selver.ee/kiluvurts-santa-maria-30-g",
         "size": "30g",
+        "ean": "6418474118406",
         "storeUnitPrice": 58.33,
         "storeName": "Kiluvürts, SANTA MARIA, 30 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kotanyi Ribimaitseaine 40g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ribimaitseaine-kotanyi-40-g",
+        "size": "40g",
+        "storeUnitPrice": 36.25,
+        "storeName": "Ribimaitseaine KOTANYI, 40g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kotanyi-ribimaitseaine-40g/",
+        "size": "40g",
+        "ean": "9001414010181",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/9001414010181.png",
+        "storeName": "Ribimaitseaine Kotanyi 40g"
       }
     },
     "matchedVia": "automatic"
@@ -44931,6 +45088,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pihvimaitseaine-santa-maria-30-g",
         "size": "30g",
+        "ean": "4740018100700",
         "storeUnitPrice": 31.67,
         "storeName": "Pihvimaitseaine, SANTA MARIA, 30 g"
       }
@@ -44962,6 +45120,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalamaitseaine-tilliga-santa-maria-25-g",
         "size": "25g",
+        "ean": "4740018155878",
         "storeUnitPrice": 38,
         "storeName": "Kalamaitseaine tilliga, SANTA MARIA, 25 g"
       }
@@ -44980,6 +45139,15 @@
         "storeUnitPrice": 33.93,
         "storeName": "Kotletimaitseaine SANTA MARIA 28g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kotletimaitseaine-28g/",
+        "size": "28g",
+        "ean": "6418474149479",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474149479.png",
+        "storeName": "Kotletimaitseaine Santa Maria 28g"
+      },
       "rimi": {
         "price": 1.05,
         "currency": "EUR",
@@ -44993,11 +45161,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kotletimaitseaine-santa-maria-28-g",
         "size": "28g",
+        "ean": "6418474149479",
         "storeUnitPrice": 33.93,
         "storeName": "Kotletimaitseaine, SANTA MARIA, 28 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meira Cajuni vürts 32g",
@@ -45016,6 +45185,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/cajuni-vurts-meira-32-g",
         "size": "32g",
+        "ean": "6414201000525",
         "storeUnitPrice": 45.94,
         "storeName": "Cajuni vürts, MEIRA, 32 g"
       }
@@ -45058,6 +45228,15 @@
         "storeUnitPrice": 25,
         "storeName": "Liha üldmaitseaine SANTA MARIA 70g"
       },
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/liha-uldmaitseaine-70g/",
+        "size": "70g",
+        "ean": "7311311005527",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005527.jpg",
+        "storeName": "Liha üldmaitseaine Santa Maria 70g"
+      },
       "rimi": {
         "price": 1.75,
         "currency": "EUR",
@@ -45071,11 +45250,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/liha-uldmaitseaine-santa-maria-70-g",
         "size": "70g",
+        "ean": "7311311005527",
         "storeUnitPrice": 17,
         "storeName": "Liha üldmaitseaine, SANTA MARIA, 70 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kartulimaitseaine 100g",
@@ -45089,6 +45269,15 @@
         "storeUnitPrice": 22.5,
         "storeName": "Kartulimaitseaine SANTA MARIA 100g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulimaitseaine-100g/",
+        "size": "100g",
+        "ean": "7311311005534",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005534.jpg",
+        "storeName": "Kartulimaitseaine Santa Maria 100g"
+      },
       "rimi": {
         "price": 2.25,
         "currency": "EUR",
@@ -45096,9 +45285,18 @@
         "size": "100g",
         "storeUnitPrice": 22.5,
         "storeName": "Kartulimaitseaine Santa Maria 100g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kartulimaitseaine-pakk-santa-maria-100-g",
+        "size": "100g",
+        "ean": "7311311005534",
+        "storeUnitPrice": 15.9,
+        "storeName": "Kartulimaitseaine pakk, SANTA MARIA, 100 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Broilerimaitseaine 90g",
@@ -45112,6 +45310,15 @@
         "storeUnitPrice": 25,
         "storeName": "Broilerimaitseaine SANTA MARIA 90g"
       },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/broilerimaitseaine-90g/",
+        "size": "90g",
+        "ean": "7311311005541",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005541.jpg",
+        "storeName": "Broilerimaitseaine Santa Maria 90g"
+      },
       "rimi": {
         "price": 2.25,
         "currency": "EUR",
@@ -45119,9 +45326,18 @@
         "size": "90g",
         "storeUnitPrice": 25,
         "storeName": "Broilerimaitseaine Santa Maria 90g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/broilerimaitseaine-pakk-santa-maria-90-g",
+        "size": "90g",
+        "ean": "7311311005541",
+        "storeUnitPrice": 17.67,
+        "storeName": "Broilerimaitseaine pakk, SANTA MARIA, 90 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Hakklihamaitseaine 80g",
@@ -45134,6 +45350,15 @@
         "size": "80g",
         "storeUnitPrice": 28.13,
         "storeName": "Hakklihamaitseaine SANTA MARIA 80g"
+      },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hakklihamaitseaine-80g/",
+        "size": "80g",
+        "ean": "7311311005565",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005565.jpg",
+        "storeName": "Hakklihamaitseaine Santa Maria 80g"
       },
       "rimi": {
         "price": 2.25,
@@ -45148,11 +45373,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hakklihamaitseaine-santa-maria-80-g",
         "size": "80g",
+        "ean": "7311311005565",
         "storeUnitPrice": 19.88,
         "storeName": "Hakklihamaitseaine, SANTA MARIA, 80 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Universaalne maitseaine 160g",
@@ -45165,6 +45391,15 @@
         "size": "160g",
         "storeUnitPrice": 16.81,
         "storeName": "Universaalne maitseaine SANTA MARIA160g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-universaalne-maitseaine-160g/",
+        "size": "160g",
+        "ean": "7311311006579",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/7311311006579.png",
+        "storeName": "Universaalne maitseaine Santa Maria 160g"
       },
       "rimi": {
         "price": 2.75,
@@ -45179,11 +45414,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/universaalne-maitseaine-santa-maria-160-g",
         "size": "160g",
+        "ean": "7311311006579",
         "storeUnitPrice": 11.56,
         "storeName": "Universaalne maitseaine, SANTA MARIA, 160 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Jahimehesegu 30g",
@@ -45210,6 +45446,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahimehesegu-santa-maria-30-g",
         "size": "30g",
+        "ean": "7311311005589",
         "storeUnitPrice": 48.33,
         "storeName": "Jahimehesegu, SANTA MARIA, 30 g"
       }
@@ -45228,6 +45465,15 @@
         "storeUnitPrice": 46.76,
         "storeName": "Karri SANTA MARIA 34g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karri-34g-purk/",
+        "size": "34g",
+        "ean": "7311311014635",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/7311311014635.png",
+        "storeName": "Karri Santa Maria 34g purk"
+      },
       "rimi": {
         "price": 1.75,
         "currency": "EUR",
@@ -45241,11 +45487,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/karri-santa-maria-34-g",
         "size": "34g",
+        "ean": "7311311014635",
         "storeUnitPrice": 46.76,
         "storeName": "Karri, SANTA MARIA, 34 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Ürdiaia segu 29g",
@@ -45258,6 +45505,15 @@
         "size": "29g",
         "storeUnitPrice": 54.83,
         "storeName": "Ürdiaia segu SANTA MARIA 29g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/urdiaia-segu-29g-purk/",
+        "size": "29g",
+        "ean": "7311311017216",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311017216.png",
+        "storeName": "Ürdiaia segu Santa Maria 29g purk"
       },
       "rimi": {
         "price": 1.69,
@@ -45272,11 +45528,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/urdiaia-segu-29g-santa-maria",
         "size": "29g",
+        "ean": "7311311017216",
         "storeUnitPrice": 54.83,
         "storeName": "Ürdiaia segu , 29g, SANTA MARIA"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kartulimaitseaine 57g",
@@ -45295,6 +45552,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kartulimaitseaine-santa-maria-57-g",
         "size": "57g",
+        "ean": "7311311016585",
         "storeUnitPrice": 27.89,
         "storeName": "Kartulimaitseaine, SANTA MARIA, 57 g"
       }
@@ -45327,6 +45585,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahimehesegu-220g-santa-maria",
         "size": "220g",
+        "ean": "7311311016936",
         "storeUnitPrice": 28.59,
         "storeName": "Jahimehesegu, 220g, SANTA MARIA"
       }
@@ -45359,6 +45618,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hakklihamaitseaine-santa-maria-280-g",
         "size": "280g",
+        "ean": "7311311017254",
         "storeUnitPrice": 18.54,
         "storeName": "Hakklihamaitseaine, SANTA MARIA, 280 g"
       }
@@ -45378,6 +45638,15 @@
         "regularPrice": 5.19,
         "storeName": "Broilerimaitseaine SANTA MARIA 275g"
       },
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/broilerimaitseaine-275g/",
+        "size": "275g",
+        "ean": "7311311017247",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311017247.png",
+        "storeName": "Broilerimaitseaine Santa Maria 275g purk"
+      },
       "rimi": {
         "price": 5.19,
         "currency": "EUR",
@@ -45391,11 +45660,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/broilerimaitseaine-275g-santa-maria",
         "size": "275g",
+        "ean": "7311311017247",
         "storeUnitPrice": 18.87,
         "storeName": "Broilerimaitseaine, 275g, SANTA MARIA"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Liha üldmaitseaine 290g",
@@ -45410,6 +45680,15 @@
         "regularPrice": 5.35,
         "storeName": "Liha üldmaitseaine SANTA MARIA 290g"
       },
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/liha-uldmaitseaine-290g/",
+        "size": "290g",
+        "ean": "7311311017278",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311017278.png",
+        "storeName": "Liha üldmaitseaine Santa Maria 290g purk"
+      },
       "rimi": {
         "price": 5.29,
         "currency": "EUR",
@@ -45423,11 +45702,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/liha-uldmaitseaine-santa-maria-290-g",
         "size": "290g",
+        "ean": "7311311017278",
         "storeUnitPrice": 19.97,
         "storeName": "Liha üldmaitseaine, SANTA MARIA, 290 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kartulimaitseaine 350g",
@@ -45442,6 +45722,15 @@
         "regularPrice": 4.85,
         "storeName": "Kartulimaitseaine SANTA MARIA 350g"
       },
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulimaitseaine-350g/",
+        "size": "350g",
+        "ean": "7311311017261",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311017261.png",
+        "storeName": "Kartulimaitseaine Santa Maria 350g purk"
+      },
       "rimi": {
         "price": 5.19,
         "currency": "EUR",
@@ -45455,11 +45744,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kartulimaitseaine-santa-maria-350g",
         "size": "350g",
+        "ean": "7311311017261",
         "storeUnitPrice": 14.83,
         "storeName": "Kartulimaitseaine, SANTA MARIA, 350g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Universaalne maitseaine 350g",
@@ -45474,16 +45764,26 @@
         "regularPrice": 5.39,
         "storeName": "Universaalne maitseaine SANTA MARIA 350g"
       },
+      "coop": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/univers-maitseaine-350g/",
+        "size": "350g",
+        "ean": "7311311017285",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/7311311017285.png",
+        "storeName": "Universaalne maitseaine Santa Maria 350g purk"
+      },
       "selver": {
         "price": 5.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/universaalne-maitseaine-santa-maria-350-g",
         "size": "350g",
+        "ean": "7311311017285",
         "storeUnitPrice": 15.4,
         "storeName": "Universaalne maitseaine, SANTA MARIA, 350 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Tilli 7g",
@@ -45496,6 +45796,15 @@
         "size": "7g",
         "storeUnitPrice": 135.71,
         "storeName": "Till SANTA MARIA, 7g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/till-7g/",
+        "size": "7g",
+        "ean": "6418474118123",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118123.jpg",
+        "storeName": "Till Santa Maria 7g"
       },
       "rimi": {
         "price": 0.79,
@@ -45511,11 +45820,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/till-santa-maria-7-g",
         "size": "7g",
+        "ean": "6418474118123",
         "storeUnitPrice": 135.71,
         "storeName": "Till, SANTA MARIA, 7 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Jahvatatud ingver 20g",
@@ -45528,6 +45838,15 @@
         "size": "20g",
         "storeUnitPrice": 47.5,
         "storeName": "Jahvatatud ingver SANTA MARIA, 20g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ingver-jahvatatud-20g/",
+        "size": "20g",
+        "ean": "6418474118185",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118185.jpg",
+        "storeName": "Ingver jahvatatud Santa Maria 20g"
       },
       "rimi": {
         "price": 0.79,
@@ -45543,11 +45862,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-ingver-santa-maria-20-g",
         "size": "20g",
+        "ean": "6418474118185",
         "storeUnitPrice": 47.5,
         "storeName": "Jahvatatud ingver, SANTA MARIA, 20 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Jahvatatud paprika 22g",
@@ -45560,6 +45880,15 @@
         "size": "22g",
         "storeUnitPrice": 43.18,
         "storeName": "Jahvatatud paprika SANTA MARIA, 22g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paprika-jahvatatud-22g/",
+        "size": "22g",
+        "ean": "6418474118161",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118161.jpg",
+        "storeName": "Paprika jahvatatud Santa Maria 22g"
       },
       "rimi": {
         "price": 0.79,
@@ -45575,11 +45904,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/paprika-jahvatatud-santa-maria-22-g",
         "size": "22g",
+        "ean": "6418474118161",
         "storeUnitPrice": 43.18,
         "storeName": "Paprika (jahvatatud), SANTA MARIA, 22 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Vürts 15g",
@@ -45592,6 +45922,15 @@
         "size": "15g",
         "storeUnitPrice": 92.67,
         "storeName": "Vürts SANTA MARIA ,15g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vurts-15g/",
+        "size": "15g",
+        "ean": "6418474118079",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118079.png",
+        "storeName": "Vürts Santa Maria 15g"
       },
       "rimi": {
         "price": 1.69,
@@ -45606,11 +45945,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vurts-santa-maria-15-g",
         "size": "15g",
+        "ean": "6418474118079",
         "storeUnitPrice": 92.67,
         "storeName": "Vürts, SANTA MARIA, 15 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kotanyi Loorberilehed 4g",
@@ -45625,6 +45965,15 @@
         "size": "4g",
         "storeUnitPrice": 247.5,
         "storeName": "Loorberilehed KOTANYI 4g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/loorberilehed-4g/",
+        "size": "4g",
+        "ean": "9001414015346",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/9001414015346.png",
+        "storeName": "Loorberilehed Kotanyi 4g"
       },
       "rimi": {
         "price": 1.55,
@@ -45663,6 +46012,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vahemere-urdisegu-santa-maria-12-g",
         "size": "12g",
+        "ean": "4740018170017",
         "storeUnitPrice": 79.17,
         "storeName": "Vahemere ürdisegu, SANTA MARIA, 12 g"
       }
@@ -45681,6 +46031,15 @@
         "storeUnitPrice": 47.5,
         "storeName": "Köömned SANTA MARIA 20 g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-koomned-20g/",
+        "size": "20g",
+        "ean": "6418474152776",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/6418474152776.png",
+        "storeName": "Köömned Santa Maria 20g"
+      },
       "rimi": {
         "price": 1.05,
         "currency": "EUR",
@@ -45694,11 +46053,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koomned-santa-maria-20-g",
         "size": "20g",
+        "ean": "6418474152776",
         "storeUnitPrice": 47.5,
         "storeName": "Köömned, SANTA MARIA, 20 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Nelk 10g",
@@ -45711,6 +46071,15 @@
         "size": "10g",
         "storeUnitPrice": 115,
         "storeName": "Nelk SANTA MARIA 10g"
+      },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nelk-10g/",
+        "size": "10g",
+        "ean": "6418474152783",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474152783.jpg",
+        "storeName": "Nelk Santa Maria 10g"
       },
       "rimi": {
         "price": 1.05,
@@ -45725,11 +46094,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/nelk-santa-maria-10-g",
         "size": "10g",
+        "ean": "6418474152783",
         "storeUnitPrice": 115,
         "storeName": "Nelk, SANTA MARIA, 10 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Rosmariin 15g",
@@ -45742,6 +46112,15 @@
         "size": "15g",
         "storeUnitPrice": 63.33,
         "storeName": "Rosmariin SANTA MARIA ,15g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rosmariin-15g/",
+        "size": "15g",
+        "ean": "4740018172011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740018172011.png",
+        "storeName": "Rosmariin Santa Maria 15g"
       },
       "rimi": {
         "price": 0.79,
@@ -45757,11 +46136,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rosmariin-santa-maria-15-g",
         "size": "15g",
+        "ean": "4740018172011",
         "storeUnitPrice": 63.33,
         "storeName": "Rosmariin, SANTA MARIA, 15 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Sinepiseemned 35g",
@@ -45774,6 +46154,15 @@
         "size": "35g",
         "storeUnitPrice": 28.29,
         "storeName": "Sinepiseemned SANTA MARIA 35g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-sinepiseemned-35g-pakk/",
+        "size": "35g",
+        "ean": "6418474118093",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/6418474118093.png",
+        "storeName": "Sinepiseemned Santa Maria 35g"
       },
       "rimi": {
         "price": 1.05,
@@ -45788,11 +46177,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sinepiseemned-santa-maria-35-g",
         "size": "35g",
+        "ean": "6418474118093",
         "storeUnitPrice": 27.14,
         "storeName": "Sinepiseemned, SANTA MARIA, 35 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Tüümian 10g",
@@ -45805,6 +46195,15 @@
         "size": "10g",
         "storeUnitPrice": 95,
         "storeName": "Tüümian SANTA MARIA, 10g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tuumian-10g/",
+        "size": "10g",
+        "ean": "4740018172028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740018172028.jpg",
+        "storeName": "Tüümian Santa Maria 10g"
       },
       "rimi": {
         "price": 0.79,
@@ -45820,11 +46219,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tuumian-santa-maria-10-g",
         "size": "10g",
+        "ean": "4740018172028",
         "storeUnitPrice": 95,
         "storeName": "Tüümian, SANTA MARIA, 10 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Persillade 35g",
@@ -45837,6 +46237,15 @@
         "size": "35g",
         "storeUnitPrice": 27.14,
         "storeName": "Persillade SANTA MARIA 35 g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/persillade-35g/",
+        "size": "35g",
+        "ean": "4740018172059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740018172059.jpg",
+        "storeName": "Persillade Santa Maria 35g"
       },
       "rimi": {
         "price": 0.79,
@@ -45852,8 +46261,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/persillade-santa-maria-35-g",
         "size": "35g",
+        "ean": "4740018172059",
         "storeUnitPrice": 27.14,
         "storeName": "Persillade, SANTA MARIA, 35 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kotanyi Peenestatud tüümian 14g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/peenestatud-tuumian-kotanyi-14-g",
+        "size": "14g",
+        "storeUnitPrice": 99.29,
+        "storeName": "Peenestatud tüümian KOTANYI, 14g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kotanyi-peenestatud-tuumian14g/",
+        "size": "14g",
+        "ean": "9001414900239",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/9001414900239.png",
+        "storeName": "Peenestatud tüümian Kotanyi 14g"
       }
     },
     "matchedVia": "automatic"
@@ -45884,6 +46318,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/petersell-santa-maria-4-g",
         "size": "4g",
+        "ean": "4740018175609",
         "storeUnitPrice": 237.5,
         "storeName": "Petersell, SANTA MARIA, 4 g"
       }
@@ -45916,6 +46351,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/prantsuse-urdisegu-santa-maria-6-g",
         "size": "6g",
+        "ean": "4740018175616",
         "storeUnitPrice": 158.33,
         "storeName": "Prantsuse ürdisegu, SANTA MARIA, 6 g"
       }
@@ -45934,6 +46370,15 @@
         "storeUnitPrice": 51.79,
         "storeName": "Ürdisegu küüslauguga SANTA MARIA,28 g"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/urdisegu-kuuslauguga-28g/",
+        "size": "28g",
+        "ean": "4740018175623",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740018175623.jpg",
+        "storeName": "Ürdisegu küüslauguga Santa Maria 28g"
+      },
       "rimi": {
         "price": 1.19,
         "currency": "EUR",
@@ -45948,11 +46393,69 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/urdisegu-kuuslauguga-santa-maria-28-g",
         "size": "28g",
+        "ean": "4740018175623",
         "storeUnitPrice": 49.64,
         "storeName": "Ürdisegu küüslauguga, SANTA MARIA, 28 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meira Jahvatatud kaneel 27g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jahvatatud-kaneel-meira-27-g",
+        "size": "27g",
+        "storeUnitPrice": 36.67,
+        "storeName": "Jahvatatud kaneel MEIRA 27g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meira-kaneel-jahvatatud-27g/",
+        "size": "27g",
+        "ean": "6414200136355",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/6414200136355.png",
+        "storeName": "Kaneel jahvatatud Meira 27g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Meira Vahemere ürdisegu soola 0% 9g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 0.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vahemere-urdisegu-0-proc-soola-meira-9-g",
+        "size": "9g",
+        "storeUnitPrice": 94.44,
+        "storeName": "Vahemere ürdisegu (0% soola) MEIRA 9g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meira-urdisegu-vahemere-9g-0-soola/",
+        "size": "9g",
+        "ean": "6414201005209",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/6414201801559.png",
+        "storeName": "Ürdisegu Vahemere Meira 9g 0% soola"
+      },
+      "selver": {
+        "price": 0.86,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahemere-urdisegu-meira-9-g",
+        "size": "9g",
+        "ean": "6414201005209",
+        "storeUnitPrice": 95.56,
+        "storeName": "Vahemere ürdisegu, MEIRA, 9 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Meira Jahvatatud kardemon 8g",
@@ -45966,16 +46469,26 @@
         "storeUnitPrice": 111.25,
         "storeName": "Jahvatatud kardemon MEIRA 8g"
       },
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kardemon-8g/",
+        "size": "8g",
+        "ean": "6414201001812",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6414201800781.jpg",
+        "storeName": "Kardemon Meira 8g"
+      },
       "selver": {
         "price": 0.9,
         "currency": "EUR",
         "url": "https://www.selver.ee/kardemon-jahvatatud-meira-8-g",
         "size": "8g",
+        "ean": "6414201001812",
         "storeUnitPrice": 112.5,
         "storeName": "Kardemon jahvatatud, MEIRA, 8 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meira Jahvatatud vürtsköömen 25g",
@@ -45994,6 +46507,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vurtskoomen-jahvatatud-meira-25-g",
         "size": "25g",
+        "ean": "6414201001355",
         "storeUnitPrice": 42.8,
         "storeName": "Vürtsköömen jahvatatud, MEIRA, 25 g"
       }
@@ -46012,6 +46526,15 @@
         "storeUnitPrice": 198.33,
         "storeName": "Basiilik SANTA MARIA 6g"
       },
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-basiilik-6g-pakk/",
+        "size": "6g",
+        "ean": "7311311005435",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/7311311005435.png",
+        "storeName": "Basiilik Santa Maria 6g"
+      },
       "rimi": {
         "price": 1.35,
         "currency": "EUR",
@@ -46019,9 +46542,18 @@
         "size": "6g",
         "storeUnitPrice": 225,
         "storeName": "Basiilik Santa Maria 6g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/basiilik-pakk-santa-maria-6-g",
+        "size": "6g",
+        "ean": "7311311005435",
+        "storeUnitPrice": 198.33,
+        "storeName": "Basiilik pakk, SANTA MARIA, 6 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Loorberileht 4g",
@@ -46035,6 +46567,15 @@
         "storeUnitPrice": 362.5,
         "storeName": "Loorberileht SANTA MARIA 4g"
       },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-loorberileht-4g/",
+        "size": "4g",
+        "ean": "7311311005831",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/7311311005831.png",
+        "storeName": "Loorberileht Santa Maria 4g"
+      },
       "rimi": {
         "price": 1.55,
         "currency": "EUR",
@@ -46042,9 +46583,51 @@
         "size": "4g",
         "storeUnitPrice": 387.5,
         "storeName": "Loorberileht Santa Maria 4g"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/loorberilehed-santa-maria-4-g",
+        "size": "4g",
+        "ean": "7311311005831",
+        "storeUnitPrice": 362.5,
+        "storeName": "Loorberilehed, SANTA MARIA, 4 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Kaneelikoor 22g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kaneelikoor-santa-maria-22-g",
+        "size": "22g",
+        "storeUnitPrice": 108.64,
+        "storeName": "Kaneelikoor SANTA MARIA 22g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaneelikoor-22g/",
+        "size": "22g",
+        "ean": "7311311005848",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005848.png",
+        "storeName": "Kaneelikoor Santa Maria 22g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaneelikoor-pakk-santa-maria-22g",
+        "size": "22g",
+        "ean": "7311311005848",
+        "storeUnitPrice": 108.64,
+        "storeName": "Kaneelikoor pakk, SANTA MARIA, 22g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Persillade 48g",
@@ -46071,6 +46654,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/persillade-48g-santa-maria",
         "size": "48g",
+        "ean": "7311311017230",
         "storeUnitPrice": 33.13,
         "storeName": "Persillade , 48g, SANTA MARIA"
       }
@@ -46089,6 +46673,15 @@
         "storeUnitPrice": 142.57,
         "storeName": "Kardemon jahvatatud SANTA MARIA 35g"
       },
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kardemon-jahvatatud-35g/",
+        "size": "35g",
+        "ean": "7311311014222",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311014222.png",
+        "storeName": "Kardemon jahvatatud Santa Maria 35g purk"
+      },
       "rimi": {
         "price": 5.39,
         "currency": "EUR",
@@ -46102,11 +46695,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kardemon-jahvatatud-35g-santa-maria",
         "size": "35g",
+        "ean": "7311311014222",
         "storeUnitPrice": 142.57,
         "storeName": "Kardemon jahvatatud, 35g, SANTA MARIA"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kadakamari 21g",
@@ -46125,6 +46719,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kadakamari-santa-maria-21-g",
         "size": "21g",
+        "ean": "7311311014727",
         "storeUnitPrice": 175.71,
         "storeName": "Kadakamari, SANTA MARIA, 21 g"
       }
@@ -46148,6 +46743,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/basiilik-santa-maria-12-g",
         "size": "12g",
+        "ean": "7311311014215",
         "storeUnitPrice": 132.5,
         "storeName": "Basiilik, SANTA MARIA, 12 g"
       }
@@ -46167,16 +46763,26 @@
         "regularPrice": 7.69,
         "storeName": "Kaneel jahvatatud SANTA MARIA 210g"
       },
+      "coop": {
+        "price": 7.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaneel-jahvatatud-210g/",
+        "size": "210g",
+        "ean": "7311311014109",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311014109.jpg",
+        "storeName": "Kaneel jahvatatud Santa Maria 210g purk"
+      },
       "selver": {
         "price": 7.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/kaneel-jahvatatud-santa-maria-210-g",
         "size": "210g",
+        "ean": "7311311014109",
         "storeUnitPrice": 37.57,
         "storeName": "Kaneel jahvatatud, SANTA MARIA, 210 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kaneel jahvatatud 40g",
@@ -46190,16 +46796,26 @@
         "storeUnitPrice": 53.75,
         "storeName": "Kaneel jahvatatud SANTA MARIA 40g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaneel-jahvatatud-40g/",
+        "size": "40g",
+        "ean": "7311311014628",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/7311311014628.png",
+        "storeName": "Kaneel jahvatatud Santa Maria 40g purk"
+      },
       "selver": {
         "price": 2.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/kaneel-jahvatatud-santa-maria-40-g",
         "size": "40g",
+        "ean": "7311311014628",
         "storeUnitPrice": 52.25,
         "storeName": "Kaneel jahvatatud, SANTA MARIA, 40 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Pune 5g",
@@ -46212,6 +46828,15 @@
         "size": "5g",
         "storeUnitPrice": 318,
         "storeName": "Pune SANTA MARIA 5g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pune-5g-purk/",
+        "size": "5g",
+        "ean": "7311311014963",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/7311311014963.png",
+        "storeName": "Pune Santa Maria 5g purk"
       },
       "rimi": {
         "price": 1.75,
@@ -46226,11 +46851,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pune-santa-maria-5-g",
         "size": "5g",
+        "ean": "7311311014963",
         "storeUnitPrice": 318,
         "storeName": "Pune, SANTA MARIA, 5 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kurkum jahvatatud 20g",
@@ -46243,6 +46869,15 @@
         "size": "20g",
         "storeUnitPrice": 47.5,
         "storeName": "Kurkum jahvatatud SANTA MARIA 20g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kurkum-jahvatatud-20g/",
+        "size": "20g",
+        "ean": "7311311019852",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311019852.jpg",
+        "storeName": "Kurkum jahvatatud Santa Maria 20g"
       },
       "rimi": {
         "price": 0.79,
@@ -46258,11 +46893,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kurkum-jahvatatud-20g-santa-maria",
         "size": "20g",
+        "ean": "7311311019852",
         "storeUnitPrice": 47.5,
         "storeName": "Kurkum jahvatatud, 20g, SANTA MARIA"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Küüslauk tükeldatud 25g",
@@ -46275,6 +46911,15 @@
         "size": "25g",
         "storeUnitPrice": 42,
         "storeName": "Küüslauk tükeldatud SANTA MARIA 25g"
+      },
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuuslauk-tukeldatud-25g/",
+        "size": "25g",
+        "ean": "7311311019869",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311019869.jpg",
+        "storeName": "Küüslauk tükeldatud Santa Maria 25g"
       },
       "rimi": {
         "price": 0.99,
@@ -46290,11 +46935,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kuuslauk-tukeldatud-25g-santa-maria",
         "size": "25g",
+        "ean": "7311311019869",
         "storeUnitPrice": 42,
         "storeName": "Küüslauk tükeldatud, 25g, SANTA MARIA"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Vürtsköömen 20g",
@@ -46322,6 +46968,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vurtskoomen-20g-santa-maria",
         "size": "20g",
+        "ean": "7311311019876",
         "storeUnitPrice": 59.5,
         "storeName": "Vürtsköömen, 20g, SANTA MARIA"
       }
@@ -46340,16 +46987,26 @@
         "storeUnitPrice": 59.67,
         "storeName": "Sibulapulber MEIRA 30g"
       },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meira-sibulapulber-30g/",
+        "size": "30g",
+        "ean": "6414201004493",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/6414201004493.png",
+        "storeName": "Sibulapulber Meira 30g"
+      },
       "selver": {
         "price": 1.82,
         "currency": "EUR",
         "url": "https://www.selver.ee/sibulapulber-meira-30-g",
         "size": "30g",
+        "ean": "6414201004493",
         "storeUnitPrice": 60.67,
         "storeName": "Sibulapulber, MEIRA, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meira Kardemoni seemned 8g",
@@ -46368,6 +47025,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kardemoni-seemned-meira-8-g",
         "size": "8g",
+        "ean": "6414201001959",
         "storeUnitPrice": 146.25,
         "storeName": "Kardemoni seemned, MEIRA, 8 g"
       }
@@ -46391,6 +47049,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kurkum-meira-60-g",
         "size": "60g",
+        "ean": "6414201002154",
         "storeUnitPrice": 33.67,
         "storeName": "Kurkum, MEIRA, 60 g"
       }
@@ -46409,6 +47068,15 @@
         "storeUnitPrice": 75.41,
         "storeName": "Suitsutatud paprika SANTA MARIA 37g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-suitsutatud-paprika-37g-purk/",
+        "size": "37g",
+        "ean": "7311311015243",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/7311311015243.png",
+        "storeName": "Suitsutatud paprika Santa Maria 37g purk"
+      },
       "rimi": {
         "price": 2.85,
         "currency": "EUR",
@@ -46422,11 +47090,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsutatud-paprika-santa-maria-37g",
         "size": "37g",
+        "ean": "7311311015243",
         "storeUnitPrice": 74.32,
         "storeName": "Suitsutatud paprika, SANTA MARIA, 37g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Rosmariin mahe 19g",
@@ -46476,6 +47145,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahe-kuuslaugupulber-santa-maria-46-g",
         "size": "46g",
+        "ean": "7311311015403",
         "storeUnitPrice": 75.87,
         "storeName": "Mahe küüslaugupulber, SANTA MARIA, 46 g"
       }
@@ -46507,8 +47177,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kurkum-jahvatatud-santa-maria-32-g",
         "size": "32g",
+        "ean": "7311311027376",
         "storeUnitPrice": 46.56,
         "storeName": "Kurkum jahvatatud, SANTA MARIA, 32 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Meira Petersell 9g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/petersell-meira-9-g",
+        "size": "9g",
+        "storeUnitPrice": 110,
+        "storeName": "Petersell MEIRA 9g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/petersell-9g/",
+        "size": "9g",
+        "ean": "6414201003601",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6414201003601.jpg",
+        "storeName": "Petersell Meira 9g"
       }
     },
     "matchedVia": "automatic"
@@ -46525,6 +47220,15 @@
         "storeUnitPrice": 23.75,
         "storeName": "Aroomisool SANTA MARIA 40g"
       },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-aroomisool-40g-pakk/",
+        "size": "40g",
+        "ean": "6418474118284",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/01/6418474118284.png",
+        "storeName": "Aroomisool Santa Maria 40g"
+      },
       "selver": {
         "price": 0.95,
         "currency": "EUR",
@@ -46532,11 +47236,12 @@
         "cardPrice": 0.75,
         "cardName": "Partner",
         "size": "40g",
+        "ean": "6418474118284",
         "storeUnitPrice": 23.75,
         "storeName": "Aroomisool, SANTA MARIA, 40 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Küüslaugusool 40g",
@@ -46549,6 +47254,15 @@
         "size": "40g",
         "storeUnitPrice": 23.75,
         "storeName": "Küüslaugusool SANTA MARIA 40g"
+      },
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuuslaugusool-40g/",
+        "size": "40g",
+        "ean": "6418474118314",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118314.jpg",
+        "storeName": "Küüslaugusool Santa Maria 40g"
       },
       "rimi": {
         "price": 0.79,
@@ -46566,11 +47280,12 @@
         "cardPrice": 0.75,
         "cardName": "Partner",
         "size": "40g",
+        "ean": "6418474118314",
         "storeUnitPrice": 23.75,
         "storeName": "Küüslaugusool, SANTA MARIA, 40 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Kivisool veskis 140g",
@@ -46584,6 +47299,15 @@
         "storeUnitPrice": 33.5,
         "storeName": "Kivisool veskis SANTA MARIA 140g"
       },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kivisool-140g/",
+        "size": "140g",
+        "ean": "7311310026790",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311310026790.png",
+        "storeName": "Kivisool Santa Maria 140g veski"
+      },
       "selver": {
         "price": 4.69,
         "currency": "EUR",
@@ -46591,11 +47315,12 @@
         "cardPrice": 3.59,
         "cardName": "Partner",
         "size": "140g",
+        "ean": "7311310026790",
         "storeUnitPrice": 33.5,
         "storeName": "Kivisool veskis, SANTA MARIA, 140 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Sool 92g",
@@ -46609,16 +47334,26 @@
         "storeUnitPrice": 17.28,
         "storeName": "Sool SANTA MARIA 92g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sool-92g-purk/",
+        "size": "92g",
+        "ean": "7311311014772",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/7311311014772.png",
+        "storeName": "Sool Santa Maria 92g purk"
+      },
       "selver": {
         "price": 1.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/sool-santa-maria-92-g",
         "size": "92g",
+        "ean": "7311311014772",
         "storeUnitPrice": 17.28,
         "storeName": "Sool, SANTA MARIA, 92 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Küüslaugusool 77g",
@@ -46645,6 +47380,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kuuslaugusool-santa-maria-77-g",
         "size": "77g",
+        "ean": "7311311017223",
         "storeUnitPrice": 20.65,
         "storeName": "Küüslaugusool, SANTA MARIA, 77 g"
       }
@@ -46663,16 +47399,26 @@
         "storeUnitPrice": 22.84,
         "storeName": "Aroomisool SANTA MARIA 74g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aroomisool-74g-purk/",
+        "size": "74g",
+        "ean": "7311311017292",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311017292.png",
+        "storeName": "Aroomisool Santa Maria 74g purk"
+      },
       "selver": {
         "price": 1.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/aroomisool-santa-maria-74-g",
         "size": "74g",
+        "ean": "7311311017292",
         "storeUnitPrice": 21.49,
         "storeName": "Aroomisool, SANTA MARIA, 74 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Piprasegu 25g",
@@ -46700,6 +47446,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piprasegu-santa-maria-25-g",
         "size": "25g",
+        "ean": "6418474118376",
         "storeUnitPrice": 63.6,
         "storeName": "Piprasegu, SANTA MARIA, 25 g"
       }
@@ -46718,6 +47465,15 @@
         "storeUnitPrice": 67.6,
         "storeName": "Viie pipra segu SANTA MARIA, 25g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/viie-pipra-segu-25g/",
+        "size": "25g",
+        "ean": "6418474118383",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118383.jpg",
+        "storeName": "Viie pipra segu Santa Maria 25g"
+      },
       "rimi": {
         "price": 1.39,
         "currency": "EUR",
@@ -46732,11 +47488,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/viie-pipra-segu-santa-maria-25-g",
         "size": "25g",
+        "ean": "6418474118383",
         "storeUnitPrice": 70,
         "storeName": "Viie pipra segu, SANTA MARIA, 25 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Must terapipar 22g",
@@ -46749,6 +47506,15 @@
         "size": "22g",
         "storeUnitPrice": 63.18,
         "storeName": "Must terapipar SANTA MARIA, 22g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-terapipar-22g/",
+        "size": "22g",
+        "ean": "6418474118086",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118086.png",
+        "storeName": "Santa Maria must terapipar 22g"
       },
       "rimi": {
         "price": 1.55,
@@ -46786,8 +47552,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kuuslaugupipar-santa-maria-30-g",
         "size": "30g",
+        "ean": "6418474130095",
         "storeUnitPrice": 53,
         "storeName": "Küüslaugupipar, SANTA MARIA, 30 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kotanyi Nelja pipra segu 16g",
+    "category": "Spices",
+    "prices": {
+      "barbora": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/nelja-pipra-segu-kotanyi-16-g",
+        "size": "16g",
+        "storeUnitPrice": 90.63,
+        "storeName": "Nelja pipra segu KOTANYI 16g"
+      },
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kotanyi-nelja-pipra-segu-16g/",
+        "size": "16g",
+        "ean": "9001414115114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/9001414115114.png",
+        "storeName": "Nelja pipra segu Kotanyi 16g"
       }
     },
     "matchedVia": "automatic"
@@ -46804,16 +47595,26 @@
         "storeUnitPrice": 48.44,
         "storeName": "Sidrunipipar (0% soola) MEIRA 32g"
       },
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sidrunipipar-32g/",
+        "size": "32g",
+        "ean": "6414201004523",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/6414201801405.png",
+        "storeName": "Sidrunipipar Meira 32g 0% soola"
+      },
       "selver": {
         "price": 1.58,
         "currency": "EUR",
         "url": "https://www.selver.ee/sidrunipipar-0-soola-meira-32-g",
         "size": "32g",
+        "ean": "6414201004523",
         "storeUnitPrice": 49.38,
         "storeName": "Sidrunipipar 0% soola, MEIRA, 32 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Must pipar jahvatatud 45g",
@@ -46826,6 +47627,15 @@
         "size": "45g",
         "storeUnitPrice": 77.56,
         "storeName": "Must pipar jahvatatud SANTA MARIA 45g"
+      },
+      "coop": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-pipar-jahvat-45g/",
+        "size": "45g",
+        "ean": "7311311005572",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005572.jpg",
+        "storeName": "Must pipar jahvatatud Santa Maria 45g"
       },
       "rimi": {
         "price": 3.39,
@@ -46840,11 +47650,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/jahvatatud-must-pipar-santa-maria-45-g",
         "size": "45g",
+        "ean": "7311311005572",
         "storeUnitPrice": 57.56,
         "storeName": "Jahvatatud must pipar, SANTA MARIA, 45 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Küüslaugupipar 70g",
@@ -46857,6 +47668,15 @@
         "size": "70g",
         "storeUnitPrice": 39.86,
         "storeName": "Küüslaugupipar SANTA MARIA 70g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuuslaugupipar-70g/",
+        "size": "70g",
+        "ean": "7311311005855",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005855.jpg",
+        "storeName": "Küüslaugupipar Santa Maria 70g"
       },
       "rimi": {
         "price": 2.79,
@@ -46894,6 +47714,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sidrunipipar-55g-santa-maria",
         "size": "55g",
+        "ean": "7311311014239",
         "storeUnitPrice": 43.45,
         "storeName": "Sidrunipipar, 55g, SANTA MARIA"
       }
@@ -46912,6 +47733,15 @@
         "storeUnitPrice": 80.28,
         "storeName": "Must pipar purustatud SANTA MARIA 36g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-must-pipar-purust-36g-purk/",
+        "size": "36g",
+        "ean": "7311311015779",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/7311311015779.png",
+        "storeName": "Must pipar purustatud Santa Maria 36g purk"
+      },
       "rimi": {
         "price": 3.09,
         "currency": "EUR",
@@ -46925,11 +47755,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/must-pipar-purustatud-santa-maria-36-g",
         "size": "36g",
+        "ean": "7311311015779",
         "storeUnitPrice": 80.28,
         "storeName": "Must pipar purustatud, SANTA MARIA, 36 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Cayenne i pipar 30g",
@@ -46943,16 +47774,26 @@
         "storeUnitPrice": 53,
         "storeName": "Cayenne'i pipar SANTA MARIA 30g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-cayenne-pipar-30g-purk/",
+        "size": "30g",
+        "ean": "7311311014796",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/7311311014796.png",
+        "storeName": "Cayenne pipar Santa Maria 30g purk"
+      },
       "selver": {
         "price": 1.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/cayenne-i-pipar-30g-santa-maria",
         "size": "30g",
+        "ean": "7311311014796",
         "storeUnitPrice": 53,
         "storeName": "Cayenne'i pipar, 30g, SANTA MARIA"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Tšillipipar 34g",
@@ -46971,6 +47812,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tsillipipar-santa-maria-34-g",
         "size": "34g",
+        "ean": "7311311015540",
         "storeUnitPrice": 67.35,
         "storeName": "Tšillipipar, SANTA MARIA, 34 g"
       }
@@ -47003,6 +47845,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/must-terapipar-210g-santa-maria",
         "size": "210g",
+        "ean": "7311311015809",
         "storeUnitPrice": 46.62,
         "storeName": "Must terapipar, 210g, SANTA MARIA"
       }
@@ -47026,6 +47869,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/apelsinipipar-santa-maria-48-g",
         "size": "48g",
+        "ean": "7311311025327",
         "storeUnitPrice": 47.71,
         "storeName": "Apelsinipipar, SANTA MARIA, 48 g"
       }
@@ -47068,6 +47912,15 @@
         "regularPrice": 9.49,
         "storeName": "Sidrunipipar SANTA MARIA 359g"
       },
+      "coop": {
+        "price": 9.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-sidrunipipar-359g/",
+        "size": "359g",
+        "ean": "7311311025952",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/7311311025952.png",
+        "storeName": "Sidrunipipar Santa Maria 359g purk"
+      },
       "rimi": {
         "price": 9.55,
         "currency": "EUR",
@@ -47081,11 +47934,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sidrunipipar-santa-maria-359-g",
         "size": "359g",
+        "ean": "7311311025952",
         "storeUnitPrice": 26.43,
         "storeName": "Sidrunipipar, SANTA MARIA, 359 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Jahvatatud must pipar 181g",
@@ -47100,6 +47954,15 @@
         "regularPrice": 8.89,
         "storeName": "Jahvatatud must pipar SANTA MARIA 181g"
       },
+      "coop": {
+        "price": 8.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-must-pipar-jahvatatud-181g/",
+        "size": "181g",
+        "ean": "7311311025969",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/7311311025969.png",
+        "storeName": "Must pipar jahvatatud Santa Maria 181g purk"
+      },
       "rimi": {
         "price": 8.89,
         "currency": "EUR",
@@ -47113,11 +47976,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/must-pipar-jahvatatud-santa-maria-181-g",
         "size": "181g",
+        "ean": "7311311025969",
         "storeUnitPrice": 49.12,
         "storeName": "Must pipar, jahvatatud, SANTA MARIA, 181 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Piprasegu 258g",
@@ -47137,6 +48001,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/piprasegu-santa-maria-258-g",
         "size": "258g",
+        "ean": "7311311026225",
         "storeUnitPrice": 38.72,
         "storeName": "Piprasegu, SANTA MARIA, 258 g"
       }
@@ -47179,6 +48044,15 @@
         "storeUnitPrice": 57.27,
         "storeName": "Sidrunipipar SANTA MARIA 33g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-sidrunipipar-33g/",
+        "size": "33g",
+        "ean": "7311311026256",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/08/7311311026256.png",
+        "storeName": "Sidrunipipar Santa Maria 33g"
+      },
       "rimi": {
         "price": 1.89,
         "currency": "EUR",
@@ -47201,6 +48075,15 @@
         "size": "70g",
         "storeUnitPrice": 39.86,
         "storeName": "Sidrunipipar SANTA MARIA 70g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-sidrunipipar-70g/",
+        "size": "70g",
+        "ean": "7311311026904",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/7311311026904.png",
+        "storeName": "Sidrunipipar Santa Maria 70g"
       },
       "rimi": {
         "price": 2.59,
@@ -47232,6 +48115,7 @@
         "cardPrice": 4.49,
         "cardName": "Partner",
         "size": "90g",
+        "ean": "7311310026714",
         "storeUnitPrice": 65.44,
         "storeName": "Laimipipar veskis, SANTA MARIA, 90 g"
       }
@@ -47263,6 +48147,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tsillipulber-santa-maria-41-g",
         "size": "41g",
+        "ean": "7311311014178",
         "storeUnitPrice": 55.85,
         "storeName": "Tšillipulber, SANTA MARIA, 41 g"
       }
@@ -47317,6 +48202,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/teriyaki-marinaad-santa-maria-75-g",
         "size": "75g",
+        "ean": "7311310287047",
         "storeUnitPrice": 14,
         "storeName": "Teriyaki marinaad, SANTA MARIA, 75 g"
       }
@@ -47335,6 +48221,15 @@
         "storeUnitPrice": 13.9,
         "storeName": "Marinaadisegu kurgile SANTA MARIA 100g"
       },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marin-segu-kurgile-100g/",
+        "size": "100g",
+        "ean": "7311311005091",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311005091.jpg",
+        "storeName": "Marinaadisegu kurgile Santa Maria 100g"
+      },
       "rimi": {
         "price": 1.49,
         "currency": "EUR",
@@ -47348,35 +48243,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/marinaadisegu-kurgile-santa-maria-100-g",
         "size": "100g",
+        "ean": "7311311005091",
         "storeUnitPrice": 13.9,
         "storeName": "Marinaadisegu kurgile, SANTA MARIA, 100 g"
       }
     },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Santa maria Pitsamaitseaine 5g",
-    "category": "Spices",
-    "prices": {
-      "rimi": {
-        "price": 0.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/maitseainesegud/pitsamaitseaine-santa-maria-5g/p/100353",
-        "size": "5g",
-        "storeUnitPrice": 158,
-        "regularPrice": 1.05,
-        "storeName": "Pitsamaitseaine Santa Maria 5g"
-      },
-      "selver": {
-        "price": 0.95,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/pitsamaitseaine-santa-maria-5-g",
-        "size": "5g",
-        "storeUnitPrice": 190,
-        "storeName": "Pitsamaitseaine, SANTA MARIA, 5 g"
-      }
-    },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Liha üldmaitseaine 51g",
@@ -47395,8 +48267,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/liha-uldmaitseaine-santa-maria-51-g",
         "size": "51g",
+        "ean": "7311311014208",
         "storeUnitPrice": 34.31,
         "storeName": "Liha üldmaitseaine, SANTA MARIA, 51 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Santa maria Kanamaitseaine kollane karri 24g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanamaitseaine-karri-24g/",
+        "size": "24g",
+        "ean": "6418474146584",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474146584.jpg",
+        "storeName": "Kanamaitseaine kollane karri Santa Maria 24g"
+      },
+      "rimi": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/maitseainesegud/kanamaitseaine-kollane-karri-santa-maria-24g/p/108596",
+        "size": "24g",
+        "storeUnitPrice": 43.75,
+        "storeName": "Kanamaitseaine kollane karri Santa Maria 24g"
       }
     },
     "matchedVia": "automatic"
@@ -47418,6 +48315,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/karri-ja-mango-maitseainesegu-santa-maria-41-g",
         "size": "41g",
+        "ean": "7311311015946",
         "storeUnitPrice": 85.12,
         "storeName": "Karri ja mango maitseainesegu, SANTA MARIA, 41 g"
       }
@@ -47441,8 +48339,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/teriyaki-maitseainesegu-santa-maria-44-g",
         "size": "44g",
+        "ean": "7311311016066",
         "storeUnitPrice": 79.32,
         "storeName": "Teriyaki maitseainesegu, SANTA MARIA, 44 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kotanyi Kartulimaitseaine ameerika 30g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kotanyi-kartulimaitseaine-ameerika-30g/",
+        "size": "30g",
+        "ean": "9001414015575",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/9001414015575.png",
+        "storeName": "Kartulimaitseaine Ameerika Kotanyi 30g"
+      },
+      "rimi": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/maitseainesegud/kartulimaitseaine-kotanyi-ameerika-30g/p/128825",
+        "size": "30g",
+        "storeUnitPrice": 53,
+        "storeName": "Kartulimaitseaine Kotanyi Ameerika 30g"
       }
     },
     "matchedVia": "automatic"
@@ -47464,6 +48387,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/marinaad-magus-tsilli-santa-maria-75-g",
         "size": "75g",
+        "ean": "7311310029548",
         "storeUnitPrice": 14,
         "storeName": "Marinaad magus tšilli, SANTA MARIA, 75 g"
       }
@@ -47487,6 +48411,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tsillipipar-red-hot-helbed-28g-santa-maria",
         "size": "28g",
+        "ean": "7311311015564",
         "storeUnitPrice": 81.79,
         "storeName": "Tšillipipar Red Hot, helbed, 28g, SANTA MARIA"
       }
@@ -47497,6 +48422,15 @@
     "name": "Santa maria Must pipar purustatud 18g",
     "category": "Spices",
     "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-pipar-purust-18g/",
+        "size": "18g",
+        "ean": "4740018170666",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740018170666.jpg",
+        "storeName": "Must pipar purustatud Santa Maria 18g"
+      },
       "rimi": {
         "price": 1.55,
         "currency": "EUR",
@@ -47512,16 +48446,26 @@
         "cardPrice": 1.09,
         "cardName": "Partner",
         "size": "18g",
+        "ean": "4740018170666",
         "storeUnitPrice": 80.56,
         "storeName": "Purustatud must pipar, SANTA MARIA, 18 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Must pipar jahvatatud 16g",
     "category": "Spices",
     "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-pipar-jahvat-16g/",
+        "size": "16g",
+        "ean": "4740018170659",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740018170659.png",
+        "storeName": "Must pipar jahvatatud Santa Maria 16g"
+      },
       "rimi": {
         "price": 1.55,
         "currency": "EUR",
@@ -47537,11 +48481,12 @@
         "cardPrice": 1.09,
         "cardName": "Partner",
         "size": "16g",
+        "ean": "4740018170659",
         "storeUnitPrice": 90.63,
         "storeName": "Jahvatatud must pipar, SANTA MARIA, 16 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Viie pipra veski 60g",
@@ -47562,8 +48507,33 @@
         "cardPrice": 6.99,
         "cardName": "Partner",
         "size": "60g",
+        "ean": "7311310026691",
         "storeUnitPrice": 151.5,
         "storeName": "Viie pipra veski, SANTA MARIA, 60 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Kotanyi Oregano 8g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kotanyi-oregano-8g/",
+        "size": "8g",
+        "ean": "9001414015421",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/9001414015421.png",
+        "storeName": "Oregano Kotanyi 8g"
+      },
+      "rimi": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/maitseained/puhtad-maitseained-ja-urdid/oregano-kotanyi-8g/p/153587",
+        "size": "8g",
+        "storeUnitPrice": 193.75,
+        "storeName": "Oregano Kotanyi 8g"
       }
     },
     "matchedVia": "automatic"
@@ -47586,6 +48556,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koriander-purustatud-santa-maria-20-g",
         "size": "20g",
+        "ean": "4740018175593",
         "storeUnitPrice": 47.5,
         "storeName": "Koriander purustatud, SANTA MARIA, 20 g"
       }
@@ -47596,6 +48567,15 @@
     "name": "Santa maria Muskaatpähkel 10g",
     "category": "Spices",
     "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-muskaatpahkel-10g/",
+        "size": "10g",
+        "ean": "6418474152790",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/6418474152790.png",
+        "storeName": "Muskaatpähkel Santa Maria 10g"
+      },
       "rimi": {
         "price": 1.59,
         "currency": "EUR",
@@ -47609,11 +48589,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/muskaatpahkel-santa-maria-10-g",
         "size": "10g",
+        "ean": "6418474152790",
         "storeUnitPrice": 149,
         "storeName": "Muskaatpähkel, SANTA MARIA, 10 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Pitsamaitseaine 9g",
@@ -47632,6 +48613,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsamaitseaine-9g-santa-maria",
         "size": "9g",
+        "ean": "7311311014956",
         "storeUnitPrice": 176.67,
         "storeName": "Pitsamaitseaine, 9g, SANTA MARIA"
       }
@@ -47655,6 +48637,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/salatimaitseaine-urtidega-santa-maria-30-g",
         "size": "30g",
+        "ean": "4740018156516",
         "storeUnitPrice": 35,
         "storeName": "Salatimaitseaine ürtidega, SANTA MARIA, 30 g"
       }
@@ -47678,6 +48661,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/cajuni-maitseainesegu-santa-maria-34-g",
         "size": "34g",
+        "ean": "7311311015915",
         "storeUnitPrice": 102.65,
         "storeName": "Cajuni maitseainesegu, SANTA MARIA, 34 g"
       }
@@ -47701,6 +48685,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahe-pune-santa-maria-9-g",
         "size": "9g",
+        "ean": "7311311015366",
         "storeUnitPrice": 387.78,
         "storeName": "Mahe pune, SANTA MARIA, 9 g"
       }
@@ -47708,9 +48693,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Santa maria Aroomisool 390g",
+    "name": "Santa maria Aroomisool purk 390g",
     "category": "Spices",
     "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aroomisool-390g/",
+        "size": "390g",
+        "ean": "7311311016912",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/7311311016912.png",
+        "storeName": "Aroomisool Santa Maria 390g purk"
+      },
       "rimi": {
         "price": 5.29,
         "currency": "EUR",
@@ -47724,11 +48718,793 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/aroomisool-santa-maria-390g",
         "size": "390g",
+        "ean": "7311311016912",
         "storeUnitPrice": 13.31,
         "storeName": "Aroomisool, SANTA MARIA, 390g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Himaalaja roosa sool 1000g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/himaalaja-roosa-sool-1kg-3/",
+        "size": "1000g",
+        "ean": "4744168010018",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4744168010018.png",
+        "storeName": "Himaalaja roosa sool 1kg"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/himaalaja-sool-1-kg",
+        "size": "1000g",
+        "ean": "4744168010018",
+        "storeUnitPrice": 2.63,
+        "storeName": "Himaalaja sool, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Take1 Take maapähkel röstitud purustatud 70g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maapahkel-rost-70g/",
+        "size": "70g",
+        "ean": "4740085307095",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740085307095.png",
+        "storeName": "Take1 Maapähkel röstitud 70g purustatud"
+      },
+      "selver": {
+        "price": 0.86,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rostitud-maapahkli-puru-take1-chef-70-g",
+        "size": "70g",
+        "ean": "4740085307095",
+        "storeUnitPrice": 12.29,
+        "storeName": "Röstitud maapähkli puru, TAKE1 CHEF, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pansool 450g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pansool-450g/",
+        "size": "450g",
+        "ean": "6439600000105",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/6411302050169.png",
+        "storeName": "Pansool 450g"
+      },
+      "selver": {
+        "price": 4.18,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pan-sool-reformi-450-g",
+        "size": "450g",
+        "ean": "6439600000105",
+        "storeUnitPrice": 9.29,
+        "storeName": "Pan-sool, REFORMI, 450 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meira Rosepipar jahvatamata 15g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rosepipar-15g/",
+        "size": "15g",
+        "ean": "6414201003984",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/6414201801276.png",
+        "storeName": "Rosepipar Meira 15g jahvatamata"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rosepipar-jahvatamata-meira-15-g",
+        "size": "15g",
+        "ean": "6414201003984",
+        "storeUnitPrice": 121.33,
+        "storeName": "Rosepipar jahvatamata, MEIRA, 15 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meira muskaatpähkel jahvatatud purk 32g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/muskaatpahkel-jahvat-32g/",
+        "size": "32g",
+        "ean": "6414201102205",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6414201810759.jpg",
+        "storeName": "Meira muskaatpähkel jahvatatud 32g purk"
+      },
+      "selver": {
+        "price": 4.56,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jahvatatud-muskaatpahkel-meira-32-g",
+        "size": "32g",
+        "ean": "6414201102205",
+        "storeUnitPrice": 142.5,
+        "storeName": "Jahvatatud muskaatpähkel, MEIRA, 32 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Kaneel jahvatatud 22g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaneel-jahvatatud-22g/",
+        "size": "22g",
+        "ean": "6418474118130",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6418474118130.jpg",
+        "storeName": "Kaneel jahvatatud Santa Maria 22g"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaneel-jahvatatud-santa-maria-22-g",
+        "cardPrice": 0.95,
+        "cardName": "Partner",
+        "size": "22g",
+        "ean": "6418474118130",
+        "storeUnitPrice": 56.82,
+        "storeName": "Kaneel (jahvatatud), SANTA MARIA, 22 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Santa segu pasta rossa veski 80g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-segu-pasta-rossa-80g-veski/",
+        "size": "80g",
+        "ean": "7311310026738",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/7311310026738.png",
+        "storeName": "Santa Maria segu Pasta Rossa 80g veski"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasta-rossa-veskis-santa-maria-80-g",
+        "cardPrice": 4.49,
+        "cardName": "Partner",
+        "size": "80g",
+        "ean": "7311310026738",
+        "storeUnitPrice": 73.63,
+        "storeName": "Pasta rossa veskis, SANTA MARIA, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Tellicherry pipar veski 70g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-tellicherry-pipar-70g-veski/",
+        "size": "70g",
+        "ean": "7311310026806",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/7311310026806.png",
+        "storeName": "Tellicherry pipar Santa Maria 70g veski"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tellycherry-pipar-veskis-santa-maria-70-g",
+        "cardPrice": 5.29,
+        "cardName": "Partner",
+        "size": "70g",
+        "ean": "7311310026806",
+        "storeUnitPrice": 99.86,
+        "storeName": "Tellycherry pipar veskis, SANTA MARIA, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meira Must pipar purustatud 27g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-pipar-purust-27g/",
+        "size": "27g",
+        "ean": "6414201003021",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/6414201801054.png",
+        "storeName": "Must pipar purustatud Meira 27g"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-pipar-purustatud-meira-27-g",
+        "size": "27g",
+        "ean": "6414201003021",
+        "storeUnitPrice": 62.22,
+        "storeName": "Must pipar purustatud, MEIRA, 27 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meira Peeneteraline mineraalsool jodeeritud 80g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meira-peeneteraline-mineraalsool-80g/",
+        "size": "80g",
+        "ean": "6420101884028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/6420101884028.png",
+        "storeName": "Peeneteraline mineraalsool Meira 80g jodeeritud"
+      },
+      "selver": {
+        "price": 3.14,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peeneteraline-jodeeritud-mineraalsool-meira-80-g",
+        "size": "80g",
+        "ean": "6420101884028",
+        "storeUnitPrice": 39.25,
+        "storeName": "Peeneteraline jodeeritud mineraalsool, MEIRA, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Podravka M aine kuldsele kanale vegeta natur 20g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/podravka-vegeta-natur-m-a-kuldse-kana20g/",
+        "size": "20g",
+        "ean": "3850104083228",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/3850104083228.png",
+        "storeName": "M/aine kuldsele kanale Podravka Vegeta Natur 20g"
+      },
+      "selver": {
+        "price": 0.66,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitseaine-vegeta-natur-kuldsele-kanale-podravka-20-g",
+        "size": "20g",
+        "ean": "3850104083228",
+        "storeUnitPrice": 33,
+        "storeName": "Maitseaine Vegeta Natur kuldsele kanale, PODRAVKA, 20 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Podravka Maitseaine kalale vegeta natur 20g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/podravka-vegeta-natur-m-aine-kalale-20g/",
+        "size": "20g",
+        "ean": "3850104265723",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/3850104265723.png",
+        "storeName": "Maitseaine kalale Podravka Vegeta Natur 20g"
+      },
+      "selver": {
+        "price": 0.66,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitseaine-vegeta-natur-kalale-podravka-20-g",
+        "size": "20g",
+        "ean": "3850104265723",
+        "storeUnitPrice": 33,
+        "storeName": "Maitseaine Vegeta Natur kalale, PODRAVKA, 20 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kati Sool jäme 1000g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sool-jame-1kg/",
+        "size": "1000g",
+        "ean": "4740165000434",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740165000434.png",
+        "storeName": "Sool jäme Kati 1kg"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jame-soogisool-kati-1-kg",
+        "size": "1000g",
+        "ean": "4740165000434",
+        "storeUnitPrice": 0.99,
+        "storeName": "Jäme söögisool, KATI, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ekströms Vaniljekastmepulber 91g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaniljekastmepulber-91g/",
+        "size": "91g",
+        "ean": "7350126083528",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/7310470216263.png",
+        "storeName": "Vaniljekastmepulber Ekströms 91g"
+      },
+      "selver": {
+        "price": 1.11,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaniljekaste-ekstroms-91-g",
+        "size": "91g",
+        "ean": "7350126083528",
+        "storeUnitPrice": 12.2,
+        "storeName": "Vaniljekaste, EKSTRÖMS, 91 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Sidrunipipar soola purk 0% 42g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-sidrunipipar-42g-soolata/",
+        "size": "42g",
+        "ean": "7311311025655",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/7311311025655.png",
+        "storeName": "Sidrunipipar Santa Maria 42g 0% soola purk"
+      },
+      "selver": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sidrunipipar-ilma-lisatud-soolata-santa-maria-42-g",
+        "size": "42g",
+        "ean": "7311311025655",
+        "storeUnitPrice": 60.71,
+        "storeName": "Sidrunipipar, ilma lisatud soolata, SANTA MARIA, 42 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vegeta Maitseaine 75g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vegeta-uldmaitse-a-75g/",
+        "size": "75g",
+        "ean": "3850104008054",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/3850104008054.png",
+        "storeName": "Maitseaine Vegeta 75g"
+      },
+      "selver": {
+        "price": 0.86,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitseaine-vegeta-podravka-75-g",
+        "size": "75g",
+        "ean": "3850104008054",
+        "storeUnitPrice": 11.47,
+        "storeName": "Maitseaine Vegeta, PODRAVKA, 75 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Umami Valge shokolaadi nööbid 200g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 6.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/umami-valge-shokolaadi-noobid-200g/",
+        "size": "200g",
+        "ean": "4770082316387",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4770082316387.png",
+        "storeName": "Valge shokolaadi nööbid Umami 200g"
+      },
+      "selver": {
+        "price": 6.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/valge-sokolaadi-noobid-umami-200-g",
+        "size": "200g",
+        "ean": "4770082316387",
+        "storeUnitPrice": 30.45,
+        "storeName": "Valge šokolaadi nööbid, UMAMI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Umami Tumeda shokolaadi nööbid 200g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 6.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/umami-tumeda-shokolaadi-noobid-200g/",
+        "size": "200g",
+        "ean": "4770082316394",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4770082316394.png",
+        "storeName": "Tumeda shokolaadi nööbid Umami 200g"
+      },
+      "selver": {
+        "price": 6.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tumeda-sokolaadi-noobid-umami-200-g",
+        "size": "200g",
+        "ean": "4770082316394",
+        "storeUnitPrice": 30.45,
+        "storeName": "Tumeda šokolaadi nööbid, UMAMI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Vanillikaun purk 3g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 9.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-vanillikaun-3g-purk/",
+        "size": "3g",
+        "ean": "7311311014758",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/7311311014758.png",
+        "storeName": "Vanillikaun Santa Maria 3g purk"
+      },
+      "selver": {
+        "price": 9.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vanillikaun-3g-santa-maria",
+        "size": "3g",
+        "ean": "7311311014758",
+        "storeUnitPrice": 3030,
+        "storeName": "Vanillikaun, 3g, SANTA MARIA"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kati Sool ekstra 1000g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sool-ekstra-1kg/",
+        "size": "1000g",
+        "ean": "4740165000427",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740165000427.jpg",
+        "storeName": "Sool Ekstra Kati 1kg"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sool-ekstra-kati-1-kg",
+        "size": "1000g",
+        "ean": "4740165000427",
+        "storeUnitPrice": 0.99,
+        "storeName": "Sool Ekstra, KATI, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Himaalaja roosa sool jäme 1000g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/himaalaja-roosa-sool-jame-1kg/",
+        "size": "1000g",
+        "ean": "4744168010056",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4744168010056.png",
+        "storeName": "Himaalaja roosa sool jäme 1kg"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/himaalaja-sool-jame-1-kg",
+        "size": "1000g",
+        "ean": "4744168010056",
+        "storeUnitPrice": 1.99,
+        "storeName": "Himaalaja sool jäme, , 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Must pipar purustatud purk 217g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 10.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-must-pipar-purust-217g/",
+        "size": "217g",
+        "ean": "7311311026621",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/7311311026621.png",
+        "storeName": "Must pipar purustatud Santa Maria 217g purk"
+      },
+      "selver": {
+        "price": 10.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-pipar-purustatud-purk-santa-maria-217-g",
+        "size": "217g",
+        "ean": "7311311026621",
+        "storeUnitPrice": 48.8,
+        "storeName": "Must pipar purustatud purk, SANTA MARIA, 217 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Küpsetusshokolaad valge vilma 190g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vilma-kupsetusshokolaad-valge-190g/",
+        "size": "190g",
+        "ean": "4740012600978",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600978.png",
+        "storeName": "Küpsetusshokolaad valge Kalev Vilma 190g"
+      },
+      "selver": {
+        "price": 4.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vilma-kupsetussokolaad-valge-kalev-190-g",
+        "size": "190g",
+        "ean": "4740012600978",
+        "storeUnitPrice": 25.63,
+        "storeName": "Vilma küpsetusšokolaad valge, KALEV, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Küpsetusshokolaad tume vilma 70% 190g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vilma-kupsetusshokolaad-tume-70-190g/",
+        "size": "190g",
+        "ean": "4740012600961",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600961.png",
+        "storeName": "Küpsetusshokolaad tume 70% Kalev Vilma 190g"
+      },
+      "selver": {
+        "price": 4.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vilma-kupsetussokolaad-tume-70-kalev-190-g",
+        "size": "190g",
+        "ean": "4740012600961",
+        "storeUnitPrice": 25.63,
+        "storeName": "Vilma küpsetusšokolaad tume 70%, KALEV, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalev Küpsetusshokolaad piima vilma 190g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vilma-kupsetusshokolaad-piima-190g/",
+        "size": "190g",
+        "ean": "4740012600954",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740012600954.png",
+        "storeName": "Küpsetusshokolaad piima Kalev Vilma 190g"
+      },
+      "selver": {
+        "price": 4.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vilma-kupsetussokolaad-piima-kalev-190-g",
+        "size": "190g",
+        "ean": "4740012600954",
+        "storeUnitPrice": 25.63,
+        "storeName": "Vilma küpsetusšokolaad piima, KALEV, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Santa maitseainesegu fajita 28g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fajita-m-a-segu-28g/",
+        "size": "28g",
+        "ean": "7311310313647",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311310313647.png",
+        "storeName": "Santa Maria maitseainesegu Fajita 28g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fajita-maitseainesegu-santa-maria-28-g",
+        "size": "28g",
+        "ean": "7311310313647",
+        "storeUnitPrice": 42.5,
+        "storeName": "Fajita maitseainesegu, SANTA MARIA, 28 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Santa maitseainesegu takole 28g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taco-m-a-segu-28g/",
+        "size": "28g",
+        "ean": "7311310310141",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311310310141.png",
+        "storeName": "Santa Maria maitseainesegu takole 28g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taco-maitseainesegu-santa-maria-28-g",
+        "size": "28g",
+        "ean": "7311310310141",
+        "storeUnitPrice": 42.5,
+        "storeName": "Taco maitseainesegu, SANTA MARIA, 28 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Maitseainesegu tikka masala 35g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/m-a-segu-tikka-masala35g/",
+        "size": "35g",
+        "ean": "7311311003462",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7311311003462.jpg",
+        "storeName": "Maitseainesegu Tikka Masala Santa Maria 35g"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tikka-masala-maitseainesegu-santa-maria-35-g",
+        "size": "35g",
+        "ean": "7311311003462",
+        "storeUnitPrice": 44.29,
+        "storeName": "Tikka Masala maitseainesegu, SANTA MARIA, 35 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Maitseainesegu garam masala 33g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-m-ainesegu-garam-masala-33g/",
+        "size": "33g",
+        "ean": "7311311003493",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/7311311003493.jpg",
+        "storeName": "Maitseainesegu Garam Masala Santa Maria 33g"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/garam-masala-maitseainesegu-santa-maria-33-g",
+        "size": "33g",
+        "ean": "7311311003493",
+        "storeUnitPrice": 46.97,
+        "storeName": "Garam Masala maitseainesegu, SANTA MARIA, 33 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Maitseainesegu kana takole 28g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santamaria-maitseainesegu-taco-kanale28g/",
+        "size": "28g",
+        "ean": "7311311013201",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/7311311013201.jpg",
+        "storeName": "Maitseainesegu kana takole Santa Maria 28g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taco-maitseainesegu-kanale-santa-maria-28-g",
+        "size": "28g",
+        "ean": "7311311013201",
+        "storeUnitPrice": 66.07,
+        "storeName": "Taco maitseainesegu kanale, SANTA MARIA, 28 g,"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Santa maria Maitseainesegu takole juustu 28g",
+    "category": "Spices",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/santa-maria-m-ainesegu-takole-28g-juustu/",
+        "size": "28g",
+        "ean": "7311311028106",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/7311311028106.png",
+        "storeName": "Maitseainesegu takole Santa Maria 28g juustumaits"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustumaitseline-tako-maitseainesegu-santa-maria-28-g",
+        "size": "28g",
+        "ean": "7311311028106",
+        "storeUnitPrice": 44.64,
+        "storeName": "Juustumaitseline tako maitseainesegu, SANTA MARIA, 28 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest Õunakaste 530g",

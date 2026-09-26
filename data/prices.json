@@ -142266,17 +142266,27 @@
         "image": "https://cdn.barbora.ee/products/8aa2a1c1-bca7-412b-b5d3-0b1ee11c960d_m.png",
         "storeName": "Külm.pitsapõhjad 2tk VICI, 320g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pizzapohjad-vici-2160g/",
+        "size": "2x160g",
+        "ean": "4740056011280",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740056011280-1.png",
+        "storeName": "Pizzapõhjad Vici 2*160g külmutatud"
+      },
       "selver": {
         "price": 1.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsapohjad-vici-320-g",
         "size": "320g",
+        "ean": "4740056011280",
         "storeUnitPrice": 5.91,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740056011280.jpg",
         "storeName": "Pitsapõhjad, VICI, 320 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar pärmi lehttaigen 500g",
@@ -142317,17 +142327,27 @@
         "image": "https://cdn.barbora.ee/products/f47f8033-4f63-4046-a509-587929ddcd3f_m.png",
         "storeName": "Külm.pitsataigen EESTI PAGAR,600g"
       },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pitsataigen-600g/",
+        "size": "2x300g",
+        "ean": "4740086019164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740086019164.png",
+        "storeName": "Pitsataigen 600g (2*300g) Eesti Pagar"
+      },
       "selver": {
         "price": 1.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsataigen-eesti-pagar-600-g",
         "size": "600g",
+        "ean": "4740086019164",
         "storeUnitPrice": 2.98,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086019164.jpg",
         "storeName": "Pitsataigen, EESTI PAGAR, 600 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar kaneelisaiake 320g",
@@ -142342,17 +142362,27 @@
         "image": "https://cdn.barbora.ee/products/42d683f6-fae0-4c94-bb6f-f9196aa2b17c_m.png",
         "storeName": "Külm.kaneelisaiake EESTI PAGAR,320g"
       },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaneelisaiake-320g/",
+        "size": "320g",
+        "ean": "4740086008533",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086008533.jpg",
+        "storeName": "Kaneelisaiake 320g Eesti Pagar külmutatud"
+      },
       "selver": {
         "price": 2.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/kaneelisaiake-eesti-pagar-320-g",
         "size": "320g",
+        "ean": "4740086008533",
         "storeUnitPrice": 9.03,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008533.jpg",
         "storeName": "Kaneelisaiake, EESTI PAGAR, 320 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar vaniljesaiake 400g",
@@ -142366,6 +142396,15 @@
         "storeUnitPrice": 4.98,
         "image": "https://cdn.barbora.ee/products/fca240c6-60e9-4f42-9666-f58902e6a0f6_m.png",
         "storeName": "Külm.vaniljesaiake EESTI PAGAR, 400g"
+      },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaniljesaiake-400g/",
+        "size": "400g",
+        "ean": "4740086009684",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086009684.png",
+        "storeName": "Vaniljesaiake 400g Eesti Pagar külmutatud"
       },
       "rimi": {
         "price": 2.59,
@@ -142381,9 +142420,35 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vaniljesaiake-eesti-pagar-400-g",
         "size": "400g",
+        "ean": "4740086009684",
         "storeUnitPrice": 7.35,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086009684.jpg",
         "storeName": "Vaniljesaiake, EESTI PAGAR, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar dallase saiake 480g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "barbora": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-dallase-saiake-eesti-pagar-480-g",
+        "size": "480g",
+        "storeUnitPrice": 9.77,
+        "image": "https://cdn.barbora.ee/products/a554ab3f-e596-44f4-b088-622613f91e29_m.png",
+        "storeName": "Külm. Dallase saiake EESTI PAGAR, 480g"
+      },
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dallase-saiake-480g-eesti-pagar/",
+        "size": "480g",
+        "ean": "4740086030275",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/07/4740086030275.png",
+        "storeName": "Dallase saiake 480g Eesti Pagar"
       }
     },
     "matchedVia": "automatic"
@@ -142401,17 +142466,27 @@
         "image": "https://cdn.barbora.ee/products/4b28b6eb-f1b3-4432-bb89-b817d04c65d7_m.png",
         "storeName": "Külm.lihapirukas EESTI PAGAR, 400g"
       },
+      "coop": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lihapirukas-400g/",
+        "size": "400g",
+        "ean": "4740086006751",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086006751.jpg",
+        "storeName": "Lihapirukas 400g Eesti Pagar külmutatud"
+      },
       "selver": {
         "price": 3.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/lihapirukas-eesti-pagar-400-g",
         "size": "400g",
+        "ean": "4740086006751",
         "storeUnitPrice": 7.73,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086006751.jpg",
         "storeName": "Lihapirukas, EESTI PAGAR, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar croissant võiga 360g",
@@ -142426,17 +142501,27 @@
         "image": "https://cdn.barbora.ee/products/a7751b7d-6ebb-414e-b720-e038bdb43c68_m.png",
         "storeName": "Külm.croissant võiga EESTI PAGAR,360g"
       },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/croissant-voiga-360g/",
+        "size": "360g",
+        "ean": "4740086011823",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086011823.jpg",
+        "storeName": "Croissant võiga 360g Eesti Pagar"
+      },
       "selver": {
         "price": 3.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/croissant-voiga-eesti-pagar-360-g",
         "size": "360g",
+        "ean": "4740086011823",
         "storeUnitPrice": 10.53,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086011823.jpg",
         "storeName": "Croissant võiga, EESTI PAGAR, 360 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar viineripirukas 360g",
@@ -142451,17 +142536,27 @@
         "image": "https://cdn.barbora.ee/products/168eec26-7e94-4b16-8d5f-46eff6320cb9_m.png",
         "storeName": "Külm.viineripirukas EESTI PAGAR, 360g"
       },
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/viineripirukas-360g/",
+        "size": "360g",
+        "ean": "4740086013384",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740086013384.png",
+        "storeName": "Viineripirukas 360g Eesti Pagar külmutatud"
+      },
       "selver": {
         "price": 3.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/viineripirukas-eesti-pagar-360-g",
         "size": "360g",
+        "ean": "4740086013384",
         "storeUnitPrice": 10.53,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086013384.jpg",
         "storeName": "Viineripirukas, EESTI PAGAR, 360 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar juusturull 400g",
@@ -142481,6 +142576,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/juusturull-eesti-pagar-400-g",
         "size": "400g",
+        "ean": "4740086014978",
         "storeUnitPrice": 9.63,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086014978.jpg",
         "storeName": "Juusturull, EESTI PAGAR, 400 g"
@@ -142508,6 +142604,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/viineripirukas-eesti-pagar-1-2-kg",
         "size": "1200g",
+        "ean": "4740086013568",
         "storeUnitPrice": 7.36,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086013568.jpg",
         "storeName": "Viineripirukas, EESTI PAGAR, 1,2 kg"
@@ -142535,6 +142632,7 @@
         "cardPrice": 2.79,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4740086017412",
         "storeUnitPrice": 9.38,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086017412.jpg",
         "storeName": "Pitsarull, EESTI PAGAR, 400 g"
@@ -142569,6 +142667,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ciabatta-hele-eesti-pagar-300-g",
         "size": "300g",
+        "ean": "4740086020795",
         "storeUnitPrice": 4.57,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020795.jpg",
         "storeName": "Ciabatta hele, EESTI PAGAR, 300 g"
@@ -142589,6 +142688,15 @@
         "image": "https://cdn.barbora.ee/products/1311ab12-c644-4502-ba04-19b0e8693876_m.png",
         "storeName": "Külm.ciabatta tume EESTI PAGAR,300g"
       },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ciabatta-tume-300g-eesti-pagar-kulmut/",
+        "size": "300g",
+        "ean": "4740086020818",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740086020818.png",
+        "storeName": "Ciabatta tume 300g Eesti Pagar külmutatud"
+      },
       "rimi": {
         "price": 1.45,
         "currency": "EUR",
@@ -142603,12 +142711,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ciabatta-tume-eesti-pagar-300-g",
         "size": "300g",
+        "ean": "4740086020818",
         "storeUnitPrice": 4.57,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020818.jpg",
         "storeName": "Ciabatta tume, EESTI PAGAR, 300 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Eesti pagar Maasika toorjuustusaiake 425g",
@@ -142628,6 +142737,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maasika-toorjuustusaiake-eesti-pagar-425-g",
         "size": "425g",
+        "ean": "4740086028302",
         "storeUnitPrice": 10.26,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086028302.jpg",
         "storeName": "Maasika-toorjuustusaiake, EESTI PAGAR, 425 g"
@@ -142654,12 +142764,195 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/spinati-juustupirukas-eesti-pagar-360-g",
         "size": "360g",
+        "ean": "4740086024656",
         "storeUnitPrice": 9.28,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086024656.jpg",
         "storeName": "Spinati-juustupirukas, EESTI PAGAR, 360 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Eesti pagar Pikk külmut küüslauguvõidega sai 175g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pikk-sai-kuusl-voi-175g/",
+        "size": "175g",
+        "ean": "4740086005556",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086005556.jpg",
+        "storeName": "Pikk sai küüslauguvõidega 175g Eesti Pagar külmut."
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pikksai-kuuslaugu-voidega-eesti-pagar-175-g",
+        "size": "175g",
+        "ean": "4740086005556",
+        "storeUnitPrice": 5.66,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005556.jpg",
+        "storeName": "Pikksai küüslaugu võidega, EESTI PAGAR, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pikk sai maitserohelisega eesti pag 175g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pikk-sai-maitseroh-175g/",
+        "size": "175g",
+        "ean": "4740086005563",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086005563.jpg",
+        "storeName": "Pikk sai maitserohelisega 175g Eesti Pag"
+      },
+      "selver": {
+        "price": 1.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pikksai-maitserohelisega-eesti-pagar-175-g",
+        "size": "175g",
+        "ean": "4740086005563",
+        "storeUnitPrice": 6.97,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005563.jpg",
+        "storeName": "Pikksai maitserohelisega, EESTI PAGAR, 175 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Peekoni munapirukas 390g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/peekon-munapirukas-390g/",
+        "size": "390g",
+        "ean": "4740086008250",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740086008250.jpg",
+        "storeName": "Peekoni-munapirukas 390g Eesti Pagar külmutatud"
+      },
+      "selver": {
+        "price": 4.06,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peekoni-munapirukas-eesti-pagar-390-g",
+        "size": "390g",
+        "ean": "4740086008250",
+        "storeUnitPrice": 10.41,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086008250.jpg",
+        "storeName": "Peekoni-munapirukas, EESTI PAGAR, 390 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Mooni martsipanirull 320g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "coop": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mooni-martsipanirull-320g-eesti-pagar/",
+        "size": "320g",
+        "ean": "4740086020030",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740086020030.png",
+        "storeName": "Mooni-martsipanirull 320g Eesti Pagar"
+      },
+      "selver": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mooni-martsipanirull-eesti-pagar-320-g",
+        "size": "320g",
+        "ean": "4740086020030",
+        "storeUnitPrice": 9.66,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086020030.jpg",
+        "storeName": "Mooni-martsipanirull, EESTI PAGAR, 320 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Shokolaadisaiake võiga 240g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shokolaadisaiake-voiga-240g-eesti-pagar/",
+        "size": "240g",
+        "ean": "4740086022379",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740086022379.png",
+        "storeName": "Shokolaadisaiake võiga 240g Eesti Pagar"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadisaiake-voiga-eesti-pagar-240-g",
+        "size": "240g",
+        "ean": "4740086022379",
+        "storeUnitPrice": 10.96,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086022379.jpg",
+        "storeName": "Šokolaadisaiake võiga, EESTI PAGAR, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eesti pagar Pärmi lehttaigen võiga 400g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/parmi-lehttaigen-voiga-400g-eesti-pagar/",
+        "size": "400g",
+        "ean": "4740086005976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4740086005976.png",
+        "storeName": "Pärmi-lehttaigen võiga 400g Eesti Pagar"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voiga-parmi-lehttaigen-eesti-pagar-400-g",
+        "size": "400g",
+        "ean": "4740086005976",
+        "storeUnitPrice": 6.48,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740086005976.jpg",
+        "storeName": "Võiga pärmi-lehttaigen, EESTI PAGAR, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mantinga Hot dog saiake 240g",
+    "category": "Frozen dough & pastries",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hot-dog-saiake-240g/",
+        "size": "240g",
+        "ean": "4771033002113",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4771033002113.png",
+        "storeName": "Hot-dog saiake Mantinga 240g"
+      },
+      "selver": {
+        "price": 1.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/prantsuse-hot-dogi-saiake-4tk-mantinga-240-g",
+        "size": "240g",
+        "ean": "4771033002113",
+        "storeUnitPrice": 5.88,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4771033002113.jpg",
+        "storeName": "Prantsuse hot-dogi saiake 4tk, MANTINGA, 240 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Gallina blanca Kanapuljong 8x10g",

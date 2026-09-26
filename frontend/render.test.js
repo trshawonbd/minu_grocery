@@ -93,7 +93,7 @@ function render(state) {
 }
 
 const results = [
-  test("Home (Estonian): search bar, ONE round-icon group row (2026-09-28 redesign) in shopping order — several display categories folded into each group — with our own SVG icons, both deal sections with badges, the Updated line, the language switch", () => {
+  test("Home (Estonian): search bar, ONE round-icon group row (2026-09-26 redesign) in shopping order — several display categories folded into each group — with our own SVG icons, both deal sections with badges, the Updated line, the language switch", () => {
     const { root, text, navText } = render(makeState({ screen: "home" }));
     assert.ok(root.find((n) => n.tagName === "input").length === 1, "one search input");
     // 7 products land in 7 display categories, but only 4 GROUPS (a
@@ -143,7 +143,7 @@ const results = [
     assert.ok(text.includes("andmed võivad olla vananenud"));
     assert.ok(navText.includes("Korv (3)"));
   }),
-  test("Outletid (2026-09-28, placeholder): its own nav tab between Search and Basket, opens a screen with no grocery data on it at all", () => {
+  test("Outletid (2026-09-26, placeholder): its own nav tab between Search and Basket, opens a screen with no grocery data on it at all", () => {
     const root = new FakeNode("div");
     const nav = new FakeNode("nav");
     renderApp(root, nav, makeState({ screen: "outlets" }), actions);
@@ -174,7 +174,7 @@ const results = [
     const fruit = render(makeState({ screen: "category", category: "puuviljad" })).text;
     assert.ok(fruit.includes("Puuviljad") && fruit.includes("Õun Granny Smith kg") && !fruit.includes("Tomat kg"));
   }),
-  test("Group (2026-09-28 redesign): tabs are 'Kõik' plus one per display category with a product, in group order; 'Kõik' shows every product folded into the group, a tab shows only its own category, and the back button goes home", () => {
+  test("Group (2026-09-26 redesign): tabs are 'Kõik' plus one per display category with a product, in group order; 'Kõik' shows every product folded into the group, a tab shows only its own category, and the back button goes home", () => {
     const withoutTab = render(makeState({ screen: "group", group: "piimatooted-ja-munad", groupTab: null }));
     assert.ok(withoutTab.text.includes("Piimatooted ja munad"));
     const tabLabels = withoutTab.root.find((n) => n.className === "tab" || n.className === "tab active").map((n) => n.textContent);

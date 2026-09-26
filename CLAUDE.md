@@ -86,7 +86,7 @@ long prose.
   `scraper/categories.js` and every store, refreshes store photo
   URLs along with prices, and launchd runs a missed 06:00 as soon as
   the Mac wakes (a shut-down or logged-out Mac misses the day).
-- **Storage design (owner's decision, 2026-09-28):** `data/raw/` is
+- **Storage design (owner's decision, 2026-09-26):** `data/raw/` is
   gitignored — it still exists on this machine (needed by
   `rebuild-prices.js`, `npm run review`) and is fully regenerable via
   a live scrape, it's just never committed. Price history is
@@ -219,7 +219,7 @@ is read (`splitFusedBrand`). A shared barcode never excuses two
 stated diaper sizes disagreeing either.
 
 **When a real EAN matches but the stores file the product under
-different category/type words, trust the EAN (owner, 2026-09-28).**
+different category/type words, trust the EAN (owner, 2026-09-26).**
 Found reviewing the EAN-conflict fixes: a Zewa "Premium" 2-ply,
 120-piece kitchen paper carries the identical barcode at Selver
 (filed as "Lehträtikud" — napkins) and Coop (filed as
@@ -247,7 +247,7 @@ pair of numbers stated together in one name ("1L/480g"), a paper
 product's roll/piece/sheet count or length wherever it appears. Never
 approximate — a rounding gap in a store's own label is still reported,
 never guessed into a match. Checked against the 145 EAN conflicts on
-file 2026-09-28: 84 resolved this way (hand-reviewed against known
+file 2026-09-26: 84 resolved this way (hand-reviewed against known
 real packaging), 61 remained genuine conflicts for a person, in
 `data/ean-conflicts.json`.
 
@@ -552,7 +552,7 @@ about anything ambiguous.
   `SHOW_ALCOHOL` is false, because no product reaches them; a data
   category nobody names falls back to a "Muu" tile; icons are our own
   SVG line drawings in `ICON_PATHS`, never another app's artwork).
-  **Home screen (2026-09-28 redesign):** `GROUPS` in `catalog.js` folds
+  **Home screen (2026-09-26 redesign):** `GROUPS` in `catalog.js` folds
   the ~56 display categories into ~14 shopper-familiar groups (Puu- ja
   köögiviljad, Piimatooted ja munad, Liha ja kala, ... — every id
   belongs to exactly one group, checked by `catalog.test.js`; Alkohol
@@ -579,7 +579,7 @@ about anything ambiguous.
   fallback), `render.test.js` (runs the real screens on a tiny fake
   document), `pricing.test.js`. Own design, no store logos — store
   names are coloured text labels. A fourth nav tab, "Outletid"
-  (2026-09-28), opens `renderOutlets` — a placeholder screen with no
+  (2026-09-26), opens `renderOutlets` — a placeholder screen with no
   grocery data on it at all, between Search and Basket; see the
   "Outlets" section below for what it's for and its own roadmap.
 - `data/coverage.md` — the 2026-09-26 audit of every store
@@ -593,7 +593,7 @@ about anything ambiguous.
 ## Outlets
 
 A second, fully separate section of this project (started
-2026-09-28) — mall directories and brand sale prices, not groceries.
+2026-09-26) — mall directories and brand sale prices, not groceries.
 **Everything outlets-related lives under `outlets/`** (`outlets/scraper/`,
 `outlets/data/`, tests as `outlets/scraper/*.test.js` — see
 `outlets/README.md`). Outlets code never edits anything under
@@ -649,7 +649,7 @@ on it. Route `#/outlets`.
    differently at each mall's site). Refreshed weekly.
 3. **Brand discounts** — first ONE brand built end-to-end to prove the
    pattern, then fast mode at 3–4 brands per round. The 12 brands
-   (owner's list, 2026-09-28): Reserved, Mohito, New Yorker, Lindex,
+   (owner's list, 2026-09-26): Reserved, Mohito, New Yorker, Lindex,
    Pepco, Denim Dream, Sportland, Rademar, Euronics, Klick, Apotheka,
    Ideaal Kosmeetika. Per item: name, regular price, sale price,
    discount %, link, image URL (hotlinked, `SHOW_STORE_IMAGES` rule),
@@ -667,6 +667,10 @@ on it. Route `#/outlets`.
    uses for groceries) for a later "is this discount actually new"
    check.
 
-**Status:** step 1 (investigation) — see the report given to the
-owner, 2026-09-28, for the findings and the recommended build order;
-not yet copied into this file. Steps 2–5 not started.
+**Status:** step 1 (investigation) done — 2026-09-26, see
+`outlets/investigation.md` for the full findings and the recommended
+build order (Denim Dream first). Two owner decisions flagged there:
+**Ideaal Kosmeetika's `robots.txt` disallows `ClaudeBot` by name for
+the whole site — recommend never scraping it**; **Lindex blocks
+automated requests outright (403 on everything) — recommend dropping
+it.** Steps 2–5 not started.

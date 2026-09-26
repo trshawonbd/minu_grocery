@@ -1,7 +1,7 @@
 # Outlets — malls and brand discounts
 
 A second, fully separate section of the Minu project (started
-2026-09-28) — mall directories and brand sale prices, not groceries.
+2026-09-26) — mall directories and brand sale prices, not groceries.
 Nothing here touches `scraper/`, `frontend/`'s grocery screens, or
 `data/prices.json`; grocery code and data are never edited by outlets
 work, and vice versa. See CLAUDE.md's own **"Outlets"** section for

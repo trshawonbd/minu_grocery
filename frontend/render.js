@@ -192,7 +192,7 @@ function renderHome(root, state, actions) {
   root.appendChild(el("div", "tagline", tr(state, "tagline", { n: products.length })));
   root.appendChild(searchBar(state, actions, false));
 
-  // One horizontal, swipeable row of round group icons (2026-09-28,
+  // One horizontal, swipeable row of round group icons (2026-09-26,
   // the owner's redesign) — replaces the old full-page grid of every
   // display category, so the "Suurimad hinnavahed"/"Tavalisest
   // odavam" rows below are visible on a phone without scrolling.
@@ -327,7 +327,7 @@ function renderCategory(root, state, actions) {
   root.appendChild(grid);
 }
 
-// The home screen's group page (2026-09-28) — a round-icon group
+// The home screen's group page (2026-09-26) — a round-icon group
 // (e.g. "Piimatooted ja munad") opens here: subcategory tabs at the
 // top ("Kõik" plus one tab per display category that actually has a
 // product in this group right now), the product grid for whichever
@@ -514,7 +514,7 @@ const NAV_ICONS = {
   home: ["M4 11l8-7 8 7v9H4v-9z", "M10 20v-6h4v6"],
   search: ["M10 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12z", "M15 15l5 5"],
   // A simple storefront — scalloped awning, walls, a door — for the
-  // "Outletid" tab (2026-09-28): malls and brand discounts, a
+  // "Outletid" tab (2026-09-26): malls and brand discounts, a
   // separate section from the grocery comparison, own icon so it
   // never looks like another category tile.
   outlets: ["M4 10h16", "M5 10l1-6h12l1 6", "M5 10v9h14v-9", "M9 19v-5h6v5"],
@@ -540,7 +540,7 @@ function renderNav(nav, state, actions) {
   }
 }
 
-// Placeholder screen for the "Outletid" nav tab (2026-09-28) — malls
+// Placeholder screen for the "Outletid" nav tab (2026-09-26) — malls
 // and brand discounts, a fully separate section from the grocery
 // comparison (see outlets/ and CLAUDE.md's own "Outlets" section);
 // nothing here reads state.products or any grocery data at all.

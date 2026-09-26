@@ -1,7 +1,7 @@
 // Outlets' own scheduled update — run as a SEPARATE STEP by the
 // grocery scraper/daily-update.js, after the grocery run has already
 // committed and pushed. This is the safety boundary the owner asked
-// for (2026-09-28): whatever this script does or fails to do, it can
+// for (2026-09-26): whatever this script does or fails to do, it can
 // never stop or change the grocery update, because by the time it
 // runs the grocery commit already happened. The grocery script calls
 // this as a child process wrapped in its own try/catch, so even a

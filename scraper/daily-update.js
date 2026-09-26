@@ -24,7 +24,7 @@
 // - data/alerts.json — today's safety-check failures, overwritten
 //   fresh every run (empty array when there are none).
 // - data/price-history.json — one [date, price] entry per store URL
-//   PER CHANGE (never a full daily snapshot, since 2026-09-28 — the
+//   PER CHANGE (never a full daily snapshot, since 2026-09-26 — the
 //   owner's storage-size decision; see scraper/price-history.js for
 //   the compact format and the priceOnDate/lowestPriceInWindow
 //   readers a future "real discount" check would use).
@@ -395,7 +395,7 @@ async function main() {
   // everything is already on the remote it's a harmless no-op.
   gitPush();
 
-  // Outlets (2026-09-28) run as their own step, strictly AFTER the
+  // Outlets (2026-09-26) run as their own step, strictly AFTER the
   // grocery commit/push above have already happened — so nothing an
   // outlets scraper does (a crash, a bad exit code, its own file
   // writes) can ever stop or change the grocery update; by the time

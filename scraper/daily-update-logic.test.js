@@ -262,7 +262,7 @@ const results = [
     // network was unreachable.
     assert.match(source, /function gitPush\(\) \{\s*try \{/, "push must be inside a try block");
   }),
-  test("Outlets (2026-09-28): run as their own step, strictly after the grocery commit and push, wrapped so any failure there is caught and logged, never rethrown and never able to change the grocery result", () => {
+  test("Outlets (2026-09-26): run as their own step, strictly after the grocery commit and push, wrapped so any failure there is caught and logged, never rethrown and never able to change the grocery result", () => {
     const fs = require("node:fs");
     const path = require("node:path");
     const source = fs.readFileSync(path.join(__dirname, "daily-update.js"), "utf8");

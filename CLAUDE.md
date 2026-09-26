@@ -86,6 +86,21 @@ long prose.
   `scraper/categories.js` and every store, refreshes store photo
   URLs along with prices, and launchd runs a missed 06:00 as soon as
   the Mac wakes (a shut-down or logged-out Mac misses the day).
+- **Storage design (owner's decision, 2026-09-28):** `data/raw/` is
+  gitignored — it still exists on this machine (needed by
+  `rebuild-prices.js`, `npm run review`) and is fully regenerable via
+  a live scrape, it's just never committed. Price history is
+  `data/price-history.json`, one `[date, price]` entry per store URL
+  PER ACTUAL CHANGE (keyed by URL, not the product's display name, so
+  a rename never orphans it) — never a full daily snapshot; see
+  `scraper/price-history.js` for the two pure readers
+  (`priceOnDate`, `lowestPriceInWindow`) anything needing a past price
+  or a 30-day low (a "real discount" check) should use, and
+  `scraper/daily-update.js`'s own call to `recordPrices` for how it's
+  kept current. The old `data/history/YYYY-MM-DD.json` full snapshots
+  are gone (converted with no information lost via
+  `scraper/convert-history.js`, spot-checked, then deleted) — never
+  bring that format back.
 - **Never use `sudo`.**
 
 ## Roadmap
@@ -202,6 +217,39 @@ diaper size. Barbora's all-caps brand fused onto the previous word
 ("ComfortHIPP", "MajoneesTARPLAN") is split off before anything else
 is read (`splitFusedBrand`). A shared barcode never excuses two
 stated diaper sizes disagreeing either.
+
+**When a real EAN matches but the stores file the product under
+different category/type words, trust the EAN (owner, 2026-09-28).**
+Found reviewing the EAN-conflict fixes: a Zewa "Premium" 2-ply,
+120-piece kitchen paper carries the identical barcode at Selver
+(filed as "Lehträtikud" — napkins) and Coop (filed as
+"Majapidamispaber" — kitchen roll). A real 13-digit manufacturer
+barcode is GS1's own guarantee of one physical retail product,
+stronger evidence than either store's own loose category wording —
+`eanVerdict` in `scraper/match-products.js` never checks the type word
+at all, by design, and this is why. Kept matched. (This is separate
+from an *internal* code, see below, which never decides anything.)
+
+**GS1's restricted-circulation prefixes ("02", "04", "20"-"29") are
+never a matching signal**, even when structurally valid (correct
+check digit) — they're a store's own internal code (a per-kg label
+for loose produce/weighed meat, or, found in Coop's own data, a small
+producer's self-assigned code on 26 of its own Haapsalu-bakery items)
+and not globally unique the way a real manufacturer EAN is.
+`isInternalEanPrefix` in `scraper/match-products.js` strips these from
+every signature's `ean` field before matching; name rules decide
+instead. **EAN conflicts** (a shared real barcode whose names disagree)
+get one more chance before being left unmatched: `amountCandidatesOverlap`
+checks whether either raw name, read in full, states a number the
+other side's total also equals — a multipack whose "N-pakk" count and
+stated weight are BOTH already the total, a gross/net or per-unit
+pair of numbers stated together in one name ("1L/480g"), a paper
+product's roll/piece/sheet count or length wherever it appears. Never
+approximate — a rounding gap in a store's own label is still reported,
+never guessed into a match. Checked against the 145 EAN conflicts on
+file 2026-09-28: 84 resolved this way (hand-reviewed against known
+real packaging), 61 remained genuine conflicts for a person, in
+`data/ean-conflicts.json`.
 
 **Store images are hotlinked, for private testing only.** Each store
 entry in `data/prices.json` may carry the store's own product-photo

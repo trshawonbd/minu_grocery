@@ -207,8 +207,9 @@ deliberately narrower than a by-hand `npm run fetch-prices` run:
   `rename-products.js` never touches anything but the name.
 - Every category in `scraper/categories.js` (53 today), every store
   (Barbora, Rimi, Selver, Coop) — never a fixed list of its own.
-- Writes a dated snapshot to `data/history/YYYY-MM-DD.json` every run
-  and a summary to `data/logs/YYYY-MM-DD.txt` — **on every invocation**:
+- Appends today's price CHANGES (never a full snapshot — see
+  "Storage design" below) to `data/price-history.json`, and a summary
+  to `data/logs/YYYY-MM-DD.txt` — **on every invocation**:
   a run that skips itself (repo not clean, see below) or fails writes
   its reason there too, and the repo-safety check ignores that one
   folder so a skip log can't cause the next morning to skip as well.
@@ -285,9 +286,37 @@ which are edited by hand):
 | `data/known-different.json` | Hand-added overrides: forces two specific listings to never match |
 | `data/pending.json` | New candidate matches `scraper/daily-update.js` found among items not already tied to an existing product — for a person to review with Claude Code; never auto-applied, overwritten fresh every run |
 | `data/alerts.json` | This run's safety-check failures from `scraper/daily-update.js` (a store that failed, or looked too different from last time) — empty when there were none, overwritten fresh every run |
-| `data/history/YYYY-MM-DD.json` | A full snapshot of `data/prices.json` at the end of that day's update — one per day, kept forever |
+| `data/price-history.json` | Every store URL's price CHANGES only — `{ url: [[date, price], ...] }`, one entry per day that URL's price actually differed from its last recorded one, never a full daily snapshot. See "Storage design" below and `scraper/price-history.js` |
 | `data/logs/YYYY-MM-DD.txt` | A short plain-text summary of that day's update run |
 | `data/last-update.json` | `{ updatedAt }` — when `scraper/daily-update.js` last ran, shown on the product screen |
+
+## Storage design
+
+**`data/raw/` is not committed to git** (it's gitignored, since
+2026-09-28) — every category's own scraped-item files still exist
+locally (needed by `rebuild-prices.js`, `npm run review`, and to
+re-interpret already-scraped items without a live scrape), they're
+just not part of the repository's history. Fully regenerable at any
+time via `npm run fetch-prices` (a live scrape).
+
+**`data/price-history.json` replaced the old `data/history/YYYY-MM-DD.json`**
+full daily snapshots (2026-09-28, the owner's decision) — a full copy
+of `data/prices.json` every single day, forever, grew without bound
+even on a day nothing changed (measured: roughly 2.3 GB of local disk
+after a year at this project's size). The compact format instead
+holds one `[date, price]` pair per store URL PER ACTUAL CHANGE, keyed
+by the URL rather than the product's display name so a later rename
+(`rename-products.js`) never orphans its history. `scraper/price-history.js`
+has the two pure readers anything (a future "cheaper than usual"
+check, a chart) would use: `priceOnDate(history, url, date)` — the
+price in effect that day, carried forward from the last real change —
+and `lowestPriceInWindow(history, url, endDate, days = 30)` — the
+lowest price in effect at any point in that window, including a price
+that never changed within it. Both are covered by
+`scraper/price-history.test.js`. `scraper/convert-history.js` did the
+one-time conversion from the old daily-snapshot files (now deleted,
+2026-09-28) with no information lost — every real price change the
+old snapshots recorded became one compact entry.
 
 ## What's here
 

@@ -23,8 +23,11 @@
 //   every run (never merged into prices.json by this script).
 // - data/alerts.json — today's safety-check failures, overwritten
 //   fresh every run (empty array when there are none).
-// - data/history/YYYY-MM-DD.json — a full snapshot of data/prices.json
-//   after this run, one file per day, kept forever (they're small).
+// - data/price-history.json — one [date, price] entry per store URL
+//   PER CHANGE (never a full daily snapshot, since 2026-09-28 — the
+//   owner's storage-size decision; see scraper/price-history.js for
+//   the compact format and the priceOnDate/lowestPriceInWindow
+//   readers a future "real discount" check would use).
 // - data/logs/YYYY-MM-DD.txt — a short plain-text summary of the run.
 // - data/last-update.json — { updatedAt } for the frontend's
 //   "Updated: ..." banner and staleness warning.
@@ -57,6 +60,7 @@ const { loadRaw, writeRaw } = require("./raw");
 const { buildSingles } = require("./build-singles");
 const { fetchAllUrls, prepareItem, inferBrands, toPricesObject } = require("./scrape-output");
 const { checkRepoSafety, checkStoreSafety, updateProductPrices, updateHidden, findLeftoverPool } = require("./daily-update-logic");
+const { recordPrices } = require("./price-history");
 
 const ROOT = path.join(__dirname, "..");
 const DATA_DIR = path.join(ROOT, "data");
@@ -65,7 +69,7 @@ const PRODUCTS_PATH = path.join(DATA_DIR, "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(DATA_DIR, "known-different.json");
 const PENDING_PATH = path.join(DATA_DIR, "pending.json");
 const ALERTS_PATH = path.join(DATA_DIR, "alerts.json");
-const HISTORY_DIR = path.join(DATA_DIR, "history");
+const PRICE_HISTORY_PATH = path.join(DATA_DIR, "price-history.json");
 const LOGS_DIR = path.join(DATA_DIR, "logs");
 const LAST_UPDATE_PATH = path.join(DATA_DIR, "last-update.json");
 const WORK_IN_PROGRESS_PATH = path.join(DATA_DIR, ".work-in-progress");
@@ -341,13 +345,27 @@ async function main() {
   buildSingles();
   writeJson(PENDING_PATH, pendingEntries);
   writeJson(ALERTS_PATH, alerts);
-  writeJson(path.join(HISTORY_DIR, `${today()}.json`), prices);
+
+  // One [date, price] entry per store URL whose CURRENT price
+  // (whether refreshed today or carried over unchanged) differs from
+  // its last recorded one — see scraper/price-history.js. Every store
+  // entry currently in data/prices.json is fed in, refreshed or not:
+  // an unchanged price is always a no-op for recordPrices, so this is
+  // safe and simpler than tracking which URLs this run touched.
+  const todayStr = today();
+  const freshPricesByUrl = {};
+  for (const product of prices) for (const entry of Object.values(product.prices)) freshPricesByUrl[entry.url] = entry.price;
+  const previousHistory = loadJson(PRICE_HISTORY_PATH, {});
+  const { history: nextHistory, changed: priceHistoryChanges } = recordPrices(previousHistory, todayStr, freshPricesByUrl);
+  writeJson(PRICE_HISTORY_PATH, nextHistory);
+
   writeJson(LAST_UPDATE_PATH, { updatedAt: new Date().toISOString() });
 
   const images = imageCounts(prices);
   log.push("");
   log.push(`Categories: ${totals.categoriesUpdated} of ${CATEGORIES.length} updated from at least one store.`);
   log.push(`Prices: ${totals.priceUpdates} store entries refreshed, ${totals.priceChanges} prices changed, ${totals.newlyUnavailable} newly unavailable, ${totals.reactivated} reactivated, ${totals.newlyHidden} newly hidden.`);
+  log.push(`Price history: ${priceHistoryChanges} URLs got a new recorded price today (data/price-history.json).`);
   log.push(`Images: ${totals.imagesFilled} filled in this run; ${images.products} of ${images.total} products now have a store photo (${images.entriesWithImage} of ${images.entries} store entries).`);
   log.push(`Total: ${pendingEntries.length} pending candidate(s), ${alerts.length} alert(s).`);
   if (alerts.length > 0) {

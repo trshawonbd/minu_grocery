@@ -10,6 +10,13 @@ node_modules/
 # Local marker that pauses the daily automatic update (see CLAUDE.md).
 data/.work-in-progress
 
+# Every store's raw scraped items (2026-09-28, the owner's storage
+# decision) — stays on this machine (needed by rebuild-prices.js and
+# npm run review) but is no longer committed; fully regenerable at any
+# time with npm run fetch-prices (a live scrape). See "Storage design"
+# in README.md.
+data/raw/
+
 # OS junk
 .DS_Store
 ._*

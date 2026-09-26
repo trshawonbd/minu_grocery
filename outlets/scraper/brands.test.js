@@ -14,6 +14,7 @@ const {
   extractNextData, parseDenimDreamPage, parseDenimDreamProducts,
   buildKlickCategoryIndex, parseKlickProducts, parseApothekaPage, apothekaKeeps, apothekaChip, APOTHEKA_CHIP_RULES,
   parseEuronicsCampaignLinks, parseEuronicsCampaign, euronicsTypeFromUrl,
+  parsePrice, parseCharlotPage, parseSkechersPage, parseKingitusPage, parseKingitusProductLowest, parseDanijaPage, parseLppCatalog,
 } = require("./brands");
 const { fetchSection, writeOutput, listUrl, main } = require("./fetch-denim-dream");
 const fixture = (name) => fs.readFileSync(path.join(__dirname, "fixtures", name), "utf8");
@@ -260,6 +261,87 @@ function fixturePage(products, count = products.length, size = 50) {
       "SOMETHING 100ML": null,
     };
     for (const [name, chip] of Object.entries(cases)) assert.equal(apothekaChip(name), chip, name);
+  });
+
+  // --- the second round (real excerpts, 2026-09-26) ---
+  await test("parsePrice: '9.20', '199,00 €', '8 641', '149<!-- -->,<!-- -->95' all read as numbers with cents; junk is NaN", () => {
+    assert.equal(parsePrice("9.20"), 9.2);
+    assert.equal(parsePrice(" 199,00 € "), 199);
+    assert.equal(parsePrice("8 641"), 8641);
+    assert.equal(parsePrice("149<!-- -->,<!-- -->95<!-- --> "), 149.95);
+    assert.ok(Number.isNaN(parsePrice(undefined)) && Number.isNaN(parsePrice("abc")));
+  });
+  await test("Charlot: a card's struck incl-VAT price is the regular price, the bold incl-VAT one the sale price (the deposit 'pant' and the ex-VAT lines ignored); brand, name, link and image read; a card without a struck price is not a sale item", () => {
+    const { items, cards } = parseCharlotPage(fixture("charlot-cards.html"));
+    assert.equal(cards, 2);
+    const cola = items.find((i) => /COCA-COLA/.test(i.name));
+    assert.ok(cola, "the Coca-Cola card is a sale item");
+    assert.equal(cola.regularPrice, 9.2);
+    assert.equal(cola.salePrice, 6.85, "6.85 — the '+ pant 0.60' is not part of the price");
+    assert.equal(cola.discountPercent, 26);
+    assert.equal(cola.brand, "Coca-cola");
+    assert.equal(cola.link, "https://charlot.ee/soodusmuuk/coca-cola-033l-6-pakkpurk/");
+    assert.ok(cola.image.startsWith("https://charlot.ee/i/i/"));
+    assert.equal(cola.id, "119994");
+    assert.equal(cola.priceMin30, null);
+    const noStrike = fixture("charlot-cards.html").replace(/<s class="pvt">[\s\S]*?<\/s>/g, "");
+    assert.equal(parseCharlotPage(noStrike).items.length, 0, "no struck price -> no discount");
+  });
+  await test("Skechers: the price box's data-price-amount finalPrice/oldPrice are the sale/regular prices (74 vs 110), name, link, image; brand is Skechers", () => {
+    const { items, cards } = parseSkechersPage(fixture("skechers-card.html"));
+    assert.equal(cards, 1);
+    assert.equal(items.length, 1);
+    const [item] = items;
+    assert.equal(item.name, "GLIDE-STEP PRO");
+    assert.equal(item.regularPrice, 110);
+    assert.equal(item.salePrice, 74);
+    assert.equal(item.discountPercent, 33);
+    assert.equal(item.brand, "Skechers");
+    assert.equal(item.link, "https://skechers.ee/et/glide-step-pro-150420-cnf.html");
+    assert.ok(item.image.startsWith("https://skechers.ee/media/catalog/product/"));
+  });
+  await test("Kingitus.ee: the card's struck 'price-before-discount' (149,95) and 'price-after-discount' (119,95), name, link, the CDN image decoded out of the Next.js image URL; the product page's 'Viimase 30 päeva madalaim hind' value is read", () => {
+    const { items, cards } = parseKingitusPage(fixture("kingitus-card.html"));
+    assert.equal(cards, 1);
+    assert.equal(items.length, 1);
+    const [item] = items;
+    assert.equal(item.regularPrice, 149.95);
+    assert.equal(item.salePrice, 119.95);
+    assert.equal(item.discountPercent, 20);
+    assert.ok(item.name.length > 5);
+    assert.ok(item.link.startsWith("https://www.kingitus.ee/kingitus/"));
+    assert.ok(item.image.startsWith("https://cdn.kingitus.ee/storage/photos/products/"), item.image);
+    assert.equal(parseKingitusProductLowest(fixture("kingitus-product.html")), 149.95);
+    assert.equal(parseKingitusProductLowest("<html>no such line</html>"), null);
+  });
+  await test("Danija: brand link + model line make brand and name, '--old' 229,00 is the regular price and '--new' 199,00 the sale price, link and image read", () => {
+    const { items, cards } = parseDanijaPage(fixture("danija-card.html"));
+    assert.equal(cards, 1);
+    assert.equal(items.length, 1);
+    const [item] = items;
+    assert.equal(item.brand, "DR.MARTENS");
+    assert.equal(item.name, "1461 Quad");
+    assert.equal(item.regularPrice, 229);
+    assert.equal(item.salePrice, 199);
+    assert.equal(item.discountPercent, 13);
+    assert.equal(item.link, "https://danija.ee/19190-mustad-naiste-kummisaapad-drmartens-83-98-11-7.html");
+    assert.ok(item.image.startsWith("https://danija.ee/"));
+  });
+  await test("LPP (Reserved/Cropp): the products array inside window.getCatalogData is read string-aware (brackets inside strings never end it); minQtyRegularPrice/minQtyFinalPrice are the prices, section from categoryPathNames ('sale/women' -> Naised), paging fields read", () => {
+    const { items, products, total } = parseLppCatalog(fixture("lpp-catalog.html"), "Reserved");
+    assert.equal(products, 2);
+    assert.equal(items.length, 2);
+    assert.equal(items[0].brand, "Reserved");
+    assert.equal(items[0].section, "Naised");
+    assert.equal(items[0].regularPrice, 29.99);
+    assert.equal(items[0].salePrice, 17.99);
+    assert.equal(items[0].discountPercent, 40);
+    assert.ok(items[0].link.startsWith("https://www.reserved.com/ee/et/"));
+    assert.ok(items[0].image.startsWith("https://static.reserved.com/"));
+    assert.equal(total, 2);
+    const tricky = fixture("lpp-catalog.html").replace('"name":"Seotava detailiga puuvillane s\\u00e4rk"', '"name":"Särk [test] ]"');
+    assert.equal(parseLppCatalog(tricky, "Reserved").items.length, 2, "a ']' inside a string does not end the array");
+    assert.deepEqual(parseLppCatalog("<html>nothing</html>", "Reserved").items, []);
   });
 
   // --- Euronics (real campaign-page excerpt, fixtures/euronics-cards.html) ---

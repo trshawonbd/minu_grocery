@@ -27,6 +27,12 @@ const BRANDS = [
   { name: "Klick", run: () => require("./fetch-klick").main() },
   { name: "Apotheka", run: () => require("./fetch-apotheka").main() },
   { name: "Euronics", run: () => require("./fetch-euronics").main() },
+  { name: "Charlot", run: () => require("./fetch-charlot").main() },
+  { name: "Skechers", run: () => require("./fetch-skechers").main() },
+  { name: "Kingitus.ee", run: () => require("./fetch-kingitus").main() },
+  { name: "Danija", run: () => require("./fetch-danija").main() },
+  { name: "Reserved", run: () => require("./fetch-lpp").main("reserved") },
+  { name: "Cropp", run: () => require("./fetch-lpp").main("cropp") },
 ];
 
 // true when the mall directory is missing, unreadable, or 7+ days old.

@@ -328,8 +328,186 @@ function parseEuronicsCampaign(html) {
   return { items, loyaltyOnly, noDiscount, cards: cards.length };
 }
 
+// Shared: "9,20 €" / "8 641" / "149,95" -> number (cents kept).
+function parsePrice(text) {
+  if (text == null) return NaN;
+  const cleaned = String(text).replace(/&nbsp;| |€|&euro;/g, "").replace(/<!--.*?-->/g, "").replace(/\s/g, "").replace(",", ".");
+  return Math.round(parseFloat(cleaned) * 100) / 100;
+}
+
+function makeItem(fields) {
+  const { regularPrice, salePrice } = fields;
+  if (!(Number.isFinite(regularPrice) && Number.isFinite(salePrice) && salePrice > 0 && salePrice < regularPrice)) return null;
+  return {
+    id: String(fields.id),
+    brand: fields.brand || null,
+    name: fields.name,
+    section: fields.section || null,
+    type: fields.type || null,
+    regularPrice,
+    salePrice,
+    discountPercent: Math.round((1 - salePrice / regularPrice) * 100),
+    priceMin30: Number.isFinite(fields.priceMin30) && fields.priceMin30 > 0 ? fields.priceMin30 : null,
+    campaignId: null,
+    link: fields.link || null,
+    image: fields.image || null,
+    fresh: false,
+    position: fields.position,
+  };
+}
+
+// --- Charlot (charlot.ee) — plain server-rendered HTML, /soodusmuuk/,
+// one page (the "Näita rohkem" button loads more through a
+// query-string URL, and robots.txt forbids every "?" URL to us, so
+// only what the plain page carries is read). Each card: struck old
+// price and current price, both incl. VAT (`pvt`; `pnvt` is
+// ex-VAT and ignored), a bottle deposit ("pant") shown separately and
+// left out, brand in "Bränd:". crawl-delay 10. No 30-day field.
+function parseCharlotPage(html) {
+  const items = [];
+  const cards = html.split('<div class="pr" id="p').slice(1);
+  for (const card of cards) {
+    const id = (card.match(/^\d+i(\d+)"/) || [])[1];
+    const name = decodeHtml((card.match(/<h4 id="np[^"]*">([\s\S]*?)<\/h4>/) || [, ""])[1]);
+    const path = (card.match(/<a href="(\/soodusmuuk\/[^"]+)">/) || [])[1];
+    const imagePath = (card.match(/background-image:url\('([^']+)'\)/) || [])[1];
+    const oldPrice = (card.match(/<s class="pvt">[\s\S]*?<q class="prc\d+">([^<]+)<\/q>/) || [])[1];
+    const newPrice = (card.match(/<b class="pvt">[\s\S]*?<q class="prc\d+">([^<]+)<\/q>/) || [])[1];
+    const brand = decodeHtml((card.match(/Bränd:\s*<b>([^<]*)<\/b>/) || [, ""])[1]) || null;
+    const item = makeItem({
+      id, brand, name, regularPrice: parsePrice(oldPrice), salePrice: parsePrice(newPrice),
+      link: path ? `https://charlot.ee${path}` : null, image: imagePath ? `https://charlot.ee${imagePath}` : null, position: items.length + 1,
+    });
+    if (item) items.push(item);
+  }
+  return { items, cards: cards.length };
+}
+
+// --- Skechers (skechers.ee) — Magento, /et/sale.html. Prices are in
+// the card's price box as data-price-amount (finalPrice / oldPrice),
+// exact numbers rather than the formatted text. robots.txt disallows
+// every "?p=" URL, so ONLY the first page is ever read (13 cards) —
+// the rest of the sale is out of reach to us by the site's own rule.
+function parseSkechersPage(html) {
+  const items = [];
+  const cards = html.split('<li class="item product product-item"').slice(1);
+  for (const card of cards) {
+    const link = (card.match(/class="product-item-link"\s+href="([^"]+)"/) || card.match(/href="([^"]+)"\s+class="product-item-link"/) || [])[1];
+    const name = decodeHtml((card.match(/class="product-item-link"[^>]*>([\s\S]*?)<\/a>/) || [, ""])[1]);
+    const image = (card.match(/class="product-image-photo"\s+src="([^"]+)"/) || [])[1];
+    const box = (card.match(/<div class="base-price">([\s\S]*?)<\/div>\s*<\/div>/) || [, card])[1];
+    const finalPrice = (box.match(/data-price-amount="([\d.]+)"\s+data-price-type="finalPrice"/) || [])[1];
+    const oldPrice = (box.match(/data-price-amount="([\d.]+)"\s+data-price-type="oldPrice"/) || [])[1];
+    const id = (box.match(/data-product-id="(\d+)"/) || [])[1];
+    const item = makeItem({ id, brand: "Skechers", name, regularPrice: parsePrice(oldPrice), salePrice: parsePrice(finalPrice), link, image, position: items.length + 1 });
+    if (item) items.push(item);
+  }
+  return { items, cards: cards.length };
+}
+
+// --- Kingitus.ee — Next.js, server-rendered list at /allahindlus/
+// (every item on one page: "Näed 76 toodet 76-st"). Cards carry the
+// struck "price-before-discount" and the "price-after-discount"; the
+// EU 30-day-lowest value ("Viimase 30 päeva madalaim hind enne
+// allahindlust: 149.95 €") is on the PRODUCT page only, so the fetch
+// script visits each item's page for it (thirtyDaySource "site").
+function parseKingitusPage(html) {
+  const items = [];
+  const cards = html.split('data-testid="product-card"').slice(1);
+  for (const card of cards) {
+    const id = (card.match(/^\s*data-product-id="(\d+)"/) || [])[1];
+    const m = card.match(/<h2[^>]*><a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a><\/h2>/);
+    const path = m ? m[1] : null;
+    const name = decodeHtml(m ? m[2] : "");
+    const imgParam = (card.match(/data-testid="product-image"[^>]*src="\/_next\/image\/\?url=([^&"]+)/) || [])[1];
+    const image = imgParam ? decodeURIComponent(imgParam) : null;
+    const before = (card.match(/data-testid="price-before-discount">([\s\S]*?)<span/) || [])[1];
+    const after = (card.match(/data-testid="price-after-discount">([\s\S]*?)<span/) || [])[1];
+    const item = makeItem({
+      id, brand: null, name, regularPrice: parsePrice(before), salePrice: parsePrice(after),
+      link: path ? (path.startsWith("http") ? path : `https://www.kingitus.ee${path}`) : null, image, position: items.length + 1,
+    });
+    if (item) items.push(item);
+  }
+  const total = (html.match(/Näed (\d+) toodet (\d+)-st/) || [])[2];
+  return { items, cards: cards.length, total: total ? Number(total) : null };
+}
+
+// The 30-day-lowest price stated on a Kingitus.ee product page, or null.
+function parseKingitusProductLowest(html) {
+  const m = html.match(/Viimase 30 päeva madalaim hind enne allahindlust:\s*([\d\s.,]+?)\s*€/);
+  return m ? parsePrice(m[1]) : null;
+}
+
+// --- Danija (danija.ee) — PrestaShop, /kampaaniad?page=N (38 cards a
+// page, robots.txt allows the page parameter). Card: brand link +
+// model line, "--new" and "--old" prices. No 30-day field.
+function parseDanijaPage(html) {
+  const items = [];
+  const starts = [...html.matchAll(/<[a-z]+\s+class="[^"]*js-product-miniature[^"]*"/g)].map((m) => m.index);
+  for (let i = 0; i < starts.length; i++) {
+    const card = html.slice(starts[i], starts[i + 1] ?? html.length);
+    const id = (card.match(/data-id-product="(\d+)"/) || [])[1];
+    // Title = brand link, then usually a model line ("1461 Quad") —
+    // 26 of 36 cards on the first page had no model line at all, so
+    // it is optional and the brand then doubles as the name.
+    const title = card.match(/products-list__title[^>]*>\s*<a href="([^"]+)">([\s\S]*?)<\/a>(?:\s*<p>([\s\S]*?)<\/p>)?/);
+    const link = title ? title[1] : null;
+    const brand = decodeHtml(title ? title[2] : "") || null;
+    const model = decodeHtml(title && title[3] ? title[3] : "");
+    const image = (card.match(/<img[^>]+(?:data-src|src)="(https:\/\/danija\.[a-z]+\/[^"]+)"/) || [])[1];
+    const newPrice = (card.match(/products-list__price--new"[^>]*>\s*([^<]+)/) || [])[1];
+    const oldPrice = (card.match(/products-list__price--old"[^>]*>\s*([^<]+)/) || [])[1];
+    const item = makeItem({ id, brand, name: model || brand || "", regularPrice: parsePrice(oldPrice), salePrice: parsePrice(newPrice), link, image, position: items.length + 1 });
+    if (item) items.push(item);
+  }
+  return { items, cards: starts.length };
+}
+
+// --- LPP family (Reserved, Cropp, ... — one platform): the sale
+// page embeds its product list in `window.getCatalogData`'s
+// `products: [...]` array (200 a page, `maxPage`, `productsQuantity`)
+// — read straight from the HTML, never through the "/ajx/" and
+// "/ajax/" paths their robots.txt disallow. Prices come as
+// minQtyRegularPrice / minQtyFinalPrice numbers (fallback: the
+// "29,99" strings). No 30-day field on the list.
+const LPP_SECTION_BY_PATH = { women: "Naised", men: "Mehed", girls: "Lapsed", boys: "Lapsed", kids: "Lapsed" };
+
+function parseLppCatalog(html, brand) {
+  const start = html.indexOf("window.getCatalogData =");
+  if (start < 0) return { items: [], products: 0, page: null, maxPage: null, total: null };
+  const seg = html.slice(start);
+  const pi = seg.indexOf("products: [");
+  if (pi < 0) return { items: [], products: 0, page: null, maxPage: null, total: null };
+  let depth = 0, inStr = false, esc = false, k = pi + 10;
+  for (; k < seg.length; k++) {
+    const c = seg[k];
+    if (inStr) { if (esc) esc = false; else if (c === "\\") esc = true; else if (c === '"') inStr = false; continue; }
+    if (c === '"') inStr = true;
+    else if (c === "[") depth++;
+    else if (c === "]") { depth--; if (depth === 0) break; }
+  }
+  const products = JSON.parse(seg.slice(pi + 10, k + 1));
+  const after = seg.slice(k + 1, k + 3000);
+  const num = (key) => { const m = after.match(new RegExp(`\\b${key}\\s*:\\s*(\\d+)`)); return m ? Number(m[1]) : null; };
+  const pathNames = (seg.match(/categoryPathNames:\s*'([^']*)'/) || [])[1] || "";
+  const section = LPP_SECTION_BY_PATH[pathNames.split("/").pop()] || null;
+  const items = [];
+  for (const p of products) {
+    const regular = typeof p.minQtyRegularPrice === "number" ? p.minQtyRegularPrice : parsePrice(p.price);
+    const sale = typeof p.minQtyFinalPrice === "number" ? p.minQtyFinalPrice : parsePrice(p.final_price);
+    const item = makeItem({
+      id: String(p.id), brand, name: (p.name || "").trim(), section, regularPrice: Math.round(regular * 100) / 100, salePrice: Math.round(sale * 100) / 100,
+      link: p.url || null, image: Array.isArray(p.img) && p.img[0] ? p.img[0] : null, position: items.length + 1,
+    });
+    if (item) items.push(item);
+  }
+  return { items, products: products.length, page: num("page"), maxPage: num("maxPage"), total: num("productsQuantity") };
+}
+
 module.exports = {
   extractNextData, parseDenimDreamProducts, parseDenimDreamPage, SECTION_BY_SEX_ID,
+  parsePrice, parseCharlotPage, parseSkechersPage, parseKingitusPage, parseKingitusProductLowest, parseDanijaPage, parseLppCatalog, LPP_SECTION_BY_PATH,
   buildKlickCategoryIndex, klickTypeFor, parseKlickProducts, KLICK_SALE_CATEGORY_ID,
   parseApothekaPage, apothekaKeeps, apothekaChip, APOTHEKA_CHIP_RULES,
   parseEuronicsCampaignLinks, parseEuronicsCampaign, euronicsTypeFromUrl, decodeHtml,

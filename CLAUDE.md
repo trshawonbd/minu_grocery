@@ -639,7 +639,22 @@ data on any of these screens; images hotlinked under the same
   investigation fetches included.
 - Respect each site's `robots.txt`.
 - At most 1 request per second, per site, strictly sequential —
-  the same politeness rule Selver/Coop already follow.
+  the same politeness rule Selver/Coop already follow — **and always
+  honour a robots.txt `Crawl-delay`: wait max(1 second, crawl-delay)
+  between requests to that site** (10 seconds for Charlot, the LPP
+  brands and I.L.U.). `outlets/scraper/fetch-helpers.js`
+  (`siteFetcher`) carries the delay per site; every brand fetch
+  script goes through it.
+- **Never scrape: Sokisahtel** (its robots.txt disallows ClaudeBot,
+  Claude-Web and anthropic-ai by name — the Ideaal Kosmeetika rule),
+  **Ecco** (answered 429 to the very first request) and **NS King**
+  (403). Never try to get around a block, a rate limit or a login —
+  for these or any site. (Owner's decisions, 2026-09-26.)
+- **Apollo: club-only prices** ("Apollo Klubi"), the Euronics case —
+  only a public discount ever counts, a club-only price never.
+- **Salamander, C&C, Rieker: skipped** until their Estonian e-shop
+  address is known (none found 2026-09-26; salamander.ee does not
+  resolve, the other two have no obvious domain).
 - A wrong match/price is worse than a missing one. When unsure, don't
   match — leave it for a person, the same as groceries'
   `data/ambiguous.json`/`data/pending.json` pattern.
@@ -781,6 +796,47 @@ data on any of these screens; images hotlinked under the same
        a sale item; it is counted and reported instead. On
        2026-09-26 every one of the 79 discounted campaign cards was
        loyalty-only, so Euronics had 0 sale items.
+   - **Second round, built 2026-09-26** (the owner's pick from the
+     33-brand investigation; fetch scripts `fetch-charlot.js`,
+     `fetch-skechers.js`, `fetch-kingitus.js`, `fetch-danija.js`,
+     `fetch-lpp.js reserved|cropp`, parsers + real-excerpt fixtures
+     in `brands.js` / `fixtures/`):
+     - **Charlot** (5 malls): plain HTML `/soodusmuuk/`, one request a
+       run at crawl-delay 10. Its robots.txt "Disallow: /" groups
+       name 26 other bots, not `*`; `*` forbids every "?" URL, so the
+       "Näita rohkem" paging is never followed — only the plain page's
+       cards. Prices are the incl-VAT `pvt` pair (struck = regular,
+       bold = sale); the bottle deposit ("pant") is not part of the
+       price. Mixed catalogue (electronics, groceries...), so no type
+       chips. No 30-day field.
+     - **Skechers** (4): Magento `/et/sale.html`, prices from the
+       card's `data-price-amount` (finalPrice/oldPrice). robots.txt
+       forbids every "?p=" URL, so ONLY page 1 (13 cards) is read —
+       the rest of its sale is out of reach by the site's own rule.
+       No 30-day field.
+     - **Kingitus.ee** (4): Next.js list `/allahindlus/` (every item
+       on one page) plus one product-page request per item for the
+       EU line "Viimase 30 päeva madalaim hind enne allahindlust" —
+       so `thirtyDaySource: "site"` and new/permanent from day one,
+       like Denim Dream. Open robots.txt, 1 request/second.
+     - **Danija** (4): PrestaShop `/kampaaniad?page=N` (allowed by
+       its robots.txt; sort/tag/search queries are not and never
+       used), 38 cards a page until an empty page. Brand from the
+       title link, model as the name. No 30-day field.
+     - **Reserved and Cropp** (LPP): the sale page embeds
+       `window.getCatalogData` with a 200-item `products` array,
+       `maxPage` and `productsQuantity` — read from the HTML with a
+       string-aware bracket scan, never through the "/ajx/" or
+       "/ajax/" paths their robots.txt forbid. Paging is "?page=N"
+       (allowed on both). Crawl-delay 10, so `MAX_PAGES_PER_SECTION`
+       caps each section (logged with the site's own maxPage).
+       Reserved: allahindlus/naised, mehed, tudrukud, poisid; Cropp:
+       naised/riided/allahindlus, mehed/riided/allahindlus. **Sinsay,
+       House and Mohito are NOT built:** their HTML carries no sale
+       link at all (the menu is JavaScript), Mohito's guessed
+       `/allahindlus` is a 404, and House's robots.txt forbids the
+       page parameter — never guess their URLs; they can be added the
+       day a real sale URL is known (House: page 1 only).
    - **Reserved, Mohito, New Yorker, Pepco, Rademar, Sportland** —
      later (JavaScript-rendered, no confirmed API from step 1's
      static fetching; New Yorker's real site is

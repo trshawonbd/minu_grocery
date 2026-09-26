@@ -44,8 +44,8 @@ function stubs(fetchedAt, overrides = {}) {
     assert.equal(shouldRefreshMalls("2026-09-19T05:00:00Z", NOW), true, "exactly 7 days old refreshes");
     assert.equal(shouldRefreshMalls("2026-09-24T05:00:00Z", NOW), false);
   });
-  await test("the real brand list is the four built brands, in order", () => {
-    assert.deepEqual(BRANDS.map((b) => b.name), ["Denim Dream", "Klick", "Apotheka", "Euronics"]);
+  await test("the real brand list is every built brand, in order", () => {
+    assert.deepEqual(BRANDS.map((b) => b.name), ["Denim Dream", "Klick", "Apotheka", "Euronics", "Charlot", "Skechers", "Kingitus.ee", "Danija", "Reserved", "Cropp"]);
     assert.ok(BRANDS.every((b) => typeof b.run === "function"));
   });
   await test("main: a fresh mall directory is NOT re-fetched (weekly rule) but every brand still runs daily, in order", async () => {

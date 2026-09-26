@@ -108,7 +108,9 @@ progress as each batch finishes.
 9. **Batch 9** (owner's request, 2026-09-26): Cakes & pastries,
    Instant food, World cuisine, Alcohol-free beer, cider & wine, and —
    for private testing on this PC only — the three alcohol categories
-   Beer & cider, Wine, Spirits (see the alcohol rules below).
+   Beer & cider, Wine, Spirits (see the alcohol rules below) — *done*
+   (2026-09-26: 402 products added, total 2078; one wrong match found
+   and fixed in the review — a spirit's age statement now must agree).
 
 **Not allowed without the owner's explicit decision:** adding a new
 store (e.g. PROMO Cash&Carry), or anything that puts the app

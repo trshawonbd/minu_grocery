@@ -14,11 +14,11 @@ and a static HTML page.
 | Rimi | category listing pages, server-rendered HTML |
 | Selver | its open catalog search API — the site itself is a client-rendered app that returns no data to a plain fetch, but this specific API path is explicitly allowed by Selver's `robots.txt` |
 
-Forty-five categories are configured today (the seven of batch 9 —
-Cakes & pastries, Instant food, World cuisine, Alcohol-free beer,
-cider & wine, Beer & cider, Wine, Spirits — are listed below once
-their first authorized scrape has been reviewed), with this many
-matched products in each as of the last run (`data/prices.json`):
+Forty-five categories are scraped today, with this many matched
+products in each as of the last run (`data/prices.json`). The three
+alcohol categories exist for private testing only and are hidden
+entirely when `SHOW_ALCOHOL` (frontend/app-logic.js) is false — see
+CLAUDE.md:
 
 | Category | Matched products |
 |---|---|
@@ -60,7 +60,14 @@ matched products in each as of the last run (`data/prices.json`):
 | Personal care | 196 |
 | Household | 60 |
 | Pet food | 11 |
-| **Total** | **1676** |
+| Cakes & pastries | 14 |
+| Instant food | 31 |
+| World cuisine | 15 |
+| Alcohol-free beer, cider & wine | 11 |
+| Beer & cider (private testing) | 64 |
+| Wine (private testing) | 80 |
+| Spirits (private testing) | 187 |
+| **Total** | **2078** |
 
 Each store's own category tree is mapped onto these by hand in
 `scraper/categories.js` (URLs for Barbora/Rimi, and each category's

@@ -142967,6 +142967,15 @@
         "image": "https://cdn.barbora.ee/products/f582ee5c-7e48-4c81-ba4a-e19a10e51e76_m.png",
         "storeName": "Kanapuljong GALLINA BLANCA,8x10g"
       },
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanapuljong-810g/",
+        "size": "8x10g",
+        "ean": "8410300242215",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8410300242215.png",
+        "storeName": "Kanapuljong Gallina Blanca 8*10g"
+      },
       "rimi": {
         "price": 0.95,
         "currency": "EUR",
@@ -142978,6 +142987,43 @@
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Maggi Kanapuljong 12x10g",
+    "category": "Broths & stock",
+    "prices": {
+      "barbora": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanapuljong-maggi-12-x-10-g",
+        "cardPrice": 0.95,
+        "cardName": "Aitäh",
+        "size": "12x10g",
+        "storeUnitPrice": 7.91,
+        "image": "https://cdn.barbora.ee/products/d9da3ee3-130c-4735-95de-5249cf5d9635_m.png",
+        "storeName": "Kanapuljong MAGGI 12x10g"
+      },
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanapulj-120g-maggi/",
+        "size": "12x10g",
+        "ean": "8585002413024",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8585002468741.png",
+        "storeName": "Kanapuljong Maggi 12*10g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanapuljong-maggi-120-g",
+        "size": "120g",
+        "ean": "8585002413024",
+        "storeUnitPrice": 8.25,
+        "image": "https://www.selver.ee/img/800/800/resize/8/5/8585002413024.jpg",
+        "storeName": "Kanapuljong, MAGGI, 120 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Maggi Aedviljapuljong 120g",
@@ -142992,6 +143038,15 @@
         "image": "https://cdn.barbora.ee/products/67f6ea35-747d-476f-b850-16e23078a7f6_m.png",
         "storeName": "Aedviljapuljong MAGGI 120g"
       },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aedviljapuljong-120g/",
+        "size": "12x10g",
+        "ean": "8585002469977",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8585002468024.jpg",
+        "storeName": "Aedviljapuljong Maggi 12*10g"
+      },
       "selver": {
         "price": 1.49,
         "currency": "EUR",
@@ -142999,9 +143054,35 @@
         "cardPrice": 0.89,
         "cardName": "Partner",
         "size": "120g",
+        "ean": "8585002469977",
         "storeUnitPrice": 12.42,
         "image": "https://www.selver.ee/img/800/800/resize/8/5/8585002468024.jpg",
         "storeName": "Aedviljapuljong, MAGGI, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gallina blanca Köögiviljapuljong 8x10g",
+    "category": "Broths & stock",
+    "prices": {
+      "barbora": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/koogiviljapuljong-gallina-blanca-8-x-10-g",
+        "size": "8x10g",
+        "storeUnitPrice": 11.13,
+        "image": "https://cdn.barbora.ee/products/12be5b03-9bb8-4676-972e-9d6882658f89_m.png",
+        "storeName": "Köögiviljapuljong GALLINA BLANCA 8x10g"
+      },
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gallina-blanca-koogiviljapuljong-80g/",
+        "size": "8x10g",
+        "ean": "8410300230281",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/8410300230281.png",
+        "storeName": "Köögiviljapuljong Gallina Blanca 8*10g"
       }
     },
     "matchedVia": "automatic"
@@ -143019,6 +143100,15 @@
         "image": "https://cdn.barbora.ee/products/9b36b904-218f-4c7e-a6a2-8ba150874314_m.png",
         "storeName": "Kanapuljong GALLINA BLANCA 15x10g"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gallina-blanca-kanapuljong-1510g/",
+        "size": "15x10g",
+        "ean": "8410300356028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/8410300356028.png",
+        "storeName": "Kanapuljong Gallina Blanca 15*10g"
+      },
       "rimi": {
         "price": 1.65,
         "currency": "EUR",
@@ -143027,9 +143117,19 @@
         "storeUnitPrice": 11,
         "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_178123_PCE_EE",
         "storeName": "Kanapuljong Gallina Blanca 15x10g"
+      },
+      "selver": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanapuljong-15-tk-gallina-blanca-150-g",
+        "size": "150g",
+        "ean": "8410300356028",
+        "storeUnitPrice": 11,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410300356028.jpg",
+        "storeName": "Kanapuljong 15 tk, GALLINA BLANCA, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Maggi Kanapuljong mahe 80g",
@@ -143051,11 +143151,92 @@
         "cardPrice": 1.99,
         "cardName": "Partner",
         "size": "80g",
+        "ean": "8585002469915",
         "storeUnitPrice": 39.88,
         "image": "https://www.selver.ee/img/800/800/resize/8/5/8585002469915.jpg",
         "storeName": "Bio kanapuljong, MAGGI, 80 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Gallina blanca Seenepuljong puraviku 8x10g",
+    "category": "Broths & stock",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seenepulj-puraviku-810g/",
+        "size": "8x10g",
+        "ean": "8410300236948",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/8410300236948.png",
+        "storeName": "Seenepuljong Gallina Blanca 8*10g puraviku"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puravikumaitseline-seenepuljong-gallina-blanca-80-g",
+        "size": "80g",
+        "ean": "8410300236948",
+        "storeUnitPrice": 11.25,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410300236948.jpg",
+        "storeName": "Puravikumaitseline seenepuljong, GALLINA BLANCA, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi Kanapuljong peterselli tilli peterselliga 12x10g",
+    "category": "Broths & stock",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanapulj-pet-tilli-120g/",
+        "size": "12x10g",
+        "ean": "8585002468925",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8585002468925.jpg",
+        "storeName": "Kanapuljong Maggi 12*10g peterselli-tilli"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanapuljong-tilli-peterselliga-maggi-120-g",
+        "size": "120g",
+        "ean": "8585002468925",
+        "storeUnitPrice": 8.25,
+        "image": "https://www.selver.ee/img/800/800/resize/8/5/8585002468925.jpg",
+        "storeName": "Kanapuljong tilli-peterselliga., MAGGI, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maggi Rikkalik veiselihapuljong kostilja 12x10g",
+    "category": "Broths & stock",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veiselihapuljong-120g/",
+        "size": "12x10g",
+        "ean": "8585002469649",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8585002469649.jpg",
+        "storeName": "Rikkalik veiselihapuljong Maggi Kostilja 12*10g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/veiselihapuljong-kostilja-maggi-120-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "120g",
+        "ean": "8585002469649",
+        "storeUnitPrice": 13.25,
+        "image": "https://www.selver.ee/img/800/800/resize/8/5/8585002469649.jpg",
+        "storeName": "Veiselihapuljong Kostilja, MAGGI, 120 g"
+      }
+    },
+    "matchedVia": "ean"
   }
 ]

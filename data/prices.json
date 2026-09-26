@@ -137783,22 +137783,50 @@
         "image": "https://cdn.barbora.ee/products/1beeeed0-b35e-428c-afbb-502848df1eab_m.png",
         "storeName": "Näkileivad Original WASA 275g"
       },
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nakileib-wasa-orig-275g/",
+        "size": "275g",
+        "ean": "7300400118101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7300400118101.png",
+        "storeName": "Näkileib Wasa Original 275g"
+      },
+      "rimi": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/leivad-saiad-kondiitritooted/nakileivad-galetid/nakileivad-kuivikud-krutoonid/nakileib-original-wasa-275g/p/108121",
+        "size": "275g",
+        "storeUnitPrice": 7.82,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_108121_PCE_EE",
+        "storeName": "Näkileib Original Wasa 275g"
+      },
       "selver": {
         "price": 1.95,
         "currency": "EUR",
         "url": "https://www.selver.ee/nakileivad-original-wasa-275-g",
         "size": "275g",
+        "ean": "7300400118101",
         "storeUnitPrice": 7.09,
         "image": "https://www.selver.ee/img/800/800/resize/7/3/7300400118101.jpg",
         "storeName": "Näkileivad Original, WASA, 275 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Fazer Must näkileib päevalilleseemnetega 150g",
     "category": "Crispbreads",
     "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/must-nakileib-150g/",
+        "size": "150g",
+        "ean": "4740103021101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740103021101.png",
+        "storeName": "Must näkileib päevalilleseemnetega Fazer 150g"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -137813,17 +137841,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/must-nakileib-paevalilleseemnetega-fazer-150-g",
         "size": "150g",
+        "ean": "4740103021101",
         "storeUnitPrice": 13.93,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740103021101.jpg",
         "storeName": "Must näkileib päevalilleseemnetega, FAZER, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Dr.nature Tatragaletid 110g",
+    "name": "Dr.nature Tatragalett 110g",
     "category": "Crispbreads",
     "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tatragalett-110g/",
+        "size": "110g",
+        "ean": "4750635000123",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4750635000123.jpg",
+        "storeName": "Tatragalett Dr.Nature 110g"
+      },
       "rimi": {
         "price": 1.69,
         "currency": "EUR",
@@ -137838,12 +137876,251 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tatragaletid-dr-nature-110-g",
         "size": "110g",
+        "ean": "4750635000123",
         "storeUnitPrice": 15.64,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4750635000123.jpg",
         "storeName": "Tatragaletid, DR.NATURE, 110 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Finn crisp Näkileib original taste 200g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nakileib-finn-crisp-200g/",
+        "size": "200g",
+        "ean": "6410500090014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/6410500091370.png",
+        "storeName": "Näkileib Finn Crisp Original Taste 200g"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nakileib-rukkijahust-finn-crisp-200-g",
+        "size": "200g",
+        "ean": "6410500090014",
+        "storeUnitPrice": 13.45,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6410500090014.jpg",
+        "storeName": "Näkileib rukkijahust, FINN CRISP, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kupiec Riisivahvlid naturaalsed 90g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupiec-riisivahvlid-90g-naturaalsed/",
+        "size": "90g",
+        "ean": "5906747170479",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/5906747170479.png",
+        "storeName": "Riisivahvlid Kupiec 90g naturaalsed"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/riisivahvlid-ohukesed-kupiec-90-g",
+        "size": "90g",
+        "ean": "5906747170479",
+        "storeUnitPrice": 19.11,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5906747170479.jpg",
+        "storeName": "Riisivahvlid õhukesed, KUPIEC, 90 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sonko vilja galetid metsiku riisiga 130g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 1.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/7-vilja-galetid-130g/",
+        "size": "130g",
+        "ean": "5902180290330",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5902180290330.jpg",
+        "storeName": "Sonko 7vilja galetid metsiku riisiga130g"
+      },
+      "selver": {
+        "price": 1.47,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/riisivahvlid-7-vilja-sonko-130-g",
+        "size": "130g",
+        "ean": "5902180290330",
+        "storeUnitPrice": 11.31,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5902180290330.jpg",
+        "storeName": "Riisivahvlid 7-vilja, SONKO, 130 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Must näkileib küüslaugu ja peterselliga 150g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nakileib-kuuslaugu-150g/",
+        "size": "150g",
+        "ean": "4740103021163",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740103021163.png",
+        "storeName": "Must näkileib Fazer 150g küüslaugu ja peterselliga"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-nakileib-kuuslaugu-ja-peterselliga-fazer-150-g",
+        "size": "150g",
+        "ean": "4740103021163",
+        "storeUnitPrice": 13.93,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740103021163.jpg",
+        "storeName": "Must Näkileib küüslaugu ja peterselliga, FAZER, 150 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Fazer Maisigalett dumle puruga 66g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dumle-maisigalett-66g/",
+        "size": "66g",
+        "ean": "6416453566064",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/6416453566064.png",
+        "storeName": "Maisigalett Dumle Fazer 66g"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maisigaletid-sokolaadi-ja-karamelli-puruga-4tk-dumle-66-g",
+        "size": "66g",
+        "ean": "6416453566064",
+        "storeUnitPrice": 41.67,
+        "image": "https://www.selver.ee/img/800/800/resize/6/4/6416453566064.jpg",
+        "storeName": "Maisigaletid šokolaadi ja karamelli puruga 4tk, DUMLE, 66 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kupiec Riisivahvlid tumeda shokolaadiga 60g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupiec-riisivahvlid-60g-tumeda-shokolaad/",
+        "size": "60g",
+        "ean": "5906747179632",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/5906747179632.png",
+        "storeName": "Riisivahvlid Kupiec 60g tumeda shokolaadiga"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/riisivahvlid-tumeda-sokolaadiga-kupiec-60-g",
+        "size": "60g",
+        "ean": "5906747179632",
+        "storeUnitPrice": 40.5,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5906747179632.jpg",
+        "storeName": "Riisivahvlid tumeda šokolaadiga, KUPIEC, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kupiec Riisivahvlid piimashokolaadiga 60g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupiec-riisivahvlid-60g-piimashokolaadi/",
+        "size": "60g",
+        "ean": "5906747179694",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/5906747179694.png",
+        "storeName": "Riisivahvlid Kupiec 60g piimashokolaadiga"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/riisivahvlid-piimasokolaadiga-kupiec-60-g",
+        "size": "60g",
+        "ean": "5906747179694",
+        "storeUnitPrice": 40.5,
+        "image": "https://www.selver.ee/img/800/800/resize/5/9/5906747179694.jpg",
+        "storeName": "Riisivahvlid piimašokolaadiga, KUPIEC, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Danvita Näkileib mooni seesami linaseemne seemnetega 1 130g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 1.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/danvita-nakileib130g-mooni-seesami-linas/",
+        "size": "130g",
+        "ean": "4771218200068",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4771218200068.png",
+        "storeName": "Näkileib Danvita 130g mooni-seesami-linaseemne"
+      },
+      "selver": {
+        "price": 1.37,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nakileib-seemnetega-130-g-danvita-1-tk",
+        "cardPrice": 1.15,
+        "cardName": "Partner",
+        "size": "130g",
+        "ean": "4771218200068",
+        "storeUnitPrice": 10.54,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4771218200068.jpg",
+        "storeName": "Näkileib seemnetega 130 g, DANVITA, 1 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Danvita Näkileib juustu küüslauguga 130g",
+    "category": "Crispbreads",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riduto-nakileib-130g-juustu-kuuslauguga/",
+        "size": "130g",
+        "ean": "4771218200198",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4771218200198.png",
+        "storeName": "Näkileib Danvita 130g juustu-küüslauguga"
+      },
+      "selver": {
+        "price": 1.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nakileib-juustu-ja-kuuslaugumaitseline-danvita-130-g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "130g",
+        "ean": "4771218200198",
+        "storeUnitPrice": 12.92,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4771218200198.jpg",
+        "storeName": "Näkileib juustu ja küüslaugumaitseline, DANVITA, 130 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Red bull Energiajook 250ml",

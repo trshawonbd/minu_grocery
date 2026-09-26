@@ -70567,6 +70567,47 @@
     "matchedVia": "ean"
   },
   {
+    "name": "Pealinna pelmeenid 350g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "barbora": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-pelmeenid-pealinna-350-g",
+        "size": "350g",
+        "storeUnitPrice": 5.4,
+        "storeName": "Külm.pelmeenid PEALINNA, 350g"
+      },
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pealinna-pelmeenid-350g-kulmutatud/",
+        "size": "350g",
+        "ean": "4740093000889",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740093000889.png",
+        "storeName": "Pelmeenid Pealinna 350g külmutatud"
+      },
+      "rimi": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/pelmeenid-ja-vareenikud/pelmeenid/pelmeenid-pealinna-premia-350g/p/200433",
+        "size": "350g",
+        "storeUnitPrice": 6.54,
+        "storeName": "Pelmeenid Pealinna Premia 350g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pelmeenid-pealinna-premia-350-g",
+        "size": "350g",
+        "ean": "4740093000889",
+        "storeUnitPrice": 6.54,
+        "storeName": "Pelmeenid Pealinna, PREMIA, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Uvic pelmeenid hiina 400g",
     "category": "Dumplings, pizza & fries",
     "prices": {
@@ -70578,6 +70619,15 @@
         "storeUnitPrice": 6.58,
         "regularPrice": 3.29,
         "storeName": "Külm.pelmeenid UVIC Hiina, 400g"
+      },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pelmeenid-uvic-400g/",
+        "size": "400g",
+        "ean": "4745010692741",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4745010692741.png",
+        "storeName": "Pelmeenid Uvic 400g külmutatud"
       },
       "rimi": {
         "price": 3.29,
@@ -70594,11 +70644,12 @@
         "cardPrice": 2.79,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4745010692741",
         "storeUnitPrice": 8.35,
         "storeName": "Pelmeenid Hiina, UVIC, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Uvic hiina pelmeenid 1000g",
@@ -70618,6 +70669,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hiina-pelmeenid-uvic-1-kg",
         "size": "1000g",
+        "ean": "4745010692772",
         "storeUnitPrice": 7.98,
         "storeName": "Hiina pelmeenid, UVIC, 1 kg"
       }
@@ -70642,11 +70694,46 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/laste-pelmeenid-pealinna-350-g",
         "size": "350g",
+        "ean": "4740093094826",
         "storeUnitPrice": 6.54,
         "storeName": "Laste pelmeenid, PEALINNA, 350 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Vici pelmeenid lihaga gyoza 400g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "barbora": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-pelmeenid-lihaga-gyoza-vici-400-g",
+        "size": "400g",
+        "storeUnitPrice": 6.58,
+        "regularPrice": 3.29,
+        "storeName": "Külm. pelmeenid lihaga GYOZA VICI 400g"
+      },
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-pelmeenid-lihaga-gyoza-400g-kulmut/",
+        "size": "400g",
+        "ean": "4770190092913",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4770190092913.png",
+        "storeName": "Pelmeenid lihaga Gyoza Vici 400g külmutatud"
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pelmeenid-lihaga-gyoza-vici-400-g",
+        "size": "400g",
+        "ean": "4770190092913",
+        "storeUnitPrice": 9.13,
+        "storeName": "Pelmeenid lihaga Gyoza, VICI 400 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Vici pelmeenid seentega gyoza 400g",
@@ -70668,6 +70755,7 @@
         "cardPrice": 2.99,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4770190092975",
         "storeUnitPrice": 9.13,
         "storeName": "Pelmeenid seentega Gyoza, Vici, 400 g"
       }
@@ -70688,6 +70776,15 @@
         "storeUnitPrice": 4.43,
         "storeName": "Külm.pelmeenid RAKVERE, 900g"
       },
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-pelmeenid-900g-kulmutatud/",
+        "size": "900g",
+        "ean": "4740003011134",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740003011134.png",
+        "storeName": "Pelmeenid Rakvere 900g külmutatud"
+      },
       "rimi": {
         "price": 4.59,
         "currency": "EUR",
@@ -70701,11 +70798,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pelmeenid-rakvere-lk-900-g",
         "size": "900g",
+        "ean": "4740003011134",
         "storeUnitPrice": 5.99,
         "storeName": "Pelmeenid, RAKVERE LK, 900 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Vici hinkaalid 400g",
@@ -70732,6 +70830,41 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Rannarootsi pelmeenid ehe 350g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "barbora": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulmutatud-pelmeenid-ehe-350-g",
+        "cardPrice": 1.99,
+        "cardName": "Aitäh",
+        "size": "350g",
+        "storeUnitPrice": 5.68,
+        "storeName": "Külmutatud pelmeenid EHE , 350g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pelmeenid-ehe-350g/",
+        "size": "350g",
+        "ean": "4740296011064",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296011064.png",
+        "storeName": "Pelmeenid EHE Rannarootsi 350g külmutatud"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kulmutatud-ehe-pelmeenid-rannarootsi-350-g",
+        "size": "350g",
+        "ean": "4740296011064",
+        "storeUnitPrice": 7.97,
+        "storeName": "Külmutatud EHE pelmeenid, RANNAROOTSI, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Rannarootsi mini pelmeenid ehe 350g",
     "category": "Dumplings, pizza & fries",
     "prices": {
@@ -70744,19 +70877,54 @@
         "regularPrice": 2.79,
         "storeName": "Külmutatud mini-pelmeenid EHE, 350g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-mini-pelmeenid-ehe-350g-kulmutatud/",
+        "size": "350g",
+        "ean": "4740296011460",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/4740296011460.png",
+        "storeName": "RR mini-pelmeenid EHE 350g külmutatud"
+      },
       "selver": {
         "price": 2.84,
         "currency": "EUR",
         "url": "https://www.selver.ee/kulmutatud-ehe-mini-pelmeenid-rannarootsi-ehe-350-g",
         "size": "350g",
+        "ean": "4740296011460",
         "storeUnitPrice": 8.11,
         "storeName": "Külmutatud EHE mini-pelmeenid, RANNAROOTSI EHE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bimar vareenikud kirssidega 400g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "barbora": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kulm-vareenikud-kirssidega-bimar-400-g",
+        "size": "400g",
+        "storeUnitPrice": 6.38,
+        "regularPrice": 3.19,
+        "storeName": "Külm.vareenikud kirssidega BIMAR,400g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bimar-vareenikud-kirssidega-400g-kulmut/",
+        "size": "400g",
+        "ean": "4751010752026",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4750499006385.png",
+        "storeName": "Vareenikud kirssidega Bimar 12tk 400g külmutatud"
       }
     },
     "matchedVia": "automatic"
   },
   {
-    "name": "Rakvere pelmeenid broilerilihaga 400g",
+    "name": "Rakvere broilerilihaga pelmeenid 400g",
     "category": "Dumplings, pizza & fries",
     "prices": {
       "barbora": {
@@ -70767,6 +70935,15 @@
         "storeUnitPrice": 5.38,
         "regularPrice": 2.69,
         "storeName": "Külm.pelmeenid broilerilihaga RAKVERE,400g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanafileepelmeenid-400g/",
+        "size": "400g",
+        "ean": "4740003013619",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003013619.png",
+        "storeName": "Kanafileepelmeenid Rakvere 400g külmutatud"
       },
       "rimi": {
         "price": 2.69,
@@ -70783,11 +70960,12 @@
         "cardPrice": 2.29,
         "cardName": "Partner",
         "size": "400g",
+        "ean": "4740003013619",
         "storeUnitPrice": 6.83,
         "storeName": "Pelmeenid broilerilihaga, RAKVERE, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Rakvere pelmeenid praesibulaga 400g",
@@ -70802,16 +70980,26 @@
         "regularPrice": 2.15,
         "storeName": "Külm.pelmeenid praesibulaga RAKVERE,400g"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-pelmeenid-praesibulaga-400g/",
+        "size": "400g",
+        "ean": "4750174001056",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4750174001056-1.png",
+        "storeName": "Pelmeenid praesibulaga Rakvere 400g külmutatud"
+      },
       "selver": {
         "price": 2.15,
         "currency": "EUR",
         "url": "https://www.selver.ee/pelmeenid-praesibulaga-rakvere-lk-400-g",
         "size": "400g",
+        "ean": "4750174001056",
         "storeUnitPrice": 5.38,
         "storeName": "Pelmeenid praesibulaga, RAKVERE LK, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Isukas pelmeenid 700g",
@@ -70826,16 +71014,26 @@
         "regularPrice": 2.69,
         "storeName": "Külm.pelmeenid ISUKAS, 700g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/isukas-pelmeenid-700g-kulmutatud/",
+        "size": "700g",
+        "ean": "4740296011057",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740296011057.png",
+        "storeName": "Pelmeenid Isukas 700g külmutatud"
+      },
       "selver": {
         "price": 2.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/kulmutatud-pelmeenid-isukas-700-g",
         "size": "700g",
+        "ean": "4740296011057",
         "storeUnitPrice": 3.84,
         "storeName": "Külmutatud pelmeenid, ISUKAS, 700 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Rannarootsi hinkaalid 420g",
@@ -70874,6 +71072,15 @@
         "regularPrice": 3.89,
         "storeName": "Kodupelmeenid MAKS&MOORITS 700g"
       },
+      "coop": {
+        "price": 4.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-kodupelmeenid-700g-kulmutatud/",
+        "size": "700g",
+        "ean": "4740171188690",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4740171188690.png",
+        "storeName": "Kodupelmeenid Maks&Moorits 700g külmutatud"
+      },
       "rimi": {
         "price": 3.89,
         "currency": "EUR",
@@ -70887,11 +71094,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodupelmeenid-maks-moorits-700-g",
         "size": "700g",
+        "ean": "4740171188690",
         "storeUnitPrice": 5.69,
         "storeName": "Kodupelmeenid, MAKS&MOORITS, 700 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dr.oetker pitsa prosciutto ristorante 340g",
@@ -70910,6 +71118,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsa-ristorante-prosciutto-dr-oetker-340g",
         "size": "340g",
+        "ean": "4001724037606",
         "storeUnitPrice": 11.94,
         "storeName": "Pitsa Ristorante Prosciutto, DR.OETKER, 340g"
       }
@@ -70933,6 +71142,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsa-ristorante-speciale-dr-oetker-345g",
         "size": "345g",
+        "ean": "4001724037699",
         "storeUnitPrice": 11.77,
         "storeName": "Pitsa Ristorante Speciale, DR.OETKER, 345g"
       }
@@ -70956,11 +71166,45 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/friikartul-sakiline-maaharra-750-g",
         "size": "750g",
+        "ean": "4740093001633",
         "storeUnitPrice": 4.05,
         "storeName": "Friikartul sakiline, MAAHÄRRA, 750 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Pealinna minipelmeenid 700g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pealinna-minipelm-700g/",
+        "size": "700g",
+        "ean": "4740093630147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740093630147.png",
+        "storeName": "Pealinna minipelmeenid 700g"
+      },
+      "rimi": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/pelmeenid-ja-vareenikud/pelmeenid/pealinna-minipelmeenid-700g/p/973645",
+        "size": "700g",
+        "storeUnitPrice": 6.27,
+        "storeName": "Pealinna minipelmeenid 700g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/minipelmeenid-pealinna-premia-700-g",
+        "size": "700g",
+        "ean": "4740093630147",
+        "storeUnitPrice": 6.13,
+        "storeName": "Minipelmeenid Pealinna, PREMIA, 700 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Rannarootsi mini pelmeenid 700g",
@@ -70979,6 +71223,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kulmutatud-mini-pelmeenid-rannarootsi-700-g",
         "size": "700g",
+        "ean": "4740296011040",
         "storeUnitPrice": 5.56,
         "storeName": "Külmutatud mini-pelmeenid, RANNAROOTSI, 700 g"
       }
@@ -71002,6 +71247,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/minipelmeenid-broilerilihaga-tallegg-350-g",
         "size": "350g",
+        "ean": "4740046014048",
         "storeUnitPrice": 7.4,
         "storeName": "Minipelmeenid broilerilihaga, TALLEGG, 350 g"
       }
@@ -71009,32 +71255,42 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Pealinna Pelmeenid premia 350g",
+    "name": "Pealinna Pelmeenid 700g",
     "category": "Dumplings, pizza & fries",
     "prices": {
-      "rimi": {
-        "price": 2.29,
+      "coop": {
+        "price": 4.49,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/pelmeenid-ja-vareenikud/pelmeenid/pelmeenid-pealinna-premia-350g/p/200433",
-        "size": "350g",
-        "storeUnitPrice": 6.54,
-        "storeName": "Pelmeenid Pealinna Premia 350g"
+        "url": "https://coophaapsalu.ee/toode/pealinna-pelmeenid-700g-kulmutatud/",
+        "size": "700g",
+        "ean": "4740093098763",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740093098763.png",
+        "storeName": "Pelmeenid Pealinna 700g külmutatud"
       },
-      "selver": {
-        "price": 2.29,
+      "rimi": {
+        "price": 4.59,
         "currency": "EUR",
-        "url": "https://www.selver.ee/pelmeenid-pealinna-premia-350-g",
-        "size": "350g",
-        "storeUnitPrice": 6.54,
-        "storeName": "Pelmeenid Pealinna, PREMIA, 350 g"
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/pelmeenid-ja-vareenikud/pelmeenid/pelmeenid-pealinna-700g/p/285463",
+        "size": "700g",
+        "storeUnitPrice": 6.56,
+        "storeName": "Pelmeenid Pealinna 700g"
       }
     },
     "matchedVia": "automatic"
   },
   {
-    "name": "Rakvere Pelmeenid pere 600g",
+    "name": "Rakvere Pere pelmeenid 600g",
     "category": "Dumplings, pizza & fries",
     "prices": {
+      "coop": {
+        "price": 3.71,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-pere-pelmeenid-600g-kulmutatud/",
+        "size": "600g",
+        "ean": "4740003018065",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740003018065.png",
+        "storeName": "Pere pelmeenid Rakvere 600g külmutatud"
+      },
       "rimi": {
         "price": 2.39,
         "currency": "EUR",
@@ -71049,11 +71305,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pere-pelmeenid-rakvere-600-g",
         "size": "600g",
+        "ean": "4740003018065",
         "storeUnitPrice": 4.98,
         "storeName": "Pere pelmeenid, RAKVERE, 600 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Rakvere Minipelmeenid sealihaga 350g",
@@ -71074,6 +71331,7 @@
         "cardPrice": 1.99,
         "cardName": "Partner",
         "size": "350g",
+        "ean": "4750174001490",
         "storeUnitPrice": 6.71,
         "storeName": "Minipelmeenid sealihaga, RAKVERE, 350g"
       }
@@ -71081,9 +71339,51 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Härmavili Friikartul sakiline kullakesed 750g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/friikart-kullakesed-750g/",
+        "size": "750g",
+        "ean": "4740188020440",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740188800028.jpg",
+        "storeName": "Friikartul sakiline Härmavili Kullakesed 750g"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/kulmutatud-pitsa-friikartulid-valmistoit/friikartulid/friikartul-kullakesed-sakiline-harmavili-750g/p/202677",
+        "size": "750g",
+        "storeUnitPrice": 3.99,
+        "storeName": "Friikartul Kullakesed sakiline Härmavili 750g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kullakesed-sakilised-friikartulid-harmavili-750-g",
+        "size": "750g",
+        "ean": "4740188020440",
+        "storeUnitPrice": 4.39,
+        "storeName": "Kullakesed sakilised friikartulid, HÄRMAVILI, 750 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Aviko Kartulipallid 600g",
     "category": "Dumplings, pizza & fries",
     "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aviko-kartulipallid-600g-kulmutatud/",
+        "size": "600g",
+        "ean": "8710449001910",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/8710449001910.png",
+        "storeName": "Kartulipallid Aviko 600g külmutatud"
+      },
       "rimi": {
         "price": 2.75,
         "currency": "EUR",
@@ -71097,11 +71397,414 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kartulipallid-aviko-600-g",
         "size": "600g",
+        "ean": "8710449001910",
         "storeUnitPrice": 4.05,
         "storeName": "Kartulipallid, AVIKO, 600 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pealinna Pelmeenid minipelmeenid 350g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pealinna-minipelmeen350g/",
+        "size": "350g",
+        "ean": "4740093039506",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740093039506-1.jpg",
+        "storeName": "Pelmeenid Pealinna Minipelmeenid 350g külmutatud"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/minipelmeenid-pealinna-premia-350-g",
+        "size": "350g",
+        "ean": "4740093039506",
+        "storeUnitPrice": 6.83,
+        "storeName": "Minipelmeenid Pealinna, PREMIA, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ehe Rr pelmeenid linnulihaga 350g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-pelmeenid-ehe-linnulihaga-350g/",
+        "size": "350g",
+        "ean": "4740296012696",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740296012696.png",
+        "storeName": "RR pelmeenid EHE linnulihaga 350g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ehe-linnuliha-pelmeenid-e-vaba-rannarootsi-350-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "350g",
+        "ean": "4740296012696",
+        "storeUnitPrice": 7.97,
+        "storeName": "EHE linnuliha pelmeenid (E-vaba), RANNAROOTSI, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rannarootsi Pelmeenid ehe 600g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 4.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-pelmeenid-ehe-600g-kulmutatud/",
+        "size": "600g",
+        "ean": "4740296012719",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740296012719.png",
+        "storeName": "Pelmeenid EHE Rannarootsi 600g külmutatud"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ehe-pelmeenid-e-vaba-rannarootsi-600-g",
+        "size": "600g",
+        "ean": "4740296012719",
+        "storeUnitPrice": 5.82,
+        "storeName": "EHE pelmeenid (E-vaba), RANNAROOTSI, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põdralihapelmeenid eesti uluk rr 350g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-podralihapelmeenid-eesti-uluk-350g/",
+        "size": "350g",
+        "ean": "4740296012238",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740296012238.png",
+        "storeName": "Põdralihapelmeenid Eesti Uluk RR 350g külmutatud"
+      },
+      "selver": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-uluk-podralihapelmeenid-rannarootsi-350-g",
+        "size": "350g",
+        "ean": "4740296012238",
+        "storeUnitPrice": 8.11,
+        "storeName": "Eesti Uluk Põdralihapelmeenid, RANNAROOTSI, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Pealinna minipelmeenid kanalihaga 350g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pealinna-minipelmeenid-kanalihaga-350g/",
+        "size": "350g",
+        "ean": "4740093112230",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740093112230.png",
+        "storeName": "Pealinna Minipelmeenid kanalihaga 350g"
+      },
+      "selver": {
+        "price": 2.53,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/minipelmeenid-kanalihaga-pealinna-350-g",
+        "size": "350g",
+        "ean": "4740093112230",
+        "storeUnitPrice": 7.23,
+        "storeName": "Minipelmeenid kanalihaga, PEALINNA, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vici Pelmeenid köögiviljade ja kanaga gyoza 200g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-pelmeenid-koogiv-kanaga-gyoza-200g/",
+        "size": "200g",
+        "ean": "4770190141284",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4770190141284.png",
+        "storeName": "Pelmeenid köögiviljade ja kanaga Gyoza Vici 200g"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pelmeenid-koogiviljade-ja-kanaga-gyoza-vici-200-g",
+        "size": "200g",
+        "ean": "4770190141284",
+        "storeUnitPrice": 10.25,
+        "storeName": "Pelmeenid köögiviljade ja kanaga Gyoza, VICI, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vici Pelmeenid kanaga traditional style külmut 400g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pelmeenid-kanaga-400g/",
+        "size": "400g",
+        "ean": "4770190077828",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4770190077828.png",
+        "storeName": "Pelmeenid kanaga Traditional style Vici400g külmut"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pelmeenid-kanaga-traditional-style-vici-400-g",
+        "size": "400g",
+        "ean": "4770190077828",
+        "storeUnitPrice": 7.23,
+        "storeName": "Pelmeenid kanaga Traditional style, VICI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maks&moorits Klassikalised pelmeenid külmut 400g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 3.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-klassikalised-pelmeenid-400g/",
+        "size": "400g",
+        "ean": "4740171188430",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4740171188430.png",
+        "storeName": "Klassikalised pelmeenid Maks&Moorits 400g külmut."
+      },
+      "selver": {
+        "price": 3.17,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/klassikalised-pelmeenid-maks-moorits-400-g",
+        "size": "400g",
+        "ean": "4740171188430",
+        "storeUnitPrice": 7.93,
+        "storeName": "Klassikalised pelmeenid, MAKS&MOORITS, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rakvere Laste pelmeenid 350g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-laste-pelmeenid-350g-kulmutatud/",
+        "size": "350g",
+        "ean": "4740003018072",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740003018072.png",
+        "storeName": "Laste pelmeenid Rakvere 350g külmutatud"
+      },
+      "selver": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/laste-pelmeenid-rakvere-350-g",
+        "size": "350g",
+        "ean": "4740003018072",
+        "storeUnitPrice": 6.14,
+        "storeName": "Laste pelmeenid, RAKVERE, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vici Pelmeenid veiselihaga traditional style 400g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-pelmeenid-veiseliha-traditional400g/",
+        "size": "400g",
+        "ean": "4770190077835",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4770190077835.png",
+        "storeName": "Pelmeenid veiselihaga Traditional style Vici 400g"
+      },
+      "selver": {
+        "price": 4.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pelmeenid-veiselihaga-traditional-style-vici-400-g",
+        "size": "400g",
+        "ean": "4770190077835",
+        "storeUnitPrice": 10.63,
+        "storeName": "Pelmeenid veiselihaga Traditional style, VICI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vici pelmeenid kana juustu puravik puravikega 400g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-pelmeenid-kanajuustupuravik-400g/",
+        "size": "400g",
+        "ean": "4770190077873",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4770190077873.png",
+        "storeName": "Vici pelmeenid kana,juustu,puravik 400g"
+      },
+      "selver": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pelmeenid-kana-juustu-ja-puravikega-traditional-style-vici-400-g",
+        "size": "400g",
+        "ean": "4770190077873",
+        "storeUnitPrice": 10.88,
+        "storeName": "Pelmeenid kana, juustu ja puravikega Traditional style, VICI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vici Pelmeenid vürtsikate gyoza köögiv köögiviljadega 400g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pelmeenid-gyoza-vici400g/",
+        "size": "400g",
+        "ean": "4770190078719",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190078719.png",
+        "storeName": "Pelmeenid vürtsikate köögiv.Gyoza Vici 400g külm."
+      },
+      "selver": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pelmeenid-vurtsikate-koogiviljadega-gyoza-vici-400-g",
+        "size": "400g",
+        "ean": "4770190078719",
+        "storeUnitPrice": 8.13,
+        "storeName": "Pelmeenid vürtsikate köögiviljadega Gyoza, VICI, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maahärra Bataadi friikartulid kuldselt krõbe 500g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bataadi-friikartulid500g/",
+        "size": "500g",
+        "ean": "4740093026940",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740093026940.png",
+        "storeName": "Bataadi friikartulid kuldselt krõbe Maahärra 500g"
+      },
+      "selver": {
+        "price": 4.46,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bataadi-friikartulid-kuldselt-krobe-maaharra-500-g",
+        "size": "500g",
+        "ean": "4740093026940",
+        "storeUnitPrice": 8.92,
+        "storeName": "Bataadi friikartulid, kuldselt krõbe, MAAHÄRRA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Härmavili Sirge ja krõbe friikartul kullakesed 600g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/friikart-kullakesed-600g/",
+        "size": "600g",
+        "ean": "4740188019154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740188019154.png",
+        "storeName": "Sirge ja krõbe friikartul Kullakesed Härmavili600g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sirge-ja-krobe-friikartul-kullakesed-harmavili-600-g",
+        "size": "600g",
+        "ean": "4740188020433",
+        "storeUnitPrice": 4.32,
+        "storeName": "Sirge ja krõbe friikartul Kullakesed, HÄRMAVILI, 600 g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Maahärra Kartulisektorid kuldselt krõbe 500g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kartulisektorid-500g/",
+        "size": "500g",
+        "ean": "4740093026612",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740093026612-1.png",
+        "storeName": "Kartulisektorid Kuldselt krõbe Maahärra 500g maits"
+      },
+      "selver": {
+        "price": 2.12,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuldselt-krobedad-kartulisektorid-maitsestatud-maaharra-500-g",
+        "size": "500g",
+        "ean": "4740093026612",
+        "storeUnitPrice": 4.24,
+        "storeName": "Kuldselt krõbedad kartulisektorid maitsestatud, MAAHÄRRA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Härmavili Bataadi friikartulid kullakesed 450g",
+    "category": "Dumplings, pizza & fries",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/harmavili-bataadi-friik-kullakesed-450g/",
+        "size": "450g",
+        "ean": "4740188020273",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740188020273.png",
+        "storeName": "Bataadi friikartulid Kullakesed Härmavili 450g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/bataadifriikad-kullakesed-harmavili-450g",
+        "size": "450g",
+        "ean": "4740188020273",
+        "storeUnitPrice": 7.09,
+        "storeName": "Bataadifriikad Kullakesed, HÄRMAVILI, 450g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Rakvere Keeduvorst juustu 300g",

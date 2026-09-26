@@ -49518,16 +49518,26 @@
         "storeUnitPrice": 5.45,
         "storeName": "Õunakaste SALVEST 530g"
       },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ounakaste-530g-salvest/",
+        "size": "530g",
+        "ean": "4740073090695",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073090695.png",
+        "storeName": "Õunakaste Salvest 530g"
+      },
       "selver": {
         "price": 2.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/ounakaste-salvest-530-g",
         "size": "530g",
+        "ean": "4740073090695",
         "storeUnitPrice": 4.32,
         "storeName": "Õunakaste, SALVEST, 530 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Bonne Mangopüree 500ml",
@@ -49541,16 +49551,26 @@
         "storeUnitPrice": 6.51,
         "storeName": "Mangopüree 100% BONNE 0.5L"
       },
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mangopuree-bonne-0-5l/",
+        "size": "500ml",
+        "ean": "6420610111974",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/6420610111974.png",
+        "storeName": "Mangopüree 100% Bonne 500ml"
+      },
       "selver": {
         "price": 2.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/mangopuree-100-bonne-500-ml",
         "size": "500ml",
+        "ean": "6420610111974",
         "storeUnitPrice": 5.98,
         "storeName": "Mangopüree 100%, BONNE, 500 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Bonne Ploomipüree 500ml",
@@ -49569,6 +49589,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/100-ploomipuree-bonne-500-ml",
         "size": "500ml",
+        "ean": "6420610112858",
         "storeUnitPrice": 8.52,
         "storeName": "100% ploomipüree, BONNE, 500 ml"
       }
@@ -49592,6 +49613,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/astelpajumoos-semu-320-g",
         "size": "320g",
+        "ean": "4742040000218",
         "storeUnitPrice": 12.34,
         "storeName": "Astelpajumoos, SEMU, 320 g"
       }
@@ -49610,6 +49632,15 @@
         "storeUnitPrice": 11.73,
         "storeName": "Vaarikamoos KÜLLUS 400g"
       },
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kullus-vaarikamoos-400g/",
+        "size": "400g",
+        "ean": "4741129030146",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4741129030146.png",
+        "storeName": "Vaarikamoos Küllus 400g"
+      },
       "rimi": {
         "price": 4.59,
         "currency": "EUR",
@@ -49623,11 +49654,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vaarikamoos-kullus-400-g",
         "size": "400g",
+        "ean": "4741129030146",
         "storeUnitPrice": 9.73,
         "storeName": "Vaarikamoos, KÜLLUS, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Küllus Kirsimoos 400g",
@@ -49640,6 +49672,15 @@
         "size": "400g",
         "storeUnitPrice": 10.48,
         "storeName": "Kirsimoos KÜLLUS 400g"
+      },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kullus-kirsimoos-400g/",
+        "size": "400g",
+        "ean": "4741129030160",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4741129030160.png",
+        "storeName": "Kirsimoos Küllus 400g"
       },
       "rimi": {
         "price": 4.69,
@@ -49654,11 +49695,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kirsimoos-kullus-400-g",
         "size": "400g",
+        "ean": "4741129030160",
         "storeUnitPrice": 10.73,
         "storeName": "Kirsimoos, KÜLLUS, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Küllus Maasikamoos 400g",
@@ -49671,6 +49713,15 @@
         "size": "400g",
         "storeUnitPrice": 10.48,
         "storeName": "Maasikamoos KÜLLUS 400g"
+      },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kullus-maasikamoos-400g/",
+        "size": "400g",
+        "ean": "4741129030177",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/07/4741129030177.jpg",
+        "storeName": "Maasikamoos Küllus 400g"
       },
       "rimi": {
         "price": 4.29,
@@ -49685,8 +49736,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maasikamoos-kullus-400-g",
         "size": "400g",
+        "ean": "4741129030177",
         "storeUnitPrice": 9.23,
         "storeName": "Maasikamoos, KÜLLUS, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Küllus Maasika metsmustikamoos 400g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "barbora": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/maasika-metsmustikamoos-kullus-400-g",
+        "size": "400g",
+        "storeUnitPrice": 10.73,
+        "storeName": "Maasika-metsmustikamoos KÜLLUS 400g"
+      },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kullus-maasika-metsmustikamoos-400g/",
+        "size": "400g",
+        "ean": "4741129030207",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4741129030207.jpg",
+        "storeName": "Maasika-metsmustikamoos Küllus 400g"
       }
     },
     "matchedVia": "automatic"
@@ -49703,6 +49779,15 @@
         "storeUnitPrice": 9.61,
         "storeName": "Maasikamoos PÕLTSAMAA 380g"
       },
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maasikamoos-380g/",
+        "size": "380g",
+        "ean": "4740029045441",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045441-1.png",
+        "storeName": "Maasikamoos Põltsamaa 380g"
+      },
       "rimi": {
         "price": 3.65,
         "currency": "EUR",
@@ -49716,11 +49801,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maasikamoos-poltsamaa-380-g",
         "size": "380g",
+        "ean": "4740029045441",
         "storeUnitPrice": 9.61,
         "storeName": "Maasikamoos, PÕLTSAMAA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Vaarikamoos 380g",
@@ -49733,6 +49819,15 @@
         "size": "380g",
         "storeUnitPrice": 10.66,
         "storeName": "Vaarikamoos PÕLTSAMAA 380g"
+      },
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaarikamoos-380g/",
+        "size": "380g",
+        "ean": "4740029045458",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045458-1.png",
+        "storeName": "Vaarikamoos Põltsamaa 380g"
       },
       "rimi": {
         "price": 4.05,
@@ -49749,11 +49844,12 @@
         "cardPrice": 3.49,
         "cardName": "Partner",
         "size": "380g",
+        "ean": "4740029045458",
         "storeUnitPrice": 10.66,
         "storeName": "Vaarikamoos, PÕLTSAMAA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Mustsõstramoos 380g",
@@ -49766,6 +49862,15 @@
         "size": "380g",
         "storeUnitPrice": 9.34,
         "storeName": "Mustsõstramoos PÕLTSAMAA 380g"
+      },
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustasostramoos-380g/",
+        "size": "380g",
+        "ean": "4740029045465",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045465-1.png",
+        "storeName": "Mustasõstramoos Põltsamaa 380g"
       },
       "rimi": {
         "price": 2.99,
@@ -49781,11 +49886,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mustsostramoos-poltsamaa-380-g",
         "size": "380g",
+        "ean": "4740029045465",
         "storeUnitPrice": 9.34,
         "storeName": "Mustsõstramoos, PÕLTSAMAA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Metsamarjamoos 380g",
@@ -49798,6 +49904,15 @@
         "size": "380g",
         "storeUnitPrice": 9.61,
         "storeName": "Metsamarjamoos PÕLTSAMAA 380g"
+      },
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/metsamarjamoos-380g/",
+        "size": "380g",
+        "ean": "4740029045472",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045472-1.png",
+        "storeName": "Metsamarjamoos Põltsamaa 380g"
       },
       "rimi": {
         "price": 3.19,
@@ -49815,11 +49930,12 @@
         "cardPrice": 2.99,
         "cardName": "Partner",
         "size": "380g",
+        "ean": "4740029045472",
         "storeUnitPrice": 9.61,
         "storeName": "Metsamarjamoos, PÕLTSAMAA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Aprikoosimoos 380g",
@@ -49832,6 +49948,15 @@
         "size": "380g",
         "storeUnitPrice": 10.13,
         "storeName": "Aprikoosimoos PÕLTSAMAA 380g"
+      },
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/poltsamaa-aprikoosimoos-380g/",
+        "size": "380g",
+        "ean": "4740029045489",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740029045489.png",
+        "storeName": "Aprikoosimoos Põltsamaa 380g"
       },
       "rimi": {
         "price": 3.85,
@@ -49848,11 +49973,12 @@
         "cardPrice": 3.19,
         "cardName": "Partner",
         "size": "380g",
+        "ean": "4740029045489",
         "storeUnitPrice": 10.13,
         "storeName": "Aprikoosimoos, PÕLTSAMAA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Mustikamoos 380g",
@@ -49865,6 +49991,15 @@
         "size": "380g",
         "storeUnitPrice": 10.76,
         "storeName": "Mustikamoos PÕLTSAMAA 380g"
+      },
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustikamoos-380g/",
+        "size": "380g",
+        "ean": "4740029045502",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045502.png",
+        "storeName": "Mustikamoos Põltsamaa 380g"
       },
       "rimi": {
         "price": 4.09,
@@ -49879,11 +50014,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mustikamoos-poltsamaa-380-g",
         "size": "380g",
+        "ean": "4740029045502",
         "storeUnitPrice": 10.76,
         "storeName": "Mustikamoos, PÕLTSAMAA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Pohlamoos 380g",
@@ -49896,6 +50032,15 @@
         "size": "380g",
         "storeUnitPrice": 9.71,
         "storeName": "Pohlamoos PÕLTSAMAA 380g"
+      },
+      "coop": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pohlamoos-380g/",
+        "size": "380g",
+        "ean": "4740029045496",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045496-1.png",
+        "storeName": "Pohlamoos Põltsamaa 380g"
       },
       "rimi": {
         "price": 3.69,
@@ -49910,11 +50055,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pohlamoos-poltsamaa-380-g",
         "size": "380g",
+        "ean": "4740029045496",
         "storeUnitPrice": 9.71,
         "storeName": "Pohlamoos, PÕLTSAMAA, 380 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Maasikamoos pudelis 390g",
@@ -49927,6 +50073,15 @@
         "size": "390g",
         "storeUnitPrice": 8.85,
         "storeName": "Maasikamoos pudelis PÕLTSAMAA 390g"
+      },
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maasikamoos-390g/",
+        "size": "390g",
+        "ean": "4740029045854",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045854-1.png",
+        "storeName": "Maasikamoos Põltsamaa 390g pudelis"
       },
       "rimi": {
         "price": 3.69,
@@ -49941,11 +50096,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maasikamoos-pudelis-poltsamaa-390-g",
         "size": "390g",
+        "ean": "4740029045854",
         "storeUnitPrice": 8.85,
         "storeName": "Maasikamoos (pudelis), PÕLTSAMAA, 390 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Pohlamoos pudelis 385g",
@@ -49958,6 +50114,15 @@
         "size": "385g",
         "storeUnitPrice": 9.22,
         "storeName": "Pohlamoos pudelis PÕLTSAMAA 385g"
+      },
+      "coop": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pohlamoos-385g/",
+        "size": "385g",
+        "ean": "4740029045892",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045892-1.png",
+        "storeName": "Pohlamoos Põltsamaa 385g pudelis"
       },
       "rimi": {
         "price": 3.69,
@@ -49972,11 +50137,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pohlamoos-pudelis-poltsamaa-385-g",
         "size": "385g",
+        "ean": "4740029045892",
         "storeUnitPrice": 9.22,
         "storeName": "Pohlamoos pudelis, PÕLTSAMAA, 385 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Vaarikamoos pudelis 390g",
@@ -49989,6 +50155,15 @@
         "size": "390g",
         "storeUnitPrice": 11.41,
         "storeName": "Vaarikamoos pudelis PÕLTSAMAA 390g"
+      },
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaarikamoos-390g/",
+        "size": "390g",
+        "ean": "4740029045878",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045878-1.png",
+        "storeName": "Vaarikamoos Põltsamaa 390g pudelis"
       },
       "rimi": {
         "price": 4.79,
@@ -50003,11 +50178,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vaarikamoos-pudelis-poltsamaa-390-g",
         "size": "390g",
+        "ean": "4740029045878",
         "storeUnitPrice": 11.44,
         "storeName": "Vaarikamoos (pudelis), PÕLTSAMAA, 390 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Maasikamoos 600g",
@@ -50023,6 +50199,15 @@
         "storeUnitPrice": 5.98,
         "storeName": "Maasikamoos PÕLTSAMAA 600g"
       },
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maasikamoos-600g/",
+        "size": "600g",
+        "ean": "4740029045618",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045618.jpg",
+        "storeName": "Maasikamoos Põltsamaa 600g"
+      },
       "rimi": {
         "price": 4.49,
         "currency": "EUR",
@@ -50036,11 +50221,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/maasikamoos-poltsamaa-600-g",
         "size": "600g",
+        "ean": "4740029045618",
         "storeUnitPrice": 5.98,
         "storeName": "Maasikamoos, PÕLTSAMAA, 600 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Vaarikamoos 600g",
@@ -50056,6 +50242,15 @@
         "storeUnitPrice": 5.98,
         "storeName": "Vaarikamoos PÕLTSAMAA 600g"
       },
+      "coop": {
+        "price": 6.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaarikamoos-600g/",
+        "size": "600g",
+        "ean": "4740029045625",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029045625.png",
+        "storeName": "Vaarikamoos Põltsamaa 600g"
+      },
       "rimi": {
         "price": 5.79,
         "currency": "EUR",
@@ -50069,11 +50264,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vaarikamoos-poltsamaa-600-g",
         "size": "600g",
+        "ean": "4740029045625",
         "storeUnitPrice": 9.65,
         "storeName": "Vaarikamoos, PÕLTSAMAA, 600 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest pirnipüree mahe 450g",
@@ -50086,6 +50282,15 @@
         "size": "450g",
         "storeUnitPrice": 8.11,
         "storeName": "Ökoloogiline SALVEST pirnipüree 450g"
+      },
+      "coop": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirnipuree-salvest-450g/",
+        "size": "450g",
+        "ean": "4740073075760",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740073075760.png",
+        "storeName": "Pirnipüree Salvest 450g ökoloogiline"
       },
       "rimi": {
         "price": 3.89,
@@ -50100,11 +50305,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pirnipuree-oko-salvest-450-g",
         "size": "450g",
+        "ean": "4740073075760",
         "storeUnitPrice": 8.11,
         "storeName": "Pirnipüree Öko, SALVEST, 450 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Salvest mangopüree mahe 450g",
@@ -50117,6 +50323,15 @@
         "size": "450g",
         "storeUnitPrice": 8.87,
         "storeName": "Ökoloogiline SALVEST mangopüree 450g"
+      },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mangopuree-salvest-450g/",
+        "size": "450g",
+        "ean": "4740073075753",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740073075753.png",
+        "storeName": "Mangopüree Salvest 450g ökoloogiline"
       },
       "rimi": {
         "price": 3.09,
@@ -50132,11 +50347,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mangopuree-oko-salvest-450-g",
         "size": "450g",
+        "ean": "4740073075753",
         "storeUnitPrice": 8.87,
         "storeName": "Mangopüree Öko, SALVEST, 450 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meie mari Maasikamoos 310g",
@@ -50150,16 +50366,26 @@
         "storeUnitPrice": 12.1,
         "storeName": "Maasikamoos MEIE MARI 310g"
       },
+      "coop": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-maasikamoos-310g/",
+        "size": "310g",
+        "ean": "4740073079980",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/4740073079980.png",
+        "storeName": "Maasikamoos Meie Mari 310g"
+      },
       "selver": {
         "price": 3.75,
         "currency": "EUR",
         "url": "https://www.selver.ee/maasikamoos-meie-mari-310g",
         "size": "310g",
+        "ean": "4740073079980",
         "storeUnitPrice": 12.1,
         "storeName": "Maasikamoos, MEIE MARI, 310g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meie mari Vaarikamoos 310g",
@@ -50173,16 +50399,26 @@
         "storeUnitPrice": 12.1,
         "storeName": "Vaarikamoos MEIE MARI 310g"
       },
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-vaarikamoos-310g/",
+        "size": "310g",
+        "ean": "4740073080009",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/4740073080009.png",
+        "storeName": "Vaarikamoos Meie Mari 310g"
+      },
       "selver": {
         "price": 3.65,
         "currency": "EUR",
         "url": "https://www.selver.ee/vaarikamoos-meie-mari-310g",
         "size": "310g",
+        "ean": "4740073080009",
         "storeUnitPrice": 11.77,
         "storeName": "Vaarikamoos, MEIE MARI, 310g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meie mari Pohlamoos 310g",
@@ -50195,6 +50431,15 @@
         "size": "310g",
         "storeUnitPrice": 12.1,
         "storeName": "Pohlamoos MEIE MARI 310g"
+      },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-pohlamoos-310g/",
+        "size": "310g",
+        "ean": "4740073000021",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4740073000021.png",
+        "storeName": "Pohlamoos Meie Mari 310g"
       },
       "rimi": {
         "price": 4.19,
@@ -50209,11 +50454,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pohlamoos-meie-mari-310g",
         "size": "310g",
+        "ean": "4740073000021",
         "storeUnitPrice": 12.1,
         "storeName": "Pohlamoos, MEIE MARI, 310g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meie mari Pannkoogimoos 310g",
@@ -50226,6 +50472,15 @@
         "size": "310g",
         "storeUnitPrice": 10.94,
         "storeName": "Pannkoogimoos MEIE MARI 310g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-pannkoogimoos-310g/",
+        "size": "310g",
+        "ean": "4740073000069",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/08/4740073000069.png",
+        "storeName": "Pannkoogimoos Meie Mari 310g"
       },
       "rimi": {
         "price": 2.99,
@@ -50242,11 +50497,12 @@
         "cardPrice": 1.99,
         "cardName": "Partner",
         "size": "310g",
+        "ean": "4740073000069",
         "storeUnitPrice": 9.65,
         "storeName": "Pannkoogimoos, MEIE MARI, 310g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meie mari Murakamoos 310g",
@@ -50259,6 +50515,15 @@
         "size": "310g",
         "storeUnitPrice": 33.84,
         "storeName": "Murakamoos MEIE MARI 310g"
+      },
+      "coop": {
+        "price": 10.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-murakamoos-310g/",
+        "size": "310g",
+        "ean": "4740073000045",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4740073000045.png",
+        "storeName": "Murakamoos Meie Mari 310g"
       },
       "rimi": {
         "price": 10.49,
@@ -50273,11 +50538,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/murakamoos-meie-mari-310-g",
         "size": "310g",
+        "ean": "4740073000045",
         "storeUnitPrice": 33.84,
         "storeName": "Murakamoos, MEIE MARI, 310 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meie mari Mustasõstramoos 310g",
@@ -50291,16 +50557,26 @@
         "storeUnitPrice": 12.1,
         "storeName": "Mustasõstramoos MEIE MARI 310g"
       },
+      "coop": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-mustasostramoos-310g/",
+        "size": "310g",
+        "ean": "4740073000274",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4740073000274.png",
+        "storeName": "Mustasõstramoos Meie Mari 310g"
+      },
       "selver": {
         "price": 3.75,
         "currency": "EUR",
         "url": "https://www.selver.ee/mustasostramoos-meie-mari-310g",
         "size": "310g",
+        "ean": "4740073000274",
         "storeUnitPrice": 12.1,
         "storeName": "Mustasõstramoos, MEIE MARI, 310g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Küllus Rabamurakamoos 400g",
@@ -50313,6 +50589,15 @@
         "size": "400g",
         "storeUnitPrice": 29.98,
         "storeName": "Rabamurakamoos KÜLLUS 400g"
+      },
+      "coop": {
+        "price": 12.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rabamurakamoos-400g/",
+        "size": "400g",
+        "ean": "4741129030108",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741129030108.png",
+        "storeName": "Rabamurakamoos Küllus 400g"
       },
       "rimi": {
         "price": 12.39,
@@ -50327,11 +50612,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rabamurakamoos-kullus-400-g",
         "size": "400g",
+        "ean": "4741129030108",
         "storeUnitPrice": 30.48,
         "storeName": "Rabamurakamoos, KÜLLUS, 400 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Küllus Kiivimoos 400g",
@@ -50345,6 +50631,15 @@
         "storeUnitPrice": 11.73,
         "storeName": "Kiivimoos KÜLLUS 400g"
       },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kullus-kiivimoos-400g/",
+        "size": "400g",
+        "ean": "4741129019660",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4741129019660.png",
+        "storeName": "Kiivimoos Küllus 400g"
+      },
       "rimi": {
         "price": 4.69,
         "currency": "EUR",
@@ -50352,6 +50647,102 @@
         "size": "400g",
         "storeUnitPrice": 11.72,
         "storeName": "Kiivimoos Küllus 400g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Meie mari Vaarika mustasõstramoos 590g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "barbora": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vaarika-mustasostramoos-meie-mari-590-g",
+        "size": "590g",
+        "storeUnitPrice": 9.14,
+        "storeName": "Vaarika-mustasõstramoos MEIE MARI 590g"
+      },
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-vaarika-mustasostramoos-590g/",
+        "size": "590g",
+        "ean": "4740073000465",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4740073000465.png",
+        "storeName": "Vaarika-mustasõstramoos Meie Mari 590g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Minu Ananassitükid kerges siirupis 227g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ananassitukid-kerges-siirupis-minu-227-g",
+        "size": "227g",
+        "storeUnitPrice": 6.57,
+        "storeName": "Ananassitükid kerges siirupis MINU 227g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/minu-ananassitukid-227g-kerges-siirupis/",
+        "size": "227g",
+        "ean": "4743144008698",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4743144008698.png",
+        "storeName": "Ananassitükid Minu 227g kerges siirupis"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Minu Ananassiviilud kerges siirupis 227g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ananassiviilud-kerges-siirupis-minu-227-g",
+        "size": "227g",
+        "storeUnitPrice": 6.57,
+        "storeName": "Ananassiviilud kerges siirupis MINU 227g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/minu-ananassiviilud-227g-kerges-siirupis/",
+        "size": "227g",
+        "ean": "4743144008681",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4743144008681.png",
+        "storeName": "Ananassiviilud Minu 227g kerges siirupis"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Meie mari Maasikamoos 590g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "barbora": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/maasikamoos-meie-mari-590-g",
+        "size": "590g",
+        "storeUnitPrice": 9.14,
+        "storeName": "Maasikamoos MEIE MARI 590g"
+      },
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meie-mari-maasikamoos-590g/",
+        "size": "590g",
+        "ean": "4740073000717",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740073000717.png",
+        "storeName": "Meie Mari maasikamoos 590g"
       }
     },
     "matchedVia": "automatic"
@@ -50373,6 +50764,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/virsikupuree-100-bonne-500-ml",
         "size": "500ml",
+        "ean": "6420610111998",
         "storeUnitPrice": 6.9,
         "storeName": "Virsikupüree 100%, BONNE, 500 ml"
       }
@@ -50391,16 +50783,26 @@
         "storeUnitPrice": 8.83,
         "storeName": "Maapähklikreem SANTE crunchy 350g"
       },
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sante-crunchy-maapahklikreem-350g/",
+        "size": "350g",
+        "ean": "5900617003454",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/5900617003454.png",
+        "storeName": "Maapähklikreem Crunchy Sante 350g"
+      },
       "selver": {
         "price": 3.14,
         "currency": "EUR",
         "url": "https://www.selver.ee/maapahklikreem-crunchy-sante-350-g",
         "size": "350g",
+        "ean": "5900617003454",
         "storeUnitPrice": 8.97,
         "storeName": "Maapähklikreem Crunchy, SANTE, 350 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Schwartau Šokolaadi dessertkaste 125ml",
@@ -50419,6 +50821,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sokolaadi-dessertkaste-schwartau-125-ml",
         "size": "125ml",
+        "ean": "4011800043001",
         "storeUnitPrice": 21.84,
         "storeName": "Šokolaadi dessertkaste, SCHWARTAU, 125 ml"
       }
@@ -50442,6 +50845,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/karamelli-dessertkaste-schwartau-125-ml",
         "size": "125ml",
+        "ean": "4011800049010",
         "storeUnitPrice": 23.36,
         "storeName": "Karamelli dessertkaste, SCHWARTAU, 125 ml"
       }
@@ -50465,6 +50869,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/muhe-mesi-muhe-mesi-450-g",
         "size": "450g",
+        "ean": "4744329010031",
         "storeUnitPrice": 13.98,
         "storeName": "Muhe Mesi, MUHE MESI, 450 g"
       }
@@ -50488,6 +50893,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mesi-muhe-mesi-1-1-kg",
         "size": "1100g",
+        "ean": "4744329010017",
         "storeUnitPrice": 11.26,
         "storeName": "Mesi, MUHE MESI, 1,1 kg"
       }
@@ -50529,16 +50935,26 @@
         "storeUnitPrice": 15.16,
         "storeName": "Mesi SIRELI 250g"
       },
+      "coop": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sireli-mesi-250g-eesti/",
+        "size": "250g",
+        "ean": "4742022910030",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4742022910030.png",
+        "storeName": "Mesi Sireli 250g Eesti"
+      },
       "selver": {
         "price": 3.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/mesi-sireli-250g",
         "size": "250g",
+        "ean": "4742022910030",
         "storeUnitPrice": 15.16,
         "storeName": "Mesi, SIRELI, 250g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Meveda Mesi kreemjas 500g",
@@ -50557,6 +50973,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mesi-kreemjas-meveda-500-g",
         "size": "500g",
+        "ean": "4740250000189",
         "storeUnitPrice": 13.98,
         "storeName": "Mesi kreemjas, MEVEDA, 500 g"
       }
@@ -50580,11 +50997,574 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mesi-sireli-1kg",
         "size": "1000g",
+        "ean": "4742022910139",
         "storeUnitPrice": 11.99,
         "storeName": "Mesi, SIRELI, 1kg"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Honest nektar Mesi tuubis 300g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "barbora": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/mesi-tuubis-honest-nektar-300-g",
+        "size": "300g",
+        "storeUnitPrice": 14.3,
+        "storeName": "Mesi tuubis HONEST NEKTAR 300g"
+      },
+      "coop": {
+        "price": 4.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/honest-nektar-mesi-300g-tuubis-eesti/",
+        "size": "300g",
+        "ean": "4742023520252",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4742023520252.png",
+        "storeName": "Mesi Honest Nektar 300g tuubis Eesti"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mesi-tuubis-honest-nektar-300g",
+        "size": "300g",
+        "ean": "4742023520252",
+        "storeUnitPrice": 14.3,
+        "storeName": "Mesi tuubis, HONEST NEKTAR, 300g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Naoussa Aprikoosidzemm 500g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aprikoosidzemm-500g/",
+        "size": "500g",
+        "ean": "5201049302000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/5201049302000.png",
+        "storeName": "Aprikoosidzemm Naoussa 500g"
+      },
+      "selver": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aprikoosi-dzemm-naoussa-500-g",
+        "size": "500g",
+        "ean": "5201049302000",
+        "storeUnitPrice": 5.1,
+        "storeName": "Aprikoosi dzemm, NAOUSSA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Greenhouse kirsikompott kivideta 680g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirsikomp-kivideta-680g/",
+        "size": "680g",
+        "ean": "5410524121047",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5410524720820.png",
+        "storeName": "Greenhouse kirsikompott 680g kivideta"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirsikompott-kivideta-greenhouse-680-g-bruto",
+        "size": "680g",
+        "ean": "5410524121047",
+        "storeUnitPrice": 16.19,
+        "storeName": "Kirsikompott kivideta, GREENHOUSE, 680 g bruto"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nutella Shokolaadi pähklikreem 600g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 8.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nutella-600g/",
+        "size": "600g",
+        "ean": "8000500179864",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8000500179864.jpg",
+        "storeName": "Shokolaadi-pähklikreem Nutella 600g"
+      },
+      "selver": {
+        "price": 8.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pahklikreem-nutella-600-g",
+        "size": "600g",
+        "ean": "8000500179864",
+        "storeUnitPrice": 14.32,
+        "storeName": "Pähklikreem, NUTELLA, 600 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nutella Shokolaadi pähklikreem 350g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shok-pahkli-kreem-350g/",
+        "size": "350g",
+        "ean": "80177173",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/80177173.jpg",
+        "storeName": "Shokolaadi-pähklikreem Nutella 350g"
+      },
+      "selver": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pahklikreem-nutella-350-g",
+        "size": "350g",
+        "ean": "80177173",
+        "storeUnitPrice": 15.4,
+        "storeName": "Pähklikreem, NUTELLA, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Green mango lõigud siirupis 425g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/green-mango-loigud-siirupis-425g/",
+        "size": "425g",
+        "ean": "4744148012049",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4744148012049.png",
+        "storeName": "Green Mango lõigud siirupis 425g"
+      },
+      "selver": {
+        "price": 1.92,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mango-loigud-siirupis-425g-green-neto-230-g",
+        "size": "425g",
+        "ean": "4744148012049",
+        "storeUnitPrice": 8.35,
+        "storeName": "Mango lõigud siirupis 425g, GREEN, neto 230 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rõngu mahl Küpsetuskindel täidis kirss marjadega 1000g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 9.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rongu-kupsetuskindel-taidis-kirss-1kg/",
+        "size": "1000g",
+        "ean": "4741129017277",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4741129017277.png",
+        "storeName": "Küpsetuskindel täidis Kirss Rõngu Mahl 1kg"
+      },
+      "selver": {
+        "price": 9.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirsimoos-marjadega-rongu-1-kg",
+        "size": "1000g",
+        "ean": "4741129017277",
+        "storeUnitPrice": 9.89,
+        "storeName": "Kirsimoos marjadega, RÕNGU, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meveda Suvine mesi eesti 500g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 7.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suvine-mesi-meveda-500g/",
+        "size": "500g",
+        "ean": "4740250000660",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740250000660.png",
+        "storeName": "Suvine mesi Meveda 500g Eesti"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-mesi-suvine-presstuubis-meveda-500-g",
+        "size": "500g",
+        "ean": "4740250000660",
+        "storeUnitPrice": 13.98,
+        "storeName": "Eesti mesi Suvine presstuubis, MEVEDA, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Good good Sarap kreem steviaga m pähkli shok 350g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 7.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maapahklikreem-350g-2/",
+        "size": "350g",
+        "ean": "5694230257065",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5694230257065.jpg",
+        "storeName": "Sarap.pähkli kreem steviaga Good Good 350g shok.-m"
+      },
+      "selver": {
+        "price": 7.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadimaitseline-sarapuupahkli-kreem-steviaga-good-good-350g",
+        "size": "350g",
+        "ean": "5694230257065",
+        "storeUnitPrice": 20.29,
+        "storeName": "Šokolaadimaitseline sarapuupähkli kreem steviaga, GOOD GOOD, 350g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maasikamoos rõngu marjadega 1000g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 7.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maasikamoos-1kg/",
+        "size": "1000g",
+        "ean": "4741129017123",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741129017123.png",
+        "storeName": "Maasikamoos Rõngu 1kg"
+      },
+      "selver": {
+        "price": 7.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasikamoos-marjadega-rongu-1-kg",
+        "size": "1000g",
+        "ean": "4741129017123",
+        "storeUnitPrice": 7.79,
+        "storeName": "Maasikamoos marjadega, RÕNGU, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vaarikamoos rõngu marjadega 1000g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 8.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaarikamoos-1kg/",
+        "size": "1000g",
+        "ean": "4741129017161",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741129017161.png",
+        "storeName": "Vaarikamoos Rõngu 1kg"
+      },
+      "selver": {
+        "price": 8.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarikamoos-marjadega-rongu-1-kg",
+        "size": "1000g",
+        "ean": "4741129017161",
+        "storeUnitPrice": 8.79,
+        "storeName": "Vaarikamoos marjadega, RÕNGU, 1 kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Makedoonia Tahiini seesamipasta 300g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/makedoonia-tahiini-seesamipasta-300g/",
+        "size": "300g",
+        "ean": "5201049211401",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/5201049211401.png",
+        "storeName": "Tahiini seesamipasta Makedoonia 300g"
+      },
+      "selver": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tahiini-seesamipasta-makedoonia-300-g",
+        "size": "300g",
+        "ean": "5201049211401",
+        "storeUnitPrice": 15.3,
+        "storeName": "Tahiini seesamipasta, MAKEDOONIA, 300 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Good good Mustikamoos steviaga 330g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustikamoos-330g/",
+        "size": "330g",
+        "ean": "5694230483013",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5694230257010.jpg",
+        "storeName": "Mustikamoos steviaga Good Good 330g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustikamoos-steviaga-good-good-330g",
+        "size": "330g",
+        "ean": "5694230483013",
+        "storeUnitPrice": 18.15,
+        "storeName": "Mustikamoos steviaga, GOOD GOOD, 330g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Good good Good aprikoosimoos steviaga 330g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aprikoosimoos-330g/",
+        "size": "330g",
+        "ean": "5694230483020",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5694230257027.jpg",
+        "storeName": "Good Good Aprikoosimoos steviaga 330g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aprikoosimoos-steviaga-good-good-330g",
+        "size": "330g",
+        "ean": "5694230483020",
+        "storeUnitPrice": 18.15,
+        "storeName": "Aprikoosimoos steviaga, GOOD GOOD, 330g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Good good Good maasikamoos steviaga 330g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/good-good-maasikamoos-steviaga-330g/",
+        "size": "330g",
+        "ean": "5694230483006",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/5694230257003.png",
+        "storeName": "Good Good maasikamoos steviaga 330g"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasikamoos-steviaga-good-good-330g",
+        "size": "330g",
+        "ean": "5694230483006",
+        "storeUnitPrice": 17.85,
+        "storeName": "Maasikamoos steviaga, GOOD GOOD, 330g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Natty Maapähklivõie smuuud kreemjas mahe 333g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/natty-maapahklivoi-333g-kreemjas-mahe/",
+        "size": "333g",
+        "ean": "4745010436017",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/0615435425474.png",
+        "storeName": "Maapähklivõie Smuuud Natty 333g kreemjas mahe"
+      },
+      "selver": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreemjas-mahe-maapahklivoie-natty-original-333g",
+        "size": "333g",
+        "ean": "4745010436017",
+        "storeUnitPrice": 19.97,
+        "storeName": "Kreemjas mahe maapähklivõie, NATTY ORIGINAL, 333g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Natty Maapähklivõie kranži krõbisev mahe 333g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/natty-maapahklivoi-333g-krobisev-mahe/",
+        "size": "333g",
+        "ean": "4745010436024",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/0615435425481.png",
+        "storeName": "Maapähklivõie Kranži Natty 333g krõbisev mahe"
+      },
+      "selver": {
+        "price": 6.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krobisev-mahe-maapahklivoie-natty-original-333g",
+        "size": "333g",
+        "ean": "4745010436024",
+        "storeUnitPrice": 19.97,
+        "storeName": "Krõbisev mahe maapähklivõie, NATTY ORIGINAL, 333g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Good good Vaarikamoos steviaga 330g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/good-good-vaarikamoos-steviaga-330g/",
+        "size": "330g",
+        "ean": "5694230483037",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/5694230257409.png",
+        "storeName": "Vaarikamoos steviaga Good Good 330g"
+      },
+      "selver": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarikamoos-steviaga-good-good-330-g",
+        "size": "330g",
+        "ean": "5694230483037",
+        "storeUnitPrice": 18.15,
+        "storeName": "Vaarikamoos steviaga, GOOD GOOD, 330 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Küllus õuna passionimoos 400g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kullus-ouna-passionimoos-400g/",
+        "size": "400g",
+        "ean": "4741129000118",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4741129000118.png",
+        "storeName": "Küllus Õuna-passionimoos 400g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-passionimoos-kullus-400-g",
+        "cardPrice": 3.49,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "4741129000118",
+        "storeUnitPrice": 10.73,
+        "storeName": "Õuna-passionimoos, KÜLLUS, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Küllus virsiku apelsinimoos 400g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kullus-virsiku-apelsinimoos-400g/",
+        "size": "400g",
+        "ean": "4741129000132",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4741129000132.png",
+        "storeName": "Küllus Virsiku-apelsinimoos 400g"
+      },
+      "selver": {
+        "price": 4.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/virsiku-apelsinimoos-kullus-400-g",
+        "cardPrice": 3.99,
+        "cardName": "Partner",
+        "size": "400g",
+        "ean": "4741129000132",
+        "storeUnitPrice": 12.18,
+        "storeName": "Virsiku-apelsinimoos, KÜLLUS, 400 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Meveda Mesi eesti 1000g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 10.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meveda-mesi-1kg-eesti/",
+        "size": "1000g",
+        "ean": "4740250000295",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740250000295.png",
+        "storeName": "Mesi Meveda 1kg Eesti"
+      },
+      "selver": {
+        "price": 10.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-mesi-vedel-meveda-1kg",
+        "size": "1000g",
+        "ean": "4740250000295",
+        "storeUnitPrice": 10.89,
+        "storeName": "Eesti mesi vedel, MEVEDA, 1kg"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Sunfood ananassitükid kerges siirup 227g",
+    "category": "Jam & honey & spreads",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ananassitukid-227g/",
+        "size": "227g",
+        "ean": "8850228689929",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8851013019525.png",
+        "storeName": "Sunfood ananassitükid 227g kerges siirup"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ananassitukid-kerges-siirupis-sunfood-227-g-bruto",
+        "size": "227g",
+        "ean": "8850228689929",
+        "storeUnitPrice": 12.52,
+        "storeName": "Ananassitükid kerges siirupis, SUNFOOD, 227 g bruto"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Santa maria Küpsetuspulber 45g",

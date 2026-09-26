@@ -318,6 +318,37 @@ one-time conversion from the old daily-snapshot files (now deleted,
 2026-09-28) with no information lost — every real price change the
 old snapshots recorded became one compact entry.
 
+## Home screen (2026-09-28 redesign)
+
+The home screen used to be a full-page grid of every display category
+(~56 tiles), pushing the "Suurimad hinnavahed täna" and "Tavalisest
+odavam" rows below the fold on a phone. `GROUPS` in
+`frontend/catalog.js` folds those ~56 categories into about 14
+shopper-familiar groups (Puu- ja köögiviljad, Piimatooted ja munad,
+Liha ja kala, Leib ja kondiitritooted, Hommikusöök ja kuivained,
+Hoidised ja kastmed, Maiustused ja snäkid, Külmutatud toit, Joogid,
+Alkohol, Lapsed, Lemmikloomad, Kodu ja puhastus, Hügieen) — every
+`DISPLAY_CATEGORIES` id belongs to exactly one group, checked by
+`catalog.test.js`. Alkohol is its own group; it disappears entirely
+when `SHOW_ALCOHOL` is false, the identical mechanism the alcohol
+display categories already used (no product reaches it, so
+`groupsWithCounts` never returns it) — alcohol-free stays in Joogid
+and is never affected.
+
+`frontend/render.js`'s home screen is now: search bar, then ONE
+horizontally-scrolling row of round group icons (`.group-row`,
+`groupsWithCounts(products)` — CSS flexbox with `overflow-x: auto`,
+never a grid), then the two deal rows immediately below, unchanged.
+Tapping a group opens `renderGroup` at `#/g/<group id>` — subcategory
+tabs at the top ("Kõik" plus one tab per display category that
+currently has a product, from that same call's own `categories` list)
+and the product grid below for whichever tab is selected
+(`#/g/<group id>/<display category id>`). The older flat
+single-category screen (`renderCategory`, `#/c/<display category
+id>`) is untouched and still reachable — the product screen's own
+"back" link still goes there — the group screen is a new, separate
+entry point from home, not a replacement for it.
+
 ## What's here
 
 ```
@@ -328,7 +359,7 @@ minu-project/
 ├── frontend/
 │   ├── index.html               state, hash routes, loads data/prices.json; the UI language setting (localStorage "minu.lang", Estonian default)
 │   ├── render.js                 every screen as DOM-building functions (+ render.test.js on a fake document)
-│   ├── catalog.js                the DISPLAY taxonomy: Estonian category names in shopping order laid over the data categories, with splits (Fruits & vegetables -> Puuviljad/Köögiviljad, Dairy -> Piim ja jogurt/Või/Munad, Household -> four aisles) and merges (Coffee + Tea & cocoa -> Kohv ja tee); our own simple SVG line icons (+ catalog.test.js)
+│   ├── catalog.js                the DISPLAY taxonomy: Estonian category names in shopping order laid over the data categories, with splits (Fruits & vegetables -> Puuviljad/Köögiviljad, Dairy -> Piim ja jogurt/Või/Munad, Household -> four aisles) and merges (Coffee + Tea & cocoa -> Kohv ja tee); GROUPS folds those ~56 categories into ~14 home-screen groups (Puu- ja köögiviljad, Piimatooted ja munad, ...) — see "Home screen" below; our own simple SVG line icons (+ catalog.test.js)
 │   ├── i18n.js                   all UI strings in et (default), en and ru; t() fills placeholders, falls back ru -> en -> et
 │   ├── app-logic.js              search index (Estonian letters folded), price gaps, "Cheaper than usual" (never card prices), basket storage and comparison (+ app-logic.test.js)
 │   └── pricing.js                pure price logic (cheapest, tie-breaking, per-store rows, unit price) — kept separate from the DOM code so it's directly testable

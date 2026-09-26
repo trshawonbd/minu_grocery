@@ -192,18 +192,21 @@ function renderHome(root, state, actions) {
   root.appendChild(el("div", "tagline", tr(state, "tagline", { n: products.length })));
   root.appendChild(searchBar(state, actions, false));
 
-  root.appendChild(el("h2", "section-title", tr(state, "categories")));
-  const tiles = el("div", "tiles");
-  for (const { category, count } of displayCategoriesWithCounts(products)) {
-    const tile = button("tile", "", () => actions.openCategory(category.id));
-    const icon = el("div", "tile-icon");
-    icon.appendChild(categoryIconSvg(category));
-    tile.appendChild(icon);
-    tile.appendChild(el("div", "tile-name", categoryName(category, lang)));
-    tile.appendChild(el("div", "tile-count", `${count}`));
-    tiles.appendChild(tile);
+  // One horizontal, swipeable row of round group icons (2026-09-28,
+  // the owner's redesign) — replaces the old full-page grid of every
+  // display category, so the "Suurimad hinnavahed"/"Tavalisest
+  // odavam" rows below are visible on a phone without scrolling.
+  const groupRow = el("div", "group-row");
+  for (const { group, count } of groupsWithCounts(products)) {
+    const item = button("group-item", "", () => actions.openGroup(group.id));
+    const icon = el("div", "group-icon");
+    icon.appendChild(categoryIconSvg(group, "cat-icon group-icon-svg"));
+    item.appendChild(icon);
+    item.appendChild(el("div", "group-name", groupName(group, lang)));
+    item.appendChild(el("div", "group-count", `${count}`));
+    groupRow.appendChild(item);
   }
-  root.appendChild(tiles);
+  root.appendChild(groupRow);
 
   root.appendChild(el("h2", "section-title", tr(state, "biggestDifferences")));
   const row = el("div", "hrow");
@@ -318,6 +321,47 @@ function renderCategory(root, state, actions) {
   title.appendChild(el("span", "", categoryName(category, lang)));
   root.appendChild(title);
   const items = productsInDisplayCategory(visibleProducts(state.products), category.id);
+  root.appendChild(el("div", "muted", tr(state, "productsMatched", { n: items.length })));
+  const grid = el("div", "grid");
+  for (const product of items) grid.appendChild(productCard(product, state, actions));
+  root.appendChild(grid);
+}
+
+// The home screen's group page (2026-09-28) — a round-icon group
+// (e.g. "Piimatooted ja munad") opens here: subcategory tabs at the
+// top ("Kõik" plus one tab per display category that actually has a
+// product in this group right now), the product grid for whichever
+// tab is selected below. state.group is a GROUPS id, state.groupTab
+// is either null ("Kõik" — every product in the group) or one
+// DISPLAY_CATEGORIES id from that group.
+function renderGroup(root, state, actions) {
+  root.textContent = "";
+  const lang = normalizeLang(state.lang);
+  const group = groupById(state.group);
+  if (!group) { renderHome(root, state, actions); return; }
+  const products = visibleProducts(state.products);
+  const { categories } = groupsWithCounts(products).find((g) => g.group.id === group.id) || { categories: [] };
+
+  const header = el("div", "header");
+  header.appendChild(button("back", tr(state, "back", { name: tr(state, "home") }), () => actions.goHome()));
+  root.appendChild(header);
+  const title = el("h1", "screen-title");
+  title.appendChild(categoryIconSvg(group, "cat-icon title-icon"));
+  title.appendChild(el("span", "", groupName(group, lang)));
+  root.appendChild(title);
+
+  const tabs = el("div", "tab-row");
+  const allTab = button("tab" + (state.groupTab ? "" : " active"), tr(state, "allTab"), () => actions.openGroup(group.id));
+  tabs.appendChild(allTab);
+  for (const { id } of categories) {
+    const category = displayCategoryById(id);
+    if (!category) continue;
+    const tab = button("tab" + (state.groupTab === id ? " active" : ""), categoryName(category, lang), () => actions.openGroup(group.id, id));
+    tabs.appendChild(tab);
+  }
+  root.appendChild(tabs);
+
+  const items = state.groupTab ? productsInDisplayCategory(products, state.groupTab) : productsInGroup(products, group.id);
   root.appendChild(el("div", "muted", tr(state, "productsMatched", { n: items.length })));
   const grid = el("div", "grid");
   for (const product of items) grid.appendChild(productCard(product, state, actions));
@@ -500,11 +544,12 @@ function renderApp(root, nav, state, actions) {
   if (state.screen === "home") renderHome(root, state, actions);
   else if (state.screen === "search") renderSearch(root, state, actions);
   else if (state.screen === "category") renderCategory(root, state, actions);
+  else if (state.screen === "group") renderGroup(root, state, actions);
   else if (state.screen === "product") renderProduct(root, state, actions);
   else if (state.screen === "basket") renderBasket(root, state, actions);
   renderNav(nav, state, actions);
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { renderApp, renderHome, renderSearch, renderSearchResults, renderCategory, renderProduct, renderBasket, renderNav, renderError, storeLabel, categoryIconSvg, money };
+  module.exports = { renderApp, renderHome, renderSearch, renderSearchResults, renderCategory, renderGroup, renderProduct, renderBasket, renderNav, renderError, storeLabel, categoryIconSvg, money };
 }

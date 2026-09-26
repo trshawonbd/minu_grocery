@@ -537,29 +537,48 @@ about anything ambiguous.
   and never a card price) and `storeName` (the store's own listing
   title, shown in small print on the product screen).
 - `frontend/` — the app: `index.html` (state, hash routes `#/`,
-  `#/search`, `#/c/<display category id>`, `#/p/<category::name>`,
-  `#/basket`, data loading, the language setting `minu.lang` in
-  localStorage — Estonian default), `render.js` (every screen as
-  DOM-building functions, no state; all text via `t()`),
-  `catalog.js` (the DISPLAY categories: Estonian names in shopping
-  order laid over the data categories, which never change — Fruits &
-  vegetables split into Puuviljad/Köögiviljad, Dairy into Piim ja
-  jogurt/Või/Munad, Household into Nõudepesu/Pesuvahendid/
-  Puhastusvahendid/Paberitooted, Coffee + Tea & cocoa merged into
-  Kohv ja tee, Baby formula + Baby food + Diapers into Lapsed; the
-  three alcohol tiles carry `alcohol: true` and disappear on their
-  own when `SHOW_ALCOHOL` is false, because no product reaches them; a
-  data category nobody names falls back to a "Muu" tile; icons are
-  our own SVG line drawings in `ICON_PATHS`, never another app's
-  artwork), `i18n.js` (UI strings in et/en/ru; a new string goes in
-  all three), `app-logic.js` (search with Estonian letters folded,
-  price gaps, "cheaper than usual", basket math — basket lives in the
-  browser's localStorage only, key `minu.basket.v1`), `pricing.js`
-  (cheapest/tie/unit-price rules, `SHOW_STORE_IMAGES`). Tests:
-  `app-logic.test.js`, `catalog.test.js` (the display splits, order,
-  three-language names, i18n fallback), `render.test.js` (runs the real screens on a
-  tiny fake document), `pricing.test.js`. Own design, no store logos
-  — store names are coloured text labels.
+  `#/search`, `#/g/<group id>[/<display category id>]`,
+  `#/c/<display category id>`, `#/p/<category::name>`, `#/basket`,
+  data loading, the language setting `minu.lang` in localStorage —
+  Estonian default), `render.js` (every screen as DOM-building
+  functions, no state; all text via `t()`), `catalog.js` (the DISPLAY
+  categories: Estonian names in shopping order laid over the data
+  categories, which never change — Fruits & vegetables split into
+  Puuviljad/Köögiviljad, Dairy into Piim ja jogurt/Või/Munad,
+  Household into Nõudepesu/Pesuvahendid/Puhastusvahendid/
+  Paberitooted, Coffee + Tea & cocoa merged into Kohv ja tee, Baby
+  formula + Baby food + Diapers into Lapsed; the three alcohol tiles
+  carry `alcohol: true` and disappear on their own when
+  `SHOW_ALCOHOL` is false, because no product reaches them; a data
+  category nobody names falls back to a "Muu" tile; icons are our own
+  SVG line drawings in `ICON_PATHS`, never another app's artwork).
+  **Home screen (2026-09-28 redesign):** `GROUPS` in `catalog.js` folds
+  the ~56 display categories into ~14 shopper-familiar groups (Puu- ja
+  köögiviljad, Piimatooted ja munad, Liha ja kala, ... — every id
+  belongs to exactly one group, checked by `catalog.test.js`; Alkohol
+  is its own group, hidden the identical way the alcohol display
+  categories already were, when `SHOW_ALCOHOL` is false).
+  `frontend/render.js`'s home screen is search bar, then ONE
+  horizontally-scrolling row of round group icons (`groupsWithCounts`
+  — never a grid, so it never pushes "Suurimad hinnavahed"/"Tavalisest
+  odavam" below the fold on a phone), then those two deal rows
+  immediately below. Tapping a group opens `renderGroup` — subcategory
+  tabs at the top ("Kõik" plus one per display category that
+  currently has a product, via `groupsWithCounts`' own `categories`
+  list) and the product grid below for whichever tab is selected. The
+  older flat single-category screen (`renderCategory`, `#/c/`) still
+  exists unchanged (the product screen's own "back" link still uses
+  it) — the group screen is a new, separate top-level entry point from
+  home, not a replacement.  `i18n.js` (UI strings in et/en/ru; a new
+  string goes in all three), `app-logic.js` (search with Estonian
+  letters folded, price gaps, "cheaper than usual", basket math —
+  basket lives in the browser's localStorage only, key
+  `minu.basket.v1`), `pricing.js` (cheapest/tie/unit-price rules,
+  `SHOW_STORE_IMAGES`). Tests: `app-logic.test.js`, `catalog.test.js`
+  (the display splits, order, groups, three-language names, i18n
+  fallback), `render.test.js` (runs the real screens on a tiny fake
+  document), `pricing.test.js`. Own design, no store logos — store
+  names are coloured text labels.
 - `data/coverage.md` — the 2026-09-26 audit of every store
   subcategory (COVERED / EXCLUDED with reason / MISSING) and the batch
   10 proposal; refresh it by hand when a store's tree changes.

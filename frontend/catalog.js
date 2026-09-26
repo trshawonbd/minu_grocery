@@ -155,6 +155,80 @@ const ICON_PATHS = {
   glass: ["M7 3h10l-1 9a4 4 0 0 1-8 0L7 3z", "M12 16v4", "M9 20h6", "M8 7h8"],
 };
 
+// The home screen's own grouping (2026-09-28, the owner's redesign) —
+// about 15 tiles a shopper already knows, one round icon each, so the
+// whole category list no longer has to fit on the first screen. Every
+// DISPLAY_CATEGORIES id belongs to exactly one group (checked by
+// frontend/catalog.test.js) — grouping is purely a home-screen/tab
+// layer on top of the same display categories, nothing about matching
+// or a product's own category changes. "Alkoholivaba" (alcohol-free)
+// stays in Joogid, never in Alkohol, the same rule app-logic.js's
+// isAlcoholProduct already applies (alcohol-free is not alcohol).
+const GROUPS = [
+  { id: "puu-ja-koogiviljad", icon: "apple", categories: ["puuviljad", "koogiviljad"], name: { et: "Puu- ja köögiviljad", en: "Fruit & vegetables", ru: "Фрукты и овощи" } },
+  { id: "piimatooted-ja-munad", icon: "bottle", categories: ["piim-ja-jogurt", "voi", "munad", "juustud", "kohupiim", "koor", "keefir", "piimajoogid", "kohukesed"], name: { et: "Piimatooted ja munad", en: "Dairy & eggs", ru: "Молочные продукты и яйца" } },
+  { id: "liha-ja-kala", icon: "meat", categories: ["liha", "vorstid", "lihatooted", "kala"], name: { et: "Liha ja kala", en: "Meat & fish", ru: "Мясо и рыба" } },
+  { id: "leib-ja-kondiitritooted", icon: "bread", categories: ["leib-ja-sai", "koogid", "nakileivad"], name: { et: "Leib ja kondiitritooted", en: "Bread & pastries", ru: "Хлеб и кондитерские изделия" } },
+  { id: "hommikusook-ja-kuivained", icon: "grain", categories: ["hommikusook", "riis-ja-teraviljad", "pasta", "kiirtoit", "puljongid", "jahu-ja-suhkur", "kupsetamine"], name: { et: "Hommikusöök ja kuivained", en: "Breakfast & dry goods", ru: "Завтраки и бакалея" } },
+  { id: "hoidised-ja-kastmed", icon: "jar", categories: ["hoidised", "kastmed", "maailma-kook", "olid", "maitseained", "moosid-ja-maarded"], name: { et: "Hoidised ja kastmed", en: "Preserves & sauces", ru: "Консервы и соусы" } },
+  { id: "maiustused-ja-snakid", icon: "candy", categories: ["sokolaad", "maiustused", "kupsised", "snakid", "pahklid"], name: { et: "Maiustused ja snäkid", en: "Sweets & snacks", ru: "Сладости и снеки" } },
+  { id: "kulmutatud-toit", icon: "snowflake", categories: ["kulmutatud-toit", "pelmeenid-ja-pitsa", "kulmutatud-kala", "kulmutatud-taignad", "jaatis"], name: { et: "Külmutatud toit", en: "Frozen food", ru: "Замороженные продукты" } },
+  { id: "joogid", icon: "cup", categories: ["kohv-ja-tee", "mahlad-ja-joogid", "siirupid", "energiajoogid", "alkoholivaba"], name: { et: "Joogid", en: "Drinks", ru: "Напитки" } },
+  // Private testing only — hidden entirely when SHOW_ALCOHOL is false,
+  // same mechanism as the alcohol display categories themselves (no
+  // product of theirs is ever visible, so the group has a zero count
+  // and groupsWithCounts drops it below).
+  { id: "alkohol", icon: "wine", alcohol: true, categories: ["olu-ja-siider", "vein", "kange-alkohol"], name: { et: "Alkohol", en: "Alcohol", ru: "Алкоголь" } },
+  { id: "lapsed", icon: "baby", categories: ["lapsed"], name: { et: "Lapsed", en: "Baby & children", ru: "Дети" } },
+  { id: "lemmikloomad", icon: "paw", categories: ["lemmikloomad"], name: { et: "Lemmikloomad", en: "Pet food", ru: "Для питомцев" } },
+  { id: "kodu-ja-puhastus", icon: "spray", categories: ["noudepesu", "pesuvahendid", "puhastusvahendid", "paberitooted"], name: { et: "Kodu ja puhastus", en: "Home & cleaning", ru: "Дом и чистота" } },
+  { id: "hugieen", icon: "drop", categories: ["hugieen"], name: { et: "Hügieen", en: "Personal care", ru: "Гигиена" } },
+  // A data category no display category names (shouldn't happen —
+  // DISPLAY_CATEGORIES' sources cover every category in
+  // scraper/categories.js) falls into FALLBACK_CATEGORY ("muu"), which
+  // isn't in any group's own list above; groupForCategory below still
+  // finds it a home so nothing silently disappears from the home
+  // screen either.
+];
+
+function groupById(id) {
+  return GROUPS.find((g) => g.id === id) || null;
+}
+
+// The group a display category belongs to — FALLBACK_CATEGORY (never
+// listed above) goes into the last, most general-purpose group rather
+// than nowhere.
+function groupForCategory(categoryId) {
+  return GROUPS.find((g) => g.categories.includes(categoryId)) || GROUPS[GROUPS.length - 1];
+}
+
+function productsInGroup(products, groupId) {
+  const group = groupById(groupId);
+  if (!group) return [];
+  return products.filter((p) => group.categories.includes(displayCategoryFor(p).id));
+}
+
+// Groups in the order defined above, each with a live product count
+// and the display categories that actually have products right now
+// (for the group screen's tabs) — only groups with at least one
+// product are returned, the same "nothing empty on screen" rule
+// displayCategoriesWithCounts already follows.
+function groupsWithCounts(products) {
+  const byCategory = displayCategoriesWithCounts(products);
+  const countByCategoryId = new Map(byCategory.map(({ category, count }) => [category.id, count]));
+  const result = [];
+  for (const group of GROUPS) {
+    const categoriesHere = group.categories.map((id) => ({ id, count: countByCategoryId.get(id) || 0 })).filter((c) => c.count > 0);
+    const count = categoriesHere.reduce((sum, c) => sum + c.count, 0);
+    if (count > 0) result.push({ group, count, categories: categoriesHere });
+  }
+  return result;
+}
+
+function groupName(group, lang) {
+  return group.name[lang] || group.name.en || group.name.et;
+}
+
 function displayCategoryById(id) {
   return DISPLAY_CATEGORIES.find((c) => c.id === id) || null;
 }
@@ -197,5 +271,21 @@ function categoryName(category, lang) {
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { DISPLAY_CATEGORIES, ICON_PATHS, FALLBACK_CATEGORY, SPLIT_RULES, displayCategoryById, displayCategoryFor, productsInDisplayCategory, displayCategoriesWithCounts, categoryName };
+  module.exports = {
+    DISPLAY_CATEGORIES,
+    ICON_PATHS,
+    FALLBACK_CATEGORY,
+    SPLIT_RULES,
+    GROUPS,
+    displayCategoryById,
+    displayCategoryFor,
+    productsInDisplayCategory,
+    displayCategoriesWithCounts,
+    categoryName,
+    groupById,
+    groupForCategory,
+    productsInGroup,
+    groupsWithCounts,
+    groupName,
+  };
 }

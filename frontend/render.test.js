@@ -93,14 +93,26 @@ function render(state) {
 }
 
 const results = [
-  test("Home (Estonian): search bar, Estonian tiles in shopping order with the F&V and Dairy splits and our own SVG icons, both sections with badges, the Updated line, the language switch", () => {
+  test("Home (Estonian): search bar, ONE round-icon group row (2026-09-28 redesign) in shopping order — several display categories folded into each group — with our own SVG icons, both deal sections with badges, the Updated line, the language switch", () => {
     const { root, text, navText } = render(makeState({ screen: "home" }));
     assert.ok(root.find((n) => n.tagName === "input").length === 1, "one search input");
-    const tiles = root.find((n) => n.className === "tile").map((n) => n.textContent);
-    assert.deepEqual(tiles, ["Puuviljad1", "Köögiviljad1", "Piim ja jogurt1", "Või1", "Kohukesed ja magustoidud1", "Liha1", "Lapsed1"], "name + count, shopping order, hidden product not counted");
+    // 7 products land in 7 display categories, but only 4 GROUPS (a
+    // group-row item's text is its name + its live count, e.g. Dairy's
+    // two products and Curd snacks' one all fold into "Piimatooted ja
+    // munad3", not three separate tiles).
+    const groups = root.find((n) => n.className === "group-item").map((n) => n.textContent);
+    assert.deepEqual(groups, ["Puu- ja köögiviljad2", "Piimatooted ja munad3", "Liha ja kala1", "Lapsed1"], "name + count, shopping order, hidden product not counted, only groups with products");
     assert.ok(!text.includes("Dairy") && !text.includes("Fruits & vegetables"), "no English data-category names on screen");
-    const tileIcons = root.find((n) => n.tagName === "svg" && n.attributes.class === "cat-icon");
-    assert.equal(tileIcons.length, 7, "every tile has our own SVG icon");
+    assert.ok(!root.find((n) => n.className === "tiles" || n.className === "tile").length, "the old full-page category grid is gone");
+    const groupIcons = root.find((n) => n.tagName === "svg" && n.attributes.class === "cat-icon group-icon-svg");
+    assert.equal(groupIcons.length, 4, "every group has our own SVG icon");
+    // The group row must come right after the search bar, with no
+    // heading eating space above it, so the deal sections below stay
+    // visible on a phone without scrolling.
+    const topLevelClasses = root.children.map((n) => n.className);
+    const searchbarIndex = topLevelClasses.findIndex((c) => c === "searchbar");
+    const groupRowIndex = topLevelClasses.indexOf("group-row");
+    assert.ok(groupRowIndex === searchbarIndex + 1, "the group row is the very next thing after the search bar");
     assert.ok(text.includes("Suurimad hinnavahed täna"));
     assert.ok(text.includes("kuni 42% odavam"), "diapers 13.79 vs 23.88 -> 42%");
     assert.ok(text.includes("Tavalisest odavam"));
@@ -113,13 +125,13 @@ const results = [
   }),
   test("Language setting: the same screen in English and Russian, and an unknown language falls back to Estonian", () => {
     const en = render(makeState({ lang: "en" }));
-    assert.ok(en.text.includes("Categories") && en.text.includes("Fruit") && en.text.includes("Vegetables") && en.text.includes("Milk & yoghurt") && en.text.includes("Butter"));
+    assert.ok(en.text.includes("Fruit & vegetables") && en.text.includes("Dairy & eggs") && en.text.includes("Meat & fish") && en.text.includes("Baby & children"), "group names, English");
     assert.ok(en.text.includes("up to 42% cheaper") && en.text.includes("-25% at Rimi") && en.text.includes("Updated: 26.09.2026, 08:58"));
     assert.ok(en.navText.includes("Home") && en.navText.includes("Search") && en.navText.includes("Basket"));
     const ru = render(makeState({ lang: "ru" }));
-    assert.ok(ru.text.includes("Категории") && ru.text.includes("Фрукты") && ru.navText.includes("Корзина"));
+    assert.ok(ru.text.includes("Фрукты и овощи") && ru.navText.includes("Корзина"), "group names, Russian");
     const fallback = render(makeState({ lang: "xx" }));
-    assert.ok(fallback.text.includes("Kategooriad"));
+    assert.ok(fallback.text.includes("Puu- ja köögiviljad"), "an unknown language falls back to Estonian");
     const calls = [];
     const root = new FakeNode("div");
     renderApp(root, new FakeNode("nav"), makeState(), { ...actions, setLang: (l) => calls.push(l) });
@@ -150,6 +162,32 @@ const results = [
     assert.ok(veg.includes("Köögiviljad") && veg.includes("Tomat kg") && !veg.includes("Õun Granny Smith kg"));
     const fruit = render(makeState({ screen: "category", category: "puuviljad" })).text;
     assert.ok(fruit.includes("Puuviljad") && fruit.includes("Õun Granny Smith kg") && !fruit.includes("Tomat kg"));
+  }),
+  test("Group (2026-09-28 redesign): tabs are 'Kõik' plus one per display category with a product, in group order; 'Kõik' shows every product folded into the group, a tab shows only its own category, and the back button goes home", () => {
+    const withoutTab = render(makeState({ screen: "group", group: "piimatooted-ja-munad", groupTab: null }));
+    assert.ok(withoutTab.text.includes("Piimatooted ja munad"));
+    const tabLabels = withoutTab.root.find((n) => n.className === "tab" || n.className === "tab active").map((n) => n.textContent);
+    assert.deepEqual(tabLabels, ["Kõik", "Piim ja jogurt", "Või", "Kohukesed ja magustoidud"], "'Kõik' first, then group order — no empty-category tabs (only 3 of the group's 9 categories have a product)");
+    const activeTabs = withoutTab.root.find((n) => n.className === "tab active").map((n) => n.textContent);
+    assert.deepEqual(activeTabs, ["Kõik"], "'Kõik' is active with no tab selected");
+    assert.ok(withoutTab.text.includes("Alma Piim 2.5% 1000ml") && withoutTab.text.includes("Tere Või 82% 200g") && withoutTab.text.includes("Tere Kohuke vanilli 40g"), "every product across the group's categories, folded together");
+    assert.ok(withoutTab.text.includes("3 toodet võrdluses"));
+
+    const withTab = render(makeState({ screen: "group", group: "piimatooted-ja-munad", groupTab: "voi" }));
+    assert.ok(withTab.text.includes("Tere Või 82% 200g") && !withTab.text.includes("Alma Piim 2.5% 1000ml") && !withTab.text.includes("Tere Kohuke vanilli 40g"), "only the selected tab's own category");
+    assert.deepEqual(withTab.root.find((n) => n.className === "tab active").map((n) => n.textContent), ["Või"]);
+    assert.ok(withTab.text.includes("1 toodet võrdluses"));
+
+    // An unknown group id falls back to the home screen rather than
+    // crashing (a stray/old hash, or a group removed later).
+    const badGroup = render(makeState({ screen: "group", group: "does-not-exist" }));
+    assert.ok(badGroup.text.includes("Suurimad hinnavahed täna"), "falls back to home");
+
+    const calls = [];
+    const backRoot = new FakeNode("div");
+    renderApp(backRoot, new FakeNode("nav"), makeState({ screen: "group", group: "piimatooted-ja-munad" }), { ...actions, goHome: () => calls.push("home") });
+    backRoot.find((n) => n.className === "back")[0].click();
+    assert.deepEqual(calls, ["home"]);
   }),
   test("Product: image + caption, back to its display category, one row per store with coloured label, own name, Vaata poes in a new tab, Parim hind on every tied store, +X € on others, unit price, card price line, Selver note", () => {
     const { root, text } = render(makeState({ screen: "product", product: piim }));
@@ -249,15 +287,15 @@ const results = [
     const empty = render(makeState({ screen: "basket", basket: {} })).text;
     assert.ok(empty.includes("Korv on tühi"));
   }),
-  test("Actions: tapping a tile opens that display category by id; the quantity stepper calls setQuantity with the new number; the error screen is in the chosen language", () => {
+  test("Actions: tapping a group icon opens that group by id; the quantity stepper calls setQuantity with the new number; the error screen is in the chosen language", () => {
     const calls = [];
-    const spy = { ...actions, openCategory: (c) => calls.push(["cat", c]), setQuantity: (k, q) => calls.push(["qty", k, q]) };
+    const spy = { ...actions, openGroup: (g, tab) => calls.push(["group", g, tab]), setQuantity: (k, q) => calls.push(["qty", k, q]) };
     const root = new FakeNode("div");
     renderApp(root, new FakeNode("nav"), makeState({ screen: "home", basket: { [productKey(diapers)]: 1 } }), spy);
-    root.find((n) => n.className === "tile" && n.textContent.includes("Köögiviljad"))[0].click();
+    root.find((n) => n.className === "group-item" && n.textContent.includes("Puu- ja köögiviljad"))[0].click();
     const plus = root.find((n) => n.className === "qty-btn" && n.textContent === "+")[0];
     plus.click();
-    assert.deepEqual(calls[0], ["cat", "koogiviljad"]);
+    assert.deepEqual(calls[0], ["group", "puu-ja-koogiviljad", undefined]);
     assert.deepEqual(calls[1], ["qty", productKey(diapers), 2]);
     const err = new FakeNode("div");
     renderError(err, makeState({ lang: "et" }));

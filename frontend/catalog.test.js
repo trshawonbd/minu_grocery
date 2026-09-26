@@ -10,13 +10,20 @@ const {
   DISPLAY_CATEGORIES,
   ICON_PATHS,
   FALLBACK_CATEGORY,
+  GROUPS,
   displayCategoryById,
   displayCategoryFor,
   productsInDisplayCategory,
   displayCategoriesWithCounts,
   categoryName,
+  groupById,
+  groupForCategory,
+  productsInGroup,
+  groupsWithCounts,
+  groupName,
 } = require("./catalog");
 const { LANGUAGES, t, normalizeLang } = require("./i18n");
+const { visibleProducts } = require("./app-logic");
 
 function test(name, run) {
   try {
@@ -118,6 +125,70 @@ const results = [
     assert.equal(categoryName(displayCategoryById("koogiviljad"), "ru"), "Овощи");
     assert.equal(categoryName({ name: { et: "Ainult eesti" } }, "ru"), "Ainult eesti");
     assert.equal(displayCategoryById("nope"), null);
+  }),
+  test("Home-screen groups (2026-09-28 redesign): every DISPLAY_CATEGORIES id belongs to exactly one group, each group has a unique id, a distinct icon we drew ourselves, and a name in et/en/ru", () => {
+    const seen = new Map();
+    for (const g of GROUPS) {
+      for (const catId of g.categories) {
+        assert.ok(!seen.has(catId), `${catId} listed in both ${seen.get(catId)} and ${g.id}`);
+        seen.set(catId, g.id);
+      }
+    }
+    for (const c of DISPLAY_CATEGORIES) assert.ok(seen.has(c.id), `${c.id} is in no group at all`);
+    assert.equal(seen.size, DISPLAY_CATEGORIES.length, "no group names an id that isn't a real display category");
+
+    const groupIds = new Set();
+    const icons = new Set();
+    for (const g of GROUPS) {
+      assert.ok(!groupIds.has(g.id), `duplicate group id ${g.id}`);
+      groupIds.add(g.id);
+      assert.ok(!icons.has(g.icon), `icon ${g.icon} reused across groups — must be distinct`);
+      icons.add(g.icon);
+      assert.ok(Array.isArray(ICON_PATHS[g.icon]) && ICON_PATHS[g.icon].length > 0, `icon ${g.icon} for ${g.id}`);
+      for (const lang of LANGUAGES) assert.ok(g.name[lang], `${g.id} name in ${lang}`);
+      assert.equal(groupById(g.id), g);
+    }
+    assert.equal(groupById("nope"), null);
+  }),
+  test("groupForCategory: every display category maps back to the group that lists it; an id no group lists (or the synthetic Muu fallback) still gets the last, most general group rather than nothing", () => {
+    assert.equal(groupForCategory("piim-ja-jogurt").id, "piimatooted-ja-munad");
+    assert.equal(groupForCategory("puuviljad").id, "puu-ja-koogiviljad");
+    assert.equal(groupForCategory("olu-ja-siider").id, "alkohol");
+    assert.equal(groupForCategory(FALLBACK_CATEGORY.id), GROUPS[GROUPS.length - 1]);
+    assert.equal(groupForCategory("totally-unknown"), GROUPS[GROUPS.length - 1]);
+  }),
+  test("groupsWithCounts: several display categories fold into one group total, only groups with a product appear, in GROUPS order, and each group's own tab list only names categories that actually have a product", () => {
+    const products = [
+      p("Õun kg", "Fruits & vegetables"), p("Tomat kg", "Fruits & vegetables"),
+      p("Tere Või 200g", "Dairy"), p("Alma Piim 1L", "Dairy"),
+      p("Kalev šokolaad", "Chocolate"),
+    ];
+    const list = groupsWithCounts(products);
+    assert.deepEqual(list.map((x) => [x.group.id, x.count]), [["puu-ja-koogiviljad", 2], ["piimatooted-ja-munad", 2], ["maiustused-ja-snakid", 1]], "shopping order, only groups that have a product, Dairy's milk+butter folded into one group total");
+    const dairyGroup = list.find((x) => x.group.id === "piimatooted-ja-munad");
+    assert.deepEqual(dairyGroup.categories.map((c) => c.id), ["piim-ja-jogurt", "voi"], "only the two categories that have a product, not all nine of the group's categories");
+    assert.deepEqual(productsInGroup(products, "piimatooted-ja-munad").map((x) => x.name), ["Tere Või 200g", "Alma Piim 1L"]);
+    assert.deepEqual(productsInGroup(products, "no-such-group"), []);
+    assert.equal(groupName(groupById("puu-ja-koogiviljad"), "et"), "Puu- ja köögiviljad");
+    assert.equal(groupName(groupById("puu-ja-koogiviljad"), "en"), "Fruit & vegetables");
+    assert.equal(groupName({ name: { et: "Ainult eesti" } }, "ru"), "Ainult eesti");
+  }),
+  test("Alkohol group (owner's rule): present with real counts when SHOW_ALCOHOL is true, and completely absent — not just empty — when it's false, the same mechanism as the individual alcohol display categories", () => {
+    const products = [
+      p("Õun kg", "Fruits & vegetables"),
+      p("Saku Kuld 500ml", "Beer & cider"),
+      p("Andes Merlot 750ml", "Wine"),
+      p("Absolut 700ml", "Spirits"),
+    ];
+    const shown = groupsWithCounts(visibleProducts(products, true));
+    const alkohol = shown.find((x) => x.group.id === "alkohol");
+    assert.ok(alkohol, "the alcohol group is present when SHOW_ALCOHOL is true");
+    assert.equal(alkohol.count, 3);
+    assert.deepEqual(alkohol.categories.map((c) => c.id).sort(), ["kange-alkohol", "olu-ja-siider", "vein"]);
+
+    const hidden = groupsWithCounts(visibleProducts(products, false));
+    assert.equal(hidden.find((x) => x.group.id === "alkohol"), undefined, "the alcohol group tile doesn't exist at all when SHOW_ALCOHOL is false — never shown empty");
+    assert.deepEqual(hidden.map((x) => x.group.id), ["puu-ja-koogiviljad"], "the apple is still there — alcohol-free products are never affected by this flag");
   }),
   test("i18n: Estonian by default, placeholders filled, unknown language -> et, a key missing in ru falls back to en then et, a missing key returns the key", () => {
     assert.equal(normalizeLang(undefined), "et");

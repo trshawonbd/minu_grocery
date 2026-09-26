@@ -21,7 +21,7 @@
   .section-title { font-size: 15px; font-weight: 700; margin: 22px 0 10px; }
   .muted { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
   .header { display: flex; align-items: center; margin: 2px 0 6px; }
-  .back, .btn-add, .qty-btn, .qty-remove, .tile, .pcard-open, .nav-item, .basket-name {
+  .back, .btn-add, .qty-btn, .qty-remove, .group-item, .tab, .pcard-open, .nav-item, .basket-name {
     -webkit-appearance: none; appearance: none; border: none; background: none; font: inherit; color: inherit; cursor: pointer; text-align: left; padding: 0;
   }
   .back { font-size: 13px; font-weight: 600; color: var(--green); padding: 6px 10px 6px 0; }
@@ -34,18 +34,29 @@
   }
   .searchbar input:focus { border-color: var(--green); box-shadow: 0 0 0 3px var(--green-soft); }
 
-  .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 10px 8px; text-align: center; min-height: 86px; }
-  .tile:hover { border-color: var(--green); }
-  .tile-icon { display: flex; justify-content: center; }
   .cat-icon { width: 28px; height: 28px; color: var(--green); }
   .title-icon { width: 24px; height: 24px; vertical-align: -4px; margin-right: 8px; }
   .lang-switch { display: flex; align-items: center; gap: 4px; margin: 4px 0 8px; font-size: 11.5px; color: var(--muted); }
   .lang-label { margin-right: 4px; }
   .lang-btn { -webkit-appearance: none; appearance: none; border: 1px solid var(--line); background: var(--card); font: inherit; font-size: 11px; font-weight: 700; color: var(--muted); border-radius: 8px; padding: 3px 8px; cursor: pointer; }
   .lang-btn.active { color: var(--green); border-color: var(--green); background: var(--green-soft); }
-  .tile-name { font-size: 11.5px; font-weight: 600; margin-top: 6px; line-height: 1.2; }
-  .tile-count { font-size: 10.5px; color: var(--muted); margin-top: 2px; }
+
+  /* Home screen's group row (2026-09-28): one horizontal, swipeable
+     row of round group icons, replacing the old full-page grid of
+     every display category — so the deal sections below fit on the
+     first phone screen without scrolling. */
+  .group-row { display: flex; gap: 16px; overflow-x: auto; padding: 4px 2px 10px; margin: 0 -2px 4px; -webkit-overflow-scrolling: touch; }
+  .group-item { flex: 0 0 66px; display: flex; flex-direction: column; align-items: center; text-align: center; }
+  .group-icon { width: 56px; height: 56px; border-radius: 50%; background: var(--card); border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .group-item:hover .group-icon { border-color: var(--green); }
+  .group-icon-svg { width: 26px; height: 26px; }
+  .group-name { font-size: 10.5px; font-weight: 600; margin-top: 6px; line-height: 1.2; }
+  .group-count { font-size: 9.5px; color: var(--muted); margin-top: 1px; }
+
+  /* A group page's subcategory tabs ("Kõik" + one per category). */
+  .tab-row { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 4px; margin: 10px -2px 2px; -webkit-overflow-scrolling: touch; }
+  .tab { flex: 0 0 auto; font-size: 12.5px; font-weight: 600; color: var(--muted); background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 13px; white-space: nowrap; }
+  .tab.active { color: #fff; background: var(--green); border-color: var(--green); }
 
   .hrow { display: flex; gap: 10px; overflow-x: auto; padding: 2px 2px 8px; margin: 0 -2px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
   .hrow .pcard { flex: 0 0 160px; scroll-snap-align: start; }
@@ -109,7 +120,6 @@
   .nav-item.active { color: var(--green); }
   .nav-icon { display: flex; }
   .nav-svg { width: 22px; height: 22px; }
-  @media (min-width: 480px) { .tiles { grid-template-columns: repeat(4, 1fr); } }
 </style>
 </head>
 <body>
@@ -135,6 +145,8 @@
       searchIndex: [],
       screen: "home",
       category: null,   // a display category id (frontend/catalog.js)
+      group: null,       // a GROUPS id (frontend/catalog.js) — the home screen's own grouping
+      groupTab: null,    // null ("Kõik") or one display category id within that group
       product: null,
       query: "",
       basket: loadBasket(typeof localStorage !== "undefined" ? localStorage : null),
@@ -148,9 +160,14 @@
     const nav = document.getElementById("nav");
     document.documentElement.lang = state.lang;
 
-    // Routes: #/  #/search  #/c/<display category id>  #/p/<category::name>  #/basket
+    // Routes: #/  #/search  #/g/<group id>[/<display category id>]
+    // #/c/<display category id>  #/p/<category::name>  #/basket
     function routeFromHash() {
       const hash = decodeURIComponent(location.hash || "#/");
+      if (hash.startsWith("#/g/")) {
+        const [group, tab] = hash.slice(4).split("/");
+        return { screen: "group", group, groupTab: tab || null };
+      }
       if (hash.startsWith("#/c/")) return { screen: "category", category: hash.slice(4) };
       if (hash.startsWith("#/p/")) return { screen: "product", key: hash.slice(4) };
       if (hash === "#/search") return { screen: "search" };
@@ -162,6 +179,7 @@
       const route = routeFromHash();
       state.screen = route.screen;
       if (route.screen === "category") state.category = route.category;
+      if (route.screen === "group") { state.group = route.group; state.groupTab = route.groupTab; }
       if (route.screen === "product") {
         state.product = visibleProducts(state.products).find((p) => productKey(p) === route.key) || null;
         if (!state.product) state.screen = "home";
@@ -174,6 +192,7 @@
       goto(screen) { location.hash = screen === "home" ? "#/" : `#/${screen}`; },
       goHome() { location.hash = "#/"; },
       openCategory(category) { location.hash = `#/c/${encodeURIComponent(category)}`; },
+      openGroup(group, tab) { location.hash = tab ? `#/g/${encodeURIComponent(group)}/${encodeURIComponent(tab)}` : `#/g/${encodeURIComponent(group)}`; },
       openProduct(product) { location.hash = `#/p/${encodeURIComponent(productKey(product))}`; },
       setQuery(query) {
         state.query = query;

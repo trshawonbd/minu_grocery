@@ -85492,6 +85492,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hulgi-puksmahkmed-mega-pack-s5-pampers-12-17-kg-96-tk",
         "size": "96tk",
+        "ean": "8006540069509",
         "storeUnitPrice": 0.42,
         "storeName": "HULGI Püksmähkmed Mega Pack S5, PAMPERS, 12-17 kg/96 tk"
       }
@@ -85516,6 +85517,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hulgi-puksmahkmed-mega-pack-s4-pampers-9-15kg-108-tk",
         "size": "108tk",
+        "ean": "8006540069448",
         "storeUnitPrice": 0.38,
         "storeName": "HULGI Püksmähkmed Mega Pack S4, PAMPERS, 9-15kg/108 tk"
       }
@@ -85540,6 +85542,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-mega-pack-s6-pampers-84-tk",
         "size": "84tk",
+        "ean": "8006540069530",
         "storeUnitPrice": 0.48,
         "storeName": "Püksmähkmed Mega Pack S6, PAMPERS, 84 tk"
       }
@@ -85558,6 +85561,15 @@
         "storeUnitPrice": 0.54,
         "storeName": "Püksmähkm.HUGGIES ExtraCare3 6-11kg 48tk"
       },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-plat-3-p-mahk-6-11kg-48tk/",
+        "size": "48tk",
+        "ean": "5029053549293",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/5029053549293.png",
+        "storeName": "Püksmähkmed Huggies Extra Care 3 6-11kg 48tk"
+      },
       "rimi": {
         "price": 25.99,
         "currency": "EUR",
@@ -85570,11 +85582,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-extra-care-3-huggies-6-11kg-48tk",
         "size": "48tk",
+        "ean": "5029053549293",
         "storeUnitPrice": 0.56,
         "storeName": "Püksmähkmed Extra Care 3, HUGGIES, 6-11kg/48tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Huggies Extra Care Püksmähkmed S4 38tk",
@@ -85588,6 +85601,15 @@
         "storeUnitPrice": 0.68,
         "storeName": "Püksmähkm.HUGGIES ExtraCare4 9-14kg 38tk"
       },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-plat-4-p-mahk-9-14kg-38tk/",
+        "size": "38tk",
+        "ean": "5029053549323",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/5029053549323.png",
+        "storeName": "Püksmähkmed Huggies Extra Care 4 9-14kg 38tk"
+      },
       "rimi": {
         "price": 25.99,
         "currency": "EUR",
@@ -85600,11 +85622,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-extra-care-4-huggies-9-14kg-38tk",
         "size": "38tk",
+        "ean": "5029053549323",
         "storeUnitPrice": 0.71,
         "storeName": "Püksmähkmed Extra Care 4, HUGGIES, 9-14kg/38tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Huggies Extra Care Mähkmed S3 72tk",
@@ -85617,6 +85640,15 @@
         "size": "72tk",
         "storeUnitPrice": 0.22,
         "storeName": "Mähkmed HUGGIES Extra Care S3 72tk"
+      },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-soft-3-mahkmed-5-9kg-72tk/",
+        "size": "72tk",
+        "ean": "5029053578095",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/5029053578095.png",
+        "storeName": "Mähkmed Huggies Extra Care 3 6-10kg 72tk"
       },
       "rimi": {
         "price": 24.99,
@@ -85632,11 +85664,66 @@
         "cardPrice": 20.99,
         "cardName": "Partner",
         "size": "72tk",
+        "ean": "5029053578095",
         "storeUnitPrice": 0.36,
         "storeName": "Mähkmed Extra Care 3 6-10kg, HUGGIES, 72tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Püksmähkmed S4 52tk Boy",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-4-mega-boy-52tk/",
+        "size": "52tk",
+        "ean": "5029053547534",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5029053564029.jpg",
+        "storeName": "Püksmähkmed Huggies Pants LM 4 Boy 9-14kg 52tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-4-boy-9-14kg-huggies-52-tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "52tk",
+        "ean": "5029053547534",
+        "storeUnitPrice": 0.39,
+        "storeName": "Püksmähkmed Pants Little Movers 4 Boy 9-14kg, HUGGIES, 52 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Püksmähkmed S4 52tk Girl",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-4-mega-girl-52tk/",
+        "size": "52tk",
+        "ean": "5029053547541",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5029053564012.jpg",
+        "storeName": "Püksmähkmed Huggies Pants LM 4 Girl 9-14kg 52tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-4-girl-9-14kg-huggies-52-tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "52tk",
+        "ean": "5029053547541",
+        "storeUnitPrice": 0.39,
+        "storeName": "Püksmähkmed Pants Little Movers 4 Girl 9-14kg, HUGGIES, 52 tk"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Huggies Extra Care Mähkmed S4 60tk",
@@ -85649,6 +85736,15 @@
         "size": "60tk",
         "storeUnitPrice": 0.27,
         "storeName": "Mähkmed HUGGIES Extra Care S4 60tk"
+      },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-soft-4-mahkmed-8-14kg-60tk/",
+        "size": "60tk",
+        "ean": "5029053578118",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/5029053578118.png",
+        "storeName": "Mähkmed Huggies Extra Care 4 8-16kg 60tk"
       },
       "rimi": {
         "price": 24.99,
@@ -85664,11 +85760,66 @@
         "cardPrice": 20.99,
         "cardName": "Partner",
         "size": "60tk",
+        "ean": "5029053578118",
         "storeUnitPrice": 0.43,
         "storeName": "Mähkmed Extra Care 4 8-16kg, HUGGIES, 60tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Püksmähkmed S5 48tk Boy",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-pants-5-boy-mahkmed-12-17kg-48tk/",
+        "size": "48tk",
+        "ean": "5029053547619",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/5029053547619.png",
+        "storeName": "Püksmähkmed Huggies Pants LM 5 Boy 12-17kg 48tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-5-boy-12-17kg-huggies-48-tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "48tk",
+        "ean": "5029053547619",
+        "storeUnitPrice": 0.42,
+        "storeName": "Püksmähkmed Pants Little Movers 5 Boy 12-17kg, HUGGIES, 48 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Püksmähkmed S5 48tk Girl",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-pants5-girl-mahkmed-12-17kg-48tk/",
+        "size": "48tk",
+        "ean": "5029053547626",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/5029053547626.png",
+        "storeName": "Püksmähkmed Huggies Pants LM 5 Girl 12-17kg 48tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-5-girl-12-17kg-huggies-48-tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "48tk",
+        "ean": "5029053547626",
+        "storeUnitPrice": 0.42,
+        "storeName": "Püksmähkmed Pants Little Movers 5 Girl 12-17kg, HUGGIES, 48 tk"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Value Pack Mähkmed S3 60tk",
@@ -85682,6 +85833,15 @@
         "storeUnitPrice": 0.22,
         "storeName": "Mähkmed PAMPERS Premium Care s3,60tk"
       },
+      "coop": {
+        "price": 13.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-prem-midi6-10kg/",
+        "size": "60tk",
+        "ean": "4015400274780",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4015400274780.jpg",
+        "storeName": "Mähkmed Pampers Premium Care VP S3 6-10kg 60tk"
+      },
       "rimi": {
         "price": 24.49,
         "currency": "EUR",
@@ -85694,11 +85854,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tavamahkmed-premium-care-midi-3-pampers-6-10-kg-60-tk",
         "size": "60tk",
+        "ean": "4015400274780",
         "storeUnitPrice": 0.28,
         "storeName": "Tavamähkmed Premium Care Midi 3, PAMPERS, 6-10 kg/60 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Value Pack Mähkmed S4 52tk",
@@ -85712,6 +85873,15 @@
         "storeUnitPrice": 0.25,
         "storeName": "Mähkmed PAMPERS Premium Care s4,52tk"
       },
+      "coop": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-prem-care-vp-maxi-mahkmed-52tk/",
+        "size": "52tk",
+        "ean": "4015400278818",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4015400278818.png",
+        "storeName": "Mähkmed Pampers Premium Care VP S4 9-14kg 52tk"
+      },
       "rimi": {
         "price": 24.49,
         "currency": "EUR",
@@ -85724,11 +85894,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tavamahkmed-premium-care-maxi-4-pampers-9-14-kg-52-tk",
         "size": "52tk",
+        "ean": "4015400278818",
         "storeUnitPrice": 0.32,
         "storeName": "Tavamähkmed Premium Care Maxi 4, PAMPERS, 9-14 kg/52 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Mähkmed S5 44tk",
@@ -85747,6 +85918,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tavamahkmed-premium-care-junior-5-pampers-11-16-kg-44-tk",
         "size": "44tk",
+        "ean": "4015400278870",
         "storeUnitPrice": 0.38,
         "storeName": "Tavamähkmed Premium Care Junior 5, PAMPERS, 11-16 kg/44 tk"
       }
@@ -85766,6 +85938,15 @@
         "regularPrice": 21.29,
         "storeName": "Püksmähkmed PAMPERS JP S5 48tk"
       },
+      "coop": {
+        "price": 20.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-jp-s5-puksmahkmed-12-17kg-48tk/",
+        "size": "48tk",
+        "ean": "8006540069325",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/8006540069325.png",
+        "storeName": "Püksmähkmed Pampers JP S5 12-17kg 48tk"
+      },
       "rimi": {
         "price": 22.99,
         "currency": "EUR",
@@ -85780,11 +85961,112 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "48tk",
+        "ean": "8006540069325",
         "storeUnitPrice": 0.46,
         "storeName": "Püksmähkmed JP S5 48tk, PAMPERS, 48 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Box Püksmähkmed S4 72tk Boy",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 27.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-4-boy-72tk/",
+        "size": "72tk",
+        "ean": "5029053564104",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5029053564104.jpg",
+        "storeName": "Püksmähkmed Huggies Pants LM 4 Box Boy 9-14kg 72tk"
+      },
+      "selver": {
+        "price": 29.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-4-box-boy-huggies-9-14kg-72-tk",
+        "size": "72tk",
+        "ean": "5029053564104",
+        "storeUnitPrice": 0.42,
+        "storeName": "Püksmähkmed Pants Little Movers 4 Box Boy, HUGGIES, 9-14kg/72 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Box Püksmähkmed S4 72tk Girl",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 27.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-4-girl-72tk/",
+        "size": "72tk",
+        "ean": "5029053564098",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5029053564098.jpg",
+        "storeName": "Püksmähkmed Huggies Pants LM 4 Box Girl 9-14kg72tk"
+      },
+      "selver": {
+        "price": 29.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-4-box-girl-huggies-9-14-kg-72-tk",
+        "size": "72tk",
+        "ean": "5029053564098",
+        "storeUnitPrice": 0.42,
+        "storeName": "Püksmähkmed Pants Little Movers 4 Box Girl, HUGGIES,  9-14 kg/72 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Lm Box Püksmähkmed S5 68tk Boy",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 27.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-5-boy-68tk/",
+        "size": "68tk",
+        "ean": "5029053564128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5029053564128.jpg",
+        "storeName": "Püksmähkmed Huggies Pants LM 5 Box Boy 12-17kg68tk"
+      },
+      "selver": {
+        "price": 29.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-5-box-boy-huggies-12-17-kg-68-tk",
+        "size": "68tk",
+        "ean": "5029053564128",
+        "storeUnitPrice": 0.44,
+        "storeName": "Püksmähkmed Pants 5 Box Boy, HUGGIES, 12-17 kg/68 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Box Püksmähkmed S5 68tk Girl",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 27.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-5-girl-68tk/",
+        "size": "68tk",
+        "ean": "5029053564111",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5029053564111.jpg",
+        "storeName": "Püksmähkmed Huggies Pants LM 5 Box Girl12-17kg68tk"
+      },
+      "selver": {
+        "price": 29.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-5-box-girl-huggies-12-17-kg-68-tk",
+        "size": "68tk",
+        "ean": "5029053564111",
+        "storeUnitPrice": 0.44,
+        "storeName": "Püksmähkmed Pants Little Movers 5 Box Girl, HUGGIES, 12-17 kg/68 tk"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Huggies Extra Care Mähkmed S1 26tk",
@@ -85797,6 +86079,15 @@
         "size": "26tk",
         "storeUnitPrice": 0.23,
         "storeName": "Mähkmed HUGGIES Extra Care S1 2-5kg 26tk"
+      },
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-soft1-26tk/",
+        "size": "26tk",
+        "ean": "5029053564876",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/5029053564876.png",
+        "storeName": "Huggies Extra Care 1 mähkmed 2-5kg 26tk"
       },
       "rimi": {
         "price": 6.79,
@@ -85812,11 +86103,66 @@
         "cardPrice": 5.49,
         "cardName": "Partner",
         "size": "26tk",
+        "ean": "5029053564876",
         "storeUnitPrice": 0.27,
         "storeName": "Mähkmed Extra Care 1 2-5kg, HUGGIES, 2-5 kg/26 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Püksmähkmed S3 58tk Boy",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-3-mega-boy-58tk/",
+        "size": "58tk",
+        "ean": "5029053547473",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/5029053564005.png",
+        "storeName": "Püksmähkmed Huggies Pants LM 3 Boy 6-11kg 58tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-3-boy-6-11kg-huggies-58-tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "58tk",
+        "ean": "5029053547473",
+        "storeUnitPrice": 0.35,
+        "storeName": "Püksmähkmed Pants Little Movers 3 Boy 6-11kg, HUGGIES, 58 tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Püksmähkmed S3 58tk Girl",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-3-mega-girl-58tk/",
+        "size": "58tk",
+        "ean": "5029053547480",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5029053563992.jpg",
+        "storeName": "Püksmähkmed Huggies Pants LM 3 Girl 6-11kg 58tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-3-girl-6-11kg-huggies-58-tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "58tk",
+        "ean": "5029053547480",
+        "storeUnitPrice": 0.35,
+        "storeName": "Püksmähkmed Pants Little Movers 3 Girl 6-11kg, HUGGIES, 58 tk"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Mähkmed S1 26tk",
@@ -85844,6 +86190,7 @@
         "cardPrice": 4.99,
         "cardName": "Partner",
         "size": "26tk",
+        "ean": "8001841104614",
         "storeUnitPrice": 0.25,
         "storeName": "Mähkmed Premium Care S1, PAMPERS, 2-5 kg/26 tk"
       }
@@ -85876,6 +86223,7 @@
         "cardPrice": 4.99,
         "cardName": "Partner",
         "size": "23tk",
+        "ean": "8001841104652",
         "storeUnitPrice": 0.26,
         "storeName": "Mähkmed Premium Care S2, PAMPERS, 4-8 kg/ 23tk"
       }
@@ -85894,6 +86242,15 @@
         "storeUnitPrice": 0.18,
         "storeName": "Mähkmed PAMPERS Premium Care S2 68tk"
       },
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-pc-vp-s2-68tk/",
+        "size": "68tk",
+        "ean": "8001841104874",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8001841104874.jpg",
+        "storeName": "Mähkmed Pampers PC VP S2 4-8kg 68tk"
+      },
       "rimi": {
         "price": 11.99,
         "currency": "EUR",
@@ -85906,11 +86263,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahkmed-premium-care-value-pack-s2-pampers-4-8-kg-68-tk",
         "size": "68tk",
+        "ean": "8001841104874",
         "storeUnitPrice": 0.21,
         "storeName": "Mähkmed Premium Care, Value Pack S2, PAMPERS, 4-8 kg/68 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Value Pack Püksmähkmed S3 48tk",
@@ -85925,6 +86283,15 @@
         "regularPrice": 22.99,
         "storeName": "Püksmähk.PAMPERS Prem.Care s3,48tk 6-11"
       },
+      "coop": {
+        "price": 22.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-pc-vp-3-puksmahkmed-6-11kg-48tk/",
+        "size": "48tk",
+        "ean": "8001090759795",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/8001090759795.png",
+        "storeName": "Püksmähkmed Pampers PC VP S3 6-11kg 48tk"
+      },
       "rimi": {
         "price": 24.49,
         "currency": "EUR",
@@ -85937,11 +86304,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-premium-care-value-pack-s3-pampers-6-11-kg-48-tk",
         "size": "48tk",
+        "ean": "8001090759795",
         "storeUnitPrice": 0.5,
         "storeName": "Püksmähkmed Premium Care, Value Pack S3, PAMPERS, 6-11 kg/48 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Value Pack Püksmähkmed S5 34tk",
@@ -85956,6 +86324,15 @@
         "regularPrice": 22.99,
         "storeName": "Püksmähk.PAMPERS Prem.Care s5,34tk 11-17"
       },
+      "coop": {
+        "price": 22.9,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-pc-vp-5-puksmahkmed-12-17kg-34tk/",
+        "size": "34tk",
+        "ean": "8001090759870",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/8001090759870.png",
+        "storeName": "Püksmähkmed Pampers PC VP S5 11-17kg 34tk"
+      },
       "rimi": {
         "price": 24.49,
         "currency": "EUR",
@@ -85968,11 +86345,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-premium-care-value-pack-s5-pampers-11-17kg-34-tk",
         "size": "34tk",
+        "ean": "8001090759870",
         "storeUnitPrice": 0.7,
         "storeName": "Püksmähkmed Premium Care, Value Pack S5, PAMPERS, 11-17kg/34 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Value Pack Püksmähkmed S6 31tk",
@@ -85999,6 +86377,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-premium-care-value-pack-s6-pampers-15-kg-31-tk",
         "size": "31tk",
+        "ean": "8001090759917",
         "storeUnitPrice": 0.77,
         "storeName": "Püksmähkmed Premium Care, Value Pack S6, PAMPERS, 15+ kg/31 tk"
       }
@@ -86024,11 +86403,66 @@
         "cardPrice": 5.79,
         "cardName": "Partner",
         "size": "30tk",
+        "ean": "4015400536857",
         "storeUnitPrice": 0.24,
         "storeName": "Mähkmed Premium Care 0, PAMPERS, < 3 kg/30 tk"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Huggies Lm Püksmähkmed S6 44tk Boy",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-pants-6-boy-15-25kg-puksmah-44tk/",
+        "size": "44tk",
+        "ean": "5029053547657",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/5029053547657.png",
+        "storeName": "Püksmähkmed Huggies Pants LM 6 Boy 15-25kg 44tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-6-boy-huggies-15-25kg-44tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "44tk",
+        "ean": "5029053547657",
+        "storeUnitPrice": 0.46,
+        "storeName": "Püksmähkmed Pants 6 Boy, HUGGIES, 15-25kg/44tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Huggies Little Movers Lm Püksmähkmed S6 44tk Girl",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "coop": {
+        "price": 19.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-pants6-girl-15-25kg-puksmah-44tk/",
+        "size": "44tk",
+        "ean": "5029053547664",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/5029053547664.png",
+        "storeName": "Püksmähkmed Huggies Pants LM 6 Girl 15-25kg 44tk"
+      },
+      "selver": {
+        "price": 20.32,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puksmahkmed-pants-little-movers-6-girl-15-25kg-huggies-44-tk",
+        "cardPrice": 12.99,
+        "cardName": "Partner",
+        "size": "44tk",
+        "ean": "5029053547664",
+        "storeUnitPrice": 0.46,
+        "storeName": "Püksmähkmed Pants Little Movers 6 Girl 15-25kg, HUGGIES, 44 tk"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Jumbo Pack Püksmähkmed S3 62tk",
@@ -86042,6 +86476,15 @@
         "storeUnitPrice": 0.2,
         "regularPrice": 21.29,
         "storeName": "Püksmähkmed PAMPERS JP S3 62tk"
+      },
+      "coop": {
+        "price": 20.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-jp-s3-puksmahkmed-6-11kg-62tk/",
+        "size": "62tk",
+        "ean": "8006540069233",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/8006540069233.png",
+        "storeName": "Püksmähkmed Pampers JP S3 6-11kg 62tk"
       },
       "rimi": {
         "price": 22.99,
@@ -86057,11 +86500,12 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "62tk",
+        "ean": "8006540069233",
         "storeUnitPrice": 0.36,
         "storeName": "Püksmähkmed JP S3 62tk, PAMPERS, 62 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Jumbo Pack Püksmähkmed S7 38tk",
@@ -86075,6 +86519,15 @@
         "storeUnitPrice": 0.34,
         "regularPrice": 21.29,
         "storeName": "Püksmähkmed PAMPERS JP S7 38tk"
+      },
+      "coop": {
+        "price": 20.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-jp-s7-17kg-puksmahkmed-38tk/",
+        "size": "38tk",
+        "ean": "8006540069387",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/8006540069387.png",
+        "storeName": "Pampers JP S7 17kg+ püksmähkmed 38tk"
       },
       "rimi": {
         "price": 22.99,
@@ -86090,11 +86543,12 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "38tk",
+        "ean": "8006540069387",
         "storeUnitPrice": 0.59,
         "storeName": "Püksmähkmed JP S7 38tk, PAMPERS, 38 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Huggies Extra Care Mähkmed S5 50tk",
@@ -86122,6 +86576,7 @@
         "cardPrice": 20.99,
         "cardName": "Partner",
         "size": "50tk",
+        "ean": "5029053578132",
         "storeUnitPrice": 0.52,
         "storeName": "Mähkmed Extra Care 5 11-25kg, HUGGIES, 50tk"
       }
@@ -86140,6 +86595,15 @@
         "storeUnitPrice": 0.16,
         "storeName": "Mähkmed HUGGIES Extra Care S1 2-5kg,84tk"
       },
+      "coop": {
+        "price": 18.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-soft-1-mahkmed-3-5kg-84tk/",
+        "size": "84tk",
+        "ean": "5029053578057",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/5029053578057.png",
+        "storeName": "Mähkmed Huggies Extra Care 1 2-5kg 84tk"
+      },
       "rimi": {
         "price": 20.49,
         "currency": "EUR",
@@ -86152,11 +86616,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahkmed-extra-care-1-2-5kg-huggies-84tk",
         "size": "84tk",
+        "ean": "5029053578057",
         "storeUnitPrice": 0.26,
         "storeName": "Mähkmed Extra Care 1 2-5kg, Huggies, 84tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Huggies Extra Care Mähkmed S2 82tk",
@@ -86170,6 +86635,15 @@
         "storeUnitPrice": 0.16,
         "storeName": "Mähkmed HUGGIES Extra Care S2 82tk"
       },
+      "coop": {
+        "price": 18.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-soft-2-mahkmed-4-6kg-82tk/",
+        "size": "82tk",
+        "ean": "5029053578088",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/5029053578088.png",
+        "storeName": "Mähkmed Huggies Extra Care 2 3-6kg 82tk"
+      },
       "rimi": {
         "price": 20.49,
         "currency": "EUR",
@@ -86182,11 +86656,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahkmed-extra-care-2-3-6kg-huggies-82tk",
         "size": "82tk",
+        "ean": "5029053578088",
         "storeUnitPrice": 0.27,
         "storeName": "Mähkmed Extra Care 2 3-6kg, Huggies, 82tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Jumbo Pack Püksmähkmed S8 32tk",
@@ -86215,6 +86690,7 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "32tk",
+        "ean": "8006540499382",
         "storeUnitPrice": 0.7,
         "storeName": "Püksmähkmed JP S8, PAMPERS, 32tk"
       }
@@ -86222,7 +86698,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Huggies Extra Care Püksmähkmed S6 30tk",
+    "name": "Huggies Extra Care P Püksmähkmed S6 30tk",
     "category": "Diapers & baby wipes",
     "prices": {
       "barbora": {
@@ -86232,6 +86708,15 @@
         "size": "30tk",
         "storeUnitPrice": 0.87,
         "storeName": "Püksmähkm.HUGGIES ExtraCare6 15-25kg30tk"
+      },
+      "coop": {
+        "price": 24.5,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-elite-plat-6-p-mahk-15-25kg-30tk/",
+        "size": "30tk",
+        "ean": "5029053582436",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/5029053582436.png",
+        "storeName": "Huggies Extra Care 6 p/mähk 15-25kg 30tk"
       },
       "rimi": {
         "price": 25.99,
@@ -86245,11 +86730,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-extra-care-6-huggies-15-25kg-30tk",
         "size": "30tk",
+        "ean": "5029053582436",
         "storeUnitPrice": 0.9,
         "storeName": "Püksmähkmed Extra Care 6, HUGGIES, 15-25kg/30tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Premium Care Value Pack Püksmähkmed S7 27tk",
@@ -86269,6 +86755,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-premium-care-vp-s7-17-kg-pampers-17-kg-27tk",
         "size": "27tk",
+        "ean": "8006540807026",
         "storeUnitPrice": 0.88,
         "storeName": "Püksmähkmed Premium Care VP S7, 17+kg, PAMPERS,  17+kg /27tk"
       }
@@ -86287,6 +86774,15 @@
         "storeUnitPrice": 0.17,
         "storeName": "Mähkmed PAMPERS Premium Care S1 72tk"
       },
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pampers-prem-care-vp-s1-mahkmed-72tk/",
+        "size": "72tk",
+        "ean": "8006540858073",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/12/8006540858073.png",
+        "storeName": "Mähkmed Pampers Premium Care VP S1 2-5kg 72tk"
+      },
       "rimi": {
         "price": 11.99,
         "currency": "EUR",
@@ -86299,11 +86795,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahkmed-pampers-premium-care-vp-s1-2-5kg-72tk-pampers-2-5kg-72tk",
         "size": "72tk",
+        "ean": "8006540858073",
         "storeUnitPrice": 0.19,
         "storeName": "Mähkmed Pampers Premium Care VP S1 2-5kg 72tk, PAMPERS, 2-5kg 72tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Huggies Extra Care Mähkmed S2 58tk",
@@ -86328,7 +86825,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Huggies Overnights Püksmähkmed S6 22tk",
+    "name": "Huggies Overnights P Püksmähkmed S6 22tk",
     "category": "Diapers & baby wipes",
     "prices": {
       "barbora": {
@@ -86339,19 +86836,29 @@
         "storeUnitPrice": 0.64,
         "storeName": "Püksmähkm.HUGGIES Overnights S6 22tk"
       },
+      "coop": {
+        "price": 14.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-overnights-6-p-mahk-15-25kg-22tk/",
+        "size": "22tk",
+        "ean": "5029053581101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/08/5029053581101.png",
+        "storeName": "Huggies Overnights 6 p/mähk 15-25kg 22tk"
+      },
       "selver": {
         "price": 15.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-overnights-6-15-25kg-huggies-22-tk",
         "size": "22tk",
+        "ean": "5029053581101",
         "storeUnitPrice": 0.7,
         "storeName": "Püksmähkmed Overnights 6 15-25kg, HUGGIES, 22 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Huggies Overnights Püksmähkmed S4 26tk",
+    "name": "Huggies Overnights P Püksmähkmed S4 26tk",
     "category": "Diapers & baby wipes",
     "prices": {
       "barbora": {
@@ -86362,19 +86869,29 @@
         "storeUnitPrice": 0.54,
         "storeName": "Püksmähkm.HUGGIES Overnights S4 26tk"
       },
+      "coop": {
+        "price": 14.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-overnights-4-p-mahk-9-14kg-26tk/",
+        "size": "26tk",
+        "ean": "5029053581088",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/08/5029053581088.png",
+        "storeName": "Huggies Overnights 4 p/mähk 9-14kg 26tk"
+      },
       "selver": {
         "price": 15.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-overnights-4-9-14kg-huggies-26-tk",
         "size": "26tk",
+        "ean": "5029053581088",
         "storeUnitPrice": 0.6,
         "storeName": "Püksmähkmed Overnights 4 9-14kg, HUGGIES, 26 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Huggies Overnights Püksmähkmed S5 24tk",
+    "name": "Huggies Overnights P Püksmähkmed S5 24tk",
     "category": "Diapers & baby wipes",
     "prices": {
       "barbora": {
@@ -86385,16 +86902,26 @@
         "storeUnitPrice": 0.59,
         "storeName": "Püksmähkm.HUGGIES Overnights S5 24tk"
       },
+      "coop": {
+        "price": 14.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/huggies-overnights-5-p-mahk-12-17kg-24tk/",
+        "size": "24tk",
+        "ean": "5029053581095",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/08/5029053581095.png",
+        "storeName": "Huggies Overnights 5 p/mähk 12-17kg 24tk"
+      },
       "selver": {
         "price": 15.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-overnights-5-12-17kg-huggies-24-tk",
         "size": "24tk",
+        "ean": "5029053581095",
         "storeUnitPrice": 0.65,
         "storeName": "Püksmähkmed Overnights 5 12-17kg, HUGGIES, 24 tk"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Giant Pack Püksmähkmed S3 76tk",
@@ -86421,6 +86948,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-gp-s3-pampers-76-tk",
         "size": "76tk",
+        "ean": "8006540069059",
         "storeUnitPrice": 0.32,
         "storeName": "Püksmähkmed GP S3, PAMPERS, 76 tk"
       }
@@ -86452,6 +86980,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-gp-s4-pampers-66-tk",
         "size": "66tk",
+        "ean": "8006540069080",
         "storeUnitPrice": 0.37,
         "storeName": "Püksmähkmed GP S4, PAMPERS, 66 tk"
       }
@@ -86478,6 +87007,7 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "54tk",
+        "ean": "8006530316668",
         "storeUnitPrice": 0.41,
         "storeName": "Püksmähkmed Jumbo Pack S4, PAMPERS, 9-15kg/54tk"
       }
@@ -86511,6 +87041,7 @@
         "cardPrice": 14.99,
         "cardName": "Partner",
         "size": "42tk",
+        "ean": "8006530316699",
         "storeUnitPrice": 0.53,
         "storeName": "Püksmähkmed Jumbo Pack S6, PAMPERS, 13-19kg/42tk"
       }
@@ -86535,6 +87066,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-giant-pack-s5-pampers-58-tk",
         "size": "58tk",
+        "ean": "8006530320283",
         "storeUnitPrice": 0.42,
         "storeName": "Püksmähkmed Giant Pack S5, PAMPERS, 58 tk"
       }
@@ -86559,6 +87091,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-giant-pack-s7-pampers-44-tk",
         "size": "44tk",
+        "ean": "8006530320481",
         "storeUnitPrice": 0.56,
         "storeName": "Püksmähkmed Giant Pack S7, PAMPERS, 44 tk"
       }
@@ -86589,6 +87122,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-premium-care-vp-s4-pampers-40-tk",
         "size": "40tk",
+        "ean": "8006530320009",
         "storeUnitPrice": 0.6,
         "storeName": "Püksmähkmed Premium Care VP S4, PAMPERS, 40 tk"
       }
@@ -86613,40 +87147,9 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-giant-pack-s6-pampers-50-tk",
         "size": "50tk",
+        "ean": "8006530320313",
         "storeUnitPrice": 0.49,
         "storeName": "Püksmähkmed Giant Pack S6, PAMPERS, 50 tk"
-      }
-    },
-    "matchedVia": "automatic"
-  },
-  {
-    "name": "Huggies All Over Clear Niisked salvrätikud 56tk",
-    "category": "Diapers & baby wipes",
-    "prices": {
-      "barbora": {
-        "price": 2.43,
-        "currency": "EUR",
-        "url": "https://barbora.ee/toode/niisk-salv-huggies-all-over-clear-56-tk",
-        "size": "56tk",
-        "storeUnitPrice": 0.04,
-        "storeName": "Niisk. salv. HUGGIES All Over Clear 56tk"
-      },
-      "rimi": {
-        "price": 2.45,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-care-products/wet-wipes/salvratik-huggies-allovercl-univ-56tk/p/7114431",
-        "size": "56tk",
-        "storeName": "Salvrätik. Huggies AllOverCl univ,56tk"
-      },
-      "selver": {
-        "price": 2.43,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/niisked-salvratikud-all-over-clear-huggies-56tk",
-        "cardPrice": 1.69,
-        "cardName": "Partner",
-        "size": "56tk",
-        "storeUnitPrice": 0.04,
-        "storeName": "Niisked salvrätikud All Over Clear, HUGGIES, 56tk"
       }
     },
     "matchedVia": "automatic"
@@ -86675,6 +87178,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/niisked-salvratikud-beebidele-0-neutral-52tk",
         "size": "52tk",
+        "ean": "8720181238215",
         "storeUnitPrice": 0.09,
         "storeName": "Niisked salvrätikud beebidele 0%, NEUTRAL, 52tk"
       }
@@ -86707,6 +87211,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hulgi-niisked-salvratikud-sensitive-pf-4tk-pampers-4-x-52-tk",
         "size": "52tk",
+        "ean": "0223000001413",
         "storeUnitPrice": 0.03,
         "storeName": "HULGI Niisked salvrätikud Sensitive PF 4tk, PAMPERS, 4 x 52 tk"
       }
@@ -86729,8 +87234,41 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puksmahkmed-nr-5-muumi-baby-10-15-kg-38-tk",
         "size": "38tk",
+        "ean": "6414100596907",
         "storeUnitPrice": 0.47,
         "storeName": "Püksmähkmed nr 5, MUUMI BABY, 10-15 kg/38 tk"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Huggies All Over Clear Niisked salvrätikud 56tk",
+    "category": "Diapers & baby wipes",
+    "prices": {
+      "barbora": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/niisk-salv-huggies-all-over-clear-56-tk",
+        "size": "56tk",
+        "storeUnitPrice": 0.04,
+        "storeName": "Niisk. salv. HUGGIES All Over Clear 56tk"
+      },
+      "rimi": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-care-products/wet-wipes/salvratik-huggies-allovercl-univ-56tk/p/7114431",
+        "size": "56tk",
+        "storeName": "Salvrätik. Huggies AllOverCl univ,56tk"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/niisked-salvratikud-all-over-clear-huggies-56tk",
+        "cardPrice": 1.69,
+        "cardName": "Partner",
+        "size": "56tk",
+        "storeUnitPrice": 0.04,
+        "storeName": "Niisked salvrätikud All Over Clear, HUGGIES, 56tk"
       }
     },
     "matchedVia": "automatic"

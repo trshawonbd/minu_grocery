@@ -142,7 +142,7 @@ const INSTANT_FILTER = excludeWords(
   [/nuudl/, /supp/, /pud(?:er|ru)/, /püree/, /kartuli/, /(?<![\p{L}])riis/u, /roog|road/, /pasta/, /makaron/],
 );
 const WORLD_FILTER = excludeWords(
-  ["krõps", "krõp", "chips", /(?<![\p{L}])kaste(?![\p{L}])/u, "kastme", "maitseaine", /(?<![\p{L}])segu(?![\p{L}])/u, "äädik", "matt", "pulgad", "pulk", "jahu", "sushiriis", /(?<![\p{L}])riis(?![\p{L}])/u, "supisegu", "supp", "kiir", "salsa", "dipp", /(?<![\p{L}])dip(?![\p{L}])/u, "külmutatud"],
+  ["krõps", "krõp", "chips", "kaste", "kastme", "maitseaine", /(?<![\p{L}])segu(?![\p{L}])/u, "äädik", "matt", "pulgad", "pulk", "jahu", "sushiriis", /(?<![\p{L}])riis(?![\p{L}])/u, "supisegu", "supp", "kiir", "salsa", "dipp", /(?<![\p{L}])dip(?![\p{L}])/u, "külmutatud"],
   [/tortil/, /wrap/, /taco/, /nuudl/, /kookos(?:piim|kreem|jook|vesi)/, /karri\s*-?pasta|currypasta|curry\s*paste/, /riisipaber|riisileh/, /(?<![\p{L}])nori(?![\p{L}])/u, /wasabi/, /(?<![\p{L}])miso(?![\p{L}])/u, /kimchi/, /tofu/, /sushi/, /pad\s*thai/, /burrito/, /enchilada/, /fajita/],
 );
 const PASTA_NO_ASIAN = excludeWords(["thai", "riisinuudl", "klaasnuudl", "udon", "ramen", "soba", "aasia", "wok"]);

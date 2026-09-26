@@ -223,7 +223,7 @@ const INSTANT_FILTER = excludeWords(
 // soups (Instant food), salsa and dips, and non-food (sushi mats,
 // chopsticks).
 const WORLD_FILTER = excludeWords(
-  ["krõps", "krõp", "chips", /(?<![\p{L}])kaste(?![\p{L}])/u, "kastme", "maitseaine", /(?<![\p{L}])segu(?![\p{L}])/u, "äädik", "matt", "pulgad", "pulk", "jahu", "sushiriis", /(?<![\p{L}])riis(?![\p{L}])/u, "supisegu", "supp", "kiir", "salsa", "dipp", /(?<![\p{L}])dip(?![\p{L}])/u, "külmutatud"],
+  ["krõps", "krõp", "chips", "kaste", "kastme", "maitseaine", /(?<![\p{L}])segu(?![\p{L}])/u, "äädik", "matt", "pulgad", "pulk", "jahu", "sushiriis", /(?<![\p{L}])riis(?![\p{L}])/u, "supisegu", "supp", "kiir", "salsa", "dipp", /(?<![\p{L}])dip(?![\p{L}])/u, "külmutatud"],
   [/tortil/, /wrap/, /taco/, /nuudl/, /kookos(?:piim|kreem|jook|vesi)/, /karri\s*-?pasta|currypasta|curry\s*paste/, /riisipaber|riisileh/, /(?<![\p{L}])nori(?![\p{L}])/u, /wasabi/, /(?<![\p{L}])miso(?![\p{L}])/u, /kimchi/, /tofu/, /sushi/, /pad\s*thai/, /burrito/, /enchilada/, /fajita/],
 );
 
@@ -1585,7 +1585,7 @@ const CATEGORIES = [
     // on the same shelves out.
     name: "Alcohol-free beer, cider & wine",
     alcoholMatching: true,
-    impliedDescriptors: ["õlu", "hele"],
+    impliedDescriptors: ["õlu"],
     urls: {
       barbora: [
         { url: "https://barbora.ee/joogid/alkoholivabad-joogid/alkoholivabad-olled", nameFilter: ALCOHOL_FREE_ONLY },
@@ -1616,13 +1616,11 @@ const CATEGORIES = [
     // "kokteilid-segujoogid" shelves as they are.
     name: "Beer & cider",
     alcoholMatching: true,
-    // "õlu" is what the category is; "hele" (pale) is Barbora's
-    // habitual prefix on every lager ("Hele õlu SAKU Rock") that Rimi
-    // and Selver leave off — never the product's own name word (a
-    // "Saku Hele" keeps "hele" on both sides only if both print it,
-    // and loses it on both sides otherwise, so it still never matches
-    // a "Saku Kuld").
-    impliedDescriptors: ["õlu", "hele"],
+    // "õlu" is what the category is. Barbora's habitual "Hele õlu"
+    // type phrase is folded to "õlu" by a normalization pattern in
+    // match-products.js instead of implying "hele" — implying it
+    // erased the product's own name on "Saku Hele" (first scrape).
+    impliedDescriptors: ["õlu"],
     urls: {
       barbora: [
         { url: "https://barbora.ee/joogid/olu-ja-siider/heledad-olled", nameFilter: NO_ALCOHOL_FREE },

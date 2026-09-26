@@ -1281,6 +1281,32 @@ const tests = [
       assert.equal(sameProduct(chips("Barbora", "Maisipallid Nacho TAFFEL 190g"), chips("Rimi", "Maisipallid Nacho Taffel 190g")), true);
     },
   },
+  {
+    name: "Spirits: an age statement is the product (Havana Club Añejo 3YO ≠ 7YO — a real wrong match in the first batch-9 scrape), spelled 3YO/12yo/3 Year alike, one-sided never matches, and the display name shows it as '12YO'",
+    run: () => {
+      const spirits = (store, name, brand) => buildItem("Spirits", store, name, { brand });
+      assert.equal(sameProduct(spirits("Barbora", "Rumm HAVANA CLUB Anejo 3YO 37,5% 0,7l", "havana club"), spirits("Selver", "Rumm HAVANA CLUB Anejo 7YO, 70cl", "havana club")), false);
+      assert.equal(sameProduct(spirits("Barbora", "Rumm HAVANA CLUB Anejo 3YO 37,5% 0,7l", "havana club"), spirits("Selver", "Rumm HAVANA CLUB Anejo 3YO, 70cl", "havana club")), true);
+      assert.equal(sameProduct(spirits("Barbora", "Rumm FLOR DE CANA 12YO 40% 700ml", "flor de cana"), spirits("Rimi", "Rumm Flor de Cana 12yo 40% 0,7l", "flor de cana")), true);
+      assert.equal(sameProduct(spirits("Rimi", "Brandy Old Kakheti 3 Year 40% 0,5l", "old kakheti"), spirits("Selver", "Brändi OLD KAKHETI 3 Year Brandy 50cl", "old kakheti")), true);
+      assert.equal(sameProduct(spirits("Rimi", "Brandy Ararat 5YO 40% 0,5l", "ararat"), spirits("Selver", "Brändi ARARAT 3YO, 50 cl", "ararat")), false);
+      assert.equal(sameProduct(spirits("Rimi", "Brandy Ararat 5YO 40% 0,5l", "ararat"), spirits("Selver", "Brändi ARARAT, 50 cl", "ararat")), false, "age on one side only");
+      assert.equal(extractVariant("Rumm FLOR DE CANA 12YO 40% 700ml"), "12yo");
+      const { matches } = matchPool([spirits("Barbora", "Rumm FLOR DE CANA 12YO 40% 700ml", "flor de cana"), spirits("Rimi", "Rumm Flor de Cana 12yo 40% 0,7l", "flor de cana")]);
+      assert.equal(matches[0].canonicalName, "Flor de cana Rumm 40% 12YO 700ml");
+    },
+  },
+  {
+    name: "Beer: 'Hele õlu' as the type phrase folds to 'õlu' (Barbora/Selver's lager prefix vs Rimi's plain 'Õlu'), but a product's own 'Hele' (Saku Hele) stays its name — it matches itself across stores and never Saku Kuld",
+    run: () => {
+      const beer = (store, name, brand) => buildItem("Beer & cider", store, name, { brand });
+      assert.equal(sameProduct(beer("Barbora", "Hele õlu SAKU Kuld 5,2% 500ml prk", "saku"), beer("Rimi", "Õlu Saku Kuld 5,2%vol 0,5L purk", "saku")), true);
+      assert.equal(sameProduct(beer("Barbora", "Hele õlu Saku Hele 5.2% 500ml,pdl", "saku"), beer("Selver", "Õlu Hele, SAKU, 500 ml pudel", "saku")), true);
+      assert.equal(sameProduct(beer("Barbora", "Hele õlu Saku Hele 5.2% 500ml,pdl", "saku"), beer("Rimi", "Õlu Saku Kuld 5,2%vol 0,5L pdl", "saku")), false);
+      const { matches } = matchPool([beer("Barbora", "Hele õlu Saku Hele 5.2% 500ml,pdl", "saku"), beer("Selver", "Õlu Hele, SAKU, 500 ml pudel", "saku")]);
+      assert.equal(matches[0].canonicalName, "Saku hele pudel 5.2% 500ml", "the name keeps Hele");
+    },
+  },
 ];
 
 let pass = 0;

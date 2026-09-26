@@ -130,6 +130,13 @@ const NAMED_VARIANTS = [
   // a genuine cross-store Comfort-stage-2 pair would have been blocked
   // by this the same way. Both found reviewing the expanded formula
   // scrape's ambiguous groups by hand.
+  // A spirit's age statement — "3YO", "12yo", "12 Years", "3 Year",
+  // "8 aastat" — is the product: Havana Club Añejo 3YO is not Añejo
+  // 7YO. Found as a real wrong match in batch 9's first scrape: the
+  // digits are invisible to the letters-only descriptors, and the
+  // letters-only "yo" was equal on both sides. Both sides must state
+  // the same age (a one-sided age never matches, like every variant).
+  { pattern: /(?<![\p{L}\d])(\d{1,2})\s*-?\s*(?:yo|y\.o\.?|years?(?:\s+old)?|aastane|aastat|a[nñ]os)(?![\p{L}])/iu, token: (m) => `${m[1]}yo` },
   { pattern: /\bcomfort\s*(\d)\b/i, token: (m) => `comfort${m[1]}` },
   { pattern: /\bcomf(?:ort)?\b/i, token: () => "comfort" },
   { pattern: /\b(?:lv|laktoosivaba)\b/i, token: () => "lactose-free" },
@@ -858,6 +865,11 @@ const DESCRIPTOR_WORD_NORMALIZATIONS = [
   // fat % does); "alk." alone ("alk.0,0%vol") is the same leftover.
   ["vol", ""],
   ["alk", ""],
+  // The letters of an age statement ("12YO", "3 Year") — the age
+  // itself is the variant (see NAMED_VARIANTS), shown as "12YO".
+  ["yo", ""],
+  ["year", ""],
+  ["years", ""],
   // Packaging words a store abbreviates: can vs bottle stays a real
   // difference (one side saying "purk" and the other nothing never
   // matches — see the note above DESCRIPTOR_WORD_NORMALIZATIONS), but
@@ -910,6 +922,15 @@ const DESCRIPTOR_NORMALIZATION_PATTERNS = [
   // the whole-word list, whose "alk" -> "" would otherwise eat the
   // prefix first.
   { regex: /(?<![\p{L}])(?:alk(?:oh(?:oli)?)?|al)\.?\s*v(?:aba|\.)|alkovaba/giu, replacement: "alkoholivaba" },
+  // "Hele õlu" (pale beer) is Barbora's and Selver's habitual TYPE
+  // phrase on a lager ("Hele õlu SAKU Kuld", "Hele õlu Kuld, SAKU")
+  // that Rimi writes as plain "Õlu" — the phrase drops to "õlu". A
+  // product's OWN "Hele" ("Õlu Saku Hele", "Hele õlu Saku Hele") is
+  // not in that phrase position and stays a real word, so Saku Hele
+  // keeps its name and never matches Saku Kuld. (Making "hele" an
+  // implied word instead erased the name: first scrape showed "Saku
+  // pudel 5.2% 500ml".)
+  { regex: /(?<![\p{L}])hele\s+õlu(?![\p{L}])/giu, replacement: "õlu" },
 ].concat(DESCRIPTOR_WORD_NORMALIZATIONS.map(([pattern, replacement]) => ({
   // Unicode-aware word boundary — a plain \b treats a leading/trailing
   // diacritic (ö, õ, ä, ü, š) as "not a word character", so it fails
@@ -1032,9 +1053,14 @@ function extractType(name, { strictPackaging = false } = {}) {
     if (matched) return matched;
   }
 
-  const word = firstWord(stripQualityGrade(name));
+  // The same type-phrase fold the descriptors get ("Hele õlu SAKU
+  // Kuld" is an "õlu", not a "hele") — otherwise the first word "Hele"
+  // became the display name's type word ("Corona Hele extra pudel").
+  const word = firstWord(stripQualityGrade(name).replace(TYPE_PHRASE_FOLD, "õlu"));
   return word ? word.toLowerCase() : null;
 }
+
+const TYPE_PHRASE_FOLD = /(?<![\p{L}])hele\s+õlu(?![\p{L}])/giu;
 
 // A produce variety is whatever capitalized word(s) remain after the
 // type word (e.g. "Cavendish" in "Banaan Cavendish", "Granny Smith"
@@ -1724,7 +1750,8 @@ function synthesizeCanonicalName(a, b, rest = []) {
   // Named variants are internal tokens; shown in the display language
   // (Estonian) and never repeated when the word is already there.
   const VARIANT_DISPLAY = { "lactose-free": "laktoosivaba", comfort: "Comfort", ar: "AR" };
-  const shownVariant = variant == null ? null : VARIANT_DISPLAY[variant] || variant;
+  const ageMatch = typeof variant === "string" ? variant.match(/^(\d+)yo$/) : null;
+  const shownVariant = variant == null ? null : ageMatch ? `${ageMatch[1]}YO` : VARIANT_DISPLAY[variant] || variant;
   const variantText = shownVariant && !descriptorWords.includes(shownVariant.toLowerCase()) ? shownVariant : null;
   return [capitalize(brand) || "Unknown", typeName, shownDescriptorName, qualifierText || null, fatPercent ? `${fatPercent}%` : null, variantText, size]
     .filter(Boolean)

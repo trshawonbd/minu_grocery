@@ -371,7 +371,7 @@ const results = [
     assert.equal(instant("Kiirkissell maasika 50g"), false);
     const world = category("World cuisine").urls.rimi[0].nameFilter;
     for (const n of ["Nisutortilja Mehhiko Santa Maria 371g", "Maisitaskud Taco Shells SANTA MARIA 135g", "Riisinuudlid THAI-CHOICE 250g", "Kookospiim Blue Dragon 400ml", "Punane karripasta SANTA MARIA 110g", "Riisilehed EXOTIC FOOD 100g", "Ingver sushi FUDO 190g"]) assert.equal(world(n), true, n);
-    for (const n of ["Tortiljakrõpsud kerge soolaga Santa Maria 185", "Krevetikrõpsud Santa Maria 73g", "Kaste Teriyaki BLUE DRAGON 120g", "Taco maitseainesegu Santa Maria 28g", "Roheline jalapeno Rimi Planet 335/160g", "Sushiriis FUDO 500g", "Tempura jahu JAPANESE CHOICE 150g", "Sushi äädikas Japanese Choice 200ml", "Sushimatt JAPANESE CHOICE", "Kanamaitsel.kiirnuudlid THAI-CHOICE 85g", "Supisegu Tom Kha, SANTA MARIA, 30 g"]) assert.equal(world(n), false, n);
+    for (const n of ["Tortiljakrõpsud kerge soolaga Santa Maria 185", "Krevetikrõpsud Santa Maria 73g", "Kaste Teriyaki BLUE DRAGON 120g", "Sojakaste sushi Japanese Choice 200ml", "Vokikaste pad thai Santa Maria 150g", "Taco maitseainesegu Santa Maria 28g", "Roheline jalapeno Rimi Planet 335/160g", "Sushiriis FUDO 500g", "Tempura jahu JAPANESE CHOICE 150g", "Sushi äädikas Japanese Choice 200ml", "Sushimatt JAPANESE CHOICE", "Kanamaitsel.kiirnuudlid THAI-CHOICE 85g", "Supisegu Tom Kha, SANTA MARIA, 30 g"]) assert.equal(world(n), false, n);
     const pasta = category("Pasta").urls.barbora.nameFilter;
     assert.equal(pasta("Munanuudlid THAI-CHOICE 500g"), false);
     assert.equal(pasta("Makaronid nuudlid EXTRA LINE 400g"), true);

@@ -18,7 +18,24 @@ const path = require("path");
 const { loadRawPool } = require("./raw");
 const { CATEGORIES } = require("./categories");
 const { matchPool } = require("./match-products");
-const { toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
+const { prepareItem, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
+
+// The raw pool carries the category settings recorded in meta.json AT
+// SCRAPE TIME (strictPackaging, impliedDescriptors, ...). A rebuild
+// exists precisely because a rule changed since, so the CURRENT
+// settings in scraper/categories.js win: every flag is cleared and set
+// again exactly the way fetch-price.js would set it today, and the
+// signature recomputed. Found in batch 9: Beer & cider's raw meta still
+// implied "hele" after the category stopped implying it, and the
+// rebuild silently kept the old display names.
+const CATEGORY_FLAGS = ["strictPackaging", "matchAcrossWeights", "diaperMatching", "fixedWeightMustMatch", "alcoholMatching", "impliedDescriptors", "signature"];
+
+function withCurrentSettings(items, category) {
+  return items.map((item) => {
+    for (const flag of CATEGORY_FLAGS) delete item[flag];
+    return prepareItem(item, category);
+  });
+}
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -47,7 +64,7 @@ function main() {
   const freshEntries = [];
   for (const category of categories) {
     const before = existing.filter((p) => p.category === category.name).length;
-    const { matches, unmatched, ambiguous } = matchPool(loadRawPool(category.name), overrides, knownDifferent);
+    const { matches, unmatched, ambiguous } = matchPool(withCurrentSettings(loadRawPool(category.name), category), overrides, knownDifferent);
     for (const match of uniqueCanonicalNames(matches)) freshEntries.push(toProductEntry(category, match));
     console.log(`${category.name}: ${before} -> ${matches.length} matches (${unmatched.length} unmatched, ${ambiguous.length} ambiguous) — rebuilt from data/raw/, no scrape`);
   }

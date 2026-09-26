@@ -53,6 +53,11 @@ const results = [
     const mature = { [LINK]: [["2026-08-01", 90]] };
     assert.deepEqual(classifyDiscount(item({ priceMin30: null, salePrice: 70, firstSeen: "2026-08-01" }), mature, TODAY), { status: "new", refPrice: 90, newPercent: 22 });
   }),
+  test("a cent below the 30-day low (111.95 vs 111.96, a rounding gap) is NOT a new discount — under a whole percent never earns the badge", () => {
+    const r = classifyDiscount(item({ salePrice: 111.95, priceMin30: 111.96 }), {}, TODAY);
+    assert.deepEqual(r, { status: "permanent", refPrice: 111.96, newPercent: null });
+    assert.equal(classifyDiscount(item({ salePrice: 110, priceMin30: 111.96 }), {}, TODAY).status, "new", "2% below is new");
+  }),
   test("a mature history whose price never changed in the window still counts (the carry-in price), and an equal price is not new", () => {
     const mature = { [LINK]: [["2026-06-01", 70]] };
     assert.equal(classifyDiscount(item({ priceMin30: null, salePrice: 70, firstSeen: "2026-06-01" }), mature, TODAY).status, "permanent");

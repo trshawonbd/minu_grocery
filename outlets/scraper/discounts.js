@@ -42,10 +42,13 @@ function classifyDiscount(item, history, todayStr) {
 
   if (siteMin === null && !historyMature) return { status: "unknown", refPrice: null, newPercent: null };
 
-  const isNew = siteMin !== null ? (historyMature ? siteSaysNew && ourSaysNew : siteSaysNew) : ourSaysNew;
   const refPrice = siteMin !== null ? (historyMature && ourPrior !== null ? Math.min(siteMin, ourPrior) : siteMin) : ourPrior;
-  const newPercent = isNew && refPrice ? Math.round((1 - item.salePrice / refPrice) * 100) : null;
-  return { status: isNew ? "new" : "permanent", refPrice, newPercent };
+  const percent = refPrice ? Math.round((1 - item.salePrice / refPrice) * 100) : null;
+  // A cent's difference (111.95 vs 111.96, found on Kingitus.ee
+  // 2026-09-26) is a rounding gap, not a discount — never "new" below
+  // a whole percent against the 30-day low.
+  const isNew = (siteMin !== null ? (historyMature ? siteSaysNew && ourSaysNew : siteSaysNew) : ourSaysNew) && percent !== null && percent >= 1;
+  return { status: isNew ? "new" : "permanent", refPrice, newPercent: isNew ? percent : null };
 }
 
 module.exports = { classifyDiscount, WINDOW_DAYS };

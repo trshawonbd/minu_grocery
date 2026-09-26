@@ -12,7 +12,7 @@ const fs = require("fs");
 const path = require("path");
 const {
   extractNextData, parseDenimDreamPage, parseDenimDreamProducts,
-  buildKlickCategoryIndex, parseKlickProducts, parseApothekaPage, apothekaTypeAllowed,
+  buildKlickCategoryIndex, parseKlickProducts, parseApothekaPage, apothekaKeeps,
   parseEuronicsCampaignLinks, parseEuronicsCampaign, euronicsTypeFromUrl,
 } = require("./brands");
 const { fetchSection, writeOutput, listUrl, main } = require("./fetch-denim-dream");
@@ -223,23 +223,24 @@ function fixturePage(products, count = products.length, size = 50) {
     assert.deepEqual(excluded.map((e) => e.type), ["Toidulisand", "Toidulisand"]);
     assert.deepEqual(types, { Toidulisand: 2 });
   });
-  await test("Apotheka: a cosmetics card is read — 'Hind' struck (24,26 €) as regular, 'Soodushind' as sale, the -N% recomputed, link and image kept", () => {
-    const html = fixture("apotheka-cards.html").replace(/Toidulisand/g, "Kosmeetika");
+  await test("Apotheka: a cosmetics card (a 'Tervisetoode' whose NAME says šampoon) is read — 'Hind' struck (24,26 €) as regular, 'Soodushind' as sale, the -N% recomputed, link and image kept", () => {
+    const html = fixture("apotheka-cards.html").replace(/Toidulisand/g, "Tervisetoode").replace("FORMULA VITALE D-VIT PÄIKESEPÄRLID 4000IU N120</h3>", "VICHY DERCOS ŠAMPOON 200ML</h3>");
     const { items } = parseApothekaPage(html);
     assert.equal(items.length, 1, "the out-of-stock one is still dropped");
     const [item] = items;
     assert.equal(item.regularPrice, 24.26);
     assert.equal(item.salePrice, 12.15);
     assert.equal(item.discountPercent, 50);
-    assert.equal(item.type, "Kosmeetika");
+    assert.equal(item.type, "Tervisetoode");
     assert.equal(item.link, "https://www.apotheka.ee/formula-vitale-d-vit-paikeseparlid-4000iu-n120-pmm0164114ee");
     assert.ok(item.image.startsWith("https://www.apotheka.ee/media/catalog/product/"));
-    assert.equal(item.name, "FORMULA VITALE D-VIT PÄIKESEPÄRLID 4000IU N120");
+    assert.equal(item.name, "VICHY DERCOS ŠAMPOON 200ML");
   });
-  await test("apothekaTypeAllowed: medicine/supplement/health/vitamin types and anything unknown are out; cosmetics and hygiene wording is in; a medicine word wins over a cosmetics word", () => {
-    for (const t of ["Käsimüügiravim", "Toidulisand", "Tervisetoode", "Vitamiinid", "Meditsiiniseade", "Test", null, "Muu"]) assert.equal(apothekaTypeAllowed(t), false, `${t} out`);
-    for (const t of ["Kosmeetika", "Hügieenitoode", "Näokreem", "Šampoon", "Hambapasta", "Deodorant", "Päikesekaitse", "Intiimhügieen", "Beebihooldus"]) assert.equal(apothekaTypeAllowed(t), true, `${t} in`);
-    assert.equal(apothekaTypeAllowed("Ravimkosmeetika"), false, "'ravim' inside the word keeps it out — a person decides, not a guess");
+  await test("apothekaKeeps (the owner's rule, 2026-09-26): a medicine/supplement/veterinary/aid TYPE is always out; within 'Tervisetoode' the NAME decides — a cosmetics/hygiene word or a known cosmetics brand keeps it, a medical word or an unclear name drops it", () => {
+    for (const t of ["Käsimüügiravim", "Toidulisand", "Veterinaarravim", "Abivahend", "Meditsiiniseade", null]) assert.equal(apothekaKeeps(t, "NIVEA KREEM 50ML"), false, `${t} out`);
+    for (const n of ["VICHY DERCOS ŠAMPOON 200ML", "BIODERMA SENSIBIO H2O MITSELLAARVESI 500ML", "SENSODYNE HAMBAPASTA 75ML", "REXONA DEODORANT 150ML", "LA ROCHE-POSAY ANTHELIOS SPF50 50ML", "LIBRESSE HÜGIEENISIDE N10", "CERAVE NIISUTAV KREEM 340G"]) assert.equal(apothekaKeeps("Tervisetoode", n), true, `${n} in`);
+    for (const n of ["OMRON M3 VERERÕHUMÕÕTJA", "TERMOMEETER DIGITAALNE", "PÕLVE TUGISIDE M", "HANSAPLAST PLAASTER N20", "COVID-19 ANTIGEENI TEST N1", "MEDISOFT SOOJENDUSPADI", "UNKNOWN THING 100ML"]) assert.equal(apothekaKeeps("Tervisetoode", n), false, `${n} out`);
+    assert.equal(apothekaKeeps("Tervisetoode", "BEPANTHEN HAAVA KREEM 30G"), false, "a medical word wins over a cosmetics word");
   });
 
   // --- Euronics (real campaign-page excerpt, fixtures/euronics-cards.html) ---

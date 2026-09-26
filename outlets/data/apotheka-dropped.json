@@ -1,0 +1,3312 @@
+{
+ "scrapedAt": "2026-09-26T14:13:35.459Z",
+ "types": {
+  "Toidulisand": 340,
+  "Tervisetoode": 1037,
+  "Käsimüügiravim": 151,
+  "Abivahend": 1,
+  "Veterinaarravim": 4
+ },
+ "dropped": [
+  {
+   "sku": "PMM0164114EE",
+   "name": "FORMULA VITALE D-VIT PÄIKESEPÄRLID 4000IU N120",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0215598EE",
+   "name": "VITIRON KIDS SCHOOL NÄRIMISPADJAKESED N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0255668EE",
+   "name": "URINAL D-MANNOSE LAHUSTUVAD TBL N14",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0224290EE",
+   "name": "APROPOS TOSSE KÖHASIIRUP TÄISKASVANUTELE 150ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0231442EE",
+   "name": "BERTILS MELATONIN 1,9 MG VALERIANA&PASSIFLORA N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0213656EE",
+   "name": "HYDRO FORTE LAHUSTUV PULBER N3+N3",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214695EE",
+   "name": "OILESEN VITAMIIN D3 TILGAD 400IU 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0222920EE",
+   "name": "AQUAMAG+B6 LAHUS N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0288002EE",
+   "name": "IMMUNOHOT N6",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0137212EE",
+   "name": "BIO CA+K+MG+ZN+VITAMIIN D3 PULBER N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214694EE",
+   "name": "OILESEN VITAMIIN D3 ÕLIKAPSLID 1000IU N80",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224370EE",
+   "name": "BIO MAGNIS B6 PREMIUM PULBER N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0247429EE",
+   "name": "MAGNULIN N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0251736EE",
+   "name": "COLLAGENA 10 000 BEAUTY N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252807EE",
+   "name": "HIPOCRAT RELAXIUM N10 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0260071EE",
+   "name": "MAGNUS REX150 N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0288012EE",
+   "name": "SPORT&BCAA 2:1:1 + ELEKTROLÜÜDID N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0288003EE",
+   "name": "SPORT & CREATINE N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0010330EE",
+   "name": "ENTEROL SUUKAUDSE SUSPENSIOONI PULBER 250MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0045919EE",
+   "name": "MYRTOL GASTRORESIST KAPSEL 120MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0132977EE",
+   "name": "A. VITAMIIN D3 KAPSLID 30MCG N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0135694EE",
+   "name": "DECATYLEN NATURAL SPRAY 20ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0137211EE",
+   "name": "BIO MAGNEESIUM+BIO KAALIUM PULBER N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0151244EE",
+   "name": "BIO MAGNEESIUM+BIO KAALIUM SPORT&CARDIO PULBER N14",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0162390EE",
+   "name": "BIO MAGNEESIUM FORTE 500MG PULBER N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0152576EE",
+   "name": "VITIRON KIDS IMMUNITY NÄRIMISPADJAKESED N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0162389EE",
+   "name": "BIO TSINK 30MG PULBER N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0150469EE",
+   "name": "FORMULA VITALE KIDS+ D 20MCG KUMMIKARUKESED N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0209778EE",
+   "name": "ATLANT LAHUSTUV PULBER N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0210906EE",
+   "name": "VITIRON KIDS GROW UP NÄRIMISPADJAKESED N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0209780EE",
+   "name": "Ferrum acerola N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0212927EE",
+   "name": "YOMI PUNANE PÄEVAKÜBAR+TARUVAIK KARUKE N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214691EE",
+   "name": "OILESEN FORTE VITAMIIN D3 ÕLIKAPSLID 4000IU N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0213503EE",
+   "name": "A. MAGNEESIUM +VITAMIIN B6 TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0222923EE",
+   "name": "REBRAIN+ KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0222924EE",
+   "name": "VENOLEGS PULBER N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224371EE",
+   "name": "BIO MAGNEESIUM+BIO KAALIUM SPORT&JOINTS PULBER N14 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0237790EE",
+   "name": "SYMBIOSYS SERENITAS KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0245266EE",
+   "name": "VALERMAX 500MG+MG N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244689EE",
+   "name": "SALUTIL HYDRA LAHUSTUV PULBER APELSINIMAITSELINE N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0226240EE",
+   "name": "BIO GLUCOSAMINE MARINE 1,5G N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248006EE",
+   "name": "SPORT&HYDRO+ N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0245552EE",
+   "name": "PROVISOR MAGNESIUM PREMIUM N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248007EE",
+   "name": "SPORT&AMINO W.H.O N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0251738EE",
+   "name": "COLLAGENA 10 000 JOINTS N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252528EE",
+   "name": "HUMER NINAHÜGIEENI JAOKS IMIKUTELE/LASTELE 150ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0252808EE",
+   "name": "HIPOCRAT SILICIUM N14 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252810EE",
+   "name": "HIPOCRAT SPORTUS N14 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252809EE",
+   "name": "HIPOCRAT SKINDRINK N14 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0261273EE",
+   "name": "IMUNO C + ECHINACEA + GINGER N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0260070EE",
+   "name": "MAGNUS REX300 N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0253630EE",
+   "name": "FORMULA VITALE C-VIT PROLONG TBL 1000MG N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0240387EE",
+   "name": "A. ICELAND MOSS THROAT PASTILLES N24",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0258819EE",
+   "name": "PROVISOR BEAUTY GUMMIES N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0288013EE",
+   "name": "INULIN N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0288001EE",
+   "name": "CIDERLIN N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0287997EE",
+   "name": "MAGNE B6 FAST N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0148225EE",
+   "name": "LIVERTA XR KAPSLID N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0250413EE",
+   "name": "MELAFERA ÖÖRAHU KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0137199EE",
+   "name": "URINAL AKUT TBL N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0157909EE",
+   "name": "DECATYL NATURAL LOSENG N12",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0238294EE",
+   "name": "TERMOMEETER DIGITAALNE MICROLIFE COMPACT MT16F1",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0261425EE",
+   "name": "MABELLE PRECONCEPTION KAPSLID  N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0285265EE",
+   "name": "VITAMIN D3 PRO EXPERT 4000IU FORTE KAPSLID N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0218854EE",
+   "name": "ATEROLIP COMPLEX KAPSLID N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0218855EE",
+   "name": "ATEROLIP COMPLEX KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0285264EE",
+   "name": "VITAMIN D3 PRO EXPERT 2500IU FORTE KAPSLID N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0056615EE",
+   "name": "DUREX PLAY LUBRIKANT GEEL ORIGINALS 50ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0093485EE",
+   "name": "A. PIPRAPLAASTER 12X16CM",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0140785EE",
+   "name": "CICASILVER PIHUSTI 125ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0214705EE",
+   "name": "VERSAN SHOTS 10ML N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0082613EE",
+   "name": "PROBACT+B RPH KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0103527EE",
+   "name": "OCUHYL C SILMATILGAD 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0146647EE",
+   "name": "VITAMIN D3 PRO EXPERT 400IU TILGAD KÖÖMNEÕLIGA 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0156912EE",
+   "name": "VITIRON D3 OLIVE SUN SPREI 1000IU 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0203139EE",
+   "name": "Liverta Forte TBL N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214706EE",
+   "name": "BIOCELL BEAUTY SHOTS 25ML N14",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214697EE",
+   "name": "GASTROVAL FLUXUS KAPSLID N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0219287EE",
+   "name": "CITROMAX AKUT KAPSLID N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0216097EE",
+   "name": "A. RAHUSTAV KOMPLEKS TBL N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0222328EE",
+   "name": "WALMARK GLUCOSAMINE+COLLAGEN FORTE TBL N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0235460EE",
+   "name": "VITAMIN C PRO EXPERT + IMMUNO NÄRIMISTBL N45",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0237091EE",
+   "name": "WALMARK DIALEVEL TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244240EE",
+   "name": "VITIRON D3+OMEGA3 STRONG KAPSLID 4000IU N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0250787EE",
+   "name": "RÕÕM MAGNEESIUM + B6 N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0255511EE",
+   "name": "PROVISOR LIPOSOMAL MELATONIN 1,9MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0261424EE",
+   "name": "WALMARK NUTRIPACK IMMUNO N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0258917EE",
+   "name": "VITAMIN C PRO EXPERT + BOULARDII KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0073935EE",
+   "name": "FEROGLOBIN B12 CAPS N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0073943EE",
+   "name": "IMMUNACE TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0092643EE",
+   "name": "PROBACT-RATIOPHARM PULV N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0097636EE",
+   "name": "DUREX KONDOOMID FEEL THIN N3",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0098448EE",
+   "name": "A. KALTSIUM+D3+MG+ZN TABLETID N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0099465EE",
+   "name": "OCUTEIN FORTE KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0102556EE",
+   "name": "WALMARK KROOM TBL FORTE 200MCG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0104693EE",
+   "name": "VITIRON ACTIVE SUSCAPS KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0106257EE",
+   "name": "CICCARELLI SOOLATÜÜKA EEMALDAMISEKS KÜLMRAVI 75ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0107264EE",
+   "name": "ALOE VERA GEEL LIFEPLAN 200ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0108488EE",
+   "name": "BRONCOPHEN AEROL SUUÕÕNESPREI 290MG+290MG 15ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0109302EE",
+   "name": "OCUTEIN BRILLANT KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0114269EE",
+   "name": "OCUTEIN RETIN luteiin kapslid N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0117331EE",
+   "name": "FORMULA VITALE WOMAN+ KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0137269EE",
+   "name": "LAGOSA TBL 150MG N25",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0139154EE",
+   "name": "WALMARK MEGA VITAMIN D 2000IU KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0141700EE",
+   "name": "RÕÕM VITAMIIN D3 25MCG TILGAD 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0146649EE",
+   "name": "VITAMIN D3 PRO EXPERT 4000IU TILGAD KÖÖMNEÕLIGA 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0137270EE",
+   "name": "LAGOSA TBL 150MG N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0150697EE",
+   "name": "RÕÕM KOENSÜÜM Q10 C-VITAMIINIGA 100MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0152598EE",
+   "name": "MAGVIT PLUS TBL N42",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0156911EE",
+   "name": "VITIRON D3 OLIVE SUN SPREI 2000IU 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0156910EE",
+   "name": "VITIRON D3 OLIVE SUN SPREI 4000IU 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0150683EE",
+   "name": "FORMULA VITALE KIDS+ MEGA KUMMIKARUKESED N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0167595EE",
+   "name": "VITAMIN D3 PRO EXPERT 2500IU NAISTELE KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0168441EE",
+   "name": "WALMARK MEGA VITAMIN D 4000IU FORTE KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0168463EE",
+   "name": "WALMARK SUPER VITAMIN C PROLONG 600MG TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0178074EE",
+   "name": "OCUTEIN SENSITIVE PLUS SILMATILGAD 15ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0178254EE",
+   "name": "WALMARK MELATONIIN PLUS TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0174129EE",
+   "name": "FORMULA VITALE MG DIREKT 400 + B-VIT PLV N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0188955EE",
+   "name": "VITAMIN D3 PRO EXPERT 4000IU IMMUNO KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0189158EE",
+   "name": "VITAMIN C PRO EXPERT+TSINK KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0190265EE",
+   "name": "SYSTANE ULTRA SÄILITUSAINETA NIISUTAVAD SILMATILGAD 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0177667EE",
+   "name": "FORMULA VITALE D-VIT PÄIKESEPÄRLID 4000IU N40",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0178803EE",
+   "name": "RÕÕM VITAMIIN B12 SUUKAUDNE SPREI 240 MCG 20ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0204122EE",
+   "name": "KIN PROTEESITOPS N1",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0203140EE",
+   "name": "VITAMIN D3 PRO EXPERT 800IU NÖÖBIKOMMID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0206072EE",
+   "name": "VITIRON KIDS SPORT KUMMIKOMMID N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0209624EE",
+   "name": "FORMULA VITALE D-VIT PÄIKESEPÄRLID 2500IU N120",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0209625EE",
+   "name": "FORMULA VITALE D-VIT PÄIKESEPÄRLID 2500IU N40",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214702EE",
+   "name": "SMARTHIT IV FERRUM LIQUID LIPOSOOMNE 150ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0216151EE",
+   "name": "SmartHit IV® Ferrum kapslid N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0216127EE",
+   "name": "BIONIKE SUN TABLETID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0216299EE",
+   "name": "ZOVACOR FORTE KAPSLID N75",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0197726EE",
+   "name": "RÕÕM SILMAVITAMIINID FORTE TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0197725EE",
+   "name": "RÕÕM RAUD 25MG TBL N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0216371EE",
+   "name": "ZOVACOR KAPSLID N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0213911EE",
+   "name": "RÕÕM VITAMIIN D3 SPREI 2500 IU (62,5MCG) 22,5 ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0197715EE",
+   "name": "RÕÕM GLÜKOOSAMIIN KONDROITIIN MSM TBL N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214218EE",
+   "name": "A. GLÜKOOSAMIIN KONDROITIINIGA 500/400MG TBL N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0217423EE",
+   "name": "STRONG NATURE KOENSÜÜM Q10 CAPS 30MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0217424EE",
+   "name": "STRONG NATURE KOENSÜÜM Q10 STRONG CAPS 100MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0214746EE",
+   "name": "RÕÕM VITAMIIN D3 4000 IU (100 MCG) KAPSLID N80",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0197729EE",
+   "name": "RÕÕM VITAMIIN C MITTEHAPPELINE TBL 300MG N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0197730EE",
+   "name": "RÕÕM VITAMIIN D3 50MCG KAPSLID N80",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0226022EE",
+   "name": "A. VITAMIIN B12 1000MCG+ FOOLHAPE 400MCG TBL N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0228526EE",
+   "name": "VITAMIN D3 PRO EXPERT 4000IU SENIOR ÕLIKAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0225967EE",
+   "name": "FORMULA VITALE LACTO+ STRONG KAPSLID N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224288EE",
+   "name": "APROPOS VOX DEFENS PASTILLID MESI JA SIDRUN N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0224289EE",
+   "name": "APROPOS VOX DEFENS PASTILLID MENTOOL JA EUKALÜPT N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0224918EE",
+   "name": "FORMULA VITALE TSINK 25 MG LAH TBL N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0237092EE",
+   "name": "PROVISOR VITAMIIN C + TSINK 25MG N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0238839EE",
+   "name": "MAGVIT GO LAHUS N8",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0233328EE",
+   "name": "FORMULA VITALE VISION+ KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0232405EE",
+   "name": "RÕÕM VITAMIIN C 500 MG + TSINK 25 MG PROLONGEERITUD TBL N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0240252EE",
+   "name": "CUMLAUDE DRENAQUA KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0241452EE",
+   "name": "DITEL CBD GEEL 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0245398EE",
+   "name": "MABELLE PREGNACY KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0241665EE",
+   "name": "CITROMAX AKUT KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0245553EE",
+   "name": "PROVISOR SELENIUM PLUS 200MCG N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0243540EE",
+   "name": "RÕÕM NÄRVISÜSTEEMI TBL N60 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0247368EE",
+   "name": "LUXADOR IMMUSTAR VITAMIIN D3 ÕLIKAPSLID 4000IU N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0247366EE",
+   "name": "LUXADOR MILADY VITAMIIN D3 ÕLIKAPSLID 4000IU NAISTELE N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0247367EE",
+   "name": "LUXADOR VULCANO VITAMIIN D3 ÕLIKAPSLID 4000IU MEESTELE N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0242089EE",
+   "name": "RÕÕM OOMEGA-3-KALAÕLI + Q10 + D3 + E KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0238956EE",
+   "name": "FORMULA VITALE CARDIO+ TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0249507EE",
+   "name": "RÕÕM BOULARDII KAPSLID 300MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0243502EE",
+   "name": "RÕÕM VITAMIIN B KOMPLEKS TBL N60 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252566EE",
+   "name": "PROVISOR VITAMIIN D3 KAPSLID VIINAMARJASEEMNEÕLIGA 4000IU N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0253423EE",
+   "name": "PROVISOR BIOTIN PREMIUM 10000MCG N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0254551EE",
+   "name": "Zovacor Forte Qmax N60 tabletid",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0254487EE",
+   "name": "PROVISOR SLEEP WELL GUMMIES N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252010EE",
+   "name": "PROVISOR VITAMIIN C KUMMIKOMMID 80MG N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0256216EE",
+   "name": "FORMULA VITALE KIDS+ D 400IU PÄIKESETILGAD 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0250639EE",
+   "name": "FORMULA VITALE KIDS+ MULTI KUMMIKARUKESED N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0258943EE",
+   "name": "RÕÕM Q10 100MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0258798EE",
+   "name": "MAGNESIUM PRO EXPERT N:RO NÄRIMISTBL APELSINI N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0279168EE",
+   "name": "VITAMIN C PRO EXPERT+RAUD BOOSTER KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0264337EE",
+   "name": "RÕÕM MAKSAKAPSLID N30 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0280766EE",
+   "name": "FORMULA VITALE D-VIT PÄIKESETILGAD 4000IU 10ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0280765EE",
+   "name": "FORMULA VITALE D-VIT PÄIKESESPREI 4000IU 20ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0285166EE",
+   "name": "FERRONOL 250ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0285167EE",
+   "name": "FERRONOL 500ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0264640EE",
+   "name": "RÕÕM MULTIVITAMIIN PROLONGEERITUD TBL N60 UUS",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0288099EE",
+   "name": "BERTILS VASK 2MG N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252377EE",
+   "name": "A. OMEGA 3 + D3 KAPSLID N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0285227EE",
+   "name": "VITAMIN D3 PRO EXPERT 1800IU JUNIOR KUMMIKOMMID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0133306EE",
+   "name": "LIVERTA XR KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0165876EE",
+   "name": "ORSALIT REHÜDR SUUKAUDSE LAHUSE PULBER  N10 VAARIKAMAITSELINE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0214440EE",
+   "name": "NORDAID VITAMIIN C LIPOSOOMNE 1000MG 3ML N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0216468EE",
+   "name": "URINAL WALMARK D-MANNOSE TBL N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0238312EE",
+   "name": "VERERÕHUAPARAAT MICROLIFE TÄISAUT BP B6 CONNECT ÕLAVARRELE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0080876EE",
+   "name": "SALUS FLORADIX MAGNEESIUM 250ML ÜRDI-MAHLAKONTSENTRAAT",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0142513EE",
+   "name": "COMPLIFLORA FAMILY+  PLV N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0145985EE",
+   "name": "FARINGO'S LOLLIPOPS N5 ASTELPAJU PULGAKOMMID C-VITAMIINIGA",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0240943EE",
+   "name": "ELLIPS SHINY BLACK JUUSKEVITAMIINID PEALEMÄÄRITAVAD 1ML N8",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0240937EE",
+   "name": "ELLIPS SMOOTH&SILKY JUUSKEVITAMIINID PEALEMÄÄRITAVAD 1ML N50",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0244314EE",
+   "name": "GINKGO BILOBA TINKTUUR 40ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0249067EE",
+   "name": "NORDAID SLEEP AID STRONG MELATONIIN 1,95MG 30ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0065175EE",
+   "name": "DUREX KONDOOMID PLEASUREMAX N3",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0152041EE",
+   "name": "TERMOMEETER MICROLIFE KONTAKTIVABA NC200",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0208052EE",
+   "name": "DUREX NATURALS LUBRIKANT 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0250250EE",
+   "name": "VALIDOL PLUS sprei",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0249404EE",
+   "name": "DUREX KONDOOMID SENSUAL N10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0091562EE",
+   "name": "COMPEED VILLE ENNETAV PULK 8ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0097541EE",
+   "name": "DUREX PLAY LUBRIKANT 2IN1 YLANG YLANG MASSAGE GEEL 200ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0110917EE",
+   "name": "DUREX PLAY LUBRIKANT 2IN1 ALOE VERA GEEL 200ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0110924EE",
+   "name": "DUREX KONDOOMID MUTUAL PLEASURE N3",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0147381EE",
+   "name": "PROENZI ARTHROSTOP INTENSIVE TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0204076EE",
+   "name": "MAXIVITA LASTE MULTIVITAMIIN + TERNESPIIM TBL N45",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0240286EE",
+   "name": "KIDSMED FÜSIOLOOGILINE SOOLALAHUS 5ML N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0249402EE",
+   "name": "DUREX KONDOOMID PLEASUREMAX N10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0249406EE",
+   "name": "DUREX KONDOOMID SENSUAL NO LATEX N3",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0249405EE",
+   "name": "DUREX KONDOOMID SENSUAL NO LATEX  N10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0115662EE",
+   "name": "URINAL KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244065EE",
+   "name": "VERSAN STRONG SHOTS 5 IN 1 N14",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0007931EE",
+   "name": "AGNUCASTON TBL 4MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0071958EE",
+   "name": "NUROFEN FORTE KAETUD TBL 400MG N12",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0083912EE",
+   "name": "MAGNESIUM-DIASPORAL 300 DIREKT GRAN N20 (27G)",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0088680EE",
+   "name": "RINOPANTEINA NINATILGAD 30ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0098336EE",
+   "name": "RINOPANTEINA NINASALV 10G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0103484EE",
+   "name": "CALCIT TBL N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0106658EE",
+   "name": "CANEPHRON KAETUD TBL 18MG+18MG+18MG N60",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0106748EE",
+   "name": "URINAL SIIRUP 150ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0110766EE",
+   "name": "CARDILONG KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0111265EE",
+   "name": "HEPALONG CAPS N30 (BLISTER)",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0112002EE",
+   "name": "LEVODONNA TBL 1500MCG N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0112925EE",
+   "name": "PROENZI ARTHROSTOP RAPID TBL N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0115661EE",
+   "name": "URINAL KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0117803EE",
+   "name": "MAGNESIUM-DIASPORAL 400 EXTRA DIREKT GRAANULID N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0121448EE",
+   "name": "VOLTAREN EMULGEL GEEL 23,2MG/G 150G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0127194EE",
+   "name": "DOCTOR FISH KALAÕLIKAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0130263EE",
+   "name": "SINUPRET EXTRACT KAETUD TBL 12+36+36+36+36MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0133363EE",
+   "name": "SILVADEPREX KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0133932EE",
+   "name": "D-VITAMIIN ÕLIKAPSLID 100MCG N200",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0134009EE",
+   "name": "TERMOMEETER DIAGNOSTIC DIGITAALNE T-01",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0135528EE",
+   "name": "LINEX BABY TILGAD 8ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0135602EE",
+   "name": "VITAMIIN B12 1000MCG KAPSLID N120",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0138174EE",
+   "name": "SOLEMAX NEURO KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0146112EE",
+   "name": "GORESPIRO CAPS N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0146113EE",
+   "name": "GORESPIRO CAPS N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0147366EE",
+   "name": "COREGA PROTEESIDE KINNITUSLIIM MAX CONTROL 40G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0157421EE",
+   "name": "LINEX COMPLEX KAPSLID N14",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0157063EE",
+   "name": "OMEGA-3 1000MG+ VITAMIIN D3 50MCG KAPSLID N120",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0160582EE",
+   "name": "VEISTE-SÜDAMEROHI FORTE+MG+B6 TBL N40",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0184678EE",
+   "name": "FLUNOC CAPS 150MG N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0187748EE",
+   "name": "NUROFEN RAVIMPLAASTER 200MG N2",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0208662EE",
+   "name": "HEMAGEL PROCTO RAVIKÜÜNLAD N5",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0214696EE",
+   "name": "OCUVAL STRONG KAPSLID 30MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0222080EE",
+   "name": "DEXERYL KREEM 250G",
+   "type": "Abivahend"
+  },
+  {
+   "sku": "PMM0224718EE",
+   "name": "GORESPIRO PALSAM 150ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0223298EE",
+   "name": "IBUPROFEN ZENTIVA KATTEGA TBL 400MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0223299EE",
+   "name": "PARACETAMOL ZENTIVA TBL 500MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0228068EE",
+   "name": "Golamir suus dispergeeruvad tabletid N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0219155EE",
+   "name": "NUROFEN RAVIMPLAASTER 200MG N4",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0229437EE",
+   "name": "DUCRAY ANACAPS EXPERT N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0231525EE",
+   "name": "CALCITOL CITRATE NÄRIMISTBL 2500IU N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224919EE",
+   "name": "FORMULA VITALE C-VIT 1000MG + ZN 25MG LAH TBL N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0233087EE",
+   "name": "DUCRAY ANACAPS REACTIV N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0237798EE",
+   "name": "PROENZI ARTHROSTOP COLLAGEN SHOTS 25ML N14",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0236271EE",
+   "name": "CALCITOL CITRATE KAETUD TBL 4000IU N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0240260EE",
+   "name": "MOCARD ATERO KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0242829EE",
+   "name": "OCUTEIN KRISTAL KAPSLID 40MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0243019EE",
+   "name": "DITEL GEEL 23,2MG/G 50G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0241450EE",
+   "name": "DITEL GEEL 23,2MG/G 100G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0244233EE",
+   "name": "L-GLYTSINE FORTE 300MG TBL N40",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0246243EE",
+   "name": "OCUVAL HYDRO MAX KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0245947EE",
+   "name": "SINULAN FORTE TBL N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0247161EE",
+   "name": "OCUTEIN RIBO-HYAL 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0245949EE",
+   "name": "SINULAN FORTE JUNIOR 120ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248223EE",
+   "name": "DUCRAY DEXYANE MED EKSEEMIVASTANE KREEM SILMALAUGUDELE 15ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0246407EE",
+   "name": "NERVOSTRONG SLEEP FORMULA KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244451EE",
+   "name": "SWISSOVIT MAGNEESIUM MALATE +B6 KAPSLID 150MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244452EE",
+   "name": "SWISSOVIT OMEGA-3 TG KALAÕLI KAPSLID 600MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248803EE",
+   "name": "SWISSOVIT HARMONYBIOTIC KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244453EE",
+   "name": "SWISSOVIT VITAMIIN B COMPLEX KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244454EE",
+   "name": "SWISSOVIT VITAMIIN C KAPSLID 500MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244455EE",
+   "name": "SWISSOVIT VITAMIIN D3 KAPSLID 4000IU N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0238541EE",
+   "name": "FORMULA VITALE KIDS+ EYE KUMMIKOMMID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248989EE",
+   "name": "PARACETAMOL ZENTIVA TBL 500MG N100",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0250976EE",
+   "name": "ORLISTAT SANDOZ KÕVAKAPSEL 60MG N84",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0252572EE",
+   "name": "DUCRAY DEXYANE MED EKSEEMIVASTANE KREEM 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0254632EE",
+   "name": "PROVISOR VITAMIIN D + OOMEGA 3 + Q10 N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0262343EE",
+   "name": "ISDIN INSTANT FLASH SEERUM AMPULLID 2ML N5",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0261324EE",
+   "name": "PROVISOR LIPOSOMAL VITAMIN C 250MG N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0251030EE",
+   "name": "FORMULA VITALE MAN+ TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0253749EE",
+   "name": "PROVISOR RAUD 28 MG + VITAMIN C KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0284045EE",
+   "name": "RENE FURTERER TRIPHASIC JUUKSEAMPULLID PROGRESSIVE 5,5ML N8 UUS",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0289086EE",
+   "name": "RENE FURTERER TRIPHASIC JUUKSEAMPULLID REACTIONAL 5ML N12",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0285228EE",
+   "name": "VITAMIN D3 PRO EXPERT 1800IU JUNIOR ÕLIKAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0005152EE",
+   "name": "COLDREX HOTREM LEMON 750+10+60MG N5 SUUKAUDSE LAH PLV",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0090177EE",
+   "name": "DOPPELHERZ AKTIV A-Z DEPOOTBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0223297EE",
+   "name": "IBUPROFEN ZENTIVA KATTEGA TBL 400MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0090180EE",
+   "name": "DOPPELHERZ AKTIV MAGNEESIUM TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0103093EE",
+   "name": "COMPEED VILLIPLAASTER SEGAPAKK N5",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0106314EE",
+   "name": "SILICEA SEEDETRAKTI GEEL 15X15ML (FOOLIUMPAKENDID)",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0109109EE",
+   "name": "NERVOSTRONG KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0109308EE",
+   "name": "SILICEA DIRECT BALSAM  (MARJAMAITSELINE) 15MLX30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0140512EE",
+   "name": "NORDAID D-VITAMIIN SUUKAUDNE SPREI 4000IU 100MCG 30ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0208663EE",
+   "name": "BEPANTHOL BABY SALV 30G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0225040EE",
+   "name": "NERVOSTRONG INTENSIVE KAPSLID N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0241306EE",
+   "name": "NORDAID PREMIUM OMEGA+D3 SPREI 30ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0241745EE",
+   "name": "COMPLIFLORA KIDS GUMMY BEARS KUMMIKARUD N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252736EE",
+   "name": "DOPPELHERZ AKTIV DIABEVIT VITAMIINID TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0258916EE",
+   "name": "MAGNESIUM DIASPORAL PRO UINUMISEKS DIREKT PLV N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0083083EE",
+   "name": "DOPPELHERZ AKTIV LETSITIIN CAPS N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0087686EE",
+   "name": "RECUGEL SILMAGEEL 10G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0108091EE",
+   "name": "BRONCOPHEN SINE SIIRUP 8MG+55,3MG/ML 120ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0109695EE",
+   "name": "COLDREX MAXGRIP MENTHOL & BERRIES 1000+10+70MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0197520EE",
+   "name": "IVEX KÖHASIIRUP 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0221811EE",
+   "name": "BRONCOPHEN NITE SUUKAUDNE LAHUS 187,5MG+136,4MG+150MG/ML 120ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0233340EE",
+   "name": "VOCAL IMEMISTABLETID MEE-JA SIDRUNIMAITSELISED HÜALUROONHAPPEGA N24",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0039268EE",
+   "name": "PREPARATION H REKTAALSUPOSIIT 23MG+69MG N12",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0090360EE",
+   "name": "PANTOPRAZOL-RTP 20MG GASTRORESIST TBL 20MG N14",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0092651EE",
+   "name": "SENSIVIT SILMATILGAD 10ML KUIVADELE VÄSINUD SILMADELE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0122034EE",
+   "name": "ARTELAC REBALANCE SILMATILGAD 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0145726EE",
+   "name": "ARTELAC TRIPLEACTION SILMATILGAD 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0164737EE",
+   "name": "COMPEED VILLIPLAASTER EXTREME KANNALE N5",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0190443EE",
+   "name": "VOCAL IMEMISTABLETID MUSTSÕSTRAMAITSELISED N24",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0190445EE",
+   "name": "VOCAL KIDS IMEMISTABLETID MAASIKAMAITSELISED N24",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224681EE",
+   "name": "DOPPELHERZ AKTIV KUUM JOOK INGVER+ KURKUM N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0233152EE",
+   "name": "DOPPELHERZ AKTIV A-Z MULTIVITAMIIN+MINERAALID KIHISEVAD TBL N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0233213EE",
+   "name": "COREGA PROTEESIDE KINNITUSLIIM COMFORT 40G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0240926EE",
+   "name": "NYDA EXPRESS LAHUS PEATÄIDELE JA TINGUDELE 50ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0245667EE",
+   "name": "LINEX FORTE KAPSLID N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0251891EE",
+   "name": "COREGA ULTIMATE FIKSEERIMISKREEM HAMBAPROTEESIDELE 40G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0264635EE",
+   "name": "VOLTINEX RAVIMPLAASTER 140MG N5",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0005150EE",
+   "name": "COLDREX TBL 500MG+5MG+20MG+30MG+25MG N12",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0005162EE",
+   "name": "PANADOL SUUKAUDNE SUSP 120MG/5ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0008199EE",
+   "name": "HJERTEMAGNYL TBL 150MG+21MG N100",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0010185EE",
+   "name": "ENTEROL CAPS 250MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0010377EE",
+   "name": "ACC 100MG SUUKAUDSE LAHUSE PULBER 100MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0010378EE",
+   "name": "ACC LONG KIHISEV TBL 600MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0011049EE",
+   "name": "ACC KIHISEV TBL 200MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0011426EE",
+   "name": "ALLERGODIL 0,1% NINASPREI, LAHUS 1MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0011453EE",
+   "name": "ACC 200MG SUUKAUDSE LAHUSE PULBER 200MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0011506EE",
+   "name": "DUPHALAC SUUKAUDNE LAHUS 667MG/ML 500ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0011507EE",
+   "name": "DUPHALAC SUUKAUDNE LAHUS 667MG/ML 200ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0012152EE",
+   "name": "EXODERIL NAHALAHUS 1% 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0013351EE",
+   "name": "EXODERIL KREEM 1% 15G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0015629EE",
+   "name": "ALLERGODIL SILMATILGAD 0,5MG/ML 6ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0029933EE",
+   "name": "DUOFILM NAHALAHUS 167MG+150MG/G 15ML N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0030688EE",
+   "name": "ARTELAC SILMATILGAD 3,2MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0036708EE",
+   "name": "COLDREX HOTREM LEMON 750+10+60MG N10 SUUKAUDSE LAH PLV",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0045920EE",
+   "name": "GELOMYRTOL FORTE GASTRORESIST KAPSEL 300MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0046173EE",
+   "name": "CARSIL KAETUD TBL 22,5MG N80",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0047168EE",
+   "name": "LACTRASE CAPS N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0049529EE",
+   "name": "COLDREX MAXGRIP LEMON 1000+10+40MG N5 SUUKAUDSE LAH PULBER",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0052157EE",
+   "name": "JOX SUUÕÕNESPREI 8,5%+0,1% 30ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0060626EE",
+   "name": "XYMELIN MENTHOL NINASPREI,LAHUS 1MG/ML 10ML N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0070964EE",
+   "name": "SILICEA LIP HERPES GEEL 5G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0080414EE",
+   "name": "COMPEED OHATISEPLAASTER N15",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0089244EE",
+   "name": "FENIVIR KREEM 10MG/G 2G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0090146EE",
+   "name": "HJERTEMAGNYL TBL 75MG+10,5MG N100",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0091559EE",
+   "name": "COMPEED VILLIPLAASTER VÄIKE N6",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0094474EE",
+   "name": "COLDREX HOTREM HONEY&LEMON 750+10+60MG N10 SUUKAUDSE LAH PLV",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0097111EE",
+   "name": "NOLPAZA GASTRORESISTENTNE TBL 20MG N7",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0098715EE",
+   "name": "ACC LONG KIHISEV TBL 600MG N6",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0099114EE",
+   "name": "MYCOSAN SEERUM KÜÜNTELE 5ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0101125EE",
+   "name": "CITROSEPT ORGANIC 20ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0101126EE",
+   "name": "CITROSEPT ORGANIC 50ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0101213EE",
+   "name": "COLDREX MAXGRIP LEMON 1000+10+40MG N10 SUUKAUDSE LAH PULBER",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0101963EE",
+   "name": "EMOX GEEL 100MG/G 55G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0103818EE",
+   "name": "BRONCOPHEN SIIRUP 154MG+132MG/ML 150ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0106317EE",
+   "name": "DOPPELHERZ AKTIV MG 400+B6+B12+FOOLHAPE DIRECT N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0107007EE",
+   "name": "MYCOSAN SEERUM KÜÜNTELE 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0107974EE",
+   "name": "LINEX KAPSLID N32",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0108093EE",
+   "name": "DUPHALAC SUUKAUDNE LAHUS 667MG/ML 1000ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0108131EE",
+   "name": "VOLTAREN EMULGEL GEEL 23,2MG/G 50G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0108940EE",
+   "name": "DUPHALAC FRUIT SUUKAUDNE LAHUS 667MG/ML 200ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0111662EE",
+   "name": "CLIMOFEMIN TBL 6,5MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0111692EE",
+   "name": "DUPHALAC FRUIT SUUKAUDNE LAHUS 667MG/ML 15ML N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0112529EE",
+   "name": "ACC SUUKAUDNE LAHUS 20MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0117894EE",
+   "name": "FREE PUTUKATÕRJEVAHEND AEROSOOL 150ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0118538EE",
+   "name": "SILICEA RÄNIGEEL BIOTIINIGA 500ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0119295EE",
+   "name": "COMPEED KONNASILMAPLAASTER KESKMINE N10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0119296EE",
+   "name": "COMPEED KONNASILMAPLAASTER VARBA VAHELE N10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0122033EE",
+   "name": "ARTELAC NIGHTTIME GEL 10G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0122037EE",
+   "name": "ARTELAC SPLASH SILMATILGAD 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0132270EE",
+   "name": "FREE PUTUKATÕRJE ACTIVE SPREI 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0135160EE",
+   "name": "TÄIKAMM ZAPX VM-X100 ELEKTROONILINE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0135210EE",
+   "name": "DUPHALAC FRUIT SUUKAUDNE LAHUS 667MG/ML 500ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0135474EE",
+   "name": "MYCOSAN JALASEENEVASTANE GEEL 15ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0140124EE",
+   "name": "FEBRILEK TBL 200MG+30MG N12",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0140961EE",
+   "name": "NIQUITIN MINT 2MG RAVIMNÄRIMISKUMM N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0140962EE",
+   "name": "NIQUITIN MINT 4MG RAVIMNÄRIMISKUMM N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0142332EE",
+   "name": "VITAKUR PLUS 1000 KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0066333EE",
+   "name": "IBUMAX TBL 200MG N100",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0136462EE",
+   "name": "BETHOVER B12 VITAMIIN IMEMISTBL 1000MCG N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0147045EE",
+   "name": "OMEPRAZOLE OLPHA GASTRORESIST KAPSEL 20MG N14",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0148807EE",
+   "name": "FREE PUTUKATÕRJEVAHEND AEROSOOL 50ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0148179EE",
+   "name": "XYMELIN NINASPREI 1MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0150749EE",
+   "name": "SOLPADEINE EXPRESS KIHISEV TABLETT 500MG+65MG N16",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0119298EE",
+   "name": "CARSIL CAPS 110MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0152711EE",
+   "name": "DIAGNOSTIC ULTRAHELI INHALAATOR PRO MESH",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0155077EE",
+   "name": "KÜÜSLAUGUTABLETID KYOLIC ORIGINAL 600MG N25 (LAAGERDUNUD)",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0152211EE",
+   "name": "BERTILS VITAMIN B12+FOOLHAPE IMEMISTBL N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0134010EE",
+   "name": "TERMOMEETER DIAGNOSTIC DIGITAALNE T-02 PAINDUV",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0156106EE",
+   "name": "GOOD SLEEP KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0134013EE",
+   "name": "KOMPRESSOR-NEBULISAATOR DIAGNOSTIC NANO",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0162434EE",
+   "name": "KOMPRESSOR-INHALAATOR NEB 200 MICROLIFE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0163851EE",
+   "name": "ENTEROL SUUKAUDSE SUSPENSIOONI PULBER 250MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0163850EE",
+   "name": "ENTEROL CAPS 250MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0164374EE",
+   "name": "LINEX FORTE KAPSLID N14",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0168351EE",
+   "name": "GOOD SLEEP SPREI 30ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0168845EE",
+   "name": "CITROSEPT ORGANIC 1500 100ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0173283EE",
+   "name": "D-VITAMIIN ÕLIKAPSLID 50MCG N200",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0166706EE",
+   "name": "FORMULA NATURE UNETILGAD 25ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0172963EE",
+   "name": "NUROFEN FORTE EXPRESS KAETUD TBL 400MG N24",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0173908EE",
+   "name": "DOPPELHERZ AKTIV MAGNEESIUM XXL TBL N80",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0177697EE",
+   "name": "DOPPELHERZ AKTIV KOLLAGEN 3000 N14",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0166701EE",
+   "name": "FORMULA NATURE RAHUSTAVAD TILGAD 30ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0166707EE",
+   "name": "FORMULA NATURE VIIRPUUTINKTUUR 25ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0178810EE",
+   "name": "DOPPELHERZ AKTIV C+TSINK+E DEPOOTTBL N40",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0188508EE",
+   "name": "COLDREX HOTEX 500+200+10MG N10 SUUKAUDSE LAH PLV",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0178812EE",
+   "name": "DOPPELHERZ AKTIV TSINK+SELEEN+C+B12+D3 KIHISEVAD TBL N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0190446EE",
+   "name": "VOCAL KIDS PULGAKOMM KIRSIMAITSELINE N6",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0190447EE",
+   "name": "VOCAL MINT IMEMISTABLETID HÜALUROONHAPPEGA N24",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0190444EE",
+   "name": "VOCAL IMEMISTABLETID SIDRUNIMAITSELISED N24",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0190591EE",
+   "name": "VOCAL MUSTSÕSTRAMAITSELINE KARAMEL N24",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0204585EE",
+   "name": "KAALIUM VAHVA KAPSLID 400MG N120",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0208665EE",
+   "name": "CANESBALANCE VAGINAALSUPOSIIDID N7",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0208397EE",
+   "name": "BEPANTHEN EYE SILMATILGAD 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0210700EE",
+   "name": "PREFEMIN TBL 20MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0216290EE",
+   "name": "VERERÕHUAPARAAT DIAGNOSTIC DM-200 IHB PLUS ÕLAVARRELE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0217769EE",
+   "name": "MAGNEFOL KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0223493EE",
+   "name": "COLDREX MAXGRIP KÕVAKAPSEL  500MG+100MG+6,1MG N16",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0223148EE",
+   "name": "DOPPELHERZ SYSTEM MAGNEESIUM 500 DEPOT+B VITAMIINID TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0223149EE",
+   "name": "DOPPELHERZ AKTIV MELATONIIN+MAGNEESIUM 400MG TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224684EE",
+   "name": "DOPPELHERZ AKTIV KUUM JOOK GRANAATÕUN+ASTELPAJU+ACEROLA N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224686EE",
+   "name": "DOPPELHERZ AKTIV KUUM JOOK MUSTA LEEDRIGA C+TSINK N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224285EE",
+   "name": "APROPOS GOLA DEFENS PASTILLID APELSIN N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0224284EE",
+   "name": "APROPOS GOLA DEFENS PASTILLID MAASIKAS LASTELE N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0224286EE",
+   "name": "APROPOS GOLA DEFENS PASTILLID MESI JA SIDRUN N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0224291EE",
+   "name": "APROPOS TOSSE KÖHASIIRUP LASTELE 150ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0233153EE",
+   "name": "DOPPELHERZ AKTIV KOLLAGEN 5000 10ML N14 KÕHREDELE, LUUDELE, LIHASTELE",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0230819EE",
+   "name": "FORMULA NATURE PALDERJANITABLETID FORTE 200MG N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0240792EE",
+   "name": "OCUTEARS ALO+ SILMATILGAD 10ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0244421EE",
+   "name": "SUNCAROTEN STRONG KAPSLID N40",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244398EE",
+   "name": "PANANGIN KATTEGA TBL 158MG+140MG N60",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0244562EE",
+   "name": "FORMULA NATURE UNEKAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0244561EE",
+   "name": "FORMULA NATURE RAHUSTAVAD KAPSLID N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0246963EE",
+   "name": "BIGHAIR KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248041EE",
+   "name": "LARYXIN MENTHOL LOSENG 5MG+1MG N24",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0248040EE",
+   "name": "LARYXIN LEMON LOSENG 5MG+1MG N24",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0248479EE",
+   "name": "BERTILS KARPALACT STRONG KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0241351EE",
+   "name": "VERERÕHUAPARAAT DIAGNOSTIC PRO SENSE PATAREI TOITEGA",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0249069EE",
+   "name": "BIOSORIN TSINK KAPSLID 25MG N120",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0249786EE",
+   "name": "VOCAL PULBER KUUM JOOK MUSTSÕSTRA MAITSEGA N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0249787EE",
+   "name": "VOCAL PULBER KUUM JOOK MEE JA SIDRUNI MAITSEGA N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248988EE",
+   "name": "LARYXIN MENTHOL SUUÕÕNESPREI 2MG+0,5MG/ML 30ML N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0250880EE",
+   "name": "BILASTINE STADA TBL 20MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0249919EE",
+   "name": "FORMULA VITALE MYOFOLIC PULBER N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0252507EE",
+   "name": "BERTILS KARPALACT STRONG KAPSLID N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0256684EE",
+   "name": "MAGNEFOL DIRECT+ GRAANULID N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0256695EE",
+   "name": "BERTILS KARPALACT NÄRIMISTABLETID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248714EE",
+   "name": "FORMULA VITALE OMEGA STRONG CAPS N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0250421EE",
+   "name": "MILPRAZON PLUS KATTEGA TBL 4+10MG N2 (KASS)",
+   "type": "Veterinaarravim"
+  },
+  {
+   "sku": "PMM0250422EE",
+   "name": "MILPRAZON PLUS KATTEGA TBL 16+40MG N2 (KASS)",
+   "type": "Veterinaarravim"
+  },
+  {
+   "sku": "PMM0279723EE",
+   "name": "LARYXIN LEMON SUUÕÕNESPREI 2MG+0,5MG/ML 30ML N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0279721EE",
+   "name": "LARYXIN HONEY LOSENG 5MG+1MG N24",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0279722EE",
+   "name": "LARYXIN STRAWBERRY LOSENG 5MG+1MG N24",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0279170EE",
+   "name": "GOOD SLEEP REM KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0266633EE",
+   "name": "RÕÕM PIIMHAPPEBAKTERID LASTELE N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0266632EE",
+   "name": "RÕÕM PIIMHAPPEBAKTERID NAISTELE KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0285457EE",
+   "name": "VIVITON KATTEGA TBL 1000MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0285458EE",
+   "name": "VIVITON KATTEGA TBL 1000MG N60",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0252685EE",
+   "name": "A. MULTIVITAMIN TBL N90",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0284253EE",
+   "name": "COREGA BIO FORMULA PUHASTUSTABLETID N30",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0284252EE",
+   "name": "COREGA PUHASTUSTABLETID WHITENING N30",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0239225EE",
+   "name": "MARSIMEHE PULGAKOMM VAARIKAMAITSELINE N1",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0093601EE",
+   "name": "IBUSTAR TBL 400MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0057534EE",
+   "name": "VOLTAREN AKTI TBL 12,5MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0098319EE",
+   "name": "MULTI-GYN FLORAPLUS VAGINAALGEEL 5ML N5",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0102613EE",
+   "name": "NUROFEN FORTE ORANGE SUUKAUDNE SUSP 40MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0114987EE",
+   "name": "NICORETTE COOLMINT SUUÕÕNESPREI 1MG 150 PIHUSTUST N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0127577EE",
+   "name": "SEPTOLETE OMNI SUUÕÕNESPREI 1,5MG+5MG/ML 30ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0128435EE",
+   "name": "SEPTOLETE OMNI EUCALYPTUS LOSENG 3MG+1MG N16",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0129675EE",
+   "name": "NUROFEN FORTE STRAWBERRY SUUKAUDNE SUSP 40MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0145038EE",
+   "name": "QUIXX DAILY NASAL SPRAY 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0146445EE",
+   "name": "SEPTOLETE OMNI LOSENG LEMON&ELDERFLOWER 3+1MG N16",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0149913EE",
+   "name": "DERMAPLAST PLAASTRID PROTECT PLUS 19X72MM N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0163321EE",
+   "name": "GUTTASOFT SUUKAUDNE PULBER N10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0168078EE",
+   "name": "SEPTOLETE OMNI LOSENG LEMON&HONEY 3MG+1MG N16",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0190439EE",
+   "name": "NICORETTE COOLBERRY SUUÕÕNESPREI 1MG 150 PIHUSTUST N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0196935EE",
+   "name": "DEKENOR KATTEGA TBL 25MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0207515EE",
+   "name": "NOLPAZA GASTRORESISTENTNE TBL 20MG N14",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0213835EE",
+   "name": "EXCILOR FORTE KÜÜNESEENE RAVIVAHEND 30ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0241759EE",
+   "name": "TEARS NATURALE II MED LIBESTAVAD SILMATILGAD 15ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0251551EE",
+   "name": "MULTI-GYN LIQUIGEL 50ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0257696EE",
+   "name": "IBUMETIN EXPRESS PEHMEKAPSEL 400MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0009961EE",
+   "name": "URGO COR KONNASILMAPLAASTRID N12",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0072205EE",
+   "name": "EVA/QU SUPOSIIDID N6",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0084608EE",
+   "name": "HUMER NINAKINNISUSE JAOKS 50ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0097923EE",
+   "name": "IBUSTAR TBL 400MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0103094EE",
+   "name": "ALTERMED PANTHENOL FORTE 9% SPRAY 150ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0009591EE",
+   "name": "AQUA B. BRAUN (LOPUTUSLAHUS) 500ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0146993EE",
+   "name": "DERMAPLAST PLAASTRID FLEXIBLE N20 (2 SUURUST)",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0152202EE",
+   "name": "BERTILS SELEEN TBL 50MCG N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0152206EE",
+   "name": "BERTILS TSINK TBL 15MG N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0166696EE",
+   "name": "FORMULA NATURE KURGUSPREI ASTELPAJU-SAIALILL 20ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0166699EE",
+   "name": "FORMULA NATURE PERTUSSIIN SIIRUP 120ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0192117EE",
+   "name": "EXCILOR KÜÜNESEENE RAVIPINTSEL 3,3ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0210389EE",
+   "name": "BEROCCA ENERGY KIHISEVAD TABLETID N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0210606EE",
+   "name": "BEROCCA ENERGY KIHISEVAD TABLETID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0231222EE",
+   "name": "BIROXIA KAPSLID N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0242219EE",
+   "name": "BIROXIA DETOX KAPSLID N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0242881EE",
+   "name": "URGO PLAASTER LASTE POKEMON N16",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0251549EE",
+   "name": "MULTI-GYN ACTIGEL 2IN1 VAGINAALGEEL 50ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0287941EE",
+   "name": "OPEXA TBL 20MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0000482EE",
+   "name": "KAPSIKAM SALV 20MG+2MG+30MG+30MG+50MG/G 50G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0001362EE",
+   "name": "VIPROSAL B SALV 30+10+30MG+0,05TÜ/G 50G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0009347EE",
+   "name": "BEPANTHEN KREEM 50MG/G 30G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0009521EE",
+   "name": "BEPANTHEN SALV 50MG/G 30G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0010704EE",
+   "name": "ZYRTEC SUUKAUDNE LAHUS 1MG/ML 75ML N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0011848EE",
+   "name": "DEEP RELIEF GEEL 50MG+30MG/G 50G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0041295EE",
+   "name": "Advantage täpilahus kassidele 0,4ml",
+   "type": "Veterinaarravim"
+  },
+  {
+   "sku": "PMM0041296EE",
+   "name": "Advantage täpilahus kassile 100 ml/0,8 ml 4 tk",
+   "type": "Veterinaarravim"
+  },
+  {
+   "sku": "PMM0082983EE",
+   "name": "KAPSIKAM SALV 20MG+2MG+30MG+30MG+50MG/G 30G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0094819EE",
+   "name": "MIKANISAL SHAMPOON 20MG/G 60G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0102412EE",
+   "name": "MULTI-GYN VAGINAL DOUCHE COMBIPACK",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0135124EE",
+   "name": "VIPROSAL B SALV 30+10+30MG+0,05TÜ/G 75G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0146107EE",
+   "name": "FARINGO'S PASTILLES IMEMISTABLETID KURGULE N18",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0146956EE",
+   "name": "DERMAPLAST PLAASTRID SOFT 19X72MM N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195558EE",
+   "name": "LABO HAIR LOSS 5 PATENTI AMPULLID NAISTELE 3,5ML N14",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195500EE",
+   "name": "CRESCINA TRANSDERMIC 500 AMPULLID NAISED 3,5ML N10+10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195496EE",
+   "name": "CRESCINA TRANSDERMIC 1300 AMPULLID NAISED 3,5ML N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195494EE",
+   "name": "CRESCINA TRANSDERMIC 200 AMPULLID NAISTELE 3,5ML N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195565EE",
+   "name": "LABO HAIR LOSS 5 PATENTI AMPULLID MEESTELE 3,5ML N14",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195493EE",
+   "name": "CRESCINA TRANSDERMIC 1300 AMPULLID MEHED 3,5ML N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195499EE",
+   "name": "CRESCINA TRANSDERMIC 200 AMPULLID NAISTELE 3,5ML N10+10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195501EE",
+   "name": "CRESCINA TRANSDERMIC 1300 AMPULLID NAISTELE 3,5ML N10+10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195498EE",
+   "name": "CRESCINA TRANSDERMIC 1300 AMPULLID MEESTELE 3,5ML N10+10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0169906EE",
+   "name": "TERMOMEETER EVOLU ELAVHÕBEDAVABA",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0208905EE",
+   "name": "TERMOMEETER DIGITAALNE EVOLU SIMPLE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0208614EE",
+   "name": "TERMOMEETER DIGITAALNE EVOLU SOFT DMT-4318",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0207779EE",
+   "name": "CRESCINA TRANSDERMIC AMPULLID HFSC 1300 NAISED 3,5ML N20+N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0207778EE",
+   "name": "CRESCINA TRANSDERMIC AMPULLID HFSC 500 NAISED 3,5ML N20+N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0213390EE",
+   "name": "KOMPRESSOR INHALAATOR EVOLU UNIVERSAL",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0228409EE",
+   "name": "PAIRA SAIALILLE SALV 29ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0228236EE",
+   "name": "FARINGO SOFT KURGUPASTILLID N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0233419EE",
+   "name": "CUMLAUDE MUCUS INTIIMPIIRKONNA LUBRIKANT 30ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0233429EE",
+   "name": "CUMLAUDE VAGINAALSED OOVULID PREBIOOTILISED 3G N10",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0240138EE",
+   "name": "CRESCINA TRANSDERMIC 500 AMPULLID MEESTELE 3,5ML N30",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0240139EE",
+   "name": "CRESCINA TRANSDERMIC 1300 AMPULLID MEESTELE 3,5ML N30",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0282735EE",
+   "name": "NORDLIFE BECALM MELATONIINIGA TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0254139EE",
+   "name": "DIFORTAN GEEL 100MG/G 100G N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0007086EE",
+   "name": "FLAVAMED 30MG TBL 30MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0008079EE",
+   "name": "SUDAFED TBL 60MG N12",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0009511EE",
+   "name": "BEPANTHEN PLUS KREEM 50MG+5MG/G 30G",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0029728EE",
+   "name": "PROSTAMOL UNO PEHMEKAPSEL 320MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0090499EE",
+   "name": "PROSTAMOL UNO PEHMEKAPSEL 320MG N60",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0096968EE",
+   "name": "FLAVAMED 60MG KIHISEV TBL 60MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0109478EE",
+   "name": "FLAVAMED FORTE SUUKAUDNE LAHUS 6MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0112386EE",
+   "name": "FLAVAMED VAARIKAS SUUKAUDNE LAHUS 3MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0109948EE",
+   "name": "MAGNEX CITRATE + B6 TBL N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0145037EE",
+   "name": "QUIXX ACUTE NASAL SPRAY 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0146576EE",
+   "name": "CANESTEN VAGINAALPEHMEKAPSEL 500MG N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0202887EE",
+   "name": "MAGNEX CITRATE+VITAMIIN B6 NÄRIMISTBL 375MG N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0224899EE",
+   "name": "PROSTAMOL UNO PEHMEKAPSEL 320MG N90",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0231781EE",
+   "name": "LILANDOR PEHMEKAPSEL 80MG N14",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0231782EE",
+   "name": "LILANDOR PEHMEKAPSEL 80MG N28",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0241977EE",
+   "name": "DERMAPLAST PLAASTRID UNIVERSAL N40 (5 SUURUST)",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0007263EE",
+   "name": "OMNIPLAST RULLPLAASTER 2,5CMX5M (TEKSTIILIST)",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0024089EE",
+   "name": "COSMOPOR E 6X10CM N25",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0025223EE",
+   "name": "HEMATOGEEN (LINASEEMNED +VITAMIINID) 50G",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0021674EE",
+   "name": "MEPORE RULLPLAASTER HAAVATAMPOONIGA 5MX7CM",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0057968EE",
+   "name": "PÄÄSTETEKK 160X210CM (NOBA)",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0091560EE",
+   "name": "COMPEED VILLIPLAASTER KESKMINE N5",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0119297EE",
+   "name": "COMPEED PLAASTER NAHA PAKSENDITELE KESKMINE N6",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0150372EE",
+   "name": "DERMAPLAST EFFECT VILLIPLAASTER (SUUR) N6",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0149941EE",
+   "name": "SOFT-ZELLIN-C NAHA PUHASTAMISEKS 6X3CM N100",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0241295EE",
+   "name": "MAGNESIUM DIASPORAL PRO LIHASTELE JA LUUDELE DIREKT PLV N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0241294EE",
+   "name": "MAGNESIUM DIASPORAL PRO LIHASTELE, NÄRVIDELE DIREKT PLV N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0251616EE",
+   "name": "MEDRULL HOTPLASTER SOOJENDAV PLAASTER ARNICA 9X14CM",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0264057EE",
+   "name": "BIOGAIA PHARAX TILGAD 5ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0230675EE",
+   "name": "BIOGAIA PROTECTIS+VITAMIIN D3 TBL N10",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0230674EE",
+   "name": "BIOGAIA PROTECTIS TILGAD 5ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0117889EE",
+   "name": "MAGVIT B COMPLEX GRAN N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0140288EE",
+   "name": "GERDOFF REFLUKSIVASTASED SUUS SULAVAD TABLETID N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0143033EE",
+   "name": "MARSIMEHE GUMMI PUNASE PÄEVAKÜBARAGA N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0219158EE",
+   "name": "VITAMIN C PRO EXPERT + CHAGA KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0245245EE",
+   "name": "MEDRULL PLAASTER ALOE VERA N20 UUS",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0244688EE",
+   "name": "SALUTIL PREMIUM9 KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0251581EE",
+   "name": "HUMER NASAL AEROS (TÄISKASVANUTELE) 150ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0254352EE",
+   "name": "NORDAID K2+D3 VITAMIIN SUUKAUDNE SPREI 100MCG+4000IU 30ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0025095EE",
+   "name": "COSMOPOR E 7,2X5CM N50",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0033658EE",
+   "name": "TONSILGON N SUUKAUDSED TILGAD 50ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0047266EE",
+   "name": "KLIMADYNON TBL 2,8MG N90",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0089077EE",
+   "name": "NICORETTE INVISIPATCH TDP 25MG/16H N7",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0089741EE",
+   "name": "NICORETTE INVISIPATCH TDP 15MG/16H N7",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0090183EE",
+   "name": "NICORETTE INVISIPATCH TDP 10MG/16H N7",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0105027EE",
+   "name": "BRONCHIPRET SUUKAUDNE LAH 169,49+16,95MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0105744EE",
+   "name": "TONSILGON N KAETUD TBL N50",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0111490EE",
+   "name": "NUROFEN FORTE EXPRESS KAETUD TBL 400MG N12",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0142764EE",
+   "name": "MAGNESIUM DIASPORAL SUUK LAH PLV 2475,2MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0184178EE",
+   "name": "MAGNEX + VITAMIIN B6 TBL 375/2,2MG N180",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0192756EE",
+   "name": "MARSIMEHE GUMMI ASTELPAJUGA N50",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0221064EE",
+   "name": "TRICOVIVAX NAHALAHUS 50MG/ML 60ML N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0241883EE",
+   "name": "CAGYNOL VAGIN SUPP 300MG N1",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0251796EE",
+   "name": "MAGNESIUM DIASPORAL SUUK LAH GRAN 1830MG N50",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0263605EE",
+   "name": "QUIXX SORE THROAT 100ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0038926EE",
+   "name": "UROSEPT TBL N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0111607EE",
+   "name": "DERMAPLAST PLAASTRID AQUA LÄBIPAISTVAD (3 SUURUST) N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0068121EE",
+   "name": "ANALÜÜSITOPS PULGAGA STERIILNE 60ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0015927EE",
+   "name": "COSMOPOR E 8X10CM N25",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0046671EE",
+   "name": "BAUSCH&LOMB RENU MULTIPLUS 360ML (KONTAKTLÄÄTSEDE DES.LAH)",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0047038EE",
+   "name": "PEDIBUS FORTE NAHA-JA KÜÜNETINKTUUR 20ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0100627EE",
+   "name": "NEW NORDIC HAIR VOLUME TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0016203EE",
+   "name": "IBUMAX TBL 400MG N10",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0213038EE",
+   "name": "BAUSCH&LOMB RENU MULTIPLUS 100ML (KONTAKTLÄÄTSEDE DES.LAH)",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0251720EE",
+   "name": "PEHA-HAFT ELASTNE ISEKINNITUV SIDE 10CMX4M",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0007129EE",
+   "name": "SUDAFED SIIRUP 6MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0085953EE",
+   "name": "SUDAFED XYLO NINASPREI 1MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0086531EE",
+   "name": "SUDAFED HA XYLO NINASPREI 1MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0086532EE",
+   "name": "SUDAFED HA XYLO NINASPREI 0,5MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0032562EE",
+   "name": "IBUMAX TBL 400MG N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0066339EE",
+   "name": "IBUMAX TBL 200MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0168844EE",
+   "name": "HEPASTRONG AMINO KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0178349EE",
+   "name": "SUDAFED XYLOSPRAY DEX NINASPREI 0,5MG+50MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0216171EE",
+   "name": "IBUMAX 400MG KATTEGA TBL N30",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0009270EE",
+   "name": "PROSPAN SIIRUP 7MG/ML 100ML",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0085516EE",
+   "name": "ESPRICO CAPS N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0100826EE",
+   "name": "ISLA-GINGER PASTILLID N30",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0104176EE",
+   "name": "PROSPAN SUUKAUDNE LAHUS 7MG/ML 5ML N21",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0139282EE",
+   "name": "ISLA JUNIOR IMEMISTABLETID N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0164602EE",
+   "name": "RENE FURTERER TRIPHASIC JUUKSEAMPULLID REACTIONAL 5ML N12",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0214713EE",
+   "name": "PROSPAN LOSENG 26MG N20",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0222417EE",
+   "name": "PROVISOR VITAMIIN D3 KAPSLID 1200IU N90 VIINAMARJASEEMNEÕLIGA",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0233317EE",
+   "name": "ISLA MEDIC ACUTE IMEMISTBL SIDRUN+MESI N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0233938EE",
+   "name": "RETINA PULBER N28",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0197720EE",
+   "name": "RÕÕM NAISTEPUNA TABLETID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0213737EE",
+   "name": "CICCARELLI JALAVANNISOOL 400G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0197731EE",
+   "name": "RÕÕM VITAMIIN E 168MG KAPSLID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0212810EE",
+   "name": "A. MELATONIIN FORTE TABLETID 1,9MG TBL N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0245397EE",
+   "name": "MABELLE BREASTFEEDING KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0262475EE",
+   "name": "PROVISOR MAGNESIUM DRINK AND GO 125MG N20",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0249403EE",
+   "name": "DUREX KONDOOMID SENSUAL N3",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0059281EE",
+   "name": "ACEROLA PLUS 100 TBL N120",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0112926EE",
+   "name": "PROENZI ARTHROSTOP PLUS TBL N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0245948EE",
+   "name": "SINULAN DUO FORTE TBL N15",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0248802EE",
+   "name": "SWISSOVIT VITAMIIN D3 KAPSLID 4000IU+K2 N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0262320EE",
+   "name": "PROVISOR FIBER PREMIUM 225G",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0096894EE",
+   "name": "BEPANTHEN EYE SILMATILGAD 0,5ML N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0097666EE",
+   "name": "SILICEA SEEDETRAKTI GEEL 200ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0256696EE",
+   "name": "BERTILS HAIRVITA STRONG TABLETID N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0261278EE",
+   "name": "BERTILS BIOTIN TBL 10000 MCG N60",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0261228EE",
+   "name": "SEPTOLETE OMNI KOOLA LOSENG 3MG+1MG N16",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0074258EE",
+   "name": "URGO SPRAY PLAASTER 40ML",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0143856EE",
+   "name": "ELEVIT BREASTFEEDING KAPSLID N30",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0152199EE",
+   "name": "BERTILS RAUD TBL 25MG N100",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0168553EE",
+   "name": "TERMOMEETER DIGITAALNE EVOLU 3IN1 KONTAKTIVABA",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0168770EE",
+   "name": "INHALAATOR EVOLU NANO AIR AKUGA",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0195495EE",
+   "name": "CRESCINA TRANSDERMIC 500 AMPULLID NAISTELE 3,5ML N20",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0214381EE",
+   "name": "INHALAATOR EVOLU NANO AIR PRO AEROCENTRE",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0240136EE",
+   "name": "CRESCINA TRANSDERMIC 500 AMPULLID NAISTELE 3,5ML N30",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0239334EE",
+   "name": "INHALAATOR EVOLU NANO AIR MINI",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0224222EE",
+   "name": "TÄRPENTIINI SALV 20% (TEREBINTHINAE) 25G",
+   "type": "Tervisetoode"
+  },
+  {
+   "sku": "PMM0089834EE",
+   "name": "NUROFEN KAETUD TBL 200MG N12",
+   "type": "Käsimüügiravim"
+  },
+  {
+   "sku": "PMM0011096EE",
+   "name": "CARMOLIS TILGAD 80ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0011095EE",
+   "name": "CARMOLIS TILGAD 40ML",
+   "type": "Toidulisand"
+  },
+  {
+   "sku": "PMM0178348EE",
+   "name": "SUDAFED XYLOSPRAY DEX NINASPREI 1MG+50MG/ML 10ML",
+   "type": "Käsimüügiravim"
+  }
+ ]
+}

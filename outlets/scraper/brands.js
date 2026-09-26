@@ -156,8 +156,37 @@ function parseKlickProducts(productHits, categoriesById) {
 // medicine or a supplement. A type this list has never seen is
 // EXCLUDED and logged for the owner, never guessed in. No 30-day
 // field on the list or product pages (checked 2026-09-26).
-const APOTHEKA_EXCLUDED_TYPE = /ravim|toidulisand|tervisetoode|vitamiin|meditsiini|seade|test|side|plaaster|desinfits|lutt|pudel|mähk/i;
-const APOTHEKA_ALLOWED_TYPE = /kosmeetika|hügieen|hooldus|kreem|šampoon|palsam|seep|deodorant|hambapasta|hambahari|suuvesi|päikese|näo|keha|juukse|naha|intiim|beebi|habeme|parfüüm|dušš|niisut|huule|küün|meik|jumestus|geel|losjoon|õli|pesu|sprei|maskeering|sära/i;
+// Found on the first full fetch (2026-09-26, 1,533 deals): the site
+// types 1,037 of them just "Tervisetoode" — its catch-all for every
+// non-medicine product, shampoo and blood-pressure monitor alike. So
+// the type only EXCLUDES (a medicine, supplement, veterinary or aid
+// type is never kept), and the product NAME decides what's kept: a
+// clear cosmetics/hygiene word, or a known cosmetics/hygiene brand,
+// and no medical word. Anything else is dropped and listed in
+// outlets/data/apotheka-dropped.json for the owner — the owner's
+// decision, 2026-09-26: keep by name, never guess.
+const APOTHEKA_EXCLUDED_TYPE = /ravim|toidulisand|vitamiin|meditsiini|veterinaar|abivahend|seade|test/i;
+const APOTHEKA_COSMETIC_NAME = new RegExp(
+  [
+    "šampoon", "shampoo", "palsam", "juuksemask", "juuksehooldus", "juukse", "kreem", "cream", "losjoon", "lotion", "seerum", "serum",
+    "deodorant", "antiperspirant", "hambapasta", "hambahari", "hambaniit", "hambavahe", "suuvesi", "suuloputus", "toothpaste", "mouthwash",
+    "seep", "soap", "dušigeel", "duššigeel", "dušš", "shower", "vannivaht", "kehapiim", "ihupiim", "kehaõli", "kehavõi", "body",
+    "näovesi", "näopesu", "näogeel", "näokreem", "näoõli", "mitsellaar", "micellar", "toonik", "puhastusvaht", "puhastusgeel", "puhastuspiim", "cleanser",
+    "päikesekaitse", "päevitus", "spf", "sunscreen", "after sun", "huulepalsam", "huulepulk", "huulevõi", "lip balm",
+    "kätekreem", "käte", "jalakreem", "jalgade", "küünelakk", "küünehooldus", "hand cream", "foot cream",
+    "meik", "jumestus", "ripsmetušš", "mascara", "parfüüm", "eau de", "raseerimis", "habemeajamis", "habeme", "aftershave",
+    "intiimpesu", "intiimhügieen", "hügieeniside", "pesukaitse", "tampoon", "menstruaal", "niisked salvrätikud", "salvrätik", "mähkmed", "püksmähkmed",
+    "kehasprei", "sprei", "hooldusõli", "kuivšampoon", "juuksesprei", "juukselakk", "vahatoode", "depil", "epil",
+    // spellings and words found in the first full list (2026-09-26 review)
+    "dushi", "pesemisgeel", "pesugeel", "pesemisõli", "pesemisvaht", "pesuvaht", "pesemisemuls", "pesemispiim", "vanniõli",
+    "puhastusõli", "puhastusvesi", "näopuhastus", "emulsioon", "termaalvesi", "meigieemaldaja", "silmaümbrus", "kehageel",
+    "näomask", "silmamask", "öömask", "puuder", "vistrikugeel", "suuvärskendaja", "hambalint", "igemegeel", "vaseliin",
+    "ripsme", "koorija", "kehakoor", "kuivõli",
+  ].join("|"),
+  "i"
+);
+const APOTHEKA_COSMETIC_BRAND = /^(vichy|la roche[- ]posay|bioderma|eucerin|av[eè]ne|cerave|nivea|garnier|l'?or[eé]al|isdin|bab[eé]|bionike|novaclear|cumlaude|ducray|klorane|nuxe|uriage|svr|weleda|mustela|sebamed|cetaphil|neutrogena|vaseline|physiogel|a-derma|lierac|filorga|caudalie|oral-b|colgate|sensodyne|elmex|listerine|parodontax|lacalut|meridol|curaprox|gum|dove|rexona|gillette|batiste|head ?& ?shoulders|johnson'?s|pampers|huggies|libresse|always|o\.b\.|tena|seni|abena|attends|natracare|topfer|töpfer|hipp babysanft|ziaja|balea|lumene|bielenda|eveline|dermosil|dr\.? ?hauschka|kneipp|frezyderm|noreva|embryolisse|rilastil|apivita|korres|eubos|dermalex|exomega|xemose|ecophane|ecrinal|idun|jowa[eé]|molicare|ren[eé] furterer|sensilis|beauty spa|elgydium|pasta del capitano|mincer pharma|holika holika)\b/i;
+const APOTHEKA_MEDICAL_NAME = /ravi\b|ravim|meditsiini|desinf|haava|plaaster|hemorr|seene|mycosan|excilor|psoria|ekseem|termomeet|vererõhu|glükomeet|inhalaat|nebul|kompress|tugiside|elastikside|marliside|ortoos|prill|läätse|lääts|pipett|süstal|test\b|oovul|vaginaal|suposii|lubrikant|kondoom|silmatilg|ninatilg|ninasalv|tilgad|ampull|proteesi|putukatõrje|täikamm|pastill|tablet|siirup|loputuslahus|soolalahus/i;
 
 function decodeHtml(text) {
   return text
@@ -171,10 +200,10 @@ function decodeHtml(text) {
     .trim();
 }
 
-function apothekaTypeAllowed(type) {
-  if (!type) return false;
-  if (APOTHEKA_EXCLUDED_TYPE.test(type)) return false;
-  return APOTHEKA_ALLOWED_TYPE.test(type);
+function apothekaKeeps(type, name) {
+  if (!type || APOTHEKA_EXCLUDED_TYPE.test(type)) return false;
+  if (!name || APOTHEKA_MEDICAL_NAME.test(name)) return false;
+  return APOTHEKA_COSMETIC_NAME.test(name) || APOTHEKA_COSMETIC_BRAND.test(name);
 }
 
 function parseApothekaPage(html) {
@@ -192,7 +221,7 @@ function parseApothekaPage(html) {
     const sale = (card.match(/<ins[^>]*>\s*<data value="([\d.]+)"/) || [])[1];
     const outOfStock = /Hetkel otsas/.test(card);
     types[type || "(none)"] = (types[type || "(none)"] || 0) + 1;
-    if (!apothekaTypeAllowed(type)) { excluded.push({ sku, name, type: type || null }); continue; }
+    if (!apothekaKeeps(type, name)) { excluded.push({ sku, name, type: type || null }); continue; }
     if (outOfStock) continue;
     const regularPrice = regular ? parseFloat(regular.replace(/\s/g, "").replace(",", ".")) : NaN;
     const salePrice = sale ? parseFloat(sale) : NaN;
@@ -281,6 +310,6 @@ function parseEuronicsCampaign(html) {
 module.exports = {
   extractNextData, parseDenimDreamProducts, parseDenimDreamPage, SECTION_BY_SEX_ID,
   buildKlickCategoryIndex, klickTypeFor, parseKlickProducts, KLICK_SALE_CATEGORY_ID,
-  parseApothekaPage, apothekaTypeAllowed,
+  parseApothekaPage, apothekaKeeps,
   parseEuronicsCampaignLinks, parseEuronicsCampaign, euronicsTypeFromUrl, decodeHtml,
 };

@@ -753,12 +753,24 @@ data on any of these screens; images hotlinked under the same
        HTML, 34 cards a page until an empty page. **Cosmetics and
        hygiene ONLY, never a medicine or supplement** (a pharmacy's
        OTC medicine carries the same legal angle groceries' Personal
-       care already excludes it for). The only category signal is the
-       card's "Toote tüüp": `apothekaTypeAllowed` keeps a type only
-       when it matches cosmetics/hygiene wording AND no medicine/
-       supplement/health/device word — an unknown type is dropped and
-       logged, never guessed in; "Hetkel otsas" (out of stock) is
-       dropped too.
+       care already excludes it for). The site's "Toote tüüp" is too
+       coarse to do that alone — found on the first fetch
+       (2026-09-26): 1,037 of 1,533 deals are just "Tervisetoode",
+       its catch-all for every non-medicine product, shampoo and
+       blood-pressure monitor alike. So `apothekaKeeps` (the owner's
+       decision, 2026-09-26): the TYPE only excludes (ravim,
+       toidulisand, veterinaar, abivahend, seade, test), and the NAME
+       decides what's kept — a clear cosmetics/hygiene word
+       (`APOTHEKA_COSMETIC_NAME`: šampoon, kreem, deodorant,
+       hambapasta, dushigeel, päikesekaitse, hügieeniside, ...) or a
+       known dermocosmetics/hygiene brand (`APOTHEKA_COSMETIC_BRAND`:
+       Vichy, Bioderma, Avène, ISDIN, Sensilis, IDUN, MoliCare, ...)
+       and no medical word (`APOTHEKA_MEDICAL_NAME`: ravim, plaaster,
+       seene, silmatilgad, oovul, lubrikant, tablet, ...). Anything
+       else is dropped and written to `outlets/data/apotheka-dropped.json`
+       (names + types) for the owner to review — extend the word lists
+       from that file, never from a guess. "Hetkel otsas" (out of
+       stock) is dropped too. First real result: 777 kept of 1,533.
      - **Euronics**: no sale listing exists; discounts sit on the
        campaign pages linked from the home page (`/kampaaniad/<id>`;
        deeper `/kampaaniad/*/*` paths are disallowed by robots.txt and

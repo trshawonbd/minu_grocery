@@ -66,8 +66,20 @@ cat > "$PLIST_PATH" <<PLIST
   <string>${LOG_DIR}/daily-update.out.log</string>
   <key>StandardErrorPath</key>
   <string>${LOG_DIR}/daily-update.err.log</string>
-  <!-- launchd jobs don't inherit an interactive shell's PATH — without
-       this, `git` (used by the script's own commit step) isn't found. -->
+  <!-- launchd jobs don't inherit an interactive shell's PATH: without
+       this, git (used by the script's own commit step) isn't found.
+       (No backticks in this comment: the heredoc is unquoted, and a
+       backticked word would be RUN by the shell while writing it.) -->
+  <!-- If the Mac is asleep at the scheduled minute, launchd runs the
+       job when it next wakes (missed calendar jobs are not dropped);
+       only a Mac that is shut down, or a user who is logged out, misses
+       a day. -->
+  <!-- Two log lines per run, whatever happens: the repo's own
+       data/logs/YYYY-MM-DD.txt (a SKIPPED reason too) and launchd's
+       stdout/stderr files above. -->
+  <!-- Nice: a scrape at 06:00 shares the CPU politely. -->
+  <key>Nice</key>
+  <integer>5</integer>
   <key>EnvironmentVariables</key>
   <dict>
     <key>PATH</key>
@@ -90,7 +102,7 @@ launchctl load "$PLIST_PATH"
 echo "Installed: runs daily at $(printf '%02d:%02d' "$HOUR" "$MINUTE") — node scraper/daily-update.js"
 echo "Plist:            $PLIST_PATH"
 echo "launchd logs:      $LOG_DIR/daily-update.out.log / .err.log"
-echo "Script's own logs: data/logs/YYYY-MM-DD.txt (one per successful run)"
+echo "Script's own logs: data/logs/YYYY-MM-DD.txt (every run — a skipped or failed one says why)"
 echo ""
 echo "To change the time: edit HOUR/MINUTE at the top of this script and re-run it,"
 echo "or edit the Hour/Minute in the plist directly, then:"

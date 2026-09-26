@@ -80,12 +80,28 @@ function checkStoreSafety(previousItems, freshItems) {
 // Pure by design (takes already-gathered strings/booleans, not a live
 // git call) so it's directly testable — see daily-update.js for the
 // real git status/fs.existsSync call this wraps.
+// The update's own log files (data/logs/YYYY-MM-DD.txt) are the one
+// thing this check ignores: a SKIPPED run writes its reason there
+// (the owner's rule — a skipped run must always say why), and that
+// file is untracked until the next real run commits it. Counting it
+// would make one skip skip every run after it, forever. Found on
+// 2026-09-26, when the 06:00 run skipped and left no trace in the
+// repo at all — the only record was launchd's own log file.
+// A porcelain line is two status characters (a space counts, " M"),
+// a space, then the path.
+const OWN_LOG_PATH = /^.{2} "?data\/logs\//;
+
 function checkRepoSafety(gitStatusOutput, workInProgressExists) {
   if (workInProgressExists) {
     return { safe: false, reason: "work-in-progress", detail: "data/.work-in-progress exists" };
   }
-  if (gitStatusOutput.trim().length > 0) {
-    return { safe: false, reason: "uncommitted-changes", detail: "git status is not clean" };
+  const dirty = gitStatusOutput
+    .split("\n")
+    .map((line) => line.replace(/\r$/, ""))
+    .filter((line) => line.trim().length > 0 && !OWN_LOG_PATH.test(line));
+  if (dirty.length > 0) {
+    const shown = dirty.slice(0, 5).map((line) => line.trim()).join(", ");
+    return { safe: false, reason: "uncommitted-changes", detail: `git status is not clean: ${shown}${dirty.length > 5 ? `, … (${dirty.length} files)` : ""}` };
   }
   return { safe: true };
 }
@@ -107,6 +123,7 @@ function updateProductPrices(product, freshByStore) {
   let priceUpdates = 0;
   let newlyUnavailable = 0;
   let reactivated = 0;
+  let imagesFilled = 0;
 
   for (const store of Object.keys(product.prices)) {
     const freshItems = freshByStore[storeKey(store)];
@@ -117,7 +134,9 @@ function updateProductPrices(product, freshByStore) {
 
     if (fresh) {
       if (entry.unavailable) reactivated++;
-      product.prices[store] = toStoreEntry(fresh);
+      const updated = mergeStoreEntry(entry, toStoreEntry(fresh));
+      if (!entry.image && updated.image) imagesFilled++;
+      product.prices[store] = updated;
       priceUpdates++;
     } else {
       if (!entry.unavailable) newlyUnavailable++;
@@ -125,7 +144,19 @@ function updateProductPrices(product, freshByStore) {
     }
   }
 
-  return { priceUpdates, newlyUnavailable, reactivated };
+  return { priceUpdates, newlyUnavailable, reactivated, imagesFilled };
+}
+
+// The fresh entry replaces the old one — price, size, barcode, store
+// name, sale price, and the store's photo URL when the scrape carried
+// one. A photo the old entry had and the fresh item didn't (a scrape
+// that couldn't read it that day) is kept rather than dropped: the
+// image is display-only and the last known one is better than none.
+// Everything else follows the fresh item exactly, so a card price or
+// sale price the store stopped stating disappears as it should.
+function mergeStoreEntry(previousEntry, freshEntry) {
+  if (freshEntry.image || !previousEntry.image) return freshEntry;
+  return { ...freshEntry, image: previousEntry.image };
 }
 
 // How many of a product's stores are currently available — a store
@@ -173,6 +204,7 @@ module.exports = {
   checkRepoSafety,
   checkStoreSafety,
   updateProductPrices,
+  mergeStoreEntry,
   availableStoreCount,
   updateHidden,
   findLeftoverPool,

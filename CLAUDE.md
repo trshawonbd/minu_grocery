@@ -75,10 +75,17 @@ long prose.
   a second one concurrently.
 - **The daily automatic update skips itself if the repo isn't clean**
   — uncommitted changes anywhere, or a `data/.work-in-progress` file,
-  and it does nothing (no scrape, no commit). To keep it from running
-  overnight while something is deliberately left uncommitted, create
-  an empty `data/.work-in-progress` and delete it when done. See
-  `checkRepoSafety()` in `scraper/daily-update-logic.js`.
+  and it does nothing (no scrape, no commit) except write one line
+  saying so to `data/logs/YYYY-MM-DD.txt` (the owner's rule: a
+  skipped run must always say why; that folder is the one path the
+  check ignores, so the line can't make tomorrow skip too). To keep
+  it from running overnight while something is deliberately left
+  uncommitted, create an empty `data/.work-in-progress` and delete it
+  when done. See `checkRepoSafety()` in
+  `scraper/daily-update-logic.js`. It covers every category in
+  `scraper/categories.js` and every store, refreshes store photo
+  URLs along with prices, and launchd runs a missed 06:00 as soon as
+  the Mac wakes (a shut-down or logged-out Mac misses the day).
 - **Never use `sudo`.**
 
 ## Roadmap

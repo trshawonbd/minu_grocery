@@ -41,7 +41,7 @@ const { matchPool } = require("./match-products");
 const { writeRaw, loadRaw } = require("./raw");
 const { buildSingles } = require("./build-singles");
 const { CATEGORIES } = require("./categories");
-const { fetchAllUrls, prepareItem, inferBrands, isUnclassified, toLeftoverEntry, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
+const { fetchAllUrls, prepareItem, inferBrands, isUnclassified, toLeftoverEntry, toProductEntry, uniqueCanonicalNames, carryOverImages } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -204,6 +204,11 @@ async function main() {
   }
 
   const prices = [...untouched, ...freshEntries];
+  // A store photo the previous entries had and this run's items don't
+  // (a --from-raw re-pool over raw data older than image capture) is
+  // kept — see carryOverImages.
+  const imagesKept = carryOverImages(freshEntries, existing);
+  if (imagesKept) console.log(`  (${imagesKept} store photo URLs carried over from the previous data/prices.json)`);
 
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(prices, null, 2) + "\n");

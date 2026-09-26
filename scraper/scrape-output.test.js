@@ -32,6 +32,22 @@ function match(canonicalName, ...names) {
 }
 
 const results = [
+  test("carryOverImages: a rebuilt entry without a store photo takes the one the previous data/prices.json had for the same URL; an entry that already has one, or whose URL had none, is untouched", () => {
+    const { carryOverImages } = require("./scrape-output");
+    const previous = [
+      { name: "Old", category: "Bread", prices: { barbora: { price: 1, url: "b1", image: "https://b/1.jpg" }, selver: { price: 1, url: "s1" } } },
+    ];
+    const rebuilt = [
+      { name: "New", category: "Bread", prices: { barbora: { price: 1.1, url: "b1" }, selver: { price: 1.2, url: "s1" }, coop: { price: 1, url: "c1", image: "https://c/1.jpg" } } },
+      { name: "Other", category: "Bread", prices: { barbora: { price: 2, url: "b2" }, rimi: { price: 2, url: "r2" } } },
+    ];
+    assert.equal(carryOverImages(rebuilt, previous), 1);
+    assert.equal(rebuilt[0].prices.barbora.image, "https://b/1.jpg");
+    assert.equal(rebuilt[0].prices.selver.image, undefined);
+    assert.equal(rebuilt[0].prices.coop.image, "https://c/1.jpg");
+    assert.equal(rebuilt[1].prices.barbora.image, undefined);
+    assert.equal(rebuilt[0].prices.barbora.price, 1.1, "nothing but the image is touched");
+  }),
   test("inferBrands: a brand-less item takes a brand another store states in the pool (whole word, any case, longest first); an item naming no stated brand keeps none; stated brands are never overwritten", () => {
     const { inferBrands } = require("./scrape-output");
     const pool = [

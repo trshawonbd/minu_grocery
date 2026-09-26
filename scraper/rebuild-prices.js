@@ -22,7 +22,7 @@ const { matchPool } = require("./match-products");
 // current ones in scraper/categories.js win (withCurrentSettings in
 // scrape-output.js) — found in batch 9, when a stale implied word in
 // meta.json silently kept old display names.
-const { withCurrentSettings, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
+const { withCurrentSettings, toProductEntry, uniqueCanonicalNames, carryOverImages } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -56,6 +56,10 @@ function main() {
     console.log(`${category.name}: ${before} -> ${matches.length} matches (${unmatched.length} unmatched, ${ambiguous.length} ambiguous) — rebuilt from data/raw/, no scrape`);
   }
 
+  // Raw data older than image capture carries no photo URLs — keep the
+  // ones the previous entries (filled by the daily update) already had.
+  const imagesKept = carryOverImages(freshEntries, existing);
+  if (imagesKept) console.log(`${imagesKept} store photo URLs carried over from the previous data/prices.json.`);
   const prices = [...untouched, ...freshEntries];
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(prices, null, 2) + "\n");
   console.log(`Wrote ${prices.length} products to data/prices.json (${untouched.length} untouched, ${freshEntries.length} rebuilt). Run \`npm run review\` next.`);

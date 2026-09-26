@@ -199,12 +199,28 @@ deliberately narrower than a by-hand `npm run fetch-prices` run:
   data for it stays exactly as-is) and the problem is written to
   `data/alerts.json` — a bad scrape (an outage, a broken page, a
   price-feed bug) should never silently look like a real update.
+- It refreshes every store entry a fresh item is found for — price,
+  sale price, barcode, store name and the **store's photo URL** (a
+  photo the entry already had is kept when a day's scrape carries
+  none). `rebuild-prices.js` and `fetch-price.js` carry existing
+  photo URLs over the same way (`carryOverImages`), and
+  `rename-products.js` never touches anything but the name.
+- Every category in `scraper/categories.js` (53 today), every store
+  (Barbora, Rimi, Selver, Coop) — never a fixed list of its own.
 - Writes a dated snapshot to `data/history/YYYY-MM-DD.json` every run
-  (kept forever — they're small) and a short summary to
-  `data/logs/YYYY-MM-DD.txt`, then commits every changed file under
-  `data/` with the message `Daily update YYYY-MM-DD` — the one script
-  in this project that commits on its own, since the entire point is
-  running with nobody watching.
+  and a summary to `data/logs/YYYY-MM-DD.txt` — **on every invocation**:
+  a run that skips itself (repo not clean, see below) or fails writes
+  its reason there too, and the repo-safety check ignores that one
+  folder so a skip log can't cause the next morning to skip as well.
+  Then it commits every changed file under `data/` with the message
+  `Daily update YYYY-MM-DD` — the one script in this project that
+  commits on its own, since the entire point is running with nobody
+  watching.
+- **Scheduling on a Mac:** the launchd job fires at 06:00; if the Mac
+  is asleep then, launchd runs it as soon as the Mac wakes (missed
+  calendar jobs are not dropped). Only a Mac that is shut down, or a
+  user who is logged out, misses a day. launchd's own stdout/stderr
+  land in `~/Library/Logs/minu/daily-update.{out,err}.log`.
 
 Run it by hand with `node scraper/daily-update.js` (same politeness
 rules as `npm run fetch-prices`: Selver capped at 1 request/second).

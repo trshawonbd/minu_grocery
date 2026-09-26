@@ -175,21 +175,35 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
   }
 
   // Update existing products in this category only — matched to a
-  // fresh item by URL alone, never created/merged/reassigned.
+  // fresh item by URL alone, never created/merged/reassigned. Price,
+  // availability AND the store's photo URL (kept when a fresh item
+  // has none — see mergeStoreEntry in daily-update-logic.js).
   let priceUpdates = 0;
+  let priceChanges = 0;
   let newlyUnavailable = 0;
   let reactivated = 0;
   let newlyHidden = 0;
+  let imagesFilled = 0;
   const categoryProducts = prices.filter((p) => p.category === category.name);
   for (const product of categoryProducts) {
     const wasHidden = product.hidden === true;
+    const before = Object.fromEntries(Object.entries(product.prices).map(([s, e]) => [s, e.price]));
     const counts = updateProductPrices(product, freshByStore);
     priceUpdates += counts.priceUpdates;
     newlyUnavailable += counts.newlyUnavailable;
     reactivated += counts.reactivated;
+    imagesFilled += counts.imagesFilled;
+    for (const [s, e] of Object.entries(product.prices)) if (before[s] !== undefined && e.price !== before[s]) priceChanges++;
     const isHidden = updateHidden(product);
     if (isHidden && !wasHidden) newlyHidden++;
   }
+  totals.priceUpdates += priceUpdates;
+  totals.priceChanges += priceChanges;
+  totals.newlyUnavailable += newlyUnavailable;
+  totals.reactivated += reactivated;
+  totals.newlyHidden += newlyHidden;
+  totals.imagesFilled += imagesFilled;
+  if (Object.keys(freshByStore).length > 0) totals.categoriesUpdated++;
 
   // New candidate matches among items not already tied to an existing
   // product — written to data/pending.json only, see main().
@@ -207,8 +221,38 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
   }
 
   log.push(
-    `  -> ${priceUpdates} price updates, ${newlyUnavailable} newly unavailable, ${reactivated} reactivated, ${newlyHidden} newly hidden`
+    `  -> ${priceUpdates} entries refreshed (${priceChanges} prices changed), ${newlyUnavailable} newly unavailable, ${reactivated} reactivated, ${newlyHidden} newly hidden, ${imagesFilled} images filled in`
   );
+}
+
+// How many products carry at least one store photo, and how many store
+// entries do — for the run's log (the owner's question after images
+// were added: "how many products now have an image").
+function imageCounts(prices) {
+  let products = 0;
+  let entries = 0;
+  let entriesWithImage = 0;
+  for (const product of prices) {
+    const list = Object.values(product.prices);
+    entries += list.length;
+    const withImage = list.filter((e) => e.image).length;
+    entriesWithImage += withImage;
+    if (withImage > 0) products++;
+  }
+  return { products, total: prices.length, entries, entriesWithImage };
+}
+
+// The run's own plain-text log, data/logs/YYYY-MM-DD.txt — written on
+// EVERY invocation, a skipped one included (the owner's rule: a
+// skipped run must always say why). Appended, so a skip at 06:00 and
+// a by-hand run later the same day both stay on record. The repo
+// safety check ignores this one path (see checkRepoSafety), which is
+// what makes writing it while the repo is "dirty" safe.
+function appendLog(lines) {
+  fs.mkdirSync(LOGS_DIR, { recursive: true });
+  const file = path.join(LOGS_DIR, `${today()}.txt`);
+  const prefix = fs.existsSync(file) && fs.statSync(file).size > 0 ? "\n" : "";
+  fs.appendFileSync(file, prefix + lines.join("\n") + "\n");
 }
 
 // Commits everything under data/ — called AFTER the day's log file is
@@ -248,12 +292,11 @@ function gitPush() {
 }
 
 // Checked first thing in main(), before any store is even fetched —
-// see checkRepoSafety in daily-update-logic.js for why. Deliberately
-// writes nothing to disk when unsafe (not even a log file): the whole
-// point is to leave the repo exactly as a person left it, and a log
-// entry here would itself be a new uncommitted file, tripping this
-// same check again on tomorrow's run and skipping forever. The
-// console output still reaches ~/Library/Logs/minu/daily-update.*.log
+// see checkRepoSafety in daily-update-logic.js for why. When unsafe,
+// the ONLY thing written is the day's log line under data/logs/
+// (which the check itself ignores, so it can't cause tomorrow's run
+// to skip too); the repo is otherwise left exactly as a person left
+// it. Console output also reaches ~/Library/Logs/minu/daily-update.*.log
 // via launchd's own StandardOutPath (see install-daily-update.sh).
 function repoSafetyCheck() {
   const gitStatusOutput = execFileSync("git", ["status", "--porcelain"], { cwd: ROOT, encoding: "utf8" });
@@ -261,10 +304,16 @@ function repoSafetyCheck() {
   return checkRepoSafety(gitStatusOutput, workInProgressExists);
 }
 
+// Per-run totals for the log's summary lines (filled by updateCategory).
+const totals = { categoriesUpdated: 0, priceUpdates: 0, priceChanges: 0, newlyUnavailable: 0, reactivated: 0, newlyHidden: 0, imagesFilled: 0 };
+
 async function main() {
+  const startedAt = new Date().toISOString();
   const safety = repoSafetyCheck();
   if (!safety.safe) {
-    console.log(`Skipping daily update: ${safety.reason} (${safety.detail}).`);
+    const line = `Daily update — ${startedAt}: SKIPPED — ${safety.reason} (${safety.detail}). Nothing fetched, nothing changed.`;
+    console.log(line);
+    appendLog([line]);
     return;
   }
 
@@ -272,10 +321,17 @@ async function main() {
   const overrides = loadJson(PRODUCTS_PATH, []);
   const knownDifferent = loadJson(KNOWN_DIFFERENT_PATH, []);
 
-  const log = [`Daily update — ${new Date().toISOString()}`, ""];
+  // A "started" line first, so a run that dies half-way (power, a
+  // crash) still leaves a trace in the repo's own log; the finished
+  // run's full summary is appended below.
+  appendLog([`Daily update — ${startedAt}: STARTED (${CATEGORIES.length} categories, every store)`]);
+
+  const log = [`Daily update — ${startedAt}`, ""];
   const alerts = [];
   const pendingEntries = [];
 
+  // Every category in scraper/categories.js — never a fixed list here,
+  // so a category added there is updated from its first morning on.
   for (const category of CATEGORIES) {
     await updateCategory(category, prices, overrides, knownDifferent, log, alerts, pendingEntries);
   }
@@ -288,18 +344,22 @@ async function main() {
   writeJson(path.join(HISTORY_DIR, `${today()}.json`), prices);
   writeJson(LAST_UPDATE_PATH, { updatedAt: new Date().toISOString() });
 
+  const images = imageCounts(prices);
   log.push("");
+  log.push(`Categories: ${totals.categoriesUpdated} of ${CATEGORIES.length} updated from at least one store.`);
+  log.push(`Prices: ${totals.priceUpdates} store entries refreshed, ${totals.priceChanges} prices changed, ${totals.newlyUnavailable} newly unavailable, ${totals.reactivated} reactivated, ${totals.newlyHidden} newly hidden.`);
+  log.push(`Images: ${totals.imagesFilled} filled in this run; ${images.products} of ${images.total} products now have a store photo (${images.entriesWithImage} of ${images.entries} store entries).`);
   log.push(`Total: ${pendingEntries.length} pending candidate(s), ${alerts.length} alert(s).`);
   if (alerts.length > 0) {
     log.push("Alerts:");
     for (const a of alerts) log.push(`  [${a.category}] ${a.store}: ${a.reason} — ${a.detail}`);
   }
+  log.push(`Finished — ${new Date().toISOString()}`);
 
   // Written before the commit so the log itself is included in it —
   // real bug found by hand testing this: writing it after left every
   // day's log file uncommitted and untracked, forever.
-  fs.mkdirSync(LOGS_DIR, { recursive: true });
-  fs.writeFileSync(path.join(LOGS_DIR, `${today()}.txt`), log.join("\n") + "\n");
+  appendLog(log);
 
   console.log(log.join("\n"));
   gitCommit();
@@ -312,5 +372,12 @@ async function main() {
 
 main().catch((err) => {
   console.error("Daily update failed:", err.stack || err.message);
+  // The failure goes into the repo's own log too, so a person reading
+  // data/logs/ sees why a morning has no "Finished" line.
+  try {
+    appendLog([`Daily update — ${new Date().toISOString()}: FAILED — ${err.stack || err.message}`]);
+  } catch (logErr) {
+    console.error("Could not write the log file:", logErr.message);
+  }
   process.exit(1);
 });

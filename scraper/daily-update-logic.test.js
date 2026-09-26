@@ -53,7 +53,7 @@ const results = [
     assert.deepEqual(p.prices.rimi, { price: 2.0, currency: "EUR", url: "r1" });
   }),
 
-  test("Image: a fresh item's store photo URL is carried into the existing entry by URL (so the nightly run fills in images with no extra scrape), and a fresh item with no photo leaves the entry without one", () => {
+  test("Image: a fresh item's store photo URL is carried into the existing entry by URL (so the nightly run fills in images with no extra scrape); a fresh item with no photo KEEPS the entry's last known one (the owner's call, 2026-09-26: keep and fill, never drop)", () => {
     const p = product({
       barbora: { price: 1.0, currency: "EUR", url: "b1" },
       rimi: { price: 2.0, currency: "EUR", url: "r1", image: "https://example.test/r/old" },
@@ -64,7 +64,7 @@ const results = [
     });
     assert.equal(p.prices.barbora.image, "https://example.test/b/x_m.png");
     assert.equal(p.prices.barbora.price, 1.29);
-    assert.equal(p.prices.rimi.image, undefined, "no photo in the fresh listing -> no stale URL kept");
+    assert.equal(p.prices.rimi.image, "https://example.test/r/old", "no photo in the fresh listing -> the last known one stays");
   }),
   test("Unavailable: a store's URL missing from the fresh scrape marks that entry unavailable, keeping its last known price", () => {
     const p = product({
@@ -185,6 +185,66 @@ const results = [
     const result = checkRepoSafety(" M data/prices.json\n", true);
     assert.equal(result.safe, false);
     assert.equal(result.reason, "work-in-progress");
+  }),
+
+  test("Repo safety (2026-09-26): the update's own data/logs/ files never count as dirty — untracked or modified — so a SKIPPED run's log line can't make every later run skip too; anything else still does, and the detail names it", () => {
+    assert.equal(checkRepoSafety("?? data/logs/2026-09-26.txt\n", false).safe, true);
+    assert.equal(checkRepoSafety(" M data/logs/2026-09-26.txt\n?? data/logs/2026-09-27.txt\n", false).safe, true);
+    const other = checkRepoSafety("?? data/logs/2026-09-26.txt\n?? .claude/scheduled_tasks.lock\n", false);
+    assert.equal(other.safe, false);
+    assert.equal(other.reason, "uncommitted-changes");
+    assert.match(other.detail, /\.claude\/scheduled_tasks\.lock/, "the offending file is named");
+    assert.doesNotMatch(other.detail, /data\/logs/);
+    const modified = checkRepoSafety(" M scraper/match-products.js\n", false);
+    assert.equal(modified.safe, false);
+    assert.match(modified.detail, /scraper\/match-products\.js/);
+    assert.equal(checkRepoSafety("\n", false).safe, true);
+  }),
+
+  test("Images: a fresh item's photo URL replaces the entry's; a fresh item WITHOUT one keeps the photo the entry already had (never dropped); imagesFilled counts entries that gained their first photo", () => {
+    const p = product({
+      barbora: { price: 1.0, currency: "EUR", url: "b1", image: "https://b/old.jpg" },
+      rimi: { price: 1.2, currency: "EUR", url: "r1" },
+      selver: { price: 1.1, currency: "EUR", url: "s1" },
+    });
+    const counts = updateProductPrices(p, {
+      barbora: [freshItem("b1", 1.05)],
+      rimi: [freshItem("r1", 1.25, { image: "https://r/new.jpg" })],
+      selver: [freshItem("s1", 1.15)],
+    });
+    assert.equal(p.prices.barbora.image, "https://b/old.jpg", "kept when the fresh item has none");
+    assert.equal(p.prices.barbora.price, 1.05, "price still refreshed");
+    assert.equal(p.prices.rimi.image, "https://r/new.jpg", "filled from the fresh item");
+    assert.equal(p.prices.selver.image, undefined);
+    assert.equal(counts.imagesFilled, 1);
+    const replaced = product({ barbora: { price: 1.0, currency: "EUR", url: "b1", image: "https://b/old.jpg" } });
+    updateProductPrices(replaced, { barbora: [freshItem("b1", 1.0, { image: "https://b/new.jpg" })] });
+    assert.equal(replaced.prices.barbora.image, "https://b/new.jpg", "a fresh photo wins");
+    // An unavailable listing keeps its photo too.
+    const gone = product({ barbora: { price: 1.0, currency: "EUR", url: "b1", image: "https://b/old.jpg" } });
+    updateProductPrices(gone, { barbora: [] });
+    assert.equal(gone.prices.barbora.image, "https://b/old.jpg");
+    assert.equal(gone.prices.barbora.unavailable, true);
+  }),
+
+  // Source-level guard: the daily update walks every category in
+  // scraper/categories.js — never a fixed list of its own — so a new
+  // category is refreshed from its first morning on (the owner's
+  // question when the list reached 53).
+  test("Daily update covers every category in scraper/categories.js (53 today), from that list, never a fixed one of its own", () => {
+    const fs = require("node:fs");
+    const path = require("node:path");
+    const { CATEGORIES } = require("./categories");
+    assert.ok(CATEGORIES.length >= 53, `expected at least 53 categories, found ${CATEGORIES.length}`);
+    const source = fs.readFileSync(path.join(__dirname, "daily-update.js"), "utf8");
+    assert.match(source, /for \(const category of CATEGORIES\)/, "iterates CATEGORIES from categories.js");
+    for (const c of CATEGORIES) assert.doesNotMatch(source, new RegExp(`"${c.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`), `no category named in the script itself (${c.name})`);
+    // Every store module is fetched, and the log always gets written —
+    // on a skip and on a failure as well as on a finished run.
+    for (const store of ["barbora", "rimi", "selver", "coop"]) assert.match(source, new RegExp(`require\\("\\./stores/${store}"\\)`), `${store} module is used`);
+    assert.match(source, /SKIPPED — \$\{safety\.reason\}/, "a skipped run logs its reason");
+    assert.match(source, /FAILED — \$\{err\.stack/, "a failed run logs the error");
+    assert.match(source, /STARTED \(/, "a run logs that it started before fetching");
   }),
 
   // Source-level guard, same style as no-scrape.test.js: the push step

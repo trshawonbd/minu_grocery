@@ -108,6 +108,33 @@ function inferBrands(pool) {
   return inferred;
 }
 
+// Store photo URLs are captured by the store modules at scrape time,
+// so a category whose data/raw/ predates image capture (2026-09-26)
+// has none there — and a rebuild or re-pool from that raw data would
+// silently drop the URLs the daily update has since filled in on
+// data/prices.json. This carries every image the previous entries had
+// (keyed by the store listing's URL) onto rebuilt entries that lack
+// one. Pure; returns the same products with images filled, nothing
+// else touched.
+function carryOverImages(products, previousProducts) {
+  const imageByUrl = new Map();
+  for (const product of previousProducts) {
+    for (const entry of Object.values(product.prices)) {
+      if (entry.image && entry.url) imageByUrl.set(entry.url, entry.image);
+    }
+  }
+  let filled = 0;
+  for (const product of products) {
+    for (const entry of Object.values(product.prices)) {
+      if (!entry.image && imageByUrl.has(entry.url)) {
+        entry.image = imageByUrl.get(entry.url);
+        filled++;
+      }
+    }
+  }
+  return filled;
+}
+
 function prepareItem(item, category) {
   if (category.strictPackaging !== false) item.strictPackaging = true;
   if (category.matchAcrossWeights === true) item.matchAcrossWeights = true;
@@ -259,4 +286,5 @@ module.exports = {
   toPricesObject,
   toProductEntry,
   uniqueCanonicalNames,
+  carryOverImages,
 };

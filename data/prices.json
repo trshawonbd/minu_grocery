@@ -71819,40 +71819,78 @@
         "regularPrice": 2.45,
         "storeName": "Keeduvorst Juustu RAKVERE, 300g"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustuvorst-300g/",
+        "size": "300g",
+        "ean": "4740003001661",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003001661.png",
+        "storeName": "Keeduvorst Juustuvorst Rakvere 300g"
+      },
       "selver": {
         "price": 2.43,
         "currency": "EUR",
         "url": "https://www.selver.ee/keeduvorst-juustu-rakvere-lk-300-g",
         "size": "300g",
+        "ean": "4740003001661",
         "storeUnitPrice": 8.1,
         "storeName": "Keeduvorst Juustu, RAKVERE LK, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Rakvere Keeduvorst doktori 300g",
+    "name": "Rakvere Keeduvorst lastevorst viil 190g",
     "category": "Sausages",
     "prices": {
-      "barbora": {
+      "coop": {
         "price": 1.55,
         "currency": "EUR",
-        "url": "https://barbora.ee/toode/keeduvorst-doktori-rakvere-300-g",
-        "size": "300g",
-        "storeUnitPrice": 5.17,
-        "storeName": "Keeduvorst Doktori RAKVERE, 300g"
+        "url": "https://coophaapsalu.ee/toode/rakvere-keeduvorst-lastevorst-190g-viil/",
+        "size": "190g",
+        "ean": "4740003001333",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740003001333.png",
+        "storeName": "Keeduvorst Lastevorst Rakvere 190g viil"
       },
       "selver": {
-        "price": 2.02,
+        "price": 1.69,
         "currency": "EUR",
-        "url": "https://www.selver.ee/keeduvorst-doktori-rakvere-lk-300-g",
-        "size": "300g",
-        "storeUnitPrice": 6.73,
-        "storeName": "Keeduvorst Doktori, RAKVERE LK, 300 g"
+        "url": "https://www.selver.ee/keeduvorst-laste-rakvere-lk-190-g",
+        "size": "190g",
+        "ean": "4740003001333",
+        "storeUnitPrice": 8.89,
+        "storeName": "Keeduvorst Laste, RAKVERE LK, 190 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Keeduvorst lastevorst 300g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lastevorst-300g/",
+        "size": "300g",
+        "ean": "4740003003160",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003003160.png",
+        "storeName": "Keeduvorst Lastevorst Rakvere 300g"
+      },
+      "selver": {
+        "price": 2.12,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keeduvorst-laste-rakvere-lk-300-g",
+        "size": "300g",
+        "ean": "4740003003160",
+        "storeUnitPrice": 7.07,
+        "storeName": "Keeduvorst Laste, RAKVERE LK, 300 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -71881,6 +71919,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lihakas-suitsujuustuvorst-rakvere-lk-360-g",
         "size": "360g",
+        "ean": "4740003006888",
         "storeUnitPrice": 10.42,
         "storeName": "Lihakas Suitsujuustuvorst, RAKVERE LK, 360 g"
       }
@@ -71900,16 +71939,26 @@
         "storeUnitPrice": 3.32,
         "storeName": "Keeduvorst Juustu VALLA, 600g"
       },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juustuvorst-valla-600g/",
+        "size": "600g",
+        "ean": "4740003011172",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003011172.png",
+        "storeName": "Keeduvorst Juustuvorst Valla 600g"
+      },
       "selver": {
         "price": 1.98,
         "currency": "EUR",
         "url": "https://www.selver.ee/keeduvorst-juustu-valla-600-g",
         "size": "600g",
+        "ean": "4740003011172",
         "storeUnitPrice": 3.3,
         "storeName": "Keeduvorst juustu, VALLA, 600 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -71925,16 +71974,26 @@
         "regularPrice": 2.99,
         "storeName": "77,7% Lastevorst M&M,350g"
       },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-v-lastevorst-77-7-350g/",
+        "size": "350g",
+        "ean": "4740171084398",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740171084398.png",
+        "storeName": "Keeduvorst Lastevorst 77.7% Maks&Moorits 350g"
+      },
       "selver": {
         "price": 2.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/lastevorst-77-7-maks-moorits-350-g",
         "size": "350g",
+        "ean": "4740171084398",
         "storeUnitPrice": 8.26,
         "storeName": "Lastevorst 77,7%, MAKS&MOORITS, 350 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -71950,16 +72009,60 @@
         "regularPrice": 3.19,
         "storeName": "77,7% Juustuvorst M&M,350g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-v-juustuvorst77-7-350g/",
+        "size": "350g",
+        "ean": "4740171084428",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740171084428.png",
+        "storeName": "Keeduvorst Juustuvorst 77.7% Maks&Moorits 350g"
+      },
       "selver": {
         "price": 3.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/juustuvorst-77-7-maks-moorits-350-g",
         "size": "350g",
+        "ean": "4740171084428",
         "storeUnitPrice": 9.11,
         "storeName": "Juustuvorst 77,7%, MAKS&MOORITS, 350 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Juustuvorst viil 190g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/juustuvorst-rakvere-190-g-viil",
+        "size": "190g",
+        "storeUnitPrice": 9.95,
+        "storeName": "Juustuvorst RAKVERE, 190g viil"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-juustuvorst-190g-viil/",
+        "size": "190g",
+        "ean": "4740003014647",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740003014647-1.png",
+        "storeName": "Juustuvorst Rakvere 190g viil"
+      },
+      "selver": {
+        "price": 1.92,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustuvorst-viilutatud-rakvere-lk-190-g",
+        "size": "190g",
+        "ean": "4740003014647",
+        "storeUnitPrice": 10.11,
+        "storeName": "Juustuvorst viilutatud, RAKVERE LK, 190 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -71974,16 +72077,26 @@
         "storeUnitPrice": 5.97,
         "storeName": "Juustuvorst M&M,300g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-keeduvorst-juustuvorst-300g/",
+        "size": "300g",
+        "ean": "4740171187693",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740171187693.png",
+        "storeName": "Keeduvorst Juustuvorst Maks&Moorits 300g"
+      },
       "selver": {
         "price": 1.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/juustuvorst-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171187693",
         "storeUnitPrice": 4.97,
         "storeName": "Juustuvorst, MAKS&MOORITS, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -71998,16 +72111,26 @@
         "storeUnitPrice": 4.63,
         "storeName": "Lemmikvorst M&M,300g"
       },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-keeduvorst-lemmikvorst-300g/",
+        "size": "300g",
+        "ean": "4740171187716",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740171187716.png",
+        "storeName": "Keeduvorst Lemmikvorst Maks&Moorits 300g"
+      },
       "selver": {
         "price": 1.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/lemmikvorst-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171187716",
         "storeUnitPrice": 4.63,
         "storeName": "Lemmikvorst, MAKS&MOORITS, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72023,16 +72146,26 @@
         "regularPrice": 3.59,
         "storeName": "Suitsutatud juustuvorst M&M,500g"
       },
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-suitsutatud-juustuvorst-500g/",
+        "size": "500g",
+        "ean": "4740171188010",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4740171188010.png",
+        "storeName": "Keeduvorst Juustuvorst Maks&Moorits 500g suitsut."
+      },
       "selver": {
         "price": 3.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsutatud-juustuvorst-maks-moorits-500-g",
         "size": "500g",
+        "ean": "4740171188010",
         "storeUnitPrice": 7.18,
         "storeName": "Suitsutatud Juustuvorst, MAKS&MOORITS, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72048,16 +72181,26 @@
         "regularPrice": 3.59,
         "storeName": "Suitsutatud doktorivorst M&M,500g"
       },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-k-v-doktorivorst-500g-suitsutatud/",
+        "size": "500g",
+        "ean": "4740171188003",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4740171188003.png",
+        "storeName": "Keeduvorst Doktorivorst M&M 500g suitsutatud"
+      },
       "selver": {
         "price": 3.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsutatud-doktorivorst-maks-moorits-500-g",
         "size": "500g",
+        "ean": "4740171188003",
         "storeUnitPrice": 7.18,
         "storeName": "Suitsutatud Doktorivorst, MAKS&MOORITS, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72072,6 +72215,15 @@
         "storeUnitPrice": 3.48,
         "storeName": "Juustuvorst WÕRO, 600g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/woro-keeduvorst-juustuvorst-600g/",
+        "size": "600g",
+        "ean": "4740562064541",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740562064541.png",
+        "storeName": "Keeduvorst Juustuvorst Wõro 600g"
+      },
       "rimi": {
         "price": 2.09,
         "currency": "EUR",
@@ -72085,11 +72237,72 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/juustuvorst-woro-600-g",
         "size": "600g",
+        "ean": "4740562064541",
         "storeUnitPrice": 3.53,
         "storeName": "Juustuvorst, WÕRO, 600 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Lihakas lastevorst 360g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-lihakas-lastevorst-360g/",
+        "size": "360g",
+        "ean": "4740003006895",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/08/4740003006895-1.png",
+        "storeName": "Lihakas Lastevorst Rakvere 360g"
+      },
+      "selver": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lihakas-lastevorst-rakvere-lk-360-g",
+        "size": "360g",
+        "ean": "4740003006895",
+        "storeUnitPrice": 10.69,
+        "storeName": "Lihakas Lastevorst, RAKVERE LK, 360 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Lastevorst lihakas viil 170g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/lastevorst-lihakas-rakvere-170-g-viil",
+        "size": "170g",
+        "storeUnitPrice": 12.06,
+        "storeName": "Lastevorst Lihakas RAKVERE, 170g viil"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-lihakas-lastevorst-170g-viil/",
+        "size": "170g",
+        "ean": "4740003017785",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017785-1.png",
+        "storeName": "Lihakas Lastevorst Rakvere 170g viil"
+      },
+      "selver": {
+        "price": 2.08,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lihakas-lastevorst-rakvere-170-g",
+        "size": "170g",
+        "ean": "4740003017785",
+        "storeUnitPrice": 12.24,
+        "storeName": "Lihakas lastevorst, RAKVERE, 170 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72111,6 +72324,7 @@
         "cardPrice": 3.39,
         "cardName": "Partner",
         "size": "350g",
+        "ean": "4740574094758",
         "storeUnitPrice": 14.26,
         "storeName": "Keeduvorst Nomps, NÕO, 350 g"
       }
@@ -72130,6 +72344,15 @@
         "storeUnitPrice": 6.15,
         "storeName": "Doktorivorst M&M,600g"
       },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-doktorivorst-600g/",
+        "size": "600g",
+        "ean": "4740171189499",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740171189499.png",
+        "storeName": "Doktorivorst Maks&Moorits 600g"
+      },
       "selver": {
         "price": 3.69,
         "currency": "EUR",
@@ -72137,11 +72360,12 @@
         "cardPrice": 2.49,
         "cardName": "Partner",
         "size": "600g",
+        "ean": "4740171189499",
         "storeUnitPrice": 6.15,
         "storeName": "Doktorivorst, MAKS&MOORITS, 600 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72156,16 +72380,26 @@
         "storeUnitPrice": 4.97,
         "storeName": "Keeduvorst kevadine M&M 300g"
       },
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-keeduvorst-kevadine-300g/",
+        "size": "300g",
+        "ean": "4740171189130",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4740171189130.png",
+        "storeName": "Keeduvorst Kevadine Maks&Moorits 300g"
+      },
       "selver": {
         "price": 1.51,
         "currency": "EUR",
         "url": "https://www.selver.ee/kevadine-keeduvorst-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171189130",
         "storeUnitPrice": 5.03,
         "storeName": "Kevadine keeduvorst, MAKS&MOORITS, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72179,6 +72413,15 @@
         "size": "440g",
         "storeUnitPrice": 4.2,
         "storeName": "Verikäkk RAKVERE, 440g"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/verikakk-rakvere-440g/",
+        "size": "440g",
+        "ean": "4740003008707",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003008707.jpg",
+        "storeName": "Verikäkk Rakvere 440g"
       },
       "rimi": {
         "price": 1.85,
@@ -72204,6 +72447,15 @@
         "storeUnitPrice": 12.74,
         "storeName": "Grillvorstid Jäägri NÕO, 365g"
       },
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jaagri-grillvorstid-365g/",
+        "size": "365g",
+        "ean": "4740574090873",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740574090873-2.png",
+        "storeName": "Jäägri grillvorstid Nõo 365g"
+      },
       "rimi": {
         "price": 4.59,
         "currency": "EUR",
@@ -72217,11 +72469,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/grillvorstid-jaagri-noo-365-g",
         "size": "365g",
+        "ean": "4740574090873",
         "storeUnitPrice": 12.58,
         "storeName": "Grillvorstid Jäägri, NÕO, 365 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72236,6 +72489,15 @@
         "storeUnitPrice": 4.44,
         "storeName": "Peipsi sibulagrill WÕRO, 900g"
       },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/peipsi-sibulagrill-900g/",
+        "size": "900g",
+        "ean": "4740562061113",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740562061113.png",
+        "storeName": "Peipsi sibulagrill Wõro 900g grillvorst"
+      },
       "rimi": {
         "price": 4.59,
         "currency": "EUR",
@@ -72249,11 +72511,46 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/peipsi-sibulagrill-woro-900-g",
         "size": "900g",
+        "ean": "4740562061113",
         "storeUnitPrice": 5.54,
         "storeName": "Peipsi sibulagrill, WÕRO, 900 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Memme verivorst 500g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/memme-verivorst-m-m-500-g",
+        "size": "500g",
+        "storeUnitPrice": 4.98,
+        "storeName": "Memme verivorst M&M, 500g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-memme-verivorst-500g/",
+        "size": "500g",
+        "ean": "4740171187211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740171187211-1.png",
+        "storeName": "Memme verivorst Maks&Moorits 500g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/verivorst-memme-seasooles-maks-moorits-500-g",
+        "size": "500g",
+        "ean": "4740171187211",
+        "storeUnitPrice": 3.58,
+        "storeName": "Verivorst Memme (seasooles), MAKS&MOORITS, 500 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72268,6 +72565,15 @@
         "storeUnitPrice": 10.73,
         "storeName": "Grillvorstid rohke juustuga RAKVERE,400g"
       },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-rohke-juustuga-grillvorstid-400g/",
+        "size": "400g",
+        "ean": "4740003016702",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740003016702.png",
+        "storeName": "Rohke juustuga grillvorstid Rakvere 400g"
+      },
       "rimi": {
         "price": 3.99,
         "currency": "EUR",
@@ -72281,15 +72587,66 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/grillvorstid-rohke-juustuga-rakvere-400-g",
         "size": "400g",
+        "ean": "4740003016702",
         "storeUnitPrice": 10.73,
         "storeName": "Grillvorstid rohke juustuga, RAKVERE, 400 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Merevaigu grillvorstid 600g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/merevaigu-grillvorstid-rakvere-600-g",
+        "size": "600g",
+        "storeUnitPrice": 8.32,
+        "storeName": "Merevaigu grillvorstid RAKVERE 600g"
+      },
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-merevaigu-grillvorstid-600g/",
+        "size": "600g",
+        "ean": "4740003018188",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740003018188.png",
+        "storeName": "Merevaigu grillvorstid Rakvere 600g"
       }
     },
     "matchedVia": "automatic",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Rannarootsi Viiner ehe 330g",
+    "name": "Rannarootsi Peened grillvorstid 330g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/peened-grillvorstid-rannarootsi-330-g",
+        "size": "330g",
+        "storeUnitPrice": 9.97,
+        "storeName": "Peened grillvorstid RANNAROOTSI 330g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-peened-grillvorstid-330g/",
+        "size": "330g",
+        "ean": "4740296003984",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740296003984.png",
+        "storeName": "Peened grillvorstid Rannarootsi 330g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Viiner ehe 90% 330g",
     "category": "Sausages",
     "prices": {
       "barbora": {
@@ -72299,6 +72656,15 @@
         "size": "330g",
         "storeUnitPrice": 8.76,
         "storeName": "Viiner Ehe RANNAROOTSI, 330g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/viiner-ehe-330g/",
+        "size": "330g",
+        "ean": "4740296007463",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296007463.png",
+        "storeName": "Viiner EHE Rannarootsi 330g 90% lihast"
       },
       "rimi": {
         "price": 2.61,
@@ -72313,11 +72679,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/viiner-ehe-rannarootsi-330-g",
         "size": "330g",
+        "ean": "4740296007463",
         "storeUnitPrice": 7.55,
         "storeName": "Viiner Ehe, RANNAROOTSI, 330 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72331,6 +72698,15 @@
         "size": "200g",
         "storeUnitPrice": 9.45,
         "storeName": "Lasteviiner RAKVERE, 200g"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lasteviiner-rakvere-200g/",
+        "size": "200g",
+        "ean": "4740003013664",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003013664.png",
+        "storeName": "Lasteviiner Rakvere 200g"
       },
       "rimi": {
         "price": 1.49,
@@ -72346,11 +72722,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lasteviiner-rakvere-lk-200-g",
         "size": "200g",
+        "ean": "4740003013664",
         "storeUnitPrice": 9.45,
         "storeName": "Lasteviiner, RAKVERE LK, 200 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72365,16 +72742,26 @@
         "storeUnitPrice": 4.38,
         "storeName": "Kanaviiner M&M,500g"
       },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanaviiner-500g/",
+        "size": "500g",
+        "ean": "4740171080154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171080154.png",
+        "storeName": "Kanaviiner Maks&Moorits 500g"
+      },
       "selver": {
         "price": 2.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/kanaviiner-maks-moorits-500-g",
         "size": "500g",
+        "ean": "4740171080154",
         "storeUnitPrice": 4.58,
         "storeName": "Kanaviiner, MAKS&MOORITS, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72391,6 +72778,15 @@
         "storeUnitPrice": 7.95,
         "storeName": "Miniviiner Ehe RANNAROOTSI, 200g"
       },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-ehe-miniviiner-200g/",
+        "size": "200g",
+        "ean": "4740296012443",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740296012443.png",
+        "storeName": "EHE Miniviiner Rannarootsi 200g"
+      },
       "rimi": {
         "price": 1.95,
         "currency": "EUR",
@@ -72404,11 +72800,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/miniviiner-ehe-rannarootsi-200-g",
         "size": "200g",
+        "ean": "4740296012443",
         "storeUnitPrice": 9.95,
         "storeName": "Miniviiner Ehe, RANNAROOTSI, 200 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72440,6 +72837,7 @@
         "cardPrice": 1.99,
         "cardName": "Partner",
         "size": "375g",
+        "ean": "4740171187723",
         "storeUnitPrice": 6.75,
         "storeName": "Sardell 77,7%, MAKS&MOORITS, 375 g"
       }
@@ -72459,6 +72857,15 @@
         "storeUnitPrice": 4.1,
         "storeName": "Koduviiner M&M,500g"
       },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koduviiner-500g/",
+        "size": "500g",
+        "ean": "4740171185354",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740171185354.png",
+        "storeName": "Koduviiner Maks&Moorits 500g"
+      },
       "rimi": {
         "price": 2.05,
         "currency": "EUR",
@@ -72472,8 +72879,34 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/koduviiner-maks-moorits-500-g",
         "size": "500g",
+        "ean": "4740171185354",
         "storeUnitPrice": 3.18,
         "storeName": "Koduviiner, MAKS&MOORITS, 500 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Viiner 400g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/viiner-rannarootsi-400-g",
+        "size": "400g",
+        "storeUnitPrice": 5.98,
+        "storeName": "Viiner RANNAROOTSI, 400g"
+      },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rannarootsi-viiner-400g/",
+        "size": "400g",
+        "ean": "4740296008446",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740296008446.png",
+        "storeName": "Rannarootsi viiner 400g"
       }
     },
     "matchedVia": "automatic",
@@ -72492,6 +72925,15 @@
         "regularPrice": 3.45,
         "storeName": "Viiner RAKVERE, 500g"
       },
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-viiner-500g/",
+        "size": "500g",
+        "ean": "4740003005706",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003005706-1.png",
+        "storeName": "Rakvere viiner 500g"
+      },
       "rimi": {
         "price": 2.69,
         "currency": "EUR",
@@ -72506,11 +72948,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rakvere-viiner-rakvere-lk-500-g",
         "size": "500g",
+        "ean": "4740003005706",
         "storeUnitPrice": 6.9,
         "storeName": "Rakvere viiner, RAKVERE LK, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72526,6 +72969,15 @@
         "regularPrice": 3.29,
         "storeName": "Frankfurter RANNAROOTSI, 500g"
       },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/frankfurter-500g/",
+        "size": "500g",
+        "ean": "4740296001355",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296001355.png",
+        "storeName": "Frankfurter Rannarootsi 500g"
+      },
       "selver": {
         "price": 3.55,
         "currency": "EUR",
@@ -72533,11 +72985,12 @@
         "cardPrice": 2.79,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4740296001355",
         "storeUnitPrice": 7.1,
         "storeName": "Frankfurter, RANNAROOTSI, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72552,6 +73005,15 @@
         "storeUnitPrice": 4.78,
         "storeName": "Suitsusardell RANNAROOTSI, 500g"
       },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suitsusardell-500g/",
+        "size": "500g",
+        "ean": "4740296001379",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296001379.jpg",
+        "storeName": "Suitsusardell Rannarootsi 500g"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -72565,11 +73027,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsusardell-rannarootsi-500-g",
         "size": "500g",
+        "ean": "4740296001379",
         "storeUnitPrice": 4.78,
         "storeName": "Suitsusardell, RANNAROOTSI, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72583,6 +73046,15 @@
         "size": "500g",
         "storeUnitPrice": 5.98,
         "storeName": "Suitsusardell RAKVERE, 500g"
+      },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suitsusardell-500g-2/",
+        "size": "500g",
+        "ean": "4740003000435",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003000435-1.png",
+        "storeName": "Suitsusardell Rakvere 500g"
       },
       "rimi": {
         "price": 2.99,
@@ -72621,6 +73093,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ollemops-juustuga-woro-500-g",
         "size": "500g",
+        "ean": "4740562061496",
         "storeUnitPrice": 6.78,
         "storeName": "Õllemops juustuga, WÕRO, 500 g"
       }
@@ -72645,6 +73118,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsutatud-taislihaviiner-noo-310-g",
         "size": "310g",
+        "ean": "4740574091207",
         "storeUnitPrice": 14.16,
         "storeName": "Suitsutatud täislihaviiner, NÕO, 310 g"
       }
@@ -72664,6 +73138,15 @@
         "storeUnitPrice": 6.18,
         "storeName": "Suitsusardell juustuga RANNAROOTSI, 500g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suitsusardell-500g-3/",
+        "size": "500g",
+        "ean": "4740296007883",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740296007883.png",
+        "storeName": "Suitsusardell juustuga Rannarootsi 500g"
+      },
       "rimi": {
         "price": 3.15,
         "currency": "EUR",
@@ -72677,11 +73160,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsusardell-juustuga-rannarootsi-500-g",
         "size": "500g",
+        "ean": "4740296007883",
         "storeUnitPrice": 6.26,
         "storeName": "Suitsusardell juustuga, RANNAROOTSI, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72695,6 +73179,15 @@
         "size": "260g",
         "storeUnitPrice": 7.27,
         "storeName": "Väike viiner M&M, 260g"
+      },
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-vaike-viiner-260g/",
+        "size": "260g",
+        "ean": "4740171085166",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740171085166.png",
+        "storeName": "Väike viiner Maks&Moorits 260g"
       },
       "rimi": {
         "price": 1.69,
@@ -72710,11 +73203,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vaike-viiner-maks-moorits-260-g",
         "size": "260g",
+        "ean": "4740171085166",
         "storeUnitPrice": 6.88,
         "storeName": "Väike viiner, MAKS&MOORITS, 260 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72753,6 +73247,15 @@
         "storeUnitPrice": 5.84,
         "storeName": "Suitsusardell Lemmik M&M,375g"
       },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-suitsusardell-lemmik-375g/",
+        "size": "375g",
+        "ean": "4740171188133",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740171188133.png",
+        "storeName": "Suitsusardell Lemmik Maks&Moorits 375g"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -72777,6 +73280,15 @@
         "storeUnitPrice": 16.2,
         "storeName": "Tailihaviiner MATSIMOKA,250g"
       },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-tailihaviiner-250g/",
+        "size": "250g",
+        "ean": "4744735010373",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4744735010373.png",
+        "storeName": "Tailihaviiner Matsimoka 250g"
+      },
       "rimi": {
         "price": 4.05,
         "currency": "EUR",
@@ -72790,11 +73302,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tailihaviiner-matsimoka-250-g",
         "size": "250g",
+        "ean": "4744735010373",
         "storeUnitPrice": 16.24,
         "storeName": "Tailihaviiner, MATSIMOKA, 250 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72814,8 +73327,60 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mini-juustuviiner-rakvere-lk-200-g",
         "size": "200g",
+        "ean": "4740003017167",
         "storeUnitPrice": 11.95,
         "storeName": "Mini juustuviiner, RAKVERE LK, 200 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Kanaviinerid nomps 250g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanaviinerid-nomps-noo-250-g",
+        "size": "250g",
+        "storeUnitPrice": 9.16,
+        "regularPrice": 3.09,
+        "storeName": "Kanaviinerid Nomps NÕO, 250g"
+      },
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-nomps-kanaviinerid-250g/",
+        "size": "250g",
+        "ean": "4740574096820",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740574096820.png",
+        "storeName": "Nomps kanaviinerid Nõo 250g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Klassikaline viiner 500g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/klassikaline-viiner-m-m-500-g",
+        "size": "500g",
+        "storeUnitPrice": 5.98,
+        "storeName": "Klassikaline viiner M&M 500g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-klassikaline-viiner-500g/",
+        "size": "500g",
+        "ean": "4740171189482",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740171189482.png",
+        "storeName": "Klassikaline viiner Maks&Moorits 500g"
       }
     },
     "matchedVia": "automatic",
@@ -72846,6 +73411,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/e-vaba-lihaviiner-oskar-125-g",
         "size": "125g",
+        "ean": "4740569008609",
         "storeUnitPrice": 9.52,
         "storeName": "E-vaba Lihaviiner, OSKAR, 125 g"
       }
@@ -72865,16 +73431,26 @@
         "storeUnitPrice": 5.63,
         "storeName": "Väike kanaviiner M&M,300g"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-vaike-kanaviiner-300g/",
+        "size": "300g",
+        "ean": "4740171185514",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740171185514.png",
+        "storeName": "Väike kanaviiner Maks&Moorits 300g"
+      },
       "selver": {
         "price": 1.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/vaike-kanaviiner-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171185514",
         "storeUnitPrice": 5.3,
         "storeName": "Väike kanaviiner, MAKS&MOORITS, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72889,6 +73465,15 @@
         "storeUnitPrice": 6.58,
         "storeName": "Sealihasardell RANNAROOTSI, 500g"
       },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sealihasardell-500g/",
+        "size": "500g",
+        "ean": "4740296001362",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296001362.jpg",
+        "storeName": "Sealihasardell Rannarootsi 500g"
+      },
       "rimi": {
         "price": 2.85,
         "currency": "EUR",
@@ -72902,11 +73487,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sealihasardell-rannarootsi-500-g",
         "size": "500g",
+        "ean": "4740296001362",
         "storeUnitPrice": 6.78,
         "storeName": "Sealihasardell, RANNAROOTSI, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -72921,6 +73507,15 @@
         "storeUnitPrice": 5.4,
         "storeName": "Suitsuviiner M&M,300g"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-suitsuviiner-300g/",
+        "size": "300g",
+        "ean": "4740171184937",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/4740171184937.png",
+        "storeName": "Suitsuviiner Maks&Moorits 300g"
+      },
       "rimi": {
         "price": 1.69,
         "currency": "EUR",
@@ -72934,8 +73529,34 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsuviiner-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171184937",
         "storeUnitPrice": 5.4,
         "storeName": "Suitsuviiner, MAKS&MOORITS, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Sealihasardell 500g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/sealihasardell-maks-moorits-500-g",
+        "size": "500g",
+        "storeUnitPrice": 5.38,
+        "storeName": "Sealihasardell MAKS&MOORITS, 500g"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-sealihasardell-500g/",
+        "size": "500g",
+        "ean": "4740171189475",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740171189475.png",
+        "storeName": "Sealihasardell Maks&Moorits 500g"
       }
     },
     "matchedVia": "automatic",
@@ -72958,6 +73579,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/poolsuitsuvorst-juustu-rannarootsi-150-g",
         "size": "150g",
+        "ean": "4740296007296",
         "storeUnitPrice": 11.67,
         "storeName": "Poolsuitsuvorst juustu, RANNAROOTSI, 150 g"
       }
@@ -72966,24 +73588,25 @@
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Nõo Keedusalaami vasalli 250g",
+    "name": "Nõo Keedusalaami paruni viil 90g",
     "category": "Sausages",
     "prices": {
       "barbora": {
-        "price": 4.99,
+        "price": 2.75,
         "currency": "EUR",
-        "url": "https://barbora.ee/toode/keedusalaami-vasalli-noo-250-g",
-        "size": "250g",
-        "storeUnitPrice": 19.96,
-        "storeName": "Keedusalaami Vasalli NÕO, 250g"
+        "url": "https://barbora.ee/toode/keedusalaami-paruni-noo-90-g-viil",
+        "size": "90g",
+        "storeUnitPrice": 30.56,
+        "storeName": "Keedusalaami Paruni NÕO, 90g viil"
       },
-      "selver": {
-        "price": 3.19,
+      "coop": {
+        "price": 3.15,
         "currency": "EUR",
-        "url": "https://www.selver.ee/keedusalaami-vasalli-noo-105-g",
-        "size": "105g",
-        "storeUnitPrice": 30.38,
-        "storeName": "Keedusalaami Vasalli, NÕO, 105 g"
+        "url": "https://coophaapsalu.ee/toode/paruni-keedusalaami-90g/",
+        "size": "90g",
+        "ean": "4740574080669",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740574080669-2.png",
+        "storeName": "Keedusalaami Paruni Nõo 90g viil"
       }
     },
     "matchedVia": "automatic",
@@ -73001,6 +73624,15 @@
         "storeUnitPrice": 16.76,
         "storeName": "Täissuitsuvorst Moskva NÕO, 250g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-vorst-moskva-250g/",
+        "size": "250g",
+        "ean": "4740574090187",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574090187-1.png",
+        "storeName": "T/S vorst Moskva Nõo 250g"
+      },
       "rimi": {
         "price": 3.59,
         "currency": "EUR",
@@ -73016,11 +73648,54 @@
         "cardPrice": 3.49,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "4740574090187",
         "storeUnitPrice": 16.76,
         "storeName": "Täissuitsuvorst Moskva, NÕO, 250 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere P s vorst lihakas krakov 300g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/p-s-vorst-lihakas-krakov-rakvere-300-g",
+        "size": "300g",
+        "storeUnitPrice": 12.17,
+        "storeName": "P/s vorst Lihakas Krakov RAKVERE, 300g"
+      },
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-p-s-vorst-lihakas-krakov-300g/",
+        "size": "300g",
+        "ean": "4740003010205",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740003010205.png",
+        "storeName": "P/S vorst Lihakas Krakov Rakvere 300g"
+      },
+      "rimi": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/keeduvorst-ja-suitsuvorst/pool--ja-taissuitsuvorstid/krakov-lihakas-rakvere-300g/p/904870",
+        "size": "300g",
+        "storeUnitPrice": 9.97,
+        "storeName": "Krakov Lihakas Rakvere 300g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lihakas-krakov-rakvere-lk-300-g",
+        "size": "300g",
+        "ean": "4740003010205",
+        "storeUnitPrice": 7.97,
+        "storeName": "Lihakas Krakov, RAKVERE LK, 300 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73035,6 +73710,15 @@
         "storeUnitPrice": 14.79,
         "storeName": "Täissuitsuvorst Hirve RANNAROOTSI,240g"
       },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-vorst-hirve-240g/",
+        "size": "240g",
+        "ean": "4740296010777",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296010777.png",
+        "storeName": "T/S vorst Hirve Rannarootsi 240g"
+      },
       "rimi": {
         "price": 3.55,
         "currency": "EUR",
@@ -73048,11 +73732,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hirve-taissuitsuvorst-rannarootsi-240-g",
         "size": "240g",
+        "ean": "4740296010777",
         "storeUnitPrice": 14.79,
         "storeName": "Hirve täissuitsuvorst, RANNAROOTSI, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73067,6 +73752,15 @@
         "storeUnitPrice": 17,
         "storeName": "Täissuitsuvorst Wabariigi NÕO, 250g"
       },
+      "coop": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-vorst-wabariigi-250g/",
+        "size": "250g",
+        "ean": "4740574092297",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574092297-2.png",
+        "storeName": "T/S vorst Wabariigi Nõo 250g"
+      },
       "rimi": {
         "price": 4.25,
         "currency": "EUR",
@@ -73080,11 +73774,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taissuitsuvorst-wabariigi-noo-250-g",
         "size": "250g",
+        "ean": "4740574092297",
         "storeUnitPrice": 13.16,
         "storeName": "Täissuitsuvorst Wabariigi, NÕO, 250 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73128,6 +73823,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalevi-poolsuitsuvorst-rannarootsi-330-g",
         "size": "330g",
+        "ean": "4740296011255",
         "storeUnitPrice": 9.36,
         "storeName": "Kalevi poolsuitsuvorst, RANNAROOTSI, 330 g"
       }
@@ -73147,6 +73843,15 @@
         "storeUnitPrice": 15.8,
         "storeName": "Täissuitsuvorst Kuningate KARNI, 250g"
       },
+      "coop": {
+        "price": 3.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-vorst-kuningate-250g/",
+        "size": "250g",
+        "ean": "4740579105350",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740579105350-1.png",
+        "storeName": "T/S vorst Kuningate Karni 250g"
+      },
       "rimi": {
         "price": 3.95,
         "currency": "EUR",
@@ -73160,11 +73865,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/taissuitsuvorst-kuningate-karni-250-g",
         "size": "250g",
+        "ean": "4740579105350",
         "storeUnitPrice": 15.8,
         "storeName": "Täissuitsuvorst kuningate, KARNI, 250 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73192,6 +73898,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/moskva-taissuitsuvorst-oskar-210-g",
         "size": "210g",
+        "ean": "4740569011081",
         "storeUnitPrice": 21.86,
         "storeName": "Moskva täissuitsuvorst, OSKAR, 210 g"
       }
@@ -73272,6 +73979,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/poolsuitsuvorst-servelaat-rakvere-lk-500-g",
         "size": "500g",
+        "ean": "4740003013626",
         "storeUnitPrice": 12.58,
         "storeName": "Poolsuitsuvorst Servelaat, RAKVERE LK, 500 g"
       }
@@ -73291,13 +73999,73 @@
         "storeUnitPrice": 13.71,
         "storeName": "Täissuitsuvorst Tooma M&M, 240g"
       },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-t-s-vorst-tooma-240g/",
+        "size": "240g",
+        "ean": "4740171187761",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740171187761.png",
+        "storeName": "T/S vorst Tooma Maks&Moorits 240g"
+      },
       "selver": {
         "price": 2.49,
         "currency": "EUR",
         "url": "https://www.selver.ee/taissuitsuvorst-tooma-maks-moorits-240-g",
         "size": "240g",
+        "ean": "4740171187761",
         "storeUnitPrice": 10.38,
         "storeName": "Täissuitsuvorst Tooma, MAKS&MOORITS, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Salaami seemnekattega 200g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 3.95,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/salaami-seemnekattega-rakvere-200-g",
+        "size": "200g",
+        "storeUnitPrice": 19.75,
+        "storeName": "Salaami seemnekattega RAKVERE,200g"
+      },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-seemnekattega-salaami-200g/",
+        "size": "200g",
+        "ean": "4740003016542",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4740003016542.png",
+        "storeName": "Seemnekattega salaami Rakvere 200g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Elpozo Salaami fuetec trühvliga 150g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/salaami-fuetec-truhvliga-elpozo-150-g",
+        "size": "150g",
+        "storeUnitPrice": 28.6,
+        "storeName": "Salaami Fuetec trühvliga ELPOZO,150g"
+      },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/elpozo-fuetec-salaami-truhvliga-150g/",
+        "size": "150g",
+        "ean": "8410843127376",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/8410843127376.png",
+        "storeName": "Salaami Fuetec trühvliga Elpozo 150g"
       }
     },
     "matchedVia": "automatic",
@@ -73315,16 +74083,26 @@
         "storeUnitPrice": 23,
         "storeName": "Salaami traditsiooniline MATSIMOKA,150g"
       },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-traditsiooniline-salaami-150g/",
+        "size": "150g",
+        "ean": "4744735010939",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4744735010939.png",
+        "storeName": "Traditsiooniline salaami Matsimoka 150g"
+      },
       "selver": {
         "price": 3.45,
         "currency": "EUR",
         "url": "https://www.selver.ee/traditsiooniline-salaami-matsimoka-150-g",
         "size": "150g",
+        "ean": "4744735010939",
         "storeUnitPrice": 23,
         "storeName": "Traditsiooniline salaami, MATSIMOKA, 150 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73339,16 +74117,26 @@
         "storeUnitPrice": 23,
         "storeName": "Salaami Chorizo MATSIMOKA,150g"
       },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-chorizo-salaami-150g/",
+        "size": "150g",
+        "ean": "4744735010953",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4744735010953.png",
+        "storeName": "Chorizo salaami Matsimoka 150g"
+      },
       "selver": {
         "price": 3.45,
         "currency": "EUR",
         "url": "https://www.selver.ee/chorizo-salaami-matsimoka-150-g",
         "size": "150g",
+        "ean": "4744735010953",
         "storeUnitPrice": 23,
         "storeName": "Chorizo salaami, MATSIMOKA, 150 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73363,6 +74151,15 @@
         "storeUnitPrice": 15.79,
         "storeName": "Suitsuvorst juustuga MATSIMOKA 240g"
       },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-suitsuvorst-juustuga-240g/",
+        "size": "240g",
+        "ean": "4744735011257",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/4744735011257.png",
+        "storeName": "Matsimoka suitsuvorst juustuga 240g"
+      },
       "rimi": {
         "price": 3.79,
         "currency": "EUR",
@@ -73376,11 +74173,79 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsuvorst-juustuga-matsimoka-240-g",
         "size": "240g",
+        "ean": "4744735011257",
         "storeUnitPrice": 17.04,
         "storeName": "Suitsuvorst juustuga, MATSIMOKA, 240 g"
       }
     },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg T s vorst broilerilihast 200g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/t-s-vorst-broilerilihast-tallegg-200-g",
+        "size": "200g",
+        "storeUnitPrice": 19.25,
+        "storeName": "T/s vorst broilerilihast TALLEGG 200g"
+      },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-t-s-vorst-broilerilihast-200g/",
+        "size": "200g",
+        "ean": "4740046013751",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740046013751.png",
+        "storeName": "Tallegg T/S vorst broilerilihast 200g"
+      }
+    },
     "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Salaami itaaliapärane viil 130g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/salaami-itaaliaparane-rakvere-130-g-viil",
+        "size": "130g",
+        "storeUnitPrice": 24.54,
+        "storeName": "Salaami Itaaliapärane RAKVERE,130g viil"
+      },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-itaaliaparane-salaami-130g-viil/",
+        "size": "130g",
+        "ean": "4740003017723",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017723.png",
+        "storeName": "Itaaliapärane salaami Rakvere 130g viil"
+      },
+      "rimi": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/keeduvorst-ja-suitsuvorst/pool--ja-taissuitsuvorstid/salaami-itaaliaparane-rakvere-130g/p/4007074",
+        "size": "130g",
+        "storeUnitPrice": 24.54,
+        "storeName": "Salaami itaaliapärane Rakvere 130g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/itaaliaparane-salaami-rakvere-130-g",
+        "size": "130g",
+        "ean": "4740003017723",
+        "storeUnitPrice": 19.15,
+        "storeName": "Itaaliapärane salaami, RAKVERE, 130 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73433,6 +74298,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pepperoni-taissuitsuvorst-maks-moorits-240-g",
         "size": "240g",
+        "ean": "4740171189147",
         "storeUnitPrice": 15.21,
         "storeName": "Pepperoni täissuitsuvorst, MAKS&MOORITS, 240 g"
       }
@@ -73452,16 +74318,26 @@
         "storeUnitPrice": 14.96,
         "storeName": "Täissuitsuvorst klassikaline M&M 240g"
       },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-t-s-vorst-klassikaline-240g/",
+        "size": "240g",
+        "ean": "4740171189154",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4740171189154.png",
+        "storeName": "T/S vorst Klassikaline Maks&Moorits 240g"
+      },
       "selver": {
         "price": 3.59,
         "currency": "EUR",
         "url": "https://www.selver.ee/klassikaline-taissuitsuvorst-maks-moorits-240-g",
         "size": "240g",
+        "ean": "4740171189154",
         "storeUnitPrice": 14.96,
         "storeName": "Klassikaline täissuitsuvorst, MAKS&MOORITS, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73481,6 +74357,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsuvorst-treski-terrav-noo-100-g",
         "size": "100g",
+        "ean": "4740574095090",
         "storeUnitPrice": 19.54,
         "storeName": "Suitsuvorst Treski Terräv, NÕO, 100 g"
       }
@@ -73500,6 +74377,15 @@
         "storeUnitPrice": 4.54,
         "storeName": "Poolsuitsuvorst Tõmmu WÕRO, 350g"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/p-s-vorst-tommu-350g/",
+        "size": "350g",
+        "ean": "4740562003144",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740562003144-1.png",
+        "storeName": "P/S vorst Tõmmu Wõro 350g"
+      },
       "selver": {
         "price": 2.19,
         "currency": "EUR",
@@ -73507,11 +74393,12 @@
         "cardPrice": 1.69,
         "cardName": "Partner",
         "size": "350g",
+        "ean": "4740562003144",
         "storeUnitPrice": 6.26,
         "storeName": "Poolsuitsuvorst Tõmmu, WÕRO, 350 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73525,6 +74412,15 @@
         "size": "500g",
         "storeUnitPrice": 4.7,
         "storeName": "Verivorst RAKVERE, 500g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-verivorst-500g/",
+        "size": "500g",
+        "ean": "4740003003214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740003003214-1.png",
+        "storeName": "Verivorst Rakvere 500g"
       },
       "rimi": {
         "price": 2.39,
@@ -73550,6 +74446,15 @@
         "storeUnitPrice": 10.48,
         "storeName": "Šašlõki toorvorstid RAKVERE,400g"
       },
+      "coop": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-shasloki-toorvorstid-400g/",
+        "size": "400g",
+        "ean": "4740003016085",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740003016085.png",
+        "storeName": "Shaslõki toorvorstid Rakvere 400g"
+      },
       "rimi": {
         "price": 3.79,
         "currency": "EUR",
@@ -73563,11 +74468,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sasloki-toorvorstid-rakvere-lk-400-g",
         "size": "400g",
+        "ean": "4740003016085",
         "storeUnitPrice": 10.98,
         "storeName": "Šašlõki toorvorstid, RAKVERE LK, 400 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -73587,6 +74493,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/toorvorstikesed-puhajarve-maks-moorits-400-g",
         "size": "400g",
+        "ean": "4740171177489",
         "storeUnitPrice": 8.73,
         "storeName": "Toorvorstikesed Pühajärve, MAKS&MOORITS, 400 g"
       }
@@ -73643,6 +74550,31 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "Maks & moorits Laste toorvorstikesed 400g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/laste-toorvorstikesed-maks-moorits-400-g",
+        "size": "400g",
+        "storeUnitPrice": 9.98,
+        "storeName": "Laste toorvorstikesed MAKS&MOORITS,400g"
+      },
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-laste-toorvorstikesed-400g/",
+        "size": "400g",
+        "ean": "4740171177458",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740171177458.png",
+        "storeName": "Laste toorvorstikesed Maks&Moorits 400g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Rakvere Toorvorstid merevaigu 400g",
     "category": "Sausages",
     "prices": {
@@ -73670,6 +74602,31 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "Maks&moorits Kodu grillvorstid 600g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-kodu-grillvorstid-600g/",
+        "size": "600g",
+        "ean": "4740171187570",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740171187570.png",
+        "storeName": "Kodu grillvorstid Maks&Moorits 600g"
+      },
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/grill--ja-verivorstid-eelkupsetatud-lihatooted/grillvorstid/kodu-grillvorstid-maks-moorits-600g/p/4003348",
+        "size": "600g",
+        "storeUnitPrice": 6.65,
+        "storeName": "Kodu grillvorstid Maks&Moorits 600g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Wõro Suitsuvorst juustuga tõmmu 350g",
     "category": "Sausages",
     "prices": {
@@ -73688,6 +74645,7 @@
         "cardPrice": 2.09,
         "cardName": "Partner",
         "size": "350g",
+        "ean": "4740562062936",
         "storeUnitPrice": 6.83,
         "storeName": "Tõmmu suitsuvorst juustuga, WÕRO, 350 g"
       }
@@ -73696,33 +74654,18 @@
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Rakvere Krakov lihakas 300g",
+    "name": "Nõo Tarbatu keedusalaami viil 105g",
     "category": "Sausages",
     "prices": {
-      "rimi": {
-        "price": 2.99,
+      "coop": {
+        "price": 3.49,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/keeduvorst-ja-suitsuvorst/pool--ja-taissuitsuvorstid/krakov-lihakas-rakvere-300g/p/904870",
-        "size": "300g",
-        "storeUnitPrice": 9.97,
-        "storeName": "Krakov Lihakas Rakvere 300g"
+        "url": "https://coophaapsalu.ee/toode/toorsalaami-tarbatu-105g/",
+        "size": "105g",
+        "ean": "4740574009691",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574009691-2.png",
+        "storeName": "Tarbatu keedusalaami Nõo 105g viil"
       },
-      "selver": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/lihakas-krakov-rakvere-lk-300-g",
-        "size": "300g",
-        "storeUnitPrice": 7.97,
-        "storeName": "Lihakas Krakov, RAKVERE LK, 300 g"
-      }
-    },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Nõo Keedusalaami tarbatu 105g",
-    "category": "Sausages",
-    "prices": {
       "rimi": {
         "price": 3.59,
         "currency": "EUR",
@@ -73736,41 +74679,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tarbatu-keedusalaami-noo-105-g",
         "size": "105g",
+        "ean": "4740574009691",
         "storeUnitPrice": 34.76,
         "storeName": "Tarbatu keedusalaami, NÕO, 105 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Rakvere Salaami itaaliapärane 130g",
+    "name": "Rakvere Seemnekattega toorsuitsuvorst viil seemnekattega 110g",
     "category": "Sausages",
     "prices": {
-      "rimi": {
-        "price": 3.19,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/keeduvorst-ja-suitsuvorst/pool--ja-taissuitsuvorstid/salaami-itaaliaparane-rakvere-130g/p/4007074",
-        "size": "130g",
-        "storeUnitPrice": 24.54,
-        "storeName": "Salaami itaaliapärane Rakvere 130g"
-      },
-      "selver": {
+      "coop": {
         "price": 2.49,
         "currency": "EUR",
-        "url": "https://www.selver.ee/itaaliaparane-salaami-rakvere-130-g",
-        "size": "130g",
-        "storeUnitPrice": 19.15,
-        "storeName": "Itaaliapärane salaami, RAKVERE, 130 g"
-      }
-    },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Rakvere Toorsuitsuvorst seemnekattega 110g",
-    "category": "Sausages",
-    "prices": {
+        "url": "https://coophaapsalu.ee/toode/rlk-seemnekattega-toorsuitsuvorst-110g/",
+        "size": "110g",
+        "ean": "4740003009254",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740003009254.png",
+        "storeName": "Seemnekattega toorsuitsuvorst Rakvere 110g viil"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -73784,8 +74713,34 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/seemnekattega-toorsuitsuvorst-rakvere-lk-110-g",
         "size": "110g",
+        "ean": "4740003009254",
         "storeUnitPrice": 22.64,
         "storeName": "Seemnekattega toorsuitsuvorst, RAKVERE LK, 110 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Toorsuitsuvorst 280g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-toorsuitsuvorst-280g/",
+        "size": "280g",
+        "ean": "4740003007083",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740003007083.jpg",
+        "storeName": "Toorsuitsuvorst Rakvere 280g"
+      },
+      "rimi": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/keeduvorst-ja-suitsuvorst/pool--ja-taissuitsuvorstid/toorsuitsuvorst-rakvere-280g/p/296051",
+        "size": "280g",
+        "storeUnitPrice": 13.89,
+        "storeName": "Toorsuitsuvorst Rakvere 280g"
       }
     },
     "matchedVia": "automatic",
@@ -73808,8 +74763,34 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lihakas-viiner-rakvere-lk-260-g",
         "size": "260g",
+        "ean": "4740003015477",
         "storeUnitPrice": 11.5,
         "storeName": "Lihakas viiner, RAKVERE LK, 260 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanaviiner 400g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-kanaviiner-400g/",
+        "size": "400g",
+        "ean": "4740046012792",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/09/4740046012792-1.png",
+        "storeName": "Kanaviiner Tallegg 400g"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/viinerid-ja-sardellid/kanaviiner-tallegg-400g/p/993994",
+        "size": "400g",
+        "storeUnitPrice": 4.97,
+        "storeName": "Kanaviiner Tallegg 400g"
       }
     },
     "matchedVia": "automatic",
@@ -73834,8 +74815,1110 @@
         "cardPrice": 2.59,
         "cardName": "Partner",
         "size": "375g",
+        "ean": "4740296007456",
         "storeUnitPrice": 8.61,
         "storeName": "Suitsusardell Ehe, RANNAROOTSI, 375 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe T s põdravorst 230g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-podravorst-230g/",
+        "size": "230g",
+        "ean": "4740618003135",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740618003135.png",
+        "storeName": "T/S Põdravorst Linnamäe 230g"
+      },
+      "selver": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissuitsu-podravorst-linnamae-lihatoostus-230-g",
+        "cardPrice": 4.89,
+        "cardName": "Partner",
+        "size": "230g",
+        "ean": "4740618003135",
+        "storeUnitPrice": 24.74,
+        "storeName": "Täissuitsu põdravorst, LINNAMÄE LIHATÖÖSTUS, 230 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe T s hirvevorst lepasuitsujuustuga 230g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 4.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-hirvevorst-230g/",
+        "size": "230g",
+        "ean": "4740618003128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740618003128.png",
+        "storeName": "T/S Hirvevorst lepasuitsujuustuga Linnamäe 230g"
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissuitsu-hirvevorst-lepasuitsujuustuga-linnamae-lihatoostus-230-g",
+        "size": "230g",
+        "ean": "4740618003128",
+        "storeUnitPrice": 19.52,
+        "storeName": "Täissuitsu Hirvevorst lepasuitsujuustuga, LINNAMÄE LIHATÖÖSTUS, 230 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanasigar 200g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanasigar-200g/",
+        "size": "200g",
+        "ean": "4740046010835",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046010835-1.png",
+        "storeName": "Kanasigar Tallegg 200g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanasigar-tallegg-200-g",
+        "size": "200g",
+        "ean": "4740046010835",
+        "storeUnitPrice": 12.95,
+        "storeName": "Kanasigar, TALLEGG, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanasigar juustu juustuga 200g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-kanasigar-juustu-200g/",
+        "size": "200g",
+        "ean": "4740046010842",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/07/4740046010842-1.png",
+        "storeName": "Kanasigar juustu Tallegg 200g"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanasigar-juustuga-tallegg-200-g",
+        "size": "200g",
+        "ean": "4740046010842",
+        "storeUnitPrice": 18.95,
+        "storeName": "Kanasigar juustuga, TALLEGG, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Miniõllesigar 300g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 5.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/miniollesigar-300g/",
+        "size": "300g",
+        "ean": "4740003011677",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003011677-1.png",
+        "storeName": "Miniõllesigar Rakvere 300g"
+      },
+      "selver": {
+        "price": 5.68,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/snakk-pro-mini-ollesigar-rakvere-lk-300-g",
+        "size": "300g",
+        "ean": "4740003011677",
+        "storeUnitPrice": 18.93,
+        "storeName": "Snäkk pro Mini õllesigar , RAKVERE LK, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi T s vorst eesti lihaveise 240g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-vorst-lihaveise-240g/",
+        "size": "240g",
+        "ean": "4740296010760",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296010760.png",
+        "storeName": "T/S vorst Eesti lihaveise Rannarootsi 240g"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lihaveise-taissuitsuvorst-rannarootsi-240-g",
+        "size": "240g",
+        "ean": "4740296010760",
+        "storeUnitPrice": 15.63,
+        "storeName": "Lihaveise täissuitsuvorst, RANNAROOTSI, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere grillviiner juustuga 500g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/grillviiner-juustuga-500/",
+        "size": "500g",
+        "ean": "4740003004570",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740003004570-1.png",
+        "storeName": "Rakvere grillviiner juustuga 500g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/grillviiner-juustuga-rakvere-lk-500-g",
+        "size": "500g",
+        "ean": "4740003004570",
+        "storeUnitPrice": 9.98,
+        "storeName": "Grillviiner juustuga, RAKVERE LK, 500 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere T s vorst õllesigar 120g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-vorst-ollesigar-120g/",
+        "size": "120g",
+        "ean": "4740003005331",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003005331.png",
+        "storeName": "T/S vorst Õllesigar Rakvere 120g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/snakk-pro-ollesigar-rakvere-lk-120-g",
+        "size": "120g",
+        "ean": "4740003005331",
+        "storeUnitPrice": 14.92,
+        "storeName": "Snäkk pro Õllesigar, RAKVERE LK, 120 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "T s vorst põdralihast juustuga eesti uluk rr 180g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-t-s-vorst-podral-juust-eesti-uluk180g/",
+        "size": "180g",
+        "ean": "4740296012214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740296012214.png",
+        "storeName": "T/S vorst põdralihast juustuga Eesti Uluk RR 180g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/podralihast-taissuitsuvorst-juustuga-eesti-uluk-rannarootsi-180-g",
+        "size": "180g",
+        "ean": "4740296012214",
+        "storeUnitPrice": 17.72,
+        "storeName": "Põdralihast täissuitsuvorst juustuga Eesti Uluk, RANNAROOTSI, 180 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Kanalihasnäkk super snack 85g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-kanalihasnakk-super-snack-85g/",
+        "size": "85g",
+        "ean": "4740171183749",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/4740171183749.png",
+        "storeName": "Kanalihasnäkk Super Snack Maks&Moorits 85g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanalihasnakk-super-snack-maks-moorits-85-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "4740171183749",
+        "storeUnitPrice": 21.76,
+        "storeName": "Kanalihasnäkk Super Snack, MAKS&MOORITS, 85 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Ehe itaaliapärane salaami viil 100g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-ehe-itaaliaparane-salaami-100g-viil/",
+        "size": "100g",
+        "ean": "4740296012535",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740296012535.png",
+        "storeName": "EHE Itaaliapärane salaami Rannarootsi 100g viil"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/itaaliaparane-salaami-viilutatud-ehe-rannarootsi-100-g",
+        "size": "100g",
+        "ean": "4740296012535",
+        "storeUnitPrice": 23.9,
+        "storeName": "Itaaliapärane salaami viilutatud Ehe, RANNAROOTSI, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Ehe hispaaniapärane chorizo viil 100g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-ehe-hispaaniaparane-chorizo-100g-viil/",
+        "size": "100g",
+        "ean": "4740296012542",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740296012542.png",
+        "storeName": "EHE Hispaaniapärane chorizo Rannarootsi 100g viil"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hispaaniaparane-chorizo-viilutatud-ehe-rannarootsi-100-g",
+        "size": "100g",
+        "ean": "4740296012542",
+        "storeUnitPrice": 23.9,
+        "storeName": "Hispaaniapärane chorizo viilutatud Ehe, RANNAROOTSI, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Wõro Suitsuvorst tamula viil 150g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/woro-suitsuvorst-tamula-150g-viil/",
+        "size": "150g",
+        "ean": "4740562062943",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740562062943.png",
+        "storeName": "Suitsuvorst Tamula Wõro 150g viil"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/poolsuitsuvorst-tamula-woro-150-g",
+        "size": "150g",
+        "ean": "4740562062943",
+        "storeUnitPrice": 9.27,
+        "storeName": "Poolsuitsuvorst Tamula, WÕRO, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Tshilli salaami 150g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-tshilli-salaami-150g/",
+        "size": "150g",
+        "ean": "4744735010946",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4744735010946.png",
+        "storeName": "Tshilli salaami Matsimoka 150g"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tsilli-salaami-matsimoka-150-g",
+        "size": "150g",
+        "ean": "4744735010946",
+        "storeUnitPrice": 23,
+        "storeName": "Tšilli salaami, MATSIMOKA, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Trühvli salaami 150g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-truhvli-salaami-150g/",
+        "size": "150g",
+        "ean": "4744735010960",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4744735010960.png",
+        "storeName": "Trühvli salaami Matsimoka 150g"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/truhvli-salaami-matsimoka-150-g",
+        "size": "150g",
+        "ean": "4744735010960",
+        "storeUnitPrice": 27.27,
+        "storeName": "Trühvli salaami, MATSIMOKA, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Vinkuampsud juustuga 300g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-vinkuampsud-juustuga-300g/",
+        "size": "300g",
+        "ean": "4740003016672",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740003016672-1.png",
+        "storeName": "Vinkuampsud juustuga Rakvere 300g"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vinkuampsud-juustuga-snakk-pro-rakvere-lk-300-g",
+        "size": "300g",
+        "ean": "4740003016672",
+        "storeUnitPrice": 11.83,
+        "storeName": "Vinkuampsud juustuga SNÄKK pro, RAKVERE LK, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Keeduvorst paprikalõige viil 150g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/k-v-paprikaloige-150g/",
+        "size": "150g",
+        "ean": "4740296010951",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296010951.jpg",
+        "storeName": "Keeduvorst Paprikalõige Rannarootsi 150g viil"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paprikaloige-rannarootsi-150-g",
+        "size": "150g",
+        "ean": "4740296010951",
+        "storeUnitPrice": 9.93,
+        "storeName": "Paprikalõige, RANNAROOTSI, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni T s vorst parmigiano reggiano juustuga 250g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karni-t-s-vorst-parmigiano-reggiano-250g/",
+        "size": "250g",
+        "ean": "4740579101000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740579101000-1.png",
+        "storeName": "T/S vorst Parmigiano Reggiano juustuga Karni 250g"
+      },
+      "selver": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taissuitsuvorst-parmigiano-reggiano-juustuga-karni-250-g",
+        "size": "250g",
+        "ean": "4740579101000",
+        "storeUnitPrice": 22.36,
+        "storeName": "Täissuitsuvorst Parmigiano Reggiano juustuga, KARNI, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Lihasnäkk super snack klassikaline 85g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-lihasnakk-super-snack-klassikal-85g/",
+        "size": "85g",
+        "ean": "4740171181288",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740171181288.png",
+        "storeName": "Lihasnäkk Super Snack klassikaline Maks&Moorits85g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/klassikaline-super-snakk-maks-moorits-85-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "4740171181288",
+        "storeUnitPrice": 21.76,
+        "storeName": "Klassikaline Super snäkk, MAKS&MOORITS, 85 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Lihasnäkk parmigiano reggiano juustuga m 85g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/parmesan-super-snack-85g/",
+        "size": "85g",
+        "ean": "4740171181172",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171181172.jpg",
+        "storeName": "Lihasnäkk Parmigiano Reggiano juustuga M&M 85g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustu-super-snakk-maks-moorits-85-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "4740171181172",
+        "storeUnitPrice": 21.76,
+        "storeName": "Juustu Super snäkk, MAKS&MOORITS, 85 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Lihasnäkk pepperoni super snack 85g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pepperoni-super-snack85g/",
+        "size": "85g",
+        "ean": "4740171181226",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171181226-1.jpg",
+        "storeName": "Lihasnäkk Pepperoni Super Snack Maks&Moorits 85g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pepperoni-super-snakk-maks-moorits-85-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "85g",
+        "ean": "4740171181226",
+        "storeUnitPrice": 21.76,
+        "storeName": "Pepperoni Super snäkk, MAKS&MOORITS, 85 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Wõro Keeduvorst võileivavorst 800g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/woro-keeduvorst-voileivavorst-800g/",
+        "size": "800g",
+        "ean": "4740562062912",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/4740562062912.png",
+        "storeName": "Keeduvorst Võileivavorst Wõro 800g"
+      },
+      "selver": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/voileivavorst-woro-800-g",
+        "size": "800g",
+        "ean": "4740562062912",
+        "storeUnitPrice": 0.86,
+        "storeName": "Võileivavorst, WÕRO, 800 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Miniõllesigar kolme juustuga 300g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-miniollesigar-kolme-juustuga-300g/",
+        "size": "300g",
+        "ean": "4740003016603",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740003016603-1.png",
+        "storeName": "Miniõllesigar kolme juustuga Rakvere 300g"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/snakk-pro-mini-ollesigar-juustu-rakvere-lk-300-g",
+        "size": "300g",
+        "ean": "4740003016603",
+        "storeUnitPrice": 19.63,
+        "storeName": "Snäkk pro Mini õllesigar juustu , RAKVERE LK, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Suitsuvorst kadakajuustuga 250g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-suitsuvorst-kadakajuustuga-250g/",
+        "size": "250g",
+        "ean": "4740574094215",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740574094215-1.png",
+        "storeName": "Suitsuvorst kadakajuustuga Nõo 250g"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kadakajuustuga-suitsuvorst-noo-250-g",
+        "size": "250g",
+        "ean": "4740574094215",
+        "storeUnitPrice": 13.96,
+        "storeName": "Kadakajuustuga suitsuvorst, NÕO, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Traditsiooniline salaami viil 130g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-traditsiooniline-salaami-130g-viil/",
+        "size": "130g",
+        "ean": "4740003017730",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017730.png",
+        "storeName": "Traditsiooniline salaami Rakvere 130g viil"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/traditsiooniline-salaami-rakvere-130-g",
+        "size": "130g",
+        "ean": "4740003017730",
+        "storeUnitPrice": 25.31,
+        "storeName": "Traditsiooniline salaami, RAKVERE, 130 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Lihakas doktorivorst viil 170g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-lihakas-doktorivorst-170g-viil/",
+        "size": "170g",
+        "ean": "4740003017792",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017792.png",
+        "storeName": "Lihakas Doktorivorst Rakvere 170g viil"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lihakas-doktorivorst-rakvere-170-g",
+        "size": "170g",
+        "ean": "4740003017792",
+        "storeUnitPrice": 11.88,
+        "storeName": "Lihakas doktorivorst, RAKVERE, 170 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Juustuviiner 300g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-juustuviiner-300g/",
+        "size": "300g",
+        "ean": "4740171188959",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/01/4740171188959.png",
+        "storeName": "Juustuviiner Maks&Moorits 300g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juustuviiner-maks-moorits-300-g",
+        "size": "300g",
+        "ean": "4740171188959",
+        "storeUnitPrice": 7.63,
+        "storeName": "Juustuviiner, MAKS&MOORITS, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo P s vorst mini viil 135g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/p-s-vorst-mini-135g-viil/",
+        "size": "135g",
+        "ean": "4740574008090",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574008090-1.png",
+        "storeName": "P/S vorst Mini Nõo 135g viil"
+      },
+      "selver": {
+        "price": 2.8,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/poolsuitsuvorst-mini-noo-135-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "135g",
+        "ean": "4740574008090",
+        "storeUnitPrice": 20.74,
+        "storeName": "Poolsuitsuvorst Mini, NÕO, 135 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo P s vorst krakov 270g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/p-s-vorst-krakov-270g/",
+        "size": "270g",
+        "ean": "4740574080324",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574080324-2.png",
+        "storeName": "P/S vorst Krakov Nõo 270g"
+      },
+      "selver": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/poolsuitsuvorst-krakovi-noo-270-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "270g",
+        "ean": "4740574080324",
+        "storeUnitPrice": 13.52,
+        "storeName": "Poolsuitsuvorst Krakovi, NÕO, 270 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Snäkkvorstike parmigiano reggiano juustuga 85g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/snack-with-parmigiano85g/",
+        "size": "85g",
+        "ean": "4740574090446",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740574090446-2.png",
+        "storeName": "Snäkkvorstike Parmigiano Reggiano juustuga Nõo 85g"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/snakk-parmigiano-reggiano-juustuga-noo-85-g",
+        "size": "85g",
+        "ean": "4740574090446",
+        "storeUnitPrice": 17.53,
+        "storeName": "Snäkk Parmigiano-Reggiano juustuga, NÕO, 85 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Maitsesalaami viil 120g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karni-maitsesalaami-120g-viil/",
+        "size": "120g",
+        "ean": "4740579103431",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740579103431-2.png",
+        "storeName": "Maitsesalaami Karni 120g viil"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitsesalaami-karni-120-g",
+        "size": "120g",
+        "ean": "4740579103431",
+        "storeUnitPrice": 21.58,
+        "storeName": "Maitsesalaami, KARNI, 120 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Delikatessviiner cheddari juustuga 250g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-delikat-viiner-cheddari-juustuga-250g/",
+        "size": "250g",
+        "ean": "4740296003328",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740296003328.png",
+        "storeName": "Delikatessviiner Cheddari juustuga Rannarootsi250g"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/delikatessviiner-cheddari-juustuga-rannarootsi-250g",
+        "size": "250g",
+        "ean": "4740296003328",
+        "storeUnitPrice": 10.6,
+        "storeName": "Delikatessviiner Cheddari juustuga, RANNAROOTSI, 250g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo T s vorst ordu küüslauguga 250g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/t-s-vorst-ordu-250g/",
+        "size": "250g",
+        "ean": "4740574090255",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574090255-2.png",
+        "storeName": "T/S vorst Ordu küüslauguga Nõo 250g"
+      },
+      "selver": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ordu-taissuitsuvorst-kuuslauguga-noo-lihavurst-250-g",
+        "size": "250g",
+        "ean": "4740574090255",
+        "storeUnitPrice": 19.16,
+        "storeName": "Ordu täissuitsuvorst küüslauguga, NÕO LIHAVÜRST, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Elpozo Fuet nobleza salaami 200g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/salaami-fuet-nobleza200g/",
+        "size": "200g",
+        "ean": "8410843012306",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410843012306.png",
+        "storeName": "Fuet Nobleza salaami Elpozo 200g"
+      },
+      "selver": {
+        "price": 4.06,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fuet-salaami-nobleza-elpozo-200-g",
+        "size": "200g",
+        "ean": "8410843012306",
+        "storeUnitPrice": 20.3,
+        "storeName": "Fuet salaami Nobleza, ELPOZO, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Elpozo Fuetec toorsalaami 170g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/fuetec-toorsalaami-170g/",
+        "size": "170g",
+        "ean": "8410843079613",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410843079613.jpg",
+        "storeName": "Fuetec toorsalaami Elpozo 170g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fuetec-salaami-elpozo-170-g",
+        "size": "170g",
+        "ean": "8410843079613",
+        "storeUnitPrice": 17.59,
+        "storeName": "Fuetec salaami, ELPOZO, 170 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi T s vorst metssealihast eesti uluk 180g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-t-s-vorst-metssealiha-eesti-uluk-180g/",
+        "size": "180g",
+        "ean": "4740296012627",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740296012627.png",
+        "storeName": "T/S vorst metssealihast Eesti Uluk Rannarootsi180g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/eesti-uluk-metssealihast-taissuitsuvorst-rannarootsi-180-g",
+        "size": "180g",
+        "ean": "4740296012627",
+        "storeUnitPrice": 16.61,
+        "storeName": "Eesti Uluk Metssealihast täissuitsuvorst, RANNAROOTSI, 180 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maitselt grillvorst juustuga m 600g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 5.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/grillvorst-juustuga-600g/",
+        "size": "600g",
+        "ean": "4740171085159",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171085159.jpg",
+        "storeName": "Maitselt mahe grillvorst juustuga M&M 600g"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitselt-mahe-grillvorst-juustuga-maks-moorits-600-g",
+        "size": "600g",
+        "ean": "4740171085159",
+        "storeUnitPrice": 9.82,
+        "storeName": "Maitselt mahe grillvorst juustuga, MAKS&MOORITS, 600 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Matsimoka Grillvorst mozzarella tom basiiliku 250g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-grillvorst-mozzarella-tom-250g/",
+        "size": "250g",
+        "ean": "4744735010847",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4744735010847.png",
+        "storeName": "Grillvorst mozzarella tom-basiiliku Matsimoka 250g"
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/grillvorstid-mozzarella-tomati-basiiliku-matsimoka",
+        "ean": "4744735010847",
+        "storeUnitPrice": 17.96,
+        "storeName": "Grillvorstid mozzarella tomati-basiiliku, MATSIMOKA,"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Maitselt mahedad grillvorstid 900g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/grillvorstid-900g/",
+        "size": "900g",
+        "ean": "4740171084114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171084114.jpg",
+        "storeName": "Maitselt mahedad grillvorstid Maks&Moorits 900g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitselt-mahedad-grillvorstid-maks-moorits-900-g",
+        "size": "900g",
+        "ean": "4740171084114",
+        "storeUnitPrice": 5.54,
+        "storeName": "Maitselt mahedad grillvorstid, MAKS&MOORITS, 900 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Maitselt mahedad toorvorstikesed 400g",
+    "category": "Sausages",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-maitselt-mahedad-toorvorstikesed400g/",
+        "size": "400g",
+        "ean": "4740171177465",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740171177465.png",
+        "storeName": "Maitselt mahedad toorvorstikesed Maks&Moorits 400g"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maitselt-mahedad-toorvorstikesed-maks-moorits-400-g",
+        "size": "400g",
+        "ean": "4740171177465",
+        "storeUnitPrice": 10.23,
+        "storeName": "Maitselt mahedad toorvorstikesed, MAKS&MOORITS, 400 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Keeduvorst doktori 300g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/keeduvorst-doktori-rakvere-300-g",
+        "size": "300g",
+        "storeUnitPrice": 5.17,
+        "storeName": "Keeduvorst Doktori RAKVERE, 300g"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keeduvorst-doktori-rakvere-lk-300-g",
+        "size": "300g",
+        "storeUnitPrice": 6.73,
+        "storeName": "Keeduvorst Doktori, RAKVERE LK, 300 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Keedusalaami vasalli 250g",
+    "category": "Sausages",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/keedusalaami-vasalli-noo-250-g",
+        "size": "250g",
+        "storeUnitPrice": 19.96,
+        "storeName": "Keedusalaami Vasalli NÕO, 250g"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keedusalaami-vasalli-noo-105-g",
+        "size": "105g",
+        "storeUnitPrice": 30.38,
+        "storeName": "Keedusalaami Vasalli, NÕO, 105 g"
       }
     },
     "matchedVia": "automatic",

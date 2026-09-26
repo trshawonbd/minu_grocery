@@ -140001,6 +140001,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/siirup-mojito-piparmundi-monin-250-ml",
         "size": "250ml",
+        "ean": "3052910051303",
         "storeUnitPrice": 23.56,
         "image": "https://www.selver.ee/img/800/800/resize/3/0/3052910051303.jpg",
         "storeName": "Siirup Mojito piparmündi, MONIN, 250 ml"
@@ -140009,7 +140010,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Jõhvikajook 1000ml",
+    "name": "Aura Jõhvikajook 10% 1000ml",
     "category": "Syrups & juice drinks",
     "prices": {
       "barbora": {
@@ -140021,17 +140022,27 @@
         "image": "https://cdn.barbora.ee/products/3a33f5c8-1d31-43f8-9103-d62f82b442b2_m.png",
         "storeName": "Jõhvikajook AURA 1L"
       },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/johvikajook-aura-1-l/",
+        "size": "1000ml",
+        "ean": "4740051004379",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740051004379.jpg",
+        "storeName": "Jõhvikajook Aura 10% 1L"
+      },
       "selver": {
         "price": 1.75,
         "currency": "EUR",
         "url": "https://www.selver.ee/johvikajook-aura-1-l",
         "size": "1000ml",
+        "ean": "4740051004379",
         "storeUnitPrice": 1.75,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740051004379.jpg",
         "storeName": "Jõhvikajook, AURA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Multimahlajook 1000ml",
@@ -140046,17 +140057,27 @@
         "image": "https://cdn.barbora.ee/products/2d057e0b-9e67-462b-a33e-57defbf65b87_m.png",
         "storeName": "Multimahlajook PÕLTSAMAA 1L"
       },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/multimahlajook-1l/",
+        "size": "1000ml",
+        "ean": "4740029050070",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029050070.png",
+        "storeName": "Multimahlajook Põltsamaa 1L"
+      },
       "selver": {
         "price": 1.95,
         "currency": "EUR",
         "url": "https://www.selver.ee/multimahlajook-poltsamaa-1-l",
         "size": "1000ml",
+        "ean": "4740029050070",
         "storeUnitPrice": 1.95,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029050070.jpg",
         "storeName": "Multimahlajook, PÕLTSAMAA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Jõhvikajook 1000ml",
@@ -140071,17 +140092,27 @@
         "image": "https://cdn.barbora.ee/products/292467c2-f78c-43c7-8664-639c269226b2_m.png",
         "storeName": "Jõhvikajook PÕLTSAMAA 1L"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/johvikajook-poltsamaa-1l/",
+        "size": "1000ml",
+        "ean": "4745092640234",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051084-1.png",
+        "storeName": "Jõhvikajook Põltsamaa 1L"
+      },
       "selver": {
         "price": 1.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/johvikajook-poltsamaa-1-l",
         "size": "1000ml",
+        "ean": "4745092640234",
         "storeUnitPrice": 1.79,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029051084.jpg",
         "storeName": "Jõhvikajook, PÕLTSAMAA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Mustika õunajook 1000ml",
@@ -140096,20 +140127,30 @@
         "image": "https://cdn.barbora.ee/products/a2c4e27b-e112-4478-bece-9bd5745726f8_m.png",
         "storeName": "Mustika-õunajook PÕLTSAMAA 1L"
       },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustika-ounajook-1l/",
+        "size": "1000ml",
+        "ean": "4740029050087",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029050087-1.png",
+        "storeName": "Mustika-õunajook Põltsamaa 1L"
+      },
       "selver": {
         "price": 1.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/mustika-ounajook-poltsamaa-1-l",
         "size": "1000ml",
+        "ean": "4740029050087",
         "storeUnitPrice": 1.69,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029050087.jpg",
         "storeName": "Mustika- õunajook, PÕLTSAMAA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Aura Granaatõunajook 1000ml",
+    "name": "Aura Granaatõunajook 20% 1000ml",
     "category": "Syrups & juice drinks",
     "prices": {
       "barbora": {
@@ -140120,6 +140161,15 @@
         "storeUnitPrice": 1.75,
         "image": "https://cdn.barbora.ee/products/a8ff4cfc-37c5-4bd5-a4fb-e62b0d1c8243_m.png",
         "storeName": "Granaatõunajook AURA 1L"
+      },
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/granaatounajook-aura-1l/",
+        "size": "1000ml",
+        "ean": "4740098072188",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072188.jpg",
+        "storeName": "Granaatõunajook 20% Aura 1L"
       },
       "rimi": {
         "price": 1.75,
@@ -140135,12 +140185,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/granaatounajook-aura-1-l",
         "size": "1000ml",
+        "ean": "4740098072188",
         "storeUnitPrice": 1.75,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098072188.jpg",
         "storeName": "Granaatõunajook, AURA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Aura Multipuuvilja mahlajook fresh 2000ml",
@@ -140168,7 +140219,7 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Kirsijook 1000ml",
+    "name": "Aura Kirsijook 20% 1000ml",
     "category": "Syrups & juice drinks",
     "prices": {
       "barbora": {
@@ -140179,6 +140230,15 @@
         "storeUnitPrice": 1.79,
         "image": "https://cdn.barbora.ee/products/f95f5359-d65e-462f-8834-f90b6e1514ee_m.png",
         "storeName": "Kirsijook AURA 1L"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kirsijook-aura-1l/",
+        "size": "1000ml",
+        "ean": "4740098076698",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098076698.png",
+        "storeName": "Kirsijook 20% Aura 1L"
       },
       "rimi": {
         "price": 1.79,
@@ -140194,12 +140254,112 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kirsijook-aura-1-l",
         "size": "1000ml",
+        "ean": "4740098076698",
         "storeUnitPrice": 1.82,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098076698.jpg",
         "storeName": "Kirsijook, AURA, 1 L"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa Õunajook 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ounajook-poltsamaa-200-ml",
+        "cardPrice": 0.62,
+        "cardName": "Aitäh",
+        "size": "200ml",
+        "storeUnitPrice": 3.1,
+        "image": "https://cdn.barbora.ee/products/685c1c2b-9b3b-4532-a2a3-94f0a5b90f59_m.png",
+        "storeName": "Õunajook PÕLTSAMAA 200ml"
+      },
+      "coop": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ounajook-poltsamaa-0-2l/",
+        "size": "200ml",
+        "ean": "4745092640180",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740029050025.png",
+        "storeName": "Õunajook Põltsamaa 0.2L"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ounajook-korrega-poltsamaa-200-ml",
+        "size": "200ml",
+        "ean": "4745092640180",
+        "storeUnitPrice": 3.1,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029050025.jpg",
+        "storeName": "Õunajook kõrrega, PÕLTSAMAA, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa Apelsini õunajook 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/apelsini-ounajook-poltsamaa-200-ml",
+        "size": "200ml",
+        "storeUnitPrice": 3.75,
+        "image": "https://cdn.barbora.ee/products/4b0ccf6f-f805-4e89-af6d-f0bd247fa445_m.png",
+        "storeName": "Apelsini-õunajook PÕLTSAMAA 200ml"
+      },
+      "coop": {
+        "price": 0.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/poltsamaa-apelsini-ounajook-0-2l/",
+        "size": "200ml",
+        "ean": "4740029050063",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740029050063.png",
+        "storeName": "Põltsamaa apelsini-õunajook 0.2L"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Põltsamaa Multimahlajook 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/multimahlajook-poltsamaa-200-ml",
+        "cardPrice": 0.62,
+        "cardName": "Aitäh",
+        "size": "200ml",
+        "storeUnitPrice": 3.1,
+        "image": "https://cdn.barbora.ee/products/563cb1e6-ce6a-414a-8733-31764d4f94c9_m.png",
+        "storeName": "Multimahlajook PÕLTSAMAA 200ml"
+      },
+      "coop": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/multimahlajook-0-2l/",
+        "size": "200ml",
+        "ean": "4740029051213",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051213.png",
+        "storeName": "Multimahlajook Põltsamaa 0.2L"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/multimahlajook-korrega-poltsamaa-200-ml",
+        "size": "200ml",
+        "ean": "4740029051213",
+        "storeUnitPrice": 3.1,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029051213.jpg",
+        "storeName": "Multimahlajook kõrrega, PÕLTSAMAA, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Marjajook 1000ml",
@@ -140214,17 +140374,27 @@
         "image": "https://cdn.barbora.ee/products/baa57ecf-232d-4ca9-847b-402f2c666f44_m.png",
         "storeName": "Marjajook PÕLTSAMAA 1L"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marjajook-poltsamaa-1l/",
+        "size": "1000ml",
+        "ean": "4745092640142",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051404.png",
+        "storeName": "Marjajook Põltsamaa 1L"
+      },
       "selver": {
         "price": 1.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/marjajook-poltsamaa-1-l",
         "size": "1000ml",
+        "ean": "4745092640142",
         "storeUnitPrice": 1.79,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029051404.jpg",
         "storeName": "Marjajook, PÕLTSAMAA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Aleo Aloe vera jook premium 1500ml",
@@ -140238,6 +140408,15 @@
         "storeUnitPrice": 2.73,
         "image": "https://cdn.barbora.ee/products/0f171afa-2947-4597-a1f5-be6b0a583e12_m.png",
         "storeName": "Aloe vera jook ALEO Premium 1.5L"
+      },
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aloe-vera-aleo-premium-mahlajook-1-5l/",
+        "size": "1500ml",
+        "ean": "4779040221503",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4712098458408.png",
+        "storeName": "Mahlajook Aloe vera Aleo Premium 1.5L pet"
       },
       "rimi": {
         "price": 3.99,
@@ -140255,12 +140434,13 @@
         "cardPrice": 3.59,
         "cardName": "Partner",
         "size": "1500ml",
+        "ean": "4779040221503",
         "storeUnitPrice": 2.79,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4779040220285.jpg",
         "storeName": "Aloe Vera jook Premium, ALEO, 1,5 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Jõhvika mahlajook 2000ml",
@@ -140274,6 +140454,15 @@
         "storeUnitPrice": 1.33,
         "image": "https://cdn.barbora.ee/products/0eff8094-c1ac-451e-a4f8-6e96c6ca95ba_m.png",
         "storeName": "Jõhvika mahlajook PÕLTSAMAA 2L"
+      },
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlajook-johvika-2l/",
+        "size": "2000ml",
+        "ean": "4740029051473",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051473.png",
+        "storeName": "Mahlajook Jõhvika-Mix Põltsamaa 2L"
       },
       "rimi": {
         "price": 2.19,
@@ -140290,12 +140479,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/johvika-mahlajook-poltsamaa-2-l",
         "size": "2000ml",
+        "ean": "4740029051473",
         "storeUnitPrice": 1.33,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029051473.jpg",
         "storeName": "Jõhvika mahlajook, PÕLTSAMAA, 2 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Limpa Multijook 250ml",
@@ -140325,6 +140515,43 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Limpa Õuna kirsijook 250ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "barbora": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ouna-kirsijook-limpa-250-ml",
+        "cardPrice": 0.55,
+        "cardName": "Aitäh",
+        "size": "250ml",
+        "storeUnitPrice": 2.2,
+        "image": "https://cdn.barbora.ee/products/2ad4316e-9d84-4beb-8431-9d82a7a5f6b3_m.png",
+        "storeName": "Õuna-Kirsijook LIMPA 250ml"
+      },
+      "coop": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ouna-kirsijook-0-25l/",
+        "size": "250ml",
+        "ean": "4740098091264",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098091264.png",
+        "storeName": "Õuna-kirsijook Limpa 0.25L"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-kirsi-korrejook-limpa-250-ml",
+        "size": "250ml",
+        "ean": "4740098091264",
+        "storeUnitPrice": 2.48,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098091264.jpg",
+        "storeName": "Õuna-Kirsi kõrrejook, LIMPA, 250 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Limpa Maasikajook 250ml",
     "category": "Syrups & juice drinks",
     "prices": {
@@ -140339,6 +140566,15 @@
         "image": "https://cdn.barbora.ee/products/223bec4c-cbd4-4373-be07-980d643ac0a6_m.png",
         "storeName": "Maasikajook LIMPA 250ml"
       },
+      "coop": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maasikajook-0-25l/",
+        "size": "250ml",
+        "ean": "4740098091271",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098091271.jpg",
+        "storeName": "Maasikajook Limpa 0.25L"
+      },
       "rimi": {
         "price": 0.65,
         "currency": "EUR",
@@ -140347,9 +140583,19 @@
         "storeUnitPrice": 2.6,
         "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_196749_PCE_EE",
         "storeName": "Maasikajook Limpa 0,25l"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasika-korrejook-limpa-250-ml",
+        "size": "250ml",
+        "ean": "4740098091271",
+        "storeUnitPrice": 2.48,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098091271.jpg",
+        "storeName": "Maasika kõrrejook, LIMPA, 250 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Aura Metsamarja mahlajook fresh 2000ml",
@@ -140405,6 +140651,15 @@
     "name": "Põltsamaa Kannujook jõhvika 1000ml",
     "category": "Syrups & juice drinks",
     "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kannujook-johvika-1l/",
+        "size": "1000ml",
+        "ean": "4740029052210",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029052210-1.png",
+        "storeName": "Kannujook Jõhvika Põltsamaa 1L"
+      },
       "rimi": {
         "price": 3.45,
         "currency": "EUR",
@@ -140419,12 +140674,13 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/johvika-kannujook-poltsamaa-1-l",
         "size": "1000ml",
+        "ean": "4740029052210",
         "storeUnitPrice": 3.45,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029052210.jpg",
         "storeName": "Jõhvika kannujook, PÕLTSAMAA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Pfanner Punase apelsini jook 2000ml",
@@ -140444,6 +140700,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/punase-apelsini-jook-pfanner-2-l",
         "size": "2000ml",
+        "ean": "9006900013998",
         "storeUnitPrice": 1.83,
         "image": "https://www.selver.ee/img/800/800/resize/9/0/9006900013998.jpg",
         "storeName": "Punase apelsini jook, PFANNER, 2 L"
@@ -140452,9 +140709,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Aura Mustikajook 1000ml",
+    "name": "Aura Mustika mahlajook 1000ml",
     "category": "Syrups & juice drinks",
     "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aura-mustika-mahlajook-1l/",
+        "size": "1000ml",
+        "ean": "4740098094814",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740098094814.png",
+        "storeName": "Mustika mahlajook Aura 1L"
+      },
       "rimi": {
         "price": 1.59,
         "currency": "EUR",
@@ -140469,17 +140735,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mustikajook-aura-1-l",
         "size": "1000ml",
+        "ean": "4740098094814",
         "storeUnitPrice": 1.65,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098094814.jpg",
         "storeName": "Mustikajook, AURA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põltsamaa Multimahlajook 2000ml",
     "category": "Syrups & juice drinks",
     "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/multimahlajook-2l/",
+        "size": "2000ml",
+        "ean": "4745092640203",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051497-1.png",
+        "storeName": "Multimahlajook Põltsamaa 2L"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -140495,12 +140771,48 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/multimahlajook-poltsamaa-2-l",
         "size": "2000ml",
+        "ean": "4745092640203",
         "storeUnitPrice": 1.4,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029051497.jpg",
         "storeName": "Multimahlajook, PÕLTSAMAA, 2 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Limpa Mahlajook pirni õuna 250ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/limpa-mahlajook-pirni-ouna-0-25l/",
+        "size": "250ml",
+        "ean": "4740051002429",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/02/4740051002429.png",
+        "storeName": "Mahlajook Limpa Pirni-Õuna 0.25L"
+      },
+      "rimi": {
+        "price": 0.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/mahlad-mahlajoogid-ja-siirupid/mahlad-joogid---multipuuvilja/mahlajook-pirni-ouna-limpa-0-25l/p/1023632",
+        "size": "250ml",
+        "storeUnitPrice": 2.36,
+        "image": "https://rimibaltic-res.cloudinary.com/image/upload/b_white,c_limit,dpr_auto,f_webp,q_auto:low,w_auto/d_ecommerce:backend-fallback.png/MAT_1023632_PCE_EE",
+        "storeName": "Mahlajook pirni-õuna Limpa 0,25l"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pirni-ouna-korrejook-limpa-250-ml",
+        "size": "250ml",
+        "ean": "4740051002429",
+        "storeUnitPrice": 2.48,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740051002429.jpg",
+        "storeName": "Pirni-Õuna kõrrejook, LIMPA, 250 ml"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Aleo Aloe vera jook premium 500ml",
@@ -140520,6 +140832,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/aloe-vera-jook-premium-aleo-500-ml",
         "size": "500ml",
+        "ean": "4779040221497",
         "storeUnitPrice": 4.3,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4779040221497.jpg",
         "storeName": "Aloe Vera jook Premium, ALEO, 500 ml"
@@ -140545,12 +140858,979 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mahlajook-mango-apelsini-dr-active-500-ml",
         "size": "500ml",
+        "ean": "4740051000326",
         "storeUnitPrice": 2.18,
         "image": "https://www.selver.ee/img/800/800/resize/4/7/4740051000326.jpg",
         "storeName": "Mahlajook mango-apelsini, DR. ACTIVE, 500 ml"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Põltsamaa Jõhvika granaatõunajook 1000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/johv-granaatounajook-1l/",
+        "size": "1000ml",
+        "ean": "4745092640128",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051367.png",
+        "storeName": "Jõhvika-granaatõunajook Põltsamaa 1L"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/johvika-granaatounajook-poltsamaa-1-l",
+        "size": "1000ml",
+        "ean": "4745092640128",
+        "storeUnitPrice": 1.79,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029051367.jpg",
+        "storeName": "Jõhvika-granaatõunajook, PÕLTSAMAA, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa kannujook multimahla 1000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/multimahla-kannujook-1l/",
+        "size": "1000ml",
+        "ean": "4740029052258",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029052258-1.png",
+        "storeName": "Põltsamaa Kannujook multimahla 1L"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/multimahla-kannujook-poltsamaa-1-l",
+        "size": "1000ml",
+        "ean": "4740029052258",
+        "storeUnitPrice": 3.45,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029052258.jpg",
+        "storeName": "Multimahla kannujook, PÕLTSAMAA, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa Maasika punasesõstrajook kõrrega 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maasika-pun-sost-jook0-2/",
+        "size": "200ml",
+        "ean": "4740029052319",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029052319.png",
+        "storeName": "Maasika-punasesõstrajook Põltsamaa 0.2L"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasika-punasesostrajook-korrega-poltsamaa-200-ml",
+        "size": "200ml",
+        "ean": "4740029052319",
+        "storeUnitPrice": 3.1,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029052319.jpg",
+        "storeName": "Maasika-punasesõstrajook kõrrega, PÕLTSAMAA, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Heliis siirup jõhvika 1500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heliis-siirup-johvikamaitseline-1-5l/",
+        "size": "1500ml",
+        "ean": "4740077002663",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740077002663-1.png",
+        "storeName": "Heliis Siirup jõhvikamaitseline 1.5L"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/siirup-johvikamaitseline-heliis-1-5-l",
+        "size": "1500ml",
+        "ean": "4740077002663",
+        "storeUnitPrice": 2.53,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740077002663.jpg",
+        "storeName": "Siirup jõhvikamaitseline, HELIIS, 1,5 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura fresh Mahlajook multifruit 25% 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlajook-multifruit-2l/",
+        "size": "2000ml",
+        "ean": "4740098072492",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072492.png",
+        "storeName": "Mahlajook Multifruit 25% Aura Fresh 2L"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/multifruit-mahlajook-aura-fresh-2-l",
+        "size": "2000ml",
+        "ean": "4740098072492",
+        "storeUnitPrice": 1.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098072492.jpg",
+        "storeName": "Multifruit mahlajook, AURA FRESH, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura fresh Jõhvikamahlajook 5% 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aura-fresh-johvikamahlajook-5-2l/",
+        "size": "2000ml",
+        "ean": "4740098072508",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4740098072508.png",
+        "storeName": "Jõhvikamahlajook 5% Aura Fresh 2L"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/johvika-mahlajook-aura-fresh-2-l",
+        "size": "2000ml",
+        "ean": "4740098072508",
+        "storeUnitPrice": 1.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098072508.jpg",
+        "storeName": "Jõhvika mahlajook, AURA FRESH, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura fresh Pirni õunamahlajook 10% 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlajook-pirn-oun-2l/",
+        "size": "2000ml",
+        "ean": "4740098072515",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072515.png",
+        "storeName": "Pirni-õunamahlajook 10% Aura Fresh 2L"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pirni-ounamahlajook-aura-fresh-2-l",
+        "cardPrice": 1.69,
+        "cardName": "Partner",
+        "size": "2000ml",
+        "ean": "4740098072515",
+        "storeUnitPrice": 1.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098072515.jpg",
+        "storeName": "Pirni-õunamahlajook, AURA FRESH, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Apelsini ananassi active dr mahlajook porgandi 500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/apels-anan-mahlajook0-5l/",
+        "size": "500ml",
+        "ean": "4740098088202",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098088202.jpg",
+        "storeName": "Apelsini-ananassi-porgandi mahlajook Dr.Active0.5L"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsini-ananassi-porgandimahlajook-dr-active-500-ml",
+        "size": "500ml",
+        "ean": "4740098088202",
+        "storeUnitPrice": 2.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098088202.jpg",
+        "storeName": "Apelsini-ananassi-porgandimahlajook, DR. ACTIVE, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Apelsini ananassi active dr mahlajook porgandi 1500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/apels-anan-mahlajook1-5l/",
+        "size": "1500ml",
+        "ean": "4740098088219",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098088219.png",
+        "storeName": "Apelsini-ananassi-porgandi mahlajook Dr.Active1.5L"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsini-ananassi-porgandimahlajook-dr-active-1-5-l",
+        "size": "1500ml",
+        "ean": "4740098088219",
+        "storeUnitPrice": 1.17,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098088219.jpg",
+        "storeName": "Apelsini-ananassi-porgandimahlajook, DR. ACTIVE, 1,5 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Limpa Multimahlajook 250ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/multimahlajook-0-25l/",
+        "size": "250ml",
+        "ean": "4740098091257",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098091257.jpg",
+        "storeName": "Multimahlajook Limpa 0.25L"
+      },
+      "selver": {
+        "price": 0.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/multi-korrejook-limpa-250-ml",
+        "size": "250ml",
+        "ean": "4740098091257",
+        "storeUnitPrice": 2.48,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098091257.jpg",
+        "storeName": "Multi kõrrejook, LIMPA, 250 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maasikamahlajook üllatusmuna ülletusmunaga 300ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlajook-0-3lu-muna/",
+        "size": "300ml",
+        "ean": "8594023923214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8594023923214.png",
+        "storeName": "Maasikamahlajook 0.3L+ üllatusmuna"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/frozen-maasikamahlajook-ulletusmunaga-suprise-drinks-300-ml",
+        "size": "300ml",
+        "ean": "8594023923214",
+        "storeUnitPrice": 5.73,
+        "image": "https://www.selver.ee/img/800/800/resize/8/5/8594023923214.jpg",
+        "storeName": "Frozen maasikamahlajook ülletusmunaga, SUPRISE DRINKS, 300 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura fresh Ploomi õunamahlajook 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aura-fresh-ploomi-ounamahlajook-2l/",
+        "size": "2000ml",
+        "ean": "4740098094906",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740098094906.png",
+        "storeName": "Ploomi-õunamahlajook Aura Fresh 2L"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ploomi-ouna-mahlajook-aura-fresh-2-l",
+        "size": "2000ml",
+        "ean": "4740098094906",
+        "storeUnitPrice": 1.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098094906.jpg",
+        "storeName": "Ploomi-Õuna mahlajook, AURA FRESH, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rohelise õuna mündi mahlajook active dr pet 500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-active-roh-ouna-mundi-mahlajook-0-5l/",
+        "size": "500ml",
+        "ean": "4740098097471",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4740098097471.png",
+        "storeName": "Rohelise õuna-mündi mahlajook Dr.Active 0.5L pet"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rohelise-ouna-mundi-mahlajook-aura-active-500-ml",
+        "size": "500ml",
+        "ean": "4740098097471",
+        "storeUnitPrice": 2.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098097471.jpg",
+        "storeName": "Rohelise õuna-mündi mahlajook, AURA ACTIVE, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Rohelise õuna mündi mahlajook active dr pet 1500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-active-roh-ouna-mundi-mahlajook-1-5l/",
+        "size": "1500ml",
+        "ean": "4740098097488",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/4740098097488.png",
+        "storeName": "Rohelise õuna-mündi mahlajook Dr.Active 1.5L pet"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rohelise-ouna-mundi-mahlajook-aura-active-1-5-l",
+        "size": "1500ml",
+        "ean": "4740098097488",
+        "storeUnitPrice": 1.17,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098097488.jpg",
+        "storeName": "Rohelise õuna-mündi mahlajook, AURA ACTIVE, 1,5 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura Mahlajoogikontsentraat orange mango 1000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aura-mahlaj-kontsentraat-apels-mango-1l/",
+        "size": "1000ml",
+        "ean": "4740098098423",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740098098423.png",
+        "storeName": "Mahlajoogikontsentraat Aura apelsin-mango 1L"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsini-mango-mahlajoogikontsentraat-aura-morsikas-1-l",
+        "size": "1000ml",
+        "ean": "4740098098423",
+        "storeUnitPrice": 3.19,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098098423.jpg",
+        "storeName": "Apelsini-mango mahlajoogikontsentraat, AURA MORSIKAS, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura Mahlajoogikontsentraat kirsi jõhvika 1000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aura-mahlaj-kontsentraat-kirsi-johvika1l/",
+        "size": "1000ml",
+        "ean": "4740098098416",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4740098098416.png",
+        "storeName": "Mahlajoogikontsentraat Aura kirsi-jõhvika 1L"
+      },
+      "selver": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirsi-johvika-mahlajoogikontsentraat-aura-morsikas-1-l",
+        "size": "1000ml",
+        "ean": "4740098098416",
+        "storeUnitPrice": 3.19,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098098416.jpg",
+        "storeName": "Kirsi-jõhvika mahlajoogikontsentraat, AURA MORSIKAS, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Multimahlajook üllatusmuna üllatusmunaga 300ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/multimahlajook-0-3l/",
+        "size": "300ml",
+        "ean": "8594023921043",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8594023921043.png",
+        "storeName": "Multimahlajook 0.3L + üllatusmuna"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/multimahlajook-ullatusmunaga-surprise-drinks-300-ml",
+        "size": "300ml",
+        "ean": "8594023921043",
+        "storeUnitPrice": 5.73,
+        "image": "https://www.selver.ee/img/800/800/resize/8/5/8594023921043.jpg",
+        "storeName": "Multimahlajook üllatusmunaga, SURPRISE DRINKS, 300 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura fresh Mahlajook õuna kirsi aroonia 6% 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlajook-ouna-kirsi-2l/",
+        "size": "2000ml",
+        "ean": "4740098082736",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098082736.png",
+        "storeName": "Mahlajook Aura Fresh 6% 2L õuna-kirsi-aroonia"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirsi-ouna-aroonia-mahlajook-aura-fresh-2-l",
+        "size": "2000ml",
+        "ean": "4740098082736",
+        "storeUnitPrice": 1.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098082736.jpg",
+        "storeName": "Kirsi,õuna,aroonia mahlajook, AURA FRESH, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Õunamahlajook üllatusmuna üllatusmunaga 300ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlajook0-3emoji-movie/",
+        "size": "300ml",
+        "ean": "8594023921050",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8594023921050.png",
+        "storeName": "Õunamahlajook 0.3L+üllatusmuna"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ounamahlajook-ullatusmunaga-surprise-drinks-300-ml",
+        "size": "300ml",
+        "ean": "8594023921050",
+        "storeUnitPrice": 5.73,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4742493000193.jpg",
+        "storeName": "Õunamahlajook üllatusmunaga, SURPRISE DRINKS, 300 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Siirup valge klaar a coq le 750ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/a-le-coq-siirup-valge-klaar-0-75l/",
+        "size": "750ml",
+        "ean": "4740098098812",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/08/4740098098812.png",
+        "storeName": "Siirup Valge Klaar A.Le Coq 0.75L"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/siirup-valge-klaar-a-le-coq-750-ml-t000072406",
+        "size": "750ml",
+        "ean": "4740098098812",
+        "storeUnitPrice": 2.69,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098098812.jpg",
+        "storeName": "Siirup Valge Klaar, A. LE COQ, 750 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa kannujook mustika õuna 1000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kannuj-mustika-ouna-1l/",
+        "size": "1000ml",
+        "ean": "4740029052289",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740029052289.png",
+        "storeName": "Põltsamaa kannujook mustika-õuna 1L"
+      },
+      "selver": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustika-ouna-kannujook-poltsamaa-1-l",
+        "size": "1000ml",
+        "ean": "4740029052289",
+        "storeUnitPrice": 3.45,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029052289.jpg",
+        "storeName": "Mustika-õuna kannujook, PÕLTSAMAA, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa Mahlajook troopika mix 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jook-troopil-viljad-2l/",
+        "size": "2000ml",
+        "ean": "4740029051510",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740029051510-1.png",
+        "storeName": "Mahlajook Troopika-mix Põltsamaa 2L"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/troopilistest-viljadest-mahlajook-poltsamaa-2-l",
+        "size": "2000ml",
+        "ean": "4740029051510",
+        "storeUnitPrice": 1.33,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029051510.jpg",
+        "storeName": "Troopilistest viljadest mahlajook, PÕLTSAMAA, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Küllus Kontsent mahlaj metsjõhvika tud 330ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 7.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/m-j-metsjohvika-0-33l/",
+        "size": "330ml",
+        "ean": "4741129011961",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741129011961.png",
+        "storeName": "Kontsent-tud mahlaj.metsjõhvika Küllus 0.33L"
+      },
+      "selver": {
+        "price": 7.41,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/johvika-kontsentreeritud-mahlajook-kullus-330-ml",
+        "size": "330ml",
+        "ean": "4741129011961",
+        "storeUnitPrice": 22.45,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4741129011961.jpg",
+        "storeName": "Jõhvika kontsentreeritud mahlajook, KÜLLUS, 330 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Küllus Kontsent mahlaj metsmustika tud vaar 330ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/m-j-vaarik-mustika-0-33l/",
+        "size": "330ml",
+        "ean": "4741129012005",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741129012005.png",
+        "storeName": "Kontsent-tud mahlaj.vaar.-metsmustika Küllus 0.33L"
+      },
+      "selver": {
+        "price": 6.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarika-mustika-kontsentreeritud-mahlajook-kullus-330-ml",
+        "size": "330ml",
+        "ean": "4741129012005",
+        "storeUnitPrice": 21.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4741129012005.jpg",
+        "storeName": "Vaarika-mustika kontsentreeritud mahlajook, KÜLLUS, 330 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura fresh Pun mahlajook viinamarja 25% 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlajook-viinamarja-2l/",
+        "size": "2000ml",
+        "ean": "4740098072539",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740098072539.jpg",
+        "storeName": "Pun.viinamarja mahlajook 25% Aura Fresh 2L"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahlajook-viinamarja-aura-2-l",
+        "size": "2000ml",
+        "ean": "4740098072539",
+        "storeUnitPrice": 1.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740098072539.jpg",
+        "storeName": "Mahlajook viinamarja, AURA, 2 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mango mahlajook apelsini active dr 1500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dr-active-mango-apelsini-mahlajook-1-5l/",
+        "size": "1500ml",
+        "ean": "4740051000449",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740051000449.png",
+        "storeName": "Mango-apelsini mahlajook Dr.Active 1.5L"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahlajook-mango-apelsini-dr-active-1-5-l",
+        "size": "1500ml",
+        "ean": "4740051000449",
+        "storeUnitPrice": 1.17,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740051000449.jpg",
+        "storeName": "Mahlajook mango-apelsini, DR. ACTIVE, 1,5 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Limpa Mahlajook peojook õuna maasika 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/limpa-mahlajook-peojook-2l-ouna-maasika/",
+        "size": "2000ml",
+        "ean": "4740051000135",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740051000135.png",
+        "storeName": "Mahlajook Limpa Peojook 2L õuna-maasika"
+      },
+      "selver": {
+        "price": 2.53,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-maasika-peojook-limpa-2-l",
+        "size": "2000ml",
+        "ean": "4740051000135",
+        "storeUnitPrice": 1.27,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740051000135.jpg",
+        "storeName": "Õuna-maasika peojook, LIMPA, 2 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura Siirup sidrunello pet 750ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aura-siirup-sidrunello-0-75l-pet/",
+        "size": "750ml",
+        "ean": "4740051002399",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740051002399.png",
+        "storeName": "Siirup Aura Sidrunello 0.75L pet"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/siirup-sidrunello-aura-750-ml",
+        "size": "750ml",
+        "ean": "4740051002399",
+        "storeUnitPrice": 2.73,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740051002399.jpg",
+        "storeName": "Siirup Sidrunello, AURA, 750 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aura fresh Mahlajook viinamarja 5% 2000ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aura-fresh-mahlajook-viinamarja-5-2l/",
+        "size": "2000ml",
+        "ean": "4740051001385",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/06/4740051001385.png",
+        "storeName": "Mahlajook Aura Fresh viinamarja 5% 2L"
+      },
+      "selver": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahlajook-hele-viinamari-aura-fresh-2-l",
+        "size": "2000ml",
+        "ean": "4740051001385",
+        "storeUnitPrice": 1.18,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740051001385.jpg",
+        "storeName": "Mahlajook hele viinamari, AURA FRESH, 2 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kannujook mustsõstra õuna vaarika 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kannujook-mustasostra-ouna-vaarika-0-2l/",
+        "size": "200ml",
+        "ean": "4740029058212",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740029058212.png",
+        "storeName": "Kannujook mustasõstra-õuna-vaarika 0.2L"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustasostra-ouna-vaarika-kannujook-poltsamaa-200-ml",
+        "size": "200ml",
+        "ean": "4740029058212",
+        "storeUnitPrice": 4.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029058212.jpg",
+        "storeName": "Mustasõstra-õuna-vaarika kannujook, PÕLTSAMAA, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põltsamaa Kannujook kirsi aroonia 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 0.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/poltsamaa-kannujook-kirsi-aroonia-0-2l/",
+        "size": "200ml",
+        "ean": "4740029058229",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740029058229.png",
+        "storeName": "Kannujook kirsi-aroonia Põltsamaa 0.2L"
+      },
+      "selver": {
+        "price": 0.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kirsi-aroonia-kannujook-poltsamaa-200-ml",
+        "size": "200ml",
+        "ean": "4740029058229",
+        "storeUnitPrice": 4.5,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4740029058229.jpg",
+        "storeName": "Kirsi-aroonia kannujook, PÕLTSAMAA, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Don simon Don apelsini kõrrejook 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/don-simon-korrejook-apelsini-100-0-2l/",
+        "size": "200ml",
+        "ean": "8410261608303",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/8410261608303.png",
+        "storeName": "Don Simon kõrrejook apelsini 100% 0.2L"
+      },
+      "selver": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsini-korrejook-100-don-simon-200-ml",
+        "size": "200ml",
+        "ean": "8410261608303",
+        "storeUnitPrice": 7.45,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410261608303.jpg",
+        "storeName": "Apelsini kõrrejook 100%, DON SIMON, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Don simon Don viinamarja kõrrejook anan 200ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/don-simon-korrejook-anan-viinamarja-0-2l/",
+        "size": "200ml",
+        "ean": "8410261611167",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/8410261611167.png",
+        "storeName": "Don Simon kõrrejook anan-viinamarja 0.2L"
+      },
+      "selver": {
+        "price": 1.31,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ananassi-viinamarja-korrejook-100-don-simon-200-ml",
+        "size": "200ml",
+        "ean": "8410261611167",
+        "storeUnitPrice": 6.55,
+        "image": "https://www.selver.ee/img/800/800/resize/8/4/8410261611167.jpg",
+        "storeName": "Ananassi viinamarja kõrrejook 100%, DON SIMON, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Greppo Karb arbuus mahlajook purk tud 320ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/greppo-karb-tud-mahlajook-arbuusi-0-32l/",
+        "size": "320ml",
+        "ean": "4744891011771",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4744891011771.png",
+        "storeName": "Karb-tud mahlajook Greppo arbuus 0.32L prk"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/arbuusimahlajook-gaseeritud-greppo-320-ml",
+        "size": "320ml",
+        "ean": "4744891011771",
+        "storeUnitPrice": 4.97,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4744891011771.jpg",
+        "storeName": "Arbuusimahlajook gaseeritud, GREPPO, 320 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Greppo Karb draakonvili mahlajook purk tud 320ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/greppo-karb-tud-mahlaj-draakonvili-0-32l/",
+        "size": "320ml",
+        "ean": "4744891011788",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4744891011788.png",
+        "storeName": "Karb-tud mahlajook Greppo draakonvili 0.32L prk"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/draakonvilimahlajook-gaseeritud-greppo-320-ml",
+        "size": "320ml",
+        "ean": "4744891011788",
+        "storeUnitPrice": 4.97,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4744891011788.jpg",
+        "storeName": "Draakonvilimahlajook gaseeritud, GREPPO, 320 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aleo Mahlajook mango aloe vera pet 1500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aloe-vera-aleo-mango-maitseline-1-5l-pet/",
+        "size": "1500ml",
+        "ean": "4779040221589",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/02/4779040221589.png",
+        "storeName": "Mahlajook Aloe Vera Aleo mango maitseline 1.5L pet"
+      },
+      "selver": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mangomaitseline-aloe-vera-jook-aleo-1-5-l",
+        "cardPrice": 3.59,
+        "cardName": "Partner",
+        "size": "1500ml",
+        "ean": "4779040221589",
+        "storeUnitPrice": 2.79,
+        "image": "https://www.selver.ee/img/800/800/resize/4/7/4779040220827.jpg",
+        "storeName": "Mangomaitseline Aloe Vera jook, ALEO, 1,5 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Cappy Mahlajook fruit ice multipuuvilj 1500ml",
+    "category": "Syrups & juice drinks",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahlaj-multipuuvilj-1-5l/",
+        "size": "1500ml",
+        "ean": "5000112651744",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5449000121783.jpg",
+        "storeName": "Mahlajook multipuuvilj.Cappy Ice Fruit 1.5L"
+      },
+      "selver": {
+        "price": 2.5,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/multivitamiini-mahlajook-cappy-1-5-l",
+        "size": "1500ml",
+        "ean": "5000112651744",
+        "storeUnitPrice": 1.67,
+        "image": "https://www.selver.ee/img/800/800/resize/5/0/5000112651744.jpg",
+        "storeName": "Multivitamiini mahlajook, CAPPY, 1,5 L"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Esva kalapulgad 250g",

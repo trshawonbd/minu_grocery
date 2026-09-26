@@ -32,6 +32,24 @@ function match(canonicalName, ...names) {
 }
 
 const results = [
+  test("inferBrands: a brand-less item takes a brand another store states in the pool (whole word, any case, longest first); an item naming no stated brand keeps none; stated brands are never overwritten", () => {
+    const { inferBrands } = require("./scrape-output");
+    const pool = [
+      { store: "Barbora", name: "Piim ALMA 2,5% 1L", brand: "ALMA" },
+      { store: "Rimi", name: "Jogurt maasika Alma 380g", brand: "Alma" },
+      { store: "Selver", name: "Kohuke, MO SAAREMAA, 40 g", brand: "MO Saaremaa" },
+      { store: "Coop", name: "Jogurt maasika Alma 380g", brand: null },
+      { store: "Coop", name: "Kohuke vanilli Mo Saaremaa 40g", brand: null },
+      { store: "Coop", name: "Kohuke Almaks 40g", brand: null },
+      { store: "Coop", name: "Haapsalu lihapirukas kg", brand: null },
+    ];
+    assert.equal(inferBrands(pool), 2);
+    assert.equal(pool[3].brand, "ALMA");
+    assert.equal(pool[4].brand, "MO Saaremaa", "a two-word brand, matched across the space");
+    assert.equal(pool[5].brand, null, "'Almaks' is not the word 'Alma'");
+    assert.equal(pool[6].brand, null);
+    assert.equal(pool[0].brand, "ALMA", "stated brands untouched");
+  }),
   test("uniqueCanonicalNames: a duplicate group is told apart by a raw-name word only one member has; unique names are untouched", () => {
     const out = uniqueCanonicalNames([
       match("Kalev Tume šokolaad 100g", "Tume šokolaad bitter KALEV 100g", "Tume šokolaad Bitter, KALEV, 100 g"),

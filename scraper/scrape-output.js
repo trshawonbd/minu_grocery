@@ -78,6 +78,34 @@ function withCurrentSettings(items, category) {
   });
 }
 
+// Coop's Store API has no brand field, and its names put the brand
+// late ("Jogurt maasika Alma 380g", like Rimi — but Rimi has a brand
+// facet). The first capitalized word would be read as the brand
+// ("jogurt"), so a Coop item could never pair with a Barbora/Rimi/
+// Selver item whose store states "Alma". Before signatures are
+// computed, every brand the OTHER stores state in the same category
+// pool is looked for in a brand-less item's name (whole words,
+// case-insensitive, the longest brand first) and, when found, set as
+// that item's brand. Nothing is guessed that no store in the pool
+// stated; an item with no such brand keeps the name-only fallback.
+// Pure: mutates only `brand` on items that had none.
+function inferBrands(pool) {
+  const brands = [...new Set(pool.filter((it) => it.brand).map((it) => String(it.brand).trim()).filter((b) => b.length >= 3))];
+  const patterns = brands
+    .sort((a, b) => b.length - a.length)
+    .map((brand) => ({ brand, regex: new RegExp(`(?<![\\p{L}\\p{N}])${brand.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+")}(?![\\p{L}\\p{N}])`, "iu") }));
+  let inferred = 0;
+  for (const item of pool) {
+    if (item.brand || !item.name) continue;
+    const hit = patterns.find(({ regex }) => regex.test(item.name));
+    if (hit) {
+      item.brand = hit.brand;
+      inferred++;
+    }
+  }
+  return inferred;
+}
+
 function prepareItem(item, category) {
   if (category.strictPackaging !== false) item.strictPackaging = true;
   if (category.matchAcrossWeights === true) item.matchAcrossWeights = true;
@@ -128,6 +156,11 @@ function toStoreEntry(item) {
   }
   if (item.signature.size) {
     entry.size = item.signature.size;
+  }
+  // The store's valid barcode (Selver, Coop) — display/report only:
+  // it shows which matches EAN decided.
+  if (item.signature.ean) {
+    entry.ean = item.signature.ean;
   }
   if (item.storeUnitPrice != null) {
     entry.storeUnitPrice = item.storeUnitPrice;
@@ -216,6 +249,7 @@ module.exports = {
   fetchAllPages,
   fetchAllUrls,
   prepareItem,
+  inferBrands,
   withCurrentSettings,
   isUnclassified,
   toLeftoverEntry,

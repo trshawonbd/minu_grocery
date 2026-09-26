@@ -1217,7 +1217,7 @@ function computeSignature(item) {
   const descriptorBrand = item.brand || (sizeOptions.pieceCounts ? extractKnownBrand(name) : null);
   const strictPackaging = item.strictPackaging === true;
   return {
-    ean: item.ean || null,
+    ean: isValidEan(item.ean) ? String(item.ean).trim() : null,
     isProduce: isProduceItem(name, { strictPackaging }),
     hasBrand: hasKnownBrand(name),
     type: extractType(name, { strictPackaging }),
@@ -1533,9 +1533,9 @@ function sameProduct(a, b) {
   const sigA = signatureOf(a);
   const sigB = signatureOf(b);
 
-  if (sigA.ean && sigB.ean) {
-    return sigA.ean === sigB.ean;
-  }
+  const ean = eanVerdict(sigA, sigB);
+  if (ean === "same") return true;
+  if (ean === "different" || ean === "conflict") return false;
 
   // Checked before either path's own rules, and after EAN (a matching
   // barcode is definitive regardless) — a qualifier disagreement means
@@ -1903,11 +1903,57 @@ function matchItems(a, b, overrides = [], knownDifferent = []) {
     return { matched: true, canonicalName: overrideName, reason: "override" };
   }
 
+  const ean = eanVerdict(signatureOf(a), signatureOf(b));
+  if (ean === "same") {
+    return { matched: true, canonicalName: synthesizeCanonicalName(a, b), reason: "ean" };
+  }
+  if (ean === "conflict") {
+    // The owner's rule (2026-09-27): the same barcode but names that
+    // clearly disagree (size, fat %, stage) is never matched — it goes
+    // to data/ean-conflicts.json for a person instead.
+    return { matched: false, reason: "ean-conflict" };
+  }
+
   if (sameProduct(a, b)) {
     return { matched: true, canonicalName: synthesizeCanonicalName(a, b), reason: "automatic" };
   }
 
   return { matched: false, reason: null };
+}
+
+// A real EAN/GTIN barcode: 8 or 13 digits with a correct mod-10 check
+// digit. Anything else (an internal code, a typo, a 12-digit UPC we
+// don't normalize) is treated as no barcode at all — Coop's own-brand
+// SKUs and any mangled Selver value can then never pair on it.
+function isValidEan(value) {
+  if (value == null) return false;
+  const digits = String(value).trim();
+  if (!/^\d{8}$|^\d{13}$/.test(digits)) return false;
+  let sum = 0;
+  for (let i = 0; i < digits.length - 1; i++) {
+    const d = digits.charCodeAt(i) - 48;
+    // From the right, the second-to-last digit is weighted 3.
+    const weight = (digits.length - 1 - i) % 2 === 1 ? 3 : 1;
+    sum += d * weight;
+  }
+  const check = (10 - (sum % 10)) % 10;
+  return check === digits.charCodeAt(digits.length - 1) - 48;
+}
+
+// What two valid barcodes say about a pair: "same" (equal, and the
+// names agree on the things a barcode can't excuse — pack size, fat %
+// / strength, stage or age variant), "conflict" (equal barcode but
+// those disagree — reported, never matched), "different" (two valid
+// barcodes that differ — a different product even if the names look
+// alike), or null (at least one side has no valid barcode; the name
+// rules decide).
+function eanVerdict(sigA, sigB) {
+  if (!sigA.ean || !sigB.ean) return null;
+  if (sigA.ean !== sigB.ean) return "different";
+  if (sigA.size && sigB.size && sigA.size !== sigB.size) return "conflict";
+  if (sigA.fatPercent !== null && sigB.fatPercent !== null && sigA.fatPercent !== sigB.fatPercent) return "conflict";
+  if (sigA.variant !== null && sigB.variant !== null && sigA.variant !== sigB.variant) return "conflict";
+  return "same";
 }
 
 // Union-find over an item pool's index positions — used by matchPool
@@ -1961,6 +2007,7 @@ function matchPool(items, overrides = [], knownDifferent = []) {
   const n = items.length;
   const { find, union } = makeUnionFind(n);
   const edges = new Map(); // "i-j" (i<j) -> matchItems result, cross-store pairs only
+  const eanConflicts = []; // same barcode, names that disagree — for a person
 
   for (let i = 0; i < n; i++) {
     for (let j = i + 1; j < n; j++) {
@@ -1969,6 +2016,8 @@ function matchPool(items, overrides = [], knownDifferent = []) {
       if (result.matched) {
         edges.set(`${i}-${j}`, result);
         union(i, j);
+      } else if (result.reason === "ean-conflict") {
+        eanConflicts.push({ a: items[i], b: items[j] });
       }
     }
   }
@@ -2035,7 +2084,9 @@ function matchPool(items, overrides = [], knownDifferent = []) {
     }
 
     const canonicalName = overrideEdge ? overrideEdge.canonicalName : synthesizeCanonicalName(groupItems[0], groupItems[1], groupItems.slice(2));
-    const reason = overrideEdge ? "override" : "automatic";
+    // "ean" when any pair in the group was decided by a shared barcode.
+    const eanEdge = !overrideEdge && indices.some((i, a) => indices.slice(a + 1).some((j) => (edges.get(i < j ? `${i}-${j}` : `${j}-${i}`) || {}).reason === "ean"));
+    const reason = overrideEdge ? "override" : eanEdge ? "ean" : "automatic";
 
     matches.push({ items: groupItems, canonicalName, reason });
   }
@@ -2064,11 +2115,13 @@ function matchPool(items, overrides = [], knownDifferent = []) {
     );
   }
 
-  return { matches, unmatched, ambiguous };
+  return { matches, unmatched, ambiguous, eanConflicts };
 }
 
 module.exports = {
   synthesizeCanonicalName,
+  isValidEan,
+  eanVerdict,
   extractBrand,
   extractSize,
   extractVariant,

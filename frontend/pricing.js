@@ -122,7 +122,7 @@ const SHOW_STORE_IMAGES = true;
 
 // Which store's photo a product shows, when several have one: one
 // store per product, in this fixed order of preference.
-const IMAGE_STORE_ORDER = ["barbora", "selver", "rimi"];
+const IMAGE_STORE_ORDER = ["barbora", "selver", "rimi", "coop"];
 
 // { url, store } for the one photo the page should use, or null when
 // images are off or no store on this product has one. Only available

@@ -185,6 +185,23 @@ const results = [
     assert.deepEqual(split.storesUsed.sort(), ["barbora", "selver"]);
     assert.equal(split.saving, 0.4);
   }),
+  test("Compare basket with four stores: Coop competes like any other store — cheapest when it has every item, never when it misses one", () => {
+    const k = product("Kohuke 40g", "Curd snacks & desserts", { barbora: { price: 0.55 }, rimi: { price: 0.59 }, selver: { price: 0.6 }, coop: { price: 0.49 } });
+    const m = product("Piim 1l", "Dairy", { barbora: { price: 1.0 }, rimi: { price: 1.1 }, selver: { price: 1.2 }, coop: { price: 0.95 } });
+    const { stores, split } = compareBasket([k, m], { [productKey(k)]: 2, [productKey(m)]: 1 });
+    const byStore = Object.fromEntries(stores.map((s) => [s.store, s]));
+    assert.equal(stores.length, 4);
+    assert.ok(Math.abs(byStore.coop.total - 1.93) < 1e-9);
+    assert.equal(byStore.coop.isCheapest, true);
+    assert.equal(byStore.barbora.isCheapest, false);
+    assert.equal(split.total, byStore.coop.total, "split equals the cheapest store when it wins every line");
+    const onlyThree = product("Muna 10tk", "Dairy", { barbora: { price: 2.0 }, rimi: { price: 2.2 }, selver: { price: 2.4 } });
+    const r = compareBasket([k, onlyThree], { [productKey(k)]: 1, [productKey(onlyThree)]: 1 });
+    const c = r.stores.find((s) => s.store === "coop");
+    assert.equal(c.missing, 1);
+    assert.equal(c.isCheapest, false, "Coop misses the eggs — never cheapest");
+    assert.equal(r.stores.find((s) => s.isCheapest).store, "barbora");
+  }),
   test("Compare basket: a tie marks every complete store cheapest; card prices never count; a basket key with no product is ignored; empty basket -> no stores", () => {
     const a = product("A", "Dairy", { barbora: { price: 2.0, cardPrice: 0.5, cardName: "Aitäh" }, rimi: { price: 2.0 } });
     const b = product("B", "Dairy", { barbora: { price: 1.0 }, rimi: { price: 1.0, cardPrice: 0.1, cardName: "Rimi" } });

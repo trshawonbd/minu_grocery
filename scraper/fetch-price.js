@@ -36,11 +36,12 @@ const path = require("path");
 const { fetchBarboraPrice } = require("./stores/barbora");
 const { fetchRimiPrice } = require("./stores/rimi");
 const { fetchSelverPrice } = require("./stores/selver");
+const { fetchCoopPrice } = require("./stores/coop");
 const { matchPool } = require("./match-products");
-const { writeRaw } = require("./raw");
+const { writeRaw, loadRaw } = require("./raw");
 const { buildSingles } = require("./build-singles");
 const { CATEGORIES } = require("./categories");
-const { fetchAllUrls, prepareItem, isUnclassified, toLeftoverEntry, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
+const { fetchAllUrls, prepareItem, inferBrands, isUnclassified, toLeftoverEntry, toProductEntry, uniqueCanonicalNames } = require("./scrape-output");
 
 const PRODUCTS_PATH = path.join(__dirname, "..", "data", "products.json");
 const KNOWN_DIFFERENT_PATH = path.join(__dirname, "..", "data", "known-different.json");
@@ -48,14 +49,34 @@ const OUTPUT_PATH = path.join(__dirname, "..", "data", "prices.json");
 const UNMATCHED_PATH = path.join(__dirname, "..", "data", "unmatched.json");
 const UNCLASSIFIED_PATH = path.join(__dirname, "..", "data", "unclassified.json");
 const AMBIGUOUS_PATH = path.join(__dirname, "..", "data", "ambiguous.json");
+const EAN_CONFLICTS_PATH = path.join(__dirname, "..", "data", "ean-conflicts.json");
+
+// Categories the daily update keeps current in data/raw/ — a fresh
+// group in a --only-store run that has no item of that store and no
+// pre-existing product is exactly what the daily update leaves for a
+// person in data/pending.json, so it is left alone here too.
+const DAILY_UPDATED = ["Fruits & vegetables", "Bread", "Drinks"];
 
 function loadJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
 async function main() {
-  const requestedName = process.argv[2];
+  const args = process.argv.slice(2);
+  // --only-store=Coop: fetch ONE store live and take the others from
+  // data/raw/ (what the last scrape / daily update recorded), then pool
+  // as usual — for adding a store without re-scraping everything.
+  const onlyStore = (args.find((a) => a.startsWith("--only-store=")) || "").split("=")[1] || null;
+  const requestedName = args.find((a) => !a.startsWith("--"));
   const categories = requestedName ? CATEGORIES.filter((c) => c.name === requestedName) : CATEGORIES;
+  const fetchers = {
+    Barbora: (category) => fetchAllUrls(fetchBarboraPrice, category.urls.barbora, "page"),
+    Rimi: (category) => fetchAllUrls(fetchRimiPrice, category.urls.rimi, "currentPage"),
+    Selver: (category) => fetchSelverPrice(category.name),
+    Coop: (category) => fetchCoopPrice(category.name),
+  };
+  if (onlyStore && !fetchers[onlyStore]) throw new Error(`Unknown store "${onlyStore}". Known: ${Object.keys(fetchers).join(", ")}`);
+  const rawByCategory = onlyStore ? new Map(loadRaw().map((c) => [c.category, c.stores])) : new Map();
 
   if (categories.length === 0) {
     throw new Error(
@@ -73,22 +94,30 @@ async function main() {
   const unmatchedEntries = [];
   const unclassifiedEntries = [];
   const ambiguousEntries = [];
+  const eanConflictEntries = [];
 
   for (const category of categories) {
-    // Selver has its own internal 1-req/sec throttle (see
-    // stores/selver.js) independent of Barbora/Rimi's pagination, so
-    // fetching all three in parallel here doesn't affect its pacing —
-    // each store's requests are still sequential within themselves.
-    const [barboraResults, rimiResults, selverResults] = await Promise.all([
-      fetchAllUrls(fetchBarboraPrice, category.urls.barbora, "page"),
-      fetchAllUrls(fetchRimiPrice, category.urls.rimi, "currentPage"),
-      fetchSelverPrice(category.name),
-    ]);
+    // Selver and Coop have their own internal 1-req/sec throttles (see
+    // stores/selver.js, stores/coop.js) independent of Barbora/Rimi's
+    // pagination, so fetching the stores in parallel here doesn't
+    // affect their pacing — each store's requests are still
+    // sequential within themselves.
+    let resultsByStore;
+    if (onlyStore) {
+      const previous = rawByCategory.get(category.name) || {};
+      resultsByStore = { Barbora: previous.Barbora || [], Rimi: previous.Rimi || [], Selver: previous.Selver || [], Coop: previous.Coop || [] };
+      resultsByStore[onlyStore] = await fetchers[onlyStore](category);
+    } else {
+      const [barboraResults, rimiResults, selverResults, coopResults] = await Promise.all(Object.values(fetchers).map((f) => f(category)));
+      resultsByStore = { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults, Coop: coopResults };
+    }
+    const { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults, Coop: coopResults } = resultsByStore;
 
     // Saved exactly as the stores returned it, before signatures or
     // strictPackaging are added — the single source anything else
     // (review.md, matching experiments) should read from instead of
     // scraping again. See scraper/raw.js and scraper/no-scrape.test.js.
+    // In --only-store mode only that store's file is (re)written.
     writeRaw(category.name, {
       order: CATEGORIES.indexOf(category),
       strictPackaging: category.strictPackaging !== false,
@@ -98,7 +127,7 @@ async function main() {
       alcoholMatching: category.alcoholMatching === true,
       pieceCountSizes: category.pieceCountSizes === true,
       impliedDescriptors: category.impliedDescriptors || [],
-      resultsByStore: { Barbora: barboraResults, Rimi: rimiResults, Selver: selverResults },
+      resultsByStore: onlyStore ? { [onlyStore]: resultsByStore[onlyStore] } : resultsByStore,
     });
 
     // Run every item through the extraction functions exactly once
@@ -108,14 +137,25 @@ async function main() {
     // matchAcrossWeights from the category's own settings (default
     // true / opt-in false respectively — see scraper/categories.js)
     // before computing the signature.
-    for (const item of barboraResults) prepareItem(item, category);
-    for (const item of rimiResults) prepareItem(item, category);
-    for (const item of selverResults) prepareItem(item, category);
-
     // One flat pool per category — every store's items together, not
-    // a fixed "store A vs store B" pair.
-    const pool = [...barboraResults, ...rimiResults, ...selverResults];
-    const { matches, unmatched, ambiguous } = matchPool(pool, overrides, knownDifferent);
+    // a fixed "store A vs store B" pair. Brand-less items (Coop) take a
+    // brand another store states in this pool (see inferBrands) before
+    // signatures are computed.
+    const pool = [...barboraResults, ...rimiResults, ...selverResults, ...coopResults];
+    inferBrands(pool);
+    for (const item of pool) prepareItem(item, category);
+    let { matches, unmatched, ambiguous, eanConflicts } = matchPool(pool, overrides, knownDifferent);
+
+    if (onlyStore && DAILY_UPDATED.includes(category.name)) {
+      const existingUrls = new Set(existing.filter((p) => p.category === category.name).flatMap((p) => Object.values(p.prices).map((e) => e.url)));
+      const keep = matches.filter((m) => m.items.some((it) => it.store === onlyStore) || m.items.some((it) => existingUrls.has(it.url)));
+      for (const m of matches) if (!keep.includes(m)) unmatched.push(...m.items);
+      matches = keep;
+    }
+
+    for (const { a, b } of eanConflicts) {
+      eanConflictEntries.push({ category: category.name, a: { ...toLeftoverEntry(a), ean: a.signature.ean, url: a.url }, b: { ...toLeftoverEntry(b), ean: b.signature.ean, url: b.url } });
+    }
 
     for (const { items: groupItems } of ambiguous) {
       ambiguousEntries.push({
@@ -137,7 +177,9 @@ async function main() {
     console.log(
       `${category.name}: ${barboraResults.length} Barbora items, ${rimiResults.length} Rimi items, ` +
         `${selverResults.length} Selver items -> ${matches.length} matches, ` +
-        `${unmatched.length - unclassifiedCount} unmatched, ${unclassifiedCount} unclassified, ${ambiguous.length} ambiguous`
+        `${unmatched.length - unclassifiedCount} unmatched, ${unclassifiedCount} unclassified, ${ambiguous.length} ambiguous` +
+        (coopResults.length ? `, ${coopResults.length} Coop items` : "") +
+        (eanConflicts.length ? `, ${eanConflicts.length} EAN conflicts` : "")
     );
 
     for (const match of uniqueCanonicalNames(matches)) {
@@ -152,6 +194,7 @@ async function main() {
   fs.writeFileSync(UNMATCHED_PATH, JSON.stringify(unmatchedEntries, null, 2) + "\n");
   fs.writeFileSync(UNCLASSIFIED_PATH, JSON.stringify(unclassifiedEntries, null, 2) + "\n");
   fs.writeFileSync(AMBIGUOUS_PATH, JSON.stringify(ambiguousEntries, null, 2) + "\n");
+  fs.writeFileSync(EAN_CONFLICTS_PATH, JSON.stringify(eanConflictEntries, null, 2) + "\n");
 
   console.log(`\nWrote ${prices.length} matched products to data/prices.json (${freshEntries.length} from this run):`);
   prices.forEach((p) => {

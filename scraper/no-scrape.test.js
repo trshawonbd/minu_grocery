@@ -28,14 +28,15 @@ const STORE_MODULE_FILES = [
   path.join(__dirname, "stores", "barbora.js"),
   path.join(__dirname, "stores", "rimi.js"),
   path.join(__dirname, "stores", "selver.js"),
+  path.join(__dirname, "stores", "coop.js"),
 ];
 // Holds each category's store URLs as data (fetch-price.js's single
 // source for them, see scraper/categories.js) — mentions a domain the
 // same reason a store module's own file does, but never fetches
 // anything itself.
 const CATEGORIES_FILE = path.join(__dirname, "categories.js");
-const FETCH_FUNCTION_NAMES = ["fetchBarboraPrice", "fetchRimiPrice", "fetchSelverPrice"];
-const STORE_DOMAINS = ["barbora.ee", "rimi.ee", "selver.ee"];
+const FETCH_FUNCTION_NAMES = ["fetchBarboraPrice", "fetchRimiPrice", "fetchSelverPrice", "fetchCoopPrice"];
+const STORE_DOMAINS = ["barbora.ee", "rimi.ee", "selver.ee", "coophaapsalu.ee"];
 
 function listJsFiles(dir) {
   const results = [];

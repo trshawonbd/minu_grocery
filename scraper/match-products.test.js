@@ -11,7 +11,7 @@
 // or:       npm test
 
 const assert = require("node:assert/strict");
-const { sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, extractBrand, extractVariant, matchPool, matchItems, computeSignature } = require("./match-products");
+const { isValidEan, sameProduct, extractType, isProduceItem, hasKnownBrand, extractProduceVariant, extractSize, extractBrand, extractVariant, matchPool, matchItems, computeSignature } = require("./match-products");
 const { buildItem } = require("./categories");
 
 function item(store, name) {
@@ -1368,6 +1368,36 @@ const tests = [
       const sp = (store, name, brand) => buildItem("Spirits", store, name, { brand });
       assert.equal(sameProduct(sp("Barbora", "Whisky GRANTS Triple Wood 40% 1L", "GRANTS"), sp("Rimi", "Whisky Grant's Triple Wood 40%vol 1l", "Grant's")), true);
       assert.equal(sameProduct(h("Barbora", "Torupuhastusvahend TIRET 1L", "TIRET"), h("Selver", "Torupuhastusvahend, TORUSIIL, 1 l", "TORUSIIL")), false);
+    },
+  },
+  {
+    name: "EAN (Coop + Selver): only a valid 8/13-digit barcode counts; the same barcode is the same product (reason 'ean'); the same barcode with a different size, fat % or stage is an EAN conflict — never matched, reported by matchPool; two different valid barcodes never match; no barcode means the name rules decide",
+    run: () => {
+      assert.equal(isValidEan("4740252000217"), true);
+      assert.equal(isValidEan("96385074"), true);
+      assert.equal(isValidEan("4740252000218"), false, "wrong check digit");
+      assert.equal(isValidEan("005255"), false, "Coop's internal code");
+      assert.equal(isValidEan("474025200021"), false, "12 digits");
+      assert.equal(isValidEan(null), false);
+      const d = (store, name, ean, brand) => buildItem("Dairy", store, name, { ean, brand });
+      assert.equal(matchItems(d("Coop", "Piim 2,5% Alma 1l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")).reason, "ean");
+      assert.equal(matchItems(d("Coop", "Piim 2,5% Alma 1,5l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")).reason, "ean-conflict", "size disagrees");
+      assert.equal(matchItems(d("Coop", "Piim 3,5% Alma 1l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")).reason, "ean-conflict", "fat % disagrees");
+      assert.equal(sameProduct(d("Coop", "Piim 2,5% Alma 1l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4070481000307", "ALMA")), false, "two different barcodes");
+      assert.equal(sameProduct(d("Coop", "Piim 2,5% Alma 1l", "005255", "Alma"), d("Selver", "Piim 2,5%, ALMA, 1 L", "4070481000307", "ALMA")), true, "an invalid code is no barcode — names decide");
+      const pool = matchPool([d("Coop", "Piim 2,5% Alma 1,5l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA")]);
+      assert.equal(pool.matches.length, 0);
+      assert.equal(pool.eanConflicts.length, 1);
+      // Coop states no brand: fetch-price.js first gives a brand-less
+      // item the brand another store states (inferBrands), so the
+      // Coop-Barbora pair also holds by name and the three form one group.
+      const threeItems = [d("Coop", "Piim 2,5% Alma 1l", "4740252000217", null), d("Selver", "Piim 2,5%, ALMA, 1 L", "4740252000217", "ALMA"), d("Barbora", "Piim ALMA 2,5% 1L", null, "ALMA")];
+      assert.equal(require("./scrape-output").inferBrands(threeItems), 1);
+      assert.equal(threeItems[0].brand, "ALMA");
+      const three = matchPool(threeItems);
+      assert.equal(three.matches.length, 1);
+      assert.equal(three.matches[0].items.length, 3, "Barbora joins by name, Coop-Selver by barcode");
+      assert.equal(three.matches[0].reason, "ean");
     },
   },
   {

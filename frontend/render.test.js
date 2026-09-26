@@ -64,7 +64,10 @@ const tomat = product("Tomat kg", "Fruits & vegetables", { barbora: { price: 3.0
 const diapers = product("Pampers Premium Care Püksmähkmed S5 34tk", "Diapers & baby wipes", { barbora: { price: 13.79, size: "34tk" }, selver: { price: 23.88, size: "34tk" } });
 const meat = product("Rakvere Seahakkliha", "Meat", { barbora: { price: 3.99, size: "400g", storeUnitPrice: 9.98 }, rimi: { price: 4.49, size: "500g", storeUnitPrice: 8.98 } }, { cheapestByUnitPrice: true });
 const hidden = product("Hidden thing", "Dairy", { barbora: { price: 1 }, rimi: { price: 9 } }, { hidden: true });
-const products = [piim, voi, oun, tomat, diapers, meat, hidden];
+const fourStore = product("Tere Kohuke vanilli 40g", "Curd snacks & desserts", {
+  barbora: { price: 0.55, size: "40g" }, rimi: { price: 0.59, size: "40g" }, selver: { price: 0.6, size: "40g", ean: "4740012345670" }, coop: { price: 0.49, size: "40g", ean: "4740012345670", storeName: "Kohuke vanilli Tere 40g" },
+});
+const products = [piim, voi, oun, tomat, diapers, meat, hidden, fourStore];
 
 function makeState(overrides) {
   return {
@@ -94,10 +97,10 @@ const results = [
     const { root, text, navText } = render(makeState({ screen: "home" }));
     assert.ok(root.find((n) => n.tagName === "input").length === 1, "one search input");
     const tiles = root.find((n) => n.className === "tile").map((n) => n.textContent);
-    assert.deepEqual(tiles, ["Puuviljad1", "Köögiviljad1", "Piim ja jogurt1", "Või1", "Liha1", "Lapsed1"], "name + count, shopping order, hidden product not counted");
+    assert.deepEqual(tiles, ["Puuviljad1", "Köögiviljad1", "Piim ja jogurt1", "Või1", "Kohukesed ja magustoidud1", "Liha1", "Lapsed1"], "name + count, shopping order, hidden product not counted");
     assert.ok(!text.includes("Dairy") && !text.includes("Fruits & vegetables"), "no English data-category names on screen");
     const tileIcons = root.find((n) => n.tagName === "svg" && n.attributes.class === "cat-icon");
-    assert.equal(tileIcons.length, 6, "every tile has our own SVG icon");
+    assert.equal(tileIcons.length, 7, "every tile has our own SVG icon");
     assert.ok(text.includes("Suurimad hinnavahed täna"));
     assert.ok(text.includes("kuni 42% odavam"), "diapers 13.79 vs 23.88 -> 42%");
     assert.ok(text.includes("Tavalisest odavam"));
@@ -169,6 +172,18 @@ const results = [
     renderApp(r, new FakeNode("nav"), makeState({ screen: "product", product: voi }), { ...actions, openCategory: (c) => calls.push(c) });
     r.find((n) => n.className === "back")[0].click();
     assert.deepEqual(calls, ["voi"], "back from the butter opens the Või display category");
+  }),
+  test("Product with four stores: Coop (Haapsalu) has its own coloured label, its regional-price note, is Parim hind here, and the other three show +X €", () => {
+    const { root, text } = render(makeState({ screen: "product", product: fourStore }));
+    assert.ok(text.includes("Coop (Haapsalu)"));
+    assert.ok(text.includes("Haapsalu e-poe hind, teistes piirkondades võib erineda"));
+    assert.ok(root.find((n) => n.className === "store-name store-coop").length === 1);
+    assert.equal((text.match(/Parim hind/g) || []).length, 1);
+    const best = root.find((n) => n.className === "store-row cheapest");
+    assert.ok(best.length === 1 && best[0].textContent.includes("Coop (Haapsalu)"));
+    assert.ok(text.includes("+0.06 €") && text.includes("+0.10 €") && text.includes("+0.11 €"));
+    assert.ok(text.includes("4 poodi"));
+    assert.equal(root.find((n) => n.tagName === "a").length, 4);
   }),
   test("Product: a diaper shows €/tk, and a meat product leads with €/kg and marks Parim hind by unit price", () => {
     const d = render(makeState({ screen: "product", product: diapers })).text;

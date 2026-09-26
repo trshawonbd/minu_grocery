@@ -9,7 +9,7 @@ const DEFAULT_LANG = "et";
 
 const STRINGS = {
   et: {
-    tagline: "{n} toodet võrdluses — Barbora, Rimi ja Selver",
+    tagline: "{n} toodet võrdluses — Barbora, Rimi, Selver ja Coop (Haapsalu)",
     searchPlaceholder: "Otsi toodet, nt piim, oun, kohv",
     searchLabel: "Otsi tooteid",
     categories: "Kategooriad",
@@ -57,9 +57,10 @@ const STRINGS = {
     other: "Muu",
     onlyOneStore: "Ainult ühes poes",
     onlyOneStoreHint: "Neid tooteid müüb ainult üks pood — võrdlust pole, hind on poe enda hind.",
+    coopNote: "Haapsalu e-poe hind, teistes piirkondades võib erineda",
   },
   en: {
-    tagline: "{n} products compared — Barbora, Rimi and Selver",
+    tagline: "{n} products compared — Barbora, Rimi, Selver and Coop (Haapsalu)",
     searchPlaceholder: "Search products, e.g. piim, oun, kohv",
     searchLabel: "Search products",
     categories: "Categories",
@@ -107,9 +108,10 @@ const STRINGS = {
     other: "Other",
     onlyOneStore: "Only at one store",
     onlyOneStoreHint: "Only one store sells these — no comparison, the price is the store's own.",
+    coopNote: "Haapsalu e-shop price; other regions may differ",
   },
   ru: {
-    tagline: "{n} товаров в сравнении — Barbora, Rimi и Selver",
+    tagline: "{n} товаров в сравнении — Barbora, Rimi, Selver и Coop (Haapsalu)",
     searchPlaceholder: "Поиск товара, напр. piim, oun, kohv",
     searchLabel: "Поиск товаров",
     categories: "Категории",
@@ -157,6 +159,7 @@ const STRINGS = {
     other: "Прочее",
     onlyOneStore: "Только в одном магазине",
     onlyOneStoreHint: "Эти товары продаёт только один магазин — сравнения нет, цена магазина.",
+    coopNote: "Цена интернет-магазина Хаапсалу; в других регионах может отличаться",
   },
 };
 

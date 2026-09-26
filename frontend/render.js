@@ -13,7 +13,7 @@
 // split), not the data categories of prices.json. All UI text goes
 // through i18n.js's t(); the language is state.lang ("et" default).
 
-const STORE_LABELS = { barbora: "Barbora", rimi: "Rimi", selver: "Selver" };
+const STORE_LABELS = { barbora: "Barbora", rimi: "Rimi", selver: "Selver", coop: "Coop (Haapsalu)" };
 
 // Coloured text labels — no logos.
 function storeLabel(key) {
@@ -393,6 +393,10 @@ function renderProduct(root, state, actions) {
     }
     if (entry.store === "selver") {
       right.appendChild(el("div", "store-availability-note", tr(state, "availabilityNote")));
+    }
+    if (entry.store === "coop") {
+      // Regional pricing — the Haapsalu e-shop's price.
+      right.appendChild(el("div", "store-availability-note", tr(state, "coopNote")));
     }
     if (entry.isCheapest) {
       right.appendChild(el("div", "store-tag best", tr(state, "bestPrice")));

@@ -50,11 +50,12 @@ const { execFileSync } = require("child_process");
 const { fetchBarboraPrice } = require("./stores/barbora");
 const { fetchRimiPrice } = require("./stores/rimi");
 const { fetchSelverPrice } = require("./stores/selver");
+const { fetchCoopPrice } = require("./stores/coop");
 const { CATEGORIES } = require("./categories");
 const { matchPool } = require("./match-products");
 const { loadRaw, writeRaw } = require("./raw");
 const { buildSingles } = require("./build-singles");
-const { fetchAllUrls, prepareItem, toPricesObject } = require("./scrape-output");
+const { fetchAllUrls, prepareItem, inferBrands, toPricesObject } = require("./scrape-output");
 const { checkRepoSafety, checkStoreSafety, updateProductPrices, updateHidden, findLeftoverPool } = require("./daily-update-logic");
 
 const ROOT = path.join(__dirname, "..");
@@ -103,12 +104,14 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
   // each store's requests are still sequential within themselves. A
   // failed store is caught per-store, not per-category, so e.g. a
   // Rimi outage never blocks Barbora/Selver from updating.
-  const [barbora, rimi, selver] = await Promise.all([
+  const [barbora, rimi, selver, coop] = await Promise.all([
     fetchStore(() => fetchAllUrls(fetchBarboraPrice, category.urls.barbora, "page")),
     fetchStore(() => fetchAllUrls(fetchRimiPrice, category.urls.rimi, "currentPage")),
     fetchStore(() => fetchSelverPrice(category.name)),
+    // Coop (Haapsalu) — its own 1 req/s throttle, see stores/coop.js.
+    fetchStore(() => fetchCoopPrice(category.name)),
   ]);
-  const fetched = { Barbora: barbora, Rimi: rimi, Selver: selver };
+  const fetched = { Barbora: barbora, Rimi: rimi, Selver: selver, Coop: coop };
 
   const previousRaw = loadRaw().find((c) => c.category === category.name);
   const previousByStore = previousRaw ? previousRaw.stores : {};
@@ -121,7 +124,15 @@ async function updateCategory(category, prices, overrides, knownDifferent, log, 
   const freshByStore = {};
   const rawToWrite = {};
 
-  for (const store of ["Barbora", "Rimi", "Selver"]) {
+  // Coop states no brand — take it from what the other stores state in
+  // this category (fresh where fetched, else yesterday's raw), the
+  // same step fetch-price.js runs before signatures.
+  inferBrands([
+    ...Object.values(fetched).flatMap((r) => (r.ok ? r.items : [])),
+    ...Object.entries(previousByStore).filter(([store]) => !fetched[store] || !fetched[store].ok).flatMap(([, items]) => items),
+  ]);
+
+  for (const store of ["Barbora", "Rimi", "Selver", "Coop"]) {
     const result = fetched[store];
     if (!result.ok) {
       alerts.push({ category: category.name, store, reason: "fetch-failed", detail: result.error });

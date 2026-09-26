@@ -69239,6 +69239,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sokolaadi-koorejaatis-onu-eskimo-57-g",
         "size": "57g",
+        "ean": "4740188019680",
         "storeUnitPrice": 18.42,
         "storeName": "Šokolaadi-koorejäätis, ONU ESKIMO, 57 g"
       }
@@ -69263,6 +69264,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/white-strawberry-magnum-81-g",
         "size": "81g",
+        "ean": "8711327612242",
         "storeUnitPrice": 23.21,
         "storeName": "White Strawberry, MAGNUM, 81 g"
       }
@@ -69296,6 +69298,7 @@
         "cardPrice": 3.79,
         "cardName": "Partner",
         "size": "480g",
+        "ean": "4740093045675",
         "storeUnitPrice": 9.98,
         "storeName": "Stracciatella koorejäätis, PREMIA, 480 g"
       }
@@ -69329,6 +69332,7 @@
         "cardPrice": 3.39,
         "cardName": "Partner",
         "size": "480g",
+        "ean": "4740093014725",
         "storeUnitPrice": 8.65,
         "storeName": "Mango-meloni koorejäätis, PREMIA, 480 g"
       }
@@ -69352,8 +69356,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/laktoosivaba-koorejaatis-balbiino-480-g",
         "size": "480g",
+        "ean": "4740188018973",
         "storeUnitPrice": 11.83,
         "storeName": "Laktoosivaba koorejäätis, BALBIINO, 480 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Premia Vanilli koorejäätis 480g",
+    "category": "Ice cream",
+    "prices": {
+      "barbora": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vanilli-koorejaatis-premia-480-g",
+        "size": "480g",
+        "storeUnitPrice": 8.94,
+        "storeName": "Vanilli koorejäätis PREMIA, 480g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vanilli-koorejaatis-premia-480-g",
+        "size": "480g",
+        "ean": "4740093021549",
+        "storeUnitPrice": 8.94,
+        "storeName": "Vanilli koorejäätis, PREMIA, 480 g"
       }
     },
     "matchedVia": "automatic"
@@ -69375,6 +69404,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pistaatsia-koorejaatis-premia-240-g",
         "size": "240g",
+        "ean": "4740093364578",
         "storeUnitPrice": 17.58,
         "storeName": "Pistaatsia-koorejäätis, PREMIA, 240 g"
       }
@@ -69453,6 +69483,65 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Väike tom Koolijäätis 60g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koolijaatis-60g/",
+        "size": "60g",
+        "ean": "4740093003422",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740093003422.jpg",
+        "storeName": "Koolijäätis Väike Tom 60g/90ml"
+      },
+      "rimi": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/pulgajaatised/koolijaatis-vaike-tom-60g-90ml/p/205877",
+        "size": "60g",
+        "storeUnitPrice": 16.5,
+        "storeName": "Koolijäätis Väike Tom 60g/90ml"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koolijaatis-premia-60-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "60g",
+        "ean": "4740093003422",
+        "storeUnitPrice": 16.5,
+        "storeName": "Koolijäätis, PREMIA, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Raks Koorejäätis küpsistega 110ml",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/raks-koorejaatis-kupsistega-110ml-56g/",
+        "size": "110ml",
+        "ean": "4740188019420",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740188019420.png",
+        "storeName": "Koorejäätis küpsistega Raks 110ml/56g"
+      },
+      "rimi": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/muud-vaikejaatised/koorejaatis-raks-kupsistega-110ml-56g/p/966036",
+        "size": "110ml",
+        "storeUnitPrice": 22.32,
+        "storeName": "Koorejäätis RAKS küpsistega 110ml/56g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "La muu mango passioni vegan 250g",
     "category": "Ice cream",
     "prices": {
@@ -69471,6 +69560,7 @@
         "cardPrice": 3.79,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "4742963010950",
         "storeUnitPrice": 17.96,
         "storeName": "Mango-passioni jäätis, vegan, LA MUU, 250 g"
       }
@@ -69496,6 +69586,7 @@
         "cardPrice": 0.79,
         "cardName": "Partner",
         "size": "80g",
+        "ean": "4740188012308",
         "storeUnitPrice": 14.88,
         "storeName": "Karamelli-koorejäätis glasuuris, VANILLA NINJA, 80 g"
       }
@@ -69503,9 +69594,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Balbiino Jogurtijäätis mustika jogurtiglasuuris 54g",
+    "name": "Mustika jogurtijäätis jogurtiglasuuris balbiion 54g",
     "category": "Ice cream",
     "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-mustika-jog-jaatis-jog-gl-54g/",
+        "size": "54g",
+        "ean": "4740188012995",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740188012995.png",
+        "storeName": "Mustika-jogurtijäätis jogurtiglasuuris Balbiion54g"
+      },
       "rimi": {
         "price": 1.25,
         "currency": "EUR",
@@ -69519,8 +69619,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/mustika-jogurtijaatis-jogurtiglasuuris-balbiino-54-g",
         "size": "54g",
+        "ean": "4740188012995",
         "storeUnitPrice": 22.04,
         "storeName": "Mustika-jogurtijäätis jogurtiglasuuris, BALBIINO, 54 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Fitlap koorejäätis 90ml",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-fitlap-koorejaatis-90ml-52g/",
+        "size": "90ml",
+        "ean": "4740188019918",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740188019918.png",
+        "storeName": "Fitlap koorejäätis Balbiino 90ml/52g"
+      },
+      "rimi": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kulmutatud-toidukaubad/jaatis-ja-jaa/pulgajaatised/koorejaatis-fitlap-balbiino-90ml-52g/p/987960",
+        "size": "90ml",
+        "storeUnitPrice": 27.88,
+        "storeName": "Koorejäätis fitlap Balbiino 90ml/52g"
       }
     },
     "matchedVia": "automatic"
@@ -69542,11 +69667,904 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kondenspiimajaatis-la-muu-250-g",
         "size": "250g",
+        "ean": "4742963012015",
         "storeUnitPrice": 17.96,
         "storeName": "Kondenspiimajäätis, LA MUU, 250 g"
       }
     },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Väike tom Väike krokojäätis 75g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-tom-krokojaatis-75g/",
+        "size": "75g",
+        "ean": "4740093942509",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740093942509.png",
+        "storeName": "Väike Tom krokojäätis 75g"
+      },
+      "selver": {
+        "price": 0.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krokojaatis-vaike-tom-75-g",
+        "cardPrice": 0.55,
+        "cardName": "Partner",
+        "size": "75g",
+        "ean": "4740093942509",
+        "storeUnitPrice": 9.2,
+        "storeName": "Krokojäätis, VÄIKE TOM, 75 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Väike tom Siiru viiru küpsik koorejäätis van karamellitäidisega 80g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaike-tom-siiru-viiru-kupsik-jaatis-80g/",
+        "size": "80g",
+        "ean": "4740093987708",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740093987708.png",
+        "storeName": "Siiru-viiru Küpsik van.koorejäätis Väike Tom 80g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/siiru-viiru-kupsik-vanilli-koorejaatis-karamellitaidisega-vaike-tom-80-g",
+        "cardPrice": 0.95,
+        "cardName": "Partner",
+        "size": "80g",
+        "ean": "4740093987708",
+        "storeUnitPrice": 14.88,
+        "storeName": "Siiru-viiru küpsik vanilli-koorejäätis karamellitäidisega, VÄIKE TOM, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalevipoeg Piimashok koorejäätis mandlitükk mandlitükkidega 270g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalevipoeg-piimashok-koorej-mandlitk270g/",
+        "size": "270g",
+        "ean": "4740188012728",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740188012728.png",
+        "storeName": "Piimashok.-koorejäätis mandlitükk. Kalevipoeg 270g"
+      },
+      "selver": {
+        "price": 4.62,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piimasokolaadi-koorejaatis-mandlitukkidega-kalevipoeg-270-g",
+        "size": "270g",
+        "ean": "4740188012728",
+        "storeUnitPrice": 17.11,
+        "storeName": "Piimašokolaadi-koorejäätis mandlitükkidega, KALEVIPOEG, 270 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "La muu Madagaskari vanilliga lakt vaba laktoosivaba 250g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/la-muu-madagaskari-van-jaatis250g-l-vaba/",
+        "size": "250g",
+        "ean": "4742963011216",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4742963011216.png",
+        "storeName": "Madagaskari vanilliga jäätis La Muu 250g lakt.vaba"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/madagaskari-vanilliga-jaatis-laktoosivaba-la-muu-250-g",
+        "size": "250g",
+        "ean": "4742963011216",
+        "storeUnitPrice": 15.16,
+        "storeName": "Madagaskari vanilliga jäätis, laktoosivaba, LA MUU, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vanilla ninja Piparmündi glasuuris koorej 80g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vanilla-ninja-piparmundim-koorejaat-80g/",
+        "size": "80g",
+        "ean": "4740188020075",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740188020075-1.png",
+        "storeName": "Piparmündimaits.koorej.glasuuris Vanilla Ninja 80g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piparmundimaitseline-koorejaatis-glasuuris-vanilla-ninja-80-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "80g",
+        "ean": "4740188020075",
+        "storeUnitPrice": 14.88,
+        "storeName": "Piparmündimaitseline koorejäätis glasuuris, VANILLA NINJA, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Vahukoorej maasikatoormoosi shok tükk piimašokolaaditükkidega 94g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-vahukoorej-maasikatoormoosi94g/",
+        "size": "94g",
+        "ean": "4740188020105",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740188020105.png",
+        "storeName": "Vahukoorej.maasikatoormoosi shok.tükk.Balbiino94g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahukoorejaatis-maasikatoormoosi-ja-piimasokolaaditukkidega-vahvlikoonuses-balbiino-94-g",
+        "size": "94g",
+        "ean": "4740188020105",
+        "storeUnitPrice": 16.91,
+        "storeName": "Vahukoorejäätis maasikatoormoosi ja piimašokolaaditükkidega vahvlikoonuses, BALBIINO, 94 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Vahukoorej maasikatoormoosi shok piimašokolaaditükkidega 500g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 6.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-vahukoorej-maasikatoormoosi500g/",
+        "size": "500g",
+        "ean": "4740188020013",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740188020013.png",
+        "storeName": "Vahukoorej.maasikatoormoosi shok.tk.Balbiino 500g"
+      },
+      "selver": {
+        "price": 6.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahukoorejaatis-maasikatoormoosi-ja-piimasokolaaditukkidega-balbiino-500-g",
+        "size": "500g",
+        "ean": "4740188020013",
+        "storeUnitPrice": 13.18,
+        "storeName": "Vahukoorejäätis maasikatoormoosi ja piimašokolaaditükkidega, BALBIINO, 500 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eriti rammus Koorejäätis põldmarjamoosiga 110g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eriti-rammus-koorejaatis-poldmarja-110g/",
+        "size": "110g",
+        "ean": "4740093000742",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740093000742.png",
+        "storeName": "Koorejäätis põldmarjamoosiga Eriti Rammus 110g"
+      },
+      "selver": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorejaatis-poldmarjamoosiga-eriti-rammus-110-g",
+        "size": "110g",
+        "ean": "4740093000742",
+        "storeUnitPrice": 16.18,
+        "storeName": "Koorejäätis põldmarjamoosiga, ERITI RAMMUS, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Eriti rammus Martsipani kirsimoosiga koorej 110g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eriti-rammus-martsipani-koorej-kirsi110g/",
+        "size": "110g",
+        "ean": "4740093001060",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740093001060.png",
+        "storeName": "Martsipani-koorej. kirsimoosiga Eriti Rammus 110g"
+      },
+      "selver": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/martsipani-koorejaatis-kirsimoosiga-eriti-rammus-110-g",
+        "size": "110g",
+        "ean": "4740093001060",
+        "storeUnitPrice": 16.18,
+        "storeName": "Martsipani-koorejäätis kirsimoosiga, ERITI RAMMUS, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Virsiku jogurtijäätis jogurtiglasuuris 54g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-virsiku-jog-jaatis-jog-gl-54g/",
+        "size": "54g",
+        "ean": "4740188012988",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740188012988.png",
+        "storeName": "Virsiku-jogurtijäätis jogurtiglasuuris Balbiino54g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/virsiku-jogurtijaatis-jogurtiglasuuris-balbiino-54-g",
+        "size": "54g",
+        "ean": "4740188012988",
+        "storeUnitPrice": 22.04,
+        "storeName": "Virsiku-jogurtijäätis jogurtiglasuuris, BALBIINO, 54 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mahlapurikas mahlajää lotte 75ml",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 0.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lotte-mahlapurikas-mahlajaa-75ml-75g/",
+        "size": "75ml",
+        "ean": "4740188020235",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740188020235.png",
+        "storeName": "Mahlapurikas mahlajää Lotte 75ml/75g"
+      },
+      "selver": {
+        "price": 0.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/apelsini-maasika-pirni-mango-mahlajaa-mahlapurikas-75-g",
+        "size": "75g",
+        "ean": "4740188020235",
+        "storeUnitPrice": 9.6,
+        "storeName": "Apelsini-maasika-pirni-mango-mahlajää, MAHLAPURIKAS, 75 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Classic Pistaatsia meresoolaga koorejäät 500ml",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/classic-pistaatsia-koorejaat-meres-250g/",
+        "size": "500ml",
+        "ean": "4740188020259",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740188020259.png",
+        "storeName": "Pistaatsia-koorejäät.meresoolaga Classic 0.5L/250g"
+      },
+      "selver": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pistaatsia-koorejaatis-meresoolaga-classic-500-ml",
+        "size": "500ml",
+        "ean": "4740188020259",
+        "storeUnitPrice": 18.76,
+        "storeName": "Pistaatsia-koorejäätis meresoolaga, CLASSIC, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Vahukoore kirsijäät shok tükkidega 1000ml",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 6.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-vahukoore-kirsijaat-shok-tk500g/",
+        "size": "1000ml",
+        "ean": "4740188020266",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740188020266.png",
+        "storeName": "Vahukoore-kirsijäät.shok.tükkidega Balbiino1L/500g"
+      },
+      "selver": {
+        "price": 6.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahukoore-kirsijaatis-sokolaaditukkidega-balbiino-1-l",
+        "size": "1000ml",
+        "ean": "4740188020266",
+        "storeUnitPrice": 13.18,
+        "storeName": "Vahukoore-kirsijäätis šokolaaditükkidega, BALBIINO, 1 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vanilla ninja Shok gl koorejäätis pulk 80g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jaatis-vanilla-ninja-80g/",
+        "size": "80g",
+        "ean": "4740188000497",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740188000497.png",
+        "storeName": "Shok-koorejäätis Vanilla Ninja shok.gl. 80g pulk"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sokolaadijaatis-sokolaadiglasuuris-vanilla-ninja-80-g",
+        "cardPrice": 0.79,
+        "cardName": "Partner",
+        "size": "80g",
+        "ean": "4740188000497",
+        "storeUnitPrice": 14.88,
+        "storeName": "Šokolaadijäätis šokolaadiglasuuris, VANILLA NINJA, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Premia Vanilli koorejäätis regatt 1750ml",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/premia-regatt-vanilli-koorejaatis-875g/",
+        "size": "1750ml",
+        "ean": "4740093007147",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740093007147.png",
+        "storeName": "Vanilli-koorejäätis Regatt Premia 1.75L/875g"
+      },
+      "selver": {
+        "price": 6.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vanilli-koorejaatis-regatt-1-75-l",
+        "size": "1750ml",
+        "ean": "4740093007147",
+        "storeUnitPrice": 7.6,
+        "storeName": "Vanilli-koorejäätis, REGATT, 1,75 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Reservväelase kondenspiimaga koorej 65g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 0.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-reservvaelase-koorej-kondens65g/",
+        "size": "65g",
+        "ean": "4740188020358",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/01/4740188020358.png",
+        "storeName": "Reservväelase koorej.kondenspiimaga Balbiino 65g"
+      },
+      "selver": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/reservvaelase-kondenspiimaga-koorejaatis-vahvlitopsis-balbiino",
+        "cardPrice": 0.75,
+        "cardName": "Partner",
+        "ean": "4740188020358",
+        "storeUnitPrice": 8.4,
+        "storeName": "Reservväelase kondenspiimaga koorejäätis vahvlitopsis, BALBIINO,"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Vahukoorejäätis karam tük vahvlikoon karamellitükkidega 86g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-vahukoorejaatis-karam-tk-86g/",
+        "size": "86g",
+        "ean": "4740188020464",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740188020464.png",
+        "storeName": "Vahukoorejäätis karam.tük.vahvlikoon.Balbiino 86g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahukoorejaatis-karamellitukkidega-vahvlikoonuses-balbiino-86-g",
+        "size": "86g",
+        "ean": "4740188020464",
+        "storeUnitPrice": 18.49,
+        "storeName": "Vahukoorejäätis karamellitükkidega vahvlikoonuses, BALBIINO, 86 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Balbiino Vahuk vaarika j mustsõstra vahvlikoon mustasõstratoormoosiga 94g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/balbiino-vahuk-j-vaarika-mustasostra-94g/",
+        "size": "94g",
+        "ean": "4740188020426",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740188020426.png",
+        "storeName": "Vahuk.j vaarika-mustasõstra vahvlikoon.Balbiino94g"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahukoorejaatis-vaarika-mustasostratoormoosiga-vahvlikoonuses-balbiino-94-g",
+        "size": "94g",
+        "ean": "4740188020426",
+        "storeUnitPrice": 11.6,
+        "storeName": "Vahukoorejäätis vaarika-mustasõstratoormoosiga vahvlikoonuses, BALBIINO, 94 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Koorejäätis kookos lisandi ja glasuurigaclassic kookoseglasuuriga 69g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/classic-koorejaatis-kookos-lisandi-gl69g/",
+        "size": "69g",
+        "ean": "4740188020488",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740188020488.png",
+        "storeName": "Koorejäätis kookos lisandi ja glasuurigaClassic69g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koorejaatis-kookosemaitselise-lisandi-ja-kookoseglasuuriga-classic-69-g",
+        "size": "69g",
+        "ean": "4740188020488",
+        "storeUnitPrice": 28.84,
+        "storeName": "Koorejäätis kookosemaitselise lisandi ja kookoseglasuuriga, CLASSIC, 69 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Classic Pistaatsia valges glasuuris koorej pist pistaatsiatükkidega 67g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/classic-pistaatsia-koorejaat-pist-tk-67g/",
+        "size": "67g",
+        "ean": "4740188020501",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740188020501.png",
+        "storeName": "Pistaatsia-koorej.pist.tk.valges glas.Classic 67g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pistaatsia-koorejaatis-pistaatsiatukkidega-valges-glasuuris-classic-67-g",
+        "size": "67g",
+        "ean": "4740188020501",
+        "storeUnitPrice": 29.7,
+        "storeName": "Pistaatsia-koorejäätis pistaatsiatükkidega valges glasuuris, CLASSIC, 67 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Raks Pähklikreemi koorejäätis küpsistega 60g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/raks-pahklikr-koorejaatis-kupsistega60g/",
+        "size": "60g",
+        "ean": "4740188020525",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740188020525.png",
+        "storeName": "Pähklikreemi-koorejäätis küpsistega Raks 60g"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pahklikreemi-koorejaatis-kupsistega-raks-60-g",
+        "size": "60g",
+        "ean": "4740188020525",
+        "storeUnitPrice": 20.83,
+        "storeName": "Pähklikreemi-koorejäätis küpsistega, RAKS, 60 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Piparmündi koorejäätis eskimo koonusonu shok šokolaaditükkidega 80g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/onu-eskimo-piparmundi-koorejaatis-80g/",
+        "size": "80g",
+        "ean": "4740188020334",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740188020334.png",
+        "storeName": "Piparmündi koorejäätis shok.tk.koonusOnu Eskimo80g"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piparmundimaitseline-koorejaatis-sokolaaditukkidega-vahvlikoonuses-onu-eskimo-80-g",
+        "size": "80g",
+        "ean": "4740188020334",
+        "storeUnitPrice": 18.13,
+        "storeName": "Piparmündimaitseline koorejäätis šokolaaditükkidega vahvlikoonuses, ONU ESKIMO, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maasika koorej maasikatoormoosigaeriti rammus maasikatoormoosiga 110g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/eriti-rammus-maas-koorej-maasikatoor110g/",
+        "size": "110g",
+        "ean": "4740093007352",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740093007352.png",
+        "storeName": "Maasika-koorej. maasikatoormoosigaEriti Rammus110g"
+      },
+      "selver": {
+        "price": 1.78,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasika-koorejaatis-maasikatoormoosiga-eriti-rammus-110-g",
+        "size": "110g",
+        "ean": "4740093007352",
+        "storeUnitPrice": 16.18,
+        "storeName": "Maasika-koorejäätis maasikatoormoosiga, ERITI RAMMUS, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Vanilli maasika gl koorej mustsõst sh väiketom 75g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaiketom-van-koorej-maasika-mustsost75g/",
+        "size": "75g",
+        "ean": "4740093007475",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740093007475.png",
+        "storeName": "Vanilli-koorej.maasika-mustsõst. sh-gl.VäikeTom75g"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vanilli-koorejaatis-maasika-mustsostra-sokolaadi-glasuuris-vaike-tom-75-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "75g",
+        "ean": "4740093007475",
+        "storeUnitPrice": 16.67,
+        "storeName": "Vanilli-koorejäätis maasika-mustsõstra šokolaadi glasuuris, VÄIKE TOM, 75 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Van gl iirise koorej soolakaram väiketom 75g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vaiketom-van-koorej-soolakaram-iirise75g/",
+        "size": "75g",
+        "ean": "4740093007482",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740093007482.png",
+        "storeName": "Van-koorej.soolakaram.iirisemaits.gl.VäikeTom75g"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vanilli-koorejaatis-soolakaramelli-iirisemaitselises-glasuuris-vaike-tom-75-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "75g",
+        "ean": "4740093007482",
+        "storeUnitPrice": 16.67,
+        "storeName": "Vanilli-koorejäätis soolakaramelli iirisemaitselises glasuuris, VÄIKE TOM, 75 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Premia Karamelli tallinn glasuur koorejäät shok 60g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/premia-karamelli-koorejaatis-tallinn-60g/",
+        "size": "60g",
+        "ean": "4740093007437",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740093007437.png",
+        "storeName": "Karamelli-koorejäät.shok.glasuur.Tallinn Premia60g"
+      },
+      "selver": {
+        "price": 0.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tallinn-karamelli-koorejaatis-sokolaadiglasuuris-premia-60g",
+        "size": "60g",
+        "ean": "4740093007437",
+        "storeUnitPrice": 16.5,
+        "storeName": "Tallinn Karamelli- koorejäätis šokolaadiglasuuris, PREMIA, 60g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maasikaj b j koorej sõõriku taigna tükk 393g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 8.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/benjerry-maasikaj-koorej-soorikum-393g/",
+        "size": "393g",
+        "ean": "8721274805482",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/8721274805482.png",
+        "storeName": "Maasikaj.-koorej.sõõrikumaits.taigna tükk B&J393g"
+      },
+      "selver": {
+        "price": 8.28,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/jaatis-strawberry-doughnut-pint-ben-jerry-s-393-g",
+        "cardPrice": 4.89,
+        "cardName": "Partner",
+        "size": "393g",
+        "ean": "8721274805482",
+        "storeUnitPrice": 21.07,
+        "storeName": "Jäätis Strawberry Doughnut pint, BEN&JERRY'S, 393 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Karamelli koorjäätis churrose tükkidega b j 360g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 8.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/benjerry-karam-koorjaatis-churr360g/",
+        "size": "360g",
+        "ean": "8721274805383",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/8721274805383.png",
+        "storeName": "Karamelli-koorjäätis churrose tükkidega B&J 360g"
+      },
+      "selver": {
+        "price": 8.28,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/churros-jaatis-ben-jerry-s-360-g",
+        "size": "360g",
+        "ean": "8721274805383",
+        "storeUnitPrice": 23,
+        "storeName": "Churros jäätis, BEN &JERRY´S, 360 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Magnum Pistaatsia glasuuris 70g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magnum-pist-maits-jaat-pistaatsia-gl-70g/",
+        "size": "70g",
+        "ean": "8721274812831",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/8721274812831.png",
+        "storeName": "Pistaatsiamaits.jäätis pistaatsia glas.Magnum 70g"
+      },
+      "selver": {
+        "price": 1.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/la-pistache-pulgajaatis-magnum-70-g",
+        "size": "70g",
+        "ean": "8721274812831",
+        "storeUnitPrice": 26.86,
+        "storeName": "La Pistache pulgajäätis, MAGNUM, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Magnum Virsiku glasuuris 70g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magnum-virsikumait-jaatis-virsiku-gl-70g/",
+        "size": "70g",
+        "ean": "8721274813593",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/8721274813593.png",
+        "storeName": "Virsikumaitseline jäätis virsiku glas.Magnum 70g"
+      },
+      "selver": {
+        "price": 1.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/la-pesche-pulgajaatis-magnum-70-g",
+        "size": "70g",
+        "ean": "8721274813593",
+        "storeUnitPrice": 26.86,
+        "storeName": "La Pesche pulgajäätis, MAGNUM, 70 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Magnum double caramel dore billionaire kastmega 71g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/magnum-double-caramel-dore-bi-jaatis-71g/",
+        "size": "71g",
+        "ean": "8711327480537",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/8711327480537.png",
+        "storeName": "Jäätis Double Caramel Dore Billionaire Magnum 71g"
+      },
+      "selver": {
+        "price": 1.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsisemaitseline-jaatis-pekanipahklimaitselise-jaatise-keeru-ja-soolakaramelli-kastmega-magnum-71-g",
+        "size": "71g",
+        "ean": "8711327480537",
+        "storeUnitPrice": 26.48,
+        "storeName": "Küpsisemaitseline jäätis pekanipähklimaitselise jäätise keeru ja soolakaramelli kastmega, MAGNUM, 71 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Super viva Koorejäätis brulee creme 100g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/s-viva-koorejaat-creme-brulee-maits-100g/",
+        "size": "100g",
+        "ean": "8711327598362",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/8711327550629.png",
+        "storeName": "Koorejäätis Creme Brulee maits.Super Viva 100g"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kreembrulee-koonus-super-viva-100-g",
+        "size": "100g",
+        "ean": "8711327598362",
+        "storeUnitPrice": 20.2,
+        "storeName": "Kreembrülee koonus, SUPER VIVA, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Super viva Karam koorejäät pähklitäidis 95g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/s-viva-karam-maits-koorej-pahklitaidi95g/",
+        "size": "95g",
+        "ean": "8711327550155",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/8711327550155.png",
+        "storeName": "Karam.maits.koorejäät.pähklitäidis Super Viva 95g"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karamelli-pahkli-tops-super-viva-95-g",
+        "size": "95g",
+        "ean": "8711327550155",
+        "storeUnitPrice": 18.42,
+        "storeName": "Karamelli - pähkli tops, SUPER VIVA, 95 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Soolakaram b batooni j karam 350g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/benjerry-soolakaram-maits-jaatis-350g/",
+        "size": "350g",
+        "ean": "8711327589360",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/8711327589360.png",
+        "storeName": "Soolakaram.maits.jäätis karam.batooni tk B&J 350g"
+      },
+      "selver": {
+        "price": 8.28,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/dulce-de-lish-sundae-pint-jaatis-ben-jerry-s-350-g",
+        "cardPrice": 4.89,
+        "cardName": "Partner",
+        "size": "350g",
+        "ean": "8711327589360",
+        "storeUnitPrice": 23.66,
+        "storeName": "Dulce De-lish Sundae pint jäätis, BEN&JERRY´S, 350 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Limpa limonaadi guanaba 70g",
+    "category": "Ice cream",
+    "prices": {
+      "coop": {
+        "price": 0.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jaat-limon-guanabam-70g/",
+        "size": "70g",
+        "ean": "4740093005471",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740093005471.jpg",
+        "storeName": "Jäätis limonaadi-guanabamaitseline Limpa 70g"
+      },
+      "selver": {
+        "price": 0.6,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/limonaadi-ja-guanabamaitseline-jaatis-limpa-70-g",
+        "size": "70g",
+        "ean": "4740093005471",
+        "storeUnitPrice": 8.57,
+        "storeName": "Limonaadi-ja guanabamaitseline jäätis, LIMPA, 70 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Uvic pelmeenid hiina 400g",

@@ -82603,16 +82603,26 @@
         "storeUnitPrice": 13.2,
         "storeName": "Juurviljapüree HIPP BIO 125g 4k"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aedviljapuree-125g/",
+        "size": "125g",
+        "ean": "9062300100263",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300090311.jpg",
+        "storeName": "4K Aedviljapüree Hipp 125g mahe"
+      },
       "selver": {
         "price": 1.68,
         "currency": "EUR",
         "url": "https://www.selver.ee/juurviljapuree-mahe-4-hipp-125-g",
         "size": "125g",
+        "ean": "9062300100263",
         "storeUnitPrice": 13.44,
         "storeName": "Juurviljapüree mahe 4+, HIPP, 125 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hipp Veiselihapüree mahe 125g",
@@ -82626,6 +82636,15 @@
         "storeUnitPrice": 29.2,
         "storeName": "Veiselihapüree HIPP BIO125g, 4k"
       },
+      "coop": {
+        "price": 3.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veiselihapuree-125g/",
+        "size": "125g",
+        "ean": "4062300266346",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4062300038110.png",
+        "storeName": "5K veiselihapüree Hipp Bio 125g"
+      },
       "rimi": {
         "price": 3.99,
         "currency": "EUR",
@@ -82638,8 +82657,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/veiselihapuree-mahe-4-hipp-125-g",
         "size": "125g",
+        "ean": "4062300266346",
         "storeUnitPrice": 29.2,
         "storeName": "Veiselihapüree mahe 4+, HIPP, 125 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Spagetid bolognese mahe 190g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/spagetid-bolognese-hipp-bio-190-g-4-k",
+        "size": "190g",
+        "storeUnitPrice": 14.16,
+        "storeName": "Spagetid Bolognese HIPP BIO 190g,4k"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-4k-spaghetti-bolognese-bio-190g/",
+        "size": "190g",
+        "ean": "9062300130055",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/9062300130055.jpg",
+        "storeName": "Hipp 4K Spaghetti Bolognese Bio 190g"
       }
     },
     "matchedVia": "automatic"
@@ -82661,6 +82705,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kanaroog-riisiga-ella-s-kitchen-130-g",
         "size": "130g",
+        "ean": "5060107332119",
         "storeUnitPrice": 28.08,
         "storeName": "Kanaroog riisiga, ELLA'S KITCHEN, 130 g"
       }
@@ -82679,6 +82724,15 @@
         "storeUnitPrice": 16.85,
         "storeName": "Ühepajatoit sealihaga Öko PÕNN 130g 7k"
       },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-7k-ok-uhepajatoit-130g-sealihaga/",
+        "size": "130g",
+        "ean": "4740073001837",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740073001837.png",
+        "storeName": "7K Ökoloogiline ühepajatoit Põnn 130g sealihaga"
+      },
       "rimi": {
         "price": 2.19,
         "currency": "EUR",
@@ -82693,11 +82747,12 @@
         "cardPrice": 1.79,
         "cardName": "Partner",
         "size": "130g",
+        "ean": "4740073001837",
         "storeUnitPrice": 16.85,
         "storeName": "Ökoloogiline Ühepajatoit sealihaga, 7+ kuud, PÕNN, 130 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hipp Kalkunilihapüree mahe 125g",
@@ -82716,6 +82771,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kalkunilihapuree-bio-4-hipp-125-g",
         "size": "125g",
+        "ean": "9062300127796",
         "storeUnitPrice": 29.2,
         "storeName": "Kalkunilihapüree BIO 4+, HIPP, 125 g"
       }
@@ -82739,6 +82795,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pirnipuree-williams-oko-4k-hipp-125-g",
         "size": "125g",
+        "ean": "9062300134060",
         "storeUnitPrice": 14.56,
         "storeName": "Pirnipüree Williams Öko 4k, HIPP, 125 g"
       }
@@ -82757,6 +82814,15 @@
         "storeUnitPrice": 12.4,
         "storeName": "Kõrvitsapüree PÕNN Ökoloogiline 125g"
       },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-4k-okol-korvitsapuree-125g/",
+        "size": "125g",
+        "ean": "4740073079218",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/4740073079218.png",
+        "storeName": "4K Ökoloogiline kõrvitsapüree Põnn 125g"
+      },
       "rimi": {
         "price": 1.65,
         "currency": "EUR",
@@ -82769,8 +82835,59 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/korvitsapuree-mahe-4-ponn-125g",
         "size": "125g",
+        "ean": "4740073079218",
         "storeUnitPrice": 12.4,
         "storeName": "Kõrvitsapüree, mahe 4+, PÕNN, 125g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Kaerapudrupulber mahe 200g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 3.74,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kaerapudrupulber-bio-hipp-200-g-4-k",
+        "size": "200g",
+        "storeUnitPrice": 18.7,
+        "regularPrice": 4.99,
+        "storeName": "Kaerapudrupulber BIO HIPP 200g 4k"
+      },
+      "coop": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-4k-kaerapudrupulber-bio-200g/",
+        "size": "200g",
+        "ean": "9062300000792",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/9062300139829.jpg",
+        "storeName": "4K Kaerapudrupulber Bio Hipp 200g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Holle Täistera viljapuder 250g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 4.31,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/taistera-3-viljapuder-holle-250-g-6-k",
+        "size": "250g",
+        "storeUnitPrice": 17.24,
+        "regularPrice": 5.75,
+        "storeName": "Täistera 3-viljapuder HOLLE 250 g 6k"
+      },
+      "coop": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/holle-6k-taistera-3-viljapuder-250g/",
+        "size": "250g",
+        "ean": "7640104952558",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/05/7640104952558.png",
+        "storeName": "6K Täistera 3-viljapuder Holle 250g"
       }
     },
     "matchedVia": "automatic"
@@ -82788,16 +82905,26 @@
         "regularPrice": 5.05,
         "storeName": "Mitmeviljapuder HIPP Öko 200g 6k"
       },
+      "coop": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-organic-6k-mitmeviljapuder-200g/",
+        "size": "200g",
+        "ean": "9062300139744",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/9062300139744.png",
+        "storeName": "6K Mitmeviljapuder Hipp Organic 200g"
+      },
       "selver": {
         "price": 5.05,
         "currency": "EUR",
         "url": "https://www.selver.ee/mitmeviljapuder-6-mahe-hipp-200g",
         "size": "200g",
+        "ean": "9062300139744",
         "storeUnitPrice": 25.25,
         "storeName": "Mitmeviljapuder, 6+, mahe, HIPP, 200g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hipp Õunamahl mahe 200ml",
@@ -82811,16 +82938,26 @@
         "storeUnitPrice": 8.95,
         "storeName": "Õunamahl mahe Bio HIPP 200ml, 4k"
       },
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-bio-4k-mahe-ounamahl-0-2l/",
+        "size": "200ml",
+        "ean": "9062300102717",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/9062300102717.jpg",
+        "storeName": "4K Mahe õunamahl Hipp Bio 0.2L"
+      },
       "selver": {
         "price": 1.78,
         "currency": "EUR",
         "url": "https://www.selver.ee/mahe-ounamahl-hipp-200-ml",
         "size": "200ml",
+        "ean": "9062300102717",
         "storeUnitPrice": 8.9,
         "storeName": "Mahe õunamahl, HIPP, 200 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hipp Riisivahvlid vaarikatega mahe 30g",
@@ -82834,16 +82971,26 @@
         "storeUnitPrice": 75,
         "storeName": "Riisivahvlid vaarikatega HIPP BIO 30g,8k"
       },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-bio-8k-riisivahvlid-vaarikaga-30g/",
+        "size": "30g",
+        "ean": "9062300138259",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/9062300138259.png",
+        "storeName": "8K Riisivahvlid vaarikaga Hipp Bio 30g"
+      },
       "selver": {
         "price": 2.45,
         "currency": "EUR",
         "url": "https://www.selver.ee/riisivahvlid-vaarikatega-8-oko-hipp-30-g",
         "size": "30g",
+        "ean": "9062300138259",
         "storeUnitPrice": 81.67,
         "storeName": "Riisivahvlid vaarikatega 8+ öko, HIPP, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Hipp Õuna porgandimahl mahe 200ml",
@@ -82862,6 +83009,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ouna-porgandimahl-mahe-4-hipp-200-ml",
         "size": "200ml",
+        "ean": "9062300120759",
         "storeUnitPrice": 8.9,
         "storeName": "Õuna-porgandimahl Mahe 4+, HIPP, 200 ml"
       }
@@ -82880,6 +83028,15 @@
         "storeUnitPrice": 21.25,
         "storeName": "Beebiküpsised PLASMON 120g 6k"
       },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/plasmon-6k-beebikupsis-120g/",
+        "size": "120g",
+        "ean": "8001040418291",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/8001040418291.png",
+        "storeName": "6K Beebiküpsis Plasmon 120g"
+      },
       "rimi": {
         "price": 2.55,
         "currency": "EUR",
@@ -82892,8 +83049,33 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/beebikupsised-plasmon-120-g",
         "size": "120g",
+        "ean": "8001040418291",
         "storeUnitPrice": 19.42,
         "storeName": "Beebiküpsised, PLASMON, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Bebivita Õuna melissi tee 200g",
+    "category": "Baby food",
+    "prices": {
+      "barbora": {
+        "price": 4.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ouna-melissi-tee-bebivita-200-g-6-k",
+        "size": "200g",
+        "storeUnitPrice": 22.25,
+        "storeName": "Õuna-melissi tee BEBIVITA 200g 6k"
+      },
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/bebivita-6k-ouna-melissi-tee-200g/",
+        "size": "200g",
+        "ean": "9007253102964",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/9007253102964.jpg",
+        "storeName": "6K Õuna-melissi tee 200g Bebivita"
       }
     },
     "matchedVia": "automatic"
@@ -82937,6 +83119,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/apteegitilli-tee-5-kuud-bebivita-200-g",
         "size": "200g",
+        "ean": "9007253102988",
         "storeUnitPrice": 22.3,
         "storeName": "Apteegitilli tee, 5+ kuud, BEBIVITA, 200 g"
       }
@@ -82960,6 +83143,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kaerabatoon-maasika-ouna-organix-23-g",
         "size": "23g",
+        "ean": "5024121101427",
         "storeUnitPrice": 73.48,
         "storeName": "Kaerabatoon maasika-õuna, ORGANIX, 23 g"
       }
@@ -82967,9 +83151,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Põnn Aedviljapüree kanafileega mahe 190g",
+    "name": "Põnn Ökol aedviljapüree kanafileega 190g",
     "category": "Baby food",
     "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-okol-aedviljapuree-190g-kanafil/",
+        "size": "190g",
+        "ean": "4740073076194",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4740073076194.jpg",
+        "storeName": "6K Ökol.Aedviljapüree Põnn 190g kanafileega"
+      },
       "rimi": {
         "price": 1.79,
         "currency": "EUR",
@@ -82982,16 +83175,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/aedviljapuree-kanafileega-6-mahe-ponn-190g",
         "size": "190g",
+        "ean": "4740073076194",
         "storeUnitPrice": 9.42,
         "storeName": "Aedviljapüree kanafileega 6+ Mahe, PÕNN, 190g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põnn Toortatraroog veiselihaga mahe 190g",
     "category": "Baby food",
     "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-8k-okol-toortatraroog190g-veiseliha/",
+        "size": "190g",
+        "ean": "4740073076811",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740073076811.jpg",
+        "storeName": "8K Ökoloogiline toortatraroog Põnn190g veiselihaga"
+      },
       "rimi": {
         "price": 2.35,
         "currency": "EUR",
@@ -83006,16 +83209,26 @@
         "cardPrice": 1.95,
         "cardName": "Partner",
         "size": "190g",
+        "ean": "4740073076811",
         "storeUnitPrice": 12.05,
         "storeName": "Toortatraroog veiselihaga 8+ Mahe, PÕNN, 190 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
-    "name": "Põnn Veiselihapüree mahe 120g",
+    "name": "Põnn Ökol veiselihapüree mahe 120g",
     "category": "Baby food",
     "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-okol-veiselihapuree-120g/",
+        "size": "120g",
+        "ean": "4740073079485",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740073079485.png",
+        "storeName": "6K Ökol.Veiselihapüree Põnn 120g"
+      },
       "rimi": {
         "price": 2.79,
         "currency": "EUR",
@@ -83028,16 +83241,72 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/veiselihapuree-6-mahe-ponn-120g",
         "size": "120g",
+        "ean": "4740073079485",
         "storeUnitPrice": 23.25,
         "storeName": "Veiselihapüree 6+, mahe, PÕNN, 120g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nogel Brokkolipüree rauaga mahe 70g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nogel-4k-mahe-brokkolipuree-rauaga-70g/",
+        "size": "70g",
+        "ean": "4742023680925",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4742023680864.png",
+        "storeName": "4K Mahe brokkolipüree rauaga Nogel 70g"
+      },
+      "rimi": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/meals/brokkolipuree-rauaga-nogel-oko-70g/p/7297839",
+        "size": "70g",
+        "storeName": "Brokkolipüree rauaga Nogel öko 70g"
       }
     },
     "matchedVia": "automatic"
   },
   {
-    "name": "Muuti Pohla mustika rukkipuder mahe 110g",
+    "name": "Nogel Riisipuder rauaga ploomi pirni mahe 190g",
     "category": "Baby food",
     "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nogel-6k-mahe-riisipuder-rauaga-190g-pl/",
+        "size": "190g",
+        "ean": "4742023680475",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4742023680475.png",
+        "storeName": "6K Mahe riisipuder rauaga Nogel 190g ploomi-pirni"
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/meals/riisipuder-rauaga-ploomi-pirni-nogel-oko-190g/p/7310000",
+        "size": "190g",
+        "storeName": "Riisipuder rauaga ploomi-pirni Nogel öko 190g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Muuti Ök pohla mustika rukkipuder karu põnn mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/muuti-karu-8k-pohla-mustika-rukkipud110g/",
+        "size": "110g",
+        "ean": "4740073075357",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740073075357.jpg",
+        "storeName": "8K Ök.pohla-mustika-rukkipuder Põnn Muuti Karu110g"
+      },
       "rimi": {
         "price": 1.59,
         "currency": "EUR",
@@ -83050,16 +83319,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pohla-mustika-rukkipuder-mahe-8-muuti-110-g",
         "size": "110g",
+        "ean": "4740073075357",
         "storeUnitPrice": 14.45,
         "storeName": "Pohla-mustika-rukkipuder, mahe 8+, MUUTI, 110 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Põnn Mango kookosesmuuti mahe 110g",
     "category": "Baby food",
     "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-oko-6k-mango-kookosesmuuti-110g/",
+        "size": "110g",
+        "ean": "4740073000731",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740073000731.png",
+        "storeName": "6K Mango-kookosesmuuti Põnn öko 110g"
+      },
       "rimi": {
         "price": 1.79,
         "currency": "EUR",
@@ -83072,11 +83351,2128 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/okoloogiline-mango-kookosesmuuti-6-ponn-110-g",
         "size": "110g",
+        "ean": "4740073000731",
         "storeUnitPrice": 16.82,
         "storeName": "Ökoloogiline Mango-kookosesmuuti 6+, PÕNN, 110 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Maisikrõbuskid maasika õuna mahe 20g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-7k-maisikrobuskid-oko-20g-maas-ouna/",
+        "size": "20g",
+        "ean": "4740073076644",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740073076644.png",
+        "storeName": "7K Maisikrõbuskid Põnn Öko 20g maasika-õuna"
+      },
+      "rimi": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/en/products/children-s-goods/baby-food/snacks/maisikrobuskid-maasika-ouna-ponn-oko-7k-20g/p/7270590",
+        "size": "20g",
+        "storeName": "Maisikrõbuskid maasika-õuna Põnn öko 7k 20g"
+      },
+      "selver": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maisikrobuskid-maasika-ja-ounaga-7-mahe-ponn-20-g",
+        "size": "20g",
+        "ean": "4740073076644",
+        "storeUnitPrice": 54.5,
+        "storeName": "Maisikrõbuskid maasika ja õunaga 7+ Mahe, PÕNN, 20 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Pirnipüree mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirnipuree-ponn-100g/",
+        "size": "100g",
+        "ean": "4740073070895",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073070895.png",
+        "storeName": "4K Ökoloogiline pirnipüree Põnn 100g"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pirnipuree-mahe-4-ponn-100-g",
+        "size": "100g",
+        "ean": "4740073070895",
+        "storeUnitPrice": 16.9,
+        "storeName": "Pirnipüree mahe 4+, PÕNN, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Mangopüree mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mangopuree-ponn-100g/",
+        "size": "100g",
+        "ean": "4740073070888",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073070888.jpg",
+        "storeName": "4K Ökoloogiline mangopüree Põnn 100g"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mangopuree-mahe-4-ponn-100-g",
+        "size": "100g",
+        "ean": "4740073070888",
+        "storeUnitPrice": 16.9,
+        "storeName": "Mangopüree mahe 4+, PÕNN, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Mustika õunapüree mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mustika-ounapur-ponn100g/",
+        "size": "100g",
+        "ean": "4740073070901",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073070901.png",
+        "storeName": "4K Ökoloogiline mustika-õunapüree Põnn 100g"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustika-ounapuree-mahe-4-ponn-100-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4740073070901",
+        "storeUnitPrice": 16.9,
+        "storeName": "Mustika-õunapüree mahe 4+, PÕNN, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol köögiviljapüree veiselihaga 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koogiv-puree-veisel-110g/",
+        "size": "110g",
+        "ean": "4740073071083",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073071083.jpg",
+        "storeName": "6K Ökol.Köögiviljapüree Põnn 110g veiselihaga"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koogiviljapuree-veiselihaga-oko-6-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073071083",
+        "storeUnitPrice": 17.18,
+        "storeName": "Köögiviljapüree veiselihaga öko 6+, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol köögiviljapüree kanalihaga 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koogiv-puree-kanal-110g/",
+        "size": "110g",
+        "ean": "4740073071113",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073071113.jpg",
+        "storeName": "6K Ökol.Köögiviljapüree Põnn 110g kanalihaga"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koogiviljapuree-kanalihaga-mahe-6-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073071113",
+        "storeUnitPrice": 17.18,
+        "storeName": "Köögiviljapüree kanalihaga mahe 6+, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol neljaviljapuder mustikaga banaan 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/neljaviljapuder-110g/",
+        "size": "110g",
+        "ean": "4740073071137",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073071137.jpg",
+        "storeName": "6K Ökol.Neljaviljapuder Põnn 110g banaan-mustikaga"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/neljaviljapuder-banaani-ja-mustikaga-oko-6-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073071137",
+        "storeUnitPrice": 16.82,
+        "storeName": "Neljaviljapuder banaani ja mustikaga öko 6+, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Maasikasmuuti mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maasikasmuuti-ponn-110g/",
+        "size": "110g",
+        "ean": "4740073071243",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073071243.png",
+        "storeName": "6K Ökoloogiline maasikasmuuti Põnn 110g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasikasmuuti-6-mahe-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073071243",
+        "storeUnitPrice": 11.73,
+        "storeName": "Maasikasmuuti 6+ mahe, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Puuviljapüree punane ellas kitchen orgaan mahe 90g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ellas-kitchen-6k-org-puuv-pur-90g-punane/",
+        "size": "90g",
+        "ean": "5060107330016",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/5060107330016.png",
+        "storeName": "6K Puuviljapüree orgaan. Ellas Kitchen 90g punane"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljapuree-punane-mahe-ella-s-kitchen-90-g",
+        "size": "90g",
+        "ean": "5060107330016",
+        "storeUnitPrice": 22.44,
+        "storeName": "Puuviljapüree Punane mahe, ELLA'S KITCHEN, 90 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milupa Täisterapuder piimaga puuviljadega 250g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puder-taistera-puuv-250g/",
+        "size": "250g",
+        "ean": "4008976071440",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4008976071440.png",
+        "storeName": "10K Täisterapuder piimaga Milupa 250g puuviljadega"
+      },
+      "selver": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taisterapuder-puuviljade-ja-piimaga-10-milupa-250-g",
+        "cardPrice": 3.99,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4008976071440",
+        "storeUnitPrice": 19.8,
+        "storeName": "Täisterapuder puuviljade ja piimaga 10+, MILUPA, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milupa Riisipuder piimaga shok tükikestega 250g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piimapuder-shok-tk-250g/",
+        "size": "250g",
+        "ean": "4008976072515",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4008976072515.png",
+        "storeName": "8K Riisipuder piimaga Milupa 250g shok.tükikestega"
+      },
+      "selver": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/stracciatella-piimapuder-sokolaadiukkidega-8k-milupa-250-g",
+        "cardPrice": 3.99,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4008976072515",
+        "storeUnitPrice": 19.8,
+        "storeName": "Stracciatella piimapuder šokolaadiükkidega 8K, MILUPA, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Maisikrõbuskid porgandi tomati mahe 20g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-7k-maisikrobuskid-oko-20g-porg-tom/",
+        "size": "20g",
+        "ean": "4740073076668",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740073076668.png",
+        "storeName": "7K Maisikrõbuskid Põnn Öko 20g porgandi-tomati"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maisikrobuskid-porgandi-ja-tomatiga-mahe-7-ponn-20-g",
+        "size": "20g",
+        "ean": "4740073076668",
+        "storeUnitPrice": 72.5,
+        "storeName": "Maisikrõbuskid porgandi ja tomatiga mahe 7+, PÕNN, 20 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Organix Maisipulgad herne tomati 15g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maisipulgad-15g/",
+        "size": "15g",
+        "ean": "5024121099786",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/5024121319129.png",
+        "storeName": "7K Maisipulgad Organix 15g herne-tomati"
+      },
+      "selver": {
+        "price": 1.96,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maisipulgad-herne-tomatimaitselised-organix-15-g",
+        "size": "15g",
+        "ean": "5024121099786",
+        "storeUnitPrice": 130.67,
+        "storeName": "Maisipulgad herne-, tomatimaitselised, ORGANIX, 15 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Semper Puuviljapüree frukt mums maasika 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puuv-puree-maasika-110g/",
+        "size": "110g",
+        "ean": "7310100708885",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310100708885.jpg",
+        "storeName": "6K Puuviljapüree Semper Frukt Mums 110g maasika"
+      },
+      "selver": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fruktmums-puuviljapuree-maasika-6-semper-110-g",
+        "size": "110g",
+        "ean": "7310100708885",
+        "storeUnitPrice": 12.64,
+        "storeName": "Fruktmums Puuviljapüree maasika 6+, SEMPER, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol kõrvitsa bataadi mangopüree mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/korvitsa-bat-puree-110g/",
+        "size": "110g",
+        "ean": "4740073074558",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740073074558.png",
+        "storeName": "6K Ökol.kõrvitsa-bataadi-mangopüree Põnn 110g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-korvitsa-bataadi-mangopuree-6-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073074558",
+        "storeUnitPrice": 16.82,
+        "storeName": "Mahe kõrvitsa-bataadi-mangopüree 6+, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol aedvilja pastaroog veiselihaga 190g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-8k-okol-aedv-pastaroog-190g-veisel/",
+        "size": "190g",
+        "ean": "4740073076279",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740073076279.png",
+        "storeName": "8K Ökol.Aedvilja-pastaroog Põnn 190g veiselihaga"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aedvilja-pastaroog-veiselihaga-8-mahe-ponn-190g",
+        "size": "190g",
+        "ean": "4740073076279",
+        "storeUnitPrice": 12.05,
+        "storeName": "Aedvilja-pastaroog veiselihaga 8+ Mahe, PÕNN, 190g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Maisikrõbuskid mango ja banaan mahe 20g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-7k-maisikrobuskid-oko-20g-mango-ban/",
+        "size": "20g",
+        "ean": "4740073078433",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/03/4740073078433.png",
+        "storeName": "7K Maisikrõbuskid Põnn Öko 20g mango ja banaan"
+      },
+      "selver": {
+        "price": 1.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maisikrobuskid-mango-ja-banaaniga-7-mahe-ponn-20g",
+        "cardPrice": 1.19,
+        "cardName": "Partner",
+        "size": "20g",
+        "ean": "4740073078433",
+        "storeUnitPrice": 72.5,
+        "storeName": "Maisikrõbuskid mango ja banaaniga 7+, mahe, PÕNN, 20g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol köögiviljapüree veiselihaga 190g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-okol-koogiv-puree-190g-veiseliha/",
+        "size": "190g",
+        "ean": "4740073076217",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/4740073076217.jpg",
+        "storeName": "6K Ökol.Köögiviljapüree Põnn 190g veiselihaga"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koogiviljapuree-veiselihaga-6-mahe-ponn-190g",
+        "size": "190g",
+        "ean": "4740073076217",
+        "storeUnitPrice": 9.42,
+        "storeName": "Köögiviljapüree veiselihaga 6+ Mahe, PÕNN, 190g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol kaerapuder sõstra kookos m ploom kookosega mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-kaerapuder-110g-ploomi-mustsostr/",
+        "size": "110g",
+        "ean": "4740073078624",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740073078624-1.png",
+        "storeName": "6K Ökol.Kaerapuder Põnn 110g ploom m.sõstra-kookos"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaerapuder-ploomi-musta-sostra-ja-kookosega-6-mahe-ponn-110g",
+        "size": "110g",
+        "ean": "4740073078624",
+        "storeUnitPrice": 16.82,
+        "storeName": "Kaerapuder ploomi, musta sõstra ja kookosega, 6+ Mahe, PÕNN, 110g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol pirni virsiku kiivismuuti mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-pirn-virsik-kiivismuuti110g-okol/",
+        "size": "110g",
+        "ean": "4740073078587",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/4740073078587.png",
+        "storeName": "6K Ökol.pirni-virsiku-kiivismuuti Põnn 110g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pirni-virsiku-kiivismuuti-6-mahe-ponn-110g",
+        "size": "110g",
+        "ean": "4740073078587",
+        "storeUnitPrice": 16.82,
+        "storeName": "Pirni-virsiku-kiivismuuti, 6+ Mahe, PÕNN, 110g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Täisterapuder banaani mustsõstraga mahe 200g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-taisterapuder-oko200g-ban-m-sost/",
+        "size": "200g",
+        "ean": "4740073079652",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740073079652.png",
+        "storeName": "6K Täisterapuder Põnn Öko200g banaani-mustsõstraga"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taisterapuder-banaani-ja-mustasostraga-6-mahe-ponn-200g",
+        "size": "200g",
+        "ean": "4740073079652",
+        "storeUnitPrice": 8.95,
+        "storeName": "Täisterapuder banaani ja mustasõstraga 6+, mahe, PÕNN, 200g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Muuti Ök õuna mango m rebane sõstrapür mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/muuti-12k-ouna-mango-m-sostrapur110g-oko/",
+        "size": "110g",
+        "ean": "4740073079164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740073079164.png",
+        "storeName": "6K Ök.õuna-mango-m.sõstrapür.Muuti Rebane 110g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-mango-mustasostrapuree-mahe-6-muuti-110g",
+        "size": "110g",
+        "ean": "4740073079164",
+        "storeUnitPrice": 14.45,
+        "storeName": "Õuna-mango-mustasõstrapüree, mahe 6+, MUUTI, 110g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Semper Puuviljapüree frukt mums mango 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puuv-puree-mango-110g/",
+        "size": "110g",
+        "ean": "7310100709127",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/7310100709127.png",
+        "storeName": "6K Puuviljapüree Semper Frukt Mums 110g mango"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljapuree-6-semper-110-g",
+        "size": "110g",
+        "ean": "7310100709127",
+        "storeUnitPrice": 16.82,
+        "storeName": "Puuviljapüree, 6+, SEMPER, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Teraviljapuder head und piima puuv mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-teraviljapuder-oko-head-und-110g/",
+        "size": "110g",
+        "ean": "4740073079676",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740073079676.jpg",
+        "storeName": "6K Teraviljapuder Põnn Öko Head Und110g piima-puuv"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/teraviljapuder-piima-ja-puuviljadega-head-und-6-mahe-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073079676",
+        "storeUnitPrice": 17,
+        "storeName": "Teraviljapuder piima ja puuviljadega HEAD UND, 6+, Mahe, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Puuviljasmuuti mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puuviljasmuuti-ponn-110g/",
+        "size": "110g",
+        "ean": "4740073072226",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073072226.png",
+        "storeName": "6K Ökoloogiline puuviljasmuuti Põnn 110g"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljasmuuti-mahe-6-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073072226",
+        "storeUnitPrice": 11.73,
+        "storeName": "Puuviljasmuuti mahe 6+, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Semper Pirni banaani mangopüree frukt mums 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirni-ban-mangopuree110g/",
+        "size": "110g",
+        "ean": "7310100703187",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310100703187.jpg",
+        "storeName": "6K Pirni-banaani-mangopüree Semper Frukt Mums 110g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fruktmums-puuviljapuree-pirni-baani-mango-6-semper-110-g",
+        "size": "110g",
+        "ean": "7310100703187",
+        "storeUnitPrice": 16.82,
+        "storeName": "Fruktmums puuviljapüree pirni, baani, mango 6+, SEMPER, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Semper Õuna vaarika banaanipüree frukt mums 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ouna-vaar-ban-puree110g/",
+        "size": "110g",
+        "ean": "7310100703262",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/7310100703262.jpg",
+        "storeName": "6K Õuna-vaarika-banaanipüree Semper Frukt Mums110g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fruktmums-puuviljapuree-ouna-vaarika-banaani-6-semper-110-g",
+        "size": "110g",
+        "ean": "7310100703262",
+        "storeUnitPrice": 16.82,
+        "storeName": "Fruktmums puuviljapüree õuna, vaarika, banaani 6+, SEMPER, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Semper Virsiku õuna banaanipüree frukt mums 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/virsik-oun-ban-puree110g/",
+        "size": "110g",
+        "ean": "7310100703347",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/7310100703347.png",
+        "storeName": "6K Virsiku-õuna-banaanipüree Semper Frukt Mums110g"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fruktmums-puuviljapuree-virsiku-ouna-banaani-6-semper-110-g",
+        "size": "110g",
+        "ean": "7310100703347",
+        "storeUnitPrice": 16.55,
+        "storeName": "Fruktmums puuviljapüree virsiku, õuna, banaani 6+, SEMPER, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Organix Porgandipulgad mahe 20g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/porgandipulgad-20g/",
+        "size": "20g",
+        "ean": "5024121099755",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5024121369117.png",
+        "storeName": "6K Porgandipulgad Organix 20g"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krobedad-porgandipulgad-mahe-6-organix-20-g",
+        "size": "20g",
+        "ean": "5024121099755",
+        "storeUnitPrice": 92.5,
+        "storeName": "Krõbedad Porgandipulgad mahe 6+, ORGANIX, 20 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maisipulgad ellas kitchen maasika banaani 20g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maisipulgad-maasika-20g/",
+        "size": "20g",
+        "ean": "5060107338296",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5060107338296.png",
+        "storeName": "6K Maisipulgad Ellas Kitchen 20g maasika-banaani"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maasika-banaani-maisipulgad-ella-s-kitchen-20g",
+        "size": "20g",
+        "ean": "5060107338296",
+        "storeUnitPrice": 79.5,
+        "storeName": "Maasika-banaani maisipulgad, ELLA'S KITCHEN, 20g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Maisipulgad pastinaagi ellas kitchen porg mahe 20g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maisipulgad-porgandi-20g/",
+        "size": "20g",
+        "ean": "5060503500013",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5060503500013.png",
+        "storeName": "6K Maisipulgad Ellas Kitchen 20g porg.-pastinaagi"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/porgandi-pastinaagi-maisipulgad-mahe-6-ella-s-kitchen-20g",
+        "size": "20g",
+        "ean": "5060503500013",
+        "storeUnitPrice": 79.5,
+        "storeName": "Porgandi-pastinaagi maisipulgad mahe 6+, ELLA'S KITCHEN, 20g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol puuvilja jogurtismuuti küpsistega 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puuvilja-jog-smuuti-110g/",
+        "size": "110g",
+        "ean": "4740073072981",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073072981.jpg",
+        "storeName": "6K Ökol.puuvilja-jogurtismuuti Põnn110g küpsistega"
+      },
+      "selver": {
+        "price": 1.82,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-puuvilja-jogurtismuuti-kupsistega-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073072981",
+        "storeUnitPrice": 16.55,
+        "storeName": "Mahe puuvilja-jogurtismuuti küpsistega, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Muuti Ök õuna mustikapüree ahv ban mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ban-oun-mustikapuree110g/",
+        "size": "110g",
+        "ean": "4740073072837",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740073072837.png",
+        "storeName": "6K Ök.ban-õuna-mustikapüree Muuti Ahv 110g"
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/banaani-ouna-mustikapuree-mahe-6-muuti-110-g",
+        "size": "110g",
+        "ean": "4740073072837",
+        "storeUnitPrice": 10.45,
+        "storeName": "Banaani-õuna-mustikapüree, mahe 6+, MUUTI, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Muuti Ök pirni vaarika ban elevant püree mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirni-vaar-ban-puree110g/",
+        "size": "110g",
+        "ean": "4740073072813",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740073072813.png",
+        "storeName": "6K Ök.pirni-vaarika-ban.püree Muuti Elevant 110g"
+      },
+      "selver": {
+        "price": 1.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pirni-vaarika-banaanipuree-mahe-6-muuti-110-g",
+        "size": "110g",
+        "ean": "4740073072813",
+        "storeUnitPrice": 10.45,
+        "storeName": "Pirni-vaarika-banaanipüree, mahe 6+, MUUTI, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Muuti Ök mango porgandi astelp orav püree mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mango-porg-a-p-puree110g/",
+        "size": "110g",
+        "ean": "4740073072998",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740073072998.png",
+        "storeName": "6K Ök.mango-porgandi-astelp.püree Muuti Orav 110g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mango-porgandi-astelpajupuree-mahe-6-muuti-110-g",
+        "size": "110g",
+        "ean": "4740073072998",
+        "storeUnitPrice": 14.45,
+        "storeName": "Mango-porgandi-astelpajupüree, mahe 6+, MUUTI, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Babycool Veiselihapüree kuubikud külmutatud 200g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 11.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veiselihapuree-200g/",
+        "size": "200g",
+        "ean": "4744848010062",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744848010062.png",
+        "storeName": "Veiselihapüree kuubikud BabyCool 200g külmutatud"
+      },
+      "selver": {
+        "price": 11.88,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sugavkulmutatud-veiselihapuree-kuubikud-200g-babycool",
+        "size": "200g",
+        "ean": "4744848010062",
+        "storeUnitPrice": 59.4,
+        "storeName": "Sügavkülmutatud veiselihapüree kuubikud 200g, BABYCOOL,"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol köögiviljapüree seasisefileega 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koogiv-puree-seal-110g/",
+        "size": "110g",
+        "ean": "4740073073841",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740073073841.png",
+        "storeName": "6K Ökol.Köögiviljapüree Põnn 110g seasisefileega"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/koogiviljapuree-seasisefileega-mahe-6-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073073841",
+        "storeUnitPrice": 17.18,
+        "storeName": "Köögiviljapüree seasisefileega mahe 6+, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Babycool suvikõrvitsapüree kuubikud 200g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/babycool-suvikorvitsapuree-kuubikud-200g/",
+        "size": "200g",
+        "ean": "4744848010093",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/11/4744848010093.png",
+        "storeName": "Babycool suvikõrvitsapüree kuubikud 200g"
+      },
+      "selver": {
+        "price": 5.28,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sugavkulmutatud-suvikorvitsapuree-kuubikud-babycool-200-g",
+        "size": "200g",
+        "ean": "4744848010093",
+        "storeUnitPrice": 26.4,
+        "storeName": "Sügavkülmutatud suvikõrvitsapüree kuubikud, BABYCOOL, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Aptamil Piimajook 200ml",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juuniorpiim-aptamil200ml/",
+        "size": "200ml",
+        "ean": "5051594002975",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/5051594002975.png",
+        "storeName": "12K Piimajook Aptamil 200ml"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aptamil-kinder-milch-12-aptamil-200-g",
+        "size": "200g",
+        "ean": "5051594002975",
+        "storeUnitPrice": 13.45,
+        "storeName": "Aptamil Kinder-Milch 12+, APTAMIL, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ploomimehu mahe 240ml",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ploomimehu-240ml-oko/",
+        "size": "240ml",
+        "ean": "4740073075531",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740073075531.png",
+        "storeName": "4K Ploomimehu Põnn Öko 240ml"
+      },
+      "selver": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ploomimehu-oko-4-ponn-240-ml",
+        "size": "240ml",
+        "ean": "4740073075531",
+        "storeUnitPrice": 7.79,
+        "storeName": "Ploomimehu ÖKO 4+, PÕNN, 240 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn neljaviljapuder vaarika mahe 200g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/neljaviljapuder-oko-200g/",
+        "size": "200g",
+        "ean": "4740073075487",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740073075487.png",
+        "storeName": "Põnn 6K Neljaviljapuder Öko 200g vaarika"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/neljaviljapuder-vaarikaga-mahe-6-ponn-200-g",
+        "size": "200g",
+        "ean": "4740073075487",
+        "storeUnitPrice": 9.25,
+        "storeName": "Neljaviljapuder vaarikaga mahe 6+, PÕNN, 200 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Porgandimehu mahe 240ml",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/porgandimehu-oko-240ml/",
+        "size": "240ml",
+        "ean": "4740073075548",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740073075548.png",
+        "storeName": "4K Porgandimehu Põnn Öko 240ml"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/porgandimehu-4-mahe-ponn-240-g",
+        "size": "240g",
+        "ean": "4740073075548",
+        "storeUnitPrice": 7.71,
+        "storeName": "Porgandimehu 4+ mahe, PÕNN, 240 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Kaerapuder mustikaga mahe 190g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaerapuder-mustikaga190g/",
+        "size": "190g",
+        "ean": "4740073075579",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740073075579.png",
+        "storeName": "6K Kaerapuder Põnn Öko 190g mustikaga"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaerapuder-mustikaga-6-oko-ponn-190-g",
+        "size": "190g",
+        "ean": "4740073075579",
+        "storeUnitPrice": 9.74,
+        "storeName": "Kaerapuder mustikaga 6+ Öko, PÕNN, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Milupa Hea une õuna pirni kaerapuder pirnidega 250g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/milupa-6k-ouna-pirni-kaerapuder-250g/",
+        "size": "250g",
+        "ean": "5900852045707",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/5900852045707.png",
+        "storeName": "6K Hea Une õuna-pirni kaerapuder Milupa 250g"
+      },
+      "selver": {
+        "price": 4.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hea-une-kaerapuder-ounte-ja-pirnidega-6-milupa-250-g",
+        "cardPrice": 3.99,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "5900852045707",
+        "storeUnitPrice": 19.8,
+        "storeName": "Hea Une Kaerapuder õunte ja pirnidega, 6+, MILUPA, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Muuti Ök ban lõvi mangopür riisivalg virs mahe riisivalguga 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ban-virs-mangopuree-110g/",
+        "size": "110g",
+        "ean": "4740073072875",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740073072875.png",
+        "storeName": "12K Ök.ban-virs-mangopür.Muuti Lõvi 110g riisivalg"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/banaani-virsiku-mangopuree-riisivalguga-mahe-12-muuti-110g",
+        "size": "110g",
+        "ean": "4740073072875",
+        "storeUnitPrice": 14.45,
+        "storeName": "Banaani-virsiku-mangopüree riisivalguga, mahe 12+, MUUTI, 110g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Kuivatatud ploomi püree mahe 4 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-4k-kuivatatud-ploomi-puree-oko-100g/",
+        "size": "100g",
+        "ean": "4740073000250",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740073000250.jpg",
+        "storeName": "4K Kuivatatud ploomi püree Põnn Öko 100g"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/okoloogiline-kuivatatud-ploomi-puree-4-kuud-ponn-100g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4740073000250",
+        "storeUnitPrice": 16.9,
+        "storeName": "Ökoloogiline Kuivatatud ploomi püree (4 kuud), PÕNN, 100g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Aedvilja pastaroog kanalihaga mahe 120g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-oko-8k-aedvilja-pastaroog-120g-kana/",
+        "size": "120g",
+        "ean": "4740073000496",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740073000496.png",
+        "storeName": "8K Aedvilja-pastaroog Põnn öko 120g kanalihaga"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/okoloogiline-aedvilja-pastaroog-kanalihaga-8-ponn-120-g",
+        "cardPrice": 1.65,
+        "cardName": "Partner",
+        "size": "120g",
+        "ean": "4740073000496",
+        "storeUnitPrice": 17.42,
+        "storeName": "Ökoloogiline Aedvilja-pastaroog kanalihaga 8+, PÕNN, 120 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Hirsi kaerapuder ploomi kol mango mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-oko-6k-hirsi-kaerapuder-110g-kol-pl/",
+        "size": "110g",
+        "ean": "4740073000809",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740073000809.png",
+        "storeName": "6K Hirsi-kaerapuder Põnn öko 110g kol.ploomi-mango"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/okoloogiline-hirsi-kaerapuder-kollase-ploomi-ja-mangoga-6-ponn-110-g",
+        "size": "110g",
+        "ean": "4740073000809",
+        "storeUnitPrice": 11.73,
+        "storeName": "Ökoloogiline Hirsi-kaerapuder kollase ploomi ja mangoga 6+, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol kanalihapüree mahe 120g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-okol-kanalihapuree-120g/",
+        "size": "120g",
+        "ean": "4740073079508",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/4740073079508.png",
+        "storeName": "6K Ökol.Kanalihapüree Põnn 120g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanalihapuree-6-mahe-ponn-120g",
+        "size": "120g",
+        "ean": "4740073079508",
+        "storeUnitPrice": 23.25,
+        "storeName": "Kanalihapüree 6+, mahe, PÕNN, 120g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Riisivahvlid vaarika banaani mahe 40g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-oko-8k-riisivahvlid-40g-vaarika-ban/",
+        "size": "40g",
+        "ean": "4740073000632",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/04/4740073000632.png",
+        "storeName": "8K Riisivahvlid Põnn öko 40g vaarika-banaani"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/okoloogilised-riisivahvlid-vaarika-ja-banaaniga-8-40g-ponn-1tk",
+        "size": "40g",
+        "ean": "4740073000632",
+        "storeUnitPrice": 54.75,
+        "storeName": "Ökoloogilised Riisivahvlid vaarika ja banaaniga 8+ 40g, PÕNN, 1tk"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ök õuna kaneeli headpäeva mitmev puder mahe 110g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-6k-ok-mitmev-puder110g-ouna-kaneeli/",
+        "size": "110g",
+        "ean": "4740073001851",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740073001851.png",
+        "storeName": "6K Ök.mitmev.puder Põnn HeadPäeva110g õuna-kaneeli"
+      },
+      "selver": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/okoloogiline-mitmeviljapuder-ouna-kaneeli-head-paeva-6-kuud-ponn-110-g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "110g",
+        "ean": "4740073001851",
+        "storeUnitPrice": 16.82,
+        "storeName": "Ökoloogiline Mitmeviljapuder õuna-kaneeli HEAD PÄEVA, 6+ kuud, PÕNN, 110 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põnn Ökol makaroni juusturoog veiselihaga 130g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-7k-ok-makar-juusturoog-130g-veisel/",
+        "size": "130g",
+        "ean": "4740073001813",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740073001813.png",
+        "storeName": "7K Ökol.makaroni-juusturoog Põnn 130g veiselihaga"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/okoloogiline-makaroni-juusturoog-veiselihaga-7-kuud-ponn-130-g",
+        "cardPrice": 1.79,
+        "cardName": "Partner",
+        "size": "130g",
+        "ean": "4740073001813",
+        "storeUnitPrice": 16.85,
+        "storeName": "Ökoloogiline Makaroni-juusturoog veiselihaga, 7+ kuud, PÕNN, 130 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Õuna viinamarja aroonianektar hippbio pun arooniaga 500ml",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-bio-6k-ouna-pun-viinam-aroonia500ml/",
+        "size": "500ml",
+        "ean": "4062300393639",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4062300393639.png",
+        "storeName": "6K Õuna-pun.viinamarja-aroonianektar HippBio 500ml"
+      },
+      "selver": {
+        "price": 3.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nektarmahl-ouna-punase-viinamarja-ja-arooniaga-hipp-500-ml",
+        "size": "500ml",
+        "ean": "4062300393639",
+        "storeUnitPrice": 6.48,
+        "storeName": "Nektarmahl õuna, punase viinamarja ja arooniaga, HIPP, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nogel Tatrapud pirni lillkapsa rauaga mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nogel-6k-mahe-tatrapud-rauaga-100g-pirni/",
+        "size": "100g",
+        "ean": "4742023680918",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4742023680918.png",
+        "storeName": "6K Mahe tatrapud.rauaga Nogel 100g pirni-lillkapsa"
+      },
+      "selver": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-raudne-tatrapuder-pirni-suvikorvitsa-ja-lillkapsaga-nogel-100-g",
+        "size": "100g",
+        "ean": "4742023680918",
+        "storeUnitPrice": 19.5,
+        "storeName": "Mahe raudne tatrapuder pirni, suvikõrvitsa ja lillkapsaga, NÔGEL, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nogel Kaera õuna rauaga riisipud virs mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nogel-6k-mahe-kaera-riisipude-rauaga100g/",
+        "size": "100g",
+        "ean": "4742023680987",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4742023680987.png",
+        "storeName": "6K Mahe kaera-riisipud.rauaga Nogel100g õuna-virs."
+      },
+      "selver": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-raudne-kaera-riisipuder-ouna-virsiku-ja-mustsostraga-nogel-100-g",
+        "size": "100g",
+        "ean": "4742023680987",
+        "storeUnitPrice": 19.5,
+        "storeName": "Mahe raudne kaera-riisipuder õuna, virsiku ja mustsõstraga, NÔGEL, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nogel Pirni ploomi kiivismuuti rauaga mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ponn-4k-mahe-pirni-ploomi-kiivismuut100g/",
+        "size": "100g",
+        "ean": "4742023680888",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4742023680888.png",
+        "storeName": "4K Mahe pirni-ploomi-kiivismuuti rauaga Nogel 100g"
+      },
+      "selver": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-raudne-pirn-ja-ploom-kiiviga-nogel-100-g",
+        "size": "100g",
+        "ean": "4742023680888",
+        "storeUnitPrice": 19.5,
+        "storeName": "Mahe raudne pirn ja ploom kiiviga, NÔGEL, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Nogel Kaerapuder aprik porg rauaga mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nogel-6k-mahe-kaerapuder-rauaga100g-porg/",
+        "size": "100g",
+        "ean": "4742023681182",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4742023681182.png",
+        "storeName": "6K Mahe kaerapuder rauaga Nogel 100g porg.-aprik."
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mahe-raudne-kaerapuder-porgandi-aprikoosi-pirni-ja-ounaga-nogel-100-g",
+        "size": "100g",
+        "ean": "4742023681182",
+        "storeUnitPrice": 17.9,
+        "storeName": "Mahe raudne kaerapuder porgandi, aprikoosi, pirni ja õunaga, NÔGEL, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Tatra piimapudrupulber 250g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-4k-tatra-piimapudrupulber-250g/",
+        "size": "250g",
+        "ean": "9062300140054",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/9062300122067.png",
+        "storeName": "4K Tatra piimapudrupulber Hipp 250g"
+      },
+      "selver": {
+        "price": 5.07,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tatra-piimapudrupulber-hipp-250-g",
+        "size": "250g",
+        "ean": "9062300122067",
+        "storeUnitPrice": 20.28,
+        "storeName": "Tatra piimapudrupulber, HIPP, 250 g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Hipp bio Piimapuder head ööd küpsiste õunte mahe 190g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piimapuder-190g-head-ood/",
+        "size": "190g",
+        "ean": "9062300133131",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300110330.png",
+        "storeName": "4K Piimapuder Head ööd Hipp Bio190g küpsiste&õunte"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/head-ood-piimapuder-kupsistega-mahe-4-hipp-190-g",
+        "size": "190g",
+        "ean": "9062300133131",
+        "storeUnitPrice": 10.47,
+        "storeName": "Head ööd piimapuder küpsistega mahe 4+, HIPP, 190 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Makaronid kalaga spargelkapsa koorek 220g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-8k-makaronid-kalaga-hipp220g-sparg/",
+        "size": "220g",
+        "ean": "9062300131441",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/9062300105411.png",
+        "storeName": "8K Makaronid kalaga Hipp220g spargelkapsa koorek"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/nuudlid-merekalaga-brokoli-koorekastmes-hipp-220-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "220g",
+        "ean": "9062300131441",
+        "storeUnitPrice": 12.68,
+        "storeName": "Nuudlid merekalaga brokoli-koorekastmes, HIPP, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Aedviljad riisi ja vasikalihaga mahe 220g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aedviljad-riisi-220g/",
+        "size": "220g",
+        "ean": "9062300103011",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300033318.png",
+        "storeName": "8K Aedviljad riisi ja vasikalihaga Hipp Bio 220g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/aedviljad-riis-ja-vasikaliha-oko-8k-hipp-220-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "220g",
+        "ean": "9062300103011",
+        "storeUnitPrice": 12.68,
+        "storeName": "Aedviljad riis ja vasikaliha öko 8k, HIPP, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Aedviljapüree kalkuniliha riisiga mahe 220g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/aedv-puree-kalkuni-220g/",
+        "size": "220g",
+        "ean": "9062300103479",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300037118.png",
+        "storeName": "1A aedviljapüree Hipp Bio 220g kalkuniliha,riisiga"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juurviljapuree-kalkunilihaga-mahe-12-hipp-220-g",
+        "size": "220g",
+        "ean": "9062300103479",
+        "storeUnitPrice": 12.68,
+        "storeName": "Juurviljapüree kalkunilihaga mahe 12+, HIPP, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Spargelkapsa risoto küülikulihaga 220g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-8k-spargelkapsa-risoto-220g-kuuliku/",
+        "size": "220g",
+        "ean": "9062300106807",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/01/9062300106807.png",
+        "storeName": "8K Spargelkapsa risoto Hipp 220g küülikulihaga"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/spargelkapsa-risoto-kuulikulihaga-8-hipp-220-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "220g",
+        "ean": "9062300106807",
+        "storeUnitPrice": 12.68,
+        "storeName": "Spargelkapsa risoto küülikulihaga 8+, HIPP, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Tomati nuudlipüree vasikalihaga mahe 220g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tomati-nuudlipuree-220g/",
+        "size": "220g",
+        "ean": "9062300103523",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300037415.png",
+        "storeName": "1A Tomati-nuudlipüree Hipp Bio 220g vasikalihaga"
+      },
+      "selver": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tomati-nuudlipuree-vasikalihaga-mahe-12-hipp-220-g",
+        "size": "220g",
+        "ean": "9062300103523",
+        "storeUnitPrice": 12.91,
+        "storeName": "Tomati nuudlipüree vasikalihaga mahe 12+, HIPP, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Peedi õuna loomalihaga juurv püree mahe 220g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/peedi-juurviljapuree220g/",
+        "size": "220g",
+        "ean": "9062300131342",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300131342.jpg",
+        "storeName": "8K Peedi-juurv.püree Hipp Bio220g õuna-loomalihaga"
+      },
+      "selver": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peedi-juurviljapuree-ouna-ja-loomalihaga-bio-hipp-220-g",
+        "size": "220g",
+        "ean": "9062300131342",
+        "storeUnitPrice": 12.91,
+        "storeName": "Peedi-juurviljapüree õuna ja loomalihaga BIO, HIPP, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Riisivahvlid mustikaga mahe 30g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/riisivahvlid-mustika-30g/",
+        "size": "30g",
+        "ean": "9062300132684",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4062300256637.png",
+        "storeName": "8K Riisivahvlid mustikaga Hipp Bio 30g"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/riisivahvlid-mustikaga-8-oko-hipp-30-g",
+        "size": "30g",
+        "ean": "9062300132684",
+        "storeUnitPrice": 81.67,
+        "storeName": "Riisivahvlid mustikaga 8+ öko, HIPP, 30 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Piimapudru head ööd banaan kuivik mahe 250g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-4k-piimapudru-250g-head-ood-banaan/",
+        "size": "250g",
+        "ean": "9062300140214",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/9062300140214.png",
+        "storeName": "4K Piimapudru Hipp 250g Head ööd Banaan-kuivik BIO"
+      },
+      "selver": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/head-ood-banaan-kuivik-piimapuder-mahe-4-hipp-250-g",
+        "cardPrice": 4.29,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "9062300140214",
+        "storeUnitPrice": 20.2,
+        "storeName": "Head ööd! Banaan-kuivik piimapuder mahe 4+, HIPP, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Õuna ban beebiküps hippis püree mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ouna-banaanipuree-100g/",
+        "size": "100g",
+        "ean": "9062300133728",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300133728.png",
+        "storeName": "4K Õuna-ban.püree beebiküps.Hippis Hipp Bio 100g"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-banaanipuree-beebikupsistega-mahe-4-hipp-100-g",
+        "size": "100g",
+        "ean": "9062300133728",
+        "storeUnitPrice": 20.5,
+        "storeName": "Õuna-banaanipüree beebiküpsistega mahe 4+, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Õuna pirni ja ban hippis püree mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ouna-pirni-ban-puree100g/",
+        "size": "100g",
+        "ean": "9062300433743",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300131021.png",
+        "storeName": "4K Õuna-pirni-ja ban.püree Hippis Hipp Bio 100g"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-pirni-ja-banaanipuree-mahe-4-hipp-100-g",
+        "size": "100g",
+        "ean": "9062300433743",
+        "storeUnitPrice": 20.5,
+        "storeName": "Õuna-, pirni- ja banaanipüree mahe 4+, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Õunapüree hippis maasika banaani mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ounapuree-hippis-100g/",
+        "size": "100g",
+        "ean": "9062300133759",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/9062300140825.png",
+        "storeName": "4K Õunapüree Hippis Hipp 100g maasika,banaani mahe"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ounapuree-maasikate-ja-banaanidega-mahe-4-hipp-100-g",
+        "size": "100g",
+        "ean": "9062300133759",
+        "storeUnitPrice": 20.5,
+        "storeName": "Õunapüree maasikate ja banaanidega mahe 4+, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Ban pirni ja mangoga hippis püree mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ban-pur-pirni-mango-100g/",
+        "size": "100g",
+        "ean": "9062300133766",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/9062300140818.png",
+        "storeName": "4K Ban.püree pirni ja mangoga Hippis Hipp Bio 100g"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/banaanipuree-pirni-ja-mangoga-mahe-4-hipp-100-g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "9062300133766",
+        "storeUnitPrice": 20.2,
+        "storeName": "Banaanipüree pirni ja mangoga mahe 4+, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Õuna ban hippis püree vaarikaga mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ouna-banaanipuree-100g-3/",
+        "size": "100g",
+        "ean": "9062300133803",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300140788.png",
+        "storeName": "6K Õuna-ban.püree vaarikaga Hippis Hipp Bio 100g"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-banaanipuree-vaarika-ja-taisteraviljaga-mahe-6-hipp-100-g",
+        "cardPrice": 1.39,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "9062300133803",
+        "storeUnitPrice": 20.5,
+        "storeName": "Õuna-banaanipüree vaarika ja täisteraviljaga mahe 6+, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Õuna ban batoon puuviljasõber vaar mahe 23g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-bio-1a-ouna-ban-batoon23g-vaarikaga/",
+        "size": "23g",
+        "ean": "9062300139027",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/9062300139027.png",
+        "storeName": "1A Õuna-ban.batoon Puuviljasõber Hipp Bio 23g vaar"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljasober-ouna-banaanibatoon-vaarikaga-oko-al-1a-hipp-23-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "23g",
+        "ean": "9062300139027",
+        "storeUnitPrice": 73.48,
+        "storeName": "Puuviljasõber õuna-banaanibatoon vaarikaga ÖKO al. 1a, HIPP, 23 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Õuna pirni smuutijook mustikatega mahe 120ml",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/smuutijook-oun-pirn120ml/",
+        "size": "120ml",
+        "ean": "4062300325111",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4062300310568.png",
+        "storeName": "1A Õuna-pirni smuutijook Hipp Bio120ml mustikatega"
+      },
+      "selver": {
+        "price": 2.12,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-pirni-smuutijook-mustikatega-bio-hipp-120-ml",
+        "size": "120ml",
+        "ean": "4062300325111",
+        "storeUnitPrice": 17.67,
+        "storeName": "Õuna-pirni smuutijook mustikatega BIO, HIPP, 120 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Õuna banaani smuutijook marj pun mahe 120ml",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/smuutijook-ouna-ban120ml/",
+        "size": "120ml",
+        "ean": "4062300325050",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4062300310476.png",
+        "storeName": "1A Õuna-banaani smuutijook Hipp Bio 120ml pun.marj"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-banaani-smuutijook-punaste-marjadega-mahe-6-hipp-120-ml",
+        "size": "120ml",
+        "ean": "4062300325050",
+        "storeUnitPrice": 13.25,
+        "storeName": "Õuna-banaani smuutijook punaste marjadega mahe 6+, HIPP, 120 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Puuviljasõber kirsi ban batoon jog mahe 23g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/jog-kirsi-ban-batoon23g/",
+        "size": "23g",
+        "ean": "9062300139034",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300139034.png",
+        "storeName": "1A Puuviljasõber jog.-kirsi-ban.batoon Hipp Bio23g"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljasober-jogurti-kirsi-banaanibatoon-bio-12-hipp-23-g",
+        "cardPrice": 1.29,
+        "cardName": "Partner",
+        "size": "23g",
+        "ean": "9062300139034",
+        "storeUnitPrice": 73.48,
+        "storeName": "Puuviljasõber jogurti-kirsi-banaanibatoon BIO 12+, HIPP, 23 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Pirnipüree hippis m ploom sõstar mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirnipuree-hippis-100g/",
+        "size": "100g",
+        "ean": "9062300133780",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/9062300140801.png",
+        "storeName": "6K Pirnipüree ploom,m.sõstar Hippis Hipp 100g mahe"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hippis-ploomipuree-mustsostra-ja-pirniga-bio-hipp-100-g",
+        "size": "100g",
+        "ean": "9062300133780",
+        "storeUnitPrice": 20.5,
+        "storeName": "Hippis ploomipüree mustsõstra ja pirniga BIO, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Puuviljasõber õuna kaerabatoon ban mahe 23g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ouna-ban-kaerabatoon-23g/",
+        "size": "23g",
+        "ean": "9062300139010",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300139010.png",
+        "storeName": "1A Puuviljasõber õuna-ban.-kaerabatoon Hipp Bio23g"
+      },
+      "selver": {
+        "price": 1.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ouna-banaani-kaerabatoon-mahe-12-hipp-23-g",
+        "size": "23g",
+        "ean": "9062300139010",
+        "storeUnitPrice": 54.35,
+        "storeName": "Õuna-banaani-kaerabatoon mahe 12+, HIPP, 23 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp head ööd küpsis org piimap beebiküpsistega mahe 250g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-org-6k-piimap-head-ood-250g-kupsis/",
+        "size": "250g",
+        "ean": "9062300140238",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/06/9062300140238.png",
+        "storeName": "Hipp Org. 6K piimap.Head ööd 250g küpsis"
+      },
+      "selver": {
+        "price": 5.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/head-ood-piimapudrupulber-beebikupsistega-oko-al-6k-karbis-hipp-250-g",
+        "size": "250g",
+        "ean": "9062300140238",
+        "storeUnitPrice": 20.2,
+        "storeName": "Head ööd! Piimapudrupulber beebiküpsistega ÖKO al. 6k (karbis), HIPP, 250 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp bio Juurvilja nuudlipüree kanalihaga mahe 220g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/juurv-nuudlipuree-220g/",
+        "size": "220g",
+        "ean": "9062300103424",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9062300036814.png",
+        "storeName": "1A Juurvilja-nuudlipüree Hipp Bio 220g kanalihaga"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/juurvilja-nuudlipuree-kanalihaga-hipp-220-g",
+        "size": "220g",
+        "ean": "9062300103424",
+        "storeUnitPrice": 12.68,
+        "storeName": "Juurvilja-nuudlipüree kanalihaga, HIPP, 220 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Beebiküpsis mahe 180g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 4.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-oko-6k-beebikupsis-180g/",
+        "size": "180g",
+        "ean": "9062300137276",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/06/9062300137276.png",
+        "storeName": "6K Beebiküpsis Hipp Öko 180g"
+      },
+      "selver": {
+        "price": 4.15,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/beebikupsis-mahe-6-hipp-180g",
+        "size": "180g",
+        "ean": "9062300137276",
+        "storeUnitPrice": 23.06,
+        "storeName": "Beebiküpsis Mahe 6+, HIPP, 180g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Virsiku mango hippis ban jog org püree jogurtiga mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hipp-hippis-6k-virsiku-ban-pur-mango100g/",
+        "size": "100g",
+        "ean": "9062300437000",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/9062300437000.png",
+        "storeName": "6K Virsiku-ban.püree mango-jog.Hippis Hipp Org100g"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/virsiku-banaanipuree-mango-ja-jogurtiga-hippis-oko-al-6k-tuubis-hipp-100-g",
+        "size": "100g",
+        "ean": "9062300437000",
+        "storeUnitPrice": 20.2,
+        "storeName": "Virsiku-banaanipüree, mango ja jogurtiga Hippis ÖKO al. 6k - tuubis, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hipp Õunapüree banaaniga hippis mahe 100g",
+    "category": "Baby food",
+    "prices": {
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ounapuree-ban-ga-100g/",
+        "size": "100g",
+        "ean": "9062300133711",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/9062300133711.png",
+        "storeName": "4K Õunapüree banaaniga Hippis Hipp 100g mahe"
+      },
+      "selver": {
+        "price": 2.02,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hippis-ounapuree-banaaniga-bio-4-hipp-100-g",
+        "size": "100g",
+        "ean": "9062300133711",
+        "storeUnitPrice": 20.2,
+        "storeName": "Hippis õunapüree banaaniga BIO 4+, HIPP, 100 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Pampers Mega Pack Püksmähkmed S5 96tk",

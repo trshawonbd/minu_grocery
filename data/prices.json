@@ -79481,6 +79481,41 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "M.v.wool Soolalõhe viilutatud 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 3.07,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/soolalohe-viilutatud-m-v-wool-100-g",
+        "size": "100g",
+        "storeUnitPrice": 30.7,
+        "regularPrice": 4.09,
+        "storeName": "Soolalõhe viilutatud M.V.WOOL,100g"
+      },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/m-v-wool-viilutatud-soolalohe-100g/",
+        "size": "100g",
+        "ean": "4740192010017",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740192010017.png",
+        "storeName": "Viilutatud soolalõhe M.V.Wool 100g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolalohe-fileeloigud-viilutatud-m-v-wool-100-g",
+        "size": "100g",
+        "ean": "4740192010017",
+        "storeUnitPrice": 29.9,
+        "storeName": "Soolalõhe fileelõigud viilutatud, M.V.WOOL, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Vici Kuumsuitsu skumbriafilee nahaga 175g",
     "category": "Fish & seafood",
     "prices": {
@@ -79498,6 +79533,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kuumsuitsu-skumbriafilee-nahaga-vici-175-g",
         "size": "175g",
+        "ean": "4770190113427",
         "storeUnitPrice": 33.66,
         "storeName": "Kuumsuitsu skumbriafilee nahaga, VICI, 175 g"
       }
@@ -79546,6 +79582,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/skumbria-tomatikastmes-eo-kaija-240-g",
         "size": "240g",
+        "ean": "4751007730181",
         "storeUnitPrice": 12.46,
         "storeName": "Skumbria tomatikastmes EO, KAIJA, 240 g"
       }
@@ -79570,6 +79607,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/skumbria-omas-mahlas-eo-kaija-240-g",
         "size": "240g",
+        "ean": "4751007730280",
         "storeUnitPrice": 12.04,
         "storeName": "Skumbria omas mahlas EO, KAIJA, 240 g"
       }
@@ -79594,6 +79632,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lohe-omas-mahlas-eo-kapten-grant-230-g",
         "size": "230g",
+        "ean": "4740687000011",
         "storeUnitPrice": 11.52,
         "storeName": "Lõhe omas mahlas  EO, KAPTEN GRANT, 230 g"
       }
@@ -79613,6 +79652,15 @@
         "storeUnitPrice": 11.63,
         "storeName": "Sprotid õlis KAPTEN GRANT, EO 240g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kapten-grant-sprotid-olis-240g-eo/",
+        "size": "240g",
+        "ean": "4740687001216",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4740687001216.png",
+        "storeName": "Sprotid õlis Kapten Grant 240g EO"
+      },
       "rimi": {
         "price": 2.79,
         "currency": "EUR",
@@ -79626,8 +79674,34 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sprotid-olis-eo-kapten-grant-240-g",
         "size": "240g",
+        "ean": "4740687001216",
         "storeUnitPrice": 11.63,
         "storeName": "Sprotid õlis EO, KAPTEN GRANT, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannaküla Praetud kilud tomatikastmes 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pr-kilud-tomatikastmes-rannakula-240-g",
+        "size": "240g",
+        "storeUnitPrice": 9.38,
+        "storeName": "Pr. kilud tomatikastmes RANNAKÜLA,240g"
+      },
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/praetud-kilud-240g/",
+        "size": "240g",
+        "ean": "4742835010101",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4742835010101.png",
+        "storeName": "Praetud kilud tomatikastmes Rannaküla 240g"
       }
     },
     "matchedVia": "automatic",
@@ -79674,6 +79748,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/marineeritud-heik-m-v-wool-250-g",
         "size": "250g",
+        "ean": "4740192003019",
         "storeUnitPrice": 17.96,
         "storeName": "Marineeritud heik, M.V.WOOL, 250 g"
       }
@@ -79707,6 +79782,31 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "Marine abc Lõhe omas mahlas 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/lohe-omas-mahlas-marine-abc-eo-240-g",
+        "size": "240g",
+        "storeUnitPrice": 11.63,
+        "storeName": "Lõhe omas mahlas MARINE ABC, EO 240g"
+      },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marine-abc-lohe-omas-mahlas-240g/",
+        "size": "240g",
+        "ean": "4740238800381",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/09/4740238800381.png",
+        "storeName": "Marine ABC Lõhe omas mahlas 240g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Vici Tursamaks 121g",
     "category": "Fish & seafood",
     "prices": {
@@ -79718,13 +79818,48 @@
         "storeUnitPrice": 27.19,
         "storeName": "Tursamaks VICI, EO 121g"
       },
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-tursamaks-121g/",
+        "size": "121g",
+        "ean": "4770190140584",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4770190140584.png",
+        "storeName": "Tursamaks Vici 121g"
+      },
       "selver": {
         "price": 3.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/tursamaks-vici-121-g",
         "size": "121g",
+        "ean": "4770190140584",
         "storeUnitPrice": 27.19,
         "storeName": "Tursamaks, VICI, 121 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Epinell Grill sardiinid omas mahlas 140g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/grill-sardiinid-omas-mahlas-epinell-140-g",
+        "size": "140g",
+        "storeUnitPrice": 14.64,
+        "storeName": "Grill sardiinid omas mahlas EPINELL 140g"
+      },
+      "selver": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/grill-sardiinid-omas-mahlas-epinell-140g",
+        "size": "140g",
+        "ean": "4742312006788",
+        "storeUnitPrice": 14.64,
+        "storeName": "Grill sardiinid omas mahlas, EPINELL, 140g"
       }
     },
     "matchedVia": "automatic",
@@ -79742,13 +79877,48 @@
         "storeUnitPrice": 10.21,
         "storeName": "Skumbria tomatikastmes KAPTEN GRANT,240g"
       },
+      "coop": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/skumbria-tom-kastm-240g/",
+        "size": "240g",
+        "ean": "4740590876567",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740590876567.png",
+        "storeName": "Skumbria tom.kastmes Kapten Grant 240g easy-open"
+      },
       "selver": {
         "price": 2.45,
         "currency": "EUR",
         "url": "https://www.selver.ee/skumbria-tomatikastmes-kapten-grant-240-g",
         "size": "240g",
+        "ean": "4740590876567",
         "storeUnitPrice": 10.21,
         "storeName": "Skumbria tomatikastmes, KAPTEN GRANT, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannaküla Tursamaks 121g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/tursamaks-rannakula-121-g",
+        "size": "121g",
+        "storeUnitPrice": 28.84,
+        "storeName": "Tursamaks RANNAKÜLA,121g"
+      },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rannakula-tursamaks-121g/",
+        "size": "121g",
+        "ean": "4742835010521",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4742835010521.png",
+        "storeName": "Rannaküla Tursamaks 121g"
       }
     },
     "matchedVia": "automatic",
@@ -79790,16 +79960,26 @@
         "storeUnitPrice": 11.21,
         "storeName": "Tallinna kilud, KAPTEN GRANT, 240g"
       },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kapten-grant-tallinna-kilud-240g/",
+        "size": "240g",
+        "ean": "4740687002176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/4740687002176.png",
+        "storeName": "Tallinna kilud Kapten Grant 240g"
+      },
       "selver": {
         "price": 2.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/tallinna-kilud-kapten-grant-240g",
         "size": "240g",
+        "ean": "4740687002176",
         "storeUnitPrice": 11.21,
         "storeName": "Tallinna kilud, KAPTEN GRANT, 240g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -79814,16 +79994,26 @@
         "storeUnitPrice": 13.29,
         "storeName": "Heeringafilee traditsiooniline VICI,240g"
       },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heeringafil-tradits-240g/",
+        "size": "240g",
+        "ean": "4770190035781",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190035781-3.png",
+        "storeName": "Heeringafilee Vici 240g traditsiooniline"
+      },
       "selver": {
         "price": 3.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/heeringafilee-traditsiooniline-vici-240-g",
         "size": "240g",
+        "ean": "4770190035781",
         "storeUnitPrice": 13.29,
         "storeName": "Heeringafilee traditsiooniline, VICI, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -79843,6 +80033,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/heeringafilee-marineeritud-vici-240-g",
         "size": "240g",
+        "ean": "4770190035811",
         "storeUnitPrice": 14.13,
         "storeName": "Heeringafilee marineeritud, VICI, 240 g"
       }
@@ -79886,16 +80077,26 @@
         "storeUnitPrice": 10.38,
         "storeName": "Heeringafilee vähesoolane KGrant, 240g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heeringafilee-240g/",
+        "size": "240g",
+        "ean": "4740687000936",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740590810042.png",
+        "storeName": "Heeringafilee Kapten Grant 240g vähesoolane"
+      },
       "selver": {
         "price": 1.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/heeringafilee-vahesoolane-kapten-grant-240-g",
         "size": "240g",
+        "ean": "4740687000936",
         "storeUnitPrice": 8.29,
         "storeName": "Heeringafilee vähesoolane, KAPTEN GRANT, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -79910,16 +80111,26 @@
         "storeUnitPrice": 12.48,
         "storeName": "Heeringafilee traditsiooniline VICI,400g"
       },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heeringafilee-vici-400g/",
+        "size": "400g",
+        "ean": "4770190350310",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190350310-7.png",
+        "storeName": "Heeringafilee Vici 400g traditsiooniline"
+      },
       "selver": {
         "price": 4.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/heeringafilee-traditsiooniline-vici-400-g",
         "size": "400g",
+        "ean": "4770190350310",
         "storeUnitPrice": 12.48,
         "storeName": "Heeringafilee traditsiooniline, VICI, 400 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -79939,6 +80150,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/heeringafilee-kergsoola-vici-220-g",
         "size": "220g",
+        "ean": "4770190377669",
         "storeUnitPrice": 12.95,
         "storeName": "Heeringafilee kergsoola, VICI, 220 g"
       }
@@ -79958,16 +80170,26 @@
         "storeUnitPrice": 12.88,
         "storeName": "Heeringafilee rasvane VICI, 240g"
       },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-heeringafilee-rasvane-240g/",
+        "size": "240g",
+        "ean": "4770190378918",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4770190378918-1.png",
+        "storeName": "Heeringafilee rasvane Vici 240g"
+      },
       "selver": {
         "price": 3.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/heeringafilee-rasvane-vici-240-g",
         "size": "240g",
+        "ean": "4770190378918",
         "storeUnitPrice": 12.88,
         "storeName": "Heeringafilee rasvane, VICI, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -79982,16 +80204,26 @@
         "storeUnitPrice": 13.86,
         "storeName": "Heeringasalat murulauguga,360g"
       },
+      "coop": {
+        "price": 5.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heeringasalat-360g/",
+        "size": "360g",
+        "ean": "4740041001050",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740041001050.png",
+        "storeName": "Heeringasalat murulauguga Viru Rand 360g"
+      },
       "selver": {
         "price": 6.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/heeringasalat-murulauguga-viru-rand-360-g",
         "size": "360g",
+        "ean": "4740041001050",
         "storeUnitPrice": 17.47,
         "storeName": "Heeringasalat murulauguga, VIRU RAND, 360 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80006,20 +80238,30 @@
         "storeUnitPrice": 24.9,
         "storeName": "Vürtsikilufileed VIRU RAND, 100g"
       },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vurtsikilufilee-100g/",
+        "size": "100g",
+        "ean": "4740041001418",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740041001418.jpg",
+        "storeName": "Vürtsikilufileed Viru Rand 100g"
+      },
       "selver": {
         "price": 2.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/vurtsikilufileed-viru-rand-100-g",
         "size": "100g",
+        "ean": "4740041001418",
         "storeUnitPrice": 28.9,
         "storeName": "Vürtsikilufileed, VIRU RAND, 100 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Viru rand Räimerullid küüslaugumarinaadis 400g",
+    "name": "Viru rand Räimerullid küüslaugumarinaadis küüslauguga 400g",
     "category": "Fish & seafood",
     "prices": {
       "barbora": {
@@ -80030,16 +80272,26 @@
         "storeUnitPrice": 12.48,
         "storeName": "Räimerullid küüslaugumar.VIRU RAND, 400g"
       },
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/raimerullid-kuusl-400g/",
+        "size": "400g",
+        "ean": "4740041004020",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740041004020.png",
+        "storeName": "Räimerullid küüslauguga Viru Rand 400g"
+      },
       "selver": {
         "price": 5.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/raimerullid-kuuslaugumarinaadis-viru-rand-400-g",
         "size": "400g",
+        "ean": "4740041004020",
         "storeUnitPrice": 28.45,
         "storeName": "Räimerullid küüslaugumarinaadis, VIRU RAND, 400 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80054,16 +80306,26 @@
         "storeUnitPrice": 12.36,
         "storeName": "Tallinna kilud KALURI, 250g"
       },
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-tallinna-kilud-250g/",
+        "size": "250g",
+        "ean": "4740590071146",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/02/4740590071146.png",
+        "storeName": "Tallinna kilud Kaluri 250g"
+      },
       "selver": {
         "price": 3.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/tallinna-kilud-kaluri-250-g",
         "size": "250g",
+        "ean": "4740590071146",
         "storeUnitPrice": 12.36,
         "storeName": "Tallinna kilud, KALURI, 250 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80078,6 +80340,15 @@
         "storeUnitPrice": 16.19,
         "storeName": "Vürtsikilufilee BRIIS, 160g"
       },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vurtsikilufilee-160g/",
+        "size": "160g",
+        "ean": "4742312000328",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742312000328.jpg",
+        "storeName": "Vürtsikilufilee Briis 160g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -80085,6 +80356,40 @@
         "size": "160g",
         "storeUnitPrice": 16.19,
         "storeName": "Vürtskilufilee Briis 160g"
+      },
+      "selver": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vurtsikilu-filee-briis-160-g",
+        "size": "160g",
+        "ean": "4742312000328",
+        "storeUnitPrice": 16.19,
+        "storeName": "Vürtsikilu filee, BRIIS, 160 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Briis Praetud kilu puhastatud 170g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/praetud-kilu-puhastatud-briis-170-g",
+        "size": "170g",
+        "storeUnitPrice": 10.88,
+        "storeName": "Praetud kilu puhastatud BRIIS, 170g"
+      },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/praetud-kilu-170g/",
+        "size": "170g",
+        "ean": "4742312003336",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742312003336.png",
+        "storeName": "Puhastatud praetud kilu Briis 170g"
       }
     },
     "matchedVia": "automatic",
@@ -80102,6 +80407,15 @@
         "storeUnitPrice": 4.88,
         "storeName": "Vürtsikilud Balti BRIIS, 400g"
       },
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/briis-balti-vurtsikilud-400g/",
+        "size": "400g",
+        "ean": "4742312000724",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4742312000724.png",
+        "storeName": "Balti vürtsikilud Briis 400g"
+      },
       "rimi": {
         "price": 1.95,
         "currency": "EUR",
@@ -80115,11 +80429,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/balti-vurtsikilud-briis-400-g",
         "size": "400g",
+        "ean": "4742312000724",
         "storeUnitPrice": 4.88,
         "storeName": "Balti vürtsikilud, BRIIS, 400 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80147,6 +80462,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/praetud-raimed-tomatikastmes-briis-270-g",
         "size": "270g",
+        "ean": "4742312005989",
         "storeUnitPrice": 7.59,
         "storeName": "Praetud räimed tomatikastmes, BRIIS, 270 g"
       }
@@ -80166,13 +80482,73 @@
         "storeUnitPrice": 14.14,
         "storeName": "Anšoovis filee klassikaline BRIIS,145g"
       },
+      "coop": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/briis-anchovy-klassikaline-filee-145g/",
+        "size": "145g",
+        "ean": "4742312006023",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/4742312006023.png",
+        "storeName": "Anchovy klassikaline filee Briis 145g"
+      },
       "selver": {
         "price": 2.05,
         "currency": "EUR",
         "url": "https://www.selver.ee/anchovy-klassikaline-filee-briis-145-g",
         "size": "145g",
+        "ean": "4742312006023",
         "storeUnitPrice": 14.14,
         "storeName": "Anchovy klassikaline filee, BRIIS, 145 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kaluri Praetud kilud tomatikastmes 500g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pr-kilud-tomatikastmes-kaluri-500-g",
+        "size": "500g",
+        "storeUnitPrice": 7.78,
+        "storeName": "Pr.kilud tomatikastmes KALURI, 500g"
+      },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-praetud-kilud-tomatikastmes-500g/",
+        "size": "500g",
+        "ean": "4740590030129",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740590030129.png",
+        "storeName": "Praetud kilud tomatikastmes Kaluri 500g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kaluri Praetud kilud koduses 500g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pr-kilud-koduses-marinaadis-kaluri-500-g",
+        "size": "500g",
+        "storeUnitPrice": 7.78,
+        "storeName": "Pr.kilud koduses marinaadis KALURI,500g"
+      },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-praetud-kilud-koduses-marin-500g/",
+        "size": "500g",
+        "ean": "4740590030112",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740590030112.png",
+        "storeName": "Praetud kilud koduses marinaadis Kaluri 500g"
       }
     },
     "matchedVia": "automatic",
@@ -80190,6 +80566,15 @@
         "storeUnitPrice": 7.78,
         "storeName": "Pr.räimed tomatikastmes KALURI,500g"
       },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-praetud-raimed-tomatikastmes-500g/",
+        "size": "500g",
+        "ean": "4740590031324",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/4740590031324.png",
+        "storeName": "Praetud räimed tomatikastmes Kaluri 500g"
+      },
       "selver": {
         "price": 3.89,
         "currency": "EUR",
@@ -80197,11 +80582,46 @@
         "cardPrice": 3.29,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4740590031324",
         "storeUnitPrice": 7.78,
         "storeName": "Praetud räimed tomatikastmes, KALURI, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kaluri Vürtsikilud 500g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vurtsikilud-kaluri-500-g",
+        "size": "500g",
+        "storeUnitPrice": 5.98,
+        "storeName": "Vürtsikilud KALURI, 500g"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-vurtsikilud-500g/",
+        "size": "500g",
+        "ean": "4740590070903",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/4740590070903.png",
+        "storeName": "Kaluri Vürtsikilud 500g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vurtsikilud-laevuke-kaluri-500g",
+        "size": "500g",
+        "ean": "4740590070903",
+        "storeUnitPrice": 4.78,
+        "storeName": "Vürtsikilud laevuke, KALURI, 500g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80221,6 +80641,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vurtsikilufilee-kapten-grant-100-g",
         "size": "100g",
+        "ean": "4740687002565",
         "storeUnitPrice": 30.5,
         "storeName": "Vürtsikilufilee, KAPTEN GRANT, 100 g"
       }
@@ -80242,6 +80663,15 @@
         "storeUnitPrice": 5.98,
         "storeName": "Pr.räimed koduses marin. VIRU RAND 500g"
       },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vr-praetud-raim-koduses-marinaadis-500g/",
+        "size": "500g",
+        "ean": "4740041000107",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740041000107.png",
+        "storeName": "Praetud räim koduses marin. Viru Rand 500g/230g"
+      },
       "rimi": {
         "price": 4.99,
         "currency": "EUR",
@@ -80255,11 +80685,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/praetud-raimed-koduses-marinaadis-viru-rand-ou-500-g",
         "size": "500g",
+        "ean": "4740041000107",
         "storeUnitPrice": 9.98,
         "storeName": "Praetud räimed koduses marinaadis, VIRU RAND OÜ, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80276,16 +80707,26 @@
         "storeUnitPrice": 5.98,
         "storeName": "Pr.räimed tomatikastmes VIRU RAND 500g"
       },
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vr-praetud-raim-tomati-marinaadis-500g/",
+        "size": "500g",
+        "ean": "4740041000114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740041000114.png",
+        "storeName": "Praetud räim tomati marinaadis Viru Rand 500g"
+      },
       "selver": {
         "price": 4.69,
         "currency": "EUR",
         "url": "https://www.selver.ee/praetud-raimed-tomatikastmes-viru-rand-ou-500-g",
         "size": "500g",
+        "ean": "4740041000114",
         "storeUnitPrice": 9.38,
         "storeName": "Praetud räimed tomatikastmes, VIRU RAND OÜ, 500 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80307,6 +80748,7 @@
         "cardPrice": 3.29,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4740590030327",
         "storeUnitPrice": 7.38,
         "storeName": "Praetud räimed koduses marinaadis, KALURI, 500 g"
       }
@@ -80339,8 +80781,34 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vinnutatud-sarg-kaluri-200-g",
         "size": "200g",
+        "ean": "4740590072235",
         "storeUnitPrice": 25.45,
         "storeName": "Vinnutatud särg, KALURI, 200 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Msdm Vürtsikas kalmaar jerky 36g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vurtsikas-kalmaar-jerky-msdm-36-g",
+        "size": "36g",
+        "storeUnitPrice": 63.61,
+        "storeName": "Vürtsikas kalmaar Jerky MSDM 36g"
+      },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/msdm-vurtsikas-kalmaar-jerky-36g/",
+        "size": "36g",
+        "ean": "4260147170165",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4260147170165.png",
+        "storeName": "Vürtsikas kalmaar Jerky MSDM 36g"
       }
     },
     "matchedVia": "automatic",
@@ -80382,16 +80850,26 @@
         "storeUnitPrice": 13.3,
         "storeName": "Jah. surimist pulgad VICI, 300g"
       },
+      "coop": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krabimaits-pulgad-300g/",
+        "size": "300g",
+        "ean": "4770190037082",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190037082.png",
+        "storeName": "Surimist pulgad Vici 300g jahutatud"
+      },
       "selver": {
         "price": 4.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/surimist-pulgad-vici-300-g",
         "size": "300g",
+        "ean": "4770190037082",
         "storeUnitPrice": 13.63,
         "storeName": "Surimist pulgad, VICI, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80406,16 +80884,26 @@
         "storeUnitPrice": 14.6,
         "storeName": "Jahutatud surimist pulgad VICI, 150g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krabimaits-pulgad-150g/",
+        "size": "150g",
+        "ean": "4770190036115",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190036115.png",
+        "storeName": "Surimist pulgad Vici 150g jahutatud"
+      },
       "selver": {
         "price": 2.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/surimist-pulgad-vici-150-g",
         "size": "150g",
+        "ean": "4770190036115",
         "storeUnitPrice": 13.93,
         "storeName": "Surimist pulgad, VICI, 150 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80435,6 +80923,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/surimist-liha-lumekrabi-vici-120-g",
         "size": "120g",
+        "ean": "4770190372145",
         "storeUnitPrice": 12.42,
         "storeName": "Surimist liha Lumekrabi, VICI, 120 g"
       }
@@ -80454,13 +80943,50 @@
         "storeUnitPrice": 15.75,
         "storeName": "Jah. krabinuudel, surimi, VICI, 200g"
       },
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/krabimaits-nuudlid-200g/",
+        "size": "200g",
+        "ean": "4770190153942",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190374255.jpg",
+        "storeName": "Suriminuudel Vici 200g jahutatud MSC"
+      },
       "selver": {
         "price": 2.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/krabinuudel-surimi-vici-200-g",
         "size": "200g",
+        "ean": "4770190153942",
         "storeUnitPrice": 10.45,
         "storeName": "Krabinuudel surimi, VICI, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici surimist pulgad smart choice 400g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 3.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jah-surimist-pulgad-smart-choice-400-g",
+        "cardPrice": 2.19,
+        "cardName": "Aitäh",
+        "size": "400g",
+        "storeUnitPrice": 5.48,
+        "storeName": "Jah. surimist pulgad Smart Choice, 400g"
+      },
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-smart-choice-surimist-pulgad-400g/",
+        "size": "400g",
+        "ean": "4770190049139",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4770190049139.png",
+        "storeName": "Surimist pulgad Smart Choice Vici 400g jahutatud"
       }
     },
     "matchedVia": "automatic",
@@ -80478,6 +81004,15 @@
         "storeUnitPrice": 9.96,
         "storeName": "Jah. surimist pulgad Smart Choice, 250g"
       },
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/smart-choice-surimist-pulgad-250g-jahut/",
+        "size": "250g",
+        "ean": "4770190049191",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4770190049191.png",
+        "storeName": "Surimist pulgad Smart Choice 250g jahutatud"
+      },
       "selver": {
         "price": 2.49,
         "currency": "EUR",
@@ -80485,11 +81020,12 @@
         "cardPrice": 1.69,
         "cardName": "Partner",
         "size": "250g",
+        "ean": "4770190049191",
         "storeUnitPrice": 9.96,
         "storeName": "Surimist pulgad Smart Choice, VICI, 250 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -80504,22 +81040,90 @@
         "storeUnitPrice": 12.47,
         "storeName": "Maksikrevetid surimi soolvees, 320g"
       },
+      "coop": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maksikrevetid-320g/",
+        "size": "320g",
+        "ean": "4770190066907",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190066907.png",
+        "storeName": "Vici maksikrevetid soolvees 320g"
+      },
       "selver": {
         "price": 3.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/maksikrevetid-surimist-soolvees-vici-320-g",
         "size": "320g",
+        "ean": "4770190066907",
         "storeUnitPrice": 12.47,
         "storeName": "Maksikrevetid surimist soolvees, VICI, 320 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici surimipulgad surimi kama 180g",
+    "category": "Fish & seafood",
+    "prices": {
+      "barbora": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/jah-surimipulgad-surimi-kama-vici-180-g",
+        "size": "180g",
+        "storeUnitPrice": 17.72,
+        "storeName": "Jah.surimipulgad Surimi Kama VICI, 180g"
+      },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-surimipulgad-surimi-kama-180g/",
+        "size": "180g",
+        "ean": "4770190150521",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/12/4770190150521.png",
+        "storeName": "Vici Surimipulgad Surimi Kama 180g"
       }
     },
     "matchedVia": "automatic",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Minu Räimed praetud tomatikastmes 240g",
+    "name": "Marwi Kooritud krevetid soolvees 300g",
     "category": "Fish & seafood",
     "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kooritud-krevetid-soolveesmarwi-300-g",
+        "size": "300g",
+        "storeUnitPrice": 16.63,
+        "storeName": "Kooritud krevetid soolveesMARWI 300g"
+      },
+      "rimi": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/kalamari-ja-mereannid/mereannid/krevetid-kooritud-soolvees-marwi-msc-300-140g/p/4011835",
+        "size": "300g",
+        "storeUnitPrice": 35.64,
+        "storeName": "Krevetid kooritud soolvees Marwi MSC 300/140g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu Praetud räimed tomatikastmes 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pr-raim-tomatikastm-240g-2/",
+        "size": "240g",
+        "ean": "4743144002528",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743144002528.jpg",
+        "storeName": "Praetud räimed tomatikastmes Minu 240g"
+      },
       "rimi": {
         "price": 2.55,
         "currency": "EUR",
@@ -80533,17 +81137,86 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/praetud-raimed-tomatikastmes-minu-240-g",
         "size": "240g",
+        "ean": "4743144002528",
         "storeUnitPrice": 10.79,
         "storeName": "Praetud räimed tomatikastmes, MINU, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Msdm Kalmaariribad suitsu 36g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalmaariribad-36g/",
+        "size": "36g",
+        "ean": "4260147170509",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4260147170509.jpg",
+        "storeName": "Kalmaariribad suitsumaitselised MSDM 36g"
+      },
+      "rimi": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/kuivatatud-kalad/kalmaariribad-suitsumaitselised-msdm-36g/p/941809",
+        "size": "36g",
+        "storeUnitPrice": 60.83,
+        "storeName": "Kalmaariribad suitsumaitselised MSDM 36g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalmaari-ribad-msdm-36-g",
+        "size": "36g",
+        "ean": "4260147170509",
+        "storeUnitPrice": 63.61,
+        "storeName": "Kalmaari ribad, MSDM, 36 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kaluri vinnutatud räim 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-vinnutatud-raim-100g/",
+        "size": "100g",
+        "ean": "4740590072174",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4740590072174.png",
+        "storeName": "Kaluri vinnutatud räim 100g"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/kuivatatud-kalad/vinnutatud-raim-kaluri-100g/p/978071",
+        "size": "100g",
+        "storeUnitPrice": 23.9,
+        "storeName": "Vinnutatud räim Kaluri 100g"
       }
     },
     "matchedVia": "automatic",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Briis Vürtsikilu fileed õlis 160g",
+    "name": "Briis Vürtsikilufileed õlis 160g",
     "category": "Fish & seafood",
     "prices": {
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vurtsikilufil-olis-160g/",
+        "size": "160g",
+        "ean": "4742312000298",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742312000298.png",
+        "storeName": "Vürtsikilufileed õlis Briis 160g"
+      },
       "rimi": {
         "price": 2.75,
         "currency": "EUR",
@@ -80557,17 +81230,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vurtsikilu-fileed-olis-briis-160-g",
         "size": "160g",
+        "ean": "4742312000298",
         "storeUnitPrice": 17.19,
         "storeName": "Vürtsikilu fileed õlis, BRIIS, 160 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
     "name": "Abba Lõhepasteet 145g",
     "category": "Fish & seafood",
     "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/abba-lohepasteet-145g-msc/",
+        "size": "145g",
+        "ean": "7350126088615",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/7350126088615.png",
+        "storeName": "Lõhepasteet Abba 145g MSC"
+      },
       "rimi": {
         "price": 2.65,
         "currency": "EUR",
@@ -80581,17 +81264,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/lohepasteet-msc-asc-abba-145-g",
         "size": "145g",
+        "ean": "7350126088615",
         "storeUnitPrice": 18.55,
         "storeName": "Lõhepasteet MSC, ASC, ABBA, 145 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
     "name": "Abba Tuunikalapasteet 145g",
     "category": "Fish & seafood",
     "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/abba-tuunikalapasteet-145g-msc/",
+        "size": "145g",
+        "ean": "7350126088554",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/7350126088554.png",
+        "storeName": "Tuunikalapasteet Abba 145g MSC"
+      },
       "rimi": {
         "price": 2.65,
         "currency": "EUR",
@@ -80605,8 +81298,134 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/tuunikalapasteet-msc-abba-145-g",
         "size": "145g",
+        "ean": "7350126088554",
         "storeUnitPrice": 18.55,
         "storeName": "Tuunikalapasteet MSC, ABBA, 145 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Veladis delikatess krevetimääre 150g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veladis-delikatess-krevetimaare-150g/",
+        "size": "150g",
+        "ean": "4823097900321",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4823097900321.jpg",
+        "storeName": "Veladis Delikatess krevetimääre 150g"
+      },
+      "rimi": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/kalakulinaaria/delikatess-krevetimaare-veladis-150g/p/992798",
+        "size": "150g",
+        "storeUnitPrice": 18.6,
+        "storeName": "Delikatess-krevetimääre Veladis 150g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Veladis krevetimääre avokaadoga 150g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veladis-krevetimaare-avokaadoga-150g/",
+        "size": "150g",
+        "ean": "4823097900345",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4823097900345.jpg",
+        "storeName": "Veladis Krevetimääre avokaadoga 150g"
+      },
+      "rimi": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/kalakulinaaria/krevetimaare-avokaadoga-veladis-150g/p/992799",
+        "size": "150g",
+        "storeUnitPrice": 17.93,
+        "storeName": "Krevetimääre avokaadoga Veladis 150g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Koduranna Räimefilee sibulaga 270g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koduranna-raimefilee-sibulaga-270g/",
+        "size": "270g",
+        "ean": "4745010342059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4745010342059.png",
+        "storeName": "Räimefilee sibulaga Koduranna 270g"
+      },
+      "rimi": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/toodeldud-kalatooted/muu-marineeritud-soolatud-kala/raimefilee-sibulaga-koduranna-270g-135g/p/996634",
+        "size": "270g",
+        "storeUnitPrice": 24.37,
+        "storeName": "Räimefilee sibulaga Koduranna 270g/135g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Meremari must kriskal 113g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meremari-must-113g/",
+        "size": "113g",
+        "ean": "4740176021114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4740176021114.png",
+        "storeName": "Meremari must Kriskal 113g"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/kalamari-ja-mereannid/kalamari/meremari-must-kriskal-113g/p/205503",
+        "size": "113g",
+        "storeUnitPrice": 17.61,
+        "storeName": "Meremari must Kriskal 113g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Meremari punane kriskal 113g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/meremari-punane-113g/",
+        "size": "113g",
+        "ean": "4740176022111",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740176022111.png",
+        "storeName": "Meremari punane Kriskal 113g"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/kalamari-ja-mereannid/kalamari/meremari-punane-kriskal-113g/p/206480",
+        "size": "113g",
+        "storeUnitPrice": 17.61,
+        "storeName": "Meremari punane Kriskal 113g"
       }
     },
     "matchedVia": "automatic",
@@ -80629,6 +81448,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/vannamei-krevetid-tsill-kuuslaugu-marwi-100g",
         "size": "100g",
+        "ean": "4740173003472",
         "storeUnitPrice": 39.9,
         "storeName": "Vannamei krevetid tšill-küüslaugu, MARWI, 100g"
       }
@@ -80653,11 +81473,1122 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/merekapsasalat-kapten-grant-500-g",
         "size": "500g",
+        "ean": "4740687001360",
         "storeUnitPrice": 5.7,
         "storeName": "Merekapsasalat, KAPTEN GRANT, 500 g"
       }
     },
     "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici Külmsuitsu lõhefilee tükk 160g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kulms-lohefilee-tukk160g/",
+        "size": "160g",
+        "ean": "4770190122061",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190122061.png",
+        "storeName": "Külmsuitsu lõhefilee tükk Vici 160g"
+      },
+      "selver": {
+        "price": 5.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kulmsuitsu-lohefilee-tukk-vici-160-g",
+        "size": "160g",
+        "ean": "4770190122061",
+        "storeUnitPrice": 36.81,
+        "storeName": "Külmsuitsu lõhefilee tükk, VICI, 160 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Külmsuitsu lõhe viilutatud wool 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kulms-lohe-viil-100g/",
+        "size": "100g",
+        "ean": "4740192010512",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740192010512.png",
+        "storeName": "Külmsuitsu lõhe viilutatud Wool 100g"
+      },
+      "selver": {
+        "price": 4.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kulmsuitsu-lohefilee-m-v-wool-100-g",
+        "cardPrice": 2.99,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4740192010512",
+        "storeUnitPrice": 40.9,
+        "storeName": "Külmsuitsu lõhefilee, M.V.WOOL, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Soolaforellifilee viil wool 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soolaforellifil-viil100g/",
+        "size": "100g",
+        "ean": "4740192011014",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740192011014.png",
+        "storeName": "Soolaforellifilee viil Wool 100g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/soolaforelli-fileeloigud-m-v-wool-100-g",
+        "cardPrice": 3.19,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4740192011014",
+        "storeUnitPrice": 42.9,
+        "storeName": "Soolaforelli fileelõigud, M.V.WOOL, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannakarbid vilsund kala 350g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vilsund-rannakarbid-marineeritud-350g/",
+        "size": "350g",
+        "ean": "5700003006317",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/5700003006317.png",
+        "storeName": "Rannakarbid marineeritud Vilsund 350g/kala 200g"
+      },
+      "selver": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rannakarbid-marineeritud-vilsundblue-350-g",
+        "size": "350g",
+        "ean": "5700003006317",
+        "storeUnitPrice": 15.69,
+        "storeName": "Rannakarbid marineeritud, VILSUNDBLUE, 350 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannakarbid veinikastmes vilsund kala 350g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 5.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vilsund-rannakarbid-veinikastmes-350g/",
+        "size": "350g",
+        "ean": "5700003100091",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/5700003100091.png",
+        "storeName": "Rannakarbid veinikastmes Vilsund 350g/kala 200g"
+      },
+      "selver": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rannakarbid-aperitif-veinikastmes-vilsundblue-350-g",
+        "size": "350g",
+        "ean": "5700003100091",
+        "storeUnitPrice": 15.69,
+        "storeName": "Rannakarbid Aperitif veinikastmes, VILSUNDBLUE, 350 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kapten grant Forellimari 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kapten-grant-forellimari-100g/",
+        "size": "100g",
+        "ean": "4740687238926",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4260051075938.png",
+        "storeName": "Forellimari Kapten Grant 100g"
+      },
+      "selver": {
+        "price": 10.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/forellimari-kapten-grant-100-g",
+        "size": "100g",
+        "ean": "4740687238926",
+        "storeUnitPrice": 107.9,
+        "storeName": "Forellimari, KAPTEN GRANT, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Harbour Lõhepasteet klassikaline 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/harbour-lohepasteet-klassikaline-100g/",
+        "size": "100g",
+        "ean": "4751035431111",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4751035431111.png",
+        "storeName": "Lõhepasteet klassikaline Harbour 100g"
+      },
+      "selver": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lohepasteet-klassikaline-harbour-100-g",
+        "size": "100g",
+        "ean": "4751035431111",
+        "storeUnitPrice": 11.9,
+        "storeName": "Lõhepasteet klassikaline, HARBOUR, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kapten grant Islandi tursamaks naturaalne 120g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tursamaks-naturaalne120g/",
+        "size": "120g",
+        "ean": "4740687001797",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740687001797.jpg",
+        "storeName": "Islandi tursamaks naturaalne Kapten Grant 120g EO"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/islandi-tursamaks-kapten-grant-120-g",
+        "size": "120g",
+        "ean": "4740687001797",
+        "storeUnitPrice": 27.42,
+        "storeName": "Islandi tursamaks, KAPTEN GRANT, 120 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Msdm tursk kuiv lõik suits vähesool 36g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuivatatud-tursk-36g/",
+        "size": "36g",
+        "ean": "4260147170141",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4260147170141.jpg",
+        "storeName": "MSDM kuiv.tursk suits.vähesool.lõik.36g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tursk-suitsutatud-msdm-36-g",
+        "size": "36g",
+        "ean": "4260147170141",
+        "storeUnitPrice": 55.28,
+        "storeName": "Tursk suitsutatud, MSDM, 36 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Viru rand Praetud räimefileed tarrendis 270g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/raimesult-270g/",
+        "size": "270g",
+        "ean": "4740041000176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740041000176.png",
+        "storeName": "Praetud räimefileed tarrendis Viru Rand 270g"
+      },
+      "selver": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/praetud-raimefileed-tarrendis-viru-rand-270-g",
+        "size": "270g",
+        "ean": "4740041000176",
+        "storeUnitPrice": 13.3,
+        "storeName": "Praetud räimefileed tarrendis, VIRU RAND, 270 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kaluri Räimerullid küüsl pipra rose 300g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-raimerullid-rose-pipra-kuusl-300g/",
+        "size": "300g",
+        "ean": "4740590074284",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/05/4740590074284.png",
+        "storeName": "Räimerullid rose pipra küüsl.marin.Kaluri 300g"
+      },
+      "selver": {
+        "price": 4.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/raimerullid-rosepipra-kuuslaugu-marinaadis-kaluri-300-g",
+        "cardPrice": 3.49,
+        "cardName": "Partner",
+        "size": "300g",
+        "ean": "4740590074284",
+        "storeUnitPrice": 14.63,
+        "storeName": "Räimerullid rosèpipra-küüslaugu marinaadis, KALURI, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kapten grant Rollmops heeringast kurgiga 250g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rullmops-heeringast-250g/",
+        "size": "250g",
+        "ean": "4740687000967",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740590810011.png",
+        "storeName": "Rollmops heeringast Kapten Grant 250g"
+      },
+      "selver": {
+        "price": 4.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/heeringafilee-rollmops-kurgiga-kapten-grant-250-g",
+        "size": "250g",
+        "ean": "4740687000967",
+        "storeUnitPrice": 17.16,
+        "storeName": "Heeringafilee rollmops kurgiga, KAPTEN GRANT, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannaküla Sprotid õlis 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rannakula-sprotid-olis-100g/",
+        "size": "100g",
+        "ean": "4742835010019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4742835010019.png",
+        "storeName": "Sprotid õlis Rannaküla 100g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sprotid-olis-rannakula-100-g",
+        "size": "100g",
+        "ean": "4742835010019",
+        "storeUnitPrice": 22.9,
+        "storeName": "Sprotid õlis, RANNAKÜLA, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannaküla Sprotid tomatikastmes 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sprotid-tomatikastm-100g/",
+        "size": "100g",
+        "ean": "4742835010040",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4742835010040.png",
+        "storeName": "Sprotid tomatikastmes Rannaküla 100g"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sprotid-tomatikastmes-rannakula-100-g",
+        "size": "100g",
+        "ean": "4742835010040",
+        "storeUnitPrice": 22.9,
+        "storeName": "Sprotid tomatikastmes, RANNAKÜLA, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Msdm Kuivatatud stauriid soolatud 36g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuivatatud-stauriid-36g/",
+        "size": "36g",
+        "ean": "4260147170028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4260147170028.jpg",
+        "storeName": "Kuivatatud stauriid MSDM 36g soolatud"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/stauriid-soolatud-msdm-36-g",
+        "size": "36g",
+        "ean": "4260147170028",
+        "storeUnitPrice": 55.28,
+        "storeName": "Stauriid soolatud, MSDM, 36 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Msdm Kuivatatud tursk vähesoolane lõikudena 36g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuivatatud-tursk-36g-2/",
+        "size": "36g",
+        "ean": "4260147170295",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4260147170295.jpg",
+        "storeName": "Kuivatatud tursk vähesoolane lõikudena MSDM 36g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tursk-vahesoolane-msdm-36-g",
+        "size": "36g",
+        "ean": "4260147170295",
+        "storeUnitPrice": 55.28,
+        "storeName": "Tursk vähesoolane, MSDM, 36 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vr räimerullid juurviljadega 200g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vr-raimerullid-juurviljadega-marin-200g/",
+        "size": "200g",
+        "ean": "4740041001180",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/4740041001180.png",
+        "storeName": "VR räimerullid juurviljadega marin. 200g"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/raimerullid-juurviljadega-marinaadis-viru-rand-200-g",
+        "size": "200g",
+        "ean": "4740041001180",
+        "storeUnitPrice": 32.18,
+        "storeName": "Räimerullid juurviljadega marinaadis, VIRU RAND, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Viru rand Tallinna kilu filee 100g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallinna-kilu-filee-100g/",
+        "size": "100g",
+        "ean": "4740041002248",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740041002248.png",
+        "storeName": "Tallinna kilu filee Viru Rand 100g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tallinna-kilu-fileed-viru-rand-100-g",
+        "size": "100g",
+        "ean": "4740041002248",
+        "storeUnitPrice": 32.9,
+        "storeName": "Tallinna kilu fileed, VIRU RAND, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vändra kalatooted Angerjas 250g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marin-angerjas-250g/",
+        "size": "250g",
+        "ean": "4744423011026",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744423011026.png",
+        "storeName": "Marineeritud angerjas Vändra Kalatooted 250g"
+      },
+      "selver": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marineeritud-angerjas-vandra-kalatooted-250-g",
+        "size": "250g",
+        "ean": "4744423011026",
+        "storeUnitPrice": 46.36,
+        "storeName": "Marineeritud angerjas, VÄNDRA KALATOOTED, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vändra kalatooted Kuumsuitsu angerjas 250g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 11.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kuumsuits-angerjas-250g/",
+        "size": "250g",
+        "ean": "4744423011019",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4744423011019.png",
+        "storeName": "Kuumsuitsu angerjas marin. Vändra Kalatooted 250g"
+      },
+      "selver": {
+        "price": 14.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kuumsuitsu-angerjas-marinaadis-vandra-kalatooted-250-g",
+        "cardPrice": 9.99,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4744423011019",
+        "storeUnitPrice": 57.16,
+        "storeName": "Kuumsuitsu angerjas marinaadis, VÄNDRA KALATOOTED, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici Atlandi heeringafilee 200g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/atlandi-heeringafil-200g/",
+        "size": "200g",
+        "ean": "4770190130073",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4770190130073-1.png",
+        "storeName": "Atlandi heeringafilee Vici 200g"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/atlandi-heeringafilee-ilma-olita-vici-200-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4770190130073",
+        "storeUnitPrice": 14.45,
+        "storeName": "Atlandi heeringafilee ilma õlita, VICI, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici Atlandi heeringafilee punase sibulaga 200g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/atlandi-heeringafil-200g-3/",
+        "size": "200g",
+        "ean": "4770190130059",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/07/4770190130059-1.png",
+        "storeName": "Atlandi heeringafilee punase sibulaga Vici 200g"
+      },
+      "selver": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/atlandi-heeringafilee-ilma-olita-punase-sibulaga-vici-200-g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4770190130059",
+        "storeUnitPrice": 16.95,
+        "storeName": "Atlandi heeringafilee ilma õlita, punase sibulaga, VICI, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vändra angerjas kalat 450g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 16.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marin-angerjas-450g/",
+        "size": "450g",
+        "ean": "4744423012016",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744423012016.png",
+        "storeName": "Vändra Kalat. marineeritud angerjas 450g"
+      },
+      "selver": {
+        "price": 17.35,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marineeritud-angerjas-vandra-kalatooted-450-g",
+        "size": "450g",
+        "ean": "4744423012016",
+        "storeUnitPrice": 38.56,
+        "storeName": "Marineeritud angerjas, VÄNDRA KALATOOTED, 450 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici riisi köögiv sal surimipulgad köögiviljadega 200g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-sal-surimipulgad-riisi-koogiv-200g/",
+        "size": "200g",
+        "ean": "4770190141567",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4770190141567.png",
+        "storeName": "Vici sal.surimipulgad riisi-köögiv.200g"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/surimi-salat-riisi-ja-koogiviljadega-vici-200-g",
+        "size": "200g",
+        "ean": "4770190141567",
+        "storeUnitPrice": 12.45,
+        "storeName": "Surimi salat riisi ja köögiviljadega, VICI, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici Atlandi heeringafilee roosakas õlita 200g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vici-atlandi-heer-fil-roosakas-olita200g/",
+        "size": "200g",
+        "ean": "4770190156400",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4770190156400.png",
+        "storeName": "Atlandi heeringafilee Roosakas õlita Vici 200g"
+      },
+      "selver": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/atlandi-heeringafilee-roosakas-olita-vici-200g",
+        "cardPrice": 2.29,
+        "cardName": "Partner",
+        "size": "200g",
+        "ean": "4770190156400",
+        "storeUnitPrice": 15.45,
+        "storeName": "Atlandi heeringafilee roosakas, õlita, VICI, 200g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Koduranna heeringafilee sibula sibulaga 500g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/koduranna-heeringafilee-marin-sibula500g/",
+        "size": "500g",
+        "ean": "4745010342028",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4745010342028.png",
+        "storeName": "Koduranna Heeringafilee marin-sibula500g"
+      },
+      "selver": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/heeringafilee-marinaadis-sibulaga-koduranna-500-g",
+        "cardPrice": 3.29,
+        "cardName": "Partner",
+        "size": "500g",
+        "ean": "4745010342028",
+        "storeUnitPrice": 8.98,
+        "storeName": "Heeringafilee marinaadis, sibulaga, KODURANNA, 500 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu Sprotid õlis 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sprotid-olis-240g-3/",
+        "size": "240g",
+        "ean": "4743144000784",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743144000784.png",
+        "storeName": "Sprotid õlis Minu 240g"
+      },
+      "selver": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sprotid-olis-eo-minu-240g",
+        "size": "240g",
+        "ean": "4743144000784",
+        "storeUnitPrice": 13.54,
+        "storeName": "Sprotid õlis EO, MINU, 240g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kaluri Heeringafilee juurviljadega tükid 400g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kaluri-heeringafilee-tukid-juurv-mar400g/",
+        "size": "400g",
+        "ean": "4740590000245",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740590000245.png",
+        "storeName": "Heeringafilee tükid juurviljadega marin.Kaluri400g"
+      },
+      "selver": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/heeringafileetukid-juurviljadega-kaluri-400g",
+        "size": "400g",
+        "ean": "4740590000245",
+        "storeUnitPrice": 8.48,
+        "storeName": "Heeringafileetükid juurviljadega, KALURI, 400g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Viru rand Heeringafilee tomatimarinaadis 500g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vr-heeringafilee-tomatimarinaadis-500g/",
+        "size": "500g",
+        "ean": "4740041000060",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4740041000060.png",
+        "storeName": "Heeringafilee tomatimarinaadis Viru Rand 500g"
+      },
+      "selver": {
+        "price": 5.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/praetud-heeringafileed-tomatikastmes-viru-rand-ou-500-g",
+        "size": "500g",
+        "ean": "4740041000060",
+        "storeUnitPrice": 10.58,
+        "storeName": "Praetud heeringafileed tomatikastmes, VIRU RAND OÜ, 500 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Wool Angersäga angersäga 250g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 8.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/marin-angersaga-250g/",
+        "size": "250g",
+        "ean": "4740192004030",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740192004030.png",
+        "storeName": "Marineeritud angersäga Wool 250g"
+      },
+      "selver": {
+        "price": 7.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marineeritud-angersaga-m-v-wool-250-g",
+        "cardPrice": 5.99,
+        "cardName": "Partner",
+        "size": "250g",
+        "ean": "4740192004030",
+        "storeUnitPrice": 30.76,
+        "storeName": "Marineeritud angersäga, M.V.WOOL, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kapten grant Tuunikala suured soolv 185g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tuunikala-soolvees-185g-2/",
+        "size": "185g",
+        "ean": "4740590100228",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740590100228.jpg",
+        "storeName": "Tuunikala suured tk soolv.Kapten Grant 185g/135g"
+      },
+      "selver": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tuunikala-suured-tukid-soolvees-kapten-grant-185-g",
+        "size": "185g",
+        "ean": "4740590100228",
+        "storeUnitPrice": 11.3,
+        "storeName": "Tuunikala suured tükid soolvees, KAPTEN GRANT, 185 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kapten grant Heeringafil sibulaga koorekastm 150g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heeringafil-koorek-150g/",
+        "size": "150g",
+        "ean": "4740687001353",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740590820003.png",
+        "storeName": "Heeringafil.koorekastm.sibulaga Kapten Grant 150g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/heeringafileetukid-koorekastmes-sibulaga-kapten-grant-150-g",
+        "size": "150g",
+        "ean": "4740687001353",
+        "storeUnitPrice": 14.6,
+        "storeName": "Heeringafileetükid koorekastmes sibulaga, KAPTEN GRANT, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kapten grant Tuunikala tükid tomatikastmes 185g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tuunikala-tukid-185g/",
+        "size": "185g",
+        "ean": "4740687000882",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740687000882.png",
+        "storeName": "Tuunikala tükid tomatikastmes Kapten Grant EO 185g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tuunikala-tukid-tomatikastmes-kapten-grant-185-g",
+        "size": "185g",
+        "ean": "4740687000882",
+        "storeUnitPrice": 10.76,
+        "storeName": "Tuunikala tükid tomatikastmes, KAPTEN GRANT, 185 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici Heeringafilee traditsiooniline õlita 190g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/heeringafil-tradits-190g/",
+        "size": "190g",
+        "ean": "4770190044943",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190044943-1.png",
+        "storeName": "Heeringafilee Vici 190g traditsiooniline õlita"
+      },
+      "selver": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/heeringafilee-traditsiooniline-olita-vici-190-g",
+        "size": "190g",
+        "ean": "4770190044943",
+        "storeUnitPrice": 8.89,
+        "storeName": "Heeringafilee traditsiooniline õlita, VICI, 190 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Vici Lumekrabi pulgad surimist jahut krabim 250g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lumekrabipulgad-250g/",
+        "size": "250g",
+        "ean": "4770190379267",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4770190379267-3.png",
+        "storeName": "Lumekrabi krabim.pulgad surimist Vici 250g jahut."
+      },
+      "selver": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/krabimaitselised-pulgad-surimist-lumekrabi-vici-250-g",
+        "size": "250g",
+        "ean": "4770190379267",
+        "storeUnitPrice": 18.76,
+        "storeName": "Krabimaitselised pulgad surimist Lumekrabi, VICI, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu Lõhe omas mahlas supikogu 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lohe-omas-mahlas-240g-2/",
+        "size": "240g",
+        "ean": "4743144005857",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4743144005857.png",
+        "storeName": "Lõhe omas mahlas-supikogu Minu 240g"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lohe-omas-mahlas-supikogu-minu-240-g",
+        "size": "240g",
+        "ean": "4743144005857",
+        "storeUnitPrice": 11.04,
+        "storeName": "Lõhe omas mahlas -  supikogu, MINU, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu Lõhe tomatikastmes supikogu 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lohe-tomatikastmes-240g/",
+        "size": "240g",
+        "ean": "4743144005864",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4743144005864.png",
+        "storeName": "Lõhe tomatikastmes-supikogu Minu 240g"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lohe-tomatikastmes-supikogu-minu-240-g",
+        "size": "240g",
+        "ean": "4743144005864",
+        "storeUnitPrice": 11.04,
+        "storeName": "Lõhe tomatikastmes - supikogu, MINU, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu sprotid tomatikastmes 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/minu-sprotid-tomatikastmes-240g/",
+        "size": "240g",
+        "ean": "4743144006083",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4743144006083.png",
+        "storeName": "Minu sprotid tomatikastmes 240g"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sprotid-tomatikastmes-eo-minu-240-g",
+        "size": "240g",
+        "ean": "4743144006083",
+        "storeUnitPrice": 14.54,
+        "storeName": "Sprotid tomatikastmes EO, MINU, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu Kilu tomatis 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kilu-tomatis-240g/",
+        "size": "240g",
+        "ean": "4743144000760",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4743144000760-1.png",
+        "storeName": "Kilu tomatis Minu 240g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kilu-tomatikastmes-eo-minu-240-g",
+        "size": "240g",
+        "ean": "4743144000760",
+        "storeUnitPrice": 9.13,
+        "storeName": "Kilu tomatikastmes EO, MINU, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Sprotid suitsutatud pirate barbaross klaaspurk 250g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirate-sprotid-suitsutatud-250g/",
+        "size": "250g",
+        "ean": "4743144005277",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4743144005277.png",
+        "storeName": "Sprotid suitsutatud Pirate Barbaross250g klaaspurk"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sprotid-suitsutatud-olis-pirate-barbarossa-s-gold-250-g",
+        "size": "250g",
+        "ean": "4743144005277",
+        "storeUnitPrice": 19.96,
+        "storeName": "Sprotid suitsutatud õlis, PIRATE BARBAROSSA'S GOLD, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Pirate barbarossa Suits sprotid tomatikastmes 250g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 4.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pirate-suits-sprotid-tomatikastmes-250g/",
+        "size": "250g",
+        "ean": "4743144003389",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4743144003389.png",
+        "storeName": "Suits.sprotid tomatikastmes Pirate Barbarossa 250g"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsutatud-sprotid-tomatikastmes-pirate-barbarossa-s-gold-250-g",
+        "size": "250g",
+        "ean": "4743144003389",
+        "storeUnitPrice": 19.96,
+        "storeName": "Suitsutatud sprotid tomatikastmes, PIRATE BARBAROSSA'S GOLD, 250 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Kalapallid tomatikastmes stella maris 240g",
+    "category": "Fish & seafood",
+    "prices": {
+      "coop": {
+        "price": 1.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalapallid-240g/",
+        "size": "240g",
+        "ean": "4751001580614",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4751001580614.png",
+        "storeName": "Kalapallid tomatikastmes Stella Maris 240g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalapallid-tomatikastmes-eo-rigas-gold-240-g",
+        "size": "240g",
+        "ean": "4751001580614",
+        "storeUnitPrice": 7.46,
+        "storeName": "Kalapallid tomatikastmes  EO, RIGAS GOLD, 240 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {

@@ -96,7 +96,11 @@ async function main() {
   console.log(`\nWrote ${malls.length} malls, ${total} shops total, to outlets/data/malls.json`);
 }
 
-main().catch((err) => {
-  console.error("Mall fetch failed:", err.stack || err.message);
-  process.exit(1);
-});
+module.exports = { main, OUTPUT_PATH };
+
+if (require.main === module) {
+  main().catch((err) => {
+    console.error("Mall fetch failed:", err.stack || err.message);
+    process.exit(1);
+  });
+}

@@ -521,6 +521,8 @@ const NAV_ICONS = {
   basket: ICON_PATHS.cart,
 };
 
+const OUTLET_SCREENS = new Set(["outlets", "outletMall", "outletShop"]);
+
 function renderNav(nav, state, actions) {
   nav.textContent = "";
   const count = basketCount(state.basket);
@@ -531,7 +533,8 @@ function renderNav(nav, state, actions) {
     ["basket", count > 0 ? tr(state, "basketWithCount", { n: count }) : tr(state, "basket")],
   ];
   for (const [screen, label] of items) {
-    const b = button("nav-item" + (state.screen === screen ? " active" : ""), "", () => actions.goto(screen));
+    const isActive = screen === "outlets" ? OUTLET_SCREENS.has(state.screen) : state.screen === screen;
+    const b = button("nav-item" + (isActive ? " active" : ""), "", () => actions.goto(screen));
     const icon = el("span", "nav-icon");
     icon.appendChild(svgIcon(NAV_ICONS[screen], "nav-svg"));
     b.appendChild(icon);
@@ -540,14 +543,143 @@ function renderNav(nav, state, actions) {
   }
 }
 
-// Placeholder screen for the "Outletid" nav tab (2026-09-26) — malls
-// and brand discounts, a fully separate section from the grocery
-// comparison (see outlets/ and CLAUDE.md's own "Outlets" section);
-// nothing here reads state.products or any grocery data at all.
-function renderOutlets(root, state) {
+// "Outletid" nav tab (2026-09-26 app work) — malls and brand
+// discounts, a fully separate section from the grocery comparison
+// (see outlets/ and CLAUDE.md's own "Outlets" section); nothing here
+// reads state.products or any grocery data at all. state.outletMalls
+// is outlets/data/malls.json's own `malls` array, state.outletBrands
+// is the array of already-fetched brand-data files (denim-dream.json
+// today) — both loaded by index.html, optional (the tab still shows
+// a mall list of zero if they haven't loaded yet).
+function renderOutlets(root, state, actions) {
   root.textContent = "";
   root.appendChild(el("h1", "screen-title", tr(state, "outlets")));
-  root.appendChild(el("div", "muted", tr(state, "outletsPlaceholder")));
+  const list = el("div", "store-list");
+  for (const mall of mallList(state.outletMalls)) {
+    const row = button("store-row", "", () => actions.openOutletMall(mall.id));
+    const left = el("div", "store-left");
+    left.appendChild(el("div", "store-name", mall.name));
+    if (mall.address) left.appendChild(el("div", "store-own-name", mall.address));
+    row.appendChild(left);
+    const right = el("div", "store-right");
+    right.appendChild(el("div", "store-sub", mall.shopCount === 1 ? tr(state, "outletShop1") : tr(state, "outletShops", { n: mall.shopCount })));
+    row.appendChild(right);
+    list.appendChild(row);
+  }
+  root.appendChild(list);
+}
+
+// One mall's own shop list — a shop with real discount data (its own
+// name matches a brand file, see frontend/outlets-logic.js) shows the
+// "kuni -X%, N toodet" badge and opens the discounted items; a shop
+// with none is shown but not clickable (nothing to open).
+function outletShopRow(shop, state, actions, mallId) {
+  const meta = [shop.category, shop.floor].filter(Boolean).join(" · ");
+  if (!shop.discount) {
+    const row = el("div", "store-row");
+    const left = el("div", "store-left");
+    left.appendChild(el("div", "store-name", shop.name));
+    if (meta) left.appendChild(el("div", "store-own-name", meta));
+    row.appendChild(left);
+    return row;
+  }
+  const row = button("store-row", "", () => actions.openOutletShop(mallId, shop.name));
+  const left = el("div", "store-left");
+  left.appendChild(el("div", "store-name", shop.name));
+  if (meta) left.appendChild(el("div", "store-own-name", meta));
+  row.appendChild(left);
+  const right = el("div", "store-right");
+  right.appendChild(el("span", "badge badge-deal", tr(state, "outletDiscountBadge", { n: shop.discount.maxPercent, count: shop.discount.itemCount })));
+  row.appendChild(right);
+  return row;
+}
+
+function renderOutletMall(root, state, actions) {
+  root.textContent = "";
+  const header = el("div", "header");
+  header.appendChild(button("back", tr(state, "back", { name: tr(state, "outlets") }), () => actions.goto("outlets")));
+  root.appendChild(header);
+  const mall = findMall(state.outletMalls, state.outletMallId);
+  if (!mall) { root.appendChild(el("div", "muted", tr(state, "outletNoItems"))); return; }
+  root.appendChild(el("h1", "screen-title", mall.name));
+  if (mall.address) root.appendChild(el("div", "muted", mall.address));
+  const byName = indexBrandsByName(state.outletBrands);
+  const shops = shopsWithDiscounts(mall, byName);
+  if (!shops.some((s) => s.discount)) root.appendChild(el("div", "muted", tr(state, "outletNoDiscounts")));
+  const list = el("div", "store-list");
+  for (const shop of shops) list.appendChild(outletShopRow(shop, state, actions, mall.id));
+  root.appendChild(list);
+}
+
+// One brand's own hotlinked photo, or the neutral icon — same
+// SHOW_STORE_IMAGES gate as grocery product photos (pricing.js): off
+// means no image URL is ever requested here either.
+function outletImageBox(item) {
+  const box = el("div", "row-thumb");
+  if (!SHOW_STORE_IMAGES || !item.image) {
+    box.appendChild(neutralIcon());
+    return box;
+  }
+  const img = document.createElement("img");
+  img.loading = "lazy";
+  img.decoding = "async";
+  img.alt = "";
+  img.referrerPolicy = "no-referrer";
+  img.addEventListener("error", () => {
+    box.textContent = "";
+    box.appendChild(neutralIcon());
+  });
+  img.src = item.image;
+  box.appendChild(img);
+  return box;
+}
+
+// One real sale item: photo, name, sale price, struck-through regular
+// price, discount %, and a link to the brand's own product page.
+function outletItemRow(item, state) {
+  const row = el("div", "store-row single-row");
+  row.appendChild(outletImageBox(item));
+  const left = el("div", "store-left");
+  left.appendChild(el("div", "single-name", item.name));
+  if (item.link) {
+    const link = document.createElement("a");
+    link.className = "store-link";
+    link.href = item.link;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = tr(state, "viewAtStore");
+    left.appendChild(link);
+  }
+  row.appendChild(left);
+  const right = el("div", "store-right");
+  right.appendChild(el("div", "store-price", money(item.salePrice)));
+  right.appendChild(el("div", "store-sub store-regular", tr(state, "usually", { price: money(item.regularPrice) })));
+  right.appendChild(el("span", "badge badge-deal", `-${item.discountPercent}%`));
+  row.appendChild(right);
+  return row;
+}
+
+// The discounted items for one shop's brand — the label the owner
+// asked for ("e-poe allahindlus; see bränd on selles keskuses
+// esindatud") is shown right under the title, every time, so it's
+// never mistaken for an in-mall price.
+function renderOutletShop(root, state, actions) {
+  root.textContent = "";
+  const mall = findMall(state.outletMalls, state.outletMallId);
+  const header = el("div", "header");
+  header.appendChild(button("back", tr(state, "back", { name: mall ? mall.name : tr(state, "outlets") }), () => actions.openOutletMall(state.outletMallId)));
+  root.appendChild(header);
+  root.appendChild(el("h1", "screen-title", state.outletShopName || ""));
+  root.appendChild(el("div", "muted", tr(state, "outletOnlineNote")));
+  const byName = indexBrandsByName(state.outletBrands);
+  const items = brandItemsForShopName(byName, state.outletShopName);
+  if (items.length === 0) {
+    root.appendChild(el("div", "muted", tr(state, "outletNoItems")));
+    return;
+  }
+  const list = el("div", "store-list");
+  for (const item of items) list.appendChild(outletItemRow(item, state));
+  root.appendChild(list);
 }
 
 function renderError(root, state) {
@@ -563,10 +695,12 @@ function renderApp(root, nav, state, actions) {
   else if (state.screen === "group") renderGroup(root, state, actions);
   else if (state.screen === "product") renderProduct(root, state, actions);
   else if (state.screen === "outlets") renderOutlets(root, state, actions);
+  else if (state.screen === "outletMall") renderOutletMall(root, state, actions);
+  else if (state.screen === "outletShop") renderOutletShop(root, state, actions);
   else if (state.screen === "basket") renderBasket(root, state, actions);
   renderNav(nav, state, actions);
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { renderApp, renderHome, renderSearch, renderSearchResults, renderCategory, renderGroup, renderProduct, renderOutlets, renderBasket, renderNav, renderError, storeLabel, categoryIconSvg, money };
+  module.exports = { renderApp, renderHome, renderSearch, renderSearchResults, renderCategory, renderGroup, renderProduct, renderOutlets, renderOutletMall, renderOutletShop, renderBasket, renderNav, renderError, storeLabel, categoryIconSvg, money };
 }

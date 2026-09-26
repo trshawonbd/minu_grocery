@@ -24,6 +24,12 @@
   .back, .btn-add, .qty-btn, .qty-remove, .group-item, .tab, .pcard-open, .nav-item, .basket-name {
     -webkit-appearance: none; appearance: none; border: none; background: none; font: inherit; color: inherit; cursor: pointer; text-align: left; padding: 0;
   }
+  /* A store-row that's also a <button> (a clickable mall/shop row in
+     the Outletid tab) — plain non-clickable store-row divs (the
+     grocery single-store rows, a shop with no discount data) are
+     untouched, tag-qualified so the reset never implies clickability
+     where there is none. */
+  button.store-row { -webkit-appearance: none; appearance: none; border: none; background: none; font: inherit; color: inherit; cursor: pointer; text-align: left; padding: 12px 14px; width: 100%; }
   .back { font-size: 13px; font-weight: 600; color: var(--green); padding: 6px 10px 6px 0; }
   .update-status { font-size: 11.5px; color: var(--muted); margin: 18px 0 8px; }
   .update-status.stale { color: var(--amber); font-weight: 600; }
@@ -89,8 +95,9 @@
   .image-caption { font-size: 11px; color: var(--muted); margin-top: 4px; }
 
   .store-list { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
-  .store-row { display: flex; justify-content: space-between; gap: 12px; padding: 12px 14px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); }
+  .store-row { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 12px; background: var(--card); border: 1px solid var(--line); }
   .store-row.cheapest { background: var(--green-soft); border-color: var(--green); }
+  .store-row .row-thumb { flex: 0 0 48px; width: 48px; height: 48px; }
   .store-left { min-width: 0; }
   .store-name { font-weight: 700; font-size: 14px; }
   .store-barbora { color: var(--barbora); } .store-rimi { color: var(--rimi); } .store-selver { color: var(--selver); } .store-coop { color: var(--coop); }
@@ -130,6 +137,7 @@
   <script src="/frontend/app-logic.js"></script>
   <script src="/frontend/catalog.js"></script>
   <script src="/frontend/i18n.js"></script>
+  <script src="/frontend/outlets-logic.js"></script>
   <script src="/frontend/render.js"></script>
   <script>
     // The UI language: Estonian unless the shopper chose another one
@@ -155,17 +163,32 @@
       lang: loadLang(),
       singles: [],       // data/singles.json — search results only
       singlesIndex: [],
+      outletMalls: [],   // outlets/data/malls.json's own `malls` array
+      outletBrands: [],  // one entry per outlets/data/<brand>.json fetched
+      outletMallId: null,
+      outletShopName: null,
     };
     const root = document.getElementById("app");
     const nav = document.getElementById("nav");
     document.documentElement.lang = state.lang;
 
     // Routes: #/  #/search  #/g/<group id>[/<display category id>]
-    // #/c/<display category id>  #/p/<category::name>  #/outlets
-    // (placeholder — see outlets/ and CLAUDE.md's "Outlets" section)
+    // #/c/<display category id>  #/p/<category::name>
+    // #/outlets  #/outlets/<mall id>  #/outlets/<mall id>/<shop name>
     // #/basket
     function routeFromHash() {
-      const hash = decodeURIComponent(location.hash || "#/");
+      const rawHash = location.hash || "#/";
+      // The outlets route is split on the RAW hash and each segment
+      // decoded on its own: a real shop name can contain a "/" ("Juku /
+      // Kidzone", "Marat / Sangar"), encoded as %2F — decoding the
+      // whole hash first would turn it back into a separator and cut
+      // the name short. Our own ids in the other routes never contain
+      // one, so those keep the simpler whole-hash decode.
+      if (rawHash.startsWith("#/outlets/")) {
+        const [mallId, shopName] = rawHash.slice("#/outlets/".length).split("/").map((s) => decodeURIComponent(s));
+        return shopName ? { screen: "outletShop", mallId, shopName } : { screen: "outletMall", mallId };
+      }
+      const hash = decodeURIComponent(rawHash);
       if (hash.startsWith("#/g/")) {
         const [group, tab] = hash.slice(4).split("/");
         return { screen: "group", group, groupTab: tab || null };
@@ -183,6 +206,8 @@
       state.screen = route.screen;
       if (route.screen === "category") state.category = route.category;
       if (route.screen === "group") { state.group = route.group; state.groupTab = route.groupTab; }
+      if (route.screen === "outletMall") state.outletMallId = route.mallId;
+      if (route.screen === "outletShop") { state.outletMallId = route.mallId; state.outletShopName = route.shopName; }
       if (route.screen === "product") {
         state.product = visibleProducts(state.products).find((p) => productKey(p) === route.key) || null;
         if (!state.product) state.screen = "home";
@@ -197,6 +222,8 @@
       openCategory(category) { location.hash = `#/c/${encodeURIComponent(category)}`; },
       openGroup(group, tab) { location.hash = tab ? `#/g/${encodeURIComponent(group)}/${encodeURIComponent(tab)}` : `#/g/${encodeURIComponent(group)}`; },
       openProduct(product) { location.hash = `#/p/${encodeURIComponent(productKey(product))}`; },
+      openOutletMall(mallId) { location.hash = `#/outlets/${encodeURIComponent(mallId)}`; },
+      openOutletShop(mallId, shopName) { location.hash = `#/outlets/${encodeURIComponent(mallId)}/${encodeURIComponent(shopName)}`; },
       setQuery(query) {
         state.query = query;
         if (state.screen !== "search") { location.hash = "#/search"; return; }
@@ -275,10 +302,46 @@
       }
     }
 
+    // Outletid tab's own data — fully separate from groceries (see
+    // outlets/ and CLAUDE.md's "Outlets" section), optional: the tab
+    // still shows (with an empty mall list) if these haven't loaded.
+    async function loadOutletMalls() {
+      try {
+        const response = await fetch("/outlets/data/malls.json");
+        if (!response.ok) return;
+        const data = await response.json();
+        if (!Array.isArray(data.malls)) return;
+        state.outletMalls = data.malls;
+        render();
+      } catch (err) {
+        // Informational only.
+      }
+    }
+
+    const OUTLET_BRAND_FILES = ["/outlets/data/denim-dream.json"];
+
+    async function loadOutletBrands() {
+      const brands = [];
+      for (const path of OUTLET_BRAND_FILES) {
+        try {
+          const response = await fetch(path);
+          if (!response.ok) continue;
+          const data = await response.json();
+          if (data && data.brand) brands.push(data);
+        } catch (err) {
+          // Informational only — one missing brand file never blocks the rest.
+        }
+      }
+      state.outletBrands = brands;
+      render();
+    }
+
     window.addEventListener("hashchange", applyRoute);
     loadPrices();
     loadUpdateStatus();
     loadSingles();
+    loadOutletMalls();
+    loadOutletBrands();
   </script>
 </body>
 </html>

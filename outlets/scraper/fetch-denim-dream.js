@@ -89,7 +89,11 @@ async function main() {
   console.log(`\nWrote ${allItems.length} sale items to outlets/data/denim-dream.json (${changed} price-history entries changed)`);
 }
 
-main().catch((err) => {
-  console.error("Denim Dream fetch failed:", err.stack || err.message);
-  process.exit(1);
-});
+module.exports = { main };
+
+if (require.main === module) {
+  main().catch((err) => {
+    console.error("Denim Dream fetch failed:", err.stack || err.message);
+    process.exit(1);
+  });
+}

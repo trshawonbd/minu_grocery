@@ -1,28 +1,76 @@
-// Outlets' own scheduled update — run as a SEPARATE STEP by the
-// grocery scraper/daily-update.js, after the grocery run has already
-// committed and pushed. This is the safety boundary the owner asked
-// for (2026-09-26): whatever this script does or fails to do, it can
-// never stop or change the grocery update, because by the time it
-// runs the grocery commit already happened. The grocery script calls
-// this as a child process wrapped in its own try/catch, so even a
-// crash here (non-zero exit, an uncaught exception) is caught, logged
-// and swallowed there — see runOutletsStep() in
-// scraper/daily-update.js.
+// The outlets step of the daily update — run by scraper/daily-update.js's
+// runOutletsStep() as a child process strictly AFTER the grocery
+// commit and push (see CLAUDE.md's "Outlets" section), so nothing here
+// can ever stop or change the grocery update.
 //
-// Currently a stub: no mall/brand scraper exists yet (roadmap step 1,
-// investigation, is report-only; steps 2-3 build the real scrapers).
-// Exits 0 and writes nothing once those exist, this is where the real
-// daily work goes — mall shop lists refreshed weekly, brand discounts
-// refreshed daily, each with the same safety checks and 1-request-
-// per-second throttle groceries use. Never contacts a site without
-// the owner's go-ahead for that specific scrape, same as groceries.
-//
-// Run with: node outlets/scraper/daily-update.js
+// Two jobs, each in its own try/catch so one site being down never
+// blocks the other:
+//   - mall shop lists: refreshed WEEKLY (the owner's rule) — only when
+//     outlets/data/malls.json is 7+ days old or missing, otherwise
+//     skipped without a single request.
+//   - Denim Dream sale items: refreshed daily (its own price history
+//     is written by fetch-denim-dream.js).
+// Both fetchers are injectable so the test runs the real decision
+// logic with stubs and never contacts a site. Direct run:
+//   node outlets/scraper/daily-update.js
 
-function main() {
-  console.log(`Outlets daily update — ${new Date().toISOString()}: no scraper built yet (see CLAUDE.md's "Outlets" roadmap) — nothing to do.`);
+const fs = require("fs");
+const path = require("path");
+
+const MALLS_PATH = path.join(__dirname, "..", "data", "malls.json");
+const MALLS_MAX_AGE_DAYS = 7;
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+// true when the mall directory is missing, unreadable, or 7+ days old.
+function shouldRefreshMalls(fetchedAt, now) {
+  if (!fetchedAt) return true;
+  const fetchedMs = Date.parse(fetchedAt);
+  if (Number.isNaN(fetchedMs)) return true;
+  return now.getTime() - fetchedMs >= MALLS_MAX_AGE_DAYS * DAY_MS;
 }
 
-if (require.main === module) main();
+function readMallsFetchedAt() {
+  try {
+    return JSON.parse(fs.readFileSync(MALLS_PATH, "utf8")).fetchedAt || null;
+  } catch {
+    return null;
+  }
+}
 
-module.exports = { main };
+async function main(deps = {}) {
+  const now = deps.now || new Date();
+  const log = deps.log || console.log;
+  const fetchedAt = deps.readMallsFetchedAt ? deps.readMallsFetchedAt() : readMallsFetchedAt();
+  const fetchMalls = deps.fetchMalls || (() => require("./fetch-malls").main());
+  const fetchDenimDream = deps.fetchDenimDream || (() => require("./fetch-denim-dream").main());
+  const ran = { malls: false, denimDream: false };
+
+  log(`Outlets daily update — ${now.toISOString()}`);
+  if (shouldRefreshMalls(fetchedAt, now)) {
+    try {
+      await fetchMalls();
+      ran.malls = true;
+    } catch (err) {
+      log(`  malls: FAILED (${err.message}) — kept last week's list`);
+    }
+  } else {
+    log(`  malls: last fetched ${fetchedAt}, under ${MALLS_MAX_AGE_DAYS} days old — skipped (weekly refresh)`);
+  }
+
+  try {
+    await fetchDenimDream();
+    ran.denimDream = true;
+  } catch (err) {
+    log(`  Denim Dream: FAILED (${err.message}) — kept yesterday's items`);
+  }
+  return ran;
+}
+
+module.exports = { main, shouldRefreshMalls, MALLS_MAX_AGE_DAYS };
+
+if (require.main === module) {
+  main().catch((err) => {
+    console.error("Outlets daily update failed:", err.stack || err.message);
+    process.exit(1);
+  });
+}

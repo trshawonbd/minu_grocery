@@ -32,7 +32,7 @@ global.document = {
 };
 global.window = {};
 
-Object.assign(global, require("./pricing"), require("./app-logic"), require("./catalog"), require("./i18n"));
+Object.assign(global, require("./pricing"), require("./app-logic"), require("./catalog"), require("./i18n"), require("./outlets-logic"));
 const { renderApp, renderSearchResults, renderError } = require("./render");
 
 function test(name, run) {
@@ -79,18 +79,46 @@ function makeState(overrides) {
     updatedAt: "26.09.2026, 08:58",
     stale: false,
     lang: "et",
+    outletMalls: [],
+    outletBrands: [],
+    outletMallId: null,
+    outletShopName: null,
     ...overrides,
   };
 }
 const noop = () => {};
-const actions = { openProduct: noop, openCategory: noop, goHome: noop, goto: noop, setQuery: noop, setQuantity: noop, setLang: noop };
+const actions = { openProduct: noop, openCategory: noop, goHome: noop, goto: noop, setQuery: noop, setQuantity: noop, setLang: noop, openOutletMall: noop, openOutletShop: noop };
 
-function render(state) {
+function render(state, customActions) {
   const root = new FakeNode("div");
   const nav = new FakeNode("nav");
-  renderApp(root, nav, state, actions);
+  renderApp(root, nav, state, customActions || actions);
   return { root, nav, text: root.textContent, navText: nav.textContent };
 }
+
+const OUTLET_MALLS = [
+  {
+    id: "ulemiste",
+    name: "Ülemiste",
+    address: "Suur-Sõjamäe tn 4, 11415 Tallinn",
+    shops: [
+      { name: "Denim Dream", category: "Mood ja aksessuaarid", floor: "1" },
+      { name: "Apollo", category: "Vaba aeg", floor: "2" },
+    ],
+  },
+  { id: "viru", name: "Viru Keskus", address: "Viru väljak 4/6, 10111 Tallinn", shops: [{ name: "R-Kiosk", category: null, floor: null }] },
+];
+const OUTLET_BRANDS = [
+  {
+    brand: "Denim Dream",
+    scrapedAt: "2026-09-26T10:00:00.000Z",
+    catalogueCount: 5575,
+    items: [
+      { id: "1", name: "Calvin Klein Teksaseelik", regularPrice: 99.9, salePrice: 69.9, discountPercent: 30, link: "https://www.denimdream.com/EE/et/toode/1", image: null },
+      { id: "2", name: "Levi's Teksad", regularPrice: 90, salePrice: 45, discountPercent: 50, link: "https://www.denimdream.com/EE/et/toode/2", image: null },
+    ],
+  },
+];
 
 const results = [
   test("Home (Estonian): search bar, ONE round-icon group row (2026-09-26 redesign) in shopping order — several display categories folded into each group — with our own SVG icons, both deal sections with badges, the Updated line, the language switch", () => {
@@ -143,7 +171,7 @@ const results = [
     assert.ok(text.includes("andmed võivad olla vananenud"));
     assert.ok(navText.includes("Korv (3)"));
   }),
-  test("Outletid (2026-09-26, placeholder): its own nav tab between Search and Basket, opens a screen with no grocery data on it at all", () => {
+  test("Outletid: its own nav tab between Search and Basket, no grocery data on any outlets screen", () => {
     const root = new FakeNode("div");
     const nav = new FakeNode("nav");
     renderApp(root, nav, makeState({ screen: "outlets" }), actions);
@@ -151,8 +179,41 @@ const results = [
     assert.deepEqual(labels, ["Avaleht", "Otsing", "Outletid", "Korv"], "Outletid sits between Search and Basket");
     assert.equal(nav.find((n) => n.className.includes("active"))[0].children[1].textContent, "Outletid");
     assert.ok(root.textContent.includes("Outletid"));
-    assert.ok(root.textContent.includes("veel arendamisel"), "a placeholder message, in Estonian");
-    assert.ok(!root.textContent.includes("Alma Piim") && !root.textContent.includes("Tere Või") && !root.textContent.includes("€"), "no grocery product or price on the placeholder screen");
+    assert.ok(!root.textContent.includes("Alma Piim") && !root.textContent.includes("Tere Või"), "no grocery product on the outlets screen");
+  }),
+  test("Outletid mall list: name, address and shop count per mall, tapping one opens it", () => {
+    const calls = [];
+    const { root, text } = render(makeState({ screen: "outlets", outletMalls: OUTLET_MALLS }), { ...actions, openOutletMall: (id) => calls.push(id) });
+    assert.ok(text.includes("Ülemiste") && text.includes("Suur-Sõjamäe tn 4, 11415 Tallinn") && text.includes("2 kauplust"));
+    assert.ok(text.includes("Viru Keskus") && text.includes("1 kauplus"));
+    root.find((n) => n.className === "store-row" && n.textContent.includes("Ülemiste"))[0].click();
+    assert.deepEqual(calls, ["ulemiste"]);
+  }),
+  test("Outletid mall screen: a shop matching a brand file shows 'kuni -X%, N toodet' and opens the discounted items; a shop with no match shows plainly, not clickable", () => {
+    const calls = [];
+    const state = makeState({ screen: "outletMall", outletMallId: "ulemiste", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS });
+    const { root, text } = render(state, { ...actions, openOutletShop: (mallId, shopName) => calls.push([mallId, shopName]) });
+    assert.ok(text.includes("Ülemiste") && text.includes("Suur-Sõjamäe tn 4, 11415 Tallinn"));
+    assert.ok(text.includes("Denim Dream") && text.includes("kuni -50%, 2 toodet"), "the higher of the two real discounts, and the real item count");
+    assert.ok(text.includes("Apollo") && text.includes("Vaba aeg"));
+    const denimRow = root.find((n) => n.tagName === "button" && n.className === "store-row" && n.textContent.includes("Denim Dream"))[0];
+    denimRow.click();
+    assert.deepEqual(calls, [["ulemiste", "Denim Dream"]]);
+    const apolloRow = root.find((n) => n.className === "store-row" && n.textContent.includes("Apollo"))[0];
+    assert.notEqual(apolloRow.tagName, "button", "a shop with no discount data is not a button — nothing to open");
+  }),
+  test("Outletid mall screen: a mall where no shop has discount data yet says so", () => {
+    const { text } = render(makeState({ screen: "outletMall", outletMallId: "viru", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
+    assert.ok(text.includes("Ühelgi selle keskuse kauplusel pole praegu allahindlusandmeid"));
+  }),
+  test("Outletid shop screen: real sale items with sale price, struck-through regular price, discount %, a link to the brand's own page, and the required 'online discount' label shown every time", () => {
+    const { root, text } = render(makeState({ screen: "outletShop", outletMallId: "ulemiste", outletShopName: "Denim Dream", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
+    assert.ok(text.includes("e-poe allahindlus; see bränd on selles keskuses esindatud"), "the owner's required label");
+    assert.ok(text.includes("Calvin Klein Teksaseelik") && text.includes("69.90") && text.includes("tavahind 99.90") && text.includes("-30%"));
+    assert.ok(text.includes("Levi's Teksad") && text.includes("-50%"));
+    const link = root.find((n) => n.tagName === "a")[0];
+    assert.equal(link.href, "https://www.denimdream.com/EE/et/toode/1");
+    assert.equal(link.target, "_blank");
   }),
   test("Category (a display id): only that split's products, Estonian title, 2-column grid cards with image/icon, name, price range, gap badge, store count, Lisa korvi", () => {
     const { root, text } = render(makeState({ screen: "category", category: "piim-ja-jogurt" }));

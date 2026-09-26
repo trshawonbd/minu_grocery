@@ -13,8 +13,15 @@
 // `brand` field aren't guaranteed to agree on case even though today
 // both say "Denim Dream".
 
+// A mall's second unit of the same chain ("Apotheka 2", "Goldtime II",
+// "H&M II korrus") is the same brand — the trailing unit number and a
+// floor word are dropped before matching.
 function brandKey(name) {
-  return (name || "").trim().toLowerCase();
+  return (name || "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+(\d+|[ivx]+)(\s+korrus)?$/i, "")
+    .trim();
 }
 
 // brandFiles: the array of already-fetched brand-data objects
@@ -45,6 +52,13 @@ function isNewDiscount(item) {
   return item.status === "new" && typeof item.newPercent === "number";
 }
 
+// A brand whose site has no 30-day field, before our own history is
+// 30 days old: shown as a plain "Allahindlus", neither new nor
+// permanent (the owner's rule for Klick, Apotheka, Euronics).
+function isUnknownDiscount(item) {
+  return item.status === "unknown";
+}
+
 // Every shop in a mall, each with a `discount` field: null when no
 // brand-data file matches that shop's own name, otherwise a real
 // summary read from that brand's actually-scraped items (never
@@ -56,7 +70,8 @@ function shopsWithDiscounts(mall, brandsByName) {
     if (!brand || !Array.isArray(brand.items) || brand.items.length === 0) return { ...shop, discount: null };
     const fresh = brand.items.filter(isNewDiscount);
     const maxNewPercent = fresh.reduce((max, item) => Math.max(max, item.newPercent), 0);
-    return { ...shop, discount: { brand: brand.brand, itemCount: brand.items.length, newCount: fresh.length, maxNewPercent } };
+    const unknownCount = brand.items.filter(isUnknownDiscount).length;
+    return { ...shop, discount: { brand: brand.brand, itemCount: brand.items.length, newCount: fresh.length, maxNewPercent, unknownCount } };
   });
 }
 
@@ -115,11 +130,13 @@ function compareItems(sort) {
       a.name.localeCompare(b.name, "et");
   }
   // "Suurim allahindlus": new discounts first (largest % against the
-  // 30-day low first), then permanent sale prices by their tavahind
-  // gap — a permanent price never outranks a new discount.
+  // 30-day low first), then not-yet-judgeable "Allahindlus" items,
+  // then permanent sale prices — within each by the tavahind gap. A
+  // permanent price never outranks a new discount.
   return (a, b) =>
     isNewDiscount(b) - isNewDiscount(a) ||
     (b.newPercent || 0) - (a.newPercent || 0) ||
+    isUnknownDiscount(b) - isUnknownDiscount(a) ||
     b.discountPercent - a.discountPercent ||
     a.salePrice - b.salePrice ||
     a.name.localeCompare(b.name, "et");
@@ -137,7 +154,7 @@ function filterAndSortItems(items, filter) {
 
 if (typeof module !== "undefined") {
   module.exports = {
-    brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandForShopName, brandItemsForShopName, isNewDiscount,
+    brandKey, indexBrandsByName, mallList, findMall, shopsWithDiscounts, brandForShopName, brandItemsForShopName, isNewDiscount, isUnknownDiscount,
     SECTION_ORDER, SORTS, DEFAULT_OUTLET_FILTER, itemSections, itemTypes, filterAndSortItems,
   };
 }

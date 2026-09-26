@@ -29,10 +29,15 @@ const DENIM_DREAM = {
 };
 
 const results = [
-  test("brandKey: trims and lowercases so casing/whitespace differences never break a match", () => {
+  test("brandKey: trims and lowercases so casing/whitespace differences never break a match; a mall's second unit ('Apotheka 2', 'Goldtime II', 'H&M II korrus') is the same brand", () => {
     assert.equal(brandKey("Denim Dream"), "denim dream");
     assert.equal(brandKey("  DENIM DREAM  "), "denim dream");
     assert.equal(brandKey(null), "");
+    assert.equal(brandKey("Apotheka 2"), "apotheka");
+    assert.equal(brandKey("Goldtime II"), "goldtime");
+    assert.equal(brandKey("H&M II korrus"), "h&m");
+    assert.equal(brandKey("Klick"), "klick");
+    assert.equal(brandKey("Telo24"), "telo24", "a number fused into the name is the name");
   }),
   test("indexBrandsByName: keys by lowercased brand name, skips a malformed entry with no brand field", () => {
     const byName = indexBrandsByName([DENIM_DREAM, { items: [] }]);
@@ -52,10 +57,14 @@ const results = [
     const mall = { shops: [{ name: "Denim Dream", category: "Mood", floor: "1" }, { name: "Some Other Shop" }] };
     const byName = indexBrandsByName([DENIM_DREAM]);
     const result = shopsWithDiscounts(mall, byName);
-    assert.deepEqual(result[0].discount, { brand: "Denim Dream", itemCount: 2, newCount: 1, maxNewPercent: 14 });
+    assert.deepEqual(result[0].discount, { brand: "Denim Dream", itemCount: 2, newCount: 1, maxNewPercent: 14, unknownCount: 0 });
     assert.equal(result[1].discount, null);
     const allPermanent = indexBrandsByName([{ ...DENIM_DREAM, items: DENIM_DREAM.items.map((i) => ({ ...i, status: "permanent", newPercent: null })) }]);
-    assert.deepEqual(shopsWithDiscounts(mall, allPermanent)[0].discount, { brand: "Denim Dream", itemCount: 2, newCount: 0, maxNewPercent: 0 });
+    assert.deepEqual(shopsWithDiscounts(mall, allPermanent)[0].discount, { brand: "Denim Dream", itemCount: 2, newCount: 0, maxNewPercent: 0, unknownCount: 0 });
+    const klick = indexBrandsByName([{ brand: "Klick", items: [{ discountPercent: 13, status: "unknown", newPercent: null }] }]);
+    assert.deepEqual(shopsWithDiscounts({ shops: [{ name: "Klick" }] }, klick)[0].discount, { brand: "Klick", itemCount: 1, newCount: 0, maxNewPercent: 0, unknownCount: 1 });
+    const secondUnit = indexBrandsByName([{ brand: "Apotheka", items: [{ discountPercent: 50, status: "unknown", newPercent: null }] }]);
+    assert.equal(shopsWithDiscounts({ shops: [{ name: "Apotheka 2" }] }, secondUnit)[0].discount.itemCount, 1, "'Apotheka 2' is Apotheka");
   }),
   test("shopsWithDiscounts: matches case-insensitively (a mall's own casing pass and a brand's own field aren't guaranteed to agree)", () => {
     const mall = { shops: [{ name: "DENIM DREAM" }] };
@@ -88,6 +97,8 @@ const results = [
     assert.deepEqual(ids({}), ["a", "c", "d", "b"], "default (all permanent here): tavahind gap desc, then cheaper first");
     const withNew = items.map((i) => (i.id === "b" ? { ...i, status: "new", newPercent: 10 } : i));
     assert.deepEqual(filterAndSortItems(withNew, {}).map((i) => i.id), ["b", "a", "c", "d"], "a NEW discount sorts before every permanent price, whatever its tavahind gap");
+    const withUnknown = withNew.map((i) => (i.id === "d" ? { ...i, status: "unknown" } : i));
+    assert.deepEqual(filterAndSortItems(withUnknown, {}).map((i) => i.id), ["b", "d", "a", "c"], "new, then not-yet-judgeable, then permanent");
     assert.deepEqual(ids({ sort: "price" }), ["c", "d", "b", "a"]);
     assert.deepEqual(ids({ sort: "newest" }), ["c", "d", "b", "a"], "2026-09-26 before 2026-09-20; fresh before not; store order within");
     assert.deepEqual(ids({ section: "Naised" }), ["a", "b"]);

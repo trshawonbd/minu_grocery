@@ -30,11 +30,8 @@
 // Run with: node outlets/scraper/fetch-denim-dream.js
 // or:       npm run fetch-denim-dream
 
-const fs = require("fs");
-const path = require("path");
 const { parseDenimDreamProducts } = require("./brands");
-const { recordPrices } = require("../../scraper/price-history.js");
-const { classifyDiscount } = require("./discounts");
+const { writeBrandOutput, summaryLine } = require("./brand-output");
 
 const API_URL = "https://api-v2.denimdream.com/api/v2/product/product";
 const SEX_IDS = [2, 1, 4, 5];
@@ -42,8 +39,6 @@ const PAGE_SIZE = 50;
 const MAX_PAGES_PER_SECTION = 400;
 const USER_AGENT = "Mozilla/5.0 (compatible; MinuOutlets/1.0)";
 const THROTTLE_MS = 1000;
-const OUTPUT_PATH = path.join(__dirname, "..", "data", "denim-dream.json");
-const HISTORY_PATH = path.join(__dirname, "..", "data", "denim-dream-price-history.json");
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -58,14 +53,6 @@ async function fetchJson(url) {
   const response = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "application/json" } });
   if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`);
   return response.json();
-}
-
-function readJson(filePath, fallback) {
-  try {
-    return JSON.parse(fs.readFileSync(filePath, "utf8"));
-  } catch {
-    return fallback;
-  }
 }
 
 // One section, every page, 1/second. Returns { items, count }.
@@ -88,37 +75,10 @@ async function fetchSection(sexId, deps) {
 // The first date each link was ever recorded — read from the history
 // AFTER today's prices are recorded, so a brand-new item's first date
 // is today.
-function firstSeenByLink(history) {
-  const out = {};
-  for (const [link, entries] of Object.entries(history)) {
-    if (entries && entries.length > 0) out[link] = entries[0][0];
-  }
-  return out;
-}
-
+// Denim Dream's site carries a 30-day-lowest field, so its items are
+// judged new/permanent from day one (thirtyDaySource "site").
 function writeOutput(items, catalogueCount, scrapedAt, deps = {}) {
-  const readFile = deps.readJson || readJson;
-  const write = deps.writeFile || ((p, text) => fs.writeFileSync(p, text));
-  const dateStr = scrapedAt.slice(0, 10);
-  const freshPricesByUrl = {};
-  for (const item of items) {
-    if (item.link) freshPricesByUrl[item.link] = item.salePrice;
-  }
-  const history = readFile(HISTORY_PATH, {});
-  const { history: nextHistory, changed } = recordPrices(history, dateStr, freshPricesByUrl);
-  const firstSeen = firstSeenByLink(nextHistory);
-  // Classified against the history BEFORE today's prices were
-  // recorded, so an item's own price today is never its own 30-day
-  // reference (see discounts.js).
-  const withDates = items.map((item) => {
-    const dated = { ...item, firstSeen: item.link ? firstSeen[item.link] || dateStr : dateStr };
-    return { ...dated, ...classifyDiscount(dated, history, dateStr) };
-  });
-
-  fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
-  write(OUTPUT_PATH, JSON.stringify({ brand: "Denim Dream", scrapedAt, catalogueCount, items: withDates }, null, 2) + "\n");
-  write(HISTORY_PATH, JSON.stringify(nextHistory, null, 2) + "\n");
-  return { written: withDates.length, changed, newCount: withDates.filter((i) => i.status === "new").length };
+  return writeBrandOutput({ brand: "Denim Dream", slug: "denim-dream", items, catalogueCount, scrapedAt, thirtyDaySource: "site" }, deps);
 }
 
 async function main(overrides = {}) {
@@ -137,12 +97,12 @@ async function main(overrides = {}) {
   }
   const allItems = [...byId.values()];
   const scrapedAt = deps.now().toISOString();
-  const { written, changed, newCount } = writeOutput(allItems, catalogueCount, scrapedAt, deps);
-  deps.log(`\nWrote ${written} sale items to outlets/data/denim-dream.json (${newCount} new discounts, ${written - newCount} permanent; ${changed} price-history entries changed)`);
+  const result = writeOutput(allItems, catalogueCount, scrapedAt, deps);
+  deps.log(`\n${summaryLine("Denim Dream", result)}`);
   return { items: allItems, catalogueCount };
 }
 
-module.exports = { main, fetchSection, writeOutput, listUrl, firstSeenByLink, SEX_IDS, PAGE_SIZE };
+module.exports = { main, fetchSection, writeOutput, listUrl, SEX_IDS, PAGE_SIZE };
 
 if (require.main === module) {
   main().catch((err) => {

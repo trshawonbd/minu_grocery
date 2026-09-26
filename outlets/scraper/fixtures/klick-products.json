@@ -1,0 +1,171 @@
+{
+ "products": {
+  "hits": {
+   "hits": [
+    {
+     "_source": {
+      "sku": "7MD72F#B19",
+      "name": "Multifunktsionaalne laserprinter HP LaserJet MFP M140w",
+      "image": "/webp/f/9/f950c9b4-e4bc-4d4a-9a8b-2a5107ada605.webp",
+      "status": 1,
+      "visibility": 4,
+      "url_path": "multifunktsionaalne-laserprinter-hp-laserjet-mfp-m140w",
+      "category": [
+       {
+        "category_id": 234,
+        "name": "Laserprinterid",
+        "position": 1
+       },
+       {
+        "category_id": 60,
+        "name": "Parimad pakkumised",
+        "position": 99
+       },
+       {
+        "category_id": 830,
+        "name": "Printerid",
+        "position": 0
+       }
+      ],
+      "category_ids": [
+       234,
+       60,
+       830
+      ],
+      "stock": {
+       "qty": 82,
+       "is_in_stock": true,
+       "stock_status": 1
+      },
+      "brand_label": "HP",
+      "original_price_incl_tax": 149.99,
+      "price_incl_tax": 129.99,
+      "special_price_incl_tax": 129.99
+     }
+    },
+    {
+     "_source": {
+      "sku": "83JQ0003MX",
+      "name": "Sülearvuti Lenovo Yoga 7 2in1 14 OLED, Ultra 5 16GB 512GB",
+      "image": "/webp/8/_/8_907_4.webp",
+      "status": 1,
+      "visibility": 4,
+      "url_path": "sulearvuti-lenovo-yoga-7-2in1-14-oled-ultra-5-16gb-512gb",
+      "category": [
+       {
+        "category_id": 5,
+        "name": "Sülearvutid",
+        "position": 1
+       },
+       {
+        "category_id": 60,
+        "name": "Parimad pakkumised",
+        "position": 9
+       }
+      ],
+      "category_ids": [
+       5,
+       60
+      ],
+      "stock": {
+       "qty": 28,
+       "is_in_stock": true,
+       "stock_status": 1
+      },
+      "brand_label": "Lenovo",
+      "original_price_incl_tax": 1249.0000000000002,
+      "price_incl_tax": 979.9900000000001,
+      "special_price_incl_tax": 979.9900000000001
+     }
+    }
+   ]
+  }
+ },
+ "categories": {
+  "hits": {
+   "hits": [
+    {
+     "_source": {
+      "id": 60,
+      "name": "Parimad pakkumised",
+      "level": 2,
+      "parent_id": 2,
+      "path": "1/2/60"
+     }
+    },
+    {
+     "_source": {
+      "id": 830,
+      "name": "Printerid",
+      "level": 3,
+      "parent_id": 306,
+      "path": "1/2/306/830"
+     }
+    },
+    {
+     "_source": {
+      "id": 214,
+      "name": "Printerid ja skännerid",
+      "level": 3,
+      "parent_id": 4,
+      "path": "1/2/4/214"
+     }
+    },
+    {
+     "_source": {
+      "id": 5,
+      "name": "Sülearvutid",
+      "level": 4,
+      "parent_id": 194,
+      "path": "1/2/4/194/5"
+     }
+    },
+    {
+     "_source": {
+      "id": 306,
+      "name": "Nutikalt kooli",
+      "level": 2,
+      "parent_id": 2,
+      "path": "1/2/306"
+     }
+    },
+    {
+     "_source": {
+      "id": 4,
+      "name": "Arvutid ja lisad",
+      "level": 2,
+      "parent_id": 2,
+      "path": "1/2/4"
+     }
+    },
+    {
+     "_source": {
+      "id": 2,
+      "name": "Default Category",
+      "level": 1,
+      "parent_id": 1,
+      "path": "1/2"
+     }
+    },
+    {
+     "_source": {
+      "id": 234,
+      "name": "Laserprinterid",
+      "level": 4,
+      "parent_id": 214,
+      "path": "1/2/4/214/234"
+     }
+    },
+    {
+     "_source": {
+      "id": 194,
+      "name": "Arvutid",
+      "level": 3,
+      "parent_id": 4,
+      "path": "1/2/4/194"
+     }
+    }
+   ]
+  }
+ }
+}

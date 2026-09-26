@@ -46,10 +46,10 @@ const results = [
     const r = classifyDiscount(item({ salePrice: 56, priceMin30: 70 }), { [LINK]: [[TODAY, 56]] }, TODAY);
     assert.equal(r.status, "new");
   }),
-  test("a site with no 30-day field: nothing is new until our own history is 30 days old (a missing badge, never a false one); then our history decides", () => {
-    assert.deepEqual(classifyDiscount(item({ priceMin30: null }), {}, TODAY), { status: "permanent", refPrice: null, newPercent: null });
+  test("a site with no 30-day field: 'unknown' (a plain Allahindlus, no split) until our own history is 30 days old; then our history alone decides", () => {
+    assert.deepEqual(classifyDiscount(item({ priceMin30: null }), {}, TODAY), { status: "unknown", refPrice: null, newPercent: null });
     const young = { [LINK]: [["2026-09-10", 90]] };
-    assert.equal(classifyDiscount(item({ priceMin30: null, salePrice: 70, firstSeen: "2026-09-10" }), young, TODAY).status, "permanent");
+    assert.equal(classifyDiscount(item({ priceMin30: null, salePrice: 70, firstSeen: "2026-09-10" }), young, TODAY).status, "unknown");
     const mature = { [LINK]: [["2026-08-01", 90]] };
     assert.deepEqual(classifyDiscount(item({ priceMin30: null, salePrice: 70, firstSeen: "2026-08-01" }), mature, TODAY), { status: "new", refPrice: 90, newPercent: 22 });
   }),

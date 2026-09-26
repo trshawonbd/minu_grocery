@@ -595,6 +595,8 @@ function outletShopRow(shop, state, actions, mallId) {
   // count on sale — never a big % (the owner's rule).
   if (shop.discount.newCount > 0) {
     right.appendChild(el("span", "badge badge-deal", tr(state, "outletNewCount", { n: shop.discount.newCount })));
+  } else if (shop.discount.unknownCount > 0) {
+    right.appendChild(el("div", "store-sub", tr(state, "outletUnknownCount", { n: shop.discount.unknownCount })));
   } else {
     right.appendChild(el("div", "store-sub", tr(state, "outletOnSaleCount", { n: shop.discount.itemCount })));
   }
@@ -665,12 +667,17 @@ function outletItemCard(item, state) {
     card.rel = "noopener noreferrer";
   }
   const fresh = isNewDiscount(item);
-  card.appendChild(outletImageBox(item, fresh ? `-${item.newPercent}%` : null));
+  const unknown = isUnknownDiscount(item);
+  // A not-yet-judgeable item (no site 30-day field, our history under
+  // 30 days) carries a plain "Allahindlus" tag on the photo — a word,
+  // never a %, until the split can be made honestly.
+  card.appendChild(outletImageBox(item, fresh ? `-${item.newPercent}%` : unknown ? tr(state, "outletUnknown") : null));
+  if (unknown) card.className = "ocard ocard--unknown";
   const body = el("div", "ocard-body");
   if (item.brand) body.appendChild(el("div", "ocard-brand", item.brand));
   body.appendChild(el("div", "ocard-name", item.name));
   body.appendChild(el("div", "ocard-price", money(item.salePrice)));
-  if (!fresh) body.appendChild(el("div", "ocard-permanent", tr(state, "outletPermanent")));
+  if (!fresh && !unknown) body.appendChild(el("div", "ocard-permanent", tr(state, "outletPermanent")));
   const old = el("div", "ocard-old");
   old.appendChild(el("span", "ocard-old-label", `${tr(state, "outletRegular")} `));
   old.appendChild(el("s", "", money(item.regularPrice)));

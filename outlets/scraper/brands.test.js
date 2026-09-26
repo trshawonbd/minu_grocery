@@ -8,8 +8,15 @@
 // or:       npm run test:outlets
 
 const assert = require("node:assert/strict");
-const { extractNextData, parseDenimDreamPage, parseDenimDreamProducts } = require("./brands");
+const fs = require("fs");
+const path = require("path");
+const {
+  extractNextData, parseDenimDreamPage, parseDenimDreamProducts,
+  buildKlickCategoryIndex, parseKlickProducts, parseApothekaPage, apothekaTypeAllowed,
+  parseEuronicsCampaignLinks, parseEuronicsCampaign, euronicsTypeFromUrl,
+} = require("./brands");
 const { fetchSection, writeOutput, listUrl, main } = require("./fetch-denim-dream");
+const fixture = (name) => fs.readFileSync(path.join(__dirname, "fixtures", name), "utf8");
 
 const results = [];
 async function test(name, run) {
@@ -162,7 +169,7 @@ function fixturePage(products, count = products.length, size = 50) {
     assert.equal(catalogueCount, 3, "the API's own counts summed, before dedupe (what the store lists)");
     const out = Object.values(written).find((v) => v.brand === "Denim Dream");
     assert.deepEqual(out.items.map((i) => i.firstSeen), ["2026-09-20", "2026-09-26"]);
-    assert.deepEqual(out.items.map((i) => i.status), ["permanent", "permanent"], "no site 30-day field in this fixture and history under 30 days -> nothing is called new");
+    assert.deepEqual(out.items.map((i) => i.status), ["unknown", "unknown"], "no site 30-day field in this fixture and history under 30 days -> not judgeable yet");
     const history = Object.values(written).find((v) => v["https://www.denimdream.com/EE/et/toode/7"]);
     assert.deepEqual(history["https://www.denimdream.com/EE/et/toode/7"], [["2026-09-26", 69.9]]);
     assert.deepEqual(history["https://www.denimdream.com/EE/et/toode/8"], [["2026-09-20", 69.9]], "an unchanged price adds no entry");
@@ -177,6 +184,89 @@ function fixturePage(products, count = products.length, size = 50) {
     assert.equal(out.scrapedAt, "2026-09-26T08:00:00.000Z");
     assert.equal(out.catalogueCount, 5575);
     assert.equal(out.items[0].firstSeen, "2026-09-26");
+  });
+
+  // --- Klick (real API excerpt, fixtures/klick-products.json, 2026-09-26) ---
+  await test("Klick: a sale product is read from the *_incl_tax fields (149.99 -> 129.99), typed by its real department (Arvutid ja lisad, not 'Parimad pakkumised'), linked and imaged through the site's own hosts", () => {
+    const fx = JSON.parse(fixture("klick-products.json"));
+    const byId = buildKlickCategoryIndex(fx.categories.hits.hits);
+    const { items, count } = parseKlickProducts(fx.products.hits.hits, byId);
+    assert.equal(count, 2);
+    assert.equal(items.length, 2);
+    const printer = items.find((i) => i.name.includes("HP LaserJet"));
+    assert.equal(printer.regularPrice, 149.99);
+    assert.equal(printer.salePrice, 129.99);
+    assert.equal(printer.discountPercent, 13);
+    assert.equal(printer.type, "Arvutid ja lisad");
+    assert.equal(printer.brand, "HP");
+    assert.equal(printer.link, "https://www.klick.ee/multifunktsionaalne-laserprinter-hp-laserjet-mfp-m140w");
+    assert.ok(printer.image.startsWith("https://vsf-api.klick.ee/img/600/600/resize/webp/"));
+    assert.equal(printer.priceMin30, null, "Klick has no 30-day field");
+    assert.equal(printer.section, null);
+  });
+  await test("Klick: a product with no special price, an equal one, a zero one, or status != 1 is not a sale item", () => {
+    const byId = buildKlickCategoryIndex([]);
+    const base = { sku: "X", name: "Thing", status: 1, url_path: "thing", category_ids: [], original_price_incl_tax: 100 };
+    assert.equal(parseKlickProducts([{ _source: { ...base } }], byId).items.length, 0);
+    assert.equal(parseKlickProducts([{ _source: { ...base, special_price_incl_tax: 100 } }], byId).items.length, 0);
+    assert.equal(parseKlickProducts([{ _source: { ...base, special_price_incl_tax: 0 } }], byId).items.length, 0);
+    assert.equal(parseKlickProducts([{ _source: { ...base, special_price_incl_tax: 80, status: 2 } }], byId).items.length, 0);
+    assert.equal(parseKlickProducts([{ _source: { ...base, special_price_incl_tax: 80 } }], byId).items.length, 1);
+  });
+
+  // --- Apotheka (real page excerpt, fixtures/apotheka-cards.html) ---
+  await test("Apotheka: a supplement ('Toidulisand') and an out-of-stock card are DROPPED — cosmetics/hygiene only; the type breakdown and the dropped list are reported, never silently lost", () => {
+    const { items, excluded, types, cards } = parseApothekaPage(fixture("apotheka-cards.html"));
+    assert.equal(cards, 2);
+    assert.equal(items.length, 0);
+    assert.equal(excluded.length, 2);
+    assert.deepEqual(excluded.map((e) => e.type), ["Toidulisand", "Toidulisand"]);
+    assert.deepEqual(types, { Toidulisand: 2 });
+  });
+  await test("Apotheka: a cosmetics card is read — 'Hind' struck (24,26 €) as regular, 'Soodushind' as sale, the -N% recomputed, link and image kept", () => {
+    const html = fixture("apotheka-cards.html").replace(/Toidulisand/g, "Kosmeetika");
+    const { items } = parseApothekaPage(html);
+    assert.equal(items.length, 1, "the out-of-stock one is still dropped");
+    const [item] = items;
+    assert.equal(item.regularPrice, 24.26);
+    assert.equal(item.salePrice, 12.15);
+    assert.equal(item.discountPercent, 50);
+    assert.equal(item.type, "Kosmeetika");
+    assert.equal(item.link, "https://www.apotheka.ee/formula-vitale-d-vit-paikeseparlid-4000iu-n120-pmm0164114ee");
+    assert.ok(item.image.startsWith("https://www.apotheka.ee/media/catalog/product/"));
+    assert.equal(item.name, "FORMULA VITALE D-VIT PÄIKESEPÄRLID 4000IU N120");
+  });
+  await test("apothekaTypeAllowed: medicine/supplement/health/vitamin types and anything unknown are out; cosmetics and hygiene wording is in; a medicine word wins over a cosmetics word", () => {
+    for (const t of ["Käsimüügiravim", "Toidulisand", "Tervisetoode", "Vitamiinid", "Meditsiiniseade", "Test", null, "Muu"]) assert.equal(apothekaTypeAllowed(t), false, `${t} out`);
+    for (const t of ["Kosmeetika", "Hügieenitoode", "Näokreem", "Šampoon", "Hambapasta", "Deodorant", "Päikesekaitse", "Intiimhügieen", "Beebihooldus"]) assert.equal(apothekaTypeAllowed(t), true, `${t} in`);
+    assert.equal(apothekaTypeAllowed("Ravimkosmeetika"), false, "'ravim' inside the word keeps it out — a person decides, not a guess");
+  });
+
+  // --- Euronics (real campaign-page excerpt, fixtures/euronics-cards.html) ---
+  await test("Euronics: a loyalty-only 'Sõbrahind' card is NOT a sale item (counted as loyalty-only), a card with no old price is not one either; the campaign links on the home page are collected once each", () => {
+    const { items, loyaltyOnly, noDiscount, cards } = parseEuronicsCampaign(fixture("euronics-cards.html"));
+    assert.equal(cards, 2);
+    assert.equal(items.length, 0);
+    assert.equal(loyaltyOnly, 1);
+    assert.equal(noDiscount, 1);
+    const links = parseEuronicsCampaignLinks('<a href="https://www.euronics.ee/kampaaniad/7565">x</a><a href="https://www.euronics.ee/kampaaniad/7565">y</a><a href="https://www.euronics.ee/kampaaniad/7569">z</a>');
+    assert.deepEqual(links, ["https://www.euronics.ee/kampaaniad/7565", "https://www.euronics.ee/kampaaniad/7569"]);
+  });
+  await test("Euronics: the same card with a plain (everyone's) old price IS a sale item — Tavahind as regular, the shown price as sale, department from the URL's first segment", () => {
+    const html = fixture("euronics-cards.html").replace("discount__old discount__old__loyal", "discount__old").replace(/P&#xFC;sikliendile/g, "");
+    const { items } = parseEuronicsCampaign(html);
+    assert.equal(items.length, 1);
+    const [item] = items;
+    assert.equal(item.regularPrice, 185.99);
+    assert.equal(item.salePrice, 145.99);
+    assert.equal(item.discountPercent, 22);
+    assert.equal(item.type, "Koduhoid");
+    assert.equal(item.id, "144049");
+    assert.ok(item.name.startsWith("Philips OneUp 5000"));
+    assert.ok(item.link.startsWith("https://www.euronics.ee/koduhoid/"));
+    assert.ok(item.image.startsWith("https://www.euronics.ee/UserFiles/Products/Images/"));
+    assert.equal(euronicsTypeFromUrl("https://www.euronics.ee/tv/televiisorid/x"), "TV");
+    assert.equal(euronicsTypeFromUrl("https://www.euronics.ee/kodumasinad-ja-koogitehnika/x"), "Kodumasinad ja koogitehnika");
   });
 
   const pass = results.filter(Boolean).length;

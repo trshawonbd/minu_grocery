@@ -3,16 +3,17 @@
 // commit and push (see CLAUDE.md's "Outlets" section), so nothing here
 // can ever stop or change the grocery update.
 //
-// Two jobs, each in its own try/catch so one site being down never
-// blocks the other:
+// Jobs, each in its own try/catch so one site being down never
+// blocks the others:
 //   - mall shop lists: refreshed WEEKLY (the owner's rule) — only when
 //     outlets/data/malls.json is 7+ days old or missing, otherwise
 //     skipped without a single request.
-//   - Denim Dream sale items: refreshed daily (its own price history
-//     is written by fetch-denim-dream.js).
-// Both fetchers are injectable so the test runs the real decision
-// logic with stubs and never contacts a site. Direct run:
-//   node outlets/scraper/daily-update.js
+//   - every brand in BRANDS (Denim Dream, Klick, Apotheka, Euronics):
+//     refreshed daily, each brand's own fetch script writing its own
+//     data and price history (outlets/scraper/brand-output.js).
+// Both the mall fetcher and the brand list are injectable so the test
+// runs the real decision logic with stubs and never contacts a site.
+// Direct run: node outlets/scraper/daily-update.js
 
 const fs = require("fs");
 const path = require("path");
@@ -20,6 +21,13 @@ const path = require("path");
 const MALLS_PATH = path.join(__dirname, "..", "data", "malls.json");
 const MALLS_MAX_AGE_DAYS = 7;
 const DAY_MS = 24 * 60 * 60 * 1000;
+
+const BRANDS = [
+  { name: "Denim Dream", run: () => require("./fetch-denim-dream").main() },
+  { name: "Klick", run: () => require("./fetch-klick").main() },
+  { name: "Apotheka", run: () => require("./fetch-apotheka").main() },
+  { name: "Euronics", run: () => require("./fetch-euronics").main() },
+];
 
 // true when the mall directory is missing, unreadable, or 7+ days old.
 function shouldRefreshMalls(fetchedAt, now) {
@@ -42,8 +50,8 @@ async function main(deps = {}) {
   const log = deps.log || console.log;
   const fetchedAt = deps.readMallsFetchedAt ? deps.readMallsFetchedAt() : readMallsFetchedAt();
   const fetchMalls = deps.fetchMalls || (() => require("./fetch-malls").main());
-  const fetchDenimDream = deps.fetchDenimDream || (() => require("./fetch-denim-dream").main());
-  const ran = { malls: false, denimDream: false };
+  const brands = deps.brands || BRANDS;
+  const ran = { malls: false, brands: {} };
 
   log(`Outlets daily update — ${now.toISOString()}`);
   if (shouldRefreshMalls(fetchedAt, now)) {
@@ -57,16 +65,19 @@ async function main(deps = {}) {
     log(`  malls: last fetched ${fetchedAt}, under ${MALLS_MAX_AGE_DAYS} days old — skipped (weekly refresh)`);
   }
 
-  try {
-    await fetchDenimDream();
-    ran.denimDream = true;
-  } catch (err) {
-    log(`  Denim Dream: FAILED (${err.message}) — kept yesterday's items`);
+  for (const brand of brands) {
+    try {
+      await brand.run();
+      ran.brands[brand.name] = true;
+    } catch (err) {
+      ran.brands[brand.name] = false;
+      log(`  ${brand.name}: FAILED (${err.message}) — kept yesterday's items`);
+    }
   }
   return ran;
 }
 
-module.exports = { main, shouldRefreshMalls, MALLS_MAX_AGE_DAYS };
+module.exports = { main, shouldRefreshMalls, MALLS_MAX_AGE_DAYS, BRANDS };
 
 if (require.main === module) {
   main().catch((err) => {

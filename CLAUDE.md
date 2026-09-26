@@ -730,11 +730,45 @@ data on any of these screens; images hotlinked under the same
      `outlets/data/denim-dream-price-history.json` (one entry per link
      per change; `firstSeen` is that link's first date). Ask the owner
      before a full fetch, as with every scrape.
-   - **Klick, Apotheka, Euronics** — next in line (plain-HTML
-     shape found in step 1); **Apotheka is cosmetics and hygiene
-     discounts ONLY, never medicines** (a pharmacy's OTC medicine
-     carries the same legal angle groceries' Personal care already
-     excludes it for — never scrape a medicine price).
+   - **Klick, Apotheka, Euronics — built 2026-09-26** (fast mode;
+     one fetch script each, `outlets/scraper/fetch-<brand>.js`, all
+     writing through the shared `outlets/scraper/brand-output.js`;
+     parsers and their real-excerpt fixtures in
+     `outlets/scraper/brands.js` / `fixtures/`). None of the three
+     sites has a 30-day-lowest field (checked on list AND product
+     pages), so their files say `thirtyDaySource: "history"` and
+     every item is `status: "unknown"` — a plain "Allahindlus" in the
+     app, no new/permanent split — until our own price history for
+     that link is 30 days old, after which our history alone decides.
+     - **Klick**: the site's own "Parimad pakkumised" category (id
+       60) through its Vue Storefront catalog API
+       (`vsf-api.klick.ee/api/catalog/vue_storefront_catalog_et/…`,
+       the same stack as Selver's allowed path; that host serves no
+       robots.txt; two requests a run). The plain HTML page prints the
+       sale price in BOTH price slots — never read prices from it.
+       Prices are the `*_incl_tax` fields, rounded to cents. Type =
+       the real department (level-2 ancestor among ids 4, 7, 10, 11,
+       12, 13), never a campaign landing page.
+     - **Apotheka**: `/pakkumised/koik-sooduspakkumised?p=N`, plain
+       HTML, 34 cards a page until an empty page. **Cosmetics and
+       hygiene ONLY, never a medicine or supplement** (a pharmacy's
+       OTC medicine carries the same legal angle groceries' Personal
+       care already excludes it for). The only category signal is the
+       card's "Toote tüüp": `apothekaTypeAllowed` keeps a type only
+       when it matches cosmetics/hygiene wording AND no medicine/
+       supplement/health/device word — an unknown type is dropped and
+       logged, never guessed in; "Hetkel otsas" (out of stock) is
+       dropped too.
+     - **Euronics**: no sale listing exists; discounts sit on the
+       campaign pages linked from the home page (`/kampaaniad/<id>`;
+       deeper `/kampaaniad/*/*` paths are disallowed by robots.txt and
+       never fetched). A card's shown price is either for everyone
+       (plain `discount__old`) or a loyalty "Sõbrahind"
+       (`discount__old__loyal`, "Püsikliendile") — the owner's rule,
+       same as Aitäh/Partner in groceries: a loyalty-only card is NOT
+       a sale item; it is counted and reported instead. On
+       2026-09-26 every one of the 79 discounted campaign cards was
+       loyalty-only, so Euronics had 0 sale items.
    - **Reserved, Mohito, New Yorker, Pepco, Rademar, Sportland** —
      later (JavaScript-rendered, no confirmed API from step 1's
      static fetching; New Yorker's real site is
@@ -791,6 +825,9 @@ data on any of these screens; images hotlinked under the same
   "Frontend"); the location + radius picker is NOT built yet.
 - Step 5: `outlets/scraper/daily-update.js` refreshes malls weekly
   (only when `malls.json` is 7+ days old — `shouldRefreshMalls`) and
-  Denim Dream daily, each in its own try/catch; stub-tested in
+  every brand in its `BRANDS` list daily (Denim Dream, Klick,
+  Apotheka, Euronics — add a new brand's fetch script there and its
+  data file to `OUTLET_BRAND_FILES` in `frontend/index.html`), each
+  in its own try/catch; stub-tested in
   `outlets/scraper/daily-update.test.js`. The item-count-drop /
   price-volatility safety check is NOT built yet.

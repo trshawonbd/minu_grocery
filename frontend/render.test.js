@@ -212,6 +212,21 @@ const results = [
     assert.equal(root.find((n) => n.className === "badge badge-deal").length, 0, "no badge at all");
     assert.equal(root.find((n) => n.tagName === "button" && n.className === "store-row").length, 1, "still tappable — the items are still there to see");
   }),
+  test("Outletid, a brand with no site 30-day field (Klick/Apotheka/Euronics): the mall row says 'N toodet allahindluses' in small text, and each card carries a plain 'Allahindlus' tag — no %, no 'Püsiv soodushind' — until our own history is 30 days old", () => {
+    const klickMalls = [{ id: "ulemiste", name: "Ülemiste", address: "x", shops: [{ name: "Klick", category: "Kodu & tehnika", floor: "1" }] }];
+    const klick = [{ brand: "Klick", scrapedAt: "2026-09-26T10:00:00.000Z", catalogueCount: 34, thirtyDaySource: "history", items: [
+      { id: "k1", brand: "HP", name: "Laserprinter M140w", section: null, type: "Arvutid ja lisad", regularPrice: 149.99, salePrice: 129.99, discountPercent: 13, status: "unknown", refPrice: null, newPercent: null, link: "https://www.klick.ee/printer", image: null, fresh: false, position: 1, firstSeen: "2026-09-26" },
+    ] }];
+    const mall = render(makeState({ screen: "outletMall", outletMallId: "ulemiste", outletMalls: klickMalls, outletBrands: klick }));
+    assert.ok(mall.text.includes("1 toodet allahindluses") && !mall.text.includes("uut allahindlust") && !mall.text.includes("soodushinnas"));
+    const shop = render(makeState({ screen: "outletShop", outletMallId: "ulemiste", outletShopName: "Klick", outletMalls: klickMalls, outletBrands: klick }));
+    const card = shop.root.find((n) => n.className.startsWith("ocard "))[0] || shop.root.find((n) => n.className === "ocard")[0];
+    assert.ok(card, "one card");
+    assert.equal(card.find((n) => n.className === "ocard-badge")[0].textContent, "Allahindlus");
+    assert.ok(!card.textContent.includes("%") && !card.textContent.includes("Püsiv soodushind"));
+    assert.ok(card.textContent.includes("129.99 €") && card.textContent.includes("tavahind 149.99 €"));
+    assert.equal(shop.root.find((n) => n.className === "tab-row outlet-sections").length, 0, "no section row for a brand without sections");
+  }),
   test("Outletid shop screen (2026-09-26 redesign): a card grid — each card ONE link to the brand's page in a new tab, 3:4 photo with the discount badge on it (neutral icon when there's no photo), brand small, name, sale price, 'tavahind' struck through; the Estonian note, the item count and 'Uuendatud' line; biggest discount first by default", () => {
     const { root, text } = render(makeState({ screen: "outletShop", outletMallId: "ulemiste", outletShopName: "Denim Dream", outletMalls: OUTLET_MALLS, outletBrands: OUTLET_BRANDS }));
     assert.equal(root.className, "page page-wide", "the wide layout, for 4 columns on a desktop");

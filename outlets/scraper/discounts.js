@@ -15,11 +15,12 @@
 // Until our history for a link is 30 days old, the site's field
 // decides alone; once it is, BOTH must agree before something is
 // called new. A site with no such field: our history alone, once
-// mature; before that, nothing is new (the conservative side — a
-// missing badge, never a false one).
+// mature; before that the item is "unknown" — shown as a plain
+// "Allahindlus" with no new/permanent split (the owner's rule for
+// Klick, Apotheka, Euronics until 30 days of our own history exist).
 //
 // Pure — no I/O. Returns { status, refPrice, newPercent }:
-//   status     "new" | "permanent"
+//   status     "new" | "permanent" | "unknown"
 //   refPrice   the 30-day lowest the item was judged against (null
 //              when neither source has one yet)
 //   newPercent the discount measured against refPrice (null unless new)
@@ -39,11 +40,10 @@ function classifyDiscount(item, history, todayStr) {
   const siteSaysNew = siteMin !== null && item.salePrice < siteMin;
   const ourSaysNew = ourPrior !== null && item.salePrice < ourPrior;
 
-  let isNew;
-  if (siteMin !== null) isNew = historyMature ? siteSaysNew && ourSaysNew : siteSaysNew;
-  else isNew = historyMature ? ourSaysNew : false;
+  if (siteMin === null && !historyMature) return { status: "unknown", refPrice: null, newPercent: null };
 
-  const refPrice = siteMin !== null ? (historyMature && ourPrior !== null ? Math.min(siteMin, ourPrior) : siteMin) : historyMature ? ourPrior : null;
+  const isNew = siteMin !== null ? (historyMature ? siteSaysNew && ourSaysNew : siteSaysNew) : ourSaysNew;
+  const refPrice = siteMin !== null ? (historyMature && ourPrior !== null ? Math.min(siteMin, ourPrior) : siteMin) : ourPrior;
   const newPercent = isNew && refPrice ? Math.round((1 - item.salePrice / refPrice) * 100) : null;
   return { status: isNew ? "new" : "permanent", refPrice, newPercent };
 }

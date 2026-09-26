@@ -29236,6 +29236,7 @@
         "cardPrice": 1.09,
         "cardName": "Partner",
         "size": "1000g",
+        "ean": "4740113092306",
         "storeUnitPrice": 1.31,
         "storeName": "Hapendatud pett, FARMI, 1 kg"
       }
@@ -29259,6 +29260,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/keefir-laktoosivaba-hellus-1-kg",
         "size": "1000g",
+        "ean": "4740036014034",
         "storeUnitPrice": 2.12,
         "storeName": "Keefir laktoosivaba, HELLUS, 1 kg"
       }
@@ -29282,6 +29284,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hapendatud-taispiim-3-6-4-2-farmi-1-kg",
         "size": "1000g",
+        "ean": "4740113090470",
         "storeUnitPrice": 1.92,
         "storeName": "Hapendatud täispiim 3,6-4,2%, FARMI, 1 kg"
       }
@@ -29305,8 +29308,35 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rjazenka-farmi-400-g",
         "size": "400g",
+        "ean": "4740113097431",
         "storeUnitPrice": 2.53,
         "storeName": "Rjaženka, FARMI, 400 g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Gefilus Keefir jääkohvi 300g",
+    "category": "Kefir & buttermilk",
+    "prices": {
+      "rimi": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/piimatooted-munad-juust/hapupiim-ja-keefir/keefir-jaakohvi-gefilus-300g/p/996933",
+        "size": "300g",
+        "storeUnitPrice": 4.3,
+        "storeName": "Keefir jääkohvi Gefilus 300g"
+      },
+      "selver": {
+        "price": 1.24,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/keefir-jaakohvi-gefilus-300-g",
+        "cardPrice": 0.99,
+        "cardName": "Partner",
+        "size": "300g",
+        "ean": "4740125383119",
+        "storeUnitPrice": 4.13,
+        "storeName": "Keefir jääkohvi, GEFILUS, 300 g"
       }
     },
     "matchedVia": "automatic"

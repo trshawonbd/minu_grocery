@@ -32241,6 +32241,96 @@
     "matchedVia": "ean"
   },
   {
+    "name": "Lipton Must tee yellow label 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-tee-yellow-label-lipton-25-x-2-g",
+        "size": "25x2g",
+        "storeUnitPrice": 49.8,
+        "storeName": "Must tee Yellow Label LIPTON 25x2g"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-yellow-label-252g/",
+        "size": "25x2g",
+        "ean": "5063270118870",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8717163825976.jpg",
+        "storeName": "Lipton Yellow Label must tee 25*2g"
+      },
+      "selver": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-tee-yellow-label-niidiga-kotis-25pk-lipton-50-g",
+        "size": "50g",
+        "ean": "5063270118870",
+        "storeUnitPrice": 35,
+        "storeName": "Must tee Yellow Label niidiga kotis 25pk, LIPTON, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lipton Must tee yellow label 50x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 4.85,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-tee-yellow-label-lipton-50-x-2-g",
+        "size": "50x2g",
+        "storeUnitPrice": 48.5,
+        "storeName": "Must tee Yellow Label LIPTON 50x2g"
+      },
+      "coop": {
+        "price": 3.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-yellow-label-502g/",
+        "size": "50x2g",
+        "ean": "5063270118689",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8711200461646.png",
+        "storeName": "Must tee Lipton Yellow Label 50*2g"
+      },
+      "selver": {
+        "price": 4.46,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-tee-yellow-label-niidiga-kotis-50pk-lipton-100-g",
+        "size": "100g",
+        "ean": "5063270118689",
+        "storeUnitPrice": 44.6,
+        "storeName": "Must tee Yellow Label niidiga kotis 50pk, LIPTON, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hyleys Must tee passion fruit 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-tee-passion-fruit-hyleys-25-x-2-g",
+        "size": "25x2g",
+        "storeUnitPrice": 31,
+        "storeName": "Must tee Passion Fruit HYLEYS 25x2g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hyleys-must-tee-passion-fruit-252g/",
+        "size": "25x2g",
+        "ean": "4791045003410",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4791045003410.png",
+        "storeName": "Hyleys must tee Passion Fruit 25*2g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
     "name": "Basilur Must tee leaf of ceylon 100g",
     "category": "Tea & cocoa",
     "prices": {
@@ -32276,6 +32366,15 @@
         "regularPrice": 2.59,
         "storeName": "Must tee mustasõstramaits.DILMAH,20x1,5g"
       },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-mustsostra-201-5g/",
+        "size": "20x1.5g",
+        "ean": "9312631142051",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9312631142051.jpg",
+        "storeName": "Must tee Dilmah 20*1.5g mustsõstramaitseline"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -32283,9 +32382,18 @@
         "size": "20x1.5g",
         "storeUnitPrice": 86.33,
         "storeName": "Tee must mustsõstramaitseline Dilmah 20x1,5g"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/mustasostramaitseline-must-tee-niidiga-kotis-20pk-dilmah-30-g",
+        "size": "30g",
+        "ean": "9312631142051",
+        "storeUnitPrice": 87.67,
+        "storeName": "Mustasõstramaitseline must tee niidiga kotis 20pk, DILMAH, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dilmah Must tee karamelli 20x1.5g",
@@ -32300,6 +32408,15 @@
         "regularPrice": 2.59,
         "storeName": "Must tee karamellimaits.DILMAH,20x1,5g"
       },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dilmah-must-tee-201-5g-karamellimaits/",
+        "size": "20x1.5g",
+        "ean": "9312631142075",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/9312631142075.jpg",
+        "storeName": "Must tee Dilmah 20*1.5g karamellimaitseline"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -32307,9 +32424,18 @@
         "size": "20x1.5g",
         "storeUnitPrice": 86.33,
         "storeName": "Tee must karamellimaitseline Dilmah 20x1,5g"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karamellimaitseline-tseiloni-must-tee-niidiga-kotis-20pk-dilmah-30-g",
+        "size": "30g",
+        "ean": "9312631142075",
+        "storeUnitPrice": 87.67,
+        "storeName": "Karamellimaitseline Tseiloni must tee niidiga kotis 20pk, DILMAH, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Dilmah Must tee earl grey 20x1.5g",
@@ -32324,6 +32450,15 @@
         "regularPrice": 2.59,
         "storeName": "Must tee Earl Grey DILMAH,20x1,5g"
       },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dilmah-earl-grey-must-tee-201-5g/",
+        "size": "20x1.5g",
+        "ean": "9312631142105",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/9312631142105.jpg",
+        "storeName": "Must tee Dilmah Earl Grey 20*1.5g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -32331,9 +32466,52 @@
         "size": "20x1.5g",
         "storeUnitPrice": 86.33,
         "storeName": "Tee must Earl Grey Dilmah 20x1,5g"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/earl-grey-tee-niidiga-kotis-20pk-dilmah-30-g",
+        "size": "30g",
+        "ean": "9312631142105",
+        "storeUnitPrice": 87.67,
+        "storeName": "Earl Grey tee niidiga kotis 20pk, DILMAH, 30 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dilmah Must tee sidruni 20x1.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-tee-sidrunimaits-dilmah-20-x-1-5-g",
+        "size": "20x1.5g",
+        "storeUnitPrice": 51.66,
+        "regularPrice": 2.59,
+        "storeName": "Must tee sidrunimaits.DILMAH,20x1,5g"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-sidruni-201-5g/",
+        "size": "20x1.5g",
+        "ean": "9312631142129",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9312631142129.jpg",
+        "storeName": "Must tee Dilmah 20*1.5g sidrunimaitseline"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-tee-sidrunimaitseline-dilmah-30-g",
+        "size": "30g",
+        "ean": "9312631142129",
+        "storeUnitPrice": 87.67,
+        "storeName": "Must tee sidrunimaitseline, DILMAH, 30 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Dilmah Must tee vaarika 20x1.5g",
@@ -32348,6 +32526,15 @@
         "regularPrice": 2.59,
         "storeName": "Must tee vaarikamaits.DILMAH,20x1,5g"
       },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-vaarika-201-5g/",
+        "size": "20x1.5g",
+        "ean": "9312631142211",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/9312631142211.jpg",
+        "storeName": "Must tee Dilmah 20*1.5g vaarikamaitseline"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -32355,6 +32542,64 @@
         "size": "20x1.5g",
         "storeUnitPrice": 86.33,
         "storeName": "Tee must vaarikamaitseline Dilmah 20x1,5g"
+      },
+      "selver": {
+        "price": 2.63,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tee-vaarikamaitseline-dilmah-30-g",
+        "size": "30g",
+        "ean": "9312631142211",
+        "storeUnitPrice": 87.67,
+        "storeName": "Tee vaarikamaitseline, DILMAH, 30 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dilmah Must tee ingveri mee 20x1.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-tee-dilmah-ingveri-mee-20-x-1-5-g",
+        "size": "20x1.5g",
+        "storeUnitPrice": 51.66,
+        "regularPrice": 2.59,
+        "storeName": "Must tee DILMAH ingveri-mee 20x1.5g"
+      },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dilmah-must-tee-201-5g-ingveri-meemaits/",
+        "size": "20x1.5g",
+        "ean": "9312631142112",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/9312631142112.jpg",
+        "storeName": "Must tee Dilmah 20*1.5g ingveri-meemaitseline"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Lipton Must tee yellow label 100x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 7.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-tee-yellow-label-lipton-100-x-2-g",
+        "size": "100x2g",
+        "storeUnitPrice": 38.75,
+        "storeName": "Must tee Yellow Label LIPTON 100x2g"
+      },
+      "coop": {
+        "price": 7.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lipton-yellow-label-must-tee-1002g/",
+        "size": "100x2g",
+        "ean": "5063270119068",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/09/5900300550258.PNG",
+        "storeName": "Must tee Lipton Yellow Label 100*2g"
       }
     },
     "matchedVia": "automatic"
@@ -32406,6 +32651,39 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Greenfield Must tee golden ceylon 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/must-tee-greenfield-golden-ceylon-25-x-2-g",
+        "size": "25x2g",
+        "storeUnitPrice": 49,
+        "storeName": "Must tee GREENFIELD Golden Ceylon,25x2g"
+      },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/greenfield-golden-ceylon-m-tee-252g/",
+        "size": "25x2g",
+        "ean": "4751042360107",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4751042360107.png",
+        "storeName": "Must tee Greenfield Golden Ceylon 25*2g"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-tee-golden-ceylon-25-x-2-g-greenfield-50-g",
+        "size": "25x2g",
+        "ean": "4751042360107",
+        "storeUnitPrice": 48.6,
+        "storeName": "Must tee Golden Ceylon 25 x 2 g, GREENFIELD, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Lipton Must tee earl grey 20x1.6g",
     "category": "Tea & cocoa",
     "prices": {
@@ -32440,6 +32718,15 @@
         "storeUnitPrice": 63.9,
         "storeName": "Must tee TWININGS Lady Grey 100g"
       },
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/twinings-lady-grey-must-tee-100g/",
+        "size": "100g",
+        "ean": "0070177086671",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/0070177086671.png",
+        "storeName": "Twinings Lady Grey must tee 100g"
+      },
       "rimi": {
         "price": 6.39,
         "currency": "EUR",
@@ -32472,6 +32759,30 @@
         "size": "50x2g",
         "storeUnitPrice": 40.9,
         "storeName": "Tee must Ceylon Loyd 50x2g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Hyleys Roheline tee 25x1.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/roheline-tee-hyleys-25-x-1-5-g",
+        "size": "25x1.5g",
+        "storeUnitPrice": 31.73,
+        "storeName": "Roheline tee HYLEYS 25x1.5g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hyleys-roheline-tee-251-5g/",
+        "size": "25x1.5g",
+        "ean": "4791045002628",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4791045002628.png",
+        "storeName": "Hyleys roheline tee 25*1.5g"
       }
     },
     "matchedVia": "automatic"
@@ -32523,6 +32834,216 @@
     "matchedVia": "automatic"
   },
   {
+    "name": "Teekanne Kummelitee 20x1.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kummelitee-teekanne-20-x-1-5-g",
+        "cardPrice": 2.09,
+        "cardName": "Aitäh",
+        "size": "20x1.5g",
+        "storeUnitPrice": 69.66,
+        "storeName": "Kummelitee TEEKANNE 20x1.5g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kummelitee-201-5g/",
+        "size": "20x1.5g",
+        "ean": "4009300522782",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4009300522782.png",
+        "storeName": "Kummelitee Teekanne 20*1.5g"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kummelitee-niidiga-kotis-20pk-teekanne-30-g",
+        "size": "30g",
+        "ean": "4009300522782",
+        "storeUnitPrice": 96.33,
+        "storeName": "Kummelitee niidiga kotis 20pk, TEEKANNE, 30 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne Piparmünditee 20x2.25g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piparmunditee-teekanne-20-x-2-25-g",
+        "cardPrice": 2.09,
+        "cardName": "Aitäh",
+        "size": "20x2.25g",
+        "storeUnitPrice": 46.44,
+        "storeName": "Piparmünditee TEEKANNE 20x2.25g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/piparmunditee-202-25g/",
+        "size": "20x2.25g",
+        "ean": "4009300522768",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4009300522768.png",
+        "storeName": "Piparmünditee Teekanne 20*2.25g"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piparmunditee-niidiga-kotis-20pk-teekanne-45-g",
+        "size": "45g",
+        "ean": "4009300522768",
+        "storeUnitPrice": 64.22,
+        "storeName": "Piparmünditee niidiga kotis 20pk, TEEKANNE, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne Melissitee 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/melissitee-teekanne-20-x-2-g",
+        "cardPrice": 2.09,
+        "cardName": "Aitäh",
+        "size": "20x2g",
+        "storeUnitPrice": 52.25,
+        "storeName": "Melissitee TEEKANNE 20x2g"
+      },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teekanne-melissitee-202g/",
+        "size": "20x2g",
+        "ean": "4009300005902",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4009300005902.png",
+        "storeName": "Melissitee Teekanne 20*2g"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/melissitee-niidiga-kotis-20pk-teekanne-40-g",
+        "size": "40g",
+        "ean": "4009300005902",
+        "storeUnitPrice": 72.25,
+        "storeName": "Melissitee niidiga kotis 20pk, TEEKANNE, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Loyd Marjatee kirsi 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/marjatee-loyd-kirsimaitseline-20-x-2-g",
+        "size": "20x2g",
+        "storeUnitPrice": 68.75,
+        "storeName": "Marjatee LOYD kirsimaitseline 20x2g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/loyd-marjatee-202g-kirsimaitseline/",
+        "size": "20x2g",
+        "ean": "5900396026392",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/5900396026392.png",
+        "storeName": "Marjatee Loyd 20*2g kirsimaitseline"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Herba Apteegitillitee 25x1.75g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/apteegitillitee-herba-25-x-1-75-g",
+        "size": "25x1.75g",
+        "storeUnitPrice": 36.34,
+        "storeName": "Apteegitillitee HERBA 25x1.75g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herba-apteegitillitee-251-75g/",
+        "size": "25x1.75g",
+        "ean": "4009300018209",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4009300018209.png",
+        "storeName": "Apteegitillitee Herba 25*1.75g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Herba Kummelitee 25x1.25g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kummelitee-herba-25-x-1-25-g",
+        "size": "25x1.25g",
+        "storeUnitPrice": 50.88,
+        "storeName": "Kummelitee HERBA 25x1.25g"
+      },
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herba-kummelitee-251-25g/",
+        "size": "25x1.25g",
+        "ean": "4009300018193",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4009300018193.png",
+        "storeName": "Kummelitee Herba 25*1.25g"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Herba Piparmünditee 25x1.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/piparmunditee-herba-25-x-1-5-g",
+        "size": "25x1.5g",
+        "storeUnitPrice": 42.4,
+        "storeName": "Piparmünditee HERBA 25x1.5g"
+      },
+      "coop": {
+        "price": 1.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herba-piparmunditee-251-5g/",
+        "size": "25x1.5g",
+        "ean": "4009300018186",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4009300018186.png",
+        "storeName": "Piparmünditee Herba 25*1.5g"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/piparmunditee-niidiga-kotis-25pk-herba-37-5-g",
+        "size": "37.5g",
+        "ean": "4009300018186",
+        "storeUnitPrice": 41.33,
+        "storeName": "Piparmünditee niidiga kotis 25pk, HERBA, 37,5 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
     "name": "Nesquik Lahustuv jook maasika 350g",
     "category": "Tea & cocoa",
     "prices": {
@@ -32541,6 +33062,7 @@
         "cardPrice": 3.59,
         "cardName": "Partner",
         "size": "350g",
+        "ean": "8445291306288",
         "storeUnitPrice": 13.97,
         "storeName": "Lahustuv jook maasikamaitseline, NESQUIK, 350 g"
       }
@@ -32559,16 +33081,26 @@
         "storeUnitPrice": 17.27,
         "storeName": "Lahustuv kakaojook NESQUIK 150g"
       },
+      "coop": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-lah-kakaojoogipulber-nesquik-150g/",
+        "size": "150g",
+        "ean": "8445291036635",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/11/8445291036635.png",
+        "storeName": "Lahustuv kakaojoogipulber Nesquik Nestle 150g"
+      },
       "selver": {
         "price": 2.29,
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-kakaojook-nesquik-150-g",
         "size": "150g",
+        "ean": "8445291036635",
         "storeUnitPrice": 15.27,
         "storeName": "Lahustuv kakaojook, NESQUIK, 150 g"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Nesquik Lahustuv kakaojook 300g",
@@ -32582,16 +33114,940 @@
         "storeUnitPrice": 12.97,
         "storeName": "Lahustuv kakaojook NESQUIK 300g"
       },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/nestle-lah-kakaojoogipulber-nesquik-300g/",
+        "size": "300g",
+        "ean": "8445291227613",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/09/8445291227613.png",
+        "storeName": "Lahustuv kakaojoogipulber Nesquik Nestle 300g"
+      },
       "selver": {
         "price": 4.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/lahustuv-kakaojook-nesquik-300-g",
         "size": "300g",
+        "ean": "8445291227613",
         "storeUnitPrice": 13.97,
         "storeName": "Lahustuv kakaojook, NESQUIK, 300 g"
       }
     },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ahmad tea Must tee earl grey 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ahmad-tea-earl-grey-must-tee-252g/",
+        "size": "25x2g",
+        "ean": "0054881009690",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/54881009690.png",
+        "storeName": "Must tee Ahmad Tea Earl Grey 25*2g"
+      },
+      "rimi": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/must-tee/must-tee-earl-grey-ahmad-tea-25x2g/p/153419",
+        "size": "25x2g",
+        "storeUnitPrice": 45,
+        "storeName": "Must tee Earl Grey Ahmad Tea 25x2g"
+      },
+      "selver": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-tee-earl-grey-niidiga-kotis-25pk-ahmad-50-g",
+        "size": "50g",
+        "ean": "0054881009690",
+        "storeUnitPrice": 39.8,
+        "storeName": "Must tee Earl Grey niidiga kotis 25pk, AHMAD, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Twinings earl grey must tee 100g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/twinings-earl-grey-must-tee-100g/",
+        "size": "100g",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/70177029623.png",
+        "storeName": "Twinings Earl Grey must tee 100g"
+      },
+      "rimi": {
+        "price": 6.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/joogid/kohv-tee-kakao/must-tee/tee-must-earl-grey-twinings-100g/p/115834",
+        "size": "100g",
+        "storeUnitPrice": 63.9,
+        "storeName": "Tee must Earl Grey Twinings 100g"
+      }
+    },
     "matchedVia": "automatic"
+  },
+  {
+    "name": "Loyd Marjatee metsamarja 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-metsamarja-202g/",
+        "size": "20x2g",
+        "ean": "5900396022455",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900396022455.png",
+        "storeName": "Marjatee Loyd 20*2g metsamarjamaitseline"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/metsamarjatee-puramiid-kotis-20pk-loyd-40-g",
+        "size": "40g",
+        "ean": "5900396022455",
+        "storeUnitPrice": 68.75,
+        "storeName": "Metsamarjatee püramiid kotis 20pk, LOYD, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Ahmad tea Roheline tee green 100g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ahmad-tea-green-tea-roheline-tee-100g/",
+        "size": "100g",
+        "ean": "0054881008020",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/54881008020.png",
+        "storeName": "Roheline tee Ahmad Tea Green Tea 100g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/roheline-purutee-ahmad-100-g",
+        "cardPrice": 2.59,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "0054881008020",
+        "storeUnitPrice": 32.9,
+        "storeName": "Roheline purutee, AHMAD, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Loyd Marjatee vaarika maasika 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puuv-tee-vaar-maas-202g/",
+        "size": "20x2g",
+        "ean": "5900396016164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5900396016164.png",
+        "storeName": "Marjatee Loyd 20*2g vaarika-maasikamaitseline"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljatee-vaarikas-ja-maasikas-puramiid-kotis-20pk-loyd-40-g",
+        "size": "40g",
+        "ean": "5900396016164",
+        "storeUnitPrice": 68.75,
+        "storeName": "Puuviljatee vaarikas ja maasikas püramiid kotis 20pk, LOYD, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Loyd puuviljatee ananassi pirni 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/loyd-puuviljatee-202g-ananassi-pirni/",
+        "size": "20x2g",
+        "ean": "5900396017277",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/04/5900396017277.png",
+        "storeName": "Loyd puuviljatee 20*2g ananassi-pirni"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljatee-ananass-pirn-loyd-40-g",
+        "size": "40g",
+        "ean": "5900396017277",
+        "storeUnitPrice": 68.75,
+        "storeName": "Puuviljatee Ananass & Pirn, LOYD, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne stomach smoother tee niidiga 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-stomach-smoother202/",
+        "size": "20x2g",
+        "ean": "4009300006893",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4009300006893.png",
+        "storeName": "Teekanne Stomach Smoother tee 20*2g"
+      },
+      "selver": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taimetee-stomach-smoother-niidiga-kotis-20pk-teekanne-40-g",
+        "size": "40g",
+        "ean": "4009300006893",
+        "storeUnitPrice": 73.75,
+        "storeName": "Taimetee Stomach Smoother niidiga kotis 20pk, TEEKANNE, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne Hispaania apelsinitee niidiga 20x2.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teekanne-hispaania-apelsinitee-202-5g/",
+        "size": "20x2.5g",
+        "ean": "4009300009863",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/07/4009300009863.png",
+        "storeName": "Hispaania apelsinitee Teekanne 20*2.5g"
+      },
+      "selver": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljatee-hispaania-apelsin-niidiga-kotis-20pk-teekanne-50-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "50g",
+        "ean": "4009300009863",
+        "storeUnitPrice": 59,
+        "storeName": "Puuviljatee Hispaania apelsin niidiga kotis 20pk, TEEKANNE, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne tee ingveri apelsini r niidiga 20x1.75g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-ingv-apels-201-75g/",
+        "size": "20x1.75g",
+        "ean": "4009300524281",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4009300524281.png",
+        "storeName": "Teekanne r/tee 20*1.75g ingveri-apelsini"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/roheline-tee-ingveri-apelsini-niidiga-kotis-20pk-teekanne-35-g",
+        "size": "35g",
+        "ean": "4009300524281",
+        "storeUnitPrice": 85.43,
+        "storeName": "Roheline tee ingveri-apelsini niidiga kotis 20pk, TEEKANNE, 35 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne Tee ingveri sidruni niidiga 20x1.75g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-ingveri-sidr201-75g/",
+        "size": "20x1.75g",
+        "ean": "4009300525080",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4009300525080.jpg",
+        "storeName": "Tee Teekanne 20*1.75g ingveri-sidruni"
+      },
+      "selver": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taimetee-ingveri-sidruni-niidiga-kotis-20pk-teekanne-35-g",
+        "size": "35g",
+        "ean": "4009300525080",
+        "storeUnitPrice": 82.57,
+        "storeName": "Taimetee Ingveri-sidruni niidiga kotis 20pk, TEEKANNE, 35 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põhjala teetalu Taimetee piparmünt mahe 10x1g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pohjala-teetalu-taimetee-piparmunt-101g/",
+        "size": "10x1g",
+        "ean": "4744240010370",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4744240010370.png",
+        "storeName": "Taimetee Põhjala Teetalu Piparmünt 10*1g"
+      },
+      "selver": {
+        "price": 4.22,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taimetee-piparmunt-mahe-10pk-pohjala-teetalu-10g",
+        "size": "10g",
+        "ean": "4744240010370",
+        "storeUnitPrice": 422,
+        "storeName": "Taimetee Piparmünt, mahe 10pk, PÕHJALA TEETALU, 10g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Hyleys m tee english aristocratic 100g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hyleys-m-tee-english-aristocratic-100g/",
+        "size": "100g",
+        "ean": "4791045001454",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/04/4791045001454.png",
+        "storeName": "Hyleys m/tee English Aristocratic 100g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-purutee-english-aristocratic-hyleys-100-g",
+        "size": "100g",
+        "ean": "4791045001454",
+        "storeUnitPrice": 18.9,
+        "storeName": "Must purutee English Aristocratic, HYLEYS, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põhjala teetalu Marjatee mündine must sõst 10x2.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 6.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-must-sostar-102-5g/",
+        "size": "10x2.5g",
+        "ean": "4744240010127",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744240010127-1.png",
+        "storeName": "Marjatee Põhjala Teetalu 10*2.5g mündine must sõst"
+      },
+      "selver": {
+        "price": 6.25,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marjatee-mundine-mustsostar-puramiid-kotis-10pk-pohjala-teetalu-25-g",
+        "size": "25g",
+        "ean": "4744240010127",
+        "storeUnitPrice": 250,
+        "storeName": "Marjatee Mündine Mustsõstar püramiid kotis 10pk, PÕHJALA TEETALU, 25 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põhjala teetalu Marjatee mündine vaarikas 10x2.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 7.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-vaarikas-102-5g/",
+        "size": "10x2.5g",
+        "ean": "4744240010158",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4744240010158-2.png",
+        "storeName": "Marjatee Põhjala Teetalu Mündine Vaarikas 10*2.5g"
+      },
+      "selver": {
+        "price": 7.27,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/marjatee-mundine-vaarikas-pohjala-teetalu-25-g",
+        "size": "25g",
+        "ean": "4744240010158",
+        "storeUnitPrice": 290.8,
+        "storeName": "Marjatee Mündine Vaarikas, PÕHJALA TEETALU, 25 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne vahemere virsiku tee niidiga 20x2.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-vahemere-202-5g/",
+        "size": "20x2.5g",
+        "ean": "4009300014164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4009300014164.png",
+        "storeName": "Teekanne Vahemere virsiku tee 20*2.5g"
+      },
+      "selver": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vahemere-virsiku-puuviljatee-niidiga-kotis-20pk-teekanne-50-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "50g",
+        "ean": "4009300014164",
+        "storeUnitPrice": 59,
+        "storeName": "Vahemere virsiku puuviljatee niidiga kotis 20pk, TEEKANNE, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Põhjala teetalu Põhjala kummel tee mahe 16x0.8g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 5.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/pohjala-teetalu-tee-kummel-160-8g-oko/",
+        "size": "16x0.8g",
+        "ean": "4744240010172",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4744240010172.png",
+        "storeName": "Põhjala Teetalu tee Kummel 16*0.8g öko"
+      },
+      "selver": {
+        "price": 5.23,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taimetee-kummel-mahe-16pk-pohjala-teetalu-12-8-g",
+        "size": "12.8g",
+        "ean": "4744240010172",
+        "storeUnitPrice": 408.59,
+        "storeName": "Taimetee Kummel, mahe 16pk, PÕHJALA TEETALU, 12,8 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne Tee rootsi mustika niidiga 20x2.25g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teekanne-rootsi-mustika-tee-202-25g/",
+        "size": "20x2.25g",
+        "ean": "4009300016946",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4009300016946.png",
+        "storeName": "Tee Teekanne Rootsi mustika tee 20*2.25g"
+      },
+      "selver": {
+        "price": 2.95,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljatee-rootsi-mustikatee-niidiga-kotis-20pk-teekanne-45-g",
+        "cardPrice": 2.49,
+        "cardName": "Partner",
+        "size": "45g",
+        "ean": "4009300016946",
+        "storeUnitPrice": 65.56,
+        "storeName": "Puuviljatee Rootsi mustikatee niidiga kotis 20pk, TEEKANNE, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Herba Tee kibuvitsa hibiskitee niidiga 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herba-tee-252g-kibuvitsa-hibiskitee/",
+        "size": "25x2g",
+        "ean": "4009300018155",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4009300018155.png",
+        "storeName": "Tee Herba 25*2g kibuvitsa-hibiskitee"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kibuvitsa-hibiskitee-niidiga-kotis-25pk-herba-50g",
+        "size": "50g",
+        "ean": "4009300018155",
+        "storeUnitPrice": 31,
+        "storeName": "Kibuvitsa-hibiskitee niidiga kotis 25pk, HERBA, 50g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Herba Tee puuvilja niidiga 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/herba-tee-252g-puuvilja/",
+        "size": "25x2g",
+        "ean": "4009300018148",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/01/4009300018148.png",
+        "storeName": "Tee Herba 25*2g puuvilja"
+      },
+      "selver": {
+        "price": 1.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljatee-niidiga-kotis-25pk-herba-50g",
+        "size": "50g",
+        "ean": "4009300018148",
+        "storeUnitPrice": 31,
+        "storeName": "Puuviljatee niidiga kotis 25pk, HERBA, 50g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Belin Puuviljatee ingveri astelpaju 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 1.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/belin-puuviljatee202g-ingveri-astelpaju/",
+        "size": "20x2g",
+        "ean": "5900675007845",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/5900675006145.png",
+        "storeName": "Puuviljatee Belin 20*2g ingveri-astelpaju"
+      },
+      "selver": {
+        "price": 1.01,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljatee-ingveri-astelpaju-20-2g-belin-40g",
+        "size": "20x2g",
+        "ean": "5900675007845",
+        "storeUnitPrice": 25.25,
+        "storeName": "Puuviljatee Ingveri-astelpaju 20*2g, BELIN, 40g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne Puuviljatee sweet kiss 20x2.25g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teekanne-puuviljatee-sweet-kiss-202-25g/",
+        "size": "20x2.25g",
+        "ean": "4009300019374",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/12/4009300019374.png",
+        "storeName": "Puuviljatee Sweet Kiss Teekanne 20*2.25g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/puuviljatee-sweet-kiss-puuviljatee-teekanne-45-g",
+        "size": "45g",
+        "ean": "4009300019374",
+        "storeUnitPrice": 66.44,
+        "storeName": "Puuviljatee Sweet Kiss puuviljatee, TEEKANNE, 45 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Greenfield Must tee earl grey fantasy 50 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/greenfield-earl-grey-fantasy-m-tee-252g/",
+        "size": "25x2g",
+        "ean": "4751042360114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4751042360114.png",
+        "storeName": "Must tee Greenfield Earl Grey Fantasy 25*2g"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/earl-grey-fantasy-must-tee-25-x-2-g-greenfield-50-g",
+        "size": "25x2g",
+        "ean": "4751042360114",
+        "storeUnitPrice": 48.6,
+        "storeName": "Earl Grey Fantasy must tee 25 x 2 g, GREENFIELD, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Greenfield Roheline tee flying dragon 50 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/greenfield-flying-dragon-roh-tee-252g/",
+        "size": "25x2g",
+        "ean": "4751042360121",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/4751042360121.png",
+        "storeName": "Roheline tee Greenfield Flying Dragon 25*2g"
+      },
+      "selver": {
+        "price": 2.43,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/roheline-tee-flying-dragon-25-x-2-g-greenfield-50-g",
+        "size": "25x2g",
+        "ean": "4751042360121",
+        "storeUnitPrice": 48.6,
+        "storeName": "Roheline tee Flying Dragon 25 x 2 g, GREENFIELD, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Loyd Taime ingveri ja mee puuv sidruni tee 20x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-ingv-sidr-mee-202g/",
+        "size": "20x2g",
+        "ean": "5900396018601",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/5900396018601.png",
+        "storeName": "Taime-ja puuv.tee Loyd 20*2g sidruni-ingveri-mee"
+      },
+      "selver": {
+        "price": 2.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vurtsitee-ingver-sidrun-loyd-40-g",
+        "size": "40g",
+        "ean": "5900396018601",
+        "storeUnitPrice": 68.75,
+        "storeName": "Vürtsitee ingver-sidrun, LOYD, 40 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Shan wai shan Matcha tee 80g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 6.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/shan-wai-shan-matcha-tee-80g/",
+        "size": "80g",
+        "ean": "6922163621264",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/6922163621264.png",
+        "storeName": "Matcha tee Shan Wai Shan 80g"
+      },
+      "selver": {
+        "price": 6.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/matcha-tee-shan-wai-shan-80-g",
+        "size": "80g",
+        "ean": "6922163621264",
+        "storeUnitPrice": 79.88,
+        "storeName": "Matcha tee, SHAN WAI SHAN, 80 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Teekanne immun aktiv c tsin vit tsingiga 18x1.8g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/teekanne-immun-aktiv-181-8g-c-vit-tsin/",
+        "size": "18x1.8g",
+        "ean": "4009300020905",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/03/4009300020905.png",
+        "storeName": "Teekanne Immun Aktiv 18*1.8g C vit.-tsin"
+      },
+      "selver": {
+        "price": 3.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/taimetee-immun-aktiv-vitamiin-c-ja-tsingiga-18pk-teekanne-32-4-g",
+        "size": "32.4g",
+        "ean": "4009300020905",
+        "storeUnitPrice": 118.44,
+        "storeName": "Taimetee Immun Aktiv vitamiin C ja tsingiga 18pk, TEEKANNE, 32,4 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lipton Must tee sidruniga 20x1.7g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-sidruniga-201-7g/",
+        "size": "20x1.7g",
+        "ean": "5063270110911",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8722700140528.jpg",
+        "storeName": "Must tee Lipton 20*1.7g sidruniga"
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-tee-sidruniga-puramiid-kotis-20pk-lipton-34-g",
+        "size": "34g",
+        "ean": "5063270110911",
+        "storeUnitPrice": 91.18,
+        "storeName": "Must tee sidruniga püramiid kotis 20pk, LIPTON, 34 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lipton Must tee metsamarjadega 20x1.7g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-metsamarja-201-7g/",
+        "size": "20x1.7g",
+        "ean": "5063270110881",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8722700140542.jpg",
+        "storeName": "Must tee Lipton 20*1.7g metsamarjadega"
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/must-tee-metsamarja-maitseline-puramiid-kotis-20pk-lipton-34-g",
+        "size": "34g",
+        "ean": "5063270110881",
+        "storeUnitPrice": 91.18,
+        "storeName": "Must tee metsamarja maitseline püramiid kotis 20pk, LIPTON, 34 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lipton Roh tee apelsini mandariini 20x1.8g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lipton-roh-tee-201-8g-mandarin-apelsin/",
+        "size": "20x1.8g",
+        "ean": "5063270108376",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/8722700221906.png",
+        "storeName": "Roh.tee Lipton 20*1.8g mandariini-apelsinimaits."
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/roheline-tee-mandarini-apelsini-puramiid-kotis-20pk-lipton-36-g",
+        "size": "36g",
+        "ean": "5063270108376",
+        "storeUnitPrice": 86.11,
+        "storeName": "Roheline tee mandarini/apelsini püramiid kotis 20pk, LIPTON, 36 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lipton Marjatee vaarika aroonia 20x1.6g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lipton-marjatee-201-6g-vaarika-aroonia/",
+        "size": "20x1.6g",
+        "ean": "8720608014064",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/8720608014064.png",
+        "storeName": "Marjatee Lipton 20*1.6g vaarika-aroonia"
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaarika-aroonia-tee-lipton-32g",
+        "size": "32g",
+        "ean": "8720608014064",
+        "storeUnitPrice": 96.88,
+        "storeName": "Vaarika-aroonia tee, LIPTON, 32g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dilmah Must purutee ceylon 100g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dilmah-must-purutee-100g/",
+        "size": "100g",
+        "ean": "9312631809527",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/03/9312631809527.png",
+        "storeName": "Must purutee Dilmah Ceylon 100g"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ceyloni-must-lehetee-dilmah-100-g",
+        "size": "100g",
+        "ean": "9312631809527",
+        "storeUnitPrice": 24.5,
+        "storeName": "Ceyloni must lehetee, DILMAH, 100 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lipton Must tee earl grey bergamoti sidruni niidiga 25x2g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tee-earl-grey-lemon252g/",
+        "size": "25x2g",
+        "ean": "8720608011827",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8712566127146.jpg",
+        "storeName": "Must tee Lipton Earl Grey 25*2g bergamoti-sidruni"
+      },
+      "selver": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/tee-earl-grey-lemon-niidiga-kotis-25pk-lipton-50-g",
+        "size": "50g",
+        "ean": "8720608011827",
+        "storeUnitPrice": 51,
+        "storeName": "Tee Earl Grey Lemon niidiga kotis 25pk, LIPTON, 50 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Lipton Roh tee vaarika granaatõuna 20x1.4g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lipton-roh-tee-201-4g-vaarika-gr-ouna/",
+        "size": "20x1.4g",
+        "ean": "5063270108413",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/8712100637810.png",
+        "storeName": "Roh.tee Lipton 20*1.4g vaarika-granaatõuna"
+      },
+      "selver": {
+        "price": 3.1,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/roheline-tee-vaarika-granaatoouna-puramiid-kotis-20pk-lipton-28-g",
+        "size": "28g",
+        "ean": "5063270108413",
+        "storeUnitPrice": 110.71,
+        "storeName": "Roheline tee vaarika/granaatoõuna püramiid kotis 20pk, LIPTON, 28 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Dilmah Roh tee sidruniga 20x1.5g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/dilmah-roh-tee-201-5g-sidruniga/",
+        "size": "20x1.5g",
+        "ean": "9312631163506",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/11/9312631163506.jpg",
+        "storeName": "Roh.tee Dilmah 20*1.5g sidruniga"
+      },
+      "selver": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/roheline-tee-sidrunimaitseline-niidiga-kotis-20pk-dilmah-30g",
+        "size": "30g",
+        "ean": "9312631163506",
+        "storeUnitPrice": 94.67,
+        "storeName": "Roheline tee sidrunimaitseline niidiga kotis 20pk, DILMAH, 30g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mokate Lahustuv kakaojook milky 10x18g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mokate-milky-kakaojook-lahustuv-1018g/",
+        "size": "10x18g",
+        "ean": "5900649054868",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/06/5900649054868.png",
+        "storeName": "Lahustuv kakaojook Mokate Milky 10*18g"
+      },
+      "selver": {
+        "price": 2.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kakaojook-milky-chocolate-mokate-10x18-g",
+        "size": "10x18g",
+        "ean": "5900649054868",
+        "storeUnitPrice": 15.5,
+        "storeName": "Kakaojook Milky Chocolate, MOKATE, 10x18 g"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Mokate Lah matcha latte classic teejook 6x14g",
+    "category": "Tea & cocoa",
+    "prices": {
+      "coop": {
+        "price": 3.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mokate-latte-matcha-classic-teejook614g/",
+        "size": "6x14g",
+        "ean": "5900649083097",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/03/5900649083097.png",
+        "storeName": "Lah.teejook Mokate Latte Matcha Classic 6*14g"
+      },
+      "selver": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/matcha-latte-lahustuv-jook-mokate-84-g",
+        "size": "84g",
+        "ean": "5900649083097",
+        "storeUnitPrice": 35.6,
+        "storeName": "Matcha Latte lahustuv jook, MOKATE, 84 g"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Kellogg's Hommikuhelbed corn flakes 375g",

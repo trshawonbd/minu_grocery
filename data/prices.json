@@ -22295,16 +22295,26 @@
         "storeUnitPrice": 7.99,
         "storeName": "Oliivijääkõli GOCCIA D'oro 1L"
       },
+      "coop": {
+        "price": 9.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/goccia-doro-oliivijaakoli-1l/",
+        "size": "1000ml",
+        "ean": "8003250000129",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/8003250000129.png",
+        "storeName": "Oliivijääkõli Goccia Doro 1L"
+      },
       "selver": {
         "price": 9.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/oliivijaakoli-goccia-d-oro-1-l",
         "size": "1000ml",
+        "ean": "8003250000129",
         "storeUnitPrice": 9.89,
         "storeName": "Oliivijääkõli, GOCCIA D'ORO, 1 l"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Natura Päevalilleõli 1000ml",
@@ -22341,16 +22351,26 @@
         "storeUnitPrice": 3.69,
         "storeName": "Toiduõli OILIO 1L"
       },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/taimeoli-oilio-1l/",
+        "size": "1000ml",
+        "ean": "5412210104617",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/5412210104617.jpg",
+        "storeName": "Taimeõli Oilio 1L"
+      },
       "selver": {
         "price": 2.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/toiduoli-oilio-1-l",
         "size": "1000ml",
+        "ean": "5412210104617",
         "storeUnitPrice": 2.99,
         "storeName": "Toiduõli, OILIO, 1 l"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Borges Viinamarjaseemneõli 500ml",
@@ -22365,13 +22385,47 @@
         "regularPrice": 6.09,
         "storeName": "Viinamarjaseemneõli BORGES 500ml"
       },
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/viinamarjaseem-oli-0-5l/",
+        "size": "500ml",
+        "ean": "8410179900254",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410179900254.jpg",
+        "storeName": "Viinamarjaseemneõli Borges 500ml"
+      },
       "selver": {
         "price": 6.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/viinamarjaseemneoli-borges-500-ml",
         "size": "500ml",
+        "ean": "8410179900254",
         "storeUnitPrice": 12.18,
         "storeName": "Viinamarjaseemneõli, BORGES, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oilio Rapsiõli 1000ml",
+    "category": "Cooking oil",
+    "prices": {
+      "barbora": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rapsioli-oilio-1-l",
+        "size": "1000ml",
+        "storeUnitPrice": 3.05,
+        "storeName": "Rapsiõli OILIO 1L"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rapsioli-oilio-1l/",
+        "size": "1000ml",
+        "ean": "5412210114616",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/5412210114616.png",
+        "storeName": "Rapsiõli Oilio 1L"
       }
     },
     "matchedVia": "automatic"
@@ -22388,6 +22442,15 @@
         "storeUnitPrice": 3.9,
         "storeName": "Rapsiõli OLIVIA 0.5L"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rapsioli-olivia-0-5l/",
+        "size": "500ml",
+        "ean": "4741178000022",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741178000022.png",
+        "storeName": "Eesti rapsiõli Olivia 0.5L"
+      },
       "rimi": {
         "price": 1.69,
         "currency": "EUR",
@@ -22402,11 +22465,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rapsioli-olivia-olivia-500-ml",
         "size": "500ml",
+        "ean": "4741178000022",
         "storeUnitPrice": 3.58,
         "storeName": "Rapsiõli Olivia, OLIVIA, 500 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Olivia Rapsiõli 1000ml",
@@ -22421,6 +22485,15 @@
         "size": "1000ml",
         "storeUnitPrice": 2.49,
         "storeName": "Rapsiõli OLIVIA 1L"
+      },
+      "coop": {
+        "price": 3.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rapsioli-olivia-1l/",
+        "size": "1000ml",
+        "ean": "4741178991009",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741178991009.png",
+        "storeName": "Rapsiõli Olivia 1L"
       },
       "rimi": {
         "price": 3.65,
@@ -22437,11 +22510,12 @@
         "cardPrice": 2.39,
         "cardName": "Partner",
         "size": "1000ml",
+        "ean": "4741178991009",
         "storeUnitPrice": 3.59,
         "storeName": "Rapsiõli Olivia, OLIVIA, 1 l"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Olivia Küpsetusõli 1000ml",
@@ -22454,6 +22528,15 @@
         "size": "1000ml",
         "storeUnitPrice": 3.65,
         "storeName": "Küpsetusõli OLIVIA 1L"
+      },
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupsetusoli-olivia-1l/",
+        "size": "1000ml",
+        "ean": "4741178991047",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741178991047.png",
+        "storeName": "Eesti rapsiõli Olivia 1L praadimiseks"
       },
       "rimi": {
         "price": 3.69,
@@ -22470,8 +22553,33 @@
         "cardPrice": 2.49,
         "cardName": "Partner",
         "size": "1000ml",
+        "ean": "4741178991047",
         "storeUnitPrice": 3.65,
         "storeName": "Olivia küpsetusõli, OLIVIA, 1 L"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gloria Linaseemneõli 500ml",
+    "category": "Cooking oil",
+    "prices": {
+      "barbora": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/linaseemneoli-gloria-500-ml",
+        "size": "500ml",
+        "storeUnitPrice": 9.98,
+        "storeName": "Linaseemneõli GLORIA 500ml"
+      },
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/linaseemneoli-0-5l/",
+        "size": "500ml",
+        "ean": "4004597002283",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4004597002283.png",
+        "storeName": "Linaseemneõli Gloria 0.5L"
       }
     },
     "matchedVia": "automatic"
@@ -22493,6 +22601,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rapsioli-oleina-1-l",
         "size": "1000ml",
+        "ean": "5900012003875",
         "storeUnitPrice": 3.85,
         "storeName": "Rapsiõli, OLEINA, 1 l"
       }
@@ -22526,6 +22635,7 @@
         "cardPrice": 2.99,
         "cardName": "Partner",
         "size": "1000ml",
+        "ean": "4779048080737",
         "storeUnitPrice": 4.18,
         "storeName": "Päevalilleõli, NATURALISIMO, 1l"
       }
@@ -22546,6 +22656,15 @@
         "storeUnitPrice": 2.49,
         "storeName": "Päevalilleõli OLIVIA 1L"
       },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/paevalilleoli-olivia-1l/",
+        "size": "1000ml",
+        "ean": "4741178000220",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4741178000220.png",
+        "storeName": "Päevalilleõli Olivia 1L"
+      },
       "rimi": {
         "price": 2.49,
         "currency": "EUR",
@@ -22554,9 +22673,18 @@
         "storeUnitPrice": 2.49,
         "regularPrice": 3.49,
         "storeName": "Päevalilleõli Olivia 1l"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/paevalilleoli-1l-olivia-olivia-1-l",
+        "size": "1000ml",
+        "ean": "4741178000220",
+        "storeUnitPrice": 3.49,
+        "storeName": "Päevalilleõli 1l Olivia, OLIVIA, 1 L"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Naturalisimo Rafineeritud kookosõli 500ml",
@@ -22595,6 +22723,15 @@
         "storeUnitPrice": 1.99,
         "storeName": "Rapsiõli KALEW 1L"
       },
+      "coop": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalew-rapsioli-1l/",
+        "size": "1000ml",
+        "ean": "4740493555569",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740493555569.png",
+        "storeName": "Rapsiõli Kalew 1L"
+      },
       "rimi": {
         "price": 3.19,
         "currency": "EUR",
@@ -22608,11 +22745,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/rapsioli-kalew-1-l",
         "size": "1000ml",
+        "ean": "4740493555569",
         "storeUnitPrice": 3.19,
         "storeName": "Rapsiõli, KALEW, 1 l"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalew Küpsetusõli 1000ml",
@@ -22625,6 +22763,15 @@
         "size": "1000ml",
         "storeUnitPrice": 2.49,
         "storeName": "Küpsetusõli KALEW 1L"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalew-kupsetusoli-1l/",
+        "size": "1000ml",
+        "ean": "4740493555576",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740493555576.png",
+        "storeName": "Küpsetusõli Kalew 1L"
       },
       "rimi": {
         "price": 3.19,
@@ -22639,11 +22786,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kupsetusoli-kalew-1-l",
         "size": "1000ml",
+        "ean": "4740493555576",
         "storeUnitPrice": 3.24,
         "storeName": "Küpsetusõli, KALEW, 1 l"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalew Oliiviõli extra light 500ml",
@@ -22656,6 +22804,15 @@
         "size": "500ml",
         "storeUnitPrice": 16.7,
         "storeName": "Oliiviõli Extra Light KALEW 500ml"
+      },
+      "coop": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalew-oliivioli-extra-light-0-5l/",
+        "size": "500ml",
+        "ean": "4743303188896",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4743303188896.png",
+        "storeName": "Rafin. ja väärisoliiviõli Extra Light Kalew 0.5L"
       },
       "rimi": {
         "price": 8.59,
@@ -22672,11 +22829,12 @@
         "cardPrice": 6.49,
         "cardName": "Partner",
         "size": "500ml",
+        "ean": "4743303188896",
         "storeUnitPrice": 16.64,
         "storeName": "Extra light oliiviõli, KALEW, 500 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Kalew Extra väärisoliiviõli 500ml",
@@ -22692,13 +22850,163 @@
         "storeUnitPrice": 10.98,
         "storeName": "Extra väärisoliiviõli. KALEW 500ml"
       },
+      "coop": {
+        "price": 8.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalew-oliivioli-extra-virgin-500ml/",
+        "size": "500ml",
+        "ean": "4743303188889",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/02/4743303188889.png",
+        "storeName": "Väärisoliiviõli Extra Kalew 0.5L"
+      },
       "selver": {
         "price": 8.19,
         "currency": "EUR",
         "url": "https://www.selver.ee/extra-vaarisoliivioli-kalew-500ml",
         "size": "500ml",
+        "ean": "4743303188889",
         "storeUnitPrice": 16.38,
         "storeName": "Extra väärisoliiviõli, KALEW, 500ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalew Extra väärisoliiviõli 1000ml",
+    "category": "Cooking oil",
+    "prices": {
+      "barbora": {
+        "price": 15.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/extra-vaarisoliivioli-kalew-1-l",
+        "size": "1000ml",
+        "storeUnitPrice": 15.99,
+        "storeName": "Extra väärisoliiviõli KALEW 1L"
+      },
+      "coop": {
+        "price": 14.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalew-vaarisoliivioli-extra-1l/",
+        "size": "1000ml",
+        "ean": "4743303100171",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/09/4743303100171.png",
+        "storeName": "Väärisoliiviõli Extra Kalew 1L"
+      },
+      "selver": {
+        "price": 14.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ekstra-vaarisoliivioli-kalew-1l",
+        "cardPrice": 10.99,
+        "cardName": "Partner",
+        "size": "1000ml",
+        "ean": "4743303100171",
+        "storeUnitPrice": 14.99,
+        "storeName": "Ekstra väärisoliiviõli, KALEW, 1l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Oilio Fritüürõli 1000ml",
+    "category": "Cooking oil",
+    "prices": {
+      "barbora": {
+        "price": 4.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/frituuroli-oilio-1-l",
+        "size": "1000ml",
+        "storeUnitPrice": 4.45,
+        "storeName": "Fritüürõli OILIO 1L"
+      },
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/frituuroli-oilio-1l/",
+        "size": "1000ml",
+        "ean": "5412210008427",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/10/5412210008427.png",
+        "storeName": "Oilio fritüürõli 1L"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Rapsiõli ovilo 1000ml",
+    "category": "Cooking oil",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rapsioli-ovilo-1-l",
+        "size": "1000ml",
+        "storeUnitPrice": 2.99,
+        "storeName": "Rapsiõli OVILO 1L"
+      },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ovilo-rapsioli-1l/",
+        "size": "1000ml",
+        "ean": "5412210013681",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/02/5412210013681.png",
+        "storeName": "Rapsiõli Ovilo 1L"
+      }
+    },
+    "matchedVia": "automatic"
+  },
+  {
+    "name": "Soilmates Avokaadoõli 500ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 11.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/soilmates-avokaadooli-0-5l/",
+        "size": "500ml",
+        "ean": "8721082282017",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/06/8720299223202.png",
+        "storeName": "Avokaadoõli Soilmates 0.5L"
+      },
+      "rimi": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/muu-toiduoli/avokaadooli-soilmates-500ml/p/1022394",
+        "size": "500ml",
+        "storeUnitPrice": 23.18,
+        "storeName": "Avokaadoõli Soilmates 500ml"
+      },
+      "selver": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/avokaado-oli-soilmates-500-ml",
+        "size": "500ml",
+        "ean": "8721082282017",
+        "storeUnitPrice": 23.18,
+        "storeName": "Avokaado õli, SOILMATES, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Kalew Päevalilleõli 1000ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalew-paevalilleoli-1l/",
+        "size": "1000ml",
+        "ean": "4740493555552",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740493555552.png",
+        "storeName": "Päevalilleõli Kalew 1L"
+      },
+      "rimi": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/kauasailivad-toidukaubad/oli-ja-aadikas/paevalilleoli/paevalilleoli-kalew-1l/p/1002758",
+        "size": "1000ml",
+        "storeUnitPrice": 3.99,
+        "storeName": "Päevalilleõli Kalew 1l"
       }
     },
     "matchedVia": "automatic"
@@ -22722,6 +23030,7 @@
         "cardPrice": 8.99,
         "cardName": "Partner",
         "size": "750ml",
+        "ean": "8410179100043",
         "storeUnitPrice": 19.99,
         "storeName": "Ekstra väärisoliiviõli, BORGES, 750 ml"
       }
@@ -22729,9 +23038,18 @@
     "matchedVia": "automatic"
   },
   {
-    "name": "Borges Ekstra väärisoliiviõli 250ml",
+    "name": "Borges Ekstra väärisoliiviõli original 250ml",
     "category": "Cooking oil",
     "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ekstra-n-oli-borges0-25l/",
+        "size": "250ml",
+        "ean": "8410179100050",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/8410179100050.png",
+        "storeName": "Ekstra-väärisoliiviõli Borges Original 250ml"
+      },
       "rimi": {
         "price": 5.59,
         "currency": "EUR",
@@ -22745,16 +23063,26 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ekstra-vaarisoliivioli-borges-250-ml",
         "size": "250ml",
+        "ean": "8410179100050",
         "storeUnitPrice": 21.96,
         "storeName": "Ekstra väärisoliiviõli, BORGES, 250 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
   },
   {
     "name": "Gourmante Ekstra väärisoliiviõli 500ml",
     "category": "Cooking oil",
     "prices": {
+      "coop": {
+        "price": 10.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmante-ekstra-neitsioliivioli-0-5l/",
+        "size": "500ml",
+        "ean": "5200110730025",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/12/5201298400021.png",
+        "storeName": "Ekstra väärisoliiviõli Gourmante 0.5L"
+      },
       "rimi": {
         "price": 10.99,
         "currency": "EUR",
@@ -22768,11 +23096,237 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ekstra-vaarisoliivioli-gourmante-500-ml",
         "size": "500ml",
+        "ean": "5200110730025",
         "storeUnitPrice": 21.18,
         "storeName": "Ekstra väärisoliiviõli, GOURMANTE, 500 ml"
       }
     },
-    "matchedVia": "automatic"
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Borges Ekstra väärisoliiviõli original 500ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ekstra-n-oli-borges-0-5l/",
+        "size": "500ml",
+        "ean": "8410179100036",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410179100036.jpg",
+        "storeName": "Ekstra-väärisoliiviõli Borges Original 500ml"
+      },
+      "selver": {
+        "price": 10.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ekstra-vaarisoliivioli-borges-500-ml-t000023099",
+        "size": "500ml",
+        "ean": "8410179100036",
+        "storeUnitPrice": 20.98,
+        "storeName": "Ekstra väärisoliiviõli, BORGES, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Borges Ekstra väärisoliiviõli mahe 500ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 11.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/borges-organic-ekstra-neitsiol-oli-0-5l/",
+        "size": "500ml",
+        "ean": "8410179100708",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/8410179100708.png",
+        "storeName": "Ekstra-väärisoliiviõli Borges Organic 500ml"
+      },
+      "selver": {
+        "price": 11.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ekstra-vaarisoliivioli-borges-500-ml",
+        "size": "500ml",
+        "ean": "8410179100708",
+        "storeUnitPrice": 23.38,
+        "storeName": "Ekstra väärisoliiviõli, BORGES, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Loodusvägi Kookosõli extra virgin mahe 500ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 11.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mahe-kookosoli-500ml/",
+        "size": "500ml",
+        "ean": "4742824013243",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4742824013243.png",
+        "storeName": "Mahe kookosõli Extra Virgin Loodusvägi 500ml"
+      },
+      "selver": {
+        "price": 11.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vaariskookosoli-mahe-loodusvagi-500-ml",
+        "size": "500ml",
+        "ean": "4742824013243",
+        "storeUnitPrice": 22.98,
+        "storeName": "Vääriskookosõli (mahe), LOODUSVÄGI, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Thai choice Orgaaniline külmpress kookosõli 200ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 5.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/org-kookosoli-200ml/",
+        "size": "200ml",
+        "ean": "4747004000501",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4747004000501.jpg",
+        "storeName": "Orgaaniline külmpress kookosõli Thai Choice 200ml"
+      },
+      "selver": {
+        "price": 4.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/orgaaniline-kulmpress-kookosoli-thai-choice-200-ml",
+        "size": "200ml",
+        "ean": "4747004000501",
+        "storeUnitPrice": 24.95,
+        "storeName": "Orgaaniline külmpress kookosõli, THAI CHOICE, 200 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Gourmante Ekstra kalamata väärisoliiviõli 500ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/gourmante-ekstra-neitsiol-kalamata-0-5l/",
+        "size": "500ml",
+        "ean": "5200110730018",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/5200110730018.png",
+        "storeName": "Ekstra väärisoliiviõli Kalamata Gourmante 0.5L"
+      },
+      "selver": {
+        "price": 11.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalamata-ekstra-vaarisoliivioli-gourmante-500-ml",
+        "size": "500ml",
+        "ean": "5200110730018",
+        "storeUnitPrice": 22.38,
+        "storeName": "Kalamata Ekstra väärisoliiviõli, GOURMANTE, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Borges Oliiviõli light extra raf väärisol 500ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ekstra-n-oli-light-0-5l/",
+        "size": "500ml",
+        "ean": "8410179300825",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410179300825.jpg",
+        "storeName": "Oliiviõli Borges Extra Light 500ml raf./väärisol"
+      },
+      "selver": {
+        "price": 9.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oliivioli-rafineeritud-ja-vaarisoliivolist-light-borges-500-ml",
+        "size": "500ml",
+        "ean": "8410179300825",
+        "storeUnitPrice": 19.98,
+        "storeName": "Oliiviõli rafineeritud ja väärisoliivõlist Light, BORGES, 500 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Borges Oliiviõli extra light raf väärisol 250ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 5.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ekstra-n-oli-light-0-25l/",
+        "size": "250ml",
+        "ean": "8410179300849",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410179300849.jpg",
+        "storeName": "Oliiviõli Borges Extra Light 250ml raf./väärisol"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oliivioli-extra-light-borges-250-ml",
+        "size": "250ml",
+        "ean": "8410179300849",
+        "storeUnitPrice": 15.96,
+        "storeName": "Oliiviõli Extra Light, BORGES, 250 ml"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Borges Ekstra väärisoliiviõli original 1000ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ekstra-n-oli-borges-1l/",
+        "size": "1000ml",
+        "ean": "8410179100012",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/8410179100012.jpg",
+        "storeName": "Ekstra-väärisoliiviõli Borges Original 1L"
+      },
+      "selver": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ekstra-vaarisoliivioli-borges-1-l",
+        "size": "1000ml",
+        "ean": "8410179100012",
+        "storeUnitPrice": 16.99,
+        "storeName": "Ekstra väärisoliiviõli, BORGES, 1 l"
+      }
+    },
+    "matchedVia": "ean"
+  },
+  {
+    "name": "Borges Oliiviõli extra light raf väärisol õli 1000ml",
+    "category": "Cooking oil",
+    "prices": {
+      "coop": {
+        "price": 16.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/borges-oliivioli-ex-light-1l-raf-olis/",
+        "size": "1000ml",
+        "ean": "8410179300801",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/8410179300801.png",
+        "storeName": "Oliiviõli Borges Extra Light 1L raf./väärisol.õli"
+      },
+      "selver": {
+        "price": 16.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/oliivioli-rafineeritud-ja-vaarisoliivoli-extra-light-borges-1-l",
+        "size": "1000ml",
+        "ean": "8410179300801",
+        "storeUnitPrice": 16.99,
+        "storeName": "Oliiviõli rafineeritud ja väärisoliivõli Extra Light, BORGES, 1 l"
+      }
+    },
+    "matchedVia": "ean"
   },
   {
     "name": "Philadelphia Toorjuust classic 200g",

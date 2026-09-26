@@ -75925,6 +75925,108 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "Nõo Rulaad viil 135g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/rulaad-noo-135-g-viil",
+        "size": "135g",
+        "storeUnitPrice": 18.44,
+        "storeName": "Rulaad NÕO, 135g viil"
+      },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-rulaad-135g-viil/",
+        "size": "135g",
+        "ean": "4740574008052",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574008052-2.png",
+        "storeName": "Nõo rulaad 135g viil"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/rulaad-noo-noo-135-g",
+        "size": "135g",
+        "ean": "4740574008052",
+        "storeUnitPrice": 18.44,
+        "storeName": "Rulaad Nõo, NÕO, 135 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Hommikupeekon viil 135g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/hommikupeekon-noo-135-g-viil",
+        "size": "135g",
+        "storeUnitPrice": 18.89,
+        "storeName": "Hommikupeekon NÕO, 135g viil"
+      },
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hommikupeekon-135g-viil/",
+        "size": "135g",
+        "ean": "4740574080553",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574080553-1.png",
+        "storeName": "Hommikupeekon Nõo 135g viil"
+      },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/hommikupeekon-noo-135g/p/258909",
+        "size": "135g",
+        "storeUnitPrice": 13.26,
+        "regularPrice": 2.55,
+        "storeName": "Hommikupeekon Nõo 135g"
+      },
+      "selver": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hommikupeekon-noo-135-g",
+        "size": "135g",
+        "ean": "4740574080553",
+        "storeUnitPrice": 19.63,
+        "storeName": "Hommikupeekon, NÕO, 135 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar Seljafilee viil 105g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/seljafilee-oskar-105-g-viil",
+        "size": "105g",
+        "storeUnitPrice": 20.86,
+        "storeName": "Seljafilee OSKAR,105g viil"
+      },
+      "coop": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oskar-seljafilee-viil-105g/",
+        "size": "105g",
+        "ean": "4740569002508",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740569002508.png",
+        "storeName": "Seljafilee viil Oskar 105g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Nõo Pitsakate 300g",
     "category": "Ham & cold cuts",
     "prices": {
@@ -75949,6 +76051,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsakate-noo-300-g",
         "size": "300g",
+        "ean": "4740574080317",
         "storeUnitPrice": 10.97,
         "storeName": "Pitsakate, NÕO, 300 g"
       }
@@ -75967,6 +76070,15 @@
         "size": "400g",
         "storeUnitPrice": 9.98,
         "storeName": "Tallegg klassikaline kanarulaad 400g"
+      },
+      "coop": {
+        "price": 4.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanarulaad-400g/",
+        "size": "400g",
+        "ean": "4740046001871",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740046001871-2.png",
+        "storeName": "Klassikaline kanarulaad Tallegg 400g"
       },
       "rimi": {
         "price": 4.99,
@@ -76006,35 +76118,72 @@
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Tallegg Delikatessrulaad 500g",
+    "name": "Nõo Veisesink liivimaa viil 100g",
     "category": "Ham & cold cuts",
     "prices": {
       "barbora": {
-        "price": 6.79,
+        "price": 2.24,
         "currency": "EUR",
-        "url": "https://barbora.ee/toode/delikatessrulaad-tallegg-500-g",
-        "size": "500g",
-        "storeUnitPrice": 13.58,
-        "storeName": "Delikatessrulaad TALLEGG, 500g"
+        "url": "https://barbora.ee/toode/veisesink-liivimaa-noo-100-g-viil",
+        "size": "100g",
+        "storeUnitPrice": 22.4,
+        "regularPrice": 2.99,
+        "storeName": "Veisesink Liivimaa NÕO,100g viil"
       },
-      "rimi": {
-        "price": 6.79,
+      "coop": {
+        "price": 2.99,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/delikatessrulaad-tallegg-500g/p/912505",
-        "size": "500g",
-        "storeUnitPrice": 13.58,
-        "storeName": "Delikatessrulaad Tallegg 500g"
-      },
-      "selver": {
-        "price": 2.84,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/delikatessrulaad-tallegg-130-g",
-        "size": "130g",
-        "storeUnitPrice": 21.85,
-        "storeName": "Delikatessrulaad, TALLEGG, 130 g"
+        "url": "https://coophaapsalu.ee/toode/liivimaa-veisesink-100g/",
+        "size": "100g",
+        "ean": "4740574081024",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574081024-2.png",
+        "storeName": "Liivimaa veisesink Nõo 100g viil"
       }
     },
     "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Broileri rinnalihasink viil 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.77,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/broileri-rinnalihasink-karni-300-g-viil",
+        "size": "300g",
+        "storeUnitPrice": 9.23,
+        "regularPrice": 3.69,
+        "storeName": "Broileri rinnalihasink KARNI, 300g viil"
+      },
+      "coop": {
+        "price": 3.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/broileri-r-lihasink-300g/",
+        "size": "300g",
+        "ean": "4740579202448",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740579202448-1.png",
+        "storeName": "Broileri rinnalihasink Karni 300g viil"
+      },
+      "rimi": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/broileri-rinnalihasink-karni-300g/p/297586",
+        "size": "300g",
+        "storeUnitPrice": 12.3,
+        "storeName": "Broileri rinnalihasink Karni 300g"
+      },
+      "selver": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/broileri-rinnalihasink-karni-300-g",
+        "size": "300g",
+        "ean": "4740579202448",
+        "storeUnitPrice": 12.3,
+        "storeName": "Broileri rinnalihasink, KARNI, 300 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76062,11 +76211,177 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/toorsuitsupeekoni-kuubikud-rakvere-lk-140-g",
         "size": "140g",
+        "ean": "4740003010892",
         "storeUnitPrice": 15.64,
         "storeName": "Toorsuitsupeekoni kuubikud, RAKVERE LK, 140 g"
       }
     },
     "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar Eri suitsupeekon viil 120g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/eri-suitsupeekon-oskar-120-g-viil",
+        "size": "120g",
+        "storeUnitPrice": 20.75,
+        "storeName": "Eri suitsupeekon OSKAR, 120g viil"
+      },
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suitsupeekon-viil-120g/",
+        "size": "120g",
+        "ean": "4740569009477",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740569009477.png",
+        "storeName": "Suitsupeekon viil Oskar 120g Eri"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Seavälisfileesink viil 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/seavalisfileesink-m-m-150-g-viil",
+        "size": "150g",
+        "storeUnitPrice": 11.93,
+        "regularPrice": 2.39,
+        "storeName": "Seavälisfileesink M&M, 150g viil"
+      },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/seavalisfileesink-150g/",
+        "size": "150g",
+        "ean": "4740171087740",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171087740.png",
+        "storeName": "Seavälisfileesink Maks&Moorits 150g viil"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/seavalisfilee-sink-maks-moorits-150g/p/4004797",
+        "size": "150g",
+        "storeUnitPrice": 15.93,
+        "storeName": "Seavälisfilee sink Maks&Moorits 150g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/seavalisfilee-sink-maks-moorits-150-g",
+        "size": "150g",
+        "ean": "4740171087740",
+        "storeUnitPrice": 15.93,
+        "storeName": "Seavälisfilee sink, MAKS&MOORITS, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Delikatess sink tailihast viil 170g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/delikatess-sink-tailihast-m-m-170-g-viil",
+        "size": "170g",
+        "storeUnitPrice": 11.71,
+        "regularPrice": 2.65,
+        "storeName": "Delikatess-sink tailihast M&M,170g viil"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/delikatess-sink-170g/",
+        "size": "170g",
+        "ean": "4740171087733",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171087733.png",
+        "storeName": "Delikatess-sink tailihast Maks&Moorits 170g viil"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/delikatess-sink-tailihast-maks-moorits-170-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "170g",
+        "ean": "4740171087733",
+        "storeUnitPrice": 14.65,
+        "storeName": "Delikatess-sink tailihast, MAKS&MOORITS, 170 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar Küüslaugukülg viil 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kuuslaugukulg-oskar-200-g-viil",
+        "size": "200g",
+        "storeUnitPrice": 12.95,
+        "storeName": "Küüslaugukülg OSKAR, 200g viil"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oskar-kuuslaugukulg-200g-viil/",
+        "size": "200g",
+        "ean": "4740569010749",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740569010749.png",
+        "storeName": "Küüslaugukülg Oskar 200g viil"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Õhuline viru sink viil 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ohuline-viru-sink-rakvere-150-g-viil",
+        "size": "150g",
+        "storeUnitPrice": 8.47,
+        "regularPrice": 1.69,
+        "storeName": "Õhuline Viru sink RAKVERE, 150g viil"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-viru-sink-ohuline-150g-viil/",
+        "size": "150g",
+        "ean": "4740003013794",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/12/4740003013794.png",
+        "storeName": "Õhuline Viru sink Rakvere 150g viil"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/ohuline-viru-sink-rakvere-lk-150-g",
+        "size": "150g",
+        "ean": "4740003013794",
+        "storeUnitPrice": 11.47,
+        "storeName": "Õhuline Viru sink, RAKVERE LK, 150 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76084,6 +76399,7 @@
         "price": 11.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/maasuitsu-fileesink-maks-moorits-kg",
+        "ean": "2317107300000",
         "storeUnitPrice": 11.99,
         "storeName": "Maasuitsu fileesink, MAKS&MOORITS, kg"
       }
@@ -76110,6 +76426,7 @@
         "cardPrice": 2.59,
         "cardName": "Partner",
         "size": "350g",
+        "ean": "4740003005935",
         "storeUnitPrice": 9.54,
         "storeName": "Talurulaad, RAKVERE LK, 350 g"
       }
@@ -76133,8 +76450,153 @@
         "price": 9.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/maakodu-suitsusink-maks-moorits-kg",
+        "ean": "2317106700009",
         "storeUnitPrice": 9.99,
         "storeName": "Maakodu suitsusink, MAKS&MOORITS, kg"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Kalkunisink fitlap viil 105g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kalkunisink-fitlap-noo-105-g-viil",
+        "size": "105g",
+        "storeUnitPrice": 17.81,
+        "regularPrice": 2.49,
+        "storeName": "Kalkunisink Fitlap NÕO, 105g viil"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalkunisink-fitlap-105g/",
+        "size": "105g",
+        "ean": "4740574082328",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574082328.png",
+        "storeName": "Fitlap kalkunisink Nõo 105g viil"
+      },
+      "selver": {
+        "price": 2.53,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalkunisink-fitlap-noo-lihavurst-105-g",
+        "cardPrice": 1.69,
+        "cardName": "Partner",
+        "size": "105g",
+        "ean": "4740574082328",
+        "storeUnitPrice": 24.1,
+        "storeName": "Kalkunisink Fitlap, NÕO LIHAVÜRST, 105 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Kanasink fitlap viil 105g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.61,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanasink-fitlap-noo-105-g-viil",
+        "size": "105g",
+        "storeUnitPrice": 15.34,
+        "regularPrice": 2.15,
+        "storeName": "Kanasink Fitlap NÕO, 105g viil"
+      },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanasink-fitlap-105g/",
+        "size": "105g",
+        "ean": "4740574081642",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574081642-1.png",
+        "storeName": "Fitlap kanasink Nõo 105g viil"
+      },
+      "rimi": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanasink-fitlap-noo-105g/p/960660",
+        "size": "105g",
+        "storeUnitPrice": 17.05,
+        "regularPrice": 2.15,
+        "storeName": "Kanasink Fitlap Nõo 105g"
+      },
+      "selver": {
+        "price": 2.23,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanasink-fitlap-noo-105-g",
+        "cardPrice": 1.49,
+        "cardName": "Partner",
+        "size": "105g",
+        "ean": "4740574081642",
+        "storeUnitPrice": 21.24,
+        "storeName": "Kanasink Fitlap, NÕO, 105 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Kanafileesink viil 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.42,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanafileesink-m-m-150-g-viil",
+        "size": "150g",
+        "storeUnitPrice": 9.47,
+        "regularPrice": 1.89,
+        "storeName": "Kanafileesink M&M, 150g viil"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-kanafileesink-150g-viil/",
+        "size": "150g",
+        "ean": "4740171182865",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4740171182865.png",
+        "storeName": "Kanafileesink Maks&Moorits 150g viil"
+      },
+      "selver": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanafileesink-maks-moorits-150-g",
+        "size": "150g",
+        "ean": "4740171182865",
+        "storeUnitPrice": 8.6,
+        "storeName": "Kanafileesink, MAKS&MOORITS, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Seasink viil 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/seasink-rannarootsi-150-g-viil",
+        "size": "150g",
+        "storeUnitPrice": 9.94,
+        "regularPrice": 1.99,
+        "storeName": "Seasink RANNAROOTSI, 150g viil"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-seasink-150g-viil/",
+        "size": "150g",
+        "ean": "4740296012030",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740296012030.png",
+        "storeName": "Seasink Rannarootsi 150g viil"
       }
     },
     "matchedVia": "automatic",
@@ -76158,6 +76620,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sisefilee-kuubikud-ornsuitsu-maks-moorits-200-g",
         "size": "200g",
+        "ean": "4740171181011",
         "storeUnitPrice": 12.45,
         "storeName": "Sisefilee kuubikud õrnsuitsu, MAKS&MOORITS, 200 g"
       }
@@ -76177,13 +76640,169 @@
         "storeUnitPrice": 19.92,
         "storeName": "Võileivapeekon RAKVERE, 130g"
       },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-voileivapeekon-130g-viil/",
+        "size": "130g",
+        "ean": "4740003016382",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/11/4740003016382.png",
+        "storeName": "Võileivapeekon Rakvere 130g viil"
+      },
       "selver": {
         "price": 2.63,
         "currency": "EUR",
         "url": "https://www.selver.ee/voileivapeekon-rakvere-130-g",
         "size": "130g",
+        "ean": "4740003016382",
         "storeUnitPrice": 20.23,
         "storeName": "Võileivapeekon, RAKVERE, 130 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Talusink viil 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/talusink-m-m-150-g-viil",
+        "size": "150g",
+        "storeUnitPrice": 11.93,
+        "regularPrice": 2.39,
+        "storeName": "Talusink M&M,150g viil"
+      },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-talusink-150g-viil/",
+        "size": "150g",
+        "ean": "4740171188164",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740171188164.png",
+        "storeName": "Talusink Maks&Moorits 150g viil"
+      },
+      "rimi": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/talusink-maks-moorits-150g/p/999430",
+        "size": "150g",
+        "storeUnitPrice": 15.93,
+        "storeName": "Talusink Maks&Moorits 150g"
+      },
+      "selver": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/talusink-maks-moorits-150-g",
+        "cardPrice": 1.69,
+        "cardName": "Partner",
+        "size": "150g",
+        "ean": "4740171188164",
+        "storeUnitPrice": 14.6,
+        "storeName": "Talusink, MAKS&MOORITS, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Einepeekon viil 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/einepeekon-maks-moorits-150-g-viil",
+        "size": "150g",
+        "storeUnitPrice": 13.27,
+        "storeName": "Einepeekon MAKS&MOORITS, 150g viil"
+      },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-einepeekon-150g-viil/",
+        "size": "150g",
+        "ean": "4740171188072",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740171188072.png",
+        "storeName": "Einepeekon Maks&Moorits 150g viil"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Toorsuitsupeekon viil 105g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/toorsuitsupeekon-noo-105-g-viil",
+        "size": "105g",
+        "storeUnitPrice": 22.38,
+        "storeName": "Toorsuitsupeekon NÕO,105g viil"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-toorsuitsupeekon-105g-viil/",
+        "size": "105g",
+        "ean": "4740574068261",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740574068261-1.png",
+        "storeName": "Toorsuitsupeekon Nõo 105g viil"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanasink viil 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.14,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanasink-tallegg-300-g-viil",
+        "size": "300g",
+        "storeUnitPrice": 10.47,
+        "regularPrice": 4.19,
+        "storeName": "Kanasink TALLEGG,300g viil"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-kanasink-300g-viil/",
+        "size": "300g",
+        "ean": "4740046012969",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740046012969-1.png",
+        "storeName": "Kanasink Tallegg 300g viil"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Viru sink viil 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/viru-sink-rakvere-300-g-viil",
+        "size": "300g",
+        "storeUnitPrice": 8.63,
+        "storeName": "Viru sink RAKVERE,300g viil"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-viru-sink-300g-viil/",
+        "size": "300g",
+        "ean": "4740003016863",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4740003016863.png",
+        "storeName": "Viru sink Rakvere 300g viil"
       }
     },
     "matchedVia": "automatic",
@@ -76214,6 +76833,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/pitsasink-maks-moorits-250-g",
         "size": "250g",
+        "ean": "4740171085890",
         "storeUnitPrice": 6.36,
         "storeName": "Pitsasink, MAKS&MOORITS, 250 g"
       }
@@ -76234,6 +76854,15 @@
         "regularPrice": 3.39,
         "storeName": "Pühajärve sink M&M,300g"
       },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/puhajarve-sink-300g/",
+        "size": "300g",
+        "ean": "4740171087757",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171087757.jpg",
+        "storeName": "Pühajärve sink Maks&Moorits 300g viil"
+      },
       "rimi": {
         "price": 3.39,
         "currency": "EUR",
@@ -76247,11 +76876,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/puhajarve-sink-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171087757",
         "storeUnitPrice": 9.97,
         "storeName": "Pühajärve sink, MAKS&MOORITS, 300 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76271,6 +76901,7 @@
         "url": "https://www.selver.ee/maamehesink-maks-moorits-kg",
         "cardPrice": 8.99,
         "cardName": "Partner",
+        "ean": "2358316000008",
         "storeUnitPrice": 12.45,
         "storeName": "Maamehesink, MAKS&MOORITS, kg"
       }
@@ -76303,6 +76934,206 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "Rakvere Suitsurulaad viil 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.87,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suitsurulaad-rakvere-130-g-viil",
+        "size": "130g",
+        "storeUnitPrice": 14.38,
+        "regularPrice": 2.49,
+        "storeName": "Suitsurulaad RAKVERE,130g viil"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-suitsurulaad-130g-viil/",
+        "size": "130g",
+        "ean": "4740003017716",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017716.png",
+        "storeName": "Suitsurulaad Rakvere 130g viil"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Suitsusingike viil 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/suitsusingike-rakvere-130-g-viil",
+        "size": "130g",
+        "storeUnitPrice": 13.23,
+        "regularPrice": 2.29,
+        "storeName": "Suitsusingike RAKVERE,130g viil"
+      },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-suitsusingike-130g-viil-2/",
+        "size": "130g",
+        "ean": "4740003017693",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017693-1.png",
+        "storeName": "Suitsusingike Rakvere 130g viil"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks & moorits Peekon viil 100g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/peekon-maks-moorits-100-g-viil",
+        "size": "100g",
+        "storeUnitPrice": 25.9,
+        "storeName": "Peekon MAKS&MOORITS, 100g viil"
+      },
+      "coop": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-peekon-100g-viil/",
+        "size": "100g",
+        "ean": "4740171189031",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740171189031.png",
+        "storeName": "Peekon Maks&Moorits 100g viil"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/peekon-maks-moorits-100-g",
+        "cardPrice": 1.99,
+        "cardName": "Partner",
+        "size": "100g",
+        "ean": "4740171189031",
+        "storeUnitPrice": 23.9,
+        "storeName": "Peekon, MAKS&MOORITS, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Õhuline hommikusink viil 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/ohuline-hommikusink-rakvere-200-g-viil",
+        "size": "200g",
+        "storeUnitPrice": 8.6,
+        "regularPrice": 2.29,
+        "storeName": "Õhuline hommikusink RAKVERE, 200g viil"
+      },
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rakvere-ohuline-hommikusink-200g-viil/",
+        "size": "200g",
+        "ean": "4740003017655",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017655.png",
+        "storeName": "Õhuline hommikusink Rakvere 200g viil"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanafileesink fit viil 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.42,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanafileesink-fit-tallegg-130-g-viil",
+        "size": "130g",
+        "storeUnitPrice": 10.92,
+        "regularPrice": 1.89,
+        "storeName": "Kanafileesink Fit TALLEGG, 130g viil"
+      },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-fit-kanafileesink-130g-viil/",
+        "size": "130g",
+        "ean": "4740046013942",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740046013942.png",
+        "storeName": "FIT Kanafileesink Tallegg 130g viil"
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanafileesink-fit-tallegg-130g/p/4007664",
+        "size": "130g",
+        "storeUnitPrice": 14.54,
+        "storeName": "Kanafileesink Fit Tallegg 130g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/fit-kanafileesink-tallegg-130-g",
+        "size": "130g",
+        "ean": "4740046013942",
+        "storeUnitPrice": 14.54,
+        "storeName": "Fit Kanafileesink, TALLEGG, 130 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Kanasink tilliga viil 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.27,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanasink-tilliga-tallegg-130-g-viil",
+        "size": "130g",
+        "storeUnitPrice": 9.77,
+        "regularPrice": 1.69,
+        "storeName": "Kanasink tilliga TALLEGG, 130g viil"
+      },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/tallegg-kanasink-tilliga-130g-viil/",
+        "size": "130g",
+        "ean": "4740046013935",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/05/4740046013935.png",
+        "storeName": "Kanasink tilliga Tallegg 130g viil"
+      },
+      "rimi": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanasink-tilliga-tallegg-130g/p/4007665",
+        "size": "130g",
+        "storeUnitPrice": 13,
+        "storeName": "Kanasink tilliga Tallegg 130g"
+      },
+      "selver": {
+        "price": 1.72,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanasink-tilliga-tallegg-130-g",
+        "size": "130g",
+        "ean": "4740046013935",
+        "storeUnitPrice": 13.23,
+        "storeName": "Kanasink tilliga, TALLEGG, 130 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Nõo Suitsutatud seakeel 200g",
     "category": "Ham & cold cuts",
     "prices": {
@@ -76314,16 +77145,26 @@
         "storeUnitPrice": 13.45,
         "storeName": "Suitsutatud seakeel NÕO, 200g"
       },
+      "coop": {
+        "price": 2.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-suitsutatud-seakeel-200g/",
+        "size": "200g",
+        "ean": "4740574090606",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740574090606.png",
+        "storeName": "Suitsutatud seakeel Nõo 200g"
+      },
       "selver": {
         "price": 2.79,
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsutatud-seakeel-noo-200-g",
         "size": "200g",
+        "ean": "4740574090606",
         "storeUnitPrice": 13.95,
         "storeName": "Suitsutatud seakeel, NÕO, 200 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76343,6 +77184,7 @@
         "url": "https://www.selver.ee/suitsuposk-noo-kg",
         "cardPrice": 5.99,
         "cardName": "Partner",
+        "ean": "2357118000001",
         "storeUnitPrice": 9.14,
         "storeName": "Suitsupõsk, NÕO, kg"
       }
@@ -76367,6 +77209,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsukanakuubikud-tallegg-300-g",
         "size": "300g",
+        "ean": "4740046010675",
         "storeUnitPrice": 14.63,
         "storeName": "Suitsukanakuubikud, TALLEGG, 300 g"
       }
@@ -76386,6 +77229,15 @@
         "storeUnitPrice": 8.33,
         "storeName": "Sealihasült RANNAROOTSI, 330g"
       },
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sealihasult-330g/",
+        "size": "330g",
+        "ean": "4740296000228",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296000228.jpg",
+        "storeName": "Sealihasült Rannarootsi 330g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -76399,11 +77251,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sealihasult-rannarootsi-330-g",
         "size": "330g",
+        "ean": "4740296000228",
         "storeUnitPrice": 8.45,
         "storeName": "Sealihasült, RANNAROOTSI, 330 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76424,6 +77277,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sealihasult-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171085951",
         "storeUnitPrice": 7.93,
         "storeName": "Sealihasült, MAKS&MOORITS, 300 g"
       }
@@ -76444,6 +77298,15 @@
         "size": "330g",
         "storeUnitPrice": 6.51,
         "storeName": "Sealihasült OSKAR, 330g"
+      },
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oskar-sealihasult-330g/",
+        "size": "330g",
+        "ean": "4740569009965",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740569009965.png",
+        "storeName": "Sealihasült Oskar 330g"
       },
       "rimi": {
         "price": 3.05,
@@ -76468,6 +77331,15 @@
         "size": "300g",
         "storeUnitPrice": 8.17,
         "storeName": "Delikatess-sült NÕO, 300g"
+      },
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-delikatess-sult-300g/",
+        "size": "300g",
+        "ean": "4740574092686",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740574092686-1.png",
+        "storeName": "Nõo Delikatess-sült 300g"
       },
       "rimi": {
         "price": 2.55,
@@ -76494,13 +77366,48 @@
         "regularPrice": 2.29,
         "storeName": "Kodusült M&M, 300g"
       },
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-kodusult-300g/",
+        "size": "300g",
+        "ean": "4740171187402",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740171187402.png",
+        "storeName": "Kodusült Maks&Moorits 300g"
+      },
       "selver": {
         "price": 2.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/kodusult-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171187402",
         "storeUnitPrice": 7.97,
         "storeName": "Kodusült, MAKS&MOORITS, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Broilerilihasült 270g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/broilerilihasult-karni-270-g",
+        "size": "270g",
+        "storeUnitPrice": 9.07,
+        "storeName": "Broilerilihasült KARNI 270g"
+      },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karni-broilerilihasult-270g/",
+        "size": "270g",
+        "ean": "4740579292876",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740579292876-1.png",
+        "storeName": "Karni broilerilihasült 270g"
       }
     },
     "matchedVia": "automatic",
@@ -76523,6 +77430,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kanalihasult-maks-moorits-300-g",
         "size": "300g",
+        "ean": "4740171187495",
         "storeUnitPrice": 9.97,
         "storeName": "Kanalihasült, MAKS&MOORITS, 300 g"
       }
@@ -76549,6 +77457,7 @@
         "cardPrice": 2.99,
         "cardName": "Partner",
         "size": "500g",
+        "ean": "4740574096110",
         "storeUnitPrice": 8.58,
         "storeName": "Memme suur sült, NÕO, 500 g"
       }
@@ -76581,6 +77490,31 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "Rannamõisa Kanalihasült 330g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.19,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/kanalihasult-rannamoisa-330-g",
+        "size": "330g",
+        "storeUnitPrice": 9.67,
+        "storeName": "Kanalihasült RANNAMÕISA, 330g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rannamoisa-kanalihasult-330g/",
+        "size": "330g",
+        "ean": "4740215000100",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740215000100.png",
+        "storeName": "Kanalihasült Rannamõisa 330g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Nõo Kodune maksapasteet 200g",
     "category": "Ham & cold cuts",
     "prices": {
@@ -76592,16 +77526,26 @@
         "storeUnitPrice": 10.75,
         "storeName": "Kodune maksapasteet NÕO, 200g"
       },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/noo-kodune-maksapasteet-200g/",
+        "size": "200g",
+        "ean": "4740574090774",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/01/4740574090774.png",
+        "storeName": "Kodune maksapasteet Nõo 200g"
+      },
       "selver": {
         "price": 2.15,
         "currency": "EUR",
         "url": "https://www.selver.ee/kodune-maksapasteet-noo-200g",
         "size": "200g",
+        "ean": "4740574090774",
         "storeUnitPrice": 10.75,
         "storeName": "Kodune maksapasteet, NÕO, 200g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76616,16 +77560,26 @@
         "storeUnitPrice": 7.71,
         "storeName": "Maksapasteet RANNAROOTSI 240g"
       },
+      "coop": {
+        "price": 1.95,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maksapasteet-240g/",
+        "size": "240g",
+        "ean": "4740296002659",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296002659.jpg",
+        "storeName": "Maksapasteet Rannarootsi 240g"
+      },
       "selver": {
         "price": 1.89,
         "currency": "EUR",
         "url": "https://www.selver.ee/maksapasteet-rannarootsi-240-g",
         "size": "240g",
+        "ean": "4740296002659",
         "storeUnitPrice": 7.88,
         "storeName": "Maksapasteet, RANNAROOTSI, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76640,13 +77594,49 @@
         "storeUnitPrice": 7.72,
         "storeName": "Kodune pasteet RANNAROOTSI, 180g"
       },
+      "coop": {
+        "price": 1.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kodune-pasteet-180g/",
+        "size": "180g",
+        "ean": "4740296005155",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296005155.png",
+        "storeName": "Kodune pasteet Rannarootsi 180g"
+      },
       "selver": {
         "price": 1.09,
         "currency": "EUR",
         "url": "https://www.selver.ee/kodune-pasteet-rannarootsi-180-g",
         "size": "180g",
+        "ean": "4740296005155",
         "storeUnitPrice": 6.06,
         "storeName": "Kodune pasteet, RANNAROOTSI, 180 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Maksarõngas 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/maksarongas-rakvere-300-g",
+        "size": "300g",
+        "storeUnitPrice": 5.83,
+        "regularPrice": 2.19,
+        "storeName": "Maksarõngas RAKVERE, 300g"
+      },
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maksarongas-300g/",
+        "size": "300g",
+        "ean": "4740003003221",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003003221.jpg",
+        "storeName": "Maksarõngas Rakvere 300g"
       }
     },
     "matchedVia": "automatic",
@@ -76663,6 +77653,15 @@
         "size": "200g",
         "storeUnitPrice": 9.45,
         "storeName": "E-vaba maksapasteet OSKAR, 200g"
+      },
+      "coop": {
+        "price": 1.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maksapasteet-200g-e-vaba/",
+        "size": "200g",
+        "ean": "4740569009866",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/08/4740569009866.png",
+        "storeName": "Maksapasteet Oskar 200g E-vaba"
       },
       "rimi": {
         "price": 1.89,
@@ -76688,6 +77687,15 @@
         "storeUnitPrice": 6.63,
         "storeName": "Kreemjas maksapasteet RAKVERE 300g"
       },
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-kreemjas-maksapasteet-300g/",
+        "size": "300g",
+        "ean": "4740003010229",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740003010229-1.png",
+        "storeName": "Kreemjas maksapasteet Rakvere 300g"
+      },
       "rimi": {
         "price": 1.99,
         "currency": "EUR",
@@ -76712,16 +77720,26 @@
         "storeUnitPrice": 7.57,
         "storeName": "Veisemaksapasteet M&M, 210g"
       },
+      "coop": {
+        "price": 1.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/mm-veisemaksapasteet-210g/",
+        "size": "210g",
+        "ean": "4740171181158",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/02/4740171181158.png",
+        "storeName": "Veisemaksapasteet Maks&Moorits 210g"
+      },
       "selver": {
         "price": 1.72,
         "currency": "EUR",
         "url": "https://www.selver.ee/veisemaksapasteet-maks-moorits-210-g",
         "size": "210g",
+        "ean": "4740171181158",
         "storeUnitPrice": 8.19,
         "storeName": "Veisemaksapasteet, MAKS&MOORITS, 210 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76749,6 +77767,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kreemjas-kodupasteet-maks-moorits-210-g",
         "size": "210g",
+        "ean": "4740171181233",
         "storeUnitPrice": 7.71,
         "storeName": "Kreemjas kodupasteet, MAKS&MOORITS, 210 g"
       }
@@ -76773,8 +77792,34 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kanamaksapasteet-chef-lunden-200-g",
         "size": "200g",
+        "ean": "4740376030503",
         "storeUnitPrice": 12.95,
         "storeName": "Kanamaksapasteet, CHEF LUNDEN, 200 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Chef lunden Veisemaksapasteet 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/veisemaksapasteet-chef-lunden-200-g",
+        "size": "200g",
+        "storeUnitPrice": 14.95,
+        "storeName": "Veisemaksapasteet CHEF LUNDEN, 200g"
+      },
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lunden-veisemaksapasteet-200g/",
+        "size": "200g",
+        "ean": "4740376030701",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740376030701.png",
+        "storeName": "Veisemaksapasteet Chef Lunden 200g"
       }
     },
     "matchedVia": "automatic",
@@ -76807,8 +77852,34 @@
         "cardPrice": 1.59,
         "cardName": "Partner",
         "size": "170g",
+        "ean": "4744735010823",
         "storeUnitPrice": 13.47,
         "storeName": "Pasteet, MATSIMOKA, 170 g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Chef lunden Vasikamaksapasteet 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/vasikamaksapasteet-chef-lunden-200-g",
+        "size": "200g",
+        "storeUnitPrice": 15.45,
+        "storeName": "Vasikamaksapasteet CHEF LUNDEN, 200g"
+      },
+      "coop": {
+        "price": 2.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lunden-vasikamaksapasteet-200g/",
+        "size": "200g",
+        "ean": "4740376106666",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/10/4740376106666.png",
+        "storeName": "Vasikamaksapasteet Chef Lunden 200g"
       }
     },
     "matchedVia": "automatic",
@@ -76826,6 +77897,15 @@
         "storeUnitPrice": 9.75,
         "storeName": "Maksapasteet Delikatess NÕO, 200g"
       },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/delik-maksapasteet-200g/",
+        "size": "200g",
+        "ean": "4740574009318",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574009318.png",
+        "storeName": "Delikatesspasteet Nõo 200g"
+      },
       "rimi": {
         "price": 1.95,
         "currency": "EUR",
@@ -76839,8 +77919,59 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/delikatess-maksapasteet-noo-200-g",
         "size": "200g",
+        "ean": "4740574009318",
         "storeUnitPrice": 10.95,
         "storeName": "Delikatess maksapasteet, NÕO, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar Singikreem 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/singikreem-oskar-200-g",
+        "size": "200g",
+        "storeUnitPrice": 7.95,
+        "storeName": "Singikreem OSKAR, 200g"
+      },
+      "coop": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/oskar-singikreem-200g/",
+        "size": "200g",
+        "ean": "4740569010176",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4740569010176.png",
+        "storeName": "Singikreem Oskar 200g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Chef lunden Pardimaksapasteet 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/pardimaksapasteet-chef-lunden-200-g",
+        "size": "200g",
+        "storeUnitPrice": 19.95,
+        "storeName": "Pardimaksapasteet CHEF LUNDEN, 200g"
+      },
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lunden-pardimaksapasteet-200g/",
+        "size": "200g",
+        "ean": "4740376030602",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/11/4740376030602.png",
+        "storeName": "Pardimaksapasteet Chef Lunden 200g"
       }
     },
     "matchedVia": "automatic",
@@ -76858,6 +77989,15 @@
         "storeUnitPrice": 12.04,
         "storeName": "Veiseliha omas mahlas RANNAROOTSI, 240g"
       },
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/veiseliha-omasmahlas240g/",
+        "size": "240g",
+        "ean": "4740296002642",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296002642.jpg",
+        "storeName": "Veiseliha omas mahlas Rannarootsi 240g"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -76871,11 +78011,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/veiseliha-omas-mahlas-rannarootsi-240-g",
         "size": "240g",
+        "ean": "4740296002642",
         "storeUnitPrice": 12.46,
         "storeName": "Veiseliha omas mahlas, RANNAROOTSI, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76890,20 +78031,30 @@
         "storeUnitPrice": 12.04,
         "storeName": "Sealiha omas mahlas RANNAROOTSI, 240g"
       },
+      "coop": {
+        "price": 2.65,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sealiha-omas-mahlas-240g/",
+        "size": "240g",
+        "ean": "4740296002635",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296002635.jpg",
+        "storeName": "Sealiha omas mahlas Rannarootsi 240g"
+      },
       "selver": {
         "price": 2.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/sealiha-omas-mahlas-rannarootsi-240-g",
         "size": "240g",
+        "ean": "4740296002635",
         "storeUnitPrice": 12.46,
         "storeName": "Sealiha omas mahlas, RANNAROOTSI, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Frank pott Vürtsisealiha 325g",
+    "name": "Frank pott Vürtsisealiha vürtsisealihaga 325g",
     "category": "Ham & cold cuts",
     "prices": {
       "barbora": {
@@ -76914,16 +78065,34 @@
         "storeUnitPrice": 7.05,
         "storeName": "Vürtsisealiha FRANK POTT, 325g"
       },
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vurtsisealiha-325g/",
+        "size": "325g",
+        "ean": "4740215001114",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740215001114.jpg",
+        "storeName": "Konserv Vürtsisealihaga Frank Pott 325g"
+      },
+      "rimi": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/konserv-vurtsisealihaga-frank-pott-325g/p/203600",
+        "size": "325g",
+        "storeUnitPrice": 6.43,
+        "storeName": "Konserv vürtsisealihaga Frank Pott 325g"
+      },
       "selver": {
         "price": 2.39,
         "currency": "EUR",
         "url": "https://www.selver.ee/vurtsisealiha-frank-pott-325-g",
         "size": "325g",
+        "ean": "4740215001114",
         "storeUnitPrice": 7.35,
         "storeName": "Vürtsisealiha, FRANK POTT, 325 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76938,6 +78107,15 @@
         "storeUnitPrice": 19.96,
         "storeName": "Metssealiha konserv LINNAMÄE, 240g"
       },
+      "coop": {
+        "price": 4.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/metssealiha-konserv-240g/",
+        "size": "240g",
+        "ean": "4740618000691",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740618000691.png",
+        "storeName": "Linnamäe Metssealiha konserv 240g"
+      },
       "rimi": {
         "price": 4.79,
         "currency": "EUR",
@@ -76945,9 +78123,52 @@
         "size": "240g",
         "storeUnitPrice": 19.96,
         "storeName": "Metssealiha konserv Linnamäe 240g"
+      },
+      "selver": {
+        "price": 4.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/metssea-konserv-linnamae-lihatoostus-240-g",
+        "size": "240g",
+        "ean": "4740618000691",
+        "storeUnitPrice": 19.96,
+        "storeName": "Metssea konserv, LINNAMÄE LIHATÖÖSTUS, 240 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe Reservväelaste konserv 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/reservvaelaste-konserv-linnamae-240-g",
+        "size": "240g",
+        "storeUnitPrice": 15.63,
+        "storeName": "Reservväelaste konserv LINNAMÄE 240g"
+      },
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/linnamae-reservvaelaste-konserv-240g/",
+        "size": "240g",
+        "ean": "4740618007942",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2024/05/4740618007942.png",
+        "storeName": "Reservväelaste konserv Linnamäe 240g"
+      },
+      "selver": {
+        "price": 3.75,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/reservvaelaste-konserv-linnamae-lihatoostus-240-g",
+        "size": "240g",
+        "ean": "4740618007942",
+        "storeUnitPrice": 15.63,
+        "storeName": "Reservväelaste konserv, LINNAMÄE LIHATÖÖSTUS, 240 g"
+      }
+    },
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -76961,6 +78182,15 @@
         "size": "525g",
         "storeUnitPrice": 9.12,
         "storeName": "Turistieine sealihast MINU De Lux, 525g"
+      },
+      "coop": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/minu-turistieine-sealihast-de-lux-525g/",
+        "size": "525g",
+        "ean": "4743144003976",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2023/04/4743144003976.png",
+        "storeName": "Turistieine sealihast De Lux Minu 525g"
       },
       "rimi": {
         "price": 4.79,
@@ -76999,6 +78229,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ribisnakk-snakk-pro-rakvere-lk-300-g",
         "size": "300g",
+        "ean": "4740003010977",
         "storeUnitPrice": 11.5,
         "storeName": "Ribisnäkk SNÄKK pro, RAKVERE LK, 300 g"
       }
@@ -77033,6 +78264,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/seakorvasnakid-noo-130-g",
         "size": "130g",
+        "ean": "4740574095113",
         "storeUnitPrice": 23.85,
         "storeName": "Seakõrvasnäkid, NÕO, 130 g"
       }
@@ -77070,6 +78302,15 @@
     "name": "Rakvere Toorsuitsupeekon ameerikapärane 150g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorsuitsupeekon-150g/",
+        "size": "150g",
+        "ean": "4740003009278",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003009278.jpg",
+        "storeName": "Toorsuitsupeekon ameerikapärane Rakvere 150g"
+      },
       "rimi": {
         "price": 2.85,
         "currency": "EUR",
@@ -77083,41 +78324,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ameerikaparane-toorsuitsupeekon-rakvere-lk-150-g",
         "size": "150g",
+        "ean": "4740003009278",
         "storeUnitPrice": 19.93,
         "storeName": "Ameerikapärane toorsuitsupeekon, RAKVERE LK, 150 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Tallegg Kanafileesink fit 130g",
+    "name": "Rannarootsi Ehe seasink välisfileest viil 120g",
     "category": "Ham & cold cuts",
     "prices": {
-      "rimi": {
-        "price": 1.89,
+      "coop": {
+        "price": 1.99,
         "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanafileesink-fit-tallegg-130g/p/4007664",
-        "size": "130g",
-        "storeUnitPrice": 14.54,
-        "storeName": "Kanafileesink Fit Tallegg 130g"
+        "url": "https://coophaapsalu.ee/toode/rr-ehe-seasink-valisfileest-120g-viil/",
+        "size": "120g",
+        "ean": "4740296010494",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4740296010494.jpg",
+        "storeName": "EHE Seasink välisfileest Rannarootsi 120g viil"
       },
-      "selver": {
-        "price": 1.89,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/fit-kanafileesink-tallegg-130-g",
-        "size": "130g",
-        "storeUnitPrice": 14.54,
-        "storeName": "Fit Kanafileesink, TALLEGG, 130 g"
-      }
-    },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Rannarootsi Seasink ehe välisfileest 120g",
-    "category": "Ham & cold cuts",
-    "prices": {
       "rimi": {
         "price": 1.89,
         "currency": "EUR",
@@ -77131,17 +78358,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/seasink-valisfileest-ehe-rannarootsi-120-g",
         "size": "120g",
+        "ean": "4740296010494",
         "storeUnitPrice": 14.08,
         "storeName": "Seasink välisfileest Ehe, RANNAROOTSI, 120 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Karni Kuningate sink 120g",
+    "name": "Karni S k kuningate sink viilutatud 120g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 2.25,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karni-s-k-kuningate-sink-120g-viilutatud/",
+        "size": "120g",
+        "ean": "4740579302032",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740579302032-2.png",
+        "storeName": "S/k Kuningate sink Karni 120g viilutatud"
+      },
       "rimi": {
         "price": 2.49,
         "currency": "EUR",
@@ -77155,36 +78392,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kuningate-sink-karni-120-g",
         "size": "120g",
+        "ean": "4740579302032",
         "storeUnitPrice": 20.75,
         "storeName": "Kuningate sink, KARNI, 120 g"
       }
     },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Nõo Hommikupeekon 135g",
-    "category": "Ham & cold cuts",
-    "prices": {
-      "rimi": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/hommikupeekon-noo-135g/p/258909",
-        "size": "135g",
-        "storeUnitPrice": 13.26,
-        "regularPrice": 2.55,
-        "storeName": "Hommikupeekon Nõo 135g"
-      },
-      "selver": {
-        "price": 2.65,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/hommikupeekon-noo-135-g",
-        "size": "135g",
-        "storeUnitPrice": 19.63,
-        "storeName": "Hommikupeekon, NÕO, 135 g"
-      }
-    },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -77203,6 +78416,7 @@
         "price": 11.99,
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsutatud-seavalisfilee-rakvere-lk-kg",
+        "ean": "2374627900004",
         "storeUnitPrice": 11.99,
         "storeName": "Suitsutatud seavälisfilee, RAKVERE LK, kg"
       }
@@ -77214,6 +78428,15 @@
     "name": "Rakvere Prosciutto peekon viilutatud 140g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 2.55,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-prosciutto-peekon-viilutatud-140g/",
+        "size": "140g",
+        "ean": "4740003015675",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/10/4740003015675.jpg",
+        "storeName": "Prosciutto peekon viilutatud Rakvere 140g"
+      },
       "rimi": {
         "price": 2.59,
         "currency": "EUR",
@@ -77227,62 +78450,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/prosciutto-peekon-viilutatud-rakvere-lk-140-g",
         "size": "140g",
+        "ean": "4740003015675",
         "storeUnitPrice": 18.5,
         "storeName": "Prosciutto peekon viilutatud, RAKVERE LK, 140 g"
       }
     },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Karni Broileri rinnalihasink 300g",
-    "category": "Ham & cold cuts",
-    "prices": {
-      "rimi": {
-        "price": 3.69,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/broileri-rinnalihasink-karni-300g/p/297586",
-        "size": "300g",
-        "storeUnitPrice": 12.3,
-        "storeName": "Broileri rinnalihasink Karni 300g"
-      },
-      "selver": {
-        "price": 3.69,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/broileri-rinnalihasink-karni-300-g",
-        "size": "300g",
-        "storeUnitPrice": 12.3,
-        "storeName": "Broileri rinnalihasink, KARNI, 300 g"
-      }
-    },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Nõo Kanasink fitlap 105g",
-    "category": "Ham & cold cuts",
-    "prices": {
-      "rimi": {
-        "price": 1.79,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanasink-fitlap-noo-105g/p/960660",
-        "size": "105g",
-        "storeUnitPrice": 17.05,
-        "regularPrice": 2.15,
-        "storeName": "Kanasink Fitlap Nõo 105g"
-      },
-      "selver": {
-        "price": 2.23,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kanasink-fitlap-noo-105-g",
-        "cardPrice": 1.49,
-        "cardName": "Partner",
-        "size": "105g",
-        "storeUnitPrice": 21.24,
-        "storeName": "Kanasink Fitlap, NÕO, 105 g"
-      }
-    },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -77302,6 +78475,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/suitsuliha-viilutatud-matsimoka-110-g",
         "size": "110g",
+        "ean": "4744735010625",
         "storeUnitPrice": 22.27,
         "storeName": "Suitsuliha viilutatud, MATSIMOKA, 110 g"
       }
@@ -77310,9 +78484,18 @@
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Rakvere Toorsuitsupeekon inglisepärane 150g",
+    "name": "Rakvere Inglisepärane toorsuitsupeekon viil 150g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/toorsuitsupeekon-150g-3/",
+        "size": "150g",
+        "ean": "4740003010908",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003010908.png",
+        "storeName": "Inglisepärane toorsuitsupeekon Rakvere 150g viil"
+      },
       "rimi": {
         "price": 2.89,
         "currency": "EUR",
@@ -77326,17 +78509,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/ingliseparane-toorsuitsupeekon-rakvere-lk-150-g",
         "size": "150g",
+        "ean": "4740003010908",
         "storeUnitPrice": 19.6,
         "storeName": "Inglisepärane toorsuitsupeekon, RAKVERE LK, 150 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
-    "name": "Rannarootsi Veisesink ehe välisfileest 120g",
+    "name": "Rannarootsi Ehe veisesink välisfileest viil 120g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/ehe-veisesink-120g-viil/",
+        "size": "120g",
+        "ean": "4740296010500",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296010500.png",
+        "storeName": "EHE Veisesink välisfileest Rannarootsi 120g viil"
+      },
       "rimi": {
         "price": 3.09,
         "currency": "EUR",
@@ -77350,91 +78543,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/veisesink-valisfileest-ehe-rannarootsi-120-g",
         "size": "120g",
+        "ean": "4740296010500",
         "storeUnitPrice": 26.25,
         "storeName": "Veisesink välisfileest Ehe, RANNAROOTSI, 120 g"
       }
     },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Tallegg Kanasink tilliga 130g",
-    "category": "Ham & cold cuts",
-    "prices": {
-      "rimi": {
-        "price": 1.69,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/kanasink-tilliga-tallegg-130g/p/4007665",
-        "size": "130g",
-        "storeUnitPrice": 13,
-        "storeName": "Kanasink tilliga Tallegg 130g"
-      },
-      "selver": {
-        "price": 1.72,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/kanasink-tilliga-tallegg-130-g",
-        "size": "130g",
-        "storeUnitPrice": 13.23,
-        "storeName": "Kanasink tilliga, TALLEGG, 130 g"
-      }
-    },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Maks & moorits Seavälisfilee sink 150g",
-    "category": "Ham & cold cuts",
-    "prices": {
-      "rimi": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/seavalisfilee-sink-maks-moorits-150g/p/4004797",
-        "size": "150g",
-        "storeUnitPrice": 15.93,
-        "storeName": "Seavälisfilee sink Maks&Moorits 150g"
-      },
-      "selver": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/seavalisfilee-sink-maks-moorits-150-g",
-        "size": "150g",
-        "storeUnitPrice": 15.93,
-        "storeName": "Seavälisfilee sink, MAKS&MOORITS, 150 g"
-      }
-    },
-    "matchedVia": "automatic",
-    "cheapestByUnitPrice": true
-  },
-  {
-    "name": "Maks & moorits Talusink 150g",
-    "category": "Ham & cold cuts",
-    "prices": {
-      "rimi": {
-        "price": 2.39,
-        "currency": "EUR",
-        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/talusink-maks-moorits-150g/p/999430",
-        "size": "150g",
-        "storeUnitPrice": 15.93,
-        "storeName": "Talusink Maks&Moorits 150g"
-      },
-      "selver": {
-        "price": 2.19,
-        "currency": "EUR",
-        "url": "https://www.selver.ee/talusink-maks-moorits-150-g",
-        "cardPrice": 1.69,
-        "cardName": "Partner",
-        "size": "150g",
-        "storeUnitPrice": 14.6,
-        "storeName": "Talusink, MAKS&MOORITS, 150 g"
-      }
-    },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
     "name": "Chef lunden Kodune pasteet 200g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 2.35,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lunden-kodune-pasteet-200g/",
+        "size": "200g",
+        "ean": "4740376000865",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2026/04/4740376000865.png",
+        "storeName": "Kodune pasteet Chef Lunden 200g"
+      },
       "rimi": {
         "price": 2.65,
         "currency": "EUR",
@@ -77448,17 +78577,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/kodune-pasteet-chef-lunden-200g",
         "size": "200g",
+        "ean": "4740376000865",
         "storeUnitPrice": 12.95,
         "storeName": "Kodune pasteet, CHEF LUNDEN, 200g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
     "name": "Matsimoka Sült naturaalse kallerdisega 320g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/matsimoka-sult-nat-kallerdisega-320g/",
+        "size": "320g",
+        "ean": "4744735010809",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2022/10/4744735010809.png",
+        "storeName": "Sült naturaalse kallerdisega Matsimoka 320g"
+      },
       "rimi": {
         "price": 2.99,
         "currency": "EUR",
@@ -77473,17 +78612,27 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/sult-naturaalse-kallerdisega-matsimoka-320-g",
         "size": "320g",
+        "ean": "4744735010809",
         "storeUnitPrice": 13.31,
         "storeName": "Sült naturaalse kallerdisega, MATSIMOKA, 320 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
     "name": "Frank pott Turistieine 325g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/turistieine-325g/",
+        "size": "325g",
+        "ean": "4740215001152",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740215001152.png",
+        "storeName": "Turistieine Frank Pott 325g"
+      },
       "rimi": {
         "price": 2.29,
         "currency": "EUR",
@@ -77497,11 +78646,12 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/turistieine-frank-pott-325-g",
         "size": "325g",
+        "ean": "4740215001152",
         "storeUnitPrice": 7.35,
         "storeName": "Turistieine, FRANK POTT, 325 g"
       }
     },
-    "matchedVia": "automatic",
+    "matchedVia": "ean",
     "cheapestByUnitPrice": true
   },
   {
@@ -77521,6 +78671,7 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/turistieine-rannarootsi-240-g",
         "size": "240g",
+        "ean": "4740296007135",
         "storeUnitPrice": 12.46,
         "storeName": "Turistieine, RANNAROOTSI, 240 g"
       }
@@ -77529,9 +78680,77 @@
     "cheapestByUnitPrice": true
   },
   {
+    "name": "Frank pott Kanamaksapasteet 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanamaksapasteet-240g/",
+        "size": "240g",
+        "ean": "4740215240254",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740215240254.png",
+        "storeName": "Kanamaksapasteet Frank Pott 240g"
+      },
+      "rimi": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/kanamaksapasteet-frank-pott-240g/p/4009945",
+        "size": "240g",
+        "storeUnitPrice": 8.29,
+        "storeName": "Kanamaksapasteet Frank Pott 240g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Frank pott Hautatud sealihaga konserv 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hautatud-sealiha-240g-2/",
+        "size": "240g",
+        "ean": "4740215240018",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740215240018.png",
+        "storeName": "Hautatud sealihaga konserv Frank Pott 240g"
+      },
+      "rimi": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/hautatud-sealihaga-konserv-frank-pott-240g/p/206522",
+        "size": "240g",
+        "storeUnitPrice": 7.88,
+        "storeName": "Hautatud sealihaga konserv Frank Pott 240g"
+      },
+      "selver": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hautatud-sealiha-frank-pott-240-g",
+        "size": "240g",
+        "ean": "4740215240018",
+        "storeUnitPrice": 7.46,
+        "storeName": "Hautatud sealiha, FRANK POTT, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
     "name": "Rannarootsi Hirveliha omas mahlas 240g",
     "category": "Ham & cold cuts",
     "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hirveliha-omas-mahl-240g/",
+        "size": "240g",
+        "ean": "4740296002680",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296002680-scaled.jpg",
+        "storeName": "Hirveliha omas mahlas Rannarootsi 240g"
+      },
       "rimi": {
         "price": 3.59,
         "currency": "EUR",
@@ -77545,8 +78764,717 @@
         "currency": "EUR",
         "url": "https://www.selver.ee/hirveliha-omas-mahlas-rannarootsi-240-g",
         "size": "240g",
+        "ean": "4740296002680",
         "storeUnitPrice": 15.21,
         "storeName": "Hirveliha omas mahlas, RANNAROOTSI, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Frank pott Hautatud kanalihaga konserv 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/frank-pott-hautatud-kanaliha-240g/",
+        "size": "240g",
+        "ean": "4740215240148",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/09/4740215240148.png",
+        "storeName": "Hautatud kanalihaga konserv Frank Pott 240g"
+      },
+      "rimi": {
+        "price": 2.09,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/hautatud-kanalihaga-konserv-frank-pott-240g/p/206524",
+        "size": "240g",
+        "storeUnitPrice": 8.71,
+        "storeName": "Hautatud kanalihaga konserv Frank Pott 240g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Minu Turistieine sealihast 250g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/minu-turistieine-sealihast-250g/",
+        "size": "250g",
+        "ean": "4743144000661",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/04/4743144000661-1.png",
+        "storeName": "Turistieine sealihast Minu 250g"
+      },
+      "rimi": {
+        "price": 2.05,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/muud-lihatooted/konserveeritud-lihatooted/turistieine-sealihast-minu-250g/p/4003263",
+        "size": "250g",
+        "storeUnitPrice": 8.54,
+        "storeName": "Turistieine sealihast Minu 250g"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Veise pipraliha viil 120g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 3.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karni-veise-pipraliha-120g-viil/",
+        "size": "120g",
+        "ean": "4740579300830",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740579300830.png",
+        "storeName": "Veise pipraliha Karni 120g viil"
+      },
+      "selver": {
+        "price": 4.05,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/veise-pipraliha-karni-120-g",
+        "size": "120g",
+        "ean": "4740579300830",
+        "storeUnitPrice": 33.75,
+        "storeName": "Veise pipraliha, KARNI, 120 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Maarahva suitsukülg viil 120g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.19,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-maarahva-suitsukulg-120g-viil/",
+        "size": "120g",
+        "ean": "4740296012047",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740296012047.png",
+        "storeName": "Maarahva suitsukülg Rannarootsi 120g viil"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maarahva-suitsukulg-viilutatud-rannarootsi-120-g",
+        "size": "120g",
+        "ean": "4740296012047",
+        "storeUnitPrice": 19.08,
+        "storeName": "Maarahva suitsukülg viilutatud, RANNAROOTSI, 120 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Seavälisfilee suitsusink viil 150g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suitsusink-150g-viil/",
+        "size": "150g",
+        "ean": "4740296011002",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296011002.jpg",
+        "storeName": "Seavälisfilee suitsusink Rannarootsi 150g viil"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sea-valisfilee-suitsusink-rannarootsi-150-g",
+        "size": "150g",
+        "ean": "4740296011002",
+        "storeUnitPrice": 15.27,
+        "storeName": "Sea välisfilee suitsusink, RANNAROOTSI, 150 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe lihaveise sink pipradekoor pipradekooriga 100g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lihaveise-sink-100g-viil/",
+        "size": "100g",
+        "ean": "4740618005634",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/06/4740618005634.png",
+        "storeName": "Linnamäe Lihaveise sink pipradekoor 100g"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lihaveise-sink-pipradekooriga-linnamae-lihatoostus-100-g",
+        "size": "100g",
+        "ean": "4740618005634",
+        "storeUnitPrice": 39.9,
+        "storeName": "Lihaveise sink pipradekooriga, LINNAMÄE LIHATÖÖSTUS, 100 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Suitsutatud seavälisfilee viil 130g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-suitsutatud-seavalisfilee-130g-viil/",
+        "size": "130g",
+        "ean": "4740003017709",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/03/4740003017709.png",
+        "storeName": "Suitsutatud seavälisfilee Rakvere 130g viil"
+      },
+      "selver": {
+        "price": 2.45,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsutatud-sea-valisfilee-rakvere-130-g",
+        "size": "130g",
+        "ean": "4740003017709",
+        "storeUnitPrice": 18.85,
+        "storeName": "Suitsutatud sea välisfilee, RAKVERE, 130 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Kalkunifileesink viil 170g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kalkunifileesink-170g/",
+        "size": "170g",
+        "ean": "4740171087450",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171087450.jpg",
+        "storeName": "Kalkunifileesink Maks&Moorits 170g viil"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kalkunifilee-sink-maks-moorits-170-g",
+        "size": "170g",
+        "ean": "4740171087450",
+        "storeUnitPrice": 14.65,
+        "storeName": "Kalkunifilee sink, MAKS&MOORITS, 170 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Maamehesink viil 105g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/maamehesink-105g-viil/",
+        "size": "105g",
+        "ean": "4740574380042",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574008045-2.png",
+        "storeName": "Maamehesink Nõo 105g viil"
+      },
+      "selver": {
+        "price": 2.9,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/maamehe-suitsusink-noo-105-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "105g",
+        "ean": "4740574380042",
+        "storeUnitPrice": 27.62,
+        "storeName": "Maamehe suitsusink, NÕO, 105 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Nõo Suitsutatud seakaelakarbonaad viil 135g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/suits-seakaelakarb-135g/",
+        "size": "135g",
+        "ean": "4740574008069",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740574008069-2.png",
+        "storeName": "Suitsutatud seakaelakarbonaad Nõo 135g viil"
+      },
+      "selver": {
+        "price": 2.69,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kaelakarbonaad-noo-135-g",
+        "cardPrice": 1.59,
+        "cardName": "Partner",
+        "size": "135g",
+        "ean": "4740574008069",
+        "storeUnitPrice": 19.93,
+        "storeName": "Kaelakarbonaad, NÕO, 135 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Karbonaad viil 120g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karni-karbonaad-120g-viil/",
+        "size": "120g",
+        "ean": "4740579300434",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2025/10/4740579300434.png",
+        "storeName": "Karbonaad Karni 120g viil"
+      },
+      "selver": {
+        "price": 2.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/karbonaad-karni-120-g",
+        "size": "120g",
+        "ean": "4740579300434",
+        "storeUnitPrice": 19.08,
+        "storeName": "Karbonaad, KARNI, 120 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Oskar Lõuna keedusink viil 300g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.99,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/keedusink-louna-300g/",
+        "size": "300g",
+        "ean": "4740569009514",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740569009514.png",
+        "storeName": "Lõuna keedusink Oskar 300g viil"
+      },
+      "selver": {
+        "price": 3.13,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lounasink-oskar-300-g",
+        "size": "300g",
+        "ean": "4740569009514",
+        "storeUnitPrice": 10.43,
+        "storeName": "Lõunasink, OSKAR, 300 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Maks&moorits Suitsusink õhemast õhem viil 170g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sink-ohemast-ohem-170g/",
+        "size": "170g",
+        "ean": "4740171086422",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740171086422.png",
+        "storeName": "Suitsusink õhemast-õhem Maks&Moorits 170g viil"
+      },
+      "selver": {
+        "price": 2.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsusink-ohemast-ohem-maks-moorits-170-g",
+        "size": "170g",
+        "ean": "4740171086422",
+        "storeUnitPrice": 14.65,
+        "storeName": "Suitsusink Õhemast Õhem, MAKS&MOORITS, 170 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Serrano sink viil 105g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 4.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rlk-serrano-sink-viil-105g/",
+        "size": "105g",
+        "ean": "4740003012803",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2021/03/4740003012803.png",
+        "storeName": "Serrano sink viil Rakvere 105g"
+      },
+      "selver": {
+        "price": 4.67,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/serrano-sink-rakvere-lk-105-g",
+        "size": "105g",
+        "ean": "4740003012803",
+        "storeUnitPrice": 44.48,
+        "storeName": "Serrano sink, RAKVERE LK, 105 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rakvere Küpsetatud maksapasteet rõõsa koorega 200g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kupset-maksapasteet-200g/",
+        "size": "200g",
+        "ean": "4740003011301",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740003011301.png",
+        "storeName": "Küpsetatud maksapasteet rõõsa koorega Rakvere 200g"
+      },
+      "selver": {
+        "price": 2.39,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kupsetatud-maksapasteet-roosa-koorega-rakvere-lk-200-g",
+        "size": "200g",
+        "ean": "4740003011301",
+        "storeUnitPrice": 11.95,
+        "storeName": "Küpsetatud maksapasteet rõõsa koorega, RAKVERE LK, 200 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rr vasikalihasült 330g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 3.15,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vasikalihasult-330g/",
+        "size": "330g",
+        "ean": "4740296010371",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296010371.jpg",
+        "storeName": "RR Vasikalihasült 330g"
+      },
+      "selver": {
+        "price": 3.55,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vasikalihasult-rannarootsi-330-g",
+        "size": "330g",
+        "ean": "4740296010371",
+        "storeUnitPrice": 10.76,
+        "storeName": "Vasikalihasült, RANNAROOTSI, 330 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Vasikamaksapasteet 180g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.39,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vasikamaksapasteet-180g/",
+        "size": "180g",
+        "ean": "4740296010401",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296010401.png",
+        "storeName": "Vasikamaksapasteet Rannarootsi 180g"
+      },
+      "selver": {
+        "price": 1.59,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vasikamaksapasteet-rannarootsi-180-g",
+        "size": "180g",
+        "ean": "4740296010401",
+        "storeUnitPrice": 8.83,
+        "storeName": "Vasikamaksapasteet, RANNAROOTSI, 180 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Suitsukont 1500g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/rr-suitsukont-1-5kg/",
+        "size": "1500g",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/296498.png",
+        "storeName": "Suitsukont Rannarootsi 1.5kg"
+      },
+      "selver": {
+        "price": 3.99,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/suitsukont-rannarootsi-kg",
+        "ean": "2703416000005",
+        "storeUnitPrice": 3.99,
+        "storeName": "Suitsukont, RANNAROOTSI, kg"
+      }
+    },
+    "matchedVia": "automatic",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe sealiha omas mahlas 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/sealiha-omas-mahlas-240g-2/",
+        "size": "240g",
+        "ean": "4740618005078",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740618005078.jpg",
+        "storeName": "Linnamäe sealiha omas mahlas 240g"
+      },
+      "selver": {
+        "price": 3.29,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/sealiha-omas-mahlas-linnamae-lihatoostus-240-g",
+        "size": "240g",
+        "ean": "4740618005078",
+        "storeUnitPrice": 13.71,
+        "storeName": "Sealiha omas mahlas, LINNAMÄE LIHATÖÖSTUS, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe Kana kintsuliha omas mahlas 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kana-kintsuliha-240g/",
+        "size": "240g",
+        "ean": "4740618005061",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740618005061-1.jpg",
+        "storeName": "Kana kintsuliha omas mahlas Linnamäe 240g"
+      },
+      "selver": {
+        "price": 3.49,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kana-kintsuliha-omas-mahlas-linnamae-lihatoostus-240-g",
+        "size": "240g",
+        "ean": "4740618005061",
+        "storeUnitPrice": 14.54,
+        "storeName": "Kana kintsuliha omas mahlas, LINNAMÄE LIHATÖÖSTUS, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Linnamäe Põdralihaga pasteet põdralihaga 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 3.05,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/podraliha-pasteet-240g/",
+        "size": "240g",
+        "ean": "4740618005108",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740618005108.png",
+        "storeName": "Põdralihaga pasteet Linnamäe 240g"
+      },
+      "selver": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/podralihaga-pasteet-linnamae-lihatoostus-240-g",
+        "size": "240g",
+        "ean": "4740618005108",
+        "storeUnitPrice": 12.88,
+        "storeName": "Põdralihaga pasteet, LINNAMÄE LIHATÖÖSTUS, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Liivimaa lihaveise liha omas mahlas 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 4.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/lihaveise-liha-240g/",
+        "size": "240g",
+        "ean": "4740618005658",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740618005658.png",
+        "storeName": "Liivimaa Lihaveise liha omas mahlas 240g"
+      },
+      "selver": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/lihaveise-liha-omas-mahlas-liivimaa-lihaveis-240-g",
+        "size": "240g",
+        "ean": "4740618005658",
+        "storeUnitPrice": 17.46,
+        "storeName": "Lihaveise liha omas mahlas, LIIVIMAA LIHAVEIS, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Liivimaa lv vürtsikas lihaveise liha laktoosivaba 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 4.45,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/vurtsikas-veiseliha-240g/",
+        "size": "240g",
+        "ean": "4740618005641",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/05/4740618005641.png",
+        "storeName": "Liivimaa LV Vürtsikas lihaveise liha240g"
+      },
+      "selver": {
+        "price": 4.19,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/vurtsikas-lihaveise-liha-liivimaa-lihaveis-240-g",
+        "size": "240g",
+        "ean": "4740618005641",
+        "storeUnitPrice": 17.46,
+        "storeName": "Vürtsikas lihaveise liha, LIIVIMAA LIHAVEIS, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Frank pott Hautatud veiselihaga konserv 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.79,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/hautatud-veiseliha-240g/",
+        "size": "240g",
+        "ean": "4740215240025",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740215240025.png",
+        "storeName": "Hautatud veiselihaga konserv Frank Pott 240g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/hautatud-veiselihaga-konserv-frank-pott-240-g",
+        "size": "240g",
+        "ean": "4740215240025",
+        "storeUnitPrice": 7.88,
+        "storeName": "Hautatud veiselihaga konserv, FRANK POTT, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Rannarootsi Kanaliha omas mahlas 240g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 2.85,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/kanaliha-omasmahlas-240g/",
+        "size": "240g",
+        "ean": "4740296002611",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/04/4740296002611.jpg",
+        "storeName": "Kanaliha omas mahlas Rannarootsi 240g"
+      },
+      "selver": {
+        "price": 3.09,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/kanaliha-omas-mahlas-rannarootsi-240-g",
+        "size": "240g",
+        "ean": "4740296002611",
+        "storeUnitPrice": 12.88,
+        "storeName": "Kanaliha omas mahlas, RANNAROOTSI, 240 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Karni Pasteet 170g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "coop": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://coophaapsalu.ee/toode/karni-pasteet-170g/",
+        "size": "170g",
+        "ean": "4740579901617",
+        "image": "https://coophaapsalu.ee/wp-content/uploads/2020/10/4740579901617-1.png",
+        "storeName": "Pasteet Karni 170g"
+      },
+      "selver": {
+        "price": 1.89,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/pasteet-karni-karni-170-g",
+        "size": "170g",
+        "ean": "4740579901617",
+        "storeUnitPrice": 11.12,
+        "storeName": "Pasteet Karni, KARNI, 170 g"
+      }
+    },
+    "matchedVia": "ean",
+    "cheapestByUnitPrice": true
+  },
+  {
+    "name": "Tallegg Delikatessrulaad 500g",
+    "category": "Ham & cold cuts",
+    "prices": {
+      "barbora": {
+        "price": 6.79,
+        "currency": "EUR",
+        "url": "https://barbora.ee/toode/delikatessrulaad-tallegg-500-g",
+        "size": "500g",
+        "storeUnitPrice": 13.58,
+        "storeName": "Delikatessrulaad TALLEGG, 500g"
+      },
+      "rimi": {
+        "price": 6.79,
+        "currency": "EUR",
+        "url": "https://www.rimi.ee/epood/ee/tooted/liha--ja-kalatooted/sink-peekon-vinnutatud-lihatooted/sink-peekon/delikatessrulaad-tallegg-500g/p/912505",
+        "size": "500g",
+        "storeUnitPrice": 13.58,
+        "storeName": "Delikatessrulaad Tallegg 500g"
+      },
+      "selver": {
+        "price": 2.84,
+        "currency": "EUR",
+        "url": "https://www.selver.ee/delikatessrulaad-tallegg-130-g",
+        "size": "130g",
+        "storeUnitPrice": 21.85,
+        "storeName": "Delikatessrulaad, TALLEGG, 130 g"
       }
     },
     "matchedVia": "automatic",
